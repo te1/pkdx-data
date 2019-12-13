@@ -1,0 +1,55 @@
+{
+  "id": 1031,
+  "name": "cosmoem",
+  "caption": "Cosmoem",
+  "types": [
+    "psychic"
+  ],
+  "num": 790,
+  "baseStats": {
+    "atk": 29,
+    "def": 131,
+    "hp": 43,
+    "spa": 29,
+    "spd": 131,
+    "spe": 37
+  },
+  "abilities": {
+    "1": "sturdy"
+  },
+  "evos": [
+    "solgaleo",
+    "lunala"
+  ],
+  "prevo": "cosmog",
+  "height": 0.1,
+  "weight": 999.9,
+  "learnset": [
+    {
+      "how": [
+        "8M",
+        "8L0",
+        "8L1"
+      ],
+      "what": "cosmic-power"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "teleport"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "teleport"
+    }
+  ]
+}

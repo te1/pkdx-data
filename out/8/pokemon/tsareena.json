@@ -1,0 +1,814 @@
+{
+  "id": 985,
+  "name": "tsareena",
+  "caption": "Tsareena",
+  "types": [
+    "grass"
+  ],
+  "num": 763,
+  "baseStats": {
+    "atk": 120,
+    "def": 98,
+    "hp": 72,
+    "spa": 50,
+    "spd": 98,
+    "spe": 72
+  },
+  "abilities": {
+    "1": "leaf-guard",
+    "2": "queenly-majesty",
+    "H": "sweet-veil"
+  },
+  "prevo": "steenee",
+  "height": 1.2,
+  "weight": 21.4,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8L46"
+      ],
+      "what": "aromatherapy"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "aromatic-mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8L58"
+      ],
+      "what": "high-jump kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L52"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-sweep"
+    },
+    {
+      "how": [
+        "8M",
+        "8L22"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "play-nice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "power-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-blade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "stomp"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8L34"
+      ],
+      "what": "teeter-dance"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "trop-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8L46"
+      ],
+      "what": "aromatherapy"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "aromatic-mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L52"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-sweep"
+    },
+    {
+      "how": [
+        "8M",
+        "8L22"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "play-nice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "stomp"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8L34"
+      ],
+      "what": "teeter-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "acupressure"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "aromatherapy"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "aromatic-mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "play-nice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "teeter-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    }
+  ]
+}

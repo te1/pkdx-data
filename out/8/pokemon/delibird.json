@@ -1,0 +1,339 @@
+{
+  "id": 228,
+  "name": "delibird",
+  "caption": "Delibird",
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "num": 225,
+  "baseStats": {
+    "atk": 55,
+    "def": 45,
+    "hp": 45,
+    "spa": 65,
+    "spd": 45,
+    "spe": 75
+  },
+  "abilities": {
+    "1": "vital-spirit",
+    "2": "hustle",
+    "H": "insomnia"
+  },
+  "height": 0.9,
+  "weight": 16,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "aurora-beam"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "aurora-veil"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brave-bird"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "destiny-bond"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "drill-peck"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "drill-run"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "fake-out"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "freeze-dry"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "future-sight"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-punch"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "ice-shard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "memento"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "present"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    }
+  ]
+}

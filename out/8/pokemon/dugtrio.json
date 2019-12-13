@@ -1,0 +1,586 @@
+{
+  "id": 50,
+  "name": "dugtrio",
+  "caption": "Dugtrio",
+  "types": [
+    "ground"
+  ],
+  "num": 51,
+  "baseStats": {
+    "atk": 100,
+    "def": 50,
+    "hp": 35,
+    "spa": 50,
+    "spd": 70,
+    "spe": 120
+  },
+  "abilities": {
+    "1": "sand-veil",
+    "2": "arena-trap",
+    "H": "sand-force"
+  },
+  "prevo": "diglett",
+  "height": 0.7,
+  "weight": 33.3,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "beat-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L54"
+      ],
+      "what": "fissure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "high-horsepower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L0",
+        "8L1"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "scratch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-claw"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "beat-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "final-gambit"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "fissure"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "hone-claws"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "memento"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "scratch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-claw"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    }
+  ]
+}

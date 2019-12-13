@@ -1,0 +1,512 @@
+{
+  "id": 1124,
+  "name": "carkol",
+  "caption": "Carkol",
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "num": 838,
+  "baseStats": {
+    "atk": 60,
+    "def": 90,
+    "hp": 80,
+    "spa": 60,
+    "spd": 70,
+    "spe": 50
+  },
+  "abilities": {
+    "1": "steam-engine",
+    "2": "flame-body",
+    "H": "flash-fire"
+  },
+  "evos": [
+    "coalossal"
+  ],
+  "prevo": "rolycoly",
+  "height": 1.1,
+  "weight": 78,
+  "learnset": [
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-press"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "burn-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-spin"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flare-blitz"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "8L41"
+      ],
+      "what": "heat-crash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heavy-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "high-horsepower"
+    },
+    {
+      "how": [
+        "8L27"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "rock-polish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "smack-down"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "smokescreen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "block"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "explosion"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "heat-crash"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "rock-polish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "smack-down"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "smokescreen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "will-o-wisp"
+    }
+  ]
+}

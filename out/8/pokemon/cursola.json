@@ -1,0 +1,822 @@
+{
+  "id": 1161,
+  "name": "cursola",
+  "caption": "Cursola",
+  "types": [
+    "ghost"
+  ],
+  "num": 864,
+  "baseStats": {
+    "atk": 95,
+    "def": 50,
+    "hp": 60,
+    "spa": 145,
+    "spd": 130,
+    "spe": 30
+  },
+  "abilities": {
+    "1": "weak-armor",
+    "H": "perish-body"
+  },
+  "prevo": "corsola-galar",
+  "height": 1,
+  "weight": 0.4,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "disable"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L50"
+      ],
+      "what": "grudge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "liquidation"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8L45"
+      ],
+      "what": "night-shade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "perish-song"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pin-missile"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "power-gem"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "spite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "strength-sap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "confuse-ray"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "destiny-bond"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "disable"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8L50"
+      ],
+      "what": "grudge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "haze"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "head-smash"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "liquidation"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "nature-power"
+    },
+    {
+      "how": [
+        "8L45"
+      ],
+      "what": "night-shade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "power-gem"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "spite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "strength-sap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "will-o-wisp"
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "id": 1009,
+  "name": "silvally-psychic",
+  "caption": "Silvally-Psychic",
+  "types": [
+    "psychic"
+  ],
+  "num": 773,
+  "baseStats": {
+    "atk": 95,
+    "def": 95,
+    "hp": 95,
+    "spa": 95,
+    "spd": 95,
+    "spe": 95
+  },
+  "abilities": {
+    "1": "rks-system"
+  },
+  "prevo": "type:-null",
+  "height": 2.3,
+  "weight": 100.5,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "crush-claw"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "double-hit"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "draco-meteor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dragon-claw"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "explosion"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flash-cannon"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "grass-pledge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "ice-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "metal-sound"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "multi-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8L60"
+      ],
+      "what": "parting-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "poison-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-fangs"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-claw"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L50"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "x-scissor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "crush-claw"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "double-hit"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dragon-claw"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45",
+        "8S2"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "metal-sound"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L10"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-claw"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L50",
+        "8S2"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35",
+        "8S2"
+      ],
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "8S2"
+      ],
+      "what": "x-scissor"
+    }
+  ]
+}

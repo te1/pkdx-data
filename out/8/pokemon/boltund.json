@@ -1,0 +1,509 @@
+{
+  "id": 1122,
+  "name": "boltund",
+  "caption": "Boltund",
+  "types": [
+    "electric"
+  ],
+  "num": 836,
+  "baseStats": {
+    "atk": 90,
+    "def": 60,
+    "hp": 69,
+    "spa": 90,
+    "spd": 60,
+    "spe": 121
+  },
+  "abilities": {
+    "1": "strong-jaw",
+    "H": "competitive"
+  },
+  "prevo": "yamper",
+  "height": 1,
+  "weight": 34,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulk-up"
+    },
+    {
+      "how": [
+        "8L41"
+      ],
+      "what": "charge"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L34"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "eerie-impulse"
+    },
+    {
+      "how": [
+        "8M",
+        "8L62"
+      ],
+      "what": "electric-terrain"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "electrify"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "nuzzle"
+    },
+    {
+      "how": [
+        "8M",
+        "8L55"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-fangs"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "roar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "spark"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "volt-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48"
+      ],
+      "what": "wild-charge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "charge"
+    },
+    {
+      "how": [
+        "8M",
+        "8L26"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "discharge"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "howl"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "nuzzle"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "roar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "spark"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "volt-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "wild-charge"
+    }
+  ]
+}

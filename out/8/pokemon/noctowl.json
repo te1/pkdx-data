@@ -1,0 +1,622 @@
+{
+  "id": 174,
+  "name": "noctowl",
+  "caption": "Noctowl",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "num": 164,
+  "baseStats": {
+    "atk": 50,
+    "def": 50,
+    "hp": 100,
+    "spa": 86,
+    "spd": 96,
+    "spe": 70
+  },
+  "abilities": {
+    "1": "insomnia",
+    "2": "keen-eye",
+    "H": "tinted-lens"
+  },
+  "prevo": "hoothoot",
+  "height": 1.6,
+  "weight": 40.8,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "8L18"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "confusion"
+    },
+    {
+      "how": [
+        "8L53"
+      ],
+      "what": "dream-eater"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "echoed-voice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L23"
+      ],
+      "what": "extrasensory"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "future-sight"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hurricane"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "hypnosis"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8L43"
+      ],
+      "what": "moonblast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "psycho-shift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L38"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sky-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M",
+        "8L33"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "8L18"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "confusion"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "8L39"
+      ],
+      "what": "dream-eater"
+    },
+    {
+      "how": [
+        "8L6"
+      ],
+      "what": "echoed-voice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "extrasensory"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "feather-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hurricane"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "hypnosis"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8L33"
+      ],
+      "what": "moonblast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "night-shade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "psycho-shift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "supersonic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L3"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M",
+        "8L27"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "whirlwind"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "wing-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    }
+  ]
+}

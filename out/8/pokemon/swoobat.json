@@ -1,0 +1,740 @@
+{
+  "id": 611,
+  "name": "swoobat",
+  "caption": "Swoobat",
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "num": 528,
+  "baseStats": {
+    "atk": 57,
+    "def": 55,
+    "hp": 67,
+    "spa": 77,
+    "spd": 55,
+    "spe": 114
+  },
+  "abilities": {
+    "1": "unaware",
+    "2": "klutz",
+    "H": "simple"
+  },
+  "prevo": "woobat",
+  "height": 0.9,
+  "weight": 10.5,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "air-cutter"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "confusion"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50"
+      ],
+      "what": "future-sight"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "gust"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-fangs"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psycho-cut"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psyshock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "simple-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "speed-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "air-cutter"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "confusion"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "flatter"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50"
+      ],
+      "what": "future-sight"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "gust"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psycho-cut"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "psycho-shift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psyshock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "simple-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "speed-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "supersonic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    }
+  ]
+}

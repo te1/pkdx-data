@@ -1,0 +1,509 @@
+{
+  "id": 1113,
+  "name": "thievul",
+  "caption": "Thievul",
+  "types": [
+    "dark"
+  ],
+  "num": 828,
+  "baseStats": {
+    "atk": 58,
+    "def": 58,
+    "hp": 70,
+    "spa": 87,
+    "spd": 92,
+    "spe": 90
+  },
+  "abilities": {
+    "1": "run-away",
+    "2": "unburden",
+    "H": "stakeout"
+  },
+  "prevo": "nickit",
+  "height": 1.2,
+  "weight": 19.9,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "beat-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8M",
+        "8L46"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "hone-claws"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "8L22"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8L34"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8L52"
+      ],
+      "what": "parting-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-claw"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "tail-slap"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "8L0",
+        "8L1"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M",
+        "8L4"
+      ],
+      "what": "beat-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "hone-claws"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "howl"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "quick-guard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32"
+      ],
+      "what": "tail-slap"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "torment"
+    }
+  ]
+}

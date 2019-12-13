@@ -1,0 +1,466 @@
+{
+  "id": 258,
+  "name": "mawile",
+  "caption": "Mawile",
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "num": 303,
+  "baseStats": {
+    "atk": 85,
+    "def": 85,
+    "hp": 50,
+    "spa": 55,
+    "spd": 55,
+    "spe": 50
+  },
+  "abilities": {
+    "1": "hyper-cutter",
+    "2": "intimidate",
+    "H": "sheer-force"
+  },
+  "height": 0.6,
+  "weight": 11.5,
+  "learnset": [
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "8L8"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "fairy-wind"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flash-cannon"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "guard-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "misty-terrain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "power-up-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-fangs"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "seismic-toss"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "spit-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-beam"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "swallow"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-punch"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "tickle"
+    }
+  ]
+}

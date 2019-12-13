@@ -1,0 +1,429 @@
+{
+  "id": 176,
+  "name": "qwilfish",
+  "caption": "Qwilfish",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "num": 211,
+  "baseStats": {
+    "atk": 95,
+    "def": 85,
+    "hp": 65,
+    "spa": 55,
+    "spd": 55,
+    "spe": 85
+  },
+  "abilities": {
+    "1": "poison-point",
+    "2": "swift-swim",
+    "H": "intimidate"
+  },
+  "height": 0.5,
+  "weight": 3.9,
+  "learnset": [
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "acid-spray"
+    },
+    {
+      "how": [
+        "8L60"
+      ],
+      "what": "acupressure"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "aqua-jet"
+    },
+    {
+      "how": [
+        "8L56"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "bubble-beam"
+    },
+    {
+      "how": [
+        "8L66"
+      ],
+      "what": "destiny-bond"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "fell-stinger"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "haze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "liquidation"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "minimize"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32"
+      ],
+      "what": "pin-missile"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "poison-sting"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "spit-up"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "supersonic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8L52"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    }
+  ]
+}

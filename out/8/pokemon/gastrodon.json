@@ -1,0 +1,576 @@
+{
+  "id": 456,
+  "name": "gastrodon",
+  "caption": "Gastrodon",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "num": 423,
+  "baseStats": {
+    "atk": 83,
+    "def": 68,
+    "hp": 111,
+    "spa": 92,
+    "spd": 82,
+    "spe": 39
+  },
+  "abilities": {
+    "1": "sticky-hold",
+    "2": "storm-drain",
+    "H": "sand-force"
+  },
+  "prevo": "shellos",
+  "height": 0.9,
+  "weight": 29.9,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8M",
+        "8L39"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8L53"
+      ],
+      "what": "memento"
+    },
+    {
+      "how": [
+        "8M",
+        "8L33"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L46"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "recover"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "acid-armor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "clear-smog"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8L45"
+      ],
+      "what": "memento"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8M",
+        "8L31"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "recover"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sludge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "spit-up"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "swallow"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "yawn"
+    }
+  ]
+}

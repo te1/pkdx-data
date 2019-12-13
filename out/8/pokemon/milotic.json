@@ -1,0 +1,572 @@
+{
+  "id": 251,
+  "name": "milotic",
+  "caption": "Milotic",
+  "types": [
+    "water"
+  ],
+  "num": 350,
+  "baseStats": {
+    "atk": 60,
+    "def": 79,
+    "hp": 95,
+    "spa": 100,
+    "spd": 125,
+    "spe": 81
+  },
+  "abilities": {
+    "1": "marvel-scale",
+    "2": "competitive"
+  },
+  "prevo": "feebas",
+  "height": 6.2,
+  "weight": 162,
+  "learnset": [
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "aqua-ring"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "breaking-swipe"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "coil"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "disarming-voice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dragon-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "dragon-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L52"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "life-dew"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "recover"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "twister"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "wrap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "confuse-ray"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "dragon-breath"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "haze"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "hypnosis"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "tickle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    }
+  ]
+}

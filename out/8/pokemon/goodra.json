@@ -1,0 +1,777 @@
+{
+  "id": 873,
+  "name": "goodra",
+  "caption": "Goodra",
+  "types": [
+    "dragon"
+  ],
+  "num": 706,
+  "baseStats": {
+    "atk": 100,
+    "def": 70,
+    "hp": 90,
+    "spa": 110,
+    "spd": 150,
+    "spe": 80
+  },
+  "abilities": {
+    "1": "sap-sipper",
+    "2": "hydration",
+    "H": "gooey"
+  },
+  "prevo": "sliggoo",
+  "height": 2,
+  "weight": 150.5,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "acid-spray"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-press"
+    },
+    {
+      "how": [
+        "8M",
+        "8L49"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "breaking-swipe"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8L43"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "draco-meteor"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "dragon-breath"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "feint"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-punch"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L58"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "poison-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L67"
+      ],
+      "what": "power-whip"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "superpower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tearful-look"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-punch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "acid-spray"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L49"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8L43"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "draco-meteor"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "dragon-breath"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L56"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8L41"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "draco-meteor"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "dragon-breath"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "life-dew"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "water-pulse"
+    }
+  ]
+}

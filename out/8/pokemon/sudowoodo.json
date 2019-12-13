@@ -1,0 +1,649 @@
+{
+  "id": 194,
+  "name": "sudowoodo",
+  "caption": "Sudowoodo",
+  "types": [
+    "rock"
+  ],
+  "num": 185,
+  "baseStats": {
+    "atk": 100,
+    "def": 115,
+    "hp": 70,
+    "spa": 30,
+    "spd": 65,
+    "spe": 30
+  },
+  "abilities": {
+    "1": "sturdy",
+    "2": "rock-head",
+    "H": "rattled"
+  },
+  "prevo": "bonsly",
+  "height": 1.2,
+  "weight": 38,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "block"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-press"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "copycat"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-punch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "hammer-arm"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "head-smash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "low-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "rock-polish"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "rock-throw"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "tearful-look"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "wood-hammer"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "block"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "copycat"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "low-kick"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "rock-polish"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "rock-throw"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "tearful-look"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    }
+  ]
+}

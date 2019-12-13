@@ -1,0 +1,39 @@
+{
+  "id": 1030,
+  "name": "cosmog",
+  "caption": "Cosmog",
+  "types": [
+    "psychic"
+  ],
+  "num": 789,
+  "baseStats": {
+    "atk": 29,
+    "def": 31,
+    "hp": 43,
+    "spa": 29,
+    "spd": 31,
+    "spe": 37
+  },
+  "abilities": {
+    "1": "unaware"
+  },
+  "evos": [
+    "cosmoem"
+  ],
+  "height": 0.2,
+  "weight": 0.1,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "teleport"
+    }
+  ]
+}

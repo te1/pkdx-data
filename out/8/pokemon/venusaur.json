@@ -1,0 +1,952 @@
+{
+  "id": 2,
+  "name": "venusaur",
+  "caption": "Venusaur",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "num": 3,
+  "baseStats": {
+    "atk": 82,
+    "def": 83,
+    "hp": 80,
+    "spa": 100,
+    "spd": 100,
+    "spe": 80
+  },
+  "abilities": {
+    "1": "overgrow",
+    "H": "chlorophyll"
+  },
+  "prevo": "ivysaur",
+  "height": 2,
+  "weight": 100,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bullet-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8L51"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "grass-pledge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grassy-terrain"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growth"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "leech-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "petal-blizzard"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "petal-dance"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "poison-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "power-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "sleep-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8L58"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L37"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "vine-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "worry-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bullet-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8L45"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "grass-pledge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grassy-terrain"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growth"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "leech-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "poison-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "power-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "sleep-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "vine-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "worry-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bullet-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8L33"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "grass-pledge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grassy-terrain"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8L6"
+      ],
+      "what": "growth"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "ingrain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "leech-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "nature-power"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "petal-dance"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "poison-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "power-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L18"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "skull-bash"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "sleep-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L27"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8L3"
+      ],
+      "what": "vine-whip"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "worry-seed"
+    }
+  ]
+}

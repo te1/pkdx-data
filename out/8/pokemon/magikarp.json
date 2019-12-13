@@ -1,0 +1,58 @@
+{
+  "id": 128,
+  "name": "magikarp",
+  "caption": "Magikarp",
+  "types": [
+    "water"
+  ],
+  "num": 129,
+  "baseStats": {
+    "atk": 10,
+    "def": 55,
+    "hp": 20,
+    "spa": 15,
+    "spd": 20,
+    "spe": 80
+  },
+  "abilities": {
+    "1": "swift-swim",
+    "H": "rattled"
+  },
+  "evos": [
+    "gyarados"
+  ],
+  "height": 0.9,
+  "weight": 10,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "tackle"
+    }
+  ]
+}

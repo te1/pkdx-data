@@ -1,0 +1,406 @@
+{
+  "id": 1171,
+  "name": "frosmoth",
+  "caption": "Frosmoth",
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "num": 873,
+  "baseStats": {
+    "atk": 65,
+    "def": 60,
+    "hp": 70,
+    "spa": 125,
+    "spd": 90,
+    "spe": 65
+  },
+  "abilities": {
+    "1": "shield-dust",
+    "H": "ice-scales"
+  },
+  "prevo": "snom",
+  "height": 1.3,
+  "weight": 42,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "aurora-beam"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "aurora-veil"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "feather-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hurricane"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M",
+        "8L0",
+        "8L1"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "powder-snow"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L52"
+      ],
+      "what": "quiver-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "stun-spore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "wide-guard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "fairy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "powder-snow"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    }
+  ]
+}

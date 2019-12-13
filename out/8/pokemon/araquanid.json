@@ -1,0 +1,531 @@
+{
+  "id": 971,
+  "name": "araquanid",
+  "caption": "Araquanid",
+  "types": [
+    "water",
+    "bug"
+  ],
+  "num": 752,
+  "baseStats": {
+    "atk": 70,
+    "def": 92,
+    "hp": 68,
+    "spa": 50,
+    "spd": 132,
+    "spe": 42
+  },
+  "abilities": {
+    "1": "water-bubble",
+    "H": "water-absorb"
+  },
+  "prevo": "dewpider",
+  "height": 1.8,
+  "weight": 82,
+  "learnset": [
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "aqua-ring"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "bubble-beam"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M",
+        "8L26"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L38"
+      ],
+      "what": "entrainment"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L56"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50"
+      ],
+      "what": "liquidation"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "lunge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magic-room"
+    },
+    {
+      "how": [
+        "8L62"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "soak"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "wide-guard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "wonder-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "x-scissor"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "aqua-ring"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "bubble-beam"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "entrainment"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8L20"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "liquidation"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "lunge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magic-room"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "power-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "soak"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "spit-up"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sticky-web"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "wonder-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "x-scissor"
+    }
+  ]
+}

@@ -1,0 +1,682 @@
+{
+  "id": 583,
+  "name": "vanilluxe",
+  "caption": "Vanilluxe",
+  "types": [
+    "ice"
+  ],
+  "num": 584,
+  "baseStats": {
+    "atk": 95,
+    "def": 85,
+    "hp": 71,
+    "spa": 110,
+    "spd": 95,
+    "spe": 79
+  },
+  "abilities": {
+    "1": "ice-body",
+    "2": "snow-warning",
+    "H": "weak-armor"
+  },
+  "prevo": "vanillish",
+  "height": 1.3,
+  "weight": 57.5,
+  "learnset": [
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "acid-armor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "beat-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8L52"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flash-cannon"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "freeze-dry"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "icicle-crash"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8L38"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8L60"
+      ],
+      "what": "sheer-cold"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "acid-armor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flash-cannon"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8L38"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8L56"
+      ],
+      "what": "sheer-cold"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "acid-armor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "aurora-veil"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "autotomize"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "explosion"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flash-cannon"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "ice-shard"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "icicle-crash"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "magnet-rise"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "sheer-cold"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "8L4"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "uproar"
+    }
+  ]
+}

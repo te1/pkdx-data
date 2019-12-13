@@ -1,0 +1,571 @@
+{
+  "id": 571,
+  "name": "lampent",
+  "caption": "Lampent",
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "num": 608,
+  "baseStats": {
+    "atk": 40,
+    "def": 60,
+    "hp": 60,
+    "spa": 95,
+    "spd": 60,
+    "spe": 55
+  },
+  "abilities": {
+    "1": "flash-fire",
+    "2": "flame-body",
+    "H": "infiltrator"
+  },
+  "evos": [
+    "chandelure"
+  ],
+  "prevo": "litwick",
+  "height": 0.6,
+  "weight": 13,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "confuse-ray"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "fire-spin"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "8M",
+        "8L46"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "inferno"
+    },
+    {
+      "how": [
+        "8L64"
+      ],
+      "what": "memento"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "minimize"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mystical-fire"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "night-shade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L58"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8L52"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "smog"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "acid-armor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "clear-smog"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "confuse-ray"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "fire-spin"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "haze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "inferno"
+    },
+    {
+      "how": [
+        "8L56"
+      ],
+      "what": "memento"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "minimize"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mystical-fire"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "night-shade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L52"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "power-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "smog"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "will-o-wisp"
+    }
+  ]
+}

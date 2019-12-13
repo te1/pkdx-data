@@ -1,0 +1,478 @@
+{
+  "id": 1115,
+  "name": "eldegoss",
+  "caption": "Eldegoss",
+  "types": [
+    "grass"
+  ],
+  "num": 830,
+  "baseStats": {
+    "atk": 50,
+    "def": 90,
+    "hp": 60,
+    "spa": 80,
+    "spd": 120,
+    "spe": 60
+  },
+  "abilities": {
+    "1": "cotton-down",
+    "2": "regenerator",
+    "H": "effect-spore"
+  },
+  "prevo": "gossifleur",
+  "height": 0.5,
+  "weight": 2.5,
+  "learnset": [
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "aromatherapy"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bullet-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8L52"
+      ],
+      "what": "cotton-guard"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "cotton-spore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grassy-terrain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L34"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "leafage"
+    },
+    {
+      "how": [
+        "8M",
+        "8L46"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L23"
+      ],
+      "what": "leaf-tornado"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pollen-puff"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "aromatherapy"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bullet-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grassy-terrain"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "growth"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "leafage"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "leaf-tornado"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "leech-seed"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "poison-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pollen-puff"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "razor-leaf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sing"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sleep-powder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "stun-spore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "worry-seed"
+    }
+  ]
+}

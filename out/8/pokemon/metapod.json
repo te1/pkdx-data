@@ -1,0 +1,71 @@
+{
+  "id": 10,
+  "name": "metapod",
+  "caption": "Metapod",
+  "types": [
+    "bug"
+  ],
+  "num": 11,
+  "baseStats": {
+    "atk": 20,
+    "def": 55,
+    "hp": 50,
+    "spa": 25,
+    "spd": 25,
+    "spe": 30
+  },
+  "abilities": {
+    "1": "shed-skin"
+  },
+  "evos": [
+    "butterfree"
+  ],
+  "prevo": "caterpie",
+  "height": 0.7,
+  "weight": 9.9,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electroweb"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electroweb"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "string-shot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "id": 1162,
+  "name": "sirfetch-d",
+  "caption": "Sirfetch'd",
+  "types": [
+    "fighting"
+  ],
+  "num": 865,
+  "baseStats": {
+    "atk": 135,
+    "def": 95,
+    "hp": 62,
+    "spa": 68,
+    "spd": 82,
+    "spe": 65
+  },
+  "abilities": {
+    "1": "steadfast",
+    "H": "scrappy"
+  },
+  "prevo": "farfetch-d-galar",
+  "height": 0.8,
+  "weight": 117,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L65"
+      ],
+      "what": "brave-bird"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "close-combat"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "detect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L60"
+      ],
+      "what": "final-gambit"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "first-impression"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L0",
+        "8L1"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "8M",
+        "8L55"
+      ],
+      "what": "leaf-blade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "leer"
+    },
+    {
+      "how": [
+        "8L70"
+      ],
+      "what": "meteor-assault"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "retaliate"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8L50"
+      ],
+      "what": "slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-blade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "superpower"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L65"
+      ],
+      "what": "brave-bird"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "close-combat"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "detect"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "feint"
+    },
+    {
+      "how": [
+        "8L60"
+      ],
+      "what": "final-gambit"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "8M",
+        "8L55"
+      ],
+      "what": "leaf-blade"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "leer"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "quick-guard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "retaliate"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "simple-beam"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sky-attack"
+    },
+    {
+      "how": [
+        "8L50"
+      ],
+      "what": "slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-blade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "superpower"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 1108,
+  "name": "blipbug",
+  "caption": "Blipbug",
+  "types": [
+    "bug"
+  ],
+  "num": 824,
+  "baseStats": {
+    "atk": 20,
+    "def": 20,
+    "hp": 25,
+    "spa": 25,
+    "spd": 45,
+    "spe": 45
+  },
+  "abilities": {
+    "1": "swarm",
+    "2": "compound-eyes",
+    "H": "telepathy"
+  },
+  "evos": [
+    "dottler"
+  ],
+  "height": 0.4,
+  "weight": 8,
+  "learnset": [
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "recover"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sticky-web"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "supersonic"
+    }
+  ]
+}

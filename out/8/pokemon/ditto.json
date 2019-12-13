@@ -1,0 +1,31 @@
+{
+  "id": 131,
+  "name": "ditto",
+  "caption": "Ditto",
+  "types": [
+    "normal"
+  ],
+  "num": 132,
+  "baseStats": {
+    "atk": 48,
+    "def": 48,
+    "hp": 48,
+    "spa": 48,
+    "spd": 48,
+    "spe": 48
+  },
+  "abilities": {
+    "1": "limber",
+    "H": "imposter"
+  },
+  "height": 0.3,
+  "weight": 4,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "transform"
+    }
+  ]
+}

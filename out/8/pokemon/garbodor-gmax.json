@@ -1,0 +1,628 @@
+{
+  "id": 1090,
+  "name": "garbodor-gmax",
+  "caption": "Garbodor-Gmax",
+  "types": [
+    "poison"
+  ],
+  "num": 569,
+  "isBattleOnly": true,
+  "altBattleFormes": [
+    "garbodor"
+  ],
+  "baseStats": {
+    "atk": 95,
+    "def": 82,
+    "hp": 80,
+    "spa": 60,
+    "spd": 82,
+    "spe": 75
+  },
+  "abilities": {
+    "1": "stench",
+    "2": "weak-armor",
+    "H": "aftermath"
+  },
+  "prevo": "trubbish",
+  "height": 0,
+  "weight": 0,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "acid-spray"
+    },
+    {
+      "how": [
+        "8M",
+        "8L9"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L33"
+      ],
+      "what": "belch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-press"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "clear-smog"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "cross-poison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "drain-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "explosion"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "8L43"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "metal-claw"
+    },
+    {
+      "how": [
+        "8L39"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "poison-gas"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "pound"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8L18"
+      ],
+      "what": "sludge"
+    },
+    {
+      "how": [
+        "8M",
+        "8L27"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "swallow"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8L6"
+      ],
+      "what": "acid-spray"
+    },
+    {
+      "how": [
+        "8M",
+        "8L9"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "autotomize"
+    },
+    {
+      "how": [
+        "8L33"
+      ],
+      "what": "belch"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "clear-smog"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "drain-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L42"
+      ],
+      "what": "explosion"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M",
+        "8L39"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "haze"
+    },
+    {
+      "how": [
+        "8L37"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "poison-gas"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "pound"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8L3"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8L18"
+      ],
+      "what": "sludge"
+    },
+    {
+      "how": [
+        "8M",
+        "8L27"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "swallow"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    }
+  ]
+}

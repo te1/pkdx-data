@@ -1,0 +1,65 @@
+{
+  "id": 448,
+  "name": "combee",
+  "caption": "Combee",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "num": 415,
+  "baseStats": {
+    "atk": 30,
+    "def": 42,
+    "hp": 30,
+    "spa": 30,
+    "spd": 42,
+    "spe": 70
+  },
+  "abilities": {
+    "1": "honey-gather",
+    "H": "hustle"
+  },
+  "evos": [
+    "vespiquen"
+  ],
+  "height": 0.3,
+  "weight": 5.5,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "gust"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sweet-scent"
+    }
+  ]
+}

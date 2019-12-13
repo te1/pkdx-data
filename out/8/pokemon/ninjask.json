@@ -1,0 +1,483 @@
+{
+  "id": 315,
+  "name": "ninjask",
+  "caption": "Ninjask",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "num": 291,
+  "baseStats": {
+    "atk": 90,
+    "def": 45,
+    "hp": 61,
+    "spa": 50,
+    "spd": 50,
+    "spe": 160
+  },
+  "abilities": {
+    "1": "speed-boost",
+    "H": "infiltrator"
+  },
+  "prevo": "nincada",
+  "height": 0.8,
+  "weight": 12,
+  "learnset": [
+    {
+      "how": [
+        "8L23"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8L29"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8L0",
+        "8L1"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "fury-swipes"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "metal-claw"
+    },
+    {
+      "how": [
+        "8L43"
+      ],
+      "what": "mind-reader"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "scratch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L0",
+        "8L1"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L50"
+      ],
+      "what": "slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "8L57"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "8L64"
+      ],
+      "what": "x-scissor"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L10"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "final-gambit"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "fury-swipes"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "gust"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "metal-claw"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "mind-reader"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "scratch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "x-scissor"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 9,
+  "name": "caterpie",
+  "caption": "Caterpie",
+  "types": [
+    "bug"
+  ],
+  "num": 10,
+  "baseStats": {
+    "atk": 30,
+    "def": 35,
+    "hp": 45,
+    "spa": 20,
+    "spd": 20,
+    "spe": 45
+  },
+  "abilities": {
+    "1": "shield-dust",
+    "H": "run-away"
+  },
+  "evos": [
+    "metapod"
+  ],
+  "height": 0.3,
+  "weight": 2.9,
+  "learnset": [
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electroweb"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "string-shot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    }
+  ]
+}

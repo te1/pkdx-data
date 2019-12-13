@@ -1,0 +1,349 @@
+{
+  "id": 218,
+  "name": "shuckle",
+  "caption": "Shuckle",
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "num": 213,
+  "baseStats": {
+    "atk": 10,
+    "def": 230,
+    "hp": 20,
+    "spa": 10,
+    "spd": 230,
+    "spe": 5
+  },
+  "abilities": {
+    "1": "sturdy",
+    "2": "gluttony",
+    "H": "contrary"
+  },
+  "height": 0.6,
+  "weight": 20.5,
+  "learnset": [
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "acid"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "acupressure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "encore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "final-gambit"
+    },
+    {
+      "how": [
+        "8L45"
+      ],
+      "what": "gastro-acid"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "guard-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8L35"
+      ],
+      "what": "power-split"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "power-trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "rock-throw"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8L5"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8L65"
+      ],
+      "what": "shell-smash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8L50"
+      ],
+      "what": "sticky-web"
+    },
+    {
+      "how": [
+        "8M",
+        "8L60"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "withdraw"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "wrap"
+    }
+  ]
+}

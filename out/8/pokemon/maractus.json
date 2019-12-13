@@ -1,0 +1,330 @@
+{
+  "id": 632,
+  "name": "maractus",
+  "caption": "Maractus",
+  "types": [
+    "grass"
+  ],
+  "num": 556,
+  "baseStats": {
+    "atk": 86,
+    "def": 67,
+    "hp": 75,
+    "spa": 106,
+    "spd": 67,
+    "spe": 60
+  },
+  "abilities": {
+    "1": "water-absorb",
+    "2": "chlorophyll",
+    "H": "storm-drain"
+  },
+  "height": 1,
+  "weight": 28,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8L52"
+      ],
+      "what": "acupressure"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "after-you"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bullet-seed"
+    },
+    {
+      "how": [
+        "8L60"
+      ],
+      "what": "cotton-guard"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "cotton-spore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "drain-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grassy-terrain"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "growth"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "ingrain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "leech-seed"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "mega-drain"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "petal-blizzard"
+    },
+    {
+      "how": [
+        "8L56"
+      ],
+      "what": "petal-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "pin-missile"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "spiky-shield"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L44"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "wood-hammer"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "worry-seed"
+    }
+  ]
+}

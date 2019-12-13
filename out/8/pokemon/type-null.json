@@ -1,79 +1,64 @@
 {
-  "id": 238,
-  "name": "tyrogue",
-  "caption": "Tyrogue",
+  "id": 994,
+  "name": "type-null",
+  "caption": "Type: Null",
   "types": [
-    "fighting"
+    "normal"
   ],
-  "num": 236,
+  "num": 772,
   "baseStats": {
-    "atk": 35,
-    "def": 35,
-    "hp": 35,
-    "spa": 35,
-    "spd": 35,
-    "spe": 35
+    "atk": 95,
+    "def": 95,
+    "hp": 95,
+    "spa": 95,
+    "spd": 95,
+    "spe": 59
   },
   "abilities": {
-    "1": "guts",
-    "2": "steadfast",
-    "H": "vital-spirit"
+    "1": "battle-armor"
   },
   "evos": [
-    "hitmonlee",
-    "hitmonchan",
-    "hitmontop"
+    "silvally"
   ],
-  "height": 0.7,
-  "weight": 21,
+  "height": 1.9,
+  "weight": 120.5,
   "learnset": [
     {
       "how": [
-        "8M"
+        "8L5"
       ],
-      "what": "attract"
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8L25"
+      ],
+      "what": "crush-claw"
+    },
+    {
+      "how": [
+        "8L55"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "double-hit"
     },
     {
       "how": [
         "8M"
       ],
-      "what": "body-slam"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "brick-break"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "bulk-up"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "bulldoze"
-    },
-    {
-      "how": [
-        "8E"
-      ],
-      "what": "bullet-punch"
-    },
-    {
-      "how": [
-        "8E"
-      ],
-      "what": "counter"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "earthquake"
+      "what": "dragon-claw"
     },
     {
       "how": [
@@ -89,71 +74,60 @@
     },
     {
       "how": [
-        "8L1"
+        "8M"
       ],
-      "what": "fake-out"
+      "what": "giga-impact"
     },
     {
       "how": [
-        "8E"
+        "8M"
       ],
-      "what": "feint"
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
     },
     {
       "how": [
         "8M",
         "8L1"
       ],
-      "what": "focus-energy"
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L45",
+        "8S2"
       ],
-      "what": "helping-hand"
+      "what": "iron-head"
     },
     {
       "how": [
-        "8E"
+        "8L20"
       ],
-      "what": "high-jump-kick"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "low-kick"
+      "what": "metal-sound"
     },
     {
       "how": [
         "8M"
       ],
-      "what": "low-sweep"
-    },
-    {
-      "how": [
-        "8E"
-      ],
-      "what": "mach-punch"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "mega-kick"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "mega-punch"
-    },
-    {
-      "how": [
-        "8E"
-      ],
-      "what": "mind-reader"
+      "what": "payback"
     },
     {
       "how": [
@@ -169,21 +143,9 @@
     },
     {
       "how": [
-        "8E"
-      ],
-      "what": "rapid-spin"
-    },
-    {
-      "how": [
         "8M"
       ],
       "what": "rest"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "retaliate"
     },
     {
       "how": [
@@ -196,6 +158,25 @@
         "8M"
       ],
       "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L10"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-claw"
     },
     {
       "how": [
@@ -229,33 +210,56 @@
     },
     {
       "how": [
+        "8M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
         "8L1"
       ],
       "what": "tackle"
     },
     {
       "how": [
-        "8M"
+        "8L50",
+        "8S2"
       ],
-      "what": "thief"
+      "what": "take-down"
     },
     {
       "how": [
         "8M"
       ],
-      "what": "uproar"
+      "what": "thunder-wave"
     },
     {
       "how": [
-        "8E"
+        "8M",
+        "8L35",
+        "8S2"
       ],
-      "what": "vacuum-wave"
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
     },
     {
       "how": [
         "8M"
       ],
       "what": "work-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "8S2"
+      ],
+      "what": "x-scissor"
     }
   ]
 }

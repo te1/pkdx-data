@@ -1,32 +1,39 @@
 {
-  "id": 121,
-  "name": "mr--mime",
-  "caption": "Mr. Mime",
+  "id": 1163,
+  "name": "mr-rime",
+  "caption": "Mr. Rime",
   "types": [
-    "psychic",
-    "fairy"
+    "ice",
+    "psychic"
   ],
-  "num": 122,
+  "num": 866,
   "baseStats": {
-    "atk": 45,
-    "def": 65,
-    "hp": 40,
-    "spa": 100,
-    "spd": 120,
-    "spe": 90
+    "atk": 85,
+    "def": 75,
+    "hp": 80,
+    "spa": 110,
+    "spd": 100,
+    "spe": 70
   },
   "abilities": {
-    "1": "soundproof",
-    "2": "filter",
-    "H": "technician"
+    "1": "tangled-feet",
+    "2": "screen-cleaner",
+    "H": "ice-body"
   },
-  "prevo": "mime-jr.",
-  "height": 1.3,
-  "weight": 54.5,
+  "prevo": "mr-mime-galar",
+  "height": 1.5,
+  "weight": 58.2,
   "learnset": [
     {
       "how": [
-        "8M"
+        "8L1"
+      ],
+      "what": "after-you"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
       ],
       "what": "ally-switch"
     },
@@ -38,10 +45,28 @@
     },
     {
       "how": [
+        "8M"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
         "8M",
         "8L1"
       ],
       "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "block"
     },
     {
       "how": [
@@ -69,12 +94,6 @@
     },
     {
       "how": [
-        "8E"
-      ],
-      "what": "confuse-ray"
-    },
-    {
-      "how": [
         "8L12"
       ],
       "what": "confusion"
@@ -88,9 +107,15 @@
     {
       "how": [
         "8M",
-        "8L44"
+        "8L1"
       ],
       "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "double-kick"
     },
     {
       "how": [
@@ -125,15 +150,10 @@
     },
     {
       "how": [
-        "8E"
+        "8M",
+        "8L1"
       ],
-      "what": "fake-out"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "fire-punch"
+      "what": "fake-tears"
     },
     {
       "how": [
@@ -155,6 +175,12 @@
     },
     {
       "how": [
+        "8L44"
+      ],
+      "what": "freeze-dry"
+    },
+    {
+      "how": [
         "8M"
       ],
       "what": "future-sight"
@@ -173,10 +199,15 @@
     },
     {
       "how": [
-        "8M",
-        "8L1"
+        "8M"
       ],
       "what": "guard-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
     },
     {
       "how": [
@@ -192,9 +223,15 @@
     },
     {
       "how": [
-        "8E"
+        "8L32"
       ],
       "what": "hypnosis"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
     },
     {
       "how": [
@@ -204,7 +241,20 @@
     },
     {
       "how": [
+        "8L1"
+      ],
+      "what": "ice-shard"
+    },
+    {
+      "how": [
         "8M"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
       ],
       "what": "icy-wind"
     },
@@ -217,15 +267,9 @@
     {
       "how": [
         "8M",
-        "8L36"
+        "8L1"
       ],
       "what": "light-screen"
-    },
-    {
-      "how": [
-        "8M"
-      ],
-      "what": "magical-leaf"
     },
     {
       "how": [
@@ -253,21 +297,22 @@
     },
     {
       "how": [
-        "8L32"
+        "8L1"
       ],
       "what": "mimic"
     },
     {
       "how": [
-        "8M"
+        "8L36"
       ],
-      "what": "misty-terrain"
+      "what": "mirror-coat"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8L1"
       ],
-      "what": "mystical-fire"
+      "what": "misty-terrain"
     },
     {
       "how": [
@@ -289,21 +334,14 @@
     },
     {
       "how": [
-        "8E"
-      ],
-      "what": "power-split"
-    },
-    {
-      "how": [
-        "8M",
-        "8L1"
+        "8M"
       ],
       "what": "power-swap"
     },
     {
       "how": [
         "8M",
-        "8L20"
+        "8L1"
       ],
       "what": "protect"
     },
@@ -334,26 +372,26 @@
     },
     {
       "how": [
-        "8L1"
-      ],
-      "what": "quick-guard"
-    },
-    {
-      "how": [
         "8M"
       ],
       "what": "rain-dance"
     },
     {
       "how": [
-        "8L24"
+        "8L1"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8L1"
       ],
       "what": "recycle"
     },
     {
       "how": [
         "8M",
-        "8L36"
+        "8L1"
       ],
       "what": "reflect"
     },
@@ -365,7 +403,7 @@
     },
     {
       "how": [
-        "8L16"
+        "8L1"
       ],
       "what": "role-play"
     },
@@ -378,9 +416,15 @@
     {
       "how": [
         "8M",
-        "8L36"
+        "8L1"
       ],
       "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
     },
     {
       "how": [
@@ -393,6 +437,12 @@
         "8M"
       ],
       "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "slack-off"
     },
     {
       "how": [
@@ -411,6 +461,12 @@
         "8M"
       ],
       "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
     },
     {
       "how": [
@@ -470,7 +526,528 @@
       "how": [
         "8M"
       ],
-      "what": "thunder-punch"
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "wonder-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "confuse-ray"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "confusion"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "copycat"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "double-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "drain-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "encore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "fake-out"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8L44"
+      ],
+      "what": "freeze-dry"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "future-sight"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "guard-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "hypnosis"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-punch"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "ice-shard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "magic-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "metronome"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "misty-terrain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "pound"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "power-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "power-swap"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "psybeam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-terrain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psyshock"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "role-play"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L40"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8L52"
+      ],
+      "what": "teeter-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunderbolt"
     },
     {
       "how": [
@@ -501,12 +1078,6 @@
         "8M"
       ],
       "what": "uproar"
-    },
-    {
-      "how": [
-        "8L1"
-      ],
-      "what": "wide-guard"
     },
     {
       "how": [

@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const _ = require('lodash');
 const { getName, exportData } = require('./utils');
 
-let all;
+let all, pokemonDetails;
 
 function getTypeName(id) {
   let type = all.types[id];
@@ -34,7 +34,7 @@ async function exportAbilities(target, data) {
 
   let index = [];
   let details = [];
-  let obj;
+  let obj, pokemon;
 
   _.forEach(data, (ability, id) => {
     if (ability.isNonstandard) {
@@ -49,10 +49,17 @@ async function exportAbilities(target, data) {
 
     index.push(obj);
 
+    pokemon = _.filter(pokemonDetails, pkmn => {
+      return _.includes(_.values(pkmn.abilities), obj.name);
+    });
+    pokemon = _.sortBy(pokemon, 'name');
+    pokemon = _.map(pokemon, 'name');
+
     details.push({
       ...obj,
       desc: ability.desc,
       shortDesc: ability.shortDesc,
+      pokemon,
     });
   });
 
@@ -73,7 +80,7 @@ async function exportMoves(target, data) {
 
   let index = [];
   let details = [];
-  let obj, accuracy;
+  let obj, accuracy, pokemon;
 
   _.forEach(data, (move, id) => {
     if (!move || move.isNonstandard) {
@@ -95,12 +102,19 @@ async function exportMoves(target, data) {
 
     index.push(obj);
 
+    pokemon = _.filter(pokemonDetails, pkmn => {
+      return _.some(pkmn.learnset, { what: obj.name });
+    });
+    pokemon = _.sortBy(pokemon, 'name');
+    pokemon = _.map(pokemon, 'name');
+
     details.push({
       ...obj,
       priority: move.priority,
       target: getName(move.target),
       desc: move.desc,
       shortDesc: move.shortDesc,
+      pokemon,
     });
   });
 
@@ -203,6 +217,8 @@ async function exportPokemon(target, data) {
   for (const pkmn of details) {
     await exportData(path.join(target, 'pokemon', pkmn.name + '.json'), pkmn);
   }
+
+  pokemonDetails = details;
 }
 
 async function exportItems(target, data) {
@@ -245,9 +261,9 @@ async function exportAll(target) {
   console.log('loading data...\n');
   all = await fs.readJson('./in/smogon-data/8.json');
 
+  await exportPokemon(target, all.species);
   await exportAbilities(target, all.abilities);
   await exportMoves(target, all.moves);
-  await exportPokemon(target, all.species);
   await exportItems(target, all.items);
 
   console.log('done\n');

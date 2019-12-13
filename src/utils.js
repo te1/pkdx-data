@@ -14,8 +14,8 @@ async function exportData(file, data) {
 function getName(caption) {
   caption = _.deburr(caption);
   caption = _.toLower(caption);
-  caption = _.replace(caption, / /, '-');
-  caption = _.replace(caption, /[^a-zA-Z:]/, '-');
+  caption = _.replace(caption, / /g, '-');
+  caption = _.replace(caption, /[^a-zA-Z\d-]/g, '');
 
   return caption;
 }

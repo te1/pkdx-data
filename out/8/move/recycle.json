@@ -10,5 +10,22 @@
   "priority": 0,
   "target": "self",
   "desc": "The user regains the item it last used. Fails if the user is holding an item, if the user has not held an item, if the item was a popped Air Balloon, if the item was picked up by a Pokemon with the Pickup Ability, or if the item was lost to Bug Bite, Covet, Incinerate, Knock Off, Pluck, or Thief. Items thrown with Fling can be regained.",
-  "shortDesc": "Restores the item the user last used."
+  "shortDesc": "Restores the item the user last used.",
+  "pokemon": [
+    "appletun",
+    "appletun-gmax",
+    "applin",
+    "flapple",
+    "flapple-gmax",
+    "garbodor",
+    "garbodor-gmax",
+    "mime-jr",
+    "mr-mime",
+    "mr-mime-galar",
+    "mr-rime",
+    "munchlax",
+    "snorlax",
+    "snorlax-gmax",
+    "trubbish"
+  ]
 }

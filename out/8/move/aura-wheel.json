@@ -10,5 +10,9 @@
   "priority": 0,
   "target": "normal",
   "desc": "If the user is a Morpeko, this move will be Electric type. If the user is a Morpeko-Hangry, this move will be Dark type. Has a 100% chance to raise the users Speed by 1 stage. This move fails if the user is not a Morpeko or Morpeko-Hangry.",
-  "shortDesc": "Morpeko: Electric; Hangry: Dark; 100% +1 Spe."
+  "shortDesc": "Morpeko: Electric; Hangry: Dark; 100% +1 Spe.",
+  "pokemon": [
+    "morpeko",
+    "morpeko-hangry"
+  ]
 }

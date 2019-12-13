@@ -10,5 +10,32 @@
   "priority": 0,
   "target": "normal",
   "desc": "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-  "shortDesc": "More power with more uses of Stockpile."
+  "shortDesc": "More power with more uses of Stockpile.",
+  "pokemon": [
+    "araquanid",
+    "cramorant",
+    "cramorant-gorging",
+    "cramorant-gulping",
+    "dewpider",
+    "drifblim",
+    "drifloon",
+    "gastrodon",
+    "greedent",
+    "heatmor",
+    "hippopotas",
+    "hippowdon",
+    "koffing",
+    "lanturn",
+    "mareanie",
+    "mawile",
+    "pelipper",
+    "quagsire",
+    "qwilfish",
+    "shellos",
+    "skwovet",
+    "toxapex",
+    "weezing",
+    "weezing-galar",
+    "wooper"
+  ]
 }

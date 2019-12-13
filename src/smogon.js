@@ -3,6 +3,14 @@ const fs = require('fs-extra');
 const _ = require('lodash');
 const { getName, exportData } = require('./utils');
 
+let all;
+
+function getTypeName(id) {
+  let type = all.types[id];
+
+  return getName(type.name);
+}
+
 async function exportAbilities(target, data) {
   console.log(`processing ${data.length} abilities...`);
 
@@ -39,6 +47,51 @@ async function exportAbilities(target, data) {
       path.join(target, 'ability', ability.name + '.json'),
       ability
     );
+  }
+}
+
+async function exportMoves(target, data) {
+  console.log(`processing ${data.length} moves...`);
+
+  let index = [];
+  let details = [];
+  let obj, accuracy;
+
+  _.forEach(data, (move, id) => {
+    if (!move || move.isNonstandard) {
+      return;
+    }
+
+    accuracy = move.accuracy === 'Bypass' ? null : move.accuracy;
+
+    obj = {
+      id,
+      name: getName(move.name),
+      caption: move.name,
+      type: getTypeName(move.type),
+      category: getName(move.category),
+      accuracy,
+      basePower: move.basePower,
+      pp: move.pp,
+    };
+
+    index.push(obj);
+
+    details.push({
+      ...obj,
+      priority: move.priority,
+      target: getName(move.target),
+      desc: move.desc,
+      shortDesc: move.shortDesc,
+    });
+  });
+
+  console.log(`writing ${index.length} moves...`);
+  await exportData(path.join(target, 'move/index.json'), index);
+
+  console.log(`writing ${details.length} move details...\n`);
+  for (const move of details) {
+    await exportData(path.join(target, 'move', move.name + '.json'), move);
   }
 }
 
@@ -80,9 +133,10 @@ async function exportItems(target, data) {
 
 async function exportAll(target) {
   console.log('loading data...\n');
-  let all = await fs.readJson('./in/smogon-data/8.json');
+  all = await fs.readJson('./in/smogon-data/8.json');
 
   await exportAbilities(target, all.abilities);
+  await exportMoves(target, all.moves);
   await exportItems(target, all.items);
 
   console.log('done\n');

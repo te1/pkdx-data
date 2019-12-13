@@ -1,0 +1,14 @@
+{
+  "id": 719,
+  "name": "power-trip",
+  "caption": "Power Trip",
+  "type": "dark",
+  "category": "physical",
+  "accuracy": 100,
+  "basePower": 20,
+  "pp": 10,
+  "priority": 0,
+  "target": "normal",
+  "desc": "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
+  "shortDesc": " + 20 power for each of the user's stat boosts."
+}

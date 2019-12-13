@@ -1,0 +1,14 @@
+{
+  "id": 89,
+  "name": "transform",
+  "caption": "Transform",
+  "type": "normal",
+  "category": "status",
+  "accuracy": null,
+  "basePower": 0,
+  "pp": 10,
+  "priority": 0,
+  "target": "normal",
+  "desc": "The user transforms into the target. The target's current stats, stat stages, types, moves, Ability, weight, gender, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP, with a maximum of 5 PP each. The user can no longer change formes if it would have the ability to do so. This move fails if it hits a substitute, if either the user or the target is already transformed, or if either is behind an Illusion.",
+  "shortDesc": "Copies target's stats, moves, types, and Ability."
+}

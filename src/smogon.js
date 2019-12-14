@@ -80,11 +80,15 @@ async function exportAbilities(target, data) {
 }
 
 async function exportMoves(target, data) {
+  console.log('loading data...');
+  let max = await fs.readJson('./in/static/8/move/max.json');
+  let gmax = await fs.readJson('./in/static/8/move/gmax.json');
+
   console.log(`processing ${data.length} moves...`);
 
   let index = [];
   let details = [];
-  let obj, accuracy, pokemon;
+  let obj, accuracy, tags, exclusive, pokemon;
 
   _.forEach(data, (move, id) => {
     if (!move) {
@@ -112,6 +116,25 @@ async function exportMoves(target, data) {
       basePower: move.basePower,
       pp: move.pp,
     };
+
+    tags = [];
+    exclusive = [];
+
+    if (_.includes(max, obj.name)) {
+      tags.push('max');
+    }
+
+    if (_.some(gmax, { move: obj.name })) {
+      tags.push('gmax');
+      exclusive.push(_.find(gmax, { move: obj.name }).pokemon);
+    }
+
+    if (tags.length) {
+      obj.tags = tags;
+    }
+    if (exclusive.length) {
+      obj.exclusive = exclusive;
+    }
 
     index.push(obj);
 

@@ -242,6 +242,29 @@ async function exportItems(target, data) {
   }
 }
 
+async function exportPokedex(target) {
+  console.log('loading data...\n');
+  let data = await fs.readJson('./in/static/8/pokedex/swsh.json');
+
+  console.log(`processing ${data.length} entries...`);
+
+  let pkmn;
+
+  data = _.map(data, item => {
+    pkmn = _.find(pokemonDetails, { name: item.name });
+
+    if (pkmn) {
+      item.national = pkmn.num;
+      item.id = pkmn.id;
+    }
+
+    return item;
+  });
+
+  console.log(`writing ${data.length} entries...`);
+  await exportData(path.join(target, 'pokedex/swsh.json'), data);
+}
+
 async function exportAll(target) {
   console.log('loading data...\n');
   all = await fs.readJson('./in/smogon-data/8.json');
@@ -250,6 +273,7 @@ async function exportAll(target) {
   await exportAbilities(target, all.abilities);
   await exportMoves(target, all.moves);
   await exportItems(target, all.items);
+  await exportPokedex(target);
 
   console.log('done\n');
 }

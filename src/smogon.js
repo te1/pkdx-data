@@ -315,11 +315,14 @@ async function exportPokemon(target, data) {
 }
 
 async function exportItems(target, data) {
+  console.log('loading data...');
+  let gen = await fs.readJson('./in/static/8/item/gen.json');
+
   console.log(`processing ${data.length} items...`);
 
   let index = [];
   let details = [];
-  let obj;
+  let obj, caption, temp;
 
   _.forEach(data, (item, id) => {
     if (!item) {
@@ -330,11 +333,26 @@ async function exportItems(target, data) {
       return;
     }
 
+    caption = item.name;
+    switch (caption) {
+      case 'SilverPowder':
+        caption = 'Silver Powder';
+        break;
+    }
+
     obj = {
       id,
-      name: getName(item.name),
-      caption: item.name,
+      name: getName(caption),
+      caption,
     };
+
+    // Gen
+    temp = _.find(gen, { name: obj.name });
+    if (temp) {
+      obj.gen = temp.gen;
+    } else {
+      console.warn('\t', 'no gen for', obj.caption);
+    }
 
     index.push(obj);
 

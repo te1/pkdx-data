@@ -88,13 +88,14 @@ async function exportMoves(target, data) {
 
   let index = [];
   let details = [];
-  let obj, accuracy, tags, exclusive, pokemon;
+  let obj, accuracy, tags, exclusive, pokemon, temp;
 
   _.forEach(data, (move, id) => {
     if (!move) {
       return;
     }
     if (move.isNonstandard) {
+      // keep G-Max moves
       if (
         move.isNonstandard !== 'Custom' ||
         !_.startsWith(move.name, 'G-Max')
@@ -117,6 +118,7 @@ async function exportMoves(target, data) {
       pp: move.pp,
     };
 
+    // Max / G-Max moves
     tags = [];
     exclusive = [];
 
@@ -124,9 +126,10 @@ async function exportMoves(target, data) {
       tags.push('max');
     }
 
-    if (_.some(gmax, { move: obj.name })) {
+    temp = _.find(gmax, { move: obj.name });
+    if (temp) {
       tags.push('gmax');
-      exclusive.push(_.find(gmax, { move: obj.name }).pokemon);
+      exclusive.push(temp.pokemon);
     }
 
     if (tags.length) {
@@ -164,11 +167,15 @@ async function exportMoves(target, data) {
 }
 
 async function exportPokemon(target, data) {
+  console.log('loading data...');
+  let regional = await fs.readJson('./in/static/8/pokemon/regional.json');
+
   console.log(`processing ${data.length} pokemon...`);
 
   let index = [];
   let details = [];
   let obj, isBattleOnly, abilities, evos, prevo, altBattleFormes, learnset;
+  let temp;
 
   _.forEach(data, (pkmn, id) => {
     if (!pkmn) {
@@ -189,6 +196,17 @@ async function exportPokemon(target, data) {
       num: pkmn.num,
       isBattleOnly,
     };
+
+    // Regional variants
+    temp = _.find(regional, { pokemon: obj.name });
+    if (temp) {
+      obj.regional = { base: temp.base, region: temp.region };
+
+      temp = _.find(index, { name: obj.regional.base });
+      if (temp) {
+        obj.regional.baseCaption = temp.caption;
+      }
+    }
 
     index.push(obj);
 

@@ -1,38 +1,162 @@
 [
-  { "pokemon": "rattata-alola", "base": "rattata", "region": "alola" },
-  { "pokemon": "raticate-alola", "base": "raticate", "region": "alola" },
-  { "pokemon": "raichu-alola", "base": "raichu", "region": "alola" },
-  { "pokemon": "sandshrew-alola", "base": "sandshrew", "region": "alola" },
-  { "pokemon": "sandslash-alola", "base": "sandslash", "region": "alola" },
-  { "pokemon": "vulpix-alola", "base": "vulpix", "region": "alola" },
-  { "pokemon": "ninetales-alola", "base": "ninetales", "region": "alola" },
-  { "pokemon": "diglett-alola", "base": "diglett", "region": "alola" },
-  { "pokemon": "dugtrio-alola", "base": "dugtrio", "region": "alola" },
-  { "pokemon": "meowth-alola", "base": "meowth", "region": "alola" },
-  { "pokemon": "persian-alola", "base": "persian", "region": "alola" },
-  { "pokemon": "geodude-alola", "base": "geodude", "region": "alola" },
-  { "pokemon": "graveler-alola", "base": "graveler", "region": "alola" },
-  { "pokemon": "golem-alola", "base": "golem", "region": "alola" },
-  { "pokemon": "grimer-alola", "base": "grimer", "region": "alola" },
-  { "pokemon": "muk-alola", "base": "muk", "region": "alola" },
-  { "pokemon": "exeggutor-alola", "base": "exeggutor", "region": "alola" },
-  { "pokemon": "marowak-alola", "base": "marowak", "region": "alola" },
-  { "pokemon": "meowth-galar", "base": "meowth", "region": "galar" },
-  { "pokemon": "ponyta-galar", "base": "ponyta", "region": "galar" },
-  { "pokemon": "rapidash-galar", "base": "rapidash", "region": "galar" },
-  { "pokemon": "farfetchd-galar", "base": "farfetchd", "region": "galar" },
-  { "pokemon": "weezing-galar", "base": "weezing", "region": "galar" },
-  { "pokemon": "mr-mime-galar", "base": "mr-mime", "region": "galar" },
-  { "pokemon": "corsola-galar", "base": "corsola", "region": "galar" },
-  { "pokemon": "zigzagoon-galar", "base": "zigzagoon", "region": "galar" },
-  { "pokemon": "linoone-galar", "base": "linoone", "region": "galar" },
-  { "pokemon": "darumaka-galar", "base": "darumaka", "region": "galar" },
-  { "pokemon": "darmanitan-galar", "base": "darmanitan", "region": "galar" },
+  {
+    "pokemon": "rattata-alola",
+    "base": "rattata",
+    "region": "alola"
+  },
+  {
+    "pokemon": "raticate-alola",
+    "base": "raticate",
+    "region": "alola"
+  },
+  {
+    "pokemon": "raichu-alola",
+    "base": "raichu",
+    "region": "alola"
+  },
+  {
+    "pokemon": "sandshrew-alola",
+    "base": "sandshrew",
+    "region": "alola"
+  },
+  {
+    "pokemon": "sandslash-alola",
+    "base": "sandslash",
+    "region": "alola"
+  },
+  {
+    "pokemon": "vulpix-alola",
+    "base": "vulpix",
+    "region": "alola"
+  },
+  {
+    "pokemon": "ninetales-alola",
+    "base": "ninetales",
+    "region": "alola"
+  },
+  {
+    "pokemon": "diglett-alola",
+    "base": "diglett",
+    "region": "alola"
+  },
+  {
+    "pokemon": "dugtrio-alola",
+    "base": "dugtrio",
+    "region": "alola"
+  },
+  {
+    "pokemon": "meowth-alola",
+    "base": "meowth",
+    "region": "alola"
+  },
+  {
+    "pokemon": "persian-alola",
+    "base": "persian",
+    "region": "alola"
+  },
+  {
+    "pokemon": "geodude-alola",
+    "base": "geodude",
+    "region": "alola"
+  },
+  {
+    "pokemon": "graveler-alola",
+    "base": "graveler",
+    "region": "alola"
+  },
+  {
+    "pokemon": "golem-alola",
+    "base": "golem",
+    "region": "alola"
+  },
+  {
+    "pokemon": "grimer-alola",
+    "base": "grimer",
+    "region": "alola"
+  },
+  {
+    "pokemon": "muk-alola",
+    "base": "muk",
+    "region": "alola"
+  },
+  {
+    "pokemon": "exeggutor-alola",
+    "base": "exeggutor",
+    "region": "alola"
+  },
+  {
+    "pokemon": "marowak-alola",
+    "base": "marowak",
+    "region": "alola"
+  },
+  {
+    "pokemon": "meowth-galar",
+    "base": "meowth",
+    "region": "galar"
+  },
+  {
+    "pokemon": "ponyta-galar",
+    "base": "ponyta",
+    "region": "galar"
+  },
+  {
+    "pokemon": "rapidash-galar",
+    "base": "rapidash",
+    "region": "galar"
+  },
+  {
+    "pokemon": "farfetchd-galar",
+    "base": "farfetchd",
+    "region": "galar"
+  },
+  {
+    "pokemon": "weezing-galar",
+    "base": "weezing",
+    "region": "galar"
+  },
+  {
+    "pokemon": "mr-mime-galar",
+    "base": "mr-mime",
+    "region": "galar"
+  },
+  {
+    "pokemon": "corsola-galar",
+    "base": "corsola",
+    "region": "galar"
+  },
+  {
+    "pokemon": "zigzagoon-galar",
+    "base": "zigzagoon",
+    "region": "galar"
+  },
+  {
+    "pokemon": "linoone-galar",
+    "base": "linoone",
+    "region": "galar"
+  },
+  {
+    "pokemon": "darumaka-galar",
+    "base": "darumaka",
+    "region": "galar"
+  },
+  {
+    "pokemon": "darmanitan-galar",
+    "base": "darmanitan",
+    "region": "galar"
+  },
   {
     "pokemon": "darmanitan-galar-zen",
     "base": "darmanitan",
     "region": "galar"
   },
-  { "pokemon": "yamask-galar", "base": "yamask", "region": "galar" },
-  { "pokemon": "stunfisk-galar", "base": "stunfisk", "region": "galar" }
+  {
+    "pokemon": "yamask-galar",
+    "base": "yamask",
+    "region": "galar"
+  },
+  {
+    "pokemon": "stunfisk-galar",
+    "base": "stunfisk",
+    "region": "galar"
+  }
 ]

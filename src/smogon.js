@@ -30,18 +30,21 @@ function getSpeciesName(id) {
 }
 
 async function exportAbilities(target, data) {
+  console.log('loading data...');
+  let gen = await fs.readJson('./in/static/8/ability/gen.json');
+
   console.log(`processing ${data.length} abilities...`);
 
   let index = [];
   let details = [];
-  let obj, pokemon;
+  let obj, pokemon, temp;
 
   _.forEach(data, (ability, id) => {
     if (!ability) {
       return;
     }
     if (ability.isNonstandard) {
-      // console.log('\t', ability.name, ability.isNonstandard);
+      // console.warn('\t', 'Non standard', ability.name, '-' , ability.isNonstandard);
       return;
     }
 
@@ -50,6 +53,14 @@ async function exportAbilities(target, data) {
       name: getName(ability.name),
       caption: ability.name,
     };
+
+    // Gen
+    temp = _.find(gen, { name: obj.name });
+    if (temp) {
+      obj.gen = temp.gen;
+    } else {
+      console.warn('\t', 'no gen for ', obj.caption);
+    }
 
     index.push(obj);
 
@@ -81,6 +92,7 @@ async function exportAbilities(target, data) {
 
 async function exportMoves(target, data) {
   console.log('loading data...');
+  // let gen = await fs.readJson('./in/static/8/move/gen.json');
   let max = await fs.readJson('./in/static/8/move/max.json');
   let gmax = await fs.readJson('./in/static/8/move/gmax.json');
 
@@ -100,7 +112,7 @@ async function exportMoves(target, data) {
         move.isNonstandard !== 'Custom' ||
         !_.startsWith(move.name, 'G-Max')
       ) {
-        // console.log('\t', move.name, move.isNonstandard);
+        // console.warn('\t', 'Non standard', move.name, '-' , move.isNonstandard);
         return;
       }
     }
@@ -117,6 +129,14 @@ async function exportMoves(target, data) {
       basePower: move.basePower,
       pp: move.pp,
     };
+
+    // // Gen
+    // temp = _.find(gen, { name: obj.name });
+    // if (temp) {
+    //   obj.gen = temp.gen;
+    // } else {
+    //   console.warn('\t', 'no gen for ', obj.caption);
+    // }
 
     // Max / G-Max moves
     tags = [];
@@ -184,7 +204,7 @@ async function exportPokemon(target, data) {
       return;
     }
     if (pkmn.isNonstandard) {
-      // console.log('\t', pkmn.name, pkmn.isNonstandard);
+      // console.warn('\t', 'Non standard', pkmn.name, '-', pkmn.isNonstandard);
       return;
     }
 
@@ -306,7 +326,7 @@ async function exportItems(target, data) {
       return;
     }
     if (item.isNonstandard) {
-      // console.log('\t', item.name, item.isNonstandard);
+      // console.warn('\t', 'Non standard', item.name, '-', item.isNonstandard);
       return;
     }
 

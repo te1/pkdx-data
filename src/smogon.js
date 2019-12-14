@@ -132,14 +132,7 @@ async function exportPokemon(target, data) {
 
   let index = [];
   let details = [];
-  let obj,
-    isBattleOnly,
-    abilities,
-    evos,
-    prevo,
-    altBattleFormes,
-    learnset,
-    result;
+  let obj, isBattleOnly, abilities, evos, prevo, altBattleFormes, learnset;
 
   _.forEach(data, (pkmn, id) => {
     if (!pkmn || pkmn.isNonstandard) {

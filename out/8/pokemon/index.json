@@ -66,7 +66,14 @@
       "flying"
     ],
     "num": 6,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "charizard",
+      "caption": "Charizard"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 6,
@@ -132,7 +139,14 @@
       "flying"
     ],
     "num": 12,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "butterfree",
+      "caption": "Butterfree"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 24,
@@ -214,7 +228,14 @@
       "electric"
     ],
     "num": 25,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "pikachu",
+      "caption": "Pikachu"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 25,
@@ -384,10 +405,10 @@
       "steel"
     ],
     "num": 52,
-    "regional": {
-      "base": "meowth",
-      "region": "galar",
-      "baseCaption": "Meowth"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "meowth",
+      "caption": "Meowth"
     }
   },
   {
@@ -398,7 +419,14 @@
       "normal"
     ],
     "num": 52,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "meowth",
+      "caption": "Meowth"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 52,
@@ -471,7 +499,14 @@
       "fighting"
     ],
     "num": 68,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "machamp",
+      "caption": "Machamp"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 76,
@@ -490,10 +525,10 @@
       "psychic"
     ],
     "num": 77,
-    "regional": {
-      "base": "ponyta",
-      "region": "galar",
-      "baseCaption": "Ponyta"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "ponyta",
+      "caption": "Ponyta"
     }
   },
   {
@@ -514,10 +549,10 @@
       "fairy"
     ],
     "num": 78,
-    "regional": {
-      "base": "rapidash",
-      "region": "galar",
-      "baseCaption": "Rapidash"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "rapidash",
+      "caption": "Rapidash"
     }
   },
   {
@@ -538,10 +573,10 @@
       "fighting"
     ],
     "num": 83,
-    "regional": {
-      "base": "farfetchd",
-      "region": "galar",
-      "baseCaption": "Farfetch'd"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "farfetchd",
+      "caption": "Farfetch'd"
     }
   },
   {
@@ -602,7 +637,14 @@
       "poison"
     ],
     "num": 94,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "gengar",
+      "caption": "Gengar"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 94,
@@ -640,7 +682,14 @@
       "water"
     ],
     "num": 99,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "kingler",
+      "caption": "Kingler"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 105,
@@ -687,10 +736,10 @@
       "fairy"
     ],
     "num": 110,
-    "regional": {
-      "base": "weezing",
-      "region": "galar",
-      "baseCaption": "Weezing"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "weezing",
+      "caption": "Weezing"
     }
   },
   {
@@ -750,10 +799,10 @@
       "psychic"
     ],
     "num": 122,
-    "regional": {
-      "base": "mr-mime",
-      "region": "galar",
-      "baseCaption": "Mr. Mime"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "mr-mime",
+      "caption": "Mr. Mime"
     }
   },
   {
@@ -794,7 +843,14 @@
       "ice"
     ],
     "num": 131,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "lapras",
+      "caption": "Lapras"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 131,
@@ -822,7 +878,14 @@
       "normal"
     ],
     "num": 133,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "eevee",
+      "caption": "Eevee"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 133,
@@ -868,7 +931,14 @@
       "normal"
     ],
     "num": 143,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "snorlax",
+      "caption": "Snorlax"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 149,
@@ -1128,10 +1198,10 @@
       "ghost"
     ],
     "num": 222,
-    "regional": {
-      "base": "corsola",
-      "region": "galar",
-      "baseCaption": "Corsola"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "corsola",
+      "caption": "Corsola"
     }
   },
   {
@@ -1248,10 +1318,10 @@
       "normal"
     ],
     "num": 263,
-    "regional": {
-      "base": "zigzagoon",
-      "region": "galar",
-      "baseCaption": "Zigzagoon"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "zigzagoon",
+      "caption": "Zigzagoon"
     }
   },
   {
@@ -1272,10 +1342,10 @@
       "normal"
     ],
     "num": 264,
-    "regional": {
-      "base": "linoone",
-      "region": "galar",
-      "baseCaption": "Linoone"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "linoone",
+      "caption": "Linoone"
     }
   },
   {
@@ -2363,10 +2433,10 @@
       "ice"
     ],
     "num": 554,
-    "regional": {
-      "base": "darumaka",
-      "region": "galar",
-      "baseCaption": "Darumaka"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "darumaka",
+      "caption": "Darumaka"
     }
   },
   {
@@ -2397,10 +2467,10 @@
       "ice"
     ],
     "num": 555,
-    "regional": {
-      "base": "darmanitan",
-      "region": "galar",
-      "baseCaption": "Darmanitan"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "darmanitan",
+      "caption": "Darmanitan"
     }
   },
   {
@@ -2413,10 +2483,10 @@
     ],
     "num": 555,
     "isBattleOnly": true,
-    "regional": {
-      "base": "darmanitan-zen",
-      "region": "galar",
-      "baseCaption": "Darmanitan-Zen"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "darmanitan",
+      "caption": "Darmanitan"
     }
   },
   {
@@ -2496,10 +2566,10 @@
       "ghost"
     ],
     "num": 562,
-    "regional": {
-      "base": "yamask",
-      "region": "galar",
-      "baseCaption": "Yamask"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "yamask",
+      "caption": "Yamask"
     }
   },
   {
@@ -2537,7 +2607,14 @@
       "poison"
     ],
     "num": 569,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "garbodor",
+      "caption": "Garbodor"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 646,
@@ -2874,10 +2951,10 @@
       "steel"
     ],
     "num": 618,
-    "regional": {
-      "base": "stunfisk",
-      "region": "galar",
-      "baseCaption": "Stunfisk"
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "stunfisk",
+      "caption": "Stunfisk"
     }
   },
   {
@@ -4215,7 +4292,14 @@
       "steel"
     ],
     "num": 809,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "melmetal",
+      "caption": "Melmetal"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1093,
@@ -4353,7 +4437,14 @@
       "steel"
     ],
     "num": 823,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "corviknight",
+      "caption": "Corviknight"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1108,
@@ -4393,7 +4484,14 @@
       "psychic"
     ],
     "num": 826,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "orbeetle",
+      "caption": "Orbeetle"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1112,
@@ -4477,7 +4575,14 @@
       "rock"
     ],
     "num": 834,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "drednaw",
+      "caption": "Drednaw"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1121,
@@ -4535,7 +4640,14 @@
       "fire"
     ],
     "num": 839,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "coalossal",
+      "caption": "Coalossal"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1127,
@@ -4566,7 +4678,14 @@
       "dragon"
     ],
     "num": 841,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "flapple",
+      "caption": "Flapple"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1130,
@@ -4587,7 +4706,14 @@
       "dragon"
     ],
     "num": 842,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "appletun",
+      "caption": "Appletun"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1132,
@@ -4615,7 +4741,14 @@
       "ground"
     ],
     "num": 844,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "sandaconda",
+      "caption": "Sandaconda"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1143,
@@ -4626,7 +4759,14 @@
       "poison"
     ],
     "num": 844,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "toxtricity",
+      "caption": "Toxtricity"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1135,
@@ -4737,7 +4877,14 @@
       "bug"
     ],
     "num": 851,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "centiskorch",
+      "caption": "Centiskorch"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1147,
@@ -4812,7 +4959,14 @@
       "fairy"
     ],
     "num": 858,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "hatterene",
+      "caption": "Hatterene"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1155,
@@ -4853,7 +5007,14 @@
       "fairy"
     ],
     "num": 861,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "grimmsnarl",
+      "caption": "Grimmsnarl"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1159,
@@ -4938,7 +5099,14 @@
       "fairy"
     ],
     "num": 869,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "alcremie",
+      "caption": "Alcremie"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1168,
@@ -5073,7 +5241,14 @@
       "steel"
     ],
     "num": 879,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "copperajah",
+      "caption": "Copperajah"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1182,
@@ -5134,7 +5309,14 @@
       "dragon"
     ],
     "num": 884,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "baseSpecies": {
+      "name": "duraludon",
+      "caption": "Duraludon"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "id": 1188,

@@ -168,6 +168,7 @@ async function exportMoves(target, data) {
 
 async function exportPokemon(target, data) {
   console.log('loading data...');
+  let gmax = await fs.readJson('./in/static/8/pokemon/gmax.json');
   let regional = await fs.readJson('./in/static/8/pokemon/regional.json');
 
   console.log(`processing ${data.length} pokemon...`);
@@ -175,7 +176,7 @@ async function exportPokemon(target, data) {
   let index = [];
   let details = [];
   let obj, isBattleOnly, abilities, evos, prevo, altBattleFormes, learnset;
-  let temp;
+  let tags, temp;
 
   _.forEach(data, (pkmn, id) => {
     if (!pkmn) {
@@ -197,14 +198,31 @@ async function exportPokemon(target, data) {
       isBattleOnly,
     };
 
+    // G-Max
+    tags = [];
+
+    temp = _.find(gmax, { pokemon: obj.name });
+    if (temp) {
+      tags.push('gmax');
+
+      temp = _.find(index, { name: temp.base });
+      if (temp) {
+        obj.baseSpecies = { name: temp.name, caption: temp.caption };
+      }
+    }
+
+    if (tags.length) {
+      obj.tags = tags;
+    }
+
     // Regional variants
     temp = _.find(regional, { pokemon: obj.name });
     if (temp) {
-      obj.regional = { base: temp.base, region: temp.region };
+      obj.regional = temp.region;
 
-      temp = _.find(index, { name: obj.regional.base });
+      temp = _.find(index, { name: temp.base });
       if (temp) {
-        obj.regional.baseCaption = temp.caption;
+        obj.baseSpecies = { name: temp.name, caption: temp.caption };
       }
     }
 

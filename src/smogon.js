@@ -79,7 +79,7 @@ async function exportAbilities(target, data) {
   });
 
   console.log(`writing ${index.length} abilities...`);
-  await exportData(path.join(target, 'ability/index.json'), index);
+  await exportData(path.join(target, 'ability/_index.json'), index);
 
   console.log(`writing ${details.length} ability details...\n`);
   for (const ability of details) {
@@ -178,7 +178,7 @@ async function exportMoves(target, data) {
   });
 
   console.log(`writing ${index.length} moves...`);
-  await exportData(path.join(target, 'move/index.json'), index);
+  await exportData(path.join(target, 'move/_index.json'), index);
 
   console.log(`writing ${details.length} move details...\n`);
   for (const move of details) {
@@ -188,6 +188,7 @@ async function exportMoves(target, data) {
 
 async function exportPokemon(target, data) {
   console.log('loading data...');
+  let gen = await fs.readJson('./in/static/8/pokemon/gen.json');
   let gmax = await fs.readJson('./in/static/8/pokemon/gmax.json');
   let regional = await fs.readJson('./in/static/8/pokemon/regional.json');
   let alt = await fs.readJson('./in/static/8/pokemon/alt.json');
@@ -218,6 +219,14 @@ async function exportPokemon(target, data) {
       num: pkmn.num,
       isBattleOnly,
     };
+
+    // Gen
+    temp = _.find(gen, { name: obj.name });
+    if (temp) {
+      obj.gen = temp.gen;
+    } else {
+      console.warn('\t', 'no gen for', obj.caption);
+    }
 
     // G-Max forms
     tags = [];
@@ -304,7 +313,7 @@ async function exportPokemon(target, data) {
   details = _.orderBy(details, 'num');
 
   console.log(`writing ${index.length} pokemon...`);
-  await exportData(path.join(target, 'pokemon/index.json'), index);
+  await exportData(path.join(target, 'pokemon/_index.json'), index);
 
   console.log(`writing ${details.length} pokemon details...\n`);
   for (const pkmn of details) {
@@ -364,7 +373,7 @@ async function exportItems(target, data) {
   });
 
   console.log(`writing ${index.length} items...`);
-  await exportData(path.join(target, 'item/index.json'), index);
+  await exportData(path.join(target, 'item/_index.json'), index);
 
   console.log(`writing ${details.length} item details...\n`);
   for (const item of details) {
@@ -376,7 +385,7 @@ async function exportPokedex(target) {
   console.log('loading data...');
   let data = await fs.readJson('./in/static/8/pokedex/swsh.json');
 
-  console.log(`processing ${data.length} entries...`);
+  console.log(`processing ${data.length} pokedex entries...`);
 
   let pkmn;
 
@@ -391,7 +400,7 @@ async function exportPokedex(target) {
     return item;
   });
 
-  console.log(`writing ${data.length} entries...\n`);
+  console.log(`writing ${data.length} pokedex entries...\n`);
   await exportData(path.join(target, 'pokedex/swsh.json'), data);
 }
 

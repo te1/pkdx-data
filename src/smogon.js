@@ -178,19 +178,11 @@ async function exportPokemon(target, data) {
       : undefined;
 
     learnset = _.map(pkmn.learnset, entry => {
-      result = {};
-
-      result.how = _.filter(entry.how, x => _.startsWith(x, '8'));
-
-      if (!result.how.length) {
-        return;
-      }
-
-      result.what = getMoveName(entry.what);
-
-      return result;
+      return {
+        how: entry.how,
+        what: getMoveName(entry.what),
+      };
     });
-    learnset = _.reject(learnset, x => x == null);
 
     details.push({
       ...obj,

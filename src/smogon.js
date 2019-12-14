@@ -37,7 +37,11 @@ async function exportAbilities(target, data) {
   let obj, pokemon;
 
   _.forEach(data, (ability, id) => {
+    if (!ability) {
+      return;
+    }
     if (ability.isNonstandard) {
+      // console.log('\t', ability.name, ability.isNonstandard);
       return;
     }
 
@@ -83,8 +87,17 @@ async function exportMoves(target, data) {
   let obj, accuracy, pokemon;
 
   _.forEach(data, (move, id) => {
-    if (!move || move.isNonstandard) {
+    if (!move) {
       return;
+    }
+    if (move.isNonstandard) {
+      if (
+        move.isNonstandard !== 'Custom' ||
+        !_.startsWith(move.name, 'G-Max')
+      ) {
+        // console.log('\t', move.name, move.isNonstandard);
+        return;
+      }
     }
 
     accuracy = move.accuracy === 'Bypass' ? null : move.accuracy;
@@ -135,7 +148,11 @@ async function exportPokemon(target, data) {
   let obj, isBattleOnly, abilities, evos, prevo, altBattleFormes, learnset;
 
   _.forEach(data, (pkmn, id) => {
-    if (!pkmn || pkmn.isNonstandard) {
+    if (!pkmn) {
+      return;
+    }
+    if (pkmn.isNonstandard) {
+      // console.log('\t', pkmn.name, pkmn.isNonstandard);
       return;
     }
 
@@ -214,7 +231,11 @@ async function exportItems(target, data) {
   let obj;
 
   _.forEach(data, (item, id) => {
-    if (!item || item.isNonstandard) {
+    if (!item) {
+      return;
+    }
+    if (item.isNonstandard) {
+      // console.log('\t', item.name, item.isNonstandard);
       return;
     }
 
@@ -274,8 +295,6 @@ async function exportAll(target) {
   await exportMoves(target, all.moves);
   await exportItems(target, all.items);
   await exportPokedex(target);
-
-  console.log('done\n');
 }
 
 module.exports = exportAll;

@@ -10,6 +10,8 @@ async function main() {
 
     await exportSmogon(target);
     await exportStatic(target);
+
+    console.log('done\n');
   } catch (err) {
     console.error(err);
   }

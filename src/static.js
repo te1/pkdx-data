@@ -53,8 +53,6 @@ async function exportAll(target) {
   await exportTypes(target);
   await exportCategories(target);
   await exportNatures(target);
-
-  console.log('done\n');
 }
 
 module.exports = exportAll;

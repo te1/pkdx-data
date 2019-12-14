@@ -6,7 +6,7 @@ Collect and aggregate Pokemon data in JSON files for use in [pkdx](https://githu
 ## Data Sources
 
 - [smogon/data](https://github.com/smogon/data)
-- [Pokemon-Showdown](https://github.com/Zarel/Pokemon-Showdown)
+- [Pokemon-Showdown](https://github.com/smogon/pokemon-showdown)
 - [Bulbapedia](https://bulbapedia.bulbagarden.net)
 - [Pokémon Database](https://pokemondb.net)
 - [Serebii](https://www.serebii.net)

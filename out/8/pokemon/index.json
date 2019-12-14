@@ -2398,8 +2398,9 @@
     ],
     "num": 555,
     "regional": {
-      "base": "armanitan",
-      "region": "galar"
+      "base": "darmanitan",
+      "region": "galar",
+      "baseCaption": "Darmanitan"
     }
   },
   {
@@ -2411,7 +2412,12 @@
       "fire"
     ],
     "num": 555,
-    "isBattleOnly": true
+    "isBattleOnly": true,
+    "regional": {
+      "base": "darmanitan-zen",
+      "region": "galar",
+      "baseCaption": "Darmanitan-Zen"
+    }
   },
   {
     "id": 632,

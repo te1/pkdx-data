@@ -7,6 +7,7 @@
   "accuracy": 30,
   "basePower": 0,
   "pp": 5,
+  "gen": 3,
   "priority": 0,
   "target": "normal",
   "desc": "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + X)%, where X is 30 if the user is an Ice type and 20 otherwise, and fails if the target is at a higher level. Ice-type Pokemon and Pokemon with the Sturdy Ability are immune.",

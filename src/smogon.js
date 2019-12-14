@@ -170,6 +170,7 @@ async function exportPokemon(target, data) {
   console.log('loading data...');
   let gmax = await fs.readJson('./in/static/8/pokemon/gmax.json');
   let regional = await fs.readJson('./in/static/8/pokemon/regional.json');
+  let alt = await fs.readJson('./in/static/8/pokemon/alt.json');
 
   console.log(`processing ${data.length} pokemon...`);
 
@@ -219,6 +220,17 @@ async function exportPokemon(target, data) {
     temp = _.find(regional, { pokemon: obj.name });
     if (temp) {
       obj.regional = temp.region;
+
+      temp = _.find(index, { name: temp.base });
+      if (temp) {
+        obj.baseSpecies = { name: temp.name, caption: temp.caption };
+      }
+    }
+
+    // Alternate variants
+    temp = _.find(alt, { pokemon: obj.name });
+    if (temp) {
+      obj.altCaption = temp.altCaption;
 
       temp = _.find(index, { name: temp.base });
       if (temp) {

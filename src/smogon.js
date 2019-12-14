@@ -95,6 +95,8 @@ async function exportMoves(target, data) {
   let gen = await fs.readJson('./in/static/8/move/gen.json');
   let max = await fs.readJson('./in/static/8/move/max.json');
   let gmax = await fs.readJson('./in/static/8/move/gmax.json');
+  let tm = await fs.readJson('./in/static/8/tm.json');
+  let tr = await fs.readJson('./in/static/8/tr.json');
 
   console.log(`processing ${data.length} moves...`);
 
@@ -157,6 +159,18 @@ async function exportMoves(target, data) {
     }
     if (exclusive.length) {
       obj.exclusive = exclusive;
+    }
+
+    // TM
+    temp = _.find(tm, { move: obj.name });
+    if (temp) {
+      obj.tm = temp.no;
+    }
+
+    // TR
+    temp = _.find(tr, { move: obj.name });
+    if (temp) {
+      obj.tr = temp.no;
     }
 
     index.push(obj);

@@ -59,7 +59,7 @@ async function exportAbilities(target, data) {
     if (temp) {
       obj.gen = temp.gen;
     } else {
-      console.warn('\t', 'no gen for ', obj.caption);
+      console.warn('\t', 'no gen for', obj.caption);
     }
 
     index.push(obj);
@@ -92,7 +92,7 @@ async function exportAbilities(target, data) {
 
 async function exportMoves(target, data) {
   console.log('loading data...');
-  // let gen = await fs.readJson('./in/static/8/move/gen.json');
+  let gen = await fs.readJson('./in/static/8/move/gen.json');
   let max = await fs.readJson('./in/static/8/move/max.json');
   let gmax = await fs.readJson('./in/static/8/move/gmax.json');
 
@@ -130,13 +130,13 @@ async function exportMoves(target, data) {
       pp: move.pp,
     };
 
-    // // Gen
-    // temp = _.find(gen, { name: obj.name });
-    // if (temp) {
-    //   obj.gen = temp.gen;
-    // } else {
-    //   console.warn('\t', 'no gen for ', obj.caption);
-    // }
+    // Gen
+    temp = _.find(gen, { name: obj.name });
+    if (temp) {
+      obj.gen = temp.gen;
+    } else {
+      console.warn('\t', 'no gen for', obj.caption);
+    }
 
     // Max / G-Max moves
     tags = [];

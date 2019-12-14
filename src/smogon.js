@@ -176,7 +176,7 @@ async function exportPokemon(target, data) {
 
   let index = [];
   let details = [];
-  let obj, isBattleOnly, abilities, evos, prevo, altBattleFormes, learnset;
+  let obj, isBattleOnly, abilities, evos, prevo, altBattleForms, learnset;
   let tags, temp;
 
   _.forEach(data, (pkmn, id) => {
@@ -199,7 +199,7 @@ async function exportPokemon(target, data) {
       isBattleOnly,
     };
 
-    // G-Max
+    // G-Max forms
     tags = [];
 
     temp = _.find(gmax, { pokemon: obj.name });
@@ -216,7 +216,7 @@ async function exportPokemon(target, data) {
       obj.tags = tags;
     }
 
-    // Regional variants
+    // Regional forms
     temp = _.find(regional, { pokemon: obj.name });
     if (temp) {
       obj.regional = temp.region;
@@ -227,7 +227,7 @@ async function exportPokemon(target, data) {
       }
     }
 
-    // Alternate variants
+    // Alternate forms
     temp = _.find(alt, { pokemon: obj.name });
     if (temp) {
       obj.altCaption = temp.altCaption;
@@ -254,7 +254,7 @@ async function exportPokemon(target, data) {
     evos = pkmn.evos.length ? _.map(pkmn.evos, getSpeciesName) : undefined;
     prevo = pkmn.prevo != null ? getSpeciesName(pkmn.prevo) : undefined;
 
-    altBattleFormes = pkmn.altBattleFormes.length
+    altBattleForms = pkmn.altBattleFormes.length
       ? _.map(pkmn.altBattleFormes, getSpeciesName)
       : undefined;
 
@@ -267,7 +267,7 @@ async function exportPokemon(target, data) {
 
     details.push({
       ...obj,
-      altBattleFormes,
+      altBattleForms,
       desc: pkmn.desc,
       shortDesc: pkmn.shortDesc,
       baseStats: pkmn.baseStats,

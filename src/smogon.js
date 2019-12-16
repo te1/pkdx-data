@@ -207,6 +207,9 @@ async function exportPokemon(target, data) {
 
   console.log(`processing ${data.length} pokemon...`);
 
+  // sort by name so base species is handled first
+  data = _.sortBy(data, 'name');
+
   let index = [];
   let details = [];
   let obj, isBattleOnly, abilities, evos, prevo, altBattleForms, learnset;
@@ -397,17 +400,42 @@ async function exportPokedex(target) {
 
   console.log(`processing ${data.length} pokedex entries...`);
 
-  let pkmn;
+  let altList = [];
+  let pkmn, altPkmn, alts;
 
   data = _.map(data, item => {
     pkmn = _.find(pokemonDetails, { name: item.name });
 
     if (pkmn) {
       item.national = pkmn.num;
+
+      if (pkmn.altBattleForms) {
+        alts = _.map(pkmn.altBattleForms, altName => {
+          altPkmn = _.find(pokemonDetails, { name: altName });
+
+          if (!altPkmn || !altPkmn.tags || !_.includes(altPkmn.tags, 'gmax')) {
+            return;
+          }
+
+          return {
+            no: item.no,
+            name: altName,
+            national: item.national,
+            baseSpeciesName: altPkmn.baseSpecies.name,
+            tags: altPkmn.tags,
+          };
+        });
+        altList.push(...alts);
+      }
     }
 
     return item;
   });
+
+  altList = _.reject(altList, item => !item);
+
+  data = _.concat(data, altList);
+  data = _.sortBy(data, 'no');
 
   console.log(`writing ${data.length} pokedex entries...\n`);
   await exportData(path.join(target, 'pokedex/swsh.json'), data);

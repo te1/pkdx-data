@@ -158,6 +158,65 @@
     "gen": 1
   },
   {
+    "name": "pikachu-alola",
+    "caption": "Pikachu-Alola",
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "gen": 7,
+    "altCaption": "Alola Cap Pikachu",
+    "baseSpecies": {
+      "name": "pikachu",
+      "caption": "Pikachu"
+    }
+  },
+  {
+    "name": "pikachu-gmax",
+    "caption": "Pikachu-Gmax",
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "isBattleOnly": true,
+    "gen": 8,
+    "baseSpecies": {
+      "name": "pikachu",
+      "caption": "Pikachu"
+    },
+    "tags": [
+      "gmax"
+    ]
+  },
+  {
+    "name": "pikachu-hoenn",
+    "caption": "Pikachu-Hoenn",
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "gen": 7,
+    "altCaption": "Hoenn Cap Pikachu",
+    "baseSpecies": {
+      "name": "pikachu",
+      "caption": "Pikachu"
+    }
+  },
+  {
+    "name": "pikachu-kalos",
+    "caption": "Pikachu-Kalos",
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "gen": 7,
+    "altCaption": "Kalos Cap Pikachu",
+    "baseSpecies": {
+      "name": "pikachu",
+      "caption": "Pikachu"
+    }
+  },
+  {
     "name": "pikachu-original",
     "caption": "Pikachu-Original",
     "types": [
@@ -172,14 +231,14 @@
     }
   },
   {
-    "name": "pikachu-hoenn",
-    "caption": "Pikachu-Hoenn",
+    "name": "pikachu-partner",
+    "caption": "Pikachu-Partner",
     "types": [
       "electric"
     ],
     "num": 25,
     "gen": 7,
-    "altCaption": "Hoenn Cap Pikachu",
+    "altCaption": "Partner Cap Pikachu",
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -212,65 +271,6 @@
       "name": "pikachu",
       "caption": "Pikachu"
     }
-  },
-  {
-    "name": "pikachu-kalos",
-    "caption": "Pikachu-Kalos",
-    "types": [
-      "electric"
-    ],
-    "num": 25,
-    "gen": 7,
-    "altCaption": "Kalos Cap Pikachu",
-    "baseSpecies": {
-      "name": "pikachu",
-      "caption": "Pikachu"
-    }
-  },
-  {
-    "name": "pikachu-alola",
-    "caption": "Pikachu-Alola",
-    "types": [
-      "electric"
-    ],
-    "num": 25,
-    "gen": 7,
-    "altCaption": "Alola Cap Pikachu",
-    "baseSpecies": {
-      "name": "pikachu",
-      "caption": "Pikachu"
-    }
-  },
-  {
-    "name": "pikachu-partner",
-    "caption": "Pikachu-Partner",
-    "types": [
-      "electric"
-    ],
-    "num": 25,
-    "gen": 7,
-    "altCaption": "Partner Cap Pikachu",
-    "baseSpecies": {
-      "name": "pikachu",
-      "caption": "Pikachu"
-    }
-  },
-  {
-    "name": "pikachu-gmax",
-    "caption": "Pikachu-Gmax",
-    "types": [
-      "electric"
-    ],
-    "num": 25,
-    "isBattleOnly": true,
-    "gen": 8,
-    "baseSpecies": {
-      "name": "pikachu",
-      "caption": "Pikachu"
-    },
-    "tags": [
-      "gmax"
-    ]
   },
   {
     "name": "raichu",
@@ -2189,37 +2189,14 @@
     "gen": 4
   },
   {
-    "name": "rotom-heat",
-    "caption": "Rotom-Heat",
+    "name": "rotom",
+    "caption": "Rotom",
     "types": [
       "electric",
-      "fire"
+      "ghost"
     ],
     "num": 479,
-    "gen": 4,
-    "altCaption": "Heat Rotom"
-  },
-  {
-    "name": "rotom-wash",
-    "caption": "Rotom-Wash",
-    "types": [
-      "electric",
-      "water"
-    ],
-    "num": 479,
-    "gen": 4,
-    "altCaption": "Wash Rotom"
-  },
-  {
-    "name": "rotom-frost",
-    "caption": "Rotom-Frost",
-    "types": [
-      "electric",
-      "ice"
-    ],
-    "num": 479,
-    "gen": 4,
-    "altCaption": "Frost Rotom"
+    "gen": 4
   },
   {
     "name": "rotom-fan",
@@ -2230,7 +2207,41 @@
     ],
     "num": 479,
     "gen": 4,
-    "altCaption": "Fan Rotom"
+    "altCaption": "Fan Rotom",
+    "baseSpecies": {
+      "name": "rotom",
+      "caption": "Rotom"
+    }
+  },
+  {
+    "name": "rotom-frost",
+    "caption": "Rotom-Frost",
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "num": 479,
+    "gen": 4,
+    "altCaption": "Frost Rotom",
+    "baseSpecies": {
+      "name": "rotom",
+      "caption": "Rotom"
+    }
+  },
+  {
+    "name": "rotom-heat",
+    "caption": "Rotom-Heat",
+    "types": [
+      "electric",
+      "fire"
+    ],
+    "num": 479,
+    "gen": 4,
+    "altCaption": "Heat Rotom",
+    "baseSpecies": {
+      "name": "rotom",
+      "caption": "Rotom"
+    }
   },
   {
     "name": "rotom-mow",
@@ -2241,17 +2252,26 @@
     ],
     "num": 479,
     "gen": 4,
-    "altCaption": "Mow Rotom"
+    "altCaption": "Mow Rotom",
+    "baseSpecies": {
+      "name": "rotom",
+      "caption": "Rotom"
+    }
   },
   {
-    "name": "rotom",
-    "caption": "Rotom",
+    "name": "rotom-wash",
+    "caption": "Rotom-Wash",
     "types": [
       "electric",
-      "ghost"
+      "water"
     ],
     "num": 479,
-    "gen": 4
+    "gen": 4,
+    "altCaption": "Wash Rotom",
+    "baseSpecies": {
+      "name": "rotom",
+      "caption": "Rotom"
+    }
   },
   {
     "name": "purrloin",
@@ -2527,18 +2547,6 @@
     }
   },
   {
-    "name": "darmanitan-zen",
-    "caption": "Darmanitan-Zen",
-    "types": [
-      "fire",
-      "psychic"
-    ],
-    "num": 555,
-    "isBattleOnly": true,
-    "gen": 5,
-    "altCaption": "Zen Mode"
-  },
-  {
     "name": "darmanitan",
     "caption": "Darmanitan",
     "types": [
@@ -2579,6 +2587,22 @@
       "caption": "Darmanitan"
     },
     "altCaption": "Zen Mode"
+  },
+  {
+    "name": "darmanitan-zen",
+    "caption": "Darmanitan-Zen",
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "num": 555,
+    "isBattleOnly": true,
+    "gen": 5,
+    "altCaption": "Zen Mode",
+    "baseSpecies": {
+      "name": "darmanitan",
+      "caption": "Darmanitan"
+    }
   },
   {
     "name": "maractus",
@@ -3574,15 +3598,15 @@
     "gen": 6
   },
   {
-    "name": "pumpkaboo-small",
-    "caption": "Pumpkaboo-Small",
+    "name": "pumpkaboo",
+    "caption": "Pumpkaboo",
     "types": [
       "ghost",
       "grass"
     ],
     "num": 710,
     "gen": 6,
-    "altCaption": "Small Size"
+    "altCaption": "Average Size"
   },
   {
     "name": "pumpkaboo-large",
@@ -3593,18 +3617,26 @@
     ],
     "num": 710,
     "gen": 6,
-    "altCaption": "Large Size"
+    "altCaption": "Large Size",
+    "baseSpecies": {
+      "name": "pumpkaboo",
+      "caption": "Pumpkaboo"
+    }
   },
   {
-    "name": "pumpkaboo",
-    "caption": "Pumpkaboo",
+    "name": "pumpkaboo-small",
+    "caption": "Pumpkaboo-Small",
     "types": [
       "ghost",
       "grass"
     ],
     "num": 710,
     "gen": 6,
-    "altCaption": "Average Size"
+    "altCaption": "Small Size",
+    "baseSpecies": {
+      "name": "pumpkaboo",
+      "caption": "Pumpkaboo"
+    }
   },
   {
     "name": "pumpkaboo-super",
@@ -3622,15 +3654,15 @@
     }
   },
   {
-    "name": "gourgeist-small",
-    "caption": "Gourgeist-Small",
+    "name": "gourgeist",
+    "caption": "Gourgeist",
     "types": [
       "ghost",
       "grass"
     ],
     "num": 711,
     "gen": 6,
-    "altCaption": "Small Size"
+    "altCaption": "Average Size"
   },
   {
     "name": "gourgeist-large",
@@ -3641,18 +3673,26 @@
     ],
     "num": 711,
     "gen": 6,
-    "altCaption": "Large Size"
+    "altCaption": "Large Size",
+    "baseSpecies": {
+      "name": "gourgeist",
+      "caption": "Gourgeist"
+    }
   },
   {
-    "name": "gourgeist",
-    "caption": "Gourgeist",
+    "name": "gourgeist-small",
+    "caption": "Gourgeist-Small",
     "types": [
       "ghost",
       "grass"
     ],
     "num": 711,
     "gen": 6,
-    "altCaption": "Average Size"
+    "altCaption": "Small Size",
+    "baseSpecies": {
+      "name": "gourgeist",
+      "caption": "Gourgeist"
+    }
   },
   {
     "name": "gourgeist-super",
@@ -4460,21 +4500,6 @@
     "gen": 7
   },
   {
-    "name": "necrozma-dusk-mane",
-    "caption": "Necrozma-Dusk-Mane",
-    "types": [
-      "psychic",
-      "steel"
-    ],
-    "num": 800,
-    "gen": 7,
-    "altCaption": "Dusk Mane Necrozma",
-    "baseSpecies": {
-      "name": "necrozma",
-      "caption": "Necrozma"
-    }
-  },
-  {
     "name": "necrozma-dawn-wings",
     "caption": "Necrozma-Dawn-Wings",
     "types": [
@@ -4484,6 +4509,21 @@
     "num": 800,
     "gen": 7,
     "altCaption": "Dawn Wings Necrozma",
+    "baseSpecies": {
+      "name": "necrozma",
+      "caption": "Necrozma"
+    }
+  },
+  {
+    "name": "necrozma-dusk-mane",
+    "caption": "Necrozma-Dusk-Mane",
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "num": 800,
+    "gen": 7,
+    "altCaption": "Dusk Mane Necrozma",
     "baseSpecies": {
       "name": "necrozma",
       "caption": "Necrozma"
@@ -5021,22 +5061,6 @@
     "gen": 8
   },
   {
-    "name": "cramorant-gulping",
-    "caption": "Cramorant-Gulping",
-    "types": [
-      "flying",
-      "water"
-    ],
-    "num": 845,
-    "isBattleOnly": true,
-    "gen": 8,
-    "altCaption": "Gulping Form",
-    "baseSpecies": {
-      "name": "cramorant",
-      "caption": "Cramorant"
-    }
-  },
-  {
     "name": "cramorant-gorging",
     "caption": "Cramorant-Gorging",
     "types": [
@@ -5047,6 +5071,22 @@
     "isBattleOnly": true,
     "gen": 8,
     "altCaption": "Gorging Form",
+    "baseSpecies": {
+      "name": "cramorant",
+      "caption": "Cramorant"
+    }
+  },
+  {
+    "name": "cramorant-gulping",
+    "caption": "Cramorant-Gulping",
+    "types": [
+      "flying",
+      "water"
+    ],
+    "num": 845,
+    "isBattleOnly": true,
+    "gen": 8,
+    "altCaption": "Gulping Form",
     "baseSpecies": {
       "name": "cramorant",
       "caption": "Cramorant"

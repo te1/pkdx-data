@@ -39,7 +39,7 @@ async function exportAbilities(target, data) {
   let details = [];
   let obj, pokemon, temp;
 
-  _.forEach(data, (ability, id) => {
+  _.forEach(data, ability => {
     if (!ability) {
       return;
     }
@@ -49,7 +49,6 @@ async function exportAbilities(target, data) {
     }
 
     obj = {
-      id,
       name: getName(ability.name),
       caption: ability.name,
     };
@@ -104,7 +103,7 @@ async function exportMoves(target, data) {
   let details = [];
   let obj, accuracy, tags, exclusive, pokemon, temp;
 
-  _.forEach(data, (move, id) => {
+  _.forEach(data, move => {
     if (!move) {
       return;
     }
@@ -122,7 +121,6 @@ async function exportMoves(target, data) {
     accuracy = move.accuracy === 'Bypass' ? null : move.accuracy;
 
     obj = {
-      id,
       name: getName(move.name),
       caption: move.name,
       type: getTypeName(move.type),
@@ -214,7 +212,7 @@ async function exportPokemon(target, data) {
   let obj, isBattleOnly, abilities, evos, prevo, altBattleForms, learnset;
   let tags, temp;
 
-  _.forEach(data, (pkmn, id) => {
+  _.forEach(data, pkmn => {
     if (!pkmn) {
       return;
     }
@@ -226,7 +224,6 @@ async function exportPokemon(target, data) {
     isBattleOnly = pkmn.isBattleOnly || undefined;
 
     obj = {
-      id,
       name: getName(pkmn.name),
       caption: pkmn.name,
       types: _.map(pkmn.types, getTypeName),
@@ -347,7 +344,7 @@ async function exportItems(target, data) {
   let details = [];
   let obj, caption, temp;
 
-  _.forEach(data, (item, id) => {
+  _.forEach(data, item => {
     if (!item) {
       return;
     }
@@ -364,7 +361,6 @@ async function exportItems(target, data) {
     }
 
     obj = {
-      id,
       name: getName(caption),
       caption,
     };
@@ -408,7 +404,6 @@ async function exportPokedex(target) {
 
     if (pkmn) {
       item.national = pkmn.num;
-      item.id = pkmn.id;
     }
 
     return item;

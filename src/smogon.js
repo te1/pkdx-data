@@ -175,13 +175,23 @@ async function exportMoves(target, data) {
       obj.tr = temp.no;
     }
 
-    index.push(obj);
-
     pokemon = _.filter(pokemonDetails, pkmn => {
       return _.some(pkmn.learnset, { what: obj.name });
     });
     pokemon = _.sortBy(pokemon, 'name');
     pokemon = _.map(pokemon, 'name');
+
+    // dont export unlearnable moves, but keep max and g-max moves
+    if (
+      !pokemon.length &&
+      !_.includes(tags, 'max') &&
+      !_.includes(tags, 'gmax')
+    ) {
+      // console.warn('\t', 'Unlearnable move', obj.caption);
+      return; // continue
+    }
+
+    index.push(obj);
 
     details.push({
       ...obj,

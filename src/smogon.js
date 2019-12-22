@@ -145,6 +145,9 @@ async function exportMoves(target, data) {
     if (_.includes(max, obj.name)) {
       tags.push('max');
 
+      // depends on base move that is replaced
+      obj.category = null;
+      obj.accuracy = null;
       obj.basePower = null;
     }
 
@@ -153,6 +156,9 @@ async function exportMoves(target, data) {
       tags.push('gmax');
       exclusive.push(temp.pokemon);
 
+      // depends on base move that is replaced
+      obj.category = null;
+      obj.accuracy = null;
       obj.basePower = null;
     }
 

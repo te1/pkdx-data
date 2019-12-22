@@ -144,12 +144,16 @@ async function exportMoves(target, data) {
 
     if (_.includes(max, obj.name)) {
       tags.push('max');
+
+      obj.basePower = null;
     }
 
     temp = _.find(gmax, { move: obj.name });
     if (temp) {
       tags.push('gmax');
       exclusive.push(temp.pokemon);
+
+      obj.basePower = null;
     }
 
     if (tags.length) {

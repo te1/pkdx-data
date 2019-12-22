@@ -1,6 +1,6 @@
 # pkdx-data
 
-Collect and aggregate Pokemon data in JSON files for use in [pkdx](https://github.com/te1/pkdx), a Pokedex and Pokemon team builder.
+Collect and aggregate Pokemon data in JSON files for use in [pkdx](https://github.com/te1/pkdx), a Pokemon team builder and Pokedex.
 
 
 ## Data Sources

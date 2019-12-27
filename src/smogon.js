@@ -110,10 +110,10 @@ async function exportMoves(target, data) {
     if (move.isNonstandard) {
       // keep G-Max moves
       if (
-        move.isNonstandard !== 'Custom' ||
+        move.isNonstandard !== 'Unobtainable' ||
         !_.startsWith(move.name, 'G-Max')
       ) {
-        // console.warn('\t', 'Non standard', move.name, '-' , move.isNonstandard);
+        // console.warn('\t', 'Non standard', move.name, '-', move.isNonstandard);
         return;
       }
     }
@@ -172,13 +172,13 @@ async function exportMoves(target, data) {
     // TM
     temp = _.find(tm, { move: obj.name });
     if (temp) {
-      obj.tm = temp.no;
+      obj.tm = temp.num;
     }
 
     // TR
     temp = _.find(tr, { move: obj.name });
     if (temp) {
-      obj.tr = temp.no;
+      obj.tr = temp.num;
     }
 
     pokemon = _.filter(pokemonDetails, pkmn => {
@@ -438,7 +438,7 @@ async function exportPokedex(target) {
           }
 
           return {
-            no: item.no,
+            num: item.num,
             name: altName,
             national: item.national,
             baseSpeciesName: altPkmn.baseSpecies.name,
@@ -455,7 +455,7 @@ async function exportPokedex(target) {
   altList = _.reject(altList, item => !item);
 
   data = _.concat(data, altList);
-  data = _.sortBy(data, 'no');
+  data = _.sortBy(data, 'num');
 
   console.log(`writing ${data.length} pokedex entries...\n`);
   await exportData(path.join(target, 'pokedex/swsh.json'), data);

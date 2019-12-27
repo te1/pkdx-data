@@ -295,6 +295,14 @@ async function exportPokemon(target, data) {
     if (temp) {
       obj.altCaption = temp.altCaption;
 
+      if (temp.hideAltCaption) {
+        obj.hideAltCaption = true;
+      }
+
+      if (temp.hide) {
+        obj.hide = true;
+      }
+
       temp = _.find(index, { name: temp.base });
       if (temp) {
         obj.baseSpecies = { name: temp.name, caption: temp.caption };

@@ -166,6 +166,7 @@
     "num": 25,
     "gen": 7,
     "altCaption": "Alola Cap Pikachu",
+    "hide": true,
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -197,6 +198,7 @@
     "num": 25,
     "gen": 7,
     "altCaption": "Hoenn Cap Pikachu",
+    "hide": true,
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -211,6 +213,7 @@
     "num": 25,
     "gen": 7,
     "altCaption": "Kalos Cap Pikachu",
+    "hide": true,
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -225,6 +228,7 @@
     "num": 25,
     "gen": 7,
     "altCaption": "Original Cap Pikachu",
+    "hide": true,
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -239,6 +243,7 @@
     "num": 25,
     "gen": 7,
     "altCaption": "Partner Cap Pikachu",
+    "hide": true,
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -253,6 +258,7 @@
     "num": 25,
     "gen": 7,
     "altCaption": "Sinnoh Cap Pikachu",
+    "hide": true,
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -267,6 +273,7 @@
     "num": 25,
     "gen": 7,
     "altCaption": "Unova Cap Pikachu",
+    "hide": true,
     "baseSpecies": {
       "name": "pikachu",
       "caption": "Pikachu"
@@ -1870,7 +1877,8 @@
     ],
     "num": 421,
     "gen": 4,
-    "altCaption": "Overcast Form"
+    "altCaption": "Overcast Form",
+    "hideAltCaption": true
   },
   {
     "name": "cherrim-sunshine",
@@ -1882,6 +1890,7 @@
     "isBattleOnly": true,
     "gen": 4,
     "altCaption": "Sunshine Form",
+    "hide": true,
     "baseSpecies": {
       "name": "cherrim",
       "caption": "Cherrim"
@@ -2207,7 +2216,7 @@
     ],
     "num": 479,
     "gen": 4,
-    "altCaption": "Fan Rotom",
+    "altCaption": "Rotom Fan",
     "baseSpecies": {
       "name": "rotom",
       "caption": "Rotom"
@@ -2222,7 +2231,7 @@
     ],
     "num": 479,
     "gen": 4,
-    "altCaption": "Frost Rotom",
+    "altCaption": "Rotom Frost",
     "baseSpecies": {
       "name": "rotom",
       "caption": "Rotom"
@@ -2237,7 +2246,7 @@
     ],
     "num": 479,
     "gen": 4,
-    "altCaption": "Heat Rotom",
+    "altCaption": "Rotom Heat",
     "baseSpecies": {
       "name": "rotom",
       "caption": "Rotom"
@@ -2252,7 +2261,7 @@
     ],
     "num": 479,
     "gen": 4,
-    "altCaption": "Mow Rotom",
+    "altCaption": "Rotom Mow",
     "baseSpecies": {
       "name": "rotom",
       "caption": "Rotom"
@@ -2267,7 +2276,7 @@
     ],
     "num": 479,
     "gen": 4,
-    "altCaption": "Wash Rotom",
+    "altCaption": "Rotom Wash",
     "baseSpecies": {
       "name": "rotom",
       "caption": "Rotom"
@@ -2507,7 +2516,8 @@
     ],
     "num": 550,
     "gen": 5,
-    "altCaption": "Red-Striped Form"
+    "altCaption": "Red-Striped Form",
+    "hideAltCaption": true
   },
   {
     "name": "basculin-blue-striped",
@@ -2518,6 +2528,7 @@
     "num": 550,
     "gen": 5,
     "altCaption": "Blue-Striped Form",
+    "hide": true,
     "baseSpecies": {
       "name": "basculin",
       "caption": "Basculin"
@@ -3606,7 +3617,8 @@
     ],
     "num": 710,
     "gen": 6,
-    "altCaption": "Average Size"
+    "altCaption": "Average Size",
+    "hideAltCaption": true
   },
   {
     "name": "pumpkaboo-large",
@@ -3618,6 +3630,7 @@
     "num": 710,
     "gen": 6,
     "altCaption": "Large Size",
+    "hide": true,
     "baseSpecies": {
       "name": "pumpkaboo",
       "caption": "Pumpkaboo"
@@ -3633,6 +3646,7 @@
     "num": 710,
     "gen": 6,
     "altCaption": "Small Size",
+    "hide": true,
     "baseSpecies": {
       "name": "pumpkaboo",
       "caption": "Pumpkaboo"
@@ -3648,6 +3662,7 @@
     "num": 710,
     "gen": 6,
     "altCaption": "Super Size",
+    "hide": true,
     "baseSpecies": {
       "name": "pumpkaboo",
       "caption": "Pumpkaboo"
@@ -3662,7 +3677,8 @@
     ],
     "num": 711,
     "gen": 6,
-    "altCaption": "Average Size"
+    "altCaption": "Average Size",
+    "hideAltCaption": true
   },
   {
     "name": "gourgeist-large",
@@ -3674,6 +3690,7 @@
     "num": 711,
     "gen": 6,
     "altCaption": "Large Size",
+    "hide": true,
     "baseSpecies": {
       "name": "gourgeist",
       "caption": "Gourgeist"
@@ -3689,6 +3706,7 @@
     "num": 711,
     "gen": 6,
     "altCaption": "Small Size",
+    "hide": true,
     "baseSpecies": {
       "name": "gourgeist",
       "caption": "Gourgeist"
@@ -3704,6 +3722,7 @@
     "num": 711,
     "gen": 6,
     "altCaption": "Super Size",
+    "hide": true,
     "baseSpecies": {
       "name": "gourgeist",
       "caption": "Gourgeist"
@@ -4127,6 +4146,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4141,6 +4161,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4155,6 +4176,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4169,6 +4191,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4183,6 +4206,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4197,6 +4221,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4211,6 +4236,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4225,6 +4251,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4239,6 +4266,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4253,6 +4281,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4267,6 +4296,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4281,6 +4311,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4295,6 +4326,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4309,6 +4341,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4323,6 +4356,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4337,6 +4371,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4351,6 +4386,7 @@
     "num": 773,
     "gen": 7,
     "altCaption": "Silvally",
+    "hide": true,
     "baseSpecies": {
       "name": "silvally",
       "caption": "Silvally"
@@ -4385,7 +4421,8 @@
     ],
     "num": 778,
     "gen": 7,
-    "altCaption": "Disguised Form"
+    "altCaption": "Disguised Form",
+    "hideAltCaption": true
   },
   {
     "name": "mimikyu-busted",
@@ -4398,6 +4435,7 @@
     "isBattleOnly": true,
     "gen": 7,
     "altCaption": "Busted Form",
+    "hide": true,
     "baseSpecies": {
       "name": "mimikyu",
       "caption": "Mimikyu"
@@ -5071,6 +5109,7 @@
     "isBattleOnly": true,
     "gen": 8,
     "altCaption": "Gorging Form",
+    "hide": true,
     "baseSpecies": {
       "name": "cramorant",
       "caption": "Cramorant"
@@ -5087,6 +5126,7 @@
     "isBattleOnly": true,
     "gen": 8,
     "altCaption": "Gulping Form",
+    "hide": true,
     "baseSpecies": {
       "name": "cramorant",
       "caption": "Cramorant"
@@ -5129,7 +5169,8 @@
     ],
     "num": 849,
     "gen": 8,
-    "altCaption": "Amped Form"
+    "altCaption": "Amped Form",
+    "hideAltCaption": true
   },
   {
     "name": "toxtricity-low-key",
@@ -5141,6 +5182,7 @@
     "num": 849,
     "gen": 8,
     "altCaption": "Low Key Form",
+    "hide": true,
     "baseSpecies": {
       "name": "toxtricity",
       "caption": "Toxtricity"

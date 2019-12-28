@@ -6,6 +6,14 @@
     "fairy"
   ],
   "num": 858,
+  "baseStats": {
+    "atk": 90,
+    "def": 95,
+    "hp": 57,
+    "spa": 136,
+    "spd": 103,
+    "spe": 29
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "hatterene"
   ],
-  "baseStats": {
-    "atk": 90,
-    "def": 95,
-    "hp": 57,
-    "spa": 136,
-    "spd": 103,
-    "spe": 29
-  },
   "abilities": {
     "1": "healer",
     "2": "anticipation",

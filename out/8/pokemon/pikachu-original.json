@@ -5,13 +5,6 @@
     "electric"
   ],
   "num": 25,
-  "gen": 7,
-  "altCaption": "Original Cap Pikachu",
-  "hide": true,
-  "baseSpecies": {
-    "name": "pikachu",
-    "caption": "Pikachu"
-  },
   "baseStats": {
     "atk": 55,
     "def": 40,
@@ -19,6 +12,13 @@
     "spa": 50,
     "spd": 50,
     "spe": 90
+  },
+  "gen": 7,
+  "altCaption": "Original Cap Pikachu",
+  "hide": true,
+  "baseSpecies": {
+    "name": "pikachu",
+    "caption": "Pikachu"
   },
   "abilities": {
     "1": "static",

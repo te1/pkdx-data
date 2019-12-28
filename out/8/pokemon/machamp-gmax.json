@@ -5,6 +5,14 @@
     "fighting"
   ],
   "num": 68,
+  "baseStats": {
+    "atk": 130,
+    "def": 80,
+    "hp": 90,
+    "spa": 65,
+    "spd": 85,
+    "spe": 55
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "machamp"
   ],
-  "baseStats": {
-    "atk": 130,
-    "def": 80,
-    "hp": 90,
-    "spa": 65,
-    "spd": 85,
-    "spe": 55
-  },
   "abilities": {
     "1": "guts",
     "2": "no-guard",

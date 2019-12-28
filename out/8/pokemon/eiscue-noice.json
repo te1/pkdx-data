@@ -5,6 +5,14 @@
     "ice"
   ],
   "num": 875,
+  "baseStats": {
+    "atk": 80,
+    "def": 70,
+    "hp": 75,
+    "spa": 65,
+    "spd": 50,
+    "spe": 130
+  },
   "isBattleOnly": true,
   "gen": 8,
   "altCaption": "Noice Face",
@@ -15,14 +23,6 @@
   "altBattleForms": [
     "eiscue"
   ],
-  "baseStats": {
-    "atk": 80,
-    "def": 70,
-    "hp": 75,
-    "spa": 65,
-    "spd": 50,
-    "spe": 130
-  },
   "abilities": {
     "1": "ice-face"
   },

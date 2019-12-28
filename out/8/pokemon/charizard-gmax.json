@@ -6,6 +6,14 @@
     "flying"
   ],
   "num": 6,
+  "baseStats": {
+    "atk": 84,
+    "def": 78,
+    "hp": 78,
+    "spa": 109,
+    "spd": 85,
+    "spe": 100
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "charizard"
   ],
-  "baseStats": {
-    "atk": 84,
-    "def": 78,
-    "hp": 78,
-    "spa": 109,
-    "spd": 85,
-    "spe": 100
-  },
   "abilities": {
     "1": "blaze",
     "H": "solar-power"

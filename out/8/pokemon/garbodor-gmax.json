@@ -5,6 +5,14 @@
     "poison"
   ],
   "num": 569,
+  "baseStats": {
+    "atk": 95,
+    "def": 82,
+    "hp": 80,
+    "spa": 60,
+    "spd": 82,
+    "spe": 75
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "garbodor"
   ],
-  "baseStats": {
-    "atk": 95,
-    "def": 82,
-    "hp": 80,
-    "spa": 60,
-    "spd": 82,
-    "spe": 75
-  },
   "abilities": {
     "1": "stench",
     "2": "weak-armor",

@@ -6,13 +6,6 @@
     "grass"
   ],
   "num": 710,
-  "gen": 6,
-  "altCaption": "Small Size",
-  "hide": true,
-  "baseSpecies": {
-    "name": "pumpkaboo",
-    "caption": "Pumpkaboo"
-  },
   "baseStats": {
     "atk": 66,
     "def": 70,
@@ -20,6 +13,13 @@
     "spa": 44,
     "spd": 55,
     "spe": 56
+  },
+  "gen": 6,
+  "altCaption": "Small Size",
+  "hide": true,
+  "baseSpecies": {
+    "name": "pumpkaboo",
+    "caption": "Pumpkaboo"
   },
   "abilities": {
     "1": "pickup",

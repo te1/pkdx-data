@@ -6,6 +6,14 @@
     "psychic"
   ],
   "num": 555,
+  "baseStats": {
+    "atk": 30,
+    "def": 105,
+    "hp": 105,
+    "spa": 140,
+    "spd": 105,
+    "spe": 55
+  },
   "isBattleOnly": true,
   "gen": 5,
   "altCaption": "Zen Mode",
@@ -16,14 +24,6 @@
   "altBattleForms": [
     "darmanitan"
   ],
-  "baseStats": {
-    "atk": 30,
-    "def": 105,
-    "hp": 105,
-    "spa": 140,
-    "spd": 105,
-    "spe": 55
-  },
   "abilities": {
     "1": "zen-mode"
   },

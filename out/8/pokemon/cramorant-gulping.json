@@ -6,6 +6,14 @@
     "water"
   ],
   "num": 845,
+  "baseStats": {
+    "atk": 85,
+    "def": 55,
+    "hp": 70,
+    "spa": 85,
+    "spd": 95,
+    "spe": 85
+  },
   "isBattleOnly": true,
   "gen": 8,
   "altCaption": "Gulping Form",
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "cramorant"
   ],
-  "baseStats": {
-    "atk": 85,
-    "def": 55,
-    "hp": 70,
-    "spa": 85,
-    "spd": 95,
-    "spe": 85
-  },
   "abilities": {
     "1": "gulp-missile"
   },

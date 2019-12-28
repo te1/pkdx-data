@@ -5,6 +5,14 @@
     "steel"
   ],
   "num": 879,
+  "baseStats": {
+    "atk": 130,
+    "def": 69,
+    "hp": 122,
+    "spa": 80,
+    "spd": 69,
+    "spe": 30
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "copperajah"
   ],
-  "baseStats": {
-    "atk": 130,
-    "def": 69,
-    "hp": 122,
-    "spa": 80,
-    "spd": 69,
-    "spe": 30
-  },
   "abilities": {
     "1": "sheer-force",
     "H": "heavy-metal"

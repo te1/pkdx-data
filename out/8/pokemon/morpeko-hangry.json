@@ -6,16 +6,6 @@
     "dark"
   ],
   "num": 877,
-  "isBattleOnly": true,
-  "gen": 8,
-  "altCaption": "Hangry Mode",
-  "baseSpecies": {
-    "name": "morpeko",
-    "caption": "Morpeko"
-  },
-  "altBattleForms": [
-    "morpeko"
-  ],
   "baseStats": {
     "atk": 95,
     "def": 58,
@@ -24,6 +14,17 @@
     "spd": 58,
     "spe": 97
   },
+  "isBattleOnly": true,
+  "gen": 8,
+  "altCaption": "Hangry Mode",
+  "hide": true,
+  "baseSpecies": {
+    "name": "morpeko",
+    "caption": "Morpeko"
+  },
+  "altBattleForms": [
+    "morpeko"
+  ],
   "abilities": {
     "1": "hunger-switch"
   },

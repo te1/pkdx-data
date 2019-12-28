@@ -5,6 +5,14 @@
     "normal"
   ],
   "num": 143,
+  "baseStats": {
+    "atk": 110,
+    "def": 65,
+    "hp": 160,
+    "spa": 65,
+    "spd": 110,
+    "spe": 30
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "snorlax"
   ],
-  "baseStats": {
-    "atk": 110,
-    "def": 65,
-    "hp": 160,
-    "spa": 65,
-    "spd": 110,
-    "spe": 30
-  },
   "abilities": {
     "1": "immunity",
     "2": "thick-fat",

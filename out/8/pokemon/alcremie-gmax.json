@@ -5,6 +5,14 @@
     "fairy"
   ],
   "num": 869,
+  "baseStats": {
+    "atk": 60,
+    "def": 75,
+    "hp": 65,
+    "spa": 110,
+    "spd": 121,
+    "spe": 64
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "alcremie"
   ],
-  "baseStats": {
-    "atk": 60,
-    "def": 75,
-    "hp": 65,
-    "spa": 110,
-    "spd": 121,
-    "spe": 64
-  },
   "abilities": {
     "1": "sweet-veil",
     "H": "aroma-veil"

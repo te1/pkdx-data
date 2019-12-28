@@ -6,6 +6,14 @@
     "fairy"
   ],
   "num": 778,
+  "baseStats": {
+    "atk": 90,
+    "def": 80,
+    "hp": 55,
+    "spa": 50,
+    "spd": 105,
+    "spe": 96
+  },
   "isBattleOnly": true,
   "gen": 7,
   "altCaption": "Busted Form",
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "mimikyu"
   ],
-  "baseStats": {
-    "atk": 90,
-    "def": 80,
-    "hp": 55,
-    "spa": 50,
-    "spd": 105,
-    "spe": 96
-  },
   "abilities": {
     "1": "disguise"
   },

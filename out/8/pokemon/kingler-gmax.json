@@ -5,6 +5,14 @@
     "water"
   ],
   "num": 99,
+  "baseStats": {
+    "atk": 130,
+    "def": 115,
+    "hp": 55,
+    "spa": 50,
+    "spd": 50,
+    "spe": 75
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "kingler"
   ],
-  "baseStats": {
-    "atk": 130,
-    "def": 115,
-    "hp": 55,
-    "spa": 50,
-    "spd": 50,
-    "spe": 75
-  },
   "abilities": {
     "1": "hyper-cutter",
     "2": "shell-armor",

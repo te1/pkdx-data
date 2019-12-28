@@ -6,6 +6,14 @@
     "steel"
   ],
   "num": 823,
+  "baseStats": {
+    "atk": 87,
+    "def": 105,
+    "hp": 98,
+    "spa": 53,
+    "spd": 85,
+    "spe": 67
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "corviknight"
   ],
-  "baseStats": {
-    "atk": 87,
-    "def": 105,
-    "hp": 98,
-    "spa": 53,
-    "spd": 85,
-    "spe": 67
-  },
   "abilities": {
     "1": "pressure",
     "2": "unnerve",

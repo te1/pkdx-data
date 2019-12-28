@@ -6,6 +6,14 @@
     "rock"
   ],
   "num": 834,
+  "baseStats": {
+    "atk": 115,
+    "def": 90,
+    "hp": 90,
+    "spa": 48,
+    "spd": 68,
+    "spe": 74
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "drednaw"
   ],
-  "baseStats": {
-    "atk": 115,
-    "def": 90,
-    "hp": 90,
-    "spa": 48,
-    "spd": 68,
-    "spe": 74
-  },
   "abilities": {
     "1": "strong-jaw",
     "2": "shell-armor",

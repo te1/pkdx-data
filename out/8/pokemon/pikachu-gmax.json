@@ -5,6 +5,14 @@
     "electric"
   ],
   "num": 25,
+  "baseStats": {
+    "atk": 55,
+    "def": 40,
+    "hp": 35,
+    "spa": 50,
+    "spd": 50,
+    "spe": 90
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "pikachu"
   ],
-  "baseStats": {
-    "atk": 55,
-    "def": 40,
-    "hp": 35,
-    "spa": 50,
-    "spd": 50,
-    "spe": 90
-  },
   "abilities": {
     "1": "static",
     "H": "lightning-rod"

@@ -5,7 +5,15 @@
     "electric",
     "poison"
   ],
-  "num": 844,
+  "num": 849,
+  "baseStats": {
+    "atk": 98,
+    "def": 70,
+    "hp": 75,
+    "spa": 114,
+    "spd": 70,
+    "spe": 75
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "toxtricity"
   ],
-  "baseStats": {
-    "atk": 98,
-    "def": 70,
-    "hp": 75,
-    "spa": 114,
-    "spd": 70,
-    "spe": 75
-  },
   "abilities": {
     "1": "punk-rock",
     "2": "plus",

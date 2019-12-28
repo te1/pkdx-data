@@ -6,6 +6,14 @@
     "dragon"
   ],
   "num": 841,
+  "baseStats": {
+    "atk": 110,
+    "def": 80,
+    "hp": 70,
+    "spa": 95,
+    "spd": 60,
+    "spe": 70
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "flapple"
   ],
-  "baseStats": {
-    "atk": 110,
-    "def": 80,
-    "hp": 70,
-    "spa": 95,
-    "spd": 60,
-    "spe": 70
-  },
   "abilities": {
     "1": "ripen",
     "2": "gluttony",

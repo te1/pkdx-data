@@ -6,12 +6,6 @@
     "steel"
   ],
   "num": 50,
-  "gen": 7,
-  "regional": "alola",
-  "baseSpecies": {
-    "name": "diglett",
-    "caption": "Diglett"
-  },
   "baseStats": {
     "atk": 55,
     "def": 30,
@@ -19,6 +13,12 @@
     "spa": 35,
     "spd": 45,
     "spe": 90
+  },
+  "gen": 7,
+  "regional": "alola",
+  "baseSpecies": {
+    "name": "diglett",
+    "caption": "Diglett"
   },
   "abilities": {
     "1": "sand-veil",

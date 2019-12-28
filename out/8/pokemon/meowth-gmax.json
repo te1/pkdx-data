@@ -5,6 +5,14 @@
     "normal"
   ],
   "num": 52,
+  "baseStats": {
+    "atk": 45,
+    "def": 35,
+    "hp": 40,
+    "spa": 40,
+    "spd": 40,
+    "spe": 90
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "meowth"
   ],
-  "baseStats": {
-    "atk": 45,
-    "def": 35,
-    "hp": 40,
-    "spa": 40,
-    "spd": 40,
-    "spe": 90
-  },
   "abilities": {
     "1": "pickup",
     "2": "technician",

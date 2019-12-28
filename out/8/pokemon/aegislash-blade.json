@@ -6,6 +6,14 @@
     "ghost"
   ],
   "num": 681,
+  "baseStats": {
+    "atk": 140,
+    "def": 50,
+    "hp": 60,
+    "spa": 140,
+    "spd": 50,
+    "spe": 60
+  },
   "isBattleOnly": true,
   "gen": 6,
   "altCaption": "Blade Form",
@@ -16,14 +24,6 @@
   "altBattleForms": [
     "aegislash"
   ],
-  "baseStats": {
-    "atk": 140,
-    "def": 50,
-    "hp": 60,
-    "spa": 140,
-    "spd": 50,
-    "spe": 60
-  },
   "abilities": {
     "1": "stance-change"
   },

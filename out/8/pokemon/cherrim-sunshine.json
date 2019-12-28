@@ -5,6 +5,14 @@
     "grass"
   ],
   "num": 421,
+  "baseStats": {
+    "atk": 60,
+    "def": 70,
+    "hp": 70,
+    "spa": 87,
+    "spd": 78,
+    "spe": 85
+  },
   "isBattleOnly": true,
   "gen": 4,
   "altCaption": "Sunshine Form",
@@ -16,14 +24,6 @@
   "altBattleForms": [
     "cherrim"
   ],
-  "baseStats": {
-    "atk": 60,
-    "def": 70,
-    "hp": 70,
-    "spa": 87,
-    "spd": 78,
-    "spe": 85
-  },
   "abilities": {
     "1": "flower-gift"
   },

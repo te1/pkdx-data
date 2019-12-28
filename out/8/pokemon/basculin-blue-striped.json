@@ -5,13 +5,6 @@
     "water"
   ],
   "num": 550,
-  "gen": 5,
-  "altCaption": "Blue-Striped Form",
-  "hide": true,
-  "baseSpecies": {
-    "name": "basculin",
-    "caption": "Basculin"
-  },
   "baseStats": {
     "atk": 92,
     "def": 65,
@@ -19,6 +12,13 @@
     "spa": 80,
     "spd": 55,
     "spe": 98
+  },
+  "gen": 5,
+  "altCaption": "Blue-Striped Form",
+  "hide": true,
+  "baseSpecies": {
+    "name": "basculin",
+    "caption": "Basculin"
   },
   "abilities": {
     "1": "rock-head",

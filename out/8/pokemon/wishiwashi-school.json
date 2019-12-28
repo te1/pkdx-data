@@ -5,6 +5,14 @@
     "water"
   ],
   "num": 746,
+  "baseStats": {
+    "atk": 140,
+    "def": 130,
+    "hp": 45,
+    "spa": 140,
+    "spd": 135,
+    "spe": 30
+  },
   "isBattleOnly": true,
   "gen": 7,
   "altCaption": "School Form",
@@ -15,14 +23,6 @@
   "altBattleForms": [
     "wishiwashi"
   ],
-  "baseStats": {
-    "atk": 140,
-    "def": 130,
-    "hp": 45,
-    "spa": 140,
-    "spd": 135,
-    "spe": 30
-  },
   "abilities": {
     "1": "schooling"
   },

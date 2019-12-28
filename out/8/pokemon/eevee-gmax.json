@@ -5,6 +5,14 @@
     "normal"
   ],
   "num": 133,
+  "baseStats": {
+    "atk": 55,
+    "def": 50,
+    "hp": 55,
+    "spa": 45,
+    "spd": 65,
+    "spe": 55
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "eevee"
   ],
-  "baseStats": {
-    "atk": 55,
-    "def": 50,
-    "hp": 55,
-    "spa": 45,
-    "spd": 65,
-    "spe": 55
-  },
   "abilities": {
     "1": "run-away",
     "2": "adaptability",

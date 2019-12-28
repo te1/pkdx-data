@@ -6,6 +6,14 @@
     "fire"
   ],
   "num": 839,
+  "baseStats": {
+    "atk": 80,
+    "def": 120,
+    "hp": 110,
+    "spa": 80,
+    "spd": 90,
+    "spe": 30
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "coalossal"
   ],
-  "baseStats": {
-    "atk": 80,
-    "def": 120,
-    "hp": 110,
-    "spa": 80,
-    "spd": 90,
-    "spe": 30
-  },
   "abilities": {
     "1": "steam-engine",
     "2": "flame-body",

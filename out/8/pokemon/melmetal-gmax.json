@@ -5,6 +5,14 @@
     "steel"
   ],
   "num": 809,
+  "baseStats": {
+    "atk": 143,
+    "def": 143,
+    "hp": 135,
+    "spa": 80,
+    "spd": 65,
+    "spe": 34
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -17,14 +25,6 @@
   "altBattleForms": [
     "melmetal"
   ],
-  "baseStats": {
-    "atk": 143,
-    "def": 143,
-    "hp": 135,
-    "spa": 80,
-    "spd": 65,
-    "spe": 34
-  },
   "abilities": {
     "1": "iron-fist"
   },

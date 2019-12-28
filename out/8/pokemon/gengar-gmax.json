@@ -6,6 +6,14 @@
     "poison"
   ],
   "num": 94,
+  "baseStats": {
+    "atk": 65,
+    "def": 60,
+    "hp": 60,
+    "spa": 130,
+    "spd": 75,
+    "spe": 110
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "gengar"
   ],
-  "baseStats": {
-    "atk": 65,
-    "def": 60,
-    "hp": 60,
-    "spa": 130,
-    "spd": 75,
-    "spe": 110
-  },
   "abilities": {
     "1": "cursed-body"
   },

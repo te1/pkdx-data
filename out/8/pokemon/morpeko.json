@@ -6,11 +6,6 @@
     "dark"
   ],
   "num": 877,
-  "gen": 8,
-  "altCaption": "Full Belly Mode",
-  "altBattleForms": [
-    "morpeko-hangry"
-  ],
   "baseStats": {
     "atk": 95,
     "def": 58,
@@ -19,6 +14,12 @@
     "spd": 58,
     "spe": 97
   },
+  "gen": 8,
+  "altCaption": "Full Belly Mode",
+  "hideAltCaption": true,
+  "altBattleForms": [
+    "morpeko-hangry"
+  ],
   "abilities": {
     "1": "hunger-switch"
   },

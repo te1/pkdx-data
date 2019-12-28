@@ -6,6 +6,14 @@
     "psychic"
   ],
   "num": 826,
+  "baseStats": {
+    "atk": 45,
+    "def": 110,
+    "hp": 60,
+    "spa": 80,
+    "spd": 120,
+    "spe": 90
+  },
   "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
@@ -18,14 +26,6 @@
   "altBattleForms": [
     "orbeetle"
   ],
-  "baseStats": {
-    "atk": 45,
-    "def": 110,
-    "hp": 60,
-    "spa": 80,
-    "spd": 120,
-    "spe": 90
-  },
   "abilities": {
     "1": "swarm",
     "2": "frisk",

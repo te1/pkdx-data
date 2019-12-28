@@ -251,6 +251,7 @@ async function exportPokemon(target, data) {
       caption: pkmn.name,
       types: _.map(pkmn.types, getTypeName),
       num: pkmn.num,
+      baseStats: pkmn.baseStats,
       isBattleOnly,
     };
 
@@ -341,7 +342,6 @@ async function exportPokemon(target, data) {
       altBattleForms,
       desc: pkmn.desc,
       shortDesc: pkmn.shortDesc,
-      baseStats: pkmn.baseStats,
       abilities,
       evos,
       prevo,

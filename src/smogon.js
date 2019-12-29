@@ -239,7 +239,7 @@ async function exportPokemon(target, data) {
     if (!pkmn) {
       return;
     }
-    if (pkmn.isNonstandard) {
+    if (pkmn.isNonstandard && pkmn.isNonstandard !== 'Unobtainable') {
       // console.warn('\t', 'Non standard', pkmn.name, '-', pkmn.isNonstandard);
       return;
     }
@@ -429,7 +429,7 @@ async function exportPokedex(target) {
   console.log(`processing ${data.length} pokedex entries...`);
 
   let altList = [];
-  let pkmn, altPkmn, alts;
+  let pkmn, altPkmn, alts, baseSpeciesName;
 
   data = _.map(data, item => {
     pkmn = _.find(pokemonDetails, { name: item.name });
@@ -441,15 +441,24 @@ async function exportPokedex(target) {
         alts = _.map(pkmn.altBattleForms, altName => {
           altPkmn = _.find(pokemonDetails, { name: altName });
 
-          if (!altPkmn || !altPkmn.tags || !_.includes(altPkmn.tags, 'gmax')) {
+          if (!altPkmn) {
+            console.warn('\t', 'Info not found for', altName);
             return;
           }
+
+          // if (!altPkmn.baseSpecies) {
+          //   console.warn('\t', 'No base species for', altName);
+          // }
+
+          baseSpeciesName = altPkmn.baseSpecies
+            ? altPkmn.baseSpecies.name
+            : undefined;
 
           return {
             num: item.num,
             name: altName,
             national: item.national,
-            baseSpeciesName: altPkmn.baseSpecies.name,
+            baseSpeciesName,
             tags: altPkmn.tags,
           };
         });

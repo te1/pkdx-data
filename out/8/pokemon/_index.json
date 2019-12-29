@@ -10061,5 +10061,28 @@
       "spe": 130
     },
     "gen": 8
+  },
+  {
+    "name": "eternatus-eternamax",
+    "caption": "Eternatus-Eternamax",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "num": 890,
+    "baseStats": {
+      "atk": 115,
+      "def": 250,
+      "hp": 255,
+      "spa": 125,
+      "spd": 250,
+      "spe": 130
+    },
+    "gen": 8,
+    "altCaption": "Eternamax Eternatus",
+    "baseSpecies": {
+      "name": "eternatus",
+      "caption": "Eternatus"
+    }
   }
 ]

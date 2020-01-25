@@ -424,7 +424,7 @@ async function exportItems(target, data) {
 
 async function exportPokedex(target) {
   console.log('loading data...');
-  let data = await fs.readJson('./in/static/8/pokedex/swsh.json');
+  let data = await fs.readJson('./in/static/8/pokedex/swsh-galar.json');
 
   console.log(`processing ${data.length} pokedex entries...`);
 
@@ -475,7 +475,7 @@ async function exportPokedex(target) {
   data = _.sortBy(data, 'num');
 
   console.log(`writing ${data.length} pokedex entries...\n`);
-  await exportData(path.join(target, 'pokedex/swsh.json'), data);
+  await exportData(path.join(target, 'pokedex/swsh-galar.json'), data);
 }
 
 async function exportAll(target) {

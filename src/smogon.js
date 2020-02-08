@@ -304,6 +304,10 @@ async function exportPokemon(target, data) {
         obj.hide = true;
       }
 
+      if (temp.isAltFormOverride) {
+        obj.isAltFormOverride = true;
+      }
+
       temp = _.find(index, { name: temp.base });
       if (temp) {
         obj.baseSpecies = { name: temp.name, caption: temp.caption };

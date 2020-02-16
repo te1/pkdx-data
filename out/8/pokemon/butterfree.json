@@ -35,7 +35,8 @@
     {
       "how": [
         "8M",
-        "8L24"
+        "8L24",
+        "8V"
       ],
       "what": "air-slash"
     },
@@ -60,13 +61,15 @@
     {
       "how": [
         "8M",
-        "8L32"
+        "8L32",
+        "8V"
       ],
       "what": "bug-buzz"
     },
     {
       "how": [
-        "8L8"
+        "8L8",
+        "8V"
       ],
       "what": "confusion"
     },
@@ -75,6 +78,12 @@
         "8M"
       ],
       "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "dream-eater"
     },
     {
       "how": [
@@ -96,7 +105,8 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "facade"
     },
@@ -115,7 +125,7 @@
     {
       "how": [
         "8L0",
-        "8L1"
+        "8V"
       ],
       "what": "gust"
     },
@@ -127,13 +137,20 @@
     },
     {
       "how": [
+        "8V"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
         "8M"
       ],
       "what": "hurricane"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "hyper-beam"
     },
@@ -145,7 +162,14 @@
     },
     {
       "how": [
-        "8L12"
+        "8V"
+      ],
+      "what": "mega-drain"
+    },
+    {
+      "how": [
+        "8L12",
+        "8V"
       ],
       "what": "poison-powder"
     },
@@ -157,25 +181,29 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "protect"
     },
     {
       "how": [
-        "8L16"
+        "8L16",
+        "8V"
       ],
       "what": "psybeam"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "psychic"
     },
     {
       "how": [
-        "8L44"
+        "8L44",
+        "8V"
       ],
       "what": "quiver-dance"
     },
@@ -193,9 +221,22 @@
     },
     {
       "how": [
-        "8M"
+        "8V"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M",
+        "8V"
       ],
       "what": "rest"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "roost"
     },
     {
       "how": [
@@ -212,7 +253,8 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "shadow-ball"
     },
@@ -224,7 +266,8 @@
     },
     {
       "how": [
-        "8L12"
+        "8L12",
+        "8V"
       ],
       "what": "sleep-powder"
     },
@@ -242,7 +285,8 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "solar-beam"
     },
@@ -254,13 +298,15 @@
     },
     {
       "how": [
-        "8L12"
+        "8L12",
+        "8V"
       ],
       "what": "stun-spore"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "substitute"
     },
@@ -272,7 +318,8 @@
     },
     {
       "how": [
-        "8L4"
+        "8L4",
+        "8V"
       ],
       "what": "supersonic"
     },
@@ -296,13 +343,26 @@
     },
     {
       "how": [
+        "8V"
+      ],
+      "what": "teleport"
+    },
+    {
+      "how": [
         "8M"
       ],
       "what": "thief"
     },
     {
       "how": [
-        "8M"
+        "8V"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8V"
       ],
       "what": "u-turn"
     },
@@ -314,7 +374,8 @@
     },
     {
       "how": [
-        "8L20"
+        "8L20",
+        "8V"
       ],
       "what": "whirlwind"
     },
@@ -327,7 +388,7 @@
     {
       "how": [
         "8L0",
-        "8L1"
+        "8V"
       ],
       "what": "harden"
     },
@@ -351,13 +412,15 @@
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "8V"
       ],
       "what": "string-shot"
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "8V"
       ],
       "what": "tackle"
     }

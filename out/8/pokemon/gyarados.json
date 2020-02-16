@@ -43,14 +43,21 @@
     },
     {
       "how": [
+        "8V"
+      ],
+      "what": "bind"
+    },
+    {
+      "how": [
         "8L0",
-        "8L1"
+        "8V"
       ],
       "what": "bite"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "blizzard"
     },
@@ -88,13 +95,15 @@
     {
       "how": [
         "8M",
-        "8L24"
+        "8L24",
+        "8V"
       ],
       "what": "crunch"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "dark-pulse"
     },
@@ -113,13 +122,21 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "dragon-pulse"
     },
     {
       "how": [
-        "8M"
+        "8V"
+      ],
+      "what": "dragon-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8V"
       ],
       "what": "earthquake"
     },
@@ -131,13 +148,15 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "facade"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "fire-blast"
     },
@@ -149,7 +168,8 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "flamethrower"
     },
@@ -167,6 +187,12 @@
     },
     {
       "how": [
+        "8V"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
         "8M",
         "8L44"
       ],
@@ -175,20 +201,23 @@
     {
       "how": [
         "8M",
-        "8L40"
+        "8L40",
+        "8V"
       ],
       "what": "hydro-pump"
     },
     {
       "how": [
         "8M",
-        "8L52"
+        "8L52",
+        "8V"
       ],
       "what": "hyper-beam"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "ice-beam"
     },
@@ -213,13 +242,15 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "iron-tail"
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "8V"
       ],
       "what": "leer"
     },
@@ -231,7 +262,8 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "outrage"
     },
@@ -249,7 +281,8 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "protect"
     },
@@ -262,7 +295,14 @@
     },
     {
       "how": [
-        "8M"
+        "8V"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M",
+        "8V"
       ],
       "what": "rest"
     },
@@ -280,7 +320,8 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "scald"
     },
@@ -317,13 +358,15 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "substitute"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "surf"
     },
@@ -335,33 +378,44 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "taunt"
     },
     {
       "how": [
-        "8L48"
+        "8L48",
+        "8V"
       ],
       "what": "thrash"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "thunder"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "thunderbolt"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "8V"
       ],
       "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "toxic"
     },
     {
       "how": [
@@ -378,7 +432,8 @@
     {
       "how": [
         "8M",
-        "8L21"
+        "8L21",
+        "8V"
       ],
       "what": "waterfall"
     },
@@ -409,13 +464,15 @@
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "8V"
       ],
       "what": "splash"
     },
     {
       "how": [
-        "8L15"
+        "8L15",
+        "8V"
       ],
       "what": "tackle"
     }

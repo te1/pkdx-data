@@ -447,9 +447,9 @@ async function exportPokedex(target) {
             return;
           }
 
-          // if (!altPkmn.baseSpecies) {
-          //   console.warn('\t', 'No base species for', altName);
-          // }
+          if (!altPkmn.baseSpecies) {
+            console.warn('\t', 'No base species for', altName);
+          }
 
           baseSpeciesName = altPkmn.baseSpecies
             ? altPkmn.baseSpecies.name

@@ -70,7 +70,14 @@
       "spe": 80
     },
     "isBattleOnly": true,
-    "gen": 8
+    "gen": 8,
+    "baseSpecies": {
+      "name": "venusaur",
+      "caption": "Venusaur"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "name": "charmander",
@@ -217,7 +224,14 @@
       "spe": 78
     },
     "isBattleOnly": true,
-    "gen": 8
+    "gen": 8,
+    "baseSpecies": {
+      "name": "blastoise",
+      "caption": "Blastoise"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "name": "caterpie",
@@ -12293,7 +12307,14 @@
       "spe": 97
     },
     "isBattleOnly": true,
-    "gen": 8
+    "gen": 8,
+    "baseSpecies": {
+      "name": "urshifu",
+      "caption": "Urshifu"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "name": "urshifu-rapid-strike",
@@ -12330,7 +12351,14 @@
       "spe": 97
     },
     "isBattleOnly": "Urshifu-Rapid-Strike",
-    "gen": 8
+    "gen": 8,
+    "baseSpecies": {
+      "name": "urshifu-rapid-strike",
+      "caption": "Urshifu-Rapid-Strike"
+    },
+    "tags": [
+      "gmax"
+    ]
   },
   {
     "name": "zarude",

@@ -1,0 +1,553 @@
+{
+  "name": "emolga",
+  "caption": "Emolga",
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "num": 587,
+  "baseStats": {
+    "atk": 75,
+    "def": 60,
+    "hp": 55,
+    "spa": 75,
+    "spd": 60,
+    "spe": 103
+  },
+  "gen": 5,
+  "abilities": {
+    "1": "static",
+    "H": "motor-drive"
+  },
+  "height": 0.4,
+  "weight": 5,
+  "learnset": [
+    {
+      "how": [
+        "8M",
+        "8L25",
+        "7M",
+        "7L30",
+        "6M",
+        "6L30",
+        "5M",
+        "5L30"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L55",
+        "7L46",
+        "6L46",
+        "5L46"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "5D"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8L20",
+        "7L10",
+        "6L10",
+        "5L10"
+      ],
+      "what": "charge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "charge-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "5D"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "8E",
+        "7T"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "8L50",
+        "7L50",
+        "6L50",
+        "5L50"
+      ],
+      "what": "discharge"
+    },
+    {
+      "how": [
+        "8L5",
+        "7M",
+        "7L19",
+        "6M",
+        "6L19",
+        "5M",
+        "5L19"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "eerie-impulse"
+    },
+    {
+      "how": [
+        "8M",
+        "7L26",
+        "6L26",
+        "5L26"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "electroweb"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35",
+        "7L38",
+        "6L38",
+        "5L38"
+      ],
+      "what": "encore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "last-resort"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45",
+        "7M",
+        "7L34",
+        "6M",
+        "6L34",
+        "5M",
+        "5L34"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L15",
+        "6L15"
+      ],
+      "what": "nuzzle"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L10",
+        "7L4",
+        "6L4",
+        "5L4",
+        "5D"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "rising-voltage"
+    },
+    {
+      "how": [
+        "8E",
+        "7M",
+        "7E",
+        "6M",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7L22",
+        "7E",
+        "6T",
+        "6L22",
+        "6E",
+        "5L22",
+        "5E"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L30",
+        "7L13",
+        "6L13",
+        "5L13"
+      ],
+      "what": "spark"
+    },
+    {
+      "how": [
+        "8M",
+        "7E"
+      ],
+      "what": "speed-swap"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L7",
+        "6L7",
+        "5L7"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "thunder-shock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "tickle"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7M",
+        "7L42",
+        "6M",
+        "6L42",
+        "5M",
+        "5L42"
+      ],
+      "what": "volt-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "wild-charge"
+    }
+  ]
+}

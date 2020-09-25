@@ -1,0 +1,480 @@
+{
+  "name": "dedenne",
+  "caption": "Dedenne",
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "num": 702,
+  "baseStats": {
+    "atk": 58,
+    "def": 57,
+    "hp": 67,
+    "spa": 81,
+    "spd": 67,
+    "spe": 101
+  },
+  "gen": 6,
+  "abilities": {
+    "1": "cheek-pouch",
+    "2": "pickup",
+    "H": "plus"
+  },
+  "height": 0.2,
+  "weight": 2.2,
+  "learnset": [
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L10",
+        "7L11",
+        "6L11"
+      ],
+      "what": "charge"
+    },
+    {
+      "how": [
+        "7M",
+        "7L34",
+        "6M",
+        "6L34"
+      ],
+      "what": "charge-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20",
+        "7L14",
+        "6L14"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "6M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8M",
+        "6M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L40",
+        "7L50",
+        "6L50"
+      ],
+      "what": "discharge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E"
+      ],
+      "what": "eerie-impulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electric-terrain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "electroweb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8L55",
+        "7L39",
+        "6L39"
+      ],
+      "what": "entrainment"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7E",
+        "6T",
+        "6E"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "7T",
+        "6T"
+      ],
+      "what": "last-resort"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "6T"
+      ],
+      "what": "magnet-rise"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L20",
+        "6L20"
+      ],
+      "what": "nuzzle"
+    },
+    {
+      "how": [
+        "8L25",
+        "7L17",
+        "6L17"
+      ],
+      "what": "parabolic-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45",
+        "7L42",
+        "6L42"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "7T",
+        "6T"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35",
+        "7M",
+        "7L30",
+        "6M",
+        "6L30"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "6M"
+      ],
+      "what": "retaliate"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "rising-voltage"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "7T",
+        "6T"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35",
+        "7T",
+        "7L31",
+        "6T",
+        "6L31"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8L50",
+        "7T",
+        "6T"
+      ],
+      "what": "super-fang"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L5",
+        "7L1",
+        "6L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "tearful-look"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M",
+        "8L60",
+        "7M",
+        "7L45",
+        "6M",
+        "6L45"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "thunder-punch"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L7",
+        "6L7"
+      ],
+      "what": "thunder-shock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7L23",
+        "6M",
+        "6L23"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30",
+        "7M",
+        "7L26",
+        "6M",
+        "6L26"
+      ],
+      "what": "volt-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "wild-charge"
+    }
+  ]
+}

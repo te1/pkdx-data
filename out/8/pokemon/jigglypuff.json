@@ -1,0 +1,1883 @@
+{
+  "name": "jigglypuff",
+  "caption": "Jigglypuff",
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "num": 39,
+  "baseStats": {
+    "atk": 45,
+    "def": 20,
+    "hp": 115,
+    "spa": 45,
+    "spd": 25,
+    "spe": 20
+  },
+  "gen": 1,
+  "abilities": {
+    "2": "competitive",
+    "H": "friend-guard"
+  },
+  "evos": [
+    "wigglytuff"
+  ],
+  "prevo": "igglybuff",
+  "height": 0.5,
+  "weight": 5.5,
+  "learnset": [
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24",
+        "8V",
+        "7L32",
+        "7V",
+        "6L33",
+        "5L33",
+        "4L29",
+        "3T",
+        "3L34"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "bubble-beam"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "charge-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "copycat"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8L8",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L3",
+        "7V",
+        "6L3",
+        "5L5",
+        "4L5",
+        "3T",
+        "3L4"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "detect"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L14",
+        "7V",
+        "6L13",
+        "5L13",
+        "4L13",
+        "3L14"
+      ],
+      "what": "disable"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L11",
+        "6L11"
+      ],
+      "what": "disarming-voice"
+    },
+    {
+      "how": [
+        "8L44",
+        "8V",
+        "7L45",
+        "7V",
+        "6L49",
+        "5L53",
+        "4L49",
+        "3T",
+        "3L49"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4M"
+      ],
+      "what": "drain-punch"
+    },
+    {
+      "how": [
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "dream-eater"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "dynamic-punch"
+    },
+    {
+      "how": [
+        "8L4",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "echoed-voice"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "4M",
+        "3T"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "fire-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "4M",
+        "3M"
+      ],
+      "what": "focus-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "gravity"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32",
+        "7M",
+        "7L35",
+        "6M",
+        "6L37",
+        "5M",
+        "5L37",
+        "4M",
+        "4L33"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8V",
+        "7V",
+        "4T"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "heal-bell"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "7T",
+        "7L41",
+        "6T",
+        "6L44",
+        "5T",
+        "5L49",
+        "4L45",
+        "3L44"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "ice-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "last-resort"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "magic-coat"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "3T"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "3T"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8L28",
+        "8V",
+        "7L38",
+        "7V",
+        "6L37",
+        "5L45",
+        "4L41",
+        "3T",
+        "3L39"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "misty-explosion"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "misty-terrain"
+    },
+    {
+      "how": [
+        "7V",
+        "4T",
+        "3T"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "7L9",
+        "6L8"
+      ],
+      "what": "play-nice"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "8V"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L5",
+        "7V",
+        "6L5",
+        "5L9",
+        "4L9",
+        "3L9"
+      ],
+      "what": "pound"
+    },
+    {
+      "how": [
+        "6M"
+      ],
+      "what": "power-up-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "psych-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4M"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20",
+        "8V",
+        "7M",
+        "7L30",
+        "7V",
+        "6M",
+        "6L29",
+        "5M",
+        "5L29",
+        "4M",
+        "4L25",
+        "3M",
+        "3L29"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M"
+      ],
+      "what": "retaliate"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "role-play"
+    },
+    {
+      "how": [
+        "7L20",
+        "7V",
+        "6L21",
+        "5L21",
+        "4T",
+        "4L17",
+        "3T",
+        "3L19"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16",
+        "7M",
+        "7L22",
+        "6M",
+        "6L17",
+        "5M",
+        "5L17"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8V",
+        "7V",
+        "3T"
+      ],
+      "what": "seismic-toss"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "4M",
+        "3M"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "4L1",
+        "3L1"
+      ],
+      "what": "sing"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "skull-bash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5T",
+        "4M",
+        "3T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L25"
+      ],
+      "what": "spit-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T",
+        "6T",
+        "5T",
+        "4M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-roller"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L25"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "strength"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "submission"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L25"
+      ],
+      "what": "swallow"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sweet-kiss"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8V",
+        "7V"
+      ],
+      "what": "teleport"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "thunder-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7V"
+      ],
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "4M",
+        "3M"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "wild-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "5M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "zap-cannon"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "3T"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "4L1",
+        "3L1",
+        "3S0"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L11",
+        "6L11",
+        "5L17",
+        "4L17"
+      ],
+      "what": "copycat"
+    },
+    {
+      "how": [
+        "3T"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E",
+        "4E"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8L4",
+        "7L3",
+        "7V",
+        "6L3",
+        "5L5",
+        "4L5",
+        "3T",
+        "3L4",
+        "3S0"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "detect"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L16"
+      ],
+      "what": "disable"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "disarming-voice"
+    },
+    {
+      "how": [
+        "3T"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "dream-eater"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "echoed-voice"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "4M",
+        "3T"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "5D",
+        "4E",
+        "3E"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E",
+        "4T",
+        "4E"
+      ],
+      "what": "gravity"
+    },
+    {
+      "how": [
+        "7V",
+        "4T"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "heal-bell"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E"
+      ],
+      "what": "heal-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "5D",
+        "4T"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "hyper-voice"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E",
+        "4T",
+        "4E"
+      ],
+      "what": "last-resort"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "magic-coat"
+    },
+    {
+      "how": [
+        "8M",
+        "3T"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M",
+        "3T"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "3T"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E"
+      ],
+      "what": "misty-terrain"
+    },
+    {
+      "how": [
+        "7V",
+        "4T",
+        "3T"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "perish-song"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L5",
+        "7V",
+        "6L5",
+        "5L9",
+        "4L9",
+        "3L9"
+      ],
+      "what": "pound"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "present"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "psych-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4M"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "role-play"
+    },
+    {
+      "how": [
+        "8E",
+        "7V",
+        "4T",
+        "3T"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "3T"
+      ],
+      "what": "seismic-toss"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "4M",
+        "3M"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "5D",
+        "4L1",
+        "3L1",
+        "3S0"
+      ],
+      "what": "sing"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7E",
+        "7V",
+        "6M",
+        "6E",
+        "5T",
+        "5E",
+        "4M",
+        "3T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L8",
+        "7L9",
+        "7V",
+        "6L9",
+        "5L13",
+        "4L13",
+        "3L14"
+      ],
+      "what": "sweet-kiss"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "3S0"
+      ],
+      "what": "tickle"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "4M",
+        "3M"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "wild-charge"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "wish"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "5M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "zap-cannon"
+    }
+  ]
+}

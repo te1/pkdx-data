@@ -1,0 +1,1283 @@
+{
+  "name": "scolipede",
+  "caption": "Scolipede",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "num": 545,
+  "baseStats": {
+    "atk": 100,
+    "def": 89,
+    "hp": 60,
+    "spa": 55,
+    "spd": 69,
+    "spe": 112
+  },
+  "gen": 5,
+  "abilities": {
+    "1": "poison-point",
+    "2": "swarm",
+    "H": "speed-boost"
+  },
+  "prevo": "whirlipede",
+  "height": 2.5,
+  "weight": 200.5,
+  "learnset": [
+    {
+      "how": [
+        "8M",
+        "8L42",
+        "7L33",
+        "6L33",
+        "5L33"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7L1",
+        "6L30",
+        "5L30"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8L20",
+        "7T",
+        "7L23",
+        "6T",
+        "6L23",
+        "5T",
+        "5L23"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "cross-poison"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L66",
+        "7L55",
+        "6L55",
+        "5L55"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7T",
+        "7L1",
+        "6T",
+        "5T"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L74",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "megahorn"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pin-missile"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "poison-sting"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L19",
+        "6L19",
+        "5L19",
+        "5D"
+      ],
+      "what": "poison-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7M",
+        "7L15",
+        "6M",
+        "6L15",
+        "5M",
+        "5L15"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "skitter-smack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "smart-strike"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-roller"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "strength"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "5D"
+      ],
+      "what": "superpower"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L34"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8L50",
+        "7M",
+        "7L44",
+        "6M",
+        "6L44",
+        "5M",
+        "5L44"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "5D"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "8M",
+        "8L58",
+        "7L47",
+        "6L47"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M",
+        "8L26",
+        "7M",
+        "7L28",
+        "6M",
+        "6L28",
+        "5M",
+        "5L28"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "x-scissor"
+    },
+    {
+      "how": [
+        "8M",
+        "8L38",
+        "7L32",
+        "6L32",
+        "5L32"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L20",
+        "7T",
+        "7L23",
+        "6T",
+        "6L23",
+        "5T",
+        "5L23"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8L56",
+        "7L50",
+        "6L50",
+        "5L50"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M",
+        "8L0",
+        "7T",
+        "7L1",
+        "6T",
+        "6L22",
+        "5T",
+        "5L22"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pin-missile"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "poison-sting"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L19",
+        "6L19",
+        "5L19"
+      ],
+      "what": "poison-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7M",
+        "7L15",
+        "6M",
+        "6L15",
+        "5M",
+        "5L15"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "skitter-smack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-roller"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L32"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8L44",
+        "7M",
+        "7L41",
+        "6M",
+        "6L41",
+        "5M",
+        "5L41"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50",
+        "7L43",
+        "6L43"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M",
+        "8L26",
+        "7M",
+        "7L28",
+        "6M",
+        "6L28",
+        "5M",
+        "5L28"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32",
+        "7L29",
+        "6L29",
+        "5L29"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8L20",
+        "7T",
+        "7L22",
+        "6T",
+        "6L22",
+        "5T",
+        "5L22"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8L44",
+        "7L43",
+        "6L43",
+        "5L43"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hex"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "pin-missile"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L5",
+        "6L5",
+        "5L5"
+      ],
+      "what": "poison-sting"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L19",
+        "6L19",
+        "5L19"
+      ],
+      "what": "poison-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L8",
+        "7M",
+        "7L15",
+        "6M",
+        "6L15",
+        "5M",
+        "5L15"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8L4",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L16",
+        "7L8",
+        "6L8",
+        "5L8"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "skitter-smack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "spikes"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-roller"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L28",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8L36",
+        "7M",
+        "7L36",
+        "6M",
+        "6L36",
+        "5M",
+        "5L36"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7L38"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24",
+        "7M",
+        "7L26",
+        "6M",
+        "6L26",
+        "5M",
+        "5L26"
+      ],
+      "what": "venoshock"
+    }
+  ]
+}

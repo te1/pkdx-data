@@ -1,0 +1,569 @@
+{
+  "name": "shinx",
+  "caption": "Shinx",
+  "types": [
+    "electric"
+  ],
+  "num": 403,
+  "baseStats": {
+    "atk": 65,
+    "def": 34,
+    "hp": 45,
+    "spa": 40,
+    "spd": 34,
+    "spe": 45
+  },
+  "gen": 4,
+  "abilities": {
+    "1": "rivalry",
+    "2": "intimidate",
+    "H": "guts"
+  },
+  "evos": [
+    "luxio"
+  ],
+  "height": 0.5,
+  "weight": 9.5,
+  "learnset": [
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E",
+        "7L11",
+        "6L11"
+      ],
+      "what": "baby-doll-eyes"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L17",
+        "6L17",
+        "5L17",
+        "4L13"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8L8",
+        "7L9",
+        "6L9",
+        "5L9",
+        "5D",
+        "4L9"
+      ],
+      "what": "charge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "charge-beam"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "7L33",
+        "6L33",
+        "5L33",
+        "4L29"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "8L40",
+        "7L41",
+        "6L41",
+        "5L41",
+        "4L41"
+      ],
+      "what": "discharge"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "double-kick"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E"
+      ],
+      "what": "eerie-impulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "4M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E"
+      ],
+      "what": "fake-tears"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "4E"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "4T"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "4T"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5E"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E",
+        "4E"
+      ],
+      "what": "howl"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "4E"
+      ],
+      "what": "ice-fang"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L5",
+        "6L5",
+        "5L5",
+        "4L5"
+      ],
+      "what": "leer"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "5D",
+        "4T"
+      ],
+      "what": "magnet-rise"
+    },
+    {
+      "how": [
+        "4T"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E",
+        "5D",
+        "4E"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-fangs"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E",
+        "4E"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "rising-voltage"
+    },
+    {
+      "how": [
+        "8L20",
+        "7M",
+        "7L21",
+        "6M",
+        "6L21",
+        "5M",
+        "5L21",
+        "4M",
+        "4L21"
+      ],
+      "what": "roar"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28",
+        "7L37",
+        "6L37",
+        "5L37",
+        "4L37"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5E",
+        "4M"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T",
+        "4M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8L16",
+        "7L13",
+        "6L13",
+        "5L13",
+        "4L13"
+      ],
+      "what": "spark"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "strength"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L44",
+        "7M",
+        "7L25",
+        "6M",
+        "6L25",
+        "5M",
+        "5L25",
+        "4M",
+        "4L25"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "4T"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1",
+        "4L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E",
+        "4E"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M",
+        "7L29",
+        "7E",
+        "6L29",
+        "6E",
+        "5L29",
+        "5E",
+        "4L29",
+        "4E"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8L4"
+      ],
+      "what": "thunder-shock"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "volt-switch"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48",
+        "7M",
+        "7L45",
+        "6M",
+        "6L45",
+        "5M",
+        "5L45"
+      ],
+      "what": "wild-charge"
+    }
+  ]
+}

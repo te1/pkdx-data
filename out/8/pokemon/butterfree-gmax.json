@@ -35,21 +35,49 @@
   "learnset": [
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "6M",
+        "5M"
       ],
       "what": "acrobatics"
     },
     {
       "how": [
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M",
+        "3S0"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "5D",
+        "4T"
+      ],
+      "what": "air-cutter"
+    },
+    {
+      "how": [
         "8M",
         "8L24",
-        "8V"
+        "8V",
+        "7L43"
       ],
       "what": "air-slash"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "attract"
     },
@@ -61,7 +89,11 @@
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
       ],
       "what": "bug-bite"
     },
@@ -69,16 +101,65 @@
       "how": [
         "8M",
         "8L32",
-        "8V"
+        "8V",
+        "7L31",
+        "6L42",
+        "5L42",
+        "4L40"
       ],
       "what": "bug-buzz"
     },
     {
       "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
         "8L8",
-        "8V"
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "5D",
+        "4L1",
+        "3L1"
       ],
       "what": "confusion"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "7T",
+        "4M"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "double-team"
     },
     {
       "how": [
@@ -88,51 +169,93 @@
     },
     {
       "how": [
-        "8V"
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
       ],
       "what": "dream-eater"
     },
     {
       "how": [
-        "8M"
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
       ],
       "what": "electroweb"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7V",
+        "4M",
+        "3T"
       ],
       "what": "endure"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
       ],
       "what": "energy-ball"
     },
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "facade"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4M",
+        "3M"
       ],
       "what": "giga-drain"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
       ],
       "what": "giga-impact"
     },
     {
       "how": [
         "8L0",
-        "8V"
+        "8V",
+        "7L1",
+        "7V",
+        "6L16",
+        "5L16",
+        "4L16",
+        "3L28"
       ],
       "what": "gust"
     },
@@ -157,9 +280,22 @@
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "infestation"
     },
     {
       "how": [
@@ -169,14 +305,34 @@
     },
     {
       "how": [
-        "8V"
+        "8V",
+        "7V"
       ],
       "what": "mega-drain"
     },
     {
       "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "3S0"
+      ],
+      "what": "morning-sun"
+    },
+    {
+      "how": [
         "8L12",
-        "8V"
+        "8V",
+        "7L13",
+        "7V",
+        "6L12",
+        "5L12",
+        "4L12",
+        "3L13"
       ],
       "what": "poison-powder"
     },
@@ -189,150 +345,302 @@
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "protect"
     },
     {
       "how": [
         "8L16",
-        "8V"
+        "8V",
+        "7L17",
+        "7V",
+        "6L24",
+        "5L24",
+        "4L24",
+        "3L34"
       ],
       "what": "psybeam"
     },
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M",
+        "3S0"
       ],
       "what": "psychic"
     },
     {
       "how": [
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "psych-up"
+    },
+    {
+      "how": [
         "8L44",
-        "8V"
+        "8V",
+        "7L47",
+        "6L46",
+        "5L46"
       ],
       "what": "quiver-dance"
     },
     {
       "how": [
-        "8L40"
+        "8L40",
+        "7L35",
+        "6L34",
+        "5L34"
       ],
       "what": "rage-powder"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "rain-dance"
     },
     {
       "how": [
-        "8V"
+        "8V",
+        "7V"
       ],
       "what": "reflect"
     },
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "rest"
     },
     {
       "how": [
-        "8V"
+        "8V",
+        "7M",
+        "6M",
+        "5T",
+        "5D",
+        "4M"
       ],
       "what": "roost"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "6M",
+        "5M"
       ],
       "what": "round"
     },
     {
       "how": [
         "8M",
-        "8L28"
+        "8L28",
+        "7M",
+        "7L25",
+        "7V",
+        "6M",
+        "6L36",
+        "5M",
+        "5L36",
+        "4M",
+        "4L34",
+        "3M",
+        "3L40"
       ],
       "what": "safeguard"
     },
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "shadow-ball"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4M",
+        "3M"
       ],
       "what": "skill-swap"
     },
     {
       "how": [
         "8L12",
-        "8V"
+        "8V",
+        "7L13",
+        "7V",
+        "6L12",
+        "5L12",
+        "4L12",
+        "3L15",
+        "3S0"
       ],
       "what": "sleep-powder"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5T",
+        "4M",
+        "3T"
       ],
       "what": "sleep-talk"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
       ],
       "what": "snore"
     },
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "solar-beam"
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "4T"
       ],
       "what": "string-shot"
     },
     {
       "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
         "8L12",
-        "8V"
+        "8V",
+        "7L13",
+        "7V",
+        "6L12",
+        "5L12",
+        "4L12",
+        "3L14"
       ],
       "what": "stun-spore"
     },
     {
       "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
       ],
       "what": "substitute"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "sunny-day"
     },
     {
       "how": [
         "8L4",
-        "8V"
+        "8V",
+        "7L23",
+        "7V",
+        "6L18",
+        "5L18",
+        "4L18",
+        "3L18"
       ],
       "what": "supersonic"
     },
     {
       "how": [
-        "8M"
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "4T",
+        "3T"
       ],
       "what": "swift"
     },
@@ -344,90 +652,196 @@
     },
     {
       "how": [
-        "8L36"
+        "8L36",
+        "7T",
+        "7L41",
+        "6T",
+        "6L30",
+        "5T",
+        "5L30",
+        "4T",
+        "4L30"
       ],
       "what": "tailwind"
     },
     {
       "how": [
-        "8V"
+        "7V"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8V",
+        "7V"
       ],
       "what": "teleport"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "thief"
     },
     {
       "how": [
-        "8V"
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
       ],
       "what": "toxic"
     },
     {
       "how": [
+        "4T"
+      ],
+      "what": "twister"
+    },
+    {
+      "how": [
         "8M",
-        "8V"
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
       ],
       "what": "u-turn"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M",
+        "6M",
+        "5M"
       ],
       "what": "venoshock"
     },
     {
       "how": [
         "8L20",
-        "8V"
+        "8V",
+        "7L29",
+        "7V",
+        "6L22",
+        "5L22",
+        "4L22",
+        "3L23"
       ],
       "what": "whirlwind"
     },
     {
       "how": [
-        "8M"
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
       ],
       "what": "electroweb"
     },
     {
       "how": [
         "8L0",
-        "8V"
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "4L1",
+        "3L1"
       ],
       "what": "harden"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
       ],
       "what": "iron-defense"
     },
     {
       "how": [
-        "8L9"
+        "4T"
+      ],
+      "what": "string-shot"
+    },
+    {
+      "how": [
+        "8L9",
+        "7T",
+        "7L9",
+        "6T",
+        "6L15",
+        "5T",
+        "5L15",
+        "4T",
+        "4L15"
       ],
       "what": "bug-bite"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T",
+        "6T",
+        "5T"
       ],
       "what": "electroweb"
     },
     {
       "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
         "8L1",
-        "8V"
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "4T",
+        "4L1",
+        "3L1"
       ],
       "what": "string-shot"
     },
     {
       "how": [
         "8L1",
-        "8V"
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "4L1",
+        "3L1"
       ],
       "what": "tackle"
     }

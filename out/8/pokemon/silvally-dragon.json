@@ -23,63 +23,90 @@
   "abilities": {
     "1": "rks-system"
   },
-  "prevo": "type-null",
   "height": 2.3,
   "weight": 100.5,
   "learnset": [
     {
       "how": [
-        "8L1"
+        "8L1",
+        "7M",
+        "7L20"
       ],
       "what": "aerial-ace"
     },
     {
       "how": [
         "8M",
-        "8L30"
+        "8L30",
+        "7L60"
       ],
       "what": "air-slash"
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "7L15"
       ],
       "what": "bite"
     },
     {
       "how": [
+        "7M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
         "8M",
-        "8L45"
+        "8L45",
+        "7L50"
       ],
       "what": "crunch"
     },
     {
       "how": [
-        "8L25"
+        "8L25",
+        "7L25"
       ],
       "what": "crush-claw"
     },
     {
       "how": [
-        "8L55"
+        "7T"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "8L55",
+        "7L80"
       ],
       "what": "double-edge"
     },
     {
       "how": [
-        "8L15"
+        "8L15",
+        "7L55"
       ],
       "what": "double-hit"
     },
     {
       "how": [
-        "8T"
+        "7M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T",
+        "7T"
       ],
       "what": "draco-meteor"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "dragon-claw"
     },
@@ -91,149 +118,200 @@
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "7M"
       ],
       "what": "explosion"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "facade"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L1",
+        "7L1"
       ],
       "what": "fire-fang"
     },
     {
       "how": [
-        "8M"
+        "7M"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
       ],
       "what": "flamethrower"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "flash-cannon"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "giga-impact"
     },
     {
       "how": [
-        "8T"
+        "8T",
+        "7T"
       ],
       "what": "grass-pledge"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "hail"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "heat-wave"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "hyper-beam"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "hyper-voice"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "ice-beam"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L1",
+        "7L1"
       ],
       "what": "ice-fang"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "icy-wind"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L1",
+        "7L1"
       ],
       "what": "imprison"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "iron-defense"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L1",
+        "7T",
+        "7L1"
       ],
       "what": "iron-head"
     },
     {
       "how": [
-        "8L20"
+        "7T"
+      ],
+      "what": "laser-focus"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "last-resort"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "magic-coat"
+    },
+    {
+      "how": [
+        "8L20",
+        "7L45"
       ],
       "what": "metal-sound"
     },
     {
       "how": [
-        "8L0"
+        "8L0",
+        "7L1",
+        "7S0"
       ],
       "what": "multi-attack"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "outrage"
     },
     {
       "how": [
-        "8L60"
+        "8L60",
+        "7L85",
+        "7S0"
       ],
       "what": "parting-shot"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "payback"
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "7L1"
       ],
       "what": "poison-fang"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "protect"
     },
@@ -245,13 +323,15 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "rain-dance"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "rest"
     },
@@ -263,26 +343,37 @@
     },
     {
       "how": [
-        "8M"
+        "7M"
+      ],
+      "what": "roar"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
       ],
       "what": "rock-slide"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "round"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "sandstorm"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L1",
+        "7L30",
+        "7S0"
       ],
       "what": "scary-face"
     },
@@ -294,31 +385,36 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "shadow-ball"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "shadow-claw"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "sleep-talk"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "snarl"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "snore"
     },
@@ -330,27 +426,37 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "steel-wing"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "substitute"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "sunny-day"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "surf"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "swagger"
     },
     {
       "how": [
@@ -360,107 +466,159 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "swords-dance"
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "7L1"
       ],
       "what": "tackle"
     },
     {
       "how": [
-        "8L50"
+        "7T"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "8L50",
+        "7L40"
       ],
       "what": "take-down"
     },
     {
       "how": [
-        "8M"
+        "8T"
+      ],
+      "what": "terrain-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
       ],
       "what": "thunderbolt"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L1",
+        "7L1"
       ],
       "what": "thunder-fang"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "thunder-wave"
     },
     {
       "how": [
+        "7M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
         "8M",
-        "8L35"
+        "8L35",
+        "7L75"
       ],
       "what": "tri-attack"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "u-turn"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "work-up"
     },
     {
       "how": [
         "8M",
-        "8L40"
+        "8L40",
+        "7M",
+        "7L35"
       ],
       "what": "x-scissor"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "zen-headbutt"
     },
     {
       "how": [
-        "8L5"
+        "8L5",
+        "7M",
+        "7L20"
       ],
       "what": "aerial-ace"
     },
     {
       "how": [
         "8M",
-        "8L30"
+        "8L30",
+        "7L60",
+        "7S1"
       ],
       "what": "air-slash"
     },
     {
       "how": [
-        "8L25"
+        "7M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8L25",
+        "7L25",
+        "7S0"
       ],
       "what": "crush-claw"
     },
     {
       "how": [
-        "8L55"
+        "8L55",
+        "7L80"
       ],
       "what": "double-edge"
     },
     {
       "how": [
-        "8L15"
+        "8L15",
+        "7L55",
+        "7S1"
       ],
       "what": "double-hit"
     },
     {
       "how": [
-        "8M"
+        "7M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
       ],
       "what": "dragon-claw"
     },
@@ -472,19 +630,28 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "facade"
     },
     {
       "how": [
-        "8M"
+        "7M"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
       ],
       "what": "giga-impact"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "hail"
     },
@@ -496,20 +663,23 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "icy-wind"
     },
     {
       "how": [
         "8M",
-        "8L1"
+        "8L1",
+        "7L15"
       ],
       "what": "imprison"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "iron-defense"
     },
@@ -517,94 +687,137 @@
       "how": [
         "8M",
         "8L45",
-        "8S2"
+        "8S2",
+        "7T",
+        "7L50",
+        "7S1"
       ],
       "what": "iron-head"
     },
     {
       "how": [
-        "8L20"
+        "7T"
+      ],
+      "what": "last-resort"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "magic-coat"
+    },
+    {
+      "how": [
+        "8L20",
+        "7L45",
+        "7S1"
       ],
       "what": "metal-sound"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "payback"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "protect"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "rain-dance"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "rest"
     },
     {
       "how": [
-        "8M"
+        "7M"
+      ],
+      "what": "roar"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
       ],
       "what": "rock-slide"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "round"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "sandstorm"
     },
     {
       "how": [
         "8M",
-        "8L10"
+        "8L10",
+        "7L30",
+        "7S0"
       ],
       "what": "scary-face"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "shadow-claw"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "sleep-talk"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7T"
       ],
       "what": "snore"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "substitute"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "swagger"
     },
     {
       "how": [
@@ -614,46 +827,66 @@
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "swords-dance"
     },
     {
       "how": [
-        "8L1"
+        "8L1",
+        "7L1"
       ],
       "what": "tackle"
     },
     {
       "how": [
         "8L50",
-        "8S2"
+        "8S2",
+        "7L40",
+        "7S0"
       ],
       "what": "take-down"
     },
     {
       "how": [
-        "8M"
+        "8T"
+      ],
+      "what": "terrain-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
       ],
       "what": "thunder-wave"
     },
     {
       "how": [
+        "7M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
         "8M",
         "8L35",
-        "8S2"
+        "8S2",
+        "7L75"
       ],
       "what": "tri-attack"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "u-turn"
     },
     {
       "how": [
-        "8M"
+        "8M",
+        "7M"
       ],
       "what": "work-up"
     },
@@ -661,7 +894,10 @@
       "how": [
         "8M",
         "8L40",
-        "8S2"
+        "8S2",
+        "7M",
+        "7L35",
+        "7S0"
       ],
       "what": "x-scissor"
     }

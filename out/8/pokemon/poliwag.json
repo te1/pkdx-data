@@ -1,0 +1,619 @@
+{
+  "name": "poliwag",
+  "caption": "Poliwag",
+  "types": [
+    "water"
+  ],
+  "num": 60,
+  "baseStats": {
+    "atk": 50,
+    "def": 40,
+    "hp": 40,
+    "spa": 40,
+    "spd": 40,
+    "spe": 90
+  },
+  "gen": 1,
+  "abilities": {
+    "1": "water-absorb",
+    "2": "damp",
+    "H": "swift-swim"
+  },
+  "evos": [
+    "poliwhirl"
+  ],
+  "height": 0.6,
+  "weight": 12.4,
+  "learnset": [
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L48",
+        "7L31",
+        "7V",
+        "6L31",
+        "5L31",
+        "4L31",
+        "3L37"
+      ],
+      "what": "belly-drum"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30",
+        "8V",
+        "7L21",
+        "7V",
+        "6L21",
+        "5L21",
+        "4L21",
+        "3T",
+        "3L31"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8L18",
+        "8V",
+        "7L25",
+        "7E",
+        "7V",
+        "6L25",
+        "6E",
+        "5L25",
+        "5E",
+        "4L25",
+        "4E",
+        "3E"
+      ],
+      "what": "bubble-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M",
+        "4T"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8L54",
+        "7V",
+        "3T"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "4E"
+      ],
+      "what": "encore"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E",
+        "4E"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4M",
+        "3T"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "haze"
+    },
+    {
+      "how": [
+        "8V",
+        "7V",
+        "4T"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42",
+        "8V",
+        "7L38",
+        "7V",
+        "6L38",
+        "5L38",
+        "4L38",
+        "3L43"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L8",
+        "7V",
+        "6L8",
+        "5L8",
+        "5D",
+        "4L8",
+        "3L7"
+      ],
+      "what": "hypnosis"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "low-kick"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "mind-reader"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "5D",
+        "4E",
+        "3E"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12",
+        "7L28",
+        "7E",
+        "6L28",
+        "6E",
+        "5L28",
+        "5E",
+        "4L28",
+        "4E"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8L6",
+        "8V"
+      ],
+      "what": "pound"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24",
+        "7M",
+        "7L18",
+        "7V",
+        "6M",
+        "6L18",
+        "5M",
+        "5L18",
+        "4M",
+        "4L18",
+        "3M",
+        "3L25"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "skull-bash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5T",
+        "5D",
+        "4M",
+        "3T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "splash"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "3S0"
+      ],
+      "what": "sweet-kiss"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L5",
+        "7V",
+        "6L5",
+        "5L11",
+        "4L11",
+        "3L13"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5E",
+        "4M",
+        "3M"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "4M"
+      ],
+      "what": "whirlpool"
+    }
+  ]
+}

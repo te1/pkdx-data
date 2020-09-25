@@ -1,0 +1,837 @@
+{
+  "name": "dragalge",
+  "caption": "Dragalge",
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "num": 691,
+  "baseStats": {
+    "atk": 75,
+    "def": 90,
+    "hp": 65,
+    "spa": 97,
+    "spd": 123,
+    "spe": 44
+  },
+  "gen": 6,
+  "abilities": {
+    "1": "poison-point",
+    "2": "poison-touch",
+    "H": "adaptability"
+  },
+  "prevo": "skrelp",
+  "height": 1.8,
+  "weight": 81.5,
+  "learnset": [
+    {
+      "how": [
+        "8L1",
+        "7L15",
+        "6L15"
+      ],
+      "what": "acid"
+    },
+    {
+      "how": [
+        "8L45",
+        "7T",
+        "7L35",
+        "6T",
+        "6L35"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8M",
+        "6M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8L20",
+        "7M",
+        "7L28",
+        "6M",
+        "6L28"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T",
+        "7T",
+        "6T"
+      ],
+      "what": "draco-meteor"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7T",
+        "7L53",
+        "6T",
+        "6L53"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "7M",
+        "7L1",
+        "6M",
+        "6L1"
+      ],
+      "what": "dragon-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "flip-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L59",
+        "7L42",
+        "6L42"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "8L66",
+        "7T",
+        "6T"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8L25",
+        "7L23",
+        "6L23"
+      ],
+      "what": "poison-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "scale-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "7T",
+        "6T"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "8L52",
+        "7M",
+        "7L38",
+        "6M",
+        "6L38"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "smokescreen"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L9",
+        "6L9"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thunder"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8L35",
+        "7M",
+        "7L32",
+        "6M",
+        "6L32"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "7L1",
+        "6L1"
+      ],
+      "what": "twister"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L30",
+        "7T",
+        "7L25",
+        "6T",
+        "6L25"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8L5",
+        "7L15",
+        "6L15"
+      ],
+      "what": "acid"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E"
+      ],
+      "what": "acid-armor"
+    },
+    {
+      "how": [
+        "8L45",
+        "7T",
+        "7L35",
+        "6T",
+        "6L35"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8M",
+        "6M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8L20",
+        "7M",
+        "7L28",
+        "6M",
+        "6L28"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7T",
+        "7L49",
+        "6T",
+        "6L49"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "dragon-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "flip-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E"
+      ],
+      "what": "haze"
+    },
+    {
+      "how": [
+        "8M",
+        "8L55",
+        "7L42",
+        "6L42"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E"
+      ],
+      "what": "play-rough"
+    },
+    {
+      "how": [
+        "8L25",
+        "7L23",
+        "6L23"
+      ],
+      "what": "poison-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "scale-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "7T",
+        "6T"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50",
+        "7M",
+        "7L38",
+        "6M",
+        "6L38"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "smokescreen"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L9",
+        "6L9"
+      ],
+      "what": "tail-whip"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8L35",
+        "7M",
+        "7L32",
+        "6M",
+        "6L32"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E"
+      ],
+      "what": "toxic-spikes"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "twister"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E"
+      ],
+      "what": "venom-drench"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "waterfall"
+    },
+    {
+      "how": [
+        "8L10",
+        "7L1",
+        "6L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L30",
+        "7T",
+        "7L25",
+        "6T",
+        "6L25"
+      ],
+      "what": "water-pulse"
+    }
+  ]
+}

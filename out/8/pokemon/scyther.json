@@ -1,0 +1,761 @@
+{
+  "name": "scyther",
+  "caption": "Scyther",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "num": 123,
+  "baseStats": {
+    "atk": 110,
+    "def": 80,
+    "hp": 70,
+    "spa": 55,
+    "spd": 80,
+    "spe": 105
+  },
+  "gen": 1,
+  "abilities": {
+    "1": "swarm",
+    "2": "technician",
+    "H": "steadfast"
+  },
+  "evos": [
+    "scizor"
+  ],
+  "height": 1.5,
+  "weight": 56,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32",
+        "8V",
+        "7L17",
+        "7V",
+        "6L17",
+        "5L17",
+        "5S2",
+        "4L17",
+        "3L21"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "8V",
+        "7L50",
+        "6L50",
+        "5L53",
+        "4L53"
+      ],
+      "what": "air-slash"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "5D",
+        "4E",
+        "3E"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "4E"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3T",
+        "3E"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "cross-poison"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6E",
+        "5E",
+        "4M"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "detect"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L20",
+        "7L49",
+        "6L49",
+        "5L49",
+        "4L49"
+      ],
+      "what": "double-hit"
+    },
+    {
+      "how": [
+        "8L16",
+        "8V",
+        "7M",
+        "7L37",
+        "7V",
+        "6M",
+        "6L37",
+        "5M",
+        "5L37",
+        "4M",
+        "4L37",
+        "3M",
+        "3L41"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4M",
+        "4E",
+        "3T",
+        "3E"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L8",
+        "7M",
+        "7L13",
+        "7V",
+        "6M",
+        "6L13",
+        "5M",
+        "5L13",
+        "4M",
+        "4L13",
+        "3L16"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8E",
+        "8V",
+        "7L61",
+        "6L61",
+        "5L61",
+        "4L61"
+      ],
+      "what": "feint"
+    },
+    {
+      "how": [
+        "8M",
+        "8L28",
+        "8V",
+        "7L5",
+        "7V",
+        "6L5",
+        "5L5",
+        "4L5",
+        "3L6",
+        "3S0"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8L4",
+        "7L25",
+        "7V",
+        "6L25",
+        "5L25",
+        "5S2",
+        "4T",
+        "4L25",
+        "3T",
+        "3L46"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8V",
+        "7V",
+        "4T"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "8L44",
+        "7T"
+      ],
+      "what": "laser-focus"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "4L1",
+        "3L1",
+        "3S0"
+      ],
+      "what": "leer"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4E",
+        "3E"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "3S1"
+      ],
+      "what": "morning-sun"
+    },
+    {
+      "how": [
+        "8E",
+        "7L45",
+        "7E",
+        "6L45",
+        "6E",
+        "5L45",
+        "5E",
+        "4L45",
+        "4E"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psycho-cut"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "5D",
+        "4L1",
+        "3L1",
+        "3S0"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E"
+      ],
+      "what": "quick-guard"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8V",
+        "7M",
+        "6M",
+        "5T",
+        "4M"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4E",
+        "3E"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "skull-bash"
+    },
+    {
+      "how": [
+        "8L24",
+        "8V",
+        "7L29",
+        "7V",
+        "6L29",
+        "5L29",
+        "5S2",
+        "4L29",
+        "3L31",
+        "3S1"
+      ],
+      "what": "slash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5T",
+        "4M",
+        "3T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7E",
+        "7V",
+        "6M",
+        "6E",
+        "5E",
+        "4M",
+        "3M"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "4T",
+        "3T"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48",
+        "8V",
+        "7M",
+        "7L57",
+        "7V",
+        "6M",
+        "6L57",
+        "5M",
+        "5L57",
+        "4M",
+        "4L57",
+        "3T",
+        "3L36"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "5D",
+        "4T"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "7L1",
+        "6L1",
+        "5L1",
+        "4L1"
+      ],
+      "what": "vacuum-wave"
+    },
+    {
+      "how": [
+        "8L12",
+        "8V",
+        "7L21",
+        "7V",
+        "6L21",
+        "5L21",
+        "5S2",
+        "4L21",
+        "3L26"
+      ],
+      "what": "wing-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "8V",
+        "7M",
+        "7L41",
+        "6M",
+        "6L41",
+        "5M",
+        "5L41",
+        "4M",
+        "4L41"
+      ],
+      "what": "x-scissor"
+    }
+  ]
+}

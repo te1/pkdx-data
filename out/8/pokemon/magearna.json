@@ -1,0 +1,503 @@
+{
+  "name": "magearna",
+  "caption": "Magearna",
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "num": 801,
+  "baseStats": {
+    "atk": 95,
+    "def": 115,
+    "hp": 80,
+    "spa": 130,
+    "spd": 115,
+    "spe": 65
+  },
+  "gen": 7,
+  "abilities": {
+    "1": "soul-heart"
+  },
+  "height": 1,
+  "weight": 80.5,
+  "learnset": [
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "after-you"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "8L66",
+        "7L81"
+      ],
+      "what": "aura-sphere"
+    },
+    {
+      "how": [
+        "8L36",
+        "7L17"
+      ],
+      "what": "aurora-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "charge-beam"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8L54",
+        "7L1"
+      ],
+      "what": "crafty-shield"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "dazzling-gleam"
+    },
+    {
+      "how": [
+        "8L6",
+        "7L1"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "draining-kiss"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "echoed-voice"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "eerie-impulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electroweb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "encore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "explosion"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8M",
+        "8L72",
+        "7M",
+        "7L41",
+        "7S0"
+      ],
+      "what": "flash-cannon"
+    },
+    {
+      "how": [
+        "8L90",
+        "7L49",
+        "7S0"
+      ],
+      "what": "fleur-cannon"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8L24",
+        "7L1"
+      ],
+      "what": "gear-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "guard-swap"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7M"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "heal-bell"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7T",
+        "7L1",
+        "7S0"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M",
+        "8L18",
+        "7T",
+        "7L57"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L60",
+        "7T",
+        "7L1"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "last-resort"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "magnet-rise"
+    },
+    {
+      "how": [
+        "8L42",
+        "7L33"
+      ],
+      "what": "mind-reader"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "misty-explosion"
+    },
+    {
+      "how": [
+        "8L78",
+        "7T",
+        "7L65"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "power-swap"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L30",
+        "7L1"
+      ],
+      "what": "psybeam"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "reflect"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "self-destruct"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L48",
+        "7L1"
+      ],
+      "what": "shift-gear"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "speed-swap"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-beam"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-roller"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "thunderbolt"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "volt-switch"
+    },
+    {
+      "how": [
+        "8L84"
+      ],
+      "what": "zap-cannon"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "zen-headbutt"
+    }
+  ]
+}

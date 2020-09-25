@@ -1,0 +1,595 @@
+{
+  "name": "bouffalant",
+  "caption": "Bouffalant",
+  "types": [
+    "normal"
+  ],
+  "num": 626,
+  "baseStats": {
+    "atk": 110,
+    "def": 95,
+    "hp": 95,
+    "spa": 40,
+    "spd": 95,
+    "spe": 55
+  },
+  "gen": 5,
+  "abilities": {
+    "1": "reckless",
+    "2": "sap-sipper",
+    "H": "soundproof"
+  },
+  "height": 1.6,
+  "weight": 94.6,
+  "learnset": [
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E"
+      ],
+      "what": "belch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "close-combat"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "cotton-guard"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "6S0",
+        "5M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "endeavor"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "6S0",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L5",
+        "7L36",
+        "6L36",
+        "5L36"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8L10",
+        "7L11",
+        "6L11",
+        "5L11"
+      ],
+      "what": "fury-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "8L55",
+        "7M",
+        "7L61",
+        "6M",
+        "6L61",
+        "5M",
+        "5L61"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8L40",
+        "7L31",
+        "6L31",
+        "6S0",
+        "5L31"
+      ],
+      "what": "head-charge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "high-horsepower"
+    },
+    {
+      "how": [
+        "8L25",
+        "7L16",
+        "6L16",
+        "5L16"
+      ],
+      "what": "horn-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "lash-out"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "leer"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50",
+        "7L41",
+        "6L41",
+        "5L41"
+      ],
+      "what": "megahorn"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M"
+      ],
+      "what": "retaliate"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15",
+        "7L26",
+        "6L26",
+        "5L26"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30",
+        "7L46",
+        "6L46",
+        "5L46"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "6S0",
+        "5M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20",
+        "7L21",
+        "6L21",
+        "5L21"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "skull-bash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "smart-strike"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "stomp"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "strength"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "superpower"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45",
+        "7M",
+        "7L56",
+        "6M",
+        "6L56",
+        "5M",
+        "5L56"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "7L50",
+        "6L50",
+        "5L51"
+      ],
+      "what": "thrash"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "uproar"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "wild-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "5M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "zen-headbutt"
+    }
+  ]
+}

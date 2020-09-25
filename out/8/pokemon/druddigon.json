@@ -1,0 +1,736 @@
+{
+  "name": "druddigon",
+  "caption": "Druddigon",
+  "types": [
+    "dragon"
+  ],
+  "num": 621,
+  "baseStats": {
+    "atk": 120,
+    "def": 90,
+    "hp": 77,
+    "spa": 60,
+    "spd": 90,
+    "spe": 48
+  },
+  "gen": 5,
+  "abilities": {
+    "1": "rough-skin",
+    "2": "sheer-force",
+    "H": "mold-breaker"
+  },
+  "height": 1.6,
+  "weight": 139,
+  "learnset": [
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L5",
+        "7L9",
+        "6L9",
+        "5L9",
+        "5D"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "charge-beam"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7L25",
+        "6L25",
+        "5L25"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "crush-claw"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "draco-meteor"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30",
+        "7M",
+        "7L27",
+        "6M",
+        "6L27",
+        "5M",
+        "5L27"
+      ],
+      "what": "dragon-claw"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "dragon-pulse"
+    },
+    {
+      "how": [
+        "8L10",
+        "7M",
+        "7L45",
+        "6M",
+        "6L45",
+        "5M",
+        "5L45"
+      ],
+      "what": "dragon-tail"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "5D"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "fire-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "flash-cannon"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "glare"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8L35",
+        "7L5",
+        "6M",
+        "6L5",
+        "5M",
+        "5L5"
+      ],
+      "what": "hone-claws"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "lash-out"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1",
+        "5S0"
+      ],
+      "what": "leer"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8L15",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "metal-claw"
+    },
+    {
+      "how": [
+        "8E",
+        "7L40",
+        "6L40",
+        "5L40"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50",
+        "7T",
+        "7L62",
+        "6T",
+        "6L62",
+        "5T",
+        "5L62"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "poison-tail"
+    },
+    {
+      "how": [
+        "6M"
+      ],
+      "what": "power-up-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M"
+      ],
+      "what": "retaliate"
+    },
+    {
+      "how": [
+        "8M",
+        "7L35",
+        "6L35",
+        "5L35"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "roar"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "scale-shot"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20",
+        "7L13",
+        "6L13",
+        "5L13"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1",
+        "5S0"
+      ],
+      "what": "scratch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "shadow-claw"
+    },
+    {
+      "how": [
+        "7T",
+        "6T"
+      ],
+      "what": "shock-wave"
+    },
+    {
+      "how": [
+        "8L25",
+        "7L21",
+        "6L21",
+        "5L21"
+      ],
+      "what": "slash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "smack-down"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "stomping-tantrum"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "strength"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E",
+        "5D"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M",
+        "8L55",
+        "7T",
+        "7L55",
+        "6T",
+        "6L55",
+        "5T",
+        "5L55"
+      ],
+      "what": "superpower"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "thunder-punch"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "torment"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    }
+  ]
+}

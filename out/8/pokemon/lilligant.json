@@ -1,0 +1,907 @@
+{
+  "name": "lilligant",
+  "caption": "Lilligant",
+  "types": [
+    "grass"
+  ],
+  "num": 549,
+  "baseStats": {
+    "atk": 60,
+    "def": 75,
+    "hp": 70,
+    "spa": 110,
+    "spd": 75,
+    "spe": 90
+  },
+  "gen": 5,
+  "abilities": {
+    "1": "chlorophyll",
+    "2": "own-tempo",
+    "H": "leaf-guard"
+  },
+  "prevo": "petilil",
+  "height": 1.1,
+  "weight": 16.3,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8L1",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "after-you"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "aromatherapy"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "dream-eater"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "encore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "entrainment"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "grassy-glide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grassy-terrain"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "growth"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "heal-bell"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "laser-focus"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "leaf-blade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "leech-seed"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "mega-drain"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "nature-power"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L50",
+        "6L50"
+      ],
+      "what": "petal-blizzard"
+    },
+    {
+      "how": [
+        "8L0",
+        "7L46",
+        "6L46",
+        "5L46"
+      ],
+      "what": "petal-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pollen-puff"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L28",
+        "6L28",
+        "5L28"
+      ],
+      "what": "quiver-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "role-play"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "sleep-powder"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "solar-blade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "stun-spore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8L1",
+        "7T",
+        "7L1",
+        "6T",
+        "6L1",
+        "5T",
+        "5L1"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L10",
+        "6L10",
+        "5L10"
+      ],
+      "what": "teeter-dance"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "worry-seed"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8L27",
+        "7T",
+        "7L44",
+        "6T",
+        "6L44",
+        "5T",
+        "5L44"
+      ],
+      "what": "after-you"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L28",
+        "6L28",
+        "5L28"
+      ],
+      "what": "aromatherapy"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "5D"
+      ],
+      "what": "charm"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "dream-eater"
+    },
+    {
+      "how": [
+        "8M",
+        "7E"
+      ],
+      "what": "encore"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30",
+        "7M",
+        "7L35",
+        "6M",
+        "6L35",
+        "5M",
+        "5L35"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8L39",
+        "7L37",
+        "6L37",
+        "5L37"
+      ],
+      "what": "entrainment"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L21",
+        "7T",
+        "7L26",
+        "6T",
+        "6L26",
+        "5T",
+        "5L26"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "grassy-glide"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L4",
+        "6L4",
+        "5L4"
+      ],
+      "what": "growth"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "heal-bell"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "healing-wish"
+    },
+    {
+      "how": [
+        "8M",
+        "8L3",
+        "7T",
+        "7L31",
+        "6T",
+        "6L31",
+        "5T",
+        "5L31"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "ingrain"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "laser-focus"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42",
+        "7L46",
+        "6L46",
+        "5L46"
+      ],
+      "what": "leaf-storm"
+    },
+    {
+      "how": [
+        "8L24",
+        "7L8",
+        "6L8",
+        "5L8"
+      ],
+      "what": "leech-seed"
+    },
+    {
+      "how": [
+        "8M",
+        "8L15",
+        "7L19",
+        "6L19",
+        "5L19"
+      ],
+      "what": "magical-leaf"
+    },
+    {
+      "how": [
+        "8L9",
+        "7L13",
+        "6L13",
+        "5L13"
+      ],
+      "what": "mega-drain"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "nature-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pollen-puff"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "seed-bomb"
+    },
+    {
+      "how": [
+        "8L18",
+        "7L10",
+        "6L10",
+        "5L10",
+        "5D"
+      ],
+      "what": "sleep-powder"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L6",
+        "7L22",
+        "6L22",
+        "5L22"
+      ],
+      "what": "stun-spore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "7M",
+        "7L40",
+        "6M",
+        "6L40",
+        "5M",
+        "5L40"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E",
+        "5D"
+      ],
+      "what": "sweet-scent"
+    },
+    {
+      "how": [
+        "8L33",
+        "7T",
+        "7L17",
+        "6T",
+        "6L17",
+        "5T",
+        "5L17"
+      ],
+      "what": "synthesis"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "worry-seed"
+    }
+  ]
+}

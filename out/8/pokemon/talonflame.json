@@ -1,0 +1,1100 @@
+{
+  "name": "talonflame",
+  "caption": "Talonflame",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "num": 663,
+  "baseStats": {
+    "atk": 81,
+    "def": 71,
+    "hp": 78,
+    "spa": 74,
+    "spd": 69,
+    "spe": 126
+  },
+  "gen": 6,
+  "abilities": {
+    "1": "flame-body",
+    "H": "gale-wings"
+  },
+  "prevo": "fletchinder",
+  "height": 1.2,
+  "weight": 24.5,
+  "learnset": [
+    {
+      "how": [
+        "8M",
+        "8L22",
+        "7M",
+        "7L44",
+        "6M",
+        "6L44"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8L38",
+        "7M",
+        "6M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L29",
+        "7L13",
+        "6L13"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "8L83",
+        "7L1",
+        "6L1"
+      ],
+      "what": "brave-bird"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "bulk-up"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L17"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "feint"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-spin"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L16",
+        "6L16"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8L1",
+        "7M",
+        "7L39",
+        "6M",
+        "6L39"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "flare-blitz"
+    },
+    {
+      "how": [
+        "8M",
+        "8L74",
+        "7M",
+        "6M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "6M"
+      ],
+      "what": "hone-claws"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hurricane"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "6M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L10"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L6"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L65",
+        "7M",
+        "7L25",
+        "6M",
+        "6L25"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8L56",
+        "7M",
+        "7L60",
+        "6M",
+        "6L60"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "7L1",
+        "6L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L47",
+        "7T",
+        "7L55",
+        "6T",
+        "6L55"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8L22",
+        "7M",
+        "7L42",
+        "6M",
+        "6L42"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8L36",
+        "7M",
+        "6M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L29",
+        "7L13",
+        "6L13"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L17"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "feint"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-spin"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L16",
+        "6L16"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8L0",
+        "7M",
+        "7L38",
+        "6M",
+        "6L38"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M",
+        "8L64",
+        "7M",
+        "6M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "6M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L10",
+        "6L10"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L6"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L57",
+        "7M",
+        "7L25",
+        "6M",
+        "6L25"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50",
+        "7M",
+        "7L55",
+        "6M",
+        "6L55"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "7L1",
+        "6L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L43",
+        "7T",
+        "7L51",
+        "6T",
+        "6L51"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20",
+        "7M",
+        "7L39",
+        "6M",
+        "6L39"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8L30",
+        "7M",
+        "6M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25",
+        "7L13",
+        "6L13"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7T"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8L10"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L16",
+        "6L16"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8E",
+        "7M",
+        "7L34",
+        "6M",
+        "6L34"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50",
+        "7M",
+        "6M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L10",
+        "6L10"
+      ],
+      "what": "peck"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L5",
+        "7L6",
+        "6L6"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E"
+      ],
+      "what": "quick-guard"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8L45",
+        "7M",
+        "7L21",
+        "6M",
+        "6L21"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7M",
+        "7L48",
+        "6M",
+        "6L48"
+      ],
+      "what": "steel-wing"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "7L1",
+        "6L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8L35",
+        "7T",
+        "7L45",
+        "7E",
+        "6T",
+        "6L45",
+        "6E"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "work-up"
+    }
+  ]
+}

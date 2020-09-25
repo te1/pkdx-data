@@ -1,0 +1,984 @@
+{
+  "name": "cinderace-gmax",
+  "caption": "Cinderace-Gmax",
+  "types": [
+    "fire"
+  ],
+  "num": 815,
+  "baseStats": {
+    "atk": 116,
+    "def": 75,
+    "hp": 80,
+    "spa": 65,
+    "spd": 75,
+    "spe": 119
+  },
+  "isBattleOnly": true,
+  "gen": 8,
+  "baseSpecies": {
+    "name": "cinderace",
+    "caption": "Cinderace"
+  },
+  "tags": [
+    "gmax"
+  ],
+  "altBattleForms": [
+    "cinderace"
+  ],
+  "abilities": {
+    "1": "blaze",
+    "H": "libero"
+  },
+  "height": 3,
+  "weight": 0,
+  "learnset": [
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "blast-burn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blaze-kick"
+    },
+    {
+      "how": [
+        "8M",
+        "8L46"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulk-up"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "coaching"
+    },
+    {
+      "how": [
+        "8L38"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8L62"
+      ],
+      "what": "court-change"
+    },
+    {
+      "how": [
+        "8L54"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "double-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "feint"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "fire-pledge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-spin"
+    },
+    {
+      "how": [
+        "8L19"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flare-blitz"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-sweep"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L0"
+      ],
+      "what": "pyro-ball"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "scorching-sands"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blaze-kick"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulk-up"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8L48"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "double-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "fire-pledge"
+    },
+    {
+      "how": [
+        "8L19"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flare-blitz"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8L30"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-sweep"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8M",
+        "8L20"
+      ],
+      "what": "agility"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ally-switch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "baton-pass"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blaze-kick"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32"
+      ],
+      "what": "bounce"
+    },
+    {
+      "how": [
+        "8L28"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8L36"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "double-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "electro-ball"
+    },
+    {
+      "how": [
+        "8L6"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "fire-pledge"
+    },
+    {
+      "how": [
+        "8L17"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "gunk-shot"
+    },
+    {
+      "how": [
+        "8L24"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "high-jump-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "low-sweep"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L8"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "sucker-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "super-fang"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "work-up"
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "name": "palossand",
+  "caption": "Palossand",
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "num": 770,
+  "baseStats": {
+    "atk": 75,
+    "def": 110,
+    "hp": 85,
+    "spa": 100,
+    "spd": 75,
+    "spe": 35
+  },
+  "gen": 7,
+  "abilities": {
+    "1": "water-compaction",
+    "H": "sand-veil"
+  },
+  "prevo": "sandygast",
+  "height": 1.3,
+  "weight": 250,
+  "learnset": [
+    {
+      "how": [
+        "8L1",
+        "7L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "after-you"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "block"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25",
+        "7M",
+        "7L23"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "8L54",
+        "7T",
+        "7L47"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35",
+        "7T",
+        "7L36"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "gravity"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8L30",
+        "7L27"
+      ],
+      "what": "hypnosis"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7T",
+        "7L32"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L18"
+      ],
+      "what": "mega-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "poltergeist"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "quash"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "rock-polish"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "role-play"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L20",
+        "7L1"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "8L68",
+        "7M",
+        "7L60"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7L14"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "scorching-sands"
+    },
+    {
+      "how": [
+        "8M",
+        "8L47",
+        "7M",
+        "7L41"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L61",
+        "7L54"
+      ],
+      "what": "shore-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "spite"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "terrain-pulse"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "after-you"
+    },
+    {
+      "how": [
+        "8M",
+        "7E"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "ancient-power"
+    },
+    {
+      "how": [
+        "8L5",
+        "7L5"
+      ],
+      "what": "astonish"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "block"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M",
+        "8L25",
+        "7M",
+        "7L23"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "destiny-bond"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "8L50",
+        "7T",
+        "7L45"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "energy-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "8L35",
+        "7T",
+        "7L36"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "gravity"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8L30",
+        "7L27"
+      ],
+      "what": "hypnosis"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "infestation"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "7T",
+        "7L32"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L18"
+      ],
+      "what": "mega-drain"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "pain-split"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "poltergeist"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "recycle"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "rock-polish"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "role-play"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L20",
+        "7L9"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "8L60",
+        "7M",
+        "7L54"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L10",
+        "7L14"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "scorching-sands"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45",
+        "7M",
+        "7L41"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L55",
+        "7L50"
+      ],
+      "what": "shore-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "spite"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "spit-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "stockpile"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "swallow"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "trick"
+    }
+  ]
+}

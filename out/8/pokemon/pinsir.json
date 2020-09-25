@@ -1,0 +1,814 @@
+{
+  "name": "pinsir",
+  "caption": "Pinsir",
+  "types": [
+    "bug"
+  ],
+  "num": 127,
+  "baseStats": {
+    "atk": 125,
+    "def": 100,
+    "hp": 65,
+    "spa": 55,
+    "spd": 70,
+    "spe": 85
+  },
+  "gen": 1,
+  "abilities": {
+    "1": "hyper-cutter",
+    "2": "mold-breaker",
+    "H": "moxie"
+  },
+  "height": 1.5,
+  "weight": 55,
+  "learnset": [
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L8",
+        "8V",
+        "7T",
+        "7L4",
+        "7V",
+        "6T",
+        "6L4",
+        "5T",
+        "5L4",
+        "4L4",
+        "3L7"
+      ],
+      "what": "bind"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "3T"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7L26",
+        "6M",
+        "6L18",
+        "5M",
+        "5L21",
+        "4M",
+        "4L21",
+        "3M",
+        "3L31"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8L16",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "bulk-up"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E",
+        "5D",
+        "4E"
+      ],
+      "what": "close-combat"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "8L24",
+        "7L22",
+        "6L22"
+      ],
+      "what": "double-hit"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "6S1",
+        "6S2",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M",
+        "7V",
+        "4M",
+        "3T"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "4E",
+        "3E",
+        "3S0"
+      ],
+      "what": "false-swipe"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "6S2",
+        "5E",
+        "4E"
+      ],
+      "what": "feint"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "8L4",
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "4L1",
+        "3L1"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "4M",
+        "3M"
+      ],
+      "what": "focus-punch"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "7V",
+        "6E",
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "what": "fury-attack"
+    },
+    {
+      "how": [
+        "7V",
+        "4T",
+        "3T"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L48",
+        "8V",
+        "7L50",
+        "7V",
+        "6L47",
+        "5L47",
+        "4L47",
+        "3L37",
+        "3S0"
+      ],
+      "what": "guillotine"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L11",
+        "7V",
+        "6L11",
+        "5L13",
+        "4L13",
+        "3L19"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8V",
+        "7V",
+        "4T"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "3S0"
+      ],
+      "what": "helping-hand"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "high-horsepower"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T",
+        "4T"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "7V",
+        "3T"
+      ],
+      "what": "mimic"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "outrage"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "6S2",
+        "5E",
+        "4E"
+      ],
+      "what": "quick-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7L15",
+        "6L15",
+        "5L18",
+        "4L18",
+        "3L25"
+      ],
+      "what": "revenge"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "reversal"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-smash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L12",
+        "8V",
+        "7L8",
+        "7V",
+        "6L8",
+        "5L8",
+        "4L8",
+        "3T",
+        "3L13"
+      ],
+      "what": "seismic-toss"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "slash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5T",
+        "4M",
+        "3T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "smack-down"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7V",
+        "6T",
+        "5T",
+        "4T",
+        "3T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T",
+        "6T",
+        "5T",
+        "4M"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "6S1",
+        "5M",
+        "4M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8L20",
+        "7L36",
+        "6L33",
+        "5L33"
+      ],
+      "what": "storm-throw"
+    },
+    {
+      "how": [
+        "8L36",
+        "7V",
+        "6M",
+        "5M"
+      ],
+      "what": "strength"
+    },
+    {
+      "how": [
+        "4T"
+      ],
+      "what": "string-shot"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8L44",
+        "8V",
+        "7L33",
+        "7V",
+        "6L26",
+        "5L42",
+        "4L42",
+        "3L43",
+        "3S0"
+      ],
+      "what": "submission"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M",
+        "8L52",
+        "8V",
+        "7T",
+        "7L47",
+        "7E",
+        "6T",
+        "6L43",
+        "6E",
+        "5T",
+        "5L52",
+        "5E",
+        "4T",
+        "4L52"
+      ],
+      "what": "superpower"
+    },
+    {
+      "how": [
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3T"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "8L40",
+        "8V",
+        "7M",
+        "7L40",
+        "7V",
+        "6M",
+        "6L40",
+        "6S2",
+        "5M",
+        "5L38",
+        "4M",
+        "4L38",
+        "3T",
+        "3L49"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "7V"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8E",
+        "8V",
+        "7L43",
+        "6L36",
+        "5L35",
+        "4L35"
+      ],
+      "what": "thrash"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8V",
+        "7M",
+        "7V",
+        "6M",
+        "5M",
+        "4M",
+        "3M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L1",
+        "7V",
+        "6L1",
+        "5L1",
+        "5D",
+        "4L1",
+        "3L1"
+      ],
+      "what": "vise-grip"
+    },
+    {
+      "how": [
+        "8L28",
+        "7L18",
+        "6L18",
+        "5L25",
+        "4L25"
+      ],
+      "what": "vital-throw"
+    },
+    {
+      "how": [
+        "8M",
+        "8L32",
+        "8V",
+        "7M",
+        "7L29",
+        "6M",
+        "6L29",
+        "6S1",
+        "5M",
+        "5L30",
+        "4M",
+        "4L30"
+      ],
+      "what": "x-scissor"
+    }
+  ]
+}

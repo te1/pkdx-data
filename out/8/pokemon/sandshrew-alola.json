@@ -1,0 +1,583 @@
+{
+  "name": "sandshrew-alola",
+  "caption": "Sandshrew-Alola",
+  "types": [
+    "ice",
+    "steel"
+  ],
+  "num": 27,
+  "baseStats": {
+    "atk": 75,
+    "def": 90,
+    "hp": 50,
+    "spa": 10,
+    "spd": 35,
+    "spe": 40
+  },
+  "gen": 7,
+  "regional": "alola",
+  "baseSpecies": {
+    "name": "sandshrew",
+    "caption": "Sandshrew"
+  },
+  "abilities": {
+    "1": "snow-cloak",
+    "H": "slush-rush"
+  },
+  "evos": [
+    "sandslash-alola"
+  ],
+  "height": 0.7,
+  "weight": 40,
+  "learnset": [
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "7E"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "aurora-veil"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M",
+        "8L45",
+        "8V",
+        "7M",
+        "7L46"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "covet"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "crush-claw"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L1"
+      ],
+      "what": "defense-curl"
+    },
+    {
+      "how": [
+        "8M",
+        "8V"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M",
+        "7E"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "flail"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "focus-punch"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "frost-breath"
+    },
+    {
+      "how": [
+        "8L12",
+        "7L11"
+      ],
+      "what": "fury-cutter"
+    },
+    {
+      "how": [
+        "8L24",
+        "8V",
+        "7L20"
+      ],
+      "what": "fury-swipes"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "7M",
+        "7L34"
+      ],
+      "what": "gyro-ball"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42",
+        "7M",
+        "7L42"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "hone-claws"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T"
+      ],
+      "what": "ice-punch"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "ice-shard"
+    },
+    {
+      "how": [
+        "7E"
+      ],
+      "what": "icicle-crash"
+    },
+    {
+      "how": [
+        "8M",
+        "7E"
+      ],
+      "what": "icicle-spear"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M",
+        "8L27",
+        "7T",
+        "7L23"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M",
+        "8L33",
+        "7T",
+        "7L30"
+      ],
+      "what": "iron-head"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "knock-off"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8L18",
+        "7L14",
+        "7E"
+      ],
+      "what": "metal-claw"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "mirror-coat"
+    },
+    {
+      "how": [
+        "8L3"
+      ],
+      "what": "mist"
+    },
+    {
+      "how": [
+        "8E",
+        "7E"
+      ],
+      "what": "night-slash"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8L6",
+        "7L5",
+        "7S0"
+      ],
+      "what": "powder-snow"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L9",
+        "7S0"
+      ],
+      "what": "rapid-spin"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "rollout"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8L1",
+        "8V",
+        "7L1"
+      ],
+      "what": "scratch"
+    },
+    {
+      "how": [
+        "8V"
+      ],
+      "what": "seismic-toss"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "shadow-claw"
+    },
+    {
+      "how": [
+        "8L30",
+        "8V",
+        "7L26"
+      ],
+      "what": "slash"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7T"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-beam"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "steel-roller"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "super-fang"
+    },
+    {
+      "how": [
+        "7M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "8L21",
+        "8V",
+        "7L17"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8M",
+        "8L39",
+        "8V",
+        "7M",
+        "7L38"
+      ],
+      "what": "swords-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8M",
+        "7T"
+      ],
+      "what": "throat-chop"
+    },
+    {
+      "how": [
+        "8V",
+        "7M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "triple-axel"
+    },
+    {
+      "how": [
+        "8M",
+        "7M"
+      ],
+      "what": "work-up"
+    },
+    {
+      "how": [
+        "8M",
+        "8V",
+        "7M"
+      ],
+      "what": "x-scissor"
+    }
+  ]
+}

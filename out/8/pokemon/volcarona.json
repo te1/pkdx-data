@@ -1,0 +1,1016 @@
+{
+  "name": "volcarona",
+  "caption": "Volcarona",
+  "types": [
+    "bug",
+    "fire"
+  ],
+  "num": 637,
+  "baseStats": {
+    "atk": 60,
+    "def": 65,
+    "hp": 85,
+    "spa": 135,
+    "spd": 105,
+    "spe": 100
+  },
+  "gen": 5,
+  "abilities": {
+    "1": "flame-body",
+    "H": "swarm"
+  },
+  "prevo": "larvesta",
+  "height": 1.6,
+  "weight": 46,
+  "learnset": [
+    {
+      "how": [
+        "7L1"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "aerial-ace"
+    },
+    {
+      "how": [
+        "8M",
+        "8L54",
+        "7L1",
+        "6L1"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L24",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42",
+        "7L1",
+        "6L1",
+        "5L70",
+        "5S1"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "7T"
+      ],
+      "what": "defog"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "dual-wingbeat"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L100"
+      ],
+      "what": "fiery-dance"
+    },
+    {
+      "how": [
+        "8M",
+        "8L70",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7L30",
+        "6L30",
+        "5L30",
+        "5S0"
+      ],
+      "what": "fire-spin"
+    },
+    {
+      "how": [
+        "8L1",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8L18",
+        "7L1",
+        "6L1"
+      ],
+      "what": "flame-wheel"
+    },
+    {
+      "how": [
+        "8M",
+        "8L1",
+        "7L1",
+        "6L1"
+      ],
+      "what": "flare-blitz"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "fly"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1",
+        "5S0"
+      ],
+      "what": "gust"
+    },
+    {
+      "how": [
+        "8M",
+        "8L48",
+        "7T",
+        "7L1",
+        "6T",
+        "6L1",
+        "5T",
+        "5L60"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "8M",
+        "8L62",
+        "7L1",
+        "6L1",
+        "5L90"
+      ],
+      "what": "hurricane"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "5S1"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "7M",
+        "6L1",
+        "5L1",
+        "5S0"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "magnet-rise"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mystical-fire"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M",
+        "5S1"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8L0",
+        "7L1",
+        "6L1",
+        "5L59",
+        "5S1"
+      ],
+      "what": "quiver-dance"
+    },
+    {
+      "how": [
+        "8L78",
+        "7L1",
+        "6L1",
+        "5L80"
+      ],
+      "what": "rage-powder"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "roost"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "skitter-smack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1",
+        "5S0"
+      ],
+      "what": "string-shot"
+    },
+    {
+      "how": [
+        "8L1",
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "tailwind"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "7L1",
+        "6L1"
+      ],
+      "what": "thrash"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L40",
+        "6L40",
+        "5L40"
+      ],
+      "what": "whirlwind"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "wild-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8E",
+        "7L10"
+      ],
+      "what": "absorb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "acrobatics"
+    },
+    {
+      "how": [
+        "8M",
+        "8L54",
+        "7L80",
+        "6L80",
+        "5L80"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8L24",
+        "7T",
+        "7L40",
+        "6T",
+        "6L40",
+        "5T",
+        "5L40"
+      ],
+      "what": "bug-bite"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42",
+        "7L70",
+        "6L70",
+        "5L70"
+      ],
+      "what": "bug-buzz"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8L60",
+        "7L50",
+        "6L50",
+        "5L50"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "ember"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8L6",
+        "7M",
+        "7L30",
+        "6M",
+        "6L30",
+        "5M",
+        "5L30"
+      ],
+      "what": "flame-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8L18",
+        "7L60",
+        "6L60",
+        "5L60"
+      ],
+      "what": "flame-wheel"
+    },
+    {
+      "how": [
+        "8M",
+        "8L66",
+        "7L100",
+        "6L100",
+        "5L100"
+      ],
+      "what": "flare-blitz"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "giga-drain"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "harden"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "heat-wave"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "7M",
+        "6L10",
+        "5L10"
+      ],
+      "what": "leech-life"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "magnet-rise"
+    },
+    {
+      "how": [
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "morning-sun"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "overheat"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "screech"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "skitter-smack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "solar-beam"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "7E",
+        "6L1",
+        "6E",
+        "5L1",
+        "5E"
+      ],
+      "what": "string-shot"
+    },
+    {
+      "how": [
+        "8L12",
+        "6M",
+        "5M"
+      ],
+      "what": "struggle-bug"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8L48",
+        "7L20",
+        "6L20",
+        "5L20"
+      ],
+      "what": "take-down"
+    },
+    {
+      "how": [
+        "8E",
+        "7L90",
+        "6L90",
+        "5L90"
+      ],
+      "what": "thrash"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "u-turn"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "wild-charge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "will-o-wisp"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "zen-headbutt"
+    }
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "name": "slowbro-galar",
+  "caption": "Slowbro-Galar",
+  "types": [
+    "poison",
+    "psychic"
+  ],
+  "num": 80,
+  "baseStats": {
+    "atk": 100,
+    "def": 95,
+    "hp": 95,
+    "spa": 100,
+    "spd": 70,
+    "spe": 30
+  },
+  "gen": 8,
+  "abilities": {
+    "1": "quick-draw",
+    "2": "own-tempo",
+    "H": "regenerator"
+  },
+  "prevo": "slowpoke-galar",
+  "height": 1.6,
+  "weight": 70.5,
+  "learnset": [
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "acid"
+    },
+    {
+      "how": [
+        "8M",
+        "8L27"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "avalanche"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brick-break"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brutal-swing"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "confusion"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "disable"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "drain-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "expanding-force"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fling"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "focus-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "future-sight"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "giga-impact"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8L45",
+        "8L51"
+      ],
+      "what": "heal-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hyper-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-defense"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "liquidation"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-kick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mega-punch"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "muddy-water"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "nasty-plot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pay-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "poison-jab"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-terrain"
+    },
+    {
+      "how": [
+        "8L39",
+        "8L41"
+      ],
+      "what": "psych-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psyshock"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42",
+        "8L46"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "razor-shell"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8L0"
+      ],
+      "what": "shell-side-arm"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8L33"
+      ],
+      "what": "slack-off"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sludge-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "venoshock"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "water-gun"
+    },
+    {
+      "how": [
+        "8L18"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "withdraw"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "wonder-room"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "yawn"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "zen-headbutt"
+    },
+    {
+      "how": [
+        "8L6"
+      ],
+      "what": "acid"
+    },
+    {
+      "how": [
+        "8M",
+        "8L27"
+      ],
+      "what": "amnesia"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "belch"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "belly-drum"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "blizzard"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "block"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "body-slam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "brine"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "calm-mind"
+    },
+    {
+      "how": [
+        "8L12"
+      ],
+      "what": "confusion"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "curse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8L15"
+      ],
+      "what": "disable"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "dive"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "expanding-force"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "fire-blast"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "flamethrower"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "future-sight"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "grass-knot"
+    },
+    {
+      "how": [
+        "8L3"
+      ],
+      "what": "growl"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hail"
+    },
+    {
+      "how": [
+        "8L21"
+      ],
+      "what": "headbutt"
+    },
+    {
+      "how": [
+        "8L45"
+      ],
+      "what": "heal-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "hydro-pump"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "ice-beam"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "icy-wind"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "imprison"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "light-screen"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "liquidation"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "mud-shot"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "pay-day"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36"
+      ],
+      "what": "psychic"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psychic-terrain"
+    },
+    {
+      "how": [
+        "8L39"
+      ],
+      "what": "psych-up"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "psyshock"
+    },
+    {
+      "how": [
+        "8M",
+        "8L42"
+      ],
+      "what": "rain-dance"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "safeguard"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "scald"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "shadow-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "skill-swap"
+    },
+    {
+      "how": [
+        "8L33"
+      ],
+      "what": "slack-off"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8E"
+      ],
+      "what": "stomp"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "stored-power"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "sunny-day"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30"
+      ],
+      "what": "surf"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "swift"
+    },
+    {
+      "how": [
+        "8L1"
+      ],
+      "what": "tackle"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "thunder-wave"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "tri-attack"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "trick-room"
+    },
+    {
+      "how": [
+        "8L18"
+      ],
+      "what": "water-pulse"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "weather-ball"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "whirlpool"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "wonder-room"
+    },
+    {
+      "how": [
+        "8L9"
+      ],
+      "what": "yawn"
+    },
+    {
+      "how": [
+        "8M",
+        "8L24"
+      ],
+      "what": "zen-headbutt"
+    }
+  ]
+}

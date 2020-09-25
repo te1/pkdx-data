@@ -1,0 +1,561 @@
+{
+  "name": "sandile",
+  "caption": "Sandile",
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "num": 551,
+  "baseStats": {
+    "atk": 72,
+    "def": 35,
+    "hp": 50,
+    "spa": 35,
+    "spd": 35,
+    "spe": 65
+  },
+  "gen": 5,
+  "abilities": {
+    "1": "intimidate",
+    "2": "moxie",
+    "H": "anger-point"
+  },
+  "evos": [
+    "krokorok"
+  ],
+  "height": 0.7,
+  "weight": 15.2,
+  "learnset": [
+    {
+      "how": [
+        "8E",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "aqua-tail"
+    },
+    {
+      "how": [
+        "8M",
+        "7L16",
+        "6L16",
+        "5L16"
+      ],
+      "what": "assurance"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "attract"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "beat-up"
+    },
+    {
+      "how": [
+        "8L15",
+        "7L4",
+        "6L4",
+        "5L4"
+      ],
+      "what": "bite"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "bulldoze"
+    },
+    {
+      "how": [
+        "7M",
+        "6M"
+      ],
+      "what": "confide"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "counter"
+    },
+    {
+      "how": [
+        "8M",
+        "8L27",
+        "7L28",
+        "6L28",
+        "5L28"
+      ],
+      "what": "crunch"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "cut"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "dark-pulse"
+    },
+    {
+      "how": [
+        "8M",
+        "8L21",
+        "7L31",
+        "6M",
+        "6L31",
+        "5M",
+        "5L31"
+      ],
+      "what": "dig"
+    },
+    {
+      "how": [
+        "8E",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "double-edge"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "double-team"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "earth-power"
+    },
+    {
+      "how": [
+        "8M",
+        "8L36",
+        "7M",
+        "7L43",
+        "6M",
+        "6L43",
+        "5M",
+        "5L43"
+      ],
+      "what": "earthquake"
+    },
+    {
+      "how": [
+        "8M"
+      ],
+      "what": "endure"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "facade"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "fire-fang"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "focus-energy"
+    },
+    {
+      "how": [
+        "8M",
+        "8L33",
+        "7T",
+        "7L37",
+        "6T",
+        "6L37",
+        "5T",
+        "5L37"
+      ],
+      "what": "foul-play"
+    },
+    {
+      "how": [
+        "8L6",
+        "6M",
+        "5M"
+      ],
+      "what": "hone-claws"
+    },
+    {
+      "how": [
+        "6M",
+        "5M"
+      ],
+      "what": "incinerate"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "iron-tail"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "lash-out"
+    },
+    {
+      "how": [
+        "8L1",
+        "7L1",
+        "6L1",
+        "5L1"
+      ],
+      "what": "leer"
+    },
+    {
+      "how": [
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "mean-look"
+    },
+    {
+      "how": [
+        "7L19",
+        "6L19",
+        "5L19"
+      ],
+      "what": "mud-slap"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "payback"
+    },
+    {
+      "how": [
+        "8L1",
+        "7E"
+      ],
+      "what": "power-trip"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "protect"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rest"
+    },
+    {
+      "how": [
+        "8M",
+        "6M",
+        "5M"
+      ],
+      "what": "retaliate"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "roar"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-slide"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "rock-tomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "round"
+    },
+    {
+      "how": [
+        "8L3",
+        "7L7",
+        "6L7",
+        "5L7"
+      ],
+      "what": "sand-attack"
+    },
+    {
+      "how": [
+        "8M",
+        "8L30",
+        "7M",
+        "7L40",
+        "6M",
+        "6L40",
+        "5M",
+        "5L40"
+      ],
+      "what": "sandstorm"
+    },
+    {
+      "how": [
+        "8M",
+        "8L9",
+        "7L13",
+        "6L13",
+        "5L13"
+      ],
+      "what": "sand-tomb"
+    },
+    {
+      "how": [
+        "8M",
+        "8L12",
+        "7L34",
+        "6L34",
+        "5L34"
+      ],
+      "what": "scary-face"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "scorching-sands"
+    },
+    {
+      "how": [
+        "8T"
+      ],
+      "what": "skitter-smack"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5T"
+      ],
+      "what": "sleep-talk"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "sludge-bomb"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "snarl"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "snore"
+    },
+    {
+      "how": [
+        "8E",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "spite"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "6T",
+        "5T"
+      ],
+      "what": "stealth-rock"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "stone-edge"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "substitute"
+    },
+    {
+      "how": [
+        "8L24",
+        "7M",
+        "7L25",
+        "6M",
+        "6L25",
+        "5M",
+        "5L25"
+      ],
+      "what": "swagger"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "taunt"
+    },
+    {
+      "how": [
+        "8M",
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "thief"
+    },
+    {
+      "how": [
+        "8L39",
+        "7L46",
+        "6L46",
+        "5L46"
+      ],
+      "what": "thrash"
+    },
+    {
+      "how": [
+        "8M",
+        "7E",
+        "6E",
+        "5E"
+      ],
+      "what": "thunder-fang"
+    },
+    {
+      "how": [
+        "8L18",
+        "7M",
+        "7L10",
+        "6M",
+        "6L10",
+        "5M",
+        "5L10"
+      ],
+      "what": "torment"
+    },
+    {
+      "how": [
+        "7M",
+        "6M",
+        "5M"
+      ],
+      "what": "toxic"
+    },
+    {
+      "how": [
+        "8M",
+        "7T",
+        "7E",
+        "6T",
+        "6E",
+        "5T",
+        "5E"
+      ],
+      "what": "uproar"
+    }
+  ]
+}

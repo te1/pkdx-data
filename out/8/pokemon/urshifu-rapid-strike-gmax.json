@@ -14,15 +14,17 @@
     "spd": 60,
     "spe": 97
   },
-  "isBattleOnly": "Urshifu-Rapid-Strike",
+  "isBattleOnly": true,
   "gen": 8,
   "baseSpecies": {
-    "name": "urshifu-rapid-strike",
-    "caption": "Urshifu-Rapid-Strike"
+    "name": "urshifu",
+    "caption": "Urshifu"
   },
   "tags": [
     "gmax"
   ],
+  "altCaption": "Rapid Strike Style",
+  "isAltFormOverride": true,
   "altBattleForms": [
     "urshifu-rapid-strike"
   ],

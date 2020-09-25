@@ -1495,7 +1495,12 @@
       "spd": 70,
       "spe": 30
     },
-    "gen": 8
+    "gen": 8,
+    "regional": "galar",
+    "baseSpecies": {
+      "name": "slowbro",
+      "caption": "Slowbro"
+    }
   },
   {
     "name": "magnemite",
@@ -4487,7 +4492,7 @@
       "spd": 78,
       "spe": 85
     },
-    "isBattleOnly": "Cherrim",
+    "isBattleOnly": true,
     "gen": 4,
     "altCaption": "Sunshine Form",
     "hide": true,
@@ -6047,7 +6052,7 @@
       "spd": 55,
       "spe": 135
     },
-    "isBattleOnly": "Darmanitan-Galar",
+    "isBattleOnly": true,
     "gen": 8,
     "regional": "galar",
     "baseSpecies": {
@@ -6072,7 +6077,7 @@
       "spd": 105,
       "spe": 55
     },
-    "isBattleOnly": "Darmanitan",
+    "isBattleOnly": true,
     "gen": 5,
     "altCaption": "Zen Mode",
     "baseSpecies": {
@@ -6629,7 +6634,8 @@
       "spd": 85,
       "spe": 40
     },
-    "gen": 5
+    "gen": 5,
+    "altCaption": "Male"
   },
   {
     "name": "jellicent",
@@ -6647,7 +6653,8 @@
       "spd": 105,
       "spe": 60
     },
-    "gen": 5
+    "gen": 5,
+    "altCaption": "Male"
   },
   {
     "name": "joltik",
@@ -7805,7 +7812,7 @@
       "spd": 50,
       "spe": 60
     },
-    "isBattleOnly": "Aegislash",
+    "isBattleOnly": true,
     "gen": 6,
     "altCaption": "Blade Form",
     "baseSpecies": {
@@ -8819,7 +8826,7 @@
       "spd": 135,
       "spe": 30
     },
-    "isBattleOnly": "Wishiwashi",
+    "isBattleOnly": true,
     "gen": 7,
     "altCaption": "School Form",
     "baseSpecies": {
@@ -9764,7 +9771,7 @@
       "spd": 105,
       "spe": 96
     },
-    "isBattleOnly": "Mimikyu",
+    "isBattleOnly": true,
     "gen": 7,
     "altCaption": "Busted Form",
     "hide": true,
@@ -11019,7 +11026,7 @@
       "spd": 95,
       "spe": 85
     },
-    "isBattleOnly": "Cramorant",
+    "isBattleOnly": true,
     "gen": 8,
     "altCaption": "Gorging Form",
     "hide": true,
@@ -11044,7 +11051,7 @@
       "spd": 95,
       "spe": 85
     },
-    "isBattleOnly": "Cramorant",
+    "isBattleOnly": true,
     "gen": 8,
     "altCaption": "Gulping Form",
     "hide": true,
@@ -11190,7 +11197,7 @@
       "spd": 70,
       "spe": 75
     },
-    "isBattleOnly": "Toxtricity-Low-Key",
+    "isBattleOnly": true,
     "gen": 8,
     "baseSpecies": {
       "name": "toxtricity",
@@ -11808,7 +11815,7 @@
       "spd": 50,
       "spe": 130
     },
-    "isBattleOnly": "Eiscue",
+    "isBattleOnly": true,
     "gen": 8,
     "altCaption": "Noice Face",
     "baseSpecies": {
@@ -11894,7 +11901,7 @@
       "spd": 58,
       "spe": 97
     },
-    "isBattleOnly": "Morpeko",
+    "isBattleOnly": true,
     "gen": 8,
     "altCaption": "Hangry Mode",
     "hide": true,
@@ -12288,7 +12295,8 @@
       "spd": 60,
       "spe": 97
     },
-    "gen": 8
+    "gen": 8,
+    "altCaption": "Single Strike Style"
   },
   {
     "name": "urshifu-gmax",
@@ -12314,7 +12322,8 @@
     },
     "tags": [
       "gmax"
-    ]
+    ],
+    "altCaption": "Single Strike Style"
   },
   {
     "name": "urshifu-rapid-strike",
@@ -12332,7 +12341,12 @@
       "spd": 60,
       "spe": 97
     },
-    "gen": 8
+    "gen": 8,
+    "altCaption": "Rapid Strike Style",
+    "baseSpecies": {
+      "name": "urshifu",
+      "caption": "Urshifu"
+    }
   },
   {
     "name": "urshifu-rapid-strike-gmax",
@@ -12350,15 +12364,17 @@
       "spd": 60,
       "spe": 97
     },
-    "isBattleOnly": "Urshifu-Rapid-Strike",
+    "isBattleOnly": true,
     "gen": 8,
     "baseSpecies": {
-      "name": "urshifu-rapid-strike",
-      "caption": "Urshifu-Rapid-Strike"
+      "name": "urshifu",
+      "caption": "Urshifu"
     },
     "tags": [
       "gmax"
-    ]
+    ],
+    "altCaption": "Rapid Strike Style",
+    "isAltFormOverride": true
   },
   {
     "name": "zarude",

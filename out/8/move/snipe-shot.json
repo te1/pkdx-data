@@ -9,9 +9,10 @@
   "gen": 8,
   "priority": 0,
   "target": "normal",
-  "desc": "Has a higher chance for a critical hit.",
-  "shortDesc": "High critical hit ratio.",
+  "desc": "Has a higher chance for a critical hit. This move cannot be redirected to a different target by any effect.",
+  "shortDesc": "High critical hit ratio. Cannot be redirected.",
   "pokemon": [
-    "inteleon"
+    "inteleon",
+    "inteleon-gmax"
   ]
 }

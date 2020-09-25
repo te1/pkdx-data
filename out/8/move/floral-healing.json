@@ -1,0 +1,17 @@
+{
+  "name": "floral-healing",
+  "caption": "Floral Healing",
+  "type": "fairy",
+  "category": "status",
+  "accuracy": null,
+  "basePower": 0,
+  "pp": 10,
+  "gen": 7,
+  "priority": 0,
+  "target": "normal",
+  "desc": "The target restores 1/2 of its maximum HP, rounded half up. If the terrain is Grassy Terrain, the target instead restores 2/3 of its maximum HP, rounded half down.",
+  "shortDesc": "Heals the target by 50% of its max HP.",
+  "pokemon": [
+    "comfey"
+  ]
+}

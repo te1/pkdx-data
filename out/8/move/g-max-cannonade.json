@@ -1,0 +1,21 @@
+{
+  "name": "g-max-cannonade",
+  "caption": "G-Max Cannonade",
+  "type": "water",
+  "category": null,
+  "accuracy": null,
+  "basePower": null,
+  "pp": 10,
+  "gen": 8,
+  "tags": [
+    "gmax"
+  ],
+  "exclusive": [
+    "blastoise"
+  ],
+  "priority": 0,
+  "target": "adjacentfoe",
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, for 4 turns each non-Water-type Pokemon on the opposing side takes damage equal to 1/6 of its maximum HP, rounded down, at the end of each turn during effect, including the last turn.",
+  "shortDesc": "Base move affects power. Foes: -1/6 HP, 4 turns.",
+  "pokemon": []
+}

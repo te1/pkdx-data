@@ -1,0 +1,19 @@
+{
+  "name": "bonemerang",
+  "caption": "Bonemerang",
+  "type": "ground",
+  "category": "physical",
+  "accuracy": 90,
+  "basePower": 50,
+  "pp": 10,
+  "gen": 1,
+  "priority": 0,
+  "target": "normal",
+  "desc": "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+  "shortDesc": "Hits 2 times in one turn.",
+  "pokemon": [
+    "cubone",
+    "marowak",
+    "marowak-alola"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "shore-up",
+  "caption": "Shore Up",
+  "type": "ground",
+  "category": "status",
+  "accuracy": null,
+  "basePower": 0,
+  "pp": 10,
+  "gen": 7,
+  "priority": 0,
+  "target": "self",
+  "desc": "The user restores 1/2 of its maximum HP, rounded half down. If the weather is Sandstorm, the user instead restores 2/3 of its maximum HP, rounded half down.",
+  "shortDesc": "User restores 1/2 its max HP; 2/3 in Sandstorm.",
+  "pokemon": [
+    "palossand",
+    "sandygast"
+  ]
+}

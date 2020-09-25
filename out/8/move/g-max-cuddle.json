@@ -15,7 +15,7 @@
   ],
   "priority": 0,
   "target": "adjacentfoe",
-  "desc": "Infatuates opponents. Base Power scales with the base move's Base Power.",
-  "shortDesc": "Infatuates opponents. BP scales with base move.",
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side becomes infatuated, even if they have a substitute. This effect does not happen for a target if both it and the user are the same gender, if either is genderless, or if the target is already infatuated.",
+  "shortDesc": "Base move affects power. Foes: infatuated.",
   "pokemon": []
 }

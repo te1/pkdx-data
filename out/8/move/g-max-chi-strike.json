@@ -15,7 +15,7 @@
   ],
   "priority": 0,
   "target": "adjacentfoe",
-  "desc": "Applies Focus Energy to the user and its allies. Base Power scales with the base move's Base Power.",
-  "shortDesc": "User side: Focus Energy. BP scales w/ base move.",
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the user's side has their critical hit ratio raised by 1 stage, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Allies: Crit Ratio +1.",
   "pokemon": []
 }

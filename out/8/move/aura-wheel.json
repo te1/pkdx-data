@@ -9,10 +9,9 @@
   "gen": 8,
   "priority": 0,
   "target": "normal",
-  "desc": "If the user is a Morpeko, this move will be Electric type. If the user is a Morpeko-Hangry, this move will be Dark type. Has a 100% chance to raise the users Speed by 1 stage. This move fails if the user is not a Morpeko or Morpeko-Hangry.",
+  "desc": "Has a 100% chance to raise the user's Speed by 1 stage. If the user is a Morpeko in Full Belly Mode, this move is Electric type. If the user is a Morpeko in Hangry Mode, this move is Dark type. This move cannot be used successfully unless the user's current form, while considering Transform, is Full Belly or Hangry Mode Morpeko.",
   "shortDesc": "Morpeko: Electric; Hangry: Dark; 100% +1 Spe.",
   "pokemon": [
-    "morpeko",
-    "morpeko-hangry"
+    "morpeko"
   ]
 }

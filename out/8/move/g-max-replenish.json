@@ -15,7 +15,7 @@
   ],
   "priority": 0,
   "target": "adjacentfoe",
-  "desc": "Has a 50% chance of restoring all Berries on the user's side. Base Power scales with the base move's Base Power.",
-  "shortDesc": "50% restore berries. BP scales w/ base move.",
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, there is a 50% chance every Pokemon on the user's side has its Berry restored, even if they have a substitute.",
+  "shortDesc": "Base move affects power. 50% restores Berries.",
   "pokemon": []
 }

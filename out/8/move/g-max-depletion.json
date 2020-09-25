@@ -15,7 +15,7 @@
   ],
   "priority": 0,
   "target": "adjacentfoe",
-  "desc": "Lowers the PP of the opponent(s) last used move. Base Power scales with the base move's Base Power.",
-  "shortDesc": "Foe: Lowers PP of last move. BP scales w/ base move.",
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side loses 2 PP from its last move used, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Foes: last move -2 PP.",
   "pokemon": []
 }

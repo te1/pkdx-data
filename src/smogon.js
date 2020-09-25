@@ -39,7 +39,7 @@ async function exportAbilities(target, data) {
   let details = [];
   let obj, pokemon, temp;
 
-  _.forEach(data, ability => {
+  _.forEach(data, (ability) => {
     if (!ability) {
       return;
     }
@@ -63,7 +63,7 @@ async function exportAbilities(target, data) {
 
     index.push(obj);
 
-    pokemon = _.filter(pokemonDetails, pkmn => {
+    pokemon = _.filter(pokemonDetails, (pkmn) => {
       return _.includes(_.values(pkmn.abilities), obj.name);
     });
     pokemon = _.sortBy(pokemon, 'name');
@@ -103,19 +103,13 @@ async function exportMoves(target, data) {
   let details = [];
   let obj, accuracy, tags, exclusive, pokemon, temp;
 
-  _.forEach(data, move => {
+  _.forEach(data, (move) => {
     if (!move) {
       return;
     }
-    if (move.isNonstandard) {
-      // keep G-Max moves
-      if (
-        move.isNonstandard !== 'Unobtainable' ||
-        !_.startsWith(move.name, 'G-Max')
-      ) {
-        // console.warn('\t', 'Non standard', move.name, '-', move.isNonstandard);
-        return;
-      }
+    if (move.isNonstandard && move.isNonstandard !== 'Gigantamax') {
+      // console.warn('\t', 'Non standard', move.name, '-', move.isNonstandard);
+      return;
     }
 
     accuracy = move.accuracy === 'Bypass' ? null : move.accuracy;
@@ -181,7 +175,7 @@ async function exportMoves(target, data) {
       obj.tr = temp.num;
     }
 
-    pokemon = _.filter(pokemonDetails, pkmn => {
+    pokemon = _.filter(pokemonDetails, (pkmn) => {
       return _.some(pkmn.learnset, { what: obj.name });
     });
     pokemon = _.sortBy(pokemon, 'name');
@@ -235,11 +229,14 @@ async function exportPokemon(target, data) {
   let obj, isBattleOnly, abilities, evos, prevo, altBattleForms, learnset;
   let tags, temp;
 
-  _.forEach(data, pkmn => {
+  _.forEach(data, (pkmn) => {
     if (!pkmn) {
       return;
     }
-    if (pkmn.isNonstandard && pkmn.isNonstandard !== 'Unobtainable') {
+    if (
+      pkmn.isNonstandard &&
+      !_.includes(['Gigantamax', 'Unobtainable'], pkmn.isNonstandard)
+    ) {
       // console.warn('\t', 'Non standard', pkmn.name, '-', pkmn.isNonstandard);
       return;
     }
@@ -334,7 +331,7 @@ async function exportPokemon(target, data) {
       ? _.map(pkmn.altBattleFormes, getSpeciesName)
       : undefined;
 
-    learnset = _.map(pkmn.learnset, entry => {
+    learnset = _.map(pkmn.learnset, (entry) => {
       return {
         how: entry.how,
         what: getMoveName(entry.what),
@@ -379,7 +376,7 @@ async function exportItems(target, data) {
   let details = [];
   let obj, caption, temp;
 
-  _.forEach(data, item => {
+  _.forEach(data, (item) => {
     if (!item) {
       return;
     }
@@ -435,14 +432,14 @@ async function exportPokedex(target) {
   let altList = [];
   let pkmn, altPkmn, alts, baseSpeciesName;
 
-  data = _.map(data, item => {
+  data = _.map(data, (item) => {
     pkmn = _.find(pokemonDetails, { name: item.name });
 
     if (pkmn) {
       item.national = pkmn.num;
 
       if (pkmn.altBattleForms) {
-        alts = _.map(pkmn.altBattleForms, altName => {
+        alts = _.map(pkmn.altBattleForms, (altName) => {
           altPkmn = _.find(pokemonDetails, { name: altName });
 
           if (!altPkmn) {
@@ -473,7 +470,7 @@ async function exportPokedex(target) {
     return item;
   });
 
-  altList = _.reject(altList, item => !item);
+  altList = _.reject(altList, (item) => !item);
 
   data = _.concat(data, altList);
   data = _.sortBy(data, 'num');

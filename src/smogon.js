@@ -241,7 +241,7 @@ async function exportPokemon(target, data) {
       return;
     }
 
-    isBattleOnly = pkmn.isBattleOnly || undefined;
+    isBattleOnly = pkmn.isBattleOnly ? true : undefined;
 
     obj = {
       name: getName(pkmn.name),

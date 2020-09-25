@@ -423,11 +423,11 @@ async function exportItems(target, data) {
   }
 }
 
-async function exportPokedex(target) {
+async function exportPokedex(target, dexName) {
   console.log('loading data...');
-  let data = await fs.readJson('./in/static/8/pokedex/swsh-galar.json');
+  let data = await fs.readJson(`./in/static/8/pokedex/${dexName}.json`);
 
-  console.log(`processing ${data.length} pokedex entries...`);
+  console.log(`processing ${data.length} pokedex entries for ${dexName}...`);
 
   let altList = [];
   let pkmn, altPkmn, alts, baseSpeciesName;
@@ -476,7 +476,7 @@ async function exportPokedex(target) {
   data = _.sortBy(data, 'num');
 
   console.log(`writing ${data.length} pokedex entries...\n`);
-  await exportData(path.join(target, 'pokedex/swsh-galar.json'), data);
+  await exportData(path.join(target, `pokedex/${dexName}.json`), data);
 }
 
 async function exportAll(target) {
@@ -487,7 +487,8 @@ async function exportAll(target) {
   await exportAbilities(target, all.abilities);
   await exportMoves(target, all.moves);
   await exportItems(target, all.items);
-  await exportPokedex(target);
+  await exportPokedex(target, 'swsh-galar');
+  await exportPokedex(target, 'swsh-isle-of-armor');
 }
 
 module.exports = exportAll;

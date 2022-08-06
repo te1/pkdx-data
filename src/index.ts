@@ -1,4 +1,5 @@
 import * as fs from 'fs-extra';
+import _ from 'lodash';
 import { Dex } from '@pkmn/dex';
 import { Generations, GenerationNum, Data } from '@pkmn/data';
 import { AbilityMap } from './utils';
@@ -8,14 +9,11 @@ import { exportItems } from './item';
 import { exportPokemon } from './pokemon';
 import { exportMoves } from './move';
 import { exportAbilities } from './ability';
-import _ from 'lodash';
 
 const target = './generated/';
 
-const existsFn = (d: Data) => {
+const existsFn = (d: Data, g: GenerationNum) => {
   // from pkmn/ps/data/index.ts DEFAULT_EXISTS
-  // modified to include G-Max/Unobtainable formes and Illegal/Unreleased tier
-  // as a result we need to filter out Pokestar manually
 
   const pokestarIds = [
     'pokestarblackbelt',
@@ -41,16 +39,28 @@ const existsFn = (d: Data) => {
     return false;
   }
 
+  // include G-Max and Unobtainable formes
+  // include Illegal and Unreleased tier
+  // exclude Pokestar
   const allowNonstandardSpecies =
     d.kind === 'Species' &&
     d.isNonstandard &&
     _.includes(['Gigantamax', 'Unobtainable'], d.isNonstandard) &&
     !_.includes(pokestarIds, d.id);
 
+  // include Legends Arceus species
+  const allowFutureSpecies =
+    g === 8 &&
+    d.kind === 'Species' &&
+    d.isNonstandard &&
+    'Future' === d.isNonstandard;
+
+  // include G-Max moves
   const allowNonstandardMove =
     d.kind === 'Move' && d.isNonstandard && 'Gigantamax' === d.isNonstandard;
 
-  const allowNonstandard = allowNonstandardSpecies || allowNonstandardMove;
+  const allowNonstandard =
+    allowNonstandardSpecies || allowFutureSpecies || allowNonstandardMove;
 
   if ('isNonstandard' in d && d.isNonstandard && !allowNonstandard) {
     return false;
@@ -63,7 +73,8 @@ const existsFn = (d: Data) => {
   return true;
 };
 
-const gens = new Generations(Dex, existsFn);
+// weird cast because the constructor has the wrong typings for exists
+const gens = new Generations(Dex, existsFn as (d: Data) => boolean);
 const genNums: GenerationNum[] = [1, 2, 3, 4, 5, 6, 7, 8];
 
 async function main() {

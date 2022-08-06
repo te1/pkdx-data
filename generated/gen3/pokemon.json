@@ -456,8 +456,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 55.4,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -583,8 +583,8 @@
     "evos": [
       "claydol"
     ],
-    "gender": "N",
     "weight": 21.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -770,8 +770,8 @@
     "evos": [
       "metang"
     ],
-    "gender": "N",
     "weight": 95.2,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -923,8 +923,8 @@
     },
     "prevo": "chansey",
     "evoType": "levelFriendship",
-    "gender": "F",
     "weight": 46.8,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
@@ -1204,6 +1204,17 @@
     "abilities": {
       "0": "forecast"
     },
+    "formes": [
+      "Castform",
+      "Castform-Sunny",
+      "Castform-Rainy",
+      "Castform-Snowy"
+    ],
+    "otherFormes": [
+      "Castform-Sunny",
+      "Castform-Rainy",
+      "Castform-Snowy"
+    ],
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -1233,6 +1244,9 @@
     "abilities": {
       "0": "forecast"
     },
+    "forme": "Rainy",
+    "changesFrom": "Castform",
+    "requiredAbility": "forecast",
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -1262,6 +1276,9 @@
     "abilities": {
       "0": "forecast"
     },
+    "forme": "Snowy",
+    "changesFrom": "Castform",
+    "requiredAbility": "forecast",
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -1291,6 +1308,9 @@
     "abilities": {
       "0": "forecast"
     },
+    "forme": "Sunny",
+    "changesFrom": "Castform",
+    "requiredAbility": "forecast",
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -1352,8 +1372,8 @@
     "abilities": {
       "0": "naturalcure"
     },
-    "gender": "N",
     "weight": 5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -1387,8 +1407,8 @@
     "evoType": "levelHold",
     "evoCondition": "during the day",
     "evoItem": "Oval Stone",
-    "gender": "F",
     "weight": 34.6,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
@@ -1640,8 +1660,8 @@
     },
     "prevo": "baltoy",
     "evoLevel": 36,
-    "gender": "N",
     "weight": 108,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -2145,8 +2165,20 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
+    "baseForme": "Normal",
+    "formes": [
+      "Deoxys",
+      "Deoxys-Attack",
+      "Deoxys-Defense",
+      "Deoxys-Speed"
+    ],
+    "otherFormes": [
+      "Deoxys-Attack",
+      "Deoxys-Defense",
+      "Deoxys-Speed"
+    ],
     "weight": 60.8,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2173,8 +2205,10 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
+    "forme": "Attack",
+    "changesFrom": "Deoxys",
     "weight": 60.8,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2201,8 +2235,10 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
+    "forme": "Defense",
+    "changesFrom": "Deoxys",
     "weight": 60.8,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2229,8 +2265,10 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
+    "forme": "Speed",
+    "changesFrom": "Deoxys",
     "weight": 60.8,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2321,8 +2359,8 @@
     "abilities": {
       "0": "limber"
     },
-    "gender": "N",
     "weight": 4,
+    "gender": "N",
     "eggGroups": [
       "Ditto"
     ]
@@ -2855,8 +2893,8 @@
     },
     "prevo": "voltorb",
     "evoLevel": 30,
-    "gender": "N",
     "weight": 66.6,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -2911,8 +2949,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 198,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -3860,8 +3898,8 @@
     "abilities": {
       "0": "drought"
     },
-    "gender": "N",
     "weight": 950,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -4147,8 +4185,8 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat < its Def stat",
     "evoLevel": 20,
-    "gender": "M",
     "weight": 50.2,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -4175,8 +4213,8 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat > its Def stat",
     "evoLevel": 20,
-    "gender": "M",
     "weight": 49.8,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -4203,8 +4241,8 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat equal to its Def stat",
     "evoLevel": 20,
-    "gender": "M",
     "weight": 48,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -4229,8 +4267,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 199,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -4512,8 +4550,8 @@
     "abilities": {
       "0": "oblivious"
     },
-    "gender": "F",
     "weight": 17.7,
+    "gender": "F",
     "eggGroups": [
       "Bug",
       "Human-Like"
@@ -4607,8 +4645,8 @@
     "abilities": {
       "0": "serenegrace"
     },
-    "gender": "N",
     "weight": 1.1,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -4701,8 +4739,8 @@
     },
     "prevo": "smoochum",
     "evoLevel": 30,
-    "gender": "F",
     "weight": 40.6,
+    "gender": "F",
     "eggGroups": [
       "Human-Like"
     ]
@@ -4861,8 +4899,8 @@
     "abilities": {
       "0": "earlybird"
     },
-    "gender": "F",
     "weight": 80,
+    "gender": "F",
     "eggGroups": [
       "Monster"
     ]
@@ -5075,8 +5113,8 @@
     "abilities": {
       "0": "drizzle"
     },
-    "gender": "N",
     "weight": 352,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -5234,8 +5272,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "F",
     "weight": 40,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -5263,8 +5301,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "M",
     "weight": 60,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -5586,8 +5624,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 216,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -5615,8 +5653,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 168,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -5892,8 +5930,8 @@
     "evos": [
       "magneton"
     ],
-    "gender": "N",
     "weight": 6,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -5921,8 +5959,8 @@
     },
     "prevo": "magnemite",
     "evoLevel": 30,
-    "gender": "N",
     "weight": 60,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -6395,8 +6433,8 @@
     },
     "prevo": "metang",
     "evoLevel": 45,
-    "gender": "N",
     "weight": 550,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -6426,8 +6464,8 @@
       "metagross"
     ],
     "evoLevel": 20,
-    "gender": "N",
     "weight": 202.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -6484,8 +6522,8 @@
     "abilities": {
       "0": "synchronize"
     },
-    "gender": "N",
     "weight": 4,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -6512,8 +6550,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 122,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -6603,8 +6641,8 @@
     "abilities": {
       "0": "thickfat"
     },
-    "gender": "F",
     "weight": 75.5,
+    "gender": "F",
     "eggGroups": [
       "Field"
     ]
@@ -6685,8 +6723,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 60,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -6872,8 +6910,8 @@
     "prevo": "nidorino",
     "evoType": "useItem",
     "evoItem": "Moon Stone",
-    "gender": "M",
     "weight": 62,
+    "gender": "M",
     "eggGroups": [
       "Monster",
       "Field"
@@ -6902,8 +6940,8 @@
     "prevo": "nidorina",
     "evoType": "useItem",
     "evoItem": "Moon Stone",
-    "gender": "F",
     "weight": 60,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -6930,8 +6968,8 @@
     "evos": [
       "nidorina"
     ],
-    "gender": "F",
     "weight": 7,
+    "gender": "F",
     "eggGroups": [
       "Monster",
       "Field"
@@ -6959,8 +6997,8 @@
     "evos": [
       "nidorino"
     ],
-    "gender": "M",
     "weight": 9,
+    "gender": "M",
     "eggGroups": [
       "Monster",
       "Field"
@@ -6990,8 +7028,8 @@
       "nidoqueen"
     ],
     "evoLevel": 16,
-    "gender": "F",
     "weight": 20,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -7020,8 +7058,8 @@
       "nidoking"
     ],
     "evoLevel": 16,
-    "gender": "M",
     "weight": 19.5,
+    "gender": "M",
     "eggGroups": [
       "Monster",
       "Field"
@@ -8069,8 +8107,8 @@
     "evos": [
       "porygon2"
     ],
-    "gender": "N",
     "weight": 36.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -8097,8 +8135,8 @@
     "prevo": "porygon",
     "evoType": "trade",
     "evoItem": "Up-Grade",
-    "gender": "N",
     "weight": 32.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -8347,8 +8385,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 178,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -8502,8 +8540,8 @@
     "abilities": {
       "0": "airlock"
     },
-    "gender": "N",
     "weight": 206.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -8530,8 +8568,8 @@
     "abilities": {
       "0": "clearbody"
     },
-    "gender": "N",
     "weight": 175,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -8558,8 +8596,8 @@
     "abilities": {
       "0": "clearbody"
     },
-    "gender": "N",
     "weight": 230,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -8586,8 +8624,8 @@
     "abilities": {
       "0": "clearbody"
     },
-    "gender": "N",
     "weight": 205,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -9253,8 +9291,8 @@
     },
     "prevo": "nincada",
     "evoLevel": 20,
-    "gender": "N",
     "weight": 1.2,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -9825,8 +9863,8 @@
     "evos": [
       "jynx"
     ],
-    "gender": "F",
     "weight": 6,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -9976,8 +10014,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 154,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -10225,8 +10263,8 @@
     "prevo": "staryu",
     "evoType": "useItem",
     "evoItem": "Water Stone",
-    "gender": "N",
     "weight": 80,
+    "gender": "N",
     "eggGroups": [
       "Water 3"
     ]
@@ -10254,8 +10292,8 @@
     "evos": [
       "starmie"
     ],
-    "gender": "N",
     "weight": 34.5,
+    "gender": "N",
     "eggGroups": [
       "Water 3"
     ]
@@ -10343,8 +10381,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 187,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10685,8 +10723,8 @@
     "abilities": {
       "0": "intimidate"
     },
-    "gender": "M",
     "weight": 88.4,
+    "gender": "M",
     "eggGroups": [
       "Field"
     ]
@@ -11122,8 +11160,8 @@
       "hitmonchan",
       "hitmontop"
     ],
-    "gender": "M",
     "weight": 21,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -11178,8 +11216,68 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "baseForme": "A",
+    "formes": [
+      "Unown",
+      "Unown-B",
+      "Unown-C",
+      "Unown-D",
+      "Unown-E",
+      "Unown-F",
+      "Unown-G",
+      "Unown-H",
+      "Unown-I",
+      "Unown-J",
+      "Unown-K",
+      "Unown-L",
+      "Unown-M",
+      "Unown-N",
+      "Unown-O",
+      "Unown-P",
+      "Unown-Q",
+      "Unown-R",
+      "Unown-S",
+      "Unown-T",
+      "Unown-U",
+      "Unown-V",
+      "Unown-W",
+      "Unown-X",
+      "Unown-Y",
+      "Unown-Z",
+      "Unown-Exclamation",
+      "Unown-Question"
+    ],
+    "cosmeticFormes": [
+      "Unown-B",
+      "Unown-C",
+      "Unown-D",
+      "Unown-E",
+      "Unown-F",
+      "Unown-G",
+      "Unown-H",
+      "Unown-I",
+      "Unown-J",
+      "Unown-K",
+      "Unown-L",
+      "Unown-M",
+      "Unown-N",
+      "Unown-O",
+      "Unown-P",
+      "Unown-Q",
+      "Unown-R",
+      "Unown-S",
+      "Unown-T",
+      "Unown-U",
+      "Unown-V",
+      "Unown-W",
+      "Unown-X",
+      "Unown-Y",
+      "Unown-Z",
+      "Unown-Exclamation",
+      "Unown-Question"
+    ],
     "weight": 5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -11491,8 +11589,8 @@
       "0": "illuminate",
       "1": "swarm"
     },
-    "gender": "M",
     "weight": 17.7,
+    "gender": "M",
     "eggGroups": [
       "Bug",
       "Human-Like"
@@ -11521,8 +11619,8 @@
     "evos": [
       "electrode"
     ],
-    "gender": "N",
     "weight": 10.4,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -12149,8 +12247,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
     "weight": 52.6,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],

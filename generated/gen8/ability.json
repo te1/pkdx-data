@@ -5,6 +5,7 @@
     "gen": 4,
     "pokemon": [
       "eevee",
+      "eeveegmax",
       "corphish",
       "crawdaunt",
       "feebas",
@@ -34,7 +35,8 @@
       "stunky",
       "skuntank",
       "trubbish",
-      "garbodor"
+      "garbodor",
+      "garbodorgmax"
     ],
     "desc": "If this Pokemon is knocked out with a contact move, that move's user loses 1/4 of its maximum HP, rounded down. If any active Pokemon has the Damp Ability, this effect is prevented.",
     "shortDesc": "If this Pokemon is KOed with a contact move, that move's user loses 1/4 its max HP."
@@ -89,6 +91,7 @@
       "ponytagalar",
       "rapidashgalar",
       "eevee",
+      "eeveegmax",
       "barboach",
       "whiscash",
       "croagunk",
@@ -96,7 +99,8 @@
       "ferrothorn",
       "hatenna",
       "hattrem",
-      "hatterene"
+      "hatterene",
+      "hatterenegmax"
     ],
     "desc": "On switch-in, this Pokemon is alerted if any opposing Pokemon has an attack that is super effective on this Pokemon, or an OHKO move. Counter, Metal Burst, and Mirror Coat count as attacking moves of their respective types, Hidden Power counts as its determined type, and Judgment, Multi-Attack, Natural Gift, Revelation Dance, Techno Blast, and Weather Ball are considered Normal-type moves.",
     "shortDesc": "On switch-in, this Pokemon shudders if any foe has a supereffective or OHKO move."
@@ -121,7 +125,8 @@
       "spritzee",
       "aromatisse",
       "milcery",
-      "alcremie"
+      "alcremie",
+      "alcremiegmax"
     ],
     "desc": "This Pokemon and its allies cannot be affected by Attract, Disable, Encore, Heal Block, Taunt, or Torment.",
     "shortDesc": "Protects user/allies from Attract, Disable, Encore, Heal Block, Taunt, and Torment."
@@ -267,6 +272,7 @@
       "charmander",
       "charmeleon",
       "charizard",
+      "charizardgmax",
       "torchic",
       "combusken",
       "blaziken",
@@ -275,7 +281,8 @@
       "incineroar",
       "scorbunny",
       "raboot",
-      "cinderace"
+      "cinderace",
+      "cinderacegmax"
     ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Fire-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Fire attacks."
@@ -327,6 +334,7 @@
       "bulbasaur",
       "ivysaur",
       "venusaur",
+      "venusaurgmax",
       "oddish",
       "gloom",
       "vileplume",
@@ -429,6 +437,7 @@
     "gen": 3,
     "pokemon": [
       "butterfree",
+      "butterfreegmax",
       "nincada",
       "joltik",
       "galvantula",
@@ -490,6 +499,7 @@
     "gen": 5,
     "pokemon": [
       "gengar",
+      "gengargmax",
       "marowakalola",
       "corsolagalar",
       "froslass",
@@ -802,8 +812,10 @@
       "talonflame",
       "carkol",
       "coalossal",
+      "coalossalgmax",
       "sizzlipede",
-      "centiskorch"
+      "centiskorch",
+      "centiskorchgmax"
     ],
     "desc": "30% chance a Pokemon making contact with this Pokemon will be burned.",
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be burned."
@@ -839,8 +851,10 @@
       "rolycoly",
       "carkol",
       "coalossal",
+      "coalossalgmax",
       "sizzlipede",
-      "centiskorch"
+      "centiskorch",
+      "centiskorchgmax"
     ],
     "desc": "This Pokemon is immune to Fire-type moves. The first time it is hit by a Fire-type move, its attacking stat is multiplied by 1.5 while using a Fire-type attack as long as it remains active and has this Ability. If this Pokemon is frozen, it cannot be defrosted by Fire-type attacks.",
     "shortDesc": "This Pokemon's Fire attacks do 1.5x damage if hit by one Fire move; Fire immunity."
@@ -939,9 +953,11 @@
       "noibat",
       "noivern",
       "orbeetle",
+      "orbeetlegmax",
       "impidimp",
       "morgrem",
-      "grimmsnarl"
+      "grimmsnarl",
+      "grimmsnarlgmax"
     ],
     "desc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon.",
     "shortDesc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon."
@@ -992,6 +1008,7 @@
     "pokemon": [
       "slowpokegalar",
       "snorlax",
+      "snorlaxgmax",
       "shuckle",
       "zigzagoon",
       "zigzagoongalar",
@@ -1003,7 +1020,9 @@
       "greedent",
       "applin",
       "flapple",
-      "appletun"
+      "flapplegmax",
+      "appletun",
+      "appletungmax"
     ],
     "desc": "When this Pokemon has 1/2 or less of its maximum HP, it uses certain Berries early.",
     "shortDesc": "When this Pokemon has 1/2 or less of its maximum HP, it uses certain Berries early."
@@ -1045,7 +1064,8 @@
       "tapubulu",
       "grookey",
       "thwackey",
-      "rillaboom"
+      "rillaboom",
+      "rillaboomgmax"
     ],
     "desc": "On switch-in, this Pokemon summons Grassy Terrain.",
     "shortDesc": "On switch-in, this Pokemon summons Grassy Terrain."
@@ -1080,6 +1100,7 @@
       "machop",
       "machoke",
       "machamp",
+      "machampgmax",
       "flareon",
       "heracross",
       "tyrogue",
@@ -1123,7 +1144,8 @@
       "aromatisse",
       "hatenna",
       "hattrem",
-      "hatterene"
+      "hatterene",
+      "hatterenegmax"
     ],
     "desc": "There is a 30% chance of curing an adjacent ally's non-volatile status condition at the end of each turn.",
     "shortDesc": "30% chance of curing an adjacent ally's status at the end of each turn."
@@ -1152,7 +1174,9 @@
       "bronzong",
       "cufant",
       "copperajah",
-      "duraludon"
+      "copperajahgmax",
+      "duraludon",
+      "duraludongmax"
     ],
     "desc": "This Pokemon's weight is doubled.",
     "shortDesc": "This Pokemon's weight is doubled."
@@ -1217,6 +1241,7 @@
       "deino",
       "zweilous",
       "flapple",
+      "flapplegmax",
       "dracozolt"
     ],
     "desc": "This Pokemon's Attack is multiplied by 1.5 and the accuracy of its physical attacks is multiplied by 0.8.",
@@ -1228,6 +1253,7 @@
     "gen": 4,
     "pokemon": [
       "lapras",
+      "laprasgmax",
       "vaporeon",
       "smoochum",
       "wingull",
@@ -1251,6 +1277,7 @@
     "pokemon": [
       "krabby",
       "kingler",
+      "kinglergmax",
       "pinsir",
       "mawile",
       "trapinch",
@@ -1337,7 +1364,8 @@
     "name": "Immunity",
     "gen": 3,
     "pokemon": [
-      "snorlax"
+      "snorlax",
+      "snorlaxgmax"
     ],
     "desc": "This Pokemon cannot be poisoned. Gaining this Ability while poisoned cures it.",
     "shortDesc": "This Pokemon cannot be poisoned. Gaining this Ability while poisoned cures it."
@@ -1519,7 +1547,8 @@
       "golurk",
       "pancham",
       "pangoro",
-      "melmetal"
+      "melmetal",
+      "melmetalgmax"
     ],
     "desc": "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
     "shortDesc": "This Pokemon's punch-based attacks have 1.2x power. Sucker Punch is not boosted."
@@ -1663,7 +1692,8 @@
     "pokemon": [
       "scorbunny",
       "raboot",
-      "cinderace"
+      "cinderace",
+      "cinderacegmax"
     ],
     "desc": "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
     "shortDesc": "This Pokemon's type changes to match the type of the move it is about to use."
@@ -1678,7 +1708,8 @@
       "metang",
       "metagross",
       "registeel",
-      "duraludon"
+      "duraludon",
+      "duraludongmax"
     ],
     "desc": "This Pokemon's weight is halved.",
     "shortDesc": "This Pokemon's weight is halved."
@@ -1696,6 +1727,7 @@
       "pikachukalos",
       "pikachualola",
       "pikachupartner",
+      "pikachugmax",
       "pikachuworld",
       "raichu",
       "cubone",
@@ -1782,7 +1814,8 @@
       "espeon",
       "hatenna",
       "hattrem",
-      "hatterene"
+      "hatterene",
+      "hatterenegmax"
     ],
     "desc": "This Pokemon blocks certain status moves and instead uses the move against the original user.",
     "shortDesc": "This Pokemon blocks certain status moves and bounces them back to the user."
@@ -1890,7 +1923,8 @@
       "klink",
       "klang",
       "klinklang",
-      "toxtricitylowkey"
+      "toxtricitylowkey",
+      "toxtricitylowkeygmax"
     ],
     "desc": "If an active ally has this Ability or the Plus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
     "shortDesc": "If an active ally has this Ability or the Plus Ability, this Pokemon's Sp. Atk is 1.5x."
@@ -1900,7 +1934,8 @@
     "name": "Mirror Armor",
     "gen": 8,
     "pokemon": [
-      "corviknight"
+      "corviknight",
+      "corviknightgmax"
     ],
     "desc": "When one of this Pokemon's stat stages would be lowered by another Pokemon, that Pokemon's stat stage is lowered instead. This effect does not happen if this Pokemon's stat stage was already -6.",
     "shortDesc": "If this Pokemon's stat stages would be lowered, the attacker's are lowered instead."
@@ -2061,6 +2096,7 @@
       "machop",
       "machoke",
       "machamp",
+      "machampgmax",
       "karrablast",
       "golett",
       "golurk",
@@ -2139,6 +2175,7 @@
       "bulbasaur",
       "ivysaur",
       "venusaur",
+      "venusaurgmax",
       "treecko",
       "grovyle",
       "sceptile",
@@ -2147,7 +2184,8 @@
       "decidueye",
       "grookey",
       "thwackey",
-      "rillaboom"
+      "rillaboom",
+      "rillaboomgmax"
     ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Grass-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Grass attacks."
@@ -2223,7 +2261,8 @@
       "barbaracle",
       "impidimp",
       "morgrem",
-      "grimmsnarl"
+      "grimmsnarl",
+      "grimmsnarlgmax"
     ],
     "desc": "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
     "shortDesc": "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item."
@@ -2236,6 +2275,7 @@
       "meowth",
       "meowthalola",
       "meowthgalar",
+      "meowthgmax",
       "zigzagoon",
       "zigzagoongalar",
       "linoone",
@@ -2276,7 +2316,8 @@
       "klang",
       "klinklang",
       "dedenne",
-      "toxtricity"
+      "toxtricity",
+      "toxtricitygmax"
     ],
     "desc": "If an active ally has this Ability or the Minus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
     "shortDesc": "If an active ally has this Ability or the Minus Ability, this Pokemon's Sp. Atk is 1.5x."
@@ -2373,7 +2414,8 @@
       "klefki",
       "impidimp",
       "morgrem",
-      "grimmsnarl"
+      "grimmsnarl",
+      "grimmsnarlgmax"
     ],
     "desc": "This Pokemon's Status moves have priority raised by 1, but Dark types are immune.",
     "shortDesc": "This Pokemon's Status moves have priority raised by 1, but Dark types are immune."
@@ -2408,7 +2450,9 @@
       "bisharp",
       "kyurem",
       "corviknight",
-      "eternatus"
+      "corviknightgmax",
+      "eternatus",
+      "eternatuseternamax"
     ],
     "desc": "If this Pokemon is the target of an opposing Pokemon's move, that move loses one additional PP.",
     "shortDesc": "If this Pokemon is the target of a foe's move, that move loses one additional PP."
@@ -2468,7 +2512,9 @@
     "gen": 8,
     "pokemon": [
       "toxtricity",
-      "toxtricitylowkey"
+      "toxtricitylowkey",
+      "toxtricitygmax",
+      "toxtricitylowkeygmax"
     ],
     "desc": "This Pokemon's sound-based moves have their power multiplied by 1.3. This Pokemon takes halved damage from sound-based moves.",
     "shortDesc": "This Pokemon receives 1/2 damage from sound moves. Its own have 1.3x power."
@@ -2522,6 +2568,7 @@
       "squirtle",
       "wartortle",
       "blastoise",
+      "blastoisegmax",
       "tentacool",
       "tentacruel",
       "lotad",
@@ -2632,7 +2679,9 @@
     "pokemon": [
       "applin",
       "flapple",
-      "appletun"
+      "flapplegmax",
+      "appletun",
+      "appletungmax"
     ],
     "desc": "When this Pokemon eats a Berry, its effect is doubled.",
     "shortDesc": "When this Pokemon eats a Berry, its effect is doubled."
@@ -2742,6 +2791,7 @@
       "rapidash",
       "rapidashgalar",
       "eevee",
+      "eeveegmax",
       "dunsparce",
       "nincada",
       "buneary",
@@ -2800,7 +2850,8 @@
     "gen": 8,
     "pokemon": [
       "silicobra",
-      "sandaconda"
+      "sandaconda",
+      "sandacondagmax"
     ],
     "desc": "When this Pokemon is hit by an attack, Sandstorm begins. This effect happens after the effects of Max and G-Max Moves.",
     "shortDesc": "When this Pokemon is hit, Sandstorm begins."
@@ -2839,7 +2890,8 @@
       "sandygast",
       "palossand",
       "silicobra",
-      "sandaconda"
+      "sandaconda",
+      "sandacondagmax"
     ],
     "desc": "If Sandstorm is active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Sandstorm.",
     "shortDesc": "If Sandstorm is active, this Pokemon's evasiveness is 1.25x; immunity to Sandstorm."
@@ -2957,7 +3009,8 @@
       "scrafty",
       "karrablast",
       "silicobra",
-      "sandaconda"
+      "sandaconda",
+      "sandacondagmax"
     ],
     "desc": "This Pokemon has a 33% chance to have its non-volatile status condition cured at the end of each turn.",
     "shortDesc": "This Pokemon has a 33% chance to have its status cured at the end of each turn."
@@ -2971,6 +3024,7 @@
       "nidoking",
       "krabby",
       "kingler",
+      "kinglergmax",
       "tauros",
       "steelix",
       "mawile",
@@ -2985,7 +3039,8 @@
       "braviary",
       "landorus",
       "cufant",
-      "copperajah"
+      "copperajah",
+      "copperajahgmax"
     ],
     "desc": "This Pokemon's attacks with secondary effects have their power multiplied by 1.3, but the secondary effects are removed. If a secondary effect was removed, it also removes the user's Life Orb recoil and Shell Bell recovery, and prevents the target's Berserk, Color Change, Emergency Exit, Pickpocket, Wimp Out, Red Card, Eject Button, Kee Berry, and Maranga Berry from activating.",
     "shortDesc": "This Pokemon's attacks with secondary effects have 1.3x power; nullifies the effects."
@@ -2999,7 +3054,9 @@
       "cloyster",
       "krabby",
       "kingler",
+      "kinglergmax",
       "lapras",
+      "laprasgmax",
       "omanyte",
       "omastar",
       "torkoal",
@@ -3011,7 +3068,8 @@
       "shelmet",
       "turtonator",
       "chewtle",
-      "drednaw"
+      "drednaw",
+      "drednawgmax"
     ],
     "desc": "This Pokemon cannot be struck by a critical hit.",
     "shortDesc": "This Pokemon cannot be struck by a critical hit."
@@ -3102,7 +3160,8 @@
       "barbaracle",
       "sobble",
       "drizzile",
-      "inteleon"
+      "inteleon",
+      "inteleongmax"
     ],
     "desc": "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5.",
     "shortDesc": "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5."
@@ -3154,6 +3213,7 @@
       "charmander",
       "charmeleon",
       "charizard",
+      "charizardgmax",
       "helioptile",
       "heliolisk"
     ],
@@ -3247,7 +3307,8 @@
     "name": "Stalwart",
     "gen": 8,
     "pokemon": [
-      "duraludon"
+      "duraludon",
+      "duraludongmax"
     ],
     "desc": "This Pokemon's moves cannot be redirected to a different target by any effect.",
     "shortDesc": "This Pokemon's moves cannot be redirected to a different target by any effect."
@@ -3287,6 +3348,7 @@
       "pikachukalos",
       "pikachualola",
       "pikachupartner",
+      "pikachugmax",
       "pikachuworld",
       "raichu",
       "electabuzz",
@@ -3311,6 +3373,7 @@
       "machop",
       "machoke",
       "machamp",
+      "machampgmax",
       "farfetchdgalar",
       "scyther",
       "tyrogue",
@@ -3333,7 +3396,8 @@
     "pokemon": [
       "rolycoly",
       "carkol",
-      "coalossal"
+      "coalossal",
+      "coalossalgmax"
     ],
     "desc": "This Pokemon's Speed is raised by 6 stages after it is damaged by Fire/Water moves.",
     "shortDesc": "This Pokemon's Speed is raised by 6 stages after it is damaged by Fire/Water moves."
@@ -3369,7 +3433,8 @@
       "stunky",
       "skuntank",
       "trubbish",
-      "garbodor"
+      "garbodor",
+      "garbodorgmax"
     ],
     "desc": "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",
     "shortDesc": "This Pokemon's attacks without a chance to flinch gain a 10% chance to flinch."
@@ -3410,6 +3475,7 @@
       "tyrantrum",
       "chewtle",
       "drednaw",
+      "drednawgmax",
       "boltund",
       "dracovish"
     ],
@@ -3514,7 +3580,8 @@
       "grubbin",
       "blipbug",
       "dottler",
-      "orbeetle"
+      "orbeetle",
+      "orbeetlegmax"
     ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Bug-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Bug attacks."
@@ -3532,7 +3599,8 @@
       "steenee",
       "tsareena",
       "milcery",
-      "alcremie"
+      "alcremie",
+      "alcremiegmax"
     ],
     "desc": "This Pokemon and its allies cannot fall asleep.",
     "shortDesc": "This Pokemon and its allies cannot fall asleep."
@@ -3574,6 +3642,7 @@
       "beartic",
       "chewtle",
       "drednaw",
+      "drednawgmax",
       "arrokuda",
       "barraskewda"
     ],
@@ -3644,6 +3713,7 @@
     "pokemon": [
       "meowth",
       "meowthalola",
+      "meowthgmax",
       "persian",
       "persianalola",
       "mrmime",
@@ -3657,6 +3727,8 @@
       "marshadow",
       "toxtricity",
       "toxtricitylowkey",
+      "toxtricitygmax",
+      "toxtricitylowkeygmax",
       "clobbopus",
       "grapploct"
     ],
@@ -3689,7 +3761,8 @@
       "tapufini",
       "blipbug",
       "dottler",
-      "orbeetle"
+      "orbeetle",
+      "orbeetlegmax"
     ],
     "desc": "This Pokemon does not take damage from attacks made by its allies.",
     "shortDesc": "This Pokemon does not take damage from attacks made by its allies."
@@ -3711,6 +3784,7 @@
     "gen": 3,
     "pokemon": [
       "snorlax",
+      "snorlaxgmax",
       "marill",
       "azumarill",
       "swinub",
@@ -3722,7 +3796,8 @@
       "walrein",
       "munchlax",
       "mamoswine",
-      "appletun"
+      "appletun",
+      "appletungmax"
     ],
     "desc": "If a Pokemon uses a Fire- or Ice-type attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
     "shortDesc": "Fire/Ice-type moves against this Pokemon deal damage with a halved attacking stat."
@@ -3733,6 +3808,7 @@
     "gen": 4,
     "pokemon": [
       "butterfree",
+      "butterfreegmax",
       "hoothoot",
       "noctowl",
       "sigilyph"
@@ -3748,6 +3824,7 @@
       "squirtle",
       "wartortle",
       "blastoise",
+      "blastoisegmax",
       "mudkip",
       "marshtomp",
       "swampert",
@@ -3756,7 +3833,8 @@
       "primarina",
       "sobble",
       "drizzile",
-      "inteleon"
+      "inteleon",
+      "inteleongmax"
     ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Water-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Water attacks."
@@ -3883,6 +3961,7 @@
     "pokemon": [
       "meowth",
       "meowthgalar",
+      "meowthgmax",
       "persian",
       "aerodactyl",
       "mewtwo",
@@ -3897,6 +3976,7 @@
       "rookidee",
       "corvisquire",
       "corviknight",
+      "corviknightgmax",
       "calyrex"
     ],
     "desc": "While this Pokemon is active, it prevents opposing Pokemon from using their Berries. Activation message broadcasts before other Abilities regardless of the Pokemon's Speed tiers.",
@@ -3908,7 +3988,9 @@
     "gen": 8,
     "pokemon": [
       "urshifu",
-      "urshifurapidstrike"
+      "urshifurapidstrike",
+      "urshifugmax",
+      "urshifurapidstrikegmax"
     ],
     "desc": "All of this Pokemon's moves that make contact bypass protection.",
     "shortDesc": "All contact moves hit through protection."
@@ -3980,6 +4062,7 @@
       "poliwhirl",
       "poliwrath",
       "lapras",
+      "laprasgmax",
       "vaporeon",
       "chinchou",
       "lanturn",
@@ -4057,6 +4140,7 @@
       "dwebble",
       "crustle",
       "garbodor",
+      "garbodorgmax",
       "vanillite",
       "vanillish",
       "vanilluxe",
@@ -4079,7 +4163,8 @@
       "torkoal",
       "heatmor",
       "sizzlipede",
-      "centiskorch"
+      "centiskorch",
+      "centiskorchgmax"
     ],
     "desc": "Prevents other Pokemon from lowering this Pokemon's stat stages.",
     "shortDesc": "Prevents other Pokemon from lowering this Pokemon's stat stages."

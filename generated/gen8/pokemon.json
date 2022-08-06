@@ -151,6 +151,14 @@
     "prevo": "doublade",
     "evoType": "useItem",
     "evoItem": "Dusk Stone",
+    "baseForme": "Shield",
+    "formes": [
+      "Aegislash",
+      "Aegislash-Blade"
+    ],
+    "otherFormes": [
+      "Aegislash-Blade"
+    ],
     "weight": 53,
     "genderRatio": {
       "M": 0.5,
@@ -180,6 +188,9 @@
     "abilities": {
       "0": "stancechange"
     },
+    "forme": "Blade",
+    "changesFrom": "Aegislash",
+    "requiredAbility": "stancechange",
     "weight": 53,
     "genderRatio": {
       "M": 0.5,
@@ -308,12 +319,64 @@
     "prevo": "milcery",
     "evoType": "other",
     "evoCondition": "spin while holding a Sweet",
-    "gender": "F",
+    "baseForme": "Vanilla Cream",
+    "formes": [
+      "Alcremie",
+      "Alcremie-Ruby-Cream",
+      "Alcremie-Matcha-Cream",
+      "Alcremie-Mint-Cream",
+      "Alcremie-Lemon-Cream",
+      "Alcremie-Salted-Cream",
+      "Alcremie-Ruby-Swirl",
+      "Alcremie-Caramel-Swirl",
+      "Alcremie-Rainbow-Swirl"
+    ],
+    "cosmeticFormes": [
+      "Alcremie-Ruby-Cream",
+      "Alcremie-Matcha-Cream",
+      "Alcremie-Mint-Cream",
+      "Alcremie-Lemon-Cream",
+      "Alcremie-Salted-Cream",
+      "Alcremie-Ruby-Swirl",
+      "Alcremie-Caramel-Swirl",
+      "Alcremie-Rainbow-Swirl"
+    ],
     "weight": 0.5,
+    "gender": "F",
     "eggGroups": [
       "Fairy",
       "Amorphous"
     ]
+  },
+  {
+    "slug": "alcremiegmax",
+    "name": "Alcremie-Gmax",
+    "gen": 8,
+    "types": [
+      "fairy"
+    ],
+    "num": 869,
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 75,
+      "spa": 110,
+      "spd": 121,
+      "spe": 64
+    },
+    "abilities": {
+      "0": "sweetveil",
+      "H": "aromaveil"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Alcremie",
+    "weight": 0,
+    "gender": "F",
+    "eggGroups": [
+      "Fairy",
+      "Amorphous"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "altaria",
@@ -480,6 +543,41 @@
       "Grass",
       "Dragon"
     ]
+  },
+  {
+    "slug": "appletungmax",
+    "name": "Appletun-Gmax",
+    "gen": 8,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "num": 842,
+    "baseStats": {
+      "hp": 110,
+      "atk": 85,
+      "def": 80,
+      "spa": 100,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "ripen",
+      "1": "gluttony",
+      "H": "thickfat"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Appletun",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Grass",
+      "Dragon"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "applin",
@@ -670,8 +768,8 @@
       "1": "icebody",
       "H": "slushrush"
     },
-    "gender": "N",
     "weight": 175,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -698,8 +796,8 @@
       "1": "static",
       "H": "slushrush"
     },
-    "gender": "N",
     "weight": 150,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -855,8 +953,15 @@
       "0": "pressure",
       "H": "snowcloak"
     },
-    "gender": "N",
+    "formes": [
+      "Articuno",
+      "Articuno-Galar"
+    ],
+    "otherFormes": [
+      "Articuno-Galar"
+    ],
     "weight": 55.4,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -884,8 +989,9 @@
     "abilities": {
       "0": "competitive"
     },
-    "gender": "N",
+    "forme": "Galar",
     "weight": 50.9,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -1042,8 +1148,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -1174,8 +1280,8 @@
     "evos": [
       "claydol"
     ],
-    "gender": "N",
     "weight": 21.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -1299,6 +1405,14 @@
       "1": "adaptability",
       "H": "moldbreaker"
     },
+    "baseForme": "Red-Striped",
+    "formes": [
+      "Basculin",
+      "Basculin-Blue-Striped"
+    ],
+    "otherFormes": [
+      "Basculin-Blue-Striped"
+    ],
     "weight": 18,
     "genderRatio": {
       "M": 0.5,
@@ -1329,6 +1443,7 @@
       "1": "adaptability",
       "H": "moldbreaker"
     },
+    "forme": "Blue-Striped",
     "weight": 18,
     "genderRatio": {
       "M": 0.5,
@@ -1426,8 +1541,8 @@
     "evos": [
       "metang"
     ],
-    "gender": "N",
     "weight": 95.2,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -1618,8 +1733,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 13,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -1658,6 +1773,39 @@
       "Monster",
       "Water 1"
     ]
+  },
+  {
+    "slug": "blastoisegmax",
+    "name": "Blastoise-Gmax",
+    "gen": 8,
+    "types": [
+      "water"
+    ],
+    "num": 9,
+    "baseStats": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "spa": 85,
+      "spd": 105,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "torrent",
+      "H": "raindish"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Blastoise",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster",
+      "Water 1"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "blaziken",
@@ -1747,8 +1895,8 @@
     },
     "prevo": "chansey",
     "evoType": "levelFriendship",
-    "gender": "F",
     "weight": 46.8,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
@@ -1906,8 +2054,8 @@
     "evos": [
       "steenee"
     ],
-    "gender": "F",
     "weight": 3.2,
+    "gender": "F",
     "eggGroups": [
       "Grass"
     ]
@@ -1936,8 +2084,8 @@
     },
     "prevo": "rufflet",
     "evoLevel": 54,
-    "gender": "M",
     "weight": 41,
+    "gender": "M",
     "eggGroups": [
       "Flying"
     ]
@@ -2001,8 +2149,8 @@
     },
     "prevo": "bronzor",
     "evoLevel": 33,
-    "gender": "N",
     "weight": 187,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -2032,8 +2180,8 @@
     "evos": [
       "bronzong"
     ],
-    "gender": "N",
     "weight": 60.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -2206,6 +2354,39 @@
     ]
   },
   {
+    "slug": "butterfreegmax",
+    "name": "Butterfree-Gmax",
+    "gen": 8,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "num": 12,
+    "baseStats": {
+      "hp": 60,
+      "atk": 45,
+      "def": 50,
+      "spa": 90,
+      "spd": 80,
+      "spe": 70
+    },
+    "abilities": {
+      "0": "compoundeyes",
+      "H": "tintedlens"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Butterfree",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "buzzwole",
     "name": "Buzzwole",
     "gen": 7,
@@ -2225,8 +2406,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 333.6,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2254,8 +2435,17 @@
     "abilities": {
       "0": "unnerve"
     },
-    "gender": "N",
+    "formes": [
+      "Calyrex",
+      "Calyrex-Ice",
+      "Calyrex-Shadow"
+    ],
+    "otherFormes": [
+      "Calyrex-Ice",
+      "Calyrex-Shadow"
+    ],
     "weight": 7.7,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2283,8 +2473,10 @@
     "abilities": {
       "0": "asoneglastrier"
     },
-    "gender": "N",
+    "forme": "Ice",
+    "changesFrom": "Calyrex",
     "weight": 809.1,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2312,8 +2504,10 @@
     "abilities": {
       "0": "asonespectrier"
     },
-    "gender": "N",
+    "forme": "Shadow",
+    "changesFrom": "Calyrex",
     "weight": 53.6,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2342,8 +2536,8 @@
       "0": "clearbody",
       "H": "sturdy"
     },
-    "gender": "N",
     "weight": 5.7,
+    "gender": "N",
     "eggGroups": [
       "Fairy",
       "Mineral"
@@ -2504,8 +2698,8 @@
     "abilities": {
       "0": "naturalcure"
     },
-    "gender": "N",
     "weight": 5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2533,8 +2727,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 999.9,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -2574,6 +2768,40 @@
     "eggGroups": [
       "Bug"
     ]
+  },
+  {
+    "slug": "centiskorchgmax",
+    "name": "Centiskorch-Gmax",
+    "gen": 8,
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "num": 851,
+    "baseStats": {
+      "hp": 100,
+      "atk": 115,
+      "def": 65,
+      "spa": 90,
+      "spd": 90,
+      "spe": 65
+    },
+    "abilities": {
+      "0": "flashfire",
+      "1": "whitesmoke",
+      "H": "flamebody"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Centiskorch",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "chandelure",
@@ -2637,8 +2865,8 @@
     "evoType": "levelHold",
     "evoCondition": "during the day",
     "evoItem": "Oval Stone",
-    "gender": "F",
     "weight": 34.6,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
@@ -2675,6 +2903,40 @@
       "Monster",
       "Dragon"
     ]
+  },
+  {
+    "slug": "charizardgmax",
+    "name": "Charizard-Gmax",
+    "gen": 8,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "num": 6,
+    "baseStats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "blaze",
+      "H": "solarpower"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Charizard",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster",
+      "Dragon"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "charjabug",
@@ -2799,6 +3061,14 @@
     },
     "prevo": "cherubi",
     "evoLevel": 25,
+    "baseForme": "Overcast",
+    "formes": [
+      "Cherrim",
+      "Cherrim-Sunshine"
+    ],
+    "otherFormes": [
+      "Cherrim-Sunshine"
+    ],
     "weight": 9.3,
     "genderRatio": {
       "M": 0.5,
@@ -2828,6 +3098,9 @@
     "abilities": {
       "0": "flowergift"
     },
+    "forme": "Sunshine",
+    "changesFrom": "Cherrim",
+    "requiredAbility": "flowergift",
     "weight": 9.3,
     "genderRatio": {
       "M": 0.5,
@@ -3004,6 +3277,39 @@
     ]
   },
   {
+    "slug": "cinderacegmax",
+    "name": "Cinderace-Gmax",
+    "gen": 8,
+    "types": [
+      "fire"
+    ],
+    "num": 815,
+    "baseStats": {
+      "hp": 80,
+      "atk": 116,
+      "def": 75,
+      "spa": 65,
+      "spd": 75,
+      "spe": 119
+    },
+    "abilities": {
+      "0": "blaze",
+      "H": "libero"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Cinderace",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field",
+      "Human-Like"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "clauncher",
     "name": "Clauncher",
     "gen": 6,
@@ -3088,8 +3394,8 @@
     },
     "prevo": "baltoy",
     "evoLevel": 36,
-    "gender": "N",
     "weight": 108,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -3296,6 +3602,40 @@
     ]
   },
   {
+    "slug": "coalossalgmax",
+    "name": "Coalossal-Gmax",
+    "gen": 8,
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "num": 839,
+    "baseStats": {
+      "hp": 110,
+      "atk": 80,
+      "def": 120,
+      "spa": 80,
+      "spd": 90,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "steamengine",
+      "1": "flamebody",
+      "H": "flashfire"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Coalossal",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "cobalion",
     "name": "Cobalion",
     "gen": 5,
@@ -3315,8 +3655,8 @@
     "abilities": {
       "0": "justified"
     },
-    "gender": "N",
     "weight": 250,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -3518,6 +3858,39 @@
     ]
   },
   {
+    "slug": "copperajahgmax",
+    "name": "Copperajah-Gmax",
+    "gen": 8,
+    "types": [
+      "steel"
+    ],
+    "num": 879,
+    "baseStats": {
+      "hp": 122,
+      "atk": 130,
+      "def": 69,
+      "spa": 80,
+      "spd": 69,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "sheerforce",
+      "H": "heavymetal"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Copperajah",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field",
+      "Mineral"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "corphish",
     "name": "Corphish",
     "gen": 3,
@@ -3573,6 +3946,13 @@
       "1": "naturalcure",
       "H": "regenerator"
     },
+    "formes": [
+      "Corsola",
+      "Corsola-Galar"
+    ],
+    "otherFormes": [
+      "Corsola-Galar"
+    ],
     "weight": 5,
     "genderRatio": {
       "M": 0.25,
@@ -3606,6 +3986,7 @@
     "evos": [
       "cursola"
     ],
+    "forme": "Galar",
     "weight": 0.5,
     "genderRatio": {
       "M": 0.25,
@@ -3648,6 +4029,40 @@
     "eggGroups": [
       "Flying"
     ]
+  },
+  {
+    "slug": "corviknightgmax",
+    "name": "Corviknight-Gmax",
+    "gen": 8,
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "num": 823,
+    "baseStats": {
+      "hp": 98,
+      "atk": 87,
+      "def": 105,
+      "spa": 53,
+      "spd": 85,
+      "spe": 67
+    },
+    "abilities": {
+      "0": "pressure",
+      "1": "unnerve",
+      "H": "mirrorarmor"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Corviknight",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Flying"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "corvisquire",
@@ -3709,8 +4124,8 @@
       "lunala"
     ],
     "evoLevel": 43,
-    "gender": "N",
     "weight": 999.9,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -3740,8 +4155,8 @@
     "evos": [
       "cosmoem"
     ],
-    "gender": "N",
     "weight": 0.1,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -3836,6 +4251,15 @@
     "abilities": {
       "0": "gulpmissile"
     },
+    "formes": [
+      "Cramorant",
+      "Cramorant-Gulping",
+      "Cramorant-Gorging"
+    ],
+    "otherFormes": [
+      "Cramorant-Gulping",
+      "Cramorant-Gorging"
+    ],
     "weight": 18,
     "genderRatio": {
       "M": 0.5,
@@ -3866,6 +4290,9 @@
     "abilities": {
       "0": "gulpmissile"
     },
+    "forme": "Gorging",
+    "changesFrom": "Cramorant",
+    "requiredAbility": "gulpmissile",
     "weight": 18,
     "genderRatio": {
       "M": 0.5,
@@ -3896,6 +4323,9 @@
     "abilities": {
       "0": "gulpmissile"
     },
+    "forme": "Gulping",
+    "changesFrom": "Cramorant",
+    "requiredAbility": "gulpmissile",
     "weight": 18,
     "genderRatio": {
       "M": 0.5,
@@ -3959,8 +4389,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "F",
     "weight": 85.6,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -4087,8 +4517,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 148,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -4282,6 +4712,18 @@
     },
     "prevo": "darumaka",
     "evoLevel": 35,
+    "baseForme": "Standard",
+    "formes": [
+      "Darmanitan",
+      "Darmanitan-Zen",
+      "Darmanitan-Galar",
+      "Darmanitan-Galar-Zen"
+    ],
+    "otherFormes": [
+      "Darmanitan-Zen",
+      "Darmanitan-Galar",
+      "Darmanitan-Galar-Zen"
+    ],
     "weight": 92.9,
     "genderRatio": {
       "M": 0.5,
@@ -4314,6 +4756,7 @@
     "prevo": "darumakagalar",
     "evoType": "useItem",
     "evoItem": "Ice Stone",
+    "forme": "Galar",
     "weight": 120,
     "genderRatio": {
       "M": 0.5,
@@ -4343,6 +4786,9 @@
     "abilities": {
       "0": "zenmode"
     },
+    "forme": "Galar-Zen",
+    "changesFrom": "Darmanitan-Galar",
+    "requiredAbility": "zenmode",
     "weight": 120,
     "genderRatio": {
       "M": 0.5,
@@ -4372,6 +4818,9 @@
     "abilities": {
       "0": "zenmode"
     },
+    "forme": "Zen",
+    "changesFrom": "Darmanitan",
+    "requiredAbility": "zenmode",
     "weight": 92.9,
     "genderRatio": {
       "M": 0.5,
@@ -4439,6 +4888,13 @@
     "evos": [
       "darmanitan"
     ],
+    "formes": [
+      "Darumaka",
+      "Darumaka-Galar"
+    ],
+    "otherFormes": [
+      "Darumaka-Galar"
+    ],
     "weight": 37.5,
     "genderRatio": {
       "M": 0.5,
@@ -4471,6 +4927,7 @@
     "evos": [
       "darmanitangalar"
     ],
+    "forme": "Galar",
     "weight": 40,
     "genderRatio": {
       "M": 0.5,
@@ -4662,8 +5119,8 @@
     "abilities": {
       "0": "steelworker"
     },
-    "gender": "N",
     "weight": 210,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -4689,8 +5146,8 @@
       "0": "pressure",
       "H": "telepathy"
     },
-    "gender": "N",
     "weight": 683,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -4718,8 +5175,8 @@
     "abilities": {
       "0": "clearbody"
     },
-    "gender": "N",
     "weight": 8.8,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -4784,6 +5241,13 @@
     "evos": [
       "dugtrio"
     ],
+    "formes": [
+      "Diglett",
+      "Diglett-Alola"
+    ],
+    "otherFormes": [
+      "Diglett-Alola"
+    ],
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -4818,6 +5282,7 @@
     "evos": [
       "dugtrioalola"
     ],
+    "forme": "Alola",
     "weight": 1,
     "genderRatio": {
       "M": 0.5,
@@ -4847,8 +5312,8 @@
       "0": "limber",
       "H": "imposter"
     },
-    "gender": "N",
     "weight": 4,
+    "gender": "N",
     "eggGroups": [
       "Ditto"
     ]
@@ -4945,8 +5410,8 @@
       "1": "strongjaw",
       "H": "sandrush"
     },
-    "gender": "N",
     "weight": 215,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -4973,8 +5438,8 @@
       "1": "hustle",
       "H": "sandrush"
     },
-    "gender": "N",
     "weight": 190,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -5286,6 +5751,41 @@
     ]
   },
   {
+    "slug": "drednawgmax",
+    "name": "Drednaw-Gmax",
+    "gen": 8,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "num": 834,
+    "baseStats": {
+      "hp": 90,
+      "atk": 115,
+      "def": 90,
+      "spa": 48,
+      "spd": 68,
+      "spe": 74
+    },
+    "abilities": {
+      "0": "strongjaw",
+      "1": "shellarmor",
+      "H": "swiftswim"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Drednaw",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Monster",
+      "Water 1"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "dreepy",
     "name": "Dreepy",
     "gen": 8,
@@ -5541,6 +6041,13 @@
     },
     "prevo": "diglett",
     "evoLevel": 26,
+    "formes": [
+      "Dugtrio",
+      "Dugtrio-Alola"
+    ],
+    "otherFormes": [
+      "Dugtrio-Alola"
+    ],
     "weight": 33.3,
     "genderRatio": {
       "M": 0.5,
@@ -5574,6 +6081,7 @@
     },
     "prevo": "diglettalola",
     "evoLevel": 26,
+    "forme": "Alola",
     "weight": 66.6,
     "genderRatio": {
       "M": 0.5,
@@ -5679,6 +6187,41 @@
       "Mineral",
       "Dragon"
     ]
+  },
+  {
+    "slug": "duraludongmax",
+    "name": "Duraludon-Gmax",
+    "gen": 8,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "num": 884,
+    "baseStats": {
+      "hp": 70,
+      "atk": 95,
+      "def": 115,
+      "spa": 120,
+      "spd": 50,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "lightmetal",
+      "1": "heavymetal",
+      "H": "stalwart"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Duraludon",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral",
+      "Dragon"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "durant",
@@ -5885,6 +6428,39 @@
     ]
   },
   {
+    "slug": "eeveegmax",
+    "name": "Eevee-Gmax",
+    "gen": 8,
+    "types": [
+      "normal"
+    ],
+    "num": 133,
+    "baseStats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 50,
+      "spa": 45,
+      "spd": 65,
+      "spe": 55
+    },
+    "abilities": {
+      "0": "runaway",
+      "1": "adaptability",
+      "H": "anticipation"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Eevee",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "eiscue",
     "name": "Eiscue",
     "gen": 8,
@@ -5903,6 +6479,13 @@
     "abilities": {
       "0": "iceface"
     },
+    "formes": [
+      "Eiscue",
+      "Eiscue-Noice"
+    ],
+    "otherFormes": [
+      "Eiscue-Noice"
+    ],
     "weight": 89,
     "genderRatio": {
       "M": 0.5,
@@ -5932,6 +6515,9 @@
     "abilities": {
       "0": "iceface"
     },
+    "forme": "Noice",
+    "changesFrom": "Eiscue",
+    "requiredAbility": "iceface",
     "weight": 89,
     "genderRatio": {
       "M": 0.5,
@@ -6188,8 +6774,8 @@
       "0": "pressure",
       "H": "innerfocus"
     },
-    "gender": "N",
     "weight": 198,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -6317,11 +6903,49 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
+    "formes": [
+      "Eternatus",
+      "Eternatus-Eternamax"
+    ],
+    "otherFormes": [
+      "Eternatus-Eternamax"
+    ],
     "weight": 950,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "Restricted Legendary"
+    ]
+  },
+  {
+    "slug": "eternatuseternamax",
+    "name": "Eternatus-Eternamax",
+    "gen": 8,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "num": 890,
+    "baseStats": {
+      "hp": 255,
+      "atk": 115,
+      "def": 250,
+      "spa": 125,
+      "spd": 250,
+      "spe": 130
+    },
+    "abilities": {
+      "0": "pressure"
+    },
+    "forme": "Eternamax",
+    "weight": 0,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isNonstandard": "Unobtainable",
     "tags": [
       "Restricted Legendary"
     ]
@@ -6417,6 +7041,13 @@
     "prevo": "exeggcute",
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
+    "formes": [
+      "Exeggutor",
+      "Exeggutor-Alola"
+    ],
+    "otherFormes": [
+      "Exeggutor-Alola"
+    ],
     "weight": 120,
     "genderRatio": {
       "M": 0.5,
@@ -6450,6 +7081,7 @@
     "prevo": "exeggcute",
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
+    "forme": "Alola",
     "weight": 415.6,
     "genderRatio": {
       "M": 0.5,
@@ -6511,8 +7143,8 @@
       "0": "battlearmor",
       "H": "defiant"
     },
-    "gender": "N",
     "weight": 62,
+    "gender": "N",
     "eggGroups": [
       "Fairy",
       "Mineral"
@@ -6540,6 +7172,13 @@
       "1": "innerfocus",
       "H": "defiant"
     },
+    "formes": [
+      "Farfetch’d",
+      "Farfetch’d-Galar"
+    ],
+    "otherFormes": [
+      "Farfetch’d-Galar"
+    ],
     "weight": 15,
     "genderRatio": {
       "M": 0.5,
@@ -6573,6 +7212,7 @@
     "evos": [
       "sirfetchd"
     ],
+    "forme": "Galar",
     "weight": 15,
     "genderRatio": {
       "M": 0.5,
@@ -6717,6 +7357,41 @@
       "Grass",
       "Dragon"
     ]
+  },
+  {
+    "slug": "flapplegmax",
+    "name": "Flapple-Gmax",
+    "gen": 8,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "num": 841,
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 80,
+      "spa": 95,
+      "spd": 60,
+      "spe": 70
+    },
+    "abilities": {
+      "0": "ripen",
+      "1": "gluttony",
+      "H": "hustle"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Flapple",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Grass",
+      "Dragon"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "flareon",
@@ -7009,8 +7684,8 @@
     "prevo": "snorunt",
     "evoType": "useItem",
     "evoItem": "Dawn Stone",
-    "gender": "F",
     "weight": 26.6,
+    "gender": "F",
     "eggGroups": [
       "Fairy",
       "Mineral"
@@ -7109,8 +7784,8 @@
     "prevo": "kirlia",
     "evoType": "useItem",
     "evoItem": "Dawn Stone",
-    "gender": "M",
     "weight": 52,
+    "gender": "M",
     "eggGroups": [
       "Human-Like",
       "Amorphous"
@@ -7180,6 +7855,39 @@
     "eggGroups": [
       "Mineral"
     ]
+  },
+  {
+    "slug": "garbodorgmax",
+    "name": "Garbodor-Gmax",
+    "gen": 8,
+    "types": [
+      "poison"
+    ],
+    "num": 569,
+    "baseStats": {
+      "hp": 80,
+      "atk": 95,
+      "def": 82,
+      "spa": 60,
+      "spd": 82,
+      "spe": 75
+    },
+    "abilities": {
+      "0": "stench",
+      "1": "weakarmor",
+      "H": "aftermath"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Garbodor",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "garchomp",
@@ -7304,6 +8012,14 @@
     },
     "prevo": "shellos",
     "evoLevel": 30,
+    "baseForme": "West",
+    "formes": [
+      "Gastrodon",
+      "Gastrodon-East"
+    ],
+    "cosmeticFormes": [
+      "Gastrodon-East"
+    ],
     "weight": 29.9,
     "genderRatio": {
       "M": 0.5,
@@ -7334,8 +8050,21 @@
     "abilities": {
       "0": "download"
     },
-    "gender": "N",
+    "formes": [
+      "Genesect",
+      "Genesect-Douse",
+      "Genesect-Shock",
+      "Genesect-Burn",
+      "Genesect-Chill"
+    ],
+    "otherFormes": [
+      "Genesect-Douse",
+      "Genesect-Shock",
+      "Genesect-Burn",
+      "Genesect-Chill"
+    ],
     "weight": 82.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7363,8 +8092,11 @@
     "abilities": {
       "0": "download"
     },
-    "gender": "N",
+    "forme": "Burn",
+    "changesFrom": "Genesect",
+    "requiredItem": "burndrive",
     "weight": 82.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7392,8 +8124,11 @@
     "abilities": {
       "0": "download"
     },
-    "gender": "N",
+    "forme": "Chill",
+    "changesFrom": "Genesect",
+    "requiredItem": "chilldrive",
     "weight": 82.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7421,8 +8156,11 @@
     "abilities": {
       "0": "download"
     },
-    "gender": "N",
+    "forme": "Douse",
+    "changesFrom": "Genesect",
+    "requiredItem": "dousedrive",
     "weight": 82.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7450,8 +8188,11 @@
     "abilities": {
       "0": "download"
     },
-    "gender": "N",
+    "forme": "Shock",
+    "changesFrom": "Genesect",
+    "requiredItem": "shockdrive",
     "weight": 82.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7489,6 +8230,38 @@
     "eggGroups": [
       "Amorphous"
     ]
+  },
+  {
+    "slug": "gengargmax",
+    "name": "Gengar-Gmax",
+    "gen": 8,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "num": 94,
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 60,
+      "spa": 130,
+      "spd": 75,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "cursedbody"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Gengar",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Amorphous"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "gible",
@@ -7577,8 +8350,16 @@
       "0": "pressure",
       "H": "telepathy"
     },
-    "gender": "N",
+    "baseForme": "Altered",
+    "formes": [
+      "Giratina",
+      "Giratina-Origin"
+    ],
+    "otherFormes": [
+      "Giratina-Origin"
+    ],
     "weight": 750,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7606,8 +8387,11 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "forme": "Origin",
+    "changesFrom": "Giratina",
+    "requiredItem": "griseousorb",
     "weight": 650,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7699,8 +8483,8 @@
     "abilities": {
       "0": "chillingneigh"
     },
-    "gender": "N",
     "weight": 800,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -7870,8 +8654,8 @@
     "evos": [
       "golurk"
     ],
-    "gender": "N",
     "weight": 92,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -7932,8 +8716,8 @@
     },
     "prevo": "golett",
     "evoLevel": 43,
-    "gender": "N",
     "weight": 330,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -8160,6 +8944,18 @@
     },
     "prevo": "pumpkaboo",
     "evoType": "trade",
+    "baseForme": "Average",
+    "formes": [
+      "Gourgeist",
+      "Gourgeist-Small",
+      "Gourgeist-Large",
+      "Gourgeist-Super"
+    ],
+    "otherFormes": [
+      "Gourgeist-Small",
+      "Gourgeist-Large",
+      "Gourgeist-Super"
+    ],
     "weight": 12.5,
     "genderRatio": {
       "M": 0.5,
@@ -8193,6 +8989,7 @@
     },
     "prevo": "pumpkaboolarge",
     "evoType": "trade",
+    "forme": "Large",
     "weight": 14,
     "genderRatio": {
       "M": 0.5,
@@ -8226,6 +9023,7 @@
     },
     "prevo": "pumpkaboosmall",
     "evoType": "trade",
+    "forme": "Small",
     "weight": 9.5,
     "genderRatio": {
       "M": 0.5,
@@ -8259,6 +9057,7 @@
     },
     "prevo": "pumpkaboosuper",
     "evoType": "trade",
+    "forme": "Super",
     "weight": 39,
     "genderRatio": {
       "M": 0.5,
@@ -8356,12 +9155,44 @@
     },
     "prevo": "morgrem",
     "evoLevel": 42,
-    "gender": "M",
     "weight": 61,
+    "gender": "M",
     "eggGroups": [
       "Fairy",
       "Human-Like"
     ]
+  },
+  {
+    "slug": "grimmsnarlgmax",
+    "name": "Grimmsnarl-Gmax",
+    "gen": 8,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "num": 861,
+    "baseStats": {
+      "hp": 95,
+      "atk": 120,
+      "def": 65,
+      "spa": 95,
+      "spd": 75,
+      "spe": 60
+    },
+    "abilities": {
+      "0": "prankster",
+      "1": "frisk",
+      "H": "pickpocket"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Grimmsnarl",
+    "weight": 0,
+    "gender": "M",
+    "eggGroups": [
+      "Fairy",
+      "Human-Like"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "grookey",
@@ -8415,8 +9246,8 @@
     "abilities": {
       "0": "drought"
     },
-    "gender": "N",
     "weight": 950,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -8578,8 +9409,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 888,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -8680,8 +9511,8 @@
     "evos": [
       "chansey"
     ],
-    "gender": "F",
     "weight": 24.4,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -8710,8 +9541,8 @@
     "evos": [
       "hattrem"
     ],
-    "gender": "F",
     "weight": 3.4,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
@@ -8740,11 +9571,42 @@
     },
     "prevo": "hattrem",
     "evoLevel": 42,
-    "gender": "F",
     "weight": 5.1,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
+  },
+  {
+    "slug": "hatterenegmax",
+    "name": "Hatterene-Gmax",
+    "gen": 8,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "num": 858,
+    "baseStats": {
+      "hp": 57,
+      "atk": 90,
+      "def": 95,
+      "spa": 136,
+      "spd": 103,
+      "spe": 29
+    },
+    "abilities": {
+      "0": "healer",
+      "1": "anticipation",
+      "H": "magicbounce"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Hatterene",
+    "weight": 0,
+    "gender": "F",
+    "eggGroups": [
+      "Fairy"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "hattrem",
@@ -8772,8 +9634,8 @@
       "hatterene"
     ],
     "evoLevel": 32,
-    "gender": "F",
     "weight": 4.8,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
@@ -9163,8 +10025,8 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat < its Def stat",
     "evoLevel": 20,
-    "gender": "M",
     "weight": 50.2,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -9193,8 +10055,8 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat > its Def stat",
     "evoLevel": 20,
-    "gender": "M",
     "weight": 49.8,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -9223,8 +10085,8 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat equal to its Def stat",
     "evoLevel": 20,
-    "gender": "M",
     "weight": 48,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -9282,8 +10144,8 @@
       "0": "pressure",
       "H": "regenerator"
     },
-    "gender": "N",
     "weight": 199,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -9449,8 +10311,8 @@
     "evos": [
       "morgrem"
     ],
-    "gender": "M",
     "weight": 5.5,
+    "gender": "M",
     "eggGroups": [
       "Fairy",
       "Human-Like"
@@ -9510,8 +10372,16 @@
       "1": "synchronize",
       "H": "psychicsurge"
     },
-    "gender": "M",
+    "baseForme": "M",
+    "formes": [
+      "Indeedee",
+      "Indeedee-F"
+    ],
+    "otherFormes": [
+      "Indeedee-F"
+    ],
     "weight": 28,
+    "gender": "M",
     "eggGroups": [
       "Fairy"
     ]
@@ -9538,8 +10408,9 @@
       "1": "synchronize",
       "H": "psychicsurge"
     },
-    "gender": "F",
+    "forme": "F",
     "weight": 28,
+    "gender": "F",
     "eggGroups": [
       "Fairy"
     ]
@@ -9610,6 +10481,39 @@
       "Water 1",
       "Field"
     ]
+  },
+  {
+    "slug": "inteleongmax",
+    "name": "Inteleon-Gmax",
+    "gen": 8,
+    "types": [
+      "water"
+    ],
+    "num": 818,
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 65,
+      "spa": 125,
+      "spd": 65,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "torrent",
+      "H": "sniper"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Inteleon",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "ivysaur",
@@ -9769,8 +10673,8 @@
     "abilities": {
       "0": "serenegrace"
     },
-    "gender": "N",
     "weight": 1.1,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -9868,8 +10772,8 @@
     },
     "prevo": "smoochum",
     "evoLevel": 30,
-    "gender": "F",
     "weight": 40.6,
+    "gender": "F",
     "eggGroups": [
       "Human-Like"
     ]
@@ -9999,8 +10903,8 @@
       "1": "scrappy",
       "H": "innerfocus"
     },
-    "gender": "F",
     "weight": 80,
+    "gender": "F",
     "eggGroups": [
       "Monster"
     ]
@@ -10058,8 +10962,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 0.1,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10087,8 +10991,16 @@
     "abilities": {
       "0": "justified"
     },
-    "gender": "N",
+    "baseForme": "Ordinary",
+    "formes": [
+      "Keldeo",
+      "Keldeo-Resolute"
+    ],
+    "otherFormes": [
+      "Keldeo-Resolute"
+    ],
     "weight": 48.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10116,8 +11028,11 @@
     "abilities": {
       "0": "justified"
     },
-    "gender": "N",
+    "forme": "Resolute",
+    "changesFrom": "Keldeo",
+    "requiredMove": "Secret Sword",
     "weight": 48.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10193,6 +11108,39 @@
     ]
   },
   {
+    "slug": "kinglergmax",
+    "name": "Kingler-Gmax",
+    "gen": 8,
+    "types": [
+      "water"
+    ],
+    "num": 99,
+    "baseStats": {
+      "hp": 55,
+      "atk": 130,
+      "def": 115,
+      "spa": 50,
+      "spd": 50,
+      "spe": 75
+    },
+    "abilities": {
+      "0": "hypercutter",
+      "1": "shellarmor",
+      "H": "sheerforce"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Kingler",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 3"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "kirlia",
     "name": "Kirlia",
     "gen": 3,
@@ -10256,8 +11204,8 @@
       "klinklang"
     ],
     "evoLevel": 38,
-    "gender": "N",
     "weight": 51,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -10316,8 +11264,8 @@
     "evos": [
       "klang"
     ],
-    "gender": "N",
     "weight": 21,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -10345,8 +11293,8 @@
     },
     "prevo": "klang",
     "evoLevel": 49,
-    "gender": "N",
     "weight": 81,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -10574,8 +11522,8 @@
     "abilities": {
       "0": "drizzle"
     },
-    "gender": "N",
     "weight": 352,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10603,8 +11551,17 @@
     "abilities": {
       "0": "pressure"
     },
-    "gender": "N",
+    "formes": [
+      "Kyurem",
+      "Kyurem-White",
+      "Kyurem-Black"
+    ],
+    "otherFormes": [
+      "Kyurem-Black",
+      "Kyurem-White"
+    ],
     "weight": 325,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10632,8 +11589,10 @@
     "abilities": {
       "0": "teravolt"
     },
-    "gender": "N",
+    "forme": "Black",
+    "changesFrom": "Kyurem",
     "weight": 325,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10661,8 +11620,10 @@
     "abilities": {
       "0": "turboblaze"
     },
-    "gender": "N",
+    "forme": "White",
+    "changesFrom": "Kyurem",
     "weight": 325,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10763,8 +11724,16 @@
       "0": "sandforce",
       "H": "sheerforce"
     },
-    "gender": "M",
+    "baseForme": "Incarnate",
+    "formes": [
+      "Landorus",
+      "Landorus-Therian"
+    ],
+    "otherFormes": [
+      "Landorus-Therian"
+    ],
     "weight": 68,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10792,8 +11761,10 @@
     "abilities": {
       "0": "intimidate"
     },
-    "gender": "M",
+    "forme": "Therian",
+    "changesFrom": "Landorus",
     "weight": 68,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10865,6 +11836,41 @@
       "Monster",
       "Water 1"
     ]
+  },
+  {
+    "slug": "laprasgmax",
+    "name": "Lapras-Gmax",
+    "gen": 8,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "num": 131,
+    "baseStats": {
+      "hp": 130,
+      "atk": 85,
+      "def": 80,
+      "spa": 85,
+      "spd": 95,
+      "spe": 60
+    },
+    "abilities": {
+      "0": "waterabsorb",
+      "1": "shellarmor",
+      "H": "hydration"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Lapras",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Monster",
+      "Water 1"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "larvesta",
@@ -10952,8 +11958,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "F",
     "weight": 40,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -10981,8 +11987,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "M",
     "weight": 60,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -11177,8 +12183,8 @@
     "prevo": "petilil",
     "evoType": "useItem",
     "evoItem": "Sun Stone",
-    "gender": "F",
     "weight": 16.3,
+    "gender": "F",
     "eggGroups": [
       "Grass"
     ]
@@ -11239,6 +12245,13 @@
     },
     "prevo": "zigzagoon",
     "evoLevel": 20,
+    "formes": [
+      "Linoone",
+      "Linoone-Galar"
+    ],
+    "otherFormes": [
+      "Linoone-Galar"
+    ],
     "weight": 32.5,
     "genderRatio": {
       "M": 0.5,
@@ -11275,6 +12288,7 @@
       "obstagoon"
     ],
     "evoLevel": 20,
+    "forme": "Galar",
     "weight": 32.5,
     "genderRatio": {
       "M": 0.5,
@@ -11581,8 +12595,8 @@
       "0": "pressure",
       "H": "multiscale"
     },
-    "gender": "N",
     "weight": 216,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -11612,8 +12626,8 @@
     },
     "prevo": "cosmoem",
     "evoLevel": 53,
-    "gender": "N",
     "weight": 120,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -11641,8 +12655,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 168,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -11770,6 +12784,16 @@
     "prevo": "rockruff",
     "evoCondition": "during the day",
     "evoLevel": 25,
+    "baseForme": "Midday",
+    "formes": [
+      "Lycanroc",
+      "Lycanroc-Midnight",
+      "Lycanroc-Dusk"
+    ],
+    "otherFormes": [
+      "Lycanroc-Midnight",
+      "Lycanroc-Dusk"
+    ],
     "weight": 25,
     "genderRatio": {
       "M": 0.5,
@@ -11801,6 +12825,7 @@
     "prevo": "rockruff",
     "evoCondition": "from a special Rockruff",
     "evoLevel": 25,
+    "forme": "Dusk",
     "weight": 25,
     "genderRatio": {
       "M": 0.5,
@@ -11834,6 +12859,7 @@
     "prevo": "rockruff",
     "evoCondition": "at night",
     "evoLevel": 25,
+    "forme": "Midnight",
     "weight": 25,
     "genderRatio": {
       "M": 0.5,
@@ -11874,6 +12900,39 @@
     "eggGroups": [
       "Human-Like"
     ]
+  },
+  {
+    "slug": "machampgmax",
+    "name": "Machamp-Gmax",
+    "gen": 8,
+    "types": [
+      "fighting"
+    ],
+    "num": 68,
+    "baseStats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "spa": 65,
+      "spd": 85,
+      "spe": 55
+    },
+    "abilities": {
+      "0": "guts",
+      "1": "noguard",
+      "H": "steadfast"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Machamp",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
+    "eggGroups": [
+      "Human-Like"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "machoke",
@@ -11995,8 +13054,15 @@
     "abilities": {
       "0": "soulheart"
     },
-    "gender": "N",
+    "formes": [
+      "Magearna",
+      "Magearna-Original"
+    ],
+    "otherFormes": [
+      "Magearna-Original"
+    ],
     "weight": 80.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -12024,8 +13090,9 @@
     "abilities": {
       "0": "soulheart"
     },
-    "gender": "N",
+    "forme": "Original",
     "weight": 80.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -12157,8 +13224,8 @@
     "evos": [
       "magneton"
     ],
-    "gender": "N",
     "weight": 6,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -12190,8 +13257,8 @@
       "magnezone"
     ],
     "evoLevel": 30,
-    "gender": "N",
     "weight": 60,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -12221,8 +13288,8 @@
     "prevo": "magneton",
     "evoType": "useItem",
     "evoItem": "Thunder Stone",
-    "gender": "N",
     "weight": 180,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -12320,8 +13387,8 @@
     },
     "prevo": "vullaby",
     "evoLevel": 54,
-    "gender": "F",
     "weight": 39.5,
+    "gender": "F",
     "eggGroups": [
       "Flying"
     ]
@@ -12550,6 +13617,13 @@
     },
     "prevo": "cubone",
     "evoLevel": 28,
+    "formes": [
+      "Marowak",
+      "Marowak-Alola"
+    ],
+    "otherFormes": [
+      "Marowak-Alola"
+    ],
     "weight": 45,
     "genderRatio": {
       "M": 0.5,
@@ -12584,6 +13658,7 @@
     "prevo": "cubone",
     "evoCondition": "at night",
     "evoLevel": 28,
+    "forme": "Alola",
     "weight": 34,
     "genderRatio": {
       "M": 0.5,
@@ -12613,8 +13688,8 @@
     "abilities": {
       "0": "technician"
     },
-    "gender": "N",
     "weight": 22.2,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -12709,11 +13784,42 @@
     "abilities": {
       "0": "ironfist"
     },
-    "gender": "N",
     "weight": 800,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "Mythical"
+    ]
+  },
+  {
+    "slug": "melmetalgmax",
+    "name": "Melmetal-Gmax",
+    "gen": 8,
+    "types": [
+      "steel"
+    ],
+    "num": 809,
+    "baseStats": {
+      "hp": 135,
+      "atk": 143,
+      "def": 143,
+      "spa": 80,
+      "spd": 65,
+      "spe": 34
+    },
+    "abilities": {
+      "0": "ironfist"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Melmetal",
+    "weight": 0,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isNonstandard": "Gigantamax",
     "tags": [
       "Mythical"
     ]
@@ -12737,8 +13843,8 @@
     "abilities": {
       "0": "magnetpull"
     },
-    "gender": "N",
     "weight": 8,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -12769,8 +13875,16 @@
     },
     "prevo": "espurr",
     "evoLevel": 25,
-    "gender": "M",
+    "baseForme": "M",
+    "formes": [
+      "Meowstic",
+      "Meowstic-F"
+    ],
+    "otherFormes": [
+      "Meowstic-F"
+    ],
     "weight": 8.5,
+    "gender": "M",
     "eggGroups": [
       "Field"
     ]
@@ -12798,8 +13912,9 @@
     },
     "prevo": "espurr",
     "evoLevel": 25,
-    "gender": "F",
+    "forme": "F",
     "weight": 8.5,
+    "gender": "F",
     "eggGroups": [
       "Field"
     ]
@@ -12827,6 +13942,15 @@
     },
     "evos": [
       "persian"
+    ],
+    "formes": [
+      "Meowth",
+      "Meowth-Alola",
+      "Meowth-Galar"
+    ],
+    "otherFormes": [
+      "Meowth-Alola",
+      "Meowth-Galar"
     ],
     "weight": 4.2,
     "genderRatio": {
@@ -12861,6 +13985,7 @@
     "evos": [
       "persianalola"
     ],
+    "forme": "Alola",
     "weight": 4.2,
     "genderRatio": {
       "M": 0.5,
@@ -12894,6 +14019,7 @@
     "evos": [
       "perrserker"
     ],
+    "forme": "Galar",
     "weight": 7.5,
     "genderRatio": {
       "M": 0.5,
@@ -12902,6 +14028,39 @@
     "eggGroups": [
       "Field"
     ]
+  },
+  {
+    "slug": "meowthgmax",
+    "name": "Meowth-Gmax",
+    "gen": 8,
+    "types": [
+      "normal"
+    ],
+    "num": 52,
+    "baseStats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "spa": 40,
+      "spd": 40,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "pickup",
+      "1": "technician",
+      "H": "unnerve"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Meowth",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "mesprit",
@@ -12922,8 +14081,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -12954,8 +14113,8 @@
     },
     "prevo": "metang",
     "evoLevel": 45,
-    "gender": "N",
     "weight": 550,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -12986,8 +14145,8 @@
       "metagross"
     ],
     "evoLevel": 20,
-    "gender": "N",
     "weight": 202.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -13044,8 +14203,8 @@
     "abilities": {
       "0": "synchronize"
     },
-    "gender": "N",
     "weight": 4,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -13073,8 +14232,8 @@
       "0": "pressure",
       "H": "unnerve"
     },
-    "gender": "N",
     "weight": 122,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -13172,8 +14331,8 @@
     "evos": [
       "alcremie"
     ],
-    "gender": "F",
     "weight": 0.3,
+    "gender": "F",
     "eggGroups": [
       "Fairy",
       "Amorphous"
@@ -13234,8 +14393,8 @@
       "1": "scrappy",
       "H": "sapsipper"
     },
-    "gender": "F",
     "weight": 75.5,
+    "gender": "F",
     "eggGroups": [
       "Field"
     ]
@@ -13295,6 +14454,14 @@
     "abilities": {
       "0": "disguise"
     },
+    "baseForme": "Disguised",
+    "formes": [
+      "Mimikyu",
+      "Mimikyu-Busted"
+    ],
+    "otherFormes": [
+      "Mimikyu-Busted"
+    ],
     "weight": 0.7,
     "genderRatio": {
       "M": 0.5,
@@ -13324,6 +14491,9 @@
     "abilities": {
       "0": "disguise"
     },
+    "forme": "Busted",
+    "changesFrom": "Mimikyu",
+    "requiredAbility": "disguise",
     "weight": 0.7,
     "genderRatio": {
       "M": 0.5,
@@ -13387,8 +14557,15 @@
       "0": "pressure",
       "H": "flamebody"
     },
-    "gender": "N",
+    "formes": [
+      "Moltres",
+      "Moltres-Galar"
+    ],
+    "otherFormes": [
+      "Moltres-Galar"
+    ],
     "weight": 60,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -13416,8 +14593,9 @@
     "abilities": {
       "0": "berserk"
     },
-    "gender": "N",
+    "forme": "Galar",
     "weight": 66,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -13486,8 +14664,8 @@
       "grimmsnarl"
     ],
     "evoLevel": 32,
-    "gender": "M",
     "weight": 12.5,
+    "gender": "M",
     "eggGroups": [
       "Fairy",
       "Human-Like"
@@ -13513,6 +14691,13 @@
     "abilities": {
       "0": "hungerswitch"
     },
+    "formes": [
+      "Morpeko",
+      "Morpeko-Hangry"
+    ],
+    "otherFormes": [
+      "Morpeko-Hangry"
+    ],
     "weight": 3,
     "genderRatio": {
       "M": 0.5,
@@ -13543,6 +14728,9 @@
     "abilities": {
       "0": "hungerswitch"
     },
+    "forme": "Hangry",
+    "changesFrom": "Morpeko",
+    "requiredAbility": "hungerswitch",
     "weight": 3,
     "genderRatio": {
       "M": 0.5,
@@ -13578,6 +14766,13 @@
     "prevo": "mimejr",
     "evoType": "levelMove",
     "evoMove": "Mimic",
+    "formes": [
+      "Mr. Mime",
+      "Mr. Mime-Galar"
+    ],
+    "otherFormes": [
+      "Mr. Mime-Galar"
+    ],
     "weight": 54.5,
     "genderRatio": {
       "M": 0.5,
@@ -13615,6 +14810,7 @@
     ],
     "evoType": "levelMove",
     "evoMove": "Mimic",
+    "forme": "Galar",
     "weight": 56.8,
     "genderRatio": {
       "M": 0.5,
@@ -13877,8 +15073,8 @@
     "prevo": "poipole",
     "evoType": "levelMove",
     "evoMove": "Dragon Pulse",
-    "gender": "N",
     "weight": 150,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -13939,8 +15135,17 @@
     "abilities": {
       "0": "prismarmor"
     },
-    "gender": "N",
+    "formes": [
+      "Necrozma",
+      "Necrozma-Dusk-Mane",
+      "Necrozma-Dawn-Wings"
+    ],
+    "otherFormes": [
+      "Necrozma-Dusk-Mane",
+      "Necrozma-Dawn-Wings"
+    ],
     "weight": 230,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -13968,8 +15173,10 @@
     "abilities": {
       "0": "prismarmor"
     },
-    "gender": "N",
+    "forme": "Dawn-Wings",
+    "changesFrom": "Necrozma",
     "weight": 350,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -13997,8 +15204,10 @@
     "abilities": {
       "0": "prismarmor"
     },
-    "gender": "N",
+    "forme": "Dusk-Mane",
+    "changesFrom": "Necrozma",
     "weight": 460,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -14064,8 +15273,8 @@
     "prevo": "nidorino",
     "evoType": "useItem",
     "evoItem": "Moon Stone",
-    "gender": "M",
     "weight": 62,
+    "gender": "M",
     "eggGroups": [
       "Monster",
       "Field"
@@ -14096,8 +15305,8 @@
     "prevo": "nidorina",
     "evoType": "useItem",
     "evoItem": "Moon Stone",
-    "gender": "F",
     "weight": 60,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -14126,8 +15335,8 @@
     "evos": [
       "nidorina"
     ],
-    "gender": "F",
     "weight": 7,
+    "gender": "F",
     "eggGroups": [
       "Monster",
       "Field"
@@ -14157,8 +15366,8 @@
     "evos": [
       "nidorino"
     ],
-    "gender": "M",
     "weight": 9,
+    "gender": "M",
     "eggGroups": [
       "Monster",
       "Field"
@@ -14190,8 +15399,8 @@
       "nidoqueen"
     ],
     "evoLevel": 16,
-    "gender": "F",
     "weight": 20,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -14222,8 +15431,8 @@
       "nidoking"
     ],
     "evoLevel": 16,
-    "gender": "M",
     "weight": 19.5,
+    "gender": "M",
     "eggGroups": [
       "Monster",
       "Field"
@@ -14249,8 +15458,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 55.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -14315,6 +15524,13 @@
     "prevo": "vulpix",
     "evoType": "useItem",
     "evoItem": "Fire Stone",
+    "formes": [
+      "Ninetales",
+      "Ninetales-Alola"
+    ],
+    "otherFormes": [
+      "Ninetales-Alola"
+    ],
     "weight": 19.9,
     "genderRatio": {
       "M": 0.25,
@@ -14348,6 +15564,7 @@
     "prevo": "vulpixalola",
     "evoType": "useItem",
     "evoItem": "Ice Stone",
+    "forme": "Alola",
     "weight": 19.9,
     "genderRatio": {
       "M": 0.25,
@@ -14796,6 +16013,40 @@
     ]
   },
   {
+    "slug": "orbeetlegmax",
+    "name": "Orbeetle-Gmax",
+    "gen": 8,
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "num": 826,
+    "baseStats": {
+      "hp": 60,
+      "atk": 45,
+      "def": 110,
+      "spa": 80,
+      "spd": 120,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "swarm",
+      "1": "frisk",
+      "H": "telepathy"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Orbeetle",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "palkia",
     "name": "Palkia",
     "gen": 4,
@@ -14816,8 +16067,8 @@
       "0": "pressure",
       "H": "telepathy"
     },
-    "gender": "N",
     "weight": 336,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -15114,6 +16365,13 @@
     },
     "prevo": "meowth",
     "evoLevel": 28,
+    "formes": [
+      "Persian",
+      "Persian-Alola"
+    ],
+    "otherFormes": [
+      "Persian-Alola"
+    ],
     "weight": 32,
     "genderRatio": {
       "M": 0.5,
@@ -15146,6 +16404,7 @@
     },
     "prevo": "meowthalola",
     "evoType": "levelFriendship",
+    "forme": "Alola",
     "weight": 33,
     "genderRatio": {
       "M": 0.5,
@@ -15179,8 +16438,8 @@
     "evos": [
       "lilligant"
     ],
-    "gender": "F",
     "weight": 6.6,
+    "gender": "F",
     "eggGroups": [
       "Grass"
     ]
@@ -15240,8 +16499,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 25,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -15341,6 +16600,27 @@
       "raichualola"
     ],
     "evoType": "levelFriendship",
+    "formes": [
+      "Pikachu",
+      "Pikachu-Original",
+      "Pikachu-Hoenn",
+      "Pikachu-Sinnoh",
+      "Pikachu-Unova",
+      "Pikachu-Kalos",
+      "Pikachu-Alola",
+      "Pikachu-Partner",
+      "Pikachu-World"
+    ],
+    "otherFormes": [
+      "Pikachu-Original",
+      "Pikachu-Hoenn",
+      "Pikachu-Sinnoh",
+      "Pikachu-Unova",
+      "Pikachu-Kalos",
+      "Pikachu-Alola",
+      "Pikachu-Partner",
+      "Pikachu-World"
+    ],
     "weight": 6,
     "genderRatio": {
       "M": 0.5,
@@ -15371,11 +16651,45 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "Alola",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
+  },
+  {
+    "slug": "pikachugmax",
+    "name": "Pikachu-Gmax",
+    "gen": 8,
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "static",
+      "H": "lightningrod"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Pikachu",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field",
+      "Fairy"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "pikachuhoenn",
@@ -15397,8 +16711,9 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "Hoenn",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15423,8 +16738,9 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "Kalos",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15449,8 +16765,9 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "Original",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15475,8 +16792,9 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "Partner",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15501,8 +16819,9 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "Sinnoh",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15527,8 +16846,9 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "Unova",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15553,8 +16873,9 @@
       "0": "static",
       "H": "lightningrod"
     },
-    "gender": "M",
+    "forme": "World",
     "weight": 6,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15677,8 +16998,8 @@
     "evos": [
       "naganadel"
     ],
-    "gender": "N",
     "weight": 1.8,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -15845,8 +17166,16 @@
     "prevo": "sinistea",
     "evoType": "useItem",
     "evoItem": "Cracked Pot",
-    "gender": "N",
+    "baseForme": "Phony",
+    "formes": [
+      "Polteageist",
+      "Polteageist-Antique"
+    ],
+    "otherFormes": [
+      "Polteageist-Antique"
+    ],
     "weight": 0.4,
+    "gender": "N",
     "eggGroups": [
       "Mineral",
       "Amorphous"
@@ -15875,8 +17204,9 @@
     "prevo": "sinisteaantique",
     "evoType": "useItem",
     "evoItem": "Chipped Pot",
-    "gender": "N",
+    "forme": "Antique",
     "weight": 0.4,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -15904,6 +17234,13 @@
     },
     "evos": [
       "rapidash"
+    ],
+    "formes": [
+      "Ponyta",
+      "Ponyta-Galar"
+    ],
+    "otherFormes": [
+      "Ponyta-Galar"
     ],
     "weight": 30,
     "genderRatio": {
@@ -15938,6 +17275,7 @@
     "evos": [
       "rapidashgalar"
     ],
+    "forme": "Galar",
     "weight": 24,
     "genderRatio": {
       "M": 0.5,
@@ -16004,8 +17342,8 @@
     "evos": [
       "porygon2"
     ],
-    "gender": "N",
     "weight": 36.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -16037,8 +17375,8 @@
     ],
     "evoType": "trade",
     "evoItem": "Up-Grade",
-    "gender": "N",
     "weight": 32.5,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -16067,8 +17405,8 @@
     "prevo": "porygon2",
     "evoType": "trade",
     "evoItem": "Dubious Disc",
-    "gender": "N",
     "weight": 34,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -16165,6 +17503,18 @@
     "evos": [
       "gourgeist"
     ],
+    "baseForme": "Average",
+    "formes": [
+      "Pumpkaboo",
+      "Pumpkaboo-Small",
+      "Pumpkaboo-Large",
+      "Pumpkaboo-Super"
+    ],
+    "otherFormes": [
+      "Pumpkaboo-Small",
+      "Pumpkaboo-Large",
+      "Pumpkaboo-Super"
+    ],
     "weight": 5,
     "genderRatio": {
       "M": 0.5,
@@ -16199,6 +17549,7 @@
     "evos": [
       "gourgeistlarge"
     ],
+    "forme": "Large",
     "weight": 7.5,
     "genderRatio": {
       "M": 0.5,
@@ -16233,6 +17584,7 @@
     "evos": [
       "gourgeistsmall"
     ],
+    "forme": "Small",
     "weight": 3.5,
     "genderRatio": {
       "M": 0.5,
@@ -16267,6 +17619,7 @@
     "evos": [
       "gourgeistsuper"
     ],
+    "forme": "Super",
     "weight": 15,
     "genderRatio": {
       "M": 0.5,
@@ -16495,6 +17848,13 @@
     "prevo": "pikachu",
     "evoType": "useItem",
     "evoItem": "Thunder Stone",
+    "formes": [
+      "Raichu",
+      "Raichu-Alola"
+    ],
+    "otherFormes": [
+      "Raichu-Alola"
+    ],
     "weight": 30,
     "genderRatio": {
       "M": 0.5,
@@ -16528,6 +17888,7 @@
     "prevo": "pikachu",
     "evoType": "useItem",
     "evoItem": "Thunder Stone",
+    "forme": "Alola",
     "weight": 21,
     "genderRatio": {
       "M": 0.5,
@@ -16558,8 +17919,8 @@
       "0": "pressure",
       "H": "innerfocus"
     },
-    "gender": "N",
     "weight": 178,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16625,6 +17986,13 @@
     },
     "prevo": "ponyta",
     "evoLevel": 40,
+    "formes": [
+      "Rapidash",
+      "Rapidash-Galar"
+    ],
+    "otherFormes": [
+      "Rapidash-Galar"
+    ],
     "weight": 95,
     "genderRatio": {
       "M": 0.5,
@@ -16658,6 +18026,7 @@
     },
     "prevo": "ponytagalar",
     "evoLevel": 40,
+    "forme": "Galar",
     "weight": 80,
     "genderRatio": {
       "M": 0.5,
@@ -16687,8 +18056,8 @@
     "abilities": {
       "0": "airlock"
     },
-    "gender": "N",
     "weight": 206.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16716,8 +18085,8 @@
       "0": "clearbody",
       "H": "icebody"
     },
-    "gender": "N",
     "weight": 175,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16744,8 +18113,8 @@
     "abilities": {
       "0": "dragonsmaw"
     },
-    "gender": "N",
     "weight": 200,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16772,8 +18141,8 @@
     "abilities": {
       "0": "transistor"
     },
-    "gender": "N",
     "weight": 145,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16800,8 +18169,8 @@
     "abilities": {
       "0": "slowstart"
     },
-    "gender": "N",
     "weight": 420,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16829,8 +18198,8 @@
       "0": "clearbody",
       "H": "sturdy"
     },
-    "gender": "N",
     "weight": 230,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16858,8 +18227,8 @@
       "0": "clearbody",
       "H": "lightmetal"
     },
-    "gender": "N",
     "weight": 205,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -16953,8 +18322,8 @@
     "abilities": {
       "0": "turboblaze"
     },
-    "gender": "N",
     "weight": 330,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -17168,6 +18537,39 @@
     ]
   },
   {
+    "slug": "rillaboomgmax",
+    "name": "Rillaboom-Gmax",
+    "gen": 8,
+    "types": [
+      "grass"
+    ],
+    "num": 812,
+    "baseStats": {
+      "hp": 100,
+      "atk": 125,
+      "def": 90,
+      "spa": 60,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "overgrow",
+      "H": "grassysurge"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Rillaboom",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field",
+      "Grass"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "riolu",
     "name": "Riolu",
     "gen": 4,
@@ -17226,6 +18628,11 @@
       "lycanroc",
       "lycanrocmidnight",
       "lycanrocdusk"
+    ],
+    "baseForme": "Midday",
+    "formes": [
+      "Rockruff",
+      "Rockruff"
     ],
     "weight": 9.2,
     "genderRatio": {
@@ -17428,8 +18835,23 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "formes": [
+      "Rotom",
+      "Rotom-Heat",
+      "Rotom-Wash",
+      "Rotom-Frost",
+      "Rotom-Fan",
+      "Rotom-Mow"
+    ],
+    "otherFormes": [
+      "Rotom-Heat",
+      "Rotom-Wash",
+      "Rotom-Frost",
+      "Rotom-Fan",
+      "Rotom-Mow"
+    ],
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Amorphous"
     ]
@@ -17454,8 +18876,10 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "forme": "Fan",
+    "changesFrom": "Rotom",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Amorphous"
     ]
@@ -17480,8 +18904,10 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "forme": "Frost",
+    "changesFrom": "Rotom",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Amorphous"
     ]
@@ -17506,8 +18932,10 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "forme": "Heat",
+    "changesFrom": "Rotom",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Amorphous"
     ]
@@ -17532,8 +18960,10 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "forme": "Mow",
+    "changesFrom": "Rotom",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Amorphous"
     ]
@@ -17558,8 +18988,10 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
+    "forme": "Wash",
+    "changesFrom": "Rotom",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Amorphous"
     ]
@@ -17622,8 +19054,8 @@
     "evos": [
       "braviary"
     ],
-    "gender": "M",
     "weight": 10.5,
+    "gender": "M",
     "eggGroups": [
       "Flying"
     ]
@@ -17781,8 +19213,8 @@
     },
     "prevo": "salandit",
     "evoLevel": 33,
-    "gender": "F",
     "weight": 22.2,
+    "gender": "F",
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -17820,6 +19252,40 @@
       "Field",
       "Dragon"
     ]
+  },
+  {
+    "slug": "sandacondagmax",
+    "name": "Sandaconda-Gmax",
+    "gen": 8,
+    "types": [
+      "ground"
+    ],
+    "num": 844,
+    "baseStats": {
+      "hp": 72,
+      "atk": 107,
+      "def": 125,
+      "spa": 65,
+      "spd": 70,
+      "spe": 71
+    },
+    "abilities": {
+      "0": "sandspit",
+      "1": "shedskin",
+      "H": "sandveil"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Sandaconda",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field",
+      "Dragon"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "sandile",
@@ -17878,6 +19344,13 @@
     "evos": [
       "sandslash"
     ],
+    "formes": [
+      "Sandshrew",
+      "Sandshrew-Alola"
+    ],
+    "otherFormes": [
+      "Sandshrew-Alola"
+    ],
     "weight": 12,
     "genderRatio": {
       "M": 0.5,
@@ -17911,6 +19384,7 @@
     "evos": [
       "sandslashalola"
     ],
+    "forme": "Alola",
     "weight": 40,
     "genderRatio": {
       "M": 0.5,
@@ -17942,6 +19416,13 @@
     },
     "prevo": "sandshrew",
     "evoLevel": 22,
+    "formes": [
+      "Sandslash",
+      "Sandslash-Alola"
+    ],
+    "otherFormes": [
+      "Sandslash-Alola"
+    ],
     "weight": 29.5,
     "genderRatio": {
       "M": 0.5,
@@ -17975,6 +19456,7 @@
     "prevo": "sandshrewalola",
     "evoType": "useItem",
     "evoItem": "Ice Stone",
+    "forme": "Alola",
     "weight": 55,
     "genderRatio": {
       "M": 0.5,
@@ -18038,8 +19520,8 @@
       "1": "innerfocus",
       "H": "moldbreaker"
     },
-    "gender": "M",
     "weight": 51,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -18505,8 +19987,8 @@
     },
     "prevo": "nincada",
     "evoLevel": 20,
-    "gender": "N",
     "weight": 1.2,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -18601,6 +20083,14 @@
     },
     "evos": [
       "gastrodon"
+    ],
+    "baseForme": "West",
+    "formes": [
+      "Shellos",
+      "Shellos-East"
+    ],
+    "cosmeticFormes": [
+      "Shellos-East"
     ],
     "weight": 6.3,
     "genderRatio": {
@@ -18863,8 +20353,47 @@
     },
     "prevo": "typenull",
     "evoType": "levelFriendship",
-    "gender": "N",
+    "formes": [
+      "Silvally",
+      "Silvally-Fighting",
+      "Silvally-Flying",
+      "Silvally-Poison",
+      "Silvally-Ground",
+      "Silvally-Rock",
+      "Silvally-Bug",
+      "Silvally-Ghost",
+      "Silvally-Steel",
+      "Silvally-Fire",
+      "Silvally-Water",
+      "Silvally-Grass",
+      "Silvally-Electric",
+      "Silvally-Psychic",
+      "Silvally-Ice",
+      "Silvally-Dragon",
+      "Silvally-Dark",
+      "Silvally-Fairy"
+    ],
+    "otherFormes": [
+      "Silvally-Bug",
+      "Silvally-Dark",
+      "Silvally-Dragon",
+      "Silvally-Electric",
+      "Silvally-Fairy",
+      "Silvally-Fighting",
+      "Silvally-Fire",
+      "Silvally-Flying",
+      "Silvally-Ghost",
+      "Silvally-Grass",
+      "Silvally-Ground",
+      "Silvally-Ice",
+      "Silvally-Poison",
+      "Silvally-Psychic",
+      "Silvally-Rock",
+      "Silvally-Steel",
+      "Silvally-Water"
+    ],
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -18891,8 +20420,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Bug",
+    "changesFrom": "Silvally",
+    "requiredItem": "bugmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -18919,8 +20451,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Dark",
+    "changesFrom": "Silvally",
+    "requiredItem": "darkmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -18947,8 +20482,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Dragon",
+    "changesFrom": "Silvally",
+    "requiredItem": "dragonmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -18975,8 +20513,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Electric",
+    "changesFrom": "Silvally",
+    "requiredItem": "electricmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19003,8 +20544,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Fairy",
+    "changesFrom": "Silvally",
+    "requiredItem": "fairymemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19031,8 +20575,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Fighting",
+    "changesFrom": "Silvally",
+    "requiredItem": "fightingmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19059,8 +20606,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Fire",
+    "changesFrom": "Silvally",
+    "requiredItem": "firememory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19087,8 +20637,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Flying",
+    "changesFrom": "Silvally",
+    "requiredItem": "flyingmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19115,8 +20668,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Ghost",
+    "changesFrom": "Silvally",
+    "requiredItem": "ghostmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19143,8 +20699,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Grass",
+    "changesFrom": "Silvally",
+    "requiredItem": "grassmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19171,8 +20730,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Ground",
+    "changesFrom": "Silvally",
+    "requiredItem": "groundmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19199,8 +20761,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Ice",
+    "changesFrom": "Silvally",
+    "requiredItem": "icememory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19227,8 +20792,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Poison",
+    "changesFrom": "Silvally",
+    "requiredItem": "poisonmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19255,8 +20823,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Psychic",
+    "changesFrom": "Silvally",
+    "requiredItem": "psychicmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19283,8 +20854,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Rock",
+    "changesFrom": "Silvally",
+    "requiredItem": "rockmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19311,8 +20885,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Steel",
+    "changesFrom": "Silvally",
+    "requiredItem": "steelmemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19339,8 +20916,11 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "gender": "N",
+    "forme": "Water",
+    "changesFrom": "Silvally",
+    "requiredItem": "watermemory",
     "weight": 100.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -19371,8 +20951,16 @@
     "evos": [
       "polteageist"
     ],
-    "gender": "N",
+    "baseForme": "Phony",
+    "formes": [
+      "Sinistea",
+      "Sinistea-Antique"
+    ],
+    "otherFormes": [
+      "Sinistea-Antique"
+    ],
     "weight": 0.2,
+    "gender": "N",
     "eggGroups": [
       "Mineral",
       "Amorphous"
@@ -19401,8 +20989,9 @@
     "evos": [
       "polteageistantique"
     ],
-    "gender": "N",
+    "forme": "Antique",
     "weight": 0.2,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -19699,6 +21288,13 @@
     },
     "prevo": "slowpoke",
     "evoLevel": 37,
+    "formes": [
+      "Slowbro",
+      "Slowbro-Galar"
+    ],
+    "otherFormes": [
+      "Slowbro-Galar"
+    ],
     "weight": 78.5,
     "genderRatio": {
       "M": 0.5,
@@ -19734,6 +21330,7 @@
     "prevo": "slowpokegalar",
     "evoType": "useItem",
     "evoItem": "Galarica Cuff",
+    "forme": "Galar",
     "weight": 70.5,
     "genderRatio": {
       "M": 0.5,
@@ -19769,6 +21366,13 @@
     "prevo": "slowpoke",
     "evoType": "trade",
     "evoItem": "King's Rock",
+    "formes": [
+      "Slowking",
+      "Slowking-Galar"
+    ],
+    "otherFormes": [
+      "Slowking-Galar"
+    ],
     "weight": 79.5,
     "genderRatio": {
       "M": 0.5,
@@ -19804,6 +21408,7 @@
     "prevo": "slowpokegalar",
     "evoType": "useItem",
     "evoItem": "Galarica Wreath",
+    "forme": "Galar",
     "weight": 79.5,
     "genderRatio": {
       "M": 0.5,
@@ -19840,6 +21445,13 @@
       "slowbro",
       "slowking"
     ],
+    "formes": [
+      "Slowpoke",
+      "Slowpoke-Galar"
+    ],
+    "otherFormes": [
+      "Slowpoke-Galar"
+    ],
     "weight": 36,
     "genderRatio": {
       "M": 0.5,
@@ -19875,6 +21487,7 @@
       "slowbrogalar",
       "slowkinggalar"
     ],
+    "forme": "Galar",
     "weight": 36,
     "genderRatio": {
       "M": 0.5,
@@ -19942,8 +21555,8 @@
     "evos": [
       "jynx"
     ],
-    "gender": "F",
     "weight": 6,
+    "gender": "F",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -20046,6 +21659,39 @@
     "eggGroups": [
       "Monster"
     ]
+  },
+  {
+    "slug": "snorlaxgmax",
+    "name": "Snorlax-Gmax",
+    "gen": 8,
+    "types": [
+      "normal"
+    ],
+    "num": 143,
+    "baseStats": {
+      "hp": 160,
+      "atk": 110,
+      "def": 65,
+      "spa": 65,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": {
+      "0": "immunity",
+      "1": "thickfat",
+      "H": "gluttony"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Snorlax",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "snorunt",
@@ -20171,8 +21817,8 @@
     },
     "prevo": "cosmoem",
     "evoLevel": 53,
-    "gender": "N",
     "weight": 230,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -20233,8 +21879,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 154,
+    "gender": "N",
     "eggGroups": [
       "Mineral"
     ]
@@ -20258,8 +21904,8 @@
     "abilities": {
       "0": "grimneigh"
     },
-    "gender": "N",
     "weight": 44.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -20417,8 +22063,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 820,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -20451,8 +22097,8 @@
     "prevo": "staryu",
     "evoType": "useItem",
     "evoItem": "Water Stone",
-    "gender": "N",
     "weight": 80,
+    "gender": "N",
     "eggGroups": [
       "Water 3"
     ]
@@ -20481,8 +22127,8 @@
     "evos": [
       "starmie"
     ],
-    "gender": "N",
     "weight": 34.5,
+    "gender": "N",
     "eggGroups": [
       "Water 3"
     ]
@@ -20547,8 +22193,8 @@
       "tsareena"
     ],
     "evoLevel": 18,
-    "gender": "F",
     "weight": 8.2,
+    "gender": "F",
     "eggGroups": [
       "Grass"
     ]
@@ -20669,6 +22315,13 @@
       "1": "limber",
       "H": "sandveil"
     },
+    "formes": [
+      "Stunfisk",
+      "Stunfisk-Galar"
+    ],
+    "otherFormes": [
+      "Stunfisk-Galar"
+    ],
     "weight": 11,
     "genderRatio": {
       "M": 0.5,
@@ -20699,6 +22352,7 @@
     "abilities": {
       "0": "mimicry"
     },
+    "forme": "Galar",
     "weight": 20.5,
     "genderRatio": {
       "M": 0.5,
@@ -20796,8 +22450,8 @@
       "0": "pressure",
       "H": "innerfocus"
     },
-    "gender": "N",
     "weight": 187,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21123,8 +22777,8 @@
       "0": "grassysurge",
       "H": "telepathy"
     },
-    "gender": "N",
     "weight": 45.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21153,8 +22807,8 @@
       "0": "mistysurge",
       "H": "telepathy"
     },
-    "gender": "N",
     "weight": 21.2,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21183,8 +22837,8 @@
       "0": "electricsurge",
       "H": "telepathy"
     },
-    "gender": "N",
     "weight": 20.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21213,8 +22867,8 @@
       "0": "psychicsurge",
       "H": "telepathy"
     },
-    "gender": "N",
     "weight": 18.6,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21243,8 +22897,8 @@
       "1": "angerpoint",
       "H": "sheerforce"
     },
-    "gender": "M",
     "weight": 88.4,
+    "gender": "M",
     "eggGroups": [
       "Field"
     ]
@@ -21336,8 +22990,8 @@
     "abilities": {
       "0": "justified"
     },
-    "gender": "N",
     "weight": 260,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21398,8 +23052,8 @@
       "1": "innerfocus",
       "H": "moldbreaker"
     },
-    "gender": "M",
     "weight": 55.5,
+    "gender": "M",
     "eggGroups": [
       "Human-Like"
     ]
@@ -21425,8 +23079,16 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "gender": "M",
+    "baseForme": "Incarnate",
+    "formes": [
+      "Thundurus",
+      "Thundurus-Therian"
+    ],
+    "otherFormes": [
+      "Thundurus-Therian"
+    ],
     "weight": 61,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21454,8 +23116,10 @@
     "abilities": {
       "0": "voltabsorb"
     },
-    "gender": "M",
+    "forme": "Therian",
+    "changesFrom": "Thundurus",
     "weight": 61,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21785,8 +23449,16 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "gender": "M",
+    "baseForme": "Incarnate",
+    "formes": [
+      "Tornadus",
+      "Tornadus-Therian"
+    ],
+    "otherFormes": [
+      "Tornadus-Therian"
+    ],
     "weight": 63,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21813,8 +23485,10 @@
     "abilities": {
       "0": "regenerator"
     },
-    "gender": "M",
+    "forme": "Therian",
+    "changesFrom": "Tornadus",
     "weight": 63,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -21981,6 +23655,14 @@
     },
     "prevo": "toxel",
     "evoLevel": 30,
+    "baseForme": "Amped",
+    "formes": [
+      "Toxtricity",
+      "Toxtricity-Low-Key"
+    ],
+    "otherFormes": [
+      "Toxtricity-Low-Key"
+    ],
     "weight": 40,
     "genderRatio": {
       "M": 0.5,
@@ -21989,6 +23671,40 @@
     "eggGroups": [
       "Human-Like"
     ]
+  },
+  {
+    "slug": "toxtricitygmax",
+    "name": "Toxtricity-Gmax",
+    "gen": 8,
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "num": 849,
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 70,
+      "spa": 114,
+      "spd": 70,
+      "spe": 75
+    },
+    "abilities": {
+      "0": "punkrock",
+      "1": "plus",
+      "H": "technician"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Toxtricity",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Human-Like"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "toxtricitylowkey",
@@ -22014,6 +23730,7 @@
     },
     "prevo": "toxel",
     "evoLevel": 30,
+    "forme": "Low-Key",
     "weight": 40,
     "genderRatio": {
       "M": 0.5,
@@ -22022,6 +23739,40 @@
     "eggGroups": [
       "Human-Like"
     ]
+  },
+  {
+    "slug": "toxtricitylowkeygmax",
+    "name": "Toxtricity-Low-Key-Gmax",
+    "gen": 8,
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "num": 849,
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 70,
+      "spa": 114,
+      "spd": 70,
+      "spe": 75
+    },
+    "abilities": {
+      "0": "punkrock",
+      "1": "minus",
+      "H": "technician"
+    },
+    "forme": "Low-Key-Gmax",
+    "changesFrom": "Toxtricity-Low-Key",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Human-Like"
+    ],
+    "isNonstandard": "Gigantamax"
   },
   {
     "slug": "tranquill",
@@ -22217,8 +23968,8 @@
     "prevo": "steenee",
     "evoType": "levelMove",
     "evoMove": "Stomp",
-    "gender": "F",
     "weight": 21.4,
+    "gender": "F",
     "eggGroups": [
       "Grass"
     ]
@@ -22308,8 +24059,8 @@
     "evos": [
       "silvally"
     ],
-    "gender": "N",
     "weight": 120.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -22409,8 +24160,8 @@
       "hitmonchan",
       "hitmontop"
     ],
-    "gender": "M",
     "weight": 21,
+    "gender": "M",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -22537,6 +24288,14 @@
     "prevo": "kubfu",
     "evoType": "other",
     "evoCondition": "Defeat the Single Strike Tower",
+    "baseForme": "Single-Strike",
+    "formes": [
+      "Urshifu",
+      "Urshifu-Rapid-Strike"
+    ],
+    "otherFormes": [
+      "Urshifu-Rapid-Strike"
+    ],
     "weight": 105,
     "genderRatio": {
       "M": 0.875,
@@ -22545,6 +24304,41 @@
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "Sub-Legendary"
+    ]
+  },
+  {
+    "slug": "urshifugmax",
+    "name": "Urshifu-Gmax",
+    "gen": 8,
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "num": 892,
+    "baseStats": {
+      "hp": 100,
+      "atk": 130,
+      "def": 100,
+      "spa": 63,
+      "spd": 60,
+      "spe": 97
+    },
+    "abilities": {
+      "0": "unseenfist"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Urshifu",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isNonstandard": "Gigantamax",
     "tags": [
       "Sub-Legendary"
     ]
@@ -22572,6 +24366,7 @@
     "prevo": "kubfu",
     "evoType": "other",
     "evoCondition": "Defeat the Rapid Strike Tower",
+    "forme": "Rapid-Strike",
     "weight": 105,
     "genderRatio": {
       "M": 0.875,
@@ -22580,6 +24375,41 @@
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "Sub-Legendary"
+    ]
+  },
+  {
+    "slug": "urshifurapidstrikegmax",
+    "name": "Urshifu-Rapid-Strike-Gmax",
+    "gen": 8,
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "num": 892,
+    "baseStats": {
+      "hp": 100,
+      "atk": 130,
+      "def": 100,
+      "spa": 63,
+      "spd": 60,
+      "spe": 97
+    },
+    "abilities": {
+      "0": "unseenfist"
+    },
+    "forme": "Rapid-Strike-Gmax",
+    "changesFrom": "Urshifu-Rapid-Strike",
+    "weight": 105,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isNonstandard": "Gigantamax",
     "tags": [
       "Sub-Legendary"
     ]
@@ -22603,8 +24433,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "gender": "N",
     "weight": 0.3,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -22812,6 +24642,40 @@
     ]
   },
   {
+    "slug": "venusaurgmax",
+    "name": "Venusaur-Gmax",
+    "gen": 8,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "num": 3,
+    "baseStats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "overgrow",
+      "H": "chlorophyll"
+    },
+    "forme": "Gmax",
+    "changesFrom": "Venusaur",
+    "weight": 0,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster",
+      "Grass"
+    ],
+    "isNonstandard": "Gigantamax"
+  },
+  {
     "slug": "vespiquen",
     "name": "Vespiquen",
     "gen": 4,
@@ -22834,8 +24698,8 @@
     },
     "prevo": "combee",
     "evoLevel": 21,
-    "gender": "F",
     "weight": 38.5,
+    "gender": "F",
     "eggGroups": [
       "Bug"
     ]
@@ -22895,8 +24759,8 @@
     "abilities": {
       "0": "victorystar"
     },
-    "gender": "N",
     "weight": 4,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -22989,8 +24853,8 @@
     "abilities": {
       "0": "justified"
     },
-    "gender": "N",
     "weight": 200,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -23018,8 +24882,8 @@
     "abilities": {
       "0": "waterabsorb"
     },
-    "gender": "N",
     "weight": 195,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -23084,8 +24948,8 @@
     "evos": [
       "mandibuzz"
     ],
-    "gender": "F",
     "weight": 9,
+    "gender": "F",
     "eggGroups": [
       "Flying"
     ]
@@ -23112,6 +24976,13 @@
     },
     "evos": [
       "ninetales"
+    ],
+    "formes": [
+      "Vulpix",
+      "Vulpix-Alola"
+    ],
+    "otherFormes": [
+      "Vulpix-Alola"
     ],
     "weight": 9.9,
     "genderRatio": {
@@ -23145,6 +25016,7 @@
     "evos": [
       "ninetalesalola"
     ],
+    "forme": "Alola",
     "weight": 9.9,
     "genderRatio": {
       "M": 0.25,
@@ -23347,6 +25219,13 @@
     },
     "prevo": "koffing",
     "evoLevel": 35,
+    "formes": [
+      "Weezing",
+      "Weezing-Galar"
+    ],
+    "otherFormes": [
+      "Weezing-Galar"
+    ],
     "weight": 9.5,
     "genderRatio": {
       "M": 0.5,
@@ -23380,6 +25259,7 @@
     },
     "prevo": "koffing",
     "evoLevel": 35,
+    "forme": "Galar",
     "weight": 16,
     "genderRatio": {
       "M": 0.5,
@@ -23647,6 +25527,14 @@
     "abilities": {
       "0": "schooling"
     },
+    "baseForme": "Solo",
+    "formes": [
+      "Wishiwashi",
+      "Wishiwashi-School"
+    ],
+    "otherFormes": [
+      "Wishiwashi-School"
+    ],
     "weight": 0.3,
     "genderRatio": {
       "M": 0.5,
@@ -23675,6 +25563,9 @@
     "abilities": {
       "0": "schooling"
     },
+    "forme": "School",
+    "changesFrom": "Wishiwashi",
+    "requiredAbility": "schooling",
     "weight": 78.6,
     "genderRatio": {
       "M": 0.5,
@@ -23902,8 +25793,9 @@
     "abilities": {
       "0": "fairyaura"
     },
-    "gender": "N",
+    "baseForme": "Active",
     "weight": 215,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -23930,8 +25822,8 @@
     "abilities": {
       "0": "beastboost"
     },
-    "gender": "N",
     "weight": 100,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -23960,6 +25852,13 @@
     },
     "evos": [
       "cofagrigus"
+    ],
+    "formes": [
+      "Yamask",
+      "Yamask-Galar"
+    ],
+    "otherFormes": [
+      "Yamask-Galar"
     ],
     "weight": 1.5,
     "genderRatio": {
@@ -23994,6 +25893,7 @@
     "evos": [
       "runerigus"
     ],
+    "forme": "Galar",
     "weight": 1.5,
     "genderRatio": {
       "M": 0.5,
@@ -24056,8 +25956,8 @@
     "abilities": {
       "0": "darkaura"
     },
-    "gender": "N",
     "weight": 203,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24084,8 +25984,16 @@
     "abilities": {
       "0": "intrepidsword"
     },
-    "gender": "N",
+    "baseForme": "Hero",
+    "formes": [
+      "Zacian",
+      "Zacian-Crowned"
+    ],
+    "otherFormes": [
+      "Zacian-Crowned"
+    ],
     "weight": 110,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24113,8 +26021,11 @@
     "abilities": {
       "0": "intrepidsword"
     },
-    "gender": "N",
+    "forme": "Crowned",
+    "changesFrom": "Zacian",
+    "requiredItem": "rustedsword",
     "weight": 355,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24141,8 +26052,16 @@
     "abilities": {
       "0": "dauntlessshield"
     },
-    "gender": "N",
+    "baseForme": "Hero",
+    "formes": [
+      "Zamazenta",
+      "Zamazenta-Crowned"
+    ],
+    "otherFormes": [
+      "Zamazenta-Crowned"
+    ],
     "weight": 210,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24170,8 +26089,11 @@
     "abilities": {
       "0": "dauntlessshield"
     },
-    "gender": "N",
+    "forme": "Crowned",
+    "changesFrom": "Zamazenta",
+    "requiredItem": "rustedshield",
     "weight": 785,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24200,8 +26122,15 @@
       "0": "pressure",
       "H": "static"
     },
-    "gender": "N",
+    "formes": [
+      "Zapdos",
+      "Zapdos-Galar"
+    ],
+    "otherFormes": [
+      "Zapdos-Galar"
+    ],
     "weight": 52.6,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24229,8 +26158,9 @@
     "abilities": {
       "0": "defiant"
     },
-    "gender": "N",
+    "forme": "Galar",
     "weight": 58.2,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24258,8 +26188,15 @@
     "abilities": {
       "0": "leafguard"
     },
-    "gender": "N",
+    "formes": [
+      "Zarude",
+      "Zarude-Dada"
+    ],
+    "otherFormes": [
+      "Zarude-Dada"
+    ],
     "weight": 70,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24287,8 +26224,9 @@
     "abilities": {
       "0": "leafguard"
     },
-    "gender": "N",
+    "forme": "Dada",
     "weight": 70,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24316,8 +26254,8 @@
     "abilities": {
       "0": "teravolt"
     },
-    "gender": "N",
     "weight": 345,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24344,8 +26282,8 @@
     "abilities": {
       "0": "voltabsorb"
     },
-    "gender": "N",
     "weight": 44.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24376,6 +26314,13 @@
     },
     "evos": [
       "linoone"
+    ],
+    "formes": [
+      "Zigzagoon",
+      "Zigzagoon-Galar"
+    ],
+    "otherFormes": [
+      "Zigzagoon-Galar"
     ],
     "weight": 17.5,
     "genderRatio": {
@@ -24411,6 +26356,7 @@
     "evos": [
       "linoonegalar"
     ],
+    "forme": "Galar",
     "weight": 17.5,
     "genderRatio": {
       "M": 0.5,
@@ -24569,8 +26515,20 @@
       "0": "aurabreak",
       "S": "powerconstruct"
     },
-    "gender": "N",
+    "baseForme": "50%",
+    "formes": [
+      "Zygarde",
+      "Zygarde-10%",
+      "Zygarde-10%",
+      "Zygarde",
+      "Zygarde-Complete"
+    ],
+    "otherFormes": [
+      "Zygarde-10%",
+      "Zygarde-Complete"
+    ],
     "weight": 305,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24599,8 +26557,10 @@
       "0": "aurabreak",
       "S": "powerconstruct"
     },
-    "gender": "N",
+    "forme": "10%",
+    "changesFrom": "Zygarde",
     "weight": 33.5,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -24628,8 +26588,11 @@
     "abilities": {
       "0": "powerconstruct"
     },
-    "gender": "N",
+    "forme": "Complete",
+    "changesFrom": "Zygarde",
+    "requiredAbility": "powerconstruct",
     "weight": 610,
+    "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],

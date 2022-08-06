@@ -3,12 +3,7 @@ import * as path from 'path';
 import * as _ from 'lodash';
 import { AbilityName, Generation, SpeciesName, TypeName } from '@pkmn/data';
 import { SpeciesAbility } from '@pkmn/dex-types';
-import {
-  AbilityMap,
-  AbilityMapItem,
-  exportData,
-  typeNameToSlug,
-} from './utils';
+import { AbilityMap, exportData, typeNameToSlug } from './utils';
 
 export async function exportPokemon(
   gen: Generation,

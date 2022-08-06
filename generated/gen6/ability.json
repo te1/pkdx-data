@@ -3,6 +3,19 @@
     "slug": "adaptability",
     "name": "Adaptability",
     "gen": 4,
+    "pokemon": [
+      "beedrillmega",
+      "eevee",
+      "corphish",
+      "crawdaunt",
+      "feebas",
+      "lucariomega",
+      "porygonz",
+      "basculin",
+      "basculinbluestriped",
+      "skrelp",
+      "dragalge"
+    ],
     "desc": "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
     "shortDesc": "This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5."
   },
@@ -10,6 +23,10 @@
     "slug": "aerilate",
     "name": "Aerilate",
     "gen": 6,
+    "pokemon": [
+      "pinsirmega",
+      "salamencemega"
+    ],
     "desc": "This Pokemon's Normal-type moves become Flying-type moves and have their power multiplied by 1.3. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
     "shortDesc": "This Pokemon's Normal-type moves become Flying type and have 1.3x power."
   },
@@ -17,6 +34,16 @@
     "slug": "aftermath",
     "name": "Aftermath",
     "gen": 4,
+    "pokemon": [
+      "electrode",
+      "voltorb",
+      "drifloon",
+      "drifblim",
+      "stunky",
+      "skuntank",
+      "trubbish",
+      "garbodor"
+    ],
     "desc": "If this Pokemon is knocked out with a contact move, that move's user loses 1/4 of its maximum HP, rounded down. If any active Pokemon has the Damp Ability, this effect is prevented.",
     "shortDesc": "If this Pokemon is KOed with a contact move, that move's user loses 1/4 its max HP."
   },
@@ -24,6 +51,9 @@
     "slug": "airlock",
     "name": "Air Lock",
     "gen": 3,
+    "pokemon": [
+      "rayquaza"
+    ],
     "desc": "While this Pokemon is active, the effects of weather conditions are disabled.",
     "shortDesc": "While this Pokemon is active, the effects of weather conditions are disabled."
   },
@@ -31,6 +61,20 @@
     "slug": "analytic",
     "name": "Analytic",
     "gen": 5,
+    "pokemon": [
+      "magnezone",
+      "magnemite",
+      "magneton",
+      "staryu",
+      "starmie",
+      "porygon",
+      "porygon2",
+      "porygonz",
+      "patrat",
+      "watchog",
+      "elgyem",
+      "beheeyem"
+    ],
     "desc": "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",
     "shortDesc": "This Pokemon's attacks have 1.3x power if it is the last to move in a turn."
   },
@@ -38,6 +82,15 @@
     "slug": "angerpoint",
     "name": "Anger Point",
     "gen": 4,
+    "pokemon": [
+      "mankey",
+      "primeape",
+      "tauros",
+      "camerupt",
+      "sandile",
+      "krokorok",
+      "krookodile"
+    ],
     "desc": "If this Pokemon, but not its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",
     "shortDesc": "If this Pokemon (not its substitute) takes a critical hit, its Attack is raised 12 stages."
   },
@@ -45,6 +98,17 @@
     "slug": "anticipation",
     "name": "Anticipation",
     "gen": 4,
+    "pokemon": [
+      "wormadam",
+      "wormadamsandy",
+      "wormadamtrash",
+      "eevee",
+      "barboach",
+      "whiscash",
+      "croagunk",
+      "toxicroak",
+      "ferrothorn"
+    ],
     "desc": "On switch-in, this Pokemon is alerted if any opposing Pokemon has an attack that is super effective against this Pokemon, or an OHKO move. Counter, Metal Burst, and Mirror Coat count as attacking moves of their respective types, Hidden Power counts as its determined type, and Judgment, Natural Gift, Techno Blast, and Weather Ball are considered Normal-type moves.",
     "shortDesc": "On switch-in, this Pokemon shudders if any foe has a supereffective or OHKO move."
   },
@@ -52,6 +116,11 @@
     "slug": "arenatrap",
     "name": "Arena Trap",
     "gen": 3,
+    "pokemon": [
+      "dugtrio",
+      "trapinch",
+      "diglett"
+    ],
     "desc": "Prevents adjacent opposing Pokemon from choosing to switch out unless they are immune to trapping or are airborne.",
     "shortDesc": "Prevents adjacent foes from choosing to switch unless they are airborne."
   },
@@ -59,6 +128,10 @@
     "slug": "aromaveil",
     "name": "Aroma Veil",
     "gen": 6,
+    "pokemon": [
+      "spritzee",
+      "aromatisse"
+    ],
     "desc": "This Pokemon and its allies cannot be affected by Attract, Disable, Encore, Heal Block, Taunt, or Torment.",
     "shortDesc": "Protects user/allies from Attract, Disable, Encore, Heal Block, Taunt, and Torment."
   },
@@ -66,6 +139,9 @@
     "slug": "aurabreak",
     "name": "Aura Break",
     "gen": 6,
+    "pokemon": [
+      "zygarde"
+    ],
     "desc": "While this Pokemon is active, the effects of the Dark Aura and Fairy Aura Abilities are reversed, multiplying the power of Dark- and Fairy-type moves, respectively, by 3/4 instead of 1.33.",
     "shortDesc": "While this Pokemon is active, the Dark Aura and Fairy Aura power modifier is 0.75x."
   },
@@ -73,6 +149,9 @@
     "slug": "baddreams",
     "name": "Bad Dreams",
     "gen": 4,
+    "pokemon": [
+      "darkrai"
+    ],
     "desc": "Causes adjacent opposing Pokemon to lose 1/8 of their maximum HP, rounded down, at the end of each turn if they are asleep.",
     "shortDesc": "Causes sleeping adjacent foes to lose 1/8 of their max HP at the end of each turn."
   },
@@ -80,6 +159,16 @@
     "slug": "battlearmor",
     "name": "Battle Armor",
     "gen": 3,
+    "pokemon": [
+      "cubone",
+      "marowak",
+      "kabuto",
+      "kabutops",
+      "anorith",
+      "armaldo",
+      "skorupi",
+      "drapion"
+    ],
     "desc": "This Pokemon cannot be struck by a critical hit.",
     "shortDesc": "This Pokemon cannot be struck by a critical hit."
   },
@@ -87,6 +176,20 @@
     "slug": "bigpecks",
     "name": "Big Pecks",
     "gen": 5,
+    "pokemon": [
+      "pidgey",
+      "pidgeotto",
+      "pidgeot",
+      "chatot",
+      "pidove",
+      "tranquill",
+      "unfezant",
+      "ducklett",
+      "swanna",
+      "vullaby",
+      "mandibuzz",
+      "fletchling"
+    ],
     "desc": "Prevents other Pokemon from lowering this Pokemon's Defense stat stage.",
     "shortDesc": "Prevents other Pokemon from lowering this Pokemon's Defense stat stage."
   },
@@ -94,6 +197,28 @@
     "slug": "blaze",
     "name": "Blaze",
     "gen": 3,
+    "pokemon": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "torchic",
+      "combusken",
+      "blaziken",
+      "chimchar",
+      "monferno",
+      "infernape",
+      "tepig",
+      "pignite",
+      "emboar",
+      "pansear",
+      "simisear",
+      "fennekin",
+      "braixen",
+      "delphox"
+    ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Fire-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Fire attacks."
   },
@@ -101,6 +226,11 @@
     "slug": "bulletproof",
     "name": "Bulletproof",
     "gen": 6,
+    "pokemon": [
+      "chespin",
+      "quilladin",
+      "chesnaught"
+    ],
     "desc": "This Pokemon is immune to ballistic moves. Ballistic moves include Bullet Seed, Octazooka, Barrage, Rock Wrecker, Zap Cannon, Acid Spray, Aura Sphere, Focus Blast, and all moves with Ball or Bomb in their name.",
     "shortDesc": "Makes user immune to ballistic moves (Shadow Ball, Sludge Bomb, Focus Blast, etc)."
   },
@@ -108,6 +238,11 @@
     "slug": "cheekpouch",
     "name": "Cheek Pouch",
     "gen": 6,
+    "pokemon": [
+      "bunnelby",
+      "diggersby",
+      "dedenne"
+    ],
     "desc": "If this Pokemon eats a Berry, it restores 1/3 of its maximum HP, rounded down, in addition to the Berry's effect.",
     "shortDesc": "If this Pokemon eats a Berry, it restores 1/3 of its max HP after the Berry's effect."
   },
@@ -115,6 +250,43 @@
     "slug": "chlorophyll",
     "name": "Chlorophyll",
     "gen": 3,
+    "pokemon": [
+      "exeggutor",
+      "deerling",
+      "leafeon",
+      "bulbasaur",
+      "ivysaur",
+      "venusaur",
+      "oddish",
+      "gloom",
+      "vileplume",
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "exeggcute",
+      "tangela",
+      "bellossom",
+      "hoppip",
+      "skiploom",
+      "jumpluff",
+      "sunkern",
+      "sunflora",
+      "seedot",
+      "nuzleaf",
+      "shiftry",
+      "tropius",
+      "cherubi",
+      "tangrowth",
+      "sewaddle",
+      "swadloon",
+      "leavanny",
+      "cottonee",
+      "whimsicott",
+      "petilil",
+      "lilligant",
+      "maractus",
+      "sawsbuck"
+    ],
     "desc": "If Sunny Day is active, this Pokemon's Speed is doubled.",
     "shortDesc": "If Sunny Day is active, this Pokemon's Speed is doubled."
   },
@@ -122,6 +294,21 @@
     "slug": "clearbody",
     "name": "Clear Body",
     "gen": 3,
+    "pokemon": [
+      "tentacool",
+      "tentacruel",
+      "beldum",
+      "metang",
+      "metagross",
+      "regirock",
+      "regice",
+      "registeel",
+      "klink",
+      "klang",
+      "klinklang",
+      "carbink",
+      "diancie"
+    ],
     "desc": "Prevents other Pokemon from lowering this Pokemon's stat stages.",
     "shortDesc": "Prevents other Pokemon from lowering this Pokemon's stat stages."
   },
@@ -129,6 +316,14 @@
     "slug": "cloudnine",
     "name": "Cloud Nine",
     "gen": 3,
+    "pokemon": [
+      "psyduck",
+      "golduck",
+      "lickitung",
+      "swablu",
+      "altaria",
+      "lickilicky"
+    ],
     "desc": "While this Pokemon is active, the effects of weather conditions are disabled.",
     "shortDesc": "While this Pokemon is active, the effects of weather conditions are disabled."
   },
@@ -136,6 +331,9 @@
     "slug": "colorchange",
     "name": "Color Change",
     "gen": 3,
+    "pokemon": [
+      "kecleon"
+    ],
     "desc": "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
     "shortDesc": "This Pokemon's type changes to the type of a move it's hit by, unless it has the type."
   },
@@ -143,6 +341,16 @@
     "slug": "competitive",
     "name": "Competitive",
     "gen": 6,
+    "pokemon": [
+      "jigglypuff",
+      "wigglytuff",
+      "igglybuff",
+      "milotic",
+      "gothita",
+      "gothorita",
+      "gothitelle",
+      "meowsticf"
+    ],
     "desc": "This Pokemon's Special Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
     "shortDesc": "This Pokemon's Sp. Atk is raised by 2 for each of its stats that is lowered by a foe."
   },
@@ -150,6 +358,19 @@
     "slug": "compoundeyes",
     "name": "Compound Eyes",
     "gen": 3,
+    "pokemon": [
+      "vivillon",
+      "butterfree",
+      "venonat",
+      "yanma",
+      "dustox",
+      "nincada",
+      "joltik",
+      "galvantula",
+      "scatterbug",
+      "vivillonfancy",
+      "vivillonpokeball"
+    ],
     "desc": "This Pokemon's moves have their accuracy multiplied by 1.3.",
     "shortDesc": "This Pokemon's moves have their accuracy multiplied by 1.3."
   },
@@ -157,6 +378,15 @@
     "slug": "contrary",
     "name": "Contrary",
     "gen": 5,
+    "pokemon": [
+      "shuckle",
+      "spinda",
+      "snivy",
+      "servine",
+      "serperior",
+      "inkay",
+      "malamar"
+    ],
     "desc": "If this Pokemon has a stat stage raised it is lowered instead, and vice versa.",
     "shortDesc": "If this Pokemon has a stat stage raised it is lowered instead, and vice versa."
   },
@@ -164,6 +394,13 @@
     "slug": "cursedbody",
     "name": "Cursed Body",
     "gen": 5,
+    "pokemon": [
+      "shuppet",
+      "banette",
+      "froslass",
+      "frillish",
+      "jellicent"
+    ],
     "desc": "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled unless one of the attacker's moves is already disabled.",
     "shortDesc": "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled."
   },
@@ -171,6 +408,21 @@
     "slug": "cutecharm",
     "name": "Cute Charm",
     "gen": 3,
+    "pokemon": [
+      "delcatty",
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "cleffa",
+      "igglybuff",
+      "skitty",
+      "milotic",
+      "lopunny",
+      "minccino",
+      "cinccino",
+      "sylveon"
+    ],
     "desc": "There is a 30% chance a Pokemon making contact with this Pokemon will become infatuated if it is of the opposite gender.",
     "shortDesc": "30% chance of infatuating Pokemon of the opposite gender if they make contact."
   },
@@ -178,6 +430,26 @@
     "slug": "damp",
     "name": "Damp",
     "gen": 3,
+    "pokemon": [
+      "paras",
+      "parasect",
+      "psyduck",
+      "golduck",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "horsea",
+      "seadra",
+      "politoed",
+      "wooper",
+      "quagsire",
+      "kingdra",
+      "mudkip",
+      "marshtomp",
+      "swampert",
+      "frillish",
+      "jellicent"
+    ],
     "desc": "While this Pokemon is active, Explosion, Self-Destruct, and the Aftermath Ability are prevented from having an effect.",
     "shortDesc": "Prevents Explosion/Self-Destruct/Aftermath while this Pokemon is active."
   },
@@ -185,6 +457,9 @@
     "slug": "darkaura",
     "name": "Dark Aura",
     "gen": 6,
+    "pokemon": [
+      "yveltal"
+    ],
     "desc": "While this Pokemon is active, the power of Dark-type moves used by active Pokemon is multiplied by 1.33.",
     "shortDesc": "While this Pokemon is active, a Dark move used by any Pokemon has 1.33x power."
   },
@@ -192,6 +467,10 @@
     "slug": "defeatist",
     "name": "Defeatist",
     "gen": 5,
+    "pokemon": [
+      "archen",
+      "archeops"
+    ],
     "desc": "While this Pokemon has 1/2 or less of its maximum HP, its Attack and Special Attack are halved.",
     "shortDesc": "While this Pokemon has 1/2 or less of its max HP, its Attack and Sp. Atk are halved."
   },
@@ -199,6 +478,20 @@
     "slug": "defiant",
     "name": "Defiant",
     "gen": 5,
+    "pokemon": [
+      "farfetchd",
+      "mankey",
+      "primeape",
+      "piplup",
+      "prinplup",
+      "empoleon",
+      "purugly",
+      "pawniard",
+      "bisharp",
+      "braviary",
+      "tornadus",
+      "thundurus"
+    ],
     "desc": "This Pokemon's Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
     "shortDesc": "This Pokemon's Attack is raised by 2 for each of its stats that is lowered by a foe."
   },
@@ -206,6 +499,9 @@
     "slug": "deltastream",
     "name": "Delta Stream",
     "gen": 6,
+    "pokemon": [
+      "rayquazamega"
+    ],
     "desc": "On switch-in, the weather becomes strong winds that remove the weaknesses of the Flying type from Flying-type Pokemon. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Desolate Land or Primordial Sea.",
     "shortDesc": "On switch-in, strong winds begin until this Ability is not active in battle."
   },
@@ -213,6 +509,9 @@
     "slug": "desolateland",
     "name": "Desolate Land",
     "gen": 6,
+    "pokemon": [
+      "groudonprimal"
+    ],
     "desc": "On switch-in, the weather becomes extremely harsh sunlight that prevents damaging Water-type moves from executing, in addition to all the effects of Sunny Day. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Delta Stream or Primordial Sea.",
     "shortDesc": "On switch-in, extremely harsh sunlight begins until this Ability is not active in battle."
   },
@@ -220,6 +519,16 @@
     "slug": "download",
     "name": "Download",
     "gen": 4,
+    "pokemon": [
+      "porygon",
+      "porygon2",
+      "porygonz",
+      "genesect",
+      "genesectdouse",
+      "genesectshock",
+      "genesectburn",
+      "genesectchill"
+    ],
     "desc": "On switch-in, this Pokemon's Attack or Special Attack is raised by 1 stage based on the weaker combined defensive stat of all opposing Pokemon. Attack is raised if their Defense is lower, and Special Attack is raised if their Special Defense is the same or lower.",
     "shortDesc": "On switch-in, Attack or Sp. Atk is raised 1 stage based on the foes' weaker Defense."
   },
@@ -227,6 +536,10 @@
     "slug": "drizzle",
     "name": "Drizzle",
     "gen": 3,
+    "pokemon": [
+      "politoed",
+      "kyogre"
+    ],
     "desc": "On switch-in, this Pokemon summons Rain Dance.",
     "shortDesc": "On switch-in, this Pokemon summons Rain Dance."
   },
@@ -234,6 +547,12 @@
     "slug": "drought",
     "name": "Drought",
     "gen": 3,
+    "pokemon": [
+      "charizardmegay",
+      "vulpix",
+      "ninetales",
+      "groudon"
+    ],
     "desc": "On switch-in, this Pokemon summons Sunny Day.",
     "shortDesc": "On switch-in, this Pokemon summons Sunny Day."
   },
@@ -241,6 +560,15 @@
     "slug": "dryskin",
     "name": "Dry Skin",
     "gen": 4,
+    "pokemon": [
+      "paras",
+      "parasect",
+      "jynx",
+      "croagunk",
+      "toxicroak",
+      "helioptile",
+      "heliolisk"
+    ],
     "desc": "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move. The power of Fire-type moves is multiplied by 1.25 when used on this Pokemon. At the end of each turn, this Pokemon restores 1/8 of its maximum HP, rounded down, if the weather is Rain Dance, and loses 1/8 of its maximum HP, rounded down, if the weather is Sunny Day.",
     "shortDesc": "This Pokemon is healed 1/4 by Water, 1/8 by Rain; is hurt 1.25x by Fire, 1/8 by Sun."
   },
@@ -248,6 +576,23 @@
     "slug": "earlybird",
     "name": "Early Bird",
     "gen": 3,
+    "pokemon": [
+      "dodrio",
+      "doduo",
+      "kangaskhan",
+      "ledyba",
+      "ledian",
+      "natu",
+      "xatu",
+      "sunkern",
+      "sunflora",
+      "girafarig",
+      "houndour",
+      "houndoom",
+      "seedot",
+      "nuzleaf",
+      "shiftry"
+    ],
     "desc": "This Pokemon's sleep counter drops by 2 instead of 1.",
     "shortDesc": "This Pokemon's sleep counter drops by 2 instead of 1."
   },
@@ -255,6 +600,15 @@
     "slug": "effectspore",
     "name": "Effect Spore",
     "gen": 3,
+    "pokemon": [
+      "vileplume",
+      "paras",
+      "parasect",
+      "shroomish",
+      "breloom",
+      "foongus",
+      "amoonguss"
+    ],
     "desc": "30% chance a Pokemon making contact with this Pokemon will be poisoned, paralyzed, or fall asleep.",
     "shortDesc": "30% chance of poison/paralysis/sleep on others making contact with this Pokemon."
   },
@@ -262,6 +616,9 @@
     "slug": "fairyaura",
     "name": "Fairy Aura",
     "gen": 6,
+    "pokemon": [
+      "xerneas"
+    ],
     "desc": "While this Pokemon is active, the power of Fairy-type moves used by active Pokemon is multiplied by 1.33.",
     "shortDesc": "While this Pokemon is active, a Fairy move used by any Pokemon has 1.33x power."
   },
@@ -269,6 +626,11 @@
     "slug": "filter",
     "name": "Filter",
     "gen": 4,
+    "pokemon": [
+      "mrmime",
+      "aggronmega",
+      "mimejr"
+    ],
     "desc": "This Pokemon receives 3/4 damage from supereffective attacks.",
     "shortDesc": "This Pokemon receives 3/4 damage from supereffective attacks."
   },
@@ -276,6 +638,24 @@
     "slug": "flamebody",
     "name": "Flame Body",
     "gen": 3,
+    "pokemon": [
+      "magcargo",
+      "heatran",
+      "ponyta",
+      "rapidash",
+      "magmar",
+      "moltres",
+      "slugma",
+      "magby",
+      "magmortar",
+      "litwick",
+      "lampent",
+      "chandelure",
+      "larvesta",
+      "volcarona",
+      "fletchinder",
+      "talonflame"
+    ],
     "desc": "30% chance a Pokemon making contact with this Pokemon will be burned.",
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be burned."
   },
@@ -283,6 +663,10 @@
     "slug": "flareboost",
     "name": "Flare Boost",
     "gen": 5,
+    "pokemon": [
+      "drifloon",
+      "drifblim"
+    ],
     "desc": "While this Pokemon is burned, the power of its special attacks is multiplied by 1.5.",
     "shortDesc": "While this Pokemon is burned, its special attacks have 1.5x power."
   },
@@ -290,6 +674,26 @@
     "slug": "flashfire",
     "name": "Flash Fire",
     "gen": 3,
+    "pokemon": [
+      "entei",
+      "heatran",
+      "vulpix",
+      "ninetales",
+      "growlithe",
+      "arcanine",
+      "ponyta",
+      "rapidash",
+      "flareon",
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "houndour",
+      "houndoom",
+      "litwick",
+      "lampent",
+      "chandelure",
+      "heatmor"
+    ],
     "desc": "This Pokemon is immune to Fire-type moves. The first time it is hit by a Fire-type move, its attacking stat is multiplied by 1.5 while using a Fire-type attack as long as it remains active and has this Ability. If this Pokemon is frozen, it cannot be defrosted by Fire-type attacks.",
     "shortDesc": "This Pokemon's Fire attacks do 1.5x damage if hit by one Fire move; Fire immunity."
   },
@@ -297,6 +701,10 @@
     "slug": "flowergift",
     "name": "Flower Gift",
     "gen": 4,
+    "pokemon": [
+      "cherrim",
+      "cherrimsunshine"
+    ],
     "desc": "If this Pokemon is a Cherrim and Sunny Day is active, it changes to Sunshine Form and the Attack and Special Defense of it and its allies are multiplied by 1.5.",
     "shortDesc": "If user is Cherrim and Sunny Day is active, it and allies' Attack and Sp. Def are 1.5x."
   },
@@ -304,6 +712,11 @@
     "slug": "flowerveil",
     "name": "Flower Veil",
     "gen": 6,
+    "pokemon": [
+      "flabebe",
+      "floette",
+      "florges"
+    ],
     "desc": "Grass-type Pokemon on this Pokemon's side cannot have their stat stages lowered by other Pokemon or have a non-volatile status condition inflicted on them by other Pokemon.",
     "shortDesc": "This side's Grass types can't have stats lowered or status inflicted by other Pokemon."
   },
@@ -311,6 +724,12 @@
     "slug": "forecast",
     "name": "Forecast",
     "gen": 3,
+    "pokemon": [
+      "castform",
+      "castformsunny",
+      "castformrainy",
+      "castformsnowy"
+    ],
     "desc": "If this Pokemon is a Castform, its type changes to the current weather condition's type, except Sandstorm.",
     "shortDesc": "Castform's type changes to the current weather condition's type, except Sandstorm."
   },
@@ -318,6 +737,14 @@
     "slug": "forewarn",
     "name": "Forewarn",
     "gen": 4,
+    "pokemon": [
+      "drowzee",
+      "hypno",
+      "jynx",
+      "smoochum",
+      "munna",
+      "musharna"
+    ],
     "desc": "On switch-in, this Pokemon is alerted to the move with the highest power, at random, known by an opposing Pokemon.",
     "shortDesc": "On switch-in, this Pokemon is alerted to the foes' move with the highest power."
   },
@@ -325,6 +752,16 @@
     "slug": "friendguard",
     "name": "Friend Guard",
     "gen": 5,
+    "pokemon": [
+      "vivillon",
+      "clefairy",
+      "jigglypuff",
+      "cleffa",
+      "igglybuff",
+      "happiny",
+      "scatterbug",
+      "spewpa"
+    ],
     "desc": "This Pokemon's allies receive 3/4 damage from other Pokemon's attacks.",
     "shortDesc": "This Pokemon's allies receive 3/4 damage from other Pokemon's attacks."
   },
@@ -332,6 +769,34 @@
     "slug": "frisk",
     "name": "Frisk",
     "gen": 4,
+    "pokemon": [
+      "pumpkaboosmall",
+      "pumpkaboolarge",
+      "gourgeistsmall",
+      "gourgeistlarge",
+      "noibat",
+      "noivern",
+      "wigglytuff",
+      "sentret",
+      "furret",
+      "yanma",
+      "stantler",
+      "shuppet",
+      "banette",
+      "duskull",
+      "dusclops",
+      "yanmega",
+      "dusknoir",
+      "gothita",
+      "gothorita",
+      "gothitelle",
+      "phantump",
+      "trevenant",
+      "pumpkaboo",
+      "pumpkaboosuper",
+      "gourgeist",
+      "gourgeistsuper"
+    ],
     "desc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon.",
     "shortDesc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon."
   },
@@ -339,6 +804,9 @@
     "slug": "furcoat",
     "name": "Fur Coat",
     "gen": 6,
+    "pokemon": [
+      "furfrou"
+    ],
     "desc": "This Pokemon's Defense is doubled.",
     "shortDesc": "This Pokemon's Defense is doubled."
   },
@@ -346,6 +814,11 @@
     "slug": "galewings",
     "name": "Gale Wings",
     "gen": 6,
+    "pokemon": [
+      "fletchling",
+      "fletchinder",
+      "talonflame"
+    ],
     "desc": "This Pokemon's Flying-type moves have their priority increased by 1.",
     "shortDesc": "This Pokemon's Flying-type moves have their priority increased by 1."
   },
@@ -353,6 +826,27 @@
     "slug": "gluttony",
     "name": "Gluttony",
     "gen": 4,
+    "pokemon": [
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "snorlax",
+      "shuckle",
+      "zigzagoon",
+      "linoone",
+      "gulpin",
+      "swalot",
+      "spoink",
+      "grumpig",
+      "munchlax",
+      "pansage",
+      "simisage",
+      "pansear",
+      "simisear",
+      "panpour",
+      "simipour",
+      "heatmor"
+    ],
     "desc": "When this Pokemon has 1/2 or less of its maximum HP, it uses certain Berries early.",
     "shortDesc": "When this Pokemon has 1/2 or less of its maximum HP, it uses certain Berries early."
   },
@@ -360,6 +854,11 @@
     "slug": "gooey",
     "name": "Gooey",
     "gen": 6,
+    "pokemon": [
+      "goomy",
+      "sliggoo",
+      "goodra"
+    ],
     "desc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
     "shortDesc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage."
   },
@@ -367,6 +866,10 @@
     "slug": "grasspelt",
     "name": "Grass Pelt",
     "gen": 6,
+    "pokemon": [
+      "skiddo",
+      "gogoat"
+    ],
     "desc": "If Grassy Terrain is active, this Pokemon's Defense is multiplied by 1.5.",
     "shortDesc": "If Grassy Terrain is active, this Pokemon's Defense is multiplied by 1.5."
   },
@@ -374,6 +877,29 @@
     "slug": "guts",
     "name": "Guts",
     "gen": 3,
+    "pokemon": [
+      "swellow",
+      "rattata",
+      "raticate",
+      "machop",
+      "machoke",
+      "machamp",
+      "flareon",
+      "heracross",
+      "ursaring",
+      "tyrogue",
+      "larvitar",
+      "taillow",
+      "makuhita",
+      "hariyama",
+      "shinx",
+      "luxio",
+      "luxray",
+      "timburr",
+      "gurdurr",
+      "conkeldurr",
+      "throh"
+    ],
     "desc": "If this Pokemon has a non-volatile status condition, its Attack is multiplied by 1.5; burn's physical damage halving is ignored.",
     "shortDesc": "If this Pokemon is statused, its Attack is 1.5x; ignores burn halving physical damage."
   },
@@ -381,6 +907,13 @@
     "slug": "harvest",
     "name": "Harvest",
     "gen": 5,
+    "pokemon": [
+      "exeggutor",
+      "exeggcute",
+      "tropius",
+      "phantump",
+      "trevenant"
+    ],
     "desc": "If the last item this Pokemon used is a Berry, there is a 50% chance it gets restored at the end of each turn. If Sunny Day is active, this chance is 100%.",
     "shortDesc": "If last item used is a Berry, 50% chance to restore it each end of turn. 100% in Sun."
   },
@@ -388,6 +921,16 @@
     "slug": "healer",
     "name": "Healer",
     "gen": 5,
+    "pokemon": [
+      "audinomega",
+      "chansey",
+      "bellossom",
+      "blissey",
+      "audino",
+      "alomomola",
+      "spritzee",
+      "aromatisse"
+    ],
     "desc": "There is a 30% chance of curing an adjacent ally's non-volatile status condition at the end of each turn.",
     "shortDesc": "30% chance of curing an adjacent ally's status at the end of each turn."
   },
@@ -395,6 +938,10 @@
     "slug": "heatproof",
     "name": "Heatproof",
     "gen": 4,
+    "pokemon": [
+      "bronzor",
+      "bronzong"
+    ],
     "desc": "The power of Fire-type attacks against this Pokemon is halved, and burn damage taken is halved.",
     "shortDesc": "The power of Fire-type attacks against this Pokemon is halved; burn damage halved."
   },
@@ -402,6 +949,13 @@
     "slug": "heavymetal",
     "name": "Heavy Metal",
     "gen": 5,
+    "pokemon": [
+      "aron",
+      "lairon",
+      "aggron",
+      "bronzor",
+      "bronzong"
+    ],
     "desc": "This Pokemon's weight is doubled.",
     "shortDesc": "This Pokemon's weight is doubled."
   },
@@ -409,6 +963,10 @@
     "slug": "honeygather",
     "name": "Honey Gather",
     "gen": 4,
+    "pokemon": [
+      "teddiursa",
+      "combee"
+    ],
     "desc": "No competitive use.",
     "shortDesc": "No competitive use."
   },
@@ -416,6 +974,14 @@
     "slug": "hugepower",
     "name": "Huge Power",
     "gen": 3,
+    "pokemon": [
+      "marill",
+      "azumarill",
+      "azurill",
+      "mawilemega",
+      "bunnelby",
+      "diggersby"
+    ],
     "desc": "This Pokemon's Attack is doubled.",
     "shortDesc": "This Pokemon's Attack is doubled."
   },
@@ -423,6 +989,26 @@
     "slug": "hustle",
     "name": "Hustle",
     "gen": 3,
+    "pokemon": [
+      "corsola",
+      "rattata",
+      "raticate",
+      "nidoranf",
+      "nidorina",
+      "nidoranm",
+      "nidorino",
+      "togepi",
+      "togetic",
+      "remoraid",
+      "delibird",
+      "combee",
+      "togekiss",
+      "darumaka",
+      "rufflet",
+      "durant",
+      "deino",
+      "zweilous"
+    ],
     "desc": "This Pokemon's Attack is multiplied by 1.5 and the accuracy of its physical attacks is multiplied by 0.8.",
     "shortDesc": "This Pokemon's Attack is 1.5x and accuracy of its physical attacks is 0.8x."
   },
@@ -430,6 +1016,29 @@
     "slug": "hydration",
     "name": "Hydration",
     "gen": 4,
+    "pokemon": [
+      "seel",
+      "dewgong",
+      "lapras",
+      "vaporeon",
+      "smoochum",
+      "barboach",
+      "whiscash",
+      "gorebyss",
+      "luvdisc",
+      "phione",
+      "manaphy",
+      "tympole",
+      "palpitoad",
+      "ducklett",
+      "swanna",
+      "alomomola",
+      "shelmet",
+      "accelgor",
+      "goomy",
+      "sliggoo",
+      "goodra"
+    ],
     "desc": "This Pokemon has its non-volatile status condition cured at the end of each turn if Rain Dance is active.",
     "shortDesc": "This Pokemon has its status cured at the end of each turn if Rain Dance is active."
   },
@@ -437,6 +1046,17 @@
     "slug": "hypercutter",
     "name": "Hyper Cutter",
     "gen": 3,
+    "pokemon": [
+      "trapinch",
+      "krabby",
+      "kingler",
+      "pinsir",
+      "gligar",
+      "mawile",
+      "corphish",
+      "crawdaunt",
+      "gliscor"
+    ],
     "desc": "Prevents other Pokemon from lowering this Pokemon's Attack stat stage.",
     "shortDesc": "Prevents other Pokemon from lowering this Pokemon's Attack stat stage."
   },
@@ -444,6 +1064,22 @@
     "slug": "icebody",
     "name": "Ice Body",
     "gen": 4,
+    "pokemon": [
+      "vanillite",
+      "vanillish",
+      "vanilluxe",
+      "glaceon",
+      "bergmite",
+      "avalugg",
+      "seel",
+      "dewgong",
+      "snorunt",
+      "glalie",
+      "spheal",
+      "sealeo",
+      "walrein",
+      "regice"
+    ],
     "desc": "If Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Hail.",
     "shortDesc": "If Hail is active, this Pokemon heals 1/16 of its max HP each turn; immunity to Hail."
   },
@@ -451,6 +1087,14 @@
     "slug": "illuminate",
     "name": "Illuminate",
     "gen": 3,
+    "pokemon": [
+      "volbeat",
+      "staryu",
+      "starmie",
+      "chinchou",
+      "lanturn",
+      "watchog"
+    ],
     "desc": "No competitive use.",
     "shortDesc": "No competitive use."
   },
@@ -458,6 +1102,10 @@
     "slug": "illusion",
     "name": "Illusion",
     "gen": 5,
+    "pokemon": [
+      "zorua",
+      "zoroark"
+    ],
     "desc": "When this Pokemon switches in, it appears as the last unfainted Pokemon in its party until it takes direct damage from another Pokemon's attack. This Pokemon's actual level and HP are displayed instead of those of the mimicked Pokemon.",
     "shortDesc": "This Pokemon appears as the last Pokemon in the party until it takes direct damage."
   },
@@ -465,6 +1113,11 @@
     "slug": "immunity",
     "name": "Immunity",
     "gen": 3,
+    "pokemon": [
+      "snorlax",
+      "gligar",
+      "zangoose"
+    ],
     "desc": "This Pokemon cannot be poisoned. Gaining this Ability while poisoned cures it.",
     "shortDesc": "This Pokemon cannot be poisoned. Gaining this Ability while poisoned cures it."
   },
@@ -472,6 +1125,9 @@
     "slug": "imposter",
     "name": "Imposter",
     "gen": 5,
+    "pokemon": [
+      "ditto"
+    ],
     "desc": "On switch-in, this Pokemon Transforms into the opposing Pokemon that is facing it. If there is no Pokemon at that position, this Pokemon does not Transform.",
     "shortDesc": "On switch-in, this Pokemon Transforms into the opposing Pokemon that is facing it."
   },
@@ -479,6 +1135,29 @@
     "slug": "infiltrator",
     "name": "Infiltrator",
     "gen": 5,
+    "pokemon": [
+      "meowstic",
+      "noibat",
+      "noivern",
+      "zubat",
+      "golbat",
+      "crobat",
+      "hoppip",
+      "skiploom",
+      "jumpluff",
+      "ninjask",
+      "seviper",
+      "spiritomb",
+      "cottonee",
+      "whimsicott",
+      "litwick",
+      "lampent",
+      "chandelure",
+      "espurr",
+      "meowsticf",
+      "inkay",
+      "malamar"
+    ],
     "desc": "This Pokemon's moves ignore substitutes and the opposing side's Reflect, Light Screen, Safeguard, and Mist.",
     "shortDesc": "Moves ignore substitutes and the foe's Reflect, Light Screen, Safeguard, and Mist."
   },
@@ -486,6 +1165,35 @@
     "slug": "innerfocus",
     "name": "Inner Focus",
     "gen": 3,
+    "pokemon": [
+      "farfetchd",
+      "zubat",
+      "golbat",
+      "abra",
+      "kadabra",
+      "alakazam",
+      "drowzee",
+      "hypno",
+      "hitmonchan",
+      "kangaskhan",
+      "dragonite",
+      "crobat",
+      "umbreon",
+      "girafarig",
+      "sneasel",
+      "snorunt",
+      "glalie",
+      "riolu",
+      "lucario",
+      "gallademega",
+      "throh",
+      "sawk",
+      "darumaka",
+      "mienfoo",
+      "mienshao",
+      "pawniard",
+      "bisharp"
+    ],
     "desc": "This Pokemon cannot be made to flinch.",
     "shortDesc": "This Pokemon cannot be made to flinch."
   },
@@ -493,6 +1201,24 @@
     "slug": "insomnia",
     "name": "Insomnia",
     "gen": 3,
+    "pokemon": [
+      "noctowl",
+      "ariados",
+      "drowzee",
+      "hypno",
+      "mewtwomegay",
+      "hoothoot",
+      "spinarak",
+      "murkrow",
+      "delibird",
+      "shuppet",
+      "banette",
+      "honchkrow",
+      "pumpkaboo",
+      "pumpkaboosuper",
+      "gourgeist",
+      "gourgeistsuper"
+    ],
     "desc": "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it.",
     "shortDesc": "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it."
   },
@@ -500,6 +1226,37 @@
     "slug": "intimidate",
     "name": "Intimidate",
     "gen": 3,
+    "pokemon": [
+      "arbok",
+      "qwilfish",
+      "masquerain",
+      "ekans",
+      "growlithe",
+      "arcanine",
+      "tauros",
+      "gyarados",
+      "snubbull",
+      "granbull",
+      "stantler",
+      "hitmontop",
+      "mightyena",
+      "mawile",
+      "manectricmega",
+      "salamence",
+      "staravia",
+      "staraptor",
+      "shinx",
+      "luxio",
+      "luxray",
+      "herdier",
+      "stoutland",
+      "sandile",
+      "krokorok",
+      "krookodile",
+      "scraggy",
+      "scrafty",
+      "landorustherian"
+    ],
     "desc": "On switch-in, this Pokemon lowers the Attack of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
     "shortDesc": "On switch-in, this Pokemon lowers the Attack of adjacent opponents by 1 stage."
   },
@@ -507,6 +1264,10 @@
     "slug": "ironbarbs",
     "name": "Iron Barbs",
     "gen": 5,
+    "pokemon": [
+      "ferroseed",
+      "ferrothorn"
+    ],
     "desc": "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
     "shortDesc": "Pokemon making contact with this Pokemon lose 1/8 of their max HP."
   },
@@ -514,6 +1275,20 @@
     "slug": "ironfist",
     "name": "Iron Fist",
     "gen": 4,
+    "pokemon": [
+      "hitmonchan",
+      "ledian",
+      "chimchar",
+      "monferno",
+      "infernape",
+      "timburr",
+      "gurdurr",
+      "conkeldurr",
+      "golett",
+      "golurk",
+      "pancham",
+      "pangoro"
+    ],
     "desc": "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
     "shortDesc": "This Pokemon's punch-based attacks have 1.2x power. Sucker Punch is not boosted."
   },
@@ -521,6 +1296,18 @@
     "slug": "justified",
     "name": "Justified",
     "gen": 5,
+    "pokemon": [
+      "gallade",
+      "growlithe",
+      "arcanine",
+      "absol",
+      "lucario",
+      "cobalion",
+      "terrakion",
+      "virizion",
+      "keldeo",
+      "keldeoresolute"
+    ],
     "desc": "This Pokemon's Attack is raised by 1 stage after it is damaged by a Dark-type move.",
     "shortDesc": "This Pokemon's Attack is raised by 1 stage after it is damaged by a Dark-type move."
   },
@@ -528,6 +1315,40 @@
     "slug": "keeneye",
     "name": "Keen Eye",
     "gen": 3,
+    "pokemon": [
+      "farfetchd",
+      "noctowl",
+      "wingull",
+      "pelipper",
+      "meowstic",
+      "pidgey",
+      "pidgeotto",
+      "pidgeot",
+      "spearow",
+      "fearow",
+      "hitmonchan",
+      "sentret",
+      "furret",
+      "hoothoot",
+      "sneasel",
+      "skarmory",
+      "sableye",
+      "starly",
+      "glameow",
+      "stunky",
+      "skuntank",
+      "chatot",
+      "skorupi",
+      "drapion",
+      "patrat",
+      "watchog",
+      "ducklett",
+      "swanna",
+      "rufflet",
+      "braviary",
+      "espurr",
+      "meowsticf"
+    ],
     "desc": "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage. This Pokemon ignores a target's evasiveness stat stage.",
     "shortDesc": "This Pokemon's accuracy can't be lowered by others; ignores their evasiveness stat."
   },
@@ -535,6 +1356,15 @@
     "slug": "klutz",
     "name": "Klutz",
     "gen": 4,
+    "pokemon": [
+      "woobat",
+      "buneary",
+      "lopunny",
+      "swoobat",
+      "audino",
+      "golett",
+      "golurk"
+    ],
     "desc": "This Pokemon's held item has no effect. This Pokemon cannot use Fling successfully. Macho Brace, Power Anklet, Power Band, Power Belt, Power Bracer, Power Lens, and Power Weight still have their effects.",
     "shortDesc": "This Pokemon's held item has no effect, except Macho Brace. Fling cannot be used."
   },
@@ -542,6 +1372,22 @@
     "slug": "leafguard",
     "name": "Leaf Guard",
     "gen": 4,
+    "pokemon": [
+      "leafeon",
+      "tangela",
+      "chikorita",
+      "bayleef",
+      "meganium",
+      "hoppip",
+      "skiploom",
+      "jumpluff",
+      "roselia",
+      "budew",
+      "tangrowth",
+      "swadloon",
+      "petilil",
+      "lilligant"
+    ],
     "desc": "If Sunny Day is active, this Pokemon cannot gain a non-volatile status condition and Rest will fail for it.",
     "shortDesc": "If Sunny Day is active, this Pokemon cannot be statused and Rest will fail for it."
   },
@@ -549,6 +1395,48 @@
     "slug": "levitate",
     "name": "Levitate",
     "gen": 3,
+    "pokemon": [
+      "gengar",
+      "lunatone",
+      "solrock",
+      "chimecho",
+      "latiasmega",
+      "latiosmega",
+      "cryogonal",
+      "koffing",
+      "weezing",
+      "vibrava",
+      "flygon",
+      "gastly",
+      "haunter",
+      "misdreavus",
+      "unown",
+      "baltoy",
+      "claydol",
+      "duskull",
+      "latias",
+      "latios",
+      "mismagius",
+      "chingling",
+      "bronzor",
+      "bronzong",
+      "carnivine",
+      "rotom",
+      "rotomheat",
+      "rotomwash",
+      "rotomfrost",
+      "rotomfan",
+      "rotommow",
+      "uxie",
+      "mesprit",
+      "azelf",
+      "giratinaorigin",
+      "cresselia",
+      "tynamo",
+      "eelektrik",
+      "eelektross",
+      "hydreigon"
+    ],
     "desc": "This Pokemon is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability. The effects of Gravity, Ingrain, Smack Down, Thousand Arrows, and Iron Ball nullify the immunity.",
     "shortDesc": "This Pokemon is immune to Ground; Gravity/Ingrain/Smack Down/Iron Ball nullify it."
   },
@@ -556,6 +1444,13 @@
     "slug": "lightmetal",
     "name": "Light Metal",
     "gen": 5,
+    "pokemon": [
+      "scizor",
+      "beldum",
+      "metang",
+      "metagross",
+      "registeel"
+    ],
     "desc": "This Pokemon's weight is halved.",
     "shortDesc": "This Pokemon's weight is halved."
   },
@@ -563,6 +1458,30 @@
     "slug": "lightningrod",
     "name": "Lightning Rod",
     "gen": 3,
+    "pokemon": [
+      "pikachu",
+      "pikachucosplay",
+      "pikachurockstar",
+      "pikachubelle",
+      "pikachupopstar",
+      "pikachuphd",
+      "pikachulibre",
+      "raichu",
+      "cubone",
+      "marowak",
+      "rhyhorn",
+      "rhydon",
+      "goldeen",
+      "seaking",
+      "pichu",
+      "sceptilemega",
+      "electrike",
+      "manectric",
+      "plusle",
+      "rhyperior",
+      "blitzle",
+      "zebstrika"
+    ],
     "desc": "This Pokemon is immune to Electric-type moves and raises its Special Attack by 1 stage when hit by an Electric-type move. If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move.",
     "shortDesc": "This Pokemon draws Electric moves to itself to raise Sp. Atk by 1; Electric immunity."
   },
@@ -570,6 +1489,18 @@
     "slug": "limber",
     "name": "Limber",
     "gen": 3,
+    "pokemon": [
+      "hawlucha",
+      "persian",
+      "hitmonlee",
+      "ditto",
+      "buneary",
+      "lopunny",
+      "glameow",
+      "purrloin",
+      "liepard",
+      "stunfisk"
+    ],
     "desc": "This Pokemon cannot be paralyzed. Gaining this Ability while paralyzed cures it.",
     "shortDesc": "This Pokemon cannot be paralyzed. Gaining this Ability while paralyzed cures it."
   },
@@ -577,6 +1508,12 @@
     "slug": "liquidooze",
     "name": "Liquid Ooze",
     "gen": 3,
+    "pokemon": [
+      "tentacool",
+      "tentacruel",
+      "gulpin",
+      "swalot"
+    ],
     "desc": "This Pokemon damages those draining HP from it for as much as they would heal.",
     "shortDesc": "This Pokemon damages those draining HP from it for as much as they would heal."
   },
@@ -584,6 +1521,14 @@
     "slug": "magicbounce",
     "name": "Magic Bounce",
     "gen": 5,
+    "pokemon": [
+      "natu",
+      "xatu",
+      "espeon",
+      "sableyemega",
+      "absolmega",
+      "dianciemega"
+    ],
     "desc": "This Pokemon blocks certain status moves and instead uses the move against the original user.",
     "shortDesc": "This Pokemon blocks certain status moves and bounces them back to the user."
   },
@@ -591,6 +1536,18 @@
     "slug": "magicguard",
     "name": "Magic Guard",
     "gen": 4,
+    "pokemon": [
+      "clefairy",
+      "clefable",
+      "abra",
+      "kadabra",
+      "alakazam",
+      "cleffa",
+      "sigilyph",
+      "solosis",
+      "duosion",
+      "reuniclus"
+    ],
     "desc": "This Pokemon can only be damaged by direct attacks. Curse and Substitute on use, Belly Drum, Pain Split, Struggle recoil, and confusion damage are considered direct damage.",
     "shortDesc": "This Pokemon can only be damaged by direct attacks."
   },
@@ -598,6 +1555,14 @@
     "slug": "magician",
     "name": "Magician",
     "gen": 6,
+    "pokemon": [
+      "fennekin",
+      "braixen",
+      "delphox",
+      "klefki",
+      "hoopa",
+      "hoopaunbound"
+    ],
     "desc": "If this Pokemon has no item, it steals the item off a Pokemon it hits with an attack. Does not affect Doom Desire and Future Sight.",
     "shortDesc": "If this Pokemon has no item, it steals the item off a Pokemon it hits with an attack."
   },
@@ -605,6 +1570,11 @@
     "slug": "magmaarmor",
     "name": "Magma Armor",
     "gen": 3,
+    "pokemon": [
+      "magcargo",
+      "slugma",
+      "camerupt"
+    ],
     "desc": "This Pokemon cannot be frozen. Gaining this Ability while frozen cures it.",
     "shortDesc": "This Pokemon cannot be frozen. Gaining this Ability while frozen cures it."
   },
@@ -612,6 +1582,13 @@
     "slug": "magnetpull",
     "name": "Magnet Pull",
     "gen": 3,
+    "pokemon": [
+      "magnezone",
+      "magnemite",
+      "magneton",
+      "nosepass",
+      "probopass"
+    ],
     "desc": "Prevents adjacent opposing Steel-type Pokemon from choosing to switch out unless they are immune to trapping.",
     "shortDesc": "Prevents adjacent Steel-type foes from choosing to switch."
   },
@@ -619,6 +1596,11 @@
     "slug": "marvelscale",
     "name": "Marvel Scale",
     "gen": 3,
+    "pokemon": [
+      "dratini",
+      "dragonair",
+      "milotic"
+    ],
     "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5.",
     "shortDesc": "If this Pokemon is statused, its Defense is 1.5x."
   },
@@ -626,6 +1608,11 @@
     "slug": "megalauncher",
     "name": "Mega Launcher",
     "gen": 6,
+    "pokemon": [
+      "blastoisemega",
+      "clauncher",
+      "clawitzer"
+    ],
     "desc": "This Pokemon's pulse moves have their power multiplied by 1.5. Heal Pulse restores 3/4 of a target's maximum HP, rounded half down.",
     "shortDesc": "This Pokemon's pulse moves have 1.5x power. Heal Pulse heals 3/4 target's max HP."
   },
@@ -633,6 +1620,14 @@
     "slug": "minus",
     "name": "Minus",
     "gen": 3,
+    "pokemon": [
+      "electrike",
+      "manectric",
+      "minun",
+      "klink",
+      "klang",
+      "klinklang"
+    ],
     "desc": "If an active ally has this Ability or the Plus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
     "shortDesc": "If an active ally has this Ability or the Plus Ability, this Pokemon's Sp. Atk is 1.5x."
   },
@@ -640,6 +1635,26 @@
     "slug": "moldbreaker",
     "name": "Mold Breaker",
     "gen": 4,
+    "pokemon": [
+      "hawlucha",
+      "pinsir",
+      "gyaradosmega",
+      "ampharosmega",
+      "cranidos",
+      "rampardos",
+      "drilbur",
+      "excadrill",
+      "throh",
+      "sawk",
+      "basculin",
+      "basculinbluestriped",
+      "axew",
+      "fraxure",
+      "haxorus",
+      "druddigon",
+      "pancham",
+      "pangoro"
+    ],
     "desc": "This Pokemon's moves and their effects ignore certain Abilities of other Pokemon. The Abilities that can be negated are Aroma Veil, Aura Break, Battle Armor, Big Pecks, Bulletproof, Clear Body, Contrary, Damp, Dark Aura, Dry Skin, Fairy Aura, Filter, Flash Fire, Flower Gift, Flower Veil, Friend Guard, Fur Coat, Grass Pelt, Heatproof, Heavy Metal, Hyper Cutter, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Light Metal, Lightning Rod, Limber, Magic Bounce, Magma Armor, Marvel Scale, Motor Drive, Multiscale, Oblivious, Overcoat, Own Tempo, Sand Veil, Sap Sipper, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Sweet Veil, Tangled Feet, Telepathy, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Veil, White Smoke, Wonder Guard, and Wonder Skin. This affects every other Pokemon on the field, whether or not it is a target of this Pokemon's move, and whether or not their Ability is beneficial to this Pokemon.",
     "shortDesc": "This Pokemon's moves and their effects ignore the Abilities of other Pokemon."
   },
@@ -647,6 +1662,15 @@
     "slug": "moody",
     "name": "Moody",
     "gen": 5,
+    "pokemon": [
+      "remoraid",
+      "octillery",
+      "smeargle",
+      "snorunt",
+      "glalie",
+      "bidoof",
+      "bibarel"
+    ],
     "desc": "This Pokemon has a random stat raised by 2 stages and another stat lowered by 1 stage at the end of each turn.",
     "shortDesc": "Raises a random stat by 2 and lowers another stat by 1 at the end of each turn."
   },
@@ -654,6 +1678,12 @@
     "slug": "motordrive",
     "name": "Motor Drive",
     "gen": 4,
+    "pokemon": [
+      "electivire",
+      "blitzle",
+      "zebstrika",
+      "emolga"
+    ],
     "desc": "This Pokemon is immune to Electric-type moves and raises its Speed by 1 stage when hit by an Electric-type move.",
     "shortDesc": "This Pokemon's Speed is raised 1 stage if hit by an Electric move; Electric immunity."
   },
@@ -661,6 +1691,21 @@
     "slug": "moxie",
     "name": "Moxie",
     "gen": 5,
+    "pokemon": [
+      "pinsir",
+      "gyarados",
+      "heracross",
+      "mightyena",
+      "salamence",
+      "honchkrow",
+      "sandile",
+      "krokorok",
+      "krookodile",
+      "scraggy",
+      "scrafty",
+      "litleo",
+      "pyroar"
+    ],
     "desc": "This Pokemon's Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
     "shortDesc": "This Pokemon's Attack is raised by 1 stage if it attacks and KOes another Pokemon."
   },
@@ -668,6 +1713,10 @@
     "slug": "multiscale",
     "name": "Multiscale",
     "gen": 5,
+    "pokemon": [
+      "dragonite",
+      "lugia"
+    ],
     "desc": "If this Pokemon is at full HP, damage taken from attacks is halved.",
     "shortDesc": "If this Pokemon is at full HP, damage taken from attacks is halved."
   },
@@ -675,6 +1724,26 @@
     "slug": "multitype",
     "name": "Multitype",
     "gen": 4,
+    "pokemon": [
+      "arceus",
+      "arceusbug",
+      "arceusdark",
+      "arceusdragon",
+      "arceuselectric",
+      "arceusfairy",
+      "arceusfighting",
+      "arceusfire",
+      "arceusflying",
+      "arceusghost",
+      "arceusgrass",
+      "arceusground",
+      "arceusice",
+      "arceuspoison",
+      "arceuspsychic",
+      "arceusrock",
+      "arceussteel",
+      "arceuswater"
+    ],
     "desc": "If this Pokemon is an Arceus, its type changes to match its held Plate.",
     "shortDesc": "If this Pokemon is an Arceus, its type changes to match its held Plate."
   },
@@ -682,6 +1751,10 @@
     "slug": "mummy",
     "name": "Mummy",
     "gen": 5,
+    "pokemon": [
+      "yamask",
+      "cofagrigus"
+    ],
     "desc": "Pokemon making contact with this Pokemon have their Ability changed to Mummy. Does not affect the Multitype or Stance Change Abilities.",
     "shortDesc": "Pokemon making contact with this Pokemon have their Ability changed to Mummy."
   },
@@ -689,6 +1762,23 @@
     "slug": "naturalcure",
     "name": "Natural Cure",
     "gen": 3,
+    "pokemon": [
+      "corsola",
+      "chansey",
+      "staryu",
+      "starmie",
+      "blissey",
+      "celebi",
+      "roselia",
+      "swablu",
+      "altaria",
+      "budew",
+      "roserade",
+      "happiny",
+      "shaymin",
+      "phantump",
+      "trevenant"
+    ],
     "desc": "This Pokemon has its non-volatile status condition cured when it switches out.",
     "shortDesc": "This Pokemon has its non-volatile status condition cured when it switches out."
   },
@@ -696,6 +1786,17 @@
     "slug": "noguard",
     "name": "No Guard",
     "gen": 4,
+    "pokemon": [
+      "pidgeotmega",
+      "machop",
+      "machoke",
+      "machamp",
+      "karrablast",
+      "golett",
+      "golurk",
+      "honedge",
+      "doublade"
+    ],
     "desc": "Every move used by or against this Pokemon will always hit.",
     "shortDesc": "Every move used by or against this Pokemon will always hit."
   },
@@ -703,6 +1804,10 @@
     "slug": "normalize",
     "name": "Normalize",
     "gen": 4,
+    "pokemon": [
+      "delcatty",
+      "skitty"
+    ],
     "desc": "This Pokemon's moves are changed to be Normal type. This effect comes before other effects that change a move's type.",
     "shortDesc": "This Pokemon's moves are changed to be Normal type."
   },
@@ -710,6 +1815,28 @@
     "slug": "oblivious",
     "name": "Oblivious",
     "gen": 3,
+    "pokemon": [
+      "illumise",
+      "slowpoke",
+      "slowbro",
+      "lickitung",
+      "jynx",
+      "slowking",
+      "swinub",
+      "piloswine",
+      "smoochum",
+      "wailmer",
+      "wailord",
+      "numel",
+      "barboach",
+      "whiscash",
+      "feebas",
+      "spheal",
+      "sealeo",
+      "walrein",
+      "lickilicky",
+      "mamoswine"
+    ],
     "desc": "This Pokemon cannot be infatuated or taunted. Gaining this Ability while affected cures it.",
     "shortDesc": "This Pokemon cannot be infatuated or taunted."
   },
@@ -717,6 +1844,27 @@
     "slug": "overcoat",
     "name": "Overcoat",
     "gen": 5,
+    "pokemon": [
+      "burmy",
+      "wormadam",
+      "wormadamsandy",
+      "wormadamtrash",
+      "shellder",
+      "cloyster",
+      "pineco",
+      "forretress",
+      "shelgon",
+      "sewaddle",
+      "swadloon",
+      "leavanny",
+      "solosis",
+      "duosion",
+      "reuniclus",
+      "escavalier",
+      "shelmet",
+      "vullaby",
+      "mandibuzz"
+    ],
     "desc": "This Pokemon is immune to powder moves and damage from Sandstorm or Hail.",
     "shortDesc": "This Pokemon is immune to powder moves and damage from Sandstorm or Hail."
   },
@@ -724,6 +1872,28 @@
     "slug": "overgrow",
     "name": "Overgrow",
     "gen": 3,
+    "pokemon": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur",
+      "chikorita",
+      "bayleef",
+      "meganium",
+      "treecko",
+      "grovyle",
+      "sceptile",
+      "turtwig",
+      "grotle",
+      "torterra",
+      "snivy",
+      "servine",
+      "serperior",
+      "pansage",
+      "simisage",
+      "chespin",
+      "quilladin",
+      "chesnaught"
+    ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Grass-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Grass attacks."
   },
@@ -731,6 +1901,28 @@
     "slug": "owntempo",
     "name": "Own Tempo",
     "gen": 3,
+    "pokemon": [
+      "bergmite",
+      "avalugg",
+      "slowpoke",
+      "slowbro",
+      "lickitung",
+      "slowking",
+      "smeargle",
+      "lotad",
+      "lombre",
+      "ludicolo",
+      "numel",
+      "spoink",
+      "grumpig",
+      "spinda",
+      "glameow",
+      "purugly",
+      "lickilicky",
+      "petilil",
+      "lilligant",
+      "espurr"
+    ],
     "desc": "This Pokemon cannot be confused. Gaining this Ability while confused cures it.",
     "shortDesc": "This Pokemon cannot be confused."
   },
@@ -738,6 +1930,9 @@
     "slug": "parentalbond",
     "name": "Parental Bond",
     "gen": 6,
+    "pokemon": [
+      "kangaskhanmega"
+    ],
     "desc": "This Pokemon's damaging moves become multi-hit moves that hit twice. The second hit has its damage halved. Does not affect multi-hit moves or moves that have multiple targets.",
     "shortDesc": "This Pokemon's damaging moves hit twice. The second hit has its damage halved."
   },
@@ -745,6 +1940,15 @@
     "slug": "pickpocket",
     "name": "Pickpocket",
     "gen": 5,
+    "pokemon": [
+      "sneasel",
+      "seedot",
+      "nuzleaf",
+      "shiftry",
+      "weavile",
+      "binacle",
+      "barbaracle"
+    ],
     "desc": "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
     "shortDesc": "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item."
   },
@@ -752,6 +1956,29 @@
     "slug": "pickup",
     "name": "Pickup",
     "gen": 3,
+    "pokemon": [
+      "pumpkaboosmall",
+      "pumpkaboolarge",
+      "gourgeistsmall",
+      "gourgeistlarge",
+      "meowth",
+      "aipom",
+      "teddiursa",
+      "phanpy",
+      "zigzagoon",
+      "linoone",
+      "pachirisu",
+      "ambipom",
+      "munchlax",
+      "lillipup",
+      "bunnelby",
+      "diggersby",
+      "dedenne",
+      "pumpkaboo",
+      "pumpkaboosuper",
+      "gourgeist",
+      "gourgeistsuper"
+    ],
     "desc": "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn.",
     "shortDesc": "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn."
   },
@@ -759,6 +1986,11 @@
     "slug": "pixilate",
     "name": "Pixilate",
     "gen": 6,
+    "pokemon": [
+      "gardevoirmega",
+      "altariamega",
+      "sylveon"
+    ],
     "desc": "This Pokemon's Normal-type moves become Fairy-type moves and have their power multiplied by 1.3. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
     "shortDesc": "This Pokemon's Normal-type moves become Fairy type and have 1.3x power."
   },
@@ -766,6 +1998,16 @@
     "slug": "plus",
     "name": "Plus",
     "gen": 3,
+    "pokemon": [
+      "mareep",
+      "flaaffy",
+      "ampharos",
+      "plusle",
+      "klink",
+      "klang",
+      "klinklang",
+      "dedenne"
+    ],
     "desc": "If an active ally has this Ability or the Minus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
     "shortDesc": "If an active ally has this Ability or the Minus Ability, this Pokemon's Sp. Atk is 1.5x."
   },
@@ -773,6 +2015,11 @@
     "slug": "poisonheal",
     "name": "Poison Heal",
     "gen": 4,
+    "pokemon": [
+      "shroomish",
+      "breloom",
+      "gliscor"
+    ],
     "desc": "If this Pokemon is poisoned, it restores 1/8 of its maximum HP, rounded down, at the end of each turn instead of losing HP.",
     "shortDesc": "This Pokemon is healed by 1/8 of its max HP each turn when poisoned; no HP loss."
   },
@@ -780,6 +2027,24 @@
     "slug": "poisonpoint",
     "name": "Poison Point",
     "gen": 3,
+    "pokemon": [
+      "qwilfish",
+      "nidoranf",
+      "nidorina",
+      "nidoqueen",
+      "nidoranm",
+      "nidorino",
+      "nidoking",
+      "seadra",
+      "roselia",
+      "budew",
+      "roserade",
+      "venipede",
+      "whirlipede",
+      "scolipede",
+      "skrelp",
+      "dragalge"
+    ],
     "desc": "30% chance a Pokemon making contact with this Pokemon will be poisoned.",
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be poisoned."
   },
@@ -787,6 +2052,15 @@
     "slug": "poisontouch",
     "name": "Poison Touch",
     "gen": 5,
+    "pokemon": [
+      "grimer",
+      "muk",
+      "croagunk",
+      "toxicroak",
+      "seismitoad",
+      "skrelp",
+      "dragalge"
+    ],
     "desc": "This Pokemon's contact moves have a 30% chance of poisoning.",
     "shortDesc": "This Pokemon's contact moves have a 30% chance of poisoning."
   },
@@ -794,6 +2068,22 @@
     "slug": "prankster",
     "name": "Prankster",
     "gen": 5,
+    "pokemon": [
+      "volbeat",
+      "illumise",
+      "meowstic",
+      "murkrow",
+      "sableye",
+      "banettemega",
+      "riolu",
+      "purrloin",
+      "liepard",
+      "cottonee",
+      "whimsicott",
+      "tornadus",
+      "thundurus",
+      "klefki"
+    ],
     "desc": "This Pokemon's non-damaging moves have their priority increased by 1.",
     "shortDesc": "This Pokemon's non-damaging moves have their priority increased by 1."
   },
@@ -801,6 +2091,36 @@
     "slug": "pressure",
     "name": "Pressure",
     "gen": 3,
+    "pokemon": [
+      "raikou",
+      "entei",
+      "suicune",
+      "aerodactyl",
+      "articuno",
+      "zapdos",
+      "moltres",
+      "mewtwo",
+      "lugia",
+      "hooh",
+      "wailmer",
+      "wailord",
+      "dusclops",
+      "absol",
+      "deoxys",
+      "deoxysattack",
+      "deoxysdefense",
+      "deoxysspeed",
+      "vespiquen",
+      "spiritomb",
+      "weavile",
+      "dusknoir",
+      "dialga",
+      "palkia",
+      "giratina",
+      "pawniard",
+      "bisharp",
+      "kyurem"
+    ],
     "desc": "If this Pokemon is the target of an opposing Pokemon's move, that move loses one additional PP.",
     "shortDesc": "If this Pokemon is the target of a foe's move, that move loses one additional PP."
   },
@@ -808,6 +2128,9 @@
     "slug": "primordialsea",
     "name": "Primordial Sea",
     "gen": 6,
+    "pokemon": [
+      "kyogreprimal"
+    ],
     "desc": "On switch-in, the weather becomes heavy rain that prevents damaging Fire-type moves from executing, in addition to all the effects of Rain Dance. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Delta Stream or Desolate Land.",
     "shortDesc": "On switch-in, heavy rain begins until this Ability is not active in battle."
   },
@@ -815,6 +2138,12 @@
     "slug": "protean",
     "name": "Protean",
     "gen": 6,
+    "pokemon": [
+      "greninja",
+      "kecleon",
+      "froakie",
+      "frogadier"
+    ],
     "desc": "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
     "shortDesc": "This Pokemon's type changes to match the type of the move it is about to use."
   },
@@ -822,6 +2151,11 @@
     "slug": "purepower",
     "name": "Pure Power",
     "gen": 3,
+    "pokemon": [
+      "meditite",
+      "medicham",
+      "medichammega"
+    ],
     "desc": "This Pokemon's Attack is doubled.",
     "shortDesc": "This Pokemon's Attack is doubled."
   },
@@ -829,6 +2163,17 @@
     "slug": "quickfeet",
     "name": "Quick Feet",
     "gen": 4,
+    "pokemon": [
+      "jolteon",
+      "granbull",
+      "teddiursa",
+      "ursaring",
+      "poochyena",
+      "mightyena",
+      "zigzagoon",
+      "linoone",
+      "shroomish"
+    ],
     "desc": "If this Pokemon has a non-volatile status condition, its Speed is multiplied by 1.5; the Speed drop from paralysis is ignored.",
     "shortDesc": "If this Pokemon is statused, its Speed is 1.5x; ignores Speed drop from paralysis."
   },
@@ -836,6 +2181,19 @@
     "slug": "raindish",
     "name": "Rain Dish",
     "gen": 3,
+    "pokemon": [
+      "wingull",
+      "pelipper",
+      "squirtle",
+      "wartortle",
+      "blastoise",
+      "tentacool",
+      "tentacruel",
+      "lotad",
+      "lombre",
+      "ludicolo",
+      "surskit"
+    ],
     "desc": "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
     "shortDesc": "If Rain Dance is active, this Pokemon heals 1/16 of its max HP each turn."
   },
@@ -843,6 +2201,19 @@
     "slug": "rattled",
     "name": "Rattled",
     "gen": 5,
+    "pokemon": [
+      "cubchoo",
+      "magikarp",
+      "ledyba",
+      "sudowoodo",
+      "dunsparce",
+      "snubbull",
+      "granbull",
+      "poochyena",
+      "whismur",
+      "clamperl",
+      "bonsly"
+    ],
     "desc": "This Pokemon's Speed is raised by 1 stage if hit by a Bug-, Dark-, or Ghost-type attack.",
     "shortDesc": "This Pokemon's Speed is raised 1 stage if hit by a Bug-, Dark-, or Ghost-type attack."
   },
@@ -850,6 +2221,20 @@
     "slug": "reckless",
     "name": "Reckless",
     "gen": 4,
+    "pokemon": [
+      "hitmonlee",
+      "rhyhorn",
+      "rhydon",
+      "starly",
+      "staravia",
+      "staraptor",
+      "rhyperior",
+      "emboar",
+      "basculin",
+      "mienfoo",
+      "mienshao",
+      "bouffalant"
+    ],
     "desc": "This Pokemon's attacks with recoil or crash damage have their power multiplied by 1.2. Does not affect Struggle.",
     "shortDesc": "This Pokemon's attacks with recoil or crash damage have 1.2x power; not Struggle."
   },
@@ -857,6 +2242,11 @@
     "slug": "refrigerate",
     "name": "Refrigerate",
     "gen": 6,
+    "pokemon": [
+      "glaliemega",
+      "amaura",
+      "aurorus"
+    ],
     "desc": "This Pokemon's Normal-type moves become Ice-type moves and have their power multiplied by 1.3. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
     "shortDesc": "This Pokemon's Normal-type moves become Ice type and have 1.3x power."
   },
@@ -864,6 +2254,25 @@
     "slug": "regenerator",
     "name": "Regenerator",
     "gen": 5,
+    "pokemon": [
+      "corsola",
+      "slowpoke",
+      "slowbro",
+      "tangela",
+      "slowking",
+      "hooh",
+      "tangrowth",
+      "audino",
+      "solosis",
+      "duosion",
+      "reuniclus",
+      "foongus",
+      "amoonguss",
+      "alomomola",
+      "mienfoo",
+      "mienshao",
+      "tornadustherian"
+    ],
     "desc": "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
     "shortDesc": "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out."
   },
@@ -871,6 +2280,26 @@
     "slug": "rivalry",
     "name": "Rivalry",
     "gen": 4,
+    "pokemon": [
+      "nidoranf",
+      "nidorina",
+      "nidoqueen",
+      "nidoranm",
+      "nidorino",
+      "nidoking",
+      "beautifly",
+      "shinx",
+      "luxio",
+      "luxray",
+      "pidove",
+      "tranquill",
+      "unfezant",
+      "axew",
+      "fraxure",
+      "haxorus",
+      "litleo",
+      "pyroar"
+    ],
     "desc": "This Pokemon's attacks have their power multiplied by 1.25 against targets of the same gender or multiplied by 0.75 against targets of the opposite gender. There is no modifier if either this Pokemon or the target is genderless.",
     "shortDesc": "This Pokemon's attacks do 1.25x on same gender targets; 0.75x on opposite gender."
   },
@@ -878,6 +2307,28 @@
     "slug": "rockhead",
     "name": "Rock Head",
     "gen": 3,
+    "pokemon": [
+      "geodude",
+      "graveler",
+      "golem",
+      "onix",
+      "cubone",
+      "marowak",
+      "rhyhorn",
+      "rhydon",
+      "aerodactyl",
+      "sudowoodo",
+      "steelix",
+      "aron",
+      "lairon",
+      "aggron",
+      "relicanth",
+      "bagon",
+      "shelgon",
+      "bonsly",
+      "basculinbluestriped",
+      "tyrantrum"
+    ],
     "desc": "This Pokemon does not take recoil damage besides Struggle, Life Orb, and crash damage.",
     "shortDesc": "This Pokemon does not take recoil damage besides Struggle/Life Orb/crash damage."
   },
@@ -885,6 +2336,14 @@
     "slug": "roughskin",
     "name": "Rough Skin",
     "gen": 3,
+    "pokemon": [
+      "carvanha",
+      "sharpedo",
+      "gible",
+      "gabite",
+      "garchomp",
+      "druddigon"
+    ],
     "desc": "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
     "shortDesc": "Pokemon making contact with this Pokemon lose 1/8 of their max HP."
   },
@@ -892,6 +2351,32 @@
     "slug": "runaway",
     "name": "Run Away",
     "gen": 3,
+    "pokemon": [
+      "dodrio",
+      "caterpie",
+      "weedle",
+      "rattata",
+      "raticate",
+      "oddish",
+      "venonat",
+      "ponyta",
+      "rapidash",
+      "doduo",
+      "eevee",
+      "sentret",
+      "furret",
+      "aipom",
+      "dunsparce",
+      "snubbull",
+      "poochyena",
+      "wurmple",
+      "nincada",
+      "kricketot",
+      "pachirisu",
+      "buneary",
+      "patrat",
+      "lillipup"
+    ],
     "desc": "No competitive use.",
     "shortDesc": "No competitive use."
   },
@@ -899,6 +2384,24 @@
     "slug": "sandforce",
     "name": "Sand Force",
     "gen": 5,
+    "pokemon": [
+      "dugtrio",
+      "roggenrola",
+      "boldore",
+      "gigalith",
+      "diglett",
+      "steelixmega",
+      "nosepass",
+      "shellos",
+      "gastrodon",
+      "garchompmega",
+      "hippopotas",
+      "hippowdon",
+      "probopass",
+      "drilbur",
+      "excadrill",
+      "landorus"
+    ],
     "desc": "If Sandstorm is active, this Pokemon's Ground-, Rock-, and Steel-type attacks have their power multiplied by 1.3. This Pokemon takes no damage from Sandstorm.",
     "shortDesc": "This Pokemon's Ground/Rock/Steel attacks do 1.3x in Sandstorm; immunity to it."
   },
@@ -906,6 +2409,14 @@
     "slug": "sandrush",
     "name": "Sand Rush",
     "gen": 5,
+    "pokemon": [
+      "sandshrew",
+      "sandslash",
+      "herdier",
+      "stoutland",
+      "drilbur",
+      "excadrill"
+    ],
     "desc": "If Sandstorm is active, this Pokemon's Speed is doubled. This Pokemon takes no damage from Sandstorm.",
     "shortDesc": "If Sandstorm is active, this Pokemon's Speed is doubled; immunity to Sandstorm."
   },
@@ -913,6 +2424,12 @@
     "slug": "sandstream",
     "name": "Sand Stream",
     "gen": 3,
+    "pokemon": [
+      "tyranitar",
+      "tyranitarmega",
+      "hippopotas",
+      "hippowdon"
+    ],
     "desc": "On switch-in, this Pokemon summons Sandstorm.",
     "shortDesc": "On switch-in, this Pokemon summons Sandstorm."
   },
@@ -920,6 +2437,28 @@
     "slug": "sandveil",
     "name": "Sand Veil",
     "gen": 3,
+    "pokemon": [
+      "dugtrio",
+      "sandshrew",
+      "sandslash",
+      "diglett",
+      "geodude",
+      "graveler",
+      "golem",
+      "gligar",
+      "phanpy",
+      "donphan",
+      "larvitar",
+      "cacnea",
+      "cacturne",
+      "gible",
+      "gabite",
+      "garchomp",
+      "gliscor",
+      "stunfisk",
+      "helioptile",
+      "heliolisk"
+    ],
     "desc": "If Sandstorm is active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Sandstorm.",
     "shortDesc": "If Sandstorm is active, this Pokemon's evasiveness is 1.25x; immunity to Sandstorm."
   },
@@ -927,6 +2466,24 @@
     "slug": "sapsipper",
     "name": "Sap Sipper",
     "gen": 5,
+    "pokemon": [
+      "deerling",
+      "marill",
+      "azumarill",
+      "girafarig",
+      "stantler",
+      "miltank",
+      "azurill",
+      "blitzle",
+      "zebstrika",
+      "sawsbuck",
+      "bouffalant",
+      "skiddo",
+      "gogoat",
+      "goomy",
+      "sliggoo",
+      "goodra"
+    ],
     "desc": "This Pokemon is immune to Grass-type moves and raises its Attack by 1 stage when hit by a Grass-type move.",
     "shortDesc": "This Pokemon's Attack is raised 1 stage if hit by a Grass move; Grass immunity."
   },
@@ -934,6 +2491,19 @@
     "slug": "scrappy",
     "name": "Scrappy",
     "gen": 4,
+    "pokemon": [
+      "swellow",
+      "kangaskhan",
+      "miltank",
+      "taillow",
+      "loudred",
+      "exploud",
+      "lopunnymega",
+      "herdier",
+      "stoutland",
+      "pancham",
+      "pangoro"
+    ],
     "desc": "This Pokemon can hit Ghost types with Normal- and Fighting-type moves.",
     "shortDesc": "This Pokemon can hit Ghost types with Normal- and Fighting-type moves."
   },
@@ -941,6 +2511,21 @@
     "slug": "serenegrace",
     "name": "Serene Grace",
     "gen": 3,
+    "pokemon": [
+      "deerling",
+      "chansey",
+      "togepi",
+      "togetic",
+      "dunsparce",
+      "blissey",
+      "jirachi",
+      "happiny",
+      "togekiss",
+      "shayminsky",
+      "sawsbuck",
+      "meloetta",
+      "meloettapirouette"
+    ],
     "desc": "This Pokemon's moves have their secondary effect chance doubled.",
     "shortDesc": "This Pokemon's moves have their secondary effect chance doubled."
   },
@@ -948,6 +2533,14 @@
     "slug": "shadowtag",
     "name": "Shadow Tag",
     "gen": 3,
+    "pokemon": [
+      "gengarmega",
+      "wobbuffet",
+      "wynaut",
+      "gothita",
+      "gothorita",
+      "gothitelle"
+    ],
     "desc": "Prevents adjacent opposing Pokemon from choosing to switch out unless they are immune to trapping or also have this Ability.",
     "shortDesc": "Prevents adjacent foes from choosing to switch unless they also have this Ability."
   },
@@ -955,6 +2548,24 @@
     "slug": "shedskin",
     "name": "Shed Skin",
     "gen": 3,
+    "pokemon": [
+      "arbok",
+      "burmy",
+      "metapod",
+      "kakuna",
+      "ekans",
+      "dratini",
+      "dragonair",
+      "pupitar",
+      "silcoon",
+      "cascoon",
+      "seviper",
+      "kricketot",
+      "scraggy",
+      "scrafty",
+      "karrablast",
+      "spewpa"
+    ],
     "desc": "This Pokemon has a 33% chance to have its non-volatile status condition cured at the end of each turn.",
     "shortDesc": "This Pokemon has a 33% chance to have its status cured at the end of each turn."
   },
@@ -962,6 +2573,33 @@
     "slug": "sheerforce",
     "name": "Sheer Force",
     "gen": 5,
+    "pokemon": [
+      "trapinch",
+      "nidoqueen",
+      "nidoking",
+      "krabby",
+      "kingler",
+      "tauros",
+      "totodile",
+      "croconaw",
+      "feraligatr",
+      "steelix",
+      "makuhita",
+      "hariyama",
+      "mawile",
+      "cameruptmega",
+      "bagon",
+      "cranidos",
+      "rampardos",
+      "timburr",
+      "gurdurr",
+      "conkeldurr",
+      "darmanitan",
+      "druddigon",
+      "rufflet",
+      "braviary",
+      "landorus"
+    ],
     "desc": "This Pokemon's attacks with secondary effects have their power multiplied by 1.3, but the secondary effects are removed. If a secondary effect was removed, it also removes the user's Life Orb recoil and Shell Bell recovery, and prevents the target's Color Change, Pickpocket, Red Card, Eject Button, Kee Berry, and Maranga Berry from activating.",
     "shortDesc": "This Pokemon's attacks with secondary effects have 1.3x power; nullifies the effects."
   },
@@ -969,6 +2607,30 @@
     "slug": "shellarmor",
     "name": "Shell Armor",
     "gen": 3,
+    "pokemon": [
+      "torkoal",
+      "crustle",
+      "slowbromega",
+      "shellder",
+      "cloyster",
+      "krabby",
+      "kingler",
+      "lapras",
+      "omanyte",
+      "omastar",
+      "corphish",
+      "crawdaunt",
+      "clamperl",
+      "turtwig",
+      "grotle",
+      "torterra",
+      "oshawott",
+      "dewott",
+      "samurott",
+      "dwebble",
+      "escavalier",
+      "shelmet"
+    ],
     "desc": "This Pokemon cannot be struck by a critical hit.",
     "shortDesc": "This Pokemon cannot be struck by a critical hit."
   },
@@ -976,6 +2638,17 @@
     "slug": "shielddust",
     "name": "Shield Dust",
     "gen": 3,
+    "pokemon": [
+      "vivillon",
+      "caterpie",
+      "weedle",
+      "venomoth",
+      "wurmple",
+      "dustox",
+      "scatterbug",
+      "vivillonfancy",
+      "vivillonpokeball"
+    ],
     "desc": "This Pokemon is not affected by the secondary effect of another Pokemon's attack.",
     "shortDesc": "This Pokemon is not affected by the secondary effect of another Pokemon's attack."
   },
@@ -983,6 +2656,13 @@
     "slug": "simple",
     "name": "Simple",
     "gen": 4,
+    "pokemon": [
+      "woobat",
+      "numel",
+      "bidoof",
+      "bibarel",
+      "swoobat"
+    ],
     "desc": "When this Pokemon's stat stages are raised or lowered, the effect is doubled instead.",
     "shortDesc": "When this Pokemon's stat stages are raised or lowered, the effect is doubled instead."
   },
@@ -990,6 +2670,15 @@
     "slug": "skilllink",
     "name": "Skill Link",
     "gen": 4,
+    "pokemon": [
+      "shellder",
+      "cloyster",
+      "aipom",
+      "heracrossmega",
+      "ambipom",
+      "minccino",
+      "cinccino"
+    ],
     "desc": "This Pokemon's multi-hit attacks always hit the maximum number of times.",
     "shortDesc": "This Pokemon's multi-hit attacks always hit the maximum number of times."
   },
@@ -997,6 +2686,9 @@
     "slug": "slowstart",
     "name": "Slow Start",
     "gen": 4,
+    "pokemon": [
+      "regigigas"
+    ],
     "desc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
     "shortDesc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns."
   },
@@ -1004,6 +2696,22 @@
     "slug": "sniper",
     "name": "Sniper",
     "gen": 4,
+    "pokemon": [
+      "ariados",
+      "beedrill",
+      "spearow",
+      "fearow",
+      "horsea",
+      "seadra",
+      "spinarak",
+      "remoraid",
+      "octillery",
+      "kingdra",
+      "skorupi",
+      "drapion",
+      "binacle",
+      "barbaracle"
+    ],
     "desc": "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5.",
     "shortDesc": "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5."
   },
@@ -1011,6 +2719,16 @@
     "slug": "snowcloak",
     "name": "Snow Cloak",
     "gen": 4,
+    "pokemon": [
+      "cubchoo",
+      "beartic",
+      "glaceon",
+      "articuno",
+      "swinub",
+      "piloswine",
+      "mamoswine",
+      "froslass"
+    ],
     "desc": "If Hail is active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Hail.",
     "shortDesc": "If Hail is active, this Pokemon's evasiveness is 1.25x; immunity to Hail."
   },
@@ -1018,6 +2736,13 @@
     "slug": "snowwarning",
     "name": "Snow Warning",
     "gen": 4,
+    "pokemon": [
+      "snover",
+      "abomasnow",
+      "abomasnowmega",
+      "amaura",
+      "aurorus"
+    ],
     "desc": "On switch-in, this Pokemon summons Hail.",
     "shortDesc": "On switch-in, this Pokemon summons Hail."
   },
@@ -1025,6 +2750,17 @@
     "slug": "solarpower",
     "name": "Solar Power",
     "gen": 4,
+    "pokemon": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "sunkern",
+      "sunflora",
+      "houndoommega",
+      "tropius",
+      "helioptile",
+      "heliolisk"
+    ],
     "desc": "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn.",
     "shortDesc": "If Sunny Day is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn."
   },
@@ -1032,6 +2768,12 @@
     "slug": "solidrock",
     "name": "Solid Rock",
     "gen": 4,
+    "pokemon": [
+      "camerupt",
+      "rhyperior",
+      "tirtouga",
+      "carracosta"
+    ],
     "desc": "This Pokemon receives 3/4 damage from supereffective attacks.",
     "shortDesc": "This Pokemon receives 3/4 damage from supereffective attacks."
   },
@@ -1039,6 +2781,20 @@
     "slug": "soundproof",
     "name": "Soundproof",
     "gen": 3,
+    "pokemon": [
+      "electrode",
+      "voltorb",
+      "mrmime",
+      "whismur",
+      "loudred",
+      "exploud",
+      "shieldon",
+      "bastiodon",
+      "mimejr",
+      "snover",
+      "abomasnow",
+      "bouffalant"
+    ],
     "desc": "This Pokemon is immune to sound-based moves, including Heal Bell.",
     "shortDesc": "This Pokemon is immune to sound-based moves, including Heal Bell."
   },
@@ -1046,6 +2802,20 @@
     "slug": "speedboost",
     "name": "Speed Boost",
     "gen": 3,
+    "pokemon": [
+      "yanma",
+      "torchic",
+      "combusken",
+      "blaziken",
+      "blazikenmega",
+      "ninjask",
+      "carvanha",
+      "sharpedo",
+      "yanmega",
+      "venipede",
+      "whirlipede",
+      "scolipede"
+    ],
     "desc": "This Pokemon's Speed is raised by 1 stage at the end of each full turn it has been on the field.",
     "shortDesc": "This Pokemon's Speed is raised 1 stage at the end of each full turn on the field."
   },
@@ -1053,6 +2823,9 @@
     "slug": "stall",
     "name": "Stall",
     "gen": 4,
+    "pokemon": [
+      "sableye"
+    ],
     "desc": "This Pokemon moves last among Pokemon using the same or greater priority moves.",
     "shortDesc": "This Pokemon moves last among Pokemon using the same or greater priority moves."
   },
@@ -1060,6 +2833,10 @@
     "slug": "stancechange",
     "name": "Stance Change",
     "gen": 6,
+    "pokemon": [
+      "aegislash",
+      "aegislashblade"
+    ],
     "desc": "If this Pokemon is an Aegislash, it changes to Blade Forme before attempting to use an attacking move, and changes to Shield Forme before attempting to use King's Shield.",
     "shortDesc": "If Aegislash, changes Forme to Blade before attacks and Shield before King's Shield."
   },
@@ -1067,6 +2844,23 @@
     "slug": "static",
     "name": "Static",
     "gen": 3,
+    "pokemon": [
+      "pikachu",
+      "electrode",
+      "raichu",
+      "voltorb",
+      "electabuzz",
+      "zapdos",
+      "pichu",
+      "mareep",
+      "flaaffy",
+      "ampharos",
+      "elekid",
+      "electrike",
+      "manectric",
+      "emolga",
+      "stunfisk"
+    ],
     "desc": "30% chance a Pokemon making contact with this Pokemon will be paralyzed.",
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be paralyzed."
   },
@@ -1074,6 +2868,18 @@
     "slug": "steadfast",
     "name": "Steadfast",
     "gen": 4,
+    "pokemon": [
+      "gallade",
+      "machop",
+      "machoke",
+      "machamp",
+      "scyther",
+      "mewtwomegax",
+      "tyrogue",
+      "hitmontop",
+      "riolu",
+      "lucario"
+    ],
     "desc": "If this Pokemon flinches, its Speed is raised by 1 stage.",
     "shortDesc": "If this Pokemon flinches, its Speed is raised by 1 stage."
   },
@@ -1081,6 +2887,15 @@
     "slug": "stench",
     "name": "Stench",
     "gen": 3,
+    "pokemon": [
+      "gloom",
+      "grimer",
+      "muk",
+      "stunky",
+      "skuntank",
+      "trubbish",
+      "garbodor"
+    ],
     "desc": "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",
     "shortDesc": "This Pokemon's attacks without a chance to flinch gain a 10% chance to flinch."
   },
@@ -1088,6 +2903,16 @@
     "slug": "stickyhold",
     "name": "Sticky Hold",
     "gen": 3,
+    "pokemon": [
+      "grimer",
+      "muk",
+      "gulpin",
+      "swalot",
+      "shellos",
+      "gastrodon",
+      "trubbish",
+      "accelgor"
+    ],
     "desc": "This Pokemon cannot lose its held item due to another Pokemon's attack.",
     "shortDesc": "This Pokemon cannot lose its held item due to another Pokemon's attack."
   },
@@ -1095,6 +2920,15 @@
     "slug": "stormdrain",
     "name": "Storm Drain",
     "gen": 4,
+    "pokemon": [
+      "lileep",
+      "cradily",
+      "shellos",
+      "gastrodon",
+      "finneon",
+      "lumineon",
+      "maractus"
+    ],
     "desc": "This Pokemon is immune to Water-type moves and raises its Special Attack by 1 stage when hit by a Water-type move. If this Pokemon is not the target of a single-target Water-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move.",
     "shortDesc": "This Pokemon draws Water moves to itself to raise Sp. Atk by 1; Water immunity."
   },
@@ -1102,6 +2936,11 @@
     "slug": "strongjaw",
     "name": "Strong Jaw",
     "gen": 6,
+    "pokemon": [
+      "sharpedomega",
+      "tyrunt",
+      "tyrantrum"
+    ],
     "desc": "This Pokemon's bite-based attacks have their power multiplied by 1.5.",
     "shortDesc": "This Pokemon's bite-based attacks have 1.5x power. Bug Bite is not boosted."
   },
@@ -1109,6 +2948,44 @@
     "slug": "sturdy",
     "name": "Sturdy",
     "gen": 3,
+    "pokemon": [
+      "roggenrola",
+      "boldore",
+      "gigalith",
+      "crustle",
+      "magnezone",
+      "bergmite",
+      "avalugg",
+      "geodude",
+      "graveler",
+      "golem",
+      "magnemite",
+      "magneton",
+      "onix",
+      "sudowoodo",
+      "pineco",
+      "forretress",
+      "steelix",
+      "shuckle",
+      "skarmory",
+      "donphan",
+      "nosepass",
+      "aron",
+      "lairon",
+      "aggron",
+      "relicanth",
+      "regirock",
+      "shieldon",
+      "bastiodon",
+      "bonsly",
+      "probopass",
+      "sawk",
+      "dwebble",
+      "tirtouga",
+      "carracosta",
+      "tyrunt",
+      "carbink"
+    ],
     "desc": "If this Pokemon is at full HP, it survives one hit with at least 1 HP. OHKO moves fail when used against this Pokemon.",
     "shortDesc": "If this Pokemon is at full HP, it survives one hit with at least 1 HP. Immune to OHKO."
   },
@@ -1116,6 +2993,13 @@
     "slug": "suctioncups",
     "name": "Suction Cups",
     "gen": 3,
+    "pokemon": [
+      "octillery",
+      "lileep",
+      "cradily",
+      "inkay",
+      "malamar"
+    ],
     "desc": "This Pokemon cannot be forced to switch out by another Pokemon's attack or item.",
     "shortDesc": "This Pokemon cannot be forced to switch out by another Pokemon's attack or item."
   },
@@ -1123,6 +3007,17 @@
     "slug": "superluck",
     "name": "Super Luck",
     "gen": 4,
+    "pokemon": [
+      "togepi",
+      "togetic",
+      "murkrow",
+      "absol",
+      "honchkrow",
+      "togekiss",
+      "pidove",
+      "tranquill",
+      "unfezant"
+    ],
     "desc": "This Pokemon's critical hit ratio is raised by 1 stage.",
     "shortDesc": "This Pokemon's critical hit ratio is raised by 1 stage."
   },
@@ -1130,6 +3025,32 @@
     "slug": "swarm",
     "name": "Swarm",
     "gen": 3,
+    "pokemon": [
+      "ariados",
+      "volbeat",
+      "beedrill",
+      "scyther",
+      "ledyba",
+      "ledian",
+      "spinarak",
+      "scizor",
+      "heracross",
+      "beautifly",
+      "kricketune",
+      "mothim",
+      "sewaddle",
+      "leavanny",
+      "venipede",
+      "whirlipede",
+      "scolipede",
+      "karrablast",
+      "escavalier",
+      "joltik",
+      "galvantula",
+      "durant",
+      "larvesta",
+      "volcarona"
+    ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Bug-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Bug attacks."
   },
@@ -1137,6 +3058,10 @@
     "slug": "sweetveil",
     "name": "Sweet Veil",
     "gen": 6,
+    "pokemon": [
+      "swirlix",
+      "slurpuff"
+    ],
     "desc": "This Pokemon and its allies cannot fall asleep.",
     "shortDesc": "This Pokemon and its allies cannot fall asleep."
   },
@@ -1144,6 +3069,47 @@
     "slug": "swiftswim",
     "name": "Swift Swim",
     "gen": 3,
+    "pokemon": [
+      "qwilfish",
+      "mantine",
+      "beartic",
+      "psyduck",
+      "golduck",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "horsea",
+      "goldeen",
+      "seaking",
+      "magikarp",
+      "omanyte",
+      "omastar",
+      "kabuto",
+      "kabutops",
+      "kingdra",
+      "swampertmega",
+      "lotad",
+      "lombre",
+      "ludicolo",
+      "surskit",
+      "anorith",
+      "armaldo",
+      "feebas",
+      "huntail",
+      "gorebyss",
+      "relicanth",
+      "luvdisc",
+      "buizel",
+      "floatzel",
+      "finneon",
+      "lumineon",
+      "mantyke",
+      "tympole",
+      "palpitoad",
+      "seismitoad",
+      "tirtouga",
+      "carracosta"
+    ],
     "desc": "If Rain Dance is active, this Pokemon's Speed is doubled.",
     "shortDesc": "If Rain Dance is active, this Pokemon's Speed is doubled."
   },
@@ -1151,6 +3117,11 @@
     "slug": "symbiosis",
     "name": "Symbiosis",
     "gen": 6,
+    "pokemon": [
+      "flabebe",
+      "floette",
+      "florges"
+    ],
     "desc": "If an ally uses its item, this Pokemon gives its item to that ally immediately. Does not activate if the ally's item was stolen or knocked off.",
     "shortDesc": "If an ally uses its item, this Pokemon gives its item to that ally immediately."
   },
@@ -1158,6 +3129,23 @@
     "slug": "synchronize",
     "name": "Synchronize",
     "gen": 3,
+    "pokemon": [
+      "ralts",
+      "kirlia",
+      "gardevoir",
+      "abra",
+      "kadabra",
+      "alakazam",
+      "mew",
+      "natu",
+      "xatu",
+      "espeon",
+      "umbreon",
+      "munna",
+      "musharna",
+      "elgyem",
+      "beheeyem"
+    ],
     "desc": "If another Pokemon burns, paralyzes, poisons, or badly poisons this Pokemon, that Pokemon receives the same non-volatile status condition.",
     "shortDesc": "If another Pokemon burns/poisons/paralyzes this Pokemon, it also gets that status."
   },
@@ -1165,6 +3153,15 @@
     "slug": "tangledfeet",
     "name": "Tangled Feet",
     "gen": 4,
+    "pokemon": [
+      "dodrio",
+      "pidgey",
+      "pidgeotto",
+      "pidgeot",
+      "doduo",
+      "spinda",
+      "chatot"
+    ],
     "desc": "This Pokemon's evasiveness is doubled as long as it is confused.",
     "shortDesc": "This Pokemon's evasiveness is doubled as long as it is confused."
   },
@@ -1172,6 +3169,23 @@
     "slug": "technician",
     "name": "Technician",
     "gen": 4,
+    "pokemon": [
+      "meowth",
+      "persian",
+      "mrmime",
+      "scyther",
+      "scizor",
+      "scizormega",
+      "smeargle",
+      "hitmontop",
+      "breloom",
+      "kricketune",
+      "roserade",
+      "ambipom",
+      "mimejr",
+      "minccino",
+      "cinccino"
+    ],
     "desc": "This Pokemon's moves of 60 power or less have their power multiplied by 1.5. Does affect Struggle.",
     "shortDesc": "This Pokemon's moves of 60 power or less have 1.5x power. Includes Struggle."
   },
@@ -1179,6 +3193,24 @@
     "slug": "telepathy",
     "name": "Telepathy",
     "gen": 5,
+    "pokemon": [
+      "ralts",
+      "kirlia",
+      "gardevoir",
+      "noibat",
+      "noivern",
+      "wobbuffet",
+      "meditite",
+      "medicham",
+      "wynaut",
+      "dialga",
+      "palkia",
+      "giratina",
+      "munna",
+      "musharna",
+      "elgyem",
+      "beheeyem"
+    ],
     "desc": "This Pokemon does not take damage from attacks made by its allies.",
     "shortDesc": "This Pokemon does not take damage from attacks made by its allies."
   },
@@ -1186,6 +3218,10 @@
     "slug": "teravolt",
     "name": "Teravolt",
     "gen": 5,
+    "pokemon": [
+      "zekrom",
+      "kyuremblack"
+    ],
     "desc": "This Pokemon's moves and their effects ignore certain Abilities of other Pokemon. The Abilities that can be negated are Aroma Veil, Aura Break, Battle Armor, Big Pecks, Bulletproof, Clear Body, Contrary, Damp, Dark Aura, Dry Skin, Fairy Aura, Filter, Flash Fire, Flower Gift, Flower Veil, Friend Guard, Fur Coat, Grass Pelt, Heatproof, Heavy Metal, Hyper Cutter, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Light Metal, Lightning Rod, Limber, Magic Bounce, Magma Armor, Marvel Scale, Motor Drive, Multiscale, Oblivious, Overcoat, Own Tempo, Sand Veil, Sap Sipper, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Sweet Veil, Tangled Feet, Telepathy, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Veil, White Smoke, Wonder Guard, and Wonder Skin. This affects every other Pokemon on the field, whether or not it is a target of this Pokemon's move, and whether or not their Ability is beneficial to this Pokemon.",
     "shortDesc": "This Pokemon's moves and their effects ignore the Abilities of other Pokemon."
   },
@@ -1193,6 +3229,30 @@
     "slug": "thickfat",
     "name": "Thick Fat",
     "gen": 3,
+    "pokemon": [
+      "venusaurmega",
+      "seel",
+      "dewgong",
+      "snorlax",
+      "marill",
+      "azumarill",
+      "swinub",
+      "piloswine",
+      "miltank",
+      "makuhita",
+      "hariyama",
+      "azurill",
+      "spoink",
+      "grumpig",
+      "spheal",
+      "sealeo",
+      "walrein",
+      "purugly",
+      "munchlax",
+      "mamoswine",
+      "tepig",
+      "pignite"
+    ],
     "desc": "If a Pokemon uses a Fire- or Ice-type attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
     "shortDesc": "Fire/Ice-type moves against this Pokemon deal damage with a halved attacking stat."
   },
@@ -1200,6 +3260,17 @@
     "slug": "tintedlens",
     "name": "Tinted Lens",
     "gen": 4,
+    "pokemon": [
+      "noctowl",
+      "illumise",
+      "butterfree",
+      "venonat",
+      "venomoth",
+      "hoothoot",
+      "mothim",
+      "yanmega",
+      "sigilyph"
+    ],
     "desc": "This Pokemon's attacks that are not very effective on a target deal double damage.",
     "shortDesc": "This Pokemon's attacks that are not very effective on a target deal double damage."
   },
@@ -1207,6 +3278,28 @@
     "slug": "torrent",
     "name": "Torrent",
     "gen": 3,
+    "pokemon": [
+      "greninja",
+      "squirtle",
+      "wartortle",
+      "blastoise",
+      "totodile",
+      "croconaw",
+      "feraligatr",
+      "mudkip",
+      "marshtomp",
+      "swampert",
+      "piplup",
+      "prinplup",
+      "empoleon",
+      "oshawott",
+      "dewott",
+      "samurott",
+      "panpour",
+      "simipour",
+      "froakie",
+      "frogadier"
+    ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Water-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Water attacks."
   },
@@ -1214,6 +3307,13 @@
     "slug": "toughclaws",
     "name": "Tough Claws",
     "gen": 6,
+    "pokemon": [
+      "charizardmegax",
+      "aerodactylmega",
+      "metagrossmega",
+      "binacle",
+      "barbaracle"
+    ],
     "desc": "This Pokemon's contact moves have their power multiplied by 1.3.",
     "shortDesc": "This Pokemon's contact moves have their power multiplied by 1.3."
   },
@@ -1221,6 +3321,9 @@
     "slug": "toxicboost",
     "name": "Toxic Boost",
     "gen": 5,
+    "pokemon": [
+      "zangoose"
+    ],
     "desc": "While this Pokemon is poisoned, the power of its physical attacks is multiplied by 1.5.",
     "shortDesc": "While this Pokemon is poisoned, its physical attacks have 1.5x power."
   },
@@ -1228,6 +3331,14 @@
     "slug": "trace",
     "name": "Trace",
     "gen": 3,
+    "pokemon": [
+      "alakazammega",
+      "ralts",
+      "kirlia",
+      "gardevoir",
+      "porygon",
+      "porygon2"
+    ],
     "desc": "On switch-in, or when this Pokemon acquires this ability, this Pokemon copies a random adjacent opposing Pokemon's Ability. However, if one or more adjacent Pokemon has the Ability \"No Ability\", Trace won't copy anything even if there is another valid Ability it could normally copy. Otherwise, if there is no Ability that can be copied at that time, this Ability will activate as soon as an Ability can be copied. Abilities that cannot be copied are the previously mentioned \"No Ability\", as well as Battle Bond, Comatose, Disguise, Flower Gift, Forecast, Illusion, Imposter, Multitype, Power Construct, Power of Alchemy, Receiver, RKS System, Schooling, Shields Down, Stance Change, Trace, and Zen Mode.",
     "shortDesc": "On switch-in, or when it can, this Pokemon copies a random adjacent foe's Ability."
   },
@@ -1235,6 +3346,11 @@
     "slug": "truant",
     "name": "Truant",
     "gen": 3,
+    "pokemon": [
+      "slakoth",
+      "slaking",
+      "durant"
+    ],
     "desc": "This Pokemon skips every other turn instead of using a move.",
     "shortDesc": "This Pokemon skips every other turn instead of using a move."
   },
@@ -1242,6 +3358,10 @@
     "slug": "turboblaze",
     "name": "Turboblaze",
     "gen": 5,
+    "pokemon": [
+      "reshiram",
+      "kyuremwhite"
+    ],
     "desc": "This Pokemon's moves and their effects ignore certain Abilities of other Pokemon. The Abilities that can be negated are Aroma Veil, Aura Break, Battle Armor, Big Pecks, Bulletproof, Clear Body, Contrary, Damp, Dark Aura, Dry Skin, Fairy Aura, Filter, Flash Fire, Flower Gift, Flower Veil, Friend Guard, Fur Coat, Grass Pelt, Heatproof, Heavy Metal, Hyper Cutter, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Light Metal, Lightning Rod, Limber, Magic Bounce, Magma Armor, Marvel Scale, Motor Drive, Multiscale, Oblivious, Overcoat, Own Tempo, Sand Veil, Sap Sipper, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Sweet Veil, Tangled Feet, Telepathy, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Veil, White Smoke, Wonder Guard, and Wonder Skin. This affects every other Pokemon on the field, whether or not it is a target of this Pokemon's move, and whether or not their Ability is beneficial to this Pokemon.",
     "shortDesc": "This Pokemon's moves and their effects ignore the Abilities of other Pokemon."
   },
@@ -1249,6 +3369,15 @@
     "slug": "unaware",
     "name": "Unaware",
     "gen": 4,
+    "pokemon": [
+      "woobat",
+      "clefable",
+      "wooper",
+      "quagsire",
+      "bidoof",
+      "bibarel",
+      "swoobat"
+    ],
     "desc": "This Pokemon ignores other Pokemon's Attack, Special Attack, and accuracy stat stages when taking damage, and ignores other Pokemon's Defense, Special Defense, and evasiveness stat stages when dealing damage.",
     "shortDesc": "This Pokemon ignores other Pokemon's stat stages when taking or doing damage."
   },
@@ -1256,6 +3385,20 @@
     "slug": "unburden",
     "name": "Unburden",
     "gen": 4,
+    "pokemon": [
+      "hawlucha",
+      "hitmonlee",
+      "treecko",
+      "grovyle",
+      "sceptile",
+      "drifloon",
+      "drifblim",
+      "purrloin",
+      "liepard",
+      "accelgor",
+      "swirlix",
+      "slurpuff"
+    ],
     "desc": "If this Pokemon loses its held item for any reason, its Speed is doubled. This boost is lost if it switches out or gains a new item or Ability.",
     "shortDesc": "Speed is doubled on held item loss; boost is lost if it switches, gets new item/Ability."
   },
@@ -1263,6 +3406,27 @@
     "slug": "unnerve",
     "name": "Unnerve",
     "gen": 5,
+    "pokemon": [
+      "arbok",
+      "masquerain",
+      "ekans",
+      "meowth",
+      "persian",
+      "aerodactyl",
+      "mewtwo",
+      "ursaring",
+      "houndour",
+      "houndoom",
+      "tyranitar",
+      "vespiquen",
+      "joltik",
+      "galvantula",
+      "axew",
+      "fraxure",
+      "haxorus",
+      "litleo",
+      "pyroar"
+    ],
     "desc": "While this Pokemon is active, it prevents opposing Pokemon from using their Berries. Activation message broadcasts before other Abilities regardless of the Pokemon's Speed tiers.",
     "shortDesc": "While this Pokemon is active, it prevents opposing Pokemon from using their Berries."
   },
@@ -1270,6 +3434,9 @@
     "slug": "victorystar",
     "name": "Victory Star",
     "gen": 5,
+    "pokemon": [
+      "victini"
+    ],
     "desc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.1.",
     "shortDesc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.1."
   },
@@ -1277,6 +3444,20 @@
     "slug": "vitalspirit",
     "name": "Vital Spirit",
     "gen": 3,
+    "pokemon": [
+      "mankey",
+      "primeape",
+      "electabuzz",
+      "magmar",
+      "delibird",
+      "tyrogue",
+      "elekid",
+      "magby",
+      "vigoroth",
+      "electivire",
+      "magmortar",
+      "lillipup"
+    ],
     "desc": "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it.",
     "shortDesc": "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it."
   },
@@ -1284,6 +3465,15 @@
     "slug": "voltabsorb",
     "name": "Volt Absorb",
     "gen": 3,
+    "pokemon": [
+      "raikou",
+      "jolteon",
+      "chinchou",
+      "lanturn",
+      "minun",
+      "pachirisu",
+      "thundurustherian"
+    ],
     "desc": "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by an Electric-type move.",
     "shortDesc": "This Pokemon heals 1/4 of its max HP when hit by Electric moves; Electric immunity."
   },
@@ -1291,6 +3481,30 @@
     "slug": "waterabsorb",
     "name": "Water Absorb",
     "gen": 3,
+    "pokemon": [
+      "mantine",
+      "suicune",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "lapras",
+      "vaporeon",
+      "chinchou",
+      "lanturn",
+      "politoed",
+      "wooper",
+      "quagsire",
+      "cacnea",
+      "cacturne",
+      "mantyke",
+      "tympole",
+      "palpitoad",
+      "seismitoad",
+      "maractus",
+      "frillish",
+      "jellicent",
+      "volcanion"
+    ],
     "desc": "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",
     "shortDesc": "This Pokemon heals 1/4 of its max HP when hit by Water moves; Water immunity."
   },
@@ -1298,6 +3512,19 @@
     "slug": "waterveil",
     "name": "Water Veil",
     "gen": 3,
+    "pokemon": [
+      "mantine",
+      "goldeen",
+      "seaking",
+      "wailmer",
+      "wailord",
+      "huntail",
+      "buizel",
+      "floatzel",
+      "finneon",
+      "lumineon",
+      "mantyke"
+    ],
     "desc": "This Pokemon cannot be burned. Gaining this Ability while burned cures it.",
     "shortDesc": "This Pokemon cannot be burned. Gaining this Ability while burned cures it."
   },
@@ -1305,6 +3532,24 @@
     "slug": "weakarmor",
     "name": "Weak Armor",
     "gen": 5,
+    "pokemon": [
+      "magcargo",
+      "crustle",
+      "vanillite",
+      "vanillish",
+      "vanilluxe",
+      "onix",
+      "omanyte",
+      "omastar",
+      "kabuto",
+      "kabutops",
+      "slugma",
+      "skarmory",
+      "dwebble",
+      "garbodor",
+      "vullaby",
+      "mandibuzz"
+    ],
     "desc": "If a physical attack hits this Pokemon, its Defense is lowered by 1 stage and its Speed is raised by 1 stage.",
     "shortDesc": "If a physical attack hits this Pokemon, Defense is lowered by 1, Speed is raised by 1."
   },
@@ -1312,6 +3557,10 @@
     "slug": "whitesmoke",
     "name": "White Smoke",
     "gen": 3,
+    "pokemon": [
+      "torkoal",
+      "heatmor"
+    ],
     "desc": "Prevents other Pokemon from lowering this Pokemon's stat stages.",
     "shortDesc": "Prevents other Pokemon from lowering this Pokemon's stat stages."
   },
@@ -1319,6 +3568,9 @@
     "slug": "wonderguard",
     "name": "Wonder Guard",
     "gen": 3,
+    "pokemon": [
+      "shedinja"
+    ],
     "desc": "This Pokemon can only be damaged by supereffective moves and indirect damage.",
     "shortDesc": "This Pokemon can only be damaged by supereffective moves and indirect damage."
   },
@@ -1326,6 +3578,12 @@
     "slug": "wonderskin",
     "name": "Wonder Skin",
     "gen": 5,
+    "pokemon": [
+      "delcatty",
+      "venomoth",
+      "skitty",
+      "sigilyph"
+    ],
     "desc": "All non-damaging moves that check accuracy have their accuracy changed to 50% when used on this Pokemon. This change is done before any other accuracy modifying effects.",
     "shortDesc": "Status moves with accuracy checks are 50% accurate when used on this Pokemon."
   },
@@ -1333,6 +3591,10 @@
     "slug": "zenmode",
     "name": "Zen Mode",
     "gen": 5,
+    "pokemon": [
+      "darmanitanzen",
+      "darmanitan"
+    ],
     "desc": "If this Pokemon is a Darmanitan, it changes to Zen Mode if it has 1/2 or less of its maximum HP at the end of a turn. If Darmanitan's HP is above 1/2 of its maximum HP at the end of a turn, it changes back to Standard Mode. If Darmanitan loses this Ability while in Zen Mode, it reverts to Standard Mode immediately.",
     "shortDesc": "If Darmanitan, at end of turn changes Mode to Standard if > 1/2 max HP, else Zen."
   }

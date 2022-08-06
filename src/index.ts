@@ -42,10 +42,18 @@ async function exportTypes(gen: Generation, target: string) {
   let result = [];
 
   for (const type of gen.types) {
+    if (type.name === '???') {
+      continue;
+    }
+
     let damageTakenList = [];
     let damageDoneList = [];
 
     for (const otherType of gen.types) {
+      if (otherType.name === '???') {
+        continue;
+      }
+
       damageTakenList.push({
         type: otherType.id,
         value: otherType.totalEffectiveness(type.name),

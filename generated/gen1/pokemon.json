@@ -119,9 +119,7 @@
     },
     "unreleasedHidden": true,
     "weight": 55.4,
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "beedrill",
@@ -1724,9 +1722,7 @@
       "spe": 100
     },
     "weight": 4,
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "mewtwo",
@@ -1745,9 +1741,7 @@
       "spe": 130
     },
     "weight": 122,
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "missingno",
@@ -1766,7 +1760,8 @@
       "spd": 6,
       "spe": 29
     },
-    "weight": 1590.8
+    "weight": 1590.8,
+    "isUnobtainable": true
   },
   {
     "slug": "moltres",
@@ -1787,9 +1782,7 @@
     },
     "unreleasedHidden": true,
     "weight": 60,
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "mrmime",
@@ -3178,9 +3171,7 @@
     },
     "unreleasedHidden": true,
     "weight": 52.6,
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "zubat",

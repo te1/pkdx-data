@@ -12,8 +12,11 @@
       "porygonz",
       "basculin",
       "basculinbluestriped",
+      "basculinwhitestriped",
       "skrelp",
-      "dragalge"
+      "dragalge",
+      "basculegion",
+      "basculegionf"
     ],
     "desc": "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
     "shortDesc": "This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5."
@@ -30,6 +33,8 @@
     "name": "Aftermath",
     "gen": 4,
     "pokemon": [
+      "voltorbhisui",
+      "electrodehisui",
       "drifloon",
       "drifblim",
       "stunky",
@@ -273,6 +278,7 @@
       "charmeleon",
       "charizard",
       "charizardgmax",
+      "typhlosionhisui",
       "torchic",
       "combusken",
       "blaziken",
@@ -297,7 +303,8 @@
       "kommoo",
       "wooloo",
       "dubwool",
-      "applin"
+      "applin",
+      "ursaluna"
     ],
     "desc": "This Pokemon is immune to ballistic moves. Ballistic moves include Bullet Seed, Octazooka, Barrage, Rock Wrecker, Zap Cannon, Acid Spray, Aura Sphere, Focus Blast, and all moves with Ball or Bomb in their name.",
     "shortDesc": "Makes user immune to ballistic moves (Shadow Ball, Sludge Bomb, Focus Blast, etc)."
@@ -352,6 +359,7 @@
       "whimsicott",
       "petilil",
       "lilligant",
+      "lilliganthisui",
       "maractus"
     ],
     "desc": "If Sunny Day is active and this Pokemon is not holding Utility Umbrella, this Pokemon's Speed is doubled.",
@@ -456,7 +464,8 @@
       "inkay",
       "malamar",
       "fomantis",
-      "lurantis"
+      "lurantis",
+      "enamorus"
     ],
     "desc": "If this Pokemon has a stat stage raised it is lowered instead, and vice versa. This Ability does not affect stat stage increases received from Z-Power effects that happen before a Z-Move is used.",
     "shortDesc": "If this Pokemon has a stat stage raised it is lowered instead, and vice versa."
@@ -618,6 +627,7 @@
       "pawniard",
       "bisharp",
       "braviary",
+      "braviaryhisui",
       "tornadus",
       "thundurus",
       "passimian",
@@ -839,10 +849,13 @@
       "vulpix",
       "ninetales",
       "growlithe",
+      "growlithehisui",
       "arcanine",
+      "arcaninehisui",
       "ponyta",
       "rapidash",
       "flareon",
+      "typhlosionhisui",
       "heatran",
       "litwick",
       "lampent",
@@ -957,7 +970,8 @@
       "impidimp",
       "morgrem",
       "grimmsnarl",
-      "grimmsnarlgmax"
+      "grimmsnarlgmax",
+      "wyrdeer"
     ],
     "desc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon.",
     "shortDesc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon."
@@ -1034,7 +1048,9 @@
     "pokemon": [
       "goomy",
       "sliggoo",
-      "goodra"
+      "sliggoohisui",
+      "goodra",
+      "goodrahisui"
     ],
     "desc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
     "shortDesc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage."
@@ -1112,7 +1128,8 @@
       "gurdurr",
       "conkeldurr",
       "throh",
-      "obstagoon"
+      "obstagoon",
+      "ursaluna"
     ],
     "desc": "If this Pokemon has a non-volatile status condition, its Attack is multiplied by 1.5; burn's physical damage halving is ignored.",
     "shortDesc": "If this Pokemon is statused, its Attack is 1.5x; ignores burn halving physical damage."
@@ -1145,7 +1162,8 @@
       "hatenna",
       "hattrem",
       "hatterene",
-      "hatterenegmax"
+      "hatterenegmax",
+      "enamorus"
     ],
     "desc": "There is a 30% chance of curing an adjacent ally's non-volatile status condition at the end of each turn.",
     "shortDesc": "30% chance of curing an adjacent ally's status at the end of each turn."
@@ -1234,6 +1252,7 @@
       "delibird",
       "combee",
       "togekiss",
+      "lilliganthisui",
       "darumaka",
       "darumakagalar",
       "rufflet",
@@ -1305,6 +1324,7 @@
       "vanilluxe",
       "bergmite",
       "avalugg",
+      "avalugghisui",
       "mrrime",
       "arctovish"
     ],
@@ -1354,7 +1374,9 @@
     "gen": 5,
     "pokemon": [
       "zorua",
-      "zoroark"
+      "zoruahisui",
+      "zoroark",
+      "zoroarkhisui"
     ],
     "desc": "When this Pokemon switches in, it appears as the last unfainted Pokemon in its party until it takes direct damage from another Pokemon's attack. This Pokemon's actual level and HP are displayed instead of those of the mimicked Pokemon.",
     "shortDesc": "This Pokemon appears as the last Pokemon in the party until it takes direct damage."
@@ -1436,6 +1458,7 @@
       "crobat",
       "umbreon",
       "sneasel",
+      "sneaselhisui",
       "raikou",
       "entei",
       "suicune",
@@ -1486,10 +1509,13 @@
     "gen": 3,
     "pokemon": [
       "growlithe",
+      "growlithehisui",
       "arcanine",
+      "arcaninehisui",
       "tauros",
       "gyarados",
       "qwilfish",
+      "qwilfishhisui",
       "hitmontop",
       "mawile",
       "salamence",
@@ -1506,7 +1532,9 @@
       "landorustherian",
       "litten",
       "torracat",
-      "incineroar"
+      "incineroar",
+      "wyrdeer",
+      "overqwil"
     ],
     "desc": "On switch-in, this Pokemon lowers the Attack of adjacent opposing Pokemon by 1 stage. Inner Focus, Oblivious, Own Tempo, Scrappy, and Pokemon behind a substitute are immune.",
     "shortDesc": "On switch-in, this Pokemon lowers the Attack of adjacent opponents by 1 stage."
@@ -1559,7 +1587,9 @@
     "gen": 5,
     "pokemon": [
       "growlithe",
+      "growlithehisui",
       "arcanine",
+      "arcaninehisui",
       "absol",
       "lucario",
       "gallade",
@@ -1582,6 +1612,7 @@
       "hoothoot",
       "noctowl",
       "sneasel",
+      "sneaselhisui",
       "skarmory",
       "wingull",
       "pelipper",
@@ -1592,6 +1623,7 @@
       "drapion",
       "rufflet",
       "braviary",
+      "braviaryhisui",
       "espurr",
       "meowstic",
       "meowsticf",
@@ -1635,6 +1667,7 @@
       "leafeon",
       "petilil",
       "lilligant",
+      "lilliganthisui",
       "fomantis",
       "lurantis",
       "bounsweet",
@@ -1799,7 +1832,8 @@
     "pokemon": [
       "rowlet",
       "dartrix",
-      "decidueye"
+      "decidueye",
+      "decidueyehisui"
     ],
     "desc": "This Pokemon's attacks do not make contact with the target.",
     "shortDesc": "This Pokemon's attacks do not make contact with the target."
@@ -1963,13 +1997,16 @@
       "sawk",
       "basculin",
       "basculinbluestriped",
+      "basculinwhitestriped",
       "axew",
       "fraxure",
       "haxorus",
       "druddigon",
       "pancham",
       "pangoro",
-      "hawlucha"
+      "hawlucha",
+      "basculegion",
+      "basculegionf"
     ],
     "desc": "This Pokemon's moves and their effects ignore certain Abilities of other Pokemon. The Abilities that can be negated are Aroma Veil, Aura Break, Battle Armor, Big Pecks, Bulletproof, Clear Body, Contrary, Damp, Dark Aura, Dazzling, Disguise, Dry Skin, Fairy Aura, Filter, Flash Fire, Flower Gift, Flower Veil, Fluffy, Friend Guard, Fur Coat, Grass Pelt, Heatproof, Heavy Metal, Hyper Cutter, Ice Face, Ice Scales, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Light Metal, Lightning Rod, Limber, Magic Bounce, Magma Armor, Marvel Scale, Mirror Armor, Motor Drive, Multiscale, Oblivious, Overcoat, Own Tempo, Pastel Veil, Punk Rock, Queenly Majesty, Sand Veil, Sap Sipper, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Sweet Veil, Tangled Feet, Telepathy, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Bubble, Water Veil, White Smoke, Wonder Guard, and Wonder Skin. This affects every other Pokemon on the field, whether or not it is a target of this Pokemon's move, and whether or not their Ability is beneficial to this Pokemon.",
     "shortDesc": "This Pokemon's moves and their effects ignore the Abilities of other Pokemon."
@@ -2160,9 +2197,12 @@
       "shelmet",
       "vullaby",
       "mandibuzz",
+      "sliggoohisui",
+      "goodrahisui",
       "jangmoo",
       "hakamoo",
-      "kommoo"
+      "kommoo",
+      "enamorustherian"
     ],
     "desc": "This Pokemon is immune to powder moves and damage from Sandstorm or Hail.",
     "shortDesc": "This Pokemon is immune to powder moves and damage from Sandstorm or Hail."
@@ -2182,6 +2222,7 @@
       "rowlet",
       "dartrix",
       "decidueye",
+      "decidueyehisui",
       "grookey",
       "thwackey",
       "rillaboom",
@@ -2342,6 +2383,7 @@
       "nidoking",
       "seadra",
       "qwilfish",
+      "qwilfishhisui",
       "roselia",
       "budew",
       "roserade",
@@ -2349,7 +2391,8 @@
       "whirlipede",
       "scolipede",
       "skrelp",
-      "dragalge"
+      "dragalge",
+      "overqwil"
     ],
     "desc": "30% chance a Pokemon making contact with this Pokemon will be poisoned.",
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be poisoned."
@@ -2359,11 +2402,13 @@
     "name": "Poison Touch",
     "gen": 5,
     "pokemon": [
+      "sneaselhisui",
       "croagunk",
       "toxicroak",
       "seismitoad",
       "skrelp",
-      "dragalge"
+      "dragalge",
+      "sneasler"
     ],
     "desc": "This Pokemon's contact moves have a 30% chance of poisoning.",
     "shortDesc": "This Pokemon's contact moves have a 30% chance of poisoning."
@@ -2444,7 +2489,9 @@
       "weavile",
       "dusknoir",
       "dialga",
+      "dialgaorigin",
       "palkia",
+      "palkiaorigin",
       "giratina",
       "pawniard",
       "bisharp",
@@ -2452,7 +2499,8 @@
       "corviknight",
       "corviknightgmax",
       "eternatus",
-      "eternatuseternamax"
+      "eternatuseternamax",
+      "sneasler"
     ],
     "desc": "If this Pokemon is the target of an opposing Pokemon's move, that move loses one additional PP.",
     "shortDesc": "If this Pokemon is the target of a foe's move, that move loses one additional PP."
@@ -2594,9 +2642,12 @@
       "dunsparce",
       "whismur",
       "bonsly",
+      "basculinwhitestriped",
       "cubchoo",
       "yamper",
-      "toxel"
+      "toxel",
+      "basculegion",
+      "basculegionf"
     ],
     "desc": "This Pokemon's Speed is raised by 1 stage if hit by a Bug-, Dark-, or Ghost-type attack, or Intimidate.",
     "shortDesc": "Speed is raised 1 stage if hit by a Bug-, Dark-, or Ghost-type attack, or Intimidated."
@@ -2908,8 +2959,11 @@
       "bouffalant",
       "goomy",
       "sliggoo",
+      "sliggoohisui",
       "goodra",
-      "drampa"
+      "goodrahisui",
+      "drampa",
+      "wyrdeer"
     ],
     "desc": "This Pokemon is immune to Grass-type moves and raises its Attack by 1 stage when hit by a Grass-type move.",
     "shortDesc": "This Pokemon's Attack is raised 1 stage if hit by a Grass move; Grass immunity."
@@ -3037,10 +3091,12 @@
       "druddigon",
       "rufflet",
       "braviary",
+      "braviaryhisui",
       "landorus",
       "cufant",
       "copperajah",
-      "copperajahgmax"
+      "copperajahgmax",
+      "kleavor"
     ],
     "desc": "This Pokemon's attacks with secondary effects have their power multiplied by 1.3, but the secondary effects are removed. If a secondary effect was removed, it also removes the user's Life Orb recoil and Shell Bell recovery, and prevents the target's Berserk, Color Change, Emergency Exit, Pickpocket, Wimp Out, Red Card, Eject Button, Kee Berry, and Maranga Berry from activating.",
     "shortDesc": "This Pokemon's attacks with secondary effects have 1.3x power; nullifies the effects."
@@ -3062,6 +3118,7 @@
       "torkoal",
       "corphish",
       "crawdaunt",
+      "samurotthisui",
       "dwebble",
       "crustle",
       "escavalier",
@@ -3248,6 +3305,8 @@
     "name": "Soundproof",
     "gen": 3,
     "pokemon": [
+      "voltorbhisui",
+      "electrodehisui",
       "mrmime",
       "whismur",
       "loudred",
@@ -3351,6 +3410,8 @@
       "pikachugmax",
       "pikachuworld",
       "raichu",
+      "voltorbhisui",
+      "electrodehisui",
       "electabuzz",
       "zapdos",
       "pichu",
@@ -3384,7 +3445,8 @@
       "rockruff",
       "lycanroc",
       "dubwool",
-      "sirfetchd"
+      "sirfetchd",
+      "kleavor"
     ],
     "desc": "If this Pokemon flinches, its Speed is raised by 1 stage.",
     "shortDesc": "If this Pokemon flinches, its Speed is raised by 1 stage."
@@ -3473,6 +3535,7 @@
     "pokemon": [
       "tyrunt",
       "tyrantrum",
+      "avalugghisui",
       "chewtle",
       "drednaw",
       "drednawgmax",
@@ -3513,6 +3576,7 @@
       "carbink",
       "bergmite",
       "avalugg",
+      "avalugghisui",
       "togedemaru",
       "cosmoem"
     ],
@@ -3581,7 +3645,8 @@
       "blipbug",
       "dottler",
       "orbeetle",
-      "orbeetlegmax"
+      "orbeetlegmax",
+      "kleavor"
     ],
     "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Bug-type attack.",
     "shortDesc": "At 1/3 or less of its max HP, this Pokemon's attacking stat is 1.5x with Bug attacks."
@@ -3624,6 +3689,7 @@
       "kabuto",
       "kabutops",
       "qwilfish",
+      "qwilfishhisui",
       "mantine",
       "kingdra",
       "lotad",
@@ -3644,7 +3710,8 @@
       "drednaw",
       "drednawgmax",
       "arrokuda",
-      "barraskewda"
+      "barraskewda",
+      "overqwil"
     ],
     "desc": "If Rain Dance is active and this Pokemon is not holding Utility Umbrella, this Pokemon's Speed is doubled.",
     "shortDesc": "If Rain Dance is active, this Pokemon's Speed is doubled."
@@ -3746,7 +3813,9 @@
       "gardevoir",
       "wynaut",
       "dialga",
+      "dialgaorigin",
       "palkia",
+      "palkiaorigin",
       "giratina",
       "munna",
       "musharna",
@@ -3828,6 +3897,7 @@
       "mudkip",
       "marshtomp",
       "swampert",
+      "samurotthisui",
       "popplio",
       "brionne",
       "primarina",
@@ -3977,7 +4047,8 @@
       "corvisquire",
       "corviknight",
       "corviknightgmax",
-      "calyrex"
+      "calyrex",
+      "ursaluna"
     ],
     "desc": "While this Pokemon is active, it prevents opposing Pokemon from using their Berries. Activation message broadcasts before other Abilities regardless of the Pokemon's Speed tiers.",
     "shortDesc": "While this Pokemon is active, it prevents opposing Pokemon from using their Berries."

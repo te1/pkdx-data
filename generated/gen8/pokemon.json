@@ -670,7 +670,47 @@
     "prevo": "growlithe",
     "evoType": "useItem",
     "evoItem": "Fire Stone",
+    "otherFormes": [
+      "arcaninehisui"
+    ],
     "weight": 155,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
+    "slug": "arcaninehisui",
+    "name": "Arcanine-Hisui",
+    "gen": 1,
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "num": 59,
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 80,
+      "spa": 95,
+      "spd": 80,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "intimidate",
+      "1": "flashfire",
+      "H": "justified"
+    },
+    "prevo": "growlithehisui",
+    "evoType": "useItem",
+    "evoItem": "Fire Stone",
+    "forme": "Hisui",
+    "baseSpecies": "arcanine",
+    "region": "Hisui",
+    "weight": 168,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -962,9 +1002,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "articunogalar",
@@ -988,14 +1026,13 @@
     },
     "forme": "Galar",
     "baseSpecies": "articuno",
+    "region": "Galar",
     "weight": 50.9,
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "audino",
@@ -1084,7 +1121,47 @@
     },
     "prevo": "bergmite",
     "evoLevel": 37,
+    "otherFormes": [
+      "avalugghisui"
+    ],
     "weight": 505,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Monster",
+      "Mineral"
+    ]
+  },
+  {
+    "slug": "avalugghisui",
+    "name": "Avalugg-Hisui",
+    "gen": 6,
+    "types": [
+      "ice",
+      "rock"
+    ],
+    "num": 713,
+    "baseStats": {
+      "hp": 95,
+      "atk": 127,
+      "def": 184,
+      "spa": 34,
+      "spd": 36,
+      "spe": 38
+    },
+    "abilities": {
+      "0": "strongjaw",
+      "1": "icebody",
+      "H": "sturdy"
+    },
+    "prevo": "bergmite",
+    "evoLevel": 37,
+    "forme": "Hisui",
+    "baseSpecies": "avalugg",
+    "region": "Hisui",
+    "weight": 262.4,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1153,9 +1230,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "azumarill",
@@ -1389,6 +1464,74 @@
     ]
   },
   {
+    "slug": "basculegion",
+    "name": "Basculegion",
+    "gen": 8,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "num": 902,
+    "baseStats": {
+      "hp": 120,
+      "atk": 112,
+      "def": 65,
+      "spa": 80,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "rattled",
+      "1": "adaptability",
+      "H": "moldbreaker"
+    },
+    "prevo": "basculinwhitestriped",
+    "evoType": "other",
+    "evoCondition": "Receive 294+ recoil without fainting",
+    "baseForme": "M",
+    "otherFormes": [
+      "basculegionf"
+    ],
+    "weight": 110,
+    "gender": "M",
+    "eggGroups": [
+      "Water 2"
+    ]
+  },
+  {
+    "slug": "basculegionf",
+    "name": "Basculegion-F",
+    "gen": 8,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "num": 902,
+    "baseStats": {
+      "hp": 120,
+      "atk": 92,
+      "def": 65,
+      "spa": 100,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "rattled",
+      "1": "adaptability",
+      "H": "moldbreaker"
+    },
+    "prevo": "basculinwhitestriped",
+    "evoType": "other",
+    "evoCondition": "Receive 294+ recoil without fainting",
+    "forme": "F",
+    "baseSpecies": "basculegion",
+    "weight": 110,
+    "gender": "F",
+    "eggGroups": [
+      "Water 2"
+    ]
+  },
+  {
     "slug": "basculin",
     "name": "Basculin",
     "gen": 5,
@@ -1411,7 +1554,8 @@
     },
     "baseForme": "Red-Striped",
     "otherFormes": [
-      "basculinbluestriped"
+      "basculinbluestriped",
+      "basculinwhitestriped"
     ],
     "weight": 18,
     "genderRatio": {
@@ -1445,6 +1589,43 @@
       "H": "moldbreaker"
     },
     "forme": "Blue-Striped",
+    "baseSpecies": "basculin",
+    "weight": 18,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 2"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "basculinwhitestriped",
+    "name": "Basculin-White-Striped",
+    "gen": 8,
+    "types": [
+      "water"
+    ],
+    "num": 550,
+    "baseStats": {
+      "hp": 70,
+      "atk": 92,
+      "def": 65,
+      "spa": 80,
+      "spd": 55,
+      "spe": 98
+    },
+    "abilities": {
+      "0": "rattled",
+      "1": "adaptability",
+      "H": "moldbreaker"
+    },
+    "evos": [
+      "basculegion",
+      "basculegionf"
+    ],
+    "forme": "White-Striped",
     "baseSpecies": "basculin",
     "weight": 18,
     "genderRatio": {
@@ -1605,7 +1786,8 @@
       "H": "sturdy"
     },
     "evos": [
-      "avalugg"
+      "avalugg",
+      "avalugghisui"
     ],
     "weight": 99.5,
     "genderRatio": {
@@ -1743,9 +1925,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -2096,7 +2275,43 @@
     },
     "prevo": "rufflet",
     "evoLevel": 54,
+    "otherFormes": [
+      "braviaryhisui"
+    ],
     "weight": 41,
+    "gender": "M",
+    "eggGroups": [
+      "Flying"
+    ]
+  },
+  {
+    "slug": "braviaryhisui",
+    "name": "Braviary-Hisui",
+    "gen": 5,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "num": 628,
+    "baseStats": {
+      "hp": 110,
+      "atk": 83,
+      "def": 70,
+      "spa": 112,
+      "spd": 70,
+      "spe": 65
+    },
+    "abilities": {
+      "0": "keeneye",
+      "1": "sheerforce",
+      "H": "defiant"
+    },
+    "prevo": "rufflet",
+    "evoLevel": 54,
+    "forme": "Hisui",
+    "baseSpecies": "braviary",
+    "region": "Hisui",
+    "weight": 43.4,
     "gender": "M",
     "eggGroups": [
       "Flying"
@@ -2429,9 +2644,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -2463,9 +2675,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "calyrexice",
@@ -2495,9 +2705,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "calyrexshadow",
@@ -2527,9 +2735,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "carbink",
@@ -2722,9 +2928,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "celesteela",
@@ -2750,9 +2954,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -3694,9 +3895,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "cofagrigus",
@@ -4024,6 +4223,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "corsola",
+    "region": "Galar",
     "weight": 0.5,
     "genderRatio": {
       "M": 0.25,
@@ -4169,9 +4369,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "cosmog",
@@ -4200,9 +4398,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "cottonee",
@@ -4437,9 +4633,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "croagunk",
@@ -4801,6 +4995,7 @@
     "evoItem": "Ice Stone",
     "forme": "Galar",
     "baseSpecies": "darmanitan",
+    "region": "Galar",
     "weight": 120,
     "genderRatio": {
       "M": 0.5,
@@ -4835,6 +5030,7 @@
     "changesFrom": "darmanitangalar",
     "requiredAbility": "zenmode",
     "isBattleOnlyForme": true,
+    "region": "Galar",
     "weight": 120,
     "genderRatio": {
       "M": 0.5,
@@ -4903,7 +5099,8 @@
     },
     "prevo": "rowlet",
     "evos": [
-      "decidueye"
+      "decidueye",
+      "decidueyehisui"
     ],
     "evoLevel": 17,
     "weight": 16,
@@ -4976,6 +5173,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "darumaka",
+    "region": "Galar",
     "weight": 40,
     "genderRatio": {
       "M": 0.5,
@@ -5009,7 +5207,45 @@
     },
     "prevo": "dartrix",
     "evoLevel": 34,
+    "otherFormes": [
+      "decidueyehisui"
+    ],
     "weight": 36.6,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Flying"
+    ]
+  },
+  {
+    "slug": "decidueyehisui",
+    "name": "Decidueye-Hisui",
+    "gen": 7,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "num": 724,
+    "baseStats": {
+      "hp": 88,
+      "atk": 112,
+      "def": 80,
+      "spa": 95,
+      "spd": 95,
+      "spe": 60
+    },
+    "abilities": {
+      "0": "overgrow",
+      "H": "longreach"
+    },
+    "prevo": "dartrix",
+    "evoLevel": 36,
+    "forme": "Hisui",
+    "baseSpecies": "decidueye",
+    "region": "Hisui",
+    "weight": 37,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -5200,14 +5436,45 @@
       "0": "pressure",
       "H": "telepathy"
     },
+    "otherFormes": [
+      "dialgaorigin"
+    ],
     "weight": 683,
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
+  },
+  {
+    "slug": "dialgaorigin",
+    "name": "Dialga-Origin",
+    "gen": 8,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "num": 483,
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 120,
+      "spa": 150,
+      "spd": 120,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "pressure",
+      "H": "telepathy"
+    },
+    "forme": "Origin",
+    "baseSpecies": "dialga",
+    "weight": 850,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
   },
   {
     "slug": "diancie",
@@ -5234,9 +5501,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "diggersby",
@@ -5335,6 +5600,7 @@
     ],
     "forme": "Alola",
     "baseSpecies": "diglett",
+    "region": "Alola",
     "weight": 1,
     "genderRatio": {
       "M": 0.5,
@@ -6140,6 +6406,7 @@
     "evoLevel": 26,
     "forme": "Alola",
     "baseSpecies": "dugtrio",
+    "region": "Alola",
     "weight": 66.6,
     "genderRatio": {
       "M": 0.5,
@@ -6729,6 +6996,39 @@
     "canHatch": true
   },
   {
+    "slug": "electrodehisui",
+    "name": "Electrode-Hisui",
+    "gen": 1,
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "num": 101,
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "spa": 80,
+      "spd": 80,
+      "spe": 150
+    },
+    "abilities": {
+      "0": "soundproof",
+      "1": "static",
+      "H": "aftermath"
+    },
+    "prevo": "voltorbhisui",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "forme": "Hisui",
+    "region": "Hisui",
+    "weight": 71,
+    "gender": "N",
+    "eggGroups": [
+      "Mineral"
+    ]
+  },
+  {
     "slug": "elekid",
     "name": "Elekid",
     "gen": 2,
@@ -6827,6 +7127,68 @@
     "canHatch": true
   },
   {
+    "slug": "enamorus",
+    "name": "Enamorus",
+    "gen": 8,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "num": 905,
+    "baseStats": {
+      "hp": 74,
+      "atk": 115,
+      "def": 70,
+      "spa": 135,
+      "spd": 80,
+      "spe": 106
+    },
+    "abilities": {
+      "0": "healer",
+      "H": "contrary"
+    },
+    "baseForme": "Incarnate",
+    "otherFormes": [
+      "enamorustherian"
+    ],
+    "weight": 48,
+    "gender": "F",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "enamorustherian",
+    "name": "Enamorus-Therian",
+    "gen": 8,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "num": 905,
+    "baseStats": {
+      "hp": 74,
+      "atk": 115,
+      "def": 110,
+      "spa": 135,
+      "spd": 100,
+      "spe": 46
+    },
+    "abilities": {
+      "0": "overcoat"
+    },
+    "forme": "Therian",
+    "baseSpecies": "enamorus",
+    "changesFrom": "enamorus",
+    "weight": 48,
+    "gender": "F",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
     "slug": "entei",
     "name": "Entei",
     "gen": 2,
@@ -6851,9 +7213,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "escavalier",
@@ -6984,10 +7344,8 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "cannotDynamax": true,
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true,
+    "cannotDynamax": true
   },
   {
     "slug": "eternatuseternamax",
@@ -7016,10 +7374,9 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "cannotDynamax": true,
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isUnobtainable": true,
+    "isLegendary": true,
+    "cannotDynamax": true
   },
   {
     "slug": "excadrill",
@@ -7151,6 +7508,7 @@
     "evoItem": "Leaf Stone",
     "forme": "Alola",
     "baseSpecies": "exeggutor",
+    "region": "Alola",
     "weight": 415.6,
     "genderRatio": {
       "M": 0.5,
@@ -7281,6 +7639,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "farfetchd",
+    "region": "Galar",
     "weight": 15,
     "genderRatio": {
       "M": 0.5,
@@ -8137,9 +8496,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "genesectburn",
@@ -8170,9 +8527,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "genesectchill",
@@ -8203,9 +8558,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "genesectdouse",
@@ -8236,9 +8589,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "genesectshock",
@@ -8269,9 +8620,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "gengar",
@@ -8435,9 +8784,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "giratinaorigin",
@@ -8468,9 +8815,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "glaceon",
@@ -8561,9 +8906,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "gloom",
@@ -8820,7 +9163,46 @@
     },
     "prevo": "sliggoo",
     "evoLevel": 50,
+    "otherFormes": [
+      "goodrahisui"
+    ],
     "weight": 150.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Dragon"
+    ]
+  },
+  {
+    "slug": "goodrahisui",
+    "name": "Goodra-Hisui",
+    "gen": 6,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "num": 706,
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 100,
+      "spa": 110,
+      "spd": 150,
+      "spe": 60
+    },
+    "abilities": {
+      "0": "sapsipper",
+      "1": "overcoat",
+      "H": "gooey"
+    },
+    "prevo": "sliggoohisui",
+    "evoLevel": 50,
+    "forme": "Hisui",
+    "baseSpecies": "goodra",
+    "region": "Hisui",
+    "weight": 334.1,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8851,7 +9233,8 @@
       "H": "gooey"
     },
     "evos": [
-      "sliggoo"
+      "sliggoo",
+      "sliggoohisui"
     ],
     "weight": 2.8,
     "genderRatio": {
@@ -9329,9 +9712,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "grovyle",
@@ -9392,7 +9773,48 @@
     "evos": [
       "arcanine"
     ],
+    "otherFormes": [
+      "growlithehisui"
+    ],
     "weight": 19,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "growlithehisui",
+    "name": "Growlithe-Hisui",
+    "gen": 1,
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "num": 58,
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 45,
+      "spa": 65,
+      "spd": 50,
+      "spe": 55
+    },
+    "abilities": {
+      "0": "intimidate",
+      "1": "flashfire",
+      "H": "justified"
+    },
+    "evos": [
+      "arcaninehisui"
+    ],
+    "forme": "Hisui",
+    "baseSpecies": "growlithe",
+    "region": "Hisui",
+    "weight": 22.7,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -9493,9 +9915,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -9884,9 +10303,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "heliolisk",
@@ -10239,9 +10656,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "hoothoot",
@@ -10775,9 +11190,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "jolteon",
@@ -11067,9 +11480,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -11101,9 +11511,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "keldeoresolute",
@@ -11134,9 +11542,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "kingdra",
@@ -11308,6 +11714,40 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
+    ]
+  },
+  {
+    "slug": "kleavor",
+    "name": "Kleavor",
+    "gen": 8,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "num": 900,
+    "baseStats": {
+      "hp": 70,
+      "atk": 135,
+      "def": 95,
+      "spa": 45,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "swarm",
+      "1": "sheerforce",
+      "H": "steadfast"
+    },
+    "prevo": "scyther",
+    "evoType": "other",
+    "evoCondition": "Black Augurite",
+    "weight": 89,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
     ]
   },
   {
@@ -11603,9 +12043,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "kyogre",
@@ -11631,9 +12069,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "kyurem",
@@ -11664,9 +12100,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "kyuremblack",
@@ -11696,9 +12130,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "kyuremwhite",
@@ -11728,9 +12160,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "lairon",
@@ -11834,9 +12264,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "landorustherian",
@@ -11866,9 +12294,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "lanturn",
@@ -12066,9 +12492,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "latios",
@@ -12095,9 +12519,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "leafeon",
@@ -12288,7 +12710,44 @@
     "prevo": "petilil",
     "evoType": "useItem",
     "evoItem": "Sun Stone",
+    "otherFormes": [
+      "lilliganthisui"
+    ],
     "weight": 16.3,
+    "gender": "F",
+    "eggGroups": [
+      "Grass"
+    ]
+  },
+  {
+    "slug": "lilliganthisui",
+    "name": "Lilligant-Hisui",
+    "gen": 5,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "num": 549,
+    "baseStats": {
+      "hp": 70,
+      "atk": 105,
+      "def": 75,
+      "spa": 50,
+      "spd": 75,
+      "spe": 105
+    },
+    "abilities": {
+      "0": "chlorophyll",
+      "1": "hustle",
+      "H": "leafguard"
+    },
+    "prevo": "petilil",
+    "evoType": "useItem",
+    "evoItem": "Sun Stone",
+    "forme": "Hisui",
+    "baseSpecies": "lilligant",
+    "region": "Hisui",
+    "weight": 19.2,
     "gender": "F",
     "eggGroups": [
       "Grass"
@@ -12392,6 +12851,7 @@
     "evoLevel": 20,
     "forme": "Galar",
     "baseSpecies": "linoone",
+    "region": "Galar",
     "weight": 32.5,
     "genderRatio": {
       "M": 0.5,
@@ -12706,9 +13166,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "lunala",
@@ -12737,9 +13195,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "lunatone",
@@ -13170,9 +13626,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "magearnaoriginal",
@@ -13201,9 +13655,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "magikarp",
@@ -13768,6 +14220,7 @@
     "evoLevel": 28,
     "forme": "Alola",
     "baseSpecies": "marowak",
+    "region": "Alola",
     "weight": 34,
     "genderRatio": {
       "M": 0.5,
@@ -13802,9 +14255,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "marshtomp",
@@ -13899,9 +14350,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ],
+    "isMythical": true,
     "gmaxMove": "gmaxmeltdown"
   },
   {
@@ -13931,9 +14380,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "meltan",
@@ -13959,9 +14406,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "meowstic",
@@ -14092,6 +14537,7 @@
     ],
     "forme": "Alola",
     "baseSpecies": "meowth",
+    "region": "Alola",
     "weight": 4.2,
     "genderRatio": {
       "M": 0.5,
@@ -14128,6 +14574,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "meowth",
+    "region": "Galar",
     "weight": 7.5,
     "genderRatio": {
       "M": 0.5,
@@ -14196,9 +14643,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "metagross",
@@ -14318,9 +14763,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "mewtwo",
@@ -14347,9 +14790,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "mienfoo",
@@ -14680,9 +15121,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "moltresgalar",
@@ -14706,14 +15145,13 @@
     },
     "forme": "Galar",
     "baseSpecies": "moltres",
+    "region": "Galar",
     "weight": 66,
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "morelull",
@@ -14922,6 +15360,7 @@
     "evoMove": "Mimic",
     "forme": "Galar",
     "baseSpecies": "mrmime",
+    "region": "Galar",
     "weight": 56.8,
     "genderRatio": {
       "M": 0.5,
@@ -15193,9 +15632,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -15261,9 +15697,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "necrozmadawnwings",
@@ -15293,9 +15727,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "necrozmaduskmane",
@@ -15325,9 +15757,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "nickit",
@@ -15579,9 +16009,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -15680,6 +16107,7 @@
     "evoItem": "Ice Stone",
     "forme": "Alola",
     "baseSpecies": "ninetales",
+    "region": "Alola",
     "weight": 19.9,
     "genderRatio": {
       "M": 0.25,
@@ -16169,6 +16597,40 @@
     "canHatch": true
   },
   {
+    "slug": "overqwil",
+    "name": "Overqwil",
+    "gen": 8,
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "num": 904,
+    "baseStats": {
+      "hp": 85,
+      "atk": 115,
+      "def": 95,
+      "spa": 65,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "poisonpoint",
+      "1": "swiftswim",
+      "H": "intimidate"
+    },
+    "prevo": "qwilfishhisui",
+    "evoType": "other",
+    "evoCondition": "Use Strong style Barb Barrage 20 times",
+    "weight": 3.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 2"
+    ]
+  },
+  {
     "slug": "palkia",
     "name": "Palkia",
     "gen": 4,
@@ -16189,14 +16651,45 @@
       "0": "pressure",
       "H": "telepathy"
     },
+    "otherFormes": [
+      "palkiaorigin"
+    ],
     "weight": 336,
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
+  },
+  {
+    "slug": "palkiaorigin",
+    "name": "Palkia-Origin",
+    "gen": 8,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "num": 484,
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 100,
+      "spa": 150,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "pressure",
+      "H": "telepathy"
+    },
+    "forme": "Origin",
+    "baseSpecies": "palkia",
+    "weight": 660,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
   },
   {
     "slug": "palossand",
@@ -16527,6 +17020,7 @@
     "evoType": "levelFriendship",
     "forme": "Alola",
     "baseSpecies": "persian",
+    "region": "Alola",
     "weight": 33,
     "genderRatio": {
       "M": 0.5,
@@ -16558,7 +17052,8 @@
       "H": "leafguard"
     },
     "evos": [
-      "lilligant"
+      "lilligant",
+      "lilliganthisui"
     ],
     "weight": 6.6,
     "gender": "F",
@@ -16627,9 +17122,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -16769,6 +17261,7 @@
     },
     "forme": "Alola",
     "baseSpecies": "pikachu",
+    "region": "Alola",
     "weight": 6,
     "gender": "M",
     "eggGroups": [
@@ -17129,9 +17622,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -17399,6 +17889,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "ponyta",
+    "region": "Galar",
     "weight": 24,
     "genderRatio": {
       "M": 0.5,
@@ -17911,6 +18402,47 @@
       "1": "swiftswim",
       "H": "intimidate"
     },
+    "otherFormes": [
+      "qwilfishhisui"
+    ],
+    "weight": 3.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 2"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "qwilfishhisui",
+    "name": "Qwilfish-Hisui",
+    "gen": 2,
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "num": 211,
+    "baseStats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 85,
+      "spa": 55,
+      "spd": 55,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "poisonpoint",
+      "1": "swiftswim",
+      "H": "intimidate"
+    },
+    "evos": [
+      "overqwil"
+    ],
+    "forme": "Hisui",
+    "baseSpecies": "qwilfish",
+    "region": "Hisui",
     "weight": 3.9,
     "genderRatio": {
       "M": 0.5,
@@ -18017,6 +18549,7 @@
     "evoItem": "Thunder Stone",
     "forme": "Alola",
     "baseSpecies": "raichu",
+    "region": "Alola",
     "weight": 21,
     "genderRatio": {
       "M": 0.5,
@@ -18052,9 +18585,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "ralts",
@@ -18153,6 +18684,7 @@
     "evoLevel": 40,
     "forme": "Galar",
     "baseSpecies": "rapidash",
+    "region": "Galar",
     "weight": 80,
     "genderRatio": {
       "M": 0.5,
@@ -18187,9 +18719,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "regice",
@@ -18216,9 +18746,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "regidrago",
@@ -18244,9 +18772,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "regieleki",
@@ -18272,9 +18798,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "regigigas",
@@ -18300,9 +18824,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "regirock",
@@ -18329,9 +18851,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "registeel",
@@ -18358,9 +18878,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "relicanth",
@@ -18455,9 +18973,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "reuniclus",
@@ -19189,7 +19705,8 @@
       "H": "hustle"
     },
     "evos": [
-      "braviary"
+      "braviary",
+      "braviaryhisui"
     ],
     "weight": 10.5,
     "gender": "M",
@@ -19361,6 +19878,39 @@
     ]
   },
   {
+    "slug": "samurotthisui",
+    "name": "Samurott-Hisui",
+    "gen": 5,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "num": 503,
+    "baseStats": {
+      "hp": 90,
+      "atk": 108,
+      "def": 80,
+      "spa": 100,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": {
+      "0": "torrent",
+      "H": "shellarmor"
+    },
+    "evoLevel": 36,
+    "forme": "Hisui",
+    "region": "Hisui",
+    "weight": 58.2,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
     "slug": "sandaconda",
     "name": "Sandaconda",
     "gen": 8,
@@ -19526,6 +20076,7 @@
     ],
     "forme": "Alola",
     "baseSpecies": "sandshrew",
+    "region": "Alola",
     "weight": 40,
     "genderRatio": {
       "M": 0.5,
@@ -19596,6 +20147,7 @@
     "evoItem": "Ice Stone",
     "forme": "Alola",
     "baseSpecies": "sandslash",
+    "region": "Alola",
     "weight": 55,
     "genderRatio": {
       "M": 0.5,
@@ -19893,7 +20445,8 @@
       "H": "steadfast"
     },
     "evos": [
-      "scizor"
+      "scizor",
+      "kleavor"
     ],
     "weight": 56,
     "genderRatio": {
@@ -20525,9 +21078,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallybug",
@@ -20557,9 +21108,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallydark",
@@ -20589,9 +21138,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallydragon",
@@ -20621,9 +21168,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyelectric",
@@ -20653,9 +21198,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyfairy",
@@ -20685,9 +21228,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyfighting",
@@ -20717,9 +21258,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyfire",
@@ -20749,9 +21288,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyflying",
@@ -20781,9 +21318,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyghost",
@@ -20813,9 +21348,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallygrass",
@@ -20845,9 +21378,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyground",
@@ -20877,9 +21408,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyice",
@@ -20909,9 +21438,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallypoison",
@@ -20941,9 +21468,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallypsychic",
@@ -20973,9 +21498,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallyrock",
@@ -21005,9 +21528,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallysteel",
@@ -21037,9 +21558,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "silvallywater",
@@ -21069,9 +21588,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "sinistea",
@@ -21403,7 +21920,49 @@
       "goodra"
     ],
     "evoLevel": 40,
+    "otherFormes": [
+      "sliggoohisui"
+    ],
     "weight": 17.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Dragon"
+    ]
+  },
+  {
+    "slug": "sliggoohisui",
+    "name": "Sliggoo-Hisui",
+    "gen": 6,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "num": 705,
+    "baseStats": {
+      "hp": 58,
+      "atk": 75,
+      "def": 83,
+      "spa": 83,
+      "spd": 113,
+      "spe": 40
+    },
+    "abilities": {
+      "0": "sapsipper",
+      "1": "overcoat",
+      "H": "gooey"
+    },
+    "prevo": "goomy",
+    "evos": [
+      "goodrahisui"
+    ],
+    "evoLevel": 40,
+    "forme": "Hisui",
+    "baseSpecies": "sliggoo",
+    "region": "Hisui",
+    "weight": 68.5,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -21476,6 +22035,7 @@
     "evoItem": "Galarica Cuff",
     "forme": "Galar",
     "baseSpecies": "slowbro",
+    "region": "Galar",
     "weight": 70.5,
     "genderRatio": {
       "M": 0.5,
@@ -21551,6 +22111,7 @@
     "evoItem": "Galarica Wreath",
     "forme": "Galar",
     "baseSpecies": "slowking",
+    "region": "Galar",
     "weight": 79.5,
     "genderRatio": {
       "M": 0.5,
@@ -21628,6 +22189,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "slowpoke",
+    "region": "Galar",
     "weight": 36,
     "genderRatio": {
       "M": 0.5,
@@ -21728,6 +22290,9 @@
     "evos": [
       "weavile"
     ],
+    "otherFormes": [
+      "sneaselhisui"
+    ],
     "weight": 28,
     "genderRatio": {
       "M": 0.5,
@@ -21737,6 +22302,78 @@
       "Field"
     ],
     "canHatch": true
+  },
+  {
+    "slug": "sneaselhisui",
+    "name": "Sneasel-Hisui",
+    "gen": 2,
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "num": 215,
+    "baseStats": {
+      "hp": 55,
+      "atk": 95,
+      "def": 55,
+      "spa": 35,
+      "spd": 75,
+      "spe": 115
+    },
+    "abilities": {
+      "0": "innerfocus",
+      "1": "keeneye",
+      "H": "poisontouch"
+    },
+    "evos": [
+      "sneasler"
+    ],
+    "forme": "Hisui",
+    "baseSpecies": "sneasel",
+    "region": "Hisui",
+    "weight": 27,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "sneasler",
+    "name": "Sneasler",
+    "gen": 8,
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "num": 903,
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 60,
+      "spa": 40,
+      "spd": 80,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "pressure",
+      "H": "poisontouch"
+    },
+    "prevo": "sneaselhisui",
+    "evoType": "useItem",
+    "evoCondition": "during the day",
+    "evoItem": "Razor Claw",
+    "weight": 43,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ]
   },
   {
     "slug": "snom",
@@ -21972,9 +22609,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "solosis",
@@ -22061,9 +22696,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "spheal",
@@ -22223,9 +22856,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -22510,6 +23140,7 @@
     },
     "forme": "Galar",
     "baseSpecies": "stunfisk",
+    "region": "Galar",
     "weight": 20.5,
     "genderRatio": {
       "M": 0.5,
@@ -22615,9 +23246,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "swablu",
@@ -22946,9 +23575,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "tapufini",
@@ -22976,9 +23603,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "tapukoko",
@@ -23006,9 +23631,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "tapulele",
@@ -23036,9 +23659,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "tauros",
@@ -23161,9 +23782,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "thievul",
@@ -23255,9 +23874,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "thundurustherian",
@@ -23287,9 +23904,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "thwackey",
@@ -23628,9 +24243,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "tornadustherian",
@@ -23659,9 +24272,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "torracat",
@@ -24239,8 +24850,39 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
+    "isLegendary": true
+  },
+  {
+    "slug": "typhlosionhisui",
+    "name": "Typhlosion-Hisui",
+    "gen": 2,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "num": 157,
+    "baseStats": {
+      "hp": 73,
+      "atk": 84,
+      "def": 78,
+      "spa": 119,
+      "spd": 85,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "blaze",
+      "H": "flashfire"
+    },
+    "evoLevel": 36,
+    "forme": "Hisui",
+    "region": "Hisui",
+    "weight": 69.8,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
     ]
   },
   {
@@ -24443,6 +25085,39 @@
     ]
   },
   {
+    "slug": "ursaluna",
+    "name": "Ursaluna",
+    "gen": 8,
+    "types": [
+      "ground",
+      "normal"
+    ],
+    "num": 901,
+    "baseStats": {
+      "hp": 130,
+      "atk": 140,
+      "def": 105,
+      "spa": 45,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": {
+      "0": "guts",
+      "1": "bulletproof",
+      "H": "unnerve"
+    },
+    "evoType": "other",
+    "evoCondition": "Peat Block when there's a full moon",
+    "weight": 290,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
     "slug": "urshifu",
     "name": "Urshifu",
     "gen": 8,
@@ -24477,9 +25152,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ],
+    "isLegendary": true,
     "gmaxMove": "gmaxoneblow"
   },
   {
@@ -24513,9 +25186,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "urshifurapidstrike",
@@ -24550,9 +25221,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ],
+    "isLegendary": true,
     "gmaxMove": "gmaxrapidflow"
   },
   {
@@ -24587,9 +25256,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "uxie",
@@ -24615,9 +25282,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "vanillish",
@@ -24945,9 +25610,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "vikavolt",
@@ -25039,9 +25702,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "volcanion",
@@ -25068,9 +25729,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "volcarona",
@@ -25103,6 +25762,40 @@
     "eggGroups": [
       "Bug"
     ]
+  },
+  {
+    "slug": "voltorbhisui",
+    "name": "Voltorb-Hisui",
+    "gen": 1,
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "num": 100,
+    "baseStats": {
+      "hp": 40,
+      "atk": 30,
+      "def": 50,
+      "spa": 55,
+      "spd": 55,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "soundproof",
+      "1": "static",
+      "H": "aftermath"
+    },
+    "evos": [
+      "electrodehisui"
+    ],
+    "forme": "Hisui",
+    "region": "Hisui",
+    "weight": 13,
+    "gender": "N",
+    "eggGroups": [
+      "Mineral"
+    ],
+    "canHatch": true
   },
   {
     "slug": "vullaby",
@@ -25197,6 +25890,7 @@
     ],
     "forme": "Alola",
     "baseSpecies": "vulpix",
+    "region": "Alola",
     "weight": 9.9,
     "genderRatio": {
       "M": 0.25,
@@ -25439,6 +26133,7 @@
     "evoLevel": 35,
     "forme": "Galar",
     "baseSpecies": "weezing",
+    "region": "Galar",
     "weight": 16,
     "genderRatio": {
       "M": 0.5,
@@ -25929,6 +26624,39 @@
     "canHatch": true
   },
   {
+    "slug": "wyrdeer",
+    "name": "Wyrdeer",
+    "gen": 8,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "num": 899,
+    "baseStats": {
+      "hp": 103,
+      "atk": 105,
+      "def": 72,
+      "spa": 105,
+      "spd": 75,
+      "spe": 65
+    },
+    "abilities": {
+      "0": "intimidate",
+      "1": "frisk",
+      "H": "sapsipper"
+    },
+    "evoType": "other",
+    "evoCondition": "Use Agile style Psyshield Bash 20 times",
+    "weight": 95.1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
     "slug": "xatu",
     "name": "Xatu",
     "gen": 2,
@@ -25986,9 +26714,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "xurkitree",
@@ -26013,9 +26739,6 @@
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
-    ],
-    "tags": [
-      "Sub-Legendary"
     ]
   },
   {
@@ -26079,6 +26802,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "yamask",
+    "region": "Galar",
     "weight": 1.5,
     "genderRatio": {
       "M": 0.5,
@@ -26148,9 +26872,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "zacian",
@@ -26180,10 +26902,8 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "cannotDynamax": true,
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true,
+    "cannotDynamax": true
   },
   {
     "slug": "zaciancrowned",
@@ -26215,10 +26935,8 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "cannotDynamax": true,
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true,
+    "cannotDynamax": true
   },
   {
     "slug": "zamazenta",
@@ -26248,10 +26966,8 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "cannotDynamax": true,
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true,
+    "cannotDynamax": true
   },
   {
     "slug": "zamazentacrowned",
@@ -26283,10 +26999,8 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "cannotDynamax": true,
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true,
+    "cannotDynamax": true
   },
   {
     "slug": "zapdos",
@@ -26317,9 +27031,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "zapdosgalar",
@@ -26343,14 +27055,13 @@
     },
     "forme": "Galar",
     "baseSpecies": "zapdos",
+    "region": "Galar",
     "weight": 58.2,
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Sub-Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "zarude",
@@ -26380,9 +27091,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "zarudedada",
@@ -26411,9 +27120,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "zekrom",
@@ -26440,9 +27147,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "zeraora",
@@ -26468,9 +27173,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Mythical"
-    ]
+    "isMythical": true
   },
   {
     "slug": "zigzagoon",
@@ -26536,6 +27239,7 @@
     ],
     "forme": "Galar",
     "baseSpecies": "zigzagoon",
+    "region": "Galar",
     "weight": 17.5,
     "genderRatio": {
       "M": 0.5,
@@ -26567,7 +27271,44 @@
     },
     "prevo": "zorua",
     "evoLevel": 30,
+    "otherFormes": [
+      "zoroarkhisui"
+    ],
     "weight": 81.1,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
+    "slug": "zoroarkhisui",
+    "name": "Zoroark-Hisui",
+    "gen": 5,
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "num": 571,
+    "baseStats": {
+      "hp": 55,
+      "atk": 100,
+      "def": 60,
+      "spa": 125,
+      "spd": 60,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "illusion"
+    },
+    "prevo": "zoruahisui",
+    "evoLevel": 30,
+    "forme": "Hisui",
+    "baseSpecies": "zoroark",
+    "region": "Hisui",
+    "weight": 73,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -26598,6 +27339,45 @@
     "evos": [
       "zoroark"
     ],
+    "otherFormes": [
+      "zoruahisui"
+    ],
+    "weight": 12.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "zoruahisui",
+    "name": "Zorua-Hisui",
+    "gen": 5,
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "num": 570,
+    "baseStats": {
+      "hp": 35,
+      "atk": 60,
+      "def": 40,
+      "spa": 85,
+      "spd": 40,
+      "spe": 70
+    },
+    "abilities": {
+      "0": "illusion"
+    },
+    "evos": [
+      "zoroarkhisui"
+    ],
+    "forme": "Hisui",
+    "baseSpecies": "zorua",
+    "region": "Hisui",
     "weight": 12.5,
     "genderRatio": {
       "M": 0.875,
@@ -26707,9 +27487,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "zygarde10",
@@ -26740,9 +27518,7 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   },
   {
     "slug": "zygardecomplete",
@@ -26774,8 +27550,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "tags": [
-      "Restricted Legendary"
-    ]
+    "isLegendary": true
   }
 ]

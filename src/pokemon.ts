@@ -12,6 +12,8 @@ export async function exportPokemon(gen: Generation, target: string) {
   // console.log('\t' + 'loading data...');
   // const data = await fs.readJson(`./data/pokemon.json`);
 
+  const hasEggs = gen.num >= 2;
+
   let result = [];
 
   for (const species of gen.species) {
@@ -23,22 +25,30 @@ export async function exportPokemon(gen: Generation, target: string) {
       num: species.num,
       baseStats: species.baseStats,
       abilities: getAbilitySlugs(species.abilities, gen),
-      evos: getSpeciesSlugs(species.evos, gen),
+
       prevo: getSpeciesSlug(species.prevo, gen),
+      // requiredAbility: species.requiredAbility,
+      // requiredItem: species.requiredItem,
+      // requiredItems: species.requiredItems,
+      // requiredMove: species.requiredMove,
+
+      evos: getSpeciesSlugs(species.evos, gen),
       evoType: species.evoType,
       evoCondition: species.evoCondition,
       evoLevel: species.evoLevel,
       evoItem: species.evoItem,
       evoMove: species.evoMove,
-      // requiredAbility: species.requiredAbility,
-      // requiredItem: species.requiredItem,
-      // requiredItems: species.requiredItems,
-      // requiredMove: species.requiredMove,
+
+      gender: species.gender,
+
       weight: species.weightkg,
       // TODO height
-      eggGroups: species.eggGroups,
+      genderRatio: hasEggs && !species.gender ? species.genderRatio : undefined,
+      eggGroups: hasEggs ? species.eggGroups : undefined,
+
       // TODO handle tags
       tags: species.tags.length ? species.tags : undefined,
+
       // flavorText: data[species.id]?.flavorText,
     });
 

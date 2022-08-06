@@ -5,6 +5,7 @@ import { exportTypes } from './type';
 import { exportNatures } from './nature';
 import { exportAbilities } from './ability';
 import { exportItems } from './item';
+import { exportMoves } from './move';
 
 const target = './generated/';
 
@@ -24,6 +25,7 @@ async function main() {
       await exportNatures(gen, target);
       await exportAbilities(gen, target);
       await exportItems(gen, target);
+      await exportMoves(gen, target);
 
       console.log('');
     }

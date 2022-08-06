@@ -50,27 +50,15 @@ export async function exportPokemon(
       // TODO formes
 
       // if set then this species is a forme
+      // is just a string to display (e.g. is "Blade" for Aegislash-Blade)
       // will not be set on the base forme (e.g. is null for Aegislash)
       forme: species.forme || undefined,
 
-      // name of base forme
-      // only set if forme == null (e.g. is "Shield" for Aegislash)
-      baseForme: species.baseForme || undefined,
+      // name of the base forme
+      // will not be set on the base forme (e.g. is null for Aegislash)
+      // e.g. is "Aegislash" for Aegislash-Blade
+      changesFrom: getSpeciesSlug(species.changesFrom, gen),
 
-      // list of all available formes
-      // only included if there is more than 1
-      // only set on the base forme (e.g. is null for Aegislash-Blade)
-      formes: (species.formes?.length ?? 0) > 1 ? species.formes : undefined,
-
-      // same as formes but with the entry for base forme removed
-      // only set on the base forme (e.g. is null for Aegislash-Blade)
-      otherFormes: species.otherFormes,
-
-      // formeNum: species.formeNum || undefined,
-      // formeOrder: (species.formeOrder?.length ?? 0) > 1 ? species.formeOrder : undefined,
-
-      cosmeticFormes: species.cosmeticFormes,
-      changesFrom: species.changesFrom,
       // there may be requirements (having an ability, holding an item, knowing a move) to change forme
       requiredAbility: getAbilitySlug(species.requiredAbility ?? '', gen),
       requiredItem: getItemSlug(species.requiredItem ?? '', gen),
@@ -78,7 +66,33 @@ export async function exportPokemon(
         (species.requiredItems?.length ?? 0) > 1
           ? getItemSlugs(species.requiredItems, gen)
           : undefined,
-      requiredMove: species.requiredMove,
+      requiredMove: getMoveSlug(species.requiredMove ?? '', gen),
+
+      // name of base forme
+      // is just a string to display (e.g. is "Shield" for Aegislash)
+      // will not be set on formes (e.g. is null for Aegislash-Blade)
+      baseForme: species.baseForme || undefined,
+
+      // list of all available formes (base forme + otherFormes + cosmeticFormes)
+      // only included if there is more than 1
+      // only set on the base forme (e.g. is null for Aegislash-Blade)
+      formes:
+        (species.formes?.length ?? 0) > 1
+          ? getSpeciesSlugs(species.formes, gen)
+          : undefined,
+
+      // list of all formes that have a species entry
+      // the base forme is not included in the list
+      // only set on the base forme (e.g. is null for Aegislash-Blade)
+      otherFormes: getSpeciesSlugs(species.otherFormes, gen),
+
+      // list of all cosmetic formes that _don't_ have a species entry
+      // the base forme is not included in the list
+      // cosmetic formes don't have their own species entry (e.g. there is no Gastrodon-East species)
+      cosmeticFormes: getSpeciesSlugs(species.cosmeticFormes, gen),
+
+      // formeNum: species.formeNum || undefined,
+      // formeOrder: (species.formeOrder?.length ?? 0) > 1 ? species.formeOrder : undefined,
 
       // -- Misc data and breeding
       weight: species.weightkg,
@@ -149,6 +163,10 @@ function getAbilitySlugs(
   }
 
   return result;
+}
+
+function getMoveSlug(moveName: string, gen: Generation) {
+  return gen.moves.get(moveName)?.id as string;
 }
 
 function getItemSlug(itemName: string, gen: Generation) {

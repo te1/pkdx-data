@@ -19,6 +19,10 @@
       "kadabra"
     ],
     "weight": 19.5,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -41,6 +45,10 @@
       "spe": 130
     },
     "weight": 59,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -62,6 +70,10 @@
       "spe": 85
     },
     "weight": 11.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -85,6 +97,10 @@
     "prevo": "kadabra",
     "evoType": "trade",
     "weight": 48,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -108,6 +124,10 @@
     "prevo": "flaaffy",
     "evoLevel": 30,
     "weight": 61.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Field"
@@ -132,6 +152,10 @@
     "prevo": "ekans",
     "evoLevel": 22,
     "weight": 65,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field",
       "Dragon"
@@ -157,6 +181,10 @@
     "evoType": "useItem",
     "evoItem": "Fire Stone",
     "weight": 155,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Field"
     ]
@@ -181,6 +209,10 @@
     "prevo": "spinarak",
     "evoLevel": 22,
     "weight": 33.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -202,6 +234,7 @@
       "spd": 125,
       "spe": 85
     },
+    "gender": "N",
     "weight": 55.4,
     "eggGroups": [
       "Undiscovered"
@@ -229,6 +262,10 @@
     "prevo": "marill",
     "evoLevel": 18,
     "weight": 28.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Fairy"
@@ -250,12 +287,16 @@
       "spd": 80,
       "spe": 60
     },
+    "prevo": "chikorita",
     "evos": [
       "meganium"
     ],
-    "prevo": "chikorita",
     "evoLevel": 16,
     "weight": 15.8,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Grass"
@@ -281,6 +322,10 @@
     "prevo": "kakuna",
     "evoLevel": 10,
     "weight": 29.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -305,6 +350,10 @@
     "evoType": "useItem",
     "evoItem": "Sun Stone",
     "weight": 5.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -330,6 +379,10 @@
       "weepinbell"
     ],
     "weight": 4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -353,6 +406,10 @@
     "prevo": "wartortle",
     "evoLevel": 36,
     "weight": 85.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -376,6 +433,7 @@
     },
     "prevo": "chansey",
     "evoType": "levelFriendship",
+    "gender": "F",
     "weight": 46.8,
     "eggGroups": [
       "Fairy"
@@ -402,6 +460,10 @@
       "ivysaur"
     ],
     "weight": 6.9,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Grass"
@@ -427,6 +489,10 @@
     "prevo": "metapod",
     "evoLevel": 10,
     "weight": 32,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -451,6 +517,10 @@
       "metapod"
     ],
     "weight": 2.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -472,6 +542,7 @@
       "spd": 100,
       "spe": 100
     },
+    "gender": "N",
     "weight": 5,
     "eggGroups": [
       "Undiscovered"
@@ -502,6 +573,7 @@
     "evoType": "levelHold",
     "evoCondition": "during the day",
     "evoItem": "Oval Stone",
+    "gender": "F",
     "weight": 34.6,
     "eggGroups": [
       "Fairy"
@@ -527,6 +599,10 @@
     "prevo": "charmeleon",
     "evoLevel": 36,
     "weight": 90.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -552,6 +628,10 @@
       "charmeleon"
     ],
     "weight": 8.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -573,12 +653,16 @@
       "spd": 65,
       "spe": 80
     },
+    "prevo": "charmander",
     "evos": [
       "charizard"
     ],
-    "prevo": "charmander",
     "evoLevel": 16,
     "weight": 19,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -604,6 +688,10 @@
       "bayleef"
     ],
     "weight": 6.4,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Grass"
@@ -630,6 +718,10 @@
       "lanturn"
     ],
     "weight": 12,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 2"
     ]
@@ -654,6 +746,10 @@
     "evoType": "useItem",
     "evoItem": "Moon Stone",
     "weight": 40,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Fairy"
     ]
@@ -674,12 +770,16 @@
       "spd": 65,
       "spe": 35
     },
+    "prevo": "cleffa",
     "evos": [
       "clefable"
     ],
-    "prevo": "cleffa",
     "evoType": "levelFriendship",
     "weight": 7.5,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Fairy"
     ]
@@ -704,6 +804,10 @@
       "clefairy"
     ],
     "weight": 3,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Undiscovered"
     ]
@@ -729,6 +833,10 @@
     "evoType": "useItem",
     "evoItem": "Water Stone",
     "weight": 132.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 3"
     ]
@@ -751,6 +859,10 @@
       "spe": 35
     },
     "weight": 5,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -776,6 +888,10 @@
     "prevo": "golbat",
     "evoType": "levelFriendship",
     "weight": 75,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -796,12 +912,16 @@
       "spd": 63,
       "spe": 58
     },
+    "prevo": "totodile",
     "evos": [
       "feraligatr"
     ],
-    "prevo": "totodile",
     "evoLevel": 18,
     "weight": 25,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -827,6 +947,10 @@
       "marowak"
     ],
     "weight": 6.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster"
     ]
@@ -851,6 +975,10 @@
       "quilava"
     ],
     "weight": 7.9,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -873,6 +1001,10 @@
       "spe": 75
     },
     "weight": 16,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Field"
@@ -898,6 +1030,10 @@
     "prevo": "seel",
     "evoLevel": 34,
     "weight": 120,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Field"
@@ -923,6 +1059,10 @@
       "dugtrio"
     ],
     "weight": 0.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -943,6 +1083,7 @@
       "spd": 48,
       "spe": 48
     },
+    "gender": "N",
     "weight": 4,
     "eggGroups": [
       "Ditto"
@@ -968,6 +1109,10 @@
     "prevo": "doduo",
     "evoLevel": 31,
     "weight": 85.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -993,6 +1138,10 @@
       "dodrio"
     ],
     "weight": 39.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -1016,6 +1165,10 @@
     "prevo": "phanpy",
     "evoLevel": 25,
     "weight": 120,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1036,12 +1189,16 @@
       "spd": 70,
       "spe": 70
     },
+    "prevo": "dratini",
     "evos": [
       "dragonite"
     ],
-    "prevo": "dratini",
     "evoLevel": 30,
     "weight": 16.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Dragon"
@@ -1067,6 +1224,10 @@
     "prevo": "dragonair",
     "evoLevel": 55,
     "weight": 210,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Dragon"
@@ -1092,6 +1253,10 @@
       "dragonair"
     ],
     "weight": 3.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Dragon"
@@ -1117,6 +1282,10 @@
       "hypno"
     ],
     "weight": 32.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -1140,6 +1309,10 @@
     "prevo": "diglett",
     "evoLevel": 26,
     "weight": 33.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1161,6 +1334,10 @@
       "spe": 45
     },
     "weight": 14,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1189,6 +1366,10 @@
       "umbreon"
     ],
     "weight": 6.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1213,6 +1394,10 @@
       "arbok"
     ],
     "weight": 6.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field",
       "Dragon"
@@ -1237,6 +1422,10 @@
     "prevo": "elekid",
     "evoLevel": 30,
     "weight": 30,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -1259,6 +1448,7 @@
     },
     "prevo": "voltorb",
     "evoLevel": 30,
+    "gender": "N",
     "weight": 66.6,
     "eggGroups": [
       "Mineral"
@@ -1284,6 +1474,10 @@
       "electabuzz"
     ],
     "weight": 23.5,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Undiscovered"
     ]
@@ -1304,6 +1498,7 @@
       "spd": 75,
       "spe": 100
     },
+    "gender": "N",
     "weight": 198,
     "eggGroups": [
       "Undiscovered"
@@ -1332,6 +1527,10 @@
     "evoType": "levelFriendship",
     "evoCondition": "during the day",
     "weight": 26.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1357,6 +1556,10 @@
       "exeggutor"
     ],
     "weight": 2.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -1382,6 +1585,10 @@
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
     "weight": 120,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -1404,6 +1611,10 @@
       "spe": 60
     },
     "weight": 15,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying",
       "Field"
@@ -1429,6 +1640,10 @@
     "prevo": "spearow",
     "evoLevel": 20,
     "weight": 38,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -1452,6 +1667,10 @@
     "prevo": "croconaw",
     "evoLevel": 30,
     "weight": 88.8,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -1473,12 +1692,16 @@
       "spd": 60,
       "spe": 45
     },
+    "prevo": "mareep",
     "evos": [
       "ampharos"
     ],
-    "prevo": "mareep",
     "evoLevel": 15,
     "weight": 13.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Field"
@@ -1504,6 +1727,10 @@
     "evoType": "useItem",
     "evoItem": "Fire Stone",
     "weight": 25,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1528,6 +1755,10 @@
     "prevo": "pineco",
     "evoLevel": 31,
     "weight": 125.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -1551,6 +1782,10 @@
     "prevo": "sentret",
     "evoLevel": 15,
     "weight": 32.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1576,6 +1811,10 @@
       "haunter"
     ],
     "weight": 0.1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -1600,6 +1839,10 @@
     "prevo": "haunter",
     "evoType": "trade",
     "weight": 40.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -1625,6 +1868,10 @@
       "graveler"
     ],
     "weight": 20,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Mineral"
     ]
@@ -1647,6 +1894,10 @@
       "spe": 85
     },
     "weight": 41.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1669,6 +1920,10 @@
       "spe": 85
     },
     "weight": 64.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -1690,13 +1945,17 @@
       "spd": 75,
       "spe": 40
     },
+    "prevo": "oddish",
     "evos": [
       "vileplume",
       "bellossom"
     ],
-    "prevo": "oddish",
     "evoLevel": 21,
     "weight": 8.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -1718,12 +1977,16 @@
       "spd": 75,
       "spe": 90
     },
+    "prevo": "zubat",
     "evos": [
       "crobat"
     ],
-    "prevo": "zubat",
     "evoLevel": 22,
     "weight": 55,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -1748,6 +2011,10 @@
       "seaking"
     ],
     "weight": 15,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 2"
     ]
@@ -1771,6 +2038,10 @@
     "prevo": "psyduck",
     "evoLevel": 33,
     "weight": 76.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Field"
@@ -1796,6 +2067,10 @@
     "prevo": "graveler",
     "evoType": "trade",
     "weight": 300,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Mineral"
     ]
@@ -1819,6 +2094,10 @@
     "prevo": "snubbull",
     "evoLevel": 23,
     "weight": 48.7,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Field",
       "Fairy"
@@ -1841,12 +2120,16 @@
       "spd": 45,
       "spe": 35
     },
+    "prevo": "geodude",
     "evos": [
       "golem"
     ],
-    "prevo": "geodude",
     "evoLevel": 25,
     "weight": 105,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Mineral"
     ]
@@ -1871,6 +2154,10 @@
       "muk"
     ],
     "weight": 30,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -1895,6 +2182,10 @@
       "arcanine"
     ],
     "weight": 19,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Field"
     ]
@@ -1919,6 +2210,10 @@
     "prevo": "magikarp",
     "evoLevel": 20,
     "weight": 235,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 2",
       "Dragon"
@@ -1941,12 +2236,16 @@
       "spd": 55,
       "spe": 95
     },
+    "prevo": "gastly",
     "evos": [
       "gengar"
     ],
-    "prevo": "gastly",
     "evoLevel": 25,
     "weight": 0.1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -1969,6 +2268,10 @@
       "spe": 85
     },
     "weight": 54,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -1992,6 +2295,7 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat < its Def stat",
     "evoLevel": 20,
+    "gender": "M",
     "weight": 50.2,
     "eggGroups": [
       "Human-Like"
@@ -2016,6 +2320,7 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat > its Def stat",
     "evoLevel": 20,
+    "gender": "M",
     "weight": 49.8,
     "eggGroups": [
       "Human-Like"
@@ -2040,6 +2345,7 @@
     "prevo": "tyrogue",
     "evoCondition": "with an Atk stat equal to its Def stat",
     "evoLevel": 20,
+    "gender": "M",
     "weight": 48,
     "eggGroups": [
       "Human-Like"
@@ -2062,6 +2368,7 @@
       "spd": 154,
       "spe": 90
     },
+    "gender": "N",
     "weight": 199,
     "eggGroups": [
       "Undiscovered"
@@ -2091,6 +2398,10 @@
       "noctowl"
     ],
     "weight": 21.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -2116,6 +2427,10 @@
       "skiploom"
     ],
     "weight": 0.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Fairy",
       "Grass"
@@ -2141,6 +2456,10 @@
       "seadra"
     ],
     "weight": 8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Dragon"
@@ -2166,6 +2485,10 @@
     "prevo": "houndour",
     "evoLevel": 24,
     "weight": 35,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -2191,6 +2514,10 @@
       "houndoom"
     ],
     "weight": 10.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -2214,6 +2541,10 @@
     "prevo": "drowzee",
     "evoLevel": 26,
     "weight": 75.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -2238,6 +2569,10 @@
       "jigglypuff"
     ],
     "weight": 1,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Undiscovered"
     ]
@@ -2259,12 +2594,16 @@
       "spd": 80,
       "spe": 60
     },
+    "prevo": "bulbasaur",
     "evos": [
       "venusaur"
     ],
-    "prevo": "bulbasaur",
     "evoLevel": 16,
     "weight": 13,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Grass"
@@ -2286,12 +2625,16 @@
       "spd": 25,
       "spe": 20
     },
+    "prevo": "igglybuff",
     "evos": [
       "wigglytuff"
     ],
-    "prevo": "igglybuff",
     "evoType": "levelFriendship",
     "weight": 5.5,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Fairy"
     ]
@@ -2316,6 +2659,10 @@
     "evoType": "useItem",
     "evoItem": "Thunder Stone",
     "weight": 24.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -2340,6 +2687,10 @@
     "prevo": "skiploom",
     "evoLevel": 27,
     "weight": 3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Fairy",
       "Grass"
@@ -2364,6 +2715,7 @@
     },
     "prevo": "smoochum",
     "evoLevel": 30,
+    "gender": "F",
     "weight": 40.6,
     "eggGroups": [
       "Human-Like"
@@ -2390,6 +2742,10 @@
       "kabutops"
     ],
     "weight": 11.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -2415,6 +2771,10 @@
     "prevo": "kabuto",
     "evoLevel": 40,
     "weight": 40.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -2436,12 +2796,16 @@
       "spd": 70,
       "spe": 105
     },
+    "prevo": "abra",
     "evos": [
       "alakazam"
     ],
-    "prevo": "abra",
     "evoLevel": 16,
     "weight": 56.5,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -2463,12 +2827,16 @@
       "spd": 25,
       "spe": 35
     },
+    "prevo": "weedle",
     "evos": [
       "beedrill"
     ],
-    "prevo": "weedle",
     "evoLevel": 7,
     "weight": 10,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -2489,6 +2857,7 @@
       "spd": 80,
       "spe": 90
     },
+    "gender": "F",
     "weight": 80,
     "eggGroups": [
       "Monster"
@@ -2515,6 +2884,10 @@
     "evoType": "trade",
     "evoItem": "Dragon Scale",
     "weight": 152,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Dragon"
@@ -2539,6 +2912,10 @@
     "prevo": "krabby",
     "evoLevel": 28,
     "weight": 60,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 3"
     ]
@@ -2563,6 +2940,10 @@
       "weezing"
     ],
     "weight": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -2587,6 +2968,10 @@
       "kingler"
     ],
     "weight": 6.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 3"
     ]
@@ -2611,6 +2996,10 @@
     "prevo": "chinchou",
     "evoLevel": 27,
     "weight": 22.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 2"
     ]
@@ -2633,6 +3022,10 @@
       "spe": 60
     },
     "weight": 220,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -2659,6 +3052,10 @@
       "pupitar"
     ],
     "weight": 72,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster"
     ]
@@ -2683,6 +3080,10 @@
     "prevo": "ledyba",
     "evoLevel": 18,
     "weight": 35.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -2708,6 +3109,10 @@
       "ledian"
     ],
     "weight": 10.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -2729,6 +3134,10 @@
       "spe": 30
     },
     "weight": 65.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster"
     ]
@@ -2750,6 +3159,7 @@
       "spd": 154,
       "spe": 110
     },
+    "gender": "N",
     "weight": 216,
     "eggGroups": [
       "Undiscovered"
@@ -2777,6 +3187,10 @@
     "prevo": "machoke",
     "evoType": "trade",
     "weight": 130,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -2797,12 +3211,16 @@
       "spd": 60,
       "spe": 45
     },
+    "prevo": "machop",
     "evos": [
       "machamp"
     ],
-    "prevo": "machop",
     "evoLevel": 28,
     "weight": 70.5,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -2827,6 +3245,10 @@
       "machoke"
     ],
     "weight": 19.5,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -2851,6 +3273,10 @@
       "magmar"
     ],
     "weight": 21.4,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Undiscovered"
     ]
@@ -2875,6 +3301,10 @@
     "prevo": "slugma",
     "evoLevel": 38,
     "weight": 55,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -2899,6 +3329,10 @@
       "gyarados"
     ],
     "weight": 10,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 2",
       "Dragon"
@@ -2923,6 +3357,10 @@
     "prevo": "magby",
     "evoLevel": 30,
     "weight": 44.5,
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -2947,6 +3385,7 @@
     "evos": [
       "magneton"
     ],
+    "gender": "N",
     "weight": 6,
     "eggGroups": [
       "Mineral"
@@ -2971,6 +3410,7 @@
     },
     "prevo": "magnemite",
     "evoLevel": 30,
+    "gender": "N",
     "weight": 60,
     "eggGroups": [
       "Mineral"
@@ -2996,6 +3436,10 @@
       "primeape"
     ],
     "weight": 28,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -3020,6 +3464,10 @@
     "evoType": "levelExtra",
     "evoCondition": "with a Remoraid in party",
     "weight": 220,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1"
     ]
@@ -3044,6 +3492,10 @@
       "flaaffy"
     ],
     "weight": 7.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Field"
@@ -3070,6 +3522,10 @@
     ],
     "evoType": "levelFriendship",
     "weight": 8.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Fairy"
@@ -3094,6 +3550,10 @@
     "prevo": "cubone",
     "evoLevel": 28,
     "weight": 45,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster"
     ]
@@ -3117,6 +3577,10 @@
     "prevo": "bayleef",
     "evoLevel": 32,
     "weight": 100.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Grass"
@@ -3142,6 +3606,10 @@
       "persian"
     ],
     "weight": 4.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -3162,12 +3630,16 @@
       "spd": 25,
       "spe": 30
     },
+    "prevo": "caterpie",
     "evos": [
       "butterfree"
     ],
-    "prevo": "caterpie",
     "evoLevel": 7,
     "weight": 9.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -3188,6 +3660,7 @@
       "spd": 100,
       "spe": 100
     },
+    "gender": "N",
     "weight": 4,
     "eggGroups": [
       "Undiscovered"
@@ -3212,6 +3685,7 @@
       "spd": 90,
       "spe": 130
     },
+    "gender": "N",
     "weight": 122,
     "eggGroups": [
       "Undiscovered"
@@ -3236,6 +3710,7 @@
       "spd": 70,
       "spe": 100
     },
+    "gender": "F",
     "weight": 75.5,
     "eggGroups": [
       "Field"
@@ -3258,6 +3733,10 @@
       "spe": 85
     },
     "weight": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -3279,6 +3758,7 @@
       "spd": 85,
       "spe": 90
     },
+    "gender": "N",
     "weight": 60,
     "eggGroups": [
       "Undiscovered"
@@ -3306,6 +3786,10 @@
     "evoType": "levelMove",
     "evoMove": "Mimic",
     "weight": 54.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Human-Like"
     ]
@@ -3329,6 +3813,10 @@
     "prevo": "grimer",
     "evoLevel": 38,
     "weight": 30,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -3351,6 +3839,10 @@
       "spe": 91
     },
     "weight": 2.1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -3376,6 +3868,10 @@
       "xatu"
     ],
     "weight": 2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -3400,6 +3896,7 @@
     "prevo": "nidorino",
     "evoType": "useItem",
     "evoItem": "Moon Stone",
+    "gender": "M",
     "weight": 62,
     "eggGroups": [
       "Monster",
@@ -3426,6 +3923,7 @@
     "prevo": "nidorina",
     "evoType": "useItem",
     "evoItem": "Moon Stone",
+    "gender": "F",
     "weight": 60,
     "eggGroups": [
       "Undiscovered"
@@ -3450,6 +3948,7 @@
     "evos": [
       "nidorina"
     ],
+    "gender": "F",
     "weight": 7,
     "eggGroups": [
       "Monster",
@@ -3475,6 +3974,7 @@
     "evos": [
       "nidorino"
     ],
+    "gender": "M",
     "weight": 9,
     "eggGroups": [
       "Monster",
@@ -3497,11 +3997,12 @@
       "spd": 55,
       "spe": 56
     },
+    "prevo": "nidoranf",
     "evos": [
       "nidoqueen"
     ],
-    "prevo": "nidoranf",
     "evoLevel": 16,
+    "gender": "F",
     "weight": 20,
     "eggGroups": [
       "Undiscovered"
@@ -3523,11 +4024,12 @@
       "spd": 55,
       "spe": 65
     },
+    "prevo": "nidoranm",
     "evos": [
       "nidoking"
     ],
-    "prevo": "nidoranm",
     "evoLevel": 16,
+    "gender": "M",
     "weight": 19.5,
     "eggGroups": [
       "Monster",
@@ -3554,6 +4056,10 @@
     "evoType": "useItem",
     "evoItem": "Fire Stone",
     "weight": 19.9,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Field"
     ]
@@ -3578,6 +4084,10 @@
     "prevo": "hoothoot",
     "evoLevel": 20,
     "weight": 40.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -3601,6 +4111,10 @@
     "prevo": "remoraid",
     "evoLevel": 25,
     "weight": 28.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Water 2"
@@ -3627,6 +4141,10 @@
       "gloom"
     ],
     "weight": 5.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -3652,6 +4170,10 @@
       "omastar"
     ],
     "weight": 7.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -3677,6 +4199,10 @@
     "prevo": "omanyte",
     "evoLevel": 40,
     "weight": 35,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -3703,6 +4229,10 @@
       "steelix"
     ],
     "weight": 210,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Mineral"
     ]
@@ -3728,6 +4258,10 @@
       "parasect"
     ],
     "weight": 5.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug",
       "Grass"
@@ -3753,6 +4287,10 @@
     "prevo": "paras",
     "evoLevel": 24,
     "weight": 29.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug",
       "Grass"
@@ -3777,6 +4315,10 @@
     "prevo": "meowth",
     "evoLevel": 28,
     "weight": 32,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -3801,6 +4343,10 @@
       "donphan"
     ],
     "weight": 33.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -3825,6 +4371,10 @@
       "pikachu"
     ],
     "weight": 2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Undiscovered"
     ]
@@ -3849,6 +4399,10 @@
     "prevo": "pidgeotto",
     "evoLevel": 36,
     "weight": 39.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -3870,12 +4424,16 @@
       "spd": 50,
       "spe": 71
     },
+    "prevo": "pidgey",
     "evos": [
       "pidgeot"
     ],
-    "prevo": "pidgey",
     "evoLevel": 18,
     "weight": 30,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -3901,6 +4459,10 @@
       "pidgeotto"
     ],
     "weight": 1.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -3921,12 +4483,16 @@
       "spd": 40,
       "spe": 90
     },
+    "prevo": "pichu",
     "evos": [
       "raichu"
     ],
-    "prevo": "pichu",
     "evoType": "levelFriendship",
     "weight": 6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field",
       "Fairy"
@@ -3952,6 +4518,10 @@
     "prevo": "swinub",
     "evoLevel": 33,
     "weight": 55.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -3976,6 +4546,10 @@
       "forretress"
     ],
     "weight": 7.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -3997,6 +4571,10 @@
       "spe": 85
     },
     "weight": 55,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -4021,6 +4599,10 @@
     "evoType": "trade",
     "evoItem": "King's Rock",
     "weight": 33.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1"
     ]
@@ -4045,6 +4627,10 @@
       "poliwhirl"
     ],
     "weight": 12.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1"
     ]
@@ -4065,13 +4651,17 @@
       "spd": 50,
       "spe": 90
     },
+    "prevo": "poliwag",
     "evos": [
       "poliwrath",
       "politoed"
     ],
-    "prevo": "poliwag",
     "evoLevel": 25,
     "weight": 20,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1"
     ]
@@ -4097,6 +4687,10 @@
     "evoType": "useItem",
     "evoItem": "Water Stone",
     "weight": 54,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1"
     ]
@@ -4121,6 +4715,10 @@
       "rapidash"
     ],
     "weight": 30,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4144,6 +4742,7 @@
     "evos": [
       "porygon2"
     ],
+    "gender": "N",
     "weight": 36.5,
     "eggGroups": [
       "Mineral"
@@ -4168,6 +4767,7 @@
     "prevo": "porygon",
     "evoType": "trade",
     "evoItem": "Up-Grade",
+    "gender": "N",
     "weight": 32.5,
     "eggGroups": [
       "Mineral"
@@ -4192,6 +4792,10 @@
     "prevo": "mankey",
     "evoLevel": 28,
     "weight": 32,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4216,6 +4820,10 @@
       "golduck"
     ],
     "weight": 19.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Field"
@@ -4238,12 +4846,16 @@
       "spd": 70,
       "spe": 51
     },
+    "prevo": "larvitar",
     "evos": [
       "tyranitar"
     ],
-    "prevo": "larvitar",
     "evoLevel": 30,
     "weight": 152,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster"
     ]
@@ -4268,6 +4880,10 @@
     "prevo": "wooper",
     "evoLevel": 20,
     "weight": 75,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Field"
@@ -4289,12 +4905,16 @@
       "spd": 65,
       "spe": 80
     },
+    "prevo": "cyndaquil",
     "evos": [
       "typhlosion"
     ],
-    "prevo": "cyndaquil",
     "evoLevel": 14,
     "weight": 19,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4317,6 +4937,10 @@
       "spe": 85
     },
     "weight": 3.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 2"
     ]
@@ -4341,6 +4965,10 @@
     "evoType": "useItem",
     "evoItem": "Thunder Stone",
     "weight": 30,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field",
       "Fairy"
@@ -4362,6 +4990,7 @@
       "spd": 100,
       "spe": 115
     },
+    "gender": "N",
     "weight": 178,
     "eggGroups": [
       "Undiscovered"
@@ -4389,6 +5018,10 @@
     "prevo": "ponyta",
     "evoLevel": 40,
     "weight": 95,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4412,6 +5045,10 @@
     "prevo": "rattata",
     "evoLevel": 20,
     "weight": 18.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4436,6 +5073,10 @@
       "raticate"
     ],
     "weight": 3.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4460,6 +5101,10 @@
       "octillery"
     ],
     "weight": 12,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Water 2"
@@ -4485,6 +5130,10 @@
     "prevo": "rhyhorn",
     "evoLevel": 42,
     "weight": 120,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Field"
@@ -4511,6 +5160,10 @@
       "rhydon"
     ],
     "weight": 115,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Field"
@@ -4536,6 +5189,10 @@
       "sandslash"
     ],
     "weight": 12,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4559,6 +5216,10 @@
     "prevo": "sandshrew",
     "evoLevel": 22,
     "weight": 29.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4584,6 +5245,10 @@
     "evoType": "trade",
     "evoItem": "Metal Coat",
     "weight": 118,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -4609,6 +5274,10 @@
       "scizor"
     ],
     "weight": 56,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -4629,12 +5298,16 @@
       "spd": 45,
       "spe": 85
     },
+    "prevo": "horsea",
     "evos": [
       "kingdra"
     ],
-    "prevo": "horsea",
     "evoLevel": 32,
     "weight": 25,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Dragon"
@@ -4659,6 +5332,10 @@
     "prevo": "goldeen",
     "evoLevel": 33,
     "weight": 39,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 2"
     ]
@@ -4683,6 +5360,10 @@
       "dewgong"
     ],
     "weight": 90,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Field"
@@ -4708,6 +5389,10 @@
       "furret"
     ],
     "weight": 6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4732,6 +5417,10 @@
       "cloyster"
     ],
     "weight": 4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 3"
     ]
@@ -4754,6 +5443,10 @@
       "spe": 5
     },
     "weight": 20.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -4776,6 +5469,10 @@
       "spe": 70
     },
     "weight": 50.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -4797,12 +5494,16 @@
       "spd": 65,
       "spe": 80
     },
+    "prevo": "hoppip",
     "evos": [
       "jumpluff"
     ],
-    "prevo": "hoppip",
     "evoLevel": 18,
     "weight": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Fairy",
       "Grass"
@@ -4828,6 +5529,10 @@
     "prevo": "slowpoke",
     "evoLevel": 37,
     "weight": 78.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -4854,6 +5559,10 @@
     "evoType": "trade",
     "evoItem": "King's Rock",
     "weight": 79.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -4881,6 +5590,10 @@
       "slowking"
     ],
     "weight": 36,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -4906,6 +5619,10 @@
       "magcargo"
     ],
     "weight": 35,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -4927,6 +5644,10 @@
       "spe": 75
     },
     "weight": 58,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4951,6 +5672,7 @@
     "evos": [
       "jynx"
     ],
+    "gender": "F",
     "weight": 6,
     "eggGroups": [
       "Undiscovered"
@@ -4974,6 +5696,10 @@
       "spe": 115
     },
     "weight": 28,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -4996,6 +5722,10 @@
     },
     "evoType": "levelFriendship",
     "weight": 460,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster"
     ]
@@ -5020,6 +5750,10 @@
       "granbull"
     ],
     "weight": 7.8,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Field",
       "Fairy"
@@ -5046,6 +5780,10 @@
       "fearow"
     ],
     "weight": 2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -5071,6 +5809,10 @@
       "ariados"
     ],
     "weight": 8.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -5095,6 +5837,10 @@
       "wartortle"
     ],
     "weight": 9,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -5117,6 +5863,10 @@
       "spe": 85
     },
     "weight": 71.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5141,6 +5891,7 @@
     "prevo": "staryu",
     "evoType": "useItem",
     "evoItem": "Water Stone",
+    "gender": "N",
     "weight": 80,
     "eggGroups": [
       "Water 3"
@@ -5165,6 +5916,7 @@
     "evos": [
       "starmie"
     ],
+    "gender": "N",
     "weight": 34.5,
     "eggGroups": [
       "Water 3"
@@ -5191,6 +5943,10 @@
     "evoType": "trade",
     "evoItem": "Metal Coat",
     "weight": 400,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Mineral"
     ]
@@ -5214,6 +5970,10 @@
     "evoType": "levelMove",
     "evoMove": "Mimic",
     "weight": 38,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Mineral"
     ]
@@ -5234,6 +5994,7 @@
       "spd": 115,
       "spe": 85
     },
+    "gender": "N",
     "weight": 187,
     "eggGroups": [
       "Undiscovered"
@@ -5262,6 +6023,10 @@
     "evoType": "useItem",
     "evoItem": "Sun Stone",
     "weight": 8.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -5286,6 +6051,10 @@
       "sunflora"
     ],
     "weight": 1.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -5311,6 +6080,10 @@
       "piloswine"
     ],
     "weight": 6.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5332,6 +6105,10 @@
       "spe": 60
     },
     "weight": 35,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -5352,6 +6129,7 @@
       "spd": 70,
       "spe": 110
     },
+    "gender": "M",
     "weight": 88.4,
     "eggGroups": [
       "Field"
@@ -5377,6 +6155,10 @@
       "ursaring"
     ],
     "weight": 8.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5402,6 +6184,10 @@
       "tentacruel"
     ],
     "weight": 45.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 3"
     ]
@@ -5426,6 +6212,10 @@
     "prevo": "tentacool",
     "evoLevel": 30,
     "weight": 55,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 3"
     ]
@@ -5450,6 +6240,10 @@
       "togetic"
     ],
     "weight": 1.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Undiscovered"
     ]
@@ -5474,6 +6268,10 @@
     "prevo": "togepi",
     "evoType": "levelFriendship",
     "weight": 3.2,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Flying",
       "Fairy"
@@ -5499,6 +6297,10 @@
       "croconaw"
     ],
     "weight": 9.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -5523,6 +6325,10 @@
     "prevo": "quilava",
     "evoLevel": 36,
     "weight": 79.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5547,6 +6353,10 @@
     "prevo": "pupitar",
     "evoLevel": 55,
     "weight": 202,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Monster"
     ]
@@ -5572,6 +6382,7 @@
       "hitmonchan",
       "hitmontop"
     ],
+    "gender": "M",
     "weight": 21,
     "eggGroups": [
       "Undiscovered"
@@ -5597,6 +6408,10 @@
     "evoType": "levelFriendship",
     "evoCondition": "at night",
     "weight": 27,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5617,6 +6432,7 @@
       "spd": 48,
       "spe": 48
     },
+    "gender": "N",
     "weight": 5,
     "eggGroups": [
       "Undiscovered"
@@ -5641,6 +6457,10 @@
     "prevo": "teddiursa",
     "evoLevel": 30,
     "weight": 125.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5665,6 +6485,10 @@
     "evoType": "useItem",
     "evoItem": "Water Stone",
     "weight": 29,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5689,6 +6513,10 @@
     "prevo": "venonat",
     "evoLevel": 31,
     "weight": 12.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -5714,6 +6542,10 @@
       "venomoth"
     ],
     "weight": 30,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -5738,6 +6570,10 @@
     "prevo": "ivysaur",
     "evoLevel": 32,
     "weight": 100,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Grass"
@@ -5764,6 +6600,10 @@
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
     "weight": 15.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -5789,6 +6629,10 @@
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
     "weight": 18.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -5812,6 +6656,7 @@
     "evos": [
       "electrode"
     ],
+    "gender": "N",
     "weight": 10.4,
     "eggGroups": [
       "Mineral"
@@ -5837,6 +6682,10 @@
       "ninetales"
     ],
     "weight": 9.9,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Field"
     ]
@@ -5857,12 +6706,16 @@
       "spd": 80,
       "spe": 58
     },
+    "prevo": "squirtle",
     "evos": [
       "blastoise"
     ],
-    "prevo": "squirtle",
     "evoLevel": 16,
     "weight": 22.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -5889,6 +6742,10 @@
       "kakuna"
     ],
     "weight": 3.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -5910,12 +6767,16 @@
       "spd": 45,
       "spe": 55
     },
+    "prevo": "bellsprout",
     "evos": [
       "victreebel"
     ],
-    "prevo": "bellsprout",
     "evoLevel": 21,
     "weight": 6.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Grass"
     ]
@@ -5939,6 +6800,10 @@
     "prevo": "koffing",
     "evoLevel": 35,
     "weight": 9.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -5963,6 +6828,10 @@
     "evoType": "useItem",
     "evoItem": "Moon Stone",
     "weight": 12,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
     "eggGroups": [
       "Fairy"
     ]
@@ -5985,6 +6854,10 @@
     },
     "evoLevel": 15,
     "weight": 28.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Amorphous"
     ]
@@ -6010,6 +6883,10 @@
       "quagsire"
     ],
     "weight": 8.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Water 1",
       "Field"
@@ -6035,6 +6912,10 @@
     "prevo": "natu",
     "evoLevel": 25,
     "weight": 15,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]
@@ -6057,6 +6938,10 @@
       "spe": 95
     },
     "weight": 38,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Bug"
     ]
@@ -6078,6 +6963,7 @@
       "spd": 90,
       "spe": 100
     },
+    "gender": "N",
     "weight": 52.6,
     "eggGroups": [
       "Undiscovered"
@@ -6107,6 +6993,10 @@
       "golbat"
     ],
     "weight": 7.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
     "eggGroups": [
       "Flying"
     ]

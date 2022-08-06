@@ -3,6 +3,7 @@ import { Dex } from '@pkmn/dex';
 import { Generations, GenerationNum } from '@pkmn/data';
 import { exportTypes } from './type';
 import { exportNatures } from './nature';
+import { exportAbilities } from './ability';
 
 const target = './generated/';
 
@@ -20,6 +21,7 @@ async function main() {
 
       await exportTypes(gen, target);
       await exportNatures(gen, target);
+      await exportAbilities(gen, target);
 
       console.log('');
     }

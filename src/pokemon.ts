@@ -45,6 +45,15 @@ export async function exportPokemon(
 
     const region = getRegion(species);
 
+    let gmaxMove;
+    if (hasDynamax) {
+      gmaxMove = getMoveSlug(species.canGigantamax ?? '', gen);
+
+      if (!gmaxMove && baseSpecies) {
+        gmaxMove = getMoveSlug(baseSpecies.canGigantamax ?? '', gen);
+      }
+    }
+
     result.push({
       // -- General
       slug: species.id,
@@ -54,7 +63,7 @@ export async function exportPokemon(
       num: species.num,
       baseStats: species.baseStats,
       abilities: getAbilitySlugs(species.abilities, gen),
-      unreleasedHidden: species.unreleasedHidden || undefined,
+      hiddenAbilityUnreleased: species.unreleasedHidden || undefined,
 
       // something weird about hidden abilities in gen 5
       // maleOnlyHidden: species.maleOnlyHidden || undefined,
@@ -75,19 +84,23 @@ export async function exportPokemon(
       // if set then this species is a forme
       // is just a string to display (e.g. is "Blade" for Aegislash-Blade)
       // will not be set on the base forme (e.g. is null for Aegislash)
-      forme: species.forme || undefined,
+      formeName: species.forme || undefined,
 
       // base species for formes that have their own species entry
-      // can be different from `changesFrom` (e.g. is "Raichu" for Raichu-Alola)
+      // e.g. is "Raichu" for Raichu-Alola
       baseSpecies: baseSpecies ? baseSpecies.id : undefined,
 
       // name of the base forme
       // will not be set on the base forme (e.g. is null for Aegislash)
       // e.g. is "Aegislash" for Aegislash-Blade
-      changesFrom: getSpeciesSlug(species.changesFrom, gen),
+      // only included if different from `baseSpecies`
+      changesFrom:
+        !baseSpecies || baseSpecies.name !== species.changesFrom
+          ? getSpeciesSlug(species.changesFrom, gen)
+          : undefined,
 
       // name of the base forme if this forme is battly only
-      // should always be the same as changesFrom (unless it's an array of multiple forms)
+      // should always be the same as `changesFrom` (unless it's an array of multiple forms)
       // battleOnly: getSpeciesSlug(species.battleOnly, gen),
 
       // there may be requirements (having an ability, holding an item, knowing a move) to change forme
@@ -99,17 +112,19 @@ export async function exportPokemon(
           : undefined,
       requiredMove: getMoveSlug(species.requiredMove ?? '', gen),
 
-      isBattleOnlyForme: !!species.battleOnly || undefined,
+      region: region || undefined,
+
+      isBattleOnly: !!species.battleOnly || undefined,
 
       isMega: species.isMega,
       isPrimal: species.isPrimal,
       isTotem: species.forme === 'Totem' || undefined,
-      region: region || undefined,
+      isGmax: species.isNonstandard === 'Gigantamax' || undefined,
 
       // name of base forme
       // is just a string to display (e.g. is "Shield" for Aegislash)
       // will not be set on formes (e.g. is null for Aegislash-Blade)
-      baseForme: species.baseForme || undefined,
+      baseFormeName: species.baseForme || undefined,
 
       // list of all available formes (base forme + otherFormes + cosmeticFormes)
       // only included if there is more than 1
@@ -122,7 +137,7 @@ export async function exportPokemon(
       // list of all formes that have a species entry
       // the base forme is not included in the list
       // only set on the base forme (e.g. is null for Aegislash-Blade)
-      otherFormes: getSpeciesSlugs(species.otherFormes, gen),
+      formes: getSpeciesSlugs(species.otherFormes, gen),
 
       // list of all cosmetic formes that _don't_ have a species entry
       // the base forme is not included in the list
@@ -147,9 +162,7 @@ export async function exportPokemon(
       cannotDynamax: hasDynamax
         ? species.cannotDynamax || undefined
         : undefined,
-
-      // redundant, check gmaxMove instead
-      // canGmax: hasDynamax ? !!species.canGigantamax || undefined : undefined,
+      canGmax: hasDynamax ? !!species.canGigantamax || undefined : undefined,
 
       gmaxUnreleased: hasDynamax
         ? species.gmaxUnreleased || undefined
@@ -164,13 +177,12 @@ export async function exportPokemon(
 
       // TODO learnsets
       // name of the exclusive G-Max move
-      gmaxMove: hasDynamax
-        ? getMoveSlug(species.canGigantamax ?? '', gen)
-        : undefined,
+      gmaxMove,
     });
 
     // Optional logging if `baseSpecies` is different from `changesFrom`
     // if (
+    //   species.changesFrom &&
     //   species.name !== species.baseSpecies &&
     //   species.baseSpecies !== species.changesFrom
     // ) {
@@ -179,7 +191,9 @@ export async function exportPokemon(
     //     '\tbaseSpecies -->',
     //     species.baseSpecies,
     //     '\tchangesFrom -->',
-    //     species.changesFrom
+    //     species.changesFrom,
+    //     '\tisBattleOnly -->',
+    //     !!species.battleOnly
     //   );
     // }
 

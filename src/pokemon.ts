@@ -23,6 +23,7 @@ export async function exportPokemon(
   // const data = await fs.readJson(`./data/pokemon.json`);
 
   const hasEggs = gen.num >= 2;
+  const hasDynamax = gen.num === 8;
 
   let result = [];
 
@@ -36,6 +37,10 @@ export async function exportPokemon(
       num: species.num,
       baseStats: species.baseStats,
       abilities: getAbilitySlugs(species.abilities, gen),
+      unreleasedHidden: species.unreleasedHidden || undefined,
+
+      // something weird about hidden abilities in gen 5
+      // maleOnlyHidden: species.maleOnlyHidden || undefined,
 
       // -- Evolutions
       prevo: getSpeciesSlug(species.prevo, gen),
@@ -46,16 +51,30 @@ export async function exportPokemon(
       evoItem: species.evoItem,
       evoMove: species.evoMove,
 
+      // not final evolution (if true it could still evolve)
+      // nfe: species.nfe,
+
       // -- Formes
       // if set then this species is a forme
       // is just a string to display (e.g. is "Blade" for Aegislash-Blade)
       // will not be set on the base forme (e.g. is null for Aegislash)
       forme: species.forme || undefined,
 
+      // base species for formes that have their own species entry
+      // can be different from `changesFrom` (e.g. is "Raichu" for Raichu-Alola)
+      baseSpecies:
+        species.baseSpecies !== species.name
+          ? getSpeciesSlug(species.baseSpecies, gen)
+          : undefined,
+
       // name of the base forme
       // will not be set on the base forme (e.g. is null for Aegislash)
       // e.g. is "Aegislash" for Aegislash-Blade
       changesFrom: getSpeciesSlug(species.changesFrom, gen),
+
+      // name of the base forme if this forme is battly only
+      // should always be the same as changesFrom (unless it's an array of multiple forms)
+      // battleOnly: getSpeciesSlug(species.battleOnly, gen),
 
       // there may be requirements (having an ability, holding an item, knowing a move) to change forme
       requiredAbility: getAbilitySlug(species.requiredAbility ?? '', gen),
@@ -65,6 +84,11 @@ export async function exportPokemon(
           ? getItemSlugs(species.requiredItems, gen)
           : undefined,
       requiredMove: getMoveSlug(species.requiredMove ?? '', gen),
+
+      isBattleOnlyForme: !!species.battleOnly || undefined,
+
+      isMega: species.isMega,
+      isPrimal: species.isPrimal,
 
       // name of base forme
       // is just a string to display (e.g. is "Shield" for Aegislash)
@@ -98,16 +122,45 @@ export async function exportPokemon(
       gender: species.gender,
       genderRatio: hasEggs && !species.gender ? species.genderRatio : undefined,
       eggGroups: hasEggs ? species.eggGroups : undefined,
+      canHatch: hasEggs ? species.canHatch || undefined : undefined,
 
       // -- Classifications
+      // Shedinja: max HP is always 1
+      // maxHP: species.maxHP,
+
+      cannotDynamax: hasDynamax
+        ? species.cannotDynamax || undefined
+        : undefined,
+      // canGmax: hasDynamax ? !!species.canGigantamax || undefined : undefined,
+      gmaxUnreleased: hasDynamax
+        ? species.gmaxUnreleased || undefined
+        : undefined,
+      // isNonstandard: species.isNonstandard || undefined,
       // TODO handle tags
-      isNonstandard: species.isNonstandard || undefined,
       tags: species.tags.length ? species.tags : undefined,
 
       // flavorText: data[species.id]?.flavorText,
+
+      // TODO learnsets
+      // name of the exclusive G-Max move
+      gmaxMove: hasDynamax
+        ? getMoveSlug(species.canGigantamax ?? '', gen)
+        : undefined,
     });
 
-    // TODO learnsets
+    // Optional logging if `baseSpecies` is different from `changesFrom`
+    // if (
+    //   species.name !== species.baseSpecies &&
+    //   species.baseSpecies !== species.changesFrom
+    // ) {
+    //   console.log(
+    //     species.name,
+    //     '\tbaseSpecies -->',
+    //     species.baseSpecies,
+    //     '\tchangesFrom -->',
+    //     species.changesFrom
+    //   );
+    // }
 
     for (const abilityName of Object.values(species.abilities)) {
       const abilitySlug = getAbilitySlug(abilityName, gen);

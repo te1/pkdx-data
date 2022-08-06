@@ -61,7 +61,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "absol",
@@ -90,7 +91,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "aerodactyl",
@@ -120,7 +122,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "aggron",
@@ -184,7 +187,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "alakazam",
@@ -342,7 +346,8 @@
     },
     "eggGroups": [
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "arbok",
@@ -475,6 +480,7 @@
       "0": "multitype"
     },
     "forme": "Bug",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -505,6 +511,7 @@
       "0": "multitype"
     },
     "forme": "Dark",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -535,6 +542,7 @@
       "0": "multitype"
     },
     "forme": "Dragon",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -565,6 +573,7 @@
       "0": "multitype"
     },
     "forme": "Electric",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -595,6 +604,7 @@
       "0": "multitype"
     },
     "forme": "Fighting",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -625,6 +635,7 @@
       "0": "multitype"
     },
     "forme": "Fire",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -655,6 +666,7 @@
       "0": "multitype"
     },
     "forme": "Flying",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -685,6 +697,7 @@
       "0": "multitype"
     },
     "forme": "Ghost",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -715,6 +728,7 @@
       "0": "multitype"
     },
     "forme": "Grass",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -745,6 +759,7 @@
       "0": "multitype"
     },
     "forme": "Ground",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -775,6 +790,7 @@
       "0": "multitype"
     },
     "forme": "Ice",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -805,6 +821,7 @@
       "0": "multitype"
     },
     "forme": "Poison",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -835,6 +852,7 @@
       "0": "multitype"
     },
     "forme": "Psychic",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -865,6 +883,7 @@
       "0": "multitype"
     },
     "forme": "Rock",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -895,6 +914,7 @@
       "0": "multitype"
     },
     "forme": "Steel",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -925,6 +945,7 @@
       "0": "multitype"
     },
     "forme": "Water",
+    "baseSpecies": "arceus",
     "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
@@ -1029,7 +1050,8 @@
     },
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "articuno",
@@ -1051,6 +1073,7 @@
     "abilities": {
       "0": "pressure"
     },
+    "unreleasedHidden": true,
     "weight": 55.4,
     "gender": "N",
     "eggGroups": [
@@ -1150,7 +1173,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "bagon",
@@ -1181,7 +1205,8 @@
     },
     "eggGroups": [
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "baltoy",
@@ -1210,7 +1235,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "banette",
@@ -1274,7 +1300,8 @@
     },
     "eggGroups": [
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "bastiodon",
@@ -1326,6 +1353,7 @@
     "abilities": {
       "0": "overgrow"
     },
+    "unreleasedHidden": true,
     "prevo": "chikorita",
     "evos": [
       "meganium"
@@ -1430,7 +1458,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "bellossom",
@@ -1493,7 +1522,8 @@
     },
     "eggGroups": [
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "bibarel",
@@ -1559,7 +1589,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "blastoise",
@@ -1681,7 +1712,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "breloom",
@@ -1773,7 +1805,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "budew",
@@ -1806,7 +1839,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "buizel",
@@ -1838,7 +1872,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "bulbasaur",
@@ -1871,7 +1906,8 @@
     "eggGroups": [
       "Monster",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "buneary",
@@ -1904,7 +1940,8 @@
     "eggGroups": [
       "Field",
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "burmy",
@@ -1943,7 +1980,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "butterfree",
@@ -2006,7 +2044,8 @@
     "eggGroups": [
       "Grass",
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "cacturne",
@@ -2098,7 +2137,8 @@
     },
     "eggGroups": [
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "carvanha",
@@ -2130,7 +2170,8 @@
     },
     "eggGroups": [
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "cascoon",
@@ -2197,7 +2238,8 @@
     "eggGroups": [
       "Fairy",
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "castformrainy",
@@ -2219,8 +2261,10 @@
       "0": "forecast"
     },
     "forme": "Rainy",
+    "baseSpecies": "castform",
     "changesFrom": "castform",
     "requiredAbility": "forecast",
+    "isBattleOnlyForme": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -2229,7 +2273,8 @@
     "eggGroups": [
       "Fairy",
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "castformsnowy",
@@ -2251,8 +2296,10 @@
       "0": "forecast"
     },
     "forme": "Snowy",
+    "baseSpecies": "castform",
     "changesFrom": "castform",
     "requiredAbility": "forecast",
+    "isBattleOnlyForme": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -2261,7 +2308,8 @@
     "eggGroups": [
       "Fairy",
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "castformsunny",
@@ -2283,8 +2331,10 @@
       "0": "forecast"
     },
     "forme": "Sunny",
+    "baseSpecies": "castform",
     "changesFrom": "castform",
     "requiredAbility": "forecast",
+    "isBattleOnlyForme": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -2293,7 +2343,8 @@
     "eggGroups": [
       "Fairy",
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "caterpie",
@@ -2324,7 +2375,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "celebi",
@@ -2386,7 +2438,8 @@
     "gender": "F",
     "eggGroups": [
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "charizard",
@@ -2450,7 +2503,8 @@
     "eggGroups": [
       "Monster",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "charmeleon",
@@ -2514,7 +2568,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "cherrim",
@@ -2571,8 +2626,10 @@
       "0": "flowergift"
     },
     "forme": "Sunshine",
+    "baseSpecies": "cherrim",
     "changesFrom": "cherrim",
     "requiredAbility": "flowergift",
+    "isBattleOnlyForme": true,
     "weight": 9.3,
     "genderRatio": {
       "M": 0.5,
@@ -2581,7 +2638,8 @@
     "eggGroups": [
       "Fairy",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "cherubi",
@@ -2613,7 +2671,8 @@
     "eggGroups": [
       "Fairy",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "chikorita",
@@ -2634,6 +2693,7 @@
     "abilities": {
       "0": "overgrow"
     },
+    "unreleasedHidden": true,
     "evos": [
       "bayleef"
     ],
@@ -2645,7 +2705,8 @@
     "eggGroups": [
       "Monster",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "chimchar",
@@ -2677,7 +2738,8 @@
     "eggGroups": [
       "Field",
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "chimecho",
@@ -2708,7 +2770,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "chinchou",
@@ -2741,7 +2804,8 @@
     },
     "eggGroups": [
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "chingling",
@@ -2772,7 +2836,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "clamperl",
@@ -2804,7 +2869,8 @@
     },
     "eggGroups": [
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "claydol",
@@ -2930,7 +2996,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "cloyster",
@@ -2995,7 +3062,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "combusken",
@@ -3062,7 +3130,8 @@
     "eggGroups": [
       "Water 1",
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "corsola",
@@ -3093,7 +3162,8 @@
     "eggGroups": [
       "Water 1",
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "cradily",
@@ -3155,7 +3225,8 @@
     },
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "crawdaunt",
@@ -3249,7 +3320,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "crobat",
@@ -3301,6 +3373,7 @@
     "abilities": {
       "0": "torrent"
     },
+    "unreleasedHidden": true,
     "prevo": "totodile",
     "evos": [
       "feraligatr"
@@ -3346,7 +3419,8 @@
     },
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "cyndaquil",
@@ -3367,6 +3441,7 @@
     "abilities": {
       "0": "blaze"
     },
+    "unreleasedHidden": true,
     "evos": [
       "quilava"
     ],
@@ -3377,7 +3452,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "darkrai",
@@ -3469,7 +3545,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "deoxys",
@@ -3525,6 +3602,7 @@
       "0": "pressure"
     },
     "forme": "Attack",
+    "baseSpecies": "deoxys",
     "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
@@ -3555,6 +3633,7 @@
       "0": "pressure"
     },
     "forme": "Defense",
+    "baseSpecies": "deoxys",
     "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
@@ -3585,6 +3664,7 @@
       "0": "pressure"
     },
     "forme": "Speed",
+    "baseSpecies": "deoxys",
     "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
@@ -3687,7 +3767,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "ditto",
@@ -3777,7 +3858,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "donphan",
@@ -3938,7 +4020,8 @@
     "eggGroups": [
       "Water 1",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "drifblim",
@@ -4003,7 +4086,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "drowzee",
@@ -4035,7 +4119,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "dugtrio",
@@ -4095,7 +4180,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "dusclops",
@@ -4190,7 +4276,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "dustox",
@@ -4259,7 +4346,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "ekans",
@@ -4292,7 +4380,8 @@
     "eggGroups": [
       "Field",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "electabuzz",
@@ -4388,7 +4477,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "electrode",
@@ -4447,7 +4537,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "empoleon",
@@ -4500,6 +4591,7 @@
     "abilities": {
       "0": "pressure"
     },
+    "unreleasedHidden": true,
     "weight": 198,
     "gender": "N",
     "eggGroups": [
@@ -4570,7 +4662,8 @@
     },
     "eggGroups": [
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "exeggutor",
@@ -4664,7 +4757,8 @@
     "eggGroups": [
       "Flying",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "fearow",
@@ -4727,7 +4821,8 @@
     "eggGroups": [
       "Water 1",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "feraligatr",
@@ -4748,6 +4843,7 @@
     "abilities": {
       "0": "torrent"
     },
+    "unreleasedHidden": true,
     "prevo": "croconaw",
     "evoLevel": 30,
     "weight": 88.8,
@@ -4790,7 +4886,8 @@
     },
     "eggGroups": [
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "flaaffy",
@@ -5168,7 +5265,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "gastrodon",
@@ -5269,7 +5367,8 @@
     },
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "gible",
@@ -5302,7 +5401,8 @@
     "eggGroups": [
       "Monster",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "girafarig",
@@ -5332,7 +5432,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "giratina",
@@ -5388,6 +5489,7 @@
       "0": "levitate"
     },
     "forme": "Origin",
+    "baseSpecies": "giratina",
     "changesFrom": "giratina",
     "requiredItem": "griseousorb",
     "weight": 650,
@@ -5493,7 +5595,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "gligar",
@@ -5526,7 +5629,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "gliscor",
@@ -5661,7 +5765,8 @@
     },
     "eggGroups": [
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "golduck",
@@ -5855,7 +5960,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "grotle",
@@ -5983,7 +6089,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "grumpig",
@@ -6046,7 +6153,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "gyarados",
@@ -6107,7 +6215,8 @@
     "gender": "F",
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "hariyama",
@@ -6194,6 +6303,7 @@
     "abilities": {
       "0": "flashfire"
     },
+    "unreleasedHidden": true,
     "weight": 430,
     "genderRatio": {
       "M": 0.5,
@@ -6234,7 +6344,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "hippopotas",
@@ -6265,7 +6376,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "hippowdon",
@@ -6477,7 +6589,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "hoppip",
@@ -6511,7 +6624,8 @@
     "eggGroups": [
       "Fairy",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "horsea",
@@ -6544,7 +6658,8 @@
     "eggGroups": [
       "Water 1",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "houndoom",
@@ -6609,7 +6724,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "huntail",
@@ -6702,7 +6818,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "illumise",
@@ -6729,7 +6846,8 @@
     "eggGroups": [
       "Bug",
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "infernape",
@@ -6985,7 +7103,8 @@
     "eggGroups": [
       "Water 1",
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "kabutops",
@@ -7112,7 +7231,8 @@
     "gender": "F",
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "kecleon",
@@ -7140,7 +7260,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "kingdra",
@@ -7271,7 +7392,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "krabby",
@@ -7303,7 +7425,8 @@
     },
     "eggGroups": [
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "kricketot",
@@ -7334,7 +7457,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "kricketune",
@@ -7490,7 +7614,8 @@
     "eggGroups": [
       "Monster",
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "larvitar",
@@ -7522,7 +7647,8 @@
     },
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "latias",
@@ -7677,7 +7803,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "lickilicky",
@@ -7741,7 +7868,8 @@
     },
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "lileep",
@@ -7773,7 +7901,8 @@
     },
     "eggGroups": [
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "linoone",
@@ -7906,7 +8035,8 @@
     "eggGroups": [
       "Water 1",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "loudred",
@@ -8094,7 +8224,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "luvdisc",
@@ -8122,7 +8253,8 @@
     },
     "eggGroups": [
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "luxio",
@@ -8284,7 +8416,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "magby",
@@ -8315,7 +8448,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "magcargo",
@@ -8379,7 +8513,8 @@
     "eggGroups": [
       "Water 2",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "magmar",
@@ -8473,7 +8608,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "magneton",
@@ -8568,7 +8704,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mamoswine",
@@ -8693,7 +8830,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mantine",
@@ -8726,7 +8864,8 @@
     },
     "eggGroups": [
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mantyke",
@@ -8759,7 +8898,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mareep",
@@ -8791,7 +8931,8 @@
     "eggGroups": [
       "Monster",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "marill",
@@ -8826,7 +8967,8 @@
     "eggGroups": [
       "Water 1",
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "marowak",
@@ -8954,7 +9096,8 @@
     "eggGroups": [
       "Field",
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "medicham",
@@ -9017,7 +9160,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "meganium",
@@ -9038,6 +9182,7 @@
     "abilities": {
       "0": "overgrow"
     },
+    "unreleasedHidden": true,
     "prevo": "bayleef",
     "evoLevel": 32,
     "weight": 100.5,
@@ -9080,7 +9225,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mesprit",
@@ -9346,7 +9492,8 @@
     "gender": "F",
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mimejr",
@@ -9378,7 +9525,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "minun",
@@ -9406,7 +9554,8 @@
     },
     "eggGroups": [
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "misdreavus",
@@ -9437,7 +9586,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mismagius",
@@ -9490,6 +9640,7 @@
     "abilities": {
       "0": "pressure"
     },
+    "unreleasedHidden": true,
     "weight": 60,
     "gender": "N",
     "eggGroups": [
@@ -9592,7 +9743,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "mudkip",
@@ -9624,7 +9776,8 @@
     "eggGroups": [
       "Monster",
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "muk",
@@ -9687,7 +9840,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "murkrow",
@@ -9720,7 +9874,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "natu",
@@ -9753,7 +9908,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "nidoking",
@@ -9844,7 +10000,8 @@
     "eggGroups": [
       "Monster",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "nidoranm",
@@ -9874,7 +10031,8 @@
     "eggGroups": [
       "Monster",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "nidorina",
@@ -9970,7 +10128,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "ninetales",
@@ -10096,7 +10255,8 @@
     },
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "numel",
@@ -10129,7 +10289,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "nuzleaf",
@@ -10229,7 +10390,8 @@
     },
     "eggGroups": [
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "omanyte",
@@ -10263,7 +10425,8 @@
     "eggGroups": [
       "Water 1",
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "omastar",
@@ -10329,7 +10492,8 @@
     },
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "pachirisu",
@@ -10359,7 +10523,8 @@
     "eggGroups": [
       "Field",
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "palkia",
@@ -10422,7 +10587,8 @@
     "eggGroups": [
       "Bug",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "parasect",
@@ -10549,7 +10715,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "phione",
@@ -10576,6 +10743,7 @@
       "Water 1",
       "Fairy"
     ],
+    "canHatch": true,
     "tags": [
       "Mythical"
     ]
@@ -10612,7 +10780,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "pichuspikyeared",
@@ -10634,6 +10803,7 @@
       "0": "static"
     },
     "forme": "Spiky-eared",
+    "baseSpecies": "pichu",
     "weight": 2,
     "genderRatio": {
       "M": 0.5,
@@ -10741,7 +10911,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "pikachu",
@@ -10841,7 +11012,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "pinsir",
@@ -10870,7 +11042,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "piplup",
@@ -10902,7 +11075,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "plusle",
@@ -10930,7 +11104,8 @@
     },
     "eggGroups": [
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "politoed",
@@ -10994,7 +11169,8 @@
     },
     "eggGroups": [
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "poliwhirl",
@@ -11094,7 +11270,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "poochyena",
@@ -11126,7 +11303,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "porygon",
@@ -11155,7 +11333,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "porygon2",
@@ -11347,7 +11526,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "pupitar",
@@ -11466,6 +11646,7 @@
     "abilities": {
       "0": "blaze"
     },
+    "unreleasedHidden": true,
     "prevo": "cyndaquil",
     "evos": [
       "typhlosion"
@@ -11508,7 +11689,8 @@
     },
     "eggGroups": [
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "raichu",
@@ -11561,6 +11743,7 @@
     "abilities": {
       "0": "pressure"
     },
+    "unreleasedHidden": true,
     "weight": 178,
     "gender": "N",
     "eggGroups": [
@@ -11600,7 +11783,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rampardos",
@@ -11724,7 +11908,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rayquaza",
@@ -11774,6 +11959,7 @@
     "abilities": {
       "0": "clearbody"
     },
+    "unreleasedHidden": true,
     "weight": 175,
     "gender": "N",
     "eggGroups": [
@@ -11830,6 +12016,7 @@
     "abilities": {
       "0": "clearbody"
     },
+    "unreleasedHidden": true,
     "weight": 230,
     "gender": "N",
     "eggGroups": [
@@ -11858,6 +12045,7 @@
     "abilities": {
       "0": "clearbody"
     },
+    "unreleasedHidden": true,
     "weight": 205,
     "gender": "N",
     "eggGroups": [
@@ -11896,7 +12084,8 @@
     "eggGroups": [
       "Water 1",
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "remoraid",
@@ -11929,7 +12118,8 @@
     "eggGroups": [
       "Water 1",
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rhydon",
@@ -11999,7 +12189,8 @@
     "eggGroups": [
       "Monster",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rhyperior",
@@ -12065,7 +12256,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "roselia",
@@ -12102,7 +12294,8 @@
     "eggGroups": [
       "Fairy",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "roserade",
@@ -12169,7 +12362,8 @@
     "gender": "N",
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rotomfan",
@@ -12192,12 +12386,14 @@
       "0": "levitate"
     },
     "forme": "Fan",
+    "baseSpecies": "rotom",
     "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rotomfrost",
@@ -12220,12 +12416,14 @@
       "0": "levitate"
     },
     "forme": "Frost",
+    "baseSpecies": "rotom",
     "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rotomheat",
@@ -12248,12 +12446,14 @@
       "0": "levitate"
     },
     "forme": "Heat",
+    "baseSpecies": "rotom",
     "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rotommow",
@@ -12276,12 +12476,14 @@
       "0": "levitate"
     },
     "forme": "Mow",
+    "baseSpecies": "rotom",
     "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "rotomwash",
@@ -12304,12 +12506,14 @@
       "0": "levitate"
     },
     "forme": "Wash",
+    "baseSpecies": "rotom",
     "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "sableye",
@@ -12339,7 +12543,8 @@
     },
     "eggGroups": [
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "salamence",
@@ -12401,7 +12606,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "sandslash",
@@ -12528,7 +12734,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "seadra",
@@ -12663,7 +12870,8 @@
     "eggGroups": [
       "Field",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "seel",
@@ -12696,7 +12904,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "sentret",
@@ -12728,7 +12937,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "seviper",
@@ -12757,7 +12967,8 @@
     "eggGroups": [
       "Field",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "sharpedo",
@@ -12843,6 +13054,7 @@
       "0": "serenegrace"
     },
     "forme": "Sky",
+    "baseSpecies": "shaymin",
     "changesFrom": "shaymin",
     "weight": 5.2,
     "gender": "N",
@@ -12944,7 +13156,8 @@
     },
     "eggGroups": [
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "shellos",
@@ -12981,7 +13194,8 @@
     "eggGroups": [
       "Water 1",
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "shieldon",
@@ -13013,7 +13227,8 @@
     },
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "shiftry",
@@ -13079,7 +13294,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "shroomish",
@@ -13112,7 +13328,8 @@
     "eggGroups": [
       "Fairy",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "shuckle",
@@ -13142,7 +13359,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "shuppet",
@@ -13174,7 +13392,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "silcoon",
@@ -13237,7 +13456,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "skiploom",
@@ -13306,7 +13526,8 @@
     "eggGroups": [
       "Field",
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "skorupi",
@@ -13340,7 +13561,8 @@
     "eggGroups": [
       "Bug",
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "skuntank",
@@ -13433,7 +13655,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "slowbro",
@@ -13535,7 +13758,8 @@
     "eggGroups": [
       "Monster",
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "slugma",
@@ -13567,7 +13791,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "smeargle",
@@ -13596,7 +13821,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "smoochum",
@@ -13626,7 +13852,8 @@
     "gender": "F",
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "sneasel",
@@ -13659,7 +13886,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "snorlax",
@@ -13690,7 +13918,8 @@
     },
     "eggGroups": [
       "Monster"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "snorunt",
@@ -13724,7 +13953,8 @@
     "eggGroups": [
       "Fairy",
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "snover",
@@ -13757,7 +13987,8 @@
     "eggGroups": [
       "Monster",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "snubbull",
@@ -13790,7 +14021,8 @@
     "eggGroups": [
       "Field",
       "Fairy"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "solrock",
@@ -13816,7 +14048,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "spearow",
@@ -13848,7 +14081,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "spheal",
@@ -13882,7 +14116,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "spinarak",
@@ -13915,7 +14150,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "spinda",
@@ -13945,7 +14181,8 @@
     "eggGroups": [
       "Field",
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "spiritomb",
@@ -13974,7 +14211,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "spoink",
@@ -14006,7 +14244,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "squirtle",
@@ -14038,7 +14277,8 @@
     "eggGroups": [
       "Monster",
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "stantler",
@@ -14067,7 +14307,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "staraptor",
@@ -14164,7 +14405,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "starmie",
@@ -14223,7 +14465,8 @@
     "gender": "N",
     "eggGroups": [
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "steelix",
@@ -14289,7 +14532,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "sudowoodo",
@@ -14321,7 +14565,8 @@
     },
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "suicune",
@@ -14342,6 +14587,7 @@
     "abilities": {
       "0": "pressure"
     },
+    "unreleasedHidden": true,
     "weight": 187,
     "gender": "N",
     "eggGroups": [
@@ -14413,7 +14659,8 @@
     },
     "eggGroups": [
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "surskit",
@@ -14446,7 +14693,8 @@
     "eggGroups": [
       "Water 1",
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "swablu",
@@ -14479,7 +14727,8 @@
     "eggGroups": [
       "Flying",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "swalot",
@@ -14606,7 +14855,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "taillow",
@@ -14638,7 +14888,8 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "tangela",
@@ -14670,7 +14921,8 @@
     },
     "eggGroups": [
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "tangrowth",
@@ -14728,7 +14980,8 @@
     "gender": "M",
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "teddiursa",
@@ -14760,7 +15013,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "tentacool",
@@ -14793,7 +15047,8 @@
     },
     "eggGroups": [
       "Water 3"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "tentacruel",
@@ -14891,7 +15146,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "togetic",
@@ -14958,7 +15214,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "torkoal",
@@ -14986,7 +15243,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "torterra",
@@ -15039,6 +15297,7 @@
     "abilities": {
       "0": "torrent"
     },
+    "unreleasedHidden": true,
     "evos": [
       "croconaw"
     ],
@@ -15050,7 +15309,8 @@
     "eggGroups": [
       "Monster",
       "Water 1"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "toxicroak",
@@ -15114,7 +15374,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "treecko",
@@ -15146,7 +15407,8 @@
     "eggGroups": [
       "Monster",
       "Dragon"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "tropius",
@@ -15177,7 +15439,8 @@
     "eggGroups": [
       "Monster",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "turtwig",
@@ -15209,7 +15472,8 @@
     "eggGroups": [
       "Monster",
       "Grass"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "typhlosion",
@@ -15230,6 +15494,7 @@
     "abilities": {
       "0": "blaze"
     },
+    "unreleasedHidden": true,
     "prevo": "quilava",
     "evoLevel": 36,
     "weight": 79.5,
@@ -15301,7 +15566,8 @@
     "gender": "M",
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "umbreon",
@@ -15542,7 +15808,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "venusaur",
@@ -15760,7 +16027,8 @@
     "eggGroups": [
       "Bug",
       "Human-Like"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "voltorb",
@@ -15789,7 +16057,8 @@
     "gender": "N",
     "eggGroups": [
       "Mineral"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "vulpix",
@@ -15820,7 +16089,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "wailmer",
@@ -15853,7 +16123,8 @@
     "eggGroups": [
       "Field",
       "Water 2"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "wailord",
@@ -16017,7 +16288,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "weepinbell",
@@ -16145,7 +16417,8 @@
     "eggGroups": [
       "Monster",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "wigglytuff",
@@ -16209,7 +16482,8 @@
     "eggGroups": [
       "Water 1",
       "Flying"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "wobbuffet",
@@ -16239,7 +16513,8 @@
     },
     "eggGroups": [
       "Amorphous"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "wooper",
@@ -16273,7 +16548,8 @@
     "eggGroups": [
       "Water 1",
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "wormadam",
@@ -16331,6 +16607,7 @@
     "prevo": "burmy",
     "evoLevel": 20,
     "forme": "Sandy",
+    "baseSpecies": "wormadam",
     "weight": 6.5,
     "gender": "F",
     "eggGroups": [
@@ -16360,6 +16637,7 @@
     "prevo": "burmy",
     "evoLevel": 20,
     "forme": "Trash",
+    "baseSpecies": "wormadam",
     "weight": 6.5,
     "gender": "F",
     "eggGroups": [
@@ -16396,7 +16674,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "wynaut",
@@ -16427,7 +16706,8 @@
     },
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "xatu",
@@ -16492,7 +16772,8 @@
     },
     "eggGroups": [
       "Bug"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "yanmega",
@@ -16553,7 +16834,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "zapdos",
@@ -16575,6 +16857,7 @@
     "abilities": {
       "0": "pressure"
     },
+    "unreleasedHidden": true,
     "weight": 52.6,
     "gender": "N",
     "eggGroups": [
@@ -16614,7 +16897,8 @@
     },
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "canHatch": true
   },
   {
     "slug": "zubat",
@@ -16646,6 +16930,7 @@
     },
     "eggGroups": [
       "Flying"
-    ]
+    ],
+    "canHatch": true
   }
 ]

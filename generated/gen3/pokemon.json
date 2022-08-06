@@ -462,7 +462,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 55.4,
     "gender": "N",
     "eggGroups": [
@@ -679,7 +679,7 @@
     "abilities": {
       "0": "overgrow"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "chikorita",
     "evos": [
       "meganium"
@@ -1219,7 +1219,7 @@
     "abilities": {
       "0": "forecast"
     },
-    "otherFormes": [
+    "formes": [
       "castformsunny",
       "castformrainy",
       "castformsnowy"
@@ -1254,11 +1254,10 @@
     "abilities": {
       "0": "forecast"
     },
-    "forme": "Rainy",
+    "formeName": "Rainy",
     "baseSpecies": "castform",
-    "changesFrom": "castform",
     "requiredAbility": "forecast",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -1289,11 +1288,10 @@
     "abilities": {
       "0": "forecast"
     },
-    "forme": "Snowy",
+    "formeName": "Snowy",
     "baseSpecies": "castform",
-    "changesFrom": "castform",
     "requiredAbility": "forecast",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -1324,11 +1322,10 @@
     "abilities": {
       "0": "forecast"
     },
-    "forme": "Sunny",
+    "formeName": "Sunny",
     "baseSpecies": "castform",
-    "changesFrom": "castform",
     "requiredAbility": "forecast",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -1550,7 +1547,7 @@
     "abilities": {
       "0": "overgrow"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "bayleef"
     ],
@@ -2033,7 +2030,7 @@
     "abilities": {
       "0": "torrent"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "totodile",
     "evos": [
       "feraligatr"
@@ -2101,7 +2098,7 @@
     "abilities": {
       "0": "blaze"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "quilava"
     ],
@@ -2198,8 +2195,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "baseForme": "Normal",
-    "otherFormes": [
+    "baseFormeName": "Normal",
+    "formes": [
       "deoxysattack",
       "deoxysdefense",
       "deoxysspeed"
@@ -2230,9 +2227,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "forme": "Attack",
+    "formeName": "Attack",
     "baseSpecies": "deoxys",
-    "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
     "eggGroups": [
@@ -2259,9 +2255,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "forme": "Defense",
+    "formeName": "Defense",
     "baseSpecies": "deoxys",
-    "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
     "eggGroups": [
@@ -2288,9 +2283,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "forme": "Speed",
+    "formeName": "Speed",
     "baseSpecies": "deoxys",
-    "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
     "eggGroups": [
@@ -2981,7 +2975,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 198,
     "gender": "N",
     "eggGroups": [
@@ -3231,7 +3225,7 @@
     "abilities": {
       "0": "torrent"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "croconaw",
     "evoLevel": 30,
     "weight": 88.8,
@@ -6428,7 +6422,7 @@
     "abilities": {
       "0": "overgrow"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "bayleef",
     "evoLevel": 32,
     "weight": 100.5,
@@ -6784,7 +6778,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 60,
     "gender": "N",
     "eggGroups": [
@@ -8374,7 +8368,7 @@
     "abilities": {
       "0": "blaze"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "cyndaquil",
     "evos": [
       "typhlosion"
@@ -8471,7 +8465,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 178,
     "gender": "N",
     "eggGroups": [
@@ -8653,7 +8647,7 @@
     "abilities": {
       "0": "clearbody"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 175,
     "gender": "N",
     "eggGroups": [
@@ -8680,7 +8674,7 @@
     "abilities": {
       "0": "clearbody"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 230,
     "gender": "N",
     "eggGroups": [
@@ -8707,7 +8701,7 @@
     "abilities": {
       "0": "clearbody"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 205,
     "gender": "N",
     "eggGroups": [
@@ -10499,7 +10493,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 187,
     "gender": "N",
     "eggGroups": [
@@ -11097,7 +11091,7 @@
     "abilities": {
       "0": "torrent"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "croconaw"
     ],
@@ -11228,7 +11222,7 @@
     "abilities": {
       "0": "blaze"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "quilava",
     "evoLevel": 36,
     "weight": 79.5,
@@ -11352,7 +11346,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "baseForme": "A",
+    "baseFormeName": "A",
     "cosmeticFormes": [
       "unownb",
       "unownc",
@@ -12367,7 +12361,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 52.6,
     "gender": "N",
     "eggGroups": [

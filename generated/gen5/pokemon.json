@@ -542,8 +542,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "baseForme": "Normal",
-    "otherFormes": [
+    "baseFormeName": "Normal",
+    "formes": [
       "arceusbug",
       "arceusdark",
       "arceusdragon",
@@ -587,9 +587,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Bug",
+    "formeName": "Bug",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -616,9 +615,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Dark",
+    "formeName": "Dark",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -645,9 +643,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Dragon",
+    "formeName": "Dragon",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -674,9 +671,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Electric",
+    "formeName": "Electric",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -703,9 +699,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Fighting",
+    "formeName": "Fighting",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -732,9 +727,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Fire",
+    "formeName": "Fire",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -761,9 +755,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Flying",
+    "formeName": "Flying",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -790,9 +783,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Ghost",
+    "formeName": "Ghost",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -819,9 +811,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Grass",
+    "formeName": "Grass",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -848,9 +839,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Ground",
+    "formeName": "Ground",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -877,9 +867,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Ice",
+    "formeName": "Ice",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -906,9 +895,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Poison",
+    "formeName": "Poison",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -935,9 +923,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Psychic",
+    "formeName": "Psychic",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -964,9 +951,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Rock",
+    "formeName": "Rock",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -993,9 +979,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Steel",
+    "formeName": "Steel",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -1022,9 +1007,8 @@
     "abilities": {
       "0": "multitype"
     },
-    "forme": "Water",
+    "formeName": "Water",
     "baseSpecies": "arceus",
-    "changesFrom": "arceus",
     "weight": 320,
     "gender": "N",
     "eggGroups": [
@@ -1219,7 +1203,7 @@
       "0": "pressure",
       "H": "snowcloak"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 55.4,
     "gender": "N",
     "eggGroups": [
@@ -1537,8 +1521,8 @@
       "1": "adaptability",
       "H": "moldbreaker"
     },
-    "baseForme": "Red-Striped",
-    "otherFormes": [
+    "baseFormeName": "Red-Striped",
+    "formes": [
       "basculinbluestriped"
     ],
     "weight": 18,
@@ -1572,7 +1556,7 @@
       "1": "adaptability",
       "H": "moldbreaker"
     },
-    "forme": "Blue-Striped",
+    "formeName": "Blue-Striped",
     "baseSpecies": "basculin",
     "weight": 18,
     "genderRatio": {
@@ -1636,7 +1620,7 @@
       "0": "overgrow",
       "H": "leafguard"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "chikorita",
     "evos": [
       "meganium"
@@ -2495,7 +2479,7 @@
       "wormadamtrash",
       "mothim"
     ],
-    "baseForme": "Plant",
+    "baseFormeName": "Plant",
     "cosmeticFormes": [
       "burmysandy",
       "burmytrash"
@@ -2791,7 +2775,7 @@
     "abilities": {
       "0": "forecast"
     },
-    "otherFormes": [
+    "formes": [
       "castformsunny",
       "castformrainy",
       "castformsnowy"
@@ -2826,11 +2810,10 @@
     "abilities": {
       "0": "forecast"
     },
-    "forme": "Rainy",
+    "formeName": "Rainy",
     "baseSpecies": "castform",
-    "changesFrom": "castform",
     "requiredAbility": "forecast",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -2861,11 +2844,10 @@
     "abilities": {
       "0": "forecast"
     },
-    "forme": "Snowy",
+    "formeName": "Snowy",
     "baseSpecies": "castform",
-    "changesFrom": "castform",
     "requiredAbility": "forecast",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -2896,11 +2878,10 @@
     "abilities": {
       "0": "forecast"
     },
-    "forme": "Sunny",
+    "formeName": "Sunny",
     "baseSpecies": "castform",
-    "changesFrom": "castform",
     "requiredAbility": "forecast",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
       "M": 0.5,
@@ -2994,7 +2975,7 @@
       "1": "flamebody",
       "H": "shadowtag"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "lampent",
     "evoType": "useItem",
     "evoItem": "Dusk Stone",
@@ -3197,8 +3178,8 @@
     },
     "prevo": "cherubi",
     "evoLevel": 25,
-    "baseForme": "Overcast",
-    "otherFormes": [
+    "baseFormeName": "Overcast",
+    "formes": [
       "cherrimsunshine"
     ],
     "weight": 9.3,
@@ -3230,11 +3211,10 @@
     "abilities": {
       "0": "flowergift"
     },
-    "forme": "Sunshine",
+    "formeName": "Sunshine",
     "baseSpecies": "cherrim",
-    "changesFrom": "cherrim",
     "requiredAbility": "flowergift",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 9.3,
     "genderRatio": {
       "M": 0.5,
@@ -3299,7 +3279,7 @@
       "0": "overgrow",
       "H": "leafguard"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "bayleef"
     ],
@@ -4152,7 +4132,7 @@
       "0": "torrent",
       "H": "sheerforce"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "totodile",
     "evos": [
       "feraligatr"
@@ -4315,7 +4295,7 @@
       "0": "blaze",
       "H": "flashfire"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "quilava"
     ],
@@ -4377,8 +4357,8 @@
     },
     "prevo": "darumaka",
     "evoLevel": 35,
-    "baseForme": "Standard",
-    "otherFormes": [
+    "baseFormeName": "Standard",
+    "formes": [
       "darmanitanzen"
     ],
     "weight": 92.9,
@@ -4410,11 +4390,10 @@
     "abilities": {
       "0": "zenmode"
     },
-    "forme": "Zen",
+    "formeName": "Zen",
     "baseSpecies": "darmanitan",
-    "changesFrom": "darmanitan",
     "requiredAbility": "zenmode",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 92.9,
     "genderRatio": {
       "M": 0.5,
@@ -4483,7 +4462,7 @@
     "evos": [
       "sawsbuck"
     ],
-    "baseForme": "Spring",
+    "baseFormeName": "Spring",
     "cosmeticFormes": [
       "deerlingsummer",
       "deerlingautumn",
@@ -4618,8 +4597,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "baseForme": "Normal",
-    "otherFormes": [
+    "baseFormeName": "Normal",
+    "formes": [
       "deoxysattack",
       "deoxysdefense",
       "deoxysspeed"
@@ -4650,9 +4629,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "forme": "Attack",
+    "formeName": "Attack",
     "baseSpecies": "deoxys",
-    "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
     "eggGroups": [
@@ -4679,9 +4657,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "forme": "Defense",
+    "formeName": "Defense",
     "baseSpecies": "deoxys",
-    "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
     "eggGroups": [
@@ -4708,9 +4685,8 @@
     "abilities": {
       "0": "pressure"
     },
-    "forme": "Speed",
+    "formeName": "Speed",
     "baseSpecies": "deoxys",
-    "changesFrom": "deoxys",
     "weight": 60.8,
     "gender": "N",
     "eggGroups": [
@@ -4772,7 +4748,7 @@
       "0": "torrent",
       "H": "shellarmor"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "oshawott",
     "evos": [
       "samurott"
@@ -5964,7 +5940,7 @@
       "0": "blaze",
       "H": "reckless"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "pignite",
     "evoLevel": 36,
     "weight": 150,
@@ -6060,7 +6036,7 @@
       "0": "pressure",
       "H": "flashfire"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 198,
     "gender": "N",
     "eggGroups": [
@@ -6385,7 +6361,7 @@
       "0": "torrent",
       "H": "sheerforce"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "croconaw",
     "evoLevel": 30,
     "weight": 88.8,
@@ -7081,7 +7057,7 @@
     },
     "prevo": "shellos",
     "evoLevel": 30,
-    "baseForme": "West",
+    "baseFormeName": "West",
     "cosmeticFormes": [
       "gastrodoneast"
     ],
@@ -7115,7 +7091,7 @@
     "abilities": {
       "0": "download"
     },
-    "otherFormes": [
+    "formes": [
       "genesectdouse",
       "genesectshock",
       "genesectburn",
@@ -7148,9 +7124,8 @@
     "abilities": {
       "0": "download"
     },
-    "forme": "Burn",
+    "formeName": "Burn",
     "baseSpecies": "genesect",
-    "changesFrom": "genesect",
     "requiredItem": "burndrive",
     "weight": 82.5,
     "gender": "N",
@@ -7179,9 +7154,8 @@
     "abilities": {
       "0": "download"
     },
-    "forme": "Chill",
+    "formeName": "Chill",
     "baseSpecies": "genesect",
-    "changesFrom": "genesect",
     "requiredItem": "chilldrive",
     "weight": 82.5,
     "gender": "N",
@@ -7210,9 +7184,8 @@
     "abilities": {
       "0": "download"
     },
-    "forme": "Douse",
+    "formeName": "Douse",
     "baseSpecies": "genesect",
-    "changesFrom": "genesect",
     "requiredItem": "dousedrive",
     "weight": 82.5,
     "gender": "N",
@@ -7241,9 +7214,8 @@
     "abilities": {
       "0": "download"
     },
-    "forme": "Shock",
+    "formeName": "Shock",
     "baseSpecies": "genesect",
-    "changesFrom": "genesect",
     "requiredItem": "shockdrive",
     "weight": 82.5,
     "gender": "N",
@@ -7437,8 +7409,8 @@
       "0": "pressure",
       "H": "telepathy"
     },
-    "baseForme": "Altered",
-    "otherFormes": [
+    "baseFormeName": "Altered",
+    "formes": [
       "giratinaorigin"
     ],
     "weight": 750,
@@ -7468,9 +7440,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "forme": "Origin",
+    "formeName": "Origin",
     "baseSpecies": "giratina",
-    "changesFrom": "giratina",
     "requiredItem": "griseousorb",
     "weight": 650,
     "gender": "N",
@@ -7934,7 +7905,7 @@
       "0": "frisk",
       "H": "shadowtag"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "gothorita"
     ],
@@ -8562,7 +8533,7 @@
       "0": "flashfire",
       "H": "flamebody"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 430,
     "genderRatio": {
       "M": 0.5,
@@ -9731,8 +9702,8 @@
     "abilities": {
       "0": "justified"
     },
-    "baseForme": "Ordinary",
-    "otherFormes": [
+    "baseFormeName": "Ordinary",
+    "formes": [
       "keldeoresolute"
     ],
     "weight": 48.5,
@@ -9762,9 +9733,8 @@
     "abilities": {
       "0": "justified"
     },
-    "forme": "Resolute",
+    "formeName": "Resolute",
     "baseSpecies": "keldeo",
-    "changesFrom": "keldeo",
     "requiredMove": "secretsword",
     "weight": 48.5,
     "gender": "N",
@@ -9929,7 +9899,7 @@
       "1": "minus",
       "H": "clearbody"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "klang"
     ],
@@ -10214,7 +10184,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "otherFormes": [
+    "formes": [
       "kyuremblack",
       "kyuremwhite"
     ],
@@ -10245,9 +10215,8 @@
     "abilities": {
       "0": "teravolt"
     },
-    "forme": "Black",
+    "formeName": "Black",
     "baseSpecies": "kyurem",
-    "changesFrom": "kyurem",
     "weight": 325,
     "gender": "N",
     "eggGroups": [
@@ -10275,9 +10244,8 @@
     "abilities": {
       "0": "turboblaze"
     },
-    "forme": "White",
+    "formeName": "White",
     "baseSpecies": "kyurem",
-    "changesFrom": "kyurem",
     "weight": 325,
     "gender": "N",
     "eggGroups": [
@@ -10343,7 +10311,7 @@
       "1": "flamebody",
       "H": "shadowtag"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "litwick",
     "evos": [
       "chandelure"
@@ -10379,8 +10347,8 @@
       "0": "sandforce",
       "H": "sheerforce"
     },
-    "baseForme": "Incarnate",
-    "otherFormes": [
+    "baseFormeName": "Incarnate",
+    "formes": [
       "landorustherian"
     ],
     "weight": 68,
@@ -10410,9 +10378,8 @@
     "abilities": {
       "0": "intimidate"
     },
-    "forme": "Therian",
+    "formeName": "Therian",
     "baseSpecies": "landorus",
-    "changesFrom": "landorus",
     "weight": 68,
     "gender": "M",
     "eggGroups": [
@@ -10507,7 +10474,7 @@
       "0": "flamebody",
       "H": "swarm"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "volcarona"
     ],
@@ -10994,7 +10961,7 @@
       "1": "flamebody",
       "H": "shadowtag"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "lampent"
     ],
@@ -12349,7 +12316,7 @@
       "0": "overgrow",
       "H": "leafguard"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "bayleef",
     "evoLevel": 32,
     "weight": 100.5,
@@ -12382,8 +12349,8 @@
     "abilities": {
       "0": "serenegrace"
     },
-    "baseForme": "Aria",
-    "otherFormes": [
+    "baseFormeName": "Aria",
+    "formes": [
       "meloettapirouette"
     ],
     "weight": 6.5,
@@ -12413,11 +12380,10 @@
     "abilities": {
       "0": "serenegrace"
     },
-    "forme": "Pirouette",
+    "formeName": "Pirouette",
     "baseSpecies": "meloetta",
-    "changesFrom": "meloetta",
     "requiredMove": "relicsong",
-    "isBattleOnlyForme": true,
+    "isBattleOnly": true,
     "weight": 6.5,
     "gender": "N",
     "eggGroups": [
@@ -12973,7 +12939,7 @@
       "0": "pressure",
       "H": "flamebody"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 60,
     "gender": "N",
     "eggGroups": [
@@ -13939,7 +13905,7 @@
       "0": "torrent",
       "H": "shellarmor"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "dewott"
     ],
@@ -14637,7 +14603,7 @@
       "0": "blaze",
       "H": "thickfat"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "tepig",
     "evos": [
       "emboar"
@@ -15439,7 +15405,7 @@
       "0": "blaze",
       "H": "flashfire"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "cyndaquil",
     "evos": [
       "typhlosion"
@@ -15539,7 +15505,7 @@
       "0": "pressure",
       "H": "voltabsorb"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 178,
     "gender": "N",
     "eggGroups": [
@@ -15757,7 +15723,7 @@
       "0": "clearbody",
       "H": "icebody"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 175,
     "gender": "N",
     "eggGroups": [
@@ -15811,7 +15777,7 @@
       "0": "clearbody",
       "H": "sturdy"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 230,
     "gender": "N",
     "eggGroups": [
@@ -15839,7 +15805,7 @@
       "0": "clearbody",
       "H": "lightmetal"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 205,
     "gender": "N",
     "eggGroups": [
@@ -16243,7 +16209,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "otherFormes": [
+    "formes": [
       "rotomheat",
       "rotomwash",
       "rotomfrost",
@@ -16277,9 +16243,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "forme": "Fan",
+    "formeName": "Fan",
     "baseSpecies": "rotom",
-    "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
@@ -16307,9 +16272,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "forme": "Frost",
+    "formeName": "Frost",
     "baseSpecies": "rotom",
-    "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
@@ -16337,9 +16301,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "forme": "Heat",
+    "formeName": "Heat",
     "baseSpecies": "rotom",
-    "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
@@ -16367,9 +16330,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "forme": "Mow",
+    "formeName": "Mow",
     "baseSpecies": "rotom",
-    "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
@@ -16397,9 +16359,8 @@
     "abilities": {
       "0": "levitate"
     },
-    "forme": "Wash",
+    "formeName": "Wash",
     "baseSpecies": "rotom",
-    "changesFrom": "rotom",
     "weight": 0.3,
     "gender": "N",
     "eggGroups": [
@@ -16429,7 +16390,7 @@
       "1": "sheerforce",
       "H": "hustle"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "braviary"
     ],
@@ -16524,7 +16485,7 @@
       "0": "torrent",
       "H": "shellarmor"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "dewott",
     "evoLevel": 36,
     "weight": 94.6,
@@ -16687,7 +16648,7 @@
     },
     "prevo": "deerling",
     "evoLevel": 34,
-    "baseForme": "Spring",
+    "baseFormeName": "Spring",
     "cosmeticFormes": [
       "sawsbucksummer",
       "sawsbuckautumn",
@@ -17168,7 +17129,7 @@
       "0": "overgrow",
       "H": "contrary"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "servine",
     "evoLevel": 36,
     "weight": 63,
@@ -17201,7 +17162,7 @@
       "0": "overgrow",
       "H": "contrary"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "snivy",
     "evos": [
       "serperior"
@@ -17334,8 +17295,8 @@
     "abilities": {
       "0": "naturalcure"
     },
-    "baseForme": "Land",
-    "otherFormes": [
+    "baseFormeName": "Land",
+    "formes": [
       "shayminsky"
     ],
     "weight": 2.1,
@@ -17365,9 +17326,8 @@
     "abilities": {
       "0": "serenegrace"
     },
-    "forme": "Sky",
+    "formeName": "Sky",
     "baseSpecies": "shaymin",
-    "changesFrom": "shaymin",
     "weight": 5.2,
     "gender": "N",
     "eggGroups": [
@@ -17495,7 +17455,7 @@
     "evos": [
       "gastrodon"
     ],
-    "baseForme": "West",
+    "baseFormeName": "West",
     "cosmeticFormes": [
       "shelloseast"
     ],
@@ -18402,7 +18362,7 @@
       "0": "overgrow",
       "H": "contrary"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "servine"
     ],
@@ -19234,7 +19194,7 @@
       "0": "pressure",
       "H": "waterabsorb"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 187,
     "gender": "N",
     "eggGroups": [
@@ -19866,7 +19826,7 @@
       "0": "blaze",
       "H": "thickfat"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "pignite"
     ],
@@ -19956,8 +19916,8 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseForme": "Incarnate",
-    "otherFormes": [
+    "baseFormeName": "Incarnate",
+    "formes": [
       "thundurustherian"
     ],
     "weight": 61,
@@ -19987,9 +19947,8 @@
     "abilities": {
       "0": "voltabsorb"
     },
-    "forme": "Therian",
+    "formeName": "Therian",
     "baseSpecies": "thundurus",
-    "changesFrom": "thundurus",
     "weight": 61,
     "gender": "M",
     "eggGroups": [
@@ -20256,8 +20215,8 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseForme": "Incarnate",
-    "otherFormes": [
+    "baseFormeName": "Incarnate",
+    "formes": [
       "tornadustherian"
     ],
     "weight": 63,
@@ -20286,9 +20245,8 @@
     "abilities": {
       "0": "regenerator"
     },
-    "forme": "Therian",
+    "formeName": "Therian",
     "baseSpecies": "tornadus",
-    "changesFrom": "tornadus",
     "weight": 63,
     "gender": "M",
     "eggGroups": [
@@ -20349,7 +20307,7 @@
       "0": "torrent",
       "H": "sheerforce"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "evos": [
       "croconaw"
     ],
@@ -20688,7 +20646,7 @@
       "0": "blaze",
       "H": "flashfire"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "quilava",
     "evoLevel": 36,
     "weight": 79.5,
@@ -20849,7 +20807,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "baseForme": "A",
+    "baseFormeName": "A",
     "cosmeticFormes": [
       "unownb",
       "unownc",
@@ -21475,7 +21433,7 @@
       "0": "flamebody",
       "H": "swarm"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "prevo": "larvesta",
     "evoLevel": 59,
     "weight": 46,
@@ -22216,8 +22174,8 @@
     },
     "prevo": "burmy",
     "evoLevel": 20,
-    "baseForme": "Plant",
-    "otherFormes": [
+    "baseFormeName": "Plant",
+    "formes": [
       "wormadamsandy",
       "wormadamtrash"
     ],
@@ -22250,7 +22208,7 @@
     },
     "prevo": "burmy",
     "evoLevel": 20,
-    "forme": "Sandy",
+    "formeName": "Sandy",
     "baseSpecies": "wormadam",
     "weight": 6.5,
     "gender": "F",
@@ -22281,7 +22239,7 @@
     },
     "prevo": "burmy",
     "evoLevel": 20,
-    "forme": "Trash",
+    "formeName": "Trash",
     "baseSpecies": "wormadam",
     "weight": 6.5,
     "gender": "F",
@@ -22542,7 +22500,7 @@
       "0": "pressure",
       "H": "lightningrod"
     },
-    "unreleasedHidden": true,
+    "hiddenAbilityUnreleased": true,
     "weight": 52.6,
     "gender": "N",
     "eggGroups": [

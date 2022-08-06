@@ -41,12 +41,16 @@ const existsFn = (d: Data) => {
     return false;
   }
 
-  const allowNonstandard =
+  const allowNonstandardSpecies =
     d.kind === 'Species' &&
-    'isNonstandard' in d &&
     d.isNonstandard &&
     _.includes(['Gigantamax', 'Unobtainable'], d.isNonstandard) &&
     !_.includes(pokestarIds, d.id);
+
+  const allowNonstandardMove =
+    d.kind === 'Move' && d.isNonstandard && 'Gigantamax' === d.isNonstandard;
+
+  const allowNonstandard = allowNonstandardSpecies || allowNonstandardMove;
 
   if ('isNonstandard' in d && d.isNonstandard && !allowNonstandard) {
     return false;

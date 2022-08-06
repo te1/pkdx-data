@@ -20,6 +20,7 @@ interface MoveEntry {
   zMoveEffect?: unknown;
   isMax?: unknown;
   maxMove?: unknown;
+  // isNonstandard?: unknown;
   desc: string;
   shortDesc: string;
   // flavorText: string;
@@ -54,6 +55,7 @@ export async function exportMoves(gen: Generation, target: string) {
       zMoveEffect: undefined,
       isMax: undefined,
       maxMove: undefined,
+      // isNonstandard: move.isNonstandard || undefined,
       desc: move.desc,
       shortDesc: move.shortDesc,
       // flavorText: data[move.id]?.flavorText,

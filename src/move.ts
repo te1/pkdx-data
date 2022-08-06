@@ -74,6 +74,8 @@ export async function exportMoves(gen: Generation, target: string) {
       // TODO G-Max Moves
     }
 
+    // TODO pokemon
+
     result.push(entry);
   }
 

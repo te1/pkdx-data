@@ -22,6 +22,8 @@ export async function exportAbilities(gen: Generation, target: string) {
       shortDesc: ability.shortDesc,
       // flavorText: data[ability.id]?.flavorText,
     });
+
+    // TODO pokemon
   }
 
   result = _.sortBy(result, 'slug');

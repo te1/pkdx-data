@@ -1,6 +1,6 @@
 import * as fs from 'fs-extra';
 import { Dex } from '@pkmn/dex';
-import { Generations, GenerationNum } from '@pkmn/data';
+import { Generations, GenerationNum, Data } from '@pkmn/data';
 import { AbilityMap } from './utils';
 import { exportTypes } from './type';
 import { exportNatures } from './nature';
@@ -8,10 +8,58 @@ import { exportItems } from './item';
 import { exportPokemon } from './pokemon';
 import { exportMoves } from './move';
 import { exportAbilities } from './ability';
+import _ from 'lodash';
 
 const target = './generated/';
 
-const gens = new Generations(Dex);
+const existsFn = (d: Data) => {
+  // from pkmn/ps/data/index.ts DEFAULT_EXISTS
+  // modified to include G-Max/Unobtainable formes and Illegal/Unreleased tier
+  // as a result we need to filter out Pokestar manually
+
+  const pokestarIds = [
+    'pokestarblackbelt',
+    'pokestarblackdoor',
+    'pokestarbrycenman',
+    'pokestarf00',
+    'pokestarf002',
+    'pokestargiant',
+    'pokestarhumanoid',
+    'pokestarmonster',
+    'pokestarmt',
+    'pokestarmt2',
+    'pokestarsmeargle',
+    'pokestarspirit',
+    'pokestartransport',
+    'pokestarufo',
+    'pokestarufo2',
+    'pokestarufopropu2',
+    'pokestarwhitedoor',
+  ];
+
+  if (!d.exists) {
+    return false;
+  }
+
+  const allowNonstandard =
+    d.kind === 'Species' &&
+    'isNonstandard' in d &&
+    d.isNonstandard &&
+    _.includes(['Gigantamax', 'Unobtainable'], d.isNonstandard) &&
+    !_.includes(pokestarIds, d.id);
+
+  if ('isNonstandard' in d && d.isNonstandard && !allowNonstandard) {
+    return false;
+  }
+
+  if (d.kind === 'Ability' && d.id === 'noability') {
+    return false;
+  }
+
+  return true;
+};
+
+const gens = new Generations(Dex, existsFn);
 const genNums: GenerationNum[] = [1, 2, 3, 4, 5, 6, 7, 8];
 
 async function main() {

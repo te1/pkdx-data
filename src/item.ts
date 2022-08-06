@@ -17,6 +17,7 @@ export async function exportItems(gen: Generation, target: string) {
     result.push({
       slug: item.id,
       name: item.name,
+      gen: item.gen,
       desc: item.desc,
       shortDesc: item.shortDesc,
       // flavorText: data[item.id]?.flavorText,

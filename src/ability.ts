@@ -17,6 +17,7 @@ export async function exportAbilities(gen: Generation, target: string) {
     result.push({
       slug: ability.id,
       name: ability.name,
+      gen: ability.gen,
       desc: ability.desc,
       shortDesc: ability.shortDesc,
       // flavorText: data[ability.id]?.flavorText,

@@ -1,10 +1,11 @@
 import * as path from 'path';
-// import * as fs from 'fs-extra';
-import * as _ from 'lodash';
+import * as fs from 'fs-extra';
+import _ from 'lodash';
 import {
   AbilityName,
   Generation,
   ItemName,
+  Specie,
   SpeciesName,
   TypeName,
 } from '@pkmn/data';
@@ -18,9 +19,8 @@ export async function exportPokemon(
 ) {
   console.log('- pokemon');
 
-  // TODO add pokemon flavor text
-  // console.log('\t' + 'loading data...');
-  // const data = await fs.readJson(`./data/pokemon.json`);
+  console.log('\t' + 'loading data...');
+  const data = await fs.readJson(`./data/pokemon.json`);
 
   const hasEggs = gen.num >= 2;
   const hasDynamax = gen.num === 8;
@@ -28,6 +28,23 @@ export async function exportPokemon(
   let result = [];
 
   for (const species of gen.species) {
+    const baseSpecies =
+      species.baseSpecies !== species.name
+        ? gen.species.get(species.baseSpecies)
+        : undefined;
+
+    let isLegendary = !!data[species.id]?.isLegendary;
+    if (!isLegendary && baseSpecies) {
+      isLegendary = !!data[baseSpecies.id]?.isLegendary;
+    }
+
+    let isMythical = !!data[species.id]?.isMythical;
+    if (!isMythical && baseSpecies) {
+      isMythical = !!data[baseSpecies.id]?.isMythical;
+    }
+
+    const region = getRegion(species);
+
     result.push({
       // -- General
       slug: species.id,
@@ -62,10 +79,7 @@ export async function exportPokemon(
 
       // base species for formes that have their own species entry
       // can be different from `changesFrom` (e.g. is "Raichu" for Raichu-Alola)
-      baseSpecies:
-        species.baseSpecies !== species.name
-          ? getSpeciesSlug(species.baseSpecies, gen)
-          : undefined,
+      baseSpecies: baseSpecies ? baseSpecies.id : undefined,
 
       // name of the base forme
       // will not be set on the base forme (e.g. is null for Aegislash)
@@ -89,6 +103,8 @@ export async function exportPokemon(
 
       isMega: species.isMega,
       isPrimal: species.isPrimal,
+      isTotem: species.forme === 'Totem' || undefined,
+      region: region || undefined,
 
       // name of base forme
       // is just a string to display (e.g. is "Shield" for Aegislash)
@@ -125,20 +141,25 @@ export async function exportPokemon(
       canHatch: hasEggs ? species.canHatch || undefined : undefined,
 
       // -- Classifications
-      // Shedinja: max HP is always 1
-      // maxHP: species.maxHP,
-
+      isUnobtainable: species.isNonstandard === 'Unobtainable' || undefined,
+      isLegendary: isLegendary || undefined,
+      isMythical: isMythical || undefined,
       cannotDynamax: hasDynamax
         ? species.cannotDynamax || undefined
         : undefined,
+
+      // redundant, check gmaxMove instead
       // canGmax: hasDynamax ? !!species.canGigantamax || undefined : undefined,
+
       gmaxUnreleased: hasDynamax
         ? species.gmaxUnreleased || undefined
         : undefined,
       // isNonstandard: species.isNonstandard || undefined,
-      // TODO handle tags
-      tags: species.tags.length ? species.tags : undefined,
 
+      // Shedinja: max HP is always 1
+      // maxHP: species.maxHP,
+
+      // TODO add pokemon flavor text
       // flavorText: data[species.id]?.flavorText,
 
       // TODO learnsets
@@ -254,4 +275,25 @@ function getSpeciesSlugs(
   }
 
   return result;
+}
+
+const regionFormes = {
+  Alola: ['Alola', 'Alola-Totem'],
+  Galar: ['Galar', 'Galar-Zen'],
+  Hisui: ['Hisui'],
+  Paldea: ['Paldea'],
+};
+
+function getRegion(species: Specie) {
+  if (!species.forme) {
+    return;
+  }
+
+  for (const [key, value] of Object.entries(regionFormes)) {
+    if (_.includes(value, species.forme)) {
+      return key;
+    }
+  }
+
+  return;
 }

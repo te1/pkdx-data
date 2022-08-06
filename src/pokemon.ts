@@ -12,6 +12,8 @@ import {
 import { SpeciesAbility } from '@pkmn/dex-types';
 import { AbilityMap, exportData, typeNameToSlug } from './utils';
 
+type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
+
 export async function exportPokemon(
   gen: Generation,
   target: string,
@@ -33,6 +35,10 @@ export async function exportPokemon(
         ? gen.species.get(species.baseSpecies)
         : undefined;
 
+    const region = getRegion(species);
+
+    const prettyName = getPrettyName(species, baseSpecies, region, data);
+
     let isLegendary = !!data[species.id]?.isLegendary;
     if (!isLegendary && baseSpecies) {
       isLegendary = !!data[baseSpecies.id]?.isLegendary;
@@ -42,8 +48,6 @@ export async function exportPokemon(
     if (!isMythical && baseSpecies) {
       isMythical = !!data[baseSpecies.id]?.isMythical;
     }
-
-    const region = getRegion(species);
 
     let gmaxMove;
     if (hasDynamax) {
@@ -58,6 +62,7 @@ export async function exportPokemon(
       // -- General
       slug: species.id,
       name: species.name,
+      prettyName,
       gen: species.gen,
       types: getTypeSlugs(species.types),
       num: species.num,
@@ -291,23 +296,62 @@ function getSpeciesSlugs(
   return result;
 }
 
-const regionFormes = {
-  Alola: ['Alola', 'Alola-Totem'],
-  Galar: ['Galar', 'Galar-Zen'],
-  Hisui: ['Hisui'],
-  Paldea: ['Paldea'],
-};
+function getPrettyName(
+  species: Specie,
+  baseSpecies: Specie | undefined,
+  region: Region | undefined,
+  extraData: Record<string, { prettyName?: string }>
+) {
+  let result = extraData[species.id]?.prettyName;
+
+  if (result) {
+    return result;
+  }
+
+  if (region && baseSpecies) {
+    const prettyRegion = getRegionPrettyName(region);
+
+    if (prettyRegion) {
+      result = `${prettyRegion} ${baseSpecies.name}`;
+    }
+  }
+
+  return result;
+}
+
+const regionFormes: Map<Region, string[]> = new Map([
+  ['Alola', ['Alola', 'Alola-Totem']],
+  ['Galar', ['Galar', 'Galar-Zen']],
+  ['Hisui', ['Hisui']],
+  ['Paldea', ['Paldea']],
+]);
 
 function getRegion(species: Specie) {
   if (!species.forme) {
     return;
   }
 
-  for (const [key, value] of Object.entries(regionFormes)) {
+  for (const [key, value] of regionFormes) {
     if (_.includes(value, species.forme)) {
       return key;
     }
   }
 
   return;
+}
+
+function getRegionPrettyName(region: Region) {
+  switch (region) {
+    case 'Alola':
+      return 'Alolan';
+
+    case 'Galar':
+      return 'Galarian';
+
+    case 'Hisui':
+      return 'Hisuian';
+
+    case 'Paldea':
+      return 'Paldean';
+  }
 }

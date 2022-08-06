@@ -11,21 +11,18 @@ interface MoveEntry {
   type: string;
   category: string;
   basePower: number;
-  accuracy: number | true;
+  accuracy?: number;
   pp: number;
   target: string;
   priority: number;
-
   isZ?: unknown;
   zMove?: unknown;
   zMoveEffect?: unknown;
-
   isMax?: unknown;
   maxMove?: unknown;
-
-  desc?: string;
-  shortDesc?: string;
-  // flavorText?: string;
+  desc: string;
+  shortDesc: string;
+  // flavorText: string;
 }
 
 export async function exportMoves(gen: Generation, target: string) {
@@ -48,10 +45,18 @@ export async function exportMoves(gen: Generation, target: string) {
       type: typeNameToSlug(move.type),
       category: moveCategoryToSlug(move.category),
       basePower: move.basePower,
-      accuracy: move.accuracy,
+      accuracy: move.accuracy === true ? undefined : move.accuracy,
       pp: move.pp,
       target: move.target,
       priority: move.priority,
+      isZ: undefined,
+      zMove: undefined,
+      zMoveEffect: undefined,
+      isMax: undefined,
+      maxMove: undefined,
+      desc: move.desc,
+      shortDesc: move.shortDesc,
+      // flavorText: data[move.id]?.flavorText,
     };
 
     if (hasZMoves) {
@@ -68,10 +73,6 @@ export async function exportMoves(gen: Generation, target: string) {
 
       // TODO G-Max Moves
     }
-
-    entry.desc = move.desc;
-    entry.shortDesc = move.shortDesc;
-    // entry.flavorText = data[move.id]?.flavorText;
 
     result.push(entry);
   }

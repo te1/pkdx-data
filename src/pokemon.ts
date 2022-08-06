@@ -3,9 +3,18 @@ import * as path from 'path';
 import * as _ from 'lodash';
 import { AbilityName, Generation, SpeciesName, TypeName } from '@pkmn/data';
 import { SpeciesAbility } from '@pkmn/dex-types';
-import { exportData, typeNameToSlug } from './utils';
+import {
+  AbilityMap,
+  AbilityMapItem,
+  exportData,
+  typeNameToSlug,
+} from './utils';
 
-export async function exportPokemon(gen: Generation, target: string) {
+export async function exportPokemon(
+  gen: Generation,
+  target: string,
+  abilityMap: AbilityMap
+) {
   console.log('- pokemon');
 
   // TODO add pokemon flavor text
@@ -54,6 +63,22 @@ export async function exportPokemon(gen: Generation, target: string) {
 
     // TODO formes
     // TODO learnsets
+
+    for (const abilityName of Object.values(species.abilities)) {
+      const abilitySlug = getAbilitySlug(abilityName, gen);
+
+      let ability = abilityMap.get(abilitySlug);
+
+      if (!ability) {
+        ability = {
+          pokemon: new Set<string>(),
+        };
+      }
+
+      ability.pokemon.add(species.id);
+
+      abilityMap.set(abilitySlug, ability);
+    }
   }
 
   result = _.sortBy(result, 'slug');
@@ -71,13 +96,16 @@ export function getTypeSlugs(types: [TypeName] | [TypeName, TypeName]) {
   return _.map(types, typeNameToSlug);
 }
 
+function getAbilitySlug(abilityName: string, gen: Generation) {
+  return gen.abilities.get(abilityName)?.id as string;
+}
+
 function getAbilitySlugs(
   abilities: SpeciesAbility<AbilityName | ''>,
   gen: Generation
 ) {
-  let result: object = _.mapValues(
-    abilities,
-    (abilityName) => gen.abilities.get(abilityName ?? '')?.id
+  let result: object = _.mapValues(abilities, (abilityName) =>
+    getAbilitySlug(abilityName ?? '', gen)
   );
 
   // drop falsey values

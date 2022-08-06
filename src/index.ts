@@ -1,6 +1,7 @@
 import * as fs from 'fs-extra';
 import { Dex } from '@pkmn/dex';
 import { Generations, GenerationNum } from '@pkmn/data';
+import { AbilityMap } from './utils';
 import { exportTypes } from './type';
 import { exportNatures } from './nature';
 import { exportItems } from './item';
@@ -18,6 +19,8 @@ async function main() {
     await fs.emptyDir(target);
 
     for (const genNum of genNums) {
+      const abilityMap: AbilityMap = new Map();
+
       const gen = gens.get(genNum);
 
       console.log(`*** gen ${genNum} ***`);
@@ -25,9 +28,9 @@ async function main() {
       await exportTypes(gen, target);
       await exportNatures(gen, target);
       await exportItems(gen, target);
-      await exportPokemon(gen, target);
+      await exportPokemon(gen, target, abilityMap);
       await exportMoves(gen, target);
-      await exportAbilities(gen, target);
+      await exportAbilities(gen, target, abilityMap);
 
       console.log('');
     }

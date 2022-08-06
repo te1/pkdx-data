@@ -30,8 +30,10 @@ export async function exportTypes(gen: Generation, target: string) {
 
   result = _.sortBy(result, 'slug');
 
-  console.log('\t' + `writing ${result.length} types...`);
-  await exportData(path.join(target, `gen${gen.num}`, 'type.json'), result);
+  if (result.length) {
+    console.log('\t' + `writing ${result.length} types...`);
+    await exportData(path.join(target, `gen${gen.num}`, 'type.json'), result);
+  }
 }
 
 function shouldSkipType(type: Type) {

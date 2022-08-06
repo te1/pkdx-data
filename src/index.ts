@@ -2,6 +2,7 @@ import * as fs from 'fs-extra';
 import { Dex } from '@pkmn/dex';
 import { Generations, GenerationNum } from '@pkmn/data';
 import { exportTypes } from './type';
+import { exportNatures } from './nature';
 
 const target = './generated/';
 
@@ -18,6 +19,7 @@ async function main() {
       console.log(`*** gen ${genNum} ***`);
 
       await exportTypes(gen, target);
+      await exportNatures(gen, target);
 
       console.log('');
     }

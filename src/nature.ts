@@ -1,5 +1,5 @@
 import * as path from 'path';
-import * as _ from 'lodash';
+import _ from 'lodash';
 import { Generation } from '@pkmn/data';
 import { exportData } from './utils';
 

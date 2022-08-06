@@ -10,8 +10,16 @@
     "lint:fix": "eslint ./src --fix",
     "prettier": "prettier ./src --write"
   },
+  "dependencies": {
+    "@pkmn/data": "^0.5.23",
+    "@pkmn/dex": "^0.5.23",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.182",
     "@types/node": "^18.6.4",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",

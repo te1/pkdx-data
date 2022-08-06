@@ -3,9 +3,10 @@ import { Dex } from '@pkmn/dex';
 import { Generations, GenerationNum } from '@pkmn/data';
 import { exportTypes } from './type';
 import { exportNatures } from './nature';
-import { exportAbilities } from './ability';
 import { exportItems } from './item';
+import { exportPokemon } from './pokemon';
 import { exportMoves } from './move';
+import { exportAbilities } from './ability';
 
 const target = './generated/';
 
@@ -23,9 +24,10 @@ async function main() {
 
       await exportTypes(gen, target);
       await exportNatures(gen, target);
-      await exportAbilities(gen, target);
       await exportItems(gen, target);
+      await exportPokemon(gen, target);
       await exportMoves(gen, target);
+      await exportAbilities(gen, target);
 
       console.log('');
     }

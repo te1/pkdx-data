@@ -99,6 +99,7 @@ async function main() {
       console.log('');
     }
 
+    // TODO export games
     // TODO export pokedex
     // TODO export HM/TM/TR
     // TODO create index and detail files

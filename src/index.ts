@@ -15,7 +15,8 @@ const target = './generated/';
 const existsFn = (d: Data, g: GenerationNum) => {
   // from pkmn/ps/data/index.ts DEFAULT_EXISTS
 
-  const pokestarIds = [
+  const excludeSpeciesId = [
+    'missingno',
     'pokestarblackbelt',
     'pokestarblackdoor',
     'pokestarbrycenman',
@@ -41,12 +42,12 @@ const existsFn = (d: Data, g: GenerationNum) => {
 
   // include G-Max and Unobtainable formes
   // include Illegal and Unreleased tier
-  // exclude Pokestar
+  // exclude Pokestar and missingno
   const allowNonstandardSpecies =
     d.kind === 'Species' &&
     d.isNonstandard &&
     _.includes(['Gigantamax', 'Unobtainable'], d.isNonstandard) &&
-    !_.includes(pokestarIds, d.id);
+    !_.includes(excludeSpeciesId, d.id);
 
   // include Legends Arceus species
   const allowFutureSpecies =

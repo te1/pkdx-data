@@ -221,7 +221,7 @@ export async function exportPokemon(
     }
   }
 
-  result = _.sortBy(result, 'slug');
+  result = _.orderBy(result, ['num', 'slug']);
 
   if (result.length) {
     console.log('\t' + `writing ${result.length} pokemon...`);

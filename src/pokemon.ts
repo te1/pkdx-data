@@ -125,9 +125,7 @@ export async function exportPokemon(
       formTriggerMove: getMoveSlug(species.requiredMove ?? '', gen),
 
       region: region || undefined,
-
       isBattleOnly: !!species.battleOnly || undefined,
-
       isMega: species.isMega,
       isPrimal: species.isPrimal,
       isTotem: species.forme === 'Totem' || undefined,
@@ -189,23 +187,7 @@ export async function exportPokemon(
 
     // TODO handle cosmeticFormes
 
-    // Optional logging if `baseSpecies` is different from `changesFrom`
-    // if (
-    //   species.changesFrom &&
-    //   species.name !== species.baseSpecies &&
-    //   species.baseSpecies !== species.changesFrom
-    // ) {
-    //   console.log(
-    //     species.name,
-    //     '\tbaseSpecies -->',
-    //     species.baseSpecies,
-    //     '\tchangesFrom -->',
-    //     species.changesFrom,
-    //     '\tisBattleOnly -->',
-    //     !!species.battleOnly
-    //   );
-    // }
-
+    // remember available abilities per pokemon for later use
     for (const abilityName of Object.values(species.abilities)) {
       const abilitySlug = getAbilitySlug(abilityName, gen);
 

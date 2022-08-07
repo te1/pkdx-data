@@ -11,8 +11,6 @@ export const config = {
   prettyPrintJson: true,
 };
 
-JSON.stringify;
-
 function jsonReplacer(_key: string, value: unknown) {
   if (value instanceof Map) {
     return Array.from(value);

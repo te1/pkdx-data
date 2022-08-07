@@ -35,9 +35,10 @@ export async function exportPokemon(
         ? gen.species.get(species.baseSpecies)
         : undefined;
 
-    const region = getRegion(species);
-
+    const isGmax = species.isNonstandard === 'Gigantamax';
+    const region = getRegion(species, data);
     const prettyName = getPrettyName(species, baseSpecies, region, data);
+    const subName = getPrettySubName(species, { isGmax, region }, data);
 
     let isLegendary = !!data[species.id]?.isLegendary;
     if (!isLegendary && baseSpecies) {
@@ -63,6 +64,7 @@ export async function exportPokemon(
       slug: species.id,
       name: species.name,
       prettyName,
+      subName,
       gen: species.gen,
       types: getTypeSlugs(species.types),
       num: species.num,
@@ -124,7 +126,7 @@ export async function exportPokemon(
       isMega: species.isMega,
       isPrimal: species.isPrimal,
       isTotem: species.forme === 'Totem' || undefined,
-      isGmax: species.isNonstandard === 'Gigantamax' || undefined,
+      isGmax: isGmax || undefined,
 
       // name of base forme
       // is just a string to display (e.g. is "Shield" for Aegislash)
@@ -302,21 +304,69 @@ function getPrettyName(
   region: Region | undefined,
   extraData: Record<string, { prettyName?: string }>
 ) {
+  // direct override from extraData
   let result = extraData[species.id]?.prettyName;
-
   if (result) {
     return result;
   }
 
-  if (region && baseSpecies) {
-    const prettyRegion = getRegionPrettyName(region);
+  if (baseSpecies) {
+    if (region) {
+      // use base species name (e.g. "Raichu")
+      // add region prefix (e.g. "Alolan Raichu")
+      const prettyRegion = getRegionPrettyName(region);
 
-    if (prettyRegion) {
-      result = `${prettyRegion} ${baseSpecies.name}`;
+      if (prettyRegion) {
+        result = `${prettyRegion} ${baseSpecies.name}`;
+      }
+    } else {
+      // use base species name (e.g. "Aegislash")
+      // handle the rest with subName (e.g. "Blade Forme")
+      result = baseSpecies.name;
+
+      if (species.isMega) {
+        // use forme (e.g. "Mega Blastoise")
+        result = `${species.forme} ${result}`;
+      }
+
+      if (species.isPrimal) {
+        // use forme (e.g. "Primal Kyogre")
+        result = `${species.forme} ${result}`;
+      }
     }
   }
 
   return result;
+}
+
+function getPrettySubName(
+  species: Specie,
+  speciesData: { isGmax?: boolean; region?: Region },
+  extraData: Record<string, { subName?: string; hideSubName?: boolean }>
+) {
+  // direct override from extraData
+  const result = extraData[species.id]?.subName;
+  if (result) {
+    return result;
+  }
+
+  if (extraData[species.id]?.hideSubName) {
+    return;
+  }
+
+  if (speciesData.isGmax) {
+    return 'Gigantamax';
+  }
+
+  // fallback to forme (e.g. "Blade")
+  if (
+    species.forme &&
+    !speciesData.region &&
+    !species.isMega &&
+    !species.isPrimal
+  ) {
+    return species.forme;
+  }
 }
 
 const regionFormes: Map<Region, string[]> = new Map([
@@ -326,7 +376,16 @@ const regionFormes: Map<Region, string[]> = new Map([
   ['Paldea', ['Paldea']],
 ]);
 
-function getRegion(species: Specie) {
+function getRegion(
+  species: Specie,
+  extraData: Record<string, { region?: Region }>
+) {
+  // direct override from extraData
+  const result = extraData[species.id]?.region;
+  if (result !== undefined) {
+    return result;
+  }
+
   if (!species.forme) {
     return;
   }

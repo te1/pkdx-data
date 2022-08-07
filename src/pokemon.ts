@@ -88,6 +88,11 @@ export async function exportPokemon(
       // nfe: species.nfe,
 
       // -- Formes
+      // name of default / base forme
+      // is just a string to display (e.g. is "Shield" for Aegislash)
+      // will not be set on formes (e.g. is null for Aegislash-Blade)
+      defaultFormeName: species.baseForme || undefined,
+
       // if set then this species is a forme
       // is just a string to display (e.g. is "Blade" for Aegislash-Blade)
       // will not be set on the base forme (e.g. is null for Aegislash)
@@ -101,7 +106,7 @@ export async function exportPokemon(
       // will not be set on the base forme (e.g. is null for Aegislash)
       // e.g. is "Aegislash" for Aegislash-Blade
       // only included if different from `baseSpecies`
-      changesFrom:
+      baseForm:
         !baseSpecies || baseSpecies.name !== species.changesFrom
           ? getSpeciesSlug(species.changesFrom, gen)
           : undefined,
@@ -111,13 +116,13 @@ export async function exportPokemon(
       // battleOnly: getSpeciesSlug(species.battleOnly, gen),
 
       // there may be requirements (having an ability, holding an item, knowing a move) to change forme
-      requiredAbility: getAbilitySlug(species.requiredAbility ?? '', gen),
-      requiredItem: getItemSlug(species.requiredItem ?? '', gen),
-      requiredItems:
+      formTriggerAbility: getAbilitySlug(species.requiredAbility ?? '', gen),
+      formTriggerItem: getItemSlug(species.requiredItem ?? '', gen),
+      formTriggerItems:
         (species.requiredItems?.length ?? 0) > 1
           ? getItemSlugs(species.requiredItems, gen)
           : undefined,
-      requiredMove: getMoveSlug(species.requiredMove ?? '', gen),
+      formTriggerMove: getMoveSlug(species.requiredMove ?? '', gen),
 
       region: region || undefined,
 
@@ -127,11 +132,6 @@ export async function exportPokemon(
       isPrimal: species.isPrimal,
       isTotem: species.forme === 'Totem' || undefined,
       isGmax: isGmax || undefined,
-
-      // name of base forme
-      // is just a string to display (e.g. is "Shield" for Aegislash)
-      // will not be set on formes (e.g. is null for Aegislash-Blade)
-      baseFormeName: species.baseForme || undefined,
 
       // list of all available formes (base forme + otherFormes + cosmeticFormes)
       // only included if there is more than 1

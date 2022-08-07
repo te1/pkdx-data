@@ -1,190 +1,5 @@
 [
   {
-    "slug": "abra",
-    "name": "Abra",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 63,
-    "baseStats": {
-      "hp": 25,
-      "atk": 20,
-      "def": 15,
-      "spa": 105,
-      "spd": 105,
-      "spe": 90
-    },
-    "evos": [
-      "kadabra"
-    ],
-    "weight": 19.5
-  },
-  {
-    "slug": "aerodactyl",
-    "name": "Aerodactyl",
-    "gen": 1,
-    "types": [
-      "rock",
-      "flying"
-    ],
-    "num": 142,
-    "baseStats": {
-      "hp": 80,
-      "atk": 105,
-      "def": 65,
-      "spa": 60,
-      "spd": 60,
-      "spe": 130
-    },
-    "weight": 59
-  },
-  {
-    "slug": "alakazam",
-    "name": "Alakazam",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 65,
-    "baseStats": {
-      "hp": 55,
-      "atk": 50,
-      "def": 45,
-      "spa": 135,
-      "spd": 135,
-      "spe": 120
-    },
-    "prevo": "kadabra",
-    "evoType": "trade",
-    "weight": 48
-  },
-  {
-    "slug": "arbok",
-    "name": "Arbok",
-    "gen": 1,
-    "types": [
-      "poison"
-    ],
-    "num": 24,
-    "baseStats": {
-      "hp": 60,
-      "atk": 85,
-      "def": 69,
-      "spa": 65,
-      "spd": 65,
-      "spe": 80
-    },
-    "prevo": "ekans",
-    "evoLevel": 22,
-    "weight": 65
-  },
-  {
-    "slug": "arcanine",
-    "name": "Arcanine",
-    "gen": 1,
-    "types": [
-      "fire"
-    ],
-    "num": 59,
-    "baseStats": {
-      "hp": 90,
-      "atk": 110,
-      "def": 80,
-      "spa": 80,
-      "spd": 80,
-      "spe": 95
-    },
-    "prevo": "growlithe",
-    "evoType": "useItem",
-    "evoItem": "Fire Stone",
-    "weight": 155
-  },
-  {
-    "slug": "articuno",
-    "name": "Articuno",
-    "gen": 1,
-    "types": [
-      "ice",
-      "flying"
-    ],
-    "num": 144,
-    "baseStats": {
-      "hp": 90,
-      "atk": 85,
-      "def": 100,
-      "spa": 125,
-      "spd": 125,
-      "spe": 85
-    },
-    "hiddenAbilityUnreleased": true,
-    "weight": 55.4,
-    "isLegendary": true
-  },
-  {
-    "slug": "beedrill",
-    "name": "Beedrill",
-    "gen": 1,
-    "types": [
-      "bug",
-      "poison"
-    ],
-    "num": 15,
-    "baseStats": {
-      "hp": 65,
-      "atk": 80,
-      "def": 40,
-      "spa": 45,
-      "spd": 45,
-      "spe": 75
-    },
-    "prevo": "kakuna",
-    "evoLevel": 10,
-    "weight": 29.5
-  },
-  {
-    "slug": "bellsprout",
-    "name": "Bellsprout",
-    "gen": 1,
-    "types": [
-      "grass",
-      "poison"
-    ],
-    "num": 69,
-    "baseStats": {
-      "hp": 50,
-      "atk": 75,
-      "def": 35,
-      "spa": 70,
-      "spd": 70,
-      "spe": 40
-    },
-    "evos": [
-      "weepinbell"
-    ],
-    "weight": 4
-  },
-  {
-    "slug": "blastoise",
-    "name": "Blastoise",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 9,
-    "baseStats": {
-      "hp": 79,
-      "atk": 83,
-      "def": 100,
-      "spa": 85,
-      "spd": 85,
-      "spe": 78
-    },
-    "prevo": "wartortle",
-    "evoLevel": 36,
-    "weight": 85.5
-  },
-  {
     "slug": "bulbasaur",
     "name": "Bulbasaur",
     "gen": 1,
@@ -207,88 +22,49 @@
     "weight": 6.9
   },
   {
-    "slug": "butterfree",
-    "name": "Butterfree",
+    "slug": "ivysaur",
+    "name": "Ivysaur",
     "gen": 1,
     "types": [
-      "bug",
-      "flying"
+      "grass",
+      "poison"
     ],
-    "num": 12,
+    "num": 2,
     "baseStats": {
       "hp": 60,
-      "atk": 45,
-      "def": 50,
+      "atk": 62,
+      "def": 63,
       "spa": 80,
       "spd": 80,
-      "spe": 70
+      "spe": 60
     },
-    "prevo": "metapod",
-    "evoLevel": 10,
-    "weight": 32
-  },
-  {
-    "slug": "caterpie",
-    "name": "Caterpie",
-    "gen": 1,
-    "types": [
-      "bug"
-    ],
-    "num": 10,
-    "baseStats": {
-      "hp": 45,
-      "atk": 30,
-      "def": 35,
-      "spa": 20,
-      "spd": 20,
-      "spe": 45
-    },
+    "prevo": "bulbasaur",
     "evos": [
-      "metapod"
+      "venusaur"
     ],
-    "weight": 2.9
+    "evoLevel": 16,
+    "weight": 13
   },
   {
-    "slug": "chansey",
-    "name": "Chansey",
+    "slug": "venusaur",
+    "name": "Venusaur",
     "gen": 1,
     "types": [
-      "normal"
+      "grass",
+      "poison"
     ],
-    "num": 113,
+    "num": 3,
     "baseStats": {
-      "hp": 250,
-      "atk": 5,
-      "def": 5,
-      "spa": 105,
-      "spd": 105,
-      "spe": 50
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
     },
-    "evoType": "levelHold",
-    "evoCondition": "during the day",
-    "evoItem": "Oval Stone",
-    "weight": 34.6
-  },
-  {
-    "slug": "charizard",
-    "name": "Charizard",
-    "gen": 1,
-    "types": [
-      "fire",
-      "flying"
-    ],
-    "num": 6,
-    "baseStats": {
-      "hp": 78,
-      "atk": 84,
-      "def": 78,
-      "spa": 85,
-      "spd": 85,
-      "spe": 100
-    },
-    "prevo": "charmeleon",
-    "evoLevel": 36,
-    "weight": 90.5
+    "prevo": "ivysaur",
+    "evoLevel": 32,
+    "weight": 100
   },
   {
     "slug": "charmander",
@@ -335,1004 +111,176 @@
     "weight": 19
   },
   {
-    "slug": "clefable",
-    "name": "Clefable",
+    "slug": "charizard",
+    "name": "Charizard",
     "gen": 1,
     "types": [
-      "normal"
-    ],
-    "num": 36,
-    "baseStats": {
-      "hp": 95,
-      "atk": 70,
-      "def": 73,
-      "spa": 85,
-      "spd": 85,
-      "spe": 60
-    },
-    "prevo": "clefairy",
-    "evoType": "useItem",
-    "evoItem": "Moon Stone",
-    "weight": 40
-  },
-  {
-    "slug": "clefairy",
-    "name": "Clefairy",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 35,
-    "baseStats": {
-      "hp": 70,
-      "atk": 45,
-      "def": 48,
-      "spa": 60,
-      "spd": 60,
-      "spe": 35
-    },
-    "evos": [
-      "clefable"
-    ],
-    "evoType": "levelFriendship",
-    "weight": 7.5
-  },
-  {
-    "slug": "cloyster",
-    "name": "Cloyster",
-    "gen": 1,
-    "types": [
-      "water",
-      "ice"
-    ],
-    "num": 91,
-    "baseStats": {
-      "hp": 50,
-      "atk": 95,
-      "def": 180,
-      "spa": 85,
-      "spd": 85,
-      "spe": 70
-    },
-    "prevo": "shellder",
-    "evoType": "useItem",
-    "evoItem": "Water Stone",
-    "weight": 132.5
-  },
-  {
-    "slug": "cubone",
-    "name": "Cubone",
-    "gen": 1,
-    "types": [
-      "ground"
-    ],
-    "num": 104,
-    "baseStats": {
-      "hp": 50,
-      "atk": 50,
-      "def": 95,
-      "spa": 40,
-      "spd": 40,
-      "spe": 35
-    },
-    "evos": [
-      "marowak"
-    ],
-    "weight": 6.5
-  },
-  {
-    "slug": "dewgong",
-    "name": "Dewgong",
-    "gen": 1,
-    "types": [
-      "water",
-      "ice"
-    ],
-    "num": 87,
-    "baseStats": {
-      "hp": 90,
-      "atk": 70,
-      "def": 80,
-      "spa": 95,
-      "spd": 95,
-      "spe": 70
-    },
-    "prevo": "seel",
-    "evoLevel": 34,
-    "weight": 120
-  },
-  {
-    "slug": "diglett",
-    "name": "Diglett",
-    "gen": 1,
-    "types": [
-      "ground"
-    ],
-    "num": 50,
-    "baseStats": {
-      "hp": 10,
-      "atk": 55,
-      "def": 25,
-      "spa": 45,
-      "spd": 45,
-      "spe": 95
-    },
-    "evos": [
-      "dugtrio"
-    ],
-    "weight": 0.8
-  },
-  {
-    "slug": "ditto",
-    "name": "Ditto",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 132,
-    "baseStats": {
-      "hp": 48,
-      "atk": 48,
-      "def": 48,
-      "spa": 48,
-      "spd": 48,
-      "spe": 48
-    },
-    "weight": 4
-  },
-  {
-    "slug": "dodrio",
-    "name": "Dodrio",
-    "gen": 1,
-    "types": [
-      "normal",
+      "fire",
       "flying"
     ],
-    "num": 85,
+    "num": 6,
     "baseStats": {
-      "hp": 60,
-      "atk": 110,
-      "def": 70,
-      "spa": 60,
-      "spd": 60,
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 85,
+      "spd": 85,
       "spe": 100
     },
-    "prevo": "doduo",
-    "evoLevel": 31,
-    "weight": 85.2
+    "prevo": "charmeleon",
+    "evoLevel": 36,
+    "weight": 90.5
   },
   {
-    "slug": "doduo",
-    "name": "Doduo",
+    "slug": "squirtle",
+    "name": "Squirtle",
     "gen": 1,
     "types": [
-      "normal",
-      "flying"
+      "water"
     ],
-    "num": 84,
+    "num": 7,
     "baseStats": {
-      "hp": 35,
-      "atk": 85,
-      "def": 45,
-      "spa": 35,
-      "spd": 35,
-      "spe": 75
-    },
-    "evos": [
-      "dodrio"
-    ],
-    "weight": 39.2
-  },
-  {
-    "slug": "dragonair",
-    "name": "Dragonair",
-    "gen": 1,
-    "types": [
-      "dragon"
-    ],
-    "num": 148,
-    "baseStats": {
-      "hp": 61,
-      "atk": 84,
+      "hp": 44,
+      "atk": 48,
       "def": 65,
-      "spa": 70,
-      "spd": 70,
-      "spe": 70
-    },
-    "prevo": "dratini",
-    "evos": [
-      "dragonite"
-    ],
-    "evoLevel": 30,
-    "weight": 16.5
-  },
-  {
-    "slug": "dragonite",
-    "name": "Dragonite",
-    "gen": 1,
-    "types": [
-      "dragon",
-      "flying"
-    ],
-    "num": 149,
-    "baseStats": {
-      "hp": 91,
-      "atk": 134,
-      "def": 95,
-      "spa": 100,
-      "spd": 100,
-      "spe": 80
-    },
-    "prevo": "dragonair",
-    "evoLevel": 55,
-    "weight": 210
-  },
-  {
-    "slug": "dratini",
-    "name": "Dratini",
-    "gen": 1,
-    "types": [
-      "dragon"
-    ],
-    "num": 147,
-    "baseStats": {
-      "hp": 41,
-      "atk": 64,
-      "def": 45,
       "spa": 50,
       "spd": 50,
+      "spe": 43
+    },
+    "evos": [
+      "wartortle"
+    ],
+    "weight": 9
+  },
+  {
+    "slug": "wartortle",
+    "name": "Wartortle",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 8,
+    "baseStats": {
+      "hp": 59,
+      "atk": 63,
+      "def": 80,
+      "spa": 65,
+      "spd": 65,
+      "spe": 58
+    },
+    "prevo": "squirtle",
+    "evos": [
+      "blastoise"
+    ],
+    "evoLevel": 16,
+    "weight": 22.5
+  },
+  {
+    "slug": "blastoise",
+    "name": "Blastoise",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 9,
+    "baseStats": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "spa": 85,
+      "spd": 85,
+      "spe": 78
+    },
+    "prevo": "wartortle",
+    "evoLevel": 36,
+    "weight": 85.5
+  },
+  {
+    "slug": "caterpie",
+    "name": "Caterpie",
+    "gen": 1,
+    "types": [
+      "bug"
+    ],
+    "num": 10,
+    "baseStats": {
+      "hp": 45,
+      "atk": 30,
+      "def": 35,
+      "spa": 20,
+      "spd": 20,
+      "spe": 45
+    },
+    "evos": [
+      "metapod"
+    ],
+    "weight": 2.9
+  },
+  {
+    "slug": "metapod",
+    "name": "Metapod",
+    "gen": 1,
+    "types": [
+      "bug"
+    ],
+    "num": 11,
+    "baseStats": {
+      "hp": 50,
+      "atk": 20,
+      "def": 55,
+      "spa": 25,
+      "spd": 25,
+      "spe": 30
+    },
+    "prevo": "caterpie",
+    "evos": [
+      "butterfree"
+    ],
+    "evoLevel": 7,
+    "weight": 9.9
+  },
+  {
+    "slug": "butterfree",
+    "name": "Butterfree",
+    "gen": 1,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "num": 12,
+    "baseStats": {
+      "hp": 60,
+      "atk": 45,
+      "def": 50,
+      "spa": 80,
+      "spd": 80,
+      "spe": 70
+    },
+    "prevo": "metapod",
+    "evoLevel": 10,
+    "weight": 32
+  },
+  {
+    "slug": "weedle",
+    "name": "Weedle",
+    "gen": 1,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "num": 13,
+    "baseStats": {
+      "hp": 40,
+      "atk": 35,
+      "def": 30,
+      "spa": 20,
+      "spd": 20,
       "spe": 50
     },
     "evos": [
-      "dragonair"
+      "kakuna"
     ],
-    "weight": 3.3
-  },
-  {
-    "slug": "drowzee",
-    "name": "Drowzee",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 96,
-    "baseStats": {
-      "hp": 60,
-      "atk": 48,
-      "def": 45,
-      "spa": 90,
-      "spd": 90,
-      "spe": 42
-    },
-    "evos": [
-      "hypno"
-    ],
-    "weight": 32.4
-  },
-  {
-    "slug": "dugtrio",
-    "name": "Dugtrio",
-    "gen": 1,
-    "types": [
-      "ground"
-    ],
-    "num": 51,
-    "baseStats": {
-      "hp": 35,
-      "atk": 80,
-      "def": 50,
-      "spa": 70,
-      "spd": 70,
-      "spe": 120
-    },
-    "prevo": "diglett",
-    "evoLevel": 26,
-    "weight": 33.3
-  },
-  {
-    "slug": "eevee",
-    "name": "Eevee",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 133,
-    "baseStats": {
-      "hp": 55,
-      "atk": 55,
-      "def": 50,
-      "spa": 65,
-      "spd": 65,
-      "spe": 55
-    },
-    "evos": [
-      "vaporeon",
-      "jolteon",
-      "flareon"
-    ],
-    "weight": 6.5
-  },
-  {
-    "slug": "ekans",
-    "name": "Ekans",
-    "gen": 1,
-    "types": [
-      "poison"
-    ],
-    "num": 23,
-    "baseStats": {
-      "hp": 35,
-      "atk": 60,
-      "def": 44,
-      "spa": 40,
-      "spd": 40,
-      "spe": 55
-    },
-    "evos": [
-      "arbok"
-    ],
-    "weight": 6.9
-  },
-  {
-    "slug": "electabuzz",
-    "name": "Electabuzz",
-    "gen": 1,
-    "types": [
-      "electric"
-    ],
-    "num": 125,
-    "baseStats": {
-      "hp": 65,
-      "atk": 83,
-      "def": 57,
-      "spa": 85,
-      "spd": 85,
-      "spe": 105
-    },
-    "evoLevel": 30,
-    "weight": 30
-  },
-  {
-    "slug": "electrode",
-    "name": "Electrode",
-    "gen": 1,
-    "types": [
-      "electric"
-    ],
-    "num": 101,
-    "baseStats": {
-      "hp": 60,
-      "atk": 50,
-      "def": 70,
-      "spa": 80,
-      "spd": 80,
-      "spe": 140
-    },
-    "prevo": "voltorb",
-    "evoLevel": 30,
-    "weight": 66.6
-  },
-  {
-    "slug": "exeggcute",
-    "name": "Exeggcute",
-    "gen": 1,
-    "types": [
-      "grass",
-      "psychic"
-    ],
-    "num": 102,
-    "baseStats": {
-      "hp": 60,
-      "atk": 40,
-      "def": 80,
-      "spa": 60,
-      "spd": 60,
-      "spe": 40
-    },
-    "evos": [
-      "exeggutor"
-    ],
-    "weight": 2.5
-  },
-  {
-    "slug": "exeggutor",
-    "name": "Exeggutor",
-    "gen": 1,
-    "types": [
-      "grass",
-      "psychic"
-    ],
-    "num": 103,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 85,
-      "spa": 125,
-      "spd": 125,
-      "spe": 55
-    },
-    "prevo": "exeggcute",
-    "evoType": "useItem",
-    "evoItem": "Leaf Stone",
-    "weight": 120
-  },
-  {
-    "slug": "farfetchd",
-    "name": "Farfetch’d",
-    "gen": 1,
-    "types": [
-      "normal",
-      "flying"
-    ],
-    "num": 83,
-    "baseStats": {
-      "hp": 52,
-      "atk": 65,
-      "def": 55,
-      "spa": 58,
-      "spd": 58,
-      "spe": 60
-    },
-    "weight": 15
-  },
-  {
-    "slug": "fearow",
-    "name": "Fearow",
-    "gen": 1,
-    "types": [
-      "normal",
-      "flying"
-    ],
-    "num": 22,
-    "baseStats": {
-      "hp": 65,
-      "atk": 90,
-      "def": 65,
-      "spa": 61,
-      "spd": 61,
-      "spe": 100
-    },
-    "prevo": "spearow",
-    "evoLevel": 20,
-    "weight": 38
-  },
-  {
-    "slug": "flareon",
-    "name": "Flareon",
-    "gen": 1,
-    "types": [
-      "fire"
-    ],
-    "num": 136,
-    "baseStats": {
-      "hp": 65,
-      "atk": 130,
-      "def": 60,
-      "spa": 110,
-      "spd": 110,
-      "spe": 65
-    },
-    "prevo": "eevee",
-    "evoType": "useItem",
-    "evoItem": "Fire Stone",
-    "weight": 25
-  },
-  {
-    "slug": "gastly",
-    "name": "Gastly",
-    "gen": 1,
-    "types": [
-      "ghost",
-      "poison"
-    ],
-    "num": 92,
-    "baseStats": {
-      "hp": 30,
-      "atk": 35,
-      "def": 30,
-      "spa": 100,
-      "spd": 100,
-      "spe": 80
-    },
-    "evos": [
-      "haunter"
-    ],
-    "weight": 0.1
-  },
-  {
-    "slug": "gengar",
-    "name": "Gengar",
-    "gen": 1,
-    "types": [
-      "ghost",
-      "poison"
-    ],
-    "num": 94,
-    "baseStats": {
-      "hp": 60,
-      "atk": 65,
-      "def": 60,
-      "spa": 130,
-      "spd": 130,
-      "spe": 110
-    },
-    "prevo": "haunter",
-    "evoType": "trade",
-    "weight": 40.5
-  },
-  {
-    "slug": "geodude",
-    "name": "Geodude",
-    "gen": 1,
-    "types": [
-      "rock",
-      "ground"
-    ],
-    "num": 74,
-    "baseStats": {
-      "hp": 40,
-      "atk": 80,
-      "def": 100,
-      "spa": 30,
-      "spd": 30,
-      "spe": 20
-    },
-    "evos": [
-      "graveler"
-    ],
-    "weight": 20
-  },
-  {
-    "slug": "gloom",
-    "name": "Gloom",
-    "gen": 1,
-    "types": [
-      "grass",
-      "poison"
-    ],
-    "num": 44,
-    "baseStats": {
-      "hp": 60,
-      "atk": 65,
-      "def": 70,
-      "spa": 85,
-      "spd": 85,
-      "spe": 40
-    },
-    "prevo": "oddish",
-    "evos": [
-      "vileplume"
-    ],
-    "evoLevel": 21,
-    "weight": 8.6
-  },
-  {
-    "slug": "golbat",
-    "name": "Golbat",
-    "gen": 1,
-    "types": [
-      "poison",
-      "flying"
-    ],
-    "num": 42,
-    "baseStats": {
-      "hp": 75,
-      "atk": 80,
-      "def": 70,
-      "spa": 75,
-      "spd": 75,
-      "spe": 90
-    },
-    "prevo": "zubat",
-    "evoLevel": 22,
-    "weight": 55
-  },
-  {
-    "slug": "goldeen",
-    "name": "Goldeen",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 118,
-    "baseStats": {
-      "hp": 45,
-      "atk": 67,
-      "def": 60,
-      "spa": 50,
-      "spd": 50,
-      "spe": 63
-    },
-    "evos": [
-      "seaking"
-    ],
-    "weight": 15
-  },
-  {
-    "slug": "golduck",
-    "name": "Golduck",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 55,
-    "baseStats": {
-      "hp": 80,
-      "atk": 82,
-      "def": 78,
-      "spa": 80,
-      "spd": 80,
-      "spe": 85
-    },
-    "prevo": "psyduck",
-    "evoLevel": 33,
-    "weight": 76.6
-  },
-  {
-    "slug": "golem",
-    "name": "Golem",
-    "gen": 1,
-    "types": [
-      "rock",
-      "ground"
-    ],
-    "num": 76,
-    "baseStats": {
-      "hp": 80,
-      "atk": 110,
-      "def": 130,
-      "spa": 55,
-      "spd": 55,
-      "spe": 45
-    },
-    "prevo": "graveler",
-    "evoType": "trade",
-    "weight": 300
-  },
-  {
-    "slug": "graveler",
-    "name": "Graveler",
-    "gen": 1,
-    "types": [
-      "rock",
-      "ground"
-    ],
-    "num": 75,
-    "baseStats": {
-      "hp": 55,
-      "atk": 95,
-      "def": 115,
-      "spa": 45,
-      "spd": 45,
-      "spe": 35
-    },
-    "prevo": "geodude",
-    "evos": [
-      "golem"
-    ],
-    "evoLevel": 25,
-    "weight": 105
-  },
-  {
-    "slug": "grimer",
-    "name": "Grimer",
-    "gen": 1,
-    "types": [
-      "poison"
-    ],
-    "num": 88,
-    "baseStats": {
-      "hp": 80,
-      "atk": 80,
-      "def": 50,
-      "spa": 40,
-      "spd": 40,
-      "spe": 25
-    },
-    "evos": [
-      "muk"
-    ],
-    "weight": 30
-  },
-  {
-    "slug": "growlithe",
-    "name": "Growlithe",
-    "gen": 1,
-    "types": [
-      "fire"
-    ],
-    "num": 58,
-    "baseStats": {
-      "hp": 55,
-      "atk": 70,
-      "def": 45,
-      "spa": 50,
-      "spd": 50,
-      "spe": 60
-    },
-    "evos": [
-      "arcanine"
-    ],
-    "weight": 19
-  },
-  {
-    "slug": "gyarados",
-    "name": "Gyarados",
-    "gen": 1,
-    "types": [
-      "water",
-      "flying"
-    ],
-    "num": 130,
-    "baseStats": {
-      "hp": 95,
-      "atk": 125,
-      "def": 79,
-      "spa": 100,
-      "spd": 100,
-      "spe": 81
-    },
-    "prevo": "magikarp",
-    "evoLevel": 20,
-    "weight": 235
-  },
-  {
-    "slug": "haunter",
-    "name": "Haunter",
-    "gen": 1,
-    "types": [
-      "ghost",
-      "poison"
-    ],
-    "num": 93,
-    "baseStats": {
-      "hp": 45,
-      "atk": 50,
-      "def": 45,
-      "spa": 115,
-      "spd": 115,
-      "spe": 95
-    },
-    "prevo": "gastly",
-    "evos": [
-      "gengar"
-    ],
-    "evoLevel": 25,
-    "weight": 0.1
-  },
-  {
-    "slug": "hitmonchan",
-    "name": "Hitmonchan",
-    "gen": 1,
-    "types": [
-      "fighting"
-    ],
-    "num": 107,
-    "baseStats": {
-      "hp": 50,
-      "atk": 105,
-      "def": 79,
-      "spa": 35,
-      "spd": 35,
-      "spe": 76
-    },
-    "evoCondition": "with an Atk stat < its Def stat",
-    "evoLevel": 20,
-    "weight": 50.2
-  },
-  {
-    "slug": "hitmonlee",
-    "name": "Hitmonlee",
-    "gen": 1,
-    "types": [
-      "fighting"
-    ],
-    "num": 106,
-    "baseStats": {
-      "hp": 50,
-      "atk": 120,
-      "def": 53,
-      "spa": 35,
-      "spd": 35,
-      "spe": 87
-    },
-    "evoCondition": "with an Atk stat > its Def stat",
-    "evoLevel": 20,
-    "weight": 49.8
-  },
-  {
-    "slug": "horsea",
-    "name": "Horsea",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 116,
-    "baseStats": {
-      "hp": 30,
-      "atk": 40,
-      "def": 70,
-      "spa": 70,
-      "spd": 70,
-      "spe": 60
-    },
-    "evos": [
-      "seadra"
-    ],
-    "weight": 8
-  },
-  {
-    "slug": "hypno",
-    "name": "Hypno",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 97,
-    "baseStats": {
-      "hp": 85,
-      "atk": 73,
-      "def": 70,
-      "spa": 115,
-      "spd": 115,
-      "spe": 67
-    },
-    "prevo": "drowzee",
-    "evoLevel": 26,
-    "weight": 75.6
-  },
-  {
-    "slug": "ivysaur",
-    "name": "Ivysaur",
-    "gen": 1,
-    "types": [
-      "grass",
-      "poison"
-    ],
-    "num": 2,
-    "baseStats": {
-      "hp": 60,
-      "atk": 62,
-      "def": 63,
-      "spa": 80,
-      "spd": 80,
-      "spe": 60
-    },
-    "prevo": "bulbasaur",
-    "evos": [
-      "venusaur"
-    ],
-    "evoLevel": 16,
-    "weight": 13
-  },
-  {
-    "slug": "jigglypuff",
-    "name": "Jigglypuff",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 39,
-    "baseStats": {
-      "hp": 115,
-      "atk": 45,
-      "def": 20,
-      "spa": 25,
-      "spd": 25,
-      "spe": 20
-    },
-    "evos": [
-      "wigglytuff"
-    ],
-    "evoType": "levelFriendship",
-    "weight": 5.5
-  },
-  {
-    "slug": "jolteon",
-    "name": "Jolteon",
-    "gen": 1,
-    "types": [
-      "electric"
-    ],
-    "num": 135,
-    "baseStats": {
-      "hp": 65,
-      "atk": 65,
-      "def": 60,
-      "spa": 110,
-      "spd": 110,
-      "spe": 130
-    },
-    "prevo": "eevee",
-    "evoType": "useItem",
-    "evoItem": "Thunder Stone",
-    "weight": 24.5
-  },
-  {
-    "slug": "jynx",
-    "name": "Jynx",
-    "gen": 1,
-    "types": [
-      "ice",
-      "psychic"
-    ],
-    "num": 124,
-    "baseStats": {
-      "hp": 65,
-      "atk": 50,
-      "def": 35,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "evoLevel": 30,
-    "weight": 40.6
-  },
-  {
-    "slug": "kabuto",
-    "name": "Kabuto",
-    "gen": 1,
-    "types": [
-      "rock",
-      "water"
-    ],
-    "num": 140,
-    "baseStats": {
-      "hp": 30,
-      "atk": 80,
-      "def": 90,
-      "spa": 45,
-      "spd": 45,
-      "spe": 55
-    },
-    "evos": [
-      "kabutops"
-    ],
-    "weight": 11.5
-  },
-  {
-    "slug": "kabutops",
-    "name": "Kabutops",
-    "gen": 1,
-    "types": [
-      "rock",
-      "water"
-    ],
-    "num": 141,
-    "baseStats": {
-      "hp": 60,
-      "atk": 115,
-      "def": 105,
-      "spa": 70,
-      "spd": 70,
-      "spe": 80
-    },
-    "prevo": "kabuto",
-    "evoLevel": 40,
-    "weight": 40.5
-  },
-  {
-    "slug": "kadabra",
-    "name": "Kadabra",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 64,
-    "baseStats": {
-      "hp": 40,
-      "atk": 35,
-      "def": 30,
-      "spa": 120,
-      "spd": 120,
-      "spe": 105
-    },
-    "prevo": "abra",
-    "evos": [
-      "alakazam"
-    ],
-    "evoLevel": 16,
-    "weight": 56.5
+    "weight": 3.2
   },
   {
     "slug": "kakuna",
@@ -1359,514 +307,301 @@
     "weight": 10
   },
   {
-    "slug": "kangaskhan",
-    "name": "Kangaskhan",
+    "slug": "beedrill",
+    "name": "Beedrill",
     "gen": 1,
     "types": [
-      "normal"
-    ],
-    "num": 115,
-    "baseStats": {
-      "hp": 105,
-      "atk": 95,
-      "def": 80,
-      "spa": 40,
-      "spd": 40,
-      "spe": 90
-    },
-    "weight": 80
-  },
-  {
-    "slug": "kingler",
-    "name": "Kingler",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 99,
-    "baseStats": {
-      "hp": 55,
-      "atk": 130,
-      "def": 115,
-      "spa": 50,
-      "spd": 50,
-      "spe": 75
-    },
-    "prevo": "krabby",
-    "evoLevel": 28,
-    "weight": 60
-  },
-  {
-    "slug": "koffing",
-    "name": "Koffing",
-    "gen": 1,
-    "types": [
+      "bug",
       "poison"
     ],
-    "num": 109,
-    "baseStats": {
-      "hp": 40,
-      "atk": 65,
-      "def": 95,
-      "spa": 60,
-      "spd": 60,
-      "spe": 35
-    },
-    "evos": [
-      "weezing"
-    ],
-    "weight": 1
-  },
-  {
-    "slug": "krabby",
-    "name": "Krabby",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 98,
-    "baseStats": {
-      "hp": 30,
-      "atk": 105,
-      "def": 90,
-      "spa": 25,
-      "spd": 25,
-      "spe": 50
-    },
-    "evos": [
-      "kingler"
-    ],
-    "weight": 6.5
-  },
-  {
-    "slug": "lapras",
-    "name": "Lapras",
-    "gen": 1,
-    "types": [
-      "water",
-      "ice"
-    ],
-    "num": 131,
-    "baseStats": {
-      "hp": 130,
-      "atk": 85,
-      "def": 80,
-      "spa": 95,
-      "spd": 95,
-      "spe": 60
-    },
-    "weight": 220
-  },
-  {
-    "slug": "lickitung",
-    "name": "Lickitung",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 108,
-    "baseStats": {
-      "hp": 90,
-      "atk": 55,
-      "def": 75,
-      "spa": 60,
-      "spd": 60,
-      "spe": 30
-    },
-    "weight": 65.5
-  },
-  {
-    "slug": "machamp",
-    "name": "Machamp",
-    "gen": 1,
-    "types": [
-      "fighting"
-    ],
-    "num": 68,
-    "baseStats": {
-      "hp": 90,
-      "atk": 130,
-      "def": 80,
-      "spa": 65,
-      "spd": 65,
-      "spe": 55
-    },
-    "prevo": "machoke",
-    "evoType": "trade",
-    "weight": 130
-  },
-  {
-    "slug": "machoke",
-    "name": "Machoke",
-    "gen": 1,
-    "types": [
-      "fighting"
-    ],
-    "num": 67,
-    "baseStats": {
-      "hp": 80,
-      "atk": 100,
-      "def": 70,
-      "spa": 50,
-      "spd": 50,
-      "spe": 45
-    },
-    "prevo": "machop",
-    "evos": [
-      "machamp"
-    ],
-    "evoLevel": 28,
-    "weight": 70.5
-  },
-  {
-    "slug": "machop",
-    "name": "Machop",
-    "gen": 1,
-    "types": [
-      "fighting"
-    ],
-    "num": 66,
-    "baseStats": {
-      "hp": 70,
-      "atk": 80,
-      "def": 50,
-      "spa": 35,
-      "spd": 35,
-      "spe": 35
-    },
-    "evos": [
-      "machoke"
-    ],
-    "weight": 19.5
-  },
-  {
-    "slug": "magikarp",
-    "name": "Magikarp",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 129,
-    "baseStats": {
-      "hp": 20,
-      "atk": 10,
-      "def": 55,
-      "spa": 20,
-      "spd": 20,
-      "spe": 80
-    },
-    "evos": [
-      "gyarados"
-    ],
-    "weight": 10
-  },
-  {
-    "slug": "magmar",
-    "name": "Magmar",
-    "gen": 1,
-    "types": [
-      "fire"
-    ],
-    "num": 126,
+    "num": 15,
     "baseStats": {
       "hp": 65,
-      "atk": 95,
-      "def": 57,
-      "spa": 85,
-      "spd": 85,
-      "spe": 93
-    },
-    "evoLevel": 30,
-    "weight": 44.5
-  },
-  {
-    "slug": "magnemite",
-    "name": "Magnemite",
-    "gen": 1,
-    "types": [
-      "electric"
-    ],
-    "num": 81,
-    "baseStats": {
-      "hp": 25,
-      "atk": 35,
-      "def": 70,
-      "spa": 95,
-      "spd": 95,
-      "spe": 45
-    },
-    "evos": [
-      "magneton"
-    ],
-    "weight": 6
-  },
-  {
-    "slug": "magneton",
-    "name": "Magneton",
-    "gen": 1,
-    "types": [
-      "electric"
-    ],
-    "num": 82,
-    "baseStats": {
-      "hp": 50,
-      "atk": 60,
-      "def": 95,
-      "spa": 120,
-      "spd": 120,
-      "spe": 70
-    },
-    "prevo": "magnemite",
-    "evoLevel": 30,
-    "weight": 60
-  },
-  {
-    "slug": "mankey",
-    "name": "Mankey",
-    "gen": 1,
-    "types": [
-      "fighting"
-    ],
-    "num": 56,
-    "baseStats": {
-      "hp": 40,
       "atk": 80,
-      "def": 35,
-      "spa": 35,
-      "spd": 35,
-      "spe": 70
+      "def": 40,
+      "spa": 45,
+      "spd": 45,
+      "spe": 75
     },
-    "evos": [
-      "primeape"
-    ],
-    "weight": 28
+    "prevo": "kakuna",
+    "evoLevel": 10,
+    "weight": 29.5
   },
   {
-    "slug": "marowak",
-    "name": "Marowak",
+    "slug": "pidgey",
+    "name": "Pidgey",
     "gen": 1,
     "types": [
-      "ground"
-    ],
-    "num": 105,
-    "baseStats": {
-      "hp": 60,
-      "atk": 80,
-      "def": 110,
-      "spa": 50,
-      "spd": 50,
-      "spe": 45
-    },
-    "prevo": "cubone",
-    "evoLevel": 28,
-    "weight": 45
-  },
-  {
-    "slug": "meowth",
-    "name": "Meowth",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 52,
-    "baseStats": {
-      "hp": 40,
-      "atk": 45,
-      "def": 35,
-      "spa": 40,
-      "spd": 40,
-      "spe": 90
-    },
-    "evos": [
-      "persian"
-    ],
-    "weight": 4.2
-  },
-  {
-    "slug": "metapod",
-    "name": "Metapod",
-    "gen": 1,
-    "types": [
-      "bug"
-    ],
-    "num": 11,
-    "baseStats": {
-      "hp": 50,
-      "atk": 20,
-      "def": 55,
-      "spa": 25,
-      "spd": 25,
-      "spe": 30
-    },
-    "prevo": "caterpie",
-    "evos": [
-      "butterfree"
-    ],
-    "evoLevel": 7,
-    "weight": 9.9
-  },
-  {
-    "slug": "mew",
-    "name": "Mew",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 151,
-    "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
-    },
-    "weight": 4,
-    "isMythical": true
-  },
-  {
-    "slug": "mewtwo",
-    "name": "Mewtwo",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 150,
-    "baseStats": {
-      "hp": 106,
-      "atk": 110,
-      "def": 90,
-      "spa": 154,
-      "spd": 154,
-      "spe": 130
-    },
-    "weight": 122,
-    "isLegendary": true
-  },
-  {
-    "slug": "missingno",
-    "name": "MissingNo.",
-    "gen": 0,
-    "types": [
-      "bird",
-      "normal"
-    ],
-    "num": 0,
-    "baseStats": {
-      "hp": 33,
-      "atk": 136,
-      "def": 0,
-      "spa": 6,
-      "spd": 6,
-      "spe": 29
-    },
-    "weight": 1590.8,
-    "isUnobtainable": true
-  },
-  {
-    "slug": "moltres",
-    "name": "Moltres",
-    "gen": 1,
-    "types": [
-      "fire",
+      "normal",
       "flying"
     ],
-    "num": 146,
-    "baseStats": {
-      "hp": 90,
-      "atk": 100,
-      "def": 90,
-      "spa": 125,
-      "spd": 125,
-      "spe": 90
-    },
-    "hiddenAbilityUnreleased": true,
-    "weight": 60,
-    "isLegendary": true
-  },
-  {
-    "slug": "mrmime",
-    "name": "Mr. Mime",
-    "gen": 1,
-    "types": [
-      "psychic"
-    ],
-    "num": 122,
+    "num": 16,
     "baseStats": {
       "hp": 40,
       "atk": 45,
-      "def": 65,
-      "spa": 100,
-      "spd": 100,
-      "spe": 90
+      "def": 40,
+      "spa": 35,
+      "spd": 35,
+      "spe": 56
     },
-    "evoType": "levelMove",
-    "evoMove": "Mimic",
-    "weight": 54.5
+    "evos": [
+      "pidgeotto"
+    ],
+    "weight": 1.8
   },
   {
-    "slug": "muk",
-    "name": "Muk",
+    "slug": "pidgeotto",
+    "name": "Pidgeotto",
     "gen": 1,
     "types": [
-      "poison"
+      "normal",
+      "flying"
     ],
-    "num": 89,
+    "num": 17,
     "baseStats": {
-      "hp": 105,
-      "atk": 105,
-      "def": 75,
-      "spa": 65,
-      "spd": 65,
-      "spe": 50
+      "hp": 63,
+      "atk": 60,
+      "def": 55,
+      "spa": 50,
+      "spd": 50,
+      "spe": 71
     },
-    "prevo": "grimer",
-    "evoLevel": 38,
+    "prevo": "pidgey",
+    "evos": [
+      "pidgeot"
+    ],
+    "evoLevel": 18,
     "weight": 30
   },
   {
-    "slug": "nidoking",
-    "name": "Nidoking",
+    "slug": "pidgeot",
+    "name": "Pidgeot",
     "gen": 1,
     "types": [
-      "poison",
-      "ground"
+      "normal",
+      "flying"
     ],
-    "num": 34,
+    "num": 18,
     "baseStats": {
-      "hp": 81,
-      "atk": 92,
-      "def": 77,
-      "spa": 75,
-      "spd": 75,
-      "spe": 85
+      "hp": 83,
+      "atk": 80,
+      "def": 75,
+      "spa": 70,
+      "spd": 70,
+      "spe": 91
     },
-    "prevo": "nidorino",
-    "evoType": "useItem",
-    "evoItem": "Moon Stone",
-    "weight": 62
+    "prevo": "pidgeotto",
+    "evoLevel": 36,
+    "weight": 39.5
   },
   {
-    "slug": "nidoqueen",
-    "name": "Nidoqueen",
+    "slug": "rattata",
+    "name": "Rattata",
     "gen": 1,
     "types": [
-      "poison",
+      "normal"
+    ],
+    "num": 19,
+    "baseStats": {
+      "hp": 30,
+      "atk": 56,
+      "def": 35,
+      "spa": 25,
+      "spd": 25,
+      "spe": 72
+    },
+    "evos": [
+      "raticate"
+    ],
+    "weight": 3.5
+  },
+  {
+    "slug": "raticate",
+    "name": "Raticate",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 20,
+    "baseStats": {
+      "hp": 55,
+      "atk": 81,
+      "def": 60,
+      "spa": 50,
+      "spd": 50,
+      "spe": 97
+    },
+    "prevo": "rattata",
+    "evoLevel": 20,
+    "weight": 18.5
+  },
+  {
+    "slug": "spearow",
+    "name": "Spearow",
+    "gen": 1,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "num": 21,
+    "baseStats": {
+      "hp": 40,
+      "atk": 60,
+      "def": 30,
+      "spa": 31,
+      "spd": 31,
+      "spe": 70
+    },
+    "evos": [
+      "fearow"
+    ],
+    "weight": 2
+  },
+  {
+    "slug": "fearow",
+    "name": "Fearow",
+    "gen": 1,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "num": 22,
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 65,
+      "spa": 61,
+      "spd": 61,
+      "spe": 100
+    },
+    "prevo": "spearow",
+    "evoLevel": 20,
+    "weight": 38
+  },
+  {
+    "slug": "ekans",
+    "name": "Ekans",
+    "gen": 1,
+    "types": [
+      "poison"
+    ],
+    "num": 23,
+    "baseStats": {
+      "hp": 35,
+      "atk": 60,
+      "def": 44,
+      "spa": 40,
+      "spd": 40,
+      "spe": 55
+    },
+    "evos": [
+      "arbok"
+    ],
+    "weight": 6.9
+  },
+  {
+    "slug": "arbok",
+    "name": "Arbok",
+    "gen": 1,
+    "types": [
+      "poison"
+    ],
+    "num": 24,
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 69,
+      "spa": 65,
+      "spd": 65,
+      "spe": 80
+    },
+    "prevo": "ekans",
+    "evoLevel": 22,
+    "weight": 65
+  },
+  {
+    "slug": "pikachu",
+    "name": "Pikachu",
+    "gen": 1,
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 30,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "evos": [
+      "raichu"
+    ],
+    "evoType": "levelFriendship",
+    "weight": 6
+  },
+  {
+    "slug": "raichu",
+    "name": "Raichu",
+    "gen": 1,
+    "types": [
+      "electric"
+    ],
+    "num": 26,
+    "baseStats": {
+      "hp": 60,
+      "atk": 90,
+      "def": 55,
+      "spa": 90,
+      "spd": 90,
+      "spe": 100
+    },
+    "prevo": "pikachu",
+    "evoType": "useItem",
+    "evoItem": "Thunder Stone",
+    "weight": 30
+  },
+  {
+    "slug": "sandshrew",
+    "name": "Sandshrew",
+    "gen": 1,
+    "types": [
       "ground"
     ],
-    "num": 31,
+    "num": 27,
     "baseStats": {
-      "hp": 90,
-      "atk": 82,
-      "def": 87,
-      "spa": 75,
-      "spd": 75,
-      "spe": 76
+      "hp": 50,
+      "atk": 75,
+      "def": 85,
+      "spa": 30,
+      "spd": 30,
+      "spe": 40
     },
-    "prevo": "nidorina",
-    "evoType": "useItem",
-    "evoItem": "Moon Stone",
-    "weight": 60
+    "evos": [
+      "sandslash"
+    ],
+    "weight": 12
+  },
+  {
+    "slug": "sandslash",
+    "name": "Sandslash",
+    "gen": 1,
+    "types": [
+      "ground"
+    ],
+    "num": 28,
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 110,
+      "spa": 55,
+      "spd": 55,
+      "spe": 65
+    },
+    "prevo": "sandshrew",
+    "evoLevel": 22,
+    "weight": 29.5
   },
   {
     "slug": "nidoranf",
@@ -1889,28 +624,6 @@
       "nidorina"
     ],
     "weight": 7
-  },
-  {
-    "slug": "nidoranm",
-    "name": "Nidoran-M",
-    "prettyName": "Nidoran ♂",
-    "gen": 1,
-    "types": [
-      "poison"
-    ],
-    "num": 32,
-    "baseStats": {
-      "hp": 46,
-      "atk": 57,
-      "def": 40,
-      "spa": 40,
-      "spd": 40,
-      "spe": 50
-    },
-    "evos": [
-      "nidorino"
-    ],
-    "weight": 9
   },
   {
     "slug": "nidorina",
@@ -1936,6 +649,50 @@
     "weight": 20
   },
   {
+    "slug": "nidoqueen",
+    "name": "Nidoqueen",
+    "gen": 1,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "num": 31,
+    "baseStats": {
+      "hp": 90,
+      "atk": 82,
+      "def": 87,
+      "spa": 75,
+      "spd": 75,
+      "spe": 76
+    },
+    "prevo": "nidorina",
+    "evoType": "useItem",
+    "evoItem": "Moon Stone",
+    "weight": 60
+  },
+  {
+    "slug": "nidoranm",
+    "name": "Nidoran-M",
+    "prettyName": "Nidoran ♂",
+    "gen": 1,
+    "types": [
+      "poison"
+    ],
+    "num": 32,
+    "baseStats": {
+      "hp": 46,
+      "atk": 57,
+      "def": 40,
+      "spa": 40,
+      "spd": 40,
+      "spe": 50
+    },
+    "evos": [
+      "nidorino"
+    ],
+    "weight": 9
+  },
+  {
     "slug": "nidorino",
     "name": "Nidorino",
     "gen": 1,
@@ -1959,6 +716,92 @@
     "weight": 19.5
   },
   {
+    "slug": "nidoking",
+    "name": "Nidoking",
+    "gen": 1,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "num": 34,
+    "baseStats": {
+      "hp": 81,
+      "atk": 92,
+      "def": 77,
+      "spa": 75,
+      "spd": 75,
+      "spe": 85
+    },
+    "prevo": "nidorino",
+    "evoType": "useItem",
+    "evoItem": "Moon Stone",
+    "weight": 62
+  },
+  {
+    "slug": "clefairy",
+    "name": "Clefairy",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 35,
+    "baseStats": {
+      "hp": 70,
+      "atk": 45,
+      "def": 48,
+      "spa": 60,
+      "spd": 60,
+      "spe": 35
+    },
+    "evos": [
+      "clefable"
+    ],
+    "evoType": "levelFriendship",
+    "weight": 7.5
+  },
+  {
+    "slug": "clefable",
+    "name": "Clefable",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 36,
+    "baseStats": {
+      "hp": 95,
+      "atk": 70,
+      "def": 73,
+      "spa": 85,
+      "spd": 85,
+      "spe": 60
+    },
+    "prevo": "clefairy",
+    "evoType": "useItem",
+    "evoItem": "Moon Stone",
+    "weight": 40
+  },
+  {
+    "slug": "vulpix",
+    "name": "Vulpix",
+    "gen": 1,
+    "types": [
+      "fire"
+    ],
+    "num": 37,
+    "baseStats": {
+      "hp": 38,
+      "atk": 41,
+      "def": 40,
+      "spa": 65,
+      "spd": 65,
+      "spe": 65
+    },
+    "evos": [
+      "ninetales"
+    ],
+    "weight": 9.9
+  },
+  {
     "slug": "ninetales",
     "name": "Ninetales",
     "gen": 1,
@@ -1978,6 +821,92 @@
     "evoType": "useItem",
     "evoItem": "Fire Stone",
     "weight": 19.9
+  },
+  {
+    "slug": "jigglypuff",
+    "name": "Jigglypuff",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 39,
+    "baseStats": {
+      "hp": 115,
+      "atk": 45,
+      "def": 20,
+      "spa": 25,
+      "spd": 25,
+      "spe": 20
+    },
+    "evos": [
+      "wigglytuff"
+    ],
+    "evoType": "levelFriendship",
+    "weight": 5.5
+  },
+  {
+    "slug": "wigglytuff",
+    "name": "Wigglytuff",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 40,
+    "baseStats": {
+      "hp": 140,
+      "atk": 70,
+      "def": 45,
+      "spa": 50,
+      "spd": 50,
+      "spe": 45
+    },
+    "prevo": "jigglypuff",
+    "evoType": "useItem",
+    "evoItem": "Moon Stone",
+    "weight": 12
+  },
+  {
+    "slug": "zubat",
+    "name": "Zubat",
+    "gen": 1,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "num": 41,
+    "baseStats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "spa": 40,
+      "spd": 40,
+      "spe": 55
+    },
+    "evos": [
+      "golbat"
+    ],
+    "weight": 7.5
+  },
+  {
+    "slug": "golbat",
+    "name": "Golbat",
+    "gen": 1,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "num": 42,
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 70,
+      "spa": 75,
+      "spd": 75,
+      "spe": 90
+    },
+    "prevo": "zubat",
+    "evoLevel": 22,
+    "weight": 55
   },
   {
     "slug": "oddish",
@@ -2002,66 +931,50 @@
     "weight": 5.4
   },
   {
-    "slug": "omanyte",
-    "name": "Omanyte",
+    "slug": "gloom",
+    "name": "Gloom",
     "gen": 1,
     "types": [
-      "rock",
-      "water"
+      "grass",
+      "poison"
     ],
-    "num": 138,
+    "num": 44,
     "baseStats": {
-      "hp": 35,
-      "atk": 40,
-      "def": 100,
-      "spa": 90,
-      "spd": 90,
-      "spe": 35
+      "hp": 60,
+      "atk": 65,
+      "def": 70,
+      "spa": 85,
+      "spd": 85,
+      "spe": 40
     },
+    "prevo": "oddish",
     "evos": [
-      "omastar"
+      "vileplume"
     ],
-    "weight": 7.5
+    "evoLevel": 21,
+    "weight": 8.6
   },
   {
-    "slug": "omastar",
-    "name": "Omastar",
+    "slug": "vileplume",
+    "name": "Vileplume",
     "gen": 1,
     "types": [
-      "rock",
-      "water"
+      "grass",
+      "poison"
     ],
-    "num": 139,
+    "num": 45,
     "baseStats": {
-      "hp": 70,
-      "atk": 60,
-      "def": 125,
-      "spa": 115,
-      "spd": 115,
-      "spe": 55
+      "hp": 75,
+      "atk": 80,
+      "def": 85,
+      "spa": 100,
+      "spd": 100,
+      "spe": 50
     },
-    "prevo": "omanyte",
-    "evoLevel": 40,
-    "weight": 35
-  },
-  {
-    "slug": "onix",
-    "name": "Onix",
-    "gen": 1,
-    "types": [
-      "rock",
-      "ground"
-    ],
-    "num": 95,
-    "baseStats": {
-      "hp": 35,
-      "atk": 45,
-      "def": 160,
-      "spa": 30,
-      "spd": 30,
-      "spe": 70
-    },
-    "weight": 210
+    "prevo": "gloom",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "weight": 18.6
   },
   {
     "slug": "paras",
@@ -2107,6 +1020,111 @@
     "weight": 29.5
   },
   {
+    "slug": "venonat",
+    "name": "Venonat",
+    "gen": 1,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "num": 48,
+    "baseStats": {
+      "hp": 60,
+      "atk": 55,
+      "def": 50,
+      "spa": 40,
+      "spd": 40,
+      "spe": 45
+    },
+    "evos": [
+      "venomoth"
+    ],
+    "weight": 30
+  },
+  {
+    "slug": "venomoth",
+    "name": "Venomoth",
+    "gen": 1,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "num": 49,
+    "baseStats": {
+      "hp": 70,
+      "atk": 65,
+      "def": 60,
+      "spa": 90,
+      "spd": 90,
+      "spe": 90
+    },
+    "prevo": "venonat",
+    "evoLevel": 31,
+    "weight": 12.5
+  },
+  {
+    "slug": "diglett",
+    "name": "Diglett",
+    "gen": 1,
+    "types": [
+      "ground"
+    ],
+    "num": 50,
+    "baseStats": {
+      "hp": 10,
+      "atk": 55,
+      "def": 25,
+      "spa": 45,
+      "spd": 45,
+      "spe": 95
+    },
+    "evos": [
+      "dugtrio"
+    ],
+    "weight": 0.8
+  },
+  {
+    "slug": "dugtrio",
+    "name": "Dugtrio",
+    "gen": 1,
+    "types": [
+      "ground"
+    ],
+    "num": 51,
+    "baseStats": {
+      "hp": 35,
+      "atk": 80,
+      "def": 50,
+      "spa": 70,
+      "spd": 70,
+      "spe": 120
+    },
+    "prevo": "diglett",
+    "evoLevel": 26,
+    "weight": 33.3
+  },
+  {
+    "slug": "meowth",
+    "name": "Meowth",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 52,
+    "baseStats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "spa": 40,
+      "spd": 40,
+      "spe": 90
+    },
+    "evos": [
+      "persian"
+    ],
+    "weight": 4.2
+  },
+  {
     "slug": "persian",
     "name": "Persian",
     "gen": 1,
@@ -2127,111 +1145,128 @@
     "weight": 32
   },
   {
-    "slug": "pidgeot",
-    "name": "Pidgeot",
+    "slug": "psyduck",
+    "name": "Psyduck",
     "gen": 1,
     "types": [
-      "normal",
-      "flying"
+      "water"
     ],
-    "num": 18,
+    "num": 54,
     "baseStats": {
-      "hp": 83,
-      "atk": 80,
-      "def": 75,
-      "spa": 70,
-      "spd": 70,
-      "spe": 91
-    },
-    "prevo": "pidgeotto",
-    "evoLevel": 36,
-    "weight": 39.5
-  },
-  {
-    "slug": "pidgeotto",
-    "name": "Pidgeotto",
-    "gen": 1,
-    "types": [
-      "normal",
-      "flying"
-    ],
-    "num": 17,
-    "baseStats": {
-      "hp": 63,
-      "atk": 60,
-      "def": 55,
+      "hp": 50,
+      "atk": 52,
+      "def": 48,
       "spa": 50,
       "spd": 50,
-      "spe": 71
-    },
-    "prevo": "pidgey",
-    "evos": [
-      "pidgeot"
-    ],
-    "evoLevel": 18,
-    "weight": 30
-  },
-  {
-    "slug": "pidgey",
-    "name": "Pidgey",
-    "gen": 1,
-    "types": [
-      "normal",
-      "flying"
-    ],
-    "num": 16,
-    "baseStats": {
-      "hp": 40,
-      "atk": 45,
-      "def": 40,
-      "spa": 35,
-      "spd": 35,
-      "spe": 56
+      "spe": 55
     },
     "evos": [
-      "pidgeotto"
+      "golduck"
     ],
-    "weight": 1.8
+    "weight": 19.6
   },
   {
-    "slug": "pikachu",
-    "name": "Pikachu",
+    "slug": "golduck",
+    "name": "Golduck",
     "gen": 1,
     "types": [
-      "electric"
+      "water"
     ],
-    "num": 25,
+    "num": 55,
     "baseStats": {
-      "hp": 35,
-      "atk": 55,
-      "def": 30,
-      "spa": 50,
-      "spd": 50,
-      "spe": 90
-    },
-    "evos": [
-      "raichu"
-    ],
-    "evoType": "levelFriendship",
-    "weight": 6
-  },
-  {
-    "slug": "pinsir",
-    "name": "Pinsir",
-    "gen": 1,
-    "types": [
-      "bug"
-    ],
-    "num": 127,
-    "baseStats": {
-      "hp": 65,
-      "atk": 125,
-      "def": 100,
-      "spa": 55,
-      "spd": 55,
+      "hp": 80,
+      "atk": 82,
+      "def": 78,
+      "spa": 80,
+      "spd": 80,
       "spe": 85
     },
-    "weight": 55
+    "prevo": "psyduck",
+    "evoLevel": 33,
+    "weight": 76.6
+  },
+  {
+    "slug": "mankey",
+    "name": "Mankey",
+    "gen": 1,
+    "types": [
+      "fighting"
+    ],
+    "num": 56,
+    "baseStats": {
+      "hp": 40,
+      "atk": 80,
+      "def": 35,
+      "spa": 35,
+      "spd": 35,
+      "spe": 70
+    },
+    "evos": [
+      "primeape"
+    ],
+    "weight": 28
+  },
+  {
+    "slug": "primeape",
+    "name": "Primeape",
+    "gen": 1,
+    "types": [
+      "fighting"
+    ],
+    "num": 57,
+    "baseStats": {
+      "hp": 65,
+      "atk": 105,
+      "def": 60,
+      "spa": 60,
+      "spd": 60,
+      "spe": 95
+    },
+    "prevo": "mankey",
+    "evoLevel": 28,
+    "weight": 32
+  },
+  {
+    "slug": "growlithe",
+    "name": "Growlithe",
+    "gen": 1,
+    "types": [
+      "fire"
+    ],
+    "num": 58,
+    "baseStats": {
+      "hp": 55,
+      "atk": 70,
+      "def": 45,
+      "spa": 50,
+      "spd": 50,
+      "spe": 60
+    },
+    "evos": [
+      "arcanine"
+    ],
+    "weight": 19
+  },
+  {
+    "slug": "arcanine",
+    "name": "Arcanine",
+    "gen": 1,
+    "types": [
+      "fire"
+    ],
+    "num": 59,
+    "baseStats": {
+      "hp": 90,
+      "atk": 110,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 95
+    },
+    "prevo": "growlithe",
+    "evoType": "useItem",
+    "evoItem": "Fire Stone",
+    "weight": 155
   },
   {
     "slug": "poliwag",
@@ -2300,535 +1335,200 @@
     "weight": 54
   },
   {
-    "slug": "ponyta",
-    "name": "Ponyta",
+    "slug": "abra",
+    "name": "Abra",
     "gen": 1,
     "types": [
-      "fire"
+      "psychic"
     ],
-    "num": 77,
+    "num": 63,
     "baseStats": {
-      "hp": 50,
-      "atk": 85,
-      "def": 55,
-      "spa": 65,
-      "spd": 65,
+      "hp": 25,
+      "atk": 20,
+      "def": 15,
+      "spa": 105,
+      "spd": 105,
       "spe": 90
     },
     "evos": [
-      "rapidash"
+      "kadabra"
     ],
-    "weight": 30
+    "weight": 19.5
   },
   {
-    "slug": "porygon",
-    "name": "Porygon",
+    "slug": "kadabra",
+    "name": "Kadabra",
     "gen": 1,
     "types": [
-      "normal"
+      "psychic"
     ],
-    "num": 137,
+    "num": 64,
     "baseStats": {
-      "hp": 65,
-      "atk": 60,
-      "def": 70,
-      "spa": 75,
-      "spd": 75,
-      "spe": 40
+      "hp": 40,
+      "atk": 35,
+      "def": 30,
+      "spa": 120,
+      "spd": 120,
+      "spe": 105
     },
-    "weight": 36.5
+    "prevo": "abra",
+    "evos": [
+      "alakazam"
+    ],
+    "evoLevel": 16,
+    "weight": 56.5
   },
   {
-    "slug": "primeape",
-    "name": "Primeape",
+    "slug": "alakazam",
+    "name": "Alakazam",
+    "gen": 1,
+    "types": [
+      "psychic"
+    ],
+    "num": 65,
+    "baseStats": {
+      "hp": 55,
+      "atk": 50,
+      "def": 45,
+      "spa": 135,
+      "spd": 135,
+      "spe": 120
+    },
+    "prevo": "kadabra",
+    "evoType": "trade",
+    "weight": 48
+  },
+  {
+    "slug": "machop",
+    "name": "Machop",
     "gen": 1,
     "types": [
       "fighting"
     ],
-    "num": 57,
+    "num": 66,
     "baseStats": {
-      "hp": 65,
-      "atk": 105,
-      "def": 60,
-      "spa": 60,
-      "spd": 60,
-      "spe": 95
-    },
-    "prevo": "mankey",
-    "evoLevel": 28,
-    "weight": 32
-  },
-  {
-    "slug": "psyduck",
-    "name": "Psyduck",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 54,
-    "baseStats": {
-      "hp": 50,
-      "atk": 52,
-      "def": 48,
-      "spa": 50,
-      "spd": 50,
-      "spe": 55
+      "hp": 70,
+      "atk": 80,
+      "def": 50,
+      "spa": 35,
+      "spd": 35,
+      "spe": 35
     },
     "evos": [
-      "golduck"
+      "machoke"
     ],
-    "weight": 19.6
+    "weight": 19.5
   },
   {
-    "slug": "raichu",
-    "name": "Raichu",
+    "slug": "machoke",
+    "name": "Machoke",
     "gen": 1,
     "types": [
-      "electric"
+      "fighting"
     ],
-    "num": 26,
-    "baseStats": {
-      "hp": 60,
-      "atk": 90,
-      "def": 55,
-      "spa": 90,
-      "spd": 90,
-      "spe": 100
-    },
-    "prevo": "pikachu",
-    "evoType": "useItem",
-    "evoItem": "Thunder Stone",
-    "weight": 30
-  },
-  {
-    "slug": "rapidash",
-    "name": "Rapidash",
-    "gen": 1,
-    "types": [
-      "fire"
-    ],
-    "num": 78,
-    "baseStats": {
-      "hp": 65,
-      "atk": 100,
-      "def": 70,
-      "spa": 80,
-      "spd": 80,
-      "spe": 105
-    },
-    "prevo": "ponyta",
-    "evoLevel": 40,
-    "weight": 95
-  },
-  {
-    "slug": "raticate",
-    "name": "Raticate",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 20,
-    "baseStats": {
-      "hp": 55,
-      "atk": 81,
-      "def": 60,
-      "spa": 50,
-      "spd": 50,
-      "spe": 97
-    },
-    "prevo": "rattata",
-    "evoLevel": 20,
-    "weight": 18.5
-  },
-  {
-    "slug": "rattata",
-    "name": "Rattata",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 19,
-    "baseStats": {
-      "hp": 30,
-      "atk": 56,
-      "def": 35,
-      "spa": 25,
-      "spd": 25,
-      "spe": 72
-    },
-    "evos": [
-      "raticate"
-    ],
-    "weight": 3.5
-  },
-  {
-    "slug": "rhydon",
-    "name": "Rhydon",
-    "gen": 1,
-    "types": [
-      "ground",
-      "rock"
-    ],
-    "num": 112,
-    "baseStats": {
-      "hp": 105,
-      "atk": 130,
-      "def": 120,
-      "spa": 45,
-      "spd": 45,
-      "spe": 40
-    },
-    "prevo": "rhyhorn",
-    "evoLevel": 42,
-    "weight": 120
-  },
-  {
-    "slug": "rhyhorn",
-    "name": "Rhyhorn",
-    "gen": 1,
-    "types": [
-      "ground",
-      "rock"
-    ],
-    "num": 111,
+    "num": 67,
     "baseStats": {
       "hp": 80,
-      "atk": 85,
-      "def": 95,
-      "spa": 30,
-      "spd": 30,
-      "spe": 25
+      "atk": 100,
+      "def": 70,
+      "spa": 50,
+      "spd": 50,
+      "spe": 45
     },
+    "prevo": "machop",
     "evos": [
-      "rhydon"
+      "machamp"
     ],
-    "weight": 115
+    "evoLevel": 28,
+    "weight": 70.5
   },
   {
-    "slug": "sandshrew",
-    "name": "Sandshrew",
+    "slug": "machamp",
+    "name": "Machamp",
     "gen": 1,
     "types": [
-      "ground"
+      "fighting"
     ],
-    "num": 27,
+    "num": 68,
+    "baseStats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "spa": 65,
+      "spd": 65,
+      "spe": 55
+    },
+    "prevo": "machoke",
+    "evoType": "trade",
+    "weight": 130
+  },
+  {
+    "slug": "bellsprout",
+    "name": "Bellsprout",
+    "gen": 1,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "num": 69,
     "baseStats": {
       "hp": 50,
       "atk": 75,
-      "def": 85,
-      "spa": 30,
-      "spd": 30,
-      "spe": 40
-    },
-    "evos": [
-      "sandslash"
-    ],
-    "weight": 12
-  },
-  {
-    "slug": "sandslash",
-    "name": "Sandslash",
-    "gen": 1,
-    "types": [
-      "ground"
-    ],
-    "num": 28,
-    "baseStats": {
-      "hp": 75,
-      "atk": 100,
-      "def": 110,
-      "spa": 55,
-      "spd": 55,
-      "spe": 65
-    },
-    "prevo": "sandshrew",
-    "evoLevel": 22,
-    "weight": 29.5
-  },
-  {
-    "slug": "scyther",
-    "name": "Scyther",
-    "gen": 1,
-    "types": [
-      "bug",
-      "flying"
-    ],
-    "num": 123,
-    "baseStats": {
-      "hp": 70,
-      "atk": 110,
-      "def": 80,
-      "spa": 55,
-      "spd": 55,
-      "spe": 105
-    },
-    "weight": 56
-  },
-  {
-    "slug": "seadra",
-    "name": "Seadra",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 117,
-    "baseStats": {
-      "hp": 55,
-      "atk": 65,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 85
-    },
-    "prevo": "horsea",
-    "evoLevel": 32,
-    "weight": 25
-  },
-  {
-    "slug": "seaking",
-    "name": "Seaking",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 119,
-    "baseStats": {
-      "hp": 80,
-      "atk": 92,
-      "def": 65,
-      "spa": 80,
-      "spd": 80,
-      "spe": 68
-    },
-    "prevo": "goldeen",
-    "evoLevel": 33,
-    "weight": 39
-  },
-  {
-    "slug": "seel",
-    "name": "Seel",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 86,
-    "baseStats": {
-      "hp": 65,
-      "atk": 45,
-      "def": 55,
+      "def": 35,
       "spa": 70,
       "spd": 70,
-      "spe": 45
-    },
-    "evos": [
-      "dewgong"
-    ],
-    "weight": 90
-  },
-  {
-    "slug": "shellder",
-    "name": "Shellder",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 90,
-    "baseStats": {
-      "hp": 30,
-      "atk": 65,
-      "def": 100,
-      "spa": 45,
-      "spd": 45,
       "spe": 40
     },
     "evos": [
-      "cloyster"
+      "weepinbell"
     ],
     "weight": 4
   },
   {
-    "slug": "slowbro",
-    "name": "Slowbro",
+    "slug": "weepinbell",
+    "name": "Weepinbell",
     "gen": 1,
     "types": [
-      "water",
-      "psychic"
+      "grass",
+      "poison"
     ],
-    "num": 80,
-    "baseStats": {
-      "hp": 95,
-      "atk": 75,
-      "def": 110,
-      "spa": 80,
-      "spd": 80,
-      "spe": 30
-    },
-    "prevo": "slowpoke",
-    "evoLevel": 37,
-    "weight": 78.5
-  },
-  {
-    "slug": "slowpoke",
-    "name": "Slowpoke",
-    "gen": 1,
-    "types": [
-      "water",
-      "psychic"
-    ],
-    "num": 79,
-    "baseStats": {
-      "hp": 90,
-      "atk": 65,
-      "def": 65,
-      "spa": 40,
-      "spd": 40,
-      "spe": 15
-    },
-    "evos": [
-      "slowbro"
-    ],
-    "weight": 36
-  },
-  {
-    "slug": "snorlax",
-    "name": "Snorlax",
-    "gen": 1,
-    "types": [
-      "normal"
-    ],
-    "num": 143,
-    "baseStats": {
-      "hp": 160,
-      "atk": 110,
-      "def": 65,
-      "spa": 65,
-      "spd": 65,
-      "spe": 30
-    },
-    "evoType": "levelFriendship",
-    "weight": 460
-  },
-  {
-    "slug": "spearow",
-    "name": "Spearow",
-    "gen": 1,
-    "types": [
-      "normal",
-      "flying"
-    ],
-    "num": 21,
-    "baseStats": {
-      "hp": 40,
-      "atk": 60,
-      "def": 30,
-      "spa": 31,
-      "spd": 31,
-      "spe": 70
-    },
-    "evos": [
-      "fearow"
-    ],
-    "weight": 2
-  },
-  {
-    "slug": "squirtle",
-    "name": "Squirtle",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 7,
-    "baseStats": {
-      "hp": 44,
-      "atk": 48,
-      "def": 65,
-      "spa": 50,
-      "spd": 50,
-      "spe": 43
-    },
-    "evos": [
-      "wartortle"
-    ],
-    "weight": 9
-  },
-  {
-    "slug": "starmie",
-    "name": "Starmie",
-    "gen": 1,
-    "types": [
-      "water",
-      "psychic"
-    ],
-    "num": 121,
-    "baseStats": {
-      "hp": 60,
-      "atk": 75,
-      "def": 85,
-      "spa": 100,
-      "spd": 100,
-      "spe": 115
-    },
-    "prevo": "staryu",
-    "evoType": "useItem",
-    "evoItem": "Water Stone",
-    "weight": 80
-  },
-  {
-    "slug": "staryu",
-    "name": "Staryu",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 120,
-    "baseStats": {
-      "hp": 30,
-      "atk": 45,
-      "def": 55,
-      "spa": 70,
-      "spd": 70,
-      "spe": 85
-    },
-    "evos": [
-      "starmie"
-    ],
-    "weight": 34.5
-  },
-  {
-    "slug": "tangela",
-    "name": "Tangela",
-    "gen": 1,
-    "types": [
-      "grass"
-    ],
-    "num": 114,
+    "num": 70,
     "baseStats": {
       "hp": 65,
-      "atk": 55,
-      "def": 115,
-      "spa": 100,
-      "spd": 100,
-      "spe": 60
+      "atk": 90,
+      "def": 50,
+      "spa": 85,
+      "spd": 85,
+      "spe": 55
     },
-    "weight": 35
+    "prevo": "bellsprout",
+    "evos": [
+      "victreebel"
+    ],
+    "evoLevel": 21,
+    "weight": 6.4
   },
   {
-    "slug": "tauros",
-    "name": "Tauros",
+    "slug": "victreebel",
+    "name": "Victreebel",
     "gen": 1,
     "types": [
-      "normal"
+      "grass",
+      "poison"
     ],
-    "num": 128,
+    "num": 71,
     "baseStats": {
-      "hp": 75,
-      "atk": 100,
-      "def": 95,
-      "spa": 70,
-      "spd": 70,
-      "spe": 110
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "spa": 100,
+      "spd": 100,
+      "spe": 70
     },
-    "weight": 88.4
+    "prevo": "weepinbell",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "weight": 15.5
   },
   {
     "slug": "tentacool",
@@ -2874,133 +1574,552 @@
     "weight": 55
   },
   {
-    "slug": "vaporeon",
-    "name": "Vaporeon",
+    "slug": "geodude",
+    "name": "Geodude",
     "gen": 1,
     "types": [
-      "water"
+      "rock",
+      "ground"
     ],
-    "num": 134,
+    "num": 74,
     "baseStats": {
-      "hp": 130,
-      "atk": 65,
-      "def": 60,
-      "spa": 110,
-      "spd": 110,
-      "spe": 65
-    },
-    "prevo": "eevee",
-    "evoType": "useItem",
-    "evoItem": "Water Stone",
-    "weight": 29
-  },
-  {
-    "slug": "venomoth",
-    "name": "Venomoth",
-    "gen": 1,
-    "types": [
-      "bug",
-      "poison"
-    ],
-    "num": 49,
-    "baseStats": {
-      "hp": 70,
-      "atk": 65,
-      "def": 60,
-      "spa": 90,
-      "spd": 90,
-      "spe": 90
-    },
-    "prevo": "venonat",
-    "evoLevel": 31,
-    "weight": 12.5
-  },
-  {
-    "slug": "venonat",
-    "name": "Venonat",
-    "gen": 1,
-    "types": [
-      "bug",
-      "poison"
-    ],
-    "num": 48,
-    "baseStats": {
-      "hp": 60,
-      "atk": 55,
-      "def": 50,
-      "spa": 40,
-      "spd": 40,
-      "spe": 45
+      "hp": 40,
+      "atk": 80,
+      "def": 100,
+      "spa": 30,
+      "spd": 30,
+      "spe": 20
     },
     "evos": [
-      "venomoth"
+      "graveler"
+    ],
+    "weight": 20
+  },
+  {
+    "slug": "graveler",
+    "name": "Graveler",
+    "gen": 1,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "num": 75,
+    "baseStats": {
+      "hp": 55,
+      "atk": 95,
+      "def": 115,
+      "spa": 45,
+      "spd": 45,
+      "spe": 35
+    },
+    "prevo": "geodude",
+    "evos": [
+      "golem"
+    ],
+    "evoLevel": 25,
+    "weight": 105
+  },
+  {
+    "slug": "golem",
+    "name": "Golem",
+    "gen": 1,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "num": 76,
+    "baseStats": {
+      "hp": 80,
+      "atk": 110,
+      "def": 130,
+      "spa": 55,
+      "spd": 55,
+      "spe": 45
+    },
+    "prevo": "graveler",
+    "evoType": "trade",
+    "weight": 300
+  },
+  {
+    "slug": "ponyta",
+    "name": "Ponyta",
+    "gen": 1,
+    "types": [
+      "fire"
+    ],
+    "num": 77,
+    "baseStats": {
+      "hp": 50,
+      "atk": 85,
+      "def": 55,
+      "spa": 65,
+      "spd": 65,
+      "spe": 90
+    },
+    "evos": [
+      "rapidash"
     ],
     "weight": 30
   },
   {
-    "slug": "venusaur",
-    "name": "Venusaur",
+    "slug": "rapidash",
+    "name": "Rapidash",
     "gen": 1,
     "types": [
-      "grass",
+      "fire"
+    ],
+    "num": 78,
+    "baseStats": {
+      "hp": 65,
+      "atk": 100,
+      "def": 70,
+      "spa": 80,
+      "spd": 80,
+      "spe": 105
+    },
+    "prevo": "ponyta",
+    "evoLevel": 40,
+    "weight": 95
+  },
+  {
+    "slug": "slowpoke",
+    "name": "Slowpoke",
+    "gen": 1,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "num": 79,
+    "baseStats": {
+      "hp": 90,
+      "atk": 65,
+      "def": 65,
+      "spa": 40,
+      "spd": 40,
+      "spe": 15
+    },
+    "evos": [
+      "slowbro"
+    ],
+    "weight": 36
+  },
+  {
+    "slug": "slowbro",
+    "name": "Slowbro",
+    "gen": 1,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "num": 80,
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 110,
+      "spa": 80,
+      "spd": 80,
+      "spe": 30
+    },
+    "prevo": "slowpoke",
+    "evoLevel": 37,
+    "weight": 78.5
+  },
+  {
+    "slug": "magnemite",
+    "name": "Magnemite",
+    "gen": 1,
+    "types": [
+      "electric"
+    ],
+    "num": 81,
+    "baseStats": {
+      "hp": 25,
+      "atk": 35,
+      "def": 70,
+      "spa": 95,
+      "spd": 95,
+      "spe": 45
+    },
+    "evos": [
+      "magneton"
+    ],
+    "weight": 6
+  },
+  {
+    "slug": "magneton",
+    "name": "Magneton",
+    "gen": 1,
+    "types": [
+      "electric"
+    ],
+    "num": 82,
+    "baseStats": {
+      "hp": 50,
+      "atk": 60,
+      "def": 95,
+      "spa": 120,
+      "spd": 120,
+      "spe": 70
+    },
+    "prevo": "magnemite",
+    "evoLevel": 30,
+    "weight": 60
+  },
+  {
+    "slug": "farfetchd",
+    "name": "Farfetch’d",
+    "gen": 1,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "num": 83,
+    "baseStats": {
+      "hp": 52,
+      "atk": 65,
+      "def": 55,
+      "spa": 58,
+      "spd": 58,
+      "spe": 60
+    },
+    "weight": 15
+  },
+  {
+    "slug": "doduo",
+    "name": "Doduo",
+    "gen": 1,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "num": 84,
+    "baseStats": {
+      "hp": 35,
+      "atk": 85,
+      "def": 45,
+      "spa": 35,
+      "spd": 35,
+      "spe": 75
+    },
+    "evos": [
+      "dodrio"
+    ],
+    "weight": 39.2
+  },
+  {
+    "slug": "dodrio",
+    "name": "Dodrio",
+    "gen": 1,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "num": 85,
+    "baseStats": {
+      "hp": 60,
+      "atk": 110,
+      "def": 70,
+      "spa": 60,
+      "spd": 60,
+      "spe": 100
+    },
+    "prevo": "doduo",
+    "evoLevel": 31,
+    "weight": 85.2
+  },
+  {
+    "slug": "seel",
+    "name": "Seel",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 86,
+    "baseStats": {
+      "hp": 65,
+      "atk": 45,
+      "def": 55,
+      "spa": 70,
+      "spd": 70,
+      "spe": 45
+    },
+    "evos": [
+      "dewgong"
+    ],
+    "weight": 90
+  },
+  {
+    "slug": "dewgong",
+    "name": "Dewgong",
+    "gen": 1,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "num": 87,
+    "baseStats": {
+      "hp": 90,
+      "atk": 70,
+      "def": 80,
+      "spa": 95,
+      "spd": 95,
+      "spe": 70
+    },
+    "prevo": "seel",
+    "evoLevel": 34,
+    "weight": 120
+  },
+  {
+    "slug": "grimer",
+    "name": "Grimer",
+    "gen": 1,
+    "types": [
       "poison"
     ],
-    "num": 3,
+    "num": 88,
     "baseStats": {
       "hp": 80,
-      "atk": 82,
-      "def": 83,
+      "atk": 80,
+      "def": 50,
+      "spa": 40,
+      "spd": 40,
+      "spe": 25
+    },
+    "evos": [
+      "muk"
+    ],
+    "weight": 30
+  },
+  {
+    "slug": "muk",
+    "name": "Muk",
+    "gen": 1,
+    "types": [
+      "poison"
+    ],
+    "num": 89,
+    "baseStats": {
+      "hp": 105,
+      "atk": 105,
+      "def": 75,
+      "spa": 65,
+      "spd": 65,
+      "spe": 50
+    },
+    "prevo": "grimer",
+    "evoLevel": 38,
+    "weight": 30
+  },
+  {
+    "slug": "shellder",
+    "name": "Shellder",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 90,
+    "baseStats": {
+      "hp": 30,
+      "atk": 65,
+      "def": 100,
+      "spa": 45,
+      "spd": 45,
+      "spe": 40
+    },
+    "evos": [
+      "cloyster"
+    ],
+    "weight": 4
+  },
+  {
+    "slug": "cloyster",
+    "name": "Cloyster",
+    "gen": 1,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "num": 91,
+    "baseStats": {
+      "hp": 50,
+      "atk": 95,
+      "def": 180,
+      "spa": 85,
+      "spd": 85,
+      "spe": 70
+    },
+    "prevo": "shellder",
+    "evoType": "useItem",
+    "evoItem": "Water Stone",
+    "weight": 132.5
+  },
+  {
+    "slug": "gastly",
+    "name": "Gastly",
+    "gen": 1,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "num": 92,
+    "baseStats": {
+      "hp": 30,
+      "atk": 35,
+      "def": 30,
       "spa": 100,
       "spd": 100,
       "spe": 80
     },
-    "prevo": "ivysaur",
-    "evoLevel": 32,
-    "weight": 100
+    "evos": [
+      "haunter"
+    ],
+    "weight": 0.1
   },
   {
-    "slug": "victreebel",
-    "name": "Victreebel",
+    "slug": "haunter",
+    "name": "Haunter",
     "gen": 1,
     "types": [
-      "grass",
+      "ghost",
       "poison"
     ],
-    "num": 71,
+    "num": 93,
     "baseStats": {
-      "hp": 80,
-      "atk": 105,
-      "def": 65,
-      "spa": 100,
-      "spd": 100,
+      "hp": 45,
+      "atk": 50,
+      "def": 45,
+      "spa": 115,
+      "spd": 115,
+      "spe": 95
+    },
+    "prevo": "gastly",
+    "evos": [
+      "gengar"
+    ],
+    "evoLevel": 25,
+    "weight": 0.1
+  },
+  {
+    "slug": "gengar",
+    "name": "Gengar",
+    "gen": 1,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "num": 94,
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 60,
+      "spa": 130,
+      "spd": 130,
+      "spe": 110
+    },
+    "prevo": "haunter",
+    "evoType": "trade",
+    "weight": 40.5
+  },
+  {
+    "slug": "onix",
+    "name": "Onix",
+    "gen": 1,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "num": 95,
+    "baseStats": {
+      "hp": 35,
+      "atk": 45,
+      "def": 160,
+      "spa": 30,
+      "spd": 30,
       "spe": 70
     },
-    "prevo": "weepinbell",
-    "evoType": "useItem",
-    "evoItem": "Leaf Stone",
-    "weight": 15.5
+    "weight": 210
   },
   {
-    "slug": "vileplume",
-    "name": "Vileplume",
+    "slug": "drowzee",
+    "name": "Drowzee",
     "gen": 1,
     "types": [
-      "grass",
-      "poison"
+      "psychic"
     ],
-    "num": 45,
+    "num": 96,
     "baseStats": {
-      "hp": 75,
-      "atk": 80,
-      "def": 85,
-      "spa": 100,
-      "spd": 100,
+      "hp": 60,
+      "atk": 48,
+      "def": 45,
+      "spa": 90,
+      "spd": 90,
+      "spe": 42
+    },
+    "evos": [
+      "hypno"
+    ],
+    "weight": 32.4
+  },
+  {
+    "slug": "hypno",
+    "name": "Hypno",
+    "gen": 1,
+    "types": [
+      "psychic"
+    ],
+    "num": 97,
+    "baseStats": {
+      "hp": 85,
+      "atk": 73,
+      "def": 70,
+      "spa": 115,
+      "spd": 115,
+      "spe": 67
+    },
+    "prevo": "drowzee",
+    "evoLevel": 26,
+    "weight": 75.6
+  },
+  {
+    "slug": "krabby",
+    "name": "Krabby",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 98,
+    "baseStats": {
+      "hp": 30,
+      "atk": 105,
+      "def": 90,
+      "spa": 25,
+      "spd": 25,
       "spe": 50
     },
-    "prevo": "gloom",
-    "evoType": "useItem",
-    "evoItem": "Leaf Stone",
-    "weight": 18.6
+    "evos": [
+      "kingler"
+    ],
+    "weight": 6.5
+  },
+  {
+    "slug": "kingler",
+    "name": "Kingler",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 99,
+    "baseStats": {
+      "hp": 55,
+      "atk": 130,
+      "def": 115,
+      "spa": 50,
+      "spd": 50,
+      "spe": 75
+    },
+    "prevo": "krabby",
+    "evoLevel": 28,
+    "weight": 60
   },
   {
     "slug": "voltorb",
@@ -3024,94 +2143,188 @@
     "weight": 10.4
   },
   {
-    "slug": "vulpix",
-    "name": "Vulpix",
+    "slug": "electrode",
+    "name": "Electrode",
     "gen": 1,
     "types": [
-      "fire"
+      "electric"
     ],
-    "num": 37,
+    "num": 101,
     "baseStats": {
-      "hp": 38,
-      "atk": 41,
-      "def": 40,
-      "spa": 65,
-      "spd": 65,
-      "spe": 65
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "spa": 80,
+      "spd": 80,
+      "spe": 140
     },
-    "evos": [
-      "ninetales"
-    ],
-    "weight": 9.9
+    "prevo": "voltorb",
+    "evoLevel": 30,
+    "weight": 66.6
   },
   {
-    "slug": "wartortle",
-    "name": "Wartortle",
-    "gen": 1,
-    "types": [
-      "water"
-    ],
-    "num": 8,
-    "baseStats": {
-      "hp": 59,
-      "atk": 63,
-      "def": 80,
-      "spa": 65,
-      "spd": 65,
-      "spe": 58
-    },
-    "prevo": "squirtle",
-    "evos": [
-      "blastoise"
-    ],
-    "evoLevel": 16,
-    "weight": 22.5
-  },
-  {
-    "slug": "weedle",
-    "name": "Weedle",
-    "gen": 1,
-    "types": [
-      "bug",
-      "poison"
-    ],
-    "num": 13,
-    "baseStats": {
-      "hp": 40,
-      "atk": 35,
-      "def": 30,
-      "spa": 20,
-      "spd": 20,
-      "spe": 50
-    },
-    "evos": [
-      "kakuna"
-    ],
-    "weight": 3.2
-  },
-  {
-    "slug": "weepinbell",
-    "name": "Weepinbell",
+    "slug": "exeggcute",
+    "name": "Exeggcute",
     "gen": 1,
     "types": [
       "grass",
-      "poison"
+      "psychic"
     ],
-    "num": 70,
+    "num": 102,
     "baseStats": {
-      "hp": 65,
-      "atk": 90,
-      "def": 50,
-      "spa": 85,
-      "spd": 85,
+      "hp": 60,
+      "atk": 40,
+      "def": 80,
+      "spa": 60,
+      "spd": 60,
+      "spe": 40
+    },
+    "evos": [
+      "exeggutor"
+    ],
+    "weight": 2.5
+  },
+  {
+    "slug": "exeggutor",
+    "name": "Exeggutor",
+    "gen": 1,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "num": 103,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 85,
+      "spa": 125,
+      "spd": 125,
       "spe": 55
     },
-    "prevo": "bellsprout",
-    "evos": [
-      "victreebel"
+    "prevo": "exeggcute",
+    "evoType": "useItem",
+    "evoItem": "Leaf Stone",
+    "weight": 120
+  },
+  {
+    "slug": "cubone",
+    "name": "Cubone",
+    "gen": 1,
+    "types": [
+      "ground"
     ],
-    "evoLevel": 21,
-    "weight": 6.4
+    "num": 104,
+    "baseStats": {
+      "hp": 50,
+      "atk": 50,
+      "def": 95,
+      "spa": 40,
+      "spd": 40,
+      "spe": 35
+    },
+    "evos": [
+      "marowak"
+    ],
+    "weight": 6.5
+  },
+  {
+    "slug": "marowak",
+    "name": "Marowak",
+    "gen": 1,
+    "types": [
+      "ground"
+    ],
+    "num": 105,
+    "baseStats": {
+      "hp": 60,
+      "atk": 80,
+      "def": 110,
+      "spa": 50,
+      "spd": 50,
+      "spe": 45
+    },
+    "prevo": "cubone",
+    "evoLevel": 28,
+    "weight": 45
+  },
+  {
+    "slug": "hitmonlee",
+    "name": "Hitmonlee",
+    "gen": 1,
+    "types": [
+      "fighting"
+    ],
+    "num": 106,
+    "baseStats": {
+      "hp": 50,
+      "atk": 120,
+      "def": 53,
+      "spa": 35,
+      "spd": 35,
+      "spe": 87
+    },
+    "evoCondition": "with an Atk stat > its Def stat",
+    "evoLevel": 20,
+    "weight": 49.8
+  },
+  {
+    "slug": "hitmonchan",
+    "name": "Hitmonchan",
+    "gen": 1,
+    "types": [
+      "fighting"
+    ],
+    "num": 107,
+    "baseStats": {
+      "hp": 50,
+      "atk": 105,
+      "def": 79,
+      "spa": 35,
+      "spd": 35,
+      "spe": 76
+    },
+    "evoCondition": "with an Atk stat < its Def stat",
+    "evoLevel": 20,
+    "weight": 50.2
+  },
+  {
+    "slug": "lickitung",
+    "name": "Lickitung",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 108,
+    "baseStats": {
+      "hp": 90,
+      "atk": 55,
+      "def": 75,
+      "spa": 60,
+      "spd": 60,
+      "spe": 30
+    },
+    "weight": 65.5
+  },
+  {
+    "slug": "koffing",
+    "name": "Koffing",
+    "gen": 1,
+    "types": [
+      "poison"
+    ],
+    "num": 109,
+    "baseStats": {
+      "hp": 40,
+      "atk": 65,
+      "def": 95,
+      "spa": 60,
+      "spd": 60,
+      "spe": 35
+    },
+    "evos": [
+      "weezing"
+    ],
+    "weight": 1
   },
   {
     "slug": "weezing",
@@ -3134,25 +2347,690 @@
     "weight": 9.5
   },
   {
-    "slug": "wigglytuff",
-    "name": "Wigglytuff",
+    "slug": "rhyhorn",
+    "name": "Rhyhorn",
+    "gen": 1,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "num": 111,
+    "baseStats": {
+      "hp": 80,
+      "atk": 85,
+      "def": 95,
+      "spa": 30,
+      "spd": 30,
+      "spe": 25
+    },
+    "evos": [
+      "rhydon"
+    ],
+    "weight": 115
+  },
+  {
+    "slug": "rhydon",
+    "name": "Rhydon",
+    "gen": 1,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "num": 112,
+    "baseStats": {
+      "hp": 105,
+      "atk": 130,
+      "def": 120,
+      "spa": 45,
+      "spd": 45,
+      "spe": 40
+    },
+    "prevo": "rhyhorn",
+    "evoLevel": 42,
+    "weight": 120
+  },
+  {
+    "slug": "chansey",
+    "name": "Chansey",
     "gen": 1,
     "types": [
       "normal"
     ],
-    "num": 40,
+    "num": 113,
     "baseStats": {
-      "hp": 140,
-      "atk": 70,
-      "def": 45,
+      "hp": 250,
+      "atk": 5,
+      "def": 5,
+      "spa": 105,
+      "spd": 105,
+      "spe": 50
+    },
+    "evoType": "levelHold",
+    "evoCondition": "during the day",
+    "evoItem": "Oval Stone",
+    "weight": 34.6
+  },
+  {
+    "slug": "tangela",
+    "name": "Tangela",
+    "gen": 1,
+    "types": [
+      "grass"
+    ],
+    "num": 114,
+    "baseStats": {
+      "hp": 65,
+      "atk": 55,
+      "def": 115,
+      "spa": 100,
+      "spd": 100,
+      "spe": 60
+    },
+    "weight": 35
+  },
+  {
+    "slug": "kangaskhan",
+    "name": "Kangaskhan",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 115,
+    "baseStats": {
+      "hp": 105,
+      "atk": 95,
+      "def": 80,
+      "spa": 40,
+      "spd": 40,
+      "spe": 90
+    },
+    "weight": 80
+  },
+  {
+    "slug": "horsea",
+    "name": "Horsea",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 116,
+    "baseStats": {
+      "hp": 30,
+      "atk": 40,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 60
+    },
+    "evos": [
+      "seadra"
+    ],
+    "weight": 8
+  },
+  {
+    "slug": "seadra",
+    "name": "Seadra",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 117,
+    "baseStats": {
+      "hp": 55,
+      "atk": 65,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 85
+    },
+    "prevo": "horsea",
+    "evoLevel": 32,
+    "weight": 25
+  },
+  {
+    "slug": "goldeen",
+    "name": "Goldeen",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 118,
+    "baseStats": {
+      "hp": 45,
+      "atk": 67,
+      "def": 60,
       "spa": 50,
       "spd": 50,
-      "spe": 45
+      "spe": 63
     },
-    "prevo": "jigglypuff",
+    "evos": [
+      "seaking"
+    ],
+    "weight": 15
+  },
+  {
+    "slug": "seaking",
+    "name": "Seaking",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 119,
+    "baseStats": {
+      "hp": 80,
+      "atk": 92,
+      "def": 65,
+      "spa": 80,
+      "spd": 80,
+      "spe": 68
+    },
+    "prevo": "goldeen",
+    "evoLevel": 33,
+    "weight": 39
+  },
+  {
+    "slug": "staryu",
+    "name": "Staryu",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 120,
+    "baseStats": {
+      "hp": 30,
+      "atk": 45,
+      "def": 55,
+      "spa": 70,
+      "spd": 70,
+      "spe": 85
+    },
+    "evos": [
+      "starmie"
+    ],
+    "weight": 34.5
+  },
+  {
+    "slug": "starmie",
+    "name": "Starmie",
+    "gen": 1,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "num": 121,
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 85,
+      "spa": 100,
+      "spd": 100,
+      "spe": 115
+    },
+    "prevo": "staryu",
     "evoType": "useItem",
-    "evoItem": "Moon Stone",
-    "weight": 12
+    "evoItem": "Water Stone",
+    "weight": 80
+  },
+  {
+    "slug": "mrmime",
+    "name": "Mr. Mime",
+    "gen": 1,
+    "types": [
+      "psychic"
+    ],
+    "num": 122,
+    "baseStats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 65,
+      "spa": 100,
+      "spd": 100,
+      "spe": 90
+    },
+    "evoType": "levelMove",
+    "evoMove": "Mimic",
+    "weight": 54.5
+  },
+  {
+    "slug": "scyther",
+    "name": "Scyther",
+    "gen": 1,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "num": 123,
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 80,
+      "spa": 55,
+      "spd": 55,
+      "spe": 105
+    },
+    "weight": 56
+  },
+  {
+    "slug": "jynx",
+    "name": "Jynx",
+    "gen": 1,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "num": 124,
+    "baseStats": {
+      "hp": 65,
+      "atk": 50,
+      "def": 35,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "evoLevel": 30,
+    "weight": 40.6
+  },
+  {
+    "slug": "electabuzz",
+    "name": "Electabuzz",
+    "gen": 1,
+    "types": [
+      "electric"
+    ],
+    "num": 125,
+    "baseStats": {
+      "hp": 65,
+      "atk": 83,
+      "def": 57,
+      "spa": 85,
+      "spd": 85,
+      "spe": 105
+    },
+    "evoLevel": 30,
+    "weight": 30
+  },
+  {
+    "slug": "magmar",
+    "name": "Magmar",
+    "gen": 1,
+    "types": [
+      "fire"
+    ],
+    "num": 126,
+    "baseStats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 57,
+      "spa": 85,
+      "spd": 85,
+      "spe": 93
+    },
+    "evoLevel": 30,
+    "weight": 44.5
+  },
+  {
+    "slug": "pinsir",
+    "name": "Pinsir",
+    "gen": 1,
+    "types": [
+      "bug"
+    ],
+    "num": 127,
+    "baseStats": {
+      "hp": 65,
+      "atk": 125,
+      "def": 100,
+      "spa": 55,
+      "spd": 55,
+      "spe": 85
+    },
+    "weight": 55
+  },
+  {
+    "slug": "tauros",
+    "name": "Tauros",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 128,
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 95,
+      "spa": 70,
+      "spd": 70,
+      "spe": 110
+    },
+    "weight": 88.4
+  },
+  {
+    "slug": "magikarp",
+    "name": "Magikarp",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 129,
+    "baseStats": {
+      "hp": 20,
+      "atk": 10,
+      "def": 55,
+      "spa": 20,
+      "spd": 20,
+      "spe": 80
+    },
+    "evos": [
+      "gyarados"
+    ],
+    "weight": 10
+  },
+  {
+    "slug": "gyarados",
+    "name": "Gyarados",
+    "gen": 1,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "num": 130,
+    "baseStats": {
+      "hp": 95,
+      "atk": 125,
+      "def": 79,
+      "spa": 100,
+      "spd": 100,
+      "spe": 81
+    },
+    "prevo": "magikarp",
+    "evoLevel": 20,
+    "weight": 235
+  },
+  {
+    "slug": "lapras",
+    "name": "Lapras",
+    "gen": 1,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "num": 131,
+    "baseStats": {
+      "hp": 130,
+      "atk": 85,
+      "def": 80,
+      "spa": 95,
+      "spd": 95,
+      "spe": 60
+    },
+    "weight": 220
+  },
+  {
+    "slug": "ditto",
+    "name": "Ditto",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 132,
+    "baseStats": {
+      "hp": 48,
+      "atk": 48,
+      "def": 48,
+      "spa": 48,
+      "spd": 48,
+      "spe": 48
+    },
+    "weight": 4
+  },
+  {
+    "slug": "eevee",
+    "name": "Eevee",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 133,
+    "baseStats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 50,
+      "spa": 65,
+      "spd": 65,
+      "spe": 55
+    },
+    "evos": [
+      "vaporeon",
+      "jolteon",
+      "flareon"
+    ],
+    "weight": 6.5
+  },
+  {
+    "slug": "vaporeon",
+    "name": "Vaporeon",
+    "gen": 1,
+    "types": [
+      "water"
+    ],
+    "num": 134,
+    "baseStats": {
+      "hp": 130,
+      "atk": 65,
+      "def": 60,
+      "spa": 110,
+      "spd": 110,
+      "spe": 65
+    },
+    "prevo": "eevee",
+    "evoType": "useItem",
+    "evoItem": "Water Stone",
+    "weight": 29
+  },
+  {
+    "slug": "jolteon",
+    "name": "Jolteon",
+    "gen": 1,
+    "types": [
+      "electric"
+    ],
+    "num": 135,
+    "baseStats": {
+      "hp": 65,
+      "atk": 65,
+      "def": 60,
+      "spa": 110,
+      "spd": 110,
+      "spe": 130
+    },
+    "prevo": "eevee",
+    "evoType": "useItem",
+    "evoItem": "Thunder Stone",
+    "weight": 24.5
+  },
+  {
+    "slug": "flareon",
+    "name": "Flareon",
+    "gen": 1,
+    "types": [
+      "fire"
+    ],
+    "num": 136,
+    "baseStats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 60,
+      "spa": 110,
+      "spd": 110,
+      "spe": 65
+    },
+    "prevo": "eevee",
+    "evoType": "useItem",
+    "evoItem": "Fire Stone",
+    "weight": 25
+  },
+  {
+    "slug": "porygon",
+    "name": "Porygon",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 137,
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 70,
+      "spa": 75,
+      "spd": 75,
+      "spe": 40
+    },
+    "weight": 36.5
+  },
+  {
+    "slug": "omanyte",
+    "name": "Omanyte",
+    "gen": 1,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "num": 138,
+    "baseStats": {
+      "hp": 35,
+      "atk": 40,
+      "def": 100,
+      "spa": 90,
+      "spd": 90,
+      "spe": 35
+    },
+    "evos": [
+      "omastar"
+    ],
+    "weight": 7.5
+  },
+  {
+    "slug": "omastar",
+    "name": "Omastar",
+    "gen": 1,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "num": 139,
+    "baseStats": {
+      "hp": 70,
+      "atk": 60,
+      "def": 125,
+      "spa": 115,
+      "spd": 115,
+      "spe": 55
+    },
+    "prevo": "omanyte",
+    "evoLevel": 40,
+    "weight": 35
+  },
+  {
+    "slug": "kabuto",
+    "name": "Kabuto",
+    "gen": 1,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "num": 140,
+    "baseStats": {
+      "hp": 30,
+      "atk": 80,
+      "def": 90,
+      "spa": 45,
+      "spd": 45,
+      "spe": 55
+    },
+    "evos": [
+      "kabutops"
+    ],
+    "weight": 11.5
+  },
+  {
+    "slug": "kabutops",
+    "name": "Kabutops",
+    "gen": 1,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "num": 141,
+    "baseStats": {
+      "hp": 60,
+      "atk": 115,
+      "def": 105,
+      "spa": 70,
+      "spd": 70,
+      "spe": 80
+    },
+    "prevo": "kabuto",
+    "evoLevel": 40,
+    "weight": 40.5
+  },
+  {
+    "slug": "aerodactyl",
+    "name": "Aerodactyl",
+    "gen": 1,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "num": 142,
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "spa": 60,
+      "spd": 60,
+      "spe": 130
+    },
+    "weight": 59
+  },
+  {
+    "slug": "snorlax",
+    "name": "Snorlax",
+    "gen": 1,
+    "types": [
+      "normal"
+    ],
+    "num": 143,
+    "baseStats": {
+      "hp": 160,
+      "atk": 110,
+      "def": 65,
+      "spa": 65,
+      "spd": 65,
+      "spe": 30
+    },
+    "evoType": "levelFriendship",
+    "weight": 460
+  },
+  {
+    "slug": "articuno",
+    "name": "Articuno",
+    "gen": 1,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "num": 144,
+    "baseStats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 100,
+      "spa": 125,
+      "spd": 125,
+      "spe": 85
+    },
+    "hiddenAbilityUnreleased": true,
+    "weight": 55.4,
+    "isLegendary": true
   },
   {
     "slug": "zapdos",
@@ -3176,25 +3054,127 @@
     "isLegendary": true
   },
   {
-    "slug": "zubat",
-    "name": "Zubat",
+    "slug": "moltres",
+    "name": "Moltres",
     "gen": 1,
     "types": [
-      "poison",
+      "fire",
       "flying"
     ],
-    "num": 41,
+    "num": 146,
     "baseStats": {
-      "hp": 40,
-      "atk": 45,
-      "def": 35,
-      "spa": 40,
-      "spd": 40,
-      "spe": 55
+      "hp": 90,
+      "atk": 100,
+      "def": 90,
+      "spa": 125,
+      "spd": 125,
+      "spe": 90
+    },
+    "hiddenAbilityUnreleased": true,
+    "weight": 60,
+    "isLegendary": true
+  },
+  {
+    "slug": "dratini",
+    "name": "Dratini",
+    "gen": 1,
+    "types": [
+      "dragon"
+    ],
+    "num": 147,
+    "baseStats": {
+      "hp": 41,
+      "atk": 64,
+      "def": 45,
+      "spa": 50,
+      "spd": 50,
+      "spe": 50
     },
     "evos": [
-      "golbat"
+      "dragonair"
     ],
-    "weight": 7.5
+    "weight": 3.3
+  },
+  {
+    "slug": "dragonair",
+    "name": "Dragonair",
+    "gen": 1,
+    "types": [
+      "dragon"
+    ],
+    "num": 148,
+    "baseStats": {
+      "hp": 61,
+      "atk": 84,
+      "def": 65,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "prevo": "dratini",
+    "evos": [
+      "dragonite"
+    ],
+    "evoLevel": 30,
+    "weight": 16.5
+  },
+  {
+    "slug": "dragonite",
+    "name": "Dragonite",
+    "gen": 1,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "num": 149,
+    "baseStats": {
+      "hp": 91,
+      "atk": 134,
+      "def": 95,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "prevo": "dragonair",
+    "evoLevel": 55,
+    "weight": 210
+  },
+  {
+    "slug": "mewtwo",
+    "name": "Mewtwo",
+    "gen": 1,
+    "types": [
+      "psychic"
+    ],
+    "num": 150,
+    "baseStats": {
+      "hp": 106,
+      "atk": 110,
+      "def": 90,
+      "spa": 154,
+      "spd": 154,
+      "spe": 130
+    },
+    "weight": 122,
+    "isLegendary": true
+  },
+  {
+    "slug": "mew",
+    "name": "Mew",
+    "gen": 1,
+    "types": [
+      "psychic"
+    ],
+    "num": 151,
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "weight": 4,
+    "isMythical": true
   }
 ]

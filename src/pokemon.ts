@@ -39,6 +39,7 @@ export async function exportPokemon(
     const region = getRegion(species, data);
     const prettyName = getPrettyName(species, baseSpecies, region, data);
     const subName = getPrettySubName(species, { isGmax, region }, data);
+    const betterSlug = getBetterSlug(species, baseSpecies);
 
     let isLegendary = !!data[species.id]?.isLegendary;
     if (!isLegendary && baseSpecies) {
@@ -61,7 +62,10 @@ export async function exportPokemon(
 
     result.push({
       // -- General
+      // TODO completly replace slug with betterSlug
       slug: species.id,
+      betterSlug: species.id !== betterSlug ? betterSlug : undefined,
+      // TODO completly replace name with prettyName
       name: species.name,
       prettyName,
       subName,
@@ -205,6 +209,7 @@ export async function exportPokemon(
     }
   }
 
+  // TODO sort by formeOrder
   result = _.orderBy(result, ['num', 'slug']);
 
   if (result.length) {
@@ -216,7 +221,25 @@ export async function exportPokemon(
   }
 }
 
-export function getTypeSlugs(types: [TypeName] | [TypeName, TypeName]) {
+function getBetterSlug(species: Specie, baseSpecies: Specie | undefined) {
+  let result: string;
+
+  if (baseSpecies) {
+    result = baseSpecies.name;
+  } else {
+    result = species.name;
+  }
+
+  result = result.replaceAll(/[^a-zA-Z0-9]/g, '');
+
+  if (baseSpecies) {
+    result = result + '-' + species.forme.replaceAll(/[^a-zA-Z0-9-]/g, '');
+  }
+
+  return result.toLowerCase();
+}
+
+function getTypeSlugs(types: [TypeName] | [TypeName, TypeName]) {
   return _.map(types, typeNameToSlug);
 }
 

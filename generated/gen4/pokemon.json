@@ -432,7 +432,7 @@
     "abilities": {
       "0": "multitype"
     },
-    "baseFormeName": "Normal",
+    "defaultFormeName": "Normal",
     "formes": [
       "arceusbug",
       "arceusdark",
@@ -1946,7 +1946,7 @@
       "wormadamtrash",
       "mothim"
     ],
-    "baseFormeName": "Plant",
+    "defaultFormeName": "Plant",
     "cosmeticFormes": [
       "burmysandy",
       "burmytrash"
@@ -2242,7 +2242,7 @@
     },
     "formeName": "Rainy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -2278,7 +2278,7 @@
     },
     "formeName": "Snowy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -2314,7 +2314,7 @@
     },
     "formeName": "Sunny",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -2572,7 +2572,7 @@
     },
     "prevo": "cherubi",
     "evoLevel": 25,
-    "baseFormeName": "Overcast",
+    "defaultFormeName": "Overcast",
     "formes": [
       "cherrimsunshine"
     ],
@@ -2609,7 +2609,7 @@
     },
     "formeName": "Sunshine",
     "baseSpecies": "cherrim",
-    "requiredAbility": "flowergift",
+    "formTriggerAbility": "flowergift",
     "isBattleOnly": true,
     "weight": 9.3,
     "genderRatio": {
@@ -3545,7 +3545,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "baseFormeName": "Normal",
+    "defaultFormeName": "Normal",
     "formes": [
       "deoxysattack",
       "deoxysdefense",
@@ -5260,7 +5260,7 @@
     },
     "prevo": "shellos",
     "evoLevel": 30,
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "gastrodoneast"
     ],
@@ -5425,7 +5425,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "baseFormeName": "Altered",
+    "defaultFormeName": "Altered",
     "formes": [
       "giratinaorigin"
     ],
@@ -5460,7 +5460,7 @@
     },
     "formeName": "Origin",
     "baseSpecies": "giratina",
-    "requiredItem": "griseousorb",
+    "formTriggerItem": "griseousorb",
     "weight": 650,
     "gender": "N",
     "eggGroups": [
@@ -12955,7 +12955,7 @@
     "abilities": {
       "0": "naturalcure"
     },
-    "baseFormeName": "Land",
+    "defaultFormeName": "Land",
     "formes": [
       "shayminsky"
     ],
@@ -13114,7 +13114,7 @@
     "evos": [
       "gastrodon"
     ],
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "shelloseast"
     ],
@@ -15549,7 +15549,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "baseFormeName": "A",
+    "defaultFormeName": "A",
     "cosmeticFormes": [
       "unownb",
       "unownc",
@@ -16502,7 +16502,7 @@
     },
     "prevo": "burmy",
     "evoLevel": 20,
-    "baseFormeName": "Plant",
+    "defaultFormeName": "Plant",
     "formes": [
       "wormadamsandy",
       "wormadamtrash"

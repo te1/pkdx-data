@@ -154,7 +154,7 @@
     "prevo": "doublade",
     "evoType": "useItem",
     "evoItem": "Dusk Stone",
-    "baseFormeName": "Shield",
+    "defaultFormeName": "Shield",
     "formes": [
       "aegislashblade"
     ],
@@ -191,7 +191,7 @@
     },
     "formeName": "Blade",
     "baseSpecies": "aegislash",
-    "requiredAbility": "stancechange",
+    "formTriggerAbility": "stancechange",
     "isBattleOnly": true,
     "weight": 53,
     "genderRatio": {
@@ -323,7 +323,7 @@
     "prevo": "milcery",
     "evoType": "other",
     "evoCondition": "spin while holding a Sweet",
-    "baseFormeName": "Vanilla Cream",
+    "defaultFormeName": "Vanilla Cream",
     "cosmeticFormes": [
       "alcremierubycream",
       "alcremiematchacream",
@@ -1502,7 +1502,7 @@
     "prevo": "basculinwhitestriped",
     "evoType": "other",
     "evoCondition": "Receive 294+ recoil without fainting",
-    "baseFormeName": "M",
+    "defaultFormeName": "M",
     "formes": [
       "basculegionf"
     ],
@@ -1569,7 +1569,7 @@
       "1": "adaptability",
       "H": "moldbreaker"
     },
-    "baseFormeName": "Red-Striped",
+    "defaultFormeName": "Red-Striped",
     "formes": [
       "basculinbluestriped",
       "basculinwhitestriped"
@@ -3326,7 +3326,7 @@
     },
     "prevo": "cherubi",
     "evoLevel": 25,
-    "baseFormeName": "Overcast",
+    "defaultFormeName": "Overcast",
     "formes": [
       "cherrimsunshine"
     ],
@@ -3363,7 +3363,7 @@
     },
     "formeName": "Sunshine",
     "baseSpecies": "cherrim",
-    "requiredAbility": "flowergift",
+    "formTriggerAbility": "flowergift",
     "isBattleOnly": true,
     "weight": 9.3,
     "genderRatio": {
@@ -4584,7 +4584,7 @@
     },
     "formeName": "Gorging",
     "baseSpecies": "cramorant",
-    "requiredAbility": "gulpmissile",
+    "formTriggerAbility": "gulpmissile",
     "isBattleOnly": true,
     "weight": 18,
     "genderRatio": {
@@ -4621,7 +4621,7 @@
     },
     "formeName": "Gulping",
     "baseSpecies": "cramorant",
-    "requiredAbility": "gulpmissile",
+    "formTriggerAbility": "gulpmissile",
     "isBattleOnly": true,
     "weight": 18,
     "genderRatio": {
@@ -5015,7 +5015,7 @@
     },
     "prevo": "darumaka",
     "evoLevel": 35,
-    "baseFormeName": "Standard",
+    "defaultFormeName": "Standard",
     "formes": [
       "darmanitanzen",
       "darmanitangalar",
@@ -5091,8 +5091,8 @@
     },
     "formeName": "Galar-Zen",
     "baseSpecies": "darmanitan",
-    "changesFrom": "darmanitangalar",
-    "requiredAbility": "zenmode",
+    "baseForm": "darmanitangalar",
+    "formTriggerAbility": "zenmode",
     "region": "Galar",
     "isBattleOnly": true,
     "weight": 120,
@@ -5129,7 +5129,7 @@
     },
     "formeName": "Zen",
     "baseSpecies": "darmanitan",
-    "requiredAbility": "zenmode",
+    "formTriggerAbility": "zenmode",
     "isBattleOnly": true,
     "weight": 92.9,
     "genderRatio": {
@@ -6935,7 +6935,7 @@
     },
     "formeName": "Noice",
     "baseSpecies": "eiscue",
-    "requiredAbility": "iceface",
+    "formTriggerAbility": "iceface",
     "isBattleOnly": true,
     "weight": 89,
     "genderRatio": {
@@ -7233,7 +7233,7 @@
       "0": "healer",
       "H": "contrary"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "enamorustherian"
     ],
@@ -8549,7 +8549,7 @@
     },
     "prevo": "shellos",
     "evoLevel": 30,
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "gastrodoneast"
     ],
@@ -8619,7 +8619,7 @@
     },
     "formeName": "Burn",
     "baseSpecies": "genesect",
-    "requiredItem": "burndrive",
+    "formTriggerItem": "burndrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -8650,7 +8650,7 @@
     },
     "formeName": "Chill",
     "baseSpecies": "genesect",
-    "requiredItem": "chilldrive",
+    "formTriggerItem": "chilldrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -8681,7 +8681,7 @@
     },
     "formeName": "Douse",
     "baseSpecies": "genesect",
-    "requiredItem": "dousedrive",
+    "formTriggerItem": "dousedrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -8712,7 +8712,7 @@
     },
     "formeName": "Shock",
     "baseSpecies": "genesect",
-    "requiredItem": "shockdrive",
+    "formTriggerItem": "shockdrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -8878,7 +8878,7 @@
       "0": "pressure",
       "H": "telepathy"
     },
-    "baseFormeName": "Altered",
+    "defaultFormeName": "Altered",
     "formes": [
       "giratinaorigin"
     ],
@@ -8913,7 +8913,7 @@
     },
     "formeName": "Origin",
     "baseSpecies": "giratina",
-    "requiredItem": "griseousorb",
+    "formTriggerItem": "griseousorb",
     "weight": 650,
     "gender": "N",
     "eggGroups": [
@@ -9511,7 +9511,7 @@
     },
     "prevo": "pumpkaboo",
     "evoType": "trade",
-    "baseFormeName": "Average",
+    "defaultFormeName": "Average",
     "formes": [
       "gourgeistsmall",
       "gourgeistlarge",
@@ -11003,7 +11003,7 @@
       "1": "synchronize",
       "H": "psychicsurge"
     },
-    "baseFormeName": "M",
+    "defaultFormeName": "M",
     "formes": [
       "indeedeef"
     ],
@@ -11631,7 +11631,7 @@
     "abilities": {
       "0": "justified"
     },
-    "baseFormeName": "Ordinary",
+    "defaultFormeName": "Ordinary",
     "formes": [
       "keldeoresolute"
     ],
@@ -11666,7 +11666,7 @@
     },
     "formeName": "Resolute",
     "baseSpecies": "keldeo",
-    "requiredMove": "secretsword",
+    "formTriggerMove": "secretsword",
     "weight": 48.5,
     "gender": "N",
     "eggGroups": [
@@ -12390,7 +12390,7 @@
       "0": "sandforce",
       "H": "sheerforce"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "landorustherian"
     ],
@@ -13490,7 +13490,7 @@
     "prevo": "rockruff",
     "evoCondition": "during the day",
     "evoLevel": 25,
-    "baseFormeName": "Midday",
+    "defaultFormeName": "Midday",
     "formes": [
       "lycanrocmidnight",
       "lycanrocdusk"
@@ -14589,7 +14589,7 @@
     },
     "prevo": "espurr",
     "evoLevel": 25,
-    "baseFormeName": "M",
+    "defaultFormeName": "M",
     "formes": [
       "meowsticf"
     ],
@@ -15178,7 +15178,7 @@
     "abilities": {
       "0": "disguise"
     },
-    "baseFormeName": "Disguised",
+    "defaultFormeName": "Disguised",
     "formes": [
       "mimikyubusted"
     ],
@@ -15216,7 +15216,7 @@
     },
     "formeName": "Busted",
     "baseSpecies": "mimikyu",
-    "requiredAbility": "disguise",
+    "formTriggerAbility": "disguise",
     "isBattleOnly": true,
     "weight": 0.7,
     "genderRatio": {
@@ -15452,7 +15452,7 @@
     },
     "formeName": "Hangry",
     "baseSpecies": "morpeko",
-    "requiredAbility": "hungerswitch",
+    "formTriggerAbility": "hungerswitch",
     "isBattleOnly": true,
     "weight": 3,
     "genderRatio": {
@@ -17988,7 +17988,7 @@
     "prevo": "sinistea",
     "evoType": "useItem",
     "evoItem": "Cracked Pot",
-    "baseFormeName": "Phony",
+    "defaultFormeName": "Phony",
     "formes": [
       "polteageistantique"
     ],
@@ -18329,7 +18329,7 @@
     "evos": [
       "gourgeist"
     ],
-    "baseFormeName": "Average",
+    "defaultFormeName": "Average",
     "formes": [
       "pumpkaboosmall",
       "pumpkaboolarge",
@@ -19498,7 +19498,7 @@
       "lycanrocmidnight",
       "lycanrocdusk"
     ],
-    "baseFormeName": "Midday",
+    "defaultFormeName": "Midday",
     "weight": 9.2,
     "genderRatio": {
       "M": 0.5,
@@ -21015,7 +21015,7 @@
     "evos": [
       "gastrodon"
     ],
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "shelloseast"
     ],
@@ -21336,7 +21336,7 @@
     },
     "formeName": "Bug",
     "baseSpecies": "silvally",
-    "requiredItem": "bugmemory",
+    "formTriggerItem": "bugmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21367,7 +21367,7 @@
     },
     "formeName": "Dark",
     "baseSpecies": "silvally",
-    "requiredItem": "darkmemory",
+    "formTriggerItem": "darkmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21398,7 +21398,7 @@
     },
     "formeName": "Dragon",
     "baseSpecies": "silvally",
-    "requiredItem": "dragonmemory",
+    "formTriggerItem": "dragonmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21429,7 +21429,7 @@
     },
     "formeName": "Electric",
     "baseSpecies": "silvally",
-    "requiredItem": "electricmemory",
+    "formTriggerItem": "electricmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21460,7 +21460,7 @@
     },
     "formeName": "Fairy",
     "baseSpecies": "silvally",
-    "requiredItem": "fairymemory",
+    "formTriggerItem": "fairymemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21491,7 +21491,7 @@
     },
     "formeName": "Fighting",
     "baseSpecies": "silvally",
-    "requiredItem": "fightingmemory",
+    "formTriggerItem": "fightingmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21522,7 +21522,7 @@
     },
     "formeName": "Fire",
     "baseSpecies": "silvally",
-    "requiredItem": "firememory",
+    "formTriggerItem": "firememory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21553,7 +21553,7 @@
     },
     "formeName": "Flying",
     "baseSpecies": "silvally",
-    "requiredItem": "flyingmemory",
+    "formTriggerItem": "flyingmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21584,7 +21584,7 @@
     },
     "formeName": "Ghost",
     "baseSpecies": "silvally",
-    "requiredItem": "ghostmemory",
+    "formTriggerItem": "ghostmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21615,7 +21615,7 @@
     },
     "formeName": "Grass",
     "baseSpecies": "silvally",
-    "requiredItem": "grassmemory",
+    "formTriggerItem": "grassmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21646,7 +21646,7 @@
     },
     "formeName": "Ground",
     "baseSpecies": "silvally",
-    "requiredItem": "groundmemory",
+    "formTriggerItem": "groundmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21677,7 +21677,7 @@
     },
     "formeName": "Ice",
     "baseSpecies": "silvally",
-    "requiredItem": "icememory",
+    "formTriggerItem": "icememory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21708,7 +21708,7 @@
     },
     "formeName": "Poison",
     "baseSpecies": "silvally",
-    "requiredItem": "poisonmemory",
+    "formTriggerItem": "poisonmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21739,7 +21739,7 @@
     },
     "formeName": "Psychic",
     "baseSpecies": "silvally",
-    "requiredItem": "psychicmemory",
+    "formTriggerItem": "psychicmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21770,7 +21770,7 @@
     },
     "formeName": "Rock",
     "baseSpecies": "silvally",
-    "requiredItem": "rockmemory",
+    "formTriggerItem": "rockmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21801,7 +21801,7 @@
     },
     "formeName": "Steel",
     "baseSpecies": "silvally",
-    "requiredItem": "steelmemory",
+    "formTriggerItem": "steelmemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21832,7 +21832,7 @@
     },
     "formeName": "Water",
     "baseSpecies": "silvally",
-    "requiredItem": "watermemory",
+    "formTriggerItem": "watermemory",
     "weight": 100.5,
     "gender": "N",
     "eggGroups": [
@@ -21864,7 +21864,7 @@
     "evos": [
       "polteageist"
     ],
-    "baseFormeName": "Phony",
+    "defaultFormeName": "Phony",
     "formes": [
       "sinisteaantique"
     ],
@@ -24129,7 +24129,7 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "thundurustherian"
     ],
@@ -24500,7 +24500,7 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "tornadustherian"
     ],
@@ -24702,7 +24702,7 @@
     },
     "prevo": "toxel",
     "evoLevel": 30,
-    "baseFormeName": "Amped",
+    "defaultFormeName": "Amped",
     "formes": [
       "toxtricitylowkey"
     ],
@@ -24820,7 +24820,7 @@
     },
     "formeName": "Low-Key-Gmax",
     "baseSpecies": "toxtricity",
-    "changesFrom": "toxtricitylowkey",
+    "baseForm": "toxtricitylowkey",
     "isBattleOnly": true,
     "isGmax": true,
     "weight": 0,
@@ -25420,7 +25420,7 @@
     "prevo": "kubfu",
     "evoType": "other",
     "evoCondition": "Defeat the Single Strike Tower",
-    "baseFormeName": "Single-Strike",
+    "defaultFormeName": "Single-Strike",
     "formes": [
       "urshifurapidstrike"
     ],
@@ -25535,7 +25535,7 @@
     },
     "formeName": "Rapid-Strike-Gmax",
     "baseSpecies": "urshifu",
-    "changesFrom": "urshifurapidstrike",
+    "baseForm": "urshifurapidstrike",
     "isBattleOnly": true,
     "isGmax": true,
     "weight": 105,
@@ -26702,7 +26702,7 @@
     "abilities": {
       "0": "schooling"
     },
-    "baseFormeName": "Solo",
+    "defaultFormeName": "Solo",
     "formes": [
       "wishiwashischool"
     ],
@@ -26739,7 +26739,7 @@
     },
     "formeName": "School",
     "baseSpecies": "wishiwashi",
-    "requiredAbility": "schooling",
+    "formTriggerAbility": "schooling",
     "isBattleOnly": true,
     "weight": 78.6,
     "genderRatio": {
@@ -27007,7 +27007,7 @@
     "abilities": {
       "0": "fairyaura"
     },
-    "baseFormeName": "Active",
+    "defaultFormeName": "Active",
     "weight": 215,
     "gender": "N",
     "eggGroups": [
@@ -27194,7 +27194,7 @@
     "abilities": {
       "0": "intrepidsword"
     },
-    "baseFormeName": "Hero",
+    "defaultFormeName": "Hero",
     "formes": [
       "zaciancrowned"
     ],
@@ -27230,7 +27230,7 @@
     },
     "formeName": "Crowned",
     "baseSpecies": "zacian",
-    "requiredItem": "rustedsword",
+    "formTriggerItem": "rustedsword",
     "isBattleOnly": true,
     "weight": 355,
     "gender": "N",
@@ -27260,7 +27260,7 @@
     "abilities": {
       "0": "dauntlessshield"
     },
-    "baseFormeName": "Hero",
+    "defaultFormeName": "Hero",
     "formes": [
       "zamazentacrowned"
     ],
@@ -27296,7 +27296,7 @@
     },
     "formeName": "Crowned",
     "baseSpecies": "zamazenta",
-    "requiredItem": "rustedshield",
+    "formTriggerItem": "rustedshield",
     "isBattleOnly": true,
     "weight": 785,
     "gender": "N",
@@ -27787,7 +27787,7 @@
       "0": "aurabreak",
       "S": "powerconstruct"
     },
-    "baseFormeName": "50%",
+    "defaultFormeName": "50%",
     "formes": [
       "zygarde10",
       "zygardecomplete"
@@ -27855,7 +27855,7 @@
     },
     "formeName": "Complete",
     "baseSpecies": "zygarde",
-    "requiredAbility": "powerconstruct",
+    "formTriggerAbility": "powerconstruct",
     "isBattleOnly": true,
     "weight": 610,
     "gender": "N",

@@ -1258,7 +1258,7 @@
     },
     "formeName": "Rainy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -1294,7 +1294,7 @@
     },
     "formeName": "Snowy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -1330,7 +1330,7 @@
     },
     "formeName": "Sunny",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -2202,7 +2202,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "baseFormeName": "Normal",
+    "defaultFormeName": "Normal",
     "formes": [
       "deoxysattack",
       "deoxysdefense",
@@ -11361,7 +11361,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "baseFormeName": "A",
+    "defaultFormeName": "A",
     "cosmeticFormes": [
       "unownb",
       "unownc",

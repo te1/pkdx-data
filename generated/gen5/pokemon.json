@@ -542,7 +542,7 @@
     "abilities": {
       "0": "multitype"
     },
-    "baseFormeName": "Normal",
+    "defaultFormeName": "Normal",
     "formes": [
       "arceusbug",
       "arceusdark",
@@ -1554,7 +1554,7 @@
       "1": "adaptability",
       "H": "moldbreaker"
     },
-    "baseFormeName": "Red-Striped",
+    "defaultFormeName": "Red-Striped",
     "formes": [
       "basculinbluestriped"
     ],
@@ -2514,7 +2514,7 @@
       "wormadamtrash",
       "mothim"
     ],
-    "baseFormeName": "Plant",
+    "defaultFormeName": "Plant",
     "cosmeticFormes": [
       "burmysandy",
       "burmytrash"
@@ -2849,7 +2849,7 @@
     },
     "formeName": "Rainy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -2885,7 +2885,7 @@
     },
     "formeName": "Snowy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -2921,7 +2921,7 @@
     },
     "formeName": "Sunny",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -3220,7 +3220,7 @@
     },
     "prevo": "cherubi",
     "evoLevel": 25,
-    "baseFormeName": "Overcast",
+    "defaultFormeName": "Overcast",
     "formes": [
       "cherrimsunshine"
     ],
@@ -3257,7 +3257,7 @@
     },
     "formeName": "Sunshine",
     "baseSpecies": "cherrim",
-    "requiredAbility": "flowergift",
+    "formTriggerAbility": "flowergift",
     "isBattleOnly": true,
     "weight": 9.3,
     "genderRatio": {
@@ -4402,7 +4402,7 @@
     },
     "prevo": "darumaka",
     "evoLevel": 35,
-    "baseFormeName": "Standard",
+    "defaultFormeName": "Standard",
     "formes": [
       "darmanitanzen"
     ],
@@ -4439,7 +4439,7 @@
     },
     "formeName": "Zen",
     "baseSpecies": "darmanitan",
-    "requiredAbility": "zenmode",
+    "formTriggerAbility": "zenmode",
     "isBattleOnly": true,
     "weight": 92.9,
     "genderRatio": {
@@ -4509,7 +4509,7 @@
     "evos": [
       "sawsbuck"
     ],
-    "baseFormeName": "Spring",
+    "defaultFormeName": "Spring",
     "cosmeticFormes": [
       "deerlingsummer",
       "deerlingautumn",
@@ -4645,7 +4645,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "baseFormeName": "Normal",
+    "defaultFormeName": "Normal",
     "formes": [
       "deoxysattack",
       "deoxysdefense",
@@ -7111,7 +7111,7 @@
     },
     "prevo": "shellos",
     "evoLevel": 30,
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "gastrodoneast"
     ],
@@ -7181,7 +7181,7 @@
     },
     "formeName": "Burn",
     "baseSpecies": "genesect",
-    "requiredItem": "burndrive",
+    "formTriggerItem": "burndrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -7212,7 +7212,7 @@
     },
     "formeName": "Chill",
     "baseSpecies": "genesect",
-    "requiredItem": "chilldrive",
+    "formTriggerItem": "chilldrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -7243,7 +7243,7 @@
     },
     "formeName": "Douse",
     "baseSpecies": "genesect",
-    "requiredItem": "dousedrive",
+    "formTriggerItem": "dousedrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -7274,7 +7274,7 @@
     },
     "formeName": "Shock",
     "baseSpecies": "genesect",
-    "requiredItem": "shockdrive",
+    "formTriggerItem": "shockdrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -7468,7 +7468,7 @@
       "0": "pressure",
       "H": "telepathy"
     },
-    "baseFormeName": "Altered",
+    "defaultFormeName": "Altered",
     "formes": [
       "giratinaorigin"
     ],
@@ -7503,7 +7503,7 @@
     },
     "formeName": "Origin",
     "baseSpecies": "giratina",
-    "requiredItem": "griseousorb",
+    "formTriggerItem": "griseousorb",
     "weight": 650,
     "gender": "N",
     "eggGroups": [
@@ -9764,7 +9764,7 @@
     "abilities": {
       "0": "justified"
     },
-    "baseFormeName": "Ordinary",
+    "defaultFormeName": "Ordinary",
     "formes": [
       "keldeoresolute"
     ],
@@ -9799,7 +9799,7 @@
     },
     "formeName": "Resolute",
     "baseSpecies": "keldeo",
-    "requiredMove": "secretsword",
+    "formTriggerMove": "secretsword",
     "weight": 48.5,
     "gender": "N",
     "eggGroups": [
@@ -10414,7 +10414,7 @@
       "0": "sandforce",
       "H": "sheerforce"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "landorustherian"
     ],
@@ -12419,7 +12419,7 @@
     "abilities": {
       "0": "serenegrace"
     },
-    "baseFormeName": "Aria",
+    "defaultFormeName": "Aria",
     "formes": [
       "meloettapirouette"
     ],
@@ -12454,7 +12454,7 @@
     },
     "formeName": "Pirouette",
     "baseSpecies": "meloetta",
-    "requiredMove": "relicsong",
+    "formTriggerMove": "relicsong",
     "isBattleOnly": true,
     "weight": 6.5,
     "gender": "N",
@@ -16732,7 +16732,7 @@
     },
     "prevo": "deerling",
     "evoLevel": 34,
-    "baseFormeName": "Spring",
+    "defaultFormeName": "Spring",
     "cosmeticFormes": [
       "sawsbucksummer",
       "sawsbuckautumn",
@@ -17380,7 +17380,7 @@
     "abilities": {
       "0": "naturalcure"
     },
-    "baseFormeName": "Land",
+    "defaultFormeName": "Land",
     "formes": [
       "shayminsky"
     ],
@@ -17542,7 +17542,7 @@
     "evos": [
       "gastrodon"
     ],
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "shelloseast"
     ],
@@ -20004,7 +20004,7 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "thundurustherian"
     ],
@@ -20306,7 +20306,7 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "tornadustherian"
     ],
@@ -20900,7 +20900,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "baseFormeName": "A",
+    "defaultFormeName": "A",
     "cosmeticFormes": [
       "unownb",
       "unownc",
@@ -22268,7 +22268,7 @@
     },
     "prevo": "burmy",
     "evoLevel": 20,
-    "baseFormeName": "Plant",
+    "defaultFormeName": "Plant",
     "formes": [
       "wormadamsandy",
       "wormadamtrash"

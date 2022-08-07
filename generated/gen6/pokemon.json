@@ -58,7 +58,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "abomasnow",
-    "requiredItem": "abomasite",
+    "formTriggerItem": "abomasite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 185,
@@ -162,7 +162,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "absol",
-    "requiredItem": "absolite",
+    "formTriggerItem": "absolite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 49,
@@ -232,7 +232,7 @@
     "prevo": "doublade",
     "evoType": "useItem",
     "evoItem": "Dusk Stone",
-    "baseFormeName": "Shield",
+    "defaultFormeName": "Shield",
     "formes": [
       "aegislashblade"
     ],
@@ -269,7 +269,7 @@
     },
     "formeName": "Blade",
     "baseSpecies": "aegislash",
-    "requiredAbility": "stancechange",
+    "formTriggerAbility": "stancechange",
     "isBattleOnly": true,
     "weight": 53,
     "genderRatio": {
@@ -339,7 +339,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "aerodactyl",
-    "requiredItem": "aerodactylite",
+    "formTriggerItem": "aerodactylite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 79,
@@ -410,7 +410,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "aggron",
-    "requiredItem": "aggronite",
+    "formTriggerItem": "aggronite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 395,
@@ -514,7 +514,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "alakazam",
-    "requiredItem": "alakazite",
+    "formTriggerItem": "alakazite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 48,
@@ -618,7 +618,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "altaria",
-    "requiredItem": "altarianite",
+    "formTriggerItem": "altarianite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 20.6,
@@ -789,7 +789,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "ampharos",
-    "requiredItem": "ampharosite",
+    "formTriggerItem": "ampharosite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 61.5,
@@ -922,7 +922,7 @@
     "abilities": {
       "0": "multitype"
     },
-    "baseFormeName": "Normal",
+    "defaultFormeName": "Normal",
     "formes": [
       "arceusbug",
       "arceusdark",
@@ -1742,7 +1742,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "audino",
-    "requiredItem": "audinite",
+    "formTriggerItem": "audinite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 32,
@@ -2070,7 +2070,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "banette",
-    "requiredItem": "banettite",
+    "formTriggerItem": "banettite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 13,
@@ -2173,7 +2173,7 @@
       "1": "adaptability",
       "H": "moldbreaker"
     },
-    "baseFormeName": "Red-Striped",
+    "defaultFormeName": "Red-Striped",
     "formes": [
       "basculinbluestriped"
     ],
@@ -2410,7 +2410,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "beedrill",
-    "requiredItem": "beedrillite",
+    "formTriggerItem": "beedrillite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 40.5,
@@ -2780,7 +2780,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "blastoise",
-    "requiredItem": "blastoisinite",
+    "formTriggerItem": "blastoisinite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 101.1,
@@ -2852,7 +2852,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "blaziken",
-    "requiredItem": "blazikenite",
+    "formTriggerItem": "blazikenite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 52,
@@ -3386,7 +3386,7 @@
       "wormadamtrash",
       "mothim"
     ],
-    "baseFormeName": "Plant",
+    "defaultFormeName": "Plant",
     "cosmeticFormes": [
       "burmysandy",
       "burmytrash"
@@ -3559,7 +3559,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "camerupt",
-    "requiredItem": "cameruptite",
+    "formTriggerItem": "cameruptite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 320.5,
@@ -3789,7 +3789,7 @@
     },
     "formeName": "Rainy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -3825,7 +3825,7 @@
     },
     "formeName": "Snowy",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -3861,7 +3861,7 @@
     },
     "formeName": "Sunny",
     "baseSpecies": "castform",
-    "requiredAbility": "forecast",
+    "formTriggerAbility": "forecast",
     "isBattleOnly": true,
     "weight": 0.8,
     "genderRatio": {
@@ -4063,7 +4063,7 @@
     },
     "formeName": "Mega-X",
     "baseSpecies": "charizard",
-    "requiredItem": "charizarditex",
+    "formTriggerItem": "charizarditex",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 110.5,
@@ -4100,7 +4100,7 @@
     },
     "formeName": "Mega-Y",
     "baseSpecies": "charizard",
-    "requiredItem": "charizarditey",
+    "formTriggerItem": "charizarditey",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 100.5,
@@ -4237,7 +4237,7 @@
     },
     "prevo": "cherubi",
     "evoLevel": 25,
-    "baseFormeName": "Overcast",
+    "defaultFormeName": "Overcast",
     "formes": [
       "cherrimsunshine"
     ],
@@ -4274,7 +4274,7 @@
     },
     "formeName": "Sunshine",
     "baseSpecies": "cherrim",
-    "requiredAbility": "flowergift",
+    "formTriggerAbility": "flowergift",
     "isBattleOnly": true,
     "weight": 9.3,
     "genderRatio": {
@@ -5546,7 +5546,7 @@
     },
     "prevo": "darumaka",
     "evoLevel": 35,
-    "baseFormeName": "Standard",
+    "defaultFormeName": "Standard",
     "formes": [
       "darmanitanzen"
     ],
@@ -5583,7 +5583,7 @@
     },
     "formeName": "Zen",
     "baseSpecies": "darmanitan",
-    "requiredAbility": "zenmode",
+    "formTriggerAbility": "zenmode",
     "isBattleOnly": true,
     "weight": 92.9,
     "genderRatio": {
@@ -5686,7 +5686,7 @@
     "evos": [
       "sawsbuck"
     ],
-    "baseFormeName": "Spring",
+    "defaultFormeName": "Spring",
     "cosmeticFormes": [
       "deerlingsummer",
       "deerlingautumn",
@@ -5854,7 +5854,7 @@
     "abilities": {
       "0": "pressure"
     },
-    "baseFormeName": "Normal",
+    "defaultFormeName": "Normal",
     "formes": [
       "deoxysattack",
       "deoxysdefense",
@@ -6106,7 +6106,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "diancie",
-    "requiredItem": "diancite",
+    "formTriggerItem": "diancite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 27.8,
@@ -8030,7 +8030,7 @@
     "evos": [
       "floette"
     ],
-    "baseFormeName": "Red",
+    "defaultFormeName": "Red",
     "cosmeticFormes": [
       "flabebeblue",
       "flabebeorange",
@@ -8202,7 +8202,7 @@
       "florges"
     ],
     "evoLevel": 19,
-    "baseFormeName": "Red",
+    "defaultFormeName": "Red",
     "formes": [
       "floetteeternal"
     ],
@@ -8270,7 +8270,7 @@
     "prevo": "floette",
     "evoType": "useItem",
     "evoItem": "Shiny Stone",
-    "baseFormeName": "Red",
+    "defaultFormeName": "Red",
     "cosmeticFormes": [
       "florgesblue",
       "florgesorange",
@@ -8568,7 +8568,7 @@
     "abilities": {
       "0": "furcoat"
     },
-    "baseFormeName": "Natural",
+    "defaultFormeName": "Natural",
     "cosmeticFormes": [
       "furfroudandy",
       "furfroudebutante",
@@ -8714,7 +8714,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "gallade",
-    "requiredItem": "galladite",
+    "formTriggerItem": "galladite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 56.4,
@@ -8848,7 +8848,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "garchomp",
-    "requiredItem": "garchompite",
+    "formTriggerItem": "garchompite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 95,
@@ -8921,7 +8921,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "gardevoir",
-    "requiredItem": "gardevoirite",
+    "formTriggerItem": "gardevoirite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 48.4,
@@ -8991,7 +8991,7 @@
     },
     "prevo": "shellos",
     "evoLevel": 30,
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "gastrodoneast"
     ],
@@ -9061,7 +9061,7 @@
     },
     "formeName": "Burn",
     "baseSpecies": "genesect",
-    "requiredItem": "burndrive",
+    "formTriggerItem": "burndrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -9092,7 +9092,7 @@
     },
     "formeName": "Chill",
     "baseSpecies": "genesect",
-    "requiredItem": "chilldrive",
+    "formTriggerItem": "chilldrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -9123,7 +9123,7 @@
     },
     "formeName": "Douse",
     "baseSpecies": "genesect",
-    "requiredItem": "dousedrive",
+    "formTriggerItem": "dousedrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -9154,7 +9154,7 @@
     },
     "formeName": "Shock",
     "baseSpecies": "genesect",
-    "requiredItem": "shockdrive",
+    "formTriggerItem": "shockdrive",
     "weight": 82.5,
     "gender": "N",
     "eggGroups": [
@@ -9219,7 +9219,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "gengar",
-    "requiredItem": "gengarite",
+    "formTriggerItem": "gengarite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 40.5,
@@ -9387,7 +9387,7 @@
       "0": "pressure",
       "H": "telepathy"
     },
-    "baseFormeName": "Altered",
+    "defaultFormeName": "Altered",
     "formes": [
       "giratinaorigin"
     ],
@@ -9422,7 +9422,7 @@
     },
     "formeName": "Origin",
     "baseSpecies": "giratina",
-    "requiredItem": "griseousorb",
+    "formTriggerItem": "griseousorb",
     "weight": 650,
     "gender": "N",
     "eggGroups": [
@@ -9521,7 +9521,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "glalie",
-    "requiredItem": "glalitite",
+    "formTriggerItem": "glalitite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 350.2,
@@ -10127,7 +10127,7 @@
     },
     "prevo": "pumpkaboo",
     "evoType": "trade",
-    "baseFormeName": "Average",
+    "defaultFormeName": "Average",
     "formes": [
       "gourgeistsmall",
       "gourgeistlarge",
@@ -10473,7 +10473,7 @@
     },
     "formeName": "Primal",
     "baseSpecies": "groudon",
-    "requiredItem": "redorb",
+    "formTriggerItem": "redorb",
     "isBattleOnly": true,
     "isPrimal": true,
     "weight": 999.7,
@@ -10712,7 +10712,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "gyarados",
-    "requiredItem": "gyaradosite",
+    "formTriggerItem": "gyaradosite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 305,
@@ -11080,7 +11080,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "heracross",
-    "requiredItem": "heracronite",
+    "formTriggerItem": "heracronite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 62.5,
@@ -11398,7 +11398,7 @@
     "abilities": {
       "0": "magician"
     },
-    "baseFormeName": "Confined",
+    "defaultFormeName": "Confined",
     "formes": [
       "hoopaunbound"
     ],
@@ -11604,7 +11604,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "houndoom",
-    "requiredItem": "houndoominite",
+    "formTriggerItem": "houndoominite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 49.5,
@@ -12335,7 +12335,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "kangaskhan",
-    "requiredItem": "kangaskhanite",
+    "formTriggerItem": "kangaskhanite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 100,
@@ -12430,7 +12430,7 @@
     "abilities": {
       "0": "justified"
     },
-    "baseFormeName": "Ordinary",
+    "defaultFormeName": "Ordinary",
     "formes": [
       "keldeoresolute"
     ],
@@ -12465,7 +12465,7 @@
     },
     "formeName": "Resolute",
     "baseSpecies": "keldeo",
-    "requiredMove": "secretsword",
+    "formTriggerMove": "secretsword",
     "weight": 48.5,
     "gender": "N",
     "eggGroups": [
@@ -12950,7 +12950,7 @@
     },
     "formeName": "Primal",
     "baseSpecies": "kyogre",
-    "requiredItem": "blueorb",
+    "formTriggerItem": "blueorb",
     "isBattleOnly": true,
     "isPrimal": true,
     "weight": 430,
@@ -13145,7 +13145,7 @@
       "0": "sandforce",
       "H": "sheerforce"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "landorustherian"
     ],
@@ -13374,7 +13374,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "latias",
-    "requiredItem": "latiasite",
+    "formTriggerItem": "latiasite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 52,
@@ -13437,7 +13437,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "latios",
-    "requiredItem": "latiosite",
+    "formTriggerItem": "latiosite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 70,
@@ -13976,7 +13976,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "lopunny",
-    "requiredItem": "lopunnite",
+    "formTriggerItem": "lopunnite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 28.3,
@@ -14122,7 +14122,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "lucario",
-    "requiredItem": "lucarionite",
+    "formTriggerItem": "lucarionite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 57.5,
@@ -14936,7 +14936,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "manectric",
-    "requiredItem": "manectite",
+    "formTriggerItem": "manectite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 44,
@@ -15316,7 +15316,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "mawile",
-    "requiredItem": "mawilite",
+    "formTriggerItem": "mawilite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 23.5,
@@ -15388,7 +15388,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "medicham",
-    "requiredItem": "medichamite",
+    "formTriggerItem": "medichamite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 31.5,
@@ -15488,7 +15488,7 @@
     "abilities": {
       "0": "serenegrace"
     },
-    "baseFormeName": "Aria",
+    "defaultFormeName": "Aria",
     "formes": [
       "meloettapirouette"
     ],
@@ -15523,7 +15523,7 @@
     },
     "formeName": "Pirouette",
     "baseSpecies": "meloetta",
-    "requiredMove": "relicsong",
+    "formTriggerMove": "relicsong",
     "isBattleOnly": true,
     "weight": 6.5,
     "gender": "N",
@@ -15556,7 +15556,7 @@
     },
     "prevo": "espurr",
     "evoLevel": 25,
-    "baseFormeName": "M",
+    "defaultFormeName": "M",
     "formes": [
       "meowsticf"
     ],
@@ -15714,7 +15714,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "metagross",
-    "requiredItem": "metagrossite",
+    "formTriggerItem": "metagrossite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 942.9,
@@ -15869,7 +15869,7 @@
     },
     "formeName": "Mega-X",
     "baseSpecies": "mewtwo",
-    "requiredItem": "mewtwonitex",
+    "formTriggerItem": "mewtwonitex",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 127,
@@ -15901,7 +15901,7 @@
     },
     "formeName": "Mega-Y",
     "baseSpecies": "mewtwo",
-    "requiredItem": "mewtwonitey",
+    "formTriggerItem": "mewtwonitey",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 33,
@@ -17994,7 +17994,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "pidgeot",
-    "requiredItem": "pidgeotite",
+    "formTriggerItem": "pidgeotite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 50.5,
@@ -18213,7 +18213,7 @@
     },
     "formeName": "Belle",
     "baseSpecies": "pikachu",
-    "changesFrom": "pikachucosplay",
+    "baseForm": "pikachucosplay",
     "weight": 6,
     "gender": "F",
     "eggGroups": [
@@ -18270,7 +18270,7 @@
     },
     "formeName": "Libre",
     "baseSpecies": "pikachu",
-    "changesFrom": "pikachucosplay",
+    "baseForm": "pikachucosplay",
     "weight": 6,
     "gender": "F",
     "eggGroups": [
@@ -18299,7 +18299,7 @@
     },
     "formeName": "PhD",
     "baseSpecies": "pikachu",
-    "changesFrom": "pikachucosplay",
+    "baseForm": "pikachucosplay",
     "weight": 6,
     "gender": "F",
     "eggGroups": [
@@ -18328,7 +18328,7 @@
     },
     "formeName": "Pop-Star",
     "baseSpecies": "pikachu",
-    "changesFrom": "pikachucosplay",
+    "baseForm": "pikachucosplay",
     "weight": 6,
     "gender": "F",
     "eggGroups": [
@@ -18357,7 +18357,7 @@
     },
     "formeName": "Rock-Star",
     "baseSpecies": "pikachu",
-    "changesFrom": "pikachucosplay",
+    "baseForm": "pikachucosplay",
     "weight": 6,
     "gender": "F",
     "eggGroups": [
@@ -18490,7 +18490,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "pinsir",
-    "requiredItem": "pinsirite",
+    "formTriggerItem": "pinsirite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 59,
@@ -19028,7 +19028,7 @@
     "evos": [
       "gourgeist"
     ],
-    "baseFormeName": "Average",
+    "defaultFormeName": "Average",
     "formes": [
       "pumpkaboosmall",
       "pumpkaboolarge",
@@ -19704,7 +19704,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "rayquaza",
-    "requiredMove": "dragonascent",
+    "formTriggerMove": "dragonascent",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 392,
@@ -20476,7 +20476,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "sableye",
-    "requiredItem": "sablenite",
+    "formTriggerItem": "sablenite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 161,
@@ -20547,7 +20547,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "salamence",
-    "requiredItem": "salamencite",
+    "formTriggerItem": "salamencite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 112.6,
@@ -20742,7 +20742,7 @@
     },
     "prevo": "deerling",
     "evoLevel": 34,
-    "baseFormeName": "Spring",
+    "defaultFormeName": "Spring",
     "cosmeticFormes": [
       "sawsbucksummer",
       "sawsbuckautumn",
@@ -20849,7 +20849,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "sceptile",
-    "requiredItem": "sceptilite",
+    "formTriggerItem": "sceptilite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 55.2,
@@ -20923,7 +20923,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "scizor",
-    "requiredItem": "scizorite",
+    "formTriggerItem": "scizorite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 125,
@@ -21507,7 +21507,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "sharpedo",
-    "requiredItem": "sharpedonite",
+    "formTriggerItem": "sharpedonite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 130.3,
@@ -21540,7 +21540,7 @@
     "abilities": {
       "0": "naturalcure"
     },
-    "baseFormeName": "Land",
+    "defaultFormeName": "Land",
     "formes": [
       "shayminsky"
     ],
@@ -21702,7 +21702,7 @@
     "evos": [
       "gastrodon"
     ],
-    "baseFormeName": "West",
+    "defaultFormeName": "West",
     "cosmeticFormes": [
       "shelloseast"
     ],
@@ -22515,7 +22515,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "slowbro",
-    "requiredItem": "slowbronite",
+    "formTriggerItem": "slowbronite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 120,
@@ -23556,7 +23556,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "steelix",
-    "requiredItem": "steelixite",
+    "formTriggerItem": "steelixite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 740,
@@ -23995,7 +23995,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "swampert",
-    "requiredItem": "swampertite",
+    "formTriggerItem": "swampertite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 102,
@@ -24582,7 +24582,7 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "thundurustherian"
     ],
@@ -24884,7 +24884,7 @@
       "0": "prankster",
       "H": "defiant"
     },
-    "baseFormeName": "Incarnate",
+    "defaultFormeName": "Incarnate",
     "formes": [
       "tornadustherian"
     ],
@@ -25419,7 +25419,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "tyranitar",
-    "requiredItem": "tyranitarite",
+    "formTriggerItem": "tyranitarite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 255,
@@ -25618,7 +25618,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "baseFormeName": "A",
+    "defaultFormeName": "A",
     "cosmeticFormes": [
       "unownb",
       "unownc",
@@ -26004,7 +26004,7 @@
     },
     "formeName": "Mega",
     "baseSpecies": "venusaur",
-    "requiredItem": "venusaurite",
+    "formTriggerItem": "venusaurite",
     "isBattleOnly": true,
     "isMega": true,
     "weight": 155.5,
@@ -26258,7 +26258,7 @@
     },
     "prevo": "spewpa",
     "evoLevel": 12,
-    "baseFormeName": "Meadow",
+    "defaultFormeName": "Meadow",
     "formes": [
       "vivillonfancy",
       "vivillonpokeball"
@@ -27182,7 +27182,7 @@
     },
     "prevo": "burmy",
     "evoLevel": 20,
-    "baseFormeName": "Plant",
+    "defaultFormeName": "Plant",
     "formes": [
       "wormadamsandy",
       "wormadamtrash"
@@ -27378,7 +27378,7 @@
     "abilities": {
       "0": "fairyaura"
     },
-    "baseFormeName": "Active",
+    "defaultFormeName": "Active",
     "weight": 215,
     "gender": "N",
     "eggGroups": [
@@ -27817,7 +27817,7 @@
     "abilities": {
       "0": "aurabreak"
     },
-    "baseFormeName": "50%",
+    "defaultFormeName": "50%",
     "weight": 305,
     "gender": "N",
     "eggGroups": [

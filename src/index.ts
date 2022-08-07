@@ -99,6 +99,11 @@ async function main() {
       console.log('');
     }
 
+    // TODO export pokedex
+    // TODO export HM/TM/TR
+    // TODO create index and detail files
+    // TODO handle gen9 preview
+
     console.log('done');
   } catch (err) {
     console.error(err);

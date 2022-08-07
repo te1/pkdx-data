@@ -187,6 +187,8 @@ export async function exportPokemon(
       gmaxMove,
     });
 
+    // TODO handle cosmeticFormes
+
     // Optional logging if `baseSpecies` is different from `changesFrom`
     // if (
     //   species.changesFrom &&

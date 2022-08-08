@@ -19,7 +19,7 @@ export async function exportItems(gen: Generation, target: string) {
       name: item.name,
       gen: item.gen,
       desc: item.desc,
-      shortDesc: item.shortDesc,
+      shortDesc: item.shortDesc || undefined,
       // flavorText: data[item.id]?.flavorText,
     });
   }

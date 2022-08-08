@@ -44,7 +44,7 @@ export async function exportPokemon(
       data
     );
     const subName = getPrettySubName(species, { isGmax, region }, data);
-    const betterSlug = getBetterSlug(species, baseSpecies);
+    const slug = getPrettySlug(species, baseSpecies);
 
     let isLegendary = !!data[species.id]?.isLegendary;
     if (!isLegendary && baseSpecies) {
@@ -65,11 +65,9 @@ export async function exportPokemon(
       }
     }
 
-    result.push({
+    const entry = {
       // -- General
-      // TODO completly replace slug with betterSlug
-      slug: species.id,
-      betterSlug: species.id !== betterSlug ? betterSlug : undefined,
+      slug,
       name: prettyName,
       subName,
       gen: species.gen,
@@ -190,7 +188,9 @@ export async function exportPokemon(
       // TODO learnsets
       // name of the exclusive G-Max move
       gmaxMove,
-    });
+    };
+
+    result.push(entry);
 
     // TODO handle cosmeticFormes
 
@@ -206,7 +206,7 @@ export async function exportPokemon(
         };
       }
 
-      ability.pokemon.add(species.id);
+      ability.pokemon.add(entry.slug);
 
       abilityMap.set(abilitySlug, ability);
     }
@@ -224,7 +224,7 @@ export async function exportPokemon(
   }
 }
 
-function getBetterSlug(species: Specie, baseSpecies: Specie | undefined) {
+function getPrettySlug(species: Specie, baseSpecies: Specie | undefined) {
   let result: string;
 
   if (baseSpecies) {

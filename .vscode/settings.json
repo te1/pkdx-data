@@ -4,6 +4,10 @@
     "dist": true
   },
   "search.exclude": {
+    "package.json": true,
+    "package-lock.json": true,
+    ".vscode": true,
+    ".github": true,
     "generated": true
   }
 }

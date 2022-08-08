@@ -30,21 +30,17 @@ export async function exportPokemon(
   let result = [];
 
   for (const species of gen.species) {
-    const baseSpecies =
-      species.baseSpecies !== species.name
-        ? gen.species.get(species.baseSpecies)
-        : undefined;
-
+    const baseSpecies = getBaseSpecies(species, gen);
     const isGmax = species.isNonstandard === 'Gigantamax';
     const region = getRegion(species, data);
-    const prettyName = getPrettyName(
+    const prettyName = getPrettySpeciesName(
       species,
       baseSpecies,
       { isGmax, region },
       data
     );
-    const subName = getPrettySubName(species, { isGmax, region }, data);
-    const slug = getPrettySlug(species, baseSpecies);
+    const subName = getPrettySpeciesSubName(species, { isGmax, region }, data);
+    const slug = getPrettySpeciesSlug(species, baseSpecies);
 
     let isLegendary = !!data[species.id]?.isLegendary;
     if (!isLegendary && baseSpecies) {
@@ -224,24 +220,6 @@ export async function exportPokemon(
   }
 }
 
-function getPrettySlug(species: Specie, baseSpecies: Specie | undefined) {
-  let result: string;
-
-  if (baseSpecies) {
-    result = baseSpecies.name;
-  } else {
-    result = species.name;
-  }
-
-  result = result.replaceAll(/[^a-zA-Z0-9]/g, '');
-
-  if (baseSpecies) {
-    result = result + '-' + species.forme.replaceAll(/[^a-zA-Z0-9-]/g, '');
-  }
-
-  return result.toLowerCase();
-}
-
 function getTypeSlugs(types: [TypeName] | [TypeName, TypeName]) {
   return _.map(types, typeNameToSlug);
 }
@@ -286,11 +264,46 @@ function getItemSlugs(itemNames: ItemName[] | undefined, gen: Generation) {
   return result;
 }
 
+function getBaseSpecies(species: Specie, gen: Generation) {
+  if (species.baseSpecies !== species.name) {
+    return gen.species.get(species.baseSpecies);
+  }
+}
+
+function getPrettySpeciesSlug(
+  species: Specie,
+  baseSpecies: Specie | undefined
+) {
+  let result: string;
+
+  if (baseSpecies) {
+    result = baseSpecies.name;
+  } else {
+    result = species.name;
+  }
+
+  result = result.replaceAll(/[^a-zA-Z0-9]/g, '');
+
+  if (baseSpecies) {
+    result = result + '-' + species.forme.replaceAll(/[^a-zA-Z0-9-]/g, '');
+  }
+
+  return result.toLowerCase();
+}
+
 function getSpeciesSlug(
   speciesName: SpeciesName | '' | undefined,
   gen: Generation
 ) {
-  return gen.species.get(speciesName ?? '')?.id;
+  const species = gen.species.get(speciesName ?? '');
+
+  if (!species) {
+    return;
+  }
+
+  const baseSpecies = getBaseSpecies(species, gen);
+
+  return getPrettySpeciesSlug(species, baseSpecies);
 }
 
 function getSpeciesSlugs(
@@ -308,7 +321,7 @@ function getSpeciesSlugs(
   return result;
 }
 
-function getPrettyName(
+function getPrettySpeciesName(
   species: Specie,
   baseSpecies: Specie | undefined,
   speciesData: { isGmax?: boolean; region?: Region },
@@ -331,7 +344,7 @@ function getPrettyName(
   if (speciesData.region) {
     // use base species name (e.g. "Raichu")
     // add region prefix (e.g. "Alolan Raichu")
-    const prettyRegion = getRegionPrettyName(speciesData.region);
+    const prettyRegion = getPrettyRegionName(speciesData.region);
 
     if (prettyRegion) {
       result = `${prettyRegion} ${result}`;
@@ -356,7 +369,7 @@ function getPrettyName(
   return result;
 }
 
-function getPrettySubName(
+function getPrettySpeciesSubName(
   species: Specie,
   speciesData: { isGmax?: boolean; region?: Region },
   extraData: Record<string, { subName?: string; hideSubName?: boolean }>
@@ -413,7 +426,7 @@ function getRegion(
   return;
 }
 
-function getRegionPrettyName(region: Region) {
+function getPrettyRegionName(region: Region) {
   switch (region) {
     case 'Alola':
       return 'Alolan';

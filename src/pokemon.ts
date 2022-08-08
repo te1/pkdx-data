@@ -31,25 +31,32 @@ export async function exportPokemon(
 
   for (const species of gen.species) {
     const baseSpecies = getBaseSpecies(species, gen);
+    const baseSpeciesSlug = baseSpecies
+      ? getPrettySpeciesSlug(baseSpecies, undefined)
+      : undefined;
+    const slug = getPrettySpeciesSlug(species, baseSpecies);
     const isGmax = species.isNonstandard === 'Gigantamax';
-    const region = getRegion(species, data);
+    const region = getRegion(species, { slug }, data);
     const prettyName = getPrettySpeciesName(
       species,
       baseSpecies,
-      { isGmax, region },
+      { slug, isGmax, region },
       data
     );
-    const subName = getPrettySpeciesSubName(species, { isGmax, region }, data);
-    const slug = getPrettySpeciesSlug(species, baseSpecies);
+    const subName = getPrettySpeciesSubName(
+      species,
+      { slug, isGmax, region },
+      data
+    );
 
-    let isLegendary = !!data[species.id]?.isLegendary;
-    if (!isLegendary && baseSpecies) {
-      isLegendary = !!data[baseSpecies.id]?.isLegendary;
+    let isLegendary = !!data[slug]?.isLegendary;
+    if (!isLegendary && baseSpeciesSlug) {
+      isLegendary = !!data[baseSpeciesSlug]?.isLegendary;
     }
 
-    let isMythical = !!data[species.id]?.isMythical;
-    if (!isMythical && baseSpecies) {
-      isMythical = !!data[baseSpecies.id]?.isMythical;
+    let isMythical = !!data[slug]?.isMythical;
+    if (!isMythical && baseSpeciesSlug) {
+      isMythical = !!data[baseSpeciesSlug]?.isMythical;
     }
 
     let gmaxMove;
@@ -101,7 +108,7 @@ export async function exportPokemon(
 
       // base species for formes that have their own species entry
       // e.g. is "Raichu" for Raichu-Alola
-      baseSpecies: baseSpecies ? baseSpecies.id : undefined,
+      baseSpecies: baseSpeciesSlug,
 
       // name of the base forme
       // will not be set on the base forme (e.g. is null for Aegislash)
@@ -179,7 +186,7 @@ export async function exportPokemon(
       // maxHP: species.maxHP,
 
       // TODO add pokemon flavor text
-      // flavorText: data[species.id]?.flavorText,
+      // flavorText: data[slug]?.flavorText,
 
       // TODO learnsets
       // name of the exclusive G-Max move
@@ -324,11 +331,11 @@ function getSpeciesSlugs(
 function getPrettySpeciesName(
   species: Specie,
   baseSpecies: Specie | undefined,
-  speciesData: { isGmax?: boolean; region?: Region },
+  speciesData: { slug: string; isGmax?: boolean; region?: Region },
   extraData: Record<string, { prettyName?: string }>
 ) {
   // direct override from extraData
-  let result = extraData[species.id]?.prettyName;
+  let result = extraData[speciesData.slug]?.prettyName;
   if (result) {
     return result;
   }
@@ -371,16 +378,16 @@ function getPrettySpeciesName(
 
 function getPrettySpeciesSubName(
   species: Specie,
-  speciesData: { isGmax?: boolean; region?: Region },
+  speciesData: { slug: string; isGmax?: boolean; region?: Region },
   extraData: Record<string, { subName?: string; hideSubName?: boolean }>
 ) {
   // direct override from extraData
-  const result = extraData[species.id]?.subName;
+  const result = extraData[speciesData.slug]?.subName;
   if (result) {
     return result;
   }
 
-  if (extraData[species.id]?.hideSubName) {
+  if (extraData[speciesData.slug]?.hideSubName) {
     return;
   }
 
@@ -405,10 +412,11 @@ const regionFormes: Map<Region, string[]> = new Map([
 
 function getRegion(
   species: Specie,
+  speciesData: { slug: string },
   extraData: Record<string, { region?: Region }>
 ) {
   // direct override from extraData
-  const result = extraData[species.id]?.region;
+  const result = extraData[speciesData.slug]?.region;
   if (result !== undefined) {
     return result;
   }

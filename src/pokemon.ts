@@ -44,9 +44,9 @@ export async function exportPokemon(
 
     // build better slugs, e.g. "aegislash-blade" instead of "aegislashblade"
     const baseSpeciesSlug = baseSpecies
-      ? getPrettySpeciesSlug(baseSpecies, undefined)
+      ? getPrettySpeciesSlug(baseSpecies, undefined, extraData)
       : undefined;
-    const slug = getPrettySpeciesSlug(species, baseSpecies);
+    const slug = getPrettySpeciesSlug(species, baseSpecies, extraData);
 
     const isGmax = hasDynamax ? species.isNonstandard === 'Gigantamax' : false;
     const canGmax = hasDynamax ? !!species.canGigantamax : false;
@@ -64,7 +64,7 @@ export async function exportPokemon(
       extraData
     );
 
-    let formes = getSpeciesSlugs(species.otherFormes, gen);
+    let formes = getSpeciesSlugs(species.otherFormes, gen, extraData);
     if (canGmax && !baseSpecies) {
       // gmax species are not in formes, so add them manually to the end
       formes = [...(formes ?? []), slug + '-gmax'];
@@ -134,8 +134,8 @@ export async function exportPokemon(
       baseStats: species.baseStats,
 
       // -- Evolutions
-      prevo: getSpeciesSlug(species.prevo, gen),
-      evos: getSpeciesSlugs(species.evos, gen),
+      prevo: getSpeciesSlug(species.prevo, gen, extraData),
+      evos: getSpeciesSlugs(species.evos, gen, extraData),
       evoType: species.evoType,
       evoCondition: species.evoCondition,
       evoLevel: species.evoLevel,
@@ -174,7 +174,7 @@ export async function exportPokemon(
       // only included if different from `baseSpecies`
       baseForm:
         !baseSpecies || baseSpecies.name !== species.changesFrom
-          ? getSpeciesSlug(species.changesFrom, gen)
+          ? getSpeciesSlug(species.changesFrom, gen, extraData)
           : undefined,
 
       // name of the base forme if this forme is battly only
@@ -213,7 +213,7 @@ export async function exportPokemon(
       // list of all cosmetic formes that _don't_ have a species entry
       // the base forme is not included in the list
       // cosmetic formes don't have their own species entry (e.g. there is no Gastrodon-East species)
-      cosmeticFormes: getSpeciesSlugs(species.cosmeticFormes, gen),
+      cosmeticFormes: getSpeciesSlugs(species.cosmeticFormes, gen, extraData),
 
       // can't use this directly because it breaks for gmax
       // formeNum: species.formeNum || undefined,
@@ -345,9 +345,14 @@ function getBaseSpecies(species: Specie, gen: Generation) {
 
 function getPrettySpeciesSlug(
   species: Specie,
-  baseSpecies: Specie | undefined
+  baseSpecies: Specie | undefined,
+  extraData: Record<string, { slug?: string }>
 ) {
-  let result: string;
+  // direct override from extraData
+  let result = extraData[species.id]?.slug;
+  if (result) {
+    return result;
+  }
 
   if (baseSpecies) {
     result = baseSpecies.name;
@@ -366,7 +371,8 @@ function getPrettySpeciesSlug(
 
 function getSpeciesSlug(
   speciesName: SpeciesName | '' | undefined,
-  gen: Generation
+  gen: Generation,
+  extraData: Record<string, { slug?: string }>
 ) {
   const species = gen.species.get(speciesName ?? '');
 
@@ -376,15 +382,16 @@ function getSpeciesSlug(
 
   const baseSpecies = getBaseSpecies(species, gen);
 
-  return getPrettySpeciesSlug(species, baseSpecies);
+  return getPrettySpeciesSlug(species, baseSpecies, extraData);
 }
 
 function getSpeciesSlugs(
   speciesNames: SpeciesName[] | undefined,
-  gen: Generation
+  gen: Generation,
+  extraData: Record<string, { slug?: string }>
 ) {
   const result = _.map(speciesNames, (speciesName) =>
-    getSpeciesSlug(speciesName, gen)
+    getSpeciesSlug(speciesName, gen, extraData)
   );
 
   if (_.isEmpty(result)) {

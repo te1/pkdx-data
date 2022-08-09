@@ -37,6 +37,75 @@ const existsFn = (d: Data, g: GenerationNum) => {
     'pokestarwhitedoor',
   ];
 
+  const includeSpeciesId = [
+    'cyndaquil',
+    'oshawott',
+    'dewott',
+    'bidoof',
+    'bibarel',
+    'starly',
+    'staravia',
+    'staraptor',
+    'wurmple',
+    'silcoon',
+    'beautifly',
+    'cascoon',
+    'dustox',
+    'kricketot',
+    'kricketune',
+    'buizel',
+    'floatzel',
+    'burmy',
+    'wormadam',
+    'mothim',
+    'geodude',
+    'graveler',
+    'golem',
+    'stantler',
+    'paras',
+    'parasect',
+    'aipom',
+    'ambipom',
+    'carnivine',
+    'yanma',
+    'yanmega',
+    'pachirisu',
+    'teddiursa',
+    'ursaring',
+    'turtwig',
+    'grotle',
+    'torterra',
+    'murkrow',
+    'honchkrow',
+    'unown',
+    'glameow',
+    'purugly',
+    'chatot',
+    'piplup',
+    'prinplup',
+    'empoleon',
+    'finneon',
+    'lumineon',
+    'gligar',
+    'gliscor',
+    'nosepass',
+    'probopass',
+    'chingling',
+    'chimecho',
+    'misdreavus',
+    'mismagius',
+    'cranidos',
+    'rampardos',
+    'shieldon',
+    'bastiodon',
+    'arceus',
+    'phione',
+    'manaphy',
+    'shaymin',
+    'darkrai',
+    'girafarig',
+  ];
+
   if (!d.exists) {
     return false;
   }
@@ -50,19 +119,30 @@ const existsFn = (d: Data, g: GenerationNum) => {
     _.includes(['Gigantamax', 'Unobtainable'], d.isNonstandard) &&
     !_.includes(excludeSpeciesId, d.id);
 
-  // include Legends Arceus species
+  // include new Legends Arceus species
   const allowFutureSpecies =
     g === 8 &&
     d.kind === 'Species' &&
     d.isNonstandard &&
     'Future' === d.isNonstandard;
 
+  // include returning Legends Arceus / BDSP species
+  const allowPastSpecies =
+    g === 8 &&
+    d.kind === 'Species' &&
+    d.isNonstandard &&
+    'Past' === d.isNonstandard &&
+    _.includes(includeSpeciesId, d.id);
+
   // include G-Max moves
   const allowNonstandardMove =
     d.kind === 'Move' && d.isNonstandard && 'Gigantamax' === d.isNonstandard;
 
   const allowNonstandard =
-    allowNonstandardSpecies || allowFutureSpecies || allowNonstandardMove;
+    allowNonstandardSpecies ||
+    allowFutureSpecies ||
+    allowPastSpecies ||
+    allowNonstandardMove;
 
   if ('isNonstandard' in d && d.isNonstandard && !allowNonstandard) {
     return false;

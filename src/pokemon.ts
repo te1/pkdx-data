@@ -65,12 +65,27 @@ export async function exportPokemon(
 
     let formes = getSpeciesSlugs(species.otherFormes, gen);
     if (canGmax && !baseSpecies) {
-      // gmax species are not in formes, so add them manually
+      // gmax species are not in formes, so add them manually to the end
       formes = [...(formes ?? []), slug + '-gmax'];
     }
     if (extraData[slug]?.formes?.length) {
       // direct override from extraData (to handle toxtricity and urshifu with 2 gmax formes)
       formes = extraData[slug]?.formes;
+    }
+
+    let formeIndex = 0; // put baseSpecies first when sorting
+    if (baseSpecies && baseSpecies.formeOrder?.length) {
+      // there is a baseSpecies for the current species so we need to get the number
+
+      if (isGmax) {
+        // gmax formes are not in `formeOrder` so manually put it last
+        formeIndex = 1000; // hopefully nothing has 1000 formes...
+      } else {
+        formeIndex = _.findIndex(
+          baseSpecies.formeOrder,
+          (name) => name === species.name
+        );
+      }
     }
 
     // legendary from extraData
@@ -186,7 +201,11 @@ export async function exportPokemon(
       // cosmetic formes don't have their own species entry (e.g. there is no Gastrodon-East species)
       cosmeticFormes: getSpeciesSlugs(species.cosmeticFormes, gen),
 
+      // can't use this directly because it breaks for gmax
       // formeNum: species.formeNum || undefined,
+      formeIndex,
+
+      // we don't need the whole list, we already have the formeNum to allow sorting
       // formeOrder: (species.formeOrder?.length ?? 0) > 1 ? species.formeOrder : undefined,
 
       // -- Misc data and breeding
@@ -247,8 +266,9 @@ export async function exportPokemon(
     }
   }
 
-  // TODO sort by formeOrder
-  result = _.orderBy(result, ['num', 'slug']);
+  result = _.orderBy(result, ['num', 'formeIndex', 'slug']);
+  // drop `formeIndex` after we are done sorting
+  result = _.map(result, (entry) => _.omit(entry, 'formeIndex'));
 
   if (result.length) {
     console.log('\t' + `writing ${result.length} pokemon...`);

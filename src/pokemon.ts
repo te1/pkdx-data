@@ -27,6 +27,7 @@ export async function exportPokemon(
   const extraData = await fs.readJson(`./data/pokemon.json`);
 
   const hasEggs = gen.num >= 2;
+  const hasAbilities = gen.num >= 3;
   const hasDynamax = gen.num === 8;
 
   let result = [];
@@ -120,12 +121,17 @@ export async function exportPokemon(
       num: species.num,
       types: getTypeSlugs(species.types),
       gen: species.gen,
-      baseStats: species.baseStats, // TODO move down before evos
-      abilities: getAbilitySlugs(species.abilities, gen),
-      hiddenAbilityUnreleased: species.unreleasedHidden || undefined,
+      abilities: hasAbilities
+        ? getAbilitySlugs(species.abilities, gen)
+        : undefined,
+      hiddenAbilityUnreleased: hasAbilities
+        ? species.unreleasedHidden || undefined
+        : undefined,
 
       // something weird about hidden abilities in gen 5
       // maleOnlyHidden: species.maleOnlyHidden || undefined,
+
+      baseStats: species.baseStats,
 
       // -- Evolutions
       prevo: getSpeciesSlug(species.prevo, gen),

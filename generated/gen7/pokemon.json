@@ -1232,90 +1232,6 @@
     ]
   },
   {
-    "slug": "pikachu-alola",
-    "name": "Alola Cap Pikachu",
-    "gen": 7,
-    "types": [
-      "electric"
-    ],
-    "num": 25,
-    "baseStats": {
-      "hp": 35,
-      "atk": 55,
-      "def": 40,
-      "spa": 50,
-      "spd": 50,
-      "spe": 90
-    },
-    "abilities": {
-      "0": "static"
-    },
-    "formeName": "Alola",
-    "baseSpecies": "pikachu",
-    "weight": 6,
-    "height": 0.4,
-    "gender": "M",
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  {
-    "slug": "pikachu-hoenn",
-    "name": "Hoenn Cap Pikachu",
-    "gen": 7,
-    "types": [
-      "electric"
-    ],
-    "num": 25,
-    "baseStats": {
-      "hp": 35,
-      "atk": 55,
-      "def": 40,
-      "spa": 50,
-      "spd": 50,
-      "spe": 90
-    },
-    "abilities": {
-      "0": "static"
-    },
-    "formeName": "Hoenn",
-    "baseSpecies": "pikachu",
-    "weight": 6,
-    "height": 0.4,
-    "gender": "M",
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  {
-    "slug": "pikachu-kalos",
-    "name": "Kalos Cap Pikachu",
-    "gen": 7,
-    "types": [
-      "electric"
-    ],
-    "num": 25,
-    "baseStats": {
-      "hp": 35,
-      "atk": 55,
-      "def": 40,
-      "spa": 50,
-      "spd": 50,
-      "spe": 90
-    },
-    "abilities": {
-      "0": "static"
-    },
-    "formeName": "Kalos",
-    "baseSpecies": "pikachu",
-    "weight": 6,
-    "height": 0.4,
-    "gender": "M",
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  {
     "slug": "pikachu-original",
     "name": "Original Cap Pikachu",
     "gen": 7,
@@ -1344,8 +1260,8 @@
     ]
   },
   {
-    "slug": "pikachu-partner",
-    "name": "Partner Cap Pikachu",
+    "slug": "pikachu-hoenn",
+    "name": "Hoenn Cap Pikachu",
     "gen": 7,
     "types": [
       "electric"
@@ -1362,7 +1278,7 @@
     "abilities": {
       "0": "static"
     },
-    "formeName": "Partner",
+    "formeName": "Hoenn",
     "baseSpecies": "pikachu",
     "weight": 6,
     "height": 0.4,
@@ -1419,6 +1335,90 @@
       "0": "static"
     },
     "formeName": "Unova",
+    "baseSpecies": "pikachu",
+    "weight": 6,
+    "height": 0.4,
+    "gender": "M",
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  {
+    "slug": "pikachu-kalos",
+    "name": "Kalos Cap Pikachu",
+    "gen": 7,
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "static"
+    },
+    "formeName": "Kalos",
+    "baseSpecies": "pikachu",
+    "weight": 6,
+    "height": 0.4,
+    "gender": "M",
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  {
+    "slug": "pikachu-alola",
+    "name": "Alola Cap Pikachu",
+    "gen": 7,
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "static"
+    },
+    "formeName": "Alola",
+    "baseSpecies": "pikachu",
+    "weight": 6,
+    "height": 0.4,
+    "gender": "M",
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  {
+    "slug": "pikachu-partner",
+    "name": "Partner Cap Pikachu",
+    "gen": 7,
+    "types": [
+      "electric"
+    ],
+    "num": 25,
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": {
+      "0": "static"
+    },
+    "formeName": "Partner",
     "baseSpecies": "pikachu",
     "weight": 6,
     "height": 0.4,
@@ -14306,6 +14306,42 @@
     "canHatch": true
   },
   {
+    "slug": "castform-sunny",
+    "name": "Castform",
+    "subName": "Sunny Form",
+    "gen": 3,
+    "types": [
+      "fire"
+    ],
+    "num": 351,
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": {
+      "0": "forecast"
+    },
+    "formeName": "Sunny",
+    "baseSpecies": "castform",
+    "formTriggerAbility": "forecast",
+    "isBattleOnly": true,
+    "weight": 0.8,
+    "height": 0.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Fairy",
+      "Amorphous"
+    ],
+    "canHatch": true
+  },
+  {
     "slug": "castform-rainy",
     "name": "Castform",
     "subName": "Rainy Form",
@@ -14362,42 +14398,6 @@
       "0": "forecast"
     },
     "formeName": "Snowy",
-    "baseSpecies": "castform",
-    "formTriggerAbility": "forecast",
-    "isBattleOnly": true,
-    "weight": 0.8,
-    "height": 0.3,
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "eggGroups": [
-      "Fairy",
-      "Amorphous"
-    ],
-    "canHatch": true
-  },
-  {
-    "slug": "castform-sunny",
-    "name": "Castform",
-    "subName": "Sunny Form",
-    "gen": 3,
-    "types": [
-      "fire"
-    ],
-    "num": 351,
-    "baseStats": {
-      "hp": 70,
-      "atk": 70,
-      "def": 70,
-      "spa": 70,
-      "spd": 70,
-      "spe": 70
-    },
-    "abilities": {
-      "0": "forecast"
-    },
-    "formeName": "Sunny",
     "baseSpecies": "castform",
     "formTriggerAbility": "forecast",
     "isBattleOnly": true,
@@ -19505,13 +19505,13 @@
     "canHatch": true
   },
   {
-    "slug": "rotom-fan",
+    "slug": "rotom-heat",
     "name": "Rotom",
-    "subName": "Rotom Fan",
+    "subName": "Rotom Heat",
     "gen": 4,
     "types": [
       "electric",
-      "flying"
+      "fire"
     ],
     "num": 479,
     "baseStats": {
@@ -19525,7 +19525,38 @@
     "abilities": {
       "0": "levitate"
     },
-    "formeName": "Fan",
+    "formeName": "Heat",
+    "baseSpecies": "rotom",
+    "weight": 0.3,
+    "height": 0.3,
+    "gender": "N",
+    "eggGroups": [
+      "Amorphous"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "rotom-wash",
+    "name": "Rotom",
+    "subName": "Rotom Wash",
+    "gen": 4,
+    "types": [
+      "electric",
+      "water"
+    ],
+    "num": 479,
+    "baseStats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 107,
+      "spa": 105,
+      "spd": 107,
+      "spe": 86
+    },
+    "abilities": {
+      "0": "levitate"
+    },
+    "formeName": "Wash",
     "baseSpecies": "rotom",
     "weight": 0.3,
     "height": 0.3,
@@ -19567,13 +19598,13 @@
     "canHatch": true
   },
   {
-    "slug": "rotom-heat",
+    "slug": "rotom-fan",
     "name": "Rotom",
-    "subName": "Rotom Heat",
+    "subName": "Rotom Fan",
     "gen": 4,
     "types": [
       "electric",
-      "fire"
+      "flying"
     ],
     "num": 479,
     "baseStats": {
@@ -19587,7 +19618,7 @@
     "abilities": {
       "0": "levitate"
     },
-    "formeName": "Heat",
+    "formeName": "Fan",
     "baseSpecies": "rotom",
     "weight": 0.3,
     "height": 0.3,
@@ -19619,37 +19650,6 @@
       "0": "levitate"
     },
     "formeName": "Mow",
-    "baseSpecies": "rotom",
-    "weight": 0.3,
-    "height": 0.3,
-    "gender": "N",
-    "eggGroups": [
-      "Amorphous"
-    ],
-    "canHatch": true
-  },
-  {
-    "slug": "rotom-wash",
-    "name": "Rotom",
-    "subName": "Rotom Wash",
-    "gen": 4,
-    "types": [
-      "electric",
-      "water"
-    ],
-    "num": 479,
-    "baseStats": {
-      "hp": 50,
-      "atk": 65,
-      "def": 107,
-      "spa": 105,
-      "spd": 107,
-      "spe": 86
-    },
-    "abilities": {
-      "0": "levitate"
-    },
-    "formeName": "Wash",
     "baseSpecies": "rotom",
     "weight": 0.3,
     "height": 0.3,
@@ -20146,176 +20146,6 @@
     "isMythical": true
   },
   {
-    "slug": "arceus-bug",
-    "name": "Arceus",
-    "subName": "Bug",
-    "gen": 4,
-    "types": [
-      "bug"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Bug",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "insectplate",
-      "buginiumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-dark",
-    "name": "Arceus",
-    "subName": "Dark",
-    "gen": 4,
-    "types": [
-      "dark"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Dark",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "dreadplate",
-      "darkiniumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-dragon",
-    "name": "Arceus",
-    "subName": "Dragon",
-    "gen": 4,
-    "types": [
-      "dragon"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Dragon",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "dracoplate",
-      "dragoniumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-electric",
-    "name": "Arceus",
-    "subName": "Electric",
-    "gen": 4,
-    "types": [
-      "electric"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Electric",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "zapplate",
-      "electriumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-fairy",
-    "name": "Arceus",
-    "subName": "Fairy",
-    "gen": 6,
-    "types": [
-      "fairy"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Fairy",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "pixieplate",
-      "fairiumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
     "slug": "arceus-fighting",
     "name": "Arceus",
     "subName": "Fighting",
@@ -20340,40 +20170,6 @@
     "formTriggerItems": [
       "fistplate",
       "fightiniumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-fire",
-    "name": "Arceus",
-    "subName": "Fire",
-    "gen": 4,
-    "types": [
-      "fire"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Fire",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "flameplate",
-      "firiumz"
     ],
     "weight": 320,
     "height": 3.2,
@@ -20418,12 +20214,12 @@
     "isMythical": true
   },
   {
-    "slug": "arceus-ghost",
+    "slug": "arceus-poison",
     "name": "Arceus",
-    "subName": "Ghost",
+    "subName": "Poison",
     "gen": 4,
     "types": [
-      "ghost"
+      "poison"
     ],
     "num": 493,
     "baseStats": {
@@ -20437,45 +20233,11 @@
     "abilities": {
       "0": "multitype"
     },
-    "formeName": "Ghost",
+    "formeName": "Poison",
     "baseSpecies": "arceus",
     "formTriggerItems": [
-      "spookyplate",
-      "ghostiumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-grass",
-    "name": "Arceus",
-    "subName": "Grass",
-    "gen": 4,
-    "types": [
-      "grass"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Grass",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "meadowplate",
-      "grassiumz"
+      "toxicplate",
+      "poisoniumz"
     ],
     "weight": 320,
     "height": 3.2,
@@ -20520,108 +20282,6 @@
     "isMythical": true
   },
   {
-    "slug": "arceus-ice",
-    "name": "Arceus",
-    "subName": "Ice",
-    "gen": 4,
-    "types": [
-      "ice"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Ice",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "icicleplate",
-      "iciumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-poison",
-    "name": "Arceus",
-    "subName": "Poison",
-    "gen": 4,
-    "types": [
-      "poison"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Poison",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "toxicplate",
-      "poisoniumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "arceus-psychic",
-    "name": "Arceus",
-    "subName": "Psychic",
-    "gen": 4,
-    "types": [
-      "psychic"
-    ],
-    "num": 493,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "multitype"
-    },
-    "formeName": "Psychic",
-    "baseSpecies": "arceus",
-    "formTriggerItems": [
-      "mindplate",
-      "psychiumz"
-    ],
-    "weight": 320,
-    "height": 3.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
     "slug": "arceus-rock",
     "name": "Arceus",
     "subName": "Rock",
@@ -20646,6 +20306,74 @@
     "formTriggerItems": [
       "stoneplate",
       "rockiumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-bug",
+    "name": "Arceus",
+    "subName": "Bug",
+    "gen": 4,
+    "types": [
+      "bug"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Bug",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "insectplate",
+      "buginiumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-ghost",
+    "name": "Arceus",
+    "subName": "Ghost",
+    "gen": 4,
+    "types": [
+      "ghost"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Ghost",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "spookyplate",
+      "ghostiumz"
     ],
     "weight": 320,
     "height": 3.2,
@@ -20690,6 +20418,40 @@
     "isMythical": true
   },
   {
+    "slug": "arceus-fire",
+    "name": "Arceus",
+    "subName": "Fire",
+    "gen": 4,
+    "types": [
+      "fire"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Fire",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "flameplate",
+      "firiumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
     "slug": "arceus-water",
     "name": "Arceus",
     "subName": "Water",
@@ -20714,6 +20476,244 @@
     "formTriggerItems": [
       "splashplate",
       "wateriumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-grass",
+    "name": "Arceus",
+    "subName": "Grass",
+    "gen": 4,
+    "types": [
+      "grass"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Grass",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "meadowplate",
+      "grassiumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-electric",
+    "name": "Arceus",
+    "subName": "Electric",
+    "gen": 4,
+    "types": [
+      "electric"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Electric",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "zapplate",
+      "electriumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-psychic",
+    "name": "Arceus",
+    "subName": "Psychic",
+    "gen": 4,
+    "types": [
+      "psychic"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Psychic",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "mindplate",
+      "psychiumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-ice",
+    "name": "Arceus",
+    "subName": "Ice",
+    "gen": 4,
+    "types": [
+      "ice"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Ice",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "icicleplate",
+      "iciumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-dragon",
+    "name": "Arceus",
+    "subName": "Dragon",
+    "gen": 4,
+    "types": [
+      "dragon"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Dragon",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "dracoplate",
+      "dragoniumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-dark",
+    "name": "Arceus",
+    "subName": "Dark",
+    "gen": 4,
+    "types": [
+      "dark"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Dark",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "dreadplate",
+      "darkiniumz"
+    ],
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus-fairy",
+    "name": "Arceus",
+    "subName": "Fairy",
+    "gen": 6,
+    "types": [
+      "fairy"
+    ],
+    "num": 493,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "multitype"
+    },
+    "formeName": "Fairy",
+    "baseSpecies": "arceus",
+    "formTriggerItems": [
+      "pixieplate",
+      "fairiumz"
     ],
     "weight": 320,
     "height": 3.2,
@@ -26130,36 +26130,6 @@
     "isLegendary": true
   },
   {
-    "slug": "kyurem-black",
-    "name": "Black Kyurem",
-    "gen": 5,
-    "types": [
-      "dragon",
-      "ice"
-    ],
-    "num": 646,
-    "baseStats": {
-      "hp": 125,
-      "atk": 170,
-      "def": 100,
-      "spa": 120,
-      "spd": 90,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "teravolt"
-    },
-    "formeName": "Black",
-    "baseSpecies": "kyurem",
-    "weight": 325,
-    "height": 3.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
     "slug": "kyurem-white",
     "name": "White Kyurem",
     "gen": 5,
@@ -26183,6 +26153,36 @@
     "baseSpecies": "kyurem",
     "weight": 325,
     "height": 3.6,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "kyurem-black",
+    "name": "Black Kyurem",
+    "gen": 5,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "num": 646,
+    "baseStats": {
+      "hp": 125,
+      "atk": 170,
+      "def": 100,
+      "spa": 120,
+      "spd": 90,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "teravolt"
+    },
+    "formeName": "Black",
+    "baseSpecies": "kyurem",
+    "weight": 325,
+    "height": 3.3,
     "gender": "N",
     "eggGroups": [
       "Undiscovered"
@@ -26355,68 +26355,6 @@
     "isMythical": true
   },
   {
-    "slug": "genesect-burn",
-    "name": "Burn Drive Genesect",
-    "gen": 5,
-    "types": [
-      "bug",
-      "steel"
-    ],
-    "num": 649,
-    "baseStats": {
-      "hp": 71,
-      "atk": 120,
-      "def": 95,
-      "spa": 120,
-      "spd": 95,
-      "spe": 99
-    },
-    "abilities": {
-      "0": "download"
-    },
-    "formeName": "Burn",
-    "baseSpecies": "genesect",
-    "formTriggerItem": "burndrive",
-    "weight": 82.5,
-    "height": 1.5,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
-    "slug": "genesect-chill",
-    "name": "Chill Drive Genesect",
-    "gen": 5,
-    "types": [
-      "bug",
-      "steel"
-    ],
-    "num": 649,
-    "baseStats": {
-      "hp": 71,
-      "atk": 120,
-      "def": 95,
-      "spa": 120,
-      "spd": 95,
-      "spe": 99
-    },
-    "abilities": {
-      "0": "download"
-    },
-    "formeName": "Chill",
-    "baseSpecies": "genesect",
-    "formTriggerItem": "chilldrive",
-    "weight": 82.5,
-    "height": 1.5,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isMythical": true
-  },
-  {
     "slug": "genesect-douse",
     "name": "Douse Drive Genesect",
     "gen": 5,
@@ -26470,6 +26408,68 @@
     "formeName": "Shock",
     "baseSpecies": "genesect",
     "formTriggerItem": "shockdrive",
+    "weight": 82.5,
+    "height": 1.5,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "genesect-burn",
+    "name": "Burn Drive Genesect",
+    "gen": 5,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "num": 649,
+    "baseStats": {
+      "hp": 71,
+      "atk": 120,
+      "def": 95,
+      "spa": 120,
+      "spd": 95,
+      "spe": 99
+    },
+    "abilities": {
+      "0": "download"
+    },
+    "formeName": "Burn",
+    "baseSpecies": "genesect",
+    "formTriggerItem": "burndrive",
+    "weight": 82.5,
+    "height": 1.5,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "genesect-chill",
+    "name": "Chill Drive Genesect",
+    "gen": 5,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "num": 649,
+    "baseStats": {
+      "hp": 71,
+      "atk": 120,
+      "def": 95,
+      "spa": 120,
+      "spd": 95,
+      "spe": 99
+    },
+    "abilities": {
+      "0": "download"
+    },
+    "formeName": "Chill",
+    "baseSpecies": "genesect",
+    "formTriggerItem": "chilldrive",
     "weight": 82.5,
     "height": 1.5,
     "gender": "N",
@@ -28843,44 +28843,6 @@
     "canHatch": true
   },
   {
-    "slug": "pumpkaboo-large",
-    "name": "Pumpkaboo",
-    "subName": "Large Size",
-    "gen": 6,
-    "types": [
-      "ghost",
-      "grass"
-    ],
-    "num": 710,
-    "baseStats": {
-      "hp": 54,
-      "atk": 66,
-      "def": 70,
-      "spa": 44,
-      "spd": 55,
-      "spe": 46
-    },
-    "abilities": {
-      "0": "pickup",
-      "1": "frisk"
-    },
-    "evos": [
-      "gourgeist-large"
-    ],
-    "formeName": "Large",
-    "baseSpecies": "pumpkaboo",
-    "weight": 7.5,
-    "height": 0.5,
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "eggGroups": [
-      "Amorphous"
-    ],
-    "canHatch": true
-  },
-  {
     "slug": "pumpkaboo-small",
     "name": "Pumpkaboo",
     "subName": "Small Size",
@@ -28909,6 +28871,44 @@
     "baseSpecies": "pumpkaboo",
     "weight": 3.5,
     "height": 0.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Amorphous"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "pumpkaboo-large",
+    "name": "Pumpkaboo",
+    "subName": "Large Size",
+    "gen": 6,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "num": 710,
+    "baseStats": {
+      "hp": 54,
+      "atk": 66,
+      "def": 70,
+      "spa": 44,
+      "spd": 55,
+      "spe": 46
+    },
+    "abilities": {
+      "0": "pickup",
+      "1": "frisk"
+    },
+    "evos": [
+      "gourgeist-large"
+    ],
+    "formeName": "Large",
+    "baseSpecies": "pumpkaboo",
+    "weight": 7.5,
+    "height": 0.5,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28999,42 +28999,6 @@
     ]
   },
   {
-    "slug": "gourgeist-large",
-    "name": "Gourgeist",
-    "subName": "Large Size",
-    "gen": 6,
-    "types": [
-      "ghost",
-      "grass"
-    ],
-    "num": 711,
-    "baseStats": {
-      "hp": 75,
-      "atk": 95,
-      "def": 122,
-      "spa": 58,
-      "spd": 75,
-      "spe": 69
-    },
-    "abilities": {
-      "0": "pickup",
-      "1": "frisk"
-    },
-    "prevo": "pumpkaboo-large",
-    "evoType": "trade",
-    "formeName": "Large",
-    "baseSpecies": "gourgeist",
-    "weight": 14,
-    "height": 1.1,
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "eggGroups": [
-      "Amorphous"
-    ]
-  },
-  {
     "slug": "gourgeist-small",
     "name": "Gourgeist",
     "subName": "Small Size",
@@ -29062,6 +29026,42 @@
     "baseSpecies": "gourgeist",
     "weight": 9.5,
     "height": 0.7,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Amorphous"
+    ]
+  },
+  {
+    "slug": "gourgeist-large",
+    "name": "Gourgeist",
+    "subName": "Large Size",
+    "gen": 6,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "num": 711,
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 122,
+      "spa": 58,
+      "spd": 75,
+      "spe": 69
+    },
+    "abilities": {
+      "0": "pickup",
+      "1": "frisk"
+    },
+    "prevo": "pumpkaboo-large",
+    "evoType": "trade",
+    "formeName": "Large",
+    "baseSpecies": "gourgeist",
+    "weight": 14,
+    "height": 1.1,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -30328,40 +30328,6 @@
     "canHatch": true
   },
   {
-    "slug": "oricorio-pau",
-    "name": "Oricorio",
-    "subName": "Pa'u Style",
-    "gen": 7,
-    "types": [
-      "psychic",
-      "flying"
-    ],
-    "num": 741,
-    "baseStats": {
-      "hp": 75,
-      "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
-    },
-    "abilities": {
-      "0": "dancer"
-    },
-    "formeName": "Pa'u",
-    "baseSpecies": "oricorio",
-    "weight": 3.4,
-    "height": 0.6,
-    "genderRatio": {
-      "M": 0.25,
-      "F": 0.75
-    },
-    "eggGroups": [
-      "Flying"
-    ],
-    "canHatch": true
-  },
-  {
     "slug": "oricorio-pom-pom",
     "name": "Oricorio",
     "subName": "Pom-Pom Style",
@@ -30383,6 +30349,40 @@
       "0": "dancer"
     },
     "formeName": "Pom-Pom",
+    "baseSpecies": "oricorio",
+    "weight": 3.4,
+    "height": 0.6,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
+    "eggGroups": [
+      "Flying"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "oricorio-pau",
+    "name": "Oricorio",
+    "subName": "Pa'u Style",
+    "gen": 7,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "num": 741,
+    "baseStats": {
+      "hp": 75,
+      "atk": 70,
+      "def": 70,
+      "spa": 98,
+      "spd": 70,
+      "spe": 93
+    },
+    "abilities": {
+      "0": "dancer"
+    },
+    "formeName": "Pa'u",
     "baseSpecies": "oricorio",
     "weight": 3.4,
     "height": 0.6,
@@ -30620,41 +30620,6 @@
     ]
   },
   {
-    "slug": "lycanroc-dusk",
-    "name": "Lycanroc",
-    "subName": "Dusk Form",
-    "gen": 7,
-    "types": [
-      "rock"
-    ],
-    "num": 745,
-    "baseStats": {
-      "hp": 75,
-      "atk": 117,
-      "def": 65,
-      "spa": 55,
-      "spd": 65,
-      "spe": 110
-    },
-    "abilities": {
-      "0": "toughclaws"
-    },
-    "prevo": "rockruff",
-    "evoCondition": "from a special Rockruff",
-    "evoLevel": 25,
-    "formeName": "Dusk",
-    "baseSpecies": "lycanroc",
-    "weight": 25,
-    "height": 0.8,
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "eggGroups": [
-      "Field"
-    ]
-  },
-  {
     "slug": "lycanroc-midnight",
     "name": "Lycanroc",
     "subName": "Midnight Form",
@@ -30683,6 +30648,41 @@
     "baseSpecies": "lycanroc",
     "weight": 25,
     "height": 1.1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
+    "slug": "lycanroc-dusk",
+    "name": "Lycanroc",
+    "subName": "Dusk Form",
+    "gen": 7,
+    "types": [
+      "rock"
+    ],
+    "num": 745,
+    "baseStats": {
+      "hp": 75,
+      "atk": 117,
+      "def": 65,
+      "spa": 55,
+      "spd": 65,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "toughclaws"
+    },
+    "prevo": "rockruff",
+    "evoCondition": "from a special Rockruff",
+    "evoLevel": 25,
+    "formeName": "Dusk",
+    "baseSpecies": "lycanroc",
+    "weight": 25,
+    "height": 0.8,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -31794,161 +31794,6 @@
     "isLegendary": true
   },
   {
-    "slug": "silvally-bug",
-    "name": "Silvally",
-    "subName": "Type: Bug",
-    "gen": 7,
-    "types": [
-      "bug"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Bug",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "bugmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-dark",
-    "name": "Silvally",
-    "subName": "Type: Dark",
-    "gen": 7,
-    "types": [
-      "dark"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Dark",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "darkmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-dragon",
-    "name": "Silvally",
-    "subName": "Type: Dragon",
-    "gen": 7,
-    "types": [
-      "dragon"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Dragon",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "dragonmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-electric",
-    "name": "Silvally",
-    "subName": "Type: Electric",
-    "gen": 7,
-    "types": [
-      "electric"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Electric",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "electricmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-fairy",
-    "name": "Silvally",
-    "subName": "Type: Fairy",
-    "gen": 7,
-    "types": [
-      "fairy"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Fairy",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "fairymemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
     "slug": "silvally-fighting",
     "name": "Silvally",
     "subName": "Type: Fighting",
@@ -31971,37 +31816,6 @@
     "formeName": "Fighting",
     "baseSpecies": "silvally",
     "formTriggerItem": "fightingmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-fire",
-    "name": "Silvally",
-    "subName": "Type: Fire",
-    "gen": 7,
-    "types": [
-      "fire"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Fire",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "firememory",
     "weight": 100.5,
     "height": 2.3,
     "gender": "N",
@@ -32042,12 +31856,12 @@
     "isLegendary": true
   },
   {
-    "slug": "silvally-ghost",
+    "slug": "silvally-poison",
     "name": "Silvally",
-    "subName": "Type: Ghost",
+    "subName": "Type: Poison",
     "gen": 7,
     "types": [
-      "ghost"
+      "poison"
     ],
     "num": 773,
     "baseStats": {
@@ -32061,40 +31875,9 @@
     "abilities": {
       "0": "rkssystem"
     },
-    "formeName": "Ghost",
+    "formeName": "Poison",
     "baseSpecies": "silvally",
-    "formTriggerItem": "ghostmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-grass",
-    "name": "Silvally",
-    "subName": "Type: Grass",
-    "gen": 7,
-    "types": [
-      "grass"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Grass",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "grassmemory",
+    "formTriggerItem": "poisonmemory",
     "weight": 100.5,
     "height": 2.3,
     "gender": "N",
@@ -32135,99 +31918,6 @@
     "isLegendary": true
   },
   {
-    "slug": "silvally-ice",
-    "name": "Silvally",
-    "subName": "Type: Ice",
-    "gen": 7,
-    "types": [
-      "ice"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Ice",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "icememory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-poison",
-    "name": "Silvally",
-    "subName": "Type: Poison",
-    "gen": 7,
-    "types": [
-      "poison"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Poison",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "poisonmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
-    "slug": "silvally-psychic",
-    "name": "Silvally",
-    "subName": "Type: Psychic",
-    "gen": 7,
-    "types": [
-      "psychic"
-    ],
-    "num": 773,
-    "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
-    },
-    "abilities": {
-      "0": "rkssystem"
-    },
-    "formeName": "Psychic",
-    "baseSpecies": "silvally",
-    "formTriggerItem": "psychicmemory",
-    "weight": 100.5,
-    "height": 2.3,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
     "slug": "silvally-rock",
     "name": "Silvally",
     "subName": "Type: Rock",
@@ -32250,6 +31940,68 @@
     "formeName": "Rock",
     "baseSpecies": "silvally",
     "formTriggerItem": "rockmemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-bug",
+    "name": "Silvally",
+    "subName": "Type: Bug",
+    "gen": 7,
+    "types": [
+      "bug"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Bug",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "bugmemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-ghost",
+    "name": "Silvally",
+    "subName": "Type: Ghost",
+    "gen": 7,
+    "types": [
+      "ghost"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Ghost",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "ghostmemory",
     "weight": 100.5,
     "height": 2.3,
     "gender": "N",
@@ -32290,6 +32042,37 @@
     "isLegendary": true
   },
   {
+    "slug": "silvally-fire",
+    "name": "Silvally",
+    "subName": "Type: Fire",
+    "gen": 7,
+    "types": [
+      "fire"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Fire",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "firememory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
     "slug": "silvally-water",
     "name": "Silvally",
     "subName": "Type: Water",
@@ -32312,6 +32095,223 @@
     "formeName": "Water",
     "baseSpecies": "silvally",
     "formTriggerItem": "watermemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-grass",
+    "name": "Silvally",
+    "subName": "Type: Grass",
+    "gen": 7,
+    "types": [
+      "grass"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Grass",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "grassmemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-electric",
+    "name": "Silvally",
+    "subName": "Type: Electric",
+    "gen": 7,
+    "types": [
+      "electric"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Electric",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "electricmemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-psychic",
+    "name": "Silvally",
+    "subName": "Type: Psychic",
+    "gen": 7,
+    "types": [
+      "psychic"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Psychic",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "psychicmemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-ice",
+    "name": "Silvally",
+    "subName": "Type: Ice",
+    "gen": 7,
+    "types": [
+      "ice"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Ice",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "icememory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-dragon",
+    "name": "Silvally",
+    "subName": "Type: Dragon",
+    "gen": 7,
+    "types": [
+      "dragon"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Dragon",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "dragonmemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-dark",
+    "name": "Silvally",
+    "subName": "Type: Dark",
+    "gen": 7,
+    "types": [
+      "dark"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Dark",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "darkmemory",
+    "weight": 100.5,
+    "height": 2.3,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "silvally-fairy",
+    "name": "Silvally",
+    "subName": "Type: Fairy",
+    "gen": 7,
+    "types": [
+      "fairy"
+    ],
+    "num": 773,
+    "baseStats": {
+      "hp": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "rkssystem"
+    },
+    "formeName": "Fairy",
+    "baseSpecies": "silvally",
+    "formTriggerItem": "fairymemory",
     "weight": 100.5,
     "height": 2.3,
     "gender": "N",
@@ -32604,6 +32604,41 @@
     "canHatch": true
   },
   {
+    "slug": "mimikyu-totem",
+    "name": "Mimikyu",
+    "subName": "Totem",
+    "gen": 7,
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "num": 778,
+    "baseStats": {
+      "hp": 55,
+      "atk": 90,
+      "def": 80,
+      "spa": 50,
+      "spd": 105,
+      "spe": 96
+    },
+    "abilities": {
+      "0": "disguise"
+    },
+    "formeName": "Totem",
+    "baseSpecies": "mimikyu",
+    "isTotem": true,
+    "weight": 2.8,
+    "height": 0.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Amorphous"
+    ],
+    "canHatch": true
+  },
+  {
     "slug": "mimikyu-busted-totem",
     "name": "Mimikyu",
     "subName": "Totem, Busted Form",
@@ -32629,41 +32664,6 @@
     "baseForm": "mimikyu-totem",
     "formTriggerAbility": "disguise",
     "isBattleOnly": true,
-    "weight": 2.8,
-    "height": 0.4,
-    "genderRatio": {
-      "M": 0.5,
-      "F": 0.5
-    },
-    "eggGroups": [
-      "Amorphous"
-    ],
-    "canHatch": true
-  },
-  {
-    "slug": "mimikyu-totem",
-    "name": "Mimikyu",
-    "subName": "Totem",
-    "gen": 7,
-    "types": [
-      "ghost",
-      "fairy"
-    ],
-    "num": 778,
-    "baseStats": {
-      "hp": 55,
-      "atk": 90,
-      "def": 80,
-      "spa": 50,
-      "spd": 105,
-      "spe": 96
-    },
-    "abilities": {
-      "0": "disguise"
-    },
-    "formeName": "Totem",
-    "baseSpecies": "mimikyu",
-    "isTotem": true,
     "weight": 2.8,
     "height": 0.4,
     "genderRatio": {
@@ -33370,36 +33370,6 @@
     "isLegendary": true
   },
   {
-    "slug": "necrozma-dawn-wings",
-    "name": "Dawn Wings Necrozma",
-    "gen": 7,
-    "types": [
-      "psychic",
-      "ghost"
-    ],
-    "num": 800,
-    "baseStats": {
-      "hp": 97,
-      "atk": 113,
-      "def": 109,
-      "spa": 157,
-      "spd": 127,
-      "spe": 77
-    },
-    "abilities": {
-      "0": "prismarmor"
-    },
-    "formeName": "Dawn-Wings",
-    "baseSpecies": "necrozma",
-    "weight": 350,
-    "height": 4.2,
-    "gender": "N",
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "isLegendary": true
-  },
-  {
     "slug": "necrozma-dusk-mane",
     "name": "Dusk Mane Necrozma",
     "gen": 7,
@@ -33423,6 +33393,36 @@
     "baseSpecies": "necrozma",
     "weight": 460,
     "height": 3.8,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isLegendary": true
+  },
+  {
+    "slug": "necrozma-dawn-wings",
+    "name": "Dawn Wings Necrozma",
+    "gen": 7,
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "num": 800,
+    "baseStats": {
+      "hp": 97,
+      "atk": 113,
+      "def": 109,
+      "spa": 157,
+      "spd": 127,
+      "spe": 77
+    },
+    "abilities": {
+      "0": "prismarmor"
+    },
+    "formeName": "Dawn-Wings",
+    "baseSpecies": "necrozma",
+    "weight": 350,
+    "height": 4.2,
     "gender": "N",
     "eggGroups": [
       "Undiscovered"

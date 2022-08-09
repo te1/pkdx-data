@@ -120,7 +120,7 @@ export async function exportPokemon(
       num: species.num,
       types: getTypeSlugs(species.types),
       gen: species.gen,
-      baseStats: species.baseStats,
+      baseStats: species.baseStats, // TODO move down before evos
       abilities: getAbilitySlugs(species.abilities, gen),
       hiddenAbilityUnreleased: species.unreleasedHidden || undefined,
 
@@ -143,12 +143,20 @@ export async function exportPokemon(
       // name of default / base forme
       // is just a string to display (e.g. is "Shield" for Aegislash)
       // will not be set on formes (e.g. is null for Aegislash-Blade)
+      // TODO still relevant for cosmetic formes, then remove
       defaultFormeName: species.baseForme || undefined,
+      // handled by subName instead
 
       // if set then this species is a forme
       // is just a string to display (e.g. is "Blade" for Aegislash-Blade)
       // will not be set on the base forme (e.g. is null for Aegislash)
-      formeName: species.forme || undefined,
+      // formeName: species.forme || undefined,
+      // handled by subName instead
+
+      // indicates that species is a forme
+      // normally is redudanten because isForme is true if there is a baseSpecies
+      // but Hisuian formes with baseSpecies missing from gen8 (e.g. Voltorb) will have no baseSpecies
+      isForme: baseSpeciesSlug ? undefined : !!species.forme || undefined,
 
       // base species for formes that have their own species entry
       // e.g. is "Raichu" for Raichu-Alola

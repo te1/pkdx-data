@@ -32,21 +32,26 @@ export async function exportPokemon(
   let result = [];
 
   for (const species of gen.species) {
+    // species is from @pkmn/data but for height we need simSpecies from @pkmn/sim
     const simSpecies = simGen.species.get(
       species.name
     ) as unknown as SimSpecies;
 
+    // baseSpecies is set for formes that heave their own species entry
+    // e.g. is "aegislash" for "aegislash-blade"
     const baseSpecies = getBaseSpecies(species, gen);
+
+    // build better slugs, e.g. "aegislash-blade" instead of "aegislashblade"
     const baseSpeciesSlug = baseSpecies
       ? getPrettySpeciesSlug(baseSpecies, undefined)
       : undefined;
     const slug = getPrettySpeciesSlug(species, baseSpecies);
 
-    const isGmax = species.isNonstandard === 'Gigantamax';
+    const isGmax = hasDynamax ? species.isNonstandard === 'Gigantamax' : false;
     const canGmax = hasDynamax ? !!species.canGigantamax : false;
     const region = getRegion(species, { slug }, extraData);
 
-    const prettyName = getPrettySpeciesName(
+    const name = getPrettySpeciesName(
       species,
       baseSpecies,
       { slug, isGmax, region },
@@ -95,7 +100,7 @@ export async function exportPokemon(
     const entry = {
       // -- General
       slug,
-      name: prettyName,
+      name,
       subName,
       gen: species.gen,
       types: getTypeSlugs(species.types),
@@ -213,7 +218,7 @@ export async function exportPokemon(
       // maxHP: species.maxHP,
 
       // TODO add pokemon flavor text
-      // flavorText: data[slug]?.flavorText,
+      // flavorText: extraData[slug]?.flavorText,
 
       // TODO learnsets
       // name of the exclusive G-Max move

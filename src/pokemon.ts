@@ -398,10 +398,10 @@ function getPrettySpeciesName(
   species: Specie,
   baseSpecies: Specie | undefined,
   speciesData: { slug: string; isGmax?: boolean; region?: Region },
-  extraData: Record<string, { prettyName?: string }>
+  extraData: Record<string, { name?: string }>
 ) {
   // direct override from extraData
-  let result = extraData[speciesData.slug]?.prettyName;
+  let result = extraData[speciesData.slug]?.name;
   if (result) {
     return result;
   }

@@ -1,6 +1,7 @@
 import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Dex } from '@pkmn/dex';
+import { Dex as SimDex } from '@pkmn/sim';
 import { Generations, GenerationNum, Data } from '@pkmn/data';
 import { AbilityMap } from './utils';
 import { exportTypes } from './type';
@@ -76,6 +77,10 @@ const existsFn = (d: Data, g: GenerationNum) => {
 
 // weird cast because the constructor has the wrong typings for exists
 const gens = new Generations(Dex, existsFn as (d: Data) => boolean);
+const simGens = new Generations(
+  SimDex as unknown as typeof Dex,
+  existsFn as (d: Data) => boolean
+);
 const genNums: GenerationNum[] = [1, 2, 3, 4, 5, 6, 7, 8];
 
 async function main() {
@@ -86,13 +91,14 @@ async function main() {
       const abilityMap: AbilityMap = new Map();
 
       const gen = gens.get(genNum);
+      const simGen = simGens.get(genNum);
 
       console.log(`*** gen ${genNum} ***`);
 
       await exportTypes(gen, target);
       await exportNatures(gen, target);
       await exportItems(gen, target);
-      await exportPokemon(gen, target, abilityMap);
+      await exportPokemon(gen, simGen, target, abilityMap);
       await exportMoves(gen, target);
       await exportAbilities(gen, target, abilityMap);
 

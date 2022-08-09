@@ -9,6 +9,7 @@ import {
   SpeciesName,
   TypeName,
 } from '@pkmn/data';
+import { Species as SimSpecies } from '@pkmn/sim';
 import { SpeciesAbility } from '@pkmn/dex-types';
 import { AbilityMap, exportData, typeNameToSlug } from './utils';
 
@@ -16,6 +17,7 @@ type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 
 export async function exportPokemon(
   gen: Generation,
+  simGen: Generation,
   target: string,
   abilityMap: AbilityMap
 ) {
@@ -30,6 +32,9 @@ export async function exportPokemon(
   let result = [];
 
   for (const species of gen.species) {
+    const simSpecies = simGen.species.get(
+      species.name
+    ) as unknown as SimSpecies;
     const baseSpecies = getBaseSpecies(species, gen);
     const baseSpeciesSlug = baseSpecies
       ? getPrettySpeciesSlug(baseSpecies, undefined)
@@ -162,7 +167,10 @@ export async function exportPokemon(
 
       // -- Misc data and breeding
       weight: species.weightkg,
-      // TODO height (requires sim dex?)
+
+      // height is only available in @pkmn/sim not in @pkmn/dex or @pkmn/data
+      height: simSpecies?.heightm,
+
       gender: species.gender,
       genderRatio: hasEggs && !species.gender ? species.genderRatio : undefined,
       eggGroups: hasEggs ? species.eggGroups : undefined,

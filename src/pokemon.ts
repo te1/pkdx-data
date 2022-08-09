@@ -24,7 +24,7 @@ export async function exportPokemon(
   console.log('- pokemon');
 
   console.log('\t' + 'loading data...');
-  const data = await fs.readJson(`./data/pokemon.json`);
+  const extraData = await fs.readJson(`./data/pokemon.json`);
 
   const hasEggs = gen.num >= 2;
   const hasDynamax = gen.num === 8;
@@ -35,33 +35,51 @@ export async function exportPokemon(
     const simSpecies = simGen.species.get(
       species.name
     ) as unknown as SimSpecies;
+
     const baseSpecies = getBaseSpecies(species, gen);
     const baseSpeciesSlug = baseSpecies
       ? getPrettySpeciesSlug(baseSpecies, undefined)
       : undefined;
     const slug = getPrettySpeciesSlug(species, baseSpecies);
+
     const isGmax = species.isNonstandard === 'Gigantamax';
-    const region = getRegion(species, { slug }, data);
+    const canGmax = hasDynamax ? !!species.canGigantamax : false;
+    const region = getRegion(species, { slug }, extraData);
+
     const prettyName = getPrettySpeciesName(
       species,
       baseSpecies,
       { slug, isGmax, region },
-      data
+      extraData
     );
     const subName = getPrettySpeciesSubName(
       species,
       { slug, isGmax, region },
-      data
+      extraData
     );
 
-    let isLegendary = !!data[slug]?.isLegendary;
-    if (!isLegendary && baseSpeciesSlug) {
-      isLegendary = !!data[baseSpeciesSlug]?.isLegendary;
+    let formes = getSpeciesSlugs(species.otherFormes, gen);
+    if (canGmax && !baseSpecies) {
+      // gmax species are not in formes, so add them manually
+      formes = [...(formes ?? []), slug + '-gmax'];
+    }
+    if (extraData[slug]?.formes?.length) {
+      // direct override from extraData (to handle toxtricity and urshifu with 2 gmax formes)
+      formes = extraData[slug]?.formes;
     }
 
-    let isMythical = !!data[slug]?.isMythical;
+    // legendary from extraData
+    let isLegendary = !!extraData[slug]?.isLegendary;
+    if (!isLegendary && baseSpeciesSlug) {
+      // inherit legendary from baseSpecies
+      isLegendary = !!extraData[baseSpeciesSlug]?.isLegendary;
+    }
+
+    // mythical from extraData
+    let isMythical = !!extraData[slug]?.isMythical;
     if (!isMythical && baseSpeciesSlug) {
-      isMythical = !!data[baseSpeciesSlug]?.isMythical;
+      // inherit mythical from baseSpecies
+      isMythical = !!extraData[baseSpeciesSlug]?.isMythical;
     }
 
     let gmaxMove;
@@ -69,6 +87,7 @@ export async function exportPokemon(
       gmaxMove = getMoveSlug(species.canGigantamax ?? '', gen);
 
       if (!gmaxMove && baseSpecies) {
+        // also set gmaxMove on the actual gmax species (otherwise it would only be set on baseSpecies)
         gmaxMove = getMoveSlug(baseSpecies.canGigantamax ?? '', gen);
       }
     }
@@ -147,7 +166,7 @@ export async function exportPokemon(
       // list of all available formes (base forme + otherFormes + cosmeticFormes)
       // only included if there is more than 1
       // only set on the base forme (e.g. is null for Aegislash-Blade)
-      // formes:
+      // allFormes:
       //   (species.formes?.length ?? 0) > 1
       //     ? getSpeciesSlugs(species.formes, gen)
       //     : undefined,
@@ -155,7 +174,7 @@ export async function exportPokemon(
       // list of all formes that have a species entry
       // the base forme is not included in the list
       // only set on the base forme (e.g. is null for Aegislash-Blade)
-      formes: getSpeciesSlugs(species.otherFormes, gen),
+      formes,
 
       // list of all cosmetic formes that _don't_ have a species entry
       // the base forme is not included in the list
@@ -183,7 +202,7 @@ export async function exportPokemon(
       cannotDynamax: hasDynamax
         ? species.cannotDynamax || undefined
         : undefined,
-      canGmax: hasDynamax ? !!species.canGigantamax || undefined : undefined,
+      canGmax: canGmax || undefined,
 
       gmaxUnreleased: hasDynamax
         ? species.gmaxUnreleased || undefined

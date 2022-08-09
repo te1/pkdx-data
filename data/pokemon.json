@@ -483,7 +483,12 @@
     "subName": "Antique Forme"
   },
   "toxtricity": {
-    "subName": "Amped Form"
+    "subName": "Amped Form",
+    "formes": [
+      "toxtricity-low-key",
+      "toxtricity-gmax",
+      "toxtricity-low-key-gmax"
+    ]
   },
   "toxtricity-low-key": {
     "subName": "Low Key Form"
@@ -517,7 +522,12 @@
   },
   "urshifu": {
     "isLegendary": true,
-    "subName": "Single Strike Style"
+    "subName": "Single Strike Style",
+    "formes": [
+      "urshifu-rapid-strike",
+      "urshifu-gmax",
+      "urshifu-rapid-strike-gmax"
+    ]
   },
   "urshifu-gmax": {
     "subName": "Gigantamax, Single Strike Style"

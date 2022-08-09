@@ -1776,6 +1776,78 @@
     ]
   },
   {
+    "slug": "paras",
+    "name": "Paras",
+    "num": 46,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "gen": 1,
+    "abilities": {
+      "0": "effectspore",
+      "1": "dryskin",
+      "H": "damp"
+    },
+    "baseStats": {
+      "hp": 35,
+      "atk": 70,
+      "def": 55,
+      "spa": 45,
+      "spd": 55,
+      "spe": 25
+    },
+    "evos": [
+      "parasect"
+    ],
+    "weight": 5.4,
+    "height": 0.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug",
+      "Grass"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "parasect",
+    "name": "Parasect",
+    "num": 47,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "gen": 1,
+    "abilities": {
+      "0": "effectspore",
+      "1": "dryskin",
+      "H": "damp"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 95,
+      "def": 80,
+      "spa": 60,
+      "spd": 80,
+      "spe": 30
+    },
+    "prevo": "paras",
+    "evoLevel": 24,
+    "weight": 29.5,
+    "height": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug",
+      "Grass"
+    ]
+  },
+  {
     "slug": "diglett",
     "name": "Diglett",
     "num": 50,
@@ -2790,6 +2862,113 @@
     },
     "eggGroups": [
       "Water 3"
+    ]
+  },
+  {
+    "slug": "geodude",
+    "name": "Geodude",
+    "num": 74,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "gen": 1,
+    "abilities": {
+      "0": "rockhead",
+      "1": "sturdy",
+      "H": "sandveil"
+    },
+    "baseStats": {
+      "hp": 40,
+      "atk": 80,
+      "def": 100,
+      "spa": 30,
+      "spd": 30,
+      "spe": 20
+    },
+    "evos": [
+      "graveler"
+    ],
+    "weight": 20,
+    "height": 0.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "graveler",
+    "name": "Graveler",
+    "num": 75,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "gen": 1,
+    "abilities": {
+      "0": "rockhead",
+      "1": "sturdy",
+      "H": "sandveil"
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 95,
+      "def": 115,
+      "spa": 45,
+      "spd": 45,
+      "spe": 35
+    },
+    "prevo": "geodude",
+    "evos": [
+      "golem"
+    ],
+    "evoLevel": 25,
+    "weight": 105,
+    "height": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral"
+    ]
+  },
+  {
+    "slug": "golem",
+    "name": "Golem",
+    "num": 76,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "gen": 1,
+    "abilities": {
+      "0": "rockhead",
+      "1": "sturdy",
+      "H": "sandveil"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 130,
+      "spa": 55,
+      "spd": 65,
+      "spe": 45
+    },
+    "prevo": "graveler",
+    "evoType": "trade",
+    "weight": 300,
+    "height": 1.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral"
     ]
   },
   {
@@ -5724,6 +5903,37 @@
     "isMythical": true
   },
   {
+    "slug": "cyndaquil",
+    "name": "Cyndaquil",
+    "num": 155,
+    "types": [
+      "fire"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "blaze",
+      "H": "flashfire"
+    },
+    "baseStats": {
+      "hp": 39,
+      "atk": 52,
+      "def": 43,
+      "spa": 60,
+      "spd": 50,
+      "spe": 65
+    },
+    "weight": 7.9,
+    "height": 0.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
     "slug": "typhlosion-hisui",
     "name": "Hisuian Typhlosion",
     "num": 157,
@@ -6355,6 +6565,77 @@
     ]
   },
   {
+    "slug": "aipom",
+    "name": "Aipom",
+    "num": 190,
+    "types": [
+      "normal"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "runaway",
+      "1": "pickup",
+      "H": "skilllink"
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 70,
+      "def": 55,
+      "spa": 40,
+      "spd": 55,
+      "spe": 85
+    },
+    "evos": [
+      "ambipom"
+    ],
+    "weight": 11.5,
+    "height": 0.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "yanma",
+    "name": "Yanma",
+    "num": 193,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "speedboost",
+      "1": "compoundeyes",
+      "H": "frisk"
+    },
+    "baseStats": {
+      "hp": 65,
+      "atk": 65,
+      "def": 45,
+      "spa": 75,
+      "spd": 45,
+      "spe": 95
+    },
+    "evos": [
+      "yanmega"
+    ],
+    "weight": 38,
+    "height": 1.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ],
+    "canHatch": true
+  },
+  {
     "slug": "wooper",
     "name": "Wooper",
     "num": 194,
@@ -6493,6 +6774,42 @@
     ]
   },
   {
+    "slug": "murkrow",
+    "name": "Murkrow",
+    "num": 198,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "insomnia",
+      "1": "superluck",
+      "H": "prankster"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 42,
+      "spa": 85,
+      "spd": 42,
+      "spe": 91
+    },
+    "evos": [
+      "honchkrow"
+    ],
+    "weight": 2.1,
+    "height": 0.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Flying"
+    ],
+    "canHatch": true
+  },
+  {
     "slug": "slowking",
     "name": "Slowking",
     "num": 199,
@@ -6570,6 +6887,66 @@
     ]
   },
   {
+    "slug": "misdreavus",
+    "name": "Misdreavus",
+    "num": 200,
+    "types": [
+      "ghost"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "levitate"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 60,
+      "spa": 85,
+      "spd": 85,
+      "spe": 85
+    },
+    "evos": [
+      "mismagius"
+    ],
+    "weight": 1,
+    "height": 0.7,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Amorphous"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "unown",
+    "name": "Unown",
+    "num": 201,
+    "types": [
+      "psychic"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "levitate"
+    },
+    "baseStats": {
+      "hp": 48,
+      "atk": 72,
+      "def": 48,
+      "spa": 72,
+      "spd": 48,
+      "spe": 48
+    },
+    "defaultFormeName": "A",
+    "weight": 5,
+    "height": 0.5,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  {
     "slug": "wobbuffet",
     "name": "Wobbuffet",
     "num": 202,
@@ -6603,6 +6980,39 @@
     "canHatch": true
   },
   {
+    "slug": "girafarig",
+    "name": "Girafarig",
+    "num": 203,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "innerfocus",
+      "1": "earlybird",
+      "H": "sapsipper"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 65,
+      "spa": 90,
+      "spd": 65,
+      "spe": 85
+    },
+    "weight": 41.5,
+    "height": 1.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
     "slug": "dunsparce",
     "name": "Dunsparce",
     "num": 206,
@@ -6631,6 +7041,42 @@
     },
     "eggGroups": [
       "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "gligar",
+    "name": "Gligar",
+    "num": 207,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "hypercutter",
+      "1": "sandveil",
+      "H": "immunity"
+    },
+    "baseStats": {
+      "hp": 65,
+      "atk": 75,
+      "def": 105,
+      "spa": 35,
+      "spd": 65,
+      "spe": 85
+    },
+    "evos": [
+      "gliscor"
+    ],
+    "weight": 64.8,
+    "height": 1.1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
     ],
     "canHatch": true
   },
@@ -6920,6 +7366,77 @@
       "Field"
     ],
     "canHatch": true
+  },
+  {
+    "slug": "teddiursa",
+    "name": "Teddiursa",
+    "num": 216,
+    "types": [
+      "normal"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "pickup",
+      "1": "quickfeet",
+      "H": "honeygather"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 80,
+      "def": 50,
+      "spa": 50,
+      "spd": 50,
+      "spe": 40
+    },
+    "evos": [
+      "ursaring"
+    ],
+    "weight": 8.8,
+    "height": 0.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "ursaring",
+    "name": "Ursaring",
+    "num": 217,
+    "types": [
+      "normal"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "guts",
+      "1": "quickfeet",
+      "H": "unnerve"
+    },
+    "baseStats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 75,
+      "spa": 75,
+      "spd": 75,
+      "spe": 55
+    },
+    "prevo": "teddiursa",
+    "evos": [
+      "ursaluna"
+    ],
+    "evoLevel": 30,
+    "weight": 125.8,
+    "height": 1.8,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ]
   },
   {
     "slug": "swinub",
@@ -7310,6 +7827,41 @@
     "eggGroups": [
       "Mineral"
     ]
+  },
+  {
+    "slug": "stantler",
+    "name": "Stantler",
+    "num": 234,
+    "types": [
+      "normal"
+    ],
+    "gen": 2,
+    "abilities": {
+      "0": "intimidate",
+      "1": "frisk",
+      "H": "sapsipper"
+    },
+    "baseStats": {
+      "hp": 73,
+      "atk": 95,
+      "def": 62,
+      "spa": 85,
+      "spd": 65,
+      "spe": 85
+    },
+    "evos": [
+      "wyrdeer"
+    ],
+    "weight": 71.2,
+    "height": 1.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
   },
   {
     "slug": "tyrogue",
@@ -8274,6 +8826,175 @@
     ]
   },
   {
+    "slug": "wurmple",
+    "name": "Wurmple",
+    "num": 265,
+    "types": [
+      "bug"
+    ],
+    "gen": 3,
+    "abilities": {
+      "0": "shielddust",
+      "H": "runaway"
+    },
+    "baseStats": {
+      "hp": 45,
+      "atk": 45,
+      "def": 35,
+      "spa": 20,
+      "spd": 30,
+      "spe": 20
+    },
+    "evos": [
+      "silcoon",
+      "cascoon"
+    ],
+    "weight": 3.6,
+    "height": 0.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "silcoon",
+    "name": "Silcoon",
+    "num": 266,
+    "types": [
+      "bug"
+    ],
+    "gen": 3,
+    "abilities": {
+      "0": "shedskin"
+    },
+    "baseStats": {
+      "hp": 50,
+      "atk": 35,
+      "def": 55,
+      "spa": 25,
+      "spd": 25,
+      "spe": 15
+    },
+    "prevo": "wurmple",
+    "evos": [
+      "beautifly"
+    ],
+    "evoLevel": 7,
+    "weight": 10,
+    "height": 0.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
+    "slug": "beautifly",
+    "name": "Beautifly",
+    "num": 267,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "gen": 3,
+    "abilities": {
+      "0": "swarm",
+      "H": "rivalry"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 70,
+      "def": 50,
+      "spa": 100,
+      "spd": 50,
+      "spe": 65
+    },
+    "prevo": "silcoon",
+    "evoLevel": 10,
+    "weight": 28.4,
+    "height": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
+    "slug": "cascoon",
+    "name": "Cascoon",
+    "num": 268,
+    "types": [
+      "bug"
+    ],
+    "gen": 3,
+    "abilities": {
+      "0": "shedskin"
+    },
+    "baseStats": {
+      "hp": 50,
+      "atk": 35,
+      "def": 55,
+      "spa": 25,
+      "spd": 25,
+      "spe": 15
+    },
+    "prevo": "wurmple",
+    "evos": [
+      "dustox"
+    ],
+    "evoLevel": 7,
+    "weight": 11.5,
+    "height": 0.7,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
+    "slug": "dustox",
+    "name": "Dustox",
+    "num": 269,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "gen": 3,
+    "abilities": {
+      "0": "shielddust",
+      "H": "compoundeyes"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "spa": 50,
+      "spd": 90,
+      "spe": 65
+    },
+    "prevo": "cascoon",
+    "evoLevel": 10,
+    "weight": 31.6,
+    "height": 1.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
     "slug": "lotad",
     "name": "Lotad",
     "num": 270,
@@ -8912,6 +9633,41 @@
     },
     "eggGroups": [
       "Undiscovered"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "nosepass",
+    "name": "Nosepass",
+    "num": 299,
+    "types": [
+      "rock"
+    ],
+    "gen": 3,
+    "abilities": {
+      "0": "sturdy",
+      "1": "magnetpull",
+      "H": "sandforce"
+    },
+    "baseStats": {
+      "hp": 30,
+      "atk": 45,
+      "def": 135,
+      "spa": 45,
+      "spd": 90,
+      "spe": 30
+    },
+    "evos": [
+      "probopass"
+    ],
+    "weight": 97,
+    "height": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral"
     ],
     "canHatch": true
   },
@@ -10076,6 +10832,39 @@
     ]
   },
   {
+    "slug": "chimecho",
+    "name": "Chimecho",
+    "num": 358,
+    "types": [
+      "psychic"
+    ],
+    "gen": 3,
+    "abilities": {
+      "0": "levitate"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 50,
+      "def": 80,
+      "spa": 95,
+      "spd": 90,
+      "spe": 65
+    },
+    "prevo": "chingling",
+    "evoType": "levelFriendship",
+    "evoCondition": "at night",
+    "weight": 1,
+    "height": 0.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Amorphous"
+    ],
+    "canHatch": true
+  },
+  {
     "slug": "absol",
     "name": "Absol",
     "num": 359,
@@ -10804,6 +11593,457 @@
     "isMythical": true
   },
   {
+    "slug": "turtwig",
+    "name": "Turtwig",
+    "num": 387,
+    "types": [
+      "grass"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "overgrow",
+      "H": "shellarmor"
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 68,
+      "def": 64,
+      "spa": 45,
+      "spd": 55,
+      "spe": 31
+    },
+    "evos": [
+      "grotle"
+    ],
+    "weight": 10.2,
+    "height": 0.4,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster",
+      "Grass"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "grotle",
+    "name": "Grotle",
+    "num": 388,
+    "types": [
+      "grass"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "overgrow",
+      "H": "shellarmor"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 89,
+      "def": 85,
+      "spa": 55,
+      "spd": 65,
+      "spe": 36
+    },
+    "prevo": "turtwig",
+    "evos": [
+      "torterra"
+    ],
+    "evoLevel": 18,
+    "weight": 97,
+    "height": 1.1,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster",
+      "Grass"
+    ]
+  },
+  {
+    "slug": "torterra",
+    "name": "Torterra",
+    "num": 389,
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "overgrow",
+      "H": "shellarmor"
+    },
+    "baseStats": {
+      "hp": 95,
+      "atk": 109,
+      "def": 105,
+      "spa": 75,
+      "spd": 85,
+      "spe": 56
+    },
+    "prevo": "grotle",
+    "evoLevel": 32,
+    "weight": 310,
+    "height": 2.2,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster",
+      "Grass"
+    ]
+  },
+  {
+    "slug": "piplup",
+    "name": "Piplup",
+    "num": 393,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "torrent",
+      "H": "defiant"
+    },
+    "baseStats": {
+      "hp": 53,
+      "atk": 51,
+      "def": 53,
+      "spa": 61,
+      "spd": 56,
+      "spe": 40
+    },
+    "evos": [
+      "prinplup"
+    ],
+    "weight": 5.2,
+    "height": 0.4,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "prinplup",
+    "name": "Prinplup",
+    "num": 394,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "torrent",
+      "H": "defiant"
+    },
+    "baseStats": {
+      "hp": 64,
+      "atk": 66,
+      "def": 68,
+      "spa": 81,
+      "spd": 76,
+      "spe": 50
+    },
+    "prevo": "piplup",
+    "evos": [
+      "empoleon"
+    ],
+    "evoLevel": 16,
+    "weight": 23,
+    "height": 0.8,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
+    ]
+  },
+  {
+    "slug": "empoleon",
+    "name": "Empoleon",
+    "num": 395,
+    "types": [
+      "water",
+      "steel"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "torrent",
+      "H": "defiant"
+    },
+    "baseStats": {
+      "hp": 84,
+      "atk": 86,
+      "def": 88,
+      "spa": 111,
+      "spd": 101,
+      "spe": 60
+    },
+    "prevo": "prinplup",
+    "evoLevel": 36,
+    "weight": 84.5,
+    "height": 1.7,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
+    ]
+  },
+  {
+    "slug": "starly",
+    "name": "Starly",
+    "num": 396,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "keeneye",
+      "H": "reckless"
+    },
+    "baseStats": {
+      "hp": 40,
+      "atk": 55,
+      "def": 30,
+      "spa": 30,
+      "spd": 30,
+      "spe": 60
+    },
+    "evos": [
+      "staravia"
+    ],
+    "weight": 2,
+    "height": 0.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Flying"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "staravia",
+    "name": "Staravia",
+    "num": 397,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "intimidate",
+      "H": "reckless"
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 75,
+      "def": 50,
+      "spa": 40,
+      "spd": 40,
+      "spe": 80
+    },
+    "prevo": "starly",
+    "evos": [
+      "staraptor"
+    ],
+    "evoLevel": 14,
+    "weight": 15.5,
+    "height": 0.6,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Flying"
+    ]
+  },
+  {
+    "slug": "staraptor",
+    "name": "Staraptor",
+    "num": 398,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "intimidate",
+      "H": "reckless"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 70,
+      "spa": 50,
+      "spd": 60,
+      "spe": 100
+    },
+    "prevo": "staravia",
+    "evoLevel": 34,
+    "weight": 24.9,
+    "height": 1.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Flying"
+    ]
+  },
+  {
+    "slug": "bidoof",
+    "name": "Bidoof",
+    "num": 399,
+    "types": [
+      "normal"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "simple",
+      "1": "unaware",
+      "H": "moody"
+    },
+    "baseStats": {
+      "hp": 59,
+      "atk": 45,
+      "def": 40,
+      "spa": 35,
+      "spd": 40,
+      "spe": 31
+    },
+    "evos": [
+      "bibarel"
+    ],
+    "weight": 20,
+    "height": 0.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "bibarel",
+    "name": "Bibarel",
+    "num": 400,
+    "types": [
+      "normal",
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "simple",
+      "1": "unaware",
+      "H": "moody"
+    },
+    "baseStats": {
+      "hp": 79,
+      "atk": 85,
+      "def": 60,
+      "spa": 55,
+      "spd": 60,
+      "spe": 71
+    },
+    "prevo": "bidoof",
+    "evoLevel": 15,
+    "weight": 31.5,
+    "height": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
+    ]
+  },
+  {
+    "slug": "kricketot",
+    "name": "Kricketot",
+    "num": 401,
+    "types": [
+      "bug"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "shedskin",
+      "H": "runaway"
+    },
+    "baseStats": {
+      "hp": 37,
+      "atk": 25,
+      "def": 41,
+      "spa": 25,
+      "spd": 41,
+      "spe": 25
+    },
+    "evos": [
+      "kricketune"
+    ],
+    "weight": 2.2,
+    "height": 0.3,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "kricketune",
+    "name": "Kricketune",
+    "num": 402,
+    "types": [
+      "bug"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "swarm",
+      "H": "technician"
+    },
+    "baseStats": {
+      "hp": 77,
+      "atk": 85,
+      "def": 51,
+      "spa": 55,
+      "spd": 51,
+      "spe": 65
+    },
+    "prevo": "kricketot",
+    "evoLevel": 10,
+    "weight": 25.5,
+    "height": 1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
     "slug": "shinx",
     "name": "Shinx",
     "num": 403,
@@ -10980,6 +12220,238 @@
     ]
   },
   {
+    "slug": "cranidos",
+    "name": "Cranidos",
+    "num": 408,
+    "types": [
+      "rock"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "moldbreaker",
+      "H": "sheerforce"
+    },
+    "baseStats": {
+      "hp": 67,
+      "atk": 125,
+      "def": 40,
+      "spa": 30,
+      "spd": 30,
+      "spe": 58
+    },
+    "evos": [
+      "rampardos"
+    ],
+    "weight": 31.5,
+    "height": 0.9,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "rampardos",
+    "name": "Rampardos",
+    "num": 409,
+    "types": [
+      "rock"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "moldbreaker",
+      "H": "sheerforce"
+    },
+    "baseStats": {
+      "hp": 97,
+      "atk": 165,
+      "def": 60,
+      "spa": 65,
+      "spd": 50,
+      "spe": 58
+    },
+    "prevo": "cranidos",
+    "evoLevel": 30,
+    "weight": 102.5,
+    "height": 1.6,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster"
+    ]
+  },
+  {
+    "slug": "shieldon",
+    "name": "Shieldon",
+    "num": 410,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "sturdy",
+      "H": "soundproof"
+    },
+    "baseStats": {
+      "hp": 30,
+      "atk": 42,
+      "def": 118,
+      "spa": 42,
+      "spd": 88,
+      "spe": 30
+    },
+    "evos": [
+      "bastiodon"
+    ],
+    "weight": 57,
+    "height": 0.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "bastiodon",
+    "name": "Bastiodon",
+    "num": 411,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "sturdy",
+      "H": "soundproof"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 52,
+      "def": 168,
+      "spa": 47,
+      "spd": 138,
+      "spe": 30
+    },
+    "prevo": "shieldon",
+    "evoLevel": 30,
+    "weight": 149.5,
+    "height": 1.3,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Monster"
+    ]
+  },
+  {
+    "slug": "burmy",
+    "name": "Burmy",
+    "num": 412,
+    "types": [
+      "bug"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "shedskin",
+      "H": "overcoat"
+    },
+    "baseStats": {
+      "hp": 40,
+      "atk": 29,
+      "def": 45,
+      "spa": 29,
+      "spd": 45,
+      "spe": 36
+    },
+    "evos": [
+      "wormadam",
+      "mothim"
+    ],
+    "defaultFormeName": "Plant",
+    "weight": 3.4,
+    "height": 0.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "wormadam",
+    "name": "Wormadam",
+    "subName": "Plant Cloak",
+    "num": 413,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "anticipation",
+      "H": "overcoat"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 59,
+      "def": 85,
+      "spa": 79,
+      "spd": 105,
+      "spe": 36
+    },
+    "prevo": "burmy",
+    "evoLevel": 20,
+    "defaultFormeName": "Plant",
+    "weight": 6.5,
+    "height": 0.5,
+    "gender": "F",
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
+    "slug": "mothim",
+    "name": "Mothim",
+    "num": 414,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "swarm",
+      "H": "tintedlens"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 94,
+      "def": 50,
+      "spa": 94,
+      "spd": 50,
+      "spe": 66
+    },
+    "prevo": "burmy",
+    "evoLevel": 20,
+    "weight": 23.3,
+    "height": 0.9,
+    "gender": "M",
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
     "slug": "combee",
     "name": "Combee",
     "num": 415,
@@ -11042,6 +12514,107 @@
     "gender": "F",
     "eggGroups": [
       "Bug"
+    ]
+  },
+  {
+    "slug": "pachirisu",
+    "name": "Pachirisu",
+    "num": 417,
+    "types": [
+      "electric"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "runaway",
+      "1": "pickup",
+      "H": "voltabsorb"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 45,
+      "def": 70,
+      "spa": 45,
+      "spd": 90,
+      "spe": 95
+    },
+    "weight": 3.9,
+    "height": 0.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field",
+      "Fairy"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "buizel",
+    "name": "Buizel",
+    "num": 418,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "swiftswim",
+      "H": "waterveil"
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 65,
+      "def": 35,
+      "spa": 60,
+      "spd": 30,
+      "spe": 85
+    },
+    "evos": [
+      "floatzel"
+    ],
+    "weight": 29.5,
+    "height": 0.7,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "floatzel",
+    "name": "Floatzel",
+    "num": 419,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "swiftswim",
+      "H": "waterveil"
+    },
+    "baseStats": {
+      "hp": 85,
+      "atk": 105,
+      "def": 55,
+      "spa": 85,
+      "spd": 50,
+      "spe": 115
+    },
+    "prevo": "buizel",
+    "evoLevel": 26,
+    "weight": 33.5,
+    "height": 1.1,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 1",
+      "Field"
     ]
   },
   {
@@ -11230,6 +12803,40 @@
     ]
   },
   {
+    "slug": "ambipom",
+    "name": "Ambipom",
+    "num": 424,
+    "types": [
+      "normal"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "technician",
+      "1": "pickup",
+      "H": "skilllink"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 66,
+      "spa": 60,
+      "spd": 66,
+      "spe": 115
+    },
+    "prevo": "aipom",
+    "evoType": "levelMove",
+    "evoMove": "Double Hit",
+    "weight": 20.3,
+    "height": 1.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
     "slug": "drifloon",
     "name": "Drifloon",
     "num": 425,
@@ -11368,6 +12975,174 @@
       "Field",
       "Human-Like"
     ]
+  },
+  {
+    "slug": "mismagius",
+    "name": "Mismagius",
+    "num": 429,
+    "types": [
+      "ghost"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "levitate"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 60,
+      "spa": 105,
+      "spd": 105,
+      "spe": 105
+    },
+    "prevo": "misdreavus",
+    "evoType": "useItem",
+    "evoItem": "Dusk Stone",
+    "weight": 4.4,
+    "height": 0.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Amorphous"
+    ]
+  },
+  {
+    "slug": "honchkrow",
+    "name": "Honchkrow",
+    "num": 430,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "insomnia",
+      "1": "superluck",
+      "H": "moxie"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 125,
+      "def": 52,
+      "spa": 105,
+      "spd": 52,
+      "spe": 71
+    },
+    "prevo": "murkrow",
+    "evoType": "useItem",
+    "evoItem": "Dusk Stone",
+    "weight": 27.3,
+    "height": 0.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Flying"
+    ]
+  },
+  {
+    "slug": "glameow",
+    "name": "Glameow",
+    "num": 431,
+    "types": [
+      "normal"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "limber",
+      "1": "owntempo",
+      "H": "keeneye"
+    },
+    "baseStats": {
+      "hp": 49,
+      "atk": 55,
+      "def": 42,
+      "spa": 42,
+      "spd": 37,
+      "spe": 85
+    },
+    "evos": [
+      "purugly"
+    ],
+    "weight": 3.9,
+    "height": 0.5,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "purugly",
+    "name": "Purugly",
+    "num": 432,
+    "types": [
+      "normal"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "thickfat",
+      "1": "owntempo",
+      "H": "defiant"
+    },
+    "baseStats": {
+      "hp": 71,
+      "atk": 82,
+      "def": 64,
+      "spa": 64,
+      "spd": 59,
+      "spe": 112
+    },
+    "prevo": "glameow",
+    "evoLevel": 38,
+    "weight": 43.8,
+    "height": 1,
+    "genderRatio": {
+      "M": 0.25,
+      "F": 0.75
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
+    "slug": "chingling",
+    "name": "Chingling",
+    "num": 433,
+    "types": [
+      "psychic"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "levitate"
+    },
+    "baseStats": {
+      "hp": 45,
+      "atk": 30,
+      "def": 50,
+      "spa": 65,
+      "spd": 50,
+      "spe": 45
+    },
+    "evos": [
+      "chimecho"
+    ],
+    "weight": 0.6,
+    "height": 0.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "canHatch": true
   },
   {
     "slug": "stunky",
@@ -11604,6 +13379,39 @@
     "gender": "F",
     "eggGroups": [
       "Undiscovered"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "chatot",
+    "name": "Chatot",
+    "num": 441,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "keeneye",
+      "1": "tangledfeet",
+      "H": "bigpecks"
+    },
+    "baseStats": {
+      "hp": 76,
+      "atk": 65,
+      "def": 45,
+      "spa": 92,
+      "spd": 42,
+      "spe": 91
+    },
+    "weight": 1.9,
+    "height": 0.5,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Flying"
     ],
     "canHatch": true
   },
@@ -12061,6 +13869,104 @@
     ]
   },
   {
+    "slug": "carnivine",
+    "name": "Carnivine",
+    "num": 455,
+    "types": [
+      "grass"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "levitate"
+    },
+    "baseStats": {
+      "hp": 74,
+      "atk": 100,
+      "def": 72,
+      "spa": 90,
+      "spd": 72,
+      "spe": 46
+    },
+    "weight": 27,
+    "height": 1.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Grass"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "finneon",
+    "name": "Finneon",
+    "num": 456,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "swiftswim",
+      "1": "stormdrain",
+      "H": "waterveil"
+    },
+    "baseStats": {
+      "hp": 49,
+      "atk": 49,
+      "def": 56,
+      "spa": 49,
+      "spd": 61,
+      "spe": 66
+    },
+    "evos": [
+      "lumineon"
+    ],
+    "weight": 7,
+    "height": 0.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 2"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "lumineon",
+    "name": "Lumineon",
+    "num": 457,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "swiftswim",
+      "1": "stormdrain",
+      "H": "waterveil"
+    },
+    "baseStats": {
+      "hp": 69,
+      "atk": 69,
+      "def": 76,
+      "spa": 69,
+      "spd": 86,
+      "spe": 91
+    },
+    "prevo": "finneon",
+    "evoLevel": 31,
+    "weight": 24,
+    "height": 1.2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Water 2"
+    ]
+  },
+  {
     "slug": "mantyke",
     "name": "Mantyke",
     "num": 458,
@@ -12440,6 +14346,41 @@
     ]
   },
   {
+    "slug": "yanmega",
+    "name": "Yanmega",
+    "num": 469,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "speedboost",
+      "1": "tintedlens",
+      "H": "frisk"
+    },
+    "baseStats": {
+      "hp": 86,
+      "atk": 76,
+      "def": 86,
+      "spa": 116,
+      "spd": 56,
+      "spe": 95
+    },
+    "prevo": "yanma",
+    "evoType": "levelMove",
+    "evoMove": "Ancient Power",
+    "weight": 51.5,
+    "height": 1.9,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
     "slug": "leafeon",
     "name": "Leafeon",
     "num": 470,
@@ -12503,6 +14444,42 @@
     },
     "eggGroups": [
       "Field"
+    ]
+  },
+  {
+    "slug": "gliscor",
+    "name": "Gliscor",
+    "num": 472,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "hypercutter",
+      "1": "sandveil",
+      "H": "poisonheal"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 125,
+      "spa": 45,
+      "spd": 75,
+      "spe": 95
+    },
+    "prevo": "gligar",
+    "evoType": "levelHold",
+    "evoCondition": "at night",
+    "evoItem": "Razor Fang",
+    "weight": 42.5,
+    "height": 2,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Bug"
     ]
   },
   {
@@ -12601,6 +14578,41 @@
     "eggGroups": [
       "Human-Like",
       "Amorphous"
+    ]
+  },
+  {
+    "slug": "probopass",
+    "name": "Probopass",
+    "num": 476,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "sturdy",
+      "1": "magnetpull",
+      "H": "sandforce"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 55,
+      "def": 145,
+      "spa": 75,
+      "spd": 150,
+      "spe": 40
+    },
+    "prevo": "nosepass",
+    "evoType": "levelExtra",
+    "evoCondition": "near a special magnetic field",
+    "weight": 340,
+    "height": 1.4,
+    "genderRatio": {
+      "M": 0.5,
+      "F": 0.5
+    },
+    "eggGroups": [
+      "Mineral"
     ]
   },
   {
@@ -13212,6 +15224,148 @@
     "isLegendary": true
   },
   {
+    "slug": "phione",
+    "name": "Phione",
+    "num": 489,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "hydration"
+    },
+    "baseStats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 80
+    },
+    "weight": 3.1,
+    "height": 0.4,
+    "gender": "N",
+    "eggGroups": [
+      "Water 1",
+      "Fairy"
+    ],
+    "canHatch": true,
+    "isMythical": true
+  },
+  {
+    "slug": "manaphy",
+    "name": "Manaphy",
+    "num": 490,
+    "types": [
+      "water"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "hydration"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "weight": 1.4,
+    "height": 0.3,
+    "gender": "N",
+    "eggGroups": [
+      "Water 1",
+      "Fairy"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "darkrai",
+    "name": "Darkrai",
+    "num": 491,
+    "types": [
+      "dark"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "baddreams"
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 90,
+      "def": 90,
+      "spa": 135,
+      "spd": 90,
+      "spe": 125
+    },
+    "weight": 50.5,
+    "height": 1.5,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "shaymin",
+    "name": "Shaymin",
+    "subName": "Land Forme",
+    "num": 492,
+    "types": [
+      "grass"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "naturalcure"
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "defaultFormeName": "Land",
+    "weight": 2.1,
+    "height": 0.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
+    "slug": "arceus",
+    "name": "Arceus",
+    "subName": "Normal",
+    "num": 493,
+    "types": [
+      "normal"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "multitype"
+    },
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    },
+    "defaultFormeName": "Normal",
+    "weight": 320,
+    "height": 3.2,
+    "gender": "N",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "isMythical": true
+  },
+  {
     "slug": "victini",
     "name": "Victini",
     "num": 494,
@@ -13240,6 +15394,75 @@
     "isMythical": true
   },
   {
+    "slug": "oshawott",
+    "name": "Oshawott",
+    "num": 501,
+    "types": [
+      "water"
+    ],
+    "gen": 5,
+    "abilities": {
+      "0": "torrent",
+      "H": "shellarmor"
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 45,
+      "spa": 63,
+      "spd": 45,
+      "spe": 45
+    },
+    "evos": [
+      "dewott"
+    ],
+    "weight": 5.9,
+    "height": 0.5,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
+    ],
+    "canHatch": true
+  },
+  {
+    "slug": "dewott",
+    "name": "Dewott",
+    "num": 502,
+    "types": [
+      "water"
+    ],
+    "gen": 5,
+    "abilities": {
+      "0": "torrent",
+      "H": "shellarmor"
+    },
+    "baseStats": {
+      "hp": 75,
+      "atk": 75,
+      "def": 60,
+      "spa": 83,
+      "spd": 60,
+      "spe": 60
+    },
+    "prevo": "oshawott",
+    "evos": [
+      "samurott-hisui"
+    ],
+    "evoLevel": 17,
+    "weight": 24.5,
+    "height": 0.8,
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "eggGroups": [
+      "Field"
+    ]
+  },
+  {
     "slug": "samurott-hisui",
     "name": "Hisuian Samurott",
     "num": 503,
@@ -13260,6 +15483,7 @@
       "spd": 65,
       "spe": 85
     },
+    "prevo": "dewott",
     "evoLevel": 36,
     "isForme": true,
     "region": "Hisui",
@@ -28152,6 +30376,7 @@
       "spd": 75,
       "spe": 65
     },
+    "prevo": "stantler",
     "evoType": "other",
     "evoCondition": "Use Agile style Psyshield Bash 20 times",
     "weight": 95.1,
@@ -28221,6 +30446,7 @@
       "spd": 80,
       "spe": 50
     },
+    "prevo": "ursaring",
     "evoType": "other",
     "evoCondition": "Peat Block when there's a full moon",
     "weight": 290,

@@ -23,7 +23,7 @@ export async function exportPokemon(
 ) {
   console.log('- pokemon');
 
-  console.log('\t' + 'loading data...');
+  console.log('\tloading data...');
   const extraData = await fs.readJson(`./data/pokemon.json`);
   const extraDataCosmeticFormes = await fs.readJson(
     `./data/cosmeticFormes.json`
@@ -51,10 +51,14 @@ export async function exportPokemon(
       : undefined;
     const slug = getPrettySpeciesSlug(species, baseSpecies, extraData);
 
+    const isTotem = species.forme === 'Totem';
     const isGmax = hasDynamax ? species.isNonstandard === 'Gigantamax' : false;
     const canGmax = hasDynamax ? !!species.canGigantamax : false;
-    const region = getRegion(species, { slug }, extraData);
 
+    // treat gmax as battle only even if showdown doesn't
+    const isBattleOnly = !!species.battleOnly || (hasDynamax && isGmax);
+
+    const region = getRegion(species, { slug }, extraData);
     const name = getSpeciesName(
       species,
       baseSpecies,
@@ -106,6 +110,10 @@ export async function exportPokemon(
         // also set gmaxMove on the actual gmax species (otherwise it would only be set on baseSpecies)
         gmaxMove = getMoveSlug(baseSpecies.canGigantamax ?? '', gen);
       }
+    }
+
+    if (shouldSkipSpecies({ isTotem })) {
+      continue;
     }
 
     const entry = {
@@ -185,10 +193,10 @@ export async function exportPokemon(
       formTriggerMove: getMoveSlug(species.requiredMove ?? '', gen),
 
       region: region || undefined,
-      isBattleOnly: !!species.battleOnly || undefined,
+      isBattleOnly: isBattleOnly || undefined,
       isMega: species.isMega,
       isPrimal: species.isPrimal,
-      isTotem: species.forme === 'Totem' || undefined,
+      isTotem: isTotem || undefined,
       isGmax: isGmax || undefined,
 
       // list of all available formes (base forme + otherFormes + cosmeticFormes)
@@ -279,12 +287,43 @@ export async function exportPokemon(
   result = _.map(result, (entry) => _.omit(entry, 'formeIndex'));
 
   if (result.length) {
-    console.log('\t' + `writing ${result.length} pokemon...`);
+    console.log(`\twriting ${result.length} pokemon...`);
     await exportData(
       path.join(target, `gen${gen.num}`, 'pokemon.json'),
-      result
+      getSpeciesIndexData(result)
     );
+
+    // console.log(`\twriting ${result.length} pokemon details...`);
+    // for (const entry of result) {
+    //   await exportData(
+    //     path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
+    //     entry
+    //   );
+    // }
   }
+}
+
+function getSpeciesIndexData(result: object) {
+  return _.map(result, (entry) =>
+    _.pick(entry, [
+      'slug',
+      'name',
+      'subName',
+      'num',
+      'types',
+      'gen',
+      'baseStats',
+      'isBattleOnly',
+    ])
+  );
+}
+
+function shouldSkipSpecies(speciesData: { isTotem: boolean }) {
+  if (speciesData.isTotem) {
+    return true;
+  }
+
+  return false;
 }
 
 function getTypeSlugs(types: [TypeName] | [TypeName, TypeName]) {

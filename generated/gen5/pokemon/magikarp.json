@@ -31,5 +31,39 @@
     "Water 2",
     "Dragon"
   ],
-  "canHatch": true
+  "canHatch": true,
+  "learnset": {
+    "bounce": [
+      "5T",
+      "5D",
+      "5S5",
+      "4T"
+    ],
+    "flail": [
+      "5L30",
+      "5S5",
+      "4L30",
+      "3L30"
+    ],
+    "hydropump": [
+      "5S5"
+    ],
+    "splash": [
+      "5L1",
+      "5D",
+      "5S5",
+      "4L1",
+      "4S0",
+      "4S1",
+      "4S2",
+      "4S3",
+      "4S4",
+      "3L1"
+    ],
+    "tackle": [
+      "5L15",
+      "4L15",
+      "3L15"
+    ]
+  }
 }

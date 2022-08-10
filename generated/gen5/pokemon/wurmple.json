@@ -31,5 +31,39 @@
   "eggGroups": [
     "Bug"
   ],
-  "canHatch": true
+  "canHatch": true,
+  "learnset": {
+    "bugbite": [
+      "5T",
+      "5L15",
+      "5D",
+      "4T",
+      "4L15"
+    ],
+    "electroweb": [
+      "5T"
+    ],
+    "poisonsting": [
+      "5L5",
+      "5D",
+      "4L5",
+      "3L5"
+    ],
+    "snore": [
+      "5T",
+      "5D",
+      "4T"
+    ],
+    "stringshot": [
+      "5L1",
+      "4T",
+      "4L1",
+      "3L1"
+    ],
+    "tackle": [
+      "5L1",
+      "4L1",
+      "3L1"
+    ]
+  }
 }

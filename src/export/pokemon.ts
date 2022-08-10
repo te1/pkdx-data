@@ -257,9 +257,11 @@ export async function exportPokemon(
       // TODO add pokemon flavor text
       // flavorText: extraData[slug]?.flavorText,
 
-      // TODO learnsets
       // name of the exclusive G-Max move
       gmaxMove,
+
+      // TODO make learnsets more readable
+      learnset: await gen.learnsets.learnable(species.name),
     };
 
     result.push(entry);

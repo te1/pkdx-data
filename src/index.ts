@@ -34,7 +34,6 @@ async function main() {
     // TODO export games
     // TODO export pokedex
     // TODO export HM/TM/TR
-    // TODO create index and detail files
     // TODO handle gen9 preview
 
     console.log('done');

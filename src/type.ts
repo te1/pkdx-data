@@ -8,7 +8,7 @@ export async function exportTypes(gen: Generation, target: string) {
   console.log('- types');
 
   console.log('\t' + 'loading data...');
-  const data = await fs.readJson(`./data/type.json`);
+  const data = await fs.readJson(`./data/types.json`);
 
   let result = [];
 
@@ -32,7 +32,7 @@ export async function exportTypes(gen: Generation, target: string) {
 
   if (result.length) {
     console.log('\t' + `writing ${result.length} types...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'type.json'), result);
+    await exportData(path.join(target, `gen${gen.num}`, 'types.json'), result);
   }
 }
 

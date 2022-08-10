@@ -1,0 +1,37 @@
+{
+  "slug": "dottler",
+  "name": "Dottler",
+  "num": 825,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "swarm",
+    "1": "compoundeyes",
+    "H": "telepathy"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 35,
+    "def": 80,
+    "spa": 50,
+    "spd": 90,
+    "spe": 30
+  },
+  "prevo": "blipbug",
+  "evos": [
+    "orbeetle"
+  ],
+  "evoLevel": 10,
+  "weight": 19.5,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ]
+}

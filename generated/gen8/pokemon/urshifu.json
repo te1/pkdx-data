@@ -1,0 +1,42 @@
+{
+  "slug": "urshifu",
+  "name": "Urshifu",
+  "subName": "Single Strike Style",
+  "num": 892,
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "unseenfist"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 130,
+    "def": 100,
+    "spa": 63,
+    "spd": 60,
+    "spe": 97
+  },
+  "prevo": "kubfu",
+  "evoType": "other",
+  "evoCondition": "Defeat the Single Strike Tower",
+  "formes": [
+    "urshifu-rapid-strike",
+    "urshifu-gmax",
+    "urshifu-rapid-strike-gmax"
+  ],
+  "weight": 105,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true,
+  "canGmax": true,
+  "gmaxMove": "gmaxoneblow"
+}

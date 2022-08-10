@@ -1,0 +1,36 @@
+{
+  "slug": "ledyba",
+  "name": "Ledyba",
+  "num": 165,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "swarm",
+    "1": "earlybird",
+    "H": "rattled"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 20,
+    "def": 30,
+    "spa": 40,
+    "spd": 80,
+    "spe": 55
+  },
+  "evos": [
+    "ledian"
+  ],
+  "weight": 10.8,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true
+}

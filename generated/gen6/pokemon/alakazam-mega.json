@@ -1,0 +1,34 @@
+{
+  "slug": "alakazam-mega",
+  "name": "Mega Alakazam",
+  "num": 65,
+  "types": [
+    "psychic"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "trace"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 50,
+    "def": 65,
+    "spa": 175,
+    "spd": 95,
+    "spe": 150
+  },
+  "baseSpecies": "alakazam",
+  "formTriggerItem": "alakazite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 48,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true
+}

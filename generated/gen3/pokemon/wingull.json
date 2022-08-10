@@ -1,0 +1,35 @@
+{
+  "slug": "wingull",
+  "name": "Wingull",
+  "num": 278,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "keeneye"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 30,
+    "def": 30,
+    "spa": 55,
+    "spd": 30,
+    "spe": 85
+  },
+  "evos": [
+    "pelipper"
+  ],
+  "weight": 9.5,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Flying"
+  ],
+  "canHatch": true
+}

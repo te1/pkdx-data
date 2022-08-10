@@ -1,0 +1,36 @@
+{
+  "slug": "exeggutor-alola",
+  "name": "Alolan Exeggutor",
+  "num": 103,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "frisk",
+    "H": "harvest"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 105,
+    "def": 85,
+    "spa": 125,
+    "spd": 75,
+    "spe": 45
+  },
+  "prevo": "exeggcute",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "baseSpecies": "exeggutor",
+  "region": "Alola",
+  "weight": 415.6,
+  "height": 10.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ]
+}

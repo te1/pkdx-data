@@ -1,0 +1,39 @@
+{
+  "slug": "lycanroc",
+  "name": "Lycanroc",
+  "subName": "Midday Form",
+  "num": 745,
+  "types": [
+    "rock"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "keeneye",
+    "1": "sandrush",
+    "H": "steadfast"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 115,
+    "def": 65,
+    "spa": 55,
+    "spd": 65,
+    "spe": 112
+  },
+  "prevo": "rockruff",
+  "evoCondition": "during the day",
+  "evoLevel": 25,
+  "formes": [
+    "lycanroc-midnight",
+    "lycanroc-dusk"
+  ],
+  "weight": 25,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

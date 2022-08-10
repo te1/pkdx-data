@@ -1,0 +1,35 @@
+{
+  "slug": "sharpedo-mega",
+  "name": "Mega Sharpedo",
+  "num": 319,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "strongjaw"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 140,
+    "def": 70,
+    "spa": 110,
+    "spd": 65,
+    "spe": 105
+  },
+  "baseSpecies": "sharpedo",
+  "formTriggerItem": "sharpedonite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 130.3,
+  "height": 2.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true
+}

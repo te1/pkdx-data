@@ -1,0 +1,36 @@
+{
+  "slug": "mimikyu-busted-totem",
+  "name": "Mimikyu",
+  "subName": "Totem, Busted Form",
+  "num": 778,
+  "types": [
+    "ghost",
+    "fairy"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "disguise"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 90,
+    "def": 80,
+    "spa": 50,
+    "spd": 105,
+    "spe": 96
+  },
+  "baseSpecies": "mimikyu",
+  "baseForm": "mimikyu-totem",
+  "formTriggerAbility": "disguise",
+  "isBattleOnly": true,
+  "weight": 2.8,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "sobble",
+  "name": "Sobble",
+  "num": 816,
+  "types": [
+    "water"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "torrent",
+    "H": "sniper"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 40,
+    "def": 40,
+    "spa": 70,
+    "spd": 40,
+    "spe": 70
+  },
+  "evos": [
+    "drizzile"
+  ],
+  "weight": 4,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true
+}

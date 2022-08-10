@@ -1,0 +1,36 @@
+{
+  "slug": "pichu",
+  "name": "Pichu",
+  "num": 172,
+  "types": [
+    "electric"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "static"
+  },
+  "baseStats": {
+    "hp": 20,
+    "atk": 40,
+    "def": 15,
+    "spa": 35,
+    "spd": 35,
+    "spe": 60
+  },
+  "evos": [
+    "pikachu"
+  ],
+  "formes": [
+    "pichu-spiky-eared"
+  ],
+  "weight": 2,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true
+}

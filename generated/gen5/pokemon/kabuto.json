@@ -1,0 +1,37 @@
+{
+  "slug": "kabuto",
+  "name": "Kabuto",
+  "num": 140,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "battlearmor",
+    "H": "weakarmor"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 80,
+    "def": 90,
+    "spa": 55,
+    "spd": 45,
+    "spe": 55
+  },
+  "evos": [
+    "kabutops"
+  ],
+  "weight": 11.5,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "charizard-mega-x",
+  "name": "Mega Charizard X",
+  "num": 6,
+  "types": [
+    "fire",
+    "dragon"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "toughclaws"
+  },
+  "baseStats": {
+    "hp": 78,
+    "atk": 130,
+    "def": 111,
+    "spa": 130,
+    "spd": 85,
+    "spe": 100
+  },
+  "baseSpecies": "charizard",
+  "formTriggerItem": "charizarditex",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 110.5,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "eevee",
+  "name": "Eevee",
+  "num": 133,
+  "types": [
+    "normal"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "runaway",
+    "1": "adaptability",
+    "H": "anticipation"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 55,
+    "def": 50,
+    "spa": 45,
+    "spd": 65,
+    "spe": 55
+  },
+  "evos": [
+    "vaporeon",
+    "jolteon",
+    "flareon",
+    "espeon",
+    "umbreon",
+    "leafeon",
+    "glaceon",
+    "sylveon"
+  ],
+  "formes": [
+    "eevee-gmax"
+  ],
+  "weight": 6.5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "canGmax": true,
+  "gmaxMove": "gmaxcuddle"
+}

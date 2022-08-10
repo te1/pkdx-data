@@ -1,0 +1,35 @@
+{
+  "slug": "ursaluna",
+  "name": "Ursaluna",
+  "num": 901,
+  "types": [
+    "ground",
+    "normal"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "guts",
+    "1": "bulletproof",
+    "H": "unnerve"
+  },
+  "baseStats": {
+    "hp": 130,
+    "atk": 140,
+    "def": 105,
+    "spa": 45,
+    "spd": 80,
+    "spe": 50
+  },
+  "prevo": "ursaring",
+  "evoType": "other",
+  "evoCondition": "Peat Block when there's a full moon",
+  "weight": 290,
+  "height": 2.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

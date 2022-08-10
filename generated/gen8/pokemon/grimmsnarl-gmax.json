@@ -1,0 +1,35 @@
+{
+  "slug": "grimmsnarl-gmax",
+  "name": "Gigantamax Grimmsnarl",
+  "num": 861,
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "prankster",
+    "1": "frisk",
+    "H": "pickpocket"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 120,
+    "def": 65,
+    "spa": 95,
+    "spd": 75,
+    "spe": 60
+  },
+  "baseSpecies": "grimmsnarl",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "weight": 0,
+  "height": 32,
+  "gender": "M",
+  "eggGroups": [
+    "Fairy",
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxsnooze"
+}

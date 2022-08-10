@@ -1,0 +1,35 @@
+{
+  "slug": "bulbasaur",
+  "name": "Bulbasaur",
+  "num": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "overgrow"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 49,
+    "def": 49,
+    "spa": 65,
+    "spd": 65,
+    "spe": 45
+  },
+  "evos": [
+    "ivysaur"
+  ],
+  "weight": 6.9,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "canHatch": true
+}

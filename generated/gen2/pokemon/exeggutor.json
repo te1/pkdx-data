@@ -1,0 +1,30 @@
+{
+  "slug": "exeggutor",
+  "name": "Exeggutor",
+  "num": 103,
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 95,
+    "atk": 95,
+    "def": 85,
+    "spa": 125,
+    "spd": 65,
+    "spe": 55
+  },
+  "prevo": "exeggcute",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "weight": 120,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ]
+}

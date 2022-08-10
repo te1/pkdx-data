@@ -1,0 +1,32 @@
+{
+  "slug": "machamp",
+  "name": "Machamp",
+  "num": 68,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "guts",
+    "1": "noguard"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 130,
+    "def": 80,
+    "spa": 65,
+    "spd": 85,
+    "spe": 55
+  },
+  "prevo": "machoke",
+  "evoType": "trade",
+  "weight": 130,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ]
+}

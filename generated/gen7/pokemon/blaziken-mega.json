@@ -1,0 +1,35 @@
+{
+  "slug": "blaziken-mega",
+  "name": "Mega Blaziken",
+  "num": 257,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "speedboost"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 160,
+    "def": 80,
+    "spa": 130,
+    "spd": 80,
+    "spe": 100
+  },
+  "baseSpecies": "blaziken",
+  "formTriggerItem": "blazikenite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 52,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

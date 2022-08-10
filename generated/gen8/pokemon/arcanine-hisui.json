@@ -1,0 +1,37 @@
+{
+  "slug": "arcanine-hisui",
+  "name": "Hisuian Arcanine",
+  "num": 59,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "intimidate",
+    "1": "flashfire",
+    "H": "justified"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 115,
+    "def": 80,
+    "spa": 95,
+    "spd": 80,
+    "spe": 90
+  },
+  "prevo": "growlithe-hisui",
+  "evoType": "useItem",
+  "evoItem": "Fire Stone",
+  "baseSpecies": "arcanine",
+  "region": "Hisui",
+  "weight": 168,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

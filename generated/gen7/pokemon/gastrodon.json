@@ -1,0 +1,42 @@
+{
+  "slug": "gastrodon",
+  "name": "Gastrodon",
+  "num": 423,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "stickyhold",
+    "1": "stormdrain",
+    "H": "sandforce"
+  },
+  "baseStats": {
+    "hp": 111,
+    "atk": 83,
+    "def": 68,
+    "spa": 92,
+    "spd": 82,
+    "spe": 39
+  },
+  "prevo": "shellos",
+  "evoLevel": 30,
+  "cosmeticSubName": "West Sea",
+  "cosmeticFormes": [
+    {
+      "slug": "gastrodon-east",
+      "subName": "East Sea"
+    }
+  ],
+  "weight": 29.9,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Amorphous"
+  ]
+}

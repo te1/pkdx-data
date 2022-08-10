@@ -1,0 +1,39 @@
+{
+  "slug": "corviknight",
+  "name": "Corviknight",
+  "num": 823,
+  "types": [
+    "flying",
+    "steel"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "pressure",
+    "1": "unnerve",
+    "H": "mirrorarmor"
+  },
+  "baseStats": {
+    "hp": 98,
+    "atk": 87,
+    "def": 105,
+    "spa": 53,
+    "spd": 85,
+    "spe": 67
+  },
+  "prevo": "corvisquire",
+  "evoLevel": 38,
+  "formes": [
+    "corviknight-gmax"
+  ],
+  "weight": 75,
+  "height": 2.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxwindrage"
+}

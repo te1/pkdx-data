@@ -1,0 +1,35 @@
+{
+  "slug": "dragapult",
+  "name": "Dragapult",
+  "num": 887,
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "clearbody",
+    "1": "infiltrator",
+    "H": "cursedbody"
+  },
+  "baseStats": {
+    "hp": 88,
+    "atk": 120,
+    "def": 75,
+    "spa": 100,
+    "spd": 75,
+    "spe": 142
+  },
+  "prevo": "drakloak",
+  "evoLevel": 60,
+  "weight": 50,
+  "height": 3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous",
+    "Dragon"
+  ]
+}

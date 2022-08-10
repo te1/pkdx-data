@@ -1,0 +1,37 @@
+{
+  "slug": "lotad",
+  "name": "Lotad",
+  "num": 270,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "raindish",
+    "H": "owntempo"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 30,
+    "def": 30,
+    "spa": 40,
+    "spd": 50,
+    "spe": 30
+  },
+  "evos": [
+    "lombre"
+  ],
+  "weight": 2.6,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Grass"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "ninetales-alola",
+  "name": "Alolan Ninetales",
+  "num": 38,
+  "types": [
+    "ice",
+    "fairy"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "snowcloak",
+    "H": "snowwarning"
+  },
+  "baseStats": {
+    "hp": 73,
+    "atk": 67,
+    "def": 75,
+    "spa": 81,
+    "spd": 100,
+    "spe": 109
+  },
+  "prevo": "vulpix-alola",
+  "evoType": "useItem",
+  "evoItem": "Ice Stone",
+  "baseSpecies": "ninetales",
+  "region": "Alola",
+  "weight": 19.9,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

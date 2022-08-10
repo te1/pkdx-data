@@ -1,0 +1,36 @@
+{
+  "slug": "combusken",
+  "name": "Combusken",
+  "num": 256,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "blaze",
+    "H": "speedboost"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 85,
+    "def": 60,
+    "spa": 85,
+    "spd": 60,
+    "spe": 55
+  },
+  "prevo": "torchic",
+  "evos": [
+    "blaziken"
+  ],
+  "evoLevel": 16,
+  "weight": 19.5,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "togetic",
+  "name": "Togetic",
+  "num": 176,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "hustle",
+    "1": "serenegrace",
+    "H": "superluck"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 40,
+    "def": 85,
+    "spa": 80,
+    "spd": 105,
+    "spe": 40
+  },
+  "prevo": "togepi",
+  "evos": [
+    "togekiss"
+  ],
+  "evoType": "levelFriendship",
+  "weight": 3.2,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Flying",
+    "Fairy"
+  ]
+}

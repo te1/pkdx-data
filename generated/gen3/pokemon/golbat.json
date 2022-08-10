@@ -1,0 +1,35 @@
+{
+  "slug": "golbat",
+  "name": "Golbat",
+  "num": 42,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "innerfocus"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 80,
+    "def": 70,
+    "spa": 65,
+    "spd": 75,
+    "spe": 90
+  },
+  "prevo": "zubat",
+  "evos": [
+    "crobat"
+  ],
+  "evoLevel": 22,
+  "weight": 55,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ]
+}

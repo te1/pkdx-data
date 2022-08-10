@@ -1,0 +1,37 @@
+{
+  "slug": "corsola-galar",
+  "name": "Galarian Corsola",
+  "num": 222,
+  "types": [
+    "ghost"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "weakarmor",
+    "H": "cursedbody"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 55,
+    "def": 100,
+    "spa": 65,
+    "spd": 100,
+    "spe": 30
+  },
+  "evos": [
+    "cursola"
+  ],
+  "baseSpecies": "corsola",
+  "region": "Galar",
+  "weight": 0.5,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ],
+  "canHatch": true
+}

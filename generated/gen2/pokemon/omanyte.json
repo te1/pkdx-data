@@ -1,0 +1,32 @@
+{
+  "slug": "omanyte",
+  "name": "Omanyte",
+  "num": 138,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 35,
+    "atk": 40,
+    "def": 100,
+    "spa": 90,
+    "spd": 55,
+    "spe": 35
+  },
+  "evos": [
+    "omastar"
+  ],
+  "weight": 7.5,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ],
+  "canHatch": true
+}

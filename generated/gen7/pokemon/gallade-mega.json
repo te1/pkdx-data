@@ -1,0 +1,32 @@
+{
+  "slug": "gallade-mega",
+  "name": "Mega Gallade",
+  "num": 475,
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "innerfocus"
+  },
+  "baseStats": {
+    "hp": 68,
+    "atk": 165,
+    "def": 95,
+    "spa": 65,
+    "spd": 115,
+    "spe": 110
+  },
+  "baseSpecies": "gallade",
+  "formTriggerItem": "galladite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 56.4,
+  "height": 1.6,
+  "gender": "M",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "crustle",
+  "name": "Crustle",
+  "num": 558,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "sturdy",
+    "1": "shellarmor",
+    "H": "weakarmor"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 105,
+    "def": 125,
+    "spa": 65,
+    "spd": 75,
+    "spe": 45
+  },
+  "prevo": "dwebble",
+  "evoLevel": 34,
+  "weight": 200,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug",
+    "Mineral"
+  ]
+}

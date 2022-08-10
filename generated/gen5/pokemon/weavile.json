@@ -1,0 +1,35 @@
+{
+  "slug": "weavile",
+  "name": "Weavile",
+  "num": 461,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "pressure",
+    "H": "pickpocket"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 120,
+    "def": 65,
+    "spa": 45,
+    "spd": 85,
+    "spe": 125
+  },
+  "prevo": "sneasel",
+  "evoType": "levelHold",
+  "evoCondition": "at night",
+  "evoItem": "Razor Claw",
+  "weight": 34,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

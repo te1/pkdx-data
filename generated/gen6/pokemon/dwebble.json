@@ -1,0 +1,37 @@
+{
+  "slug": "dwebble",
+  "name": "Dwebble",
+  "num": 557,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "sturdy",
+    "1": "shellarmor",
+    "H": "weakarmor"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 65,
+    "def": 85,
+    "spa": 35,
+    "spd": 35,
+    "spe": 55
+  },
+  "evos": [
+    "crustle"
+  ],
+  "weight": 14.5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug",
+    "Mineral"
+  ],
+  "canHatch": true
+}

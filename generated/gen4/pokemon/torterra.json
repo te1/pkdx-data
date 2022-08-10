@@ -1,0 +1,33 @@
+{
+  "slug": "torterra",
+  "name": "Torterra",
+  "num": 389,
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "overgrow"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 109,
+    "def": 105,
+    "spa": 75,
+    "spd": 85,
+    "spe": 56
+  },
+  "prevo": "grotle",
+  "evoLevel": 32,
+  "weight": 310,
+  "height": 2.2,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ]
+}

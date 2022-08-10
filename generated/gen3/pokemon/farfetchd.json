@@ -1,0 +1,33 @@
+{
+  "slug": "farfetchd",
+  "name": "Farfetch'd",
+  "num": 83,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "keeneye",
+    "1": "innerfocus"
+  },
+  "baseStats": {
+    "hp": 52,
+    "atk": 65,
+    "def": 55,
+    "spa": 58,
+    "spd": 62,
+    "spe": 60
+  },
+  "weight": 15,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Field"
+  ],
+  "canHatch": true
+}

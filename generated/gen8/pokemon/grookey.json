@@ -1,0 +1,35 @@
+{
+  "slug": "grookey",
+  "name": "Grookey",
+  "num": 810,
+  "types": [
+    "grass"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "overgrow",
+    "H": "grassysurge"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 65,
+    "def": 50,
+    "spa": 40,
+    "spd": 40,
+    "spe": 65
+  },
+  "evos": [
+    "thwackey"
+  ],
+  "weight": 5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "canHatch": true
+}

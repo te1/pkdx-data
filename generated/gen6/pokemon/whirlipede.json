@@ -1,0 +1,37 @@
+{
+  "slug": "whirlipede",
+  "name": "Whirlipede",
+  "num": 544,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "swarm",
+    "H": "speedboost"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 55,
+    "def": 99,
+    "spa": 40,
+    "spd": 79,
+    "spe": 47
+  },
+  "prevo": "venipede",
+  "evos": [
+    "scolipede"
+  ],
+  "evoLevel": 22,
+  "weight": 58.5,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ]
+}

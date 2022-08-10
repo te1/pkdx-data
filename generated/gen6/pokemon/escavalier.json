@@ -1,0 +1,35 @@
+{
+  "slug": "escavalier",
+  "name": "Escavalier",
+  "num": 589,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "swarm",
+    "1": "shellarmor",
+    "H": "overcoat"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 135,
+    "def": 105,
+    "spa": 60,
+    "spd": 105,
+    "spe": 20
+  },
+  "prevo": "karrablast",
+  "evoType": "trade",
+  "evoCondition": "with a Shelmet",
+  "weight": 33,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ]
+}

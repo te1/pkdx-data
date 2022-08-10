@@ -1,0 +1,47 @@
+{
+  "slug": "burmy",
+  "name": "Burmy",
+  "num": 412,
+  "types": [
+    "bug"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "shedskin"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 29,
+    "def": 45,
+    "spa": 29,
+    "spd": 45,
+    "spe": 36
+  },
+  "evos": [
+    "wormadam",
+    "wormadam-sandy",
+    "wormadam-trash",
+    "mothim"
+  ],
+  "cosmeticSubName": "Plant Cloak",
+  "cosmeticFormes": [
+    {
+      "slug": "burmy-sandy",
+      "subName": "Sandy Cloak"
+    },
+    {
+      "slug": "burmy-trash",
+      "subName": "Trash Cloak"
+    }
+  ],
+  "weight": 3.4,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "manectric",
+  "name": "Manectric",
+  "num": 310,
+  "types": [
+    "electric"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "static",
+    "1": "lightningrod",
+    "H": "minus"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 75,
+    "def": 60,
+    "spa": 105,
+    "spd": 60,
+    "spe": 105
+  },
+  "prevo": "electrike",
+  "evoLevel": 26,
+  "weight": 40.2,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

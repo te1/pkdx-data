@@ -1,0 +1,33 @@
+{
+  "slug": "golisopod",
+  "name": "Golisopod",
+  "num": 768,
+  "types": [
+    "bug",
+    "water"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "emergencyexit"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 125,
+    "def": 140,
+    "spa": 60,
+    "spd": 90,
+    "spe": 40
+  },
+  "prevo": "wimpod",
+  "evoLevel": 30,
+  "weight": 108,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug",
+    "Water 3"
+  ]
+}

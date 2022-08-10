@@ -1,0 +1,37 @@
+{
+  "slug": "lairon",
+  "name": "Lairon",
+  "num": 305,
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "sturdy",
+    "1": "rockhead",
+    "H": "heavymetal"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 90,
+    "def": 140,
+    "spa": 50,
+    "spd": 50,
+    "spe": 40
+  },
+  "prevo": "aron",
+  "evos": [
+    "aggron"
+  ],
+  "evoLevel": 32,
+  "weight": 120,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster"
+  ]
+}

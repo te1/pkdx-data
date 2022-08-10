@@ -1,0 +1,32 @@
+{
+  "slug": "espeon",
+  "name": "Espeon",
+  "num": 196,
+  "types": [
+    "psychic"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "synchronize"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 65,
+    "def": 60,
+    "spa": 130,
+    "spd": 95,
+    "spe": 110
+  },
+  "prevo": "eevee",
+  "evoType": "levelFriendship",
+  "evoCondition": "during the day",
+  "weight": 26.5,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

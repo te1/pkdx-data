@@ -1,0 +1,59 @@
+{
+  "slug": "minior",
+  "name": "Minior",
+  "subName": "Core Form",
+  "num": 774,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "shieldsdown"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 100,
+    "def": 60,
+    "spa": 100,
+    "spd": 60,
+    "spe": 120
+  },
+  "formes": [
+    "minior-meteor"
+  ],
+  "cosmeticSubName": "Red Core",
+  "cosmeticFormes": [
+    {
+      "slug": "minior-orange",
+      "subName": "Orange Core"
+    },
+    {
+      "slug": "minior-yellow",
+      "subName": "Yellow Core"
+    },
+    {
+      "slug": "minior-green",
+      "subName": "Green Core"
+    },
+    {
+      "slug": "minior-blue",
+      "subName": "Blue Core"
+    },
+    {
+      "slug": "minior-indigo",
+      "subName": "Indigo Core"
+    },
+    {
+      "slug": "minior-violet",
+      "subName": "Violet Core"
+    }
+  ],
+  "weight": 0.3,
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true
+}

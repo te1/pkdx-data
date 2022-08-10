@@ -1,0 +1,35 @@
+{
+  "slug": "poliwrath",
+  "name": "Poliwrath",
+  "num": 62,
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "waterabsorb",
+    "1": "damp",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 85,
+    "def": 95,
+    "spa": 70,
+    "spd": 90,
+    "spe": 70
+  },
+  "prevo": "poliwhirl",
+  "evoType": "useItem",
+  "evoItem": "Water Stone",
+  "weight": 54,
+  "height": 1.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1"
+  ]
+}

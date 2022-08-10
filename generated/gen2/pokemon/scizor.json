@@ -1,0 +1,30 @@
+{
+  "slug": "scizor",
+  "name": "Scizor",
+  "num": 212,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 70,
+    "atk": 130,
+    "def": 100,
+    "spa": 55,
+    "spd": 80,
+    "spe": 65
+  },
+  "prevo": "scyther",
+  "evoType": "trade",
+  "evoItem": "Metal Coat",
+  "weight": 118,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ]
+}

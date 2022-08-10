@@ -1,0 +1,35 @@
+{
+  "slug": "gible",
+  "name": "Gible",
+  "num": 443,
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "sandveil"
+  },
+  "baseStats": {
+    "hp": 58,
+    "atk": 70,
+    "def": 45,
+    "spa": 40,
+    "spd": 45,
+    "spe": 42
+  },
+  "evos": [
+    "gabite"
+  ],
+  "weight": 20.5,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true
+}

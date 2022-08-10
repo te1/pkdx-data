@@ -1,0 +1,30 @@
+{
+  "slug": "hitmonchan",
+  "name": "Hitmonchan",
+  "num": 107,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "keeneye",
+    "1": "ironfist"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 105,
+    "def": 79,
+    "spa": 35,
+    "spd": 110,
+    "spe": 76
+  },
+  "prevo": "tyrogue",
+  "evoCondition": "with an Atk stat < its Def stat",
+  "evoLevel": 20,
+  "weight": 50.2,
+  "height": 1.4,
+  "gender": "M",
+  "eggGroups": [
+    "Human-Like"
+  ]
+}

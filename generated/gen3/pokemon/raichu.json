@@ -1,0 +1,33 @@
+{
+  "slug": "raichu",
+  "name": "Raichu",
+  "num": 26,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "static"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 90,
+    "def": 55,
+    "spa": 90,
+    "spd": 80,
+    "spe": 100
+  },
+  "prevo": "pikachu",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
+  "weight": 30,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ]
+}

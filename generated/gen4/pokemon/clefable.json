@@ -1,0 +1,33 @@
+{
+  "slug": "clefable",
+  "name": "Clefable",
+  "num": 36,
+  "types": [
+    "normal"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "cutecharm",
+    "1": "magicguard"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 70,
+    "def": 73,
+    "spa": 85,
+    "spd": 90,
+    "spe": 60
+  },
+  "prevo": "clefairy",
+  "evoType": "useItem",
+  "evoItem": "Moon Stone",
+  "weight": 40,
+  "height": 1.3,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Fairy"
+  ]
+}

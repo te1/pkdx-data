@@ -1,0 +1,36 @@
+{
+  "slug": "meowth-gmax",
+  "name": "Gigantamax Meowth",
+  "num": 52,
+  "types": [
+    "normal"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "pickup",
+    "1": "technician",
+    "H": "unnerve"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 45,
+    "def": 35,
+    "spa": 40,
+    "spd": 40,
+    "spe": 90
+  },
+  "baseSpecies": "meowth",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "weight": 0,
+  "height": 33,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxgoldrush"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "castform-sunny",
+  "name": "Castform",
+  "subName": "Sunny Form",
+  "num": 351,
+  "types": [
+    "fire"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "forecast"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 70,
+    "def": 70,
+    "spa": 70,
+    "spd": 70,
+    "spe": 70
+  },
+  "baseSpecies": "castform",
+  "formTriggerAbility": "forecast",
+  "isBattleOnly": true,
+  "weight": 0.8,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Amorphous"
+  ],
+  "canHatch": true
+}

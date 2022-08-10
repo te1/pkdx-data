@@ -1,0 +1,32 @@
+{
+  "slug": "necrozma-ultra",
+  "name": "Ultra Necrozma",
+  "num": 800,
+  "types": [
+    "psychic",
+    "dragon"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "neuroforce"
+  },
+  "baseStats": {
+    "hp": 97,
+    "atk": 167,
+    "def": 97,
+    "spa": 167,
+    "spd": 97,
+    "spe": 129
+  },
+  "baseSpecies": "necrozma",
+  "baseForm": "necrozma-dawn-wings",
+  "formTriggerItem": "ultranecroziumz",
+  "isBattleOnly": true,
+  "weight": 230,
+  "height": 7.5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

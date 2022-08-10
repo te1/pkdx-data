@@ -1,0 +1,34 @@
+{
+  "slug": "treecko",
+  "name": "Treecko",
+  "num": 252,
+  "types": [
+    "grass"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "overgrow"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 45,
+    "def": 35,
+    "spa": 65,
+    "spd": 55,
+    "spe": 70
+  },
+  "evos": [
+    "grovyle"
+  ],
+  "weight": 5,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true
+}

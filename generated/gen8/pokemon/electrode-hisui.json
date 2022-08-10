@@ -1,0 +1,34 @@
+{
+  "slug": "electrode-hisui",
+  "name": "Hisuian Electrode",
+  "num": 101,
+  "types": [
+    "electric",
+    "grass"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 70,
+    "spa": 80,
+    "spd": 80,
+    "spe": 150
+  },
+  "prevo": "voltorb-hisui",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "isForme": true,
+  "region": "Hisui",
+  "weight": 71,
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ]
+}

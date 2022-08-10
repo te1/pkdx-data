@@ -1,0 +1,33 @@
+{
+  "slug": "arceus-bug",
+  "name": "Arceus",
+  "subName": "Bug",
+  "num": 493,
+  "types": [
+    "bug"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "multitype"
+  },
+  "baseStats": {
+    "hp": 120,
+    "atk": 120,
+    "def": 120,
+    "spa": 120,
+    "spd": 120,
+    "spe": 120
+  },
+  "baseSpecies": "arceus",
+  "formTriggerItems": [
+    "insectplate",
+    "buginiumz"
+  ],
+  "weight": 320,
+  "height": 3.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isMythical": true
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "alomomola",
+  "name": "Alomomola",
+  "num": 594,
+  "types": [
+    "water"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "healer",
+    "1": "hydration",
+    "H": "regenerator"
+  },
+  "baseStats": {
+    "hp": 165,
+    "atk": 75,
+    "def": 80,
+    "spa": 40,
+    "spd": 45,
+    "spe": 65
+  },
+  "weight": 31.6,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 2"
+  ],
+  "canHatch": true
+}

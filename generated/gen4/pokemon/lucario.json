@@ -1,0 +1,35 @@
+{
+  "slug": "lucario",
+  "name": "Lucario",
+  "num": 448,
+  "types": [
+    "fighting",
+    "steel"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "steadfast",
+    "1": "innerfocus"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 110,
+    "def": 70,
+    "spa": 115,
+    "spd": 70,
+    "spe": 90
+  },
+  "prevo": "riolu",
+  "evoType": "levelFriendship",
+  "evoCondition": "during the day",
+  "weight": 54,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ]
+}

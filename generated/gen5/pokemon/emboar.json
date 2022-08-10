@@ -1,0 +1,34 @@
+{
+  "slug": "emboar",
+  "name": "Emboar",
+  "num": 500,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "blaze",
+    "H": "reckless"
+  },
+  "hiddenAbilityUnreleased": true,
+  "baseStats": {
+    "hp": 110,
+    "atk": 123,
+    "def": 65,
+    "spa": 100,
+    "spd": 65,
+    "spe": 65
+  },
+  "prevo": "pignite",
+  "evoLevel": 36,
+  "weight": 150,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

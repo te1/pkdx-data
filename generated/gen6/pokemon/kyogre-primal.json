@@ -1,0 +1,31 @@
+{
+  "slug": "kyogre-primal",
+  "name": "Primal Kyogre",
+  "num": 382,
+  "types": [
+    "water"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "primordialsea"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 150,
+    "def": 90,
+    "spa": 180,
+    "spd": 160,
+    "spe": 90
+  },
+  "baseSpecies": "kyogre",
+  "formTriggerItem": "blueorb",
+  "isBattleOnly": true,
+  "isPrimal": true,
+  "weight": 430,
+  "height": 9.8,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

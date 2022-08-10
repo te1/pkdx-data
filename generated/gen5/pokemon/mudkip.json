@@ -1,0 +1,35 @@
+{
+  "slug": "mudkip",
+  "name": "Mudkip",
+  "num": 258,
+  "types": [
+    "water"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "torrent",
+    "H": "damp"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 70,
+    "def": 50,
+    "spa": 50,
+    "spd": 50,
+    "spe": 40
+  },
+  "evos": [
+    "marshtomp"
+  ],
+  "weight": 7.6,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true
+}

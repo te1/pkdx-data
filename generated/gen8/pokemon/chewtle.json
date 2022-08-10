@@ -1,0 +1,36 @@
+{
+  "slug": "chewtle",
+  "name": "Chewtle",
+  "num": 833,
+  "types": [
+    "water"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "strongjaw",
+    "1": "shellarmor",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 64,
+    "def": 50,
+    "spa": 38,
+    "spd": 38,
+    "spe": 44
+  },
+  "evos": [
+    "drednaw"
+  ],
+  "weight": 8.5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "nidoking",
+  "name": "Nidoking",
+  "num": 34,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "rivalry",
+    "H": "sheerforce"
+  },
+  "baseStats": {
+    "hp": 81,
+    "atk": 92,
+    "def": 77,
+    "spa": 85,
+    "spd": 75,
+    "spe": 85
+  },
+  "prevo": "nidorino",
+  "evoType": "useItem",
+  "evoItem": "Moon Stone",
+  "weight": 62,
+  "height": 1.4,
+  "gender": "M",
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ]
+}

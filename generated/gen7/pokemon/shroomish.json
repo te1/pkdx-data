@@ -1,0 +1,36 @@
+{
+  "slug": "shroomish",
+  "name": "Shroomish",
+  "num": 285,
+  "types": [
+    "grass"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "effectspore",
+    "1": "poisonheal",
+    "H": "quickfeet"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 40,
+    "def": 60,
+    "spa": 40,
+    "spd": 60,
+    "spe": 35
+  },
+  "evos": [
+    "breloom"
+  ],
+  "weight": 4.5,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "canHatch": true
+}

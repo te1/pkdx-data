@@ -1,0 +1,36 @@
+{
+  "slug": "golem-alola",
+  "name": "Alolan Golem",
+  "num": 76,
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "magnetpull",
+    "1": "sturdy",
+    "H": "galvanize"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 120,
+    "def": 130,
+    "spa": 55,
+    "spd": 65,
+    "spe": 45
+  },
+  "prevo": "graveler-alola",
+  "evoType": "trade",
+  "baseSpecies": "golem",
+  "region": "Alola",
+  "weight": 316,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ]
+}

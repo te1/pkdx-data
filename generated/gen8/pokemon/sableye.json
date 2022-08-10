@@ -1,0 +1,33 @@
+{
+  "slug": "sableye",
+  "name": "Sableye",
+  "num": 302,
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "keeneye",
+    "1": "stall",
+    "H": "prankster"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 75,
+    "def": 75,
+    "spa": 65,
+    "spd": 65,
+    "spe": 50
+  },
+  "weight": 11,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true
+}

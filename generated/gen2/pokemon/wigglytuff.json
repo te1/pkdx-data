@@ -1,0 +1,29 @@
+{
+  "slug": "wigglytuff",
+  "name": "Wigglytuff",
+  "num": 40,
+  "types": [
+    "normal"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 140,
+    "atk": 70,
+    "def": 45,
+    "spa": 75,
+    "spd": 50,
+    "spe": 45
+  },
+  "prevo": "jigglypuff",
+  "evoType": "useItem",
+  "evoItem": "Moon Stone",
+  "weight": 12,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Fairy"
+  ]
+}

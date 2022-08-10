@@ -1,0 +1,35 @@
+{
+  "slug": "wyrdeer",
+  "name": "Wyrdeer",
+  "num": 899,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "intimidate",
+    "1": "frisk",
+    "H": "sapsipper"
+  },
+  "baseStats": {
+    "hp": 103,
+    "atk": 105,
+    "def": 72,
+    "spa": 105,
+    "spd": 75,
+    "spe": 65
+  },
+  "prevo": "stantler",
+  "evoType": "other",
+  "evoCondition": "Use Agile style Psyshield Bash 20 times",
+  "weight": 95.1,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

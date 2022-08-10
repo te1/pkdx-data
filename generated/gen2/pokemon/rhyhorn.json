@@ -1,0 +1,32 @@
+{
+  "slug": "rhyhorn",
+  "name": "Rhyhorn",
+  "num": 111,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 80,
+    "atk": 85,
+    "def": 95,
+    "spa": 30,
+    "spd": 30,
+    "spe": 25
+  },
+  "evos": [
+    "rhydon"
+  ],
+  "weight": 115,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "canHatch": true
+}

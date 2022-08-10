@@ -1,0 +1,31 @@
+{
+  "slug": "charmander",
+  "name": "Charmander",
+  "num": 4,
+  "types": [
+    "fire"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 39,
+    "atk": 52,
+    "def": 43,
+    "spa": 60,
+    "spd": 50,
+    "spe": 65
+  },
+  "evos": [
+    "charmeleon"
+  ],
+  "weight": 8.5,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true
+}

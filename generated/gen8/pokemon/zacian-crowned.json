@@ -1,0 +1,33 @@
+{
+  "slug": "zacian-crowned",
+  "name": "Zacian",
+  "subName": "Crowned Sword",
+  "num": 888,
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "intrepidsword"
+  },
+  "baseStats": {
+    "hp": 92,
+    "atk": 170,
+    "def": 115,
+    "spa": 80,
+    "spd": 115,
+    "spe": 148
+  },
+  "baseSpecies": "zacian",
+  "formTriggerItem": "rustedsword",
+  "isBattleOnly": true,
+  "weight": 355,
+  "height": 2.8,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true,
+  "cannotDynamax": true
+}

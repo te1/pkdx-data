@@ -1,0 +1,33 @@
+{
+  "slug": "arceus-grass",
+  "name": "Arceus",
+  "subName": "Grass",
+  "num": 493,
+  "types": [
+    "grass"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "multitype"
+  },
+  "baseStats": {
+    "hp": 120,
+    "atk": 120,
+    "def": 120,
+    "spa": 120,
+    "spd": 120,
+    "spe": 120
+  },
+  "baseSpecies": "arceus",
+  "formTriggerItems": [
+    "meadowplate",
+    "grassiumz"
+  ],
+  "weight": 320,
+  "height": 3.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isMythical": true
+}

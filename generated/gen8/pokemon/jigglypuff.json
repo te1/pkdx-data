@@ -1,0 +1,37 @@
+{
+  "slug": "jigglypuff",
+  "name": "Jigglypuff",
+  "num": 39,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "cutecharm",
+    "1": "competitive",
+    "H": "friendguard"
+  },
+  "baseStats": {
+    "hp": 115,
+    "atk": 45,
+    "def": 20,
+    "spa": 45,
+    "spd": 25,
+    "spe": 20
+  },
+  "prevo": "igglybuff",
+  "evos": [
+    "wigglytuff"
+  ],
+  "evoType": "levelFriendship",
+  "weight": 5.5,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Fairy"
+  ]
+}

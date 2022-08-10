@@ -1,0 +1,36 @@
+{
+  "slug": "charmeleon",
+  "name": "Charmeleon",
+  "num": 5,
+  "types": [
+    "fire"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "blaze",
+    "H": "solarpower"
+  },
+  "baseStats": {
+    "hp": 58,
+    "atk": 64,
+    "def": 58,
+    "spa": 80,
+    "spd": 65,
+    "spe": 80
+  },
+  "prevo": "charmander",
+  "evos": [
+    "charizard"
+  ],
+  "evoLevel": 16,
+  "weight": 19,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ]
+}

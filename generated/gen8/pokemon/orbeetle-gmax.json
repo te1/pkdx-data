@@ -1,0 +1,37 @@
+{
+  "slug": "orbeetle-gmax",
+  "name": "Gigantamax Orbeetle",
+  "num": 826,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "swarm",
+    "1": "frisk",
+    "H": "telepathy"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 45,
+    "def": 110,
+    "spa": 80,
+    "spd": 120,
+    "spe": 90
+  },
+  "baseSpecies": "orbeetle",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "weight": 0,
+  "height": 14,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxgravitas"
+}

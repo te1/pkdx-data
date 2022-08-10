@@ -1,0 +1,34 @@
+{
+  "slug": "rhydon",
+  "name": "Rhydon",
+  "num": 112,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "lightningrod",
+    "1": "rockhead"
+  },
+  "baseStats": {
+    "hp": 105,
+    "atk": 130,
+    "def": 120,
+    "spa": 45,
+    "spd": 45,
+    "spe": 40
+  },
+  "prevo": "rhyhorn",
+  "evoLevel": 42,
+  "weight": 120,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ]
+}

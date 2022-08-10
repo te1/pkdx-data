@@ -1,0 +1,69 @@
+{
+  "slug": "furfrou",
+  "name": "Furfrou",
+  "num": 676,
+  "types": [
+    "normal"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "furcoat"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 80,
+    "def": 60,
+    "spa": 65,
+    "spd": 90,
+    "spe": 102
+  },
+  "cosmeticSubName": "Natural Form",
+  "cosmeticFormes": [
+    {
+      "slug": "furfrou-heart",
+      "subName": "Heart Trim"
+    },
+    {
+      "slug": "furfrou-star",
+      "subName": "Star Trim"
+    },
+    {
+      "slug": "furfrou-diamond",
+      "subName": "Diamond Trim"
+    },
+    {
+      "slug": "furfrou-debutante",
+      "subName": "Debutante Trim"
+    },
+    {
+      "slug": "furfrou-matron",
+      "subName": "Matron Trim"
+    },
+    {
+      "slug": "furfrou-dandy",
+      "subName": "Dandy Trim"
+    },
+    {
+      "slug": "furfrou-lareine",
+      "subName": "La Reine Trim"
+    },
+    {
+      "slug": "furfrou-kabuki",
+      "subName": "Kabuki Trim"
+    },
+    {
+      "slug": "furfrou-pharaoh",
+      "subName": "Pharaoh Trim"
+    }
+  ],
+  "weight": 28,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

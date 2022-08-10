@@ -1,0 +1,31 @@
+{
+  "slug": "magikarp",
+  "name": "Magikarp",
+  "num": 129,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 20,
+    "atk": 10,
+    "def": 55,
+    "spa": 15,
+    "spd": 20,
+    "spe": 80
+  },
+  "evos": [
+    "gyarados"
+  ],
+  "weight": 10,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2",
+    "Dragon"
+  ],
+  "canHatch": true
+}

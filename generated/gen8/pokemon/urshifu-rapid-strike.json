@@ -1,0 +1,38 @@
+{
+  "slug": "urshifu-rapid-strike",
+  "name": "Urshifu",
+  "subName": "Rapid Strike Style",
+  "num": 892,
+  "types": [
+    "fighting",
+    "water"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "unseenfist"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 130,
+    "def": 100,
+    "spa": 63,
+    "spd": 60,
+    "spe": 97
+  },
+  "prevo": "kubfu",
+  "evoType": "other",
+  "evoCondition": "Defeat the Rapid Strike Tower",
+  "baseSpecies": "urshifu",
+  "weight": 105,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true,
+  "canGmax": true,
+  "gmaxMove": "gmaxrapidflow"
+}

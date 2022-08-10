@@ -1,0 +1,35 @@
+{
+  "slug": "tyrantrum",
+  "name": "Tyrantrum",
+  "num": 697,
+  "types": [
+    "rock",
+    "dragon"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "strongjaw",
+    "H": "rockhead"
+  },
+  "baseStats": {
+    "hp": 82,
+    "atk": 121,
+    "def": 119,
+    "spa": 69,
+    "spd": 59,
+    "spe": 71
+  },
+  "prevo": "tyrunt",
+  "evoCondition": "during the day",
+  "evoLevel": 39,
+  "weight": 270,
+  "height": 2.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ]
+}

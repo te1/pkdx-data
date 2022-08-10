@@ -1,0 +1,36 @@
+{
+  "slug": "doduo",
+  "name": "Doduo",
+  "num": 84,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "runaway",
+    "1": "earlybird",
+    "H": "tangledfeet"
+  },
+  "baseStats": {
+    "hp": 35,
+    "atk": 85,
+    "def": 45,
+    "spa": 35,
+    "spd": 35,
+    "spe": 75
+  },
+  "evos": [
+    "dodrio"
+  ],
+  "weight": 39.2,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true
+}

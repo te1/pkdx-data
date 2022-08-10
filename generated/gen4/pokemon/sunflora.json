@@ -1,0 +1,33 @@
+{
+  "slug": "sunflora",
+  "name": "Sunflora",
+  "num": 192,
+  "types": [
+    "grass"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "chlorophyll",
+    "1": "solarpower"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 75,
+    "def": 55,
+    "spa": 105,
+    "spd": 85,
+    "spe": 30
+  },
+  "prevo": "sunkern",
+  "evoType": "useItem",
+  "evoItem": "Sun Stone",
+  "weight": 8.5,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ]
+}

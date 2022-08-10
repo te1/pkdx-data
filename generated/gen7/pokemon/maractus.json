@@ -1,0 +1,32 @@
+{
+  "slug": "maractus",
+  "name": "Maractus",
+  "num": 556,
+  "types": [
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "waterabsorb",
+    "1": "chlorophyll",
+    "H": "stormdrain"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 86,
+    "def": 67,
+    "spa": 106,
+    "spd": 67,
+    "spe": 60
+  },
+  "weight": 28,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true
+}

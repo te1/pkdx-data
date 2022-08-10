@@ -1,0 +1,33 @@
+{
+  "slug": "leafeon",
+  "name": "Leafeon",
+  "num": 470,
+  "types": [
+    "grass"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "leafguard",
+    "H": "chlorophyll"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 110,
+    "def": 130,
+    "spa": 60,
+    "spd": 65,
+    "spe": 95
+  },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "weight": 25.5,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "haunter",
+  "name": "Haunter",
+  "num": 93,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 45,
+    "atk": 50,
+    "def": 45,
+    "spa": 115,
+    "spd": 55,
+    "spe": 95
+  },
+  "prevo": "gastly",
+  "evos": [
+    "gengar"
+  ],
+  "evoLevel": 25,
+  "weight": 0.1,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ]
+}

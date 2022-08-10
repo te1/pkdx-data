@@ -1,0 +1,35 @@
+{
+  "slug": "delcatty",
+  "name": "Delcatty",
+  "num": 301,
+  "types": [
+    "normal"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "cutecharm",
+    "1": "normalize",
+    "H": "wonderskin"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 65,
+    "def": 65,
+    "spa": 55,
+    "spd": 55,
+    "spe": 90
+  },
+  "prevo": "skitty",
+  "evoType": "useItem",
+  "evoItem": "Moon Stone",
+  "weight": 32.6,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ]
+}

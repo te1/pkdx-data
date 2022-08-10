@@ -1,0 +1,36 @@
+{
+  "slug": "gliscor",
+  "name": "Gliscor",
+  "num": 472,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "hypercutter",
+    "1": "sandveil",
+    "H": "poisonheal"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 95,
+    "def": 125,
+    "spa": 45,
+    "spd": 75,
+    "spe": 95
+  },
+  "prevo": "gligar",
+  "evoType": "levelHold",
+  "evoCondition": "at night",
+  "evoItem": "Razor Fang",
+  "weight": 42.5,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ]
+}

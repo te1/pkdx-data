@@ -1,0 +1,33 @@
+{
+  "slug": "zamazenta-crowned",
+  "name": "Zamazenta",
+  "subName": "Crowned Shield",
+  "num": 889,
+  "types": [
+    "fighting",
+    "steel"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "dauntlessshield"
+  },
+  "baseStats": {
+    "hp": 92,
+    "atk": 130,
+    "def": 145,
+    "spa": 80,
+    "spd": 145,
+    "spe": 128
+  },
+  "baseSpecies": "zamazenta",
+  "formTriggerItem": "rustedshield",
+  "isBattleOnly": true,
+  "weight": 785,
+  "height": 2.9,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true,
+  "cannotDynamax": true
+}

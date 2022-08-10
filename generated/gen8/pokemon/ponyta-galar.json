@@ -1,0 +1,37 @@
+{
+  "slug": "ponyta-galar",
+  "name": "Galarian Ponyta",
+  "num": 77,
+  "types": [
+    "psychic"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "runaway",
+    "1": "pastelveil",
+    "H": "anticipation"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 85,
+    "def": 55,
+    "spa": 65,
+    "spd": 65,
+    "spe": 90
+  },
+  "evos": [
+    "rapidash-galar"
+  ],
+  "baseSpecies": "ponyta",
+  "region": "Galar",
+  "weight": 24,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

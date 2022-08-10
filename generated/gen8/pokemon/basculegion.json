@@ -1,0 +1,36 @@
+{
+  "slug": "basculegion",
+  "name": "Basculegion",
+  "subName": "Male",
+  "num": 902,
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "rattled",
+    "1": "adaptability",
+    "H": "moldbreaker"
+  },
+  "baseStats": {
+    "hp": 120,
+    "atk": 112,
+    "def": 65,
+    "spa": 80,
+    "spd": 75,
+    "spe": 78
+  },
+  "prevo": "basculin-white-striped",
+  "evoType": "other",
+  "evoCondition": "Receive 294+ recoil without fainting",
+  "formes": [
+    "basculegion-f"
+  ],
+  "weight": 110,
+  "height": 3,
+  "gender": "M",
+  "eggGroups": [
+    "Water 2"
+  ]
+}

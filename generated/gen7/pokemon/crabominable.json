@@ -1,0 +1,35 @@
+{
+  "slug": "crabominable",
+  "name": "Crabominable",
+  "num": 740,
+  "types": [
+    "fighting",
+    "ice"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "hypercutter",
+    "1": "ironfist",
+    "H": "angerpoint"
+  },
+  "baseStats": {
+    "hp": 97,
+    "atk": 132,
+    "def": 77,
+    "spa": 62,
+    "spd": 67,
+    "spe": 43
+  },
+  "prevo": "crabrawler",
+  "evoType": "levelExtra",
+  "evoCondition": "at Mount Lanakila",
+  "weight": 180,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ]
+}

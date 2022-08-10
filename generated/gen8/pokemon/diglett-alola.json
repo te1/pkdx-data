@@ -1,0 +1,38 @@
+{
+  "slug": "diglett-alola",
+  "name": "Alolan Diglett",
+  "num": 50,
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "sandveil",
+    "1": "tanglinghair",
+    "H": "sandforce"
+  },
+  "baseStats": {
+    "hp": 10,
+    "atk": 55,
+    "def": 30,
+    "spa": 35,
+    "spd": 45,
+    "spe": 90
+  },
+  "evos": [
+    "dugtrio-alola"
+  ],
+  "baseSpecies": "diglett",
+  "region": "Alola",
+  "weight": 1,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

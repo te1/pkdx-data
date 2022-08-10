@@ -1,0 +1,35 @@
+{
+  "slug": "glalie-mega",
+  "name": "Mega Glalie",
+  "num": 362,
+  "types": [
+    "ice"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "refrigerate"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 120,
+    "def": 80,
+    "spa": 120,
+    "spd": 80,
+    "spe": 100
+  },
+  "baseSpecies": "glalie",
+  "formTriggerItem": "glalitite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 350.2,
+  "height": 2.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "canHatch": true
+}

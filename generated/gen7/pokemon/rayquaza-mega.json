@@ -1,0 +1,32 @@
+{
+  "slug": "rayquaza-mega",
+  "name": "Mega Rayquaza",
+  "num": 384,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "deltastream"
+  },
+  "baseStats": {
+    "hp": 105,
+    "atk": 180,
+    "def": 100,
+    "spa": 180,
+    "spd": 100,
+    "spe": 115
+  },
+  "baseSpecies": "rayquaza",
+  "formTriggerMove": "dragonascent",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 392,
+  "height": 10.8,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

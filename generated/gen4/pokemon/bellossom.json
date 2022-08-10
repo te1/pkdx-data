@@ -1,0 +1,32 @@
+{
+  "slug": "bellossom",
+  "name": "Bellossom",
+  "num": 182,
+  "types": [
+    "grass"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "chlorophyll"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 80,
+    "def": 85,
+    "spa": 90,
+    "spd": 100,
+    "spe": 50
+  },
+  "prevo": "gloom",
+  "evoType": "useItem",
+  "evoItem": "Sun Stone",
+  "weight": 5.8,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ]
+}

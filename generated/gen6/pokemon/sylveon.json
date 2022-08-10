@@ -1,0 +1,33 @@
+{
+  "slug": "sylveon",
+  "name": "Sylveon",
+  "num": 700,
+  "types": [
+    "fairy"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "cutecharm",
+    "H": "pixilate"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 65,
+    "def": 65,
+    "spa": 110,
+    "spd": 130,
+    "spe": 60
+  },
+  "prevo": "eevee",
+  "evoType": "levelExtra",
+  "evoCondition": "with a Fairy-type move and two levels of Affection",
+  "weight": 23.5,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

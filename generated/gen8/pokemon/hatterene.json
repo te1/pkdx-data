@@ -1,0 +1,36 @@
+{
+  "slug": "hatterene",
+  "name": "Hatterene",
+  "num": 858,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "healer",
+    "1": "anticipation",
+    "H": "magicbounce"
+  },
+  "baseStats": {
+    "hp": 57,
+    "atk": 90,
+    "def": 95,
+    "spa": 136,
+    "spd": 103,
+    "spe": 29
+  },
+  "prevo": "hattrem",
+  "evoLevel": 42,
+  "formes": [
+    "hatterene-gmax"
+  ],
+  "weight": 5.1,
+  "height": 2.1,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxsmite"
+}

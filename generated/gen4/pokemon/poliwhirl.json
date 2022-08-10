@@ -1,0 +1,36 @@
+{
+  "slug": "poliwhirl",
+  "name": "Poliwhirl",
+  "num": 61,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "waterabsorb",
+    "1": "damp"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 65,
+    "def": 65,
+    "spa": 50,
+    "spd": 50,
+    "spe": 90
+  },
+  "prevo": "poliwag",
+  "evos": [
+    "poliwrath",
+    "politoed"
+  ],
+  "evoLevel": 25,
+  "weight": 20,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1"
+  ]
+}

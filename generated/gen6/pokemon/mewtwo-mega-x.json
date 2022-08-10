@@ -1,0 +1,32 @@
+{
+  "slug": "mewtwo-mega-x",
+  "name": "Mega Mewtwo X",
+  "num": 150,
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "steadfast"
+  },
+  "baseStats": {
+    "hp": 106,
+    "atk": 190,
+    "def": 100,
+    "spa": 154,
+    "spd": 100,
+    "spe": 130
+  },
+  "baseSpecies": "mewtwo",
+  "formTriggerItem": "mewtwonitex",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 127,
+  "height": 2.3,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

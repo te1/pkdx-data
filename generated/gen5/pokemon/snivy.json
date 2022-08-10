@@ -1,0 +1,36 @@
+{
+  "slug": "snivy",
+  "name": "Snivy",
+  "num": 495,
+  "types": [
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "overgrow",
+    "H": "contrary"
+  },
+  "hiddenAbilityUnreleased": true,
+  "baseStats": {
+    "hp": 45,
+    "atk": 45,
+    "def": 55,
+    "spa": 45,
+    "spd": 55,
+    "spe": 63
+  },
+  "evos": [
+    "servine"
+  ],
+  "weight": 8.1,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "canHatch": true
+}

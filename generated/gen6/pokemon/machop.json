@@ -1,0 +1,35 @@
+{
+  "slug": "machop",
+  "name": "Machop",
+  "num": 66,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "guts",
+    "1": "noguard",
+    "H": "steadfast"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 80,
+    "def": 50,
+    "spa": 35,
+    "spd": 35,
+    "spe": 35
+  },
+  "evos": [
+    "machoke"
+  ],
+  "weight": 19.5,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true
+}

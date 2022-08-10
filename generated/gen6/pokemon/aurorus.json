@@ -1,0 +1,34 @@
+{
+  "slug": "aurorus",
+  "name": "Aurorus",
+  "num": 699,
+  "types": [
+    "rock",
+    "ice"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "refrigerate",
+    "H": "snowwarning"
+  },
+  "baseStats": {
+    "hp": 123,
+    "atk": 77,
+    "def": 72,
+    "spa": 99,
+    "spd": 92,
+    "spe": 58
+  },
+  "prevo": "amaura",
+  "evoCondition": "at night",
+  "evoLevel": 39,
+  "weight": 225,
+  "height": 2.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster"
+  ]
+}

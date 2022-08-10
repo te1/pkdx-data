@@ -1,0 +1,35 @@
+{
+  "slug": "polteageist",
+  "name": "Polteageist",
+  "subName": "Phony Forme",
+  "num": 855,
+  "types": [
+    "ghost"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "weakarmor",
+    "H": "cursedbody"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 65,
+    "def": 65,
+    "spa": 134,
+    "spd": 114,
+    "spe": 70
+  },
+  "prevo": "sinistea",
+  "evoType": "useItem",
+  "evoItem": "Cracked Pot",
+  "formes": [
+    "polteageist-antique"
+  ],
+  "weight": 0.4,
+  "height": 0.2,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral",
+    "Amorphous"
+  ]
+}

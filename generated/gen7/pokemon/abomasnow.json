@@ -1,0 +1,37 @@
+{
+  "slug": "abomasnow",
+  "name": "Abomasnow",
+  "num": 460,
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "snowwarning",
+    "H": "soundproof"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 92,
+    "def": 75,
+    "spa": 92,
+    "spd": 85,
+    "spe": 60
+  },
+  "prevo": "snover",
+  "evoLevel": 40,
+  "formes": [
+    "abomasnow-mega"
+  ],
+  "weight": 135.5,
+  "height": 2.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ]
+}

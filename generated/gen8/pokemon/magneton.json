@@ -1,0 +1,34 @@
+{
+  "slug": "magneton",
+  "name": "Magneton",
+  "num": 82,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "magnetpull",
+    "1": "sturdy",
+    "H": "analytic"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 60,
+    "def": 95,
+    "spa": 120,
+    "spd": 70,
+    "spe": 70
+  },
+  "prevo": "magnemite",
+  "evos": [
+    "magnezone"
+  ],
+  "evoLevel": 30,
+  "weight": 60,
+  "height": 1,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ]
+}

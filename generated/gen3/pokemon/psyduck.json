@@ -1,0 +1,35 @@
+{
+  "slug": "psyduck",
+  "name": "Psyduck",
+  "num": 54,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "damp",
+    "1": "cloudnine"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 52,
+    "def": 48,
+    "spa": 65,
+    "spd": 50,
+    "spe": 55
+  },
+  "evos": [
+    "golduck"
+  ],
+  "weight": 19.6,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true
+}

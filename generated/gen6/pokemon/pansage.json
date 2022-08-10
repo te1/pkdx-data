@@ -1,0 +1,34 @@
+{
+  "slug": "pansage",
+  "name": "Pansage",
+  "num": 511,
+  "types": [
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "gluttony",
+    "H": "overgrow"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 53,
+    "def": 48,
+    "spa": 53,
+    "spd": 48,
+    "spe": 64
+  },
+  "evos": [
+    "simisage"
+  ],
+  "weight": 10.5,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

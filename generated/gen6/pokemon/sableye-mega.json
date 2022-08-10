@@ -1,0 +1,35 @@
+{
+  "slug": "sableye-mega",
+  "name": "Mega Sableye",
+  "num": 302,
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "magicbounce"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 85,
+    "def": 125,
+    "spa": 85,
+    "spd": 115,
+    "spe": 20
+  },
+  "baseSpecies": "sableye",
+  "formTriggerItem": "sablenite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 161,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true
+}

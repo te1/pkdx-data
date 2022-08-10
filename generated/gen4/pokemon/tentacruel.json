@@ -1,0 +1,33 @@
+{
+  "slug": "tentacruel",
+  "name": "Tentacruel",
+  "num": 73,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "clearbody",
+    "1": "liquidooze"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 70,
+    "def": 65,
+    "spa": 80,
+    "spd": 120,
+    "spe": 100
+  },
+  "prevo": "tentacool",
+  "evoLevel": 30,
+  "weight": 55,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ]
+}

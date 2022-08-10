@@ -1,0 +1,35 @@
+{
+  "slug": "swinub",
+  "name": "Swinub",
+  "num": 220,
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "oblivious",
+    "1": "snowcloak"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 50,
+    "def": 40,
+    "spa": 30,
+    "spd": 30,
+    "spe": 50
+  },
+  "evos": [
+    "piloswine"
+  ],
+  "weight": 6.5,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

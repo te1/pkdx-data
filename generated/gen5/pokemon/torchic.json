@@ -1,0 +1,34 @@
+{
+  "slug": "torchic",
+  "name": "Torchic",
+  "num": 255,
+  "types": [
+    "fire"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "blaze",
+    "H": "speedboost"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 60,
+    "def": 40,
+    "spa": 70,
+    "spd": 50,
+    "spe": 45
+  },
+  "evos": [
+    "combusken"
+  ],
+  "weight": 2.5,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

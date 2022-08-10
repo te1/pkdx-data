@@ -1,0 +1,36 @@
+{
+  "slug": "qwilfish",
+  "name": "Qwilfish",
+  "num": 211,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "swiftswim",
+    "H": "intimidate"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 95,
+    "def": 85,
+    "spa": 55,
+    "spd": 55,
+    "spe": 85
+  },
+  "formes": [
+    "qwilfish-hisui"
+  ],
+  "weight": 3.9,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true
+}

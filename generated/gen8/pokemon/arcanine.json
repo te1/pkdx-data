@@ -1,0 +1,37 @@
+{
+  "slug": "arcanine",
+  "name": "Arcanine",
+  "num": 59,
+  "types": [
+    "fire"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "intimidate",
+    "1": "flashfire",
+    "H": "justified"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 110,
+    "def": 80,
+    "spa": 100,
+    "spd": 80,
+    "spe": 95
+  },
+  "prevo": "growlithe",
+  "evoType": "useItem",
+  "evoItem": "Fire Stone",
+  "formes": [
+    "arcanine-hisui"
+  ],
+  "weight": 155,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

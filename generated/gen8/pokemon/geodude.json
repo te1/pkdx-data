@@ -1,0 +1,36 @@
+{
+  "slug": "geodude",
+  "name": "Geodude",
+  "num": 74,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "rockhead",
+    "1": "sturdy",
+    "H": "sandveil"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 80,
+    "def": 100,
+    "spa": 30,
+    "spd": 30,
+    "spe": 20
+  },
+  "evos": [
+    "graveler"
+  ],
+  "weight": 20,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true
+}

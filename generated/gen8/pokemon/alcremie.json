@@ -1,0 +1,71 @@
+{
+  "slug": "alcremie",
+  "name": "Alcremie",
+  "num": 869,
+  "types": [
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "sweetveil",
+    "H": "aromaveil"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 60,
+    "def": 75,
+    "spa": 110,
+    "spd": 121,
+    "spe": 64
+  },
+  "prevo": "milcery",
+  "evoType": "other",
+  "evoCondition": "spin while holding a Sweet",
+  "formes": [
+    "alcremie-gmax"
+  ],
+  "cosmeticSubName": "Vanilla Cream",
+  "cosmeticFormes": [
+    {
+      "slug": "alcremie-ruby-cream",
+      "subName": "Ruby Cream"
+    },
+    {
+      "slug": "alcremie-matcha-cream",
+      "subName": "Matcha Cream"
+    },
+    {
+      "slug": "alcremie-mint-cream",
+      "subName": "Mint Cream"
+    },
+    {
+      "slug": "alcremie-lemon-cream",
+      "subName": "Lemon Cream"
+    },
+    {
+      "slug": "alcremie-salted-cream",
+      "subName": "Salted Cream"
+    },
+    {
+      "slug": "alcremie-ruby-swirl",
+      "subName": "Ruby Swirl"
+    },
+    {
+      "slug": "alcremie-caramel-swirl",
+      "subName": "Caramel Swirl"
+    },
+    {
+      "slug": "alcremie-rainbow-swirl",
+      "subName": "Rainbow Swirl"
+    }
+  ],
+  "weight": 0.5,
+  "height": 0.3,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy",
+    "Amorphous"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxfinale"
+}

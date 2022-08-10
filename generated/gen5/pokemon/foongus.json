@@ -1,0 +1,35 @@
+{
+  "slug": "foongus",
+  "name": "Foongus",
+  "num": 590,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "effectspore",
+    "H": "regenerator"
+  },
+  "baseStats": {
+    "hp": 69,
+    "atk": 55,
+    "def": 45,
+    "spa": 55,
+    "spd": 55,
+    "spe": 15
+  },
+  "evos": [
+    "amoonguss"
+  ],
+  "weight": 1,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true
+}

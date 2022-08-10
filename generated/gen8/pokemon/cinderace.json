@@ -1,0 +1,38 @@
+{
+  "slug": "cinderace",
+  "name": "Cinderace",
+  "num": 815,
+  "types": [
+    "fire"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "blaze",
+    "H": "libero"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 116,
+    "def": 75,
+    "spa": 65,
+    "spd": 75,
+    "spe": 119
+  },
+  "prevo": "raboot",
+  "evoLevel": 35,
+  "formes": [
+    "cinderace-gmax"
+  ],
+  "weight": 33,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxfireball"
+}

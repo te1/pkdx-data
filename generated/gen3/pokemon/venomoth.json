@@ -1,0 +1,32 @@
+{
+  "slug": "venomoth",
+  "name": "Venomoth",
+  "num": 49,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "shielddust"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 65,
+    "def": 60,
+    "spa": 90,
+    "spd": 75,
+    "spe": 90
+  },
+  "prevo": "venonat",
+  "evoLevel": 31,
+  "weight": 12.5,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ]
+}

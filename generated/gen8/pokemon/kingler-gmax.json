@@ -1,0 +1,36 @@
+{
+  "slug": "kingler-gmax",
+  "name": "Gigantamax Kingler",
+  "num": 99,
+  "types": [
+    "water"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "hypercutter",
+    "1": "shellarmor",
+    "H": "sheerforce"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 130,
+    "def": 115,
+    "spa": 50,
+    "spd": 50,
+    "spe": 75
+  },
+  "baseSpecies": "kingler",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "weight": 0,
+  "height": 19,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxfoamburst"
+}

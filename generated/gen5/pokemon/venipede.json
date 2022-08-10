@@ -1,0 +1,36 @@
+{
+  "slug": "venipede",
+  "name": "Venipede",
+  "num": 543,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "swarm",
+    "H": "quickfeet"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 45,
+    "def": 59,
+    "spa": 30,
+    "spd": 39,
+    "spe": 57
+  },
+  "evos": [
+    "whirlipede"
+  ],
+  "weight": 5.3,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true
+}

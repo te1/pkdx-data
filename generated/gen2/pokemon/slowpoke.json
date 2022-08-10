@@ -1,0 +1,33 @@
+{
+  "slug": "slowpoke",
+  "name": "Slowpoke",
+  "num": 79,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 90,
+    "atk": 65,
+    "def": 65,
+    "spa": 40,
+    "spd": 40,
+    "spe": 15
+  },
+  "evos": [
+    "slowbro",
+    "slowking"
+  ],
+  "weight": 36,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true
+}

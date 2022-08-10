@@ -1,0 +1,31 @@
+{
+  "slug": "kangaskhan-mega",
+  "name": "Mega Kangaskhan",
+  "num": 115,
+  "types": [
+    "normal"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "parentalbond"
+  },
+  "baseStats": {
+    "hp": 105,
+    "atk": 125,
+    "def": 100,
+    "spa": 60,
+    "spd": 100,
+    "spe": 100
+  },
+  "baseSpecies": "kangaskhan",
+  "formTriggerItem": "kangaskhanite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 100,
+  "height": 2.2,
+  "gender": "F",
+  "eggGroups": [
+    "Monster"
+  ],
+  "canHatch": true
+}

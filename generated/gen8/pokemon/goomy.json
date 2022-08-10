@@ -1,0 +1,36 @@
+{
+  "slug": "goomy",
+  "name": "Goomy",
+  "num": 704,
+  "types": [
+    "dragon"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "sapsipper",
+    "1": "hydration",
+    "H": "gooey"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 50,
+    "def": 35,
+    "spa": 55,
+    "spd": 75,
+    "spe": 40
+  },
+  "evos": [
+    "sliggoo",
+    "sliggoo-hisui"
+  ],
+  "weight": 2.8,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "canHatch": true
+}

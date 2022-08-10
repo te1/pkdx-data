@@ -1,0 +1,35 @@
+{
+  "slug": "electrike",
+  "name": "Electrike",
+  "num": 309,
+  "types": [
+    "electric"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "static",
+    "1": "lightningrod",
+    "H": "minus"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 45,
+    "def": 40,
+    "spa": 65,
+    "spd": 40,
+    "spe": 65
+  },
+  "evos": [
+    "manectric"
+  ],
+  "weight": 15.2,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

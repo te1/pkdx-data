@@ -1,0 +1,33 @@
+{
+  "slug": "arbok",
+  "name": "Arbok",
+  "num": 24,
+  "types": [
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "intimidate",
+    "1": "shedskin"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 85,
+    "def": 69,
+    "spa": 65,
+    "spd": 79,
+    "spe": 80
+  },
+  "prevo": "ekans",
+  "evoLevel": 22,
+  "weight": 65,
+  "height": 3.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ]
+}

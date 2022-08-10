@@ -1,0 +1,36 @@
+{
+  "slug": "raichu-alola",
+  "name": "Alolan Raichu",
+  "num": 26,
+  "types": [
+    "electric",
+    "psychic"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "surgesurfer"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 85,
+    "def": 50,
+    "spa": 95,
+    "spd": 85,
+    "spe": 110
+  },
+  "prevo": "pikachu",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
+  "baseSpecies": "raichu",
+  "region": "Alola",
+  "weight": 21,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ]
+}

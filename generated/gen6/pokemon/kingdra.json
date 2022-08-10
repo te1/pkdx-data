@@ -1,0 +1,36 @@
+{
+  "slug": "kingdra",
+  "name": "Kingdra",
+  "num": 230,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "sniper",
+    "H": "damp"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 95,
+    "def": 95,
+    "spa": 95,
+    "spd": 95,
+    "spe": 85
+  },
+  "prevo": "seadra",
+  "evoType": "trade",
+  "evoItem": "Dragon Scale",
+  "weight": 152,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "chimecho",
+  "name": "Chimecho",
+  "num": 358,
+  "types": [
+    "psychic"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 50,
+    "def": 70,
+    "spa": 95,
+    "spd": 80,
+    "spe": 65
+  },
+  "prevo": "chingling",
+  "evoType": "levelFriendship",
+  "evoCondition": "at night",
+  "weight": 1,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true
+}

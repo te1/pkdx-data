@@ -1,0 +1,40 @@
+{
+  "slug": "drednaw",
+  "name": "Drednaw",
+  "num": 834,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "strongjaw",
+    "1": "shellarmor",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 115,
+    "def": 90,
+    "spa": 48,
+    "spd": 68,
+    "spe": 74
+  },
+  "prevo": "chewtle",
+  "evoLevel": 22,
+  "formes": [
+    "drednaw-gmax"
+  ],
+  "weight": 115.5,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxstonesurge"
+}

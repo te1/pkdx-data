@@ -1,0 +1,33 @@
+{
+  "slug": "flareon",
+  "name": "Flareon",
+  "num": 136,
+  "types": [
+    "fire"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "flashfire",
+    "H": "guts"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 130,
+    "def": 60,
+    "spa": 95,
+    "spd": 110,
+    "spe": 65
+  },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Fire Stone",
+  "weight": 25,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

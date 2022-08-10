@@ -1,0 +1,36 @@
+{
+  "slug": "heliolisk",
+  "name": "Heliolisk",
+  "num": 695,
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "dryskin",
+    "1": "sandveil",
+    "H": "solarpower"
+  },
+  "baseStats": {
+    "hp": 62,
+    "atk": 55,
+    "def": 52,
+    "spa": 109,
+    "spd": 94,
+    "spe": 109
+  },
+  "prevo": "helioptile",
+  "evoType": "useItem",
+  "evoItem": "Sun Stone",
+  "weight": 21,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ]
+}

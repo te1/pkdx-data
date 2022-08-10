@@ -1,0 +1,37 @@
+{
+  "slug": "grimmsnarl",
+  "name": "Grimmsnarl",
+  "num": 861,
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "prankster",
+    "1": "frisk",
+    "H": "pickpocket"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 120,
+    "def": 65,
+    "spa": 95,
+    "spd": 75,
+    "spe": 60
+  },
+  "prevo": "morgrem",
+  "evoLevel": 42,
+  "formes": [
+    "grimmsnarl-gmax"
+  ],
+  "weight": 61,
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Fairy",
+    "Human-Like"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxsnooze"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "tyrunt",
+  "name": "Tyrunt",
+  "num": 696,
+  "types": [
+    "rock",
+    "dragon"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "strongjaw",
+    "H": "sturdy"
+  },
+  "baseStats": {
+    "hp": 58,
+    "atk": 89,
+    "def": 77,
+    "spa": 45,
+    "spd": 45,
+    "spe": 48
+  },
+  "evos": [
+    "tyrantrum"
+  ],
+  "weight": 26,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true
+}

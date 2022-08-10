@@ -1,0 +1,37 @@
+{
+  "slug": "centiskorch-gmax",
+  "name": "Gigantamax Centiskorch",
+  "num": 851,
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "flashfire",
+    "1": "whitesmoke",
+    "H": "flamebody"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 115,
+    "def": 65,
+    "spa": 90,
+    "spd": 90,
+    "spe": 65
+  },
+  "baseSpecies": "centiskorch",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "weight": 0,
+  "height": 75,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxcentiferno"
+}

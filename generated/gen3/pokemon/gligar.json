@@ -1,0 +1,32 @@
+{
+  "slug": "gligar",
+  "name": "Gligar",
+  "num": 207,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "hypercutter",
+    "1": "sandveil"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 75,
+    "def": 105,
+    "spa": 35,
+    "spd": 65,
+    "spe": 85
+  },
+  "weight": 64.8,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true
+}

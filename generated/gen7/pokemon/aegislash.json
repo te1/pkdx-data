@@ -1,0 +1,37 @@
+{
+  "slug": "aegislash",
+  "name": "Aegislash",
+  "subName": "Shield Forme",
+  "num": 681,
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "stancechange"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 150,
+    "spa": 50,
+    "spd": 150,
+    "spe": 60
+  },
+  "prevo": "doublade",
+  "evoType": "useItem",
+  "evoItem": "Dusk Stone",
+  "formes": [
+    "aegislash-blade"
+  ],
+  "weight": 53,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "pikachu",
+  "name": "Pikachu",
+  "num": 25,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "static"
+  },
+  "baseStats": {
+    "hp": 35,
+    "atk": 55,
+    "def": 30,
+    "spa": 50,
+    "spd": 40,
+    "spe": 90
+  },
+  "prevo": "pichu",
+  "evos": [
+    "raichu"
+  ],
+  "evoType": "levelFriendship",
+  "weight": 6,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ]
+}

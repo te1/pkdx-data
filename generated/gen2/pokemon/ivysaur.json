@@ -1,0 +1,33 @@
+{
+  "slug": "ivysaur",
+  "name": "Ivysaur",
+  "num": 2,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 60,
+    "atk": 62,
+    "def": 63,
+    "spa": 80,
+    "spd": 80,
+    "spe": 60
+  },
+  "prevo": "bulbasaur",
+  "evos": [
+    "venusaur"
+  ],
+  "evoLevel": 16,
+  "weight": 13,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ]
+}

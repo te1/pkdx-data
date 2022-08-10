@@ -1,0 +1,38 @@
+{
+  "slug": "inteleon",
+  "name": "Inteleon",
+  "num": 818,
+  "types": [
+    "water"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "torrent",
+    "H": "sniper"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 85,
+    "def": 65,
+    "spa": 125,
+    "spd": 65,
+    "spe": 120
+  },
+  "prevo": "drizzile",
+  "evoLevel": 35,
+  "formes": [
+    "inteleon-gmax"
+  ],
+  "weight": 45.2,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxhydrosnipe"
+}

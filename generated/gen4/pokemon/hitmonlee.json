@@ -1,0 +1,30 @@
+{
+  "slug": "hitmonlee",
+  "name": "Hitmonlee",
+  "num": 106,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "limber",
+    "1": "reckless"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 120,
+    "def": 53,
+    "spa": 35,
+    "spd": 110,
+    "spe": 87
+  },
+  "prevo": "tyrogue",
+  "evoCondition": "with an Atk stat > its Def stat",
+  "evoLevel": 20,
+  "weight": 49.8,
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Human-Like"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "scrafty",
+  "name": "Scrafty",
+  "num": 560,
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "shedskin",
+    "1": "moxie",
+    "H": "intimidate"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 90,
+    "def": 115,
+    "spa": 45,
+    "spd": 115,
+    "spe": 58
+  },
+  "prevo": "scraggy",
+  "evoLevel": 39,
+  "weight": 30,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ]
+}

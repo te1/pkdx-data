@@ -1,0 +1,32 @@
+{
+  "slug": "tropius",
+  "name": "Tropius",
+  "num": 357,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "chlorophyll"
+  },
+  "baseStats": {
+    "hp": 99,
+    "atk": 68,
+    "def": 83,
+    "spa": 72,
+    "spd": 87,
+    "spe": 51
+  },
+  "weight": 100,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "canHatch": true
+}

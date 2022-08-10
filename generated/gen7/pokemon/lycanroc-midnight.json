@@ -1,0 +1,36 @@
+{
+  "slug": "lycanroc-midnight",
+  "name": "Lycanroc",
+  "subName": "Midnight Form",
+  "num": 745,
+  "types": [
+    "rock"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "keeneye",
+    "1": "vitalspirit",
+    "H": "noguard"
+  },
+  "baseStats": {
+    "hp": 85,
+    "atk": 115,
+    "def": 75,
+    "spa": 55,
+    "spd": 75,
+    "spe": 82
+  },
+  "prevo": "rockruff",
+  "evoCondition": "in Pokemon Moon/Ultra Moon",
+  "evoLevel": 25,
+  "baseSpecies": "lycanroc",
+  "weight": 25,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

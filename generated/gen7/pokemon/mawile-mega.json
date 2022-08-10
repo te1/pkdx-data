@@ -1,0 +1,36 @@
+{
+  "slug": "mawile-mega",
+  "name": "Mega Mawile",
+  "num": 303,
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "hugepower"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 105,
+    "def": 125,
+    "spa": 55,
+    "spd": 95,
+    "spe": 50
+  },
+  "baseSpecies": "mawile",
+  "formTriggerItem": "mawilite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 23.5,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "canHatch": true
+}

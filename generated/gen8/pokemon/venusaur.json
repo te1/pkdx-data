@@ -1,0 +1,39 @@
+{
+  "slug": "venusaur",
+  "name": "Venusaur",
+  "num": 3,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "overgrow",
+    "H": "chlorophyll"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 82,
+    "def": 83,
+    "spa": 100,
+    "spd": 100,
+    "spe": 80
+  },
+  "prevo": "ivysaur",
+  "evoLevel": 32,
+  "formes": [
+    "venusaur-gmax"
+  ],
+  "weight": 100,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxvinelash"
+}

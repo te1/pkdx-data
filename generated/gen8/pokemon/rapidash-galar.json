@@ -1,0 +1,36 @@
+{
+  "slug": "rapidash-galar",
+  "name": "Galarian Rapidash",
+  "num": 78,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "runaway",
+    "1": "pastelveil",
+    "H": "anticipation"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 100,
+    "def": 70,
+    "spa": 80,
+    "spd": 80,
+    "spe": 105
+  },
+  "prevo": "ponyta-galar",
+  "evoLevel": 40,
+  "baseSpecies": "rapidash",
+  "region": "Galar",
+  "weight": 80,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

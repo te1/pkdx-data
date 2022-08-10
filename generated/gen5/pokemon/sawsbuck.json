@@ -1,0 +1,49 @@
+{
+  "slug": "sawsbuck",
+  "name": "Sawsbuck",
+  "num": 586,
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "chlorophyll",
+    "1": "sapsipper",
+    "H": "serenegrace"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 100,
+    "def": 70,
+    "spa": 60,
+    "spd": 70,
+    "spe": 95
+  },
+  "prevo": "deerling",
+  "evoLevel": 34,
+  "cosmeticSubName": "Spring Form",
+  "cosmeticFormes": [
+    {
+      "slug": "sawsbuck-summer",
+      "subName": "Summer Form"
+    },
+    {
+      "slug": "sawsbuck-autumn",
+      "subName": "Autumn Form"
+    },
+    {
+      "slug": "sawsbuck-winter",
+      "subName": "Winter Form"
+    }
+  ],
+  "weight": 92.5,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "marowak-alola",
+  "name": "Alolan Marowak",
+  "num": 105,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "cursedbody",
+    "1": "lightningrod",
+    "H": "rockhead"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 80,
+    "def": 110,
+    "spa": 50,
+    "spd": 80,
+    "spe": 45
+  },
+  "prevo": "cubone",
+  "evoCondition": "at night",
+  "evoLevel": 28,
+  "baseSpecies": "marowak",
+  "region": "Alola",
+  "weight": 34,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster"
+  ]
+}

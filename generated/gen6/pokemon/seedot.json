@@ -1,0 +1,36 @@
+{
+  "slug": "seedot",
+  "name": "Seedot",
+  "num": 273,
+  "types": [
+    "grass"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "chlorophyll",
+    "1": "earlybird",
+    "H": "pickpocket"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 40,
+    "def": 50,
+    "spa": 30,
+    "spd": 30,
+    "spe": 30
+  },
+  "evos": [
+    "nuzleaf"
+  ],
+  "weight": 4,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "canHatch": true
+}

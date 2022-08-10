@@ -1,0 +1,36 @@
+{
+  "slug": "gourgeist-super",
+  "name": "Gourgeist",
+  "subName": "Super Size",
+  "num": 711,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "pickup",
+    "1": "frisk",
+    "H": "insomnia"
+  },
+  "baseStats": {
+    "hp": 85,
+    "atk": 100,
+    "def": 122,
+    "spa": 58,
+    "spd": 75,
+    "spe": 54
+  },
+  "prevo": "pumpkaboo-super",
+  "evoType": "trade",
+  "baseSpecies": "gourgeist",
+  "weight": 39,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ]
+}

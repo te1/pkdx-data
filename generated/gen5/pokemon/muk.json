@@ -1,0 +1,33 @@
+{
+  "slug": "muk",
+  "name": "Muk",
+  "num": 89,
+  "types": [
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "stench",
+    "1": "stickyhold",
+    "H": "poisontouch"
+  },
+  "baseStats": {
+    "hp": 105,
+    "atk": 105,
+    "def": 75,
+    "spa": 65,
+    "spd": 100,
+    "spe": 50
+  },
+  "prevo": "grimer",
+  "evoLevel": 38,
+  "weight": 30,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ]
+}

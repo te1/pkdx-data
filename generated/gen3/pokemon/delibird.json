@@ -1,0 +1,33 @@
+{
+  "slug": "delibird",
+  "name": "Delibird",
+  "num": 225,
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "vitalspirit",
+    "1": "hustle"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 55,
+    "def": 45,
+    "spa": 65,
+    "spd": 45,
+    "spe": 75
+  },
+  "weight": 16,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true
+}

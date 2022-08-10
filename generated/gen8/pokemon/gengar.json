@@ -1,0 +1,37 @@
+{
+  "slug": "gengar",
+  "name": "Gengar",
+  "num": 94,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "cursedbody"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 65,
+    "def": 60,
+    "spa": 130,
+    "spd": 75,
+    "spe": 110
+  },
+  "prevo": "haunter",
+  "evoType": "trade",
+  "formes": [
+    "gengar-gmax"
+  ],
+  "weight": 40.5,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxterror"
+}

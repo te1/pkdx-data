@@ -1,0 +1,35 @@
+{
+  "slug": "dragalge",
+  "name": "Dragalge",
+  "num": 691,
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "poisontouch",
+    "H": "adaptability"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 75,
+    "def": 90,
+    "spa": 97,
+    "spd": 123,
+    "spe": 44
+  },
+  "prevo": "skrelp",
+  "evoLevel": 48,
+  "weight": 81.5,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ]
+}

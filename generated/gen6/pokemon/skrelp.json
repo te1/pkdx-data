@@ -1,0 +1,37 @@
+{
+  "slug": "skrelp",
+  "name": "Skrelp",
+  "num": 690,
+  "types": [
+    "poison",
+    "water"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "poisontouch",
+    "H": "adaptability"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 60,
+    "def": 60,
+    "spa": 60,
+    "spd": 60,
+    "spe": 30
+  },
+  "evos": [
+    "dragalge"
+  ],
+  "weight": 7.3,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "canHatch": true
+}

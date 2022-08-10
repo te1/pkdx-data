@@ -1,0 +1,35 @@
+{
+  "slug": "voltorb-hisui",
+  "name": "Hisuian Voltorb",
+  "num": 100,
+  "types": [
+    "electric",
+    "grass"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 30,
+    "def": 50,
+    "spa": 55,
+    "spd": 55,
+    "spe": 100
+  },
+  "evos": [
+    "electrode-hisui"
+  ],
+  "isForme": true,
+  "region": "Hisui",
+  "weight": 13,
+  "height": 0.5,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true
+}

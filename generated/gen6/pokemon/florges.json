@@ -1,0 +1,49 @@
+{
+  "slug": "florges",
+  "name": "Florges",
+  "num": 671,
+  "types": [
+    "fairy"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "flowerveil",
+    "H": "symbiosis"
+  },
+  "baseStats": {
+    "hp": 78,
+    "atk": 65,
+    "def": 68,
+    "spa": 112,
+    "spd": 154,
+    "spe": 75
+  },
+  "prevo": "floette",
+  "evoType": "useItem",
+  "evoItem": "Shiny Stone",
+  "cosmeticSubName": "Red Flower",
+  "cosmeticFormes": [
+    {
+      "slug": "florges-blue",
+      "subName": "Blue Flower"
+    },
+    {
+      "slug": "florges-orange",
+      "subName": "Orange Flower"
+    },
+    {
+      "slug": "florges-white",
+      "subName": "White Flower"
+    },
+    {
+      "slug": "florges-yellow",
+      "subName": "Yellow Flower"
+    }
+  ],
+  "weight": 10,
+  "height": 1.1,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ]
+}

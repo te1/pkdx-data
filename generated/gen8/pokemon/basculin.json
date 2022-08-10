@@ -1,0 +1,37 @@
+{
+  "slug": "basculin",
+  "name": "Basculin",
+  "subName": "Red-Striped Form",
+  "num": 550,
+  "types": [
+    "water"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "reckless",
+    "1": "adaptability",
+    "H": "moldbreaker"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 92,
+    "def": 65,
+    "spa": 80,
+    "spd": 55,
+    "spe": 98
+  },
+  "formes": [
+    "basculin-blue-striped",
+    "basculin-white-striped"
+  ],
+  "weight": 18,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "pangoro",
+  "name": "Pangoro",
+  "num": 675,
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "ironfist",
+    "1": "moldbreaker",
+    "H": "scrappy"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 124,
+    "def": 78,
+    "spa": 69,
+    "spd": 71,
+    "spe": 58
+  },
+  "prevo": "pancham",
+  "evoCondition": "with a Dark-type in the party",
+  "evoLevel": 32,
+  "weight": 136,
+  "height": 2.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ]
+}

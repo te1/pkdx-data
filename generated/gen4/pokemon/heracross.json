@@ -1,0 +1,32 @@
+{
+  "slug": "heracross",
+  "name": "Heracross",
+  "num": 214,
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "swarm",
+    "1": "guts"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 125,
+    "def": 75,
+    "spa": 40,
+    "spd": 95,
+    "spe": 85
+  },
+  "weight": 54,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "electrode",
+  "name": "Electrode",
+  "num": 101,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 70,
+    "spa": 80,
+    "spd": 80,
+    "spe": 150
+  },
+  "prevo": "voltorb",
+  "evoLevel": 30,
+  "weight": 66.6,
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ]
+}

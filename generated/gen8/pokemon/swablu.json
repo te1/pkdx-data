@@ -1,0 +1,36 @@
+{
+  "slug": "swablu",
+  "name": "Swablu",
+  "num": 333,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "naturalcure",
+    "H": "cloudnine"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 40,
+    "def": 60,
+    "spa": 40,
+    "spd": 75,
+    "spe": 50
+  },
+  "evos": [
+    "altaria"
+  ],
+  "weight": 1.2,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Dragon"
+  ],
+  "canHatch": true
+}

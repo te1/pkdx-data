@@ -1,0 +1,34 @@
+{
+  "slug": "altaria",
+  "name": "Altaria",
+  "num": 334,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "naturalcure",
+    "H": "cloudnine"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 70,
+    "def": 90,
+    "spa": 70,
+    "spd": 105,
+    "spe": 80
+  },
+  "prevo": "swablu",
+  "evoLevel": 35,
+  "weight": 20.6,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Dragon"
+  ]
+}

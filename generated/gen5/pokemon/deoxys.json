@@ -1,0 +1,33 @@
+{
+  "slug": "deoxys",
+  "name": "Deoxys",
+  "subName": "Normal Forme",
+  "num": 386,
+  "types": [
+    "psychic"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "pressure"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 150,
+    "def": 50,
+    "spa": 150,
+    "spd": 50,
+    "spe": 150
+  },
+  "formes": [
+    "deoxys-attack",
+    "deoxys-defense",
+    "deoxys-speed"
+  ],
+  "weight": 60.8,
+  "height": 1.7,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isMythical": true
+}

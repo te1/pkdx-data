@@ -1,0 +1,29 @@
+{
+  "slug": "golem",
+  "name": "Golem",
+  "num": 76,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 80,
+    "atk": 110,
+    "def": 130,
+    "spa": 55,
+    "spd": 65,
+    "spe": 45
+  },
+  "prevo": "graveler",
+  "evoType": "trade",
+  "weight": 300,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ]
+}

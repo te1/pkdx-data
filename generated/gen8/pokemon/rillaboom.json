@@ -1,0 +1,38 @@
+{
+  "slug": "rillaboom",
+  "name": "Rillaboom",
+  "num": 812,
+  "types": [
+    "grass"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "overgrow",
+    "H": "grassysurge"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 125,
+    "def": 90,
+    "spa": 60,
+    "spd": 70,
+    "spe": 85
+  },
+  "prevo": "thwackey",
+  "evoLevel": 35,
+  "formes": [
+    "rillaboom-gmax"
+  ],
+  "weight": 90,
+  "height": 2.1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxdrumsolo"
+}

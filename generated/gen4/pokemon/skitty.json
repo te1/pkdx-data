@@ -1,0 +1,35 @@
+{
+  "slug": "skitty",
+  "name": "Skitty",
+  "num": 300,
+  "types": [
+    "normal"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "cutecharm",
+    "1": "normalize"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 45,
+    "def": 45,
+    "spa": 35,
+    "spd": 35,
+    "spe": 50
+  },
+  "evos": [
+    "delcatty"
+  ],
+  "weight": 11,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "canHatch": true
+}

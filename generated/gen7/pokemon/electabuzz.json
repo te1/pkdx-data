@@ -1,0 +1,35 @@
+{
+  "slug": "electabuzz",
+  "name": "Electabuzz",
+  "num": 125,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "static",
+    "H": "vitalspirit"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 83,
+    "def": 57,
+    "spa": 95,
+    "spd": 85,
+    "spe": 105
+  },
+  "prevo": "elekid",
+  "evos": [
+    "electivire"
+  ],
+  "evoLevel": 30,
+  "weight": 30,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ]
+}

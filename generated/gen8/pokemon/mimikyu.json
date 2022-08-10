@@ -1,0 +1,35 @@
+{
+  "slug": "mimikyu",
+  "name": "Mimikyu",
+  "subName": "Disguised Form",
+  "num": 778,
+  "types": [
+    "ghost",
+    "fairy"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "disguise"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 90,
+    "def": 80,
+    "spa": 50,
+    "spd": 105,
+    "spe": 96
+  },
+  "formes": [
+    "mimikyu-busted"
+  ],
+  "weight": 0.7,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true
+}

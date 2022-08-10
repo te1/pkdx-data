@@ -1,0 +1,36 @@
+{
+  "slug": "togekiss",
+  "name": "Togekiss",
+  "num": 468,
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "hustle",
+    "1": "serenegrace",
+    "H": "superluck"
+  },
+  "baseStats": {
+    "hp": 85,
+    "atk": 50,
+    "def": 95,
+    "spa": 120,
+    "spd": 115,
+    "spe": 80
+  },
+  "prevo": "togetic",
+  "evoType": "useItem",
+  "evoItem": "Shiny Stone",
+  "weight": 38,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Flying",
+    "Fairy"
+  ]
+}

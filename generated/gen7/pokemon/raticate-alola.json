@@ -1,0 +1,37 @@
+{
+  "slug": "raticate-alola",
+  "name": "Alolan Raticate",
+  "num": 20,
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "gluttony",
+    "1": "hustle",
+    "H": "thickfat"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 71,
+    "def": 70,
+    "spa": 40,
+    "spd": 80,
+    "spe": 77
+  },
+  "prevo": "rattata-alola",
+  "evoCondition": "at night",
+  "evoLevel": 20,
+  "baseSpecies": "raticate",
+  "region": "Alola",
+  "weight": 25.5,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

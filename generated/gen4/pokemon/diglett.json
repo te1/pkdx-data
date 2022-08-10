@@ -1,0 +1,34 @@
+{
+  "slug": "diglett",
+  "name": "Diglett",
+  "num": 50,
+  "types": [
+    "ground"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "sandveil",
+    "1": "arenatrap"
+  },
+  "baseStats": {
+    "hp": 10,
+    "atk": 55,
+    "def": 25,
+    "spa": 35,
+    "spd": 45,
+    "spe": 95
+  },
+  "evos": [
+    "dugtrio"
+  ],
+  "weight": 0.8,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

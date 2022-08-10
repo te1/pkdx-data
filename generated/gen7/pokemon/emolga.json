@@ -1,0 +1,32 @@
+{
+  "slug": "emolga",
+  "name": "Emolga",
+  "num": 587,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "static",
+    "H": "motordrive"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 75,
+    "def": 60,
+    "spa": 75,
+    "spd": 60,
+    "spe": 103
+  },
+  "weight": 5,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

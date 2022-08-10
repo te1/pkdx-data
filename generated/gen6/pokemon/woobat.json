@@ -1,0 +1,37 @@
+{
+  "slug": "woobat",
+  "name": "Woobat",
+  "num": 527,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "unaware",
+    "1": "klutz",
+    "H": "simple"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 45,
+    "def": 43,
+    "spa": 55,
+    "spd": 43,
+    "spe": 72
+  },
+  "evos": [
+    "swoobat"
+  ],
+  "weight": 2.1,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Field"
+  ],
+  "canHatch": true
+}

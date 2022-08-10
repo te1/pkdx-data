@@ -1,0 +1,39 @@
+{
+  "slug": "linoone-galar",
+  "name": "Galarian Linoone",
+  "num": 264,
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "pickup",
+    "1": "gluttony",
+    "H": "quickfeet"
+  },
+  "baseStats": {
+    "hp": 78,
+    "atk": 70,
+    "def": 61,
+    "spa": 50,
+    "spd": 61,
+    "spe": 100
+  },
+  "prevo": "zigzagoon-galar",
+  "evos": [
+    "obstagoon"
+  ],
+  "evoLevel": 20,
+  "baseSpecies": "linoone",
+  "region": "Galar",
+  "weight": 32.5,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "simisage",
+  "name": "Simisage",
+  "num": 512,
+  "types": [
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "gluttony",
+    "H": "overgrow"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 98,
+    "def": 63,
+    "spa": 98,
+    "spd": 63,
+    "spe": 101
+  },
+  "prevo": "pansage",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "weight": 30.5,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ]
+}

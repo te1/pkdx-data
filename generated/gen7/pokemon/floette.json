@@ -1,0 +1,54 @@
+{
+  "slug": "floette",
+  "name": "Floette",
+  "num": 670,
+  "types": [
+    "fairy"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "flowerveil",
+    "H": "symbiosis"
+  },
+  "baseStats": {
+    "hp": 54,
+    "atk": 45,
+    "def": 47,
+    "spa": 75,
+    "spd": 98,
+    "spe": 52
+  },
+  "prevo": "flabebe",
+  "evos": [
+    "florges"
+  ],
+  "evoLevel": 19,
+  "formes": [
+    "floette-eternal"
+  ],
+  "cosmeticSubName": "Red Flower",
+  "cosmeticFormes": [
+    {
+      "slug": "floette-blue",
+      "subName": "Blue Flower"
+    },
+    {
+      "slug": "floette-orange",
+      "subName": "Orange Flower"
+    },
+    {
+      "slug": "floette-white",
+      "subName": "White Flower"
+    },
+    {
+      "slug": "floette-yellow",
+      "subName": "Yellow Flower"
+    }
+  ],
+  "weight": 0.9,
+  "height": 0.2,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ]
+}

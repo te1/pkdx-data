@@ -1,0 +1,31 @@
+{
+  "slug": "giratina-origin",
+  "name": "Giratina",
+  "subName": "Origin Forme",
+  "num": 487,
+  "types": [
+    "ghost",
+    "dragon"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 150,
+    "atk": 120,
+    "def": 100,
+    "spa": 120,
+    "spd": 100,
+    "spe": 90
+  },
+  "baseSpecies": "giratina",
+  "formTriggerItem": "griseousorb",
+  "weight": 650,
+  "height": 6.9,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

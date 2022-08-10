@@ -1,0 +1,35 @@
+{
+  "slug": "sudowoodo",
+  "name": "Sudowoodo",
+  "num": 185,
+  "types": [
+    "rock"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "sturdy",
+    "1": "rockhead",
+    "H": "rattled"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 100,
+    "def": 115,
+    "spa": 30,
+    "spd": 65,
+    "spe": 30
+  },
+  "prevo": "bonsly",
+  "evoType": "levelMove",
+  "evoMove": "Mimic",
+  "weight": 38,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true
+}

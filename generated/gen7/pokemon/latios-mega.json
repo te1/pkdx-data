@@ -1,0 +1,32 @@
+{
+  "slug": "latios-mega",
+  "name": "Mega Latios",
+  "num": 381,
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 130,
+    "def": 100,
+    "spa": 160,
+    "spd": 120,
+    "spe": 110
+  },
+  "baseSpecies": "latios",
+  "formTriggerItem": "latiosite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "weight": 70,
+  "height": 2.3,
+  "gender": "M",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

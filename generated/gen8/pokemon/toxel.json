@@ -1,0 +1,37 @@
+{
+  "slug": "toxel",
+  "name": "Toxel",
+  "num": 848,
+  "types": [
+    "electric",
+    "poison"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "rattled",
+    "1": "static",
+    "H": "klutz"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 38,
+    "def": 35,
+    "spa": 54,
+    "spd": 35,
+    "spe": 40
+  },
+  "evos": [
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
+  "weight": 11,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true
+}

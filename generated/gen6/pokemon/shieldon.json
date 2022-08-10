@@ -1,0 +1,35 @@
+{
+  "slug": "shieldon",
+  "name": "Shieldon",
+  "num": 410,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "sturdy",
+    "H": "soundproof"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 42,
+    "def": 118,
+    "spa": 42,
+    "spd": 88,
+    "spe": 30
+  },
+  "evos": [
+    "bastiodon"
+  ],
+  "weight": 57,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster"
+  ],
+  "canHatch": true
+}

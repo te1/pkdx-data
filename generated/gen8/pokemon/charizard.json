@@ -1,0 +1,39 @@
+{
+  "slug": "charizard",
+  "name": "Charizard",
+  "num": 6,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "blaze",
+    "H": "solarpower"
+  },
+  "baseStats": {
+    "hp": 78,
+    "atk": 84,
+    "def": 78,
+    "spa": 109,
+    "spd": 85,
+    "spe": 100
+  },
+  "prevo": "charmeleon",
+  "evoLevel": 36,
+  "formes": [
+    "charizard-gmax"
+  ],
+  "weight": 90.5,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxwildfire"
+}

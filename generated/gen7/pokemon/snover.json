@@ -1,0 +1,36 @@
+{
+  "slug": "snover",
+  "name": "Snover",
+  "num": 459,
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "snowwarning",
+    "H": "soundproof"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 62,
+    "def": 50,
+    "spa": 62,
+    "spd": 60,
+    "spe": 40
+  },
+  "evos": [
+    "abomasnow"
+  ],
+  "weight": 50.5,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "canHatch": true
+}

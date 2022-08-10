@@ -1,0 +1,30 @@
+{
+  "slug": "hitmontop",
+  "name": "Hitmontop",
+  "num": 237,
+  "types": [
+    "fighting"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "intimidate",
+    "1": "technician"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 95,
+    "def": 95,
+    "spa": 35,
+    "spd": 110,
+    "spe": 70
+  },
+  "prevo": "tyrogue",
+  "evoCondition": "with an Atk stat equal to its Def stat",
+  "evoLevel": 20,
+  "weight": 48,
+  "height": 1.4,
+  "gender": "M",
+  "eggGroups": [
+    "Human-Like"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "tirtouga",
+  "name": "Tirtouga",
+  "num": 564,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "solidrock",
+    "1": "sturdy",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 54,
+    "atk": 78,
+    "def": 103,
+    "spa": 53,
+    "spd": 45,
+    "spe": 22
+  },
+  "evos": [
+    "carracosta"
+  ],
+  "weight": 16.5,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ],
+  "canHatch": true
+}

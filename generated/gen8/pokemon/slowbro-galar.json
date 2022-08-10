@@ -1,0 +1,38 @@
+{
+  "slug": "slowbro-galar",
+  "name": "Galarian Slowbro",
+  "num": 80,
+  "types": [
+    "poison",
+    "psychic"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "quickdraw",
+    "1": "owntempo",
+    "H": "regenerator"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 100,
+    "def": 95,
+    "spa": 100,
+    "spd": 70,
+    "spe": 30
+  },
+  "prevo": "slowpoke-galar",
+  "evoType": "useItem",
+  "evoItem": "Galarica Cuff",
+  "baseSpecies": "slowbro",
+  "region": "Galar",
+  "weight": 70.5,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ]
+}

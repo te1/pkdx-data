@@ -1,0 +1,35 @@
+{
+  "slug": "carracosta",
+  "name": "Carracosta",
+  "num": 565,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "solidrock",
+    "1": "sturdy",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 74,
+    "atk": 108,
+    "def": 133,
+    "spa": 83,
+    "spd": 65,
+    "spe": 32
+  },
+  "prevo": "tirtouga",
+  "evoLevel": 37,
+  "weight": 81,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ]
+}

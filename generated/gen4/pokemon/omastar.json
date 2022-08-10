@@ -1,0 +1,34 @@
+{
+  "slug": "omastar",
+  "name": "Omastar",
+  "num": 139,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "shellarmor"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 60,
+    "def": 125,
+    "spa": 115,
+    "spd": 70,
+    "spe": 55
+  },
+  "prevo": "omanyte",
+  "evoLevel": 40,
+  "weight": 35,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ]
+}

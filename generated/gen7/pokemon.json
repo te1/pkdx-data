@@ -8478,33 +8478,114 @@
     },
     "cosmeticSubName": "A",
     "cosmeticFormes": [
-      "unown-b",
-      "unown-c",
-      "unown-d",
-      "unown-e",
-      "unown-f",
-      "unown-g",
-      "unown-h",
-      "unown-i",
-      "unown-j",
-      "unown-k",
-      "unown-l",
-      "unown-m",
-      "unown-n",
-      "unown-o",
-      "unown-p",
-      "unown-q",
-      "unown-r",
-      "unown-s",
-      "unown-t",
-      "unown-u",
-      "unown-v",
-      "unown-w",
-      "unown-x",
-      "unown-y",
-      "unown-z",
-      "unown-exclamation",
-      "unown-question"
+      {
+        "slug": "unown-b",
+        "subName": "B"
+      },
+      {
+        "slug": "unown-c",
+        "subName": "C"
+      },
+      {
+        "slug": "unown-d",
+        "subName": "D"
+      },
+      {
+        "slug": "unown-e",
+        "subName": "E"
+      },
+      {
+        "slug": "unown-f",
+        "subName": "F"
+      },
+      {
+        "slug": "unown-g",
+        "subName": "G"
+      },
+      {
+        "slug": "unown-h",
+        "subName": "H"
+      },
+      {
+        "slug": "unown-i",
+        "subName": "I"
+      },
+      {
+        "slug": "unown-j",
+        "subName": "J"
+      },
+      {
+        "slug": "unown-k",
+        "subName": "K"
+      },
+      {
+        "slug": "unown-l",
+        "subName": "L"
+      },
+      {
+        "slug": "unown-m",
+        "subName": "M"
+      },
+      {
+        "slug": "unown-n",
+        "subName": "N"
+      },
+      {
+        "slug": "unown-o",
+        "subName": "O"
+      },
+      {
+        "slug": "unown-p",
+        "subName": "P"
+      },
+      {
+        "slug": "unown-q",
+        "subName": "Q"
+      },
+      {
+        "slug": "unown-r",
+        "subName": "R"
+      },
+      {
+        "slug": "unown-s",
+        "subName": "S"
+      },
+      {
+        "slug": "unown-t",
+        "subName": "T"
+      },
+      {
+        "slug": "unown-u",
+        "subName": "U"
+      },
+      {
+        "slug": "unown-v",
+        "subName": "V"
+      },
+      {
+        "slug": "unown-w",
+        "subName": "W"
+      },
+      {
+        "slug": "unown-x",
+        "subName": "X"
+      },
+      {
+        "slug": "unown-y",
+        "subName": "Y"
+      },
+      {
+        "slug": "unown-z",
+        "subName": "Z"
+      },
+      {
+        "slug": "unown-exclamation",
+        "subName": "!"
+      },
+      {
+        "slug": "unown-question",
+        "subName": "?"
+      }
     ],
     "weight": 5,
     "height": 0.5,
@@ -16819,8 +16900,14 @@
     ],
     "cosmeticSubName": "Plant Cloak",
     "cosmeticFormes": [
-      "burmy-sandy",
-      "burmy-trash"
+      {
+        "slug": "burmy-sandy",
+        "subName": "Sandy Cloak"
+      },
+      {
+        "slug": "burmy-trash",
+        "subName": "Trash Cloak"
+      }
     ],
     "weight": 3.4,
     "height": 0.2,
@@ -17259,7 +17346,10 @@
     ],
     "cosmeticSubName": "West Sea",
     "cosmeticFormes": [
-      "shellos-east"
+      {
+        "slug": "shellos-east",
+        "subName": "East Sea"
+      }
     ],
     "weight": 6.3,
     "height": 0.3,
@@ -17299,7 +17389,10 @@
     "evoLevel": 30,
     "cosmeticSubName": "West Sea",
     "cosmeticFormes": [
-      "gastrodon-east"
+      {
+        "slug": "gastrodon-east",
+        "subName": "East Sea"
+      }
     ],
     "weight": 29.9,
     "height": 0.9,
@@ -23873,9 +23966,18 @@
     ],
     "cosmeticSubName": "Spring Form",
     "cosmeticFormes": [
-      "deerling-summer",
-      "deerling-autumn",
-      "deerling-winter"
+      {
+        "slug": "deerling-summer",
+        "subName": "Summer Form"
+      },
+      {
+        "slug": "deerling-autumn",
+        "subName": "Autumn Form"
+      },
+      {
+        "slug": "deerling-winter",
+        "subName": "Winter Form"
+      }
     ],
     "weight": 19.5,
     "height": 0.6,
@@ -23914,9 +24016,18 @@
     "evoLevel": 34,
     "cosmeticSubName": "Spring Form",
     "cosmeticFormes": [
-      "sawsbuck-summer",
-      "sawsbuck-autumn",
-      "sawsbuck-winter"
+      {
+        "slug": "sawsbuck-summer",
+        "subName": "Summer Form"
+      },
+      {
+        "slug": "sawsbuck-autumn",
+        "subName": "Autumn Form"
+      },
+      {
+        "slug": "sawsbuck-winter",
+        "subName": "Winter Form"
+      }
     ],
     "weight": 92.5,
     "height": 1.9,
@@ -26957,23 +27068,74 @@
     ],
     "cosmeticSubName": "Meadow Pattern",
     "cosmeticFormes": [
-      "vivillon-archipelago",
-      "vivillon-continental",
-      "vivillon-elegant",
-      "vivillon-garden",
-      "vivillon-highplains",
-      "vivillon-icysnow",
-      "vivillon-jungle",
-      "vivillon-marine",
-      "vivillon-modern",
-      "vivillon-monsoon",
-      "vivillon-ocean",
-      "vivillon-polar",
-      "vivillon-river",
-      "vivillon-sandstorm",
-      "vivillon-savanna",
-      "vivillon-sun",
-      "vivillon-tundra"
+      {
+        "slug": "vivillon-archipelago",
+        "subName": "Archipelago Pattern"
+      },
+      {
+        "slug": "vivillon-continental",
+        "subName": "Continental Pattern"
+      },
+      {
+        "slug": "vivillon-elegant",
+        "subName": "Elegant Pattern"
+      },
+      {
+        "slug": "vivillon-garden",
+        "subName": "Garden Pattern"
+      },
+      {
+        "slug": "vivillon-highplains",
+        "subName": "High Plains Pattern"
+      },
+      {
+        "slug": "vivillon-icysnow",
+        "subName": "Icy Snow Pattern"
+      },
+      {
+        "slug": "vivillon-jungle",
+        "subName": "Jungle Pattern"
+      },
+      {
+        "slug": "vivillon-marine",
+        "subName": "Marine Pattern"
+      },
+      {
+        "slug": "vivillon-modern",
+        "subName": "Modern Pattern"
+      },
+      {
+        "slug": "vivillon-monsoon",
+        "subName": "Monsoon Pattern"
+      },
+      {
+        "slug": "vivillon-ocean",
+        "subName": "Ocean Pattern"
+      },
+      {
+        "slug": "vivillon-polar",
+        "subName": "Polar Pattern"
+      },
+      {
+        "slug": "vivillon-river",
+        "subName": "River Pattern"
+      },
+      {
+        "slug": "vivillon-sandstorm",
+        "subName": "Sandstorm Pattern"
+      },
+      {
+        "slug": "vivillon-savanna",
+        "subName": "Savanna Pattern"
+      },
+      {
+        "slug": "vivillon-sun",
+        "subName": "Sun Pattern"
+      },
+      {
+        "slug": "vivillon-tundra",
+        "subName": "Tundra Pattern"
+      }
     ],
     "weight": 17,
     "height": 1.2,
@@ -27148,10 +27310,22 @@
     ],
     "cosmeticSubName": "Red Flower",
     "cosmeticFormes": [
-      "flabebe-blue",
-      "flabebe-orange",
-      "flabebe-white",
-      "flabebe-yellow"
+      {
+        "slug": "flabebe-blue",
+        "subName": "Blue Flower"
+      },
+      {
+        "slug": "flabebe-orange",
+        "subName": "Orange Flower"
+      },
+      {
+        "slug": "flabebe-white",
+        "subName": "White Flower"
+      },
+      {
+        "slug": "flabebe-yellow",
+        "subName": "Yellow Flower"
+      }
     ],
     "weight": 0.1,
     "height": 0.1,
@@ -27191,10 +27365,22 @@
     ],
     "cosmeticSubName": "Red Flower",
     "cosmeticFormes": [
-      "floette-blue",
-      "floette-orange",
-      "floette-white",
-      "floette-yellow"
+      {
+        "slug": "floette-blue",
+        "subName": "Blue Flower"
+      },
+      {
+        "slug": "floette-orange",
+        "subName": "Orange Flower"
+      },
+      {
+        "slug": "floette-white",
+        "subName": "White Flower"
+      },
+      {
+        "slug": "floette-yellow",
+        "subName": "Yellow Flower"
+      }
     ],
     "weight": 0.9,
     "height": 0.2,
@@ -27256,10 +27442,22 @@
     "evoItem": "Shiny Stone",
     "cosmeticSubName": "Red Flower",
     "cosmeticFormes": [
-      "florges-blue",
-      "florges-orange",
-      "florges-white",
-      "florges-yellow"
+      {
+        "slug": "florges-blue",
+        "subName": "Blue Flower"
+      },
+      {
+        "slug": "florges-orange",
+        "subName": "Orange Flower"
+      },
+      {
+        "slug": "florges-white",
+        "subName": "White Flower"
+      },
+      {
+        "slug": "florges-yellow",
+        "subName": "Yellow Flower"
+      }
     ],
     "weight": 10,
     "height": 1.1,
@@ -27427,15 +27625,42 @@
     },
     "cosmeticSubName": "Natural Form",
     "cosmeticFormes": [
-      "furfrou-dandy",
-      "furfrou-debutante",
-      "furfrou-diamond",
-      "furfrou-heart",
-      "furfrou-kabuki",
-      "furfrou-lareine",
-      "furfrou-matron",
-      "furfrou-pharaoh",
-      "furfrou-star"
+      {
+        "slug": "furfrou-dandy",
+        "subName": "Dandy Trim"
+      },
+      {
+        "slug": "furfrou-debutante",
+        "subName": "Debutante Trim"
+      },
+      {
+        "slug": "furfrou-diamond",
+        "subName": "Diamond Trim"
+      },
+      {
+        "slug": "furfrou-heart",
+        "subName": "Heart Trim"
+      },
+      {
+        "slug": "furfrou-kabuki",
+        "subName": "Kabuki Trim"
+      },
+      {
+        "slug": "furfrou-lareine",
+        "subName": "La Reine Trim"
+      },
+      {
+        "slug": "furfrou-matron",
+        "subName": "Matron Trim"
+      },
+      {
+        "slug": "furfrou-pharaoh",
+        "subName": "Pharaoh Trim"
+      },
+      {
+        "slug": "furfrou-star",
+        "subName": "Star Trim"
+      }
     ],
     "weight": 28,
     "height": 1.2,
@@ -32156,12 +32381,30 @@
     ],
     "cosmeticSubName": "Red Core",
     "cosmeticFormes": [
-      "minior-orange",
-      "minior-yellow",
-      "minior-green",
-      "minior-blue",
-      "minior-indigo",
-      "minior-violet"
+      {
+        "slug": "minior-orange",
+        "subName": "Orange Core"
+      },
+      {
+        "slug": "minior-yellow",
+        "subName": "Yellow Core"
+      },
+      {
+        "slug": "minior-green",
+        "subName": "Green Core"
+      },
+      {
+        "slug": "minior-blue",
+        "subName": "Blue Core"
+      },
+      {
+        "slug": "minior-indigo",
+        "subName": "Indigo Core"
+      },
+      {
+        "slug": "minior-violet",
+        "subName": "Violet Core"
+      }
     ],
     "weight": 0.3,
     "height": 0.3,

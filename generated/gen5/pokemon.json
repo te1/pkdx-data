@@ -6897,33 +6897,114 @@
     },
     "cosmeticSubName": "A",
     "cosmeticFormes": [
-      "unown-b",
-      "unown-c",
-      "unown-d",
-      "unown-e",
-      "unown-f",
-      "unown-g",
-      "unown-h",
-      "unown-i",
-      "unown-j",
-      "unown-k",
-      "unown-l",
-      "unown-m",
-      "unown-n",
-      "unown-o",
-      "unown-p",
-      "unown-q",
-      "unown-r",
-      "unown-s",
-      "unown-t",
-      "unown-u",
-      "unown-v",
-      "unown-w",
-      "unown-x",
-      "unown-y",
-      "unown-z",
-      "unown-exclamation",
-      "unown-question"
+      {
+        "slug": "unown-b",
+        "subName": "B"
+      },
+      {
+        "slug": "unown-c",
+        "subName": "C"
+      },
+      {
+        "slug": "unown-d",
+        "subName": "D"
+      },
+      {
+        "slug": "unown-e",
+        "subName": "E"
+      },
+      {
+        "slug": "unown-f",
+        "subName": "F"
+      },
+      {
+        "slug": "unown-g",
+        "subName": "G"
+      },
+      {
+        "slug": "unown-h",
+        "subName": "H"
+      },
+      {
+        "slug": "unown-i",
+        "subName": "I"
+      },
+      {
+        "slug": "unown-j",
+        "subName": "J"
+      },
+      {
+        "slug": "unown-k",
+        "subName": "K"
+      },
+      {
+        "slug": "unown-l",
+        "subName": "L"
+      },
+      {
+        "slug": "unown-m",
+        "subName": "M"
+      },
+      {
+        "slug": "unown-n",
+        "subName": "N"
+      },
+      {
+        "slug": "unown-o",
+        "subName": "O"
+      },
+      {
+        "slug": "unown-p",
+        "subName": "P"
+      },
+      {
+        "slug": "unown-q",
+        "subName": "Q"
+      },
+      {
+        "slug": "unown-r",
+        "subName": "R"
+      },
+      {
+        "slug": "unown-s",
+        "subName": "S"
+      },
+      {
+        "slug": "unown-t",
+        "subName": "T"
+      },
+      {
+        "slug": "unown-u",
+        "subName": "U"
+      },
+      {
+        "slug": "unown-v",
+        "subName": "V"
+      },
+      {
+        "slug": "unown-w",
+        "subName": "W"
+      },
+      {
+        "slug": "unown-x",
+        "subName": "X"
+      },
+      {
+        "slug": "unown-y",
+        "subName": "Y"
+      },
+      {
+        "slug": "unown-z",
+        "subName": "Z"
+      },
+      {
+        "slug": "unown-exclamation",
+        "subName": "!"
+      },
+      {
+        "slug": "unown-question",
+        "subName": "?"
+      }
     ],
     "weight": 5,
     "height": 0.5,
@@ -14220,8 +14301,14 @@
     ],
     "cosmeticSubName": "Plant Cloak",
     "cosmeticFormes": [
-      "burmy-sandy",
-      "burmy-trash"
+      {
+        "slug": "burmy-sandy",
+        "subName": "Sandy Cloak"
+      },
+      {
+        "slug": "burmy-trash",
+        "subName": "Trash Cloak"
+      }
     ],
     "weight": 3.4,
     "height": 0.2,
@@ -14660,7 +14747,10 @@
     ],
     "cosmeticSubName": "West Sea",
     "cosmeticFormes": [
-      "shellos-east"
+      {
+        "slug": "shellos-east",
+        "subName": "East Sea"
+      }
     ],
     "weight": 6.3,
     "height": 0.3,
@@ -14700,7 +14790,10 @@
     "evoLevel": 30,
     "cosmeticSubName": "West Sea",
     "cosmeticFormes": [
-      "gastrodon-east"
+      {
+        "slug": "gastrodon-east",
+        "subName": "East Sea"
+      }
     ],
     "weight": 29.9,
     "height": 0.9,
@@ -20944,9 +21037,18 @@
     ],
     "cosmeticSubName": "Spring Form",
     "cosmeticFormes": [
-      "deerling-summer",
-      "deerling-autumn",
-      "deerling-winter"
+      {
+        "slug": "deerling-summer",
+        "subName": "Summer Form"
+      },
+      {
+        "slug": "deerling-autumn",
+        "subName": "Autumn Form"
+      },
+      {
+        "slug": "deerling-winter",
+        "subName": "Winter Form"
+      }
     ],
     "weight": 19.5,
     "height": 0.6,
@@ -20985,9 +21087,18 @@
     "evoLevel": 34,
     "cosmeticSubName": "Spring Form",
     "cosmeticFormes": [
-      "sawsbuck-summer",
-      "sawsbuck-autumn",
-      "sawsbuck-winter"
+      {
+        "slug": "sawsbuck-summer",
+        "subName": "Summer Form"
+      },
+      {
+        "slug": "sawsbuck-autumn",
+        "subName": "Autumn Form"
+      },
+      {
+        "slug": "sawsbuck-winter",
+        "subName": "Winter Form"
+      }
     ],
     "weight": 92.5,
     "height": 1.9,

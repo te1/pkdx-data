@@ -52,13 +52,13 @@ export async function exportPokemon(
     const canGmax = hasDynamax ? !!species.canGigantamax : false;
     const region = getRegion(species, { slug }, extraData);
 
-    const name = getPrettySpeciesName(
+    const name = getSpeciesName(
       species,
       baseSpecies,
       { slug, isGmax, region },
       extraData
     );
-    const subName = getPrettySpeciesSubName(
+    const subName = getSpeciesSubName(
       species,
       { slug, isGmax, region },
       extraData
@@ -88,6 +88,8 @@ export async function exportPokemon(
         );
       }
     }
+
+    const cosmeticSubName = getCosmeticSubName(species, { slug }, extraData);
 
     // legendary from extraData
     let isLegendary = !!extraData[slug]?.isLegendary;
@@ -149,8 +151,7 @@ export async function exportPokemon(
       // name of default / base forme
       // is just a string to display (e.g. is "Shield" for Aegislash)
       // will not be set on formes (e.g. is null for Aegislash-Blade)
-      // TODO still relevant for cosmetic formes, then remove
-      defaultFormeName: species.baseForme || undefined,
+      // defaultFormeName: species.baseForme || undefined,
       // handled by subName instead
 
       // if set then this species is a forme
@@ -210,9 +211,12 @@ export async function exportPokemon(
       // only set on the base forme (e.g. is null for Aegislash-Blade)
       formes,
 
+      cosmeticSubName: cosmeticSubName || undefined,
+
       // list of all cosmetic formes that _don't_ have a species entry
       // the base forme is not included in the list
       // cosmetic formes don't have their own species entry (e.g. there is no Gastrodon-East species)
+      // TODO sort by formeOrder
       cosmeticFormes: getSpeciesSlugs(species.cosmeticFormes, gen, extraData),
 
       // can't use this directly because it breaks for gmax
@@ -401,7 +405,7 @@ function getSpeciesSlugs(
   return result;
 }
 
-function getPrettySpeciesName(
+function getSpeciesName(
   species: Specie,
   baseSpecies: Specie | undefined,
   speciesData: { slug: string; isGmax?: boolean; region?: Region },
@@ -449,7 +453,7 @@ function getPrettySpeciesName(
   return result;
 }
 
-function getPrettySpeciesSubName(
+function getSpeciesSubName(
   species: Specie,
   speciesData: { slug: string; isGmax?: boolean; region?: Region },
   extraData: Record<string, { subName?: string; hideSubName?: boolean }>
@@ -473,6 +477,22 @@ function getPrettySpeciesSubName(
     !speciesData.isGmax
   ) {
     return species.forme;
+  }
+}
+
+function getCosmeticSubName(
+  species: Specie,
+  speciesData: { slug: string },
+  extraData: Record<string, { cosmeticSubName?: string }>
+) {
+  // direct override from extraData
+  const result = extraData[speciesData.slug]?.cosmeticSubName;
+  if (result) {
+    return result;
+  }
+
+  if (species.cosmeticFormes?.length) {
+    return species.baseForme;
   }
 }
 

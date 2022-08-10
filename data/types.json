@@ -1,56 +1,72 @@
 {
-  "bug": {
-    "color": "#9dc130"
+  "types": {
+    "bug": {
+      "color": "#9dc130"
+    },
+    "dark": {
+      "color": "#5f606d"
+    },
+    "dragon": {
+      "color": "#0773c7"
+    },
+    "electric": {
+      "color": "#edd53f"
+    },
+    "fairy": {
+      "color": "#ef97e6"
+    },
+    "fighting": {
+      "color": "#d94256"
+    },
+    "fire": {
+      "color": "#f8a54f"
+    },
+    "flying": {
+      "color": "#9bb4e8"
+    },
+    "ghost": {
+      "color": "#6970c5"
+    },
+    "grass": {
+      "color": "#5dbe62"
+    },
+    "ground": {
+      "color": "#d78555"
+    },
+    "ice": {
+      "color": "#7ed4c9"
+    },
+    "normal": {
+      "color": "#9a9da1"
+    },
+    "poison": {
+      "color": "#b563ce"
+    },
+    "psychic": {
+      "color": "#f87c7a"
+    },
+    "rock": {
+      "color": "#cec18c"
+    },
+    "steel": {
+      "color": "#5596a4"
+    },
+    "water": {
+      "color": "#559edf"
+    }
   },
-  "dark": {
-    "color": "#5f606d"
-  },
-  "dragon": {
-    "color": "#0773c7"
-  },
-  "electric": {
-    "color": "#edd53f"
-  },
-  "fairy": {
-    "color": "#ef97e6"
-  },
-  "fighting": {
-    "color": "#d94256"
-  },
-  "fire": {
-    "color": "#f8a54f"
-  },
-  "flying": {
-    "color": "#9bb4e8"
-  },
-  "ghost": {
-    "color": "#6970c5"
-  },
-  "grass": {
-    "color": "#5dbe62"
-  },
-  "ground": {
-    "color": "#d78555"
-  },
-  "ice": {
-    "color": "#7ed4c9"
-  },
-  "normal": {
-    "color": "#9a9da1"
-  },
-  "poison": {
-    "color": "#b563ce"
-  },
-  "psychic": {
-    "color": "#f87c7a"
-  },
-  "rock": {
-    "color": "#cec18c"
-  },
-  "steel": {
-    "color": "#5596a4"
-  },
-  "water": {
-    "color": "#559edf"
+  "categories": {
+    "physical": {
+      "name": "Physical",
+      "color": "#d76753"
+    },
+    "special": {
+      "name": "Special",
+      "color": "#6483b6"
+    },
+    "status": {
+      "name": "Status",
+      "color": "#b8b1a2"
+    }
   }
 }

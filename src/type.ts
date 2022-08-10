@@ -22,7 +22,7 @@ export async function exportTypes(gen: Generation, target: string) {
     result.push({
       slug: type.id,
       name: type.name,
-      color: data[type.id]?.color,
+      color: data.types[type.id]?.color,
       damageTaken,
       damageDone,
     });

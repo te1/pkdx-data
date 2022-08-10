@@ -25,6 +25,9 @@ export async function exportPokemon(
 
   console.log('\t' + 'loading data...');
   const extraData = await fs.readJson(`./data/pokemon.json`);
+  const extraDataCosmeticFormes = await fs.readJson(
+    `./data/cosmeticFormes.json`
+  );
 
   const hasEggs = gen.num >= 2;
   const hasAbilities = gen.num >= 3;
@@ -90,6 +93,18 @@ export async function exportPokemon(
     }
 
     const cosmeticSubName = getCosmeticSubName(species, { slug }, extraData);
+
+    // TODO sort by formeOrder
+    const cosmeticFormes = _.map(species.cosmeticFormes, (forme) => {
+      const slug = getSpeciesSlug(forme, gen, extraData);
+
+      let subName;
+      if (slug) {
+        subName = extraDataCosmeticFormes[slug]?.subName || undefined;
+      }
+
+      return { slug, subName };
+    });
 
     // legendary from extraData
     let isLegendary = !!extraData[slug]?.isLegendary;
@@ -216,8 +231,7 @@ export async function exportPokemon(
       // list of all cosmetic formes that _don't_ have a species entry
       // the base forme is not included in the list
       // cosmetic formes don't have their own species entry (e.g. there is no Gastrodon-East species)
-      // TODO sort by formeOrder
-      cosmeticFormes: getSpeciesSlugs(species.cosmeticFormes, gen, extraData),
+      cosmeticFormes: cosmeticFormes?.length ? cosmeticFormes : undefined,
 
       // can't use this directly because it breaks for gmax
       // formeNum: species.formeNum || undefined,
@@ -263,8 +277,6 @@ export async function exportPokemon(
     };
 
     result.push(entry);
-
-    // TODO handle cosmeticFormes
 
     // remember available abilities per pokemon for later use
     for (const abilityName of Object.values(species.abilities)) {

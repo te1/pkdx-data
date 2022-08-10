@@ -67,44 +67,22 @@ export async function exportPokemon(
       extraData
     );
 
-    let formes = getSpeciesSlugs(species.otherFormes, gen, extraData);
-    if (canGmax && !baseSpecies) {
-      // gmax species are not in formes, so add them manually to the end
-      formes = [...(formes ?? []), slug + '-gmax'];
-    }
-    if (extraData[slug]?.formes?.length) {
-      // direct override from extraData (to handle toxtricity and urshifu with 2 gmax formes)
-      formes = extraData[slug]?.formes;
-    }
-
-    let formeIndex = 0; // put baseSpecies first when sorting
-    if (baseSpecies && baseSpecies.formeOrder?.length) {
-      // there is a baseSpecies for the current species so we need to get the number
-
-      if (isGmax) {
-        // gmax formes are not in `formeOrder` so manually put it last
-        formeIndex = 1000; // hopefully nothing has 1000 formes...
-      } else {
-        formeIndex = _.findIndex(
-          baseSpecies.formeOrder,
-          (name) => name === species.name
-        );
-      }
-    }
+    const formes = getFormes(
+      species,
+      baseSpecies,
+      gen,
+      { slug, canGmax },
+      extraData
+    );
+    const formeIndex = getFormeIndex(species, baseSpecies, { isGmax });
 
     const cosmeticSubName = getCosmeticSubName(species, { slug }, extraData);
-
-    // TODO sort by formeOrder
-    const cosmeticFormes = _.map(species.cosmeticFormes, (forme) => {
-      const slug = getSpeciesSlug(forme, gen, extraData);
-
-      let subName;
-      if (slug) {
-        subName = extraDataCosmeticFormes[slug]?.subName || undefined;
-      }
-
-      return { slug, subName };
-    });
+    const cosmeticFormes = getCosmeticFormes(
+      species,
+      gen,
+      extraData,
+      extraDataCosmeticFormes
+    );
 
     // legendary from extraData
     let isLegendary = !!extraData[slug]?.isLegendary;
@@ -506,6 +484,79 @@ function getCosmeticSubName(
   if (species.cosmeticFormes?.length) {
     return species.baseForme;
   }
+}
+
+function getCosmeticFormes(
+  species: Specie,
+  gen: Generation,
+  extraData: Record<string, { slug?: string }>,
+  extraDataCosmeticFormes: Record<string, { subName?: string }>
+) {
+  let result = _.map(species.cosmeticFormes, (forme) => {
+    const slug = getSpeciesSlug(forme, gen, extraData);
+
+    return {
+      originalSlug: forme,
+      slug,
+      subName: slug
+        ? extraDataCosmeticFormes[slug]?.subName || undefined
+        : undefined,
+    };
+  });
+
+  // sort by formeOrder (which contains the orginal slugs)
+  result = _.sortBy(result, (item) => {
+    return _.indexOf(species.formeOrder, item.originalSlug);
+  });
+
+  // drop `formeIndex` after we are done sorting
+  return _.map(result, (item) => _.omit(item, 'originalSlug'));
+}
+
+function getFormes(
+  species: Specie,
+  baseSpecies: Specie | undefined,
+  gen: Generation,
+  speciesData: { slug: string; canGmax: boolean },
+  extraData: Record<string, { formes?: string[]; slug?: string }>
+) {
+  let result = getSpeciesSlugs(species.otherFormes, gen, extraData);
+
+  if (speciesData.canGmax && !baseSpecies) {
+    // gmax species are not in formes, so add them manually to the end
+    result = [...(result ?? []), speciesData.slug + '-gmax'];
+  }
+
+  if (extraData[speciesData.slug]?.formes?.length) {
+    // direct override from extraData (to handle toxtricity and urshifu with 2 gmax formes)
+    result = extraData[speciesData.slug]?.formes;
+  }
+
+  return result;
+}
+
+function getFormeIndex(
+  species: Specie,
+  baseSpecies: Specie | undefined,
+  speciesData: { isGmax: boolean }
+) {
+  let result = 0; // put baseSpecies first when sorting
+
+  if (baseSpecies && baseSpecies.formeOrder?.length) {
+    // there is a baseSpecies for the current species so we need to get the number
+
+    if (speciesData.isGmax) {
+      // gmax formes are not in `formeOrder` so manually put it last
+      result = 1000; // hopefully nothing has 1000 formes...
+    } else {
+      result = _.findIndex(
+        baseSpecies.formeOrder,
+        (name) => name === species.name
+      );
+    }
+  }
+
+  return result;
 }
 
 const regionFormes: Map<Region, string[]> = new Map([

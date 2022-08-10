@@ -12,7 +12,7 @@ export async function exportAbilities(
   console.log('- abilities');
 
   // TODO add ability flavor text
-  // console.log('\t' + 'loading data...');
+  // console.log('\tloading data...');
   // const data = await fs.readJson(`./data/ability.json`);
 
   let result = [];
@@ -32,7 +32,7 @@ export async function exportAbilities(
   result = _.sortBy(result, 'slug');
 
   if (result.length) {
-    console.log('\t' + `writing ${result.length} abilities...`);
+    console.log(`\twriting ${result.length} abilities...`);
     await exportData(
       path.join(target, `gen${gen.num}`, 'ability.json'),
       result

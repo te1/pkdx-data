@@ -8,7 +8,7 @@ export async function exportItems(gen: Generation, target: string) {
   console.log('- items');
 
   // TODO add item flavor text
-  // console.log('\t' + 'loading data...');
+  // console.log('\tloading data...');
   // const data = await fs.readJson(`./data/item.json`);
 
   let result = [];
@@ -27,7 +27,7 @@ export async function exportItems(gen: Generation, target: string) {
   result = _.sortBy(result, 'slug');
 
   if (result.length) {
-    console.log('\t' + `writing ${result.length} items...`);
+    console.log(`\twriting ${result.length} items...`);
     await exportData(path.join(target, `gen${gen.num}`, 'item.json'), result);
   }
 }

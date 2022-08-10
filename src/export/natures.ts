@@ -20,7 +20,7 @@ export async function exportNatures(gen: Generation, target: string) {
   result = _.sortBy(result, 'slug');
 
   if (result.length) {
-    console.log('\t' + `writing ${result.length} natures...`);
+    console.log(`\twriting ${result.length} natures...`);
     await exportData(path.join(target, `gen${gen.num}`, 'nature.json'), result);
   }
 }

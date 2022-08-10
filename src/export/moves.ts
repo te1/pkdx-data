@@ -30,7 +30,7 @@ export async function exportMoves(gen: Generation, target: string) {
   console.log('- moves');
 
   // TODO add move flavor text
-  // console.log('\t' + 'loading data...');
+  // console.log('\tloading data...');
   // const data = await fs.readJson(`./data/move.json`);
 
   const hasZMoves = gen.num === 7;
@@ -84,7 +84,7 @@ export async function exportMoves(gen: Generation, target: string) {
   result = _.sortBy(result, 'slug');
 
   if (result.length) {
-    console.log('\t' + `writing ${result.length} moves...`);
+    console.log(`\twriting ${result.length} moves...`);
     await exportData(path.join(target, `gen${gen.num}`, 'move.json'), result);
   }
 }

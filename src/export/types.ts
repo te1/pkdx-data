@@ -7,7 +7,7 @@ import { exportData } from '../utils';
 export async function exportTypes(gen: Generation, target: string) {
   console.log('- types');
 
-  console.log('\t' + 'loading data...');
+  console.log('\tloading data...');
   const extraData = await fs.readJson(`./data/types.json`);
 
   const result = {
@@ -17,8 +17,7 @@ export async function exportTypes(gen: Generation, target: string) {
 
   if (result.types.length || result.categories.length) {
     console.log(
-      '\t' +
-        `writing ${result.types.length} types and ${result.categories.length} categories...`
+      `\twriting ${result.types.length} types and ${result.categories.length} categories...`
     );
     await exportData(path.join(target, `gen${gen.num}`, 'types.json'), result);
   }

@@ -2,7 +2,7 @@ import * as path from 'path';
 import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation, Type, Types } from '@pkmn/data';
-import { exportData } from './utils';
+import { exportData } from '../utils';
 
 export async function exportTypes(gen: Generation, target: string) {
   console.log('- types');

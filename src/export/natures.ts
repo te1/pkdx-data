@@ -1,7 +1,7 @@
 import * as path from 'path';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
-import { exportData } from './utils';
+import { exportData } from '../utils';
 
 export async function exportNatures(gen: Generation, target: string) {
   console.log('- natures');

@@ -2,7 +2,7 @@ import * as path from 'path';
 // import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
-import { exportData, moveCategoryToSlug, typeNameToSlug } from './utils';
+import { exportData, moveCategoryToSlug, typeNameToSlug } from '../utils';
 
 interface MoveEntry {
   slug: string;

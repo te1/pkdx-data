@@ -11,7 +11,7 @@ import {
 } from '@pkmn/data';
 import { Species as SimSpecies } from '@pkmn/sim';
 import { SpeciesAbility } from '@pkmn/dex-types';
-import { AbilityMap, exportData, typeNameToSlug } from './utils';
+import { AbilityMap, exportData, typeNameToSlug } from '../utils';
 
 type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 

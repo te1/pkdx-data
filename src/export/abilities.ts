@@ -2,7 +2,7 @@ import * as path from 'path';
 // import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
-import { AbilityMap, exportData } from './utils';
+import { AbilityMap, exportData } from '../utils';
 
 export async function exportAbilities(
   gen: Generation,

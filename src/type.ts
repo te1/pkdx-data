@@ -8,8 +8,26 @@ export async function exportTypes(gen: Generation, target: string) {
   console.log('- types');
 
   console.log('\t' + 'loading data...');
-  const data = await fs.readJson(`./data/types.json`);
+  const extraData = await fs.readJson(`./data/types.json`);
 
+  const result = {
+    types: getTypesData(gen, extraData.types),
+    categories: getCategoriesData(extraData.categories),
+  };
+
+  if (result.types.length || result.categories.length) {
+    console.log(
+      '\t' +
+        `writing ${result.types.length} types and ${result.categories.length} categories...`
+    );
+    await exportData(path.join(target, `gen${gen.num}`, 'types.json'), result);
+  }
+}
+
+function getTypesData(
+  gen: Generation,
+  extraData: Record<string, { color?: string }>
+) {
   let result = [];
 
   for (const type of gen.types) {
@@ -22,7 +40,7 @@ export async function exportTypes(gen: Generation, target: string) {
     result.push({
       slug: type.id,
       name: type.name,
-      color: data.types[type.id]?.color,
+      color: extraData[type.id]?.color,
       damageTaken,
       damageDone,
     });
@@ -30,10 +48,7 @@ export async function exportTypes(gen: Generation, target: string) {
 
   result = _.sortBy(result, 'slug');
 
-  if (result.length) {
-    console.log('\t' + `writing ${result.length} types...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'types.json'), result);
-  }
+  return result;
 }
 
 function shouldSkipType(type: Type) {
@@ -73,4 +88,20 @@ function getDamage(type: Type, allTypes: Types) {
   const done = _.mapValues(doneMap, 'value');
 
   return [taken, done];
+}
+
+function getCategoriesData(
+  extraData: Record<string, { name?: string; color?: string }>
+) {
+  const result = [];
+
+  for (const [slug, category] of Object.entries(extraData)) {
+    result.push({
+      slug,
+      name: category.name,
+      color: category.color,
+    });
+  }
+
+  return result;
 }

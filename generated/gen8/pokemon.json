@@ -6938,7 +6938,7 @@
       "spd": 48,
       "spe": 48
     },
-    "defaultFormeName": "A",
+    "cosmeticSubName": "A",
     "cosmeticFormes": [
       "unown-b",
       "unown-c",
@@ -12472,9 +12472,15 @@
     },
     "evos": [
       "wormadam",
+      "wormadam-sandy",
+      "wormadam-trash",
       "mothim"
     ],
-    "defaultFormeName": "Plant",
+    "cosmeticSubName": "Plant Cloak",
+    "cosmeticFormes": [
+      "burmy-sandy",
+      "burmy-trash"
+    ],
     "weight": 3.4,
     "height": 0.2,
     "genderRatio": {
@@ -12510,7 +12516,74 @@
     },
     "prevo": "burmy",
     "evoLevel": 20,
-    "defaultFormeName": "Plant",
+    "formes": [
+      "wormadam-sandy",
+      "wormadam-trash"
+    ],
+    "weight": 6.5,
+    "height": 0.5,
+    "gender": "F",
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
+    "slug": "wormadam-sandy",
+    "name": "Wormadam",
+    "subName": "Sandy Cloak",
+    "num": 413,
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "anticipation",
+      "H": "overcoat"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 79,
+      "def": 105,
+      "spa": 59,
+      "spd": 85,
+      "spe": 36
+    },
+    "prevo": "burmy",
+    "evoLevel": 20,
+    "baseSpecies": "wormadam",
+    "weight": 6.5,
+    "height": 0.5,
+    "gender": "F",
+    "eggGroups": [
+      "Bug"
+    ]
+  },
+  {
+    "slug": "wormadam-trash",
+    "name": "Wormadam",
+    "subName": "Trash Cloak",
+    "num": 413,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "gen": 4,
+    "abilities": {
+      "0": "anticipation",
+      "H": "overcoat"
+    },
+    "baseStats": {
+      "hp": 60,
+      "atk": 69,
+      "def": 95,
+      "spa": 69,
+      "spd": 95,
+      "spe": 36
+    },
+    "prevo": "burmy",
+    "evoLevel": 20,
+    "baseSpecies": "wormadam",
     "weight": 6.5,
     "height": 0.5,
     "gender": "F",
@@ -12770,7 +12843,6 @@
     },
     "prevo": "cherubi",
     "evoLevel": 25,
-    "defaultFormeName": "Overcast",
     "formes": [
       "cherrim-sunshine"
     ],
@@ -12844,7 +12916,7 @@
     "evos": [
       "gastrodon"
     ],
-    "defaultFormeName": "West",
+    "cosmeticSubName": "West Sea",
     "cosmeticFormes": [
       "shellos-east"
     ],
@@ -12884,7 +12956,7 @@
     },
     "prevo": "shellos",
     "evoLevel": 30,
-    "defaultFormeName": "West",
+    "cosmeticSubName": "West Sea",
     "cosmeticFormes": [
       "gastrodon-east"
     ],
@@ -15250,7 +15322,6 @@
       "spd": 120,
       "spe": 90
     },
-    "defaultFormeName": "Altered",
     "formes": [
       "giratina-origin"
     ],
@@ -15424,7 +15495,6 @@
       "spd": 100,
       "spe": 100
     },
-    "defaultFormeName": "Land",
     "weight": 2.1,
     "height": 0.2,
     "gender": "N",
@@ -15453,7 +15523,6 @@
       "spd": 120,
       "spe": 120
     },
-    "defaultFormeName": "Normal",
     "weight": 320,
     "height": 3.2,
     "gender": "N",
@@ -16790,7 +16859,6 @@
       "spd": 55,
       "spe": 98
     },
-    "defaultFormeName": "Red-Striped",
     "formes": [
       "basculin-blue-striped",
       "basculin-white-striped"
@@ -17081,7 +17149,6 @@
     },
     "prevo": "darumaka",
     "evoLevel": 35,
-    "defaultFormeName": "Standard",
     "formes": [
       "darmanitan-zen",
       "darmanitan-galar",
@@ -20054,7 +20121,6 @@
       "spd": 80,
       "spe": 111
     },
-    "defaultFormeName": "Incarnate",
     "formes": [
       "tornadus-therian"
     ],
@@ -20117,7 +20183,6 @@
       "spd": 80,
       "spe": 111
     },
-    "defaultFormeName": "Incarnate",
     "formes": [
       "thundurus-therian"
     ],
@@ -20237,7 +20302,6 @@
       "spd": 80,
       "spe": 101
     },
-    "defaultFormeName": "Incarnate",
     "formes": [
       "landorus-therian"
     ],
@@ -20390,7 +20454,6 @@
       "spd": 90,
       "spe": 108
     },
-    "defaultFormeName": "Ordinary",
     "formes": [
       "keldeo-resolute"
     ],
@@ -20892,7 +20955,6 @@
     },
     "prevo": "espurr",
     "evoLevel": 25,
-    "defaultFormeName": "M",
     "formes": [
       "meowstic-f"
     ],
@@ -21028,7 +21090,6 @@
     "prevo": "doublade",
     "evoType": "useItem",
     "evoItem": "Dusk Stone",
-    "defaultFormeName": "Shield",
     "formes": [
       "aegislash-blade"
     ],
@@ -22152,7 +22213,6 @@
     "evos": [
       "gourgeist"
     ],
-    "defaultFormeName": "Average",
     "formes": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -22308,7 +22368,6 @@
     },
     "prevo": "pumpkaboo",
     "evoType": "trade",
-    "defaultFormeName": "Average",
     "formes": [
       "gourgeist-small",
       "gourgeist-large",
@@ -22634,7 +22693,6 @@
       "spd": 98,
       "spe": 99
     },
-    "defaultFormeName": "Active",
     "weight": 215,
     "height": 3,
     "gender": "N",
@@ -22693,7 +22751,6 @@
       "spd": 95,
       "spe": 95
     },
-    "defaultFormeName": "50%",
     "formes": [
       "zygarde-10",
       "zygarde-complete"
@@ -23375,7 +23432,6 @@
       "lycanroc-midnight",
       "lycanroc-dusk"
     ],
-    "defaultFormeName": "Midday",
     "weight": 9.2,
     "height": 0.5,
     "genderRatio": {
@@ -23412,7 +23468,6 @@
     "prevo": "rockruff",
     "evoCondition": "during the day",
     "evoLevel": 25,
-    "defaultFormeName": "Midday",
     "formes": [
       "lycanroc-midnight",
       "lycanroc-dusk"
@@ -23517,7 +23572,6 @@
       "spd": 25,
       "spe": 40
     },
-    "defaultFormeName": "Solo",
     "formes": [
       "wishiwashi-school"
     ],
@@ -25083,7 +25137,6 @@
       "spd": 105,
       "spe": 96
     },
-    "defaultFormeName": "Disguised",
     "formes": [
       "mimikyu-busted"
     ],
@@ -27996,7 +28049,6 @@
     },
     "prevo": "toxel",
     "evoLevel": 30,
-    "defaultFormeName": "Amped",
     "formes": [
       "toxtricity-low-key",
       "toxtricity-gmax",
@@ -28331,7 +28383,6 @@
     "evos": [
       "polteageist"
     ],
-    "defaultFormeName": "Phony",
     "formes": [
       "sinistea-antique"
     ],
@@ -28400,7 +28451,6 @@
     "prevo": "sinistea",
     "evoType": "useItem",
     "evoItem": "Cracked Pot",
-    "defaultFormeName": "Phony",
     "formes": [
       "polteageist-antique"
     ],
@@ -28976,10 +29026,10 @@
     "prevo": "milcery",
     "evoType": "other",
     "evoCondition": "spin while holding a Sweet",
-    "defaultFormeName": "Vanilla Cream",
     "formes": [
       "alcremie-gmax"
     ],
+    "cosmeticSubName": "Vanilla Cream",
     "cosmeticFormes": [
       "alcremie-ruby-cream",
       "alcremie-matcha-cream",
@@ -29285,7 +29335,6 @@
       "spd": 95,
       "spe": 95
     },
-    "defaultFormeName": "M",
     "formes": [
       "indeedee-f"
     ],
@@ -29831,7 +29880,6 @@
       "spd": 115,
       "spe": 138
     },
-    "defaultFormeName": "Hero",
     "formes": [
       "zacian-crowned"
     ],
@@ -29897,7 +29945,6 @@
       "spd": 115,
       "spe": 138
     },
-    "defaultFormeName": "Hero",
     "formes": [
       "zamazenta-crowned"
     ],
@@ -30064,7 +30111,6 @@
     "prevo": "kubfu",
     "evoType": "other",
     "evoCondition": "Defeat the Single Strike Tower",
-    "defaultFormeName": "Single-Strike",
     "formes": [
       "urshifu-rapid-strike",
       "urshifu-gmax",
@@ -30582,7 +30628,6 @@
     "prevo": "basculin-white-striped",
     "evoType": "other",
     "evoCondition": "Receive 294+ recoil without fainting",
-    "defaultFormeName": "M",
     "formes": [
       "basculegion-f"
     ],
@@ -30719,7 +30764,6 @@
       "spd": 80,
       "spe": 106
     },
-    "defaultFormeName": "Incarnate",
     "formes": [
       "enamorus-therian"
     ],

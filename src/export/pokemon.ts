@@ -293,13 +293,13 @@ export async function exportPokemon(
       getSpeciesIndexData(result)
     );
 
-    // console.log(`\twriting ${result.length} pokemon details...`);
-    // for (const entry of result) {
-    //   await exportData(
-    //     path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
-    //     entry
-    //   );
-    // }
+    console.log(`\twriting ${result.length} pokemon details...`);
+    for (const entry of result) {
+      await exportData(
+        path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
+        entry
+      );
+    }
   }
 }
 

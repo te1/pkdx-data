@@ -18,7 +18,7 @@ export async function exportAbilities(
   let result = [];
 
   for (const ability of gen.abilities) {
-    result.push({
+    const entry = {
       slug: ability.id,
       name: ability.name,
       gen: ability.gen,
@@ -26,7 +26,13 @@ export async function exportAbilities(
       desc: ability.desc,
       shortDesc: ability.shortDesc,
       // flavorText: data[ability.id]?.flavorText,
-    });
+    };
+
+    if (shouldSkipAbility(entry)) {
+      continue;
+    }
+
+    result.push(entry);
   }
 
   result = _.sortBy(result, 'slug');
@@ -50,4 +56,13 @@ export async function exportAbilities(
 
 function getAbilitiesIndexData(result: object) {
   return _.map(result, (entry) => _.pick(entry, ['slug', 'name', 'gen']));
+}
+
+function shouldSkipAbility(entry: { pokemon?: Set<string> }) {
+  // skip abilities that no pokemon can learn (in this gen)
+  if (!entry.pokemon || !entry.pokemon.size) {
+    return true;
+  }
+
+  return false;
 }

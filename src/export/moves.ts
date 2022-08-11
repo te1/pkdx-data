@@ -71,6 +71,34 @@ export async function exportMoves(
 
   if (result.length) {
     console.log(`\twriting ${result.length} moves...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'moves.json'), result);
+    await exportData(
+      path.join(target, `gen${gen.num}`, 'moves.json'),
+      getMovesIndexData(result)
+    );
+
+    // console.log(`\twriting ${result.length} move details...`);
+    // for (const entry of result) {
+    //   await exportData(
+    //     path.join(target, `gen${gen.num}`, 'moves', entry.slug + '.json'),
+    //     entry
+    //   );
+    // }
   }
+}
+
+function getMovesIndexData(result: object) {
+  return result;
+
+  // TODO split export in index and details
+  // return _.map(result, (entry) =>
+  //   _.pick(entry, [
+  //     'slug',
+  //     'name',
+  //     'gen',
+  //     'type',
+  //     'category',
+  //     'basePower',
+  //     'accuracy',
+  //   ])
+  // );
 }

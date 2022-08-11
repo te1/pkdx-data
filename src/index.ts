@@ -17,6 +17,7 @@ async function main() {
     await fs.emptyDir(target);
 
     for (const genData of data) {
+      const moveMap: PokemonMap = new Map();
       const abilityMap: PokemonMap = new Map();
 
       console.log(`*** gen ${genData.genNum} ***`);
@@ -24,8 +25,14 @@ async function main() {
       await exportTypes(genData.gen, target);
       await exportNatures(genData.gen, target);
       await exportItems(genData.gen, target);
-      await exportPokemon(genData.gen, genData.simGen, target, abilityMap);
-      await exportMoves(genData.gen, target);
+      await exportPokemon(
+        genData.gen,
+        genData.simGen,
+        target,
+        moveMap,
+        abilityMap
+      );
+      await exportMoves(genData.gen, target, moveMap);
       await exportAbilities(genData.gen, target, abilityMap);
 
       console.log('');

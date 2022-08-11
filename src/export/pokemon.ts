@@ -19,6 +19,7 @@ export async function exportPokemon(
   gen: Generation,
   simGen: Generation,
   target: string,
+  moveMap: PokemonMap,
   abilityMap: PokemonMap
 ) {
   console.log('- pokemon');
@@ -57,6 +58,10 @@ export async function exportPokemon(
 
     // treat gmax as battle only even if showdown doesn't
     const isBattleOnly = !!species.battleOnly || (hasDynamax && isGmax);
+
+    if (shouldSkipSpecies({ isTotem })) {
+      continue;
+    }
 
     const region = getRegion(species, { slug }, extraData);
     const name = getSpeciesName(
@@ -112,9 +117,7 @@ export async function exportPokemon(
       }
     }
 
-    if (shouldSkipSpecies({ isTotem })) {
-      continue;
-    }
+    const learnset = await getLearnset(species, gen);
 
     const entry = {
       // -- General
@@ -260,11 +263,19 @@ export async function exportPokemon(
       // name of the exclusive G-Max move
       gmaxMove,
 
-      // TODO make learnsets more readable, possibly filter out past gen info
-      learnset: await gen.learnsets.learnable(species.name),
+      learnset,
     };
 
     result.push(entry);
+
+    // remember available moves per pokemon for later use
+    for (const [moveSlug, how] of Object.entries(entry.learnset ?? {})) {
+      const pokemon = moveMap.get(moveSlug) ?? new Set<string>();
+
+      pokemon.add(entry.slug);
+
+      moveMap.set(moveSlug, pokemon);
+    }
 
     // remember available abilities per pokemon for later use
     for (const abilityName of Object.values(species.abilities)) {
@@ -639,4 +650,22 @@ function getPrettyRegionName(region: Region) {
     case 'Paldea':
       return 'Paldean';
   }
+}
+
+async function getLearnset(species: Specie, gen: Generation) {
+  let learnset = await gen.learnsets.learnable(species.name);
+
+  // keep only moves that can be learned in the current gen
+  learnset = _.mapValues(learnset, (how) => {
+    return _.filter(how, (entry) => {
+      return entry.startsWith(gen.num as unknown as string);
+    });
+  });
+
+  // keep only moves that can still be learned
+  learnset = _.pickBy(learnset, (how) => how.length);
+
+  // TODO make the remaining learnset more readable
+
+  return learnset;
 }

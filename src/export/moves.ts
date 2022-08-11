@@ -2,31 +2,18 @@ import * as path from 'path';
 // import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
-import { exportData, moveCategoryToSlug, typeNameToSlug } from '../utils';
+import {
+  exportData,
+  moveCategoryToSlug,
+  PokemonMap,
+  typeNameToSlug,
+} from '../utils';
 
-interface MoveEntry {
-  slug: string;
-  name: string;
-  gen: number;
-  type: string;
-  category: string;
-  basePower: number;
-  accuracy?: number;
-  pp: number;
-  target: string;
-  priority: number;
-  isZ?: unknown;
-  zMove?: unknown;
-  zMoveEffect?: unknown;
-  isMax?: unknown;
-  maxMove?: unknown;
-  // isNonstandard?: unknown;
-  desc: string;
-  shortDesc: string;
-  // flavorText: string;
-}
-
-export async function exportMoves(gen: Generation, target: string) {
+export async function exportMoves(
+  gen: Generation,
+  target: string,
+  moveMap: PokemonMap
+) {
   console.log('- moves');
 
   // TODO add move flavor text
@@ -39,7 +26,7 @@ export async function exportMoves(gen: Generation, target: string) {
   let result = [];
 
   for (const move of gen.moves) {
-    const entry: MoveEntry = {
+    const entry = {
       slug: move.id,
       name: move.name,
       gen: move.gen,
@@ -50,12 +37,13 @@ export async function exportMoves(gen: Generation, target: string) {
       pp: move.pp,
       target: move.target,
       priority: move.priority,
-      isZ: undefined,
-      zMove: undefined,
-      zMoveEffect: undefined,
-      isMax: undefined,
-      maxMove: undefined,
+      isZ: undefined as unknown,
+      zMove: undefined as unknown,
+      zMoveEffect: undefined as unknown,
+      isMax: undefined as unknown,
+      maxMove: undefined as unknown,
       // isNonstandard: move.isNonstandard || undefined,
+      pokemon: moveMap.get(move.id),
       desc: move.desc,
       shortDesc: move.shortDesc,
       // flavorText: data[move.id]?.flavorText,

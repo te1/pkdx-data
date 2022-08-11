@@ -658,14 +658,44 @@ async function getLearnset(species: Specie, gen: Generation) {
   // keep only moves that can be learned in the current gen
   learnset = _.mapValues(learnset, (how) => {
     return _.filter(how, (entry) => {
-      return entry.startsWith(gen.num as unknown as string);
+      return (
+        entry.startsWith(gen.num as unknown as string) && // skip past generations
+        entry !== `${gen.num}V` && // skip Virtual Console
+        entry !== `${gen.num}D` // skip Dream World
+      );
     });
   });
 
   // keep only moves that can still be learned
   learnset = _.pickBy(learnset, (how) => how.length);
 
-  // TODO make the remaining learnset more readable
+  // make the remaining learnset more readable
+  learnset = _.mapValues(learnset, (how) => {
+    return _.map(how, (entry) => {
+      let result = entry;
+
+      // drop gen number
+      result = result.substring(1);
+
+      // add : to make it easier to split identifier and value
+      if (result.length > 1) {
+        result = result.charAt(0) + ':' + result.substring(1);
+      }
+
+      return result;
+    });
+  });
+
+  /* Showdown learnset patterns
+  - `M` learned from Machine (TM/HM/TR)
+  - `T` taught by Tutor
+  - `E` Egg move
+  - `R` Restricted, meaning additional conditions may apply
+  - `Lx` learned by leveling up to Level x
+  - `Sx` only available as part of a Special event / promotion (x is the event number for this species)
+  - `V` Virtual console / past generation only (filtered out)
+  - `D` Dream world / gen5 browser game (filtered out)
+  */
 
   return learnset;
 }

@@ -34,7 +34,7 @@ export async function exportAbilities(
   if (result.length) {
     console.log(`\twriting ${result.length} abilities...`);
     await exportData(
-      path.join(target, `gen${gen.num}`, 'ability.json'),
+      path.join(target, `gen${gen.num}`, 'abilities.json'),
       result
     );
   }

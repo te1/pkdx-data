@@ -65,6 +65,11 @@ export async function exportMoves(
     }
 
     result.push(entry);
+
+    // TODO handle moves that no pokemon can learn
+    // if (!entry.pokemon || !entry.pokemon.size) {
+    //   console.log(entry.name);
+    // }
   }
 
   result = _.sortBy(result, 'slug');

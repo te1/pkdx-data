@@ -28,6 +28,6 @@ export async function exportItems(gen: Generation, target: string) {
 
   if (result.length) {
     console.log(`\twriting ${result.length} items...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'item.json'), result);
+    await exportData(path.join(target, `gen${gen.num}`, 'items.json'), result);
   }
 }

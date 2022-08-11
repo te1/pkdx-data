@@ -35,7 +35,19 @@ export async function exportAbilities(
     console.log(`\twriting ${result.length} abilities...`);
     await exportData(
       path.join(target, `gen${gen.num}`, 'abilities.json'),
-      result
+      getAbilitiesIndexData(result)
     );
+
+    console.log(`\twriting ${result.length} abilities details...`);
+    for (const entry of result) {
+      await exportData(
+        path.join(target, `gen${gen.num}`, 'abilities', entry.slug + '.json'),
+        entry
+      );
+    }
   }
+}
+
+function getAbilitiesIndexData(result: object) {
+  return _.map(result, (entry) => _.pick(entry, ['slug', 'name', 'gen']));
 }

@@ -73,6 +73,6 @@ export async function exportMoves(
 
   if (result.length) {
     console.log(`\twriting ${result.length} moves...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'move.json'), result);
+    await exportData(path.join(target, `gen${gen.num}`, 'moves.json'), result);
   }
 }

@@ -1,11 +1,7 @@
 import * as fs from 'fs-extra';
 import { MoveCategory, TypeName } from '@pkmn/dex';
 
-export interface AbilityMapItem {
-  pokemon: Set<string>;
-}
-
-export type AbilityMap = Map<string, AbilityMapItem>;
+export type PokemonMap = Map<string, Set<string>>;
 
 export const config = {
   prettyPrintJson: true,

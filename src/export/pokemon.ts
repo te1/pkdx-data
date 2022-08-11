@@ -11,7 +11,7 @@ import {
 } from '@pkmn/data';
 import { Species as SimSpecies } from '@pkmn/sim';
 import { SpeciesAbility } from '@pkmn/dex-types';
-import { AbilityMap, exportData, typeNameToSlug } from '../utils';
+import { PokemonMap, exportData, typeNameToSlug } from '../utils';
 
 type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 
@@ -19,7 +19,7 @@ export async function exportPokemon(
   gen: Generation,
   simGen: Generation,
   target: string,
-  abilityMap: AbilityMap
+  abilityMap: PokemonMap
 ) {
   console.log('- pokemon');
 
@@ -260,7 +260,7 @@ export async function exportPokemon(
       // name of the exclusive G-Max move
       gmaxMove,
 
-      // TODO make learnsets more readable
+      // TODO make learnsets more readable, possibly filter out past gen info
       learnset: await gen.learnsets.learnable(species.name),
     };
 
@@ -270,17 +270,11 @@ export async function exportPokemon(
     for (const abilityName of Object.values(species.abilities)) {
       const abilitySlug = getAbilitySlug(abilityName, gen);
 
-      let ability = abilityMap.get(abilitySlug);
+      const pokemon = abilityMap.get(abilitySlug) ?? new Set<string>();
 
-      if (!ability) {
-        ability = {
-          pokemon: new Set<string>(),
-        };
-      }
+      pokemon.add(entry.slug);
 
-      ability.pokemon.add(entry.slug);
-
-      abilityMap.set(abilitySlug, ability);
+      abilityMap.set(abilitySlug, pokemon);
     }
   }
 

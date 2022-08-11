@@ -1,5 +1,5 @@
 import * as fs from 'fs-extra';
-import { AbilityMap } from './utils';
+import { PokemonMap } from './utils';
 import { getData } from './showdown';
 import { exportTypes } from './export/types';
 import { exportNatures } from './export/natures';
@@ -17,7 +17,7 @@ async function main() {
     await fs.emptyDir(target);
 
     for (const genData of data) {
-      const abilityMap: AbilityMap = new Map();
+      const abilityMap: PokemonMap = new Map();
 
       console.log(`*** gen ${genData.genNum} ***`);
 

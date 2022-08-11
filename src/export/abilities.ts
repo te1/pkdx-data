@@ -2,12 +2,12 @@ import * as path from 'path';
 // import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
-import { AbilityMap, exportData } from '../utils';
+import { PokemonMap, exportData } from '../utils';
 
 export async function exportAbilities(
   gen: Generation,
   target: string,
-  abilityMap: AbilityMap
+  abilityMap: PokemonMap
 ) {
   console.log('- abilities');
 
@@ -22,7 +22,7 @@ export async function exportAbilities(
       slug: ability.id,
       name: ability.name,
       gen: ability.gen,
-      pokemon: abilityMap.get(ability.id)?.pokemon,
+      pokemon: abilityMap.get(ability.id),
       desc: ability.desc,
       shortDesc: ability.shortDesc,
       // flavorText: data[ability.id]?.flavorText,

@@ -269,7 +269,7 @@ export async function exportPokemon(
     result.push(entry);
 
     // remember available moves per pokemon for later use
-    for (const [moveSlug, how] of Object.entries(entry.learnset ?? {})) {
+    for (const moveSlug of Object.keys(entry.learnset)) {
       const pokemon = moveMap.get(moveSlug) ?? new Set<string>();
 
       pokemon.add(entry.slug);

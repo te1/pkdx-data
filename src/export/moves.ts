@@ -18,7 +18,7 @@ export async function exportMoves(
 
   // TODO add move flavor text
   // console.log('\tloading data...');
-  // const data = await fs.readJson(`./data/move.json`);
+  // const data = await fs.readJson(`./data/moves.json`);
 
   const hasZMoves = gen.num === 7;
   const hasMaxMoves = gen.num === 8;
@@ -63,8 +63,6 @@ export async function exportMoves(
 
       // TODO G-Max Moves
     }
-
-    // TODO pokemon
 
     result.push(entry);
   }

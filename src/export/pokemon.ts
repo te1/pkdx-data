@@ -49,7 +49,9 @@ export async function exportPokemon(
       : undefined;
     const slug = getPrettySpeciesSlug(species, baseSpecies, extraData.override);
 
-    const isTotem = species.forme === 'Totem';
+    // need endsWith for marowak-alola-totem, raticate-alola-totem, mimikyu-busted-totem
+    const isTotem = species.forme?.endsWith('Totem');
+
     const isGmax = hasDynamax ? species.isNonstandard === 'Gigantamax' : false;
     const canGmax = hasDynamax ? !!species.canGigantamax : false;
 

@@ -26,22 +26,39 @@ export async function exportMoves(
   let result = [];
 
   for (const move of gen.moves) {
+    let basePower: number | undefined = move.basePower;
+    if (hasZMoves && move.isZ && basePower === 1) {
+      // z move power depends on the original move (unless it's a species exclusive z move)
+      basePower = undefined;
+    }
+
+    let pp: number | undefined = move.pp;
+    if (hasZMoves && move.isZ && pp === 1) {
+      // z move pp depends on the original move
+      pp = undefined;
+    }
+
     const entry = {
       slug: move.id,
       name: move.name,
       gen: move.gen,
       type: typeNameToSlug(move.type),
       category: moveCategoryToSlug(move.category),
-      basePower: move.basePower,
+      basePower,
       accuracy: move.accuracy === true ? undefined : move.accuracy,
-      pp: move.pp,
+      pp,
       target: move.target,
       priority: move.priority,
+
       isZ: undefined as unknown,
       zMove: undefined as unknown,
-      zMoveEffect: undefined as unknown,
+
+      // appears to be unused at the moment
+      // zMoveEffect: hasZMoves ? move.zMoveEffect || undefined : undefined,
+
       isMax: undefined as unknown,
       maxMove: undefined as unknown,
+
       // isNonstandard: move.isNonstandard || undefined,
       pokemon: moveMap.get(move.id),
       desc: move.desc,
@@ -53,7 +70,6 @@ export async function exportMoves(
       // TODO Z Moves
       entry.isZ = move.isZ || undefined;
       entry.zMove = move.zMove;
-      entry.zMoveEffect = move.zMoveEffect;
     }
 
     if (hasMaxMoves) {

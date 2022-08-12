@@ -43,15 +43,29 @@ export async function exportMoves(
       name: move.name,
       gen: move.gen,
       type: typeNameToSlug(move.type),
+
+      // TODO for non-exclusive z moves this is not relavant
       category: moveCategoryToSlug(move.category),
+
       basePower,
+
+      // true means doesn't use accuracy / never misses, we drop it for brevity
       accuracy: move.accuracy === true ? undefined : move.accuracy,
+
       pp,
       target: move.target,
       priority: move.priority,
 
-      isZ: undefined as unknown,
-      zMove: undefined as unknown,
+      isZ: hasZMoves ? !!move.isZ || undefined : undefined,
+      zCrystal:
+        hasZMoves && move.isZ && typeof move.isZ === 'string'
+          ? move.isZ
+          : undefined,
+
+      // zMove.basePower is the base power the z move will have if replacing this physical/special move
+      // zMove.effect is the z power effect the z move will have if replacing this status move
+      // zMove.boost contains the stats that the z power effect will boost if replacing this status move
+      zMove: hasZMoves ? move.zMove || undefined : undefined,
 
       // appears to be unused at the moment
       // zMoveEffect: hasZMoves ? move.zMoveEffect || undefined : undefined,
@@ -65,12 +79,6 @@ export async function exportMoves(
       shortDesc: move.shortDesc,
       // flavorText: data[move.id]?.flavorText,
     };
-
-    if (hasZMoves) {
-      // TODO Z Moves
-      entry.isZ = move.isZ || undefined;
-      entry.zMove = move.zMove;
-    }
 
     if (hasMaxMoves) {
       // TODO Max Moves

@@ -25,11 +25,17 @@ export async function exportMoves(
   let result = [];
 
   for (const move of gen.moves) {
+    const isMax = hasMaxMoves && move.isMax === true;
+    const isGmax = hasMaxMoves && move.isMax && typeof move.isMax === 'string';
+
     let baseMove;
     let exclusivePokemon;
     if (hasZMoves && move.isZ) {
       baseMove = extraData[move.id]?.baseMove;
       exclusivePokemon = extraData[move.id]?.exclusive;
+    }
+    if (hasMaxMoves && isGmax) {
+      exclusivePokemon = [move.isMax];
     }
 
     let basePower: number | undefined = move.basePower;
@@ -70,6 +76,7 @@ export async function exportMoves(
         hasZMoves && move.isZ && typeof move.isZ === 'string'
           ? move.isZ
           : undefined,
+      baseMove,
 
       // zMove.basePower is the base power the z move will have if replacing this physical/special move
       // zMove.effect is the z power effect the z move will have if replacing this status move
@@ -79,10 +86,10 @@ export async function exportMoves(
       // appears to be unused at the moment
       // zMoveEffect: hasZMoves ? move.zMoveEffect || undefined : undefined,
 
-      isMax: undefined as unknown,
-      maxMove: undefined as unknown,
-
-      baseMove,
+      isMax: isMax || undefined,
+      isGmax: isGmax || undefined,
+      // maxMove.basePower is the base power the max move will have if replacing this physical/special move
+      // maxMove: hasMaxMoves ? move.maxMove || undefined : undefined,
 
       // isNonstandard: move.isNonstandard || undefined,
       pokemon: moveMap.get(move.id),
@@ -93,14 +100,6 @@ export async function exportMoves(
       // TODO add move flavor text
       // flavorText: extraData[move.id]?.flavorText,
     };
-
-    if (hasMaxMoves) {
-      // TODO Max Moves
-      entry.isMax = move.isMax || undefined;
-      entry.maxMove = move.maxMove;
-
-      // TODO G-Max Moves
-    }
 
     result.push(entry);
 

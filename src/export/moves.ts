@@ -25,10 +25,23 @@ export async function exportMoves(
   let result = [];
 
   for (const move of gen.moves) {
+    let baseMove;
+    let exclusivePokemon;
+    if (hasZMoves && move.isZ) {
+      baseMove = extraData[move.id]?.baseMove;
+      exclusivePokemon = extraData[move.id]?.exclusive;
+    }
+
     let basePower: number | undefined = move.basePower;
     if (hasZMoves && move.isZ && basePower === 1) {
       // z move power depends on the original move (unless it's a species exclusive z move)
       basePower = undefined;
+    }
+
+    let category: string | undefined = moveCategoryToSlug(move.category);
+    if (hasZMoves && move.isZ && !exclusivePokemon) {
+      // non-exclusive z moves keep the original move's category
+      category = undefined;
     }
 
     let pp: number | undefined = move.pp;
@@ -37,22 +50,12 @@ export async function exportMoves(
       pp = undefined;
     }
 
-    let baseMove;
-    let exclusivePokemon;
-    if (hasZMoves && move.isZ) {
-      baseMove = extraData[move.id]?.baseMove;
-      exclusivePokemon = extraData[move.id]?.exclusive;
-    }
-
     const entry = {
       slug: move.id,
       name: move.name,
       gen: move.gen,
       type: typeNameToSlug(move.type),
-
-      // TODO for non-exclusive z moves this is not relavant
-      category: moveCategoryToSlug(move.category),
-
+      category,
       basePower,
 
       // true means doesn't use accuracy / never misses, we drop it for brevity

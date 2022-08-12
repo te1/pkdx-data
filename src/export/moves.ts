@@ -131,31 +131,32 @@ export async function exportMoves(
       getMovesIndexData(result)
     );
 
-    // console.log(`\twriting ${result.length} move details...`);
-    // for (const entry of result) {
-    //   await exportData(
-    //     path.join(target, `gen${gen.num}`, 'moves', entry.slug + '.json'),
-    //     entry
-    //   );
-    // }
+    console.log(`\twriting ${result.length} move details...`);
+    for (const entry of result) {
+      await exportData(
+        path.join(target, `gen${gen.num}`, 'moves', entry.slug + '.json'),
+        entry
+      );
+    }
   }
 }
 
 function getMovesIndexData(result: object) {
-  return result;
-
-  // TODO split export in index and details
-  // return _.map(result, (entry) =>
-  //   _.pick(entry, [
-  //     'slug',
-  //     'name',
-  //     'gen',
-  //     'type',
-  //     'category',
-  //     'basePower',
-  //     'accuracy',
-  //   ])
-  // );
+  return _.map(result, (entry) =>
+    _.pick(entry, [
+      'slug',
+      'name',
+      'gen',
+      'type',
+      'category',
+      'basePower',
+      'accuracy',
+      'isZ',
+      'isMax',
+      'isGmax',
+      'exclusive',
+    ])
+  );
 }
 
 const keepUnlearnableMoves = ['struggle'];

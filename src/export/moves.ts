@@ -1,5 +1,5 @@
 import * as path from 'path';
-// import * as fs from 'fs-extra';
+import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
 import {
@@ -16,9 +16,8 @@ export async function exportMoves(
 ) {
   console.log('- moves');
 
-  // TODO add move flavor text
-  // console.log('\tloading data...');
-  // const data = await fs.readJson(`./data/moves.json`);
+  console.log('\tloading data...');
+  const extraData = await fs.readJson(`./data/moves.json`);
 
   const hasZMoves = gen.num === 7;
   const hasMaxMoves = gen.num === 8;
@@ -36,6 +35,11 @@ export async function exportMoves(
     if (hasZMoves && move.isZ && pp === 1) {
       // z move pp depends on the original move
       pp = undefined;
+    }
+
+    let baseMove;
+    if (hasZMoves && move.isZ) {
+      baseMove = extraData[move.id]?.baseMove;
     }
 
     const entry = {
@@ -73,11 +77,15 @@ export async function exportMoves(
       isMax: undefined as unknown,
       maxMove: undefined as unknown,
 
+      baseMove,
+
       // isNonstandard: move.isNonstandard || undefined,
       pokemon: moveMap.get(move.id),
       desc: move.desc,
       shortDesc: move.shortDesc,
-      // flavorText: data[move.id]?.flavorText,
+
+      // TODO add move flavor text
+      // flavorText: extraData[move.id]?.flavorText,
     };
 
     if (hasMaxMoves) {

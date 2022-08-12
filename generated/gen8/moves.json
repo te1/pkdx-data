@@ -20922,19 +20922,6 @@
     "shortDesc": "Lowers the user's Speed by 1."
   },
   {
-    "slug": "happyhour",
-    "name": "Happy Hour",
-    "gen": 6,
-    "type": "normal",
-    "category": "status",
-    "basePower": 0,
-    "pp": 30,
-    "target": "allySide",
-    "priority": 0,
-    "desc": "No competitive use.",
-    "shortDesc": "No competitive use."
-  },
-  {
     "slug": "harden",
     "name": "Harden",
     "gen": 1,
@@ -22218,33 +22205,6 @@
     ],
     "desc": "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
     "shortDesc": "User is hurt by 50% of its max HP if it misses."
-  },
-  {
-    "slug": "holdback",
-    "name": "Hold Back",
-    "gen": 6,
-    "type": "normal",
-    "category": "physical",
-    "basePower": 40,
-    "accuracy": 100,
-    "pp": 40,
-    "target": "normal",
-    "priority": 0,
-    "desc": "Leaves the target with at least 1 HP.",
-    "shortDesc": "Always leaves the target with at least 1 HP."
-  },
-  {
-    "slug": "holdhands",
-    "name": "Hold Hands",
-    "gen": 6,
-    "type": "normal",
-    "category": "status",
-    "basePower": 0,
-    "pp": 40,
-    "target": "adjacentAlly",
-    "priority": 0,
-    "desc": "No competitive use. Fails if there is no ally adjacent to the user.",
-    "shortDesc": "No competitive use."
   },
   {
     "slug": "honeclaws",
@@ -27569,19 +27529,6 @@
     ],
     "desc": "For 5 turns, the user is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the user uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the user is under any of their effects. Fails if the user is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows.",
     "shortDesc": "For 5 turns, the user has immunity to Ground."
-  },
-  {
-    "slug": "matblock",
-    "name": "Mat Block",
-    "gen": 6,
-    "type": "fighting",
-    "category": "status",
-    "basePower": 0,
-    "pp": 10,
-    "target": "allySide",
-    "priority": 0,
-    "desc": "The user and its party members are protected from damaging attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
-    "shortDesc": "Protects allies from damaging attacks. Turn 1 only."
   },
   {
     "slug": "maxairstream",

@@ -10,6 +10,16 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "pikashuniumz",
+    "baseMove": "thunderbolt",
+    "exclusive": [
+      "pikachu-original",
+      "pikachu-hoenn",
+      "pikachu-sinnoh",
+      "pikachu-unova",
+      "pikachu-kalos",
+      "pikachu-alola",
+      "pikachu-partner"
+    ],
     "desc": "Has a very high chance for a critical hit.",
     "shortDesc": "Very high critical hit ratio."
   },
@@ -214,7 +224,6 @@
     "name": "Acid Downpour",
     "gen": 7,
     "type": "poison",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -1302,7 +1311,6 @@
     "name": "All-Out Pummeling",
     "gen": 7,
     "type": "fighting",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -4431,7 +4439,6 @@
     "name": "Black Hole Eclipse",
     "gen": 7,
     "type": "dark",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -4922,7 +4929,6 @@
     "name": "Bloom Doom",
     "gen": 7,
     "type": "grass",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -5359,7 +5365,6 @@
     "name": "Breakneck Blitz",
     "gen": 7,
     "type": "normal",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -7302,6 +7307,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "pikaniumz",
+    "baseMove": "thunderbolt",
+    "exclusive": [
+      "pikachu"
+    ],
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
@@ -7971,6 +7980,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "kommoniumz",
+    "baseMove": "clangingscales",
+    "exclusive": [
+      "kommoo"
+    ],
     "desc": "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
     "shortDesc": "Raises the user's Atk/Def/SpAtk/SpDef/Spe by 1."
   },
@@ -9383,7 +9396,6 @@
     "name": "Continental Crush",
     "gen": 7,
     "type": "rock",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -9511,7 +9523,6 @@
     "name": "Corkscrew Crash",
     "gen": 7,
     "type": "steel",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -11554,7 +11565,6 @@
     "name": "Devastating Drake",
     "gen": 7,
     "type": "dragon",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -17101,6 +17111,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "eeviumz",
+    "baseMove": "lastresort",
+    "exclusive": [
+      "eevee"
+    ],
     "desc": "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages.",
     "shortDesc": "Raises user's Atk, Def, SpA, SpD, and Spe by 2."
   },
@@ -23690,6 +23704,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "mewniumz",
+    "baseMove": "psychic",
+    "exclusive": [
+      "mew"
+    ],
     "desc": "If this move is successful, the terrain becomes Psychic Terrain.",
     "shortDesc": "Summons Psychic Terrain."
   },
@@ -24491,7 +24509,6 @@
     "name": "Gigavolt Havoc",
     "gen": 7,
     "type": "electric",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -25574,6 +25591,13 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "tapuniumz",
+    "baseMove": "naturesmadness",
+    "exclusive": [
+      "tapukoko",
+      "tapulele",
+      "tapubulu",
+      "tapufini"
+    ],
     "desc": "Deals damage to the target equal to 3/4 of its current HP, rounded down, but not less than 1 HP.",
     "shortDesc": "Does damage equal to 3/4 target's current HP."
   },
@@ -44476,7 +44500,6 @@
     "name": "Hydro Vortex",
     "gen": 7,
     "type": "water",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -46704,7 +46727,6 @@
     "name": "Inferno Overdrive",
     "gen": 7,
     "type": "fire",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -49262,6 +49284,11 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "mimikiumz",
+    "baseMove": "playrough",
+    "exclusive": [
+      "mimikyu",
+      "mimikyu-busted"
+    ],
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
@@ -49661,6 +49688,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "ultranecroziumz",
+    "baseMove": "photongeyser",
+    "exclusive": [
+      "necrozma-ultra"
+    ],
     "desc": "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
     "shortDesc": "Physical if user's Atk > Sp. Atk. Ignores Abilities."
   },
@@ -50938,6 +50969,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "inciniumz",
+    "baseMove": "darkestlariat",
+    "exclusive": [
+      "incineroar"
+    ],
     "desc": "Damage doubles and no accuracy check is done if the target has used Minimize while active.",
     "shortDesc": "Damage doubles if the target used Minimize."
   },
@@ -51363,6 +51398,11 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "lunaliumz",
+    "baseMove": "moongeistbeam",
+    "exclusive": [
+      "lunala",
+      "necrozma-dawn-wings"
+    ],
     "desc": "This move and its effects ignore the Abilities of other Pokemon.",
     "shortDesc": "Ignores the Abilities of other Pokemon."
   },
@@ -53143,7 +53183,6 @@
     "name": "Never-Ending Nightmare",
     "gen": 7,
     "type": "ghost",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -53453,6 +53492,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "primariumz",
+    "baseMove": "sparklingaria",
+    "exclusive": [
+      "primarina"
+    ],
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
@@ -57998,6 +58041,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "snorliumz",
+    "baseMove": "gigaimpact",
+    "exclusive": [
+      "snorlax"
+    ],
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
@@ -66160,7 +66207,6 @@
     "name": "Savage Spin-Out",
     "gen": 7,
     "type": "bug",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -66826,6 +66872,11 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "solganiumz",
+    "baseMove": "sunsteelstrike",
+    "exclusive": [
+      "solgaleo",
+      "necrozma-dusk-mane"
+    ],
     "desc": "This move and its effects ignore the Abilities of other Pokemon.",
     "shortDesc": "Ignores the Abilities of other Pokemon."
   },
@@ -67938,7 +67989,6 @@
     "name": "Shattered Psyche",
     "gen": 7,
     "type": "psychic",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -68874,6 +68924,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "decidiumz",
+    "baseMove": "spiritshackle",
+    "exclusive": [
+      "decidueye"
+    ],
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
@@ -72900,6 +72954,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "marshadiumz",
+    "baseMove": "spectralthief",
+    "exclusive": [
+      "marshadow"
+    ],
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
@@ -73494,6 +73552,12 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "lycaniumz",
+    "baseMove": "stoneedge",
+    "exclusive": [
+      "lycanroc",
+      "lycanroc-midnight",
+      "lycanroc-dusk"
+    ],
     "desc": "Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
     "shortDesc": "Ends the effects of terrain."
   },
@@ -74051,6 +74115,10 @@
     "priority": 0,
     "isZ": true,
     "zCrystal": "aloraichiumz",
+    "baseMove": "thunderbolt",
+    "exclusive": [
+      "raichu-alola"
+    ],
     "desc": "Has a 100% chance to paralyze the target.",
     "shortDesc": "100% chance to paralyze the target."
   },
@@ -75828,7 +75896,6 @@
     "name": "Subzero Slammer",
     "gen": 7,
     "type": "ice",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -77004,7 +77071,6 @@
     "name": "Supersonic Skystrike",
     "gen": 7,
     "type": "flying",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -80281,7 +80347,6 @@
     "name": "Tectonic Rage",
     "gen": 7,
     "type": "ground",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,
@@ -84483,7 +84548,6 @@
     "name": "Twinkle Tackle",
     "gen": 7,
     "type": "fairy",
-    "category": "physical",
     "target": "normal",
     "priority": 0,
     "isZ": true,

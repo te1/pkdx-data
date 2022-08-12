@@ -24,9 +24,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -113,9 +110,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-dusk"
@@ -134,9 +128,6 @@
     "pp": 30,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -181,9 +172,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "grimer",
       "grimer-alola",
@@ -245,9 +233,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -295,9 +280,6 @@
     "pp": 15,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "hawlucha",
       "noibat",
@@ -425,9 +407,6 @@
     "pp": 30,
     "target": "adjacentAllyOrSelf",
     "priority": 0,
-    "zMove": {
-      "effect": "crit2"
-    },
     "pokemon": [
       "tentacool",
       "tentacruel",
@@ -459,9 +438,6 @@
     "pp": 20,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "flygon",
       "leafeon",
@@ -846,9 +822,6 @@
     "pp": 5,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "lugia"
     ],
@@ -865,11 +838,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -991,9 +959,6 @@
     "pp": 30,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -1183,9 +1148,6 @@
     "pp": 25,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -1239,9 +1201,6 @@
     "pp": 15,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -1363,11 +1322,6 @@
     "pp": 15,
     "target": "self",
     "priority": 2,
-    "zMove": {
-      "boost": {
-        "spe": 2
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -1559,9 +1513,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -1698,9 +1649,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "dhelmise"
     ],
@@ -1718,9 +1666,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "heatran",
       "charmander",
@@ -1860,9 +1805,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "squirtle",
       "wartortle",
@@ -1931,11 +1873,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "tapufini",
       "squirtle",
@@ -2012,9 +1949,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "glaceon",
       "squirtle",
@@ -2200,9 +2134,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "heracross",
       "heracross-mega",
@@ -2226,9 +2157,6 @@
     "pp": 5,
     "target": "allyTeam",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "tapulele",
       "clefairy",
@@ -2290,11 +2218,6 @@
     "pp": 20,
     "target": "adjacentAlly",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 2
-      }
-    },
     "pokemon": [
       "tapulele",
       "aromatisse",
@@ -2357,9 +2280,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -2448,9 +2368,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -2593,9 +2510,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "vespiquen"
     ],
@@ -2613,9 +2527,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -3416,9 +3327,6 @@
     "pp": 20,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "squirtle",
       "wartortle",
@@ -3452,9 +3360,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "vulpix-alola",
       "ninetales-alola",
@@ -3503,11 +3408,6 @@
     "pp": 20,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "glaceon",
       "sandshrew-alola",
@@ -3536,9 +3436,6 @@
     "pp": 15,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -3593,9 +3490,6 @@
     "pp": 10,
     "target": "normal",
     "priority": -4,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -3643,11 +3537,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -3705,11 +3594,6 @@
     "pp": 10,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "toxapex"
     ],
@@ -3727,9 +3611,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "exeggcute",
       "exeggutor",
@@ -3748,9 +3629,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "magnezone",
       "glaceon",
@@ -3811,9 +3689,6 @@
     "pp": 40,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -3919,9 +3794,6 @@
     "pp": 15,
     "target": "normal",
     "priority": -3,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "toucannon"
     ],
@@ -3939,9 +3811,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -3996,9 +3865,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -4062,9 +3928,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -4127,11 +3990,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 2
-      }
-    },
     "pokemon": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -4188,9 +4046,6 @@
     "pp": 10,
     "target": "self",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -4289,9 +4144,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -4382,9 +4234,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -4611,9 +4460,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "blaziken",
       "blaziken-mega",
@@ -4636,9 +4482,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "hitmonlee",
       "blaziken",
@@ -4664,9 +4507,6 @@
     "pp": 5,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "glaceon",
       "bergmite",
@@ -4957,11 +4797,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -5118,9 +4953,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "reshiram"
     ],
@@ -5138,9 +4970,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "avalugg",
       "growlithe",
@@ -5263,9 +5092,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "zekrom"
     ],
@@ -5283,9 +5109,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "cubone",
       "marowak",
@@ -5306,9 +5129,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "cubone",
       "marowak",
@@ -5329,9 +5149,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "cubone",
       "marowak",
@@ -5355,9 +5172,6 @@
     "pp": 10,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -5384,9 +5198,6 @@
     "pp": 5,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "hawlucha",
       "clefairy",
@@ -5518,9 +5329,6 @@
     "pp": 15,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "tapukoko",
       "pidgey",
@@ -5585,9 +5393,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -5947,9 +5752,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "tapufini",
       "squirtle",
@@ -6038,9 +5840,6 @@
     "pp": 20,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "flygon",
       "aegislash",
@@ -6193,9 +5992,6 @@
     "pp": 30,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "squirtle",
       "wartortle",
@@ -6268,9 +6064,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "poliwag",
       "poliwhirl",
@@ -6350,9 +6143,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -6469,9 +6259,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -6536,11 +6323,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "gallade",
       "hawlucha",
@@ -6670,9 +6452,6 @@
     "pp": 20,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -7026,9 +6805,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "machop",
       "machoke",
@@ -7068,9 +6844,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -7133,9 +6906,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "growlithe",
       "arcanine",
@@ -7161,9 +6931,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -7402,11 +7169,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "staryu",
       "starmie",
@@ -7455,11 +7217,6 @@
     "pp": 20,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 2
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -7578,15 +7335,6 @@
     "pp": 40,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -7626,11 +7374,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "vikavolt",
       "tapukoko",
@@ -7695,9 +7438,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -7948,11 +7688,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -8102,9 +7837,6 @@
     "pp": 20,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "chatot"
     ],
@@ -8122,9 +7854,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "sandshrew",
       "sandshrew-alola",
@@ -8193,9 +7922,6 @@
     "pp": 10,
     "target": "normal",
     "priority": -6,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "poliwrath",
       "kangaskhan",
@@ -8227,9 +7953,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "shellder",
       "cloyster",
@@ -8253,9 +7976,6 @@
     "pp": 5,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "kommoo"
     ],
@@ -8286,9 +8006,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -8345,9 +8062,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "gallade",
       "mankey",
@@ -8409,9 +8123,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -8444,9 +8155,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "hitmonchan",
       "kangaskhan",
@@ -8473,11 +8181,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -9442,11 +9145,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -9575,9 +9273,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -9684,9 +9379,6 @@
     "pp": 35,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "tentacool",
       "tentacruel",
@@ -9734,15 +9426,6 @@
     "pp": 30,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "porygon",
       "porygon2",
@@ -9761,9 +9444,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "porygon",
       "porygon2",
@@ -9782,11 +9462,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "accuracy": 1
-      }
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -9849,9 +9524,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "zygarde",
       "zygarde-10",
@@ -9883,11 +9555,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -9953,9 +9620,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "mareep",
       "flaaffy",
@@ -9989,9 +9653,6 @@
     "pp": 40,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "mareep",
       "flaaffy",
@@ -10025,9 +9686,6 @@
     "pp": 20,
     "target": "scripted",
     "priority": -5,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "lycanroc-midnight",
       "charmander",
@@ -10189,9 +9847,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -10433,9 +10088,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "krabby",
       "kingler",
@@ -10459,11 +10111,6 @@
     "pp": 10,
     "target": "allySide",
     "priority": 3,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "chimecho",
       "yamask",
@@ -10485,9 +10132,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "psyduck",
       "golduck",
@@ -10529,9 +10173,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "paras",
       "parasect",
@@ -10561,9 +10202,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -10762,9 +10400,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -10838,9 +10473,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "regigigas"
     ],
@@ -10857,9 +10489,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "curse"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -11070,9 +10699,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "kartana"
     ],
@@ -11090,9 +10716,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "incineroar"
     ],
@@ -11110,9 +10733,6 @@
     "pp": 15,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -11333,9 +10953,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "darkrai"
     ],
@@ -11353,9 +10970,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -11501,11 +11115,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "vespiquen"
     ],
@@ -11522,11 +11131,6 @@
     "pp": 40,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "accuracy": 1
-      }
-    },
     "pokemon": [
       "sandshrew",
       "sandshrew-alola",
@@ -11620,11 +11224,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "accuracy": 1
-      }
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -11845,9 +11444,6 @@
     "pp": 5,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "redirect"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -11926,11 +11522,6 @@
     "pp": 5,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -12015,9 +11606,6 @@
     "pp": 5,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "diancie",
       "diancie-mega"
@@ -12036,9 +11624,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -12091,9 +11676,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -12208,9 +11790,6 @@
     "pp": 15,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -12275,9 +11854,6 @@
     "pp": 15,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -12366,9 +11942,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "seel",
       "dewgong",
@@ -12394,9 +11967,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "kangaskhan",
       "kangaskhan-mega",
@@ -12428,9 +11998,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "jirachi"
     ],
@@ -12448,9 +12015,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -12657,9 +12221,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "weezing",
       "doduo",
@@ -12725,9 +12286,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "nidoranf",
       "nidorina",
@@ -12798,9 +12356,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu",
       "raichu",
@@ -12864,9 +12419,6 @@
     "pp": 15,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -13830,9 +13382,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -13942,9 +13491,6 @@
     "pp": 5,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "rayquaza",
       "rayquaza-mega"
@@ -13963,9 +13509,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -14039,9 +13582,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "flygon",
       "noivern",
@@ -14167,9 +13707,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "flygon",
       "charmander",
@@ -14236,9 +13773,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "exeggutor-alola",
       "tropius"
@@ -14257,9 +13791,6 @@
     "pp": 10,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -14415,9 +13946,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -14471,9 +13999,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "flygon",
       "charmander",
@@ -14525,9 +14050,6 @@
     "pp": 10,
     "target": "normal",
     "priority": -6,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "flygon",
       "charizard",
@@ -14627,9 +14149,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -14671,9 +14190,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "gallade",
       "hawlucha",
@@ -14803,9 +14319,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -15062,9 +14575,6 @@
     "pp": 20,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "spearow",
       "fearow",
@@ -15098,9 +14608,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "lycanroc",
       "beedrill",
@@ -15149,9 +14656,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "gallade",
       "hawlucha",
@@ -15239,9 +14743,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "poliwrath",
       "machop",
@@ -15286,9 +14787,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -15488,9 +14986,6 @@
     "pp": 10,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -15819,9 +15314,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -16104,11 +15596,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "voltorb",
       "electrode",
@@ -16144,9 +15631,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "chansey",
       "blissey"
@@ -16164,11 +15648,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "magnezone",
       "tapukoko",
@@ -16203,11 +15682,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "helioptile",
       "heliolisk"
@@ -16226,9 +15700,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -16285,9 +15756,6 @@
     "pp": 15,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -16390,11 +15858,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "rattata-alola",
       "raticate-alola",
@@ -16526,9 +15989,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -16611,11 +16071,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -16736,9 +16191,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "hawlucha",
       "lycanroc",
@@ -16949,9 +16401,6 @@
     "pp": 10,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -17159,9 +16608,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "gardevoir",
       "leafeon",
@@ -17422,11 +16868,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "hawlucha",
       "seel",
@@ -17471,9 +16912,6 @@
     "pp": 5,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "cyndaquil",
       "quilava",
@@ -17499,9 +16937,6 @@
     "pp": 5,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -17642,9 +17077,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "tapulele",
       "vulpix",
@@ -17730,9 +17162,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 2,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "arcanine",
       "dratini",
@@ -17785,9 +17214,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -18745,11 +18171,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "klefki"
     ],
@@ -18767,9 +18188,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "togetic",
       "hoppip",
@@ -18806,9 +18224,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 3,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "squirtle",
       "wartortle",
@@ -18895,11 +18310,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -18992,9 +18402,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "gallade",
       "aegislash",
@@ -19105,11 +18512,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "hawlucha",
       "pidgey",
@@ -19169,9 +18571,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 2,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -19275,9 +18674,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -19428,9 +18824,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "beedrill",
       "beedrill-mega",
@@ -19472,9 +18865,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "volcarona"
     ],
@@ -19492,9 +18882,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "rattata",
       "rattata-alola",
@@ -19539,9 +18926,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -19770,9 +19154,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "heatran",
       "lycanroc",
@@ -19880,9 +19261,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "heatmor"
     ],
@@ -19900,9 +19278,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -19945,9 +19320,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -20142,9 +19514,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "heatran",
       "charmander",
@@ -20204,9 +19573,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 2,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "farfetchd",
       "golisopod"
@@ -20225,9 +19591,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -20282,9 +19645,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -20467,9 +19827,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -20526,9 +19883,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "heatran",
       "pumpkaboo-small",
@@ -20656,9 +20010,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -20928,9 +20279,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "rattata",
       "raticate",
@@ -20967,9 +20315,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -21032,11 +20377,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "volbeat",
       "morelull",
@@ -21056,9 +20396,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "magnezone",
       "heatran",
@@ -21222,11 +20559,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "tapulele",
       "nidoranf",
@@ -21278,9 +20610,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "magearna"
     ],
@@ -21298,9 +20627,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -21691,9 +21017,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "comfey"
     ],
@@ -21710,11 +21033,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "sunflora",
       "cherubi",
@@ -21737,9 +21055,6 @@
     "pp": 15,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -21886,9 +21201,6 @@
     "pp": 10,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 170
-    },
     "pokemon": [
       "hawlucha"
     ],
@@ -21906,9 +21218,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "gardevoir",
       "gallade",
@@ -22173,11 +21482,6 @@
     "pp": 30,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "accuracy": 1
-      }
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -22304,9 +21608,6 @@
     "pp": 20,
     "target": "normal",
     "priority": -3,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -22567,9 +21868,6 @@
     "pp": 20,
     "target": "self",
     "priority": 2,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -22597,9 +21895,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "breloom",
       "makuhita",
@@ -22632,9 +21927,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "crit2"
-    },
     "pokemon": [
       "squirtle",
       "wartortle",
@@ -22736,15 +22028,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "phantump",
       "trevenant"
@@ -22763,9 +22046,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -22917,9 +22197,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "vulpix-alola",
       "ninetales-alola",
@@ -22949,9 +22226,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "kyurem-black"
     ],
@@ -22969,9 +22243,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "sceptile",
       "sceptile-mega",
@@ -22994,9 +22265,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "glaceon",
       "bergmite",
@@ -23055,9 +22323,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -24023,9 +23288,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "beedrill",
       "beedrill-mega",
@@ -24091,9 +23353,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -24161,9 +23420,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "rattata",
       "rattata-alola",
@@ -24257,9 +23513,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "zekrom",
       "kyurem-black"
@@ -24278,9 +23531,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "reshiram",
       "kyurem-white"
@@ -24299,9 +23549,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -24409,11 +23656,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -24478,9 +23720,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "klink",
       "klang",
@@ -24499,11 +23738,6 @@
     "pp": 20,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "klinklang",
       "magearna"
@@ -24535,15 +23769,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "xerneas"
     ],
@@ -24561,9 +23786,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -24798,9 +24020,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "weezing",
       "gardevoir",
@@ -25360,9 +24579,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "kyurem",
       "kyurem-black",
@@ -25382,11 +24598,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -25417,9 +24628,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -25773,9 +24981,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -25835,11 +25040,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "bulbasaur",
@@ -25895,11 +25095,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "tapubulu",
       "bulbasaur",
@@ -25966,11 +25161,6 @@
     "pp": 5,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "magnezone",
       "tapulele",
@@ -26127,11 +25317,6 @@
     "pp": 40,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -26332,11 +25517,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -26417,9 +25597,6 @@
     "pp": 5,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "redirect"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -26481,11 +25658,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "abra",
       "kadabra",
@@ -26528,11 +25700,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "abra",
       "kadabra",
@@ -26585,9 +25752,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "vikavolt",
       "krabby",
@@ -26620,9 +25784,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -26723,9 +25884,6 @@
     "pp": 35,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -26794,9 +25952,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -26928,11 +26083,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "glaceon",
       "bergmite",
@@ -27169,9 +26319,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "geodude",
       "graveler",
@@ -27241,15 +26388,6 @@
     "pp": 30,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -27274,11 +26412,6 @@
     "pp": 30,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -27382,9 +26515,6 @@
     "pp": 30,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -27487,9 +26617,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "diglett",
       "diglett-alola",
@@ -27594,9 +26721,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "bouffalant"
     ],
@@ -27614,9 +26738,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -27663,9 +26784,6 @@
     "pp": 5,
     "target": "allyTeam",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "gardevoir",
       "leafeon",
@@ -27765,11 +26883,6 @@
     "pp": 15,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 2
-      }
-    },
     "pokemon": [
       "celebi",
       "shedinja",
@@ -27871,9 +26984,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "vespiquen"
     ],
@@ -27890,9 +27000,6 @@
     "pp": 10,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -27951,9 +27058,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "jynx",
       "smoochum",
@@ -27975,9 +27079,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "crit2"
-    },
     "pokemon": [
       "manaphy",
       "magearna"
@@ -27996,9 +27097,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "tepig",
       "pignite",
@@ -28018,9 +27116,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -28211,9 +27306,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "machop",
       "machoke",
@@ -28272,9 +27364,6 @@
     "pp": 20,
     "target": "adjacentAlly",
     "priority": 5,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -28541,9 +27630,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "vulpix",
       "vulpix-alola",
@@ -28608,9 +27694,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -29578,9 +28661,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -30548,9 +29628,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -31518,9 +30595,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -32488,9 +31562,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -33458,9 +32529,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -34428,9 +33496,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -35398,9 +34463,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -36368,9 +35430,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -37338,9 +36397,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -38308,9 +37364,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -39278,9 +38331,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -40248,9 +39298,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -41218,9 +40265,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -42188,9 +41232,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -43158,9 +42199,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -44128,9 +43166,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -45098,9 +44133,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "ponyta",
       "rapidash",
@@ -45125,9 +44157,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "hawlucha",
       "hitmonlee",
@@ -45165,9 +44194,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "snorlax",
       "munchlax"
@@ -45185,15 +44211,6 @@
     "pp": 40,
     "target": "adjacentAlly",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "pikachu",
       "raichu",
@@ -45212,11 +44229,6 @@
     "pp": 15,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "hawlucha",
       "sandshrew",
@@ -45259,9 +44271,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "tapubulu",
       "nidoranm",
@@ -45294,9 +44303,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "nidoranm",
       "nidorino",
@@ -45329,9 +44335,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "tapubulu",
       "sawsbuck",
@@ -45354,11 +44357,6 @@
     "pp": 40,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -45411,9 +44409,6 @@
     "pp": 10,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -45468,9 +44463,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "swampert",
       "swampert-mega",
@@ -45494,9 +44486,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "tapufini",
       "squirtle",
@@ -45631,9 +44620,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "weezing",
       "gardevoir",
@@ -46172,9 +45158,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "rattata",
       "rattata-alola",
@@ -46202,9 +45185,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "hoopa",
       "hoopa-unbound"
@@ -46222,9 +45202,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "hoopa",
       "hoopa-unbound"
@@ -46243,9 +45220,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -46452,11 +45426,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -46545,9 +45514,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -46580,9 +45546,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "glaceon",
       "bergmite",
@@ -46921,9 +45884,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "kyurem-white"
     ],
@@ -46941,9 +45901,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "glaceon",
       "bergmite",
@@ -47036,9 +45993,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "crabominable"
     ],
@@ -47056,9 +46010,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -47266,9 +46217,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "glaceon",
       "vulpix-alola",
@@ -47313,9 +46261,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "sandshrew-alola",
       "sandslash-alola",
@@ -47341,9 +46286,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "sandshrew-alola",
       "sandslash-alola",
@@ -47373,9 +46315,6 @@
     "pp": 15,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -47739,11 +46678,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 2
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -47842,9 +46776,6 @@
     "pp": 15,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "slugma",
       "magcargo",
@@ -47873,9 +46804,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -47928,9 +46856,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -48068,11 +46993,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -48136,11 +47056,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "oranguru"
     ],
@@ -48157,11 +47072,6 @@
     "pp": 25,
     "target": "all",
     "priority": 1,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "chinchou",
       "lanturn",
@@ -48187,9 +47097,6 @@
     "pp": 15,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "magnezone",
       "heatran",
@@ -48444,9 +47351,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "magnezone",
       "heatran",
@@ -48668,9 +47572,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -49059,9 +47960,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "arceus",
       "arceus-bug",
@@ -49096,9 +47994,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "doduo",
       "dodrio",
@@ -49128,9 +48023,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "hawlucha",
       "mankey",
@@ -49162,11 +48054,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "kadabra",
       "alakazam",
@@ -49185,9 +48072,6 @@
     "pp": 10,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade"
@@ -49206,9 +48090,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -49477,9 +48358,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "zygarde",
       "zygarde-10",
@@ -49498,11 +48376,6 @@
     "pp": 30,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -49779,9 +48652,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -49978,9 +48848,6 @@
     "pp": 15,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "heatran",
       "magmar",
@@ -50014,9 +48881,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "tapubulu",
       "rowlet",
@@ -50039,9 +48903,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "leafeon",
       "gallade",
@@ -50083,9 +48944,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -50147,9 +49005,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "victreebel",
       "shiftry",
@@ -50173,9 +49028,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -50239,9 +49091,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -50341,11 +49190,6 @@
     "pp": 30,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "gallade",
       "heatran",
@@ -50577,9 +49421,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "seel",
       "dewgong",
@@ -50632,11 +49473,6 @@
     "pp": 30,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -50985,9 +49821,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "blastoise",
       "blastoise-mega",
@@ -51075,11 +49908,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "magnezone",
       "magnemite",
@@ -51121,11 +49949,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "jynx"
     ],
@@ -51143,9 +49966,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "gallade",
       "hawlucha",
@@ -51328,9 +50148,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "gallade",
       "hawlucha",
@@ -51455,11 +50272,6 @@
     "pp": 30,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -51551,9 +50363,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "spinarak",
       "ariados",
@@ -51582,9 +50391,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "latios",
       "latios-mega"
@@ -51603,9 +50409,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "hitmonlee",
       "hitmonchan",
@@ -51636,9 +50439,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -51714,11 +50514,6 @@
     "pp": 15,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "boost": {
-        "spd": 2
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -51960,11 +50755,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -52051,9 +50841,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "heatran"
     ],
@@ -52070,9 +50857,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "magnezone",
       "magnemite",
@@ -52097,11 +50881,6 @@
     "pp": 20,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "magnezone",
       "electrode",
@@ -52124,11 +50903,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -52263,9 +51037,6 @@
     "pp": 30,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "sandshrew",
       "sandslash",
@@ -52328,11 +51099,6 @@
     "pp": 10,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "throh",
       "greninja",
@@ -52351,11 +51117,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -52427,11 +51188,6 @@
     "pp": 40,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "mankey",
       "primeape",
@@ -52469,11 +51225,6 @@
     "pp": 20,
     "target": "adjacentFoe",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 2
-      }
-    },
     "pokemon": [
       "hawlucha",
       "rattata",
@@ -52546,9 +51297,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "oddish",
       "gloom",
@@ -52614,9 +51362,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "tapubulu",
       "nidoking",
@@ -52655,9 +51400,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "mudbray",
       "mudsdale",
@@ -52678,9 +51420,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "geodude",
       "graveler",
@@ -52710,9 +51449,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "healreplacement"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -52789,9 +51525,6 @@
     "pp": 10,
     "target": "scripted",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "sandslash-alola",
       "rhyhorn",
@@ -52827,9 +51560,6 @@
     "pp": 35,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -52918,11 +51648,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "magnezone",
       "heatran",
@@ -52999,9 +51724,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -53054,9 +51776,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "miltank",
       "skiddo",
@@ -53075,11 +51794,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "accuracy": 1
-      }
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -53110,9 +51824,6 @@
     "pp": 5,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "blacephalon"
     ],
@@ -53129,11 +51840,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "poliwag",
       "poliwhirl",
@@ -53183,9 +51889,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -53217,11 +51920,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "kadabra",
       "alakazam",
@@ -53258,9 +51956,6 @@
     "pp": 20,
     "target": "scripted",
     "priority": -5,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "magnezone",
       "glaceon",
@@ -53328,11 +52023,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 2
-      }
-    },
     "pokemon": [
       "tapukoko",
       "pidgey",
@@ -53391,9 +52081,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "magnezone",
       "magnemite",
@@ -53427,9 +52114,6 @@
     "pp": 30,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -53515,9 +52199,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "latias",
       "latias-mega"
@@ -53535,11 +52216,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -53587,9 +52263,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "gardevoir",
       "tapulele",
@@ -53644,9 +52317,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "lunala",
       "necrozma-dawn-wings",
@@ -53665,9 +52335,6 @@
     "pp": 5,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "noivern",
       "clefairy",
@@ -53708,9 +52375,6 @@
     "pp": 5,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "venonat",
       "venomoth",
@@ -53752,9 +52416,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -53814,9 +52475,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "tapufini",
       "squirtle",
@@ -53879,9 +52537,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -53955,9 +52610,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -54053,11 +52705,6 @@
     "pp": 15,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "hawlucha",
       "squirtle",
@@ -54156,9 +52803,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "silvally",
       "silvally-bug",
@@ -54193,9 +52837,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "mismagius",
       "delphox"
@@ -54213,9 +52854,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu",
       "raichu",
@@ -54324,9 +52962,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -54622,9 +53257,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "tapukoko",
       "tapulele",
@@ -54645,9 +53277,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "cacnea",
       "cacturne",
@@ -54682,9 +53311,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "zorua",
       "zoroark",
@@ -54704,11 +53330,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "gastly",
       "haunter",
@@ -54737,9 +53358,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "gastly",
       "haunter",
@@ -54795,9 +53413,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "gallade",
       "aegislash",
@@ -54910,11 +53525,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "wailord",
       "reshiram",
@@ -54943,9 +53553,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -54978,9 +53585,6 @@
     "pp": 10,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "yveltal"
     ],
@@ -55012,9 +53616,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "horsea",
       "seadra",
@@ -55035,11 +53636,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -55110,9 +53706,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "natu",
       "xatu",
@@ -55164,9 +53757,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "kyogre",
       "kyogre-primal"
@@ -55185,9 +53775,6 @@
     "pp": 10,
     "target": "randomNormal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -55376,9 +53963,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "heatran",
       "charmander",
@@ -55500,11 +54084,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -55656,9 +54235,6 @@
     "pp": 20,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "helioptile",
       "heliolisk",
@@ -55678,9 +54254,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "healreplacement"
-    },
     "pokemon": [
       "meowth-alola",
       "persian-alola",
@@ -55719,9 +54292,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -56043,9 +54613,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "meowth",
       "meowth-alola",
@@ -56068,9 +54635,6 @@
     "pp": 35,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "spearow",
       "fearow",
@@ -56146,9 +54710,6 @@
     "pp": 5,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "jigglypuff",
       "wigglytuff",
@@ -56218,9 +54779,6 @@
     "pp": 15,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "venusaur",
       "venusaur-mega",
@@ -56256,9 +54814,6 @@
     "pp": 10,
     "target": "randomNormal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -56295,9 +54850,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "gourgeist-small",
       "gourgeist-large",
@@ -56333,9 +54885,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "necrozma",
       "necrozma-dusk-mane",
@@ -56355,9 +54904,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "beedrill",
       "beedrill-mega",
@@ -56408,9 +54954,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "zeraora"
     ],
@@ -56427,11 +54970,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -56485,9 +55023,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "wigglytuff",
       "persian",
@@ -56558,9 +55093,6 @@
     "pp": 20,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "doduo",
       "dodrio",
@@ -56596,9 +55128,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -56658,11 +55187,6 @@
     "pp": 40,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -56695,9 +55219,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "gallade",
       "hawlucha",
@@ -56893,11 +55414,6 @@
     "pp": 35,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -56956,9 +55472,6 @@
     "pp": 35,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "weedle",
       "kakuna",
@@ -57017,9 +55530,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -57058,9 +55568,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "ribombee"
     ],
@@ -57078,9 +55585,6 @@
     "pp": 35,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -57169,11 +55673,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "boost": {
-        "spd": 2
-      }
-    },
     "pokemon": [
       "vivillon",
       "vivillon-fancy",
@@ -57195,9 +55694,6 @@
     "pp": 25,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -57247,9 +55743,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "persian",
       "persian-alola",
@@ -57298,11 +55791,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "drowzee",
       "hypno",
@@ -57343,11 +55831,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "tapukoko",
       "vulpix",
@@ -57396,11 +55879,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -57438,9 +55916,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "mankey",
       "primeape",
@@ -57470,9 +55945,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "grimer",
       "grimer-alola",
@@ -57523,9 +55995,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -57561,9 +56030,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "groudon",
       "groudon-primal"
@@ -57582,9 +56048,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu",
       "raichu",
@@ -57624,9 +56087,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "necrozma",
       "necrozma-dusk-mane",
@@ -57645,9 +56105,6 @@
     "pp": 10,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -58615,9 +57072,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -58708,9 +57162,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -59000,9 +57451,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "girafarig",
       "carvanha",
@@ -59026,11 +57474,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "tapulele",
       "abra",
@@ -59063,9 +57506,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "deoxys",
       "deoxys-attack",
@@ -59086,9 +57526,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "gallade",
       "kadabra",
@@ -59130,11 +57567,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 2
-      }
-    },
     "pokemon": [
       "abra",
       "kadabra",
@@ -59176,9 +57608,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -59505,9 +57934,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -59660,9 +58086,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "mewtwo",
       "mewtwo-mega-x",
@@ -59682,9 +58105,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -59751,9 +58171,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "jigglypuff",
       "wigglytuff",
@@ -59841,15 +58258,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "pyukumuku"
     ],
@@ -59867,9 +58275,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -60062,11 +58467,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "rattata-alola",
       "raticate-alola",
@@ -60141,9 +58541,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -60308,11 +58705,6 @@
     "pp": 15,
     "target": "allySide",
     "priority": 3,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "gallade",
       "hawlucha",
@@ -60390,9 +58782,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "butterfree",
       "venomoth",
@@ -60427,9 +58816,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "beedrill",
       "beedrill-mega",
@@ -60512,9 +58898,6 @@
     "pp": 20,
     "target": "self",
     "priority": 2,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "butterfree",
       "paras",
@@ -60549,11 +58932,6 @@
     "pp": 5,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -61223,9 +59601,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -61283,9 +59658,6 @@
     "pp": 25,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "leafeon",
       "pumpkaboo-small",
@@ -61366,9 +59738,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "shellder",
       "cloyster",
@@ -61395,9 +59764,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -61474,9 +59840,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -61565,11 +59928,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 2
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -61723,11 +60081,6 @@
     "pp": 20,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -61964,11 +60317,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "tentacruel",
       "gastly",
@@ -62001,9 +60349,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -62103,9 +60448,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "meloetta",
       "meloetta-pirouette"
@@ -62123,9 +60465,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -63085,9 +61424,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -63127,9 +61463,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -64095,9 +62428,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "oricorio",
       "oricorio-pom-pom",
@@ -64118,9 +62448,6 @@
     "pp": 10,
     "target": "normal",
     "priority": -4,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "rattata",
       "rattata-alola",
@@ -64195,9 +62522,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "lycanroc-midnight",
       "rattata",
@@ -64297,11 +62621,6 @@
     "pp": 20,
     "target": "normal",
     "priority": -6,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -64571,9 +62890,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "dialga"
     ],
@@ -64591,9 +62907,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "geodude",
       "geodude-alola",
@@ -64653,9 +62966,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -64716,9 +63026,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -64855,9 +63162,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -65285,9 +63589,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "sawk",
       "pikipek",
@@ -65312,9 +63613,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -65373,9 +63671,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -65780,9 +64075,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "rhyperior",
       "dwebble",
@@ -65801,11 +64093,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -65980,9 +64267,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "machop",
       "machoke",
@@ -66008,9 +64292,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "sandshrew",
       "sandslash",
@@ -66111,9 +64392,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -66255,11 +64533,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "tapubulu",
       "sandshrew",
@@ -66302,9 +64575,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -67268,9 +65538,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "entei",
       "hooh"
@@ -67289,9 +65556,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -67320,11 +65584,6 @@
     "pp": 25,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -67654,11 +65913,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -67778,11 +66032,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -68047,9 +66296,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -68112,9 +66358,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "tapufini",
       "squirtle",
@@ -68273,11 +66516,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "heatran",
       "pumpkaboo-small",
@@ -68459,9 +66697,6 @@
     "pp": 35,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "charmander",
       "charmeleon",
@@ -68575,11 +66810,6 @@
     "pp": 40,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -68760,9 +66990,6 @@
     "pp": 5,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "victini"
     ],
@@ -68794,9 +67021,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "vulpix",
       "vulpix-alola",
@@ -68844,9 +67068,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "keldeo",
       "keldeo-resolute"
@@ -68865,9 +67086,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "leafeon",
       "pumpkaboo-small",
@@ -69034,9 +67252,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "shaymin",
       "shaymin-sky"
@@ -69055,9 +67270,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "mankey",
       "primeape",
@@ -69113,9 +67325,6 @@
     "pp": 5,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -69161,9 +67370,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -69534,9 +67740,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "marowak-alola",
       "marowak-alola-totem"
@@ -69555,9 +67758,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "aegislash",
       "aegislash-blade",
@@ -69803,9 +68003,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "giratina",
       "giratina-origin"
@@ -69823,9 +68020,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "grimer",
       "muk",
@@ -69852,9 +68046,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -69916,11 +68107,6 @@
     "pp": 30,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -69959,9 +68145,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "vulpix-alola",
       "ninetales-alola",
@@ -69999,9 +68182,6 @@
     "pp": 15,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "shellder",
       "cloyster",
@@ -70037,9 +68217,6 @@
     "pp": 5,
     "target": "allAdjacentFoes",
     "priority": -3,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "turtonator"
     ],
@@ -70056,9 +68233,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "klink",
       "klang",
@@ -70078,9 +68252,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -70430,9 +68601,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "sandygast",
       "palossand"
@@ -70451,9 +68619,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -70770,9 +68935,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "butterfree",
       "venomoth",
@@ -70816,11 +68978,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "psyduck",
       "golduck",
@@ -70859,11 +69016,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -70924,15 +69076,6 @@
     "pp": 1,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "smeargle"
     ],
@@ -70949,11 +69092,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -71099,9 +69237,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 195
-    },
     "pokemon": [
       "avalugg",
       "tapubulu",
@@ -71153,9 +69288,6 @@
     "pp": 5,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "hawlucha",
       "noibat",
@@ -71232,9 +69364,6 @@
     "pp": 10,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "hawlucha",
       "vikavolt",
@@ -71279,9 +69408,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "hitmonchan",
       "gligar",
@@ -71314,9 +69440,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "slowpoke",
       "slowbro",
@@ -71345,9 +69468,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -71432,9 +69552,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "gallade",
       "aegislash",
@@ -71577,11 +69694,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -71630,9 +69742,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "crit2"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -72598,9 +70707,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -72635,9 +70741,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -72836,9 +70939,6 @@
     "pp": 10,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "raticate-alola",
       "raticate-alola-totem",
@@ -72924,9 +71024,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "blastoise",
       "blastoise-mega",
@@ -73074,9 +71171,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "tapubulu",
       "tapufini",
@@ -73128,9 +71222,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "mankey",
       "primeape",
@@ -73179,9 +71270,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -73227,11 +71315,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -73279,9 +71362,6 @@
     "pp": 15,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -73416,11 +71496,6 @@
     "pp": 10,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "boost": {
-        "spe": 2
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -73613,9 +71688,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -74582,11 +72654,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "tapufini",
       "psyduck",
@@ -74630,9 +72697,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "chansey",
       "blissey"
@@ -74651,9 +72715,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -74992,9 +73053,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "lurantis"
     ],
@@ -75012,9 +73070,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -75061,9 +73116,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "palkia"
     ],
@@ -75081,9 +73133,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -75148,9 +73197,6 @@
     "pp": 10,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "primarina"
     ],
@@ -75168,9 +73214,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "marshadow"
     ],
@@ -75187,11 +73230,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "raichu-alola",
       "emolga",
@@ -75212,11 +73250,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "spinarak",
       "ariados",
@@ -75239,9 +73272,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "cloyster",
       "corsola",
@@ -75261,11 +73291,6 @@
     "pp": 20,
     "target": "foeSide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "cloyster",
       "omanyte",
@@ -75324,11 +73349,6 @@
     "pp": 10,
     "target": "self",
     "priority": 4,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "cacturne",
       "pansage",
@@ -75351,9 +73371,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "decidueye"
     ],
@@ -75371,9 +73388,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -75555,9 +73569,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -75624,11 +73635,6 @@
     "pp": 40,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 3
-      }
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -75707,9 +73713,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "paras",
       "parasect",
@@ -75733,11 +73736,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 3,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -75760,11 +73758,6 @@
     "pp": 20,
     "target": "foeSide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "heatran",
       "lycanroc",
@@ -75982,9 +73975,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "volcanion"
     ],
@@ -76002,9 +73992,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "golem",
       "golem-alola",
@@ -76027,9 +74014,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -76168,11 +74152,6 @@
     "pp": 20,
     "target": "foeSide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "spinarak",
       "ariados",
@@ -76204,9 +74183,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -76295,9 +74271,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "ponyta",
       "rapidash",
@@ -76373,9 +74346,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "heatran",
       "avalugg",
@@ -76577,9 +74547,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "flygon",
       "gallade",
@@ -76820,9 +74787,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -76880,9 +74844,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "pinsir",
       "pinsir-mega",
@@ -76904,9 +74865,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "desc": "No additional effect.",
     "shortDesc": "No additional effect."
   },
@@ -76921,11 +74879,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "oddish",
       "gloom",
@@ -76954,11 +74907,6 @@
     "pp": 40,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "vikavolt",
       "caterpie",
@@ -77015,9 +74963,6 @@
     "pp": 20,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "shuckle",
       "volbeat",
@@ -77051,11 +74996,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "butterfree",
       "oddish",
@@ -77115,9 +75055,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "machop",
       "machoke",
@@ -77143,9 +75080,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -78125,9 +76059,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -78234,11 +76165,6 @@
     "pp": 5,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -78910,9 +76836,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "solgaleo",
       "necrozma-dusk-mane",
@@ -78932,9 +76855,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -79018,9 +76938,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "trapinch",
       "vibrava",
@@ -79214,11 +77131,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -79327,9 +77239,6 @@
     "pp": 15,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "bergmite",
       "avalugg",
@@ -79588,9 +77497,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -80550,9 +78456,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -80624,11 +78527,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "pikachu",
       "raichu",
@@ -80679,11 +78577,6 @@
     "pp": 20,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "accuracy": 1
-      }
-    },
     "pokemon": [
       "tapulele",
       "bulbasaur",
@@ -80765,9 +78658,6 @@
     "pp": 20,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -80858,11 +78748,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 2
-      }
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -80919,9 +78804,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "leafeon",
       "gallade",
@@ -81216,9 +79098,6 @@
     "pp": 10,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -81272,9 +79151,6 @@
     "pp": 5,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "leafeon",
       "pumpkaboo-small",
@@ -81400,9 +79276,6 @@
     "pp": 35,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -81724,9 +79597,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
     "pokemon": [
       "volbeat",
       "manaphy",
@@ -81746,9 +79616,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "vulpix",
       "vulpix-alola",
@@ -81775,11 +79642,6 @@
     "pp": 30,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -81897,9 +79759,6 @@
     "pp": 15,
     "target": "allySide",
     "priority": 0,
-    "zMove": {
-      "effect": "crit2"
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -82090,9 +79949,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -82307,11 +80163,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -82614,11 +80465,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "sudowoodo",
       "plusle",
@@ -82647,9 +80493,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "genesect",
       "genesect-douse",
@@ -82684,11 +80527,6 @@
     "pp": 20,
     "target": "allAdjacent",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "oddish",
       "gloom",
@@ -82730,11 +80568,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spa": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -82958,9 +80791,6 @@
     "pp": 20,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -83000,9 +80830,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -83399,9 +81226,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 180
-    },
     "pokemon": [
       "zygarde",
       "zygarde-10",
@@ -83421,9 +81245,6 @@
     "pp": 10,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "zygarde",
       "zygarde-10",
@@ -83443,9 +81264,6 @@
     "pp": 10,
     "target": "randomNormal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -83564,9 +81382,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -83692,9 +81507,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 185
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -83957,9 +81769,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -84283,9 +82092,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "lycanroc",
       "lycanroc-midnight",
@@ -84375,9 +82181,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -84618,9 +82421,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -84680,11 +82480,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -84999,11 +82794,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -85110,11 +82900,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "inkay",
       "malamar"
@@ -85133,11 +82918,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -85360,11 +83140,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -86329,11 +84104,6 @@
     "pp": 20,
     "target": "foeSide",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -86394,11 +84164,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "spinarak",
       "ariados"
@@ -86416,9 +84181,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "effect": "heal"
-    },
     "pokemon": [
       "ditto",
       "mew"
@@ -86437,9 +84199,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "magnezone",
       "spearow",
@@ -86491,11 +84250,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 2
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -86686,15 +84440,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1,
-        "def": 1,
-        "spa": 1,
-        "spd": 1,
-        "spe": 1
-      }
-    },
     "pokemon": [
       "pumpkaboo-small",
       "pumpkaboo-large",
@@ -86718,11 +84463,6 @@
     "pp": 5,
     "target": "all",
     "priority": -7,
-    "zMove": {
-      "boost": {
-        "accuracy": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -86893,9 +84633,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "hitmontop",
       "pheromosa"
@@ -86914,9 +84651,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "tsareena"
     ],
@@ -86933,9 +84667,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -86975,9 +84706,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "beedrill",
       "beedrill-mega",
@@ -87020,9 +84748,6 @@
     "pp": 20,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "pidgey",
       "pidgeotto",
@@ -87071,9 +84796,6 @@
     "pp": 10,
     "target": "randomNormal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -87372,9 +85094,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "vibrava",
       "flygon",
@@ -87583,9 +85302,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "hitmonlee",
       "hitmonchan",
@@ -87615,9 +85331,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 220
-    },
     "pokemon": [
       "victini"
     ],
@@ -87635,11 +85348,6 @@
     "pp": 20,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -87696,9 +85404,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -87818,9 +85523,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "bulbasaur",
       "ivysaur",
@@ -87864,9 +85566,6 @@
     "pp": 30,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "vikavolt",
       "krabby",
@@ -87899,9 +85598,6 @@
     "pp": 10,
     "target": "normal",
     "priority": -1,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "machop",
       "machoke",
@@ -87932,9 +85628,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -88025,9 +85718,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -88055,9 +85745,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 140
-    },
     "pokemon": [
       "clefairy",
       "clefable",
@@ -88114,9 +85801,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "tapufini",
       "squirtle",
@@ -88276,9 +85960,6 @@
     "pp": 25,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "tapufini",
       "squirtle",
@@ -88391,9 +86072,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "squirtle",
       "wartortle",
@@ -88436,9 +86114,6 @@
     "pp": 20,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "glaceon",
       "bergmite",
@@ -88745,9 +86420,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 1,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "accelgor",
       "greninja",
@@ -88766,11 +86438,6 @@
     "pp": 15,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "psyduck",
       "golduck",
@@ -88857,9 +86524,6 @@
     "pp": 5,
     "target": "allAdjacentFoes",
     "priority": 0,
-    "zMove": {
-      "basePower": 200
-    },
     "pokemon": [
       "squirtle",
       "wartortle",
@@ -88888,9 +86552,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "bellsprout",
       "weepinbell",
@@ -88930,9 +86591,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "tapufini",
       "shellder",
@@ -88984,11 +86642,6 @@
     "pp": 20,
     "target": "normal",
     "priority": -6,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "noibat",
       "noivern",
@@ -89059,11 +86712,6 @@
     "pp": 10,
     "target": "allySide",
     "priority": 3,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "gallade",
       "aegislash",
@@ -89151,9 +86799,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 175
-    },
     "pokemon": [
       "pikachu-original",
       "pikachu-hoenn",
@@ -89278,11 +86923,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "koffing",
       "weezing",
@@ -89450,9 +87090,6 @@
     "pp": 35,
     "target": "any",
     "priority": 0,
-    "zMove": {
-      "basePower": 120
-    },
     "pokemon": [
       "hawlucha",
       "noibat",
@@ -89511,11 +87148,6 @@
     "pp": 10,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -89587,11 +87219,6 @@
     "pp": 40,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "def": 1
-      }
-    },
     "pokemon": [
       "tapukoko",
       "tapulele",
@@ -89632,11 +87259,6 @@
     "pp": 10,
     "target": "all",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spd": 1
-      }
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -89756,9 +87378,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "tapubulu",
       "exeggutor",
@@ -89792,11 +87411,6 @@
     "pp": 30,
     "target": "self",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "atk": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -90134,11 +87748,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "pumpkaboo-small",
@@ -90270,9 +87879,6 @@
     "pp": 20,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 100
-    },
     "pokemon": [
       "ekans",
       "arbok",
@@ -90317,9 +87923,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "bellsprout",
       "weepinbell",
@@ -90369,9 +87972,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "leafeon",
       "gallade",
@@ -90529,11 +88129,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "boost": {
-        "spe": 1
-      }
-    },
     "pokemon": [
       "leafeon",
       "glaceon",
@@ -90644,9 +88239,6 @@
     "pp": 5,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 190
-    },
     "pokemon": [
       "magnezone",
       "vikavolt",
@@ -90692,9 +88284,6 @@
     "pp": 15,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "ralts",
       "kirlia",
@@ -90993,9 +88582,6 @@
     "pp": 10,
     "target": "normal",
     "priority": 0,
-    "zMove": {
-      "basePower": 160
-    },
     "pokemon": [
       "togedemaru"
     ],

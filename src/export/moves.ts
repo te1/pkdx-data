@@ -38,8 +38,10 @@ export async function exportMoves(
     }
 
     let baseMove;
+    let exclusivePokemon;
     if (hasZMoves && move.isZ) {
       baseMove = extraData[move.id]?.baseMove;
+      exclusivePokemon = extraData[move.id]?.exclusive;
     }
 
     const entry = {
@@ -81,6 +83,7 @@ export async function exportMoves(
 
       // isNonstandard: move.isNonstandard || undefined,
       pokemon: moveMap.get(move.id),
+      exclusive: exclusivePokemon || undefined,
       desc: move.desc,
       shortDesc: move.shortDesc,
 

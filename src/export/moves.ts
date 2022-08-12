@@ -35,6 +35,7 @@ export async function exportMoves(
       exclusivePokemon = extraData[move.id]?.exclusive;
     }
     if (hasMaxMoves && isGmax) {
+      // TODO use species slug instead
       exclusivePokemon = [move.isMax];
     }
 
@@ -43,10 +44,18 @@ export async function exportMoves(
       // z move power depends on the original move (unless it's a species exclusive z move)
       basePower = undefined;
     }
+    if (hasMaxMoves && (isMax || isGmax)) {
+      // max move power depends on the original move
+      basePower = undefined;
+    }
 
     let category: string | undefined = moveCategoryToSlug(move.category);
     if (hasZMoves && move.isZ && !exclusivePokemon) {
       // non-exclusive z moves keep the original move's category
+      category = undefined;
+    }
+    if (hasMaxMoves && (isMax || isGmax)) {
+      // max moves keep the original move's category
       category = undefined;
     }
 

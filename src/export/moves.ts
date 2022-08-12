@@ -65,7 +65,7 @@ export async function exportMoves(
       // zMove.basePower is the base power the z move will have if replacing this physical/special move
       // zMove.effect is the z power effect the z move will have if replacing this status move
       // zMove.boost contains the stats that the z power effect will boost if replacing this status move
-      zMove: hasZMoves ? move.zMove || undefined : undefined,
+      // zMove: hasZMoves ? move.zMove || undefined : undefined,
 
       // appears to be unused at the moment
       // zMoveEffect: hasZMoves ? move.zMoveEffect || undefined : undefined,

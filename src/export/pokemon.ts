@@ -26,9 +26,6 @@ export async function exportPokemon(
 
   console.log('\tloading data...');
   const extraData = await fs.readJson(`./data/pokemon.json`);
-  const extraDataCosmeticFormes = await fs.readJson(
-    `./data/cosmeticFormes.json`
-  );
 
   const hasEggs = gen.num >= 2;
   const hasAbilities = gen.num >= 3;
@@ -48,9 +45,9 @@ export async function exportPokemon(
 
     // build better slugs, e.g. "aegislash-blade" instead of "aegislashblade"
     const baseSpeciesSlug = baseSpecies
-      ? getPrettySpeciesSlug(baseSpecies, undefined, extraData)
+      ? getPrettySpeciesSlug(baseSpecies, undefined, extraData.override)
       : undefined;
-    const slug = getPrettySpeciesSlug(species, baseSpecies, extraData);
+    const slug = getPrettySpeciesSlug(species, baseSpecies, extraData.override);
 
     const isTotem = species.forme === 'Totem';
     const isGmax = hasDynamax ? species.isNonstandard === 'Gigantamax' : false;
@@ -63,17 +60,17 @@ export async function exportPokemon(
       continue;
     }
 
-    const region = getRegion(species, { slug }, extraData);
+    const region = getRegion(species, { slug }, extraData.override);
     const name = getSpeciesName(
       species,
       baseSpecies,
       { slug, isGmax, region },
-      extraData
+      extraData.override
     );
     const subName = getSpeciesSubName(
       species,
       { slug, isGmax, region },
-      extraData
+      extraData.override
     );
 
     const formes = getFormes(
@@ -81,30 +78,29 @@ export async function exportPokemon(
       baseSpecies,
       gen,
       { slug, canGmax },
-      extraData
+      extraData.override
     );
     const formeIndex = getFormeIndex(species, baseSpecies, { isGmax });
 
-    const cosmeticSubName = getCosmeticSubName(species, { slug }, extraData);
-    const cosmeticFormes = getCosmeticFormes(
+    const cosmeticSubName = getCosmeticSubName(
       species,
-      gen,
-      extraData,
-      extraDataCosmeticFormes
+      { slug },
+      extraData.override
     );
+    const cosmeticFormes = getCosmeticFormes(species, gen, extraData);
 
     // legendary from extraData
-    let isLegendary = !!extraData[slug]?.isLegendary;
+    let isLegendary = !!extraData.override[slug]?.isLegendary;
     if (!isLegendary && baseSpeciesSlug) {
       // inherit legendary from baseSpecies
-      isLegendary = !!extraData[baseSpeciesSlug]?.isLegendary;
+      isLegendary = !!extraData.override[baseSpeciesSlug]?.isLegendary;
     }
 
     // mythical from extraData
-    let isMythical = !!extraData[slug]?.isMythical;
+    let isMythical = !!extraData.override[slug]?.isMythical;
     if (!isMythical && baseSpeciesSlug) {
       // inherit mythical from baseSpecies
-      isMythical = !!extraData[baseSpeciesSlug]?.isMythical;
+      isMythical = !!extraData.override[baseSpeciesSlug]?.isMythical;
     }
 
     let gmaxMove;
@@ -140,8 +136,8 @@ export async function exportPokemon(
       baseStats: species.baseStats,
 
       // -- Evolutions
-      prevo: getSpeciesSlug(species.prevo, gen, extraData),
-      evos: getSpeciesSlugs(species.evos, gen, extraData),
+      prevo: getSpeciesSlug(species.prevo, gen, extraData.override),
+      evos: getSpeciesSlugs(species.evos, gen, extraData.override),
       evoType: species.evoType,
       evoCondition: species.evoCondition,
       evoLevel: species.evoLevel,
@@ -179,7 +175,7 @@ export async function exportPokemon(
       // only included if different from `baseSpecies`
       baseForm:
         !baseSpecies || baseSpecies.name !== species.changesFrom
-          ? getSpeciesSlug(species.changesFrom, gen, extraData)
+          ? getSpeciesSlug(species.changesFrom, gen, extraData.override)
           : undefined,
 
       // name of the base forme if this forme is battly only
@@ -258,7 +254,7 @@ export async function exportPokemon(
       // maxHP: species.maxHP,
 
       // TODO add pokemon flavor text
-      // flavorText: extraData[slug]?.flavorText,
+      // flavorText: extraData.override[slug]?.flavorText,
 
       // name of the exclusive G-Max move
       gmaxMove,
@@ -386,10 +382,10 @@ function getBaseSpecies(species: Specie, gen: Generation) {
 function getPrettySpeciesSlug(
   species: Specie,
   baseSpecies: Specie | undefined,
-  extraData: Record<string, { slug?: string }>
+  override: Record<string, { slug?: string }>
 ) {
   // direct override from extraData
-  let result = extraData[species.id]?.slug;
+  let result = override[species.id]?.slug;
   if (result) {
     return result;
   }
@@ -412,7 +408,7 @@ function getPrettySpeciesSlug(
 function getSpeciesSlug(
   speciesName: SpeciesName | '' | undefined,
   gen: Generation,
-  extraData: Record<string, { slug?: string }>
+  override: Record<string, { slug?: string }>
 ) {
   const species = gen.species.get(speciesName ?? '');
 
@@ -422,16 +418,16 @@ function getSpeciesSlug(
 
   const baseSpecies = getBaseSpecies(species, gen);
 
-  return getPrettySpeciesSlug(species, baseSpecies, extraData);
+  return getPrettySpeciesSlug(species, baseSpecies, override);
 }
 
 function getSpeciesSlugs(
   speciesNames: SpeciesName[] | undefined,
   gen: Generation,
-  extraData: Record<string, { slug?: string }>
+  override: Record<string, { slug?: string }>
 ) {
   const result = _.map(speciesNames, (speciesName) =>
-    getSpeciesSlug(speciesName, gen, extraData)
+    getSpeciesSlug(speciesName, gen, override)
   );
 
   if (_.isEmpty(result)) {
@@ -445,10 +441,10 @@ function getSpeciesName(
   species: Specie,
   baseSpecies: Specie | undefined,
   speciesData: { slug: string; isGmax?: boolean; region?: Region },
-  extraData: Record<string, { name?: string }>
+  override: Record<string, { name?: string }>
 ) {
   // direct override from extraData
-  let result = extraData[speciesData.slug]?.name;
+  let result = override[speciesData.slug]?.name;
   if (result) {
     return result;
   }
@@ -492,15 +488,15 @@ function getSpeciesName(
 function getSpeciesSubName(
   species: Specie,
   speciesData: { slug: string; isGmax?: boolean; region?: Region },
-  extraData: Record<string, { subName?: string; hideSubName?: boolean }>
+  override: Record<string, { subName?: string; hideSubName?: boolean }>
 ) {
   // direct override from extraData
-  const result = extraData[speciesData.slug]?.subName;
+  const result = override[speciesData.slug]?.subName;
   if (result) {
     return result;
   }
 
-  if (extraData[speciesData.slug]?.hideSubName) {
+  if (override[speciesData.slug]?.hideSubName) {
     return;
   }
 
@@ -519,10 +515,10 @@ function getSpeciesSubName(
 function getCosmeticSubName(
   species: Specie,
   speciesData: { slug: string },
-  extraData: Record<string, { cosmeticSubName?: string }>
+  override: Record<string, { cosmeticSubName?: string }>
 ) {
   // direct override from extraData
-  const result = extraData[speciesData.slug]?.cosmeticSubName;
+  const result = override[speciesData.slug]?.cosmeticSubName;
   if (result) {
     return result;
   }
@@ -535,17 +531,19 @@ function getCosmeticSubName(
 function getCosmeticFormes(
   species: Specie,
   gen: Generation,
-  extraData: Record<string, { slug?: string }>,
-  extraDataCosmeticFormes: Record<string, { subName?: string }>
+  extraData: {
+    override: Record<string, { slug?: string }>;
+    cosmeticFormes: Record<string, { subName?: string }>;
+  }
 ) {
   let result = _.map(species.cosmeticFormes, (forme) => {
-    const slug = getSpeciesSlug(forme, gen, extraData);
+    const slug = getSpeciesSlug(forme, gen, extraData.override);
 
     return {
       originalSlug: forme,
       slug,
       subName: slug
-        ? extraDataCosmeticFormes[slug]?.subName || undefined
+        ? extraData.cosmeticFormes[slug]?.subName || undefined
         : undefined,
     };
   });
@@ -564,18 +562,18 @@ function getFormes(
   baseSpecies: Specie | undefined,
   gen: Generation,
   speciesData: { slug: string; canGmax: boolean },
-  extraData: Record<string, { formes?: string[]; slug?: string }>
+  override: Record<string, { formes?: string[]; slug?: string }>
 ) {
-  let result = getSpeciesSlugs(species.otherFormes, gen, extraData);
+  let result = getSpeciesSlugs(species.otherFormes, gen, override);
 
   if (speciesData.canGmax && !baseSpecies) {
     // gmax species are not in formes, so add them manually to the end
     result = [...(result ?? []), speciesData.slug + '-gmax'];
   }
 
-  if (extraData[speciesData.slug]?.formes?.length) {
+  if (override[speciesData.slug]?.formes?.length) {
     // direct override from extraData (to handle toxtricity and urshifu with 2 gmax formes)
-    result = extraData[speciesData.slug]?.formes;
+    result = override[speciesData.slug]?.formes;
   }
 
   return result;
@@ -615,10 +613,10 @@ const regionFormes: Map<Region, string[]> = new Map([
 function getRegion(
   species: Specie,
   speciesData: { slug: string },
-  extraData: Record<string, { region?: Region }>
+  override: Record<string, { region?: Region }>
 ) {
   // direct override from extraData
-  const result = extraData[speciesData.slug]?.region;
+  const result = override[speciesData.slug]?.region;
   if (result !== undefined) {
     return result;
   }

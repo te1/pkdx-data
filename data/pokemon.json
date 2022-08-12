@@ -1,813 +1,1084 @@
 {
-  "nidoranf": {
-    "name": "Nidoran ♀"
-  },
-  "nidoranm": {
-    "name": "Nidoran ♂"
-  },
-  "farfetchd": {
-    "name": "Farfetch'd"
-  },
-  "farfetchd-galar": {
-    "name": "Galarian Farfetch'd"
-  },
-  "sirfetchd": {
-    "name": "Sirfetch'd"
-  },
-  "castform-sunny": {
-    "subName": "Sunny Form"
-  },
-  "castform-rainy": {
-    "subName": "Rainy Form"
-  },
-  "castform-snowy": {
-    "subName": "Snowy Form"
-  },
-  "deoxys": {
-    "isMythical": true,
-    "subName": "Normal Forme"
-  },
-  "deoxys-attack": {
-    "subName": "Attack Forme"
-  },
-  "deoxys-defense": {
-    "subName": "Defense Forme"
-  },
-  "deoxys-speed": {
-    "subName": "Speed Forme"
-  },
-  "cherrim": {
-    "subName": "Overcast Form"
-  },
-  "cherrim-sunshine": {
-    "subName": "Sunshine Form"
-  },
-  "giratina": {
-    "isLegendary": true,
-    "subName": "Altered Forme"
-  },
-  "giratina-origin": {
-    "subName": "Origin Forme"
-  },
-  "rotom-heat": {
-    "subName": "Rotom Heat"
-  },
-  "rotom-wash": {
-    "subName": "Rotom Wash"
-  },
-  "rotom-frost": {
-    "subName": "Rotom Frost"
-  },
-  "rotom-fan": {
-    "subName": "Rotom Fan"
-  },
-  "rotom-mow": {
-    "subName": "Rotom Mow"
-  },
-  "shaymin": {
-    "isMythical": true,
-    "subName": "Land Forme"
-  },
-  "shaymin-sky": {
-    "subName": "Sky Forme"
-  },
-  "burmy": {
-    "cosmeticSubName": "Plant Cloak"
-  },
-  "burmy-sandy": {
-    "cosmeticSubName": "Sandy Cloak"
-  },
-  "burmy-trash": {
-    "cosmeticSubName": "Trash Cloak"
-  },
-  "wormadam": {
-    "subName": "Plant Cloak"
-  },
-  "wormadam-sandy": {
-    "subName": "Sandy Cloak"
-  },
-  "wormadam-trash": {
-    "subName": "Trash Cloak"
-  },
-  "shellos": {
-    "cosmeticSubName": "West Sea"
-  },
-  "gastrodon": {
-    "cosmeticSubName": "West Sea"
-  },
-  "deerling": {
-    "cosmeticSubName": "Spring Form"
-  },
-  "sawsbuck": {
-    "cosmeticSubName": "Spring Form"
-  },
-  "basculin": {
-    "subName": "Red-Striped Form"
-  },
-  "basculin-blue-striped": {
-    "subName": "Blue-Striped Form"
-  },
-  "basculin-white-striped": {
-    "subName": "White-Striped Form"
-  },
-  "darmanitan": {
-    "subName": "Standard Mode"
-  },
-  "darmanitan-zen": {
-    "subName": "Zen Mode"
-  },
-  "genesect-douse": {
-    "name": "Douse Drive Genesect",
-    "hideSubName": true
-  },
-  "genesect-shock": {
-    "name": "Shock Drive Genesect",
-    "hideSubName": true
-  },
-  "genesect-burn": {
-    "name": "Burn Drive Genesect",
-    "hideSubName": true
-  },
-  "genesect-chill": {
-    "name": "Chill Drive Genesect",
-    "hideSubName": true
-  },
-  "keldeo": {
-    "isMythical": true,
-    "subName": "Ordinary Form"
-  },
-  "keldeo-resolute": {
-    "subName": "Resolute Form"
-  },
-  "kyurem": {
-    "isLegendary": true
-  },
-  "kyurem-black": {
-    "name": "Black Kyurem",
-    "hideSubName": true
-  },
-  "kyurem-white": {
-    "name": "White Kyurem",
-    "hideSubName": true
-  },
-  "tornadus": {
-    "isLegendary": true,
-    "subName": "Incarnate Forme"
-  },
-  "tornadus-therian": {
-    "subName": "Therian Forme"
-  },
-  "thundurus": {
-    "isLegendary": true,
-    "subName": "Incarnate Forme"
-  },
-  "thundurus-therian": {
-    "subName": "Therian Forme"
-  },
-  "landorus": {
-    "isLegendary": true,
-    "subName": "Incarnate Forme"
-  },
-  "landorus-therian": {
-    "subName": "Therian Forme"
-  },
-  "meloetta": {
-    "isMythical": true,
-    "subName": "Aria Forme"
-  },
-  "meloetta-pirouette": {
-    "subName": "Pirouette Forme"
-  },
-  "aegislash": {
-    "subName": "Shield Forme"
-  },
-  "aegislash-blade": {
-    "subName": "Blade Forme"
-  },
-  "charizard-mega-x": {
-    "name": "Mega Charizard X"
-  },
-  "charizard-mega-y": {
-    "name": "Mega Charizard Y"
-  },
-  "floette-eternal": {
-    "name": "Eternal Flower Floette",
-    "hideSubName": true
-  },
-  "pumpkaboo": {
-    "subName": "Average Size"
-  },
-  "pumpkaboo-small": {
-    "subName": "Small Size"
-  },
-  "pumpkaboo-large": {
-    "subName": "Large Size"
-  },
-  "pumpkaboo-super": {
-    "subName": "Super Size"
-  },
-  "gourgeist": {
-    "subName": "Average Size"
-  },
-  "gourgeist-small": {
-    "subName": "Small Size"
-  },
-  "gourgeist-large": {
-    "subName": "Large Size"
-  },
-  "gourgeist-super": {
-    "subName": "Super Size"
-  },
-  "hoopa": {
-    "isMythical": true,
-    "name": "Hoopa Confined",
-    "hideSubName": true
-  },
-  "hoopa-unbound": {
-    "name": "Hoopa Unbound",
-    "hideSubName": true
-  },
-  "meowstic": {
-    "subName": "Male"
-  },
-  "meowstic-f": {
-    "subName": "Female"
-  },
-  "mewtwo-mega-x": {
-    "name": "Mega Mewtwo X"
-  },
-  "mewtwo-mega-y": {
-    "name": "Mega Mewtwo Y"
-  },
-  "pikachu-cosplay": {
-    "name": "Cosplay Pikachu",
-    "hideSubName": true
-  },
-  "pikachu-rock-star": {
-    "name": "Pikachu Rock Star",
-    "hideSubName": true
-  },
-  "pikachu-belle": {
-    "name": "Pikachu Belle",
-    "hideSubName": true
-  },
-  "pikachu-pop-star": {
-    "name": "Pikachu Pop Star",
-    "hideSubName": true
-  },
-  "pikachu-phd": {
-    "name": "Pikachu, Ph. D.",
-    "hideSubName": true
-  },
-  "pikachu-libre": {
-    "name": "Pikachu Libre",
-    "hideSubName": true
-  },
-  "vivillon": {
-    "cosmeticSubName": "Meadow Pattern"
-  },
-  "vivillon-pokeball": {
-    "subName": "Poké Ball Pattern"
-  },
-  "vivillon-fancy": {
-    "subName": "Fancy Pattern"
-  },
-  "flabebe": {
-    "cosmeticSubName": "Red Flower"
-  },
-  "floette": {
-    "cosmeticSubName": "Red Flower"
-  },
-  "florges": {
-    "cosmeticSubName": "Red Flower"
-  },
-  "furfrou": {
-    "cosmeticSubName": "Natural Form"
-  },
-  "greninja-ash": {
-    "name": "Ash-Greninja",
-    "hideSubName": true
-  },
-  "lycanroc": {
-    "subName": "Midday Form"
-  },
-  "lycanroc-midnight": {
-    "subName": "Midnight Form"
-  },
-  "lycanroc-dusk": {
-    "subName": "Dusk Form"
-  },
-  "magearna-original": {
-    "name": "Original Color Magearn",
-    "hideSubName": true
-  },
-  "mimikyu": {
-    "subName": "Disguised Form"
-  },
-  "mimikyu-busted": {
-    "subName": "Busted Form"
-  },
-  "mimikyu-busted-totem": {
-    "subName": "Totem, Busted Form"
-  },
-  "minior": {
-    "subName": "Core Form",
-    "cosmeticSubName": "Red Core"
-  },
-  "minior-meteor": {
-    "subName": "Meteor Form"
-  },
-  "necrozma-dusk-mane": {
-    "name": "Dusk Mane Necrozma",
-    "hideSubName": true
-  },
-  "necrozma-dawn-wings": {
-    "name": "Dawn Wings Necrozma",
-    "hideSubName": true
-  },
-  "necrozma-ultra": {
-    "name": "Ultra Necrozma",
-    "hideSubName": true
-  },
-  "oricorio": {
-    "subName": "Baile Style"
-  },
-  "oricorio-pom-pom": {
-    "subName": "Pom-Pom Style"
-  },
-  "oricorio-pau": {
-    "subName": "Pa'u Style"
-  },
-  "oricorio-sensu": {
-    "subName": "Sensu Style"
-  },
-  "pikachu-original": {
-    "name": "Original Cap Pikachu",
-    "hideSubName": true
-  },
-  "pikachu-hoenn": {
-    "name": "Hoenn Cap Pikachu",
-    "hideSubName": true
-  },
-  "pikachu-sinnoh": {
-    "name": "Sinnoh Cap Pikachu",
-    "hideSubName": true
-  },
-  "pikachu-unova": {
-    "name": "Unova Cap Pikachu",
-    "hideSubName": true
-  },
-  "pikachu-kalos": {
-    "name": "Kalos Cap Pikachu",
-    "hideSubName": true
-  },
-  "pikachu-alola": {
-    "name": "Alola Cap Pikachu",
-    "hideSubName": true,
-    "region": null
-  },
-  "pikachu-partner": {
-    "name": "Partner Cap Pikachu",
-    "hideSubName": true
-  },
-  "typenull": {
-    "isLegendary": true
-  },
-  "silvally": {
-    "isLegendary": true,
-    "subName": "Type: Normal"
-  },
-  "silvally-bug": {
-    "subName": "Type: Bug"
-  },
-  "silvally-dark": {
-    "subName": "Type: Dark"
-  },
-  "silvally-dragon": {
-    "subName": "Type: Dragon"
-  },
-  "silvally-electric": {
-    "subName": "Type: Electric"
-  },
-  "silvally-fairy": {
-    "subName": "Type: Fairy"
-  },
-  "silvally-fighting": {
-    "subName": "Type: Fighting"
-  },
-  "silvally-fire": {
-    "subName": "Type: Fire"
-  },
-  "silvally-flying": {
-    "subName": "Type: Flying"
-  },
-  "silvally-ghost": {
-    "subName": "Type: Ghost"
-  },
-  "silvally-grass": {
-    "subName": "Type: Grass"
-  },
-  "silvally-ground": {
-    "subName": "Type: Ground"
-  },
-  "silvally-ice": {
-    "subName": "Type: Ice"
-  },
-  "silvally-poison": {
-    "subName": "Type: Poison"
-  },
-  "silvally-psychic": {
-    "subName": "Type: Psychic"
-  },
-  "silvally-rock": {
-    "subName": "Type: Rock"
-  },
-  "silvally-steel": {
-    "subName": "Type: Steel"
-  },
-  "silvally-water": {
-    "subName": "Type: Water"
-  },
-  "wishiwashi": {
-    "subName": "Solo Form"
-  },
-  "wishiwashi-school": {
-    "subName": "School Form"
-  },
-  "zygarde": {
-    "isLegendary": true,
-    "subName": "50% Forme"
-  },
-  "zygarde-10": {
-    "subName": "10% Forme"
-  },
-  "zygarde-complete": {
-    "subName": "Complete Forme"
-  },
-  "basculegion": {
-    "subName": "Male"
-  },
-  "basculegion-f": {
-    "subName": "Female"
-  },
-  "calyrex": {
-    "isLegendary": true
-  },
-  "calyrex-ice": {
-    "name": "Ice Rider Calyrex",
-    "hideSubName": true
-  },
-  "calyrex-shadow": {
-    "name": "Shadow Rider Calyrex",
-    "hideSubName": true
-  },
-  "cramorant-gulping": {
-    "subName": "Gulping Form"
-  },
-  "cramorant-gorging": {
-    "subName": "Gorging Form"
-  },
-  "darmanitan-galar": {
-    "subName": "Standard Mode"
-  },
-  "darmanitan-galar-zen": {
-    "subName": "Zen Mode"
-  },
-  "dialga": {
-    "isLegendary": true
-  },
-  "dialga-origin": {
-    "subName": "Origin Forme"
-  },
-  "palkia": {
-    "isLegendary": true
-  },
-  "palkia-origin": {
-    "subName": "Origin Forme"
-  },
-  "eiscue": {
-    "subName": "Ice Face"
-  },
-  "eiscue-noice": {
-    "subName": "Noice Face"
-  },
-  "indeedee": {
-    "subName": "Male"
-  },
-  "indeedee-f": {
-    "subName": "Female"
-  },
-  "morpeko": {
-    "subName": "Full Belly Mode"
-  },
-  "morpeko-hangry": {
-    "subName": "Hangry Mode"
-  },
-  "pikachu-world": {
-    "name": "World Cap Pikachu",
-    "hideSubName": true
-  },
-  "sinistea": {
-    "subName": "Phony Forme"
-  },
-  "sinistea-antique": {
-    "subName": "Antique Forme"
-  },
-  "polteageist": {
-    "subName": "Phony Forme"
-  },
-  "polteageist-antique": {
-    "subName": "Antique Forme"
-  },
-  "alcremie": {
-    "cosmeticSubName": "Vanilla Cream"
-  },
-  "toxtricity": {
-    "subName": "Amped Form",
-    "formes": [
-      "toxtricity-low-key",
-      "toxtricity-gmax",
-      "toxtricity-low-key-gmax"
-    ]
-  },
-  "toxtricity-low-key": {
-    "subName": "Low Key Form"
-  },
-  "toxtricity-low-key-gmax": {
-    "subName": "Gigantamax, Low Key Form"
-  },
-  "zacian": {
-    "isLegendary": true,
-    "subName": "Hero of Many Battles"
-  },
-  "zacian-crowned": {
-    "subName": "Crowned Sword"
-  },
-  "zamazenta": {
-    "isLegendary": true,
-    "subName": "Hero of Many Battles"
-  },
-  "zamazenta-crowned": {
-    "subName": "Crowned Shield"
-  },
-  "eternatus": {
-    "isLegendary": true
-  },
-  "eternatus-eternamax": {
-    "name": "Eternamax Eternatus",
-    "hideSubName": true
-  },
-  "kubfu": {
-    "isLegendary": true
-  },
-  "urshifu": {
-    "isLegendary": true,
-    "subName": "Single Strike Style",
-    "formes": [
-      "urshifu-rapid-strike",
-      "urshifu-gmax",
-      "urshifu-rapid-strike-gmax"
-    ]
-  },
-  "urshifu-gmax": {
-    "subName": "Gigantamax, Single Strike Style"
-  },
-  "urshifu-rapid-strike": {
-    "subName": "Rapid Strike Style"
-  },
-  "urshifu-rapid-strike-gmax": {
-    "subName": "Gigantamax, Rapid Strike Style"
-  },
-  "zarude": {
-    "isMythical": true
-  },
-  "zarude-dada": {
-    "name": "Dada Zarude",
-    "hideSubName": true
-  },
-  "enamorus": {
-    "isLegendary": true,
-    "subName": "Incarnate Forme"
-  },
-  "enamorus-therian": {
-    "isLegendary": true,
-    "subName": "Therian Forme"
-  },
-  "arceus": {
-    "isMythical": true,
-    "subName": "Normal"
-  },
-  "voltorbhisui": {
-    "slug": "voltorb-hisui"
-  },
-  "voltorb-hisui": {
-    "name": "Hisuian Voltorb"
-  },
-  "electrodehisui": {
-    "slug": "electrode-hisui"
-  },
-  "electrode-hisui": {
-    "name": "Hisuian Electrode"
-  },
-  "typhlosionhisui": {
-    "slug": "typhlosion-hisui"
-  },
-  "typhlosion-hisui": {
-    "name": "Hisuian Typhlosion"
-  },
-  "samurotthisui": {
-    "slug": "samurott-hisui"
-  },
-  "samurott-hisui": {
-    "name": "Hisuian Samurott"
-  },
-  "articuno": {
-    "isLegendary": true
-  },
-  "zapdos": {
-    "isLegendary": true
-  },
-  "moltres": {
-    "isLegendary": true
-  },
-  "mewtwo": {
-    "isLegendary": true
-  },
-  "mew": {
-    "isMythical": true
-  },
-  "entei": {
-    "isLegendary": true
-  },
-  "raikou": {
-    "isLegendary": true
-  },
-  "suicune": {
-    "isLegendary": true
-  },
-  "lugia": {
-    "isLegendary": true
-  },
-  "hooh": {
-    "isLegendary": true
-  },
-  "celebi": {
-    "isMythical": true
-  },
-  "regirock": {
-    "isLegendary": true
-  },
-  "regice": {
-    "isLegendary": true
-  },
-  "registeel": {
-    "isLegendary": true
-  },
-  "latias": {
-    "isLegendary": true
-  },
-  "latios": {
-    "isLegendary": true
-  },
-  "groudon": {
-    "isLegendary": true
-  },
-  "kyogre": {
-    "isLegendary": true
-  },
-  "rayquaza": {
-    "isLegendary": true
-  },
-  "jirachi": {
-    "isMythical": true
-  },
-  "uxie": {
-    "isLegendary": true
-  },
-  "mesprit": {
-    "isLegendary": true
-  },
-  "azelf": {
-    "isLegendary": true
-  },
-  "cresselia": {
-    "isLegendary": true
-  },
-  "heatran": {
-    "isLegendary": true
-  },
-  "regigigas": {
-    "isLegendary": true
-  },
-  "manaphy": {
-    "isMythical": true
-  },
-  "phione": {
-    "isMythical": true
-  },
-  "darkrai": {
-    "isMythical": true
-  },
-  "cobalion": {
-    "isLegendary": true
-  },
-  "terrakion": {
-    "isLegendary": true
-  },
-  "virizion": {
-    "isLegendary": true
-  },
-  "zekrom": {
-    "isLegendary": true
-  },
-  "reshiram": {
-    "isLegendary": true
-  },
-  "victini": {
-    "isMythical": true
-  },
-  "genesect": {
-    "isMythical": true
-  },
-  "xerneas": {
-    "isLegendary": true
-  },
-  "yveltal": {
-    "isLegendary": true
-  },
-  "diancie": {
-    "isMythical": true
-  },
-  "volcanion": {
-    "isMythical": true
-  },
-  "tapukoko": {
-    "isLegendary": true
-  },
-  "tapulele": {
-    "isLegendary": true
-  },
-  "tapubulu": {
-    "isLegendary": true
-  },
-  "tapufini": {
-    "isLegendary": true
-  },
-  "cosmog": {
-    "isLegendary": true
-  },
-  "cosmoem": {
-    "isLegendary": true
-  },
-  "solgaleo": {
-    "isLegendary": true
-  },
-  "lunala": {
-    "isLegendary": true
-  },
-  "necrozma": {
-    "isLegendary": true
-  },
-  "magearna": {
-    "isMythical": true
-  },
-  "marshadow": {
-    "isMythical": true
-  },
-  "zeraora": {
-    "isMythical": true
-  },
-  "meltan": {
-    "isMythical": true
-  },
-  "melmetal": {
-    "isMythical": true
-  },
-  "regieleki": {
-    "isLegendary": true
-  },
-  "regidrago": {
-    "isLegendary": true
-  },
-  "glastrier": {
-    "isLegendary": true
-  },
-  "spectrier": {
-    "isLegendary": true
-  },
-  "articuno-galar": {
-    "isLegendary": true
-  },
-  "zapdos-galar": {
-    "isLegendary": true
-  },
-  "moltres-galar": {
-    "isLegendary": true
-  },
-  "koraidon": {
-    "isLegendary": true
-  },
-  "miraidon": {
-    "isLegendary": true
+  "override": {
+    "nidoranf": {
+      "name": "Nidoran ♀"
+    },
+    "nidoranm": {
+      "name": "Nidoran ♂"
+    },
+    "farfetchd": {
+      "name": "Farfetch'd"
+    },
+    "farfetchd-galar": {
+      "name": "Galarian Farfetch'd"
+    },
+    "sirfetchd": {
+      "name": "Sirfetch'd"
+    },
+    "castform-sunny": {
+      "subName": "Sunny Form"
+    },
+    "castform-rainy": {
+      "subName": "Rainy Form"
+    },
+    "castform-snowy": {
+      "subName": "Snowy Form"
+    },
+    "deoxys": {
+      "isMythical": true,
+      "subName": "Normal Forme"
+    },
+    "deoxys-attack": {
+      "subName": "Attack Forme"
+    },
+    "deoxys-defense": {
+      "subName": "Defense Forme"
+    },
+    "deoxys-speed": {
+      "subName": "Speed Forme"
+    },
+    "cherrim": {
+      "subName": "Overcast Form"
+    },
+    "cherrim-sunshine": {
+      "subName": "Sunshine Form"
+    },
+    "giratina": {
+      "isLegendary": true,
+      "subName": "Altered Forme"
+    },
+    "giratina-origin": {
+      "subName": "Origin Forme"
+    },
+    "rotom-heat": {
+      "subName": "Rotom Heat"
+    },
+    "rotom-wash": {
+      "subName": "Rotom Wash"
+    },
+    "rotom-frost": {
+      "subName": "Rotom Frost"
+    },
+    "rotom-fan": {
+      "subName": "Rotom Fan"
+    },
+    "rotom-mow": {
+      "subName": "Rotom Mow"
+    },
+    "shaymin": {
+      "isMythical": true,
+      "subName": "Land Forme"
+    },
+    "shaymin-sky": {
+      "subName": "Sky Forme"
+    },
+    "burmy": {
+      "cosmeticSubName": "Plant Cloak"
+    },
+    "burmy-sandy": {
+      "cosmeticSubName": "Sandy Cloak"
+    },
+    "burmy-trash": {
+      "cosmeticSubName": "Trash Cloak"
+    },
+    "wormadam": {
+      "subName": "Plant Cloak"
+    },
+    "wormadam-sandy": {
+      "subName": "Sandy Cloak"
+    },
+    "wormadam-trash": {
+      "subName": "Trash Cloak"
+    },
+    "shellos": {
+      "cosmeticSubName": "West Sea"
+    },
+    "gastrodon": {
+      "cosmeticSubName": "West Sea"
+    },
+    "deerling": {
+      "cosmeticSubName": "Spring Form"
+    },
+    "sawsbuck": {
+      "cosmeticSubName": "Spring Form"
+    },
+    "basculin": {
+      "subName": "Red-Striped Form"
+    },
+    "basculin-blue-striped": {
+      "subName": "Blue-Striped Form"
+    },
+    "basculin-white-striped": {
+      "subName": "White-Striped Form"
+    },
+    "darmanitan": {
+      "subName": "Standard Mode"
+    },
+    "darmanitan-zen": {
+      "subName": "Zen Mode"
+    },
+    "genesect-douse": {
+      "name": "Douse Drive Genesect",
+      "hideSubName": true
+    },
+    "genesect-shock": {
+      "name": "Shock Drive Genesect",
+      "hideSubName": true
+    },
+    "genesect-burn": {
+      "name": "Burn Drive Genesect",
+      "hideSubName": true
+    },
+    "genesect-chill": {
+      "name": "Chill Drive Genesect",
+      "hideSubName": true
+    },
+    "keldeo": {
+      "isMythical": true,
+      "subName": "Ordinary Form"
+    },
+    "keldeo-resolute": {
+      "subName": "Resolute Form"
+    },
+    "kyurem": {
+      "isLegendary": true
+    },
+    "kyurem-black": {
+      "name": "Black Kyurem",
+      "hideSubName": true
+    },
+    "kyurem-white": {
+      "name": "White Kyurem",
+      "hideSubName": true
+    },
+    "tornadus": {
+      "isLegendary": true,
+      "subName": "Incarnate Forme"
+    },
+    "tornadus-therian": {
+      "subName": "Therian Forme"
+    },
+    "thundurus": {
+      "isLegendary": true,
+      "subName": "Incarnate Forme"
+    },
+    "thundurus-therian": {
+      "subName": "Therian Forme"
+    },
+    "landorus": {
+      "isLegendary": true,
+      "subName": "Incarnate Forme"
+    },
+    "landorus-therian": {
+      "subName": "Therian Forme"
+    },
+    "meloetta": {
+      "isMythical": true,
+      "subName": "Aria Forme"
+    },
+    "meloetta-pirouette": {
+      "subName": "Pirouette Forme"
+    },
+    "aegislash": {
+      "subName": "Shield Forme"
+    },
+    "aegislash-blade": {
+      "subName": "Blade Forme"
+    },
+    "charizard-mega-x": {
+      "name": "Mega Charizard X"
+    },
+    "charizard-mega-y": {
+      "name": "Mega Charizard Y"
+    },
+    "floette-eternal": {
+      "name": "Eternal Flower Floette",
+      "hideSubName": true
+    },
+    "pumpkaboo": {
+      "subName": "Average Size"
+    },
+    "pumpkaboo-small": {
+      "subName": "Small Size"
+    },
+    "pumpkaboo-large": {
+      "subName": "Large Size"
+    },
+    "pumpkaboo-super": {
+      "subName": "Super Size"
+    },
+    "gourgeist": {
+      "subName": "Average Size"
+    },
+    "gourgeist-small": {
+      "subName": "Small Size"
+    },
+    "gourgeist-large": {
+      "subName": "Large Size"
+    },
+    "gourgeist-super": {
+      "subName": "Super Size"
+    },
+    "hoopa": {
+      "isMythical": true,
+      "name": "Hoopa Confined",
+      "hideSubName": true
+    },
+    "hoopa-unbound": {
+      "name": "Hoopa Unbound",
+      "hideSubName": true
+    },
+    "meowstic": {
+      "subName": "Male"
+    },
+    "meowstic-f": {
+      "subName": "Female"
+    },
+    "mewtwo-mega-x": {
+      "name": "Mega Mewtwo X"
+    },
+    "mewtwo-mega-y": {
+      "name": "Mega Mewtwo Y"
+    },
+    "pikachu-cosplay": {
+      "name": "Cosplay Pikachu",
+      "hideSubName": true
+    },
+    "pikachu-rock-star": {
+      "name": "Pikachu Rock Star",
+      "hideSubName": true
+    },
+    "pikachu-belle": {
+      "name": "Pikachu Belle",
+      "hideSubName": true
+    },
+    "pikachu-pop-star": {
+      "name": "Pikachu Pop Star",
+      "hideSubName": true
+    },
+    "pikachu-phd": {
+      "name": "Pikachu, Ph. D.",
+      "hideSubName": true
+    },
+    "pikachu-libre": {
+      "name": "Pikachu Libre",
+      "hideSubName": true
+    },
+    "vivillon": {
+      "cosmeticSubName": "Meadow Pattern"
+    },
+    "vivillon-pokeball": {
+      "subName": "Poké Ball Pattern"
+    },
+    "vivillon-fancy": {
+      "subName": "Fancy Pattern"
+    },
+    "flabebe": {
+      "cosmeticSubName": "Red Flower"
+    },
+    "floette": {
+      "cosmeticSubName": "Red Flower"
+    },
+    "florges": {
+      "cosmeticSubName": "Red Flower"
+    },
+    "furfrou": {
+      "cosmeticSubName": "Natural Form"
+    },
+    "greninja-ash": {
+      "name": "Ash-Greninja",
+      "hideSubName": true
+    },
+    "lycanroc": {
+      "subName": "Midday Form"
+    },
+    "lycanroc-midnight": {
+      "subName": "Midnight Form"
+    },
+    "lycanroc-dusk": {
+      "subName": "Dusk Form"
+    },
+    "magearna-original": {
+      "name": "Original Color Magearn",
+      "hideSubName": true
+    },
+    "mimikyu": {
+      "subName": "Disguised Form"
+    },
+    "mimikyu-busted": {
+      "subName": "Busted Form"
+    },
+    "mimikyu-busted-totem": {
+      "subName": "Totem, Busted Form"
+    },
+    "minior": {
+      "subName": "Core Form",
+      "cosmeticSubName": "Red Core"
+    },
+    "minior-meteor": {
+      "subName": "Meteor Form"
+    },
+    "necrozma-dusk-mane": {
+      "name": "Dusk Mane Necrozma",
+      "hideSubName": true
+    },
+    "necrozma-dawn-wings": {
+      "name": "Dawn Wings Necrozma",
+      "hideSubName": true
+    },
+    "necrozma-ultra": {
+      "name": "Ultra Necrozma",
+      "hideSubName": true
+    },
+    "oricorio": {
+      "subName": "Baile Style"
+    },
+    "oricorio-pom-pom": {
+      "subName": "Pom-Pom Style"
+    },
+    "oricorio-pau": {
+      "subName": "Pa'u Style"
+    },
+    "oricorio-sensu": {
+      "subName": "Sensu Style"
+    },
+    "pikachu-original": {
+      "name": "Original Cap Pikachu",
+      "hideSubName": true
+    },
+    "pikachu-hoenn": {
+      "name": "Hoenn Cap Pikachu",
+      "hideSubName": true
+    },
+    "pikachu-sinnoh": {
+      "name": "Sinnoh Cap Pikachu",
+      "hideSubName": true
+    },
+    "pikachu-unova": {
+      "name": "Unova Cap Pikachu",
+      "hideSubName": true
+    },
+    "pikachu-kalos": {
+      "name": "Kalos Cap Pikachu",
+      "hideSubName": true
+    },
+    "pikachu-alola": {
+      "name": "Alola Cap Pikachu",
+      "hideSubName": true,
+      "region": null
+    },
+    "pikachu-partner": {
+      "name": "Partner Cap Pikachu",
+      "hideSubName": true
+    },
+    "typenull": {
+      "isLegendary": true
+    },
+    "silvally": {
+      "isLegendary": true,
+      "subName": "Type: Normal"
+    },
+    "silvally-bug": {
+      "subName": "Type: Bug"
+    },
+    "silvally-dark": {
+      "subName": "Type: Dark"
+    },
+    "silvally-dragon": {
+      "subName": "Type: Dragon"
+    },
+    "silvally-electric": {
+      "subName": "Type: Electric"
+    },
+    "silvally-fairy": {
+      "subName": "Type: Fairy"
+    },
+    "silvally-fighting": {
+      "subName": "Type: Fighting"
+    },
+    "silvally-fire": {
+      "subName": "Type: Fire"
+    },
+    "silvally-flying": {
+      "subName": "Type: Flying"
+    },
+    "silvally-ghost": {
+      "subName": "Type: Ghost"
+    },
+    "silvally-grass": {
+      "subName": "Type: Grass"
+    },
+    "silvally-ground": {
+      "subName": "Type: Ground"
+    },
+    "silvally-ice": {
+      "subName": "Type: Ice"
+    },
+    "silvally-poison": {
+      "subName": "Type: Poison"
+    },
+    "silvally-psychic": {
+      "subName": "Type: Psychic"
+    },
+    "silvally-rock": {
+      "subName": "Type: Rock"
+    },
+    "silvally-steel": {
+      "subName": "Type: Steel"
+    },
+    "silvally-water": {
+      "subName": "Type: Water"
+    },
+    "wishiwashi": {
+      "subName": "Solo Form"
+    },
+    "wishiwashi-school": {
+      "subName": "School Form"
+    },
+    "zygarde": {
+      "isLegendary": true,
+      "subName": "50% Forme"
+    },
+    "zygarde-10": {
+      "subName": "10% Forme"
+    },
+    "zygarde-complete": {
+      "subName": "Complete Forme"
+    },
+    "basculegion": {
+      "subName": "Male"
+    },
+    "basculegion-f": {
+      "subName": "Female"
+    },
+    "calyrex": {
+      "isLegendary": true
+    },
+    "calyrex-ice": {
+      "name": "Ice Rider Calyrex",
+      "hideSubName": true
+    },
+    "calyrex-shadow": {
+      "name": "Shadow Rider Calyrex",
+      "hideSubName": true
+    },
+    "cramorant-gulping": {
+      "subName": "Gulping Form"
+    },
+    "cramorant-gorging": {
+      "subName": "Gorging Form"
+    },
+    "darmanitan-galar": {
+      "subName": "Standard Mode"
+    },
+    "darmanitan-galar-zen": {
+      "subName": "Zen Mode"
+    },
+    "dialga": {
+      "isLegendary": true
+    },
+    "dialga-origin": {
+      "subName": "Origin Forme"
+    },
+    "palkia": {
+      "isLegendary": true
+    },
+    "palkia-origin": {
+      "subName": "Origin Forme"
+    },
+    "eiscue": {
+      "subName": "Ice Face"
+    },
+    "eiscue-noice": {
+      "subName": "Noice Face"
+    },
+    "indeedee": {
+      "subName": "Male"
+    },
+    "indeedee-f": {
+      "subName": "Female"
+    },
+    "morpeko": {
+      "subName": "Full Belly Mode"
+    },
+    "morpeko-hangry": {
+      "subName": "Hangry Mode"
+    },
+    "pikachu-world": {
+      "name": "World Cap Pikachu",
+      "hideSubName": true
+    },
+    "sinistea": {
+      "subName": "Phony Forme"
+    },
+    "sinistea-antique": {
+      "subName": "Antique Forme"
+    },
+    "polteageist": {
+      "subName": "Phony Forme"
+    },
+    "polteageist-antique": {
+      "subName": "Antique Forme"
+    },
+    "alcremie": {
+      "cosmeticSubName": "Vanilla Cream"
+    },
+    "toxtricity": {
+      "subName": "Amped Form",
+      "formes": [
+        "toxtricity-low-key",
+        "toxtricity-gmax",
+        "toxtricity-low-key-gmax"
+      ]
+    },
+    "toxtricity-low-key": {
+      "subName": "Low Key Form"
+    },
+    "toxtricity-low-key-gmax": {
+      "subName": "Gigantamax, Low Key Form"
+    },
+    "zacian": {
+      "isLegendary": true,
+      "subName": "Hero of Many Battles"
+    },
+    "zacian-crowned": {
+      "subName": "Crowned Sword"
+    },
+    "zamazenta": {
+      "isLegendary": true,
+      "subName": "Hero of Many Battles"
+    },
+    "zamazenta-crowned": {
+      "subName": "Crowned Shield"
+    },
+    "eternatus": {
+      "isLegendary": true
+    },
+    "eternatus-eternamax": {
+      "name": "Eternamax Eternatus",
+      "hideSubName": true
+    },
+    "kubfu": {
+      "isLegendary": true
+    },
+    "urshifu": {
+      "isLegendary": true,
+      "subName": "Single Strike Style",
+      "formes": [
+        "urshifu-rapid-strike",
+        "urshifu-gmax",
+        "urshifu-rapid-strike-gmax"
+      ]
+    },
+    "urshifu-gmax": {
+      "subName": "Gigantamax, Single Strike Style"
+    },
+    "urshifu-rapid-strike": {
+      "subName": "Rapid Strike Style"
+    },
+    "urshifu-rapid-strike-gmax": {
+      "subName": "Gigantamax, Rapid Strike Style"
+    },
+    "zarude": {
+      "isMythical": true
+    },
+    "zarude-dada": {
+      "name": "Dada Zarude",
+      "hideSubName": true
+    },
+    "enamorus": {
+      "isLegendary": true,
+      "subName": "Incarnate Forme"
+    },
+    "enamorus-therian": {
+      "isLegendary": true,
+      "subName": "Therian Forme"
+    },
+    "arceus": {
+      "isMythical": true,
+      "subName": "Normal"
+    },
+    "voltorbhisui": {
+      "slug": "voltorb-hisui"
+    },
+    "voltorb-hisui": {
+      "name": "Hisuian Voltorb"
+    },
+    "electrodehisui": {
+      "slug": "electrode-hisui"
+    },
+    "electrode-hisui": {
+      "name": "Hisuian Electrode"
+    },
+    "typhlosionhisui": {
+      "slug": "typhlosion-hisui"
+    },
+    "typhlosion-hisui": {
+      "name": "Hisuian Typhlosion"
+    },
+    "samurotthisui": {
+      "slug": "samurott-hisui"
+    },
+    "samurott-hisui": {
+      "name": "Hisuian Samurott"
+    },
+    "articuno": {
+      "isLegendary": true
+    },
+    "zapdos": {
+      "isLegendary": true
+    },
+    "moltres": {
+      "isLegendary": true
+    },
+    "mewtwo": {
+      "isLegendary": true
+    },
+    "mew": {
+      "isMythical": true
+    },
+    "entei": {
+      "isLegendary": true
+    },
+    "raikou": {
+      "isLegendary": true
+    },
+    "suicune": {
+      "isLegendary": true
+    },
+    "lugia": {
+      "isLegendary": true
+    },
+    "hooh": {
+      "isLegendary": true
+    },
+    "celebi": {
+      "isMythical": true
+    },
+    "regirock": {
+      "isLegendary": true
+    },
+    "regice": {
+      "isLegendary": true
+    },
+    "registeel": {
+      "isLegendary": true
+    },
+    "latias": {
+      "isLegendary": true
+    },
+    "latios": {
+      "isLegendary": true
+    },
+    "groudon": {
+      "isLegendary": true
+    },
+    "kyogre": {
+      "isLegendary": true
+    },
+    "rayquaza": {
+      "isLegendary": true
+    },
+    "jirachi": {
+      "isMythical": true
+    },
+    "uxie": {
+      "isLegendary": true
+    },
+    "mesprit": {
+      "isLegendary": true
+    },
+    "azelf": {
+      "isLegendary": true
+    },
+    "cresselia": {
+      "isLegendary": true
+    },
+    "heatran": {
+      "isLegendary": true
+    },
+    "regigigas": {
+      "isLegendary": true
+    },
+    "manaphy": {
+      "isMythical": true
+    },
+    "phione": {
+      "isMythical": true
+    },
+    "darkrai": {
+      "isMythical": true
+    },
+    "cobalion": {
+      "isLegendary": true
+    },
+    "terrakion": {
+      "isLegendary": true
+    },
+    "virizion": {
+      "isLegendary": true
+    },
+    "zekrom": {
+      "isLegendary": true
+    },
+    "reshiram": {
+      "isLegendary": true
+    },
+    "victini": {
+      "isMythical": true
+    },
+    "genesect": {
+      "isMythical": true
+    },
+    "xerneas": {
+      "isLegendary": true
+    },
+    "yveltal": {
+      "isLegendary": true
+    },
+    "diancie": {
+      "isMythical": true
+    },
+    "volcanion": {
+      "isMythical": true
+    },
+    "tapukoko": {
+      "isLegendary": true
+    },
+    "tapulele": {
+      "isLegendary": true
+    },
+    "tapubulu": {
+      "isLegendary": true
+    },
+    "tapufini": {
+      "isLegendary": true
+    },
+    "cosmog": {
+      "isLegendary": true
+    },
+    "cosmoem": {
+      "isLegendary": true
+    },
+    "solgaleo": {
+      "isLegendary": true
+    },
+    "lunala": {
+      "isLegendary": true
+    },
+    "necrozma": {
+      "isLegendary": true
+    },
+    "magearna": {
+      "isMythical": true
+    },
+    "marshadow": {
+      "isMythical": true
+    },
+    "zeraora": {
+      "isMythical": true
+    },
+    "meltan": {
+      "isMythical": true
+    },
+    "melmetal": {
+      "isMythical": true
+    },
+    "regieleki": {
+      "isLegendary": true
+    },
+    "regidrago": {
+      "isLegendary": true
+    },
+    "glastrier": {
+      "isLegendary": true
+    },
+    "spectrier": {
+      "isLegendary": true
+    },
+    "articuno-galar": {
+      "isLegendary": true
+    },
+    "zapdos-galar": {
+      "isLegendary": true
+    },
+    "moltres-galar": {
+      "isLegendary": true
+    },
+    "koraidon": {
+      "isLegendary": true
+    },
+    "miraidon": {
+      "isLegendary": true
+    }
+  },
+  "cosmeticFormes": {
+    "unown-b": {
+      "subName": "B"
+    },
+    "unown-c": {
+      "subName": "C"
+    },
+    "unown-d": {
+      "subName": "D"
+    },
+    "unown-e": {
+      "subName": "E"
+    },
+    "unown-f": {
+      "subName": "F"
+    },
+    "unown-g": {
+      "subName": "G"
+    },
+    "unown-h": {
+      "subName": "H"
+    },
+    "unown-i": {
+      "subName": "I"
+    },
+    "unown-j": {
+      "subName": "J"
+    },
+    "unown-k": {
+      "subName": "K"
+    },
+    "unown-l": {
+      "subName": "L"
+    },
+    "unown-m": {
+      "subName": "M"
+    },
+    "unown-n": {
+      "subName": "N"
+    },
+    "unown-o": {
+      "subName": "O"
+    },
+    "unown-p": {
+      "subName": "P"
+    },
+    "unown-q": {
+      "subName": "Q"
+    },
+    "unown-r": {
+      "subName": "R"
+    },
+    "unown-s": {
+      "subName": "S"
+    },
+    "unown-t": {
+      "subName": "T"
+    },
+    "unown-u": {
+      "subName": "U"
+    },
+    "unown-v": {
+      "subName": "V"
+    },
+    "unown-w": {
+      "subName": "W"
+    },
+    "unown-x": {
+      "subName": "X"
+    },
+    "unown-y": {
+      "subName": "Y"
+    },
+    "unown-z": {
+      "subName": "Z"
+    },
+    "unown-exclamation": {
+      "subName": "!"
+    },
+    "unown-question": {
+      "subName": "?"
+    },
+    "burmy-sandy": {
+      "subName": "Sandy Cloak"
+    },
+    "burmy-trash": {
+      "subName": "Trash Cloak"
+    },
+    "shellos-east": {
+      "subName": "East Sea"
+    },
+    "gastrodon-east": {
+      "subName": "East Sea"
+    },
+    "deerling-summer": {
+      "subName": "Summer Form"
+    },
+    "deerling-autumn": {
+      "subName": "Autumn Form"
+    },
+    "deerling-winter": {
+      "subName": "Winter Form"
+    },
+    "sawsbuck-summer": {
+      "subName": "Summer Form"
+    },
+    "sawsbuck-autumn": {
+      "subName": "Autumn Form"
+    },
+    "sawsbuck-winter": {
+      "subName": "Winter Form"
+    },
+    "vivillon-archipelago": {
+      "subName": "Archipelago Pattern"
+    },
+    "vivillon-continental": {
+      "subName": "Continental Pattern"
+    },
+    "vivillon-elegant": {
+      "subName": "Elegant Pattern"
+    },
+    "vivillon-garden": {
+      "subName": "Garden Pattern"
+    },
+    "vivillon-highplains": {
+      "subName": "High Plains Pattern"
+    },
+    "vivillon-icysnow": {
+      "subName": "Icy Snow Pattern"
+    },
+    "vivillon-jungle": {
+      "subName": "Jungle Pattern"
+    },
+    "vivillon-marine": {
+      "subName": "Marine Pattern"
+    },
+    "vivillon-modern": {
+      "subName": "Modern Pattern"
+    },
+    "vivillon-monsoon": {
+      "subName": "Monsoon Pattern"
+    },
+    "vivillon-ocean": {
+      "subName": "Ocean Pattern"
+    },
+    "vivillon-polar": {
+      "subName": "Polar Pattern"
+    },
+    "vivillon-river": {
+      "subName": "River Pattern"
+    },
+    "vivillon-sandstorm": {
+      "subName": "Sandstorm Pattern"
+    },
+    "vivillon-savanna": {
+      "subName": "Savanna Pattern"
+    },
+    "vivillon-sun": {
+      "subName": "Sun Pattern"
+    },
+    "vivillon-tundra": {
+      "subName": "Tundra Pattern"
+    },
+    "flabebe-blue": {
+      "subName": "Blue Flower"
+    },
+    "flabebe-orange": {
+      "subName": "Orange Flower"
+    },
+    "flabebe-white": {
+      "subName": "White Flower"
+    },
+    "flabebe-yellow": {
+      "subName": "Yellow Flower"
+    },
+    "floette-blue": {
+      "subName": "Blue Flower"
+    },
+    "floette-orange": {
+      "subName": "Orange Flower"
+    },
+    "floette-white": {
+      "subName": "White Flower"
+    },
+    "floette-yellow": {
+      "subName": "Yellow Flower"
+    },
+    "florges-blue": {
+      "subName": "Blue Flower"
+    },
+    "florges-orange": {
+      "subName": "Orange Flower"
+    },
+    "florges-white": {
+      "subName": "White Flower"
+    },
+    "florges-yellow": {
+      "subName": "Yellow Flower"
+    },
+    "furfrou-dandy": {
+      "subName": "Dandy Trim"
+    },
+    "furfrou-debutante": {
+      "subName": "Debutante Trim"
+    },
+    "furfrou-diamond": {
+      "subName": "Diamond Trim"
+    },
+    "furfrou-heart": {
+      "subName": "Heart Trim"
+    },
+    "furfrou-kabuki": {
+      "subName": "Kabuki Trim"
+    },
+    "furfrou-lareine": {
+      "subName": "La Reine Trim"
+    },
+    "furfrou-matron": {
+      "subName": "Matron Trim"
+    },
+    "furfrou-pharaoh": {
+      "subName": "Pharaoh Trim"
+    },
+    "furfrou-star": {
+      "subName": "Star Trim"
+    },
+    "minior-orange": {
+      "subName": "Orange Core"
+    },
+    "minior-yellow": {
+      "subName": "Yellow Core"
+    },
+    "minior-green": {
+      "subName": "Green Core"
+    },
+    "minior-blue": {
+      "subName": "Blue Core"
+    },
+    "minior-indigo": {
+      "subName": "Indigo Core"
+    },
+    "minior-violet": {
+      "subName": "Violet Core"
+    },
+    "alcremie-ruby-cream": {
+      "subName": "Ruby Cream"
+    },
+    "alcremie-matcha-cream": {
+      "subName": "Matcha Cream"
+    },
+    "alcremie-mint-cream": {
+      "subName": "Mint Cream"
+    },
+    "alcremie-lemon-cream": {
+      "subName": "Lemon Cream"
+    },
+    "alcremie-salted-cream": {
+      "subName": "Salted Cream"
+    },
+    "alcremie-ruby-swirl": {
+      "subName": "Ruby Swirl"
+    },
+    "alcremie-caramel-swirl": {
+      "subName": "Caramel Swirl"
+    },
+    "alcremie-rainbow-swirl": {
+      "subName": "Rainbow Swirl"
+    }
   }
 }

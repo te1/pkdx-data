@@ -4,7 +4,7 @@ import { getData } from './showdown';
 import { exportTypes } from './export/types';
 import { exportNatures } from './export/natures';
 import { exportItems } from './export/items';
-import { exportPokemon } from './export/pokemon';
+import { exportPokemon, SpeciesMap } from './export/pokemon';
 import { exportMoves } from './export/moves';
 import { exportAbilities } from './export/abilities';
 
@@ -17,6 +17,7 @@ async function main() {
     await fs.emptyDir(target);
 
     for (const genData of data) {
+      const speciesMap = new SpeciesMap();
       const moveMap: PokemonMap = new Map();
       const abilityMap: PokemonMap = new Map();
 
@@ -29,10 +30,11 @@ async function main() {
         genData.gen,
         genData.simGen,
         target,
+        speciesMap,
         moveMap,
         abilityMap
       );
-      await exportMoves(genData.gen, target, moveMap);
+      await exportMoves(genData.gen, target, speciesMap, moveMap);
       await exportAbilities(genData.gen, target, abilityMap);
 
       console.log('');

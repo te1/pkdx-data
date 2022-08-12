@@ -8,10 +8,12 @@ import {
   PokemonMap,
   typeNameToSlug,
 } from '../utils';
+import { SpeciesMap } from './pokemon';
 
 export async function exportMoves(
   gen: Generation,
   target: string,
+  speciesMap: SpeciesMap,
   moveMap: PokemonMap
 ) {
   console.log('- moves');
@@ -35,8 +37,11 @@ export async function exportMoves(
       exclusivePokemon = extraData[move.id]?.exclusive;
     }
     if (hasMaxMoves && isGmax) {
-      // TODO use species slug instead
-      exclusivePokemon = [move.isMax];
+      const slug = speciesMap.getSlugByShowdownName(move.isMax);
+
+      if (slug) {
+        exclusivePokemon = [slug];
+      }
     }
 
     let basePower: number | undefined = move.basePower;

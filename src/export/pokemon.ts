@@ -4,6 +4,7 @@ import _ from 'lodash';
 import {
   AbilityName,
   Generation,
+  ID,
   ItemName,
   Specie,
   SpeciesName,
@@ -15,10 +16,25 @@ import { PokemonMap, exportData, typeNameToSlug } from '../utils';
 
 type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 
+export class SpeciesMap {
+  private byName = new Map<SpeciesName, string>();
+  private bySlug = new Map<ID, string>();
+
+  add(showdownName: SpeciesName, showdownId: ID, slug: string) {
+    this.byName.set(showdownName, slug);
+    this.bySlug.set(showdownId, slug);
+  }
+
+  getSlugByShowdownName(showdownName: SpeciesName) {
+    return this.byName.get(showdownName);
+  }
+}
+
 export async function exportPokemon(
   gen: Generation,
   simGen: Generation,
   target: string,
+  speciesMap: SpeciesMap,
   moveMap: PokemonMap,
   abilityMap: PokemonMap
 ) {
@@ -265,6 +281,9 @@ export async function exportPokemon(
     };
 
     result.push(entry);
+
+    // enable lookup of slug by showdown name and id
+    speciesMap.add(species.name, species.id, entry.slug);
 
     // remember available moves per pokemon for later use
     for (const moveSlug of Object.keys(entry.learnset)) {

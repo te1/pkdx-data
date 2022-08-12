@@ -1,0 +1,31 @@
+{
+  "slug": "selfdestruct",
+  "name": "Self-Destruct",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 200,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "allAdjacent",
+  "priority": 0,
+  "pokemon": [
+    "golem",
+    "electrode",
+    "koffing",
+    "weezing",
+    "geodude",
+    "graveler",
+    "voltorb",
+    "snorlax",
+    "sudowoodo",
+    "pineco",
+    "forretress",
+    "baltoy",
+    "claydol",
+    "bonsly",
+    "munchlax"
+  ],
+  "desc": "The user faints after using this move, unless this move has no target. The target's Defense is halved during damage calculation. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+  "shortDesc": "Target's Def halved during damage. User faints."
+}

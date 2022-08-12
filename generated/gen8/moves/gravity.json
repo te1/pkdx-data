@@ -1,0 +1,33 @@
+{
+  "slug": "gravity",
+  "name": "Gravity",
+  "gen": 4,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "pp": 5,
+  "target": "all",
+  "priority": 0,
+  "pokemon": [
+    "jigglypuff",
+    "wigglytuff",
+    "chansey",
+    "igglybuff",
+    "blissey",
+    "jirachi",
+    "happiny",
+    "roggenrola",
+    "boldore",
+    "gigalith",
+    "sigilyph",
+    "ferroseed",
+    "ferrothorn",
+    "xerneas",
+    "necrozma",
+    "necrozma-dusk-mane",
+    "necrozma-dawn-wings",
+    "stonjourner"
+  ],
+  "desc": "For 5 turns, the evasiveness of all active Pokemon is multiplied by 0.6. At the time of use, Bounce, Fly, Magnet Rise, Sky Drop, and Telekinesis end immediately for all active Pokemon. During the effect, Bounce, Fly, Flying Press, High Jump Kick, Jump Kick, Magnet Rise, Sky Drop, Splash, and Telekinesis are prevented from being used by all active Pokemon. Ground-type attacks, Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability can affect Flying types or Pokemon with the Levitate Ability. Fails if this move is already in effect.",
+  "shortDesc": "5 turns: no Ground immunities, 1.67x accuracy."
+}

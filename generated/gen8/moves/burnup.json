@@ -1,0 +1,25 @@
+{
+  "slug": "burnup",
+  "name": "Burn Up",
+  "gen": 7,
+  "type": "fire",
+  "category": "special",
+  "basePower": 130,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "arcanine-hisui",
+    "moltres",
+    "hooh",
+    "carkol",
+    "coalossal",
+    "coalossal-gmax",
+    "sizzlipede",
+    "centiskorch",
+    "centiskorch-gmax"
+  ],
+  "desc": "Fails unless the user is a Fire type. If this move is successful, the user's Fire type becomes typeless as long as it remains active.",
+  "shortDesc": "User's Fire type becomes typeless; must be Fire."
+}

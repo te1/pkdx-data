@@ -1,0 +1,29 @@
+{
+  "slug": "stringshot",
+  "name": "String Shot",
+  "gen": 1,
+  "type": "bug",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 95,
+  "pp": 40,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "caterpie",
+    "metapod",
+    "butterfree",
+    "butterfree-gmax",
+    "joltik",
+    "galvantula",
+    "larvesta",
+    "volcarona",
+    "swirlix",
+    "slurpuff",
+    "grubbin",
+    "charjabug",
+    "vikavolt"
+  ],
+  "desc": "Lowers the target's Speed by 2 stages.",
+  "shortDesc": "Lowers the foe(s) Speed by 2."
+}

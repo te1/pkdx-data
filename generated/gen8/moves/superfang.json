@@ -1,0 +1,31 @@
+{
+  "slug": "superfang",
+  "name": "Super Fang",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 0,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "bunnelby",
+    "diggersby",
+    "dedenne",
+    "noibat",
+    "noivern",
+    "scorbunny",
+    "raboot",
+    "cinderace",
+    "cinderace-gmax",
+    "skwovet",
+    "greedent",
+    "morpeko",
+    "morpeko-hangry",
+    "dracovish",
+    "arctovish"
+  ],
+  "desc": "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
+  "shortDesc": "Does damage equal to 1/2 target's current HP."
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "circlethrow",
+  "name": "Circle Throw",
+  "gen": 5,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 60,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "normal",
+  "priority": -6,
+  "pokemon": [
+    "poliwrath",
+    "kangaskhan",
+    "kangaskhan-mega",
+    "whismur",
+    "loudred",
+    "exploud",
+    "buneary",
+    "lopunny",
+    "lopunny-mega",
+    "riolu",
+    "lucario",
+    "lucario-mega",
+    "throh",
+    "pancham",
+    "pangoro"
+  ],
+  "desc": "If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target is under the effect of Ingrain, has the Suction Cups Ability, or this move hit a substitute.",
+  "shortDesc": "Forces the target to switch to a random ally."
+}

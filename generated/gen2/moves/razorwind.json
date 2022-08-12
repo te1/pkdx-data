@@ -1,0 +1,25 @@
+{
+  "slug": "razorwind",
+  "name": "Razor Wind",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 80,
+  "accuracy": 75,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
+    "totodile",
+    "croconaw",
+    "feraligatr",
+    "scyther",
+    "gligar",
+    "scizor"
+  ],
+  "desc": "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second.",
+  "shortDesc": "Charges, then hits target turn 2. High crit ratio."
+}

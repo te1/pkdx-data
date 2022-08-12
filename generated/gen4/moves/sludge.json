@@ -1,0 +1,30 @@
+{
+  "slug": "sludge",
+  "name": "Sludge",
+  "gen": 1,
+  "type": "poison",
+  "category": "special",
+  "basePower": 65,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
+    "mudkip",
+    "marshtomp",
+    "swampert",
+    "koffing",
+    "weezing",
+    "grimer",
+    "muk",
+    "gulpin",
+    "swalot",
+    "shellos",
+    "gastrodon"
+  ],
+  "desc": "Has a 30% chance to poison the target.",
+  "shortDesc": "30% chance to poison the target."
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "acid",
+  "name": "Acid",
+  "gen": 1,
+  "type": "poison",
+  "category": "physical",
+  "basePower": 40,
+  "accuracy": 100,
+  "pp": 30,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "ekans",
+    "arbok",
+    "oddish",
+    "gloom",
+    "vileplume",
+    "bellsprout",
+    "weepinbell",
+    "victreebel",
+    "tentacool",
+    "tentacruel"
+  ],
+  "desc": "Has a 33% chance to lower the target's Defense by 1 stage.",
+  "shortDesc": "33% chance to lower the target's Defense by 1."
+}

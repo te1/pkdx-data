@@ -1,0 +1,24 @@
+{
+  "slug": "skullbash",
+  "name": "Skull Bash",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 100,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
+    "squirtle",
+    "wartortle",
+    "blastoise",
+    "cubone",
+    "marowak"
+  ],
+  "desc": "This attack charges on the first turn and executes on the second. Raises the user's Defense by 1 stage on the first turn.",
+  "shortDesc": "Raises user's Defense by 1 on turn 1. Hits turn 2."
+}

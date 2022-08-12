@@ -1,0 +1,17 @@
+{
+  "slug": "jumpkick",
+  "name": "Jump Kick",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 70,
+  "accuracy": 95,
+  "pp": 25,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "hitmonlee"
+  ],
+  "desc": "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
+  "shortDesc": "If miss, user takes 1/2 damage it would've dealt."
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "detect",
+  "name": "Detect",
+  "gen": 2,
+  "type": "fighting",
+  "category": "status",
+  "basePower": 0,
+  "pp": 5,
+  "target": "self",
+  "priority": 3,
+  "pokemon": [
+    "zapdos",
+    "hitmonchan",
+    "hitmontop",
+    "treecko",
+    "grovyle",
+    "sceptile",
+    "yanma",
+    "makuhita",
+    "hariyama",
+    "sableye",
+    "meditite",
+    "medicham",
+    "zangoose"
+  ],
+  "desc": "The user is protected from most attacks made by other Pokemon during this turn. This move has an X/65536 chance of being successful, where X starts at 65535 and halves, rounded down, each time this move is successfully used. After the fourth successful use in a row, X drops to 118 and continues with seemingly random values from 0-65535 on subsequent successful uses. X resets to 65535 if this move fails or if the user's last move used is not Detect, Endure, or Protect. Fails if the user moves last this turn.",
+  "shortDesc": "Prevents moves from affecting the user this turn."
+}

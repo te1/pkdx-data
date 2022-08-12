@@ -1,0 +1,26 @@
+{
+  "slug": "megadrain",
+  "name": "Mega Drain",
+  "gen": 1,
+  "type": "grass",
+  "category": "special",
+  "basePower": 40,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "jumpluff",
+    "exeggutor",
+    "exeggcute",
+    "tangela",
+    "kabuto",
+    "kabutops",
+    "hoppip",
+    "skiploom",
+    "sunkern",
+    "sunflora"
+  ],
+  "desc": "The user recovers 1/2 the HP lost by the target, rounded down.",
+  "shortDesc": "User recovers 50% of the damage dealt."
+}

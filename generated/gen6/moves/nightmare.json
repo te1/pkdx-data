@@ -1,0 +1,26 @@
+{
+  "slug": "nightmare",
+  "name": "Nightmare",
+  "gen": 2,
+  "type": "ghost",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "gengar",
+    "gastly",
+    "haunter",
+    "gengar-mega",
+    "spiritomb",
+    "darkrai",
+    "munna",
+    "musharna",
+    "yamask",
+    "cofagrigus"
+  ],
+  "desc": "Causes the target to lose 1/4 of its maximum HP, rounded down, at the end of each turn as long as it is asleep. This move does not affect the target unless it is asleep. The effect ends when the target wakes up, even if it falls asleep again in the same turn.",
+  "shortDesc": "A sleeping target is hurt by 1/4 max HP per turn."
+}

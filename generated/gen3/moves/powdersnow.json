@@ -1,0 +1,30 @@
+{
+  "slug": "powdersnow",
+  "name": "Powder Snow",
+  "gen": 2,
+  "type": "ice",
+  "category": "special",
+  "basePower": 40,
+  "accuracy": 100,
+  "pp": 25,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "articuno",
+    "castform",
+    "castform-sunny",
+    "castform-rainy",
+    "jynx",
+    "swinub",
+    "piloswine",
+    "smoochum",
+    "castform-snowy",
+    "snorunt",
+    "glalie",
+    "spheal",
+    "sealeo",
+    "walrein"
+  ],
+  "desc": "Has a 10% chance to freeze the target.",
+  "shortDesc": "10% chance to freeze the foe(s)."
+}

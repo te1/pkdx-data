@@ -1,0 +1,29 @@
+{
+  "slug": "jumpkick",
+  "name": "Jump Kick",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 100,
+  "accuracy": 95,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "doduo",
+    "dodrio",
+    "hitmonlee",
+    "stantler",
+    "buneary",
+    "lopunny",
+    "lopunny-mega",
+    "deerling",
+    "sawsbuck",
+    "mienfoo",
+    "mienshao",
+    "pheromosa",
+    "marshadow"
+  ],
+  "desc": "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+  "shortDesc": "User is hurt by 50% of its max HP if it misses."
+}

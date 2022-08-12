@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxdepletion",
+  "name": "G-Max Depletion",
+  "gen": 8,
+  "type": "dragon",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "duraludon"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side loses 2 PP from its last move used, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Foes: last move -2 PP."
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "dreameater",
+  "name": "Dream Eater",
+  "gen": 1,
+  "type": "psychic",
+  "category": "special",
+  "basePower": 100,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "gastly",
+    "haunter",
+    "gengar",
+    "drowzee",
+    "hypno",
+    "mew"
+  ],
+  "desc": "The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded down, but not less than 1 HP. If this move breaks the target's substitute, the user does not recover any HP.",
+  "shortDesc": "User gains 1/2 HP inflicted. Sleeping target only."
+}

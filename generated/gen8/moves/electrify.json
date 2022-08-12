@@ -1,0 +1,18 @@
+{
+  "slug": "electrify",
+  "name": "Electrify",
+  "gen": 6,
+  "type": "electric",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "helioptile",
+    "heliolisk",
+    "boltund"
+  ],
+  "desc": "Causes the target's move to become Electric type this turn. Among effects that can change a move's type, this effect happens last. Fails if the target already moved this turn.",
+  "shortDesc": "Changes the target's move to Electric this turn."
+}

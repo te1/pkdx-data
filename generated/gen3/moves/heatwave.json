@@ -1,0 +1,25 @@
+{
+  "slug": "heatwave",
+  "name": "Heat Wave",
+  "gen": 3,
+  "type": "fire",
+  "category": "special",
+  "basePower": 100,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "charizard",
+    "moltres",
+    "magcargo",
+    "torkoal",
+    "vulpix",
+    "ninetales",
+    "growlithe",
+    "arcanine",
+    "slugma"
+  ],
+  "desc": "Has a 10% chance to burn the target.",
+  "shortDesc": "10% chance to burn the foe(s)."
+}

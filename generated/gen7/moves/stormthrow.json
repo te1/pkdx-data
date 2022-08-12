@@ -1,0 +1,21 @@
+{
+  "slug": "stormthrow",
+  "name": "Storm Throw",
+  "gen": 5,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 60,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "pinsir",
+    "pinsir-mega",
+    "throh",
+    "pancham",
+    "pangoro"
+  ],
+  "desc": "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+  "shortDesc": "Always results in a critical hit."
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "poisongas",
+  "name": "Poison Gas",
+  "gen": 1,
+  "type": "poison",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 90,
+  "pp": 40,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "koffing",
+    "weezing",
+    "grimer",
+    "grimer-alola",
+    "muk",
+    "muk-alola",
+    "drowzee",
+    "hypno",
+    "gulpin",
+    "swalot",
+    "stunky",
+    "skuntank",
+    "trubbish",
+    "garbodor",
+    "salandit",
+    "salazzle"
+  ],
+  "desc": "Poisons the target.",
+  "shortDesc": "Poisons the foe(s)."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "soak",
+  "name": "Soak",
+  "gen": 5,
+  "type": "water",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "marill",
+    "azumarill",
+    "azurill",
+    "basculin-blue-striped",
+    "pelipper",
+    "psyduck",
+    "golduck",
+    "goldeen",
+    "seaking",
+    "remoraid",
+    "octillery",
+    "wailmer",
+    "wailord",
+    "finneon",
+    "lumineon",
+    "basculin",
+    "alomomola"
+  ],
+  "desc": "Causes the target to become a Water type. Fails if the target is an Arceus.",
+  "shortDesc": "Changes the target's type to Water."
+}

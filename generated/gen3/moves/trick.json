@@ -1,0 +1,28 @@
+{
+  "slug": "trick",
+  "name": "Trick",
+  "gen": 3,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "alakazam",
+    "mrmime",
+    "kecleon",
+    "volbeat",
+    "kadabra",
+    "sentret",
+    "furret",
+    "zigzagoon",
+    "linoone",
+    "spoink",
+    "grumpig",
+    "spinda"
+  ],
+  "desc": "The user swaps its held item with the target's held item. Fails if either the user or the target is holding a Mail, if neither is holding an item, if either is under the effect of Knock Off, or if the target has the Sticky Hold Ability.",
+  "shortDesc": "User switches its held item with the target's."
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "electricterrain",
+  "name": "Electric Terrain",
+  "gen": 6,
+  "type": "electric",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "all",
+  "priority": 0,
+  "pokemon": [
+    "magnezone",
+    "pikachu-phd",
+    "magneton",
+    "mareep",
+    "flaaffy",
+    "ampharos",
+    "ampharos-mega",
+    "manectric",
+    "manectric-mega",
+    "luxray",
+    "electivire",
+    "helioptile",
+    "heliolisk"
+  ],
+  "desc": "For 5 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks made by grounded Pokemon is multiplied by 1.5 and grounded Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Grounded Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.",
+  "shortDesc": "5 turns. Grounded: +Electric power, can't sleep."
+}

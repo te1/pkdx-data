@@ -1,0 +1,24 @@
+{
+  "slug": "eruption",
+  "name": "Eruption",
+  "gen": 3,
+  "type": "fire",
+  "category": "special",
+  "basePower": 150,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "cyndaquil",
+    "quilava",
+    "typhlosion",
+    "entei",
+    "torkoal",
+    "heatran",
+    "camerupt",
+    "groudon"
+  ],
+  "desc": "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+  "shortDesc": "Less power as user's HP decreases. Hits foe(s)."
+}

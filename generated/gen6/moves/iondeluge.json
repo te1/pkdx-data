@@ -1,0 +1,24 @@
+{
+  "slug": "iondeluge",
+  "name": "Ion Deluge",
+  "gen": 6,
+  "type": "electric",
+  "category": "status",
+  "basePower": 0,
+  "pp": 25,
+  "target": "all",
+  "priority": 1,
+  "pokemon": [
+    "chinchou",
+    "lanturn",
+    "ampharos",
+    "ampharos-mega",
+    "pachirisu",
+    "electivire",
+    "zebstrika",
+    "emolga",
+    "eelektross"
+  ],
+  "desc": "Causes Normal-type moves to become Electric type this turn. The effect happens after other effects that change a move's type.",
+  "shortDesc": "Normal moves become Electric type this turn."
+}

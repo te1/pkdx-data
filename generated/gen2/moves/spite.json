@@ -1,0 +1,32 @@
+{
+  "slug": "spite",
+  "name": "Spite",
+  "gen": 2,
+  "type": "ghost",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "arbok",
+    "gengar",
+    "ekans",
+    "vulpix",
+    "ninetales",
+    "meowth",
+    "persian",
+    "gastly",
+    "haunter",
+    "aipom",
+    "misdreavus",
+    "dunsparce",
+    "sneasel",
+    "houndour",
+    "houndoom",
+    "stantler"
+  ],
+  "desc": "Causes the target's last move used to lose 2 to 5 PP, at random. Fails if the target has not made a move, or if the move has 0 PP.",
+  "shortDesc": "Lowers the PP of the target's last move by 2-5."
+}

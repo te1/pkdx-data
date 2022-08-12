@@ -1,0 +1,31 @@
+{
+  "slug": "assist",
+  "name": "Assist",
+  "gen": 3,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "chimchar",
+    "monferno",
+    "infernape",
+    "delcatty",
+    "meowth",
+    "persian",
+    "drowzee",
+    "hypno",
+    "sentret",
+    "furret",
+    "sneasel",
+    "skitty",
+    "spinda",
+    "glameow",
+    "purugly",
+    "weavile"
+  ],
+  "desc": "A random move among those known by the user's party members is selected for use. Does not select Assist, Chatter, Copycat, Counter, Covet, Destiny Bond, Detect, Endure, Feint, Focus Punch, Follow Me, Helping Hand, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Protect, Sketch, Sleep Talk, Snatch, Struggle, Switcheroo, Thief, or Trick.",
+  "shortDesc": "Uses a random move known by a team member."
+}

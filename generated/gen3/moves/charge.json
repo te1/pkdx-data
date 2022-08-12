@@ -1,0 +1,30 @@
+{
+  "slug": "charge",
+  "name": "Charge",
+  "gen": 3,
+  "type": "electric",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "pikachu",
+    "raichu",
+    "zapdos",
+    "ampharos",
+    "plusle",
+    "minun",
+    "electrode",
+    "voltorb",
+    "chinchou",
+    "lanturn",
+    "pichu",
+    "mareep",
+    "flaaffy",
+    "electrike",
+    "manectric"
+  ],
+  "desc": "If the user uses an Electric-type attack on the next turn, its power will be doubled.",
+  "shortDesc": "The user's Electric attack next turn has 2x power."
+}

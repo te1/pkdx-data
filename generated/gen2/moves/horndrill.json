@@ -1,0 +1,24 @@
+{
+  "slug": "horndrill",
+  "name": "Horn Drill",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 0,
+  "accuracy": 30,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "nidoking",
+    "nidoranm",
+    "nidorino",
+    "rhyhorn",
+    "rhydon",
+    "goldeen",
+    "seaking",
+    "dunsparce"
+  ],
+  "desc": "Deals 65535 damage to the target. This attack's accuracy out of 256 is equal to the lesser of (2 * (user's level - target's level) + 76) and 255, before applying accuracy and evasiveness modifiers. Fails if the target is at a higher level.",
+  "shortDesc": "OHKOs the target. Fails if user is a lower level."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "strugglebug",
+  "name": "Struggle Bug",
+  "gen": 5,
+  "type": "bug",
+  "category": "special",
+  "basePower": 50,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "shuckle",
+    "volbeat",
+    "illumise",
+    "kricketot",
+    "kricketune",
+    "sewaddle",
+    "swadloon",
+    "leavanny",
+    "shelmet",
+    "accelgor",
+    "vivillon",
+    "vivillon-fancy",
+    "vivillon-pokeball",
+    "cutiefly",
+    "ribombee",
+    "wimpod",
+    "golisopod"
+  ],
+  "desc": "Has a 100% chance to lower the target's Special Attack by 1 stage.",
+  "shortDesc": "100% chance to lower the foe(s) Sp. Atk by 1."
+}

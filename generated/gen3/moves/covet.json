@@ -1,0 +1,30 @@
+{
+  "slug": "covet",
+  "name": "Covet",
+  "gen": 3,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 40,
+  "accuracy": 100,
+  "pp": 40,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "cyndaquil",
+    "quilava",
+    "typhlosion",
+    "delcatty",
+    "illumise",
+    "snorlax",
+    "poochyena",
+    "mightyena",
+    "zigzagoon",
+    "linoone",
+    "slakoth",
+    "vigoroth",
+    "slaking",
+    "skitty"
+  ],
+  "desc": "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Enigma Berry. Items lost to this move cannot be regained with Recycle.",
+  "shortDesc": "If the user has no item, it steals the target's."
+}

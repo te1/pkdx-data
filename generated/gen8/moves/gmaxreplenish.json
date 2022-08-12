@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxreplenish",
+  "name": "G-Max Replenish",
+  "gen": 8,
+  "type": "normal",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "snorlax"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, there is a 50% chance every Pokemon on the user's side has its Berry restored, even if they have a substitute.",
+  "shortDesc": "Base move affects power. 50% restores Berries."
+}

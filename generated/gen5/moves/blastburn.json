@@ -1,0 +1,22 @@
+{
+  "slug": "blastburn",
+  "name": "Blast Burn",
+  "gen": 3,
+  "type": "fire",
+  "category": "special",
+  "basePower": 150,
+  "accuracy": 90,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "charmander",
+    "charmeleon",
+    "charizard",
+    "blaziken",
+    "infernape",
+    "emboar"
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn."
+}

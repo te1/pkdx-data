@@ -1,0 +1,24 @@
+{
+  "slug": "doublekick",
+  "name": "Double Kick",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 30,
+  "accuracy": 100,
+  "pp": 30,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "nidoranf",
+    "nidorina",
+    "nidoqueen",
+    "nidoranm",
+    "nidorino",
+    "nidoking",
+    "hitmonlee",
+    "jolteon"
+  ],
+  "desc": "Hits twice. Damage is calculated once for the first hit and used for both hits. If the first hit breaks the target's substitute, the move ends.",
+  "shortDesc": "Hits 2 times in one turn."
+}

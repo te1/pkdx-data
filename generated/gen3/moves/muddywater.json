@@ -1,0 +1,18 @@
+{
+  "slug": "muddywater",
+  "name": "Muddy Water",
+  "gen": 3,
+  "type": "water",
+  "category": "special",
+  "basePower": 95,
+  "accuracy": 85,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "marshtomp",
+    "swampert"
+  ],
+  "desc": "Has a 30% chance to lower the target's accuracy by 1 stage.",
+  "shortDesc": "30% chance to lower the foe(s) accuracy by 1."
+}

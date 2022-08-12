@@ -1,0 +1,30 @@
+{
+  "slug": "swallow",
+  "name": "Swallow",
+  "gen": 3,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "victreebel",
+    "mawile",
+    "arbok",
+    "pelipper",
+    "ekans",
+    "wooper",
+    "quagsire",
+    "gulpin",
+    "swalot",
+    "seviper",
+    "lileep",
+    "cradily",
+    "spheal",
+    "sealeo",
+    "walrein"
+  ],
+  "desc": "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Stockpile count resets to 0.",
+  "shortDesc": "Heals the user based on uses of Stockpile."
+}

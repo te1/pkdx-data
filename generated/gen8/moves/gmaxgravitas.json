@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxgravitas",
+  "name": "G-Max Gravitas",
+  "gen": 8,
+  "type": "psychic",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "orbeetle"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, the effect of Gravity begins.",
+  "shortDesc": "Base move affects power. Starts Gravity."
+}

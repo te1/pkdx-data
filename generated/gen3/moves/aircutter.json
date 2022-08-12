@@ -1,0 +1,23 @@
+{
+  "slug": "aircutter",
+  "name": "Air Cutter",
+  "gen": 3,
+  "type": "flying",
+  "category": "physical",
+  "basePower": 55,
+  "accuracy": 95,
+  "pp": 25,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "pidgeot",
+    "pidgey",
+    "pidgeotto",
+    "zubat",
+    "golbat",
+    "crobat",
+    "skarmory"
+  ],
+  "desc": "Has a higher chance for a critical hit.",
+  "shortDesc": "High critical hit ratio. Hits adjacent foes."
+}

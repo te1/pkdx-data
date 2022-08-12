@@ -1,0 +1,18 @@
+{
+  "slug": "tarshot",
+  "name": "Tar Shot",
+  "gen": 8,
+  "type": "rock",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "coalossal",
+    "coalossal-gmax"
+  ],
+  "desc": "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
+  "shortDesc": "Target gets -1 Spe and becomes weaker to Fire."
+}

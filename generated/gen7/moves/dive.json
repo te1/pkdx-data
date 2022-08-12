@@ -1,0 +1,25 @@
+{
+  "slug": "dive",
+  "name": "Dive",
+  "gen": 3,
+  "type": "water",
+  "category": "physical",
+  "basePower": 80,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "seel",
+    "dewgong",
+    "wailmer",
+    "wailord",
+    "relicanth",
+    "phione",
+    "manaphy",
+    "wishiwashi",
+    "wishiwashi-school"
+  ],
+  "desc": "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Surf and Whirlpool but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",
+  "shortDesc": "Dives underwater turn 1, strikes turn 2."
+}

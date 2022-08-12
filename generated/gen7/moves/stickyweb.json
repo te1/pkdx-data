@@ -1,0 +1,31 @@
+{
+  "slug": "stickyweb",
+  "name": "Sticky Web",
+  "gen": 6,
+  "type": "bug",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "foeSide",
+  "priority": 0,
+  "pokemon": [
+    "spinarak",
+    "ariados",
+    "shuckle",
+    "surskit",
+    "masquerain",
+    "kricketune",
+    "sewaddle",
+    "swadloon",
+    "leavanny",
+    "galvantula",
+    "swirlix",
+    "slurpuff",
+    "cutiefly",
+    "ribombee",
+    "dewpider",
+    "araquanid"
+  ],
+  "desc": "Sets up a hazard on the opposing side of the field, lowering the Speed by 1 stage of each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Fails if the effect is already active on the opposing side. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",
+  "shortDesc": "Lowers Speed of grounded foes by 1 on switch-in."
+}

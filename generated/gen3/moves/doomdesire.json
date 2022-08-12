@@ -1,0 +1,17 @@
+{
+  "slug": "doomdesire",
+  "name": "Doom Desire",
+  "gen": 3,
+  "type": "steel",
+  "category": "physical",
+  "basePower": 120,
+  "accuracy": 85,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "jirachi"
+  ],
+  "desc": "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move or Future Sight is already in effect for the target's position.",
+  "shortDesc": "Hits two turns after being used."
+}

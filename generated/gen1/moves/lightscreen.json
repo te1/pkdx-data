@@ -1,0 +1,27 @@
+{
+  "slug": "lightscreen",
+  "name": "Light Screen",
+  "gen": 1,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "pp": 30,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "pikachu",
+    "raichu",
+    "clefairy",
+    "clefable",
+    "voltorb",
+    "electrode",
+    "chansey",
+    "staryu",
+    "starmie",
+    "mrmime",
+    "electabuzz",
+    "zapdos"
+  ],
+  "desc": "While the user remains active, its Special is doubled when taking damage. Critical hits ignore this effect. If any Pokemon uses Haze, this effect ends.",
+  "shortDesc": "While active, user's Special is 2x when damaged."
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "rockwrecker",
+  "name": "Rock Wrecker",
+  "gen": 4,
+  "type": "rock",
+  "category": "physical",
+  "basePower": 150,
+  "accuracy": 90,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "rhyperior",
+    "dwebble",
+    "crustle"
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn."
+}

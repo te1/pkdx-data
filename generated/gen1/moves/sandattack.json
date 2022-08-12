@@ -1,0 +1,28 @@
+{
+  "slug": "sandattack",
+  "name": "Sand Attack",
+  "gen": 1,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "pidgey",
+    "pidgeotto",
+    "pidgeot",
+    "sandshrew",
+    "sandslash",
+    "diglett",
+    "dugtrio",
+    "farfetchd",
+    "eevee",
+    "vaporeon",
+    "jolteon",
+    "flareon"
+  ],
+  "desc": "Lowers the target's accuracy by 1 stage.",
+  "shortDesc": "Lowers the target's accuracy by 1."
+}

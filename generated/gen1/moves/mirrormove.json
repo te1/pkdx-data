@@ -1,0 +1,20 @@
+{
+  "slug": "mirrormove",
+  "name": "Mirror Move",
+  "gen": 1,
+  "type": "flying",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "pidgey",
+    "pidgeotto",
+    "pidgeot",
+    "spearow",
+    "fearow"
+  ],
+  "desc": "The user uses the last move used by the target. Fails if the target has not made a move, or if the last move used was Mirror Move.",
+  "shortDesc": "User uses the target's last used move against it."
+}

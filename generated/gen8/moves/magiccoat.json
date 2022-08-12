@@ -1,0 +1,29 @@
+{
+  "slug": "magiccoat",
+  "name": "Magic Coat",
+  "gen": 3,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "pp": 15,
+  "target": "self",
+  "priority": 4,
+  "pokemon": [
+    "abra",
+    "kadabra",
+    "alakazam",
+    "porygon",
+    "dunsparce",
+    "porygon2",
+    "absol",
+    "porygonz",
+    "munna",
+    "musharna",
+    "lunala",
+    "blacephalon",
+    "orbeetle",
+    "orbeetle-gmax"
+  ],
+  "desc": "Until the end of the turn, the user is unaffected by certain non-damaging moves directed at it and will instead use such moves against the original user. Moves reflected in this way are unable to be reflected again by this or the Magic Bounce Ability's effect. Spikes, Stealth Rock, Sticky Web, and Toxic Spikes can only be reflected once per side, by the leftmost Pokemon under this or the Magic Bounce Ability's effect. The Lightning Rod and Storm Drain Abilities redirect their respective moves before this move takes effect.",
+  "shortDesc": "Bounces back certain non-damaging moves."
+}

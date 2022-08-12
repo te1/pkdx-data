@@ -1,0 +1,26 @@
+{
+  "slug": "dualchop",
+  "name": "Dual Chop",
+  "gen": 5,
+  "type": "dragon",
+  "category": "physical",
+  "basePower": 40,
+  "accuracy": 90,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "machop",
+    "machoke",
+    "machamp",
+    "machamp-gmax",
+    "sceptile",
+    "gabite",
+    "garchomp",
+    "axew",
+    "fraxure",
+    "haxorus"
+  ],
+  "desc": "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+  "shortDesc": "Hits 2 times in one turn."
+}

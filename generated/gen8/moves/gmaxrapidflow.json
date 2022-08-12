@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxrapidflow",
+  "name": "G-Max Rapid Flow",
+  "gen": 8,
+  "type": "water",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "urshifu-rapid-strike"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. This move bypasses all protection effects, including Max Guard.",
+  "shortDesc": "Base move affects power. Bypasses Max Guard."
+}

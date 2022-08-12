@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxwindrage",
+  "name": "G-Max Wind Rage",
+  "gen": 8,
+  "type": "flying",
+  "pp": 10,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "corviknight"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain end, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, G-Max Steelsurge, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of G-Max Steelsurge, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side.",
+  "shortDesc": "Base move affects power. Ends Terrain, hazards."
+}

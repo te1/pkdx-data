@@ -1,0 +1,26 @@
+{
+  "slug": "submission",
+  "name": "Submission",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 80,
+  "accuracy": 80,
+  "pp": 25,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "cyndaquil",
+    "quilava",
+    "typhlosion",
+    "totodile",
+    "croconaw",
+    "feraligatr",
+    "machop",
+    "machoke",
+    "machamp",
+    "pinsir"
+  ],
+  "desc": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP. If this move hits a substitute, the recoil damage is always 1 HP.",
+  "shortDesc": "Has 1/4 recoil."
+}

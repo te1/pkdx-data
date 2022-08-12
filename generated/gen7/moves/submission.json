@@ -1,0 +1,26 @@
+{
+  "slug": "submission",
+  "name": "Submission",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 80,
+  "accuracy": 80,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "machop",
+    "machoke",
+    "machamp",
+    "pinsir",
+    "pinsir-mega",
+    "chimchar",
+    "monferno",
+    "infernape",
+    "drilbur",
+    "excadrill"
+  ],
+  "desc": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
+  "shortDesc": "Has 1/4 recoil."
+}

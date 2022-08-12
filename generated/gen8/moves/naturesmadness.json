@@ -1,0 +1,20 @@
+{
+  "slug": "naturesmadness",
+  "name": "Nature's Madness",
+  "gen": 7,
+  "type": "fairy",
+  "category": "special",
+  "basePower": 0,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "tapukoko",
+    "tapulele",
+    "tapubulu",
+    "tapufini"
+  ],
+  "desc": "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
+  "shortDesc": "Does damage equal to 1/2 target's current HP."
+}

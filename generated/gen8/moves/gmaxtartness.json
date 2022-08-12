@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxtartness",
+  "name": "G-Max Tartness",
+  "gen": 8,
+  "type": "grass",
+  "pp": 10,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "flapple"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, the evasiveness of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Foes: -1 evasiveness."
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "psychicterrain",
+  "name": "Psychic Terrain",
+  "gen": 7,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "all",
+  "priority": 0,
+  "pokemon": [
+    "tapulele",
+    "abra",
+    "kadabra",
+    "alakazam",
+    "alakazam-mega",
+    "drowzee",
+    "hypno",
+    "mrmime",
+    "girafarig",
+    "mimejr",
+    "musharna",
+    "beheeyem",
+    "fennekin",
+    "braixen",
+    "delphox",
+    "oranguru"
+  ],
+  "desc": "For 5 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks made by grounded Pokemon is multiplied by 1.5 and grounded Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
+  "shortDesc": "5 turns. Grounded: +Psychic power, priority-safe."
+}

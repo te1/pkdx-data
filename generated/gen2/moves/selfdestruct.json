@@ -1,0 +1,26 @@
+{
+  "slug": "selfdestruct",
+  "name": "Self-Destruct",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 200,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "allAdjacent",
+  "priority": 0,
+  "pokemon": [
+    "golem",
+    "electrode",
+    "koffing",
+    "weezing",
+    "geodude",
+    "graveler",
+    "voltorb",
+    "sudowoodo",
+    "pineco",
+    "forretress"
+  ],
+  "desc": "The user faints after using this move. The target's Defense is halved during damage calculation.",
+  "shortDesc": "Target's Def halved during damage. User faints."
+}

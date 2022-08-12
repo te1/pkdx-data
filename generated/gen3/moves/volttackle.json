@@ -1,0 +1,19 @@
+{
+  "slug": "volttackle",
+  "name": "Volt Tackle",
+  "gen": 3,
+  "type": "electric",
+  "category": "special",
+  "basePower": 120,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "pikachu",
+    "raichu",
+    "pichu"
+  ],
+  "desc": "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
+  "shortDesc": "Has 1/3 recoil."
+}

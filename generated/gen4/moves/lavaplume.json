@@ -1,0 +1,31 @@
+{
+  "slug": "lavaplume",
+  "name": "Lava Plume",
+  "gen": 4,
+  "type": "fire",
+  "category": "special",
+  "basePower": 80,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "allAdjacent",
+  "priority": 0,
+  "pokemon": [
+    "cyndaquil",
+    "quilava",
+    "typhlosion",
+    "magcargo",
+    "entei",
+    "torkoal",
+    "heatran",
+    "magmar",
+    "flareon",
+    "slugma",
+    "magby",
+    "numel",
+    "camerupt",
+    "groudon",
+    "magmortar"
+  ],
+  "desc": "Has a 30% chance to burn the target.",
+  "shortDesc": "30% chance to burn adjacent Pokemon."
+}

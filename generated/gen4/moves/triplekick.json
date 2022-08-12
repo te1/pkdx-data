@@ -1,0 +1,17 @@
+{
+  "slug": "triplekick",
+  "name": "Triple Kick",
+  "gen": 2,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 10,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "hitmontop"
+  ],
+  "desc": "Hits three times. Power increases to 20 for the second hit and 30 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the target has a Focus Sash and had full HP when this move started, it will not be knocked out regardless of the number of hits.",
+  "shortDesc": "Hits 3 times. Each hit can miss, but power rises."
+}

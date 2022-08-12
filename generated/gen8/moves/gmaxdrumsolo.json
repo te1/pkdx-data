@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxdrumsolo",
+  "name": "G-Max Drum Solo",
+  "gen": 8,
+  "type": "grass",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "rillaboom"
+  ],
+  "desc": "Power is 160 regardless of the base move's Max Move power. This move and its effects ignore the Abilities of other Pokemon.",
+  "shortDesc": "Always 160 power. Ignores Abilities."
+}

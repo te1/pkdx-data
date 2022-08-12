@@ -1,0 +1,18 @@
+{
+  "slug": "recycle",
+  "name": "Recycle",
+  "gen": 3,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "mrmime",
+    "porygon",
+    "porygon2"
+  ],
+  "desc": "The user regains the item last used by a Pokemon in its current position on the field, even if that Pokemon was not the user. Fails if the user is holding an item, if no items have been used at the user's position, or if the item was lost to Covet, Knock Off, or Thief. Items thrown with Fling can be regained.",
+  "shortDesc": "Restores the item the user last used."
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "aromaticmist",
+  "name": "Aromatic Mist",
+  "gen": 6,
+  "type": "fairy",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "adjacentAlly",
+  "priority": 0,
+  "pokemon": [
+    "aromatisse"
+  ],
+  "desc": "Raises the target's Special Defense by 1 stage. Fails if there is no ally adjacent to the user.",
+  "shortDesc": "Raises an ally's Sp. Def by 1."
+}

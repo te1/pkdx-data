@@ -1,0 +1,19 @@
+{
+  "slug": "mist",
+  "name": "Mist",
+  "gen": 1,
+  "type": "ice",
+  "category": "status",
+  "basePower": 0,
+  "pp": 30,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "lapras",
+    "vaporeon",
+    "articuno",
+    "mewtwo"
+  ],
+  "desc": "While the user remains active, it is protected from having its stat stages lowered by other Pokemon, unless caused by the secondary effect of a move. Fails if the user already has the effect. If any Pokemon uses Haze, this effect ends.",
+  "shortDesc": "While active, user is protected from stat drops."
+}

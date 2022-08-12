@@ -1,0 +1,18 @@
+{
+  "slug": "maliciousmoonsault",
+  "name": "Malicious Moonsault",
+  "gen": 7,
+  "type": "dark",
+  "category": "physical",
+  "basePower": 180,
+  "target": "normal",
+  "priority": 0,
+  "isZ": true,
+  "zCrystal": "inciniumz",
+  "baseMove": "darkestlariat",
+  "exclusive": [
+    "incineroar"
+  ],
+  "desc": "Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+  "shortDesc": "Damage doubles if the target used Minimize."
+}

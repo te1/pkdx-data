@@ -1,0 +1,23 @@
+{
+  "slug": "rollingkick",
+  "name": "Rolling Kick",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 60,
+  "accuracy": 85,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "hitmonlee",
+    "hitmontop",
+    "machop",
+    "machoke",
+    "machamp",
+    "electabuzz",
+    "elekid"
+  ],
+  "desc": "Has a 30% chance to make the target flinch.",
+  "shortDesc": "30% chance to make the target flinch."
+}

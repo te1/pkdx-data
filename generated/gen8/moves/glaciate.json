@@ -1,0 +1,19 @@
+{
+  "slug": "glaciate",
+  "name": "Glaciate",
+  "gen": 5,
+  "type": "ice",
+  "category": "special",
+  "basePower": 65,
+  "accuracy": 95,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "kyurem",
+    "kyurem-black",
+    "kyurem-white"
+  ],
+  "desc": "Has a 100% chance to lower the target's Speed by 1 stage.",
+  "shortDesc": "100% chance to lower the foe(s) Speed by 1."
+}

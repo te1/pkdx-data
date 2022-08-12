@@ -1,0 +1,20 @@
+{
+  "slug": "craftyshield",
+  "name": "Crafty Shield",
+  "gen": 6,
+  "type": "fairy",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "allySide",
+  "priority": 3,
+  "pokemon": [
+    "chimecho",
+    "yamask",
+    "cofagrigus",
+    "klefki",
+    "magearna"
+  ],
+  "desc": "The user and its party members are protected from non-damaging attacks made by other Pokemon, including allies, during this turn. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
+  "shortDesc": "Protects allies from Status moves this turn."
+}

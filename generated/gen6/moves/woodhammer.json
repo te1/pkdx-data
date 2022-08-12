@@ -1,0 +1,28 @@
+{
+  "slug": "woodhammer",
+  "name": "Wood Hammer",
+  "gen": 4,
+  "type": "grass",
+  "category": "physical",
+  "basePower": 120,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "exeggutor",
+    "sudowoodo",
+    "torterra",
+    "snover",
+    "abomasnow",
+    "abomasnow-mega",
+    "maractus",
+    "chespin",
+    "quilladin",
+    "chesnaught",
+    "phantump",
+    "trevenant"
+  ],
+  "desc": "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+  "shortDesc": "Has 33% recoil."
+}

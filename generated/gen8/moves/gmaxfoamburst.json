@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxfoamburst",
+  "name": "G-Max Foam Burst",
+  "gen": 8,
+  "type": "water",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "kingler"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the opposing side is lowered by 2 stages, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Foes: -2 Speed."
+}

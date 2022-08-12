@@ -1,0 +1,20 @@
+{
+  "slug": "highjumpkick",
+  "name": "High Jump Kick",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 85,
+  "accuracy": 90,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "tyrogue",
+    "hitmonlee",
+    "hitmonchan",
+    "hitmontop"
+  ],
+  "desc": "If this attack is not successful and the target was not immune, the user loses HP equal to 1/8 the damage the target would have taken, rounded down, but not less than 1 HP, as crash damage.",
+  "shortDesc": "If miss, user takes 1/8 damage it would've dealt."
+}

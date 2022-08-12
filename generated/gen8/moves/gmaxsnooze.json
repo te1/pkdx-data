@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxsnooze",
+  "name": "G-Max Snooze",
+  "gen": 8,
+  "type": "dark",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "grimmsnarl"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, there is a 50% chance the effect of Yawn begins on the target, even if it has a substitute.",
+  "shortDesc": "Base move affects power. Target: 50% Yawn."
+}

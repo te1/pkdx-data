@@ -1,0 +1,29 @@
+{
+  "slug": "healblock",
+  "name": "Heal Block",
+  "gen": 4,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "lunatone",
+    "solrock",
+    "celebi",
+    "shedinja",
+    "baltoy",
+    "claydol",
+    "latios",
+    "bronzor",
+    "bronzong",
+    "dialga",
+    "palkia",
+    "giratina",
+    "giratina-origin"
+  ],
+  "desc": "For 5 turns, the target is prevented from restoring any HP as long as it remains active. During the effect, healing moves are unusable, move effects that grant healing will not heal, but Abilities and items will continue to heal the user. If an affected Pokemon uses Baton Pass, the replacement will remain under the effect. Pain Split is unaffected.",
+  "shortDesc": "For 5 turns, the foe(s) is prevented from healing."
+}

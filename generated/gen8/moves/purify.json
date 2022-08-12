@@ -1,0 +1,16 @@
+{
+  "slug": "purify",
+  "name": "Purify",
+  "gen": 7,
+  "type": "poison",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "pyukumuku"
+  ],
+  "desc": "The target is cured if it has a non-volatile status condition. If the target was cured, the user restores 1/2 of its maximum HP, rounded down.",
+  "shortDesc": "Cures target's status; heals user 1/2 max HP if so."
+}

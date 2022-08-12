@@ -1,0 +1,33 @@
+{
+  "slug": "whirlwind",
+  "name": "Whirlwind",
+  "gen": 1,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": -1,
+  "pokemon": [
+    "butterfree",
+    "pidgeot",
+    "noctowl",
+    "pidgey",
+    "pidgeotto",
+    "zubat",
+    "golbat",
+    "aerodactyl",
+    "hoothoot",
+    "crobat",
+    "yanma",
+    "murkrow",
+    "swinub",
+    "piloswine",
+    "skarmory",
+    "lugia",
+    "hooh"
+  ],
+  "desc": "The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the user moves before the target.",
+  "shortDesc": "Forces the target to switch to a random ally."
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "magicpowder",
+  "name": "Magic Powder",
+  "gen": 8,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "hatterene",
+    "hatterene-gmax"
+  ],
+  "desc": "Causes the target to become a Psychic type. Fails if the target is an Arceus or a Silvally, or if the target is already purely Psychic type.",
+  "shortDesc": "Changes the target's type to Psychic."
+}

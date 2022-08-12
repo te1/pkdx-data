@@ -1,0 +1,30 @@
+{
+  "slug": "razorleaf",
+  "name": "Razor Leaf",
+  "gen": 1,
+  "type": "grass",
+  "category": "special",
+  "basePower": 55,
+  "accuracy": 95,
+  "pp": 25,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
+    "vileplume",
+    "victreebel",
+    "chikorita",
+    "bayleef",
+    "meganium",
+    "bellossom",
+    "oddish",
+    "gloom",
+    "bellsprout",
+    "weepinbell",
+    "sunflora"
+  ],
+  "desc": "Has a higher chance for a critical hit.",
+  "shortDesc": "High critical hit ratio."
+}

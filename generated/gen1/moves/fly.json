@@ -1,0 +1,32 @@
+{
+  "slug": "fly",
+  "name": "Fly",
+  "gen": 1,
+  "type": "flying",
+  "category": "physical",
+  "basePower": 70,
+  "accuracy": 95,
+  "pp": 15,
+  "target": "any",
+  "priority": 0,
+  "pokemon": [
+    "charizard",
+    "pidgey",
+    "pidgeotto",
+    "pidgeot",
+    "spearow",
+    "fearow",
+    "pikachu",
+    "raichu",
+    "farfetchd",
+    "doduo",
+    "dodrio",
+    "aerodactyl",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "mew"
+  ],
+  "desc": "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Bide, Swift, and Transform. If the user is fully paralyzed on the second turn, it continues avoiding attacks until it switches out or successfully executes the second turn of this move or Dig.",
+  "shortDesc": "Flies up on first turn, then strikes the next turn."
+}

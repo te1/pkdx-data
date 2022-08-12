@@ -1,0 +1,27 @@
+{
+  "slug": "metronome",
+  "name": "Metronome",
+  "gen": 1,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "clefairy",
+    "clefable",
+    "togepi",
+    "togetic",
+    "cleffa",
+    "snubbull",
+    "granbull",
+    "chansey",
+    "jynx",
+    "mew",
+    "smoochum",
+    "blissey"
+  ],
+  "desc": "A random move is selected for use, other than Counter, Destiny Bond, Detect, Endure, Metronome, Mimic, Mirror Coat, Protect, Sketch, Sleep Talk, Struggle, Thief, or any move the user already knows.",
+  "shortDesc": "Picks a random move."
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "conversion2",
+  "name": "Conversion 2",
+  "gen": 2,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 30,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "porygon",
+    "porygon2"
+  ],
+  "desc": "The user's type changes to match a type that resists or is immune to the type of the last move used against the user, if it was successful against the user, but not either of its current types. The determined type of the move is used rather than the original type, but considers Struggle as Normal. Fails if the last move used against the user was not successful, or if this move would only be able to select one of the user's current types.",
+  "shortDesc": "User's type changes to resist last move against it."
+}

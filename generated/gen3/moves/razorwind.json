@@ -1,0 +1,25 @@
+{
+  "slug": "razorwind",
+  "name": "Razor Wind",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 80,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "scyther",
+    "gligar",
+    "scizor",
+    "seedot",
+    "nuzleaf",
+    "shiftry",
+    "zangoose",
+    "tropius",
+    "absol"
+  ],
+  "desc": "This attack charges on the first turn and executes on the second.",
+  "shortDesc": "Charges, then hits foe(s) turn 2."
+}

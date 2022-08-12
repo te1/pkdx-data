@@ -1,0 +1,27 @@
+{
+  "slug": "acupressure",
+  "name": "Acupressure",
+  "gen": 4,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 30,
+  "target": "adjacentAllyOrSelf",
+  "priority": 0,
+  "pokemon": [
+    "dodrio",
+    "tentacool",
+    "tentacruel",
+    "doduo",
+    "shuckle",
+    "meditite",
+    "medicham",
+    "skorupi",
+    "drapion",
+    "croagunk",
+    "toxicroak",
+    "maractus"
+  ],
+  "desc": "Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.",
+  "shortDesc": "Raises a random stat of the user or an ally by 2."
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "steamroller",
+  "name": "Steamroller",
+  "gen": 5,
+  "type": "bug",
+  "category": "physical",
+  "basePower": 65,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "golem",
+    "venipede",
+    "whirlipede",
+    "scolipede"
+  ],
+  "desc": "Has a 30% chance to make the target flinch. Damage doubles if the target has used Minimize while active.",
+  "shortDesc": "30% chance to make the target flinch."
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "shelltrap",
+  "name": "Shell Trap",
+  "gen": 7,
+  "type": "fire",
+  "category": "special",
+  "basePower": 150,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "allAdjacentFoes",
+  "priority": -3,
+  "pokemon": [
+    "turtonator"
+  ],
+  "desc": "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
+  "shortDesc": "User must take physical damage before moving."
+}

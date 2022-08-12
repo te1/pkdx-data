@@ -1,0 +1,20 @@
+{
+  "slug": "sludge",
+  "name": "Sludge",
+  "gen": 1,
+  "type": "poison",
+  "category": "physical",
+  "basePower": 65,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "koffing",
+    "weezing",
+    "grimer",
+    "muk"
+  ],
+  "desc": "Has a 30% chance to poison the target.",
+  "shortDesc": "30% chance to poison the target."
+}

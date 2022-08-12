@@ -1,0 +1,29 @@
+{
+  "slug": "strengthsap",
+  "name": "Strength Sap",
+  "gen": 7,
+  "type": "grass",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "oddish",
+    "gloom",
+    "vileplume",
+    "bellossom",
+    "corsola-galar",
+    "drifblim",
+    "frillish",
+    "jellicent",
+    "morelull",
+    "shiinotic",
+    "polteageist",
+    "polteageist-antique",
+    "cursola"
+  ],
+  "desc": "Lowers the target's Attack by 1 stage. The user restores its HP equal to the target's Attack stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack stat stage is -6.",
+  "shortDesc": "User heals HP=target's Atk stat. Lowers Atk by 1."
+}

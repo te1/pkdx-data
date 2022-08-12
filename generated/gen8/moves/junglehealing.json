@@ -1,0 +1,17 @@
+{
+  "slug": "junglehealing",
+  "name": "Jungle Healing",
+  "gen": 8,
+  "type": "grass",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "allies",
+  "priority": 0,
+  "pokemon": [
+    "zarude",
+    "zarude-dada"
+  ],
+  "desc": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
+  "shortDesc": "User and allies: healed 1/4 max HP, status cured."
+}

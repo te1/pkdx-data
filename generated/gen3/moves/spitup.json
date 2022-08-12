@@ -1,0 +1,31 @@
+{
+  "slug": "spitup",
+  "name": "Spit Up",
+  "gen": 3,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "victreebel",
+    "mawile",
+    "arbok",
+    "pelipper",
+    "ekans",
+    "wooper",
+    "quagsire",
+    "gulpin",
+    "swalot",
+    "seviper",
+    "lileep",
+    "cradily",
+    "spheal",
+    "sealeo",
+    "walrein"
+  ],
+  "desc": "Damage is multiplied by the user's Stockpile count. This move does not apply damage variance and cannot be a critical hit. Fails if the user's Stockpile count is 0. Unless this move misses, the user's Stockpile count resets to 0.",
+  "shortDesc": "More power with more uses of Stockpile."
+}

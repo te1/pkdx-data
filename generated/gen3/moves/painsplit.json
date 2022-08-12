@@ -1,0 +1,23 @@
+{
+  "slug": "painsplit",
+  "name": "Pain Split",
+  "gen": 2,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "duskull",
+    "dusclops",
+    "koffing",
+    "weezing",
+    "misdreavus",
+    "gulpin",
+    "swalot"
+  ],
+  "desc": "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",
+  "shortDesc": "Shares HP of user and target equally."
+}

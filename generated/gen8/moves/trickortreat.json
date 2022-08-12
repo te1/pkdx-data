@@ -1,0 +1,24 @@
+{
+  "slug": "trickortreat",
+  "name": "Trick-or-Treat",
+  "gen": 6,
+  "type": "ghost",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "pumpkaboo",
+    "pumpkaboo-small",
+    "pumpkaboo-large",
+    "pumpkaboo-super",
+    "gourgeist",
+    "gourgeist-small",
+    "gourgeist-large",
+    "gourgeist-super"
+  ],
+  "desc": "Causes the Ghost type to be added to the target, effectively making it have two or three types. Fails if the target is already a Ghost type. If Forest's Curse adds a type to the target, it replaces the type added by this move and vice versa.",
+  "shortDesc": "Adds Ghost to the target's type(s)."
+}

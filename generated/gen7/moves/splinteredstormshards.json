@@ -1,0 +1,20 @@
+{
+  "slug": "splinteredstormshards",
+  "name": "Splintered Stormshards",
+  "gen": 7,
+  "type": "rock",
+  "category": "physical",
+  "basePower": 190,
+  "target": "normal",
+  "priority": 0,
+  "isZ": true,
+  "zCrystal": "lycaniumz",
+  "baseMove": "stoneedge",
+  "exclusive": [
+    "lycanroc",
+    "lycanroc-midnight",
+    "lycanroc-dusk"
+  ],
+  "desc": "Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
+  "shortDesc": "Ends the effects of terrain."
+}

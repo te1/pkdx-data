@@ -1,0 +1,31 @@
+{
+  "slug": "healingwish",
+  "name": "Healing Wish",
+  "gen": 4,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "clefairy",
+    "clefable",
+    "mrmime",
+    "gardevoir",
+    "mimejr",
+    "chimecho",
+    "chansey",
+    "blissey",
+    "celebi",
+    "latias",
+    "jirachi",
+    "buneary",
+    "lopunny",
+    "mesprit",
+    "shaymin",
+    "shaymin-sky"
+  ],
+  "desc": "The user faints and the Pokemon brought out to replace it has its HP fully restored along with having any non-volatile status condition cured. The new Pokemon is sent out immediately and the healing happens after hazards take effect. Fails if the user is the last unfainted Pokemon in its party.",
+  "shortDesc": "User faints. Replacement is fully healed."
+}

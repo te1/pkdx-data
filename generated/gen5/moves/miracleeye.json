@@ -1,0 +1,30 @@
+{
+  "slug": "miracleeye",
+  "name": "Miracle Eye",
+  "gen": 4,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "pp": 40,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "alakazam",
+    "gothita",
+    "gothorita",
+    "gothitelle",
+    "kadabra",
+    "jynx",
+    "mewtwo",
+    "natu",
+    "xatu",
+    "smoochum",
+    "metang",
+    "metagross",
+    "sigilyph",
+    "elgyem",
+    "beheeyem"
+  ],
+  "desc": "As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Psychic-type attacks can hit the target if it is a Dark type. Fails if the target is already affected, or affected by Foresight or Odor Sleuth.",
+  "shortDesc": "Psychic hits Dark. Evasiveness ignored."
+}

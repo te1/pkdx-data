@@ -1,0 +1,32 @@
+{
+  "slug": "leechseed",
+  "name": "Leech Seed",
+  "gen": 1,
+  "type": "grass",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
+    "vileplume",
+    "chikorita",
+    "bayleef",
+    "meganium",
+    "bellossom",
+    "jumpluff",
+    "exeggutor",
+    "oddish",
+    "gloom",
+    "exeggcute",
+    "hoppip",
+    "skiploom",
+    "celebi"
+  ],
+  "desc": "The Pokemon at the user's position steals 1/8 of the target's maximum HP, rounded down, at the end of each turn. If the target uses Baton Pass, the replacement will continue being leeched. If the target switches out or uses Rapid Spin, the effect ends. Grass-type Pokemon are immune to this move on use, but not its effect.",
+  "shortDesc": "1/8 of target's HP is restored to user every turn."
+}

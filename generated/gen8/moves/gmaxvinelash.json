@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxvinelash",
+  "name": "G-Max Vine Lash",
+  "gen": 8,
+  "type": "grass",
+  "pp": 10,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "venusaur"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, for 4 turns each non-Grass-type Pokemon on the opposing side takes damage equal to 1/6 of its maximum HP, rounded down, at the end of each turn during effect, including the last turn.",
+  "shortDesc": "Base move affects power. Foes: -1/6 HP, 4 turns."
+}

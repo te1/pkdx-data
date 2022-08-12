@@ -1,0 +1,24 @@
+{
+  "slug": "psychicfangs",
+  "name": "Psychic Fangs",
+  "gen": 7,
+  "type": "psychic",
+  "category": "physical",
+  "basePower": 85,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "girafarig",
+    "carvanha",
+    "sharpedo",
+    "sharpedo-mega",
+    "lillipup",
+    "herdier",
+    "stoutland",
+    "bruxish"
+  ],
+  "desc": "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+  "shortDesc": "Destroys screens, unless the target is immune."
+}

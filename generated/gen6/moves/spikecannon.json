@@ -1,0 +1,19 @@
+{
+  "slug": "spikecannon",
+  "name": "Spike Cannon",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 20,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "corsola",
+    "cloyster",
+    "omastar"
+  ],
+  "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+  "shortDesc": "Hits 2-5 times in one turn."
+}

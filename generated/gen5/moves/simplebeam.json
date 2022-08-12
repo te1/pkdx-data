@@ -1,0 +1,28 @@
+{
+  "slug": "simplebeam",
+  "name": "Simple Beam",
+  "gen": 5,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "delcatty",
+    "zigzagoon",
+    "linoone",
+    "skitty",
+    "audino",
+    "elgyem",
+    "beheeyem",
+    "genesect",
+    "genesect-douse",
+    "genesect-shock",
+    "genesect-burn",
+    "genesect-chill"
+  ],
+  "desc": "Causes the target's Ability to become Simple. Fails if the target's Ability is Multitype, Simple, or Truant.",
+  "shortDesc": "The target's Ability becomes Simple."
+}

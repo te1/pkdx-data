@@ -1,0 +1,33 @@
+{
+  "slug": "psychoshift",
+  "name": "Psycho Shift",
+  "gen": 4,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "togepi",
+    "togetic",
+    "togekiss",
+    "noctowl",
+    "hoothoot",
+    "natu",
+    "xatu",
+    "murkrow",
+    "latias",
+    "latios",
+    "deoxys",
+    "deoxys-attack",
+    "deoxys-defense",
+    "deoxys-speed",
+    "honchkrow",
+    "cresselia",
+    "sigilyph"
+  ],
+  "desc": "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
+  "shortDesc": "Transfers the user's status ailment to the target."
+}

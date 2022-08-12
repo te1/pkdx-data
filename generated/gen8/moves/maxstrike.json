@@ -1,0 +1,12 @@
+{
+  "slug": "maxstrike",
+  "name": "Max Strike",
+  "gen": 8,
+  "type": "normal",
+  "pp": 10,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isMax": true,
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
+  "shortDesc": "Base move affects power. Foes: -1 Speed."
+}

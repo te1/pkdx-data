@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxterror",
+  "name": "G-Max Terror",
+  "gen": 8,
+  "type": "ghost",
+  "pp": 10,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "gengar"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side is prevented from switching out, even if they have a substitute. They can still switch out if they are holding Shed Shell or use Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If a target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+  "shortDesc": "Base move affects power. Foes: trapped."
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "freezedry",
+  "name": "Freeze-Dry",
+  "gen": 6,
+  "type": "ice",
+  "category": "special",
+  "basePower": 70,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "vanilluxe",
+    "cryogonal",
+    "lapras",
+    "articuno",
+    "swinub",
+    "piloswine",
+    "delibird",
+    "glalie",
+    "glalie-mega",
+    "mamoswine",
+    "aurorus"
+  ],
+  "desc": "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+  "shortDesc": "10% chance to freeze. Super effective on Water."
+}

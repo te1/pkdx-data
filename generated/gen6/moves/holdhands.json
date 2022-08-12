@@ -1,0 +1,21 @@
+{
+  "slug": "holdhands",
+  "name": "Hold Hands",
+  "gen": 6,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 40,
+  "target": "adjacentAlly",
+  "priority": 0,
+  "pokemon": [
+    "charizard-mega-x",
+    "pikachu",
+    "charizard",
+    "charizard-mega-y",
+    "raichu",
+    "vivillon-fancy"
+  ],
+  "desc": "No competitive use. Fails if there is no ally adjacent to the user.",
+  "shortDesc": "No competitive use."
+}

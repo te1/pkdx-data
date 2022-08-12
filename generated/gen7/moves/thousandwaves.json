@@ -1,0 +1,19 @@
+{
+  "slug": "thousandwaves",
+  "name": "Thousand Waves",
+  "gen": 6,
+  "type": "ground",
+  "category": "physical",
+  "basePower": 90,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "zygarde",
+    "zygarde-10",
+    "zygarde-complete"
+  ],
+  "desc": "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+  "shortDesc": "Hits adjacent foes. Prevents them from switching."
+}

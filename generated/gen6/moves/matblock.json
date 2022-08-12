@@ -1,0 +1,16 @@
+{
+  "slug": "matblock",
+  "name": "Mat Block",
+  "gen": 6,
+  "type": "fighting",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "allySide",
+  "priority": 0,
+  "pokemon": [
+    "greninja"
+  ],
+  "desc": "The user and its party members are protected from damaging attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
+  "shortDesc": "Protects allies from damaging attacks. Turn 1 only."
+}

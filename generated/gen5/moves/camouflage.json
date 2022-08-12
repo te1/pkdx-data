@@ -1,0 +1,24 @@
+{
+  "slug": "camouflage",
+  "name": "Camouflage",
+  "gen": 3,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "leavanny",
+    "deerling",
+    "staryu",
+    "starmie",
+    "mothim",
+    "sewaddle",
+    "swadloon",
+    "sawsbuck",
+    "stunfisk"
+  ],
+  "desc": "The user's type changes based on the battle terrain. Ground type on the regular Wi-Fi terrain. Fails if the user's type cannot be changed or if the user is already purely that type.",
+  "shortDesc": "Changes user's type based on terrain. (Ground)"
+}

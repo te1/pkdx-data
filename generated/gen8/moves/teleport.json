@@ -1,0 +1,31 @@
+{
+  "slug": "teleport",
+  "name": "Teleport",
+  "gen": 1,
+  "type": "psychic",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "self",
+  "priority": -6,
+  "pokemon": [
+    "abra",
+    "kadabra",
+    "alakazam",
+    "natu",
+    "xatu",
+    "ralts",
+    "kirlia",
+    "gardevoir",
+    "claydol",
+    "gallade",
+    "elgyem",
+    "beheeyem",
+    "cosmog",
+    "cosmoem",
+    "solgaleo",
+    "lunala"
+  ],
+  "desc": "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
+  "shortDesc": "User switches out."
+}

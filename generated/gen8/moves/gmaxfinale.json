@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxfinale",
+  "name": "G-Max Finale",
+  "gen": 8,
+  "type": "fairy",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "alcremie"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the user's side restores 1/6 of its current maximum HP, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Allies: +1/6 max HP."
+}

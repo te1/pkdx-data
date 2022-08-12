@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxchistrike",
+  "name": "G-Max Chi Strike",
+  "gen": 8,
+  "type": "fighting",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "machamp"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the user's side has their critical hit ratio raised by 1 stage, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Allies: Crit Ratio +1."
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "waterspout",
+  "name": "Water Spout",
+  "gen": 3,
+  "type": "water",
+  "category": "special",
+  "basePower": 150,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "squirtle",
+    "wartortle",
+    "blastoise",
+    "blastoise-gmax",
+    "remoraid",
+    "octillery",
+    "wailmer",
+    "wailord",
+    "kyogre",
+    "frillish",
+    "jellicent"
+  ],
+  "desc": "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+  "shortDesc": "Less power as user's HP decreases. Hits foe(s)."
+}

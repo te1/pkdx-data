@@ -1,0 +1,26 @@
+{
+  "slug": "doubleslap",
+  "name": "Double Slap",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 15,
+  "accuracy": 85,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "clefairy",
+    "clefable",
+    "jigglypuff",
+    "wigglytuff",
+    "poliwag",
+    "poliwhirl",
+    "poliwrath",
+    "chansey",
+    "mrmime",
+    "jynx"
+  ],
+  "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+  "shortDesc": "Hits 2-5 times in one turn."
+}

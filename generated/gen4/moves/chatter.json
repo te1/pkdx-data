@@ -1,0 +1,17 @@
+{
+  "slug": "chatter",
+  "name": "Chatter",
+  "gen": 4,
+  "type": "flying",
+  "category": "special",
+  "basePower": 60,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "any",
+  "priority": 0,
+  "pokemon": [
+    "chatot"
+  ],
+  "desc": "Has an X% chance to confuse the target, where X is 0 unless the user is a Chatot that hasn't Transformed. If the user is a Chatot, X is 1, 11, or 31 depending on the volume of Chatot's recorded cry, if any; 1 for no recording or low volume, 11 for medium volume, and 31 for high volume.",
+  "shortDesc": "For Chatot, 31% chance to confuse the target."
+}

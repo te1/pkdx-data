@@ -1,0 +1,18 @@
+{
+  "slug": "partingshot",
+  "name": "Parting Shot",
+  "gen": 6,
+  "type": "dark",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "pancham",
+    "pangoro"
+  ],
+  "desc": "Lowers the target's Attack and Special Attack by 1 stage. If this move is successful, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
+  "shortDesc": "Lowers target's Atk, Sp. Atk by 1. User switches."
+}

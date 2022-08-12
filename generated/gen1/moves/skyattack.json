@@ -1,0 +1,28 @@
+{
+  "slug": "skyattack",
+  "name": "Sky Attack",
+  "gen": 1,
+  "type": "flying",
+  "category": "physical",
+  "basePower": 140,
+  "accuracy": 90,
+  "pp": 5,
+  "target": "any",
+  "priority": 0,
+  "pokemon": [
+    "pidgey",
+    "pidgeotto",
+    "pidgeot",
+    "spearow",
+    "fearow",
+    "doduo",
+    "dodrio",
+    "aerodactyl",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "mew"
+  ],
+  "desc": "This attack charges on the first turn and executes on the second.",
+  "shortDesc": "Charges turn 1. Hits turn 2."
+}

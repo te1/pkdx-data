@@ -1,0 +1,22 @@
+{
+  "slug": "absorb",
+  "name": "Absorb",
+  "gen": 1,
+  "type": "grass",
+  "category": "special",
+  "basePower": 20,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "oddish",
+    "gloom",
+    "vileplume",
+    "tangela",
+    "kabuto",
+    "kabutops"
+  ],
+  "desc": "The user recovers 1/2 the HP lost by the target, rounded down. If this move breaks the target's substitute, the user does not recover any HP.",
+  "shortDesc": "User recovers 50% of the damage dealt."
+}

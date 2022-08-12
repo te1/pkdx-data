@@ -1,0 +1,26 @@
+{
+  "slug": "mirrormove",
+  "name": "Mirror Move",
+  "gen": 1,
+  "type": "flying",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "pidgeot",
+    "togepi",
+    "togetic",
+    "farfetchd",
+    "noctowl",
+    "pidgey",
+    "pidgeotto",
+    "spearow",
+    "fearow",
+    "hoothoot",
+    "murkrow"
+  ],
+  "desc": "The user uses the last move used by the target. Fails if the target has not made a move, or if the last move used was Metronome, Mimic, Mirror Move, Sketch, Sleep Talk, Transform, or any move the user knows.",
+  "shortDesc": "User uses the target's last used move against it."
+}

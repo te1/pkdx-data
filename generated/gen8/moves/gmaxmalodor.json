@@ -1,0 +1,15 @@
+{
+  "slug": "gmaxmalodor",
+  "name": "G-Max Malodor",
+  "gen": 8,
+  "type": "poison",
+  "pp": 5,
+  "target": "adjacentFoe",
+  "priority": 0,
+  "isGmax": true,
+  "exclusive": [
+    "garbodor"
+  ],
+  "desc": "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side becomes poisoned, even if they have a substitute.",
+  "shortDesc": "Base move affects power. Foes: poisoned."
+}

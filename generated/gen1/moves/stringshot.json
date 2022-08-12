@@ -1,0 +1,22 @@
+{
+  "slug": "stringshot",
+  "name": "String Shot",
+  "gen": 1,
+  "type": "bug",
+  "category": "status",
+  "basePower": 0,
+  "accuracy": 95,
+  "pp": 40,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "caterpie",
+    "metapod",
+    "butterfree",
+    "weedle",
+    "kakuna",
+    "beedrill"
+  ],
+  "desc": "Lowers the target's Speed by 1 stage.",
+  "shortDesc": "Lowers the target's Speed by 1."
+}

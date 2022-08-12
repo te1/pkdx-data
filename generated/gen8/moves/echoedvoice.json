@@ -1,0 +1,30 @@
+{
+  "slug": "echoedvoice",
+  "name": "Echoed Voice",
+  "gen": 5,
+  "type": "normal",
+  "category": "special",
+  "basePower": 40,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "hoothoot",
+    "noctowl",
+    "whismur",
+    "loudred",
+    "exploud",
+    "tympole",
+    "palpitoad",
+    "seismitoad",
+    "minccino",
+    "cinccino",
+    "spritzee",
+    "aromatisse",
+    "drampa",
+    "arctozolt"
+  ],
+  "desc": "For every consecutive turn that this move is used by at least one Pokemon, this move's power is multiplied by the number of turns to pass, but not more than 5.",
+  "shortDesc": "Power increases when used on consecutive turns."
+}

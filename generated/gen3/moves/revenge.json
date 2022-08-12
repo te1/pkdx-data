@@ -1,0 +1,29 @@
+{
+  "slug": "revenge",
+  "name": "Revenge",
+  "gen": 3,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 60,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": -4,
+  "pokemon": [
+    "hitmonlee",
+    "hitmonchan",
+    "hitmontop",
+    "qwilfish",
+    "mankey",
+    "primeape",
+    "machop",
+    "machoke",
+    "machamp",
+    "pinsir",
+    "makuhita",
+    "hariyama",
+    "cacturne"
+  ],
+  "desc": "Damage doubles if the user was hit by a Pokemon in the target's current position this turn, and that Pokemon was the last to hit the user.",
+  "shortDesc": "Damage doubles if user is hit by the target."
+}

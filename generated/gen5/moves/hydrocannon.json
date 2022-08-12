@@ -1,0 +1,22 @@
+{
+  "slug": "hydrocannon",
+  "name": "Hydro Cannon",
+  "gen": 3,
+  "type": "water",
+  "category": "special",
+  "basePower": 150,
+  "accuracy": 90,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "squirtle",
+    "wartortle",
+    "blastoise",
+    "swampert",
+    "empoleon",
+    "samurott"
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn."
+}

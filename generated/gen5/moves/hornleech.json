@@ -1,0 +1,17 @@
+{
+  "slug": "hornleech",
+  "name": "Horn Leech",
+  "gen": 5,
+  "type": "grass",
+  "category": "physical",
+  "basePower": 75,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "sawsbuck"
+  ],
+  "desc": "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+  "shortDesc": "User recovers 50% of the damage dealt."
+}

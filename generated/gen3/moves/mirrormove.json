@@ -1,0 +1,33 @@
+{
+  "slug": "mirrormove",
+  "name": "Mirror Move",
+  "gen": 1,
+  "type": "flying",
+  "category": "status",
+  "basePower": 0,
+  "pp": 20,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "pidgeot",
+    "togepi",
+    "togetic",
+    "torchic",
+    "combusken",
+    "blaziken",
+    "farfetchd",
+    "noctowl",
+    "swellow",
+    "pidgey",
+    "pidgeotto",
+    "spearow",
+    "fearow",
+    "hoothoot",
+    "murkrow",
+    "taillow",
+    "swablu",
+    "altaria"
+  ],
+  "desc": "The user uses the last move that successfully targeted the user. The copied move is used with no specific target. Fails if no move has targeted the user, if the move missed, failed, or had no effect on the user, or if the move cannot be copied by this move.",
+  "shortDesc": "User uses the target's last used move against it."
+}

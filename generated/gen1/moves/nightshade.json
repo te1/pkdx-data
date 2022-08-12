@@ -1,0 +1,19 @@
+{
+  "slug": "nightshade",
+  "name": "Night Shade",
+  "gen": 1,
+  "type": "ghost",
+  "category": "physical",
+  "basePower": 1,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "gastly",
+    "haunter",
+    "gengar"
+  ],
+  "desc": "Deals damage to the target equal to the user's level. This move ignores type immunity.",
+  "shortDesc": "Damage = user's level. Can hit Normal types."
+}

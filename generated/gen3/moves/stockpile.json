@@ -1,0 +1,30 @@
+{
+  "slug": "stockpile",
+  "name": "Stockpile",
+  "gen": 3,
+  "type": "normal",
+  "category": "status",
+  "basePower": 0,
+  "pp": 10,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "victreebel",
+    "mawile",
+    "arbok",
+    "pelipper",
+    "ekans",
+    "wooper",
+    "quagsire",
+    "gulpin",
+    "swalot",
+    "seviper",
+    "lileep",
+    "cradily",
+    "spheal",
+    "sealeo",
+    "walrein"
+  ],
+  "desc": "The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
+  "shortDesc": "Raises user's Stockpile count by 1. Max 3 uses."
+}

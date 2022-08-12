@@ -1,0 +1,25 @@
+{
+  "slug": "flamethrower",
+  "name": "Flamethrower",
+  "gen": 1,
+  "type": "fire",
+  "category": "special",
+  "basePower": 95,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "charmander",
+    "charmeleon",
+    "charizard",
+    "vulpix",
+    "ninetales",
+    "growlithe",
+    "arcanine",
+    "magmar",
+    "flareon"
+  ],
+  "desc": "Has a 10% chance to burn the target.",
+  "shortDesc": "10% chance to burn the target."
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "struggle",
+  "name": "Struggle",
+  "gen": 1,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 50,
+  "accuracy": 100,
+  "pp": 1,
+  "target": "randomNormal",
+  "priority": 0,
+  "desc": "Deals typeless damage. If this move was successful, the user takes damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP. This move is automatically used if none of the user's known moves can be selected.",
+  "shortDesc": "User loses 1/4 the HP lost by the target."
+}

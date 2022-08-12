@@ -1,0 +1,17 @@
+{
+  "slug": "jumpkick",
+  "name": "Jump Kick",
+  "gen": 1,
+  "type": "fighting",
+  "category": "physical",
+  "basePower": 70,
+  "accuracy": 95,
+  "pp": 25,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "hitmonlee"
+  ],
+  "desc": "If this attack misses the target, the user takes 1 HP of crash damage. If the user has a substitute, the crash damage is dealt to the target's substitute if it has one, otherwise no crash damage is dealt.",
+  "shortDesc": "User takes 1 HP of damage if it misses."
+}

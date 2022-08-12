@@ -115,12 +115,11 @@ export async function exportMoves(
       // flavorText: extraData[move.id]?.flavorText,
     };
 
-    result.push(entry);
+    if (shouldSkipMove(entry, { hasZMoves, hasMaxMoves })) {
+      continue;
+    }
 
-    // TODO handle moves that no pokemon can learn
-    // if (!entry.pokemon || !entry.pokemon.size) {
-    //   console.log(entry.name);
-    // }
+    result.push(entry);
   }
 
   result = _.sortBy(result, 'slug');
@@ -157,4 +156,37 @@ function getMovesIndexData(result: object) {
   //     'accuracy',
   //   ])
   // );
+}
+
+const keepUnlearnableMoves = ['struggle'];
+
+function shouldSkipMove(
+  moveData: {
+    slug: string;
+    pokemon: Set<string> | undefined;
+    isZ: boolean | undefined;
+    isMax: boolean | undefined;
+    isGmax: boolean | undefined;
+  },
+  options: { hasZMoves: boolean; hasMaxMoves: boolean }
+) {
+  // handle moves that no pokemon can learn
+
+  if (
+    (!moveData.pokemon || !moveData.pokemon.size) &&
+    (!options.hasZMoves || !moveData.isZ) &&
+    (!options.hasMaxMoves || !moveData.isMax) &&
+    (!options.hasMaxMoves || !moveData.isGmax) &&
+    !_.includes(keepUnlearnableMoves, moveData.slug)
+  ) {
+    // gen8: happyhour, holdback, holdhands, matblock (only available via events in past gens)
+
+    // console.log(moveData.slug);
+    // TODO gen4, gen5, gen6: megakick (should be learnable by hitmonlee)
+    // TODO gen7: strength (should be learnable by machamp)
+
+    return true;
+  }
+
+  return false;
 }

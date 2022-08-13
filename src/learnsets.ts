@@ -103,7 +103,7 @@ export async function getMergedLearnset(
     return _(merged).toPairs().sortBy(0).fromPairs().value();
   }
 
-  // learnset is empty, try learnset of baseForm
+  // learnset is empty, try learnset of baseForm (used by darmanitan-galar-zen, toxtricity-low-key-gmax, ...)
   if (species.changesFrom && species.changesFrom !== species.name) {
     return await getMergedLearnset(
       gen.species.get(species.changesFrom),
@@ -113,7 +113,7 @@ export async function getMergedLearnset(
     );
   }
 
-  // learnset is empty, try learnset of baseSpecies
+  // learnset is empty, try learnset of baseSpecies (used for pumpkabo-large, kyogre-primal, ...)
   if (species.baseSpecies && species.baseSpecies !== species.name) {
     return await getMergedLearnset(
       gen.species.get(species.baseSpecies),

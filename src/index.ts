@@ -7,6 +7,8 @@ import { exportItems } from './export/items';
 import { exportPokemon, SpeciesMap } from './export/pokemon';
 import { exportMoves } from './export/moves';
 import { exportAbilities } from './export/abilities';
+import { exportGames } from './export/games';
+import { exportPokedex } from './export/pokedex';
 
 const target = './generated/';
 
@@ -36,12 +38,12 @@ async function main() {
       );
       await exportMoves(genData.gen, target, speciesMap, moveMap);
       await exportAbilities(genData.gen, target, abilityMap);
+      await exportGames(target);
+      await exportPokedex(target);
 
       console.log('');
     }
 
-    // TODO export games
-    // TODO export pokedex
     // TODO export HM/TM/TR
     // TODO handle gen9 preview
 

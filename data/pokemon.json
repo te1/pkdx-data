@@ -336,6 +336,9 @@
     "minior-meteor": {
       "subName": "Meteor Form"
     },
+    "necrozma": {
+      "isLegendary": true
+    },
     "necrozma-dusk-mane": {
       "name": "Dusk Mane Necrozma",
       "hideSubName": true,
@@ -348,7 +351,9 @@
     },
     "necrozma-ultra": {
       "name": "Ultra Necrozma",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "necrozmadawnwings",
+      "keepLearnset": true
     },
     "oricorio": {
       "subName": "Baile Style"
@@ -565,7 +570,8 @@
     },
     "zacian-crowned": {
       "subName": "Crowned Sword",
-      "mergeLearnsetFrom": "zacian"
+      "mergeLearnsetFrom": "zacian",
+      "keepLearnset": true
     },
     "zamazenta": {
       "isLegendary": true,
@@ -573,7 +579,8 @@
     },
     "zamazenta-crowned": {
       "subName": "Crowned Shield",
-      "mergeLearnsetFrom": "zamazenta"
+      "mergeLearnsetFrom": "zamazenta",
+      "keepLearnset": true
     },
     "eternatus": {
       "isLegendary": true
@@ -788,9 +795,6 @@
       "isLegendary": true
     },
     "lunala": {
-      "isLegendary": true
-    },
-    "necrozma": {
       "isLegendary": true
     },
     "magearna": {

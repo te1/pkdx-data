@@ -13,7 +13,7 @@ import {
 import { Species as SimSpecies } from '@pkmn/sim';
 import { SpeciesAbility } from '@pkmn/dex-types';
 import { PokemonMap, exportData, typeNameToSlug } from '../utils';
-import { getMergedLearnset } from '../learnsets';
+import { getMergedLearnset, Learnset } from '../learnsets';
 
 type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 
@@ -144,13 +144,16 @@ export async function exportPokemon(
       }
     }
 
-    const learnset = await getMergedLearnset(
-      species,
-      gen,
-      speciesMap,
-      extraData.override
-    );
-    // const learnset = await getLearnset(species, gen);
+    // don't include learnset for battle only formes (unless it's different and should be kept, e.g. zamazenta-crowned)
+    let learnset: Learnset | undefined;
+    if (!isBattleOnly || extraData.override[slug]?.keepLearnset) {
+      learnset = await getMergedLearnset(
+        species,
+        gen,
+        speciesMap,
+        extraData.override
+      );
+    }
 
     const entry = {
       // -- General
@@ -297,18 +300,20 @@ export async function exportPokemon(
       // name of the exclusive G-Max move
       gmaxMove,
 
-      learnset,
+      learnset: _.size(learnset) ? learnset : undefined,
     };
 
     result.push(entry);
 
     // remember available moves per pokemon for later use
-    for (const moveSlug of Object.keys(entry.learnset)) {
-      const pokemon = moveMap.get(moveSlug) ?? new Set<string>();
+    if (entry.learnset) {
+      for (const moveSlug of Object.keys(entry.learnset)) {
+        const pokemon = moveMap.get(moveSlug) ?? new Set<string>();
 
-      pokemon.add(entry.slug);
+        pokemon.add(entry.slug);
 
-      moveMap.set(moveSlug, pokemon);
+        moveMap.set(moveSlug, pokemon);
+      }
     }
 
     // remember available abilities per pokemon for later use

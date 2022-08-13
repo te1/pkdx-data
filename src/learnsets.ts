@@ -3,7 +3,7 @@ import _ from 'lodash';
 import { Generation, MoveSource, Specie } from '@pkmn/data';
 import { SpeciesMap } from './export/pokemon';
 
-interface Learnset {
+export interface Learnset {
   [moveid: string]: MoveSource[];
 }
 

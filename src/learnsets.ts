@@ -28,8 +28,6 @@ type Learnsets = LearnsetData[];
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let extraData: any;
 
-// TODO learnsets remove battle only formes from move.pokemon?
-
 export async function getMergedLearnset(
   species: Specie | undefined,
   gen: Generation,

@@ -690,11 +690,16 @@ async function getLearnset(species: Specie, gen: Generation) {
 
   // make the remaining learnset more readable
   learnset = _.mapValues(learnset, (how) => {
-    return _.map(how, (entry) => {
+    let result = _.map(how, (entry) => {
       let result = entry;
 
       // drop gen number
       result = result.substring(1);
+
+      // drop event number
+      if (result.startsWith('S')) {
+        result = 'S';
+      }
 
       // add : to make it easier to split identifier and value
       if (result.length > 1) {
@@ -709,6 +714,10 @@ async function getLearnset(species: Specie, gen: Generation) {
 
       return result;
     });
+
+    result = _.uniq(result);
+
+    return result;
   });
 
   /* Showdown learnset patterns

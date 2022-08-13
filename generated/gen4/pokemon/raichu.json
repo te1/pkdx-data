@@ -31,8 +31,14 @@
     "Fairy"
   ],
   "learnset": {
+    "agility": [
+      "L:34"
+    ],
     "attract": [
       "M"
+    ],
+    "bide": [
+      "E"
     ],
     "brickbreak": [
       "M"
@@ -40,21 +46,48 @@
     "captivate": [
       "M"
     ],
+    "charge": [
+      "E"
+    ],
     "chargebeam": [
       "M"
+    ],
+    "charm": [
+      "L:1"
     ],
     "dig": [
       "M"
     ],
+    "discharge": [
+      "L:37"
+    ],
+    "doubleslap": [
+      "E"
+    ],
     "doubleteam": [
       "M",
       "L:18"
+    ],
+    "encore": [
+      "E"
+    ],
+    "endeavor": [
+      "S"
     ],
     "endure": [
       "M"
     ],
     "facade": [
       "M"
+    ],
+    "fakeout": [
+      "E"
+    ],
+    "feint": [
+      "L:29"
+    ],
+    "flail": [
+      "E"
     ],
     "flash": [
       "M"
@@ -77,6 +110,9 @@
     "grassknot": [
       "M"
     ],
+    "growl": [
+      "L:1"
+    ],
     "headbutt": [
       "T"
     ],
@@ -95,6 +131,9 @@
     "knockoff": [
       "T"
     ],
+    "lastresort": [
+      "S"
+    ],
     "lightscreen": [
       "M",
       "L:42"
@@ -105,8 +144,14 @@
     "mudslap": [
       "T"
     ],
+    "nastyplot": [
+      "L:18"
+    ],
     "naturalgift": [
       "M"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -123,6 +168,9 @@
     "return": [
       "M"
     ],
+    "reversal": [
+      "E"
+    ],
     "rocksmash": [
       "M"
     ],
@@ -138,6 +186,9 @@
     "signalbeam": [
       "T"
     ],
+    "slam": [
+      "L:21"
+    ],
     "sleeptalk": [
       "M"
     ],
@@ -150,8 +201,14 @@
     "substitute": [
       "M"
     ],
+    "surf": [
+      "S"
+    ],
     "swagger": [
       "M"
+    ],
+    "sweetkiss": [
+      "L:13"
     ],
     "swift": [
       "T"
@@ -181,80 +238,23 @@
       "M",
       "L:10"
     ],
-    "toxic": [
-      "M"
-    ],
-    "agility": [
-      "L:34"
-    ],
-    "discharge": [
-      "L:37"
-    ],
-    "feint": [
-      "L:29"
-    ],
-    "growl": [
-      "L:1"
-    ],
-    "lastresort": [
-      "S"
-    ],
-    "present": [
-      "E"
-    ],
-    "slam": [
-      "L:21"
-    ],
-    "surf": [
-      "S"
-    ],
-    "volttackle": [
-      "E"
-    ],
-    "yawn": [
-      "S"
-    ],
-    "bide": [
-      "E"
-    ],
-    "charge": [
-      "E"
-    ],
-    "charm": [
-      "L:1"
-    ],
-    "doubleslap": [
-      "E"
-    ],
-    "encore": [
-      "E"
-    ],
-    "endeavor": [
-      "S"
-    ],
-    "fakeout": [
-      "E"
-    ],
-    "flail": [
-      "E"
-    ],
-    "nastyplot": [
-      "L:18"
-    ],
-    "reversal": [
-      "E"
-    ],
-    "sweetkiss": [
-      "L:13"
-    ],
     "tickle": [
       "E"
+    ],
+    "toxic": [
+      "M"
     ],
     "uproar": [
       "T"
     ],
+    "volttackle": [
+      "E"
+    ],
     "wish": [
       "E"
+    ],
+    "yawn": [
+      "S"
     ]
   }
 }

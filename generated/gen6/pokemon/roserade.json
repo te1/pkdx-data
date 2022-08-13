@@ -34,6 +34,12 @@
     "Grass"
   ],
   "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "aromatherapy": [
+      "L:43"
+    ],
     "attract": [
       "M"
     ],
@@ -42,6 +48,9 @@
     ],
     "confide": [
       "M"
+    ],
+    "cottonspore": [
+      "E"
     ],
     "covet": [
       "T"
@@ -57,6 +66,9 @@
     ],
     "energyball": [
       "M"
+    ],
+    "extrasensory": [
+      "E"
     ],
     "facade": [
       "M"
@@ -78,8 +90,15 @@
     "grassknot": [
       "M"
     ],
+    "grasswhistle": [
+      "L:22",
+      "E"
+    ],
     "grassyterrain": [
       "L:1"
+    ],
+    "growth": [
+      "L:4"
     ],
     "hiddenpower": [
       "M"
@@ -87,17 +106,38 @@
     "hyperbeam": [
       "M"
     ],
+    "ingrain": [
+      "L:34"
+    ],
+    "leafstorm": [
+      "E"
+    ],
+    "leechseed": [
+      "L:16"
+    ],
     "magicalleaf": [
       "L:1"
     ],
     "megadrain": [
       "L:1"
     ],
+    "mindreader": [
+      "E"
+    ],
     "naturalgift": [
       "E"
     ],
     "naturepower": [
       "M"
+    ],
+    "petalblizzard": [
+      "L:37"
+    ],
+    "petaldance": [
+      "L:37"
+    ],
+    "pinmissile": [
+      "E"
     ],
     "poisonjab": [
       "M"
@@ -113,6 +153,9 @@
     ],
     "raindance": [
       "M"
+    ],
+    "razorleaf": [
+      "E"
     ],
     "rest": [
       "M"
@@ -133,6 +176,9 @@
     "shadowball": [
       "M"
     ],
+    "sleeppowder": [
+      "E"
+    ],
     "sleeptalk": [
       "M"
     ],
@@ -144,6 +190,12 @@
     ],
     "solarbeam": [
       "M"
+    ],
+    "spikes": [
+      "E"
+    ],
+    "stunspore": [
+      "L:10"
     ],
     "substitute": [
       "M"
@@ -169,11 +221,20 @@
       "M",
       "L:40"
     ],
+    "toxicspikes": [
+      "L:28"
+    ],
+    "uproar": [
+      "T"
+    ],
     "venomdrench": [
       "L:1"
     ],
     "venoshock": [
       "M"
+    ],
+    "watersport": [
+      "L:7"
     ],
     "weatherball": [
       "L:1"
@@ -181,67 +242,6 @@
     "worryseed": [
       "T",
       "L:16"
-    ],
-    "absorb": [
-      "L:1"
-    ],
-    "aromatherapy": [
-      "L:43"
-    ],
-    "cottonspore": [
-      "E"
-    ],
-    "grasswhistle": [
-      "L:22",
-      "E"
-    ],
-    "growth": [
-      "L:4"
-    ],
-    "ingrain": [
-      "L:34"
-    ],
-    "leafstorm": [
-      "E"
-    ],
-    "leechseed": [
-      "L:16"
-    ],
-    "mindreader": [
-      "E"
-    ],
-    "petalblizzard": [
-      "L:37"
-    ],
-    "petaldance": [
-      "L:37"
-    ],
-    "pinmissile": [
-      "E"
-    ],
-    "razorleaf": [
-      "E"
-    ],
-    "sleeppowder": [
-      "E"
-    ],
-    "spikes": [
-      "E"
-    ],
-    "stunspore": [
-      "L:10"
-    ],
-    "toxicspikes": [
-      "L:28"
-    ],
-    "extrasensory": [
-      "E"
-    ],
-    "uproar": [
-      "T"
-    ],
-    "watersport": [
-      "L:7"
     ]
   }
 }

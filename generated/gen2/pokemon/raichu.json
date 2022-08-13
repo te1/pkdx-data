@@ -28,11 +28,17 @@
     "Fairy"
   ],
   "learnset": {
+    "agility": [
+      "L:33"
+    ],
     "attract": [
       "M"
     ],
     "bide": [
       "E"
+    ],
+    "charm": [
+      "L:1"
     ],
     "curse": [
       "M"
@@ -43,12 +49,21 @@
     "detect": [
       "M"
     ],
+    "dizzypunch": [
+      "S"
+    ],
+    "doubleslap": [
+      "E"
+    ],
     "doubleteam": [
       "M",
       "L:15"
     ],
     "dynamicpunch": [
       "M"
+    ],
+    "encore": [
+      "E"
     ],
     "endure": [
       "M"
@@ -74,8 +89,17 @@
     "irontail": [
       "M"
     ],
+    "lightscreen": [
+      "L:50"
+    ],
     "mudslap": [
       "M"
+    ],
+    "petaldance": [
+      "S"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -92,8 +116,20 @@
     "return": [
       "M"
     ],
+    "reversal": [
+      "E"
+    ],
     "rollout": [
       "M"
+    ],
+    "scaryface": [
+      "S"
+    ],
+    "sing": [
+      "S"
+    ],
+    "slam": [
+      "L:20"
     ],
     "sleeptalk": [
       "M"
@@ -106,6 +142,9 @@
     ],
     "swagger": [
       "M"
+    ],
+    "sweetkiss": [
+      "L:11"
     ],
     "swift": [
       "M"
@@ -138,45 +177,6 @@
     ],
     "zapcannon": [
       "M"
-    ],
-    "agility": [
-      "L:33"
-    ],
-    "lightscreen": [
-      "L:50"
-    ],
-    "slam": [
-      "L:20"
-    ],
-    "charm": [
-      "L:1"
-    ],
-    "dizzypunch": [
-      "S"
-    ],
-    "doubleslap": [
-      "E"
-    ],
-    "encore": [
-      "E"
-    ],
-    "petaldance": [
-      "S"
-    ],
-    "present": [
-      "E"
-    ],
-    "reversal": [
-      "E"
-    ],
-    "scaryface": [
-      "S"
-    ],
-    "sing": [
-      "S"
-    ],
-    "sweetkiss": [
-      "L:11"
     ]
   }
 }

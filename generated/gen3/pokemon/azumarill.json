@@ -31,8 +31,14 @@
     "Fairy"
   ],
   "learnset": {
+    "amnesia": [
+      "E"
+    ],
     "attract": [
       "M"
+    ],
+    "bellydrum": [
+      "E"
     ],
     "blizzard": [
       "M"
@@ -43,8 +49,14 @@
     "brickbreak": [
       "M"
     ],
+    "bubble": [
+      "L:10"
+    ],
     "bubblebeam": [
       "L:24"
+    ],
+    "charm": [
+      "L:3"
     ],
     "defensecurl": [
       "T",
@@ -66,6 +78,9 @@
     "dynamicpunch": [
       "T"
     ],
+    "encore": [
+      "E"
+    ],
     "endure": [
       "T"
     ],
@@ -77,6 +92,9 @@
     ],
     "frustration": [
       "M"
+    ],
+    "futuresight": [
+      "E"
     ],
     "hail": [
       "M"
@@ -102,6 +120,9 @@
     "irontail": [
       "M"
     ],
+    "lightscreen": [
+      "E"
+    ],
     "megakick": [
       "T"
     ],
@@ -114,12 +135,21 @@
     "mudslap": [
       "T"
     ],
+    "perishsong": [
+      "E"
+    ],
+    "present": [
+      "E"
+    ],
     "protect": [
       "M"
     ],
     "raindance": [
       "M",
       "L:45"
+    ],
+    "refresh": [
+      "E"
     ],
     "rest": [
       "M"
@@ -140,17 +170,30 @@
     "seismictoss": [
       "T"
     ],
+    "sing": [
+      "E"
+    ],
+    "slam": [
+      "L:15",
+      "E"
+    ],
     "sleeptalk": [
       "T"
     ],
     "snore": [
       "T"
     ],
+    "splash": [
+      "L:1"
+    ],
     "strength": [
       "M"
     ],
     "substitute": [
       "T",
+      "E"
+    ],
+    "supersonic": [
       "E"
     ],
     "surf": [
@@ -168,6 +211,9 @@
     "tailwhip": [
       "L:1"
     ],
+    "tickle": [
+      "E"
+    ],
     "toxic": [
       "M"
     ],
@@ -179,52 +225,6 @@
     ],
     "waterpulse": [
       "M"
-    ],
-    "amnesia": [
-      "E"
-    ],
-    "bellydrum": [
-      "E"
-    ],
-    "futuresight": [
-      "E"
-    ],
-    "lightscreen": [
-      "E"
-    ],
-    "perishsong": [
-      "E"
-    ],
-    "present": [
-      "E"
-    ],
-    "supersonic": [
-      "E"
-    ],
-    "bubble": [
-      "L:10"
-    ],
-    "charm": [
-      "L:3"
-    ],
-    "encore": [
-      "E"
-    ],
-    "refresh": [
-      "E"
-    ],
-    "sing": [
-      "E"
-    ],
-    "slam": [
-      "L:15",
-      "E"
-    ],
-    "splash": [
-      "L:1"
-    ],
-    "tickle": [
-      "E"
     ]
   }
 }

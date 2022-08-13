@@ -20,6 +20,9 @@
   "weight": 30,
   "height": 0.8,
   "learnset": {
+    "agility": [
+      "L:33"
+    ],
     "bide": [
       "M"
     ],
@@ -36,11 +39,17 @@
     "flash": [
       "M"
     ],
+    "fly": [
+      "S"
+    ],
     "growl": [
       "L:1"
     ],
     "hyperbeam": [
       "M"
+    ],
+    "lightscreen": [
+      "L:50"
     ],
     "megakick": [
       "M"
@@ -53,6 +62,10 @@
     ],
     "payday": [
       "M"
+    ],
+    "quickattack": [
+      "L:11",
+      "L:16"
     ],
     "rage": [
       "M"
@@ -69,15 +82,24 @@
     "skullbash": [
       "M"
     ],
+    "slam": [
+      "L:20"
+    ],
     "submission": [
       "M"
     ],
     "substitute": [
       "M"
     ],
+    "surf": [
+      "T"
+    ],
     "swift": [
       "M",
       "L:26"
+    ],
+    "tailwhip": [
+      "L:6"
     ],
     "takedown": [
       "M"
@@ -100,28 +122,6 @@
     ],
     "toxic": [
       "M"
-    ],
-    "agility": [
-      "L:33"
-    ],
-    "fly": [
-      "S"
-    ],
-    "lightscreen": [
-      "L:50"
-    ],
-    "quickattack": [
-      "L:11",
-      "L:16"
-    ],
-    "slam": [
-      "L:20"
-    ],
-    "surf": [
-      "T"
-    ],
-    "tailwhip": [
-      "L:6"
     ]
   }
 }

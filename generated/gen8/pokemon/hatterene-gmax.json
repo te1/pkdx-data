@@ -32,8 +32,14 @@
   "canHatch": true,
   "gmaxMove": "gmaxsmite",
   "learnset": {
+    "afteryou": [
+      "E"
+    ],
     "aromatherapy": [
       "L:15"
+    ],
+    "aromaticmist": [
+      "E"
     ],
     "attract": [
       "M"
@@ -125,6 +131,9 @@
     "mysticalfire": [
       "M"
     ],
+    "nuzzle": [
+      "E"
+    ],
     "playnice": [
       "L:1"
     ],
@@ -153,6 +162,9 @@
     ],
     "psyshock": [
       "M"
+    ],
+    "quash": [
+      "E"
     ],
     "rest": [
       "M"
@@ -195,18 +207,6 @@
     ],
     "wonderroom": [
       "M"
-    ],
-    "afteryou": [
-      "E"
-    ],
-    "aromaticmist": [
-      "E"
-    ],
-    "nuzzle": [
-      "E"
-    ],
-    "quash": [
-      "E"
     ]
   }
 }

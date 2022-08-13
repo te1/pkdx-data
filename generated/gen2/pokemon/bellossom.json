@@ -30,6 +30,9 @@
     "absorb": [
       "L:1"
     ],
+    "acid": [
+      "L:24"
+    ],
     "attract": [
       "M"
     ],
@@ -44,6 +47,9 @@
     ],
     "endure": [
       "M"
+    ],
+    "flail": [
+      "E"
     ],
     "flash": [
       "M"
@@ -60,11 +66,24 @@
     "hyperbeam": [
       "M"
     ],
+    "leechseed": [
+      "S"
+    ],
+    "moonlight": [
+      "L:35"
+    ],
     "petaldance": [
+      "L:1"
+    ],
+    "poisonpowder": [
+      "L:14",
       "L:1"
     ],
     "protect": [
       "M"
+    ],
+    "razorleaf": [
+      "E"
     ],
     "rest": [
       "M"
@@ -72,7 +91,13 @@
     "return": [
       "M"
     ],
+    "sleeppowder": [
+      "L:18"
+    ],
     "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
       "M"
     ],
     "snore": [
@@ -95,39 +120,14 @@
       "M",
       "L:1"
     ],
-    "toxic": [
-      "M"
-    ],
-    "acid": [
-      "L:24"
-    ],
-    "moonlight": [
-      "L:35"
-    ],
-    "poisonpowder": [
-      "L:14",
-      "L:1"
-    ],
-    "sleeppowder": [
-      "L:18"
-    ],
-    "sludgebomb": [
-      "M"
-    ],
     "swordsdance": [
-      "E"
-    ],
-    "flail": [
-      "E"
-    ],
-    "leechseed": [
-      "S"
-    ],
-    "razorleaf": [
       "E"
     ],
     "synthesis": [
       "E"
+    ],
+    "toxic": [
+      "M"
     ]
   }
 }

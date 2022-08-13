@@ -34,6 +34,12 @@
     "Water 1"
   ],
   "learnset": {
+    "aquajet": [
+      "E"
+    ],
+    "aquaring": [
+      "E"
+    ],
     "aquatail": [
       "T",
       "L:32"
@@ -46,6 +52,9 @@
     ],
     "blizzard": [
       "M"
+    ],
+    "block": [
+      "S"
     ],
     "brickbreak": [
       "M"
@@ -68,8 +77,23 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E"
+    ],
+    "falseswipe": [
+      "S"
+    ],
+    "flail": [
+      "E"
+    ],
     "fling": [
       "M"
+    ],
+    "followme": [
+      "S"
+    ],
+    "foresight": [
+      "E"
     ],
     "frustration": [
       "M"
@@ -80,8 +104,14 @@
     "hail": [
       "M"
     ],
+    "haze": [
+      "E"
+    ],
     "hiddenpower": [
       "M"
+    ],
+    "hydrocannon": [
+      "S"
     ],
     "hydropump": [
       "L:48"
@@ -102,6 +132,18 @@
     "irontail": [
       "T"
     ],
+    "mirrorcoat": [
+      "E"
+    ],
+    "mist": [
+      "E"
+    ],
+    "muddywater": [
+      "E"
+    ],
+    "mudsport": [
+      "E"
+    ],
     "protect": [
       "M",
       "L:24"
@@ -112,6 +154,9 @@
     ],
     "rapidspin": [
       "L:20"
+    ],
+    "refresh": [
+      "E"
     ],
     "rest": [
       "M"
@@ -173,62 +218,17 @@
     "waterpulse": [
       "L:28"
     ],
-    "withdraw": [
-      "L:10"
-    ],
-    "zenheadbutt": [
-      "T"
-    ],
-    "aquajet": [
-      "E"
-    ],
-    "aquaring": [
-      "E"
-    ],
-    "block": [
-      "S"
-    ],
-    "fakeout": [
-      "E"
-    ],
-    "falseswipe": [
-      "S"
-    ],
-    "flail": [
-      "E"
-    ],
-    "followme": [
-      "S"
-    ],
-    "foresight": [
-      "E"
-    ],
-    "haze": [
-      "E"
-    ],
-    "hydrocannon": [
-      "S"
-    ],
-    "mirrorcoat": [
-      "E"
-    ],
-    "mist": [
-      "E"
-    ],
-    "muddywater": [
-      "E"
-    ],
-    "mudsport": [
-      "E"
-    ],
-    "refresh": [
-      "E"
-    ],
     "waterspout": [
       "E"
     ],
+    "withdraw": [
+      "L:10"
+    ],
     "yawn": [
       "E"
+    ],
+    "zenheadbutt": [
+      "T"
     ]
   }
 }

@@ -36,6 +36,12 @@
     "aerialace": [
       "M"
     ],
+    "agility": [
+      "L:20"
+    ],
+    "assist": [
+      "E"
+    ],
     "assurance": [
       "L:1"
     ],
@@ -43,6 +49,12 @@
       "M"
     ],
     "avalanche": [
+      "E"
+    ],
+    "beatup": [
+      "L:28"
+    ],
+    "bite": [
       "E"
     ],
     "blizzard": [
@@ -57,9 +69,18 @@
     "confide": [
       "M"
     ],
+    "counter": [
+      "E"
+    ],
+    "crushclaw": [
+      "E"
+    ],
     "darkpulse": [
       "M",
       "L:47"
+    ],
+    "doublehit": [
+      "E"
     ],
     "doubleteam": [
       "M"
@@ -80,6 +101,9 @@
     "falseswipe": [
       "M"
     ],
+    "feint": [
+      "E"
+    ],
     "feintattack": [
       "L:10"
     ],
@@ -92,6 +116,9 @@
     ],
     "focuspunch": [
       "T"
+    ],
+    "foresight": [
+      "E"
     ],
     "foulplay": [
       "T"
@@ -126,6 +153,9 @@
     ],
     "iceshard": [
       "L:47",
+      "E"
+    ],
+    "iciclecrash": [
       "E"
     ],
     "icywind": [
@@ -175,6 +205,9 @@
       "L:44",
       "E"
     ],
+    "pursuit": [
+      "E"
+    ],
     "quickattack": [
       "L:1"
     ],
@@ -207,6 +240,9 @@
     ],
     "shadowclaw": [
       "M"
+    ],
+    "slash": [
+      "L:35"
     ],
     "sleeptalk": [
       "M"
@@ -259,42 +295,6 @@
     ],
     "xscissor": [
       "M"
-    ],
-    "agility": [
-      "L:20"
-    ],
-    "assist": [
-      "E"
-    ],
-    "beatup": [
-      "L:28"
-    ],
-    "bite": [
-      "E"
-    ],
-    "counter": [
-      "E"
-    ],
-    "crushclaw": [
-      "E"
-    ],
-    "doublehit": [
-      "E"
-    ],
-    "feint": [
-      "E"
-    ],
-    "foresight": [
-      "E"
-    ],
-    "iciclecrash": [
-      "E"
-    ],
-    "pursuit": [
-      "E"
-    ],
-    "slash": [
-      "L:35"
     ]
   }
 }

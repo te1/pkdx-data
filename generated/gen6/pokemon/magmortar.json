@@ -34,6 +34,15 @@
     "attract": [
       "M"
     ],
+    "barrier": [
+      "E"
+    ],
+    "belch": [
+      "E"
+    ],
+    "bellydrum": [
+      "E"
+    ],
     "brickbreak": [
       "M"
     ],
@@ -52,11 +61,17 @@
     "covet": [
       "T"
     ],
+    "crosschop": [
+      "E"
+    ],
     "doubleteam": [
       "M"
     ],
     "dualchop": [
       "T"
+    ],
+    "dynamicpunch": [
+      "E"
     ],
     "earthquake": [
       "M"
@@ -91,11 +106,17 @@
       "M",
       "L:49"
     ],
+    "flareblitz": [
+      "E"
+    ],
     "fling": [
       "M"
     ],
     "focusblast": [
       "M"
+    ],
+    "focusenergy": [
+      "E"
     ],
     "focuspunch": [
       "T"
@@ -126,6 +147,9 @@
       "T",
       "E"
     ],
+    "karatechop": [
+      "E"
+    ],
     "lavaplume": [
       "L:36"
     ],
@@ -138,8 +162,17 @@
     "lowsweep": [
       "M"
     ],
+    "machpunch": [
+      "E"
+    ],
+    "megapunch": [
+      "E"
+    ],
     "overheat": [
       "M"
+    ],
+    "powerswap": [
+      "E"
     ],
     "poweruppunch": [
       "M"
@@ -167,6 +200,9 @@
     ],
     "round": [
       "M"
+    ],
+    "screech": [
+      "E"
     ],
     "secretpower": [
       "M"
@@ -219,47 +255,11 @@
     "toxic": [
       "M"
     ],
-    "willowisp": [
-      "M"
-    ],
-    "crosschop": [
-      "E"
-    ],
-    "dynamicpunch": [
-      "E"
-    ],
-    "megapunch": [
-      "E"
-    ],
-    "barrier": [
-      "E"
-    ],
-    "belch": [
-      "E"
-    ],
-    "bellydrum": [
-      "E"
-    ],
-    "flareblitz": [
-      "E"
-    ],
-    "focusenergy": [
-      "E"
-    ],
-    "karatechop": [
-      "E"
-    ],
-    "machpunch": [
-      "E"
-    ],
-    "powerswap": [
-      "E"
-    ],
-    "screech": [
-      "E"
-    ],
     "uproar": [
       "T"
+    ],
+    "willowisp": [
+      "M"
     ]
   }
 }

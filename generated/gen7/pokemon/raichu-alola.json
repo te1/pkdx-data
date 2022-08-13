@@ -34,11 +34,20 @@
     "Fairy"
   ],
   "learnset": {
+    "agility": [
+      "L:45"
+    ],
     "allyswitch": [
       "T"
     ],
     "attract": [
       "M"
+    ],
+    "bestow": [
+      "E"
+    ],
+    "bide": [
+      "E"
     ],
     "brickbreak": [
       "M"
@@ -46,14 +55,35 @@
     "calmmind": [
       "M"
     ],
+    "celebrate": [
+      "S"
+    ],
+    "charge": [
+      "E"
+    ],
     "chargebeam": [
       "M"
+    ],
+    "charm": [
+      "L:1"
     ],
     "confide": [
       "M"
     ],
+    "counter": [
+      "S"
+    ],
     "covet": [
       "T"
+    ],
+    "disarmingvoice": [
+      "E"
+    ],
+    "discharge": [
+      "L:34"
+    ],
+    "doubleslap": [
+      "E"
     ],
     "doubleteam": [
       "M",
@@ -62,14 +92,38 @@
     "echoedvoice": [
       "M"
     ],
+    "electricterrain": [
+      "E"
+    ],
+    "electroball": [
+      "L:13"
+    ],
     "electroweb": [
       "T"
+    ],
+    "encore": [
+      "E"
+    ],
+    "endure": [
+      "E"
     ],
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E"
+    ],
+    "feint": [
+      "L:21"
+    ],
+    "flail": [
+      "E"
+    ],
     "fling": [
       "M"
+    ],
+    "fly": [
+      "S"
     ],
     "focusblast": [
       "M"
@@ -86,11 +140,20 @@
     "grassknot": [
       "M"
     ],
+    "growl": [
+      "L:5"
+    ],
+    "happyhour": [
+      "S"
+    ],
     "helpinghand": [
       "T"
     ],
     "hiddenpower": [
       "M"
+    ],
+    "holdhands": [
+      "S"
     ],
     "hyperbeam": [
       "M"
@@ -108,6 +171,9 @@
       "M",
       "L:53"
     ],
+    "luckychant": [
+      "E"
+    ],
     "magiccoat": [
       "T"
     ],
@@ -116,6 +182,18 @@
     ],
     "magnetrise": [
       "T"
+    ],
+    "nastyplot": [
+      "L:13"
+    ],
+    "nuzzle": [
+      "L:29"
+    ],
+    "playnice": [
+      "L:7"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -139,11 +217,17 @@
     "reflect": [
       "M"
     ],
+    "refresh": [
+      "S"
+    ],
     "rest": [
       "M"
     ],
     "return": [
       "M"
+    ],
+    "reversal": [
+      "E"
     ],
     "round": [
       "M"
@@ -157,11 +241,17 @@
     "signalbeam": [
       "T"
     ],
+    "slam": [
+      "L:37"
+    ],
     "sleeptalk": [
       "M"
     ],
     "snore": [
       "T"
+    ],
+    "spark": [
+      "L:26"
     ],
     "speedswap": [
       "L:1"
@@ -169,11 +259,23 @@
     "substitute": [
       "M"
     ],
+    "surf": [
+      "S"
+    ],
     "swagger": [
       "M"
     ],
+    "sweetkiss": [
+      "L:10"
+    ],
+    "sweetscent": [
+      "S"
+    ],
     "tailwhip": [
       "L:1"
+    ],
+    "teeterdance": [
+      "S"
     ],
     "telekinesis": [
       "T"
@@ -200,127 +302,25 @@
       "M",
       "L:18"
     ],
+    "tickle": [
+      "E"
+    ],
     "toxic": [
       "M"
     ],
+    "uproar": [
+      "T"
+    ],
     "voltswitch": [
       "M"
-    ],
-    "wildcharge": [
-      "M",
-      "L:50"
-    ],
-    "agility": [
-      "L:45"
-    ],
-    "bestow": [
-      "E"
-    ],
-    "bide": [
-      "E"
-    ],
-    "celebrate": [
-      "S"
-    ],
-    "charm": [
-      "L:1"
-    ],
-    "counter": [
-      "S"
-    ],
-    "discharge": [
-      "L:34"
-    ],
-    "electroball": [
-      "L:13"
-    ],
-    "encore": [
-      "E"
-    ],
-    "endure": [
-      "E"
-    ],
-    "fakeout": [
-      "E"
-    ],
-    "feint": [
-      "L:21"
-    ],
-    "fly": [
-      "S"
-    ],
-    "growl": [
-      "L:5"
-    ],
-    "happyhour": [
-      "S"
-    ],
-    "holdhands": [
-      "S"
-    ],
-    "nuzzle": [
-      "L:29"
-    ],
-    "playnice": [
-      "L:7"
-    ],
-    "present": [
-      "E"
-    ],
-    "refresh": [
-      "S"
-    ],
-    "slam": [
-      "L:37"
-    ],
-    "spark": [
-      "L:26"
-    ],
-    "surf": [
-      "S"
-    ],
-    "sweetkiss": [
-      "L:10"
-    ],
-    "sweetscent": [
-      "S"
-    ],
-    "teeterdance": [
-      "S"
     ],
     "volttackle": [
       "T",
       "R"
     ],
-    "charge": [
-      "E"
-    ],
-    "disarmingvoice": [
-      "E"
-    ],
-    "doubleslap": [
-      "E"
-    ],
-    "electricterrain": [
-      "E"
-    ],
-    "flail": [
-      "E"
-    ],
-    "luckychant": [
-      "E"
-    ],
-    "nastyplot": [
-      "L:13"
-    ],
-    "reversal": [
-      "E"
-    ],
-    "tickle": [
-      "E"
-    ],
-    "uproar": [
-      "T"
+    "wildcharge": [
+      "M",
+      "L:50"
     ],
     "wish": [
       "E"

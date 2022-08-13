@@ -32,9 +32,15 @@
     "Fairy"
   ],
   "learnset": {
+    "assist": [
+      "L:18"
+    ],
     "attract": [
       "M",
       "L:1"
+    ],
+    "batonpass": [
+      "E"
     ],
     "blizzard": [
       "M"
@@ -48,6 +54,15 @@
     ],
     "chargebeam": [
       "M"
+    ],
+    "charm": [
+      "L:22"
+    ],
+    "copycat": [
+      "L:11"
+    ],
+    "covet": [
+      "L:32"
     ],
     "dig": [
       "M"
@@ -74,8 +89,17 @@
       "L:1",
       "E"
     ],
+    "faketears": [
+      "E"
+    ],
+    "feintattack": [
+      "L:25"
+    ],
     "flash": [
       "M"
+    ],
+    "foresight": [
+      "L:4"
     ],
     "frustration": [
       "M"
@@ -117,6 +141,9 @@
     ],
     "lastresort": [
       "T",
+      "E"
+    ],
+    "mudbomb": [
       "E"
     ],
     "mudslap": [
@@ -194,6 +221,12 @@
     "swift": [
       "T"
     ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
     "thunder": [
       "M"
     ],
@@ -203,51 +236,11 @@
     "thunderwave": [
       "M"
     ],
-    "toxic": [
-      "M"
-    ],
-    "waterpulse": [
-      "M"
-    ],
-    "zenheadbutt": [
-      "T",
-      "E"
-    ],
-    "assist": [
-      "L:18"
-    ],
-    "batonpass": [
-      "E"
-    ],
-    "charm": [
-      "L:22"
-    ],
-    "copycat": [
-      "L:11"
-    ],
-    "covet": [
-      "L:32"
-    ],
-    "faketears": [
-      "E"
-    ],
-    "feintattack": [
-      "L:25"
-    ],
-    "foresight": [
-      "L:4"
-    ],
-    "mudbomb": [
-      "E"
-    ],
-    "tackle": [
-      "L:1"
-    ],
-    "tailwhip": [
-      "L:1"
-    ],
     "tickle": [
       "E"
+    ],
+    "toxic": [
+      "M"
     ],
     "uproar": [
       "E"
@@ -255,7 +248,14 @@
     "wakeupslap": [
       "L:29"
     ],
+    "waterpulse": [
+      "M"
+    ],
     "wish": [
+      "E"
+    ],
+    "zenheadbutt": [
+      "T",
       "E"
     ]
   }

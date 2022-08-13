@@ -4,11 +4,16 @@ import _ from 'lodash';
 import { Generation, Type, Types } from '@pkmn/data';
 import { exportData } from '../utils';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let extraData: any;
+
 export async function exportTypes(gen: Generation, target: string) {
   console.log('- types');
 
-  console.log('\tloading data...');
-  const extraData = await fs.readJson(`./data/types.json`);
+  if (!extraData) {
+    console.log('\tloading data...');
+    extraData = await fs.readJson('./data/types.json');
+  }
 
   const result = {
     types: getTypesData(gen, extraData.types),

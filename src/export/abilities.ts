@@ -11,10 +11,6 @@ export async function exportAbilities(
 ) {
   console.log('- abilities');
 
-  // TODO add ability flavor text
-  // console.log('\tloading data...');
-  // const data = await fs.readJson(`./data/ability.json`);
-
   let result = [];
 
   for (const ability of gen.abilities) {
@@ -25,6 +21,8 @@ export async function exportAbilities(
       pokemon: abilityMap.get(ability.id),
       desc: ability.desc,
       shortDesc: ability.shortDesc,
+
+      // TODO add ability flavor text
       // flavorText: data[ability.id]?.flavorText,
     };
 

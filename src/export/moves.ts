@@ -10,6 +10,9 @@ import {
 } from '../utils';
 import { SpeciesMap } from './pokemon';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let extraData: any;
+
 export async function exportMoves(
   gen: Generation,
   target: string,
@@ -18,8 +21,10 @@ export async function exportMoves(
 ) {
   console.log('- moves');
 
-  console.log('\tloading data...');
-  const extraData = await fs.readJson(`./data/moves.json`);
+  if (!extraData) {
+    console.log('\tloading data...');
+    extraData = await fs.readJson('./data/moves.json');
+  }
 
   const hasZMoves = gen.num === 7;
   const hasMaxMoves = gen.num === 8;

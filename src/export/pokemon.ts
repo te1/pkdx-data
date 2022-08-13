@@ -31,6 +31,9 @@ export class SpeciesMap {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let extraData: any;
+
 export async function exportPokemon(
   gen: Generation,
   simGen: Generation,
@@ -41,8 +44,10 @@ export async function exportPokemon(
 ) {
   console.log('- pokemon');
 
-  console.log('\tloading data...');
-  const extraData = await fs.readJson(`./data/pokemon.json`);
+  if (!extraData) {
+    console.log('\tloading data...');
+    extraData = await fs.readJson('./data/pokemon.json');
+  }
 
   const hasEggs = gen.num >= 2;
   const hasAbilities = gen.num >= 3;

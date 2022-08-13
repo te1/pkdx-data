@@ -7,10 +7,6 @@ import { exportData } from '../utils';
 export async function exportItems(gen: Generation, target: string) {
   console.log('- items');
 
-  // TODO add item flavor text
-  // console.log('\tloading data...');
-  // const data = await fs.readJson(`./data/item.json`);
-
   let result = [];
 
   for (const item of gen.items) {
@@ -20,6 +16,8 @@ export async function exportItems(gen: Generation, target: string) {
       gen: item.gen,
       desc: item.desc,
       shortDesc: item.shortDesc || undefined,
+
+      // TODO add item flavor text
       // flavorText: data[item.id]?.flavorText,
     });
   }

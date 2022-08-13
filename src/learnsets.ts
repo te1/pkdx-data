@@ -1,3 +1,4 @@
+import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation, MoveSource, Specie } from '@pkmn/data';
 import { SpeciesMap } from './export/pokemon';
@@ -24,8 +25,11 @@ type Learnsets = LearnsetData[];
 - `D` Dream world / gen5 browser game
 */
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let extraData: any;
+
 // TODO learnsets
-// - opt out of learnset merging? use learnsets.get(species.id) then manually merge prevo and mark them?
+// - mark prevo moveSources
 // - remove battle only formes from move.pokemon?
 
 export async function getMergedLearnset(
@@ -34,6 +38,11 @@ export async function getMergedLearnset(
   speciesMap: SpeciesMap,
   override: Record<string, { mergeLearnsetFrom?: string }>
 ): Promise<Learnset> {
+  if (!extraData) {
+    console.log('\tloading data...');
+    extraData = await fs.readJson('./data/learnsets.json');
+  }
+
   let merged: Learnset = {};
 
   if (!species) {
@@ -116,7 +125,7 @@ async function getLearnsets(
   let currentSpecies: Specie | undefined = species;
 
   while (currentSpecies) {
-    const learnset = await getLearnset(currentSpecies, gen);
+    const learnset = await getLearnset(currentSpecies, gen, speciesMap);
 
     if (learnset) {
       learnsets.push({
@@ -131,7 +140,7 @@ async function getLearnsets(
 
     if (mergeLearnsetFrom) {
       currentSpecies = gen.species.get(mergeLearnsetFrom);
-    } else if (currentSpecies.prevo) {
+    } else if (currentSpecies.prevo && currentSpecies.forme !== 'Hisui') {
       currentSpecies = gen.species.get(currentSpecies.prevo);
     } else {
       currentSpecies = undefined;
@@ -143,9 +152,20 @@ async function getLearnsets(
 
 async function getLearnset(
   species: Specie,
-  gen: Generation
+  gen: Generation,
+  speciesMap: SpeciesMap
 ): Promise<Learnset | undefined> {
-  let learnset = (await gen.learnsets.get(species.id))?.learnset;
+  let learnset: Learnset | undefined;
+
+  const slug = speciesMap.getSlugByShowdownName(species.name);
+
+  if (slug) {
+    learnset = extraData[slug];
+  }
+
+  if (!learnset) {
+    learnset = (await gen.learnsets.get(species.id))?.learnset;
+  }
 
   if (!learnset) {
     return;

@@ -223,14 +223,13 @@ export async function exportPokemon(
       // battleOnly: getSpeciesSlug(species.battleOnly, gen),
 
       // there may be requirements (having an ability, holding an item, knowing a move) to change forme
-      // TODO rename to forme for consistency
-      formTriggerAbility: getAbilitySlug(species.requiredAbility ?? '', gen),
-      formTriggerItem: getItemSlug(species.requiredItem ?? '', gen),
-      formTriggerItems:
+      formeTriggerAbility: getAbilitySlug(species.requiredAbility ?? '', gen),
+      formeTriggerItem: getItemSlug(species.requiredItem ?? '', gen),
+      formeTriggerItems:
         (species.requiredItems?.length ?? 0) > 1
           ? getItemSlugs(species.requiredItems, gen)
           : undefined,
-      formTriggerMove: getMoveSlug(species.requiredMove ?? '', gen),
+      formeTriggerMove: getMoveSlug(species.requiredMove ?? '', gen),
 
       region: region || undefined,
       isBattleOnly: isBattleOnly || undefined,

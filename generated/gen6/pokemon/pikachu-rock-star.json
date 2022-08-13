@@ -27,16 +27,31 @@
   ],
   "learnset": {
     "agility": [
-      "L:45"
+      "L:37"
     ],
     "attract": [
       "M"
     ],
+    "bestow": [
+      "E"
+    ],
+    "bide": [
+      "E"
+    ],
     "brickbreak": [
       "M"
     ],
+    "celebrate": [
+      "S"
+    ],
+    "charge": [
+      "E"
+    ],
     "chargebeam": [
       "M"
+    ],
+    "charm": [
+      "L:1"
     ],
     "confide": [
       "M"
@@ -47,12 +62,18 @@
     "dig": [
       "M"
     ],
+    "disarmingvoice": [
+      "E"
+    ],
     "discharge": [
       "L:34"
     ],
+    "doubleslap": [
+      "E"
+    ],
     "doubleteam": [
       "M",
-      "L:23"
+      "L:21"
     ],
     "echoedvoice": [
       "M"
@@ -63,17 +84,35 @@
     "electroweb": [
       "T"
     ],
+    "encore": [
+      "E"
+    ],
+    "endeavor": [
+      "S"
+    ],
+    "endure": [
+      "E"
+    ],
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E"
+    ],
     "feint": [
       "L:21"
+    ],
+    "flail": [
+      "E"
     ],
     "flash": [
       "M"
     ],
     "fling": [
       "M"
+    ],
+    "fly": [
+      "S"
     ],
     "focuspunch": [
       "T"
@@ -87,11 +126,20 @@
     "growl": [
       "L:5"
     ],
+    "happyhour": [
+      "S"
+    ],
+    "heartstamp": [
+      "S"
+    ],
     "helpinghand": [
       "T"
     ],
     "hiddenpower": [
       "M"
+    ],
+    "holdhands": [
+      "S"
     ],
     "irontail": [
       "T"
@@ -101,19 +149,31 @@
     ],
     "lightscreen": [
       "M",
-      "L:53"
+      "L:45"
+    ],
+    "luckychant": [
+      "E"
     ],
     "magnetrise": [
       "T"
     ],
+    "megakick": [
+      "S"
+    ],
     "meteormash": [
       "R"
     ],
+    "nastyplot": [
+      "L:13"
+    ],
     "nuzzle": [
-      "L:29"
+      "L:23"
     ],
     "playnice": [
       "L:7"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -129,6 +189,9 @@
     ],
     "return": [
       "M"
+    ],
+    "reversal": [
+      "E"
     ],
     "rocksmash": [
       "M"
@@ -146,7 +209,7 @@
       "T"
     ],
     "slam": [
-      "L:37"
+      "L:26"
     ],
     "sleeptalk": [
       "M"
@@ -163,39 +226,61 @@
     "substitute": [
       "M"
     ],
+    "surf": [
+      "S"
+    ],
     "swagger": [
       "M"
+    ],
+    "sweetkiss": [
+      "L:10"
     ],
     "tailwhip": [
       "L:1"
     ],
+    "teeterdance": [
+      "S"
+    ],
     "thunder": [
       "M",
-      "L:58"
+      "L:50"
     ],
     "thunderbolt": [
       "M",
-      "L:42"
+      "L:29"
     ],
     "thunderpunch": [
-      "T"
+      "T",
+      "E"
     ],
     "thundershock": [
       "L:1"
     ],
     "thunderwave": [
       "M",
-      "L:18"
+      "L:13"
+    ],
+    "tickle": [
+      "E"
     ],
     "toxic": [
       "M"
     ],
+    "uproar": [
+      "T"
+    ],
     "voltswitch": [
       "M"
+    ],
+    "volttackle": [
+      "E"
     ],
     "wildcharge": [
       "M",
       "L:50"
+    ],
+    "wish": [
+      "E"
     ]
   }
 }

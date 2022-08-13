@@ -13,6 +13,7 @@ import {
 import { Species as SimSpecies } from '@pkmn/sim';
 import { SpeciesAbility } from '@pkmn/dex-types';
 import { PokemonMap, exportData, typeNameToSlug } from '../utils';
+import { getMergedLearnset } from '../learnsets';
 
 type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 
@@ -131,6 +132,7 @@ export async function exportPokemon(
       }
     }
 
+    // const learnset = await getMergedLearnset(species, gen);
     const learnset = await getLearnset(species, gen);
 
     const entry = {
@@ -671,6 +673,17 @@ function getPrettyRegionName(region: Region) {
   }
 }
 
+/* Showdown learnset patterns
+- `M` learned from Machine (TM/HM/TR)
+- `T` taught by Tutor
+- `E` Egg move
+- `R` Restricted, meaning additional conditions may apply
+- `Lx` learned by leveling up to Level x
+- `Sx` only available as part of a Special event / promotion (x is the event number for this species)
+- `V` Virtual console / past generation only (filtered out)
+- `D` Dream world / gen5 browser game (filtered out)
+*/
+
 async function getLearnset(species: Specie, gen: Generation) {
   let learnset = await gen.learnsets.learnable(species.name);
 
@@ -724,16 +737,8 @@ async function getLearnset(species: Specie, gen: Generation) {
     return result;
   });
 
-  /* Showdown learnset patterns
-  - `M` learned from Machine (TM/HM/TR)
-  - `T` taught by Tutor
-  - `E` Egg move
-  - `R` Restricted, meaning additional conditions may apply
-  - `Lx` learned by leveling up to Level x
-  - `Sx` only available as part of a Special event / promotion (x is the event number for this species)
-  - `V` Virtual console / past generation only (filtered out)
-  - `D` Dream world / gen5 browser game (filtered out)
-  */
+  // sort by move slug for consistency
+  learnset = _(learnset).toPairs().sortBy(0).fromPairs().value();
 
   return learnset;
 }

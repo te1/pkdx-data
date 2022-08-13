@@ -14,7 +14,7 @@ const target = './generated/';
 
 async function main() {
   try {
-    const data = getData();
+    const data = await getData();
 
     await fs.emptyDir(target);
 
@@ -45,6 +45,9 @@ async function main() {
     }
 
     // TODO export HM/TM/TR
+    // TODO handle gen7 let's go?
+    // TODO handle gen8 bdsp
+    // TODO handle gen8 la
     // TODO handle gen9 preview
 
     console.log('done');

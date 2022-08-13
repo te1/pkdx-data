@@ -1,6 +1,7 @@
 import _ from 'lodash';
-import { Dex } from '@pkmn/dex';
+import { Dex /* , ID, ModData */ } from '@pkmn/dex';
 import { Dex as SimDex } from '@pkmn/sim';
+// import { ModdedDex } from '@pkmn/mods';
 import { Generations, GenerationNum, Data } from '@pkmn/data';
 
 const excludeSpeciesId = [
@@ -178,10 +179,19 @@ const existsFn = (d: Data, g: GenerationNum) => {
   return true;
 };
 
-export function getData() {
+export async function getData() {
   // weird cast for `existsFn` because the constructor has the wrong typings for exists
 
   const gens = new Generations(Dex, existsFn as (d: Data) => boolean);
+  // const dex = Dex.mod(
+  //   'gen8bdsp' as ID,
+  //   (await import('@pkmn/mods/gen8bdsp')) as ModData
+  // );
+  // const gens = new Generations(
+  //   new ModdedDex(dex),
+  //   existsFn as (d: Data) => boolean
+  // );
+
   const simGens = new Generations(
     SimDex as unknown as typeof Dex,
     existsFn as (d: Data) => boolean

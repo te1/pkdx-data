@@ -172,6 +172,8 @@ function shouldSkipMove(
   options: { hasZMoves: boolean; hasMaxMoves: boolean }
 ) {
   // handle moves that no pokemon can learn
+  // keep z moves, max moves and g max moves even though they are not included in any learnset
+  // also keep struggle
 
   if (
     (!moveData.pokemon || !moveData.pokemon.size) &&
@@ -180,11 +182,8 @@ function shouldSkipMove(
     (!options.hasMaxMoves || !moveData.isGmax) &&
     !_.includes(keepUnlearnableMoves, moveData.slug)
   ) {
+    // currently known to be filtered out this way
     // gen8: happyhour, holdback, holdhands, matblock (only available via events in past gens)
-
-    // console.log(moveData.slug);
-    // TODO gen4, gen5, gen6: megakick (should be learnable by hitmonlee)
-    // TODO gen7: strength (should be learnable by machamp)
 
     return true;
   }

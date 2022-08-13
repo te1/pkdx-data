@@ -700,8 +700,11 @@ async function getLearnset(species: Specie, gen: Generation) {
       if (result.length > 1) {
         result = result.charAt(0) + ':' + result.substring(1);
 
-        // TODO remove prevo learn levels (only keep highest level)
-        // TODO simplify events to just S and drop duplicates (no event info avilalbe, so event number seems redundant)
+        // TODO learnsets
+        // - simplify events to just S and drop duplicates (no event info avilalbe, so event number seems redundant)
+        // - remove S if there is an easier way to get moves? so it only appears if it's the only option left
+        // - opt out of learnset merging? use learnsets.get(species.id) then manually merge prevo and mark them?
+        // - remove battle only formes from move.pokemon?
       }
 
       return result;

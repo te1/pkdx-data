@@ -701,13 +701,11 @@ async function getLearnset(species: Specie, gen: Generation) {
         result = 'S';
       }
 
-      // add : to make it easier to split identifier and value
+      // add : to make it easier to split identifier and value (only applies to L)
       if (result.length > 1) {
         result = result.charAt(0) + ':' + result.substring(1);
 
         // TODO learnsets
-        // - simplify events to just S and drop duplicates (no event info avilalbe, so event number seems redundant)
-        // - remove S if there is an easier way to get moves? so it only appears if it's the only option left
         // - opt out of learnset merging? use learnsets.get(species.id) then manually merge prevo and mark them?
         // - remove battle only formes from move.pokemon?
       }
@@ -715,7 +713,13 @@ async function getLearnset(species: Specie, gen: Generation) {
       return result;
     });
 
+    // drop duplicates (meaning S)
     result = _.uniq(result);
+
+    // drop S if there are other ways to learn the move
+    if (result.length > 1) {
+      result = _.reject(result, (how) => how === 'S');
+    }
 
     return result;
   });

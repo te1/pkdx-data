@@ -19,11 +19,15 @@ type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 
 export class SpeciesMap {
   private byName = new Map<SpeciesName, string>();
-  private bySlug = new Map<ID, string>();
+  private byId = new Map<ID, string>();
 
   add(showdownName: SpeciesName, showdownId: ID, slug: string) {
     this.byName.set(showdownName, slug);
-    this.bySlug.set(showdownId, slug);
+    this.byId.set(showdownId, slug);
+  }
+
+  getSlugByShowdownId(showdownId: ID) {
+    return this.byId.get(showdownId);
   }
 
   getSlugByShowdownName(showdownName: SpeciesName) {

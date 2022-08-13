@@ -28,9 +28,7 @@ type Learnsets = LearnsetData[];
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let extraData: any;
 
-// TODO learnsets
-// - mark prevo moveSources
-// - remove battle only formes from move.pokemon?
+// TODO learnsets remove battle only formes from move.pokemon?
 
 export async function getMergedLearnset(
   species: Specie | undefined,
@@ -50,8 +48,11 @@ export async function getMergedLearnset(
   }
 
   const learnsets = await getLearnsets(species, gen, speciesMap, override);
+  const originalSlug = speciesMap.getSlugByShowdownId(species.id);
 
   for (const item of learnsets) {
+    const mergedSlug = speciesMap.getSlugByShowdownId(item.species.id);
+
     for (const [moveSlug, moveSources] of Object.entries(item.learnset)) {
       if (merged[moveSlug]) {
         const unique = [];
@@ -66,7 +67,17 @@ export async function getMergedLearnset(
             }
           }
 
-          unique.push(moveSource);
+          let formatted = moveSource;
+
+          if (
+            species.id !== item.species.id &&
+            mergedSlug &&
+            mergedSlug !== override[originalSlug ?? '']?.mergeLearnsetFrom
+          ) {
+            formatted = `${formatted}@${mergedSlug}`;
+          }
+
+          unique.push(formatted);
         }
 
         merged[moveSlug].push(...unique);
@@ -79,7 +90,9 @@ export async function getMergedLearnset(
   // drop S if there are other ways to learn the move
   merged = _.mapValues(merged, (moveSources) => {
     if (moveSources.length > 1) {
-      moveSources = _.reject(moveSources, (moveSource) => moveSource === 'S');
+      moveSources = _.reject(moveSources, (moveSource) =>
+        moveSource.startsWith('S')
+      );
     }
 
     return moveSources;
@@ -197,12 +210,12 @@ async function getLearnset(
       // drop gen number
       result = result.substring(1);
 
-      // drop event number
+      // drop event number from Sx
       if (result.startsWith('S')) {
         result = 'S';
       }
 
-      // add : to make it easier to split identifier and value (only applies to L)
+      // add : to make it easier to split identifier and value (applies to Lx)
       if (result.length > 1) {
         result = result.charAt(0) + ':' + result.substring(1);
       }
@@ -210,13 +223,8 @@ async function getLearnset(
       return result;
     });
 
-    // drop duplicates (meaning S)
+    // drop duplicates (can only happen for S)
     result = _.uniq(result);
-
-    // drop S if there are other ways to learn the move
-    if (result.length > 1) {
-      result = _.reject(result, (moveSource) => moveSource === 'S');
-    }
 
     return result;
   });

@@ -699,6 +699,9 @@ async function getLearnset(species: Specie, gen: Generation) {
       // add : to make it easier to split identifier and value
       if (result.length > 1) {
         result = result.charAt(0) + ':' + result.substring(1);
+
+        // TODO remove prevo learn levels (only keep highest level)
+        // TODO simplify events to just S and drop duplicates (no event info avilalbe, so event number seems redundant)
       }
 
       return result;

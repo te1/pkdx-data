@@ -56,6 +56,8 @@
     ],
     "dig": [
       "M",
+      "L:40",
+      "S:1",
       "L:31"
     ],
     "doubleteam": [
@@ -66,15 +68,20 @@
     ],
     "dragonclaw": [
       "M",
+      "L:33",
+      "S:1",
       "L:27"
     ],
     "dragonpulse": [
       "T"
     ],
     "dragonrage": [
+      "L:1",
       "L:7"
     ],
     "dragonrush": [
+      "L:55",
+      "L:49",
       "L:37"
     ],
     "dragontail": [
@@ -88,7 +95,8 @@
       "T"
     ],
     "earthquake": [
-      "M"
+      "M",
+      "S:0"
     ],
     "facade": [
       "M"
@@ -136,6 +144,8 @@
     ],
     "outrage": [
       "T",
+      "S:0",
+      "S:1",
       "E"
     ],
     "poisonjab": [
@@ -169,10 +179,12 @@
       "M"
     ],
     "sandattack": [
+      "L:1",
       "L:3"
     ],
     "sandstorm": [
       "M",
+      "L:1",
       "L:13"
     ],
     "sandtomb": [
@@ -183,6 +195,7 @@
       "M"
     ],
     "slash": [
+      "L:28",
       "L:25"
     ],
     "sleeptalk": [
@@ -195,7 +208,8 @@
       "T"
     ],
     "stoneedge": [
-      "M"
+      "M",
+      "S:0"
     ],
     "strength": [
       "M"

@@ -43,12 +43,15 @@
       "M"
     ],
     "crosschop": [
+      "S:0",
       "E"
     ],
     "dig": [
       "M"
     ],
     "discharge": [
+      "L:37",
+      "S:1",
       "L:34"
     ],
     "doubleteam": [
@@ -66,6 +69,7 @@
     ],
     "firepunch": [
       "T",
+      "L:1",
       "E"
     ],
     "flamethrower": [
@@ -87,7 +91,8 @@
       "M"
     ],
     "gigaimpact": [
-      "M"
+      "M",
+      "L:67"
     ],
     "headbutt": [
       "T"
@@ -103,6 +108,7 @@
     ],
     "icepunch": [
       "T",
+      "S:0",
       "E"
     ],
     "irontail": [
@@ -113,11 +119,15 @@
     ],
     "lightscreen": [
       "M",
-      "L:25"
+      "L:25",
+      "S:1",
+      "S:2"
     ],
     "lowkick": [
       "T",
-      "L:10"
+      "L:1",
+      "L:10",
+      "S:2"
     ],
     "magnetrise": [
       "T"
@@ -159,6 +169,7 @@
       "M"
     ],
     "screech": [
+      "L:52",
       "L:43"
     ],
     "secretpower": [
@@ -166,7 +177,8 @@
     ],
     "shockwave": [
       "M",
-      "L:19"
+      "L:19",
+      "S:2"
     ],
     "signalbeam": [
       "T"
@@ -198,17 +210,24 @@
     ],
     "thunder": [
       "M",
+      "L:58",
       "L:46"
     ],
     "thunderbolt": [
       "M",
+      "L:43",
+      "S:1",
       "L:37"
     ],
     "thunderpunch": [
       "T",
-      "L:28"
+      "L:28",
+      "S:0",
+      "S:1",
+      "S:2"
     ],
     "thundershock": [
+      "L:1",
       "L:7"
     ],
     "thunderwave": [

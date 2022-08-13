@@ -56,7 +56,8 @@
       "T"
     ],
     "doubleteam": [
-      "M"
+      "M",
+      "L:23"
     ],
     "echoedvoice": [
       "M"
@@ -104,7 +105,8 @@
       "T"
     ],
     "lightscreen": [
-      "M"
+      "M",
+      "L:53"
     ],
     "magiccoat": [
       "T"
@@ -126,6 +128,7 @@
       "M"
     ],
     "quickattack": [
+      "L:1",
       "L:10",
       "S:43",
       "S:46",
@@ -137,11 +140,15 @@
     "recycle": [
       "T"
     ],
+    "reflect": [
+      "M"
+    ],
     "rest": [
       "M"
     ],
     "return": [
-      "M"
+      "M",
+      "S:44"
     ],
     "round": [
       "M"
@@ -171,6 +178,7 @@
       "M"
     ],
     "tailwhip": [
+      "L:1",
       "L:5"
     ],
     "telekinesis": [
@@ -180,17 +188,22 @@
       "M"
     ],
     "thunder": [
-      "M"
+      "M",
+      "L:58"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "L:1",
+      "L:42",
+      "S:49"
     ],
     "thunderpunch": [
       "T",
       "E"
     ],
     "thundershock": [
-      "L:1"
+      "L:1",
+      "S:46"
     ],
     "thunderwave": [
       "M",
@@ -203,12 +216,14 @@
       "M"
     ],
     "wildcharge": [
-      "M"
+      "M",
+      "L:50"
     ],
     "agility": [
       "L:45"
     ],
     "bestow": [
+      "S:44",
       "E"
     ],
     "bide": [
@@ -220,6 +235,9 @@
     ],
     "charm": [
       "L:1"
+    ],
+    "counter": [
+      "S:48"
     ],
     "discharge": [
       "L:34",
@@ -289,7 +307,11 @@
     "sweetscent": [
       "S:48"
     ],
+    "teeterdance": [
+      "S:45"
+    ],
     "volttackle": [
+      "T",
       "R"
     ],
     "charge": [

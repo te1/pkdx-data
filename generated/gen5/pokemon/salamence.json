@@ -32,7 +32,8 @@
   ],
   "learnset": {
     "aerialace": [
-      "M"
+      "M",
+      "S:3"
     ],
     "aquatail": [
       "T"
@@ -41,6 +42,7 @@
       "M"
     ],
     "bite": [
+      "L:1",
       "L:5"
     ],
     "brickbreak": [
@@ -50,6 +52,8 @@
       "M"
     ],
     "crunch": [
+      "L:53",
+      "L:50",
       "L:46"
     ],
     "cut": [
@@ -59,6 +63,8 @@
       "E"
     ],
     "doubleedge": [
+      "L:70",
+      "L:61",
       "L:55"
     ],
     "doubleteam": [
@@ -68,13 +74,18 @@
       "T"
     ],
     "dragonbreath": [
+      "L:32",
       "L:31"
     ],
     "dragonclaw": [
       "M",
+      "L:61",
+      "S:3",
+      "L:55",
       "L:50"
     ],
     "dragondance": [
+      "S:3",
       "E"
     ],
     "dragonpulse": [
@@ -101,6 +112,7 @@
       "M"
     ],
     "firefang": [
+      "L:1",
       "E"
     ],
     "flamethrower": [
@@ -120,6 +132,7 @@
       "M"
     ],
     "headbutt": [
+      "L:1",
       "L:16"
     ],
     "heatwave": [
@@ -147,13 +160,16 @@
       "T"
     ],
     "leer": [
+      "L:1",
       "L:10"
     ],
     "outrage": [
-      "T"
+      "T",
+      "S:3"
     ],
     "protect": [
-      "M"
+      "M",
+      "L:30"
     ],
     "rage": [
       "L:1",
@@ -187,6 +203,7 @@
       "M"
     ],
     "scaryface": [
+      "L:43",
       "L:40"
     ],
     "shadowclaw": [
@@ -227,7 +244,11 @@
     ],
     "zenheadbutt": [
       "T",
+      "L:37",
       "L:35"
+    ],
+    "irondefense": [
+      "T"
     ],
     "dragonrage": [
       "E"

@@ -49,7 +49,8 @@
       "M"
     ],
     "darkpulse": [
-      "M"
+      "M",
+      "L:75"
     ],
     "defog": [
       "T"
@@ -80,10 +81,12 @@
       "M"
     ],
     "haze": [
+      "L:1",
       "L:11"
     ],
     "heatwave": [
-      "T"
+      "T",
+      "S:0"
     ],
     "hiddenpower": [
       "M"
@@ -92,7 +95,8 @@
       "M"
     ],
     "icywind": [
-      "T"
+      "T",
+      "S:0"
     ],
     "nastyplot": [
       "L:35"
@@ -114,6 +118,7 @@
       "M"
     ],
     "pursuit": [
+      "L:1",
       "L:5"
     ],
     "quash": [
@@ -141,6 +146,7 @@
     ],
     "skyattack": [
       "T",
+      "S:0",
       "E"
     ],
     "sleeptalk": [
@@ -165,6 +171,7 @@
       "M"
     ],
     "suckerpunch": [
+      "L:1",
       "L:55"
     ],
     "sunnyday": [
@@ -174,7 +181,8 @@
       "T"
     ],
     "swagger": [
-      "M"
+      "M",
+      "L:25"
     ],
     "tailwind": [
       "T",
@@ -201,6 +209,7 @@
       "T"
     ],
     "wingattack": [
+      "L:1",
       "L:15",
       "E"
     ],

@@ -32,6 +32,7 @@
   ],
   "learnset": {
     "absorb": [
+      "L:1",
       "L:6",
       "S:1"
     ],
@@ -42,6 +43,7 @@
       "M"
     ],
     "agility": [
+      "L:35",
       "L:31"
     ],
     "attract": [
@@ -60,6 +62,8 @@
       "M"
     ],
     "detect": [
+      "L:51",
+      "L:47",
       "L:41"
     ],
     "dig": [
@@ -94,6 +98,7 @@
     ],
     "falseswipe": [
       "M",
+      "L:59",
       "L:53"
     ],
     "flash": [
@@ -111,6 +116,9 @@
     ],
     "frustration": [
       "M"
+    ],
+    "furycutter": [
+      "L:16"
     ],
     "gigadrain": [
       "T",
@@ -141,6 +149,9 @@
       "L:29"
     ],
     "leafstorm": [
+      "L:67",
+      "S:0",
+      "L:59",
       "E"
     ],
     "leer": [
@@ -170,9 +181,11 @@
       "M"
     ],
     "pursuit": [
+      "L:17",
       "L:16"
     ],
     "quickattack": [
+      "L:1",
       "L:11"
     ],
     "rest": [
@@ -185,7 +198,8 @@
       "M"
     ],
     "rockslide": [
-      "M"
+      "M",
+      "S:0"
     ],
     "rocksmash": [
       "M"
@@ -200,12 +214,15 @@
       "M"
     ],
     "screech": [
+      "L:23",
       "L:21"
     ],
     "seedbomb": [
       "T"
     ],
     "slam": [
+      "L:43",
+      "L:41",
       "L:36"
     ],
     "sleeptalk": [
@@ -247,7 +264,8 @@
       "E"
     ],
     "xscissor": [
-      "M"
+      "M",
+      "L:16"
     ],
     "crunch": [
       "E"

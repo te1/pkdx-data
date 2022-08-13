@@ -46,6 +46,7 @@
       "M"
     ],
     "aurasphere": [
+      "L:1",
       "L:61"
     ],
     "bounce": [
@@ -66,6 +67,7 @@
       "M"
     ],
     "detect": [
+      "L:1",
       "L:9"
     ],
     "doubleslap": [
@@ -79,12 +81,15 @@
       "L:33"
     ],
     "dualchop": [
-      "T"
+      "T",
+      "S:0"
     ],
     "facade": [
       "M"
     ],
     "fakeout": [
+      "L:1",
+      "S:0",
       "L:13"
     ],
     "fling": [
@@ -115,6 +120,8 @@
       "M"
     ],
     "highjumpkick": [
+      "L:56",
+      "S:0",
       "L:50"
     ],
     "hyperbeam": [
@@ -138,6 +145,7 @@
       "M"
     ],
     "meditate": [
+      "L:1",
       "L:5"
     ],
     "payback": [
@@ -168,6 +176,7 @@
       "M"
     ],
     "reversal": [
+      "L:1",
       "L:57"
     ],
     "rockslide": [
@@ -214,7 +223,8 @@
     ],
     "uturn": [
       "M",
-      "L:41"
+      "L:41",
+      "S:0"
     ],
     "wideguard": [
       "L:45"

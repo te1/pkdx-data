@@ -72,6 +72,7 @@
       "M"
     ],
     "fakeout": [
+      "S:0",
       "L:11"
     ],
     "firepunch": [
@@ -91,6 +92,8 @@
     ],
     "gigadrain": [
       "T",
+      "S:0",
+      "S:1",
       "E"
     ],
     "gigaimpact": [
@@ -100,6 +103,7 @@
       "M"
     ],
     "growl": [
+      "L:1",
       "L:3"
     ],
     "hail": [
@@ -112,6 +116,7 @@
       "M"
     ],
     "hydropump": [
+      "S:0",
       "L:45"
     ],
     "hyperbeam": [
@@ -121,7 +126,9 @@
       "T"
     ],
     "icebeam": [
-      "M"
+      "M",
+      "S:0",
+      "S:1"
     ],
     "icepunch": [
       "T"
@@ -130,12 +137,14 @@
       "T"
     ],
     "megadrain": [
+      "L:1",
       "L:19"
     ],
     "naturalgift": [
       "L:15"
     ],
     "naturepower": [
+      "L:1",
       "L:7"
     ],
     "protect": [
@@ -158,7 +167,8 @@
       "M"
     ],
     "scald": [
-      "M"
+      "M",
+      "S:1"
     ],
     "seedbomb": [
       "T"
@@ -179,7 +189,8 @@
       "M"
     ],
     "sunnyday": [
-      "M"
+      "M",
+      "S:1"
     ],
     "surf": [
       "M"
@@ -204,7 +215,8 @@
       "M"
     ],
     "uproar": [
-      "T"
+      "T",
+      "L:37"
     ],
     "waterfall": [
       "M"

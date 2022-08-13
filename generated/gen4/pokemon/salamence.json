@@ -43,6 +43,7 @@
       "M"
     ],
     "bite": [
+      "L:1",
       "L:5"
     ],
     "brickbreak": [
@@ -52,6 +53,8 @@
       "M"
     ],
     "crunch": [
+      "L:53",
+      "L:50",
       "L:46"
     ],
     "cut": [
@@ -61,6 +64,8 @@
       "M"
     ],
     "doubleedge": [
+      "L:70",
+      "L:61",
       "L:55"
     ],
     "doubleteam": [
@@ -70,10 +75,14 @@
       "T"
     ],
     "dragonbreath": [
+      "L:32",
       "L:31"
     ],
     "dragonclaw": [
       "M",
+      "L:61",
+      "S:2",
+      "L:55",
       "L:50"
     ],
     "dragondance": [
@@ -95,9 +104,11 @@
       "M"
     ],
     "fireblast": [
-      "M"
+      "M",
+      "S:2"
     ],
     "firefang": [
+      "L:1",
       "E"
     ],
     "flamethrower": [
@@ -121,6 +132,7 @@
     ],
     "headbutt": [
       "T",
+      "L:1",
       "L:16"
     ],
     "heatwave": [
@@ -130,6 +142,7 @@
       "M"
     ],
     "hydropump": [
+      "S:2",
       "E"
     ],
     "hyperbeam": [
@@ -139,6 +152,7 @@
       "M"
     ],
     "leer": [
+      "L:1",
       "L:10"
     ],
     "mudslap": [
@@ -154,7 +168,8 @@
       "T"
     ],
     "protect": [
-      "M"
+      "M",
+      "L:30"
     ],
     "rage": [
       "L:1"
@@ -187,6 +202,7 @@
       "M"
     ],
     "scaryface": [
+      "L:43",
       "L:40"
     ],
     "secretpower": [
@@ -239,7 +255,11 @@
     ],
     "zenheadbutt": [
       "T",
+      "L:37",
       "L:35"
+    ],
+    "irondefense": [
+      "T"
     ],
     "dragonrage": [
       "E"

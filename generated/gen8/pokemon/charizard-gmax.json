@@ -48,6 +48,9 @@
     "beatup": [
       "M"
     ],
+    "blastburn": [
+      "T"
+    ],
     "blazekick": [
       "M"
     ],
@@ -79,7 +82,8 @@
       "L:12"
     ],
     "dragonclaw": [
-      "M"
+      "M",
+      "L:1"
     ],
     "dragondance": [
       "M"
@@ -88,6 +92,7 @@
       "M"
     ],
     "dragontail": [
+      "S:10",
       "E"
     ],
     "dualwingbeat": [
@@ -97,6 +102,7 @@
       "M"
     ],
     "ember": [
+      "L:1",
       "L:4"
     ],
     "endure": [
@@ -113,6 +119,7 @@
     ],
     "firefang": [
       "M",
+      "L:19",
       "L:17"
     ],
     "firepledge": [
@@ -123,14 +130,20 @@
     ],
     "firespin": [
       "M",
+      "L:46",
+      "L:42",
       "L:32"
     ],
     "flamethrower": [
       "M",
+      "L:30",
+      "S:10",
       "L:24"
     ],
     "flareblitz": [
       "M",
+      "L:62",
+      "L:54",
       "L:40"
     ],
     "fling": [
@@ -152,7 +165,8 @@
       "M"
     ],
     "heatwave": [
-      "M"
+      "M",
+      "L:1"
     ],
     "helpinghand": [
       "M"
@@ -164,6 +178,8 @@
       "M"
     ],
     "inferno": [
+      "L:54",
+      "L:48",
       "L:36"
     ],
     "irontail": [
@@ -207,6 +223,8 @@
     ],
     "scaryface": [
       "M",
+      "L:39",
+      "L:37",
       "L:28"
     ],
     "scorchingsands": [
@@ -215,16 +233,22 @@
     "scratch": [
       "L:1"
     ],
+    "seismictoss": [
+      "S:10"
+    ],
     "shadowclaw": [
       "M"
     ],
     "slash": [
+      "L:24",
+      "S:10",
       "L:20"
     ],
     "sleeptalk": [
       "M"
     ],
     "smokescreen": [
+      "L:1",
       "L:8"
     ],
     "snore": [

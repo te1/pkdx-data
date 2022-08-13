@@ -51,7 +51,9 @@
       "M"
     ],
     "doubleteam": [
-      "M"
+      "M",
+      "L:21",
+      "S:32"
     ],
     "echoedvoice": [
       "M"
@@ -66,7 +68,8 @@
       "M"
     ],
     "flash": [
-      "M"
+      "M",
+      "S:40"
     ],
     "fling": [
       "M"
@@ -96,21 +99,27 @@
       "M"
     ],
     "irontail": [
-      "T"
+      "T",
+      "S:37"
     ],
     "knockoff": [
       "T"
     ],
     "lightscreen": [
-      "M"
+      "M",
+      "L:45"
     ],
     "magnetrise": [
       "T"
+    ],
+    "megakick": [
+      "S:32"
     ],
     "protect": [
       "M"
     ],
     "quickattack": [
+      "L:1",
       "L:10",
       "S:31",
       "S:32",
@@ -125,7 +134,8 @@
       "M"
     ],
     "return": [
-      "M"
+      "M",
+      "S:42"
     ],
     "rocksmash": [
       "M"
@@ -152,22 +162,32 @@
       "M"
     ],
     "substitute": [
-      "M"
+      "M",
+      "S:35"
     ],
     "swagger": [
       "M"
     ],
     "tailwhip": [
+      "L:1",
+      "S:38",
       "L:5"
     ],
     "thief": [
       "M"
     ],
     "thunder": [
-      "M"
+      "M",
+      "L:50",
+      "S:35"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "L:1",
+      "L:29",
+      "S:33",
+      "S:34",
+      "S:37"
     ],
     "thunderpunch": [
       "T",
@@ -187,13 +207,15 @@
       "M"
     ],
     "wildcharge": [
-      "M"
+      "M",
+      "L:50"
     ],
     "agility": [
       "L:37",
       "S:41"
     ],
     "bestow": [
+      "S:42",
       "E"
     ],
     "celebrate": [
@@ -201,6 +223,7 @@
       "S:41"
     ],
     "charm": [
+      "S:36",
       "L:1"
     ],
     "discharge": [
@@ -212,9 +235,14 @@
       "S:37"
     ],
     "encore": [
+      "S:39",
       "E"
     ],
+    "endeavor": [
+      "S:39"
+    ],
     "fakeout": [
+      "S:39",
       "E"
     ],
     "feint": [
@@ -268,9 +296,14 @@
       "S:41"
     ],
     "sweetkiss": [
+      "S:36",
       "L:10"
     ],
+    "teeterdance": [
+      "S:38"
+    ],
     "volttackle": [
+      "S:39",
       "E"
     ],
     "bide": [

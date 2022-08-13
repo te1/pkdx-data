@@ -61,6 +61,7 @@
     ],
     "dragonpulse": [
       "T",
+      "L:56",
       "L:48"
     ],
     "dragonrage": [
@@ -70,6 +71,7 @@
       "M"
     ],
     "ember": [
+      "L:1",
       "L:5"
     ],
     "encore": [
@@ -79,6 +81,7 @@
       "M"
     ],
     "fakeout": [
+      "S:0",
       "E"
     ],
     "fireblast": [
@@ -92,6 +95,8 @@
     ],
     "flamethrower": [
       "M",
+      "L:44",
+      "S:0",
       "L:40"
     ],
     "fling": [
@@ -165,7 +170,8 @@
       "M"
     ],
     "sludgebomb": [
-      "M"
+      "M",
+      "S:0"
     ],
     "sludgewave": [
       "M"
@@ -184,9 +190,11 @@
       "M"
     ],
     "swagger": [
-      "M"
+      "M",
+      "L:1"
     ],
     "sweetscent": [
+      "L:1",
       "L:8"
     ],
     "taunt": [
@@ -196,17 +204,21 @@
       "M"
     ],
     "torment": [
-      "M"
+      "M",
+      "L:1"
     ],
     "toxic": [
       "M",
-      "L:29"
+      "L:29",
+      "S:0"
     ],
     "venomdrench": [
+      "L:51",
       "L:45"
     ],
     "venoshock": [
       "M",
+      "L:39",
       "L:37"
     ],
     "willowisp": [

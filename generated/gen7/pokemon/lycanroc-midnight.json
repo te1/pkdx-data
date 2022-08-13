@@ -38,6 +38,7 @@
       "M"
     ],
     "bite": [
+      "L:1",
       "L:7",
       "S:1",
       "S:0"
@@ -79,8 +80,8 @@
       "M"
     ],
     "firefang": [
-      "E",
-      "S:0"
+      "S:0",
+      "E"
     ],
     "firepunch": [
       "T"
@@ -164,6 +165,7 @@
       "M"
     ],
     "sandattack": [
+      "L:1",
       "L:4"
     ],
     "scaryface": [
@@ -187,12 +189,14 @@
     ],
     "stoneedge": [
       "M",
-      "L:48"
+      "L:48",
+      "S:0"
     ],
     "substitute": [
       "M"
     ],
     "suckerpunch": [
+      "S:0",
       "E"
     ],
     "swagger": [
@@ -208,7 +212,8 @@
       "S:0"
     ],
     "taunt": [
-      "M"
+      "M",
+      "L:1"
     ],
     "throatchop": [
       "T"

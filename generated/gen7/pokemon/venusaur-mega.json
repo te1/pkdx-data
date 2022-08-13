@@ -40,6 +40,9 @@
     "bind": [
       "T"
     ],
+    "block": [
+      "T"
+    ],
     "bulldoze": [
       "M"
     ],
@@ -50,6 +53,7 @@
       "E"
     ],
     "doubleedge": [
+      "L:31",
       "L:27"
     ],
     "doubleteam": [
@@ -70,6 +74,9 @@
     "facade": [
       "M"
     ],
+    "frenzyplant": [
+      "T"
+    ],
     "frustration": [
       "M"
     ],
@@ -87,9 +94,11 @@
       "T"
     ],
     "growl": [
+      "L:1",
       "L:3"
     ],
     "growth": [
+      "L:28",
       "L:25"
     ],
     "hiddenpower": [
@@ -102,6 +111,7 @@
       "T"
     ],
     "leechseed": [
+      "L:1",
       "L:7"
     ],
     "lightscreen": [
@@ -118,6 +128,7 @@
       "L:50"
     ],
     "petaldance": [
+      "L:1",
       "E"
     ],
     "poisonpowder": [
@@ -127,6 +138,7 @@
       "M"
     ],
     "razorleaf": [
+      "L:20",
       "L:19"
     ],
     "rest": [
@@ -161,7 +173,9 @@
       "T"
     ],
     "solarbeam": [
-      "M"
+      "M",
+      "L:53",
+      "L:44"
     ],
     "stompingtantrum": [
       "T"
@@ -176,6 +190,7 @@
       "M"
     ],
     "sweetscent": [
+      "L:23",
       "L:21"
     ],
     "swordsdance": [
@@ -183,6 +198,8 @@
     ],
     "synthesis": [
       "T",
+      "L:45",
+      "L:39",
       "L:33"
     ],
     "tackle": [
@@ -198,6 +215,8 @@
       "M"
     ],
     "vinewhip": [
+      "L:1",
+      "L:9",
       "L:7"
     ],
     "workup": [
@@ -205,6 +224,8 @@
     ],
     "worryseed": [
       "T",
+      "L:39",
+      "L:36",
       "L:31"
     ],
     "amnesia": [

@@ -30,6 +30,7 @@
   "learnset": {
     "agility": [
       "M",
+      "L:72",
       "L:66"
     ],
     "allyswitch": [
@@ -54,6 +55,7 @@
       "L:1"
     ],
     "confusion": [
+      "L:1",
       "L:0"
     ],
     "cosmicpower": [
@@ -73,6 +75,7 @@
     ],
     "flashcannon": [
       "M",
+      "L:16",
       "L:18"
     ],
     "gigaimpact": [
@@ -89,6 +92,7 @@
     ],
     "hyperbeam": [
       "M",
+      "L:82",
       "L:74"
     ],
     "icepunch": [
@@ -98,7 +102,9 @@
       "M"
     ],
     "irondefense": [
-      "M"
+      "M",
+      "L:62",
+      "L:58"
     ],
     "ironhead": [
       "M"
@@ -110,12 +116,14 @@
       "L:12"
     ],
     "metalclaw": [
+      "L:1",
       "L:0"
     ],
     "meteorbeam": [
       "T"
     ],
     "meteormash": [
+      "L:52",
       "L:50"
     ],
     "protect": [
@@ -195,6 +203,9 @@
     "tackle": [
       "L:1"
     ],
+    "takedown": [
+      "L:26"
+    ],
     "thunderpunch": [
       "M"
     ],
@@ -202,7 +213,8 @@
       "M"
     ],
     "zenheadbutt": [
-      "M"
+      "M",
+      "L:6"
     ]
   }
 }

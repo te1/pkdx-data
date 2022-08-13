@@ -52,10 +52,14 @@
     "chargebeam": [
       "M"
     ],
+    "defensecurl": [
+      "L:13"
+    ],
     "dig": [
       "M"
     ],
     "doubleslap": [
+      "L:1",
       "L:10"
     ],
     "doubleteam": [
@@ -107,7 +111,8 @@
       "M"
     ],
     "gravity": [
-      "T"
+      "T",
+      "L:34"
     ],
     "headbutt": [
       "T"
@@ -143,18 +148,22 @@
       "T"
     ],
     "lightscreen": [
-      "M"
+      "M",
+      "L:40"
     ],
     "magiccoat": [
       "T"
     ],
     "metronome": [
+      "L:1",
+      "L:31",
       "E"
     ],
     "mimic": [
       "E"
     ],
     "minimize": [
+      "L:1",
       "L:19"
     ],
     "mudslap": [
@@ -212,6 +221,7 @@
       "T"
     ],
     "sing": [
+      "L:1",
       "L:7"
     ],
     "sleeptalk": [

@@ -37,10 +37,13 @@
       "M"
     ],
     "aerialace": [
-      "M"
+      "M",
+      "S:5"
     ],
     "agility": [
-      "L:17"
+      "L:17",
+      "S:5",
+      "S:6"
     ],
     "attract": [
       "M"
@@ -68,7 +71,8 @@
       "E"
     ],
     "doublehit": [
-      "L:49"
+      "L:49",
+      "S:4"
     ],
     "doubleteam": [
       "M",
@@ -82,9 +86,12 @@
     ],
     "falseswipe": [
       "M",
-      "L:13"
+      "L:13",
+      "S:5",
+      "S:6"
     ],
     "feint": [
+      "L:1",
       "L:61"
     ],
     "flashcannon": [
@@ -100,7 +107,9 @@
       "M"
     ],
     "furycutter": [
-      "L:25"
+      "L:25",
+      "S:5",
+      "S:6"
     ],
     "gigaimpact": [
       "M"
@@ -135,6 +144,7 @@
     ],
     "nightslash": [
       "L:45",
+      "S:4",
       "E"
     ],
     "protect": [
@@ -163,7 +173,8 @@
       "M"
     ],
     "roost": [
-      "M"
+      "M",
+      "S:7"
     ],
     "round": [
       "M"
@@ -213,7 +224,8 @@
     ],
     "swordsdance": [
       "M",
-      "L:57"
+      "L:57",
+      "S:7"
     ],
     "tailwind": [
       "T"
@@ -225,14 +237,16 @@
       "M"
     ],
     "uturn": [
-      "M"
+      "M",
+      "S:7"
     ],
     "venoshock": [
       "M"
     ],
     "xscissor": [
       "M",
-      "L:41"
+      "L:41",
+      "S:4"
     ],
     "airslash": [
       "L:50"

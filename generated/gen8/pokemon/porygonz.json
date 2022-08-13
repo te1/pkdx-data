@@ -49,6 +49,9 @@
     "darkpulse": [
       "M"
     ],
+    "defensecurl": [
+      "L:1"
+    ],
     "discharge": [
       "L:40"
     ],
@@ -74,10 +77,12 @@
       "M"
     ],
     "hyperbeam": [
-      "M"
+      "M",
+      "L:65"
     ],
     "icebeam": [
-      "M"
+      "M",
+      "S:0"
     ],
     "icywind": [
       "M"
@@ -92,6 +97,7 @@
       "L:50"
     ],
     "magnetrise": [
+      "L:1",
       "L:10",
       "S:1"
     ],
@@ -119,9 +125,11 @@
       "M"
     ],
     "recover": [
-      "L:35"
+      "L:35",
+      "S:0"
     ],
     "recycle": [
+      "L:1",
       "L:5"
     ],
     "rest": [
@@ -164,7 +172,8 @@
       "M"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "S:0"
     ],
     "thundershock": [
       "L:15",
@@ -181,7 +190,9 @@
       "M"
     ],
     "trickroom": [
-      "M"
+      "M",
+      "L:1",
+      "S:0"
     ],
     "uproar": [
       "M"

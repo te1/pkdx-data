@@ -34,13 +34,15 @@
   "canHatch": true,
   "learnset": {
     "agility": [
+      "L:45",
       "L:36"
     ],
     "ancientpower": [
       "E"
     ],
     "aquajet": [
-      "L:11"
+      "L:11",
+      "S:0"
     ],
     "assurance": [
       "L:15"
@@ -68,12 +70,15 @@
       "M"
     ],
     "crunch": [
-      "L:28"
+      "L:28",
+      "S:0",
+      "S:1"
     ],
     "darkpulse": [
       "M"
     ],
     "destinybond": [
+      "S:0",
       "E"
     ],
     "dive": [
@@ -95,6 +100,7 @@
       "L:1"
     ],
     "focusenergy": [
+      "L:1",
       "L:8"
     ],
     "frustration": [
@@ -116,7 +122,8 @@
       "M"
     ],
     "icefang": [
-      "L:16"
+      "L:16",
+      "S:0"
     ],
     "icywind": [
       "T"
@@ -132,6 +139,8 @@
       "M"
     ],
     "poisonfang": [
+      "L:34",
+      "S:1",
       "L:32"
     ],
     "poisonjab": [
@@ -141,6 +150,7 @@
       "M"
     ],
     "rage": [
+      "L:1",
       "L:4"
     ],
     "raindance": [
@@ -171,7 +181,8 @@
       "M"
     ],
     "scaryface": [
-      "L:11"
+      "L:11",
+      "S:1"
     ],
     "screech": [
       "L:18"
@@ -218,7 +229,8 @@
       "E"
     ],
     "taunt": [
-      "M"
+      "M",
+      "L:40"
     ],
     "thief": [
       "M"

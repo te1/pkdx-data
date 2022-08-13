@@ -40,7 +40,8 @@
   "canHatch": true,
   "learnset": {
     "allyswitch": [
-      "M"
+      "M",
+      "L:16"
     ],
     "attract": [
       "M"
@@ -50,6 +51,7 @@
     ],
     "batonpass": [
       "M",
+      "L:1",
       "L:4"
     ],
     "blizzard": [
@@ -71,13 +73,16 @@
       "E"
     ],
     "confusion": [
-      "L:12"
+      "L:12",
+      "S:0"
     ],
     "copycat": [
-      "L:1"
+      "L:1",
+      "S:0"
     ],
     "dazzlinggleam": [
       "M",
+      "L:1",
       "L:44"
     ],
     "doublekick": [
@@ -88,6 +93,8 @@
     ],
     "encore": [
       "M",
+      "L:1",
+      "S:0",
       "L:8"
     ],
     "endure": [
@@ -139,6 +146,7 @@
       "M"
     ],
     "hypnosis": [
+      "L:32",
       "E"
     ],
     "icebeam": [
@@ -155,13 +163,15 @@
       "M"
     ],
     "icywind": [
-      "M"
+      "M",
+      "L:20"
     ],
     "irondefense": [
       "M"
     ],
     "lightscreen": [
       "M",
+      "L:1",
       "L:36"
     ],
     "magicroom": [
@@ -177,13 +187,15 @@
       "M"
     ],
     "mimic": [
+      "L:1",
       "L:32"
     ],
     "mirrorcoat": [
       "L:36"
     ],
     "mistyterrain": [
-      "M"
+      "M",
+      "L:1"
     ],
     "nastyplot": [
       "M"
@@ -202,6 +214,7 @@
     ],
     "protect": [
       "M",
+      "L:1",
       "L:20"
     ],
     "psybeam": [
@@ -224,16 +237,19 @@
       "L:1"
     ],
     "recycle": [
+      "L:1",
       "L:24"
     ],
     "reflect": [
       "M",
+      "L:1",
       "L:36"
     ],
     "rest": [
       "M"
     ],
     "roleplay": [
+      "L:1",
       "L:16"
     ],
     "round": [
@@ -241,6 +257,7 @@
     ],
     "safeguard": [
       "M",
+      "L:1",
       "L:36"
     ],
     "screech": [

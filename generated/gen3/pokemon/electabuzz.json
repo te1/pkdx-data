@@ -42,6 +42,7 @@
       "T"
     ],
     "crosschop": [
+      "S:1",
       "E",
       "S:0"
     ],
@@ -92,7 +93,8 @@
       "M"
     ],
     "leer": [
-      "L:1"
+      "L:1",
+      "S:0"
     ],
     "lightscreen": [
       "M",
@@ -117,7 +119,8 @@
       "M"
     ],
     "quickattack": [
-      "L:1"
+      "L:1",
+      "S:0"
     ],
     "raindance": [
       "M"
@@ -132,6 +135,7 @@
       "M"
     ],
     "screech": [
+      "L:36",
       "L:33"
     ],
     "secretpower": [
@@ -167,19 +171,24 @@
     ],
     "thunder": [
       "M",
+      "L:58",
       "L:49"
     ],
     "thunderbolt": [
       "M",
+      "L:47",
+      "S:1",
       "L:41"
     ],
     "thunderpunch": [
       "T",
-      "L:9",
-      "S:0"
+      "L:1",
+      "S:0",
+      "L:9"
     ],
     "thunderwave": [
-      "T"
+      "T",
+      "S:1"
     ],
     "toxic": [
       "M"

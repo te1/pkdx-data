@@ -32,7 +32,8 @@
       "M"
     ],
     "agility": [
-      "L:44"
+      "L:44",
+      "S:4"
     ],
     "block": [
       "T"
@@ -44,7 +45,9 @@
       "M"
     ],
     "bulletpunch": [
-      "L:32"
+      "L:32",
+      "S:1",
+      "S:2"
     ],
     "confusion": [
       "L:1"
@@ -52,11 +55,18 @@
     "cut": [
       "M"
     ],
+    "doubleedge": [
+      "S:4",
+      "S:5"
+    ],
     "doubleteam": [
       "M"
     ],
     "earthquake": [
-      "M"
+      "M",
+      "S:1",
+      "S:3",
+      "S:6"
     ],
     "explosion": [
       "M"
@@ -100,16 +110,21 @@
     ],
     "hyperbeam": [
       "M",
+      "L:71",
+      "S:6",
       "L:56"
     ],
     "icepunch": [
-      "T"
+      "T",
+      "S:2"
     ],
     "icywind": [
       "T"
     ],
     "irondefense": [
-      "T"
+      "T",
+      "L:40",
+      "S:4"
     ],
     "ironhead": [
       "T"
@@ -125,17 +140,25 @@
       "L:1"
     ],
     "meteormash": [
+      "L:53",
+      "S:1",
+      "S:3",
+      "S:5",
+      "S:6",
       "L:48"
     ],
     "miracleeye": [
       "L:26"
     ],
     "protect": [
-      "M"
+      "M",
+      "S:3"
     ],
     "psychic": [
       "M",
-      "L:36"
+      "L:36",
+      "S:5",
+      "S:6"
     ],
     "psychup": [
       "M"
@@ -225,7 +248,11 @@
       "T"
     ],
     "zenheadbutt": [
-      "T"
+      "T",
+      "L:62",
+      "S:2",
+      "S:3",
+      "L:52"
     ]
   }
 }

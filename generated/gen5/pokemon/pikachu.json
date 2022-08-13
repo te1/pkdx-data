@@ -57,7 +57,8 @@
       "L:42"
     ],
     "doubleteam": [
-      "M"
+      "M",
+      "L:21"
     ],
     "echoedvoice": [
       "M"
@@ -69,6 +70,7 @@
       "S:30"
     ],
     "encore": [
+      "S:23",
       "E"
     ],
     "endure": [
@@ -98,10 +100,16 @@
       "M"
     ],
     "grassknot": [
-      "M"
+      "M",
+      "S:25",
+      "S:26",
+      "S:27"
     ],
     "growl": [
       "L:1"
+    ],
+    "headbutt": [
+      "S:28"
     ],
     "helpinghand": [
       "T"
@@ -110,13 +118,16 @@
       "M"
     ],
     "irontail": [
-      "T"
+      "T",
+      "S:24",
+      "S:30"
     ],
     "knockoff": [
       "T"
     ],
     "lightscreen": [
-      "M"
+      "M",
+      "L:45"
     ],
     "magnetrise": [
       "T"
@@ -125,7 +136,8 @@
       "E"
     ],
     "protect": [
-      "M"
+      "M",
+      "S:27"
     ],
     "quickattack": [
       "L:13",
@@ -174,31 +186,47 @@
       "M"
     ],
     "tailwhip": [
-      "L:5"
+      "L:5",
+      "S:28"
+    ],
+    "teeterdance": [
+      "S:23"
     ],
     "thunder": [
-      "M"
+      "M",
+      "L:50",
+      "S:25"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "L:29",
+      "S:26",
+      "S:27",
+      "S:30"
     ],
     "thunderpunch": [
+      "T",
       "E"
     ],
     "thundershock": [
-      "L:1"
+      "L:1",
+      "S:28"
     ],
     "thunderwave": [
       "M",
-      "L:10"
+      "L:10",
+      "S:28"
     ],
     "toxic": [
       "M"
     ],
     "voltswitch": [
-      "M"
+      "M",
+      "S:29"
     ],
     "volttackle": [
+      "S:25",
+      "S:29",
       "E"
     ],
     "wildcharge": [

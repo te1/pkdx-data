@@ -40,7 +40,8 @@
       "M"
     ],
     "bulletpunch": [
-      "L:32"
+      "L:32",
+      "S:0"
     ],
     "confusion": [
       "L:1"
@@ -99,6 +100,7 @@
     ],
     "hyperbeam": [
       "M",
+      "L:71",
       "L:56"
     ],
     "icepunch": [
@@ -108,7 +110,8 @@
       "T"
     ],
     "irondefense": [
-      "T"
+      "T",
+      "L:40"
     ],
     "ironhead": [
       "T"
@@ -124,6 +127,8 @@
       "L:1"
     ],
     "meteormash": [
+      "L:53",
+      "S:0",
       "L:48"
     ],
     "mudslap": [
@@ -227,7 +232,10 @@
       "T"
     ],
     "zenheadbutt": [
-      "T"
+      "T",
+      "L:62",
+      "S:0",
+      "L:52"
     ]
   }
 }

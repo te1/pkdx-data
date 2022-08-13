@@ -35,6 +35,8 @@
       "M"
     ],
     "agility": [
+      "L:38",
+      "S:0",
       "L:36"
     ],
     "attract": [
@@ -65,6 +67,7 @@
       "M"
     ],
     "dragondance": [
+      "S:1",
       "E"
     ],
     "dragonrage": [
@@ -115,6 +118,9 @@
     ],
     "hyperbeam": [
       "M",
+      "L:75",
+      "S:1",
+      "L:65",
       "L:57"
     ],
     "icebeam": [
@@ -139,6 +145,9 @@
       "T"
     ],
     "outrage": [
+      "L:61",
+      "S:0",
+      "L:56",
       "L:50"
     ],
     "protect": [
@@ -164,6 +173,8 @@
     ],
     "safeguard": [
       "M",
+      "L:47",
+      "S:0",
       "L:43"
     ],
     "sandstorm": [
@@ -216,12 +227,14 @@
     ],
     "thunderwave": [
       "T",
+      "L:1",
       "L:8"
     ],
     "toxic": [
       "M"
     ],
     "twister": [
+      "L:1",
       "L:15"
     ],
     "waterfall": [

@@ -65,7 +65,8 @@
       "M"
     ],
     "earthpower": [
-      "T"
+      "T",
+      "S:0"
     ],
     "earthquake": [
       "M"
@@ -83,6 +84,7 @@
       "M"
     ],
     "harden": [
+      "L:1",
       "L:4"
     ],
     "hiddenpower": [
@@ -93,7 +95,8 @@
       "M"
     ],
     "icebeam": [
-      "M"
+      "M",
+      "S:0"
     ],
     "icywind": [
       "T"
@@ -105,25 +108,30 @@
       "L:11"
     ],
     "muddywater": [
+      "L:41",
       "L:37"
     ],
     "mudslap": [
       "L:1"
     ],
     "mudsport": [
+      "L:1",
       "L:2"
     ],
     "painsplit": [
       "T"
     ],
     "protect": [
-      "M"
+      "M",
+      "S:0"
     ],
     "raindance": [
       "M",
       "L:22"
     ],
     "recover": [
+      "L:54",
+      "S:0",
       "L:46"
     ],
     "rest": [
@@ -182,6 +190,7 @@
     ],
     "waterpulse": [
       "T",
+      "L:1",
       "L:7"
     ],
     "acidarmor": [

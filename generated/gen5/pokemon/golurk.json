@@ -64,6 +64,7 @@
     ],
     "earthquake": [
       "M",
+      "L:50",
       "L:45"
     ],
     "facade": [
@@ -88,6 +89,7 @@
       "M"
     ],
     "focuspunch": [
+      "L:70",
       "L:55"
     ],
     "frustration": [
@@ -103,9 +105,12 @@
       "T"
     ],
     "gyroball": [
-      "M"
+      "M",
+      "S:0"
     ],
     "hammerarm": [
+      "L:60",
+      "S:0",
       "L:50"
     ],
     "heavyslam": [
@@ -147,6 +152,7 @@
       "L:21"
     ],
     "mudslap": [
+      "L:1",
       "L:5"
     ],
     "nightshade": [
@@ -195,7 +201,8 @@
       "M"
     ],
     "shadowpunch": [
-      "L:13"
+      "L:13",
+      "S:0"
     ],
     "signalbeam": [
       "T"

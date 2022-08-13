@@ -54,6 +54,7 @@
     ],
     "charm": [
       "M",
+      "L:1",
       "L:20"
     ],
     "dig": [
@@ -61,6 +62,9 @@
     ],
     "discharge": [
       "L:32"
+    ],
+    "doubleteam": [
+      "L:8"
     ],
     "drainingkiss": [
       "M"
@@ -77,7 +81,8 @@
       "M"
     ],
     "encore": [
-      "M"
+      "M",
+      "S:52"
     ],
     "endure": [
       "M"
@@ -107,7 +112,8 @@
       "M"
     ],
     "lightscreen": [
-      "M"
+      "M",
+      "L:40"
     ],
     "megakick": [
       "M"
@@ -117,15 +123,19 @@
     ],
     "nastyplot": [
       "M",
+      "L:1",
       "L:16"
     ],
     "nuzzle": [
+      "L:1",
       "L:12"
     ],
     "payday": [
       "M"
     ],
     "playnice": [
+      "L:1",
+      "S:50",
       "L:4"
     ],
     "playrough": [
@@ -181,10 +191,12 @@
       "M"
     ],
     "sweetkiss": [
+      "L:1",
       "L:8"
     ],
     "swift": [
-      "M"
+      "M",
+      "S:51"
     ],
     "tailwhip": [
       "L:1"
@@ -193,19 +205,24 @@
       "M"
     ],
     "thunder": [
-      "M"
+      "M",
+      "L:44"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "L:36",
+      "S:51"
     ],
     "thunderpunch": [
       "M"
     ],
     "thundershock": [
-      "L:1"
+      "L:1",
+      "S:50"
     ],
     "thunderwave": [
-      "M"
+      "M",
+      "L:4"
     ],
     "uproar": [
       "M"
@@ -220,6 +237,7 @@
       "M"
     ],
     "wish": [
+      "S:51",
       "E"
     ],
     "charge": [

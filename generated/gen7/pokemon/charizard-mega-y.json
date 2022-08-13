@@ -46,6 +46,9 @@
     "attract": [
       "M"
     ],
+    "blastburn": [
+      "T"
+    ],
     "brickbreak": [
       "M"
     ],
@@ -68,9 +71,13 @@
       "M"
     ],
     "dragonclaw": [
-      "M"
+      "M",
+      "L:1",
+      "S:6",
+      "S:7"
     ],
     "dragondance": [
+      "S:9",
       "E"
     ],
     "dragonpulse": [
@@ -78,6 +85,10 @@
       "E"
     ],
     "dragonrage": [
+      "L:17",
+      "S:6",
+      "S:7",
+      "S:8",
       "L:16"
     ],
     "dragontail": [
@@ -91,6 +102,7 @@
       "M"
     ],
     "ember": [
+      "L:1",
       "L:7"
     ],
     "facade": [
@@ -100,6 +112,7 @@
       "M"
     ],
     "firefang": [
+      "L:28",
       "L:25"
     ],
     "firepledge": [
@@ -109,9 +122,12 @@
       "T"
     ],
     "firespin": [
+      "L:56",
+      "L:50",
       "L:43"
     ],
     "flameburst": [
+      "L:32",
       "L:28"
     ],
     "flamecharge": [
@@ -119,9 +135,16 @@
     ],
     "flamethrower": [
       "M",
+      "L:47",
+      "S:8",
+      "L:43",
       "L:37"
     ],
     "flareblitz": [
+      "L:1",
+      "S:6",
+      "S:7",
+      "S:9",
       "E"
     ],
     "fling": [
@@ -150,7 +173,8 @@
       "L:1"
     ],
     "heatwave": [
-      "T"
+      "T",
+      "L:1"
     ],
     "hiddenpower": [
       "M"
@@ -159,6 +183,8 @@
       "M"
     ],
     "inferno": [
+      "L:62",
+      "L:54",
       "L:46"
     ],
     "irontail": [
@@ -168,6 +194,7 @@
       "E"
     ],
     "outrage": [
+      "T",
       "E"
     ],
     "overheat": [
@@ -198,18 +225,26 @@
       "M"
     ],
     "scaryface": [
+      "L:21",
       "L:19"
     ],
     "scratch": [
       "L:1"
     ],
+    "seismictoss": [
+      "S:8"
+    ],
     "shadowclaw": [
-      "M"
+      "M",
+      "L:1"
     ],
     "skydrop": [
       "M"
     ],
     "slash": [
+      "L:41",
+      "S:8",
+      "L:39",
       "L:34"
     ],
     "sleeptalk": [

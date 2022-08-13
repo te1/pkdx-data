@@ -36,6 +36,7 @@
   "learnset": {
     "agility": [
       "M",
+      "L:1",
       "L:24"
     ],
     "allyswitch": [
@@ -50,15 +51,24 @@
     "brickbreak": [
       "M"
     ],
+    "calmmind": [
+      "M"
+    ],
     "charm": [
       "M",
+      "L:1",
       "L:20"
     ],
     "dig": [
       "M"
     ],
     "discharge": [
+      "L:1",
       "L:32"
+    ],
+    "doubleteam": [
+      "L:1",
+      "L:8"
     ],
     "drainingkiss": [
       "M"
@@ -68,6 +78,7 @@
     ],
     "electroball": [
       "M",
+      "L:1",
       "L:12",
       "S:52"
     ],
@@ -75,7 +86,8 @@
       "M"
     ],
     "encore": [
-      "M"
+      "M",
+      "S:52"
     ],
     "endure": [
       "M"
@@ -90,6 +102,7 @@
       "E"
     ],
     "feint": [
+      "L:1",
       "L:16"
     ],
     "fling": [
@@ -120,7 +133,9 @@
       "M"
     ],
     "lightscreen": [
-      "M"
+      "M",
+      "L:1",
+      "L:40"
     ],
     "magicroom": [
       "M"
@@ -133,15 +148,19 @@
     ],
     "nastyplot": [
       "M",
+      "L:1",
       "L:16"
     ],
     "nuzzle": [
+      "L:1",
       "L:12"
     ],
     "payday": [
       "M"
     ],
     "playnice": [
+      "L:1",
+      "S:50",
       "L:4"
     ],
     "playrough": [
@@ -183,6 +202,7 @@
       "M"
     ],
     "slam": [
+      "L:1",
       "L:28"
     ],
     "sleeptalk": [
@@ -192,6 +212,7 @@
       "M"
     ],
     "spark": [
+      "L:1",
       "L:20"
     ],
     "speedswap": [
@@ -207,10 +228,12 @@
       "M"
     ],
     "sweetkiss": [
+      "L:1",
       "L:8"
     ],
     "swift": [
-      "M"
+      "M",
+      "S:51"
     ],
     "tailwhip": [
       "L:1"
@@ -219,19 +242,27 @@
       "M"
     ],
     "thunder": [
-      "M"
+      "M",
+      "L:1",
+      "L:44"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "L:1",
+      "L:36",
+      "S:51"
     ],
     "thunderpunch": [
       "M"
     ],
     "thundershock": [
-      "L:1"
+      "L:1",
+      "S:50"
     ],
     "thunderwave": [
-      "M"
+      "M",
+      "L:1",
+      "L:4"
     ],
     "uproar": [
       "M"
@@ -257,6 +288,7 @@
       "R"
     ],
     "wish": [
+      "S:51",
       "E"
     ],
     "charge": [

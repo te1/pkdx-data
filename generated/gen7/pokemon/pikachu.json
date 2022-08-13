@@ -51,6 +51,7 @@
       "M"
     ],
     "bestow": [
+      "S:44",
       "E"
     ],
     "bide": [
@@ -72,6 +73,9 @@
     "confide": [
       "M"
     ],
+    "counter": [
+      "S:48"
+    ],
     "covet": [
       "T"
     ],
@@ -80,7 +84,8 @@
       "S:47"
     ],
     "doubleteam": [
-      "M"
+      "M",
+      "L:23"
     ],
     "echoedvoice": [
       "M"
@@ -150,7 +155,8 @@
       "T"
     ],
     "lightscreen": [
-      "M"
+      "M",
+      "L:53"
     ],
     "magnetrise": [
       "T"
@@ -187,7 +193,8 @@
       "M"
     ],
     "return": [
-      "M"
+      "M",
+      "S:44"
     ],
     "round": [
       "M"
@@ -228,20 +235,28 @@
       "S:48"
     ],
     "tailwhip": [
+      "L:1",
       "L:5"
     ],
+    "teeterdance": [
+      "S:45"
+    ],
     "thunder": [
-      "M"
+      "M",
+      "L:58"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "L:42",
+      "S:49"
     ],
     "thunderpunch": [
       "T",
       "E"
     ],
     "thundershock": [
-      "L:1"
+      "L:1",
+      "S:46"
     ],
     "thunderwave": [
       "M",
@@ -254,10 +269,12 @@
       "M"
     ],
     "volttackle": [
+      "T",
       "R"
     ],
     "wildcharge": [
-      "M"
+      "M",
+      "L:50"
     ],
     "charge": [
       "E"

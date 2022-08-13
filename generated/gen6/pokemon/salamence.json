@@ -44,6 +44,7 @@
       "M"
     ],
     "bite": [
+      "L:1",
       "L:5"
     ],
     "brickbreak": [
@@ -65,6 +66,8 @@
       "E"
     ],
     "doubleedge": [
+      "L:1",
+      "L:56",
       "L:49"
     ],
     "doubleteam": [
@@ -95,6 +98,7 @@
       "M"
     ],
     "ember": [
+      "L:1",
       "L:4"
     ],
     "endure": [
@@ -107,10 +111,12 @@
       "M"
     ],
     "firefang": [
+      "L:1",
       "E"
     ],
     "flamethrower": [
       "M",
+      "L:49",
       "L:44"
     ],
     "fly": [
@@ -127,6 +133,7 @@
       "M"
     ],
     "headbutt": [
+      "L:1",
       "L:16"
     ],
     "heatwave": [
@@ -154,13 +161,15 @@
       "T"
     ],
     "leer": [
+      "L:1",
       "L:7"
     ],
     "outrage": [
       "T"
     ],
     "protect": [
-      "M"
+      "M",
+      "L:30"
     ],
     "rage": [
       "L:1",
@@ -194,6 +203,7 @@
       "M"
     ],
     "scaryface": [
+      "L:42",
       "L:39"
     ],
     "secretpower": [
@@ -240,7 +250,11 @@
     ],
     "zenheadbutt": [
       "T",
+      "L:35",
       "L:34"
+    ],
+    "irondefense": [
+      "T"
     ],
     "dragonrage": [
       "E"

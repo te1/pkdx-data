@@ -41,6 +41,7 @@
       "T"
     ],
     "bite": [
+      "L:24",
       "L:22"
     ],
     "blastburn": [
@@ -53,7 +54,8 @@
       "M"
     ],
     "bulkup": [
-      "M"
+      "M",
+      "L:1"
     ],
     "bulldoze": [
       "M"
@@ -102,6 +104,7 @@
       "M"
     ],
     "fakeout": [
+      "S:0",
       "E"
     ],
     "fireblast": [
@@ -121,9 +124,14 @@
     ],
     "flamethrower": [
       "M",
+      "L:44",
+      "L:42",
       "L:36"
     ],
     "flareblitz": [
+      "L:55",
+      "S:0",
+      "L:51",
       "L:43"
     ],
     "fling": [
@@ -139,12 +147,14 @@
       "M"
     ],
     "furyswipes": [
+      "L:33",
       "L:29"
     ],
     "gigaimpact": [
       "M"
     ],
     "growl": [
+      "L:1",
       "L:4"
     ],
     "heatwave": [
@@ -170,6 +180,7 @@
       "L:11"
     ],
     "lick": [
+      "L:1",
       "L:8"
     ],
     "lowkick": [
@@ -180,6 +191,8 @@
     ],
     "outrage": [
       "T",
+      "L:60",
+      "L:55",
       "L:46"
     ],
     "overheat": [
@@ -199,12 +212,15 @@
     ],
     "roar": [
       "M",
+      "L:19",
       "L:18"
     ],
     "round": [
       "M"
     ],
     "scaryface": [
+      "L:49",
+      "L:46",
       "L:39"
     ],
     "scratch": [
@@ -239,6 +255,7 @@
     ],
     "swagger": [
       "M",
+      "L:28",
       "L:25"
     ],
     "swordsdance": [
@@ -248,6 +265,8 @@
       "M"
     ],
     "thrash": [
+      "L:38",
+      "L:37",
       "L:32"
     ],
     "throatchop": [
@@ -264,7 +283,8 @@
       "M"
     ],
     "uturn": [
-      "M"
+      "M",
+      "S:0"
     ],
     "willowisp": [
       "M"

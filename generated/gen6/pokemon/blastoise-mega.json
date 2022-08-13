@@ -35,6 +35,7 @@
   "learnset": {
     "aquatail": [
       "T",
+      "L:32",
       "L:28"
     ],
     "attract": [
@@ -115,7 +116,14 @@
     "hiddenpower": [
       "M"
     ],
+    "hydrocannon": [
+      "T",
+      "S:1"
+    ],
     "hydropump": [
+      "L:60",
+      "S:1",
+      "L:48",
       "L:40"
     ],
     "hyperbeam": [
@@ -132,6 +140,9 @@
     ],
     "irondefense": [
       "T",
+      "L:46",
+      "S:1",
+      "L:40",
       "L:34"
     ],
     "irontail": [
@@ -145,13 +156,17 @@
     ],
     "protect": [
       "M",
+      "L:24",
       "L:22"
     ],
     "raindance": [
       "M",
+      "L:53",
+      "L:44",
       "L:37"
     ],
     "rapidspin": [
+      "L:20",
       "L:19"
     ],
     "rest": [
@@ -185,6 +200,8 @@
       "T"
     ],
     "skullbash": [
+      "L:39",
+      "L:36",
       "L:31"
     ],
     "sleeptalk": [
@@ -213,6 +230,7 @@
       "S:4"
     ],
     "tailwhip": [
+      "L:1",
       "L:4",
       "S:3",
       "S:4"
@@ -224,17 +242,21 @@
       "M"
     ],
     "watergun": [
+      "L:1",
       "L:7",
       "S:3"
     ],
     "waterpledge": [
-      "T"
+      "T",
+      "S:1"
     ],
     "waterpulse": [
       "T",
+      "L:28",
       "L:25"
     ],
     "withdraw": [
+      "L:1",
       "L:10",
       "S:3"
     ],

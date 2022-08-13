@@ -50,6 +50,10 @@
     "attract": [
       "M"
     ],
+    "blastburn": [
+      "T",
+      "S:4"
+    ],
     "brickbreak": [
       "M"
     ],
@@ -72,13 +76,17 @@
       "M"
     ],
     "dragonclaw": [
-      "M"
+      "M",
+      "L:1",
+      "S:2"
     ],
     "dragonpulse": [
       "T",
       "E"
     ],
     "dragonrage": [
+      "L:17",
+      "S:2",
       "L:16",
       "S:7"
     ],
@@ -92,6 +100,8 @@
       "M"
     ],
     "ember": [
+      "L:1",
+      "S:5",
       "L:7",
       "S:7"
     ],
@@ -102,18 +112,28 @@
       "M"
     ],
     "firefang": [
+      "L:28",
+      "S:1",
+      "S:2",
       "L:25"
     ],
     "firepledge": [
-      "T"
+      "T",
+      "S:4"
     ],
     "firepunch": [
       "T"
     ],
     "firespin": [
+      "L:56",
+      "S:5",
+      "L:50",
       "L:43"
     ],
     "flameburst": [
+      "L:32",
+      "S:1",
+      "S:5",
       "L:28"
     ],
     "flamecharge": [
@@ -121,9 +141,14 @@
     ],
     "flamethrower": [
       "M",
+      "L:47",
+      "S:5",
+      "L:43",
       "L:37"
     ],
     "flareblitz": [
+      "L:1",
+      "S:4",
       "E"
     ],
     "fling": [
@@ -152,7 +177,8 @@
       "S:8"
     ],
     "heatwave": [
-      "T"
+      "T",
+      "L:1"
     ],
     "hiddenpower": [
       "M"
@@ -170,6 +196,9 @@
       "M"
     ],
     "inferno": [
+      "L:62",
+      "S:1",
+      "L:54",
       "L:46"
     ],
     "irontail": [
@@ -179,10 +208,12 @@
       "E"
     ],
     "outrage": [
+      "T",
       "E"
     ],
     "overheat": [
-      "M"
+      "M",
+      "S:3"
     ],
     "poweruppunch": [
       "M"
@@ -215,6 +246,8 @@
       "M"
     ],
     "scaryface": [
+      "L:21",
+      "S:4",
       "L:19"
     ],
     "scratch": [
@@ -225,18 +258,22 @@
       "M"
     ],
     "shadowclaw": [
-      "M"
+      "M",
+      "L:1"
     ],
     "skydrop": [
       "M"
     ],
     "slash": [
+      "L:41",
+      "L:39",
       "L:34"
     ],
     "sleeptalk": [
       "M"
     ],
     "smokescreen": [
+      "L:1",
       "L:10",
       "S:7"
     ],

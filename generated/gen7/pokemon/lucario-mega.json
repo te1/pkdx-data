@@ -37,6 +37,10 @@
     "attract": [
       "M"
     ],
+    "aurasphere": [
+      "L:1",
+      "S:5"
+    ],
     "blazekick": [
       "E"
     ],
@@ -72,6 +76,7 @@
       "M"
     ],
     "detect": [
+      "L:1",
       "E"
     ],
     "doubleteam": [
@@ -138,6 +143,7 @@
       "M"
     ],
     "highjumpkick": [
+      "S:5",
       "E"
     ],
     "hyperbeam": [
@@ -154,7 +160,8 @@
       "T"
     ],
     "laserfocus": [
-      "T"
+      "T",
+      "L:1"
     ],
     "lowkick": [
       "T",
@@ -180,6 +187,9 @@
     ],
     "poisonjab": [
       "M"
+    ],
+    "poweruppunch": [
+      "L:15"
     ],
     "protect": [
       "M"
@@ -242,7 +252,8 @@
       "M"
     ],
     "swordsdance": [
-      "M"
+      "M",
+      "L:19"
     ],
     "thunderpunch": [
       "T"
@@ -257,7 +268,8 @@
       "T"
     ],
     "workup": [
-      "M"
+      "M",
+      "L:42"
     ],
     "zenheadbutt": [
       "T"

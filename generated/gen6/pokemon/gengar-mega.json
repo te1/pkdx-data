@@ -34,6 +34,7 @@
   "canHatch": true,
   "learnset": {
     "astonish": [
+      "S:4",
       "E"
     ],
     "attract": [
@@ -46,19 +47,25 @@
       "M"
     ],
     "confuseray": [
-      "L:19"
+      "L:19",
+      "S:1",
+      "S:2",
+      "S:4"
     ],
     "curse": [
       "L:12"
     ],
     "darkpulse": [
       "M",
+      "L:44",
       "L:36"
     ],
     "dazzlinggleam": [
       "M"
     ],
     "destinybond": [
+      "L:50",
+      "S:3",
       "L:40"
     ],
     "doubleteam": [
@@ -69,6 +76,7 @@
     ],
     "dreameater": [
       "M",
+      "L:39",
       "L:33"
     ],
     "embargo": [
@@ -109,6 +117,7 @@
       "M"
     ],
     "hex": [
+      "L:55",
       "L:43"
     ],
     "hiddenpower": [
@@ -120,7 +129,9 @@
       "S:6"
     ],
     "hypnosis": [
-      "L:1"
+      "L:1",
+      "S:5",
+      "S:6"
     ],
     "icepunch": [
       "T",
@@ -139,19 +150,24 @@
       "L:1"
     ],
     "meanlook": [
-      "L:8"
+      "L:8",
+      "S:5",
+      "S:6"
     ],
     "nightmare": [
+      "L:61",
       "L:47"
     ],
     "nightshade": [
-      "L:15"
+      "L:15",
+      "S:2"
     ],
     "painsplit": [
       "T"
     ],
     "payback": [
       "M",
+      "L:28",
       "L:26"
     ],
     "poisonjab": [
@@ -164,7 +180,10 @@
       "M"
     ],
     "psychic": [
-      "M"
+      "M",
+      "S:1",
+      "S:5",
+      "S:6"
     ],
     "psychup": [
       "M"
@@ -192,13 +211,18 @@
     ],
     "shadowball": [
       "M",
+      "L:33",
+      "S:3",
+      "S:4",
       "L:29"
     ],
     "shadowclaw": [
       "M"
     ],
     "shadowpunch": [
-      "L:25"
+      "L:25",
+      "S:1",
+      "S:2"
     ],
     "skillswap": [
       "T"
@@ -207,7 +231,11 @@
       "M"
     ],
     "sludgebomb": [
-      "M"
+      "M",
+      "S:3"
+    ],
+    "sludgewave": [
+      "S:4"
     ],
     "snatch": [
       "T"
@@ -217,6 +245,7 @@
     ],
     "spite": [
       "T",
+      "L:1",
       "L:5"
     ],
     "strength": [
@@ -226,7 +255,9 @@
       "M"
     ],
     "suckerpunch": [
-      "L:22"
+      "L:22",
+      "S:1",
+      "S:2"
     ],
     "sunnyday": [
       "M"
@@ -269,7 +300,8 @@
       "M"
     ],
     "willowisp": [
-      "M"
+      "M",
+      "S:3"
     ],
     "wonderroom": [
       "T"

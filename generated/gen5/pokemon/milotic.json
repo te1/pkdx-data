@@ -39,7 +39,8 @@
       "L:29"
     ],
     "attract": [
-      "M"
+      "M",
+      "L:41"
     ],
     "bind": [
       "T"
@@ -51,6 +52,7 @@
       "M"
     ],
     "captivate": [
+      "L:25",
       "E"
     ],
     "dive": [
@@ -89,7 +91,9 @@
       "M"
     ],
     "icebeam": [
-      "M"
+      "M",
+      "S:3",
+      "S:4"
     ],
     "icywind": [
       "T"
@@ -108,6 +112,7 @@
       "T"
     ],
     "mirrorcoat": [
+      "S:3",
       "E"
     ],
     "protect": [
@@ -117,7 +122,8 @@
       "M"
     ],
     "raindance": [
-      "M"
+      "M",
+      "L:33"
     ],
     "recover": [
       "L:21",
@@ -153,13 +159,15 @@
       "M"
     ],
     "surf": [
-      "M"
+      "M",
+      "S:4"
     ],
     "swagger": [
       "M"
     ],
     "toxic": [
-      "M"
+      "M",
+      "S:4"
     ],
     "twister": [
       "L:17"
@@ -169,6 +177,9 @@
     ],
     "watergun": [
       "L:1"
+    ],
+    "waterpulse": [
+      "L:13"
     ],
     "watersport": [
       "L:5"

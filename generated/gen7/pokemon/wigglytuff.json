@@ -42,6 +42,9 @@
     "blizzard": [
       "M"
     ],
+    "bodyslam": [
+      "L:32"
+    ],
     "bounce": [
       "T"
     ],
@@ -65,12 +68,19 @@
       "M"
     ],
     "defensecurl": [
+      "L:1",
       "L:3"
     ],
     "disable": [
+      "L:1",
       "L:14"
     ],
+    "doubleedge": [
+      "L:1",
+      "L:45"
+    ],
     "doubleslap": [
+      "L:1",
       "L:17"
     ],
     "doubleteam": [
@@ -139,7 +149,8 @@
       "M"
     ],
     "hypervoice": [
-      "T"
+      "T",
+      "L:41"
     ],
     "icebeam": [
       "M"
@@ -169,6 +180,9 @@
     "magicroom": [
       "T"
     ],
+    "mimic": [
+      "L:38"
+    ],
     "painsplit": [
       "T"
     ],
@@ -194,7 +208,8 @@
       "M"
     ],
     "rest": [
-      "M"
+      "M",
+      "L:30"
     ],
     "return": [
       "M"
@@ -202,8 +217,12 @@
     "roleplay": [
       "T"
     ],
+    "rollout": [
+      "L:20"
+    ],
     "round": [
-      "M"
+      "M",
+      "L:22"
     ],
     "safeguard": [
       "M"

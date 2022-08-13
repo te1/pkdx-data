@@ -20,6 +20,7 @@
   "height": 1.7,
   "learnset": {
     "agility": [
+      "L:55",
       "L:48"
     ],
     "bide": [
@@ -35,16 +36,19 @@
       "M"
     ],
     "ember": [
-      "L:1"
+      "L:1",
+      "S:0"
     ],
     "fireblast": [
       "M"
     ],
     "firespin": [
-      "L:39"
+      "L:39",
+      "S:0"
     ],
     "growl": [
-      "L:35"
+      "L:35",
+      "L:1"
     ],
     "horndrill": [
       "M"
@@ -71,7 +75,9 @@
       "M"
     ],
     "stomp": [
-      "L:32"
+      "L:32",
+      "L:1",
+      "S:0"
     ],
     "substitute": [
       "M"
@@ -80,10 +86,12 @@
       "M"
     ],
     "tailwhip": [
-      "L:30"
+      "L:30",
+      "L:1"
     ],
     "takedown": [
       "M",
+      "L:47",
       "L:43"
     ],
     "toxic": [

@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import { Generation, MoveSource, Specie } from '@pkmn/data';
+import { SpeciesMap } from './export/pokemon';
 
 interface Learnset {
   [moveid: string]: MoveSource[];
@@ -27,10 +28,19 @@ type Learnsets = LearnsetData[];
 // - opt out of learnset merging? use learnsets.get(species.id) then manually merge prevo and mark them?
 // - remove battle only formes from move.pokemon?
 
-export async function getMergedLearnset(species: Specie, gen: Generation) {
-  const learnsets = await getLearnsets(species, gen);
+export async function getMergedLearnset(
+  species: Specie | undefined,
+  gen: Generation,
+  speciesMap: SpeciesMap,
+  override: Record<string, { mergeLearnsetFrom?: string }>
+): Promise<Learnset> {
+  let merged: Learnset = {};
 
-  const merged: Learnset = {};
+  if (!species) {
+    return merged;
+  }
+
+  const learnsets = await getLearnsets(species, gen, speciesMap, override);
 
   for (const item of learnsets) {
     for (const [moveSlug, moveSources] of Object.entries(item.learnset)) {
@@ -57,12 +67,49 @@ export async function getMergedLearnset(species: Specie, gen: Generation) {
     }
   }
 
+  // drop S if there are other ways to learn the move
+  merged = _.mapValues(merged, (moveSources) => {
+    if (moveSources.length > 1) {
+      moveSources = _.reject(moveSources, (moveSource) => moveSource === 'S');
+    }
+
+    return moveSources;
+  });
+
+  if (_.size(merged)) {
+    // sort by move slug for consistency
+    return _(merged).toPairs().sortBy(0).fromPairs().value();
+  }
+
+  // learnset is empty, try learnset of baseForm
+  if (species.changesFrom && species.changesFrom !== species.name) {
+    return await getMergedLearnset(
+      gen.species.get(species.changesFrom),
+      gen,
+      speciesMap,
+      override
+    );
+  }
+
+  // learnset is empty, try learnset of baseSpecies
+  if (species.baseSpecies && species.baseSpecies !== species.name) {
+    return await getMergedLearnset(
+      gen.species.get(species.baseSpecies),
+      gen,
+      speciesMap,
+      override
+    );
+  }
+
+  // empty learnset
   return merged;
 }
 
 async function getLearnsets(
   species: Specie,
-  gen: Generation
+  gen: Generation,
+  speciesMap: SpeciesMap,
+  override: Record<string, { mergeLearnsetFrom?: string }>
 ): Promise<Learnsets> {
   const learnsets: Learnsets = [];
 
@@ -78,8 +125,13 @@ async function getLearnsets(
       });
     }
 
-    // go to prevo
-    if (currentSpecies.prevo) {
+    const mergeLearnsetFrom =
+      override[speciesMap.getSlugByShowdownName(currentSpecies.name) || '']
+        ?.mergeLearnsetFrom;
+
+    if (mergeLearnsetFrom) {
+      currentSpecies = gen.species.get(mergeLearnsetFrom);
+    } else if (currentSpecies.prevo) {
       currentSpecies = gen.species.get(currentSpecies.prevo);
     } else {
       currentSpecies = undefined;

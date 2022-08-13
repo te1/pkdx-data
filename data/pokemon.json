@@ -51,19 +51,24 @@
       "subName": "Origin Forme"
     },
     "rotom-heat": {
-      "subName": "Rotom Heat"
+      "subName": "Rotom Heat",
+      "mergeLearnsetFrom": "rotom"
     },
     "rotom-wash": {
-      "subName": "Rotom Wash"
+      "subName": "Rotom Wash",
+      "mergeLearnsetFrom": "rotom"
     },
     "rotom-frost": {
-      "subName": "Rotom Frost"
+      "subName": "Rotom Frost",
+      "mergeLearnsetFrom": "rotom"
     },
     "rotom-fan": {
-      "subName": "Rotom Fan"
+      "subName": "Rotom Fan",
+      "mergeLearnsetFrom": "rotom"
     },
     "rotom-mow": {
-      "subName": "Rotom Mow"
+      "subName": "Rotom Mow",
+      "mergeLearnsetFrom": "rotom"
     },
     "shaymin": {
       "isMythical": true,
@@ -205,7 +210,8 @@
       "subName": "Large Size"
     },
     "pumpkaboo-super": {
-      "subName": "Super Size"
+      "subName": "Super Size",
+      "mergeLearnsetFrom": "pumpkaboo"
     },
     "gourgeist": {
       "subName": "Average Size"
@@ -217,7 +223,8 @@
       "subName": "Large Size"
     },
     "gourgeist-super": {
-      "subName": "Super Size"
+      "subName": "Super Size",
+      "mergeLearnsetFrom": "gourgeist"
     },
     "hoopa": {
       "isMythical": true,
@@ -246,23 +253,28 @@
     },
     "pikachu-rock-star": {
       "name": "Pikachu Rock Star",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "pikachu"
     },
     "pikachu-belle": {
       "name": "Pikachu Belle",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "pikachu"
     },
     "pikachu-pop-star": {
       "name": "Pikachu Pop Star",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "pikachu"
     },
     "pikachu-phd": {
       "name": "Pikachu, Ph. D.",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "pikachu"
     },
     "pikachu-libre": {
       "name": "Pikachu Libre",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "pikachu"
     },
     "vivillon": {
       "cosmeticSubName": "Meadow Pattern"
@@ -289,11 +301,16 @@
       "name": "Ash-Greninja",
       "hideSubName": true
     },
+    "rockruff": {
+      "mergeLearnsetFrom": "rockruffdusk"
+    },
     "lycanroc": {
-      "subName": "Midday Form"
+      "subName": "Midday Form",
+      "mergeLearnsetFrom": "rockruffdusk"
     },
     "lycanroc-midnight": {
-      "subName": "Midnight Form"
+      "subName": "Midnight Form",
+      "mergeLearnsetFrom": "rockruffdusk"
     },
     "lycanroc-dusk": {
       "subName": "Dusk Form"
@@ -320,11 +337,13 @@
     },
     "necrozma-dusk-mane": {
       "name": "Dusk Mane Necrozma",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "necrozma"
     },
     "necrozma-dawn-wings": {
       "name": "Dawn Wings Necrozma",
-      "hideSubName": true
+      "hideSubName": true,
+      "mergeLearnsetFrom": "necrozma"
     },
     "necrozma-ultra": {
       "name": "Ultra Necrozma",
@@ -440,7 +459,8 @@
       "subName": "50% Forme"
     },
     "zygarde-10": {
-      "subName": "10% Forme"
+      "subName": "10% Forme",
+      "mergeLearnsetFrom": "zygarde"
     },
     "zygarde-complete": {
       "subName": "Complete Forme"
@@ -542,14 +562,16 @@
       "subName": "Hero of Many Battles"
     },
     "zacian-crowned": {
-      "subName": "Crowned Sword"
+      "subName": "Crowned Sword",
+      "mergeLearnsetFrom": "zacian"
     },
     "zamazenta": {
       "isLegendary": true,
       "subName": "Hero of Many Battles"
     },
     "zamazenta-crowned": {
-      "subName": "Crowned Shield"
+      "subName": "Crowned Shield",
+      "mergeLearnsetFrom": "zamazenta"
     },
     "eternatus": {
       "isLegendary": true

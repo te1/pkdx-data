@@ -66,6 +66,9 @@ export async function exportPokemon(
       : undefined;
     const slug = getPrettySpeciesSlug(species, baseSpecies, extraData.override);
 
+    // enable lookup of slug by showdown name and id
+    speciesMap.add(species.name, species.id, slug);
+
     // need endsWith for marowak-alola-totem, raticate-alola-totem, mimikyu-busted-totem
     const isTotem = species.forme?.endsWith('Totem');
 
@@ -132,8 +135,13 @@ export async function exportPokemon(
       }
     }
 
-    // const learnset = await getMergedLearnset(species, gen);
-    const learnset = await getLearnset(species, gen);
+    const learnset = await getMergedLearnset(
+      species,
+      gen,
+      speciesMap,
+      extraData.override
+    );
+    // const learnset = await getLearnset(species, gen);
 
     const entry = {
       // -- General
@@ -203,6 +211,7 @@ export async function exportPokemon(
       // battleOnly: getSpeciesSlug(species.battleOnly, gen),
 
       // there may be requirements (having an ability, holding an item, knowing a move) to change forme
+      // TODO rename to forme for consistency
       formTriggerAbility: getAbilitySlug(species.requiredAbility ?? '', gen),
       formTriggerItem: getItemSlug(species.requiredItem ?? '', gen),
       formTriggerItems:
@@ -283,9 +292,6 @@ export async function exportPokemon(
     };
 
     result.push(entry);
-
-    // enable lookup of slug by showdown name and id
-    speciesMap.add(species.name, species.id, entry.slug);
 
     // remember available moves per pokemon for later use
     for (const moveSlug of Object.keys(entry.learnset)) {
@@ -671,74 +677,4 @@ function getPrettyRegionName(region: Region) {
     case 'Paldea':
       return 'Paldean';
   }
-}
-
-/* Showdown learnset patterns
-- `M` learned from Machine (TM/HM/TR)
-- `T` taught by Tutor
-- `E` Egg move
-- `R` Restricted, meaning additional conditions may apply
-- `Lx` learned by leveling up to Level x
-- `Sx` only available as part of a Special event / promotion (x is the event number for this species)
-- `V` Virtual console / past generation only (filtered out)
-- `D` Dream world / gen5 browser game (filtered out)
-*/
-
-async function getLearnset(species: Specie, gen: Generation) {
-  let learnset = await gen.learnsets.learnable(species.name);
-
-  // keep only moves that can be learned in the current gen
-  learnset = _.mapValues(learnset, (how) => {
-    return _.filter(how, (entry) => {
-      return (
-        entry.startsWith(gen.num as unknown as string) && // skip past generations
-        entry !== `${gen.num}V` && // skip Virtual Console
-        entry !== `${gen.num}D` // skip Dream World
-      );
-    });
-  });
-
-  // keep only moves that can still be learned
-  learnset = _.pickBy(learnset, (how) => how.length);
-
-  // make the remaining learnset more readable
-  learnset = _.mapValues(learnset, (how) => {
-    let result = _.map(how, (entry) => {
-      let result = entry;
-
-      // drop gen number
-      result = result.substring(1);
-
-      // drop event number
-      if (result.startsWith('S')) {
-        result = 'S';
-      }
-
-      // add : to make it easier to split identifier and value (only applies to L)
-      if (result.length > 1) {
-        result = result.charAt(0) + ':' + result.substring(1);
-
-        // TODO learnsets
-        // - opt out of learnset merging? use learnsets.get(species.id) then manually merge prevo and mark them?
-        // - remove battle only formes from move.pokemon?
-      }
-
-      return result;
-    });
-
-    // drop duplicates (meaning S)
-    result = _.uniq(result);
-
-    // drop S if there are other ways to learn the move
-    if (result.length > 1) {
-      result = _.reject(result, (how) => how === 'S');
-    }
-
-    return result;
-  });
-
-  // sort by move slug for consistency
-  learnset = _(learnset).toPairs().sortBy(0).fromPairs().value();
-
-  return learnset;
 }

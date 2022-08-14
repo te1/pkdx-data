@@ -19,6 +19,7 @@
     "spd": 60,
     "spe": 50
   },
+  "prevo": "makuhita",
   "evoLevel": 24,
   "weight": 253.8,
   "genderRatio": {
@@ -52,17 +53,30 @@
     "bulldoze": [
       "M"
     ],
+    "bulletpunch": [
+      "E@makuhita"
+    ],
     "closecombat": [
       "L:46"
     ],
+    "counter": [
+      "E@makuhita"
+    ],
+    "crosschop": [
+      "E@makuhita"
+    ],
     "detect": [
-      "L:30"
+      "L:30",
+      "E@makuhita"
     ],
     "dig": [
       "M"
     ],
     "doubleteam": [
       "M"
+    ],
+    "dynamicpunch": [
+      "E@makuhita"
     ],
     "earthquake": [
       "M"
@@ -76,6 +90,9 @@
     ],
     "fakeout": [
       "L:10"
+    ],
+    "feint": [
+      "E@makuhita"
     ],
     "fling": [
       "M"
@@ -98,6 +115,9 @@
     ],
     "heavyslam": [
       "L:54"
+    ],
+    "helpinghand": [
+      "E@makuhita"
     ],
     "hyperbeam": [
       "M"
@@ -122,6 +142,9 @@
     ],
     "rest": [
       "M"
+    ],
+    "revenge": [
+      "E@makuhita"
     ],
     "reversal": [
       "L:50"
@@ -174,6 +197,9 @@
     ],
     "whirlwind": [
       "L:16"
+    ],
+    "wideguard": [
+      "E@makuhita"
     ],
     "workup": [
       "M"

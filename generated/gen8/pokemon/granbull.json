@@ -19,6 +19,7 @@
     "spd": 60,
     "spe": 45
   },
+  "prevo": "snubbull",
   "evoLevel": 23,
   "weight": 48.7,
   "genderRatio": {
@@ -48,14 +49,21 @@
     "charm": [
       "L:1"
     ],
+    "closecombat": [
+      "E@snubbull"
+    ],
     "crunch": [
-      "L:59"
+      "L:59",
+      "E@snubbull"
     ],
     "dazzlinggleam": [
       "M"
     ],
     "dig": [
       "M"
+    ],
+    "doubleedge": [
+      "E@snubbull"
     ],
     "doubleteam": [
       "M"
@@ -69,11 +77,15 @@
     "facade": [
       "M"
     ],
+    "faketears": [
+      "E@snubbull"
+    ],
     "fireblast": [
       "M"
     ],
     "firefang": [
-      "L:1"
+      "L:1",
+      "E@snubbull"
     ],
     "flamethrower": [
       "M"
@@ -93,17 +105,27 @@
     "headbutt": [
       "L:19"
     ],
+    "healbell": [
+      "E@snubbull"
+    ],
     "hyperbeam": [
       "M"
     ],
     "icefang": [
-      "L:1"
+      "L:1",
+      "E@snubbull"
     ],
     "irontail": [
       "M"
     ],
     "lick": [
       "L:13"
+    ],
+    "metronome": [
+      "E@snubbull"
+    ],
+    "mimic": [
+      "E@snubbull"
     ],
     "outrage": [
       "L:67",
@@ -118,6 +140,9 @@
     ],
     "playrough": [
       "L:43"
+    ],
+    "present": [
+      "E@snubbull"
     ],
     "protect": [
       "M"
@@ -165,6 +190,9 @@
     "snarl": [
       "M"
     ],
+    "snore": [
+      "E@snubbull"
+    ],
     "solarbeam": [
       "M"
     ],
@@ -203,7 +231,8 @@
       "M"
     ],
     "thunderfang": [
-      "L:1"
+      "L:1",
+      "E@snubbull"
     ],
     "thunderwave": [
       "M"

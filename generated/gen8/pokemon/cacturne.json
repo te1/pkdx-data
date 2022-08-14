@@ -19,6 +19,7 @@
     "spd": 60,
     "spe": 55
   },
+  "prevo": "cacnea",
   "evoLevel": 32,
   "weight": 77.4,
   "genderRatio": {
@@ -34,11 +35,20 @@
       "L:4",
       "L:1"
     ],
+    "acid": [
+      "E@cacnea"
+    ],
     "assurance": [
       "L:19"
     ],
     "attract": [
       "M"
+    ],
+    "belch": [
+      "E@cacnea"
+    ],
+    "block": [
+      "E@cacnea"
     ],
     "brickbreak": [
       "M"
@@ -48,6 +58,9 @@
     ],
     "cottonspore": [
       "L:49"
+    ],
+    "counter": [
+      "E@cacnea"
     ],
     "cut": [
       "M"
@@ -59,11 +72,17 @@
       "L:59",
       "L:1"
     ],
+    "disable": [
+      "E@cacnea"
+    ],
     "doubleteam": [
       "M"
     ],
     "drainpunch": [
       "M"
+    ],
+    "dynamicpunch": [
+      "E@cacnea"
     ],
     "endure": [
       "M"
@@ -74,6 +93,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "fellstinger": [
+      "E@cacnea"
     ],
     "flash": [
       "M"
@@ -112,6 +134,12 @@
     "leer": [
       "L:1"
     ],
+    "lowkick": [
+      "E@cacnea"
+    ],
+    "magicalleaf": [
+      "E@cacnea"
+    ],
     "nastyplot": [
       "M"
     ],
@@ -129,6 +157,9 @@
     "poisonsting": [
       "L:1"
     ],
+    "poweruppunch": [
+      "E@cacnea"
+    ],
     "protect": [
       "M"
     ],
@@ -144,6 +175,9 @@
     "sandstorm": [
       "M",
       "L:54"
+    ],
+    "seedbomb": [
+      "E@cacnea"
     ],
     "sleeptalk": [
       "M"
@@ -172,8 +206,17 @@
     "swagger": [
       "M"
     ],
+    "switcheroo": [
+      "E@cacnea"
+    ],
     "swordsdance": [
       "M"
+    ],
+    "teeterdance": [
+      "E@cacnea"
+    ],
+    "worryseed": [
+      "E@cacnea"
     ]
   }
 }

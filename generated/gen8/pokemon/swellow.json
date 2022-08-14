@@ -19,6 +19,7 @@
     "spd": 50,
     "spe": 125
   },
+  "prevo": "taillow",
   "evoLevel": 22,
   "weight": 19.8,
   "genderRatio": {
@@ -43,9 +44,13 @@
     "attract": [
       "M"
     ],
+    "boomburst": [
+      "E@taillow"
+    ],
     "bravebird": [
       "L:51",
-      "L:1"
+      "L:1",
+      "E@taillow"
     ],
     "defog": [
       "M"
@@ -75,6 +80,9 @@
     ],
     "growl": [
       "L:1"
+    ],
+    "hurricane": [
+      "E@taillow"
     ],
     "hyperbeam": [
       "M"
@@ -108,6 +116,9 @@
     "roost": [
       "M"
     ],
+    "skyattack": [
+      "E@taillow"
+    ],
     "sleeptalk": [
       "M"
     ],
@@ -120,6 +131,9 @@
     "sunnyday": [
       "M"
     ],
+    "supersonic": [
+      "E@taillow"
+    ],
     "swagger": [
       "M"
     ],
@@ -128,6 +142,9 @@
     ],
     "uturn": [
       "M"
+    ],
+    "whirlwind": [
+      "E@taillow"
     ],
     "wingattack": [
       "L:13"

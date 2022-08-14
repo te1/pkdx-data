@@ -7688,9 +7688,9 @@
     }
   },
   {
-    "slug": "deoxysattack",
-    "name": "Deoxys-Attack",
-    "subName": "Attack",
+    "slug": "deoxys-attack",
+    "name": "Deoxys",
+    "subName": "Attack Forme",
     "num": 386,
     "types": [
       "psychic"
@@ -7706,9 +7706,9 @@
     }
   },
   {
-    "slug": "deoxysdefense",
-    "name": "Deoxys-Defense",
-    "subName": "Defense",
+    "slug": "deoxys-defense",
+    "name": "Deoxys",
+    "subName": "Defense Forme",
     "num": 386,
     "types": [
       "psychic"
@@ -7724,9 +7724,9 @@
     }
   },
   {
-    "slug": "deoxysspeed",
-    "name": "Deoxys-Speed",
-    "subName": "Speed",
+    "slug": "deoxys-speed",
+    "name": "Deoxys",
+    "subName": "Speed Forme",
     "num": 386,
     "types": [
       "psychic"
@@ -9792,6 +9792,24 @@
     }
   },
   {
+    "slug": "shaymin",
+    "name": "Shaymin",
+    "subName": "Land Forme",
+    "num": 492,
+    "types": [
+      "grass"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    }
+  },
+  {
     "slug": "shaymin-sky",
     "name": "Shaymin",
     "subName": "Sky Forme",
@@ -9811,102 +9829,12 @@
     }
   },
   {
-    "slug": "shaymin",
-    "name": "Shaymin",
-    "subName": "Land Forme",
-    "num": 492,
-    "types": [
-      "grass"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 100,
-      "atk": 100,
-      "def": 100,
-      "spa": 100,
-      "spd": 100,
-      "spe": 100
-    }
-  },
-  {
-    "slug": "arceus-bug",
+    "slug": "arceus",
     "name": "Arceus",
-    "subName": "Bug",
+    "subName": "Normal",
     "num": 493,
     "types": [
-      "bug"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-dark",
-    "name": "Arceus",
-    "subName": "Dark",
-    "num": 493,
-    "types": [
-      "dark"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-dragon",
-    "name": "Arceus",
-    "subName": "Dragon",
-    "num": 493,
-    "types": [
-      "dragon"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-electric",
-    "name": "Arceus",
-    "subName": "Electric",
-    "num": 493,
-    "types": [
-      "electric"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-fairy",
-    "name": "Arceus",
-    "subName": "Fairy",
-    "num": 493,
-    "types": [
-      "fairy"
+      "normal"
     ],
     "gen": 4,
     "baseStats": {
@@ -9937,102 +9865,12 @@
     }
   },
   {
-    "slug": "arceus-fire",
-    "name": "Arceus",
-    "subName": "Fire",
-    "num": 493,
-    "types": [
-      "fire"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
     "slug": "arceus-flying",
     "name": "Arceus",
     "subName": "Flying",
     "num": 493,
     "types": [
       "flying"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-ghost",
-    "name": "Arceus",
-    "subName": "Ghost",
-    "num": 493,
-    "types": [
-      "ghost"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-grass",
-    "name": "Arceus",
-    "subName": "Grass",
-    "num": 493,
-    "types": [
-      "grass"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-ground",
-    "name": "Arceus",
-    "subName": "Ground",
-    "num": 493,
-    "types": [
-      "ground"
-    ],
-    "gen": 4,
-    "baseStats": {
-      "hp": 120,
-      "atk": 120,
-      "def": 120,
-      "spa": 120,
-      "spd": 120,
-      "spe": 120
-    }
-  },
-  {
-    "slug": "arceus-ice",
-    "name": "Arceus",
-    "subName": "Ice",
-    "num": 493,
-    "types": [
-      "ice"
     ],
     "gen": 4,
     "baseStats": {
@@ -10063,12 +9901,12 @@
     }
   },
   {
-    "slug": "arceus-psychic",
+    "slug": "arceus-ground",
     "name": "Arceus",
-    "subName": "Psychic",
+    "subName": "Ground",
     "num": 493,
     "types": [
-      "psychic"
+      "ground"
     ],
     "gen": 4,
     "baseStats": {
@@ -10099,12 +9937,66 @@
     }
   },
   {
+    "slug": "arceus-bug",
+    "name": "Arceus",
+    "subName": "Bug",
+    "num": 493,
+    "types": [
+      "bug"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-ghost",
+    "name": "Arceus",
+    "subName": "Ghost",
+    "num": 493,
+    "types": [
+      "ghost"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
     "slug": "arceus-steel",
     "name": "Arceus",
     "subName": "Steel",
     "num": 493,
     "types": [
       "steel"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-fire",
+    "name": "Arceus",
+    "subName": "Fire",
+    "num": 493,
+    "types": [
+      "fire"
     ],
     "gen": 4,
     "baseStats": {
@@ -10135,12 +10027,120 @@
     }
   },
   {
-    "slug": "arceus",
+    "slug": "arceus-grass",
     "name": "Arceus",
-    "subName": "Normal",
+    "subName": "Grass",
     "num": 493,
     "types": [
-      "normal"
+      "grass"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-electric",
+    "name": "Arceus",
+    "subName": "Electric",
+    "num": 493,
+    "types": [
+      "electric"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-psychic",
+    "name": "Arceus",
+    "subName": "Psychic",
+    "num": 493,
+    "types": [
+      "psychic"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-ice",
+    "name": "Arceus",
+    "subName": "Ice",
+    "num": 493,
+    "types": [
+      "ice"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-dragon",
+    "name": "Arceus",
+    "subName": "Dragon",
+    "num": 493,
+    "types": [
+      "dragon"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-dark",
+    "name": "Arceus",
+    "subName": "Dark",
+    "num": 493,
+    "types": [
+      "dark"
+    ],
+    "gen": 4,
+    "baseStats": {
+      "hp": 120,
+      "atk": 120,
+      "def": 120,
+      "spa": 120,
+      "spd": 120,
+      "spe": 120
+    }
+  },
+  {
+    "slug": "arceus-fairy",
+    "name": "Arceus",
+    "subName": "Fairy",
+    "num": 493,
+    "types": [
+      "fairy"
     ],
     "gen": 4,
     "baseStats": {

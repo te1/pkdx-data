@@ -19,6 +19,7 @@
     "spd": 83,
     "spe": 55
   },
+  "prevo": "gulpin",
   "evoLevel": 26,
   "weight": 80,
   "genderRatio": {
@@ -29,6 +30,9 @@
     "Amorphous"
   ],
   "learnset": {
+    "acidarmor": [
+      "E@gulpin"
+    ],
     "acidspray": [
       "L:17"
     ],
@@ -49,6 +53,12 @@
     ],
     "bulletseed": [
       "M"
+    ],
+    "curse": [
+      "E@gulpin"
+    ],
+    "destinybond": [
+      "E@gulpin"
     ],
     "doubleteam": [
       "M"
@@ -79,7 +89,8 @@
     ],
     "gunkshot": [
       "L:61",
-      "L:1"
+      "L:1",
+      "E@gulpin"
     ],
     "hyperbeam": [
       "M"
@@ -87,8 +98,12 @@
     "icebeam": [
       "M"
     ],
+    "mudslap": [
+      "E@gulpin"
+    ],
     "painsplit": [
-      "L:54"
+      "L:54",
+      "E@gulpin"
     ],
     "poisongas": [
       "L:8",
@@ -126,6 +141,9 @@
       "M",
       "L:37"
     ],
+    "smog": [
+      "E@gulpin"
+    ],
     "solarbeam": [
       "M"
     ],
@@ -155,7 +173,8 @@
       "L:25"
     ],
     "venomdrench": [
-      "L:1"
+      "L:1",
+      "E@gulpin"
     ],
     "waterpulse": [
       "M"

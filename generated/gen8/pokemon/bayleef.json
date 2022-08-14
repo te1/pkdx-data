@@ -18,8 +18,9 @@
     "spd": 80,
     "spe": 60
   },
+  "prevo": "chikorita",
   "evos": [
-    null
+    "meganium"
   ],
   "evoLevel": 16,
   "weight": 15.8,
@@ -32,17 +33,25 @@
     "Grass"
   ],
   "learnset": {
+    "ancientpower": [
+      "E@chikorita"
+    ],
     "aromatherapy": [
-      "L:50"
+      "L:50",
+      "E@chikorita"
     ],
     "attract": [
       "M"
     ],
     "bodyslam": [
-      "L:40"
+      "L:40",
+      "E@chikorita"
     ],
     "bulletseed": [
       "M"
+    ],
+    "counter": [
+      "E@chikorita"
     ],
     "cut": [
       "M"
@@ -59,6 +68,9 @@
     "facade": [
       "M"
     ],
+    "flail": [
+      "E@chikorita"
+    ],
     "flash": [
       "M"
     ],
@@ -68,11 +80,26 @@
     "grassknot": [
       "M"
     ],
+    "grassyterrain": [
+      "E@chikorita"
+    ],
     "growl": [
       "L:1"
     ],
+    "healpulse": [
+      "E@chikorita"
+    ],
+    "ingrain": [
+      "E@chikorita"
+    ],
     "irontail": [
       "M"
+    ],
+    "leafstorm": [
+      "E@chikorita"
+    ],
+    "leechseed": [
+      "E@chikorita"
     ],
     "lightscreen": [
       "M",
@@ -82,7 +109,8 @@
       "L:22"
     ],
     "naturepower": [
-      "L:26"
+      "L:26",
+      "E@chikorita"
     ],
     "poisonpowder": [
       "L:9",
@@ -139,6 +167,9 @@
     ],
     "tackle": [
       "L:1"
+    ],
+    "vinewhip": [
+      "E@chikorita"
     ],
     "workup": [
       "M"

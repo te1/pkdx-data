@@ -20,6 +20,7 @@
     "spd": 70,
     "spe": 40
   },
+  "prevo": "spinarak",
   "evoLevel": 22,
   "weight": 33.5,
   "genderRatio": {
@@ -40,6 +41,9 @@
     "attract": [
       "M"
     ],
+    "batonpass": [
+      "E@spinarak"
+    ],
     "bugbite": [
       "L:1"
     ],
@@ -51,6 +55,9 @@
     ],
     "dig": [
       "M"
+    ],
+    "disable": [
+      "E@spinarak"
     ],
     "doubleteam": [
       "M"
@@ -88,8 +95,17 @@
     "leechlife": [
       "L:32"
     ],
+    "lunge": [
+      "E@spinarak"
+    ],
+    "megahorn": [
+      "E@spinarak"
+    ],
     "nightshade": [
       "L:15"
+    ],
+    "nightslash": [
+      "E@spinarak"
     ],
     "pinmissile": [
       "L:41"
@@ -104,9 +120,15 @@
     "protect": [
       "M"
     ],
+    "psybeam": [
+      "E@spinarak"
+    ],
     "psychic": [
       "M",
       "L:46"
+    ],
+    "ragepowder": [
+      "E@spinarak"
     ],
     "rest": [
       "M"
@@ -150,6 +172,9 @@
     ],
     "thief": [
       "M"
+    ],
+    "toxicspikes": [
+      "E@spinarak"
     ],
     "toxicthread": [
       "L:63"

@@ -20,6 +20,7 @@
     "spd": 60,
     "spe": 110
   },
+  "prevo": "doduo",
   "evoLevel": 31,
   "weight": 85.2,
   "genderRatio": {
@@ -39,8 +40,14 @@
     "agility": [
       "L:26"
     ],
+    "assurance": [
+      "E@doduo"
+    ],
     "attract": [
       "M"
+    ],
+    "bravebird": [
+      "E@doduo"
     ],
     "doublehit": [
       "L:22"
@@ -52,13 +59,17 @@
       "L:47"
     ],
     "endeavor": [
-      "L:52"
+      "L:52",
+      "E@doduo"
     ],
     "endure": [
       "M"
     ],
     "facade": [
       "M"
+    ],
+    "flail": [
+      "E@doduo"
     ],
     "fly": [
       "M"
@@ -71,6 +82,9 @@
     ],
     "growl": [
       "L:1"
+    ],
+    "haze": [
+      "E@doduo"
     ],
     "hyperbeam": [
       "M"
@@ -96,7 +110,8 @@
     ],
     "quickattack": [
       "L:5",
-      "L:1"
+      "L:1",
+      "E@doduo"
     ],
     "rest": [
       "M"
@@ -115,6 +130,9 @@
     ],
     "sunnyday": [
       "M"
+    ],
+    "supersonic": [
+      "E@doduo"
     ],
     "swagger": [
       "M"

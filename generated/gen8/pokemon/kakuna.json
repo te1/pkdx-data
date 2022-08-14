@@ -18,8 +18,9 @@
     "spd": 25,
     "spe": 35
   },
+  "prevo": "weedle",
   "evos": [
-    null
+    "beedrill"
   ],
   "evoLevel": 7,
   "weight": 10,
@@ -31,8 +32,17 @@
     "Bug"
   ],
   "learnset": {
+    "bugbite": [
+      "L:9@weedle"
+    ],
     "harden": [
       "L:1"
+    ],
+    "poisonsting": [
+      "L:1@weedle"
+    ],
+    "stringshot": [
+      "L:1@weedle"
     ]
   }
 }

@@ -17,6 +17,7 @@
     "spd": 65,
     "spe": 100
   },
+  "prevo": "vigoroth",
   "evoLevel": 36,
   "weight": 130.5,
   "genderRatio": {
@@ -30,6 +31,9 @@
     "aerialace": [
       "M"
     ],
+    "afteryou": [
+      "E@slakoth"
+    ],
     "amnesia": [
       "L:17"
     ],
@@ -38,6 +42,9 @@
     ],
     "blizzard": [
       "M"
+    ],
+    "bodyslam": [
+      "E@slakoth"
     ],
     "brickbreak": [
       "M"
@@ -53,6 +60,12 @@
     ],
     "covet": [
       "L:23"
+    ],
+    "crushclaw": [
+      "E@slakoth"
+    ],
+    "curse": [
+      "E@slakoth"
     ],
     "cut": [
       "M"
@@ -106,7 +119,8 @@
     ],
     "hammerarm": [
       "L:61",
-      "L:1"
+      "L:1",
+      "E@slakoth"
     ],
     "headbutt": [
       "L:27"
@@ -119,6 +133,9 @@
     ],
     "lowsweep": [
       "M"
+    ],
+    "nightslash": [
+      "E@slakoth"
     ],
     "playrough": [
       "L:1"
@@ -168,10 +185,14 @@
       "L:1"
     ],
     "slash": [
-      "L:1"
+      "L:1",
+      "E@slakoth"
     ],
     "sleeptalk": [
       "M"
+    ],
+    "snore": [
+      "E@slakoth"
     ],
     "solarbeam": [
       "M"
@@ -200,6 +221,9 @@
     ],
     "thunderbolt": [
       "M"
+    ],
+    "tickle": [
+      "E@slakoth"
     ],
     "uproar": [
       "L:1"

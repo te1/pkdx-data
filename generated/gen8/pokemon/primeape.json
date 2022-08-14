@@ -19,6 +19,7 @@
     "spd": 70,
     "spe": 95
   },
+  "prevo": "mankey",
   "evoLevel": 28,
   "weight": 32,
   "genderRatio": {
@@ -38,6 +39,9 @@
     "attract": [
       "M"
     ],
+    "beatup": [
+      "E@mankey"
+    ],
     "brickbreak": [
       "M"
     ],
@@ -48,7 +52,11 @@
       "M"
     ],
     "closecombat": [
-      "L:39"
+      "L:39",
+      "E@mankey"
+    ],
+    "counter": [
+      "E@mankey"
     ],
     "covet": [
       "L:1"
@@ -64,6 +72,9 @@
     ],
     "earthquake": [
       "M"
+    ],
+    "encore": [
+      "E@mankey"
     ],
     "endure": [
       "M"
@@ -112,6 +123,9 @@
     "mudslap": [
       "L:8"
     ],
+    "nightslash": [
+      "E@mankey"
+    ],
     "outrage": [
       "L:53"
     ],
@@ -135,6 +149,12 @@
     ],
     "retaliate": [
       "L:15"
+    ],
+    "revenge": [
+      "E@mankey"
+    ],
+    "reversal": [
+      "E@mankey"
     ],
     "rockclimb": [
       "M"

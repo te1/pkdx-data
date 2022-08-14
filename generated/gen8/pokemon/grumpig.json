@@ -19,6 +19,7 @@
     "spd": 110,
     "spe": 80
   },
+  "prevo": "spoink",
   "evoLevel": 32,
   "weight": 71.5,
   "genderRatio": {
@@ -29,6 +30,9 @@
     "Field"
   ],
   "learnset": {
+    "amnesia": [
+      "E@spoink"
+    ],
     "attract": [
       "M"
     ],
@@ -71,6 +75,9 @@
     "energyball": [
       "M"
     ],
+    "extrasensory": [
+      "E@spoink"
+    ],
     "facade": [
       "M"
     ],
@@ -85,6 +92,9 @@
     ],
     "focuspunch": [
       "M"
+    ],
+    "futuresight": [
+      "E@spoink"
     ],
     "gigaimpact": [
       "M"
@@ -106,6 +116,9 @@
     ],
     "magiccoat": [
       "L:21"
+    ],
+    "mirrorcoat": [
+      "E@spoink"
     ],
     "nastyplot": [
       "M"
@@ -153,6 +166,9 @@
     "shockwave": [
       "M"
     ],
+    "simplebeam": [
+      "E@spoink"
+    ],
     "skillswap": [
       "M"
     ],
@@ -189,11 +205,18 @@
     "torment": [
       "M"
     ],
+    "trick": [
+      "E@spoink"
+    ],
     "trickroom": [
       "M"
     ],
+    "whirlwind": [
+      "E@spoink"
+    ],
     "zenheadbutt": [
-      "L:26"
+      "L:26",
+      "E@spoink"
     ]
   }
 }

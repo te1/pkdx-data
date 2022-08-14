@@ -20,8 +20,9 @@
     "spd": 65,
     "spe": 80
   },
+  "prevo": "hoppip",
   "evos": [
-    null
+    "jumpluff"
   ],
   "evoLevel": 18,
   "weight": 1,
@@ -43,6 +44,12 @@
     "aerialace": [
       "M"
     ],
+    "amnesia": [
+      "E@hoppip"
+    ],
+    "aromatherapy": [
+      "E@hoppip"
+    ],
     "attract": [
       "M"
     ],
@@ -53,14 +60,26 @@
       "M",
       "L:20"
     ],
+    "confusion": [
+      "E@hoppip"
+    ],
+    "cottonguard": [
+      "E@hoppip"
+    ],
     "cottonspore": [
       "L:40"
     ],
     "dazzlinggleam": [
       "M"
     ],
+    "doubleedge": [
+      "E@hoppip"
+    ],
     "doubleteam": [
       "M"
+    ],
+    "encore": [
+      "E@hoppip"
     ],
     "endure": [
       "M"
@@ -83,6 +102,12 @@
     ],
     "grassknot": [
       "M"
+    ],
+    "grassyterrain": [
+      "E@hoppip"
+    ],
+    "helpinghand": [
+      "E@hoppip"
     ],
     "leechseed": [
       "L:24"
@@ -111,6 +136,9 @@
     "rest": [
       "M"
     ],
+    "seedbomb": [
+      "E@hoppip"
+    ],
     "sleeppowder": [
       "L:16"
     ],
@@ -122,6 +150,9 @@
     ],
     "splash": [
       "L:1"
+    ],
+    "strengthsap": [
+      "E@hoppip"
     ],
     "stunspore": [
       "L:14"
@@ -154,7 +185,8 @@
       "L:44"
     ],
     "worryseed": [
-      "L:48"
+      "L:48",
+      "E@hoppip"
     ]
   }
 }

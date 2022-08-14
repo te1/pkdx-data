@@ -20,6 +20,7 @@
     "spd": 60,
     "spe": 70
   },
+  "prevo": "shroomish",
   "evoLevel": 23,
   "weight": 39.2,
   "genderRatio": {
@@ -46,6 +47,9 @@
     "bulletseed": [
       "M"
     ],
+    "charm": [
+      "E@shroomish"
+    ],
     "counter": [
       "L:22"
     ],
@@ -70,6 +74,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "faketears": [
+      "E@shroomish"
     ],
     "falseswipe": [
       "M"
@@ -107,6 +114,9 @@
     ],
     "headbutt": [
       "L:15"
+    ],
+    "helpinghand": [
+      "E@shroomish"
     ],
     "hyperbeam": [
       "M"
@@ -152,7 +162,8 @@
       "M"
     ],
     "seedbomb": [
-      "L:44"
+      "L:44",
+      "E@shroomish"
     ],
     "sleeptalk": [
       "M"
@@ -192,13 +203,15 @@
       "L:1"
     ],
     "toxic": [
-      "L:1"
+      "L:1",
+      "M@shroomish"
     ],
     "workup": [
       "M"
     ],
     "worryseed": [
-      "L:1"
+      "L:1",
+      "E@shroomish"
     ]
   }
 }

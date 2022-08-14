@@ -20,6 +20,7 @@
     "spd": 75,
     "spe": 90
   },
+  "prevo": "venonat",
   "evoLevel": 31,
   "weight": 12.5,
   "genderRatio": {
@@ -33,8 +34,17 @@
     "aerialace": [
       "M"
     ],
+    "agility": [
+      "E@venonat"
+    ],
     "attract": [
       "M"
+    ],
+    "batonpass": [
+      "E@venonat"
+    ],
+    "bugbite": [
+      "E@venonat"
     ],
     "bugbuzz": [
       "M",
@@ -83,6 +93,9 @@
     "megadrain": [
       "L:25"
     ],
+    "morningsun": [
+      "E@venonat"
+    ],
     "poisonfang": [
       "L:47"
     ],
@@ -103,11 +116,17 @@
       "L:63",
       "L:1"
     ],
+    "ragepowder": [
+      "E@venonat"
+    ],
     "rest": [
       "M"
     ],
     "roost": [
       "M"
+    ],
+    "screech": [
+      "E@venonat"
     ],
     "skillswap": [
       "M"
@@ -148,6 +167,9 @@
     ],
     "thief": [
       "M"
+    ],
+    "toxicspikes": [
+      "E@venonat"
     ],
     "uturn": [
       "M"

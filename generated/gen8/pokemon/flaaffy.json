@@ -18,8 +18,9 @@
     "spd": 60,
     "spe": 45
   },
+  "prevo": "mareep",
   "evos": [
-    null
+    "ampharos"
   ],
   "evoLevel": 15,
   "weight": 13.3,
@@ -32,14 +33,24 @@
     "Field"
   ],
   "learnset": {
+    "afteryou": [
+      "E@mareep"
+    ],
+    "agility": [
+      "E@mareep"
+    ],
     "attract": [
       "M"
+    ],
+    "bodyslam": [
+      "E@mareep"
     ],
     "brickbreak": [
       "M"
     ],
     "charge": [
-      "L:16"
+      "L:16",
+      "E@mareep"
     ],
     "chargebeam": [
       "M",
@@ -60,6 +71,12 @@
     "doubleteam": [
       "M"
     ],
+    "eerieimpulse": [
+      "E@mareep"
+    ],
+    "electricterrain": [
+      "E@mareep"
+    ],
     "electroball": [
       "L:25"
     ],
@@ -71,6 +88,9 @@
     ],
     "flash": [
       "M"
+    ],
+    "flatter": [
+      "E@mareep"
     ],
     "fling": [
       "M"
@@ -109,6 +129,12 @@
     "safeguard": [
       "M"
     ],
+    "sandattack": [
+      "E@mareep"
+    ],
+    "screech": [
+      "E@mareep"
+    ],
     "shockwave": [
       "M"
     ],
@@ -128,7 +154,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:20"
+      "L:20",
+      "E@mareep"
     ],
     "thunder": [
       "M",

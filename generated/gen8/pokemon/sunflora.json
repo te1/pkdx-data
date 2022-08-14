@@ -19,6 +19,7 @@
     "spd": 85,
     "spe": 30
   },
+  "prevo": "sunkern",
   "evoType": "useItem",
   "evoItem": "Sun Stone",
   "weight": 8.5,
@@ -40,6 +41,9 @@
       "M",
       "L:25"
     ],
+    "curse": [
+      "E@sunkern"
+    ],
     "cut": [
       "M"
     ],
@@ -48,6 +52,9 @@
     ],
     "doubleteam": [
       "M"
+    ],
+    "encore": [
+      "E@sunkern"
     ],
     "endeavor": [
       "L:1"
@@ -77,26 +84,40 @@
     "grassknot": [
       "M"
     ],
+    "grassyterrain": [
+      "E@sunkern"
+    ],
     "growth": [
       "L:1"
+    ],
+    "helpinghand": [
+      "E@sunkern"
     ],
     "hyperbeam": [
       "M"
     ],
     "ingrain": [
-      "L:4"
+      "L:4",
+      "E@sunkern"
     ],
     "leafstorm": [
       "L:43"
     ],
     "leechseed": [
-      "L:13"
+      "L:13",
+      "E@sunkern"
     ],
     "lightscreen": [
       "M"
     ],
     "megadrain": [
       "L:10"
+    ],
+    "morningsun": [
+      "E@sunkern"
+    ],
+    "naturepower": [
+      "E@sunkern"
     ],
     "petalblizzard": [
       "L:50"
@@ -141,6 +162,9 @@
     ],
     "swagger": [
       "M"
+    ],
+    "sweetscent": [
+      "E@sunkern"
     ],
     "swordsdance": [
       "M"

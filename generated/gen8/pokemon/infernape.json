@@ -19,6 +19,7 @@
     "spd": 71,
     "spe": 108
   },
+  "prevo": "monferno",
   "evoLevel": 36,
   "weight": 55,
   "genderRatio": {
@@ -42,6 +43,9 @@
     "blastburn": [
       "T"
     ],
+    "blazekick": [
+      "E@chimchar"
+    ],
     "brickbreak": [
       "M"
     ],
@@ -58,11 +62,17 @@
     "closecombat": [
       "L:1"
     ],
+    "counter": [
+      "E@chimchar"
+    ],
     "cut": [
       "M"
     ],
     "dig": [
       "M"
+    ],
+    "doublekick": [
+      "E@chimchar"
     ],
     "doubleteam": [
       "M"
@@ -74,6 +84,9 @@
       "L:7",
       "L:1"
     ],
+    "encore": [
+      "E@chimchar"
+    ],
     "endure": [
       "M"
     ],
@@ -81,11 +94,17 @@
       "M",
       "L:1"
     ],
+    "fakeout": [
+      "E@chimchar"
+    ],
     "feint": [
       "L:26"
     ],
     "fireblast": [
       "M"
+    ],
+    "firepunch": [
+      "E@chimchar"
     ],
     "firespin": [
       "L:42"
@@ -107,6 +126,9 @@
     "focusblast": [
       "M"
     ],
+    "focusenergy": [
+      "E@chimchar"
+    ],
     "focuspunch": [
       "M"
     ],
@@ -118,6 +140,12 @@
     ],
     "grassknot": [
       "M"
+    ],
+    "heatwave": [
+      "E@chimchar"
+    ],
+    "helpinghand": [
+      "E@chimchar"
     ],
     "hyperbeam": [
       "M"
@@ -145,10 +173,14 @@
       "M"
     ],
     "poweruppunch": [
-      "L:12"
+      "L:12",
+      "E@chimchar"
     ],
     "protect": [
       "M"
+    ],
+    "quickguard": [
+      "E@chimchar"
     ],
     "rest": [
       "M"
@@ -192,6 +224,9 @@
     "strength": [
       "M"
     ],
+    "submission": [
+      "E@chimchar"
+    ],
     "substitute": [
       "M"
     ],
@@ -208,6 +243,9 @@
       "M",
       "L:9",
       "L:1"
+    ],
+    "thunderpunch": [
+      "E@chimchar"
     ],
     "torment": [
       "M",

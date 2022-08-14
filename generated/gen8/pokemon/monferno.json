@@ -19,8 +19,9 @@
     "spd": 52,
     "spe": 81
   },
+  "prevo": "chimchar",
   "evos": [
-    null
+    "infernape"
   ],
   "evoLevel": 14,
   "weight": 22,
@@ -42,6 +43,9 @@
     "attract": [
       "M"
     ],
+    "blazekick": [
+      "E@chimchar"
+    ],
     "brickbreak": [
       "M"
     ],
@@ -51,11 +55,17 @@
     "closecombat": [
       "L:36"
     ],
+    "counter": [
+      "E@chimchar"
+    ],
     "cut": [
       "M"
     ],
     "dig": [
       "M"
+    ],
+    "doublekick": [
+      "E@chimchar"
     ],
     "doubleteam": [
       "M"
@@ -64,6 +74,9 @@
       "L:7",
       "L:1"
     ],
+    "encore": [
+      "E@chimchar"
+    ],
     "endure": [
       "M"
     ],
@@ -71,11 +84,17 @@
       "M",
       "L:1"
     ],
+    "fakeout": [
+      "E@chimchar"
+    ],
     "feint": [
       "L:26"
     ],
     "fireblast": [
       "M"
+    ],
+    "firepunch": [
+      "E@chimchar"
     ],
     "firespin": [
       "L:39"
@@ -96,6 +115,9 @@
     "focusblast": [
       "M"
     ],
+    "focusenergy": [
+      "E@chimchar"
+    ],
     "focuspunch": [
       "M"
     ],
@@ -104,6 +126,12 @@
     ],
     "grassknot": [
       "M"
+    ],
+    "heatwave": [
+      "E@chimchar"
+    ],
+    "helpinghand": [
+      "E@chimchar"
     ],
     "irontail": [
       "M"
@@ -128,10 +156,14 @@
       "M"
     ],
     "poweruppunch": [
-      "L:12"
+      "L:12",
+      "E@chimchar"
     ],
     "protect": [
       "M"
+    ],
+    "quickguard": [
+      "E@chimchar"
     ],
     "rest": [
       "M"
@@ -166,6 +198,9 @@
     "strength": [
       "M"
     ],
+    "submission": [
+      "E@chimchar"
+    ],
     "substitute": [
       "M"
     ],
@@ -181,6 +216,9 @@
     "taunt": [
       "M",
       "L:9"
+    ],
+    "thunderpunch": [
+      "E@chimchar"
     ],
     "torment": [
       "M",

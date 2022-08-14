@@ -20,6 +20,7 @@
     "spd": 80,
     "spe": 30
   },
+  "prevo": "slugma",
   "evoLevel": 38,
   "weight": 55,
   "genderRatio": {
@@ -30,6 +31,9 @@
     "Amorphous"
   ],
   "learnset": {
+    "acidarmor": [
+      "E@slugma"
+    ],
     "amnesia": [
       "L:36"
     ],
@@ -48,12 +52,16 @@
     "clearsmog": [
       "L:20"
     ],
+    "curse": [
+      "E@slugma"
+    ],
     "doubleteam": [
       "M"
     ],
     "earthpower": [
       "L:58",
-      "L:1"
+      "L:1",
+      "E@slugma"
     ],
     "earthquake": [
       "M"
@@ -81,11 +89,17 @@
     "gigaimpact": [
       "M"
     ],
+    "guardswap": [
+      "E@slugma"
+    ],
     "gyroball": [
       "M"
     ],
     "harden": [
       "L:13"
+    ],
+    "heatwave": [
+      "E@slugma"
     ],
     "hyperbeam": [
       "M"
@@ -93,11 +107,17 @@
     "incinerate": [
       "L:15"
     ],
+    "inferno": [
+      "E@slugma"
+    ],
     "lavaplume": [
       "L:34"
     ],
     "lightscreen": [
       "M"
+    ],
+    "memento": [
+      "E@slugma"
     ],
     "overheat": [
       "M"
@@ -131,6 +151,9 @@
     "rocktomb": [
       "M"
     ],
+    "rollout": [
+      "E@slugma"
+    ],
     "sandstorm": [
       "M"
     ],
@@ -143,11 +166,20 @@
     "smog": [
       "L:1"
     ],
+    "smokescreen": [
+      "E@slugma"
+    ],
     "solarbeam": [
       "M"
     ],
+    "spitup": [
+      "E@slugma"
+    ],
     "stealthrock": [
       "M"
+    ],
+    "stockpile": [
+      "E@slugma"
     ],
     "stoneedge": [
       "M"
@@ -163,6 +195,9 @@
     ],
     "swagger": [
       "M"
+    ],
+    "swallow": [
+      "E@slugma"
     ],
     "willowisp": [
       "M"

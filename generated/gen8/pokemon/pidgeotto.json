@@ -20,8 +20,9 @@
     "spd": 50,
     "spe": 71
   },
+  "prevo": "pidgey",
   "evos": [
-    null
+    "pidgeot"
   ],
   "evoLevel": 18,
   "weight": 30,
@@ -40,11 +41,18 @@
     "agility": [
       "L:32"
     ],
+    "aircutter": [
+      "E@pidgey"
+    ],
     "airslash": [
-      "L:57"
+      "L:57",
+      "E@pidgey"
     ],
     "attract": [
       "M"
+    ],
+    "bravebird": [
+      "E@pidgey"
     ],
     "defog": [
       "M"
@@ -120,6 +128,9 @@
     ],
     "twister": [
       "L:22"
+    ],
+    "uproar": [
+      "E@pidgey"
     ],
     "uturn": [
       "M"

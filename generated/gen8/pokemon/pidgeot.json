@@ -20,6 +20,7 @@
     "spd": 70,
     "spe": 101
   },
+  "prevo": "pidgeotto",
   "evoLevel": 36,
   "weight": 39.5,
   "genderRatio": {
@@ -37,11 +38,18 @@
     "agility": [
       "L:32"
     ],
+    "aircutter": [
+      "E@pidgey"
+    ],
     "airslash": [
-      "L:62"
+      "L:62",
+      "E@pidgey"
     ],
     "attract": [
       "M"
+    ],
+    "bravebird": [
+      "E@pidgey"
     ],
     "defog": [
       "M"
@@ -125,6 +133,9 @@
     ],
     "twister": [
       "L:22"
+    ],
+    "uproar": [
+      "E@pidgey"
     ],
     "uturn": [
       "M"

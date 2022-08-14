@@ -18,6 +18,7 @@
     "spd": 75,
     "spe": 52
   },
+  "prevo": "clamperl",
   "evoType": "trade",
   "evoItem": "Deep Sea Tooth",
   "weight": 27,
@@ -29,6 +30,9 @@
     "Water 1"
   ],
   "learnset": {
+    "aquaring": [
+      "E@clamperl"
+    ],
     "aquatail": [
       "L:39"
     ],
@@ -44,12 +48,18 @@
     "blizzard": [
       "M"
     ],
+    "bodyslam": [
+      "E@clamperl"
+    ],
     "brine": [
       "M",
       "L:19"
     ],
     "coil": [
       "L:45"
+    ],
+    "confuseray": [
+      "E@clamperl"
     ],
     "crunch": [
       "L:34"
@@ -87,6 +97,9 @@
     "irondefense": [
       "L:1"
     ],
+    "muddywater": [
+      "E@clamperl"
+    ],
     "protect": [
       "M"
     ],
@@ -120,6 +133,9 @@
     ],
     "suckerpunch": [
       "L:23"
+    ],
+    "supersonic": [
+      "E@clamperl"
     ],
     "surf": [
       "M"

@@ -19,6 +19,7 @@
     "spd": 63,
     "spe": 65
   },
+  "prevo": "shuppet",
   "evoLevel": 37,
   "weight": 12.5,
   "genderRatio": {
@@ -29,6 +30,9 @@
     "Amorphous"
   ],
   "learnset": {
+    "astonish": [
+      "E@shuppet"
+    ],
     "attract": [
       "M"
     ],
@@ -38,6 +42,9 @@
     "chargebeam": [
       "M"
     ],
+    "confuseray": [
+      "E@shuppet"
+    ],
     "curse": [
       "L:26"
     ],
@@ -46,6 +53,12 @@
     ],
     "dazzlinggleam": [
       "M"
+    ],
+    "destinybond": [
+      "E@shuppet"
+    ],
+    "disable": [
+      "E@shuppet"
     ],
     "doubleteam": [
       "M"
@@ -71,11 +84,17 @@
     "grudge": [
       "L:52"
     ],
+    "gunkshot": [
+      "E@shuppet"
+    ],
     "hex": [
       "L:22"
     ],
     "hyperbeam": [
       "M"
+    ],
+    "imprison": [
+      "E@shuppet"
     ],
     "knockoff": [
       "L:46",
@@ -93,7 +112,8 @@
     ],
     "phantomforce": [
       "L:64",
-      "L:1"
+      "L:1",
+      "E@shuppet"
     ],
     "protect": [
       "M"
@@ -125,7 +145,8 @@
       "M"
     ],
     "shadowsneak": [
-      "L:13"
+      "L:13",
+      "E@shuppet"
     ],
     "shockwave": [
       "M"

@@ -20,6 +20,7 @@
     "spd": 75,
     "spe": 40
   },
+  "prevo": "numel",
   "evoLevel": 33,
   "weight": 220,
   "genderRatio": {
@@ -33,8 +34,14 @@
     "amnesia": [
       "L:19"
     ],
+    "ancientpower": [
+      "E@numel"
+    ],
     "attract": [
       "M"
+    ],
+    "bodyslam": [
+      "E@numel"
     ],
     "bulldoze": [
       "M",
@@ -42,6 +49,9 @@
     ],
     "curse": [
       "L:29"
+    ],
+    "defensecurl": [
+      "E@numel"
     ],
     "dig": [
       "M"
@@ -103,8 +113,23 @@
     "growl": [
       "L:1"
     ],
+    "growth": [
+      "E@numel"
+    ],
+    "heatwave": [
+      "E@numel"
+    ],
+    "heavyslam": [
+      "E@numel"
+    ],
+    "howl": [
+      "E@numel"
+    ],
     "hyperbeam": [
       "M"
+    ],
+    "ironhead": [
+      "E@numel"
     ],
     "lavaplume": [
       "L:22"
@@ -134,8 +159,14 @@
     "rocktomb": [
       "M"
     ],
+    "rollout": [
+      "E@numel"
+    ],
     "sandstorm": [
       "M"
+    ],
+    "scaryface": [
+      "E@numel"
     ],
     "sleeptalk": [
       "M"
@@ -143,8 +174,17 @@
     "solarbeam": [
       "M"
     ],
+    "spitup": [
+      "E@numel"
+    ],
     "stealthrock": [
       "M"
+    ],
+    "stockpile": [
+      "E@numel"
+    ],
+    "stomp": [
+      "E@numel"
     ],
     "stoneedge": [
       "M"
@@ -161,6 +201,9 @@
     "swagger": [
       "M"
     ],
+    "swallow": [
+      "E@numel"
+    ],
     "tackle": [
       "L:1"
     ],
@@ -171,7 +214,8 @@
       "M"
     ],
     "yawn": [
-      "L:39"
+      "L:39",
+      "E@numel"
     ]
   }
 }

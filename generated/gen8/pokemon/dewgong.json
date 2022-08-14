@@ -20,6 +20,7 @@
     "spd": 95,
     "spe": 70
   },
+  "prevo": "seel",
   "evoLevel": 34,
   "weight": 120,
   "genderRatio": {
@@ -49,6 +50,9 @@
     "avalanche": [
       "M"
     ],
+    "belch": [
+      "E@seel"
+    ],
     "blizzard": [
       "M"
     ],
@@ -60,6 +64,9 @@
       "L:7",
       "L:1"
     ],
+    "disable": [
+      "E@seel"
+    ],
     "dive": [
       "L:45"
     ],
@@ -67,13 +74,20 @@
       "M"
     ],
     "encore": [
-      "L:13"
+      "L:13",
+      "E@seel"
     ],
     "endure": [
       "M"
     ],
+    "entrainment": [
+      "E@seel"
+    ],
     "facade": [
       "M"
+    ],
+    "fakeout": [
+      "E@seel"
     ],
     "fling": [
       "M"
@@ -92,6 +106,9 @@
     "headbutt": [
       "L:1"
     ],
+    "horndrill": [
+      "E@seel"
+    ],
     "hyperbeam": [
       "M"
     ],
@@ -102,12 +119,21 @@
     "iceshard": [
       "L:17"
     ],
+    "iciclespear": [
+      "E@seel"
+    ],
     "icywind": [
       "L:11",
       "L:1"
     ],
     "irontail": [
       "M"
+    ],
+    "lick": [
+      "E@seel"
+    ],
+    "perishsong": [
+      "E@seel"
     ],
     "protect": [
       "M"
@@ -126,8 +152,17 @@
     "sheercold": [
       "L:1"
     ],
+    "slam": [
+      "E@seel"
+    ],
     "sleeptalk": [
       "M"
+    ],
+    "spitup": [
+      "E@seel"
+    ],
+    "stockpile": [
+      "E@seel"
     ],
     "substitute": [
       "M"
@@ -137,6 +172,9 @@
     ],
     "swagger": [
       "M"
+    ],
+    "swallow": [
+      "E@seel"
     ],
     "takedown": [
       "L:39"

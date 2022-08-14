@@ -18,6 +18,7 @@
     "spd": 60,
     "spe": 50
   },
+  "prevo": "phanpy",
   "evoLevel": 25,
   "weight": 120,
   "genderRatio": {
@@ -28,11 +29,17 @@
     "Field"
   ],
   "learnset": {
+    "ancientpower": [
+      "E@phanpy"
+    ],
     "assurance": [
       "L:15"
     ],
     "attract": [
       "M"
+    ],
+    "bodyslam": [
+      "E@phanpy"
     ],
     "bulldoze": [
       "M",
@@ -40,6 +47,9 @@
     ],
     "charm": [
       "L:1"
+    ],
+    "counter": [
+      "E@phanpy"
     ],
     "defensecurl": [
       "L:1"
@@ -54,6 +64,9 @@
       "M",
       "L:43"
     ],
+    "endeavor": [
+      "E@phanpy"
+    ],
     "endure": [
       "M",
       "L:1"
@@ -64,8 +77,14 @@
     "firefang": [
       "L:1"
     ],
+    "fissure": [
+      "E@phanpy"
+    ],
     "flail": [
       "L:1"
+    ],
+    "focusenergy": [
+      "E@phanpy"
     ],
     "furyattack": [
       "L:1"
@@ -80,11 +99,23 @@
     "gyroball": [
       "M"
     ],
+    "headsmash": [
+      "E@phanpy"
+    ],
+    "heavyslam": [
+      "E@phanpy"
+    ],
+    "highhorsepower": [
+      "E@phanpy"
+    ],
     "hornattack": [
       "L:1"
     ],
     "hyperbeam": [
       "M"
+    ],
+    "iceshard": [
+      "E@phanpy"
     ],
     "irontail": [
       "M"
@@ -94,6 +125,12 @@
     ],
     "lastresort": [
       "L:1"
+    ],
+    "mudslap": [
+      "E@phanpy"
+    ],
+    "playrough": [
+      "E@phanpy"
     ],
     "poisonjab": [
       "M"
@@ -137,6 +174,9 @@
     ],
     "sleeptalk": [
       "M"
+    ],
+    "snore": [
+      "E@phanpy"
     ],
     "stealthrock": [
       "M"

@@ -19,6 +19,7 @@
     "spd": 60,
     "spe": 70
   },
+  "prevo": "poochyena",
   "evoLevel": 18,
   "weight": 37,
   "genderRatio": {
@@ -32,12 +33,18 @@
     "assurance": [
       "L:24"
     ],
+    "astonish": [
+      "E@poochyena"
+    ],
     "attract": [
       "M"
     ],
     "bite": [
       "L:10",
       "L:1"
+    ],
+    "covet": [
+      "E@poochyena"
     ],
     "crunch": [
       "L:40",
@@ -59,7 +66,8 @@
       "M"
     ],
     "firefang": [
-      "L:1"
+      "L:1",
+      "E@poochyena"
     ],
     "gigaimpact": [
       "M"
@@ -75,10 +83,14 @@
       "M"
     ],
     "icefang": [
-      "L:1"
+      "L:1",
+      "E@poochyena"
     ],
     "irontail": [
       "M"
+    ],
+    "leer": [
+      "E@poochyena"
     ],
     "mudslap": [
       "L:13"
@@ -90,7 +102,11 @@
       "M"
     ],
     "playrough": [
-      "L:56"
+      "L:56",
+      "E@poochyena"
+    ],
+    "poisonfang": [
+      "E@poochyena"
     ],
     "protect": [
       "M"
@@ -132,7 +148,8 @@
       "M"
     ],
     "suckerpunch": [
-      "L:52"
+      "L:52",
+      "E@poochyena"
     ],
     "sunnyday": [
       "M"
@@ -156,13 +173,15 @@
       "L:1"
     ],
     "thunderfang": [
-      "L:1"
+      "L:1",
+      "E@poochyena"
     ],
     "torment": [
       "M"
     ],
     "yawn": [
-      "L:44"
+      "L:44",
+      "E@poochyena"
     ]
   }
 }

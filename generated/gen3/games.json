@@ -10,11 +10,37 @@
     "games": [
       {
         "slug": "red",
-        "name": "Red"
+        "name": "Red",
+        "exclusive": [
+          "ekans",
+          "arbok",
+          "oddish",
+          "gloom",
+          "vileplume",
+          "mankey",
+          "primeape",
+          "growlithe",
+          "arcanine",
+          "scyther",
+          "electabuzz"
+        ]
       },
       {
         "slug": "blue",
-        "name": "Blue"
+        "name": "Blue",
+        "exclusive": [
+          "sandshrew",
+          "sandslash",
+          "vulpix",
+          "ninetales",
+          "meowth",
+          "persian",
+          "bellsprout",
+          "weepinbell",
+          "victreebel",
+          "magmar",
+          "pinsir"
+        ]
       }
     ]
   },
@@ -29,7 +55,22 @@
     "games": [
       {
         "slug": "yellow",
-        "name": "Yellow"
+        "name": "Yellow",
+        "missing": [
+          "weedle",
+          "kakuna",
+          "beedrill",
+          "ekans",
+          "arbok",
+          "raichu",
+          "meowth",
+          "persian",
+          "koffing",
+          "weezing",
+          "jynx",
+          "electabuzz",
+          "magmar"
+        ]
       }
     ]
   },
@@ -44,11 +85,35 @@
     "games": [
       {
         "slug": "gold",
-        "name": "Gold"
+        "name": "Gold",
+        "exclusive": [
+          "mankey",
+          "primeape",
+          "growlithe",
+          "arcanine",
+          "spinarak",
+          "ariados",
+          "gligar",
+          "teddiursa",
+          "ursaring",
+          "mantine"
+        ]
       },
       {
         "slug": "silver",
-        "name": "Silver"
+        "name": "Silver",
+        "exclusive": [
+          "vulpix",
+          "ninetales",
+          "meowth",
+          "persian",
+          "ledyba",
+          "ledian",
+          "delibird",
+          "skarmory",
+          "phanpy",
+          "donphan"
+        ]
       }
     ]
   },
@@ -63,7 +128,37 @@
     "games": [
       {
         "slug": "crystal",
-        "name": "Crystal"
+        "name": "Crystal",
+        "missing": [
+          "vulpix",
+          "ninetales",
+          "mankey",
+          "primeape",
+          "mareep",
+          "flaaffy",
+          "ampharos",
+          "girafarig",
+          "remoraid",
+          "octillery",
+          "bulbasaur",
+          "ivysaur",
+          "venusaur",
+          "charmander",
+          "charmeleon",
+          "charizard",
+          "squirtle",
+          "wartortle",
+          "blastoise",
+          "omanyte",
+          "omastar",
+          "kabuto",
+          "kabutops",
+          "articuno",
+          "zapdos",
+          "moltres",
+          "mewtwo",
+          "mew"
+        ]
       }
     ]
   },
@@ -79,11 +174,31 @@
     "games": [
       {
         "slug": "ruby",
-        "name": "Ruby"
+        "name": "Ruby",
+        "exclusive": [
+          "seedot",
+          "nuzleaf",
+          "shiftry",
+          "mawile",
+          "zangoose",
+          "solrock",
+          "latios",
+          "groudon"
+        ]
       },
       {
         "slug": "sapphire",
-        "name": "Sapphire"
+        "name": "Sapphire",
+        "exclusive": [
+          "lotad",
+          "lombre",
+          "ludicolo",
+          "sableye",
+          "seviper",
+          "lunatone",
+          "latias",
+          "kyogre"
+        ]
       }
     ]
   },
@@ -99,11 +214,62 @@
     "games": [
       {
         "slug": "firered",
-        "name": "FireRed"
+        "name": "FireRed",
+        "exclusive": [
+          "ekans",
+          "arbok",
+          "oddish",
+          "gloom",
+          "vileplume",
+          "psyduck",
+          "golduck",
+          "growlithe",
+          "arcanine",
+          "shellder",
+          "cloyster",
+          "scyther",
+          "electabuzz",
+          "bellossom",
+          "wooper",
+          "quagsire",
+          "murkrow",
+          "qwilfish",
+          "scizor",
+          "delibird",
+          "skarmory",
+          "elekid",
+          "deoxys-attack"
+        ]
       },
       {
         "slug": "leafgreen",
-        "name": "LeafGreen"
+        "name": "LeafGreen",
+        "exclusive": [
+          "sandshrew",
+          "sandslash",
+          "vulpix",
+          "ninetales",
+          "bellsprout",
+          "weepinbell",
+          "victreebel",
+          "slowpoke",
+          "slowbro",
+          "staryu",
+          "starmie",
+          "magmar",
+          "pinsir",
+          "marill",
+          "azumarill",
+          "slowking",
+          "misdreavus",
+          "sneasel",
+          "remoraid",
+          "octillery",
+          "mantine",
+          "magby",
+          "azurill",
+          "deoxys-defense"
+        ]
       }
     ]
   },
@@ -119,7 +285,16 @@
     "games": [
       {
         "slug": "emerald",
-        "name": "Emerald"
+        "name": "Emerald",
+        "missing": [
+          "surskit",
+          "masquerain",
+          "meditite",
+          "medicham",
+          "roselia",
+          "zangoose",
+          "lunatone"
+        ]
       }
     ]
   }

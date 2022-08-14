@@ -10,11 +10,37 @@
     "games": [
       {
         "slug": "red",
-        "name": "Red"
+        "name": "Red",
+        "exclusive": [
+          "ekans",
+          "arbok",
+          "oddish",
+          "gloom",
+          "vileplume",
+          "mankey",
+          "primeape",
+          "growlithe",
+          "arcanine",
+          "scyther",
+          "electabuzz"
+        ]
       },
       {
         "slug": "blue",
-        "name": "Blue"
+        "name": "Blue",
+        "exclusive": [
+          "sandshrew",
+          "sandslash",
+          "vulpix",
+          "ninetales",
+          "meowth",
+          "persian",
+          "bellsprout",
+          "weepinbell",
+          "victreebel",
+          "magmar",
+          "pinsir"
+        ]
       }
     ]
   },
@@ -29,7 +55,22 @@
     "games": [
       {
         "slug": "yellow",
-        "name": "Yellow"
+        "name": "Yellow",
+        "missing": [
+          "weedle",
+          "kakuna",
+          "beedrill",
+          "ekans",
+          "arbok",
+          "raichu",
+          "meowth",
+          "persian",
+          "koffing",
+          "weezing",
+          "jynx",
+          "electabuzz",
+          "magmar"
+        ]
       }
     ]
   }

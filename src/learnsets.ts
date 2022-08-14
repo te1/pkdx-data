@@ -190,7 +190,7 @@ async function getLearnset(
 
   if (slug) {
     // use manually defined learnset (for la)
-    learnset = extraData[slug];
+    learnset = extraData[`gen${gen.num}`]?.[slug] ?? extraData['all']?.[slug];
   }
 
   if (!learnset) {

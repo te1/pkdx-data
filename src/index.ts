@@ -31,6 +31,7 @@ async function main() {
       await exportPokemon(
         genData.gen,
         genData.simGen,
+        genData.genBdsp,
         target,
         speciesMap,
         moveMap,
@@ -48,6 +49,7 @@ async function main() {
     // TODO handle gen7 let's go?
     // TODO handle gen8 bdsp
     // TODO handle gen8 la
+    // - Oshawott, Dewott, Ursaluna, Wyrdeer
     // TODO handle gen9 preview
 
     console.log('done');

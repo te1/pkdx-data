@@ -31,6 +31,7 @@ let extraData: any;
 export async function getMergedLearnset(
   species: Specie | undefined,
   gen: Generation,
+  modGen: Generation | undefined,
   speciesMap: SpeciesMap,
   override: Record<string, { mergeLearnsetFrom?: string }>
 ): Promise<Learnset> {
@@ -45,7 +46,13 @@ export async function getMergedLearnset(
     return merged;
   }
 
-  const learnsets = await getLearnsets(species, gen, speciesMap, override);
+  const learnsets = await getLearnsets(
+    species,
+    gen,
+    modGen,
+    speciesMap,
+    override
+  );
   const originalSlug = speciesMap.getSlugByShowdownId(species.id);
 
   for (const item of learnsets) {
@@ -106,6 +113,7 @@ export async function getMergedLearnset(
     return await getMergedLearnset(
       gen.species.get(species.changesFrom),
       gen,
+      modGen,
       speciesMap,
       override
     );
@@ -116,6 +124,7 @@ export async function getMergedLearnset(
     return await getMergedLearnset(
       gen.species.get(species.baseSpecies),
       gen,
+      modGen,
       speciesMap,
       override
     );
@@ -128,6 +137,7 @@ export async function getMergedLearnset(
 async function getLearnsets(
   species: Specie,
   gen: Generation,
+  modGen: Generation | undefined,
   speciesMap: SpeciesMap,
   override: Record<string, { mergeLearnsetFrom?: string }>
 ): Promise<Learnsets> {
@@ -136,7 +146,7 @@ async function getLearnsets(
   let currentSpecies: Specie | undefined = species;
 
   while (currentSpecies) {
-    const learnset = await getLearnset(currentSpecies, gen, speciesMap);
+    const learnset = await getLearnset(currentSpecies, gen, modGen, speciesMap);
 
     if (learnset) {
       learnsets.push({
@@ -164,6 +174,7 @@ async function getLearnsets(
 async function getLearnset(
   species: Specie,
   gen: Generation,
+  modGen: Generation | undefined,
   speciesMap: SpeciesMap
 ): Promise<Learnset | undefined> {
   let learnset: Learnset | undefined;
@@ -171,6 +182,7 @@ async function getLearnset(
   const slug = speciesMap.getSlugByShowdownName(species.name);
 
   if (slug) {
+    // use manually defined learnset (for la)
     learnset = extraData[slug];
   }
 
@@ -182,6 +194,21 @@ async function getLearnset(
     return;
   }
 
+  learnset = prepareLearnset(learnset, gen);
+
+  if (!learnset && gen.num === 8 && modGen) {
+    // learnset is empty, try bdps mod learnset instead
+    learnset = (await modGen.learnsets.get(species.id))?.learnset;
+
+    if (learnset) {
+      learnset = prepareLearnset(learnset, gen);
+    }
+  }
+
+  return learnset;
+}
+
+function prepareLearnset(learnset: Learnset, gen: Generation) {
   // keep only moves that can be learned in the current gen
   learnset = _.mapValues(learnset, (moveSources) => {
     return _.filter(moveSources, (moveSource) => {

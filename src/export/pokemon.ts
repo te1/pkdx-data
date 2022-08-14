@@ -41,6 +41,7 @@ let extraData: any;
 export async function exportPokemon(
   gen: Generation,
   simGen: Generation,
+  modGen: Generation | undefined,
   target: string,
   speciesMap: SpeciesMap,
   moveMap: PokemonMap,
@@ -150,6 +151,7 @@ export async function exportPokemon(
       learnset = await getMergedLearnset(
         species,
         gen,
+        modGen,
         speciesMap,
         extraData.override
       );

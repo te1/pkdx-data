@@ -1,7 +1,7 @@
 import _ from 'lodash';
-import { Dex /* , ID, ModData */ } from '@pkmn/dex';
+import { Dex, ID, ModData } from '@pkmn/dex';
 import { Dex as SimDex } from '@pkmn/sim';
-// import { ModdedDex } from '@pkmn/mods';
+import { ModdedDex } from '@pkmn/mods';
 import { Generations, GenerationNum, Data } from '@pkmn/data';
 
 const excludeSpeciesId = [
@@ -182,20 +182,25 @@ const existsFn = (d: Data, g: GenerationNum) => {
 export async function getData() {
   // weird cast for `existsFn` because the constructor has the wrong typings for exists
 
+  // use @pkmn/data on top of @pkmn/dex for most things
   const gens = new Generations(Dex, existsFn as (d: Data) => boolean);
-  // const dex = Dex.mod(
-  //   'gen8bdsp' as ID,
-  //   (await import('@pkmn/mods/gen8bdsp')) as ModData
-  // );
-  // const gens = new Generations(
-  //   new ModdedDex(dex),
-  //   existsFn as (d: Data) => boolean
-  // );
 
+  // use @pkmn/data on top of @pkmn/sim for height
   const simGens = new Generations(
     SimDex as unknown as typeof Dex,
     existsFn as (d: Data) => boolean
   );
+
+  // use @pkmn/data on top of @pkmn/dex with @pkmn/mods for bdsp learnsets
+  const dexBdsp = Dex.mod(
+    'gen8bdsp' as ID,
+    (await import('@pkmn/mods/gen8bdsp')) as ModData
+  );
+  const gensBdsp = new Generations(
+    new ModdedDex(dexBdsp),
+    existsFn as (d: Data) => boolean
+  );
+
   const genNums: GenerationNum[] = [1, 2, 3, 4, 5, 6, 7, 8];
 
   const result = [];
@@ -205,6 +210,7 @@ export async function getData() {
       genNum,
       gen: gens.get(genNum),
       simGen: simGens.get(genNum),
+      genBdsp: genNum === 8 ? gensBdsp.get(genNum) : undefined,
     });
   }
 

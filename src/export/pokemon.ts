@@ -64,14 +64,30 @@ export async function exportPokemon(
   const hasAbilities = gen.num >= 3;
   const hasDynamax = gen.num === 8;
 
-  let speciesList = [...gen.species];
+  let speciesList = _.map(Array.from(gen.species), (species) => {
+    return {
+      species,
+      gen,
+    };
+  });
+
   if (gen.num === 8 && modGen) {
-    speciesList = _.uniqBy([...speciesList, ...modGen.species], 'id');
+    const modSpeciesList = _.map(Array.from(modGen.species), (species) => {
+      return {
+        species,
+        gen: modGen,
+      };
+    });
+
+    speciesList = _.uniqBy([...speciesList, ...modSpeciesList], 'species.id');
   }
 
   let result = [];
 
-  for (const species of speciesList) {
+  for (const speciesItem of speciesList) {
+    const species = speciesItem.species;
+    const gen = speciesItem.gen;
+
     // species is from @pkmn/data but for height we need simSpecies from @pkmn/sim
     const simSpecies = simGen.species.get(
       species.name

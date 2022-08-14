@@ -47,7 +47,6 @@ async function main() {
 
     // TODO export HM/TM/TR
     // TODO handle gen7 let's go?
-    // TODO handle gen8 bdsp
     // TODO handle gen8 la
     // - Oshawott, Dewott, Ursaluna, Wyrdeer
     // TODO handle gen9 preview

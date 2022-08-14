@@ -59,36 +59,36 @@ export async function getMergedLearnset(
     const mergedSlug = speciesMap.getSlugByShowdownId(item.species.id);
 
     for (const [moveSlug, moveSources] of Object.entries(item.learnset)) {
-      if (merged[moveSlug]) {
-        const unique = [];
+      if (!merged[moveSlug]) {
+        merged[moveSlug] = [];
+      }
 
-        // loop label to break out of the outer loop in the inner loop
-        loop: for (const moveSource of moveSources) {
-          const prefix = moveSource.slice(0, 1);
+      const unique = [];
 
-          for (const existingMoveSource of merged[moveSlug]) {
-            if (existingMoveSource.startsWith(prefix)) {
-              continue loop;
-            }
+      // loop label to break out of the outer loop in the inner loop
+      loop: for (const moveSource of moveSources) {
+        const prefix = moveSource.slice(0, 1);
+
+        for (const existingMoveSource of merged[moveSlug]) {
+          if (existingMoveSource.startsWith(prefix)) {
+            continue loop;
           }
-
-          let formatted = moveSource;
-
-          if (
-            species.id !== item.species.id &&
-            mergedSlug &&
-            mergedSlug !== override[originalSlug ?? '']?.mergeLearnsetFrom
-          ) {
-            formatted = `${formatted}@${mergedSlug}`;
-          }
-
-          unique.push(formatted);
         }
 
-        merged[moveSlug].push(...unique);
-      } else {
-        merged[moveSlug] = moveSources;
+        let formatted = moveSource;
+
+        if (
+          species.id !== item.species.id &&
+          mergedSlug &&
+          mergedSlug !== override[originalSlug ?? '']?.mergeLearnsetFrom
+        ) {
+          formatted = `${formatted}@${mergedSlug}`;
+        }
+
+        unique.push(formatted);
       }
+
+      merged[moveSlug].push(...unique);
     }
   }
 

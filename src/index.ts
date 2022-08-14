@@ -32,6 +32,7 @@ async function main() {
         genData.gen,
         genData.simGen,
         genData.genBdsp,
+        genData.simGenBdsp,
         target,
         speciesMap,
         moveMap,

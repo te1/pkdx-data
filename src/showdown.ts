@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import { Dex, ID, ModData } from '@pkmn/dex';
-import { Dex as SimDex } from '@pkmn/sim';
+import { Dex as SimDex, ID as SimID, ModData as SimModData } from '@pkmn/sim';
 import { ModdedDex } from '@pkmn/mods';
 import { Generations, GenerationNum, Data } from '@pkmn/data';
 
@@ -191,13 +191,23 @@ export async function getData() {
     existsFn as (d: Data) => boolean
   );
 
-  // use @pkmn/data on top of @pkmn/dex with @pkmn/mods for bdsp learnsets
+  // use @pkmn/data on top of @pkmn/dex with @pkmn/mods for bdsp
   const dexBdsp = Dex.mod(
     'gen8bdsp' as ID,
     (await import('@pkmn/mods/gen8bdsp')) as ModData
   );
   const gensBdsp = new Generations(
     new ModdedDex(dexBdsp),
+    existsFn as (d: Data) => boolean
+  );
+
+  // use @pkmn/data on top of @pkmn/sim with @pkmn/mods for bdsp heights
+  const simDexBdsp = SimDex.mod(
+    'gen8bdsp' as SimID,
+    (await import('@pkmn/mods/gen8bdsp')) as SimModData
+  );
+  const simGensBdsp = new Generations(
+    new ModdedDex(simDexBdsp as unknown as typeof Dex),
     existsFn as (d: Data) => boolean
   );
 
@@ -211,6 +221,7 @@ export async function getData() {
       gen: gens.get(genNum),
       simGen: simGens.get(genNum),
       genBdsp: genNum === 8 ? gensBdsp.get(genNum) : undefined,
+      simGenBdsp: genNum === 8 ? simGensBdsp.get(genNum) : undefined,
     });
   }
 

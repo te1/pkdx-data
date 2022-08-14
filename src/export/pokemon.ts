@@ -48,6 +48,7 @@ export async function exportPokemon(
   gen: Generation,
   simGen: Generation,
   modGen: Generation | undefined,
+  simModGen: Generation | undefined,
   target: string,
   speciesMap: SpeciesMap,
   moveMap: PokemonMap,
@@ -68,14 +69,16 @@ export async function exportPokemon(
     return {
       species,
       gen,
+      simGen,
     };
   });
 
-  if (gen.num === 8 && modGen) {
+  if (gen.num === 8 && modGen && simModGen) {
     const modSpeciesList = _.map(Array.from(modGen.species), (species) => {
       return {
         species,
         gen: modGen,
+        simGen: simModGen,
       };
     });
 
@@ -87,6 +90,7 @@ export async function exportPokemon(
   for (const speciesItem of speciesList) {
     const species = speciesItem.species;
     const gen = speciesItem.gen;
+    const simGen = speciesItem.simGen;
 
     // species is from @pkmn/data but for height we need simSpecies from @pkmn/sim
     const simSpecies = simGen.species.get(

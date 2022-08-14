@@ -139,7 +139,10 @@ async function getLearnsets(
   gen: Generation,
   modGen: Generation | undefined,
   speciesMap: SpeciesMap,
-  override: Record<string, { mergeLearnsetFrom?: string }>
+  override: Record<
+    string,
+    { mergeLearnsetFrom?: string; skipPrevoLearnset?: boolean }
+  >
 ): Promise<Learnsets> {
   const learnsets: Learnsets = [];
 
@@ -155,13 +158,17 @@ async function getLearnsets(
       });
     }
 
-    const mergeLearnsetFrom =
-      override[speciesMap.getSlugByShowdownName(currentSpecies.name) || '']
-        ?.mergeLearnsetFrom;
+    const currentSlug = speciesMap.getSlugByShowdownName(currentSpecies.name);
+
+    const mergeLearnsetFrom = override[currentSlug ?? '']?.mergeLearnsetFrom;
+
+    const skipPrevoLearnset =
+      currentSpecies.forme === 'Hisui' ||
+      override[currentSlug ?? '']?.skipPrevoLearnset;
 
     if (mergeLearnsetFrom) {
       currentSpecies = gen.species.get(mergeLearnsetFrom);
-    } else if (currentSpecies.prevo && currentSpecies.forme !== 'Hisui') {
+    } else if (currentSpecies.prevo && !skipPrevoLearnset) {
       currentSpecies = gen.species.get(currentSpecies.prevo);
     } else {
       currentSpecies = undefined;

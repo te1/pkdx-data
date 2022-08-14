@@ -18,12 +18,18 @@ import { getMergedLearnset, Learnset } from '../learnsets';
 type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
 
 export class SpeciesMap {
+  private slugs = new Set<string>();
   private byName = new Map<SpeciesName, string>();
   private byId = new Map<ID, string>();
 
   add(showdownName: SpeciesName, showdownId: ID, slug: string) {
+    this.slugs.add(slug);
     this.byName.set(showdownName, slug);
     this.byId.set(showdownId, slug);
+  }
+
+  has(slug: string) {
+    return this.slugs.has(slug);
   }
 
   getSlugByShowdownId(showdownId: ID) {

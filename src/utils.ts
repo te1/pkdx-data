@@ -26,6 +26,10 @@ export async function exportData(file: string, data: object) {
   });
 }
 
+export function consoleLogMagenta(...content: unknown[]) {
+  console.log(...['\x1b[35m', ...content, '\x1b[0m']);
+}
+
 export function typeNameToSlug(type: TypeName) {
   return type.toLowerCase();
 }

@@ -1,0 +1,162 @@
+{
+  "slug": "venomoth",
+  "name": "Venomoth",
+  "num": 49,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "shielddust",
+    "1": "tintedlens",
+    "H": "wonderskin"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 65,
+    "def": 60,
+    "spa": 90,
+    "spd": 75,
+    "spe": 90
+  },
+  "evoLevel": 31,
+  "weight": 12.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:59",
+      "L:1"
+    ],
+    "confusion": [
+      "L:11"
+    ],
+    "defog": [
+      "M"
+    ],
+    "disable": [
+      "L:1"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gust": [
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leechlife": [
+      "L:37"
+    ],
+    "megadrain": [
+      "L:25"
+    ],
+    "poisonfang": [
+      "L:47"
+    ],
+    "poisonpowder": [
+      "L:13"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "L:17"
+    ],
+    "psychic": [
+      "M",
+      "L:55"
+    ],
+    "quiverdance": [
+      "L:63",
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roost": [
+      "M"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeppowder": [
+      "L:29"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strugglebug": [
+      "L:1"
+    ],
+    "stunspore": [
+      "L:23"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:5",
+      "L:1"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "thief": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "whirlwind": [
+      "L:1"
+    ],
+    "zenheadbutt": [
+      "L:41"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "weedle",
+  "name": "Weedle",
+  "num": 13,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "shielddust",
+    "H": "runaway"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 35,
+    "def": 30,
+    "spa": 20,
+    "spd": 20,
+    "spe": 50
+  },
+  "evos": [
+    null
+  ],
+  "weight": 3.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "bugbite": [
+      "L:9"
+    ],
+    "poisonsting": [
+      "L:1"
+    ],
+    "stringshot": [
+      "L:1"
+    ]
+  }
+}

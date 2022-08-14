@@ -1,0 +1,145 @@
+{
+  "slug": "pidgey",
+  "name": "Pidgey",
+  "num": 16,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "keeneye",
+    "1": "tangledfeet",
+    "H": "bigpecks"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 45,
+    "def": 40,
+    "spa": 35,
+    "spd": 35,
+    "spe": 56
+  },
+  "evos": [
+    null
+  ],
+  "weight": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aerialace": [
+      "M",
+      "L:45"
+    ],
+    "agility": [
+      "L:29"
+    ],
+    "aircutter": [
+      "E"
+    ],
+    "airslash": [
+      "L:49",
+      "E"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bravebird": [
+      "E"
+    ],
+    "defog": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "featherdance": [
+      "L:25"
+    ],
+    "fly": [
+      "M"
+    ],
+    "gust": [
+      "L:9"
+    ],
+    "hurricane": [
+      "L:53"
+    ],
+    "pluck": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:13"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roost": [
+      "M",
+      "L:37"
+    ],
+    "sandattack": [
+      "L:5"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "steelwing": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwind": [
+      "L:41"
+    ],
+    "thief": [
+      "M"
+    ],
+    "twister": [
+      "L:21"
+    ],
+    "uproar": [
+      "E"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "whirlwind": [
+      "L:17"
+    ],
+    "wingattack": [
+      "L:33"
+    ],
+    "workup": [
+      "M"
+    ]
+  }
+}

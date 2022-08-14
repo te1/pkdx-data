@@ -1,0 +1,168 @@
+{
+  "slug": "spinarak",
+  "name": "Spinarak",
+  "num": 167,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "swarm",
+    "1": "insomnia",
+    "H": "sniper"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 60,
+    "def": 40,
+    "spa": 40,
+    "spd": 40,
+    "spe": 30
+  },
+  "evos": [
+    null
+  ],
+  "weight": 8.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "absorb": [
+      "L:5"
+    ],
+    "agility": [
+      "L:33"
+    ],
+    "attract": [
+      "M"
+    ],
+    "batonpass": [
+      "E"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "crosspoison": [
+      "L:47"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disable": [
+      "E"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "furyswipes": [
+      "L:22"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "infestation": [
+      "L:8"
+    ],
+    "leechlife": [
+      "L:29"
+    ],
+    "lunge": [
+      "E"
+    ],
+    "megahorn": [
+      "E"
+    ],
+    "nightshade": [
+      "L:15"
+    ],
+    "nightslash": [
+      "E"
+    ],
+    "pinmissile": [
+      "L:36"
+    ],
+    "poisonjab": [
+      "M",
+      "L:43"
+    ],
+    "poisonsting": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "E"
+    ],
+    "psychic": [
+      "M",
+      "L:40"
+    ],
+    "ragepowder": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "L:12"
+    ],
+    "shadowsneak": [
+      "L:19"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stickyweb": [
+      "L:50"
+    ],
+    "stringshot": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:26"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "toxicspikes": [
+      "E"
+    ],
+    "toxicthread": [
+      "L:54"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

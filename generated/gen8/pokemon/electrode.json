@@ -1,0 +1,152 @@
+{
+  "slug": "electrode",
+  "name": "Electrode",
+  "num": 101,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 70,
+    "spa": 80,
+    "spd": 80,
+    "spe": 150
+  },
+  "evoLevel": 30,
+  "formes": [
+    "electrode-hisui"
+  ],
+  "weight": 66.6,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "learnset": {
+    "charge": [
+      "L:1"
+    ],
+    "chargebeam": [
+      "M",
+      "L:16"
+    ],
+    "discharge": [
+      "L:41"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "eerieimpulse": [
+      "L:6",
+      "L:1"
+    ],
+    "electroball": [
+      "L:22"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "M",
+      "L:47"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gyroball": [
+      "M",
+      "L:54"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "lightscreen": [
+      "M",
+      "L:29"
+    ],
+    "magneticflux": [
+      "L:1"
+    ],
+    "magnetrise": [
+      "L:36"
+    ],
+    "mirrorcoat": [
+      "L:58"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "L:11"
+    ],
+    "screech": [
+      "L:13"
+    ],
+    "selfdestruct": [
+      "L:26"
+    ],
+    "shockwave": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:9"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swift": [
+      "L:20"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:4"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "torment": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ]
+  }
+}

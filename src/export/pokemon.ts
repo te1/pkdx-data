@@ -64,9 +64,14 @@ export async function exportPokemon(
   const hasAbilities = gen.num >= 3;
   const hasDynamax = gen.num === 8;
 
+  let speciesList = [...gen.species];
+  if (gen.num === 8 && modGen) {
+    speciesList = _.uniqBy([...speciesList, ...modGen.species], 'id');
+  }
+
   let result = [];
 
-  for (const species of gen.species) {
+  for (const species of speciesList) {
     // species is from @pkmn/data but for height we need simSpecies from @pkmn/sim
     const simSpecies = simGen.species.get(
       species.name

@@ -87,11 +87,7 @@ export async function exportPokemon(
 
   let result = [];
 
-  for (const speciesItem of speciesList) {
-    const species = speciesItem.species;
-    const gen = speciesItem.gen;
-    const simGen = speciesItem.simGen;
-
+  for (const { species, gen, simGen } of speciesList) {
     // species is from @pkmn/data but for height we need simSpecies from @pkmn/sim
     const simSpecies = simGen.species.get(
       species.name

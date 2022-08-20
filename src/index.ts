@@ -42,7 +42,7 @@ async function main() {
       await exportMoves(genData.gen, target, speciesMap, moveMap);
       await exportAbilities(genData.gen, target, abilityMap);
       await exportGames(genData.gen, target);
-      await exportPokedex(genData.gen, target);
+      await exportPokedex(genData.gen, target, speciesMap);
 
       console.log('');
     }

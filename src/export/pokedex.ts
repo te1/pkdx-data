@@ -2,13 +2,18 @@ import * as path from 'path';
 import * as fs from 'fs-extra';
 import klaw from 'klaw-sync';
 import { Generation } from '@pkmn/data';
+import { SpeciesMap } from './pokemon';
 import { extraData as games } from './games';
 import { consoleLogMagenta, exportData } from '../utils';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let dexes: any;
 
-export async function exportPokedex(gen: Generation, target: string) {
+export async function exportPokedex(
+  gen: Generation,
+  target: string,
+  speciesMap?: SpeciesMap
+) {
   console.log('- pokedex');
 
   if (!dexes) {
@@ -35,7 +40,7 @@ export async function exportPokedex(gen: Generation, target: string) {
       const dexData = dexes.get(dexSlug);
 
       if (!dexData) {
-        consoleLogMagenta('\tmissing data for pokedex', dexSlug);
+        consoleLogMagenta(`${dexSlug} has no data`);
         continue;
       }
 
@@ -45,7 +50,16 @@ export async function exportPokedex(gen: Generation, target: string) {
         games.add(game.slug);
       }
 
-      // TODO check that pokemon in the dex are actually available in the data
+      // check that pokemon in the dex are actually available in the data
+      if (speciesMap) {
+        for (const entry of dexData.data) {
+          if (!speciesMap.has(entry.slug)) {
+            consoleLogMagenta(
+              `${dexSlug} contains ${entry.slug} but there is no data`
+            );
+          }
+        }
+      }
 
       result.set(dexSlug, {
         slug: dexSlug,

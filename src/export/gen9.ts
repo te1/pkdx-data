@@ -42,7 +42,7 @@ async function exportPokemon(
   const result = extraData;
 
   for (const entry of result) {
-    mergeData.addPokemonData(entry.slug, gen.num, entry);
+    mergeData.addPokemonData(gen.num, entry);
   }
 
   if (result.length) {

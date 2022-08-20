@@ -9,17 +9,26 @@ type DataByGens = {
   [gen in GenerationNum]?: object;
 };
 
+const gensReversed: GenerationNum[] = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+
 export class MergeData {
-  pokemon = new Map<string, DataByGens>();
+  pokemon: { slug: string }[] = [];
   moves = new Map<string, DataByGens>();
   abilities = new Map<string, DataByGens>();
   games?: object[];
   pokedex: { slug: string; games: Set<string> }[] = [];
 
-  addPokemonData(slug: string, gen: GenerationNum, data: object) {
-    const gens = this.pokemon.get(slug) ?? {};
-    gens[gen] = data;
-    this.pokemon.set(slug, gens);
+  addPokemonData(gen: GenerationNum, data: { slug: string }) {
+    const index = _.findIndex(this.pokemon, { slug: data.slug });
+
+    if (index < 0) {
+      this.pokemon.push(data);
+    } else {
+      // this.pokemon[index].games = new Set([
+      //   ...this.pokemon[index].games,
+      //   ...data.games,
+      // ]);
+    }
   }
 
   addMoveData(slug: string, gen: GenerationNum, data: object) {
@@ -52,8 +61,18 @@ export async function exportMergedData(target: string, mergeData: MergeData) {
   console.log('*** merged ***');
 
   console.log('- pokemon');
-  console.log('- moves');
-  console.log('- abilities');
+  if (mergeData.pokemon.length) {
+    console.log(`\twriting ${mergeData.pokemon.length} pokemon details...`);
+    for (const entry of mergeData.pokemon) {
+      await exportData(
+        path.join(target, 'merged', 'pokemon', entry.slug + '.json'),
+        entry
+      );
+    }
+  }
+
+  // console.log('- moves'); // TODO merge moves
+  // console.log('- abilities'); // TODO merge abilities
 
   console.log('- games');
   if (mergeData.games && mergeData.games.length) {
@@ -68,29 +87,13 @@ export async function exportMergedData(target: string, mergeData: MergeData) {
   if (mergeData.pokedex.length) {
     console.log(`\twriting ${mergeData.pokedex.length} pokedexes...`);
 
-    for (const dexData of mergeData.pokedex) {
+    for (const entry of mergeData.pokedex) {
       await exportData(
-        path.join(target, 'merged', 'pokedex', dexData.slug + '.json'),
-        dexData
+        path.join(target, 'merged', 'pokedex', entry.slug + '.json'),
+        entry
       );
     }
   }
-
-  // if (result.length) {
-  //   console.log(`\twriting ${result.length} pokemon...`);
-  //   await exportData(
-  //     path.join(target, `gen${gen.num}`, 'pokemon.json'),
-  //     getSpeciesIndexData(result)
-  //   );
-
-  //   console.log(`\twriting ${result.length} pokemon details...`);
-  //   for (const entry of result) {
-  //     await exportData(
-  //       path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
-  //       entry
-  //     );
-  //   }
-  // }
 
   console.log('');
 }

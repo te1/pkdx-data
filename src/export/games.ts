@@ -18,7 +18,7 @@ export async function exportGames(gen: Generation, target: string) {
   const result = [];
 
   for (const gameSet of extraData) {
-    if (gameSet.gen > gen.num) {
+    if (gameSet.gen !== gen.num) {
       continue;
     }
 

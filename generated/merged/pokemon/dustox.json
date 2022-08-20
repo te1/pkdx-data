@@ -1,0 +1,155 @@
+{
+  "slug": "dustox",
+  "name": "Dustox",
+  "num": 269,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "shielddust"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 70,
+    "spa": 50,
+    "spd": 90,
+    "spe": 65
+  },
+  "prevo": "cascoon",
+  "evoLevel": 10,
+  "formeIndex": 0,
+  "weight": 31.6,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "attract": [
+      "M"
+    ],
+    "confusion": [
+      "L:1"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gust": [
+      "L:13"
+    ],
+    "harden": [
+      "L:1@cascoon"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "lightscreen": [
+      "M",
+      "L:31"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "moonlight": [
+      "L:20"
+    ],
+    "poisonsting": [
+      "L:5@wurmple"
+    ],
+    "protect": [
+      "M",
+      "L:17"
+    ],
+    "psybeam": [
+      "L:24"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "silverwind": [
+      "L:34"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stringshot": [
+      "L:1@wurmple"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "tackle": [
+      "L:1@wurmple"
+    ],
+    "thief": [
+      "M"
+    ],
+    "toxic": [
+      "M",
+      "L:38"
+    ],
+    "whirlwind": [
+      "L:27"
+    ]
+  }
+}

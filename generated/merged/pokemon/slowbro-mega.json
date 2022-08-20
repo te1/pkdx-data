@@ -1,0 +1,37 @@
+{
+  "slug": "slowbro-mega",
+  "name": "Mega Slowbro",
+  "num": 80,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "shellarmor"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 75,
+    "def": 180,
+    "spa": 130,
+    "spd": 80,
+    "spe": 30
+  },
+  "baseSpecies": "slowbro",
+  "formeTriggerItem": "slowbronite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 120,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true
+}

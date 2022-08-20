@@ -1,0 +1,145 @@
+{
+  "slug": "pupitar",
+  "name": "Pupitar",
+  "num": 247,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 70,
+    "atk": 84,
+    "def": 70,
+    "spa": 65,
+    "spd": 70,
+    "spe": 51
+  },
+  "prevo": "larvitar",
+  "evos": [
+    "tyranitar"
+  ],
+  "evoLevel": 30,
+  "formeIndex": 0,
+  "weight": 152,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster"
+  ],
+  "learnset": {
+    "ancientpower": [
+      "E@larvitar"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "crunch": [
+      "L:47"
+    ],
+    "curse": [
+      "M"
+    ],
+    "detect": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:56"
+    ],
+    "endure": [
+      "M"
+    ],
+    "focusenergy": [
+      "E@larvitar"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M",
+      "L:65"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "E@larvitar"
+    ],
+    "protect": [
+      "M"
+    ],
+    "pursuit": [
+      "E@larvitar"
+    ],
+    "rage": [
+      "S@larvitar"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockslide": [
+      "L:22"
+    ],
+    "sandstorm": [
+      "M",
+      "L:8",
+      "L:1"
+    ],
+    "scaryface": [
+      "L:38"
+    ],
+    "screech": [
+      "L:15",
+      "L:1"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "stomp": [
+      "E@larvitar"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "thrash": [
+      "L:29"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "pidgeotto",
+  "name": "Pidgeotto",
+  "num": 17,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 63,
+    "atk": 60,
+    "def": 55,
+    "spa": 50,
+    "spd": 50,
+    "spe": 71
+  },
+  "prevo": "pidgey",
+  "evos": [
+    "pidgeot"
+  ],
+  "evoLevel": 18,
+  "formeIndex": 0,
+  "weight": 30,
+  "height": 1.1,
+  "learnset": {
+    "agility": [
+      "L:40"
+    ],
+    "bide": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "fly": [
+      "M"
+    ],
+    "gust": [
+      "L:1"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "mirrormove": [
+      "L:49"
+    ],
+    "quickattack": [
+      "L:12"
+    ],
+    "rage": [
+      "M"
+    ],
+    "razorwind": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sandattack": [
+      "L:5",
+      "L:1"
+    ],
+    "skyattack": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "M",
+      "L:21"
+    ],
+    "wingattack": [
+      "L:31"
+    ]
+  }
+}

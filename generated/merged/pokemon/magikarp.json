@@ -1,0 +1,34 @@
+{
+  "slug": "magikarp",
+  "name": "Magikarp",
+  "num": 129,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 20,
+    "atk": 10,
+    "def": 55,
+    "spa": 20,
+    "spd": 20,
+    "spe": 80
+  },
+  "evos": [
+    "gyarados"
+  ],
+  "formeIndex": 0,
+  "weight": 10,
+  "height": 0.9,
+  "learnset": {
+    "dragonrage": [
+      "S"
+    ],
+    "splash": [
+      "L:1"
+    ],
+    "tackle": [
+      "L:15"
+    ]
+  }
+}

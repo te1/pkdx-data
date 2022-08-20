@@ -1,0 +1,91 @@
+{
+  "slug": "aerodactyl",
+  "name": "Aerodactyl",
+  "num": 142,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 80,
+    "atk": 105,
+    "def": 65,
+    "spa": 60,
+    "spd": 60,
+    "spe": 130
+  },
+  "formeIndex": 0,
+  "weight": 59,
+  "height": 1.8,
+  "learnset": {
+    "agility": [
+      "L:1"
+    ],
+    "bide": [
+      "M"
+    ],
+    "bite": [
+      "L:38"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonrage": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "fly": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M",
+      "L:54"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "razorwind": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skyattack": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:33"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M",
+      "L:45"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "M"
+    ],
+    "wingattack": [
+      "L:1"
+    ]
+  }
+}

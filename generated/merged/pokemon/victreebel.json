@@ -1,0 +1,102 @@
+{
+  "slug": "victreebel",
+  "name": "Victreebel",
+  "num": 71,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 80,
+    "atk": 105,
+    "def": 65,
+    "spa": 100,
+    "spd": 100,
+    "spe": 70
+  },
+  "prevo": "weepinbell",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "formeIndex": 0,
+  "weight": 15.5,
+  "height": 1.7,
+  "learnset": {
+    "acid": [
+      "L:1"
+    ],
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "growth": [
+      "L:1@weepinbell"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "poisonpowder": [
+      "L:15"
+    ],
+    "rage": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:1"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "slam": [
+      "L:49@weepinbell"
+    ],
+    "sleeppowder": [
+      "L:18",
+      "L:1"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stunspore": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "vinewhip": [
+      "L:1@weepinbell"
+    ],
+    "wrap": [
+      "L:13"
+    ]
+  }
+}

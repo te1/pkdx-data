@@ -1,0 +1,37 @@
+{
+  "slug": "eevee-gmax",
+  "name": "Gigantamax Eevee",
+  "num": 133,
+  "types": [
+    "normal"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "runaway",
+    "1": "adaptability",
+    "H": "anticipation"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 55,
+    "def": 50,
+    "spa": 45,
+    "spd": 65,
+    "spe": 55
+  },
+  "baseSpecies": "eevee",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 1000,
+  "weight": 0,
+  "height": 18,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxcuddle"
+}

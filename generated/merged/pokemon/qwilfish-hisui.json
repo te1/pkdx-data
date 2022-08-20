@@ -1,0 +1,97 @@
+{
+  "slug": "qwilfish-hisui",
+  "name": "Hisuian Qwilfish",
+  "num": 211,
+  "types": [
+    "dark",
+    "poison"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "swiftswim",
+    "H": "intimidate"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 95,
+    "def": 85,
+    "spa": 55,
+    "spd": 55,
+    "spe": 85
+  },
+  "evos": [
+    "overqwil"
+  ],
+  "baseSpecies": "qwilfish",
+  "region": "Hisui",
+  "formeIndex": 1,
+  "weight": 3.9,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aquatail": [
+      "L:37",
+      "T"
+    ],
+    "barbbarrage": [
+      "L:15"
+    ],
+    "darkpulse": [
+      "L:26",
+      "T"
+    ],
+    "doubleedge": [
+      "L:47"
+    ],
+    "iceball": [
+      "T"
+    ],
+    "icebeam": [
+      "T"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "pinmissile": [
+      "L:9"
+    ],
+    "poisonjab": [
+      "L:29",
+      "T"
+    ],
+    "poisonsting": [
+      "L:1"
+    ],
+    "rest": [
+      "T"
+    ],
+    "selfdestruct": [
+      "L:57"
+    ],
+    "shadowball": [
+      "T"
+    ],
+    "sludgebomb": [
+      "T"
+    ],
+    "spikes": [
+      "L:5",
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "waterpulse": [
+      "L:21",
+      "T"
+    ]
+  }
+}

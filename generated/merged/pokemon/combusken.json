@@ -1,0 +1,215 @@
+{
+  "slug": "combusken",
+  "name": "Combusken",
+  "num": 256,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "blaze"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 85,
+    "def": 60,
+    "spa": 85,
+    "spd": 60,
+    "spe": 55
+  },
+  "prevo": "torchic",
+  "evos": [
+    "blaziken"
+  ],
+  "evoLevel": 16,
+  "formeIndex": 0,
+  "weight": 19.5,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bodyslam": [
+      "T"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M",
+      "L:28"
+    ],
+    "counter": [
+      "T",
+      "E@torchic"
+    ],
+    "cut": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doublekick": [
+      "L:16"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "T"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "T",
+      "E@torchic"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepunch": [
+      "T"
+    ],
+    "firespin": [
+      "L:25@torchic"
+    ],
+    "flamethrower": [
+      "M",
+      "L:43@torchic"
+    ],
+    "focusenergy": [
+      "L:1"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furycutter": [
+      "T"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "megakick": [
+      "T"
+    ],
+    "megapunch": [
+      "T"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "mirrormove": [
+      "L:43"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "peck": [
+      "L:17"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:32"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "reversal": [
+      "E@torchic"
+    ],
+    "rockslide": [
+      "T",
+      "E@torchic"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:21"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "seismictoss": [
+      "T"
+    ],
+    "skyuppercut": [
+      "L:50"
+    ],
+    "slash": [
+      "L:39"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "smellingsalts": [
+      "E@torchic"
+    ],
+    "snore": [
+      "T"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "T",
+      "E@torchic"
+    ],
+    "swift": [
+      "T"
+    ],
+    "swordsdance": [
+      "T"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

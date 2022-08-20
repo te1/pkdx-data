@@ -1,0 +1,86 @@
+{
+  "slug": "haunter",
+  "name": "Haunter",
+  "num": 93,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 45,
+    "atk": 50,
+    "def": 45,
+    "spa": 115,
+    "spd": 115,
+    "spe": 95
+  },
+  "prevo": "gastly",
+  "evos": [
+    "gengar"
+  ],
+  "evoLevel": 25,
+  "formeIndex": 0,
+  "weight": 0.1,
+  "height": 1.6,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "confuseray": [
+      "L:1"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dreameater": [
+      "M",
+      "L:38"
+    ],
+    "explosion": [
+      "M"
+    ],
+    "hypnosis": [
+      "L:29"
+    ],
+    "lick": [
+      "L:1"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "nightshade": [
+      "L:1"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psywave": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "selfdestruct": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

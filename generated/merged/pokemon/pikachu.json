@@ -1,0 +1,127 @@
+{
+  "slug": "pikachu",
+  "name": "Pikachu",
+  "num": 25,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 35,
+    "atk": 55,
+    "def": 30,
+    "spa": 50,
+    "spd": 50,
+    "spe": 90
+  },
+  "evos": [
+    "raichu"
+  ],
+  "evoType": "levelFriendship",
+  "formeIndex": 0,
+  "weight": 6,
+  "height": 0.4,
+  "learnset": {
+    "agility": [
+      "L:33"
+    ],
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M",
+      "L:15"
+    ],
+    "flash": [
+      "M"
+    ],
+    "fly": [
+      "S"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "L:50"
+    ],
+    "megakick": [
+      "M"
+    ],
+    "megapunch": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "payday": [
+      "M"
+    ],
+    "quickattack": [
+      "L:11",
+      "L:16"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "slam": [
+      "L:20"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "T"
+    ],
+    "swift": [
+      "M",
+      "L:26"
+    ],
+    "tailwhip": [
+      "L:6"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "thunder": [
+      "M",
+      "L:41",
+      "L:43"
+    ],
+    "thunderbolt": [
+      "M",
+      "L:26"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "M",
+      "L:8",
+      "L:9"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

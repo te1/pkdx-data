@@ -1,0 +1,36 @@
+{
+  "slug": "audino-mega",
+  "name": "Mega Audino",
+  "num": 531,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "healer"
+  },
+  "baseStats": {
+    "hp": 103,
+    "atk": 60,
+    "def": 126,
+    "spa": 80,
+    "spd": 126,
+    "spe": 50
+  },
+  "baseSpecies": "audino",
+  "formeTriggerItem": "audinite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 32,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canHatch": true
+}

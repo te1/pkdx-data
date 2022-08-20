@@ -1,0 +1,84 @@
+{
+  "slug": "gastly",
+  "name": "Gastly",
+  "num": 92,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 30,
+    "atk": 35,
+    "def": 30,
+    "spa": 100,
+    "spd": 100,
+    "spe": 80
+  },
+  "evos": [
+    "haunter"
+  ],
+  "formeIndex": 0,
+  "weight": 0.1,
+  "height": 1.3,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "confuseray": [
+      "L:1"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dreameater": [
+      "M",
+      "L:35"
+    ],
+    "explosion": [
+      "M"
+    ],
+    "hypnosis": [
+      "L:27"
+    ],
+    "lick": [
+      "L:1"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "nightshade": [
+      "L:1"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psywave": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "selfdestruct": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

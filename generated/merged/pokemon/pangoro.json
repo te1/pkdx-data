@@ -1,0 +1,337 @@
+{
+  "slug": "pangoro",
+  "name": "Pangoro",
+  "num": 675,
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "ironfist",
+    "1": "moldbreaker",
+    "H": "scrappy"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 124,
+    "def": 78,
+    "spa": 69,
+    "spd": 71,
+    "spe": 58
+  },
+  "prevo": "pancham",
+  "evoCondition": "with a Dark-type in the party",
+  "evoLevel": 32,
+  "formeIndex": 0,
+  "weight": 136,
+  "height": 2.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "armthrust": [
+      "L:7"
+    ],
+    "attract": [
+      "M"
+    ],
+    "block": [
+      "T"
+    ],
+    "bodyslam": [
+      "L:35"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "circlethrow": [
+      "L:25"
+    ],
+    "cometpunch": [
+      "L:15"
+    ],
+    "confide": [
+      "M"
+    ],
+    "covet": [
+      "T"
+    ],
+    "crunch": [
+      "L:42"
+    ],
+    "cut": [
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "drainpunch": [
+      "T"
+    ],
+    "dualchop": [
+      "T"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "echoedvoice": [
+      "M"
+    ],
+    "embargo": [
+      "M"
+    ],
+    "endeavor": [
+      "T"
+    ],
+    "entrainment": [
+      "L:1"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "firepunch": [
+      "T"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "T"
+    ],
+    "foulplay": [
+      "T",
+      "E@pancham"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "gunkshot": [
+      "T"
+    ],
+    "hammerarm": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "T"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "honeclaws": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "T"
+    ],
+    "icepunch": [
+      "T"
+    ],
+    "infestation": [
+      "M"
+    ],
+    "ironhead": [
+      "T"
+    ],
+    "karatechop": [
+      "L:12"
+    ],
+    "knockoff": [
+      "T"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lowkick": [
+      "T"
+    ],
+    "lowsweep": [
+      "M",
+      "L:70"
+    ],
+    "mefirst": [
+      "E@pancham"
+    ],
+    "outrage": [
+      "T"
+    ],
+    "partingshot": [
+      "L:48"
+    ],
+    "payback": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poweruppunch": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quash": [
+      "M",
+      "E@pancham"
+    ],
+    "quickguard": [
+      "E@pancham"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "retaliate": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "skyuppercut": [
+      "L:52"
+    ],
+    "slash": [
+      "L:20"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "snatch": [
+      "T"
+    ],
+    "snore": [
+      "T"
+    ],
+    "spite": [
+      "T"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "stormthrow": [
+      "E@pancham"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superpower": [
+      "T"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "taunt": [
+      "M",
+      "L:65"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "torment": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "uproar": [
+      "T"
+    ],
+    "vitalthrow": [
+      "L:27"
+    ],
+    "workup": [
+      "L:10"
+    ],
+    "xscissor": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "T"
+    ]
+  }
+}

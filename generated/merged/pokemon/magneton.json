@@ -1,0 +1,94 @@
+{
+  "slug": "magneton",
+  "name": "Magneton",
+  "num": 82,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 50,
+    "atk": 60,
+    "def": 95,
+    "spa": 120,
+    "spd": 120,
+    "spe": 70
+  },
+  "prevo": "magnemite",
+  "evoLevel": 30,
+  "formeIndex": 0,
+  "weight": 60,
+  "height": 1,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "L:54"
+    ],
+    "sonicboom": [
+      "L:21",
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:29"
+    ],
+    "swift": [
+      "M",
+      "L:46"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "teleport": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:25",
+      "L:1"
+    ],
+    "thunderwave": [
+      "M",
+      "L:38"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

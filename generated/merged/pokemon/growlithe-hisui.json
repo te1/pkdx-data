@@ -1,0 +1,97 @@
+{
+  "slug": "growlithe-hisui",
+  "name": "Hisuian Growlithe",
+  "num": 58,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "intimidate",
+    "1": "flashfire",
+    "H": "justified"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 75,
+    "def": 45,
+    "spa": 65,
+    "spd": 50,
+    "spe": 55
+  },
+  "evos": [
+    "arcanine-hisui"
+  ],
+  "baseSpecies": "growlithe",
+  "region": "Hisui",
+  "formeIndex": 1,
+  "weight": 22.7,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aerialace": [
+      "T"
+    ],
+    "bite": [
+      "L:9"
+    ],
+    "crunch": [
+      "L:29"
+    ],
+    "doubleedge": [
+      "L:37"
+    ],
+    "ember": [
+      "L:5"
+    ],
+    "firefang": [
+      "L:15",
+      "T"
+    ],
+    "flamethrower": [
+      "T"
+    ],
+    "flareblitz": [
+      "L:47"
+    ],
+    "irontail": [
+      "T"
+    ],
+    "outrage": [
+      "T"
+    ],
+    "playrough": [
+      "T"
+    ],
+    "rest": [
+      "T"
+    ],
+    "rockslide": [
+      "L:21",
+      "T"
+    ],
+    "rocksmash": [
+      "T"
+    ],
+    "snarl": [
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "wildcharge": [
+      "T"
+    ]
+  }
+}

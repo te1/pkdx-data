@@ -1,0 +1,37 @@
+{
+  "slug": "gyarados-mega",
+  "name": "Mega Gyarados",
+  "num": 130,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "moldbreaker"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 155,
+    "def": 109,
+    "spa": 70,
+    "spd": 130,
+    "spe": 81
+  },
+  "baseSpecies": "gyarados",
+  "formeTriggerItem": "gyaradosite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 305,
+  "height": 6.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2",
+    "Dragon"
+  ],
+  "canHatch": true
+}

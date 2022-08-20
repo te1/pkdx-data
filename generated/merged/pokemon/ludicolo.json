@@ -1,0 +1,238 @@
+{
+  "slug": "ludicolo",
+  "name": "Ludicolo",
+  "num": 272,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "raindish"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 70,
+    "def": 70,
+    "spa": 90,
+    "spd": 100,
+    "spe": 70
+  },
+  "prevo": "lombre",
+  "evoType": "useItem",
+  "evoItem": "Water Stone",
+  "formeIndex": 0,
+  "weight": 55,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Grass"
+  ],
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "attract": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "T"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "counter": [
+      "T"
+    ],
+    "dive": [
+      "M"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "T"
+    ],
+    "endure": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "L:19@lombre"
+    ],
+    "firepunch": [
+      "T"
+    ],
+    "flail": [
+      "E@lotad"
+    ],
+    "flash": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furyswipes": [
+      "L:25@lombre"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "hail": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hydropump": [
+      "L:49@lombre"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "T"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "leechseed": [
+      "E@lotad"
+    ],
+    "megadrain": [
+      "L:43@lotad"
+    ],
+    "megakick": [
+      "T"
+    ],
+    "megapunch": [
+      "T"
+    ],
+    "metronome": [
+      "T"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "mist": [
+      "L:21@lotad"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "naturepower": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:31@lotad"
+    ],
+    "razorleaf": [
+      "E@lotad"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "seismictoss": [
+      "T"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "T"
+    ],
+    "sweetscent": [
+      "E@lotad"
+    ],
+    "swordsdance": [
+      "T"
+    ],
+    "synthesis": [
+      "E@lotad"
+    ],
+    "thief": [
+      "M",
+      "L:37@lombre"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "uproar": [
+      "L:43@lombre"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "E@lotad"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "watersport": [
+      "L:31@lombre"
+    ]
+  }
+}

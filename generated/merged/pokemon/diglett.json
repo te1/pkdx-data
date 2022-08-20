@@ -1,0 +1,84 @@
+{
+  "slug": "diglett",
+  "name": "Diglett",
+  "num": 50,
+  "types": [
+    "ground"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 10,
+    "atk": 55,
+    "def": 25,
+    "spa": 45,
+    "spd": 45,
+    "spe": 95
+  },
+  "evos": [
+    "dugtrio"
+  ],
+  "formeIndex": 0,
+  "weight": 0.8,
+  "height": 0.2,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "dig": [
+      "M",
+      "L:19"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:40"
+    ],
+    "fissure": [
+      "M"
+    ],
+    "growl": [
+      "L:15"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "sandattack": [
+      "L:24"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "slash": [
+      "L:31"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

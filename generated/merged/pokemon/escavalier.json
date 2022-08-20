@@ -1,0 +1,205 @@
+{
+  "slug": "escavalier",
+  "name": "Escavalier",
+  "num": 589,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "swarm",
+    "1": "shellarmor",
+    "H": "overcoat"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 135,
+    "def": 105,
+    "spa": 60,
+    "spd": 105,
+    "spe": 20
+  },
+  "prevo": "karrablast",
+  "evoType": "trade",
+  "evoCondition": "with a Shelmet",
+  "formeIndex": 0,
+  "weight": 33,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bugbite": [
+      "T",
+      "E@karrablast"
+    ],
+    "bugbuzz": [
+      "L:28"
+    ],
+    "counter": [
+      "E@karrablast"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleedge": [
+      "L:56@karrablast"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "L:8@karrablast"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M",
+      "L:25"
+    ],
+    "feintattack": [
+      "E@karrablast"
+    ],
+    "flail": [
+      "L:49@karrablast"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furyattack": [
+      "L:16"
+    ],
+    "furycutter": [
+      "L:13@karrablast"
+    ],
+    "gigadrain": [
+      "T"
+    ],
+    "gigaimpact": [
+      "M",
+      "L:56"
+    ],
+    "headbutt": [
+      "L:20"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hornattack": [
+      "E@karrablast"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "T",
+      "L:40"
+    ],
+    "ironhead": [
+      "T",
+      "L:37"
+    ],
+    "knockoff": [
+      "T",
+      "E@karrablast"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "megahorn": [
+      "E@karrablast"
+    ],
+    "peck": [
+      "L:1"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "pursuit": [
+      "E@karrablast"
+    ],
+    "quickguard": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "reversal": [
+      "L:49"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "scaryface": [
+      "L:40@karrablast"
+    ],
+    "screech": [
+      "E@karrablast"
+    ],
+    "slash": [
+      "L:32"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "snore": [
+      "T"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swordsdance": [
+      "M",
+      "L:52"
+    ],
+    "takedown": [
+      "L:37@karrablast"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "twineedle": [
+      "L:1"
+    ],
+    "xscissor": [
+      "M",
+      "L:44"
+    ]
+  }
+}

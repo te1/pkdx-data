@@ -1,0 +1,236 @@
+{
+  "slug": "eelektross",
+  "name": "Eelektross",
+  "num": 604,
+  "types": [
+    "electric"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 85,
+    "atk": 115,
+    "def": 80,
+    "spa": 105,
+    "spd": 80,
+    "spe": 50
+  },
+  "prevo": "eelektrik",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
+  "formeIndex": 0,
+  "weight": 80.5,
+  "height": 2.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "learnset": {
+    "acid": [
+      "L:1"
+    ],
+    "acidspray": [
+      "L:49@eelektrik"
+    ],
+    "acrobatics": [
+      "M"
+    ],
+    "aquatail": [
+      "T"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bind": [
+      "T",
+      "L:9@eelektrik"
+    ],
+    "bounce": [
+      "T"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "chargebeam": [
+      "M",
+      "L:1@eelektrik"
+    ],
+    "coil": [
+      "L:54@eelektrik"
+    ],
+    "crunch": [
+      "L:1"
+    ],
+    "crushclaw": [
+      "L:1"
+    ],
+    "cut": [
+      "M"
+    ],
+    "discharge": [
+      "L:1"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "drainpunch": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firepunch": [
+      "T"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gastroacid": [
+      "T",
+      "L:64@eelektrik"
+    ],
+    "gigadrain": [
+      "T"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "headbutt": [
+      "L:1"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "honeclaws": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irontail": [
+      "T"
+    ],
+    "knockoff": [
+      "T"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "magnetrise": [
+      "T"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "signalbeam": [
+      "T"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "snore": [
+      "T"
+    ],
+    "spark": [
+      "L:1@eelektrik"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "superfang": [
+      "T"
+    ],
+    "superpower": [
+      "T"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1@tynamo"
+    ],
+    "thrash": [
+      "L:74@eelektrik"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M",
+      "L:44@eelektrik"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "thunderwave": [
+      "M",
+      "L:1@eelektrik"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M",
+      "L:59@eelektrik"
+    ],
+    "zapcannon": [
+      "L:69@eelektrik"
+    ]
+  }
+}

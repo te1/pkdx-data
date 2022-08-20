@@ -1,0 +1,142 @@
+{
+  "slug": "swinub",
+  "name": "Swinub",
+  "num": 220,
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 50,
+    "atk": 50,
+    "def": 40,
+    "spa": 30,
+    "spd": 30,
+    "spe": 50
+  },
+  "evos": [
+    "piloswine"
+  ],
+  "formeIndex": 0,
+  "weight": 6.5,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "amnesia": [
+      "L:55"
+    ],
+    "ancientpower": [
+      "E"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "E"
+    ],
+    "blizzard": [
+      "M",
+      "L:46"
+    ],
+    "bodyslam": [
+      "E"
+    ],
+    "curse": [
+      "M"
+    ],
+    "defensecurl": [
+      "M"
+    ],
+    "detect": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "L:19"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "icebeam": [
+      "T"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "mist": [
+      "L:37"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "powdersnow": [
+      "L:10"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "E"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "L:28",
+      "E"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "S"
+    ]
+  }
+}

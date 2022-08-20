@@ -1,0 +1,142 @@
+{
+  "slug": "larvitar",
+  "name": "Larvitar",
+  "num": 246,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 50,
+    "atk": 64,
+    "def": 50,
+    "spa": 45,
+    "spd": 50,
+    "spe": 41
+  },
+  "evos": [
+    "pupitar"
+  ],
+  "formeIndex": 0,
+  "weight": 72,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "ancientpower": [
+      "E"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "crunch": [
+      "L:43"
+    ],
+    "curse": [
+      "M"
+    ],
+    "detect": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:50"
+    ],
+    "endure": [
+      "M"
+    ],
+    "focusenergy": [
+      "E"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M",
+      "L:57"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "pursuit": [
+      "E"
+    ],
+    "rage": [
+      "S"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockslide": [
+      "L:22"
+    ],
+    "sandstorm": [
+      "M",
+      "L:8"
+    ],
+    "scaryface": [
+      "L:36"
+    ],
+    "screech": [
+      "L:15"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "stomp": [
+      "E"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "thrash": [
+      "L:29"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "slug": "graveler-alola",
+  "name": "Alolan Graveler",
+  "num": 75,
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "magnetpull",
+    "1": "sturdy",
+    "H": "galvanize"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 95,
+    "def": 115,
+    "spa": 45,
+    "spd": 45,
+    "spe": 35
+  },
+  "prevo": "geodude-alola",
+  "evos": [
+    "golem-alola"
+  ],
+  "evoLevel": 25,
+  "baseSpecies": "graveler",
+  "region": "Alola",
+  "formeIndex": 1,
+  "weight": 110,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "learnset": {
+    "allyswitch": [
+      "T"
+    ],
+    "attract": [
+      "M"
+    ],
+    "autotomize": [
+      "E@geodude-alola"
+    ],
+    "block": [
+      "T",
+      "E@geodude-alola"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "brutalswing": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charge": [
+      "L:1"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "confide": [
+      "M"
+    ],
+    "counter": [
+      "E@geodude-alola"
+    ],
+    "curse": [
+      "E@geodude-alola"
+    ],
+    "defensecurl": [
+      "L:1"
+    ],
+    "discharge": [
+      "L:40"
+    ],
+    "doubleedge": [
+      "L:50"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthpower": [
+      "T"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "electroweb": [
+      "T"
+    ],
+    "endure": [
+      "E@geodude-alola"
+    ],
+    "explosion": [
+      "M",
+      "L:44"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepunch": [
+      "T"
+    ],
+    "flail": [
+      "E@geodude-alola"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focuspunch": [
+      "T"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "irondefense": [
+      "T"
+    ],
+    "magnetrise": [
+      "T",
+      "E@geodude-alola"
+    ],
+    "naturepower": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockblast": [
+      "L:34"
+    ],
+    "rockclimb": [
+      "E@geodude-alola"
+    ],
+    "rockpolish": [
+      "M",
+      "L:1"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rockthrow": [
+      "L:16"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "rollout": [
+      "L:10"
+    ],
+    "round": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "screech": [
+      "E@geodude-alola"
+    ],
+    "selfdestruct": [
+      "L:24"
+    ],
+    "shockwave": [
+      "T"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M",
+      "L:18"
+    ],
+    "snore": [
+      "T"
+    ],
+    "spark": [
+      "L:12"
+    ],
+    "stealthrock": [
+      "T",
+      "L:30"
+    ],
+    "stompingtantrum": [
+      "T"
+    ],
+    "stoneedge": [
+      "M",
+      "L:54"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superpower": [
+      "T"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderpunch": [
+      "T",
+      "L:22"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wideguard": [
+      "E@geodude-alola"
+    ]
+  }
+}

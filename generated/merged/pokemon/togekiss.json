@@ -1,0 +1,314 @@
+{
+  "slug": "togekiss",
+  "name": "Togekiss",
+  "num": 468,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "hustle",
+    "1": "serenegrace"
+  },
+  "baseStats": {
+    "hp": 85,
+    "atk": 50,
+    "def": 95,
+    "spa": 120,
+    "spd": 115,
+    "spe": 80
+  },
+  "prevo": "togetic",
+  "evoType": "useItem",
+  "evoItem": "Shiny Stone",
+  "formeIndex": 0,
+  "weight": 38,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Flying",
+    "Fairy"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "aircutter": [
+      "T"
+    ],
+    "airslash": [
+      "L:1"
+    ],
+    "ancientpower": [
+      "T",
+      "L:33@togetic"
+    ],
+    "attract": [
+      "M"
+    ],
+    "aurasphere": [
+      "L:1"
+    ],
+    "batonpass": [
+      "L:42@togetic"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "captivate": [
+      "M"
+    ],
+    "charm": [
+      "L:1@togetic"
+    ],
+    "defog": [
+      "M"
+    ],
+    "doubleedge": [
+      "L:46@togetic"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "drainpunch": [
+      "M"
+    ],
+    "dreameater": [
+      "M"
+    ],
+    "encore": [
+      "L:19@togetic"
+    ],
+    "endeavor": [
+      "T"
+    ],
+    "endure": [
+      "M"
+    ],
+    "extrasensory": [
+      "E@togepi"
+    ],
+    "extremespeed": [
+      "L:1"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "fly": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "followme": [
+      "L:24@togetic"
+    ],
+    "foresight": [
+      "E@togepi"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "futuresight": [
+      "E@togepi"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "growl": [
+      "L:1@togetic"
+    ],
+    "headbutt": [
+      "T"
+    ],
+    "healbell": [
+      "T"
+    ],
+    "heatwave": [
+      "T"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "lastresort": [
+      "T",
+      "L:51@togetic"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "luckychant": [
+      "E@togepi"
+    ],
+    "magicalleaf": [
+      "L:1@togetic"
+    ],
+    "magiccoat": [
+      "T"
+    ],
+    "metronome": [
+      "L:1@togetic"
+    ],
+    "mirrormove": [
+      "E@togepi"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "nastyplot": [
+      "E@togepi"
+    ],
+    "naturalgift": [
+      "M"
+    ],
+    "ominouswind": [
+      "T"
+    ],
+    "peck": [
+      "E@togepi"
+    ],
+    "pluck": [
+      "M"
+    ],
+    "present": [
+      "E@togepi"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psychoshift": [
+      "E@togepi"
+    ],
+    "psychup": [
+      "M",
+      "E@togepi"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rollout": [
+      "T"
+    ],
+    "roost": [
+      "M"
+    ],
+    "safeguard": [
+      "M",
+      "L:37@togetic"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shockwave": [
+      "M"
+    ],
+    "signalbeam": [
+      "T"
+    ],
+    "silverwind": [
+      "M"
+    ],
+    "skyattack": [
+      "T",
+      "L:1"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "steelwing": [
+      "M"
+    ],
+    "substitute": [
+      "M",
+      "E@togepi"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "sweetkiss": [
+      "L:1@togetic"
+    ],
+    "swift": [
+      "T"
+    ],
+    "tailwind": [
+      "T"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "trick": [
+      "T"
+    ],
+    "twister": [
+      "T"
+    ],
+    "uproar": [
+      "T@togepi"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "wish": [
+      "L:28@togetic"
+    ],
+    "yawn": [
+      "L:15@togetic"
+    ],
+    "zenheadbutt": [
+      "T"
+    ]
+  }
+}

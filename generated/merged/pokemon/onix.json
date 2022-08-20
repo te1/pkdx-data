@@ -1,0 +1,96 @@
+{
+  "slug": "onix",
+  "name": "Onix",
+  "num": 95,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 35,
+    "atk": 45,
+    "def": 160,
+    "spa": 30,
+    "spd": 30,
+    "spe": 70
+  },
+  "formeIndex": 0,
+  "weight": 210,
+  "height": 8.8,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bind": [
+      "L:15"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "explosion": [
+      "M"
+    ],
+    "fissure": [
+      "M"
+    ],
+    "harden": [
+      "L:43"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M",
+      "L:25"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rockthrow": [
+      "L:19"
+    ],
+    "screech": [
+      "L:1"
+    ],
+    "selfdestruct": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "slam": [
+      "L:33"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

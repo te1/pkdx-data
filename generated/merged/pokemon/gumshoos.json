@@ -1,0 +1,223 @@
+{
+  "slug": "gumshoos",
+  "name": "Gumshoos",
+  "num": 735,
+  "types": [
+    "normal"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "stakeout",
+    "1": "strongjaw",
+    "H": "adaptability"
+  },
+  "baseStats": {
+    "hp": 88,
+    "atk": 110,
+    "def": 60,
+    "spa": 55,
+    "spd": 60,
+    "spe": 45
+  },
+  "prevo": "yungoos",
+  "evoCondition": "during the day",
+  "evoLevel": 20,
+  "formes": [
+    "gumshoos-totem"
+  ],
+  "formeIndex": 0,
+  "weight": 14.2,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "bide": [
+      "L:16"
+    ],
+    "bite": [
+      "L:19"
+    ],
+    "block": [
+      "T"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "confide": [
+      "M"
+    ],
+    "crunch": [
+      "L:39"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dualchop": [
+      "T"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "echoedvoice": [
+      "M"
+    ],
+    "endeavor": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firefang": [
+      "E@yungoos"
+    ],
+    "firepunch": [
+      "T"
+    ],
+    "fling": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperfang": [
+      "L:43"
+    ],
+    "icefang": [
+      "E@yungoos"
+    ],
+    "icepunch": [
+      "T"
+    ],
+    "ironhead": [
+      "T"
+    ],
+    "irontail": [
+      "T"
+    ],
+    "lastresort": [
+      "T",
+      "E@yungoos"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mudslap": [
+      "L:23"
+    ],
+    "odorsleuth": [
+      "L:13"
+    ],
+    "payback": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "pursuit": [
+      "L:1"
+    ],
+    "rest": [
+      "M",
+      "L:55"
+    ],
+    "return": [
+      "M"
+    ],
+    "revenge": [
+      "E@yungoos"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "L:35"
+    ],
+    "shockwave": [
+      "T"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "stompingtantrum": [
+      "T"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "superfang": [
+      "T",
+      "L:27"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "L:31"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thrash": [
+      "L:51"
+    ],
+    "thunderfang": [
+      "E@yungoos"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "torment": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "uproar": [
+      "T"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "workup": [
+      "M"
+    ],
+    "yawn": [
+      "L:47"
+    ],
+    "zenheadbutt": [
+      "T"
+    ]
+  }
+}

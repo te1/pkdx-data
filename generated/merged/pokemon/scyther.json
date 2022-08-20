@@ -1,0 +1,85 @@
+{
+  "slug": "scyther",
+  "name": "Scyther",
+  "num": 123,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 70,
+    "atk": 110,
+    "def": 80,
+    "spa": 55,
+    "spd": 55,
+    "spe": 105
+  },
+  "formeIndex": 0,
+  "weight": 56,
+  "height": 1.5,
+  "learnset": {
+    "agility": [
+      "L:42"
+    ],
+    "bide": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M",
+      "L:24"
+    ],
+    "focusenergy": [
+      "L:20"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leer": [
+      "L:17"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "rage": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "slash": [
+      "L:29"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M",
+      "L:35"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "wingattack": [
+      "L:50"
+    ]
+  }
+}

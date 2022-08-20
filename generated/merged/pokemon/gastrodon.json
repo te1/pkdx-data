@@ -1,0 +1,243 @@
+{
+  "slug": "gastrodon",
+  "name": "Gastrodon",
+  "num": 423,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "stickyhold",
+    "1": "stormdrain"
+  },
+  "baseStats": {
+    "hp": 111,
+    "atk": 83,
+    "def": 68,
+    "spa": 92,
+    "spd": 82,
+    "spe": 39
+  },
+  "prevo": "shellos",
+  "evoLevel": 30,
+  "cosmeticSubName": "West Sea",
+  "cosmeticFormes": [
+    {
+      "slug": "gastrodon-east",
+      "subName": "East Sea"
+    }
+  ],
+  "formeIndex": 0,
+  "weight": 29.9,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Amorphous"
+  ],
+  "learnset": {
+    "amnesia": [
+      "E@shellos"
+    ],
+    "ancientpower": [
+      "T"
+    ],
+    "attract": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "block": [
+      "T"
+    ],
+    "bodyslam": [
+      "L:29"
+    ],
+    "brine": [
+      "M"
+    ],
+    "captivate": [
+      "M"
+    ],
+    "counter": [
+      "E@shellos"
+    ],
+    "curse": [
+      "E@shellos"
+    ],
+    "dig": [
+      "M"
+    ],
+    "dive": [
+      "T"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthpower": [
+      "T"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fissure": [
+      "E@shellos"
+    ],
+    "flash": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hail": [
+      "M"
+    ],
+    "harden": [
+      "L:1"
+    ],
+    "headbutt": [
+      "T"
+    ],
+    "hiddenpower": [
+      "M",
+      "L:16"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "memento": [
+      "E@shellos"
+    ],
+    "mirrorcoat": [
+      "E@shellos"
+    ],
+    "mudbomb": [
+      "L:11"
+    ],
+    "muddywater": [
+      "L:41"
+    ],
+    "mudslap": [
+      "T",
+      "L:1"
+    ],
+    "mudsport": [
+      "L:1"
+    ],
+    "naturalgift": [
+      "M"
+    ],
+    "painsplit": [
+      "T"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:22"
+    ],
+    "recover": [
+      "L:54"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludge": [
+      "E@shellos"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "spitup": [
+      "E@shellos"
+    ],
+    "stockpile": [
+      "E@shellos"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "stringshot": [
+      "T"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swallow": [
+      "E@shellos"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "trumpcard": [
+      "E@shellos"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "waterpulse": [
+      "M",
+      "L:1"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "yawn": [
+      "E@shellos"
+    ]
+  }
+}

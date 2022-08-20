@@ -1,0 +1,81 @@
+{
+  "slug": "zorua-hisui",
+  "name": "Hisuian Zorua",
+  "num": 570,
+  "types": [
+    "normal",
+    "ghost"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "illusion"
+  },
+  "baseStats": {
+    "hp": 35,
+    "atk": 60,
+    "def": 40,
+    "spa": 85,
+    "spd": 40,
+    "spe": 70
+  },
+  "evos": [
+    "zoroark-hisui"
+  ],
+  "baseSpecies": "zorua",
+  "region": "Hisui",
+  "formeIndex": 1,
+  "weight": 12.5,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aerialace": [
+      "T"
+    ],
+    "bittermalice": [
+      "L:18"
+    ],
+    "calmmind": [
+      "T"
+    ],
+    "darkpulse": [
+      "T"
+    ],
+    "nastyplot": [
+      "L:43"
+    ],
+    "rest": [
+      "T"
+    ],
+    "shadowball": [
+      "T"
+    ],
+    "shadowclaw": [
+      "L:34",
+      "T"
+    ],
+    "shadowsneak": [
+      "L:1"
+    ],
+    "slash": [
+      "L:25"
+    ],
+    "sludgebomb": [
+      "T"
+    ],
+    "snarl": [
+      "L:6",
+      "T"
+    ],
+    "swift": [
+      "L:11",
+      "T"
+    ]
+  }
+}

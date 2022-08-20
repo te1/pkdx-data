@@ -1,0 +1,207 @@
+{
+  "slug": "diglett-alola",
+  "name": "Alolan Diglett",
+  "num": 50,
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "sandveil",
+    "1": "tanglinghair",
+    "H": "sandforce"
+  },
+  "baseStats": {
+    "hp": 10,
+    "atk": 55,
+    "def": 30,
+    "spa": 35,
+    "spd": 45,
+    "spe": 90
+  },
+  "evos": [
+    "dugtrio-alola"
+  ],
+  "baseSpecies": "diglett",
+  "region": "Alola",
+  "formeIndex": 1,
+  "weight": 1,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "ancientpower": [
+      "E"
+    ],
+    "astonish": [
+      "L:7"
+    ],
+    "attract": [
+      "M"
+    ],
+    "beatup": [
+      "E"
+    ],
+    "bulldoze": [
+      "M",
+      "L:18"
+    ],
+    "confide": [
+      "M"
+    ],
+    "dig": [
+      "L:31"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthpower": [
+      "T",
+      "L:28"
+    ],
+    "earthquake": [
+      "M",
+      "L:39"
+    ],
+    "echoedvoice": [
+      "M"
+    ],
+    "endure": [
+      "E"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feintattack": [
+      "E"
+    ],
+    "finalgambit": [
+      "E"
+    ],
+    "fissure": [
+      "L:43"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "growl": [
+      "L:4"
+    ],
+    "headbutt": [
+      "E"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "irondefense": [
+      "T"
+    ],
+    "ironhead": [
+      "T",
+      "L:35"
+    ],
+    "magnitude": [
+      "L:14"
+    ],
+    "memento": [
+      "E"
+    ],
+    "metalclaw": [
+      "L:1"
+    ],
+    "metalsound": [
+      "E"
+    ],
+    "mudbomb": [
+      "L:25"
+    ],
+    "mudslap": [
+      "L:10"
+    ],
+    "protect": [
+      "M"
+    ],
+    "pursuit": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "reversal": [
+      "E"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "stealthrock": [
+      "T"
+    ],
+    "stompingtantrum": [
+      "T"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:22"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thrash": [
+      "E"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "workup": [
+      "M"
+    ]
+  }
+}

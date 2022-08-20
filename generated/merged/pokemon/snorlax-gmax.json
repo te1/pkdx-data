@@ -1,0 +1,37 @@
+{
+  "slug": "snorlax-gmax",
+  "name": "Gigantamax Snorlax",
+  "num": 143,
+  "types": [
+    "normal"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "immunity",
+    "1": "thickfat",
+    "H": "gluttony"
+  },
+  "baseStats": {
+    "hp": 160,
+    "atk": 110,
+    "def": 65,
+    "spa": 65,
+    "spd": 110,
+    "spe": 30
+  },
+  "baseSpecies": "snorlax",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 0,
+  "weight": 0,
+  "height": 35,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxreplenish"
+}

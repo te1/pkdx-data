@@ -1,0 +1,53 @@
+{
+  "slug": "blipbug",
+  "name": "Blipbug",
+  "num": 824,
+  "types": [
+    "bug"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "swarm",
+    "1": "compoundeyes",
+    "H": "telepathy"
+  },
+  "baseStats": {
+    "hp": 25,
+    "atk": 20,
+    "def": 20,
+    "spa": 25,
+    "spd": 45,
+    "spe": 45
+  },
+  "evos": [
+    "dottler"
+  ],
+  "formeIndex": 0,
+  "weight": 8,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "infestation": [
+      "E"
+    ],
+    "recover": [
+      "E"
+    ],
+    "stickyweb": [
+      "E"
+    ],
+    "strugglebug": [
+      "L:1"
+    ],
+    "supersonic": [
+      "E"
+    ]
+  }
+}

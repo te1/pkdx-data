@@ -1,0 +1,38 @@
+{
+  "slug": "charizard-gmax",
+  "name": "Gigantamax Charizard",
+  "num": 6,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "blaze",
+    "H": "solarpower"
+  },
+  "baseStats": {
+    "hp": 78,
+    "atk": 84,
+    "def": 78,
+    "spa": 109,
+    "spd": 85,
+    "spe": 100
+  },
+  "baseSpecies": "charizard",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 1000,
+  "weight": 0,
+  "height": 28,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxwildfire"
+}

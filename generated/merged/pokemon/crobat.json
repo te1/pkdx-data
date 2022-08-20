@@ -1,0 +1,138 @@
+{
+  "slug": "crobat",
+  "name": "Crobat",
+  "num": 169,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 85,
+    "atk": 90,
+    "def": 80,
+    "spa": 70,
+    "spd": 80,
+    "spe": 130
+  },
+  "prevo": "golbat",
+  "evoType": "levelFriendship",
+  "formeIndex": 0,
+  "weight": 75,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "L:12"
+    ],
+    "confuseray": [
+      "L:19"
+    ],
+    "curse": [
+      "M"
+    ],
+    "detect": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "feintattack": [
+      "E@zubat"
+    ],
+    "flail": [
+      "S@zubat"
+    ],
+    "fly": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gust": [
+      "E@zubat"
+    ],
+    "haze": [
+      "L:55"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leechlife": [
+      "L:1"
+    ],
+    "meanlook": [
+      "L:42"
+    ],
+    "protect": [
+      "M"
+    ],
+    "pursuit": [
+      "E@zubat"
+    ],
+    "quickattack": [
+      "E@zubat"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "screech": [
+      "L:1"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "steelwing": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:6",
+      "L:1"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "E@zubat"
+    ],
+    "wingattack": [
+      "L:30"
+    ]
+  }
+}

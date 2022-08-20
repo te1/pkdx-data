@@ -1,0 +1,51 @@
+{
+  "slug": "tynamo",
+  "name": "Tynamo",
+  "num": 602,
+  "types": [
+    "electric"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 35,
+    "atk": 55,
+    "def": 40,
+    "spa": 45,
+    "spd": 40,
+    "spe": 60
+  },
+  "evos": [
+    "eelektrik"
+  ],
+  "formeIndex": 0,
+  "weight": 0.3,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "chargebeam": [
+      "L:1"
+    ],
+    "magnetrise": [
+      "T"
+    ],
+    "spark": [
+      "L:1"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "L:1"
+    ]
+  }
+}

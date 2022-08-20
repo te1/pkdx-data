@@ -1,0 +1,33 @@
+{
+  "slug": "groudon-primal",
+  "name": "Primal Groudon",
+  "num": 383,
+  "types": [
+    "ground",
+    "fire"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "desolateland"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 180,
+    "def": 160,
+    "spa": 150,
+    "spd": 90,
+    "spe": 90
+  },
+  "baseSpecies": "groudon",
+  "formeTriggerItem": "redorb",
+  "isBattleOnly": true,
+  "isPrimal": true,
+  "formeIndex": 1,
+  "weight": 999.7,
+  "height": 5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

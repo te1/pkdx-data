@@ -1,0 +1,112 @@
+{
+  "slug": "tentacruel",
+  "name": "Tentacruel",
+  "num": 73,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 80,
+    "atk": 70,
+    "def": 65,
+    "spa": 120,
+    "spd": 120,
+    "spe": 100
+  },
+  "prevo": "tentacool",
+  "evoLevel": 30,
+  "formeIndex": 0,
+  "weight": 55,
+  "height": 1.6,
+  "learnset": {
+    "acid": [
+      "L:1"
+    ],
+    "barrier": [
+      "L:35"
+    ],
+    "bide": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "M"
+    ],
+    "constrict": [
+      "L:27"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "hydropump": [
+      "L:50"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "poisonsting": [
+      "L:18"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "L:43"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:7",
+      "L:1"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "watergun": [
+      "M",
+      "L:22"
+    ],
+    "wrap": [
+      "L:13",
+      "L:1"
+    ]
+  }
+}

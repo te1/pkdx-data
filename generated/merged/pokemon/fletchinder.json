@@ -1,0 +1,184 @@
+{
+  "slug": "fletchinder",
+  "name": "Fletchinder",
+  "num": 662,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "flamebody",
+    "H": "galewings"
+  },
+  "baseStats": {
+    "hp": 62,
+    "atk": 73,
+    "def": 55,
+    "spa": 56,
+    "spd": 52,
+    "spe": 84
+  },
+  "prevo": "fletchling",
+  "evos": [
+    "talonflame"
+  ],
+  "evoLevel": 17,
+  "formeIndex": 0,
+  "weight": 16,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "learnset": {
+    "acrobatics": [
+      "M",
+      "L:42"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "L:13"
+    ],
+    "attract": [
+      "M"
+    ],
+    "confide": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "ember": [
+      "L:17"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "flail": [
+      "L:16"
+    ],
+    "flamecharge": [
+      "M",
+      "L:38"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fly": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "heatwave": [
+      "T"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "incinerate": [
+      "M"
+    ],
+    "mefirst": [
+      "L:46"
+    ],
+    "naturalgift": [
+      "L:31"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "peck": [
+      "L:10"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:6"
+    ],
+    "quickguard": [
+      "E@fletchling"
+    ],
+    "razorwind": [
+      "L:27"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "roost": [
+      "M",
+      "L:25"
+    ],
+    "round": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snatch": [
+      "T",
+      "E@fletchling"
+    ],
+    "snore": [
+      "T"
+    ],
+    "steelwing": [
+      "M",
+      "L:55"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwind": [
+      "T",
+      "L:51",
+      "E@fletchling"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  }
+}

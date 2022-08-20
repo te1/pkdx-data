@@ -1,0 +1,92 @@
+{
+  "slug": "snom",
+  "name": "Snom",
+  "num": 872,
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "shielddust",
+    "H": "icescales"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 25,
+    "def": 35,
+    "spa": 45,
+    "spd": 30,
+    "spe": 20
+  },
+  "evos": [
+    "frosmoth"
+  ],
+  "formeIndex": 0,
+  "weight": 3.8,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "bugbite": [
+      "E"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fairywind": [
+      "E"
+    ],
+    "iciclespear": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "mirrorcoat": [
+      "E"
+    ],
+    "powdersnow": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "skittersmack": [
+      "T"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "strugglebug": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ]
+  }
+}

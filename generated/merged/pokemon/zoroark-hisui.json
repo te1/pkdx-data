@@ -1,0 +1,98 @@
+{
+  "slug": "zoroark-hisui",
+  "name": "Hisuian Zoroark",
+  "num": 571,
+  "types": [
+    "normal",
+    "ghost"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "illusion"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 100,
+    "def": 60,
+    "spa": 125,
+    "spd": 60,
+    "spe": 110
+  },
+  "prevo": "zorua-hisui",
+  "evoLevel": 30,
+  "baseSpecies": "zoroark",
+  "region": "Hisui",
+  "formeIndex": 1,
+  "weight": 73,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "Rock Smash": [
+      "T"
+    ],
+    "aerialace": [
+      "T"
+    ],
+    "bittermalice": [
+      "L:18"
+    ],
+    "calmmind": [
+      "T"
+    ],
+    "darkpulse": [
+      "T"
+    ],
+    "extrasensory": [
+      "L:52"
+    ],
+    "flamethrower": [
+      "T"
+    ],
+    "gigaimpact": [
+      "T"
+    ],
+    "hyperbeam": [
+      "T"
+    ],
+    "nastyplot": [
+      "L:43"
+    ],
+    "ominouswind": [
+      "T"
+    ],
+    "rest": [
+      "T"
+    ],
+    "shadowball": [
+      "L:40",
+      "T"
+    ],
+    "shadowclaw": [
+      "L:34",
+      "T"
+    ],
+    "shadowsneak": [
+      "L:1"
+    ],
+    "slash": [
+      "L:25"
+    ],
+    "sludgebomb": [
+      "T"
+    ],
+    "snarl": [
+      "L:6",
+      "T"
+    ],
+    "swift": [
+      "L:11",
+      "T"
+    ]
+  }
+}

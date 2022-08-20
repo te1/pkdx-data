@@ -1,0 +1,36 @@
+{
+  "slug": "gengar-mega",
+  "name": "Mega Gengar",
+  "num": 94,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "shadowtag"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 65,
+    "def": 80,
+    "spa": 170,
+    "spd": 95,
+    "spe": 130
+  },
+  "baseSpecies": "gengar",
+  "formeTriggerItem": "gengarite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 40.5,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true
+}

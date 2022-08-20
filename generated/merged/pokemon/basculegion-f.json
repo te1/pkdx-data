@@ -1,0 +1,102 @@
+{
+  "slug": "basculegion-f",
+  "name": "Basculegion",
+  "subName": "Female",
+  "num": 902,
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "rattled",
+    "1": "adaptability",
+    "H": "moldbreaker"
+  },
+  "baseStats": {
+    "hp": 120,
+    "atk": 92,
+    "def": 65,
+    "spa": 100,
+    "spd": 75,
+    "spe": 78
+  },
+  "prevo": "basculin-white-striped",
+  "evoType": "other",
+  "evoCondition": "Receive 294+ recoil without fainting",
+  "baseSpecies": "basculegion",
+  "formeIndex": 1,
+  "weight": 110,
+  "height": 3,
+  "gender": "F",
+  "eggGroups": [
+    "Water 2"
+  ],
+  "learnset": {
+    "aquajet": [
+      "L:6"
+    ],
+    "aquatail": [
+      "T"
+    ],
+    "bite": [
+      "L:11"
+    ],
+    "calmmind": [
+      "T"
+    ],
+    "crunch": [
+      "L:25"
+    ],
+    "doubleedge": [
+      "L:43"
+    ],
+    "gigaimpact": [
+      "T"
+    ],
+    "hex": [
+      "L:11"
+    ],
+    "hyperbeam": [
+      "T"
+    ],
+    "icebeam": [
+      "T"
+    ],
+    "icefang": [
+      "T"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "ominouswind": [
+      "T"
+    ],
+    "psychic": [
+      "T"
+    ],
+    "rest": [
+      "T"
+    ],
+    "shadowball": [
+      "L:25",
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "T"
+    ],
+    "wavecrash": [
+      "L:34"
+    ],
+    "zenheadbutt": [
+      "L:18",
+      "T"
+    ]
+  }
+}

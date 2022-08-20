@@ -1,0 +1,170 @@
+{
+  "slug": "vibrava",
+  "name": "Vibrava",
+  "num": 329,
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 70,
+    "def": 50,
+    "spa": 50,
+    "spd": 50,
+    "spe": 70
+  },
+  "prevo": "trapinch",
+  "evos": [
+    "flygon"
+  ],
+  "evoLevel": 35,
+  "formeIndex": 0,
+  "weight": 15.3,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "T"
+    ],
+    "crunch": [
+      "L:33"
+    ],
+    "dig": [
+      "M",
+      "L:41@trapinch"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:35"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feintattack": [
+      "L:1"
+    ],
+    "fly": [
+      "M"
+    ],
+    "focusenergy": [
+      "E@trapinch"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gust": [
+      "E@trapinch"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M",
+      "L:57"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "E@trapinch"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockslide": [
+      "T"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M",
+      "L:49"
+    ],
+    "sandtomb": [
+      "L:1"
+    ],
+    "screech": [
+      "L:41"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "steelwing": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

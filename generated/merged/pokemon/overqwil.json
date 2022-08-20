@@ -1,0 +1,100 @@
+{
+  "slug": "overqwil",
+  "name": "Overqwil",
+  "num": 904,
+  "types": [
+    "dark",
+    "poison"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "swiftswim",
+    "H": "intimidate"
+  },
+  "baseStats": {
+    "hp": 85,
+    "atk": 115,
+    "def": 95,
+    "spa": 65,
+    "spd": 65,
+    "spe": 85
+  },
+  "prevo": "qwilfish-hisui",
+  "evoType": "other",
+  "evoCondition": "Use Strong style Barb Barrage 20 times",
+  "formeIndex": 0,
+  "weight": 3.9,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "learnset": {
+    "aquatail": [
+      "L:37",
+      "T"
+    ],
+    "barbbarrage": [
+      "L:15"
+    ],
+    "darkpulse": [
+      "L:26",
+      "T"
+    ],
+    "doubleedge": [
+      "L:47"
+    ],
+    "gigaimpact": [
+      "T"
+    ],
+    "hyperbeam": [
+      "T"
+    ],
+    "iceball": [
+      "T"
+    ],
+    "icebeam": [
+      "T"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "pinmissile": [
+      "L:9"
+    ],
+    "poisonjab": [
+      "L:29",
+      "T"
+    ],
+    "poisonsting": [
+      "L:1"
+    ],
+    "rest": [
+      "T"
+    ],
+    "selfdestruct": [
+      "L:57"
+    ],
+    "shadowball": [
+      "T"
+    ],
+    "sludgebomb": [
+      "T"
+    ],
+    "spikes": [
+      "L:5",
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "waterpulse": [
+      "L:21",
+      "T"
+    ]
+  }
+}

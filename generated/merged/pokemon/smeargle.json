@@ -1,0 +1,42 @@
+{
+  "slug": "smeargle",
+  "name": "Smeargle",
+  "num": 235,
+  "types": [
+    "normal"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 55,
+    "atk": 20,
+    "def": 35,
+    "spa": 20,
+    "spd": 45,
+    "spe": 75
+  },
+  "formeIndex": 0,
+  "weight": 58,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "sketch": [
+      "L:91",
+      "L:81",
+      "L:71",
+      "L:61",
+      "L:51",
+      "L:41",
+      "L:31",
+      "L:21",
+      "L:11",
+      "L:1"
+    ]
+  }
+}

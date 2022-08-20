@@ -1,0 +1,133 @@
+{
+  "slug": "yanma",
+  "name": "Yanma",
+  "num": 193,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 65,
+    "atk": 65,
+    "def": 45,
+    "spa": 75,
+    "spd": 45,
+    "spe": 95
+  },
+  "formeIndex": 0,
+  "weight": 38,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "curse": [
+      "M"
+    ],
+    "detect": [
+      "M",
+      "L:25"
+    ],
+    "doubleteam": [
+      "M",
+      "L:13"
+    ],
+    "endure": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "foresight": [
+      "L:1"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "leechlife": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:7"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "reversal": [
+      "E"
+    ],
+    "screech": [
+      "L:43"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "sonicboom": [
+      "L:19"
+    ],
+    "steelwing": [
+      "S"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:31"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "sweetkiss": [
+      "S"
+    ],
+    "swift": [
+      "M",
+      "L:37"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "thief": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "E"
+    ],
+    "wingattack": [
+      "L:37"
+    ]
+  }
+}

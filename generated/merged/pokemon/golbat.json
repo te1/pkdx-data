@@ -1,0 +1,89 @@
+{
+  "slug": "golbat",
+  "name": "Golbat",
+  "num": 42,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 75,
+    "atk": 80,
+    "def": 70,
+    "spa": 75,
+    "spd": 75,
+    "spe": 90
+  },
+  "prevo": "zubat",
+  "evoLevel": 22,
+  "formeIndex": 0,
+  "weight": 55,
+  "height": 1.6,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bite": [
+      "L:15",
+      "L:1"
+    ],
+    "confuseray": [
+      "L:21"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "haze": [
+      "L:43"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leechlife": [
+      "L:1"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "razorwind": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:10"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "M"
+    ],
+    "wingattack": [
+      "L:32"
+    ]
+  }
+}

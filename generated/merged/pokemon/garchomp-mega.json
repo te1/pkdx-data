@@ -1,0 +1,37 @@
+{
+  "slug": "garchomp-mega",
+  "name": "Mega Garchomp",
+  "num": 445,
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "sandforce"
+  },
+  "baseStats": {
+    "hp": 108,
+    "atk": 170,
+    "def": 115,
+    "spa": 120,
+    "spd": 95,
+    "spe": 92
+  },
+  "baseSpecies": "garchomp",
+  "formeTriggerItem": "garchompite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 95,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true
+}

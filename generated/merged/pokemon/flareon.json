@@ -1,0 +1,119 @@
+{
+  "slug": "flareon",
+  "name": "Flareon",
+  "num": 136,
+  "types": [
+    "fire"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 65,
+    "atk": 130,
+    "def": 60,
+    "spa": 110,
+    "spd": 110,
+    "spe": 65
+  },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Fire Stone",
+  "formeIndex": 0,
+  "weight": 25,
+  "height": 0.9,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bite": [
+      "L:30",
+      "L:40"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "ember": [
+      "L:16",
+      "L:31",
+      "L:1"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firespin": [
+      "L:36",
+      "L:44"
+    ],
+    "flamethrower": [
+      "L:52",
+      "L:54"
+    ],
+    "focusenergy": [
+      "L:36@eevee"
+    ],
+    "growl": [
+      "L:16@eevee"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leer": [
+      "L:47",
+      "L:42"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "quickattack": [
+      "L:23",
+      "L:27",
+      "L:1"
+    ],
+    "rage": [
+      "M",
+      "L:48"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sandattack": [
+      "L:8",
+      "L:1"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "smog": [
+      "L:42"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:1",
+      "L:37"
+    ],
+    "takedown": [
+      "M",
+      "L:42@eevee",
+      "L:45@eevee"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

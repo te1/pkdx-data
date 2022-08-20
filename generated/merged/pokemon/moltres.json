@@ -1,0 +1,88 @@
+{
+  "slug": "moltres",
+  "name": "Moltres",
+  "num": 146,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 90,
+    "atk": 100,
+    "def": 90,
+    "spa": 125,
+    "spd": 125,
+    "spe": 90
+  },
+  "formeIndex": 0,
+  "weight": 60,
+  "height": 2,
+  "isLegendary": true,
+  "learnset": {
+    "agility": [
+      "L:55"
+    ],
+    "bide": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firespin": [
+      "L:1"
+    ],
+    "fly": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leer": [
+      "L:51"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "peck": [
+      "L:1"
+    ],
+    "rage": [
+      "M"
+    ],
+    "razorwind": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skyattack": [
+      "M",
+      "L:60"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "slug": "drednaw",
+  "name": "Drednaw",
+  "num": 834,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "strongjaw",
+    "1": "shellarmor",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 115,
+    "def": 90,
+    "spa": 48,
+    "spd": 68,
+    "spe": 74
+  },
+  "prevo": "chewtle",
+  "evoLevel": 22,
+  "formes": [
+    "drednaw-gmax"
+  ],
+  "formeIndex": 0,
+  "weight": 115.5,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxstonesurge",
+  "learnset": {
+    "assurance": [
+      "M"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M",
+      "L:57"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "counter": [
+      "L:30"
+    ],
+    "crunch": [
+      "M",
+      "L:1"
+    ],
+    "dig": [
+      "M"
+    ],
+    "dive": [
+      "M"
+    ],
+    "dragontail": [
+      "E@chewtle"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "gastroacid": [
+      "E@chewtle"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "headbutt": [
+      "L:21"
+    ],
+    "headsmash": [
+      "L:66"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icefang": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "jawlock": [
+      "L:39"
+    ],
+    "liquidation": [
+      "M",
+      "L:48"
+    ],
+    "megahorn": [
+      "M"
+    ],
+    "meteorbeam": [
+      "T"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "payback": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M",
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "razorshell": [
+      "M",
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "revenge": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockpolish": [
+      "L:1"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M",
+      "L:0"
+    ],
+    "round": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "scald": [
+      "M"
+    ],
+    "scaleshot": [
+      "T"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "skittersmack": [
+      "T"
+    ],
+    "skullbash": [
+      "E@chewtle"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "superpower": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "whirlpool": [
+      "M"
+    ]
+  }
+}

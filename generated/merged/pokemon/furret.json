@@ -1,0 +1,170 @@
+{
+  "slug": "furret",
+  "name": "Furret",
+  "num": 162,
+  "types": [
+    "normal"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 85,
+    "atk": 76,
+    "def": 64,
+    "spa": 45,
+    "spd": 55,
+    "spe": 90
+  },
+  "prevo": "sentret",
+  "evoLevel": 15,
+  "formeIndex": 0,
+  "weight": 32.5,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "amnesia": [
+      "L:48"
+    ],
+    "attract": [
+      "M"
+    ],
+    "curse": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "defensecurl": [
+      "M",
+      "L:5",
+      "L:1"
+    ],
+    "detect": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "dizzypunch": [
+      "S@sentret"
+    ],
+    "doubleedge": [
+      "E@sentret"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "focusenergy": [
+      "E@sentret"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furycutter": [
+      "M"
+    ],
+    "furyswipes": [
+      "L:18"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "pursuit": [
+      "E@sentret"
+    ],
+    "quickattack": [
+      "L:11",
+      "L:1"
+    ],
+    "rest": [
+      "M",
+      "L:38"
+    ],
+    "return": [
+      "M"
+    ],
+    "reversal": [
+      "E@sentret"
+    ],
+    "rollout": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "slam": [
+      "L:28"
+    ],
+    "slash": [
+      "E@sentret"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1@sentret"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

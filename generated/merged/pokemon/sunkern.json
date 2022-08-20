@@ -1,0 +1,110 @@
+{
+  "slug": "sunkern",
+  "name": "Sunkern",
+  "num": 191,
+  "types": [
+    "grass"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 30,
+    "atk": 30,
+    "def": 30,
+    "spa": 30,
+    "spd": 30,
+    "spe": 30
+  },
+  "evos": [
+    "sunflora"
+  ],
+  "formeIndex": 0,
+  "weight": 1.8,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "attract": [
+      "M"
+    ],
+    "curse": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigadrain": [
+      "M",
+      "L:46"
+    ],
+    "growth": [
+      "L:4"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "megadrain": [
+      "L:10"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "splash": [
+      "S"
+    ],
+    "sunnyday": [
+      "M",
+      "L:19"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "sweetscent": [
+      "M"
+    ],
+    "synthesis": [
+      "L:31"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

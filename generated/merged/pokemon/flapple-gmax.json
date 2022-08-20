@@ -1,0 +1,39 @@
+{
+  "slug": "flapple-gmax",
+  "name": "Gigantamax Flapple",
+  "num": 841,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "ripen",
+    "1": "gluttony",
+    "H": "hustle"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 110,
+    "def": 80,
+    "spa": 95,
+    "spd": 60,
+    "spe": 70
+  },
+  "baseSpecies": "flapple",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 0,
+  "weight": 0,
+  "height": 24,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxtartness"
+}

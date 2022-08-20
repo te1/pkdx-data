@@ -1,0 +1,225 @@
+{
+  "slug": "blaziken",
+  "name": "Blaziken",
+  "num": 257,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "blaze"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 120,
+    "def": 70,
+    "spa": 110,
+    "spd": 70,
+    "spe": 80
+  },
+  "prevo": "combusken",
+  "evoLevel": 36,
+  "formeIndex": 0,
+  "weight": 52,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "attract": [
+      "M"
+    ],
+    "blazekick": [
+      "L:36"
+    ],
+    "bodyslam": [
+      "T"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M",
+      "L:28"
+    ],
+    "counter": [
+      "T",
+      "E@torchic"
+    ],
+    "cut": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doublekick": [
+      "L:16"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "T"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "T",
+      "E@torchic"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepunch": [
+      "T",
+      "L:1"
+    ],
+    "firespin": [
+      "L:25@torchic"
+    ],
+    "flamethrower": [
+      "M",
+      "L:43@torchic"
+    ],
+    "focusenergy": [
+      "L:1"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furycutter": [
+      "T"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "megakick": [
+      "T"
+    ],
+    "megapunch": [
+      "T"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "mirrormove": [
+      "L:49"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "peck": [
+      "L:17"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:32"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "reversal": [
+      "E@torchic"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "T",
+      "E@torchic"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:21"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "seismictoss": [
+      "T"
+    ],
+    "skyuppercut": [
+      "L:59"
+    ],
+    "slash": [
+      "L:42"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "smellingsalts": [
+      "E@torchic"
+    ],
+    "snore": [
+      "T"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "T",
+      "E@torchic"
+    ],
+    "swift": [
+      "T"
+    ],
+    "swordsdance": [
+      "T"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "scatterbug",
+  "name": "Scatterbug",
+  "num": 664,
+  "types": [
+    "bug"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "shielddust",
+    "1": "compoundeyes",
+    "H": "friendguard"
+  },
+  "baseStats": {
+    "hp": 38,
+    "atk": 35,
+    "def": 40,
+    "spa": 27,
+    "spd": 25,
+    "spe": 35
+  },
+  "evos": [
+    "spewpa"
+  ],
+  "formeIndex": 0,
+  "weight": 2.5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "bugbite": [
+      "T",
+      "L:15"
+    ],
+    "poisonpowder": [
+      "E"
+    ],
+    "ragepowder": [
+      "E"
+    ],
+    "stringshot": [
+      "L:1"
+    ],
+    "stunspore": [
+      "L:6",
+      "E"
+    ],
+    "tackle": [
+      "L:1"
+    ]
+  }
+}

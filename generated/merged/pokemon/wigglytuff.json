@@ -1,0 +1,142 @@
+{
+  "slug": "wigglytuff",
+  "name": "Wigglytuff",
+  "num": 40,
+  "types": [
+    "normal"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 140,
+    "atk": 70,
+    "def": 45,
+    "spa": 50,
+    "spd": 50,
+    "spe": 45
+  },
+  "prevo": "jigglypuff",
+  "evoType": "useItem",
+  "evoItem": "Moon Stone",
+  "formeIndex": 0,
+  "weight": 12,
+  "height": 1,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M",
+      "L:34@jigglypuff"
+    ],
+    "bubblebeam": [
+      "M"
+    ],
+    "counter": [
+      "M"
+    ],
+    "defensecurl": [
+      "L:1"
+    ],
+    "disable": [
+      "L:1"
+    ],
+    "doubleedge": [
+      "M",
+      "L:39@jigglypuff"
+    ],
+    "doubleslap": [
+      "L:1"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "megakick": [
+      "M"
+    ],
+    "megapunch": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "pound": [
+      "L:9@jigglypuff"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psywave": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M",
+      "L:29@jigglypuff"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "sing": [
+      "L:1"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "teleport": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "triattack": [
+      "M"
+    ],
+    "watergun": [
+      "M"
+    ]
+  }
+}

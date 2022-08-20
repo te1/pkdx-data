@@ -1,0 +1,167 @@
+{
+  "slug": "venipede",
+  "name": "Venipede",
+  "num": 543,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "swarm",
+    "H": "quickfeet"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 45,
+    "def": 59,
+    "spa": 30,
+    "spd": 39,
+    "spe": 57
+  },
+  "evos": [
+    "whirlipede"
+  ],
+  "formeIndex": 0,
+  "weight": 5.3,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "agility": [
+      "L:29"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bugbite": [
+      "T",
+      "L:22"
+    ],
+    "defensecurl": [
+      "L:1"
+    ],
+    "doubleedge": [
+      "L:43"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endeavor": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "irondefense": [
+      "T"
+    ],
+    "payback": [
+      "M"
+    ],
+    "pinmissile": [
+      "E"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poisonsting": [
+      "L:5"
+    ],
+    "poisontail": [
+      "L:19"
+    ],
+    "protect": [
+      "M",
+      "L:15"
+    ],
+    "pursuit": [
+      "L:12"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockclimb": [
+      "L:40",
+      "E"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rollout": [
+      "L:1"
+    ],
+    "round": [
+      "M"
+    ],
+    "screech": [
+      "L:8"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "spikes": [
+      "E"
+    ],
+    "steamroller": [
+      "L:33"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "takedown": [
+      "E"
+    ],
+    "toxic": [
+      "M",
+      "L:36"
+    ],
+    "toxicspikes": [
+      "E"
+    ],
+    "twineedle": [
+      "E"
+    ],
+    "venoshock": [
+      "M",
+      "L:26"
+    ]
+  }
+}

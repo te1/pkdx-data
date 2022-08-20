@@ -1,0 +1,120 @@
+{
+  "slug": "staryu",
+  "name": "Staryu",
+  "num": 120,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 30,
+    "atk": 45,
+    "def": 55,
+    "spa": 70,
+    "spd": 70,
+    "spe": 85
+  },
+  "evos": [
+    "starmie"
+  ],
+  "formeIndex": 0,
+  "weight": 34.5,
+  "height": 0.8,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "harden": [
+      "L:22"
+    ],
+    "hydropump": [
+      "L:47"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "lightscreen": [
+      "L:42"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "minimize": [
+      "L:37"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psywave": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "recover": [
+      "L:27"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M",
+      "L:32"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "teleport": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "triattack": [
+      "M"
+    ],
+    "watergun": [
+      "M",
+      "L:17"
+    ]
+  }
+}

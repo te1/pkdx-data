@@ -1,0 +1,191 @@
+{
+  "slug": "gigalith",
+  "name": "Gigalith",
+  "num": 526,
+  "types": [
+    "rock"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "sturdy",
+    "H": "sandforce"
+  },
+  "baseStats": {
+    "hp": 85,
+    "atk": 135,
+    "def": 130,
+    "spa": 60,
+    "spd": 70,
+    "spe": 25
+  },
+  "prevo": "boldore",
+  "evoType": "trade",
+  "formeIndex": 0,
+  "weight": 260,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "autotomize": [
+      "E"
+    ],
+    "block": [
+      "T"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "curse": [
+      "E"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthpower": [
+      "T"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "explosion": [
+      "M",
+      "L:55"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gravity": [
+      "T",
+      "E"
+    ],
+    "harden": [
+      "L:1"
+    ],
+    "headbutt": [
+      "L:1"
+    ],
+    "heavyslam": [
+      "E"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "T",
+      "L:20"
+    ],
+    "ironhead": [
+      "T"
+    ],
+    "lockon": [
+      "E"
+    ],
+    "magnitude": [
+      "E"
+    ],
+    "mudslap": [
+      "L:17"
+    ],
+    "powergem": [
+      "L:25"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockblast": [
+      "L:14"
+    ],
+    "rockpolish": [
+      "M"
+    ],
+    "rockslide": [
+      "M",
+      "L:30"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M",
+      "E"
+    ],
+    "round": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M",
+      "L:42"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "smackdown": [
+      "M",
+      "L:23"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stealthrock": [
+      "T",
+      "L:36"
+    ],
+    "stoneedge": [
+      "M",
+      "L:48"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "superpower": [
+      "T"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "E"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

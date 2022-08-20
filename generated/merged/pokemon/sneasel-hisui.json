@@ -1,0 +1,101 @@
+{
+  "slug": "sneasel-hisui",
+  "name": "Hisuian Sneasel",
+  "num": 215,
+  "types": [
+    "fighting",
+    "poison"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "innerfocus",
+    "1": "keeneye",
+    "H": "poisontouch"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 95,
+    "def": 55,
+    "spa": 35,
+    "spd": 75,
+    "spe": 115
+  },
+  "evos": [
+    "sneasler"
+  ],
+  "baseSpecies": "sneasel",
+  "region": "Hisui",
+  "formeIndex": 1,
+  "weight": 27,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aerialace": [
+      "T"
+    ],
+    "bulkup": [
+      "T"
+    ],
+    "calmmind": [
+      "T"
+    ],
+    "closecombat": [
+      "L:43"
+    ],
+    "drainpunch": [
+      "T"
+    ],
+    "falseswipe": [
+      "T"
+    ],
+    "focusenergy": [
+      "T"
+    ],
+    "irontail": [
+      "T"
+    ],
+    "poisonjab": [
+      "L:25",
+      "T"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "rest": [
+      "T"
+    ],
+    "rocksmash": [
+      "L:6",
+      "T"
+    ],
+    "shadowball": [
+      "T"
+    ],
+    "shadowclaw": [
+      "T"
+    ],
+    "slash": [
+      "L:18"
+    ],
+    "snarl": [
+      "T"
+    ],
+    "swift": [
+      "L:11",
+      "T"
+    ],
+    "swordsdance": [
+      "L:34"
+    ],
+    "xscissor": [
+      "T"
+    ]
+  }
+}

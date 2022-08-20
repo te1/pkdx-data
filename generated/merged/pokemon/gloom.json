@@ -1,0 +1,91 @@
+{
+  "slug": "gloom",
+  "name": "Gloom",
+  "num": 44,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 60,
+    "atk": 65,
+    "def": 70,
+    "spa": 85,
+    "spd": 85,
+    "spe": 40
+  },
+  "prevo": "oddish",
+  "evos": [
+    "vileplume"
+  ],
+  "evoLevel": 21,
+  "formeIndex": 0,
+  "weight": 8.6,
+  "height": 0.8,
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "acid": [
+      "L:28"
+    ],
+    "bide": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "petaldance": [
+      "L:38"
+    ],
+    "poisonpowder": [
+      "L:15",
+      "L:1"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeppowder": [
+      "L:19"
+    ],
+    "solarbeam": [
+      "M",
+      "L:52"
+    ],
+    "stunspore": [
+      "L:17",
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "kadabra",
+  "name": "Kadabra",
+  "num": 64,
+  "types": [
+    "psychic"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 40,
+    "atk": 35,
+    "def": 30,
+    "spa": 120,
+    "spd": 120,
+    "spe": 105
+  },
+  "prevo": "abra",
+  "evos": [
+    "alakazam"
+  ],
+  "evoLevel": 16,
+  "formeIndex": 0,
+  "weight": 56.5,
+  "height": 1.3,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "confusion": [
+      "L:16",
+      "L:1"
+    ],
+    "counter": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disable": [
+      "L:20",
+      "L:1"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "kinesis": [
+      "L:1"
+    ],
+    "megakick": [
+      "M"
+    ],
+    "megapunch": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "psybeam": [
+      "L:27"
+    ],
+    "psychic": [
+      "M",
+      "L:38"
+    ],
+    "psywave": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "recover": [
+      "L:31"
+    ],
+    "reflect": [
+      "M",
+      "L:42"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "teleport": [
+      "M",
+      "L:1"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "triattack": [
+      "M"
+    ]
+  }
+}

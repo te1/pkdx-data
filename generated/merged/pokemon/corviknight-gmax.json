@@ -1,0 +1,38 @@
+{
+  "slug": "corviknight-gmax",
+  "name": "Gigantamax Corviknight",
+  "num": 823,
+  "types": [
+    "flying",
+    "steel"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "pressure",
+    "1": "unnerve",
+    "H": "mirrorarmor"
+  },
+  "baseStats": {
+    "hp": 98,
+    "atk": 87,
+    "def": 105,
+    "spa": 53,
+    "spd": 85,
+    "spe": 67
+  },
+  "baseSpecies": "corviknight",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 0,
+  "weight": 0,
+  "height": 14,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxwindrage"
+}

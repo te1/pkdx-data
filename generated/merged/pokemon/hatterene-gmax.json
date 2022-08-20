@@ -1,0 +1,35 @@
+{
+  "slug": "hatterene-gmax",
+  "name": "Gigantamax Hatterene",
+  "num": 858,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "healer",
+    "1": "anticipation",
+    "H": "magicbounce"
+  },
+  "baseStats": {
+    "hp": 57,
+    "atk": 90,
+    "def": 95,
+    "spa": 136,
+    "spd": 103,
+    "spe": 29
+  },
+  "baseSpecies": "hatterene",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 0,
+  "weight": 0,
+  "height": 26,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxsmite"
+}

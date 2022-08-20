@@ -1,0 +1,149 @@
+{
+  "slug": "rolycoly",
+  "name": "Rolycoly",
+  "num": 837,
+  "types": [
+    "rock"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "steamengine",
+    "1": "heatproof",
+    "H": "flashfire"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 40,
+    "def": 50,
+    "spa": 40,
+    "spd": 50,
+    "spe": 30
+  },
+  "evos": [
+    "carkol"
+  ],
+  "formeIndex": 0,
+  "weight": 12,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "ancientpower": [
+      "L:20"
+    ],
+    "attract": [
+      "M"
+    ],
+    "block": [
+      "E"
+    ],
+    "dig": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "E"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "heatcrash": [
+      "M",
+      "L:35"
+    ],
+    "incinerate": [
+      "L:25"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "meteorbeam": [
+      "T"
+    ],
+    "mudslap": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rapidspin": [
+      "L:5"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockblast": [
+      "M",
+      "L:40"
+    ],
+    "rockpolish": [
+      "L:15"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "selfdestruct": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "L:10"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "snore": [
+      "M"
+    ],
+    "spikes": [
+      "M"
+    ],
+    "stealthrock": [
+      "M",
+      "L:30"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  }
+}

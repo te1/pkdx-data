@@ -1,0 +1,178 @@
+{
+  "slug": "castform",
+  "name": "Castform",
+  "num": 351,
+  "types": [
+    "normal"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "forecast"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 70,
+    "def": 70,
+    "spa": 70,
+    "spd": 70,
+    "spe": 70
+  },
+  "formes": [
+    "castform-sunny",
+    "castform-rainy",
+    "castform-snowy"
+  ],
+  "formeIndex": 0,
+  "weight": 0.8,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "T"
+    ],
+    "defensecurl": [
+      "T"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "ember": [
+      "L:10"
+    ],
+    "endure": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "futuresight": [
+      "E"
+    ],
+    "hail": [
+      "M",
+      "L:20"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "powdersnow": [
+      "L:10"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychup": [
+      "T",
+      "E"
+    ],
+    "raindance": [
+      "M",
+      "L:20"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shockwave": [
+      "M"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "sunnyday": [
+      "M",
+      "L:20"
+    ],
+    "swagger": [
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "watergun": [
+      "L:10"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "weatherball": [
+      "L:30"
+    ]
+  }
+}

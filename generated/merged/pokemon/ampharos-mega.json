@@ -1,0 +1,37 @@
+{
+  "slug": "ampharos-mega",
+  "name": "Mega Ampharos",
+  "num": 181,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "moldbreaker"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 95,
+    "def": 105,
+    "spa": 165,
+    "spd": 110,
+    "spe": 45
+  },
+  "baseSpecies": "ampharos",
+  "formeTriggerItem": "ampharosite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 61.5,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "canHatch": true
+}

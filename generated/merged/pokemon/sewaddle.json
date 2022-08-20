@@ -1,0 +1,191 @@
+{
+  "slug": "sewaddle",
+  "name": "Sewaddle",
+  "num": 540,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "swarm",
+    "1": "chlorophyll",
+    "H": "overcoat"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 53,
+    "def": 70,
+    "spa": 40,
+    "spd": 60,
+    "spe": 42
+  },
+  "evos": [
+    "swadloon"
+  ],
+  "formeIndex": 0,
+  "weight": 2.5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "agility": [
+      "E"
+    ],
+    "airslash": [
+      "E"
+    ],
+    "attract": [
+      "M"
+    ],
+    "batonpass": [
+      "E"
+    ],
+    "bugbite": [
+      "T",
+      "L:8"
+    ],
+    "bugbuzz": [
+      "L:36"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "camouflage": [
+      "E"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dreameater": [
+      "M"
+    ],
+    "electroweb": [
+      "T"
+    ],
+    "endure": [
+      "L:29"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:43"
+    ],
+    "flash": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigadrain": [
+      "T"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "irondefense": [
+      "T"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "magiccoat": [
+      "T"
+    ],
+    "mefirst": [
+      "E"
+    ],
+    "mindreader": [
+      "E"
+    ],
+    "payback": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:15"
+    ],
+    "razorwind": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "safeguard": [
+      "M"
+    ],
+    "screech": [
+      "E"
+    ],
+    "seedbomb": [
+      "T"
+    ],
+    "signalbeam": [
+      "T"
+    ],
+    "silverwind": [
+      "E"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stringshot": [
+      "L:1"
+    ],
+    "strugglebug": [
+      "M",
+      "L:22"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "synthesis": [
+      "T"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "worryseed": [
+      "T"
+    ]
+  }
+}

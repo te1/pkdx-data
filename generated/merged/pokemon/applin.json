@@ -1,0 +1,68 @@
+{
+  "slug": "applin",
+  "name": "Applin",
+  "num": 840,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "ripen",
+    "1": "gluttony",
+    "H": "bulletproof"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 40,
+    "def": 80,
+    "spa": 40,
+    "spd": 40,
+    "spe": 20
+  },
+  "evos": [
+    "flapple",
+    "appletun"
+  ],
+  "formeIndex": 0,
+  "weight": 0.5,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "astonish": [
+      "L:1"
+    ],
+    "attract": [
+      "M"
+    ],
+    "defensecurl": [
+      "E"
+    ],
+    "dracometeor": [
+      "T"
+    ],
+    "grassyglide": [
+      "T"
+    ],
+    "recycle": [
+      "E"
+    ],
+    "rollout": [
+      "E"
+    ],
+    "suckerpunch": [
+      "E"
+    ],
+    "withdraw": [
+      "L:1"
+    ]
+  }
+}

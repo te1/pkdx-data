@@ -1,0 +1,255 @@
+{
+  "slug": "abomasnow",
+  "name": "Abomasnow",
+  "num": 460,
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "snowwarning"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 92,
+    "def": 75,
+    "spa": 92,
+    "spd": 85,
+    "spe": 60
+  },
+  "prevo": "snover",
+  "evoLevel": 40,
+  "formeIndex": 0,
+  "weight": 135.5,
+  "height": 2.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "blizzard": [
+      "M",
+      "L:47"
+    ],
+    "block": [
+      "T"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "captivate": [
+      "M"
+    ],
+    "doubleedge": [
+      "E@snover"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasswhistle": [
+      "L:13"
+    ],
+    "growth": [
+      "E@snover"
+    ],
+    "hail": [
+      "M"
+    ],
+    "headbutt": [
+      "T"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "T",
+      "L:1"
+    ],
+    "iceshard": [
+      "L:26"
+    ],
+    "icywind": [
+      "T",
+      "L:1"
+    ],
+    "ingrain": [
+      "L:31"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "leechseed": [
+      "E@snover"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "magicalleaf": [
+      "E@snover"
+    ],
+    "mist": [
+      "L:21",
+      "E@snover"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "naturalgift": [
+      "M"
+    ],
+    "outrage": [
+      "T"
+    ],
+    "powdersnow": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rockclimb": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "roleplay": [
+      "T"
+    ],
+    "safeguard": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "seedbomb": [
+      "T",
+      "E@snover"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sheercold": [
+      "L:58"
+    ],
+    "skullbash": [
+      "E@snover"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stomp": [
+      "E@snover"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swagger": [
+      "M",
+      "L:17"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "woodhammer": [
+      "L:36"
+    ],
+    "worryseed": [
+      "T"
+    ]
+  }
+}

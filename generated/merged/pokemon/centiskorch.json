@@ -1,0 +1,194 @@
+{
+  "slug": "centiskorch",
+  "name": "Centiskorch",
+  "num": 851,
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "flashfire",
+    "1": "whitesmoke",
+    "H": "flamebody"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 115,
+    "def": 65,
+    "spa": 90,
+    "spd": 90,
+    "spe": 65
+  },
+  "prevo": "sizzlipede",
+  "evoLevel": 28,
+  "formes": [
+    "centiskorch-gmax"
+  ],
+  "formeIndex": 0,
+  "weight": 120,
+  "height": 3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canGmax": true,
+  "gmaxMove": "gmaxcentiferno",
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "brutalswing": [
+      "M"
+    ],
+    "bugbite": [
+      "L:20"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "burnup": [
+      "L:67"
+    ],
+    "coil": [
+      "L:25"
+    ],
+    "crunch": [
+      "M",
+      "L:46"
+    ],
+    "defensecurl": [
+      "E@sizzlipede"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "firelash": [
+      "L:53"
+    ],
+    "firespin": [
+      "M",
+      "L:39"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flamewheel": [
+      "L:15"
+    ],
+    "flareblitz": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "heatcrash": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "inferno": [
+      "L:1"
+    ],
+    "knockoff": [
+      "E@sizzlipede"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "lunge": [
+      "L:60"
+    ],
+    "mysticalfire": [
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "powerwhip": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "E@sizzlipede"
+    ],
+    "round": [
+      "M"
+    ],
+    "scald": [
+      "M"
+    ],
+    "scorchingsands": [
+      "T"
+    ],
+    "skittersmack": [
+      "T"
+    ],
+    "slam": [
+      "L:32"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "snore": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strugglebug": [
+      "E@sizzlipede"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ],
+    "wrap": [
+      "L:1"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

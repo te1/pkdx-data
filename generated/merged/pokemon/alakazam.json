@@ -1,0 +1,122 @@
+{
+  "slug": "alakazam",
+  "name": "Alakazam",
+  "num": 65,
+  "types": [
+    "psychic"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 55,
+    "atk": 50,
+    "def": 45,
+    "spa": 135,
+    "spd": 135,
+    "spe": 120
+  },
+  "prevo": "kadabra",
+  "evoType": "trade",
+  "formeIndex": 0,
+  "weight": 48,
+  "height": 1.5,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "confusion": [
+      "L:16",
+      "L:1"
+    ],
+    "counter": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disable": [
+      "L:20",
+      "L:1"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "flash": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "kinesis": [
+      "L:1"
+    ],
+    "megakick": [
+      "M"
+    ],
+    "megapunch": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "psybeam": [
+      "L:27"
+    ],
+    "psychic": [
+      "M",
+      "L:38"
+    ],
+    "psywave": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "recover": [
+      "L:31"
+    ],
+    "reflect": [
+      "M",
+      "L:42"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "teleport": [
+      "M",
+      "L:1"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "triattack": [
+      "M"
+    ]
+  }
+}

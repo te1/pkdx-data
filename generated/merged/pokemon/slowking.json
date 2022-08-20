@@ -1,0 +1,191 @@
+{
+  "slug": "slowking",
+  "name": "Slowking",
+  "num": 199,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 95,
+    "atk": 75,
+    "def": 80,
+    "spa": 100,
+    "spd": 110,
+    "spe": 30
+  },
+  "prevo": "slowpoke",
+  "evoType": "trade",
+  "evoItem": "King's Rock",
+  "formeIndex": 0,
+  "weight": 79.5,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "learnset": {
+    "amnesia": [
+      "L:43@slowpoke"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bellydrum": [
+      "E@slowpoke"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "confusion": [
+      "L:20"
+    ],
+    "curse": [
+      "M",
+      "L:1"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disable": [
+      "L:29"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dreameater": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "flamethrower": [
+      "T"
+    ],
+    "flash": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furycutter": [
+      "M"
+    ],
+    "futuresight": [
+      "E@slowpoke"
+    ],
+    "growl": [
+      "L:6"
+    ],
+    "headbutt": [
+      "M",
+      "L:34"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "T"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "nightmare": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M",
+      "L:48"
+    ],
+    "psychup": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "safeguard": [
+      "E@slowpoke"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "stomp": [
+      "E@slowpoke"
+    ],
+    "strength": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "M",
+      "L:43"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "watergun": [
+      "L:15"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "zapcannon": [
+      "M"
+    ]
+  }
+}

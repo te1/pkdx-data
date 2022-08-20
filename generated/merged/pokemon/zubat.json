@@ -1,0 +1,83 @@
+{
+  "slug": "zubat",
+  "name": "Zubat",
+  "num": 41,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 40,
+    "atk": 45,
+    "def": 35,
+    "spa": 40,
+    "spd": 40,
+    "spe": 55
+  },
+  "evos": [
+    "golbat"
+  ],
+  "formeIndex": 0,
+  "weight": 7.5,
+  "height": 0.8,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bite": [
+      "L:15"
+    ],
+    "confuseray": [
+      "L:21"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "haze": [
+      "L:36"
+    ],
+    "leechlife": [
+      "L:1"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "razorwind": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:10"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "M"
+    ],
+    "wingattack": [
+      "L:28"
+    ]
+  }
+}

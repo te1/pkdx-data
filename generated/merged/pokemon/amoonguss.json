@@ -1,0 +1,189 @@
+{
+  "slug": "amoonguss",
+  "name": "Amoonguss",
+  "num": 591,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "effectspore",
+    "H": "regenerator"
+  },
+  "baseStats": {
+    "hp": 114,
+    "atk": 85,
+    "def": 70,
+    "spa": 85,
+    "spd": 80,
+    "spe": 30
+  },
+  "prevo": "foongus",
+  "evoLevel": 39,
+  "formeIndex": 0,
+  "weight": 10.5,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "afteryou": [
+      "T"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bide": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "E@foongus"
+    ],
+    "clearsmog": [
+      "L:43"
+    ],
+    "defensecurl": [
+      "E@foongus"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "E@foongus"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feintattack": [
+      "L:20"
+    ],
+    "flash": [
+      "M"
+    ],
+    "foulplay": [
+      "T"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gastroacid": [
+      "T",
+      "E@foongus"
+    ],
+    "gigadrain": [
+      "T",
+      "L:28"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "growth": [
+      "L:1",
+      "E@foongus"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "ingrain": [
+      "L:18"
+    ],
+    "megadrain": [
+      "L:15"
+    ],
+    "payback": [
+      "M"
+    ],
+    "poisonpowder": [
+      "E@foongus"
+    ],
+    "protect": [
+      "M"
+    ],
+    "ragepowder": [
+      "L:54"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rollout": [
+      "E@foongus"
+    ],
+    "round": [
+      "M"
+    ],
+    "seedbomb": [
+      "T"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M",
+      "L:49"
+    ],
+    "spore": [
+      "L:62"
+    ],
+    "stunspore": [
+      "E@foongus"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:24"
+    ],
+    "synthesis": [
+      "T",
+      "L:35"
+    ],
+    "toxic": [
+      "M",
+      "L:32"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "worryseed": [
+      "T"
+    ]
+  }
+}

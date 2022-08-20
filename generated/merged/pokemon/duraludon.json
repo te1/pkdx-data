@@ -1,0 +1,209 @@
+{
+  "slug": "duraludon",
+  "name": "Duraludon",
+  "num": 884,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "lightmetal",
+    "1": "heavymetal",
+    "H": "stalwart"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 95,
+    "def": 115,
+    "spa": 120,
+    "spd": 50,
+    "spe": 85
+  },
+  "formes": [
+    "duraludon-gmax"
+  ],
+  "formeIndex": 0,
+  "weight": 40,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "canGmax": true,
+  "gmaxMove": "gmaxdepletion",
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "M",
+      "L:24"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "dracometeor": [
+      "T"
+    ],
+    "dragonclaw": [
+      "M",
+      "L:48"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragontail": [
+      "L:30"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flashcannon": [
+      "M",
+      "L:54"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "honeclaws": [
+      "L:12"
+    ],
+    "hyperbeam": [
+      "M",
+      "L:66"
+    ],
+    "irondefense": [
+      "M",
+      "L:36"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "laserfocus": [
+      "L:42"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "metalburst": [
+      "L:60"
+    ],
+    "metalclaw": [
+      "L:1"
+    ],
+    "metalsound": [
+      "L:18"
+    ],
+    "mirrorcoat": [
+      "E"
+    ],
+    "nightslash": [
+      "E"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocksmash": [
+      "L:6"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "round": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "screech": [
+      "M"
+    ],
+    "slash": [
+      "E"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "steelbeam": [
+      "T"
+    ],
+    "steelroller": [
+      "T"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ]
+  }
+}

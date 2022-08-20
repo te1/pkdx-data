@@ -1,0 +1,37 @@
+{
+  "slug": "inteleon-gmax",
+  "name": "Gigantamax Inteleon",
+  "num": 818,
+  "types": [
+    "water"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "torrent",
+    "H": "sniper"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 85,
+    "def": 65,
+    "spa": 125,
+    "spd": 65,
+    "spe": 120
+  },
+  "baseSpecies": "inteleon",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 0,
+  "weight": 0,
+  "height": 3,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxhydrosnipe"
+}

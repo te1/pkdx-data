@@ -1,0 +1,33 @@
+{
+  "slug": "metagross-mega",
+  "name": "Mega Metagross",
+  "num": 376,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "toughclaws"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 145,
+    "def": 150,
+    "spa": 105,
+    "spd": 110,
+    "spe": 110
+  },
+  "baseSpecies": "metagross",
+  "formeTriggerItem": "metagrossite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 942.9,
+  "height": 2.5,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true
+}

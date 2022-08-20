@@ -1,0 +1,36 @@
+{
+  "slug": "camerupt-mega",
+  "name": "Mega Camerupt",
+  "num": 323,
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "sheerforce"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 120,
+    "def": 100,
+    "spa": 145,
+    "spd": 105,
+    "spe": 20
+  },
+  "baseSpecies": "camerupt",
+  "formeTriggerItem": "cameruptite",
+  "isBattleOnly": true,
+  "isMega": true,
+  "formeIndex": 1,
+  "weight": 320.5,
+  "height": 2.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true
+}

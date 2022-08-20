@@ -1,0 +1,107 @@
+{
+  "slug": "wyrdeer",
+  "name": "Wyrdeer",
+  "num": 899,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "intimidate",
+    "1": "frisk",
+    "H": "sapsipper"
+  },
+  "baseStats": {
+    "hp": 103,
+    "atk": 105,
+    "def": 72,
+    "spa": 105,
+    "spd": 75,
+    "spe": 65
+  },
+  "prevo": "stantler",
+  "evoType": "other",
+  "evoCondition": "Use Agile style Psyshield Bash 20 times",
+  "formeIndex": 0,
+  "weight": 95.1,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "bulldoze": [
+      "T"
+    ],
+    "calmmind": [
+      "L:15",
+      "T"
+    ],
+    "chargebeam": [
+      "T"
+    ],
+    "confusion": [
+      "L:5"
+    ],
+    "doubleedge": [
+      "L:47",
+      "T"
+    ],
+    "energyball": [
+      "T"
+    ],
+    "extrasensory": [
+      "L:29"
+    ],
+    "gigaimpact": [
+      "T"
+    ],
+    "highhorsepower": [
+      "T"
+    ],
+    "hyperbeam": [
+      "T"
+    ],
+    "hypnosis": [
+      "L:9"
+    ],
+    "irontail": [
+      "T"
+    ],
+    "megahorn": [
+      "T"
+    ],
+    "psychic": [
+      "T"
+    ],
+    "psyshieldbash": [
+      "L:21"
+    ],
+    "rest": [
+      "T"
+    ],
+    "shadowball": [
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "thunderbolt": [
+      "T"
+    ],
+    "wildcharge": [
+      "T"
+    ],
+    "zenheadbutt": [
+      "L:37",
+      "T"
+    ]
+  }
+}

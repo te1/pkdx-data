@@ -1,0 +1,39 @@
+{
+  "slug": "duraludon-gmax",
+  "name": "Gigantamax Duraludon",
+  "num": 884,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "lightmetal",
+    "1": "heavymetal",
+    "H": "stalwart"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 95,
+    "def": 115,
+    "spa": 120,
+    "spd": 50,
+    "spe": 85
+  },
+  "baseSpecies": "duraludon",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 0,
+  "weight": 0,
+  "height": 43,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxdepletion"
+}

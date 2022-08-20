@@ -1,0 +1,110 @@
+{
+  "slug": "geodude",
+  "name": "Geodude",
+  "num": 74,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 40,
+    "atk": 80,
+    "def": 100,
+    "spa": 30,
+    "spd": 30,
+    "spe": 20
+  },
+  "evos": [
+    "graveler"
+  ],
+  "formeIndex": 0,
+  "weight": 20,
+  "height": 0.4,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "counter": [
+      "M"
+    ],
+    "defensecurl": [
+      "L:11"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:31"
+    ],
+    "explosion": [
+      "M",
+      "L:36"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "fissure": [
+      "M"
+    ],
+    "harden": [
+      "L:26"
+    ],
+    "megapunch": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rockthrow": [
+      "L:16"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "selfdestruct": [
+      "M",
+      "L:21"
+    ],
+    "strength": [
+      "M"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

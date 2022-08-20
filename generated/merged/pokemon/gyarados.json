@@ -1,0 +1,115 @@
+{
+  "slug": "gyarados",
+  "name": "Gyarados",
+  "num": 130,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 95,
+    "atk": 125,
+    "def": 79,
+    "spa": 100,
+    "spd": 100,
+    "spe": 81
+  },
+  "prevo": "magikarp",
+  "evoLevel": 20,
+  "formeIndex": 0,
+  "weight": 235,
+  "height": 6.5,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bite": [
+      "L:20",
+      "L:1"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bubblebeam": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonrage": [
+      "M",
+      "L:25",
+      "L:1"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "hydropump": [
+      "L:41",
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M",
+      "L:52"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "leer": [
+      "L:32",
+      "L:1"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "splash": [
+      "L:1@magikarp"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "watergun": [
+      "M"
+    ]
+  }
+}

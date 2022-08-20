@@ -1,0 +1,152 @@
+{
+  "slug": "sizzlipede",
+  "name": "Sizzlipede",
+  "num": 850,
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "flashfire",
+    "1": "whitesmoke",
+    "H": "flamebody"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 65,
+    "def": 45,
+    "spa": 50,
+    "spd": 50,
+    "spe": 45
+  },
+  "evos": [
+    "centiskorch"
+  ],
+  "formeIndex": 0,
+  "weight": 1,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "L:10"
+    ],
+    "brutalswing": [
+      "M"
+    ],
+    "bugbite": [
+      "L:20"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "burnup": [
+      "L:55"
+    ],
+    "coil": [
+      "L:25"
+    ],
+    "crunch": [
+      "M",
+      "L:40"
+    ],
+    "defensecurl": [
+      "E"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firelash": [
+      "L:45"
+    ],
+    "firespin": [
+      "M",
+      "L:35"
+    ],
+    "flamewheel": [
+      "L:15"
+    ],
+    "heatcrash": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "knockoff": [
+      "E"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "lunge": [
+      "L:50"
+    ],
+    "powerwhip": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "E"
+    ],
+    "round": [
+      "M"
+    ],
+    "scald": [
+      "M"
+    ],
+    "scorchingsands": [
+      "T"
+    ],
+    "skittersmack": [
+      "T"
+    ],
+    "slam": [
+      "L:30"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "snore": [
+      "M"
+    ],
+    "strugglebug": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "wrap": [
+      "L:5"
+    ]
+  }
+}

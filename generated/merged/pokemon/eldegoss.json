@@ -1,0 +1,171 @@
+{
+  "slug": "eldegoss",
+  "name": "Eldegoss",
+  "num": 830,
+  "types": [
+    "grass"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "cottondown",
+    "1": "regenerator",
+    "H": "effectspore"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 90,
+    "spa": 80,
+    "spd": 120,
+    "spe": 60
+  },
+  "prevo": "gossifleur",
+  "evoLevel": 20,
+  "formeIndex": 0,
+  "weight": 2.5,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "learnset": {
+    "aromatherapy": [
+      "L:40"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "cottonguard": [
+      "L:52"
+    ],
+    "cottonspore": [
+      "L:0"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "T"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growth": [
+      "E@gossifleur"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M",
+      "L:34"
+    ],
+    "leafage": [
+      "L:1"
+    ],
+    "leafstorm": [
+      "M",
+      "L:46"
+    ],
+    "leaftornado": [
+      "L:23"
+    ],
+    "leechseed": [
+      "E@gossifleur"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "poisonpowder": [
+      "E@gossifleur"
+    ],
+    "pollenpuff": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rapidspin": [
+      "L:1"
+    ],
+    "razorleaf": [
+      "L:12"
+    ],
+    "rest": [
+      "M"
+    ],
+    "round": [
+      "M",
+      "L:16"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sing": [
+      "L:1"
+    ],
+    "sleeppowder": [
+      "E@gossifleur"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stunspore": [
+      "E@gossifleur"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:1"
+    ],
+    "synthesis": [
+      "L:28"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "worryseed": [
+      "E@gossifleur"
+    ]
+  }
+}

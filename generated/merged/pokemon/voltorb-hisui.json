@@ -1,0 +1,82 @@
+{
+  "slug": "voltorb-hisui",
+  "name": "Hisuian Voltorb",
+  "num": 100,
+  "types": [
+    "electric",
+    "grass"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 30,
+    "def": 50,
+    "spa": 55,
+    "spd": 55,
+    "spe": 100
+  },
+  "evos": [
+    "electrode-hisui"
+  ],
+  "isForme": true,
+  "region": "Hisui",
+  "formeIndex": 0,
+  "weight": 13,
+  "height": 0.5,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "chargebeam": [
+      "T"
+    ],
+    "energyball": [
+      "L:21",
+      "T"
+    ],
+    "iceball": [
+      "T"
+    ],
+    "magicalleaf": [
+      "T"
+    ],
+    "rest": [
+      "T"
+    ],
+    "selfdestruct": [
+      "L:47"
+    ],
+    "spark": [
+      "L:15"
+    ],
+    "swift": [
+      "T"
+    ],
+    "tackle": [
+      "L:5"
+    ],
+    "thunder": [
+      "L:37"
+    ],
+    "thunderbolt": [
+      "L:29",
+      "T"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "L:9"
+    ],
+    "wildcharge": [
+      "T"
+    ]
+  }
+}

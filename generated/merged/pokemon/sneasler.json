@@ -1,0 +1,110 @@
+{
+  "slug": "sneasler",
+  "name": "Sneasler",
+  "num": 903,
+  "types": [
+    "fighting",
+    "poison"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "pressure",
+    "H": "poisontouch"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 130,
+    "def": 60,
+    "spa": 40,
+    "spd": 80,
+    "spe": 120
+  },
+  "prevo": "sneasel-hisui",
+  "evoType": "useItem",
+  "evoCondition": "during the day",
+  "evoItem": "Razor Claw",
+  "formeIndex": 0,
+  "weight": 43,
+  "height": 1.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "aerialace": [
+      "T"
+    ],
+    "bulkup": [
+      "T"
+    ],
+    "calmmind": [
+      "T"
+    ],
+    "closecombat": [
+      "L:43"
+    ],
+    "direclaw": [
+      "L:11"
+    ],
+    "drainpunch": [
+      "T"
+    ],
+    "falseswipe": [
+      "T"
+    ],
+    "focusenergy": [
+      "T"
+    ],
+    "gigaimpact": [
+      "T"
+    ],
+    "hyperbeam": [
+      "T"
+    ],
+    "irontail": [
+      "T"
+    ],
+    "poisonjab": [
+      "L:25",
+      "T"
+    ],
+    "powershift": [
+      "T"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "rest": [
+      "T"
+    ],
+    "rocksmash": [
+      "L:6",
+      "T"
+    ],
+    "shadowball": [
+      "T"
+    ],
+    "shadowclaw": [
+      "T"
+    ],
+    "slash": [
+      "L:18"
+    ],
+    "snarl": [
+      "T"
+    ],
+    "swift": [
+      "L:11",
+      "T"
+    ],
+    "swordsdance": [
+      "L:34"
+    ],
+    "xscissor": [
+      "T"
+    ]
+  }
+}

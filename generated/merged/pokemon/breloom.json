@@ -1,0 +1,220 @@
+{
+  "slug": "breloom",
+  "name": "Breloom",
+  "num": 286,
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "effectspore"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 130,
+    "def": 80,
+    "spa": 60,
+    "spd": 60,
+    "spe": 70
+  },
+  "prevo": "shroomish",
+  "evoLevel": 23,
+  "formeIndex": 0,
+  "weight": 39.2,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bodyslam": [
+      "T"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "E@shroomish"
+    ],
+    "counter": [
+      "T",
+      "L:28"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "T",
+      "L:54"
+    ],
+    "endure": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "faketears": [
+      "E@shroomish"
+    ],
+    "falseswipe": [
+      "E@shroomish"
+    ],
+    "flash": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furycutter": [
+      "T"
+    ],
+    "gigadrain": [
+      "M",
+      "L:45@shroomish"
+    ],
+    "growth": [
+      "L:36@shroomish"
+    ],
+    "headbutt": [
+      "L:22"
+    ],
+    "helpinghand": [
+      "E@shroomish"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "leechseed": [
+      "L:1"
+    ],
+    "machpunch": [
+      "L:23"
+    ],
+    "megadrain": [
+      "L:16"
+    ],
+    "megakick": [
+      "T"
+    ],
+    "megapunch": [
+      "T"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "mindreader": [
+      "L:45"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "poisonpowder": [
+      "L:28@shroomish"
+    ],
+    "protect": [
+      "M"
+    ],
+    "refresh": [
+      "S@shroomish"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "safeguard": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "seismictoss": [
+      "T"
+    ],
+    "skyuppercut": [
+      "L:36"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snatch": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "spore": [
+      "L:54@shroomish"
+    ],
+    "strength": [
+      "M"
+    ],
+    "stunspore": [
+      "L:1"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "T",
+      "E@shroomish"
+    ],
+    "swordsdance": [
+      "T"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

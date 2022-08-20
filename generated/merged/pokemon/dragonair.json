@@ -1,0 +1,117 @@
+{
+  "slug": "dragonair",
+  "name": "Dragonair",
+  "num": 148,
+  "types": [
+    "dragon"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 61,
+    "atk": 84,
+    "def": 65,
+    "spa": 70,
+    "spd": 70,
+    "spe": 70
+  },
+  "prevo": "dratini",
+  "evos": [
+    "dragonite"
+  ],
+  "evoLevel": 30,
+  "formeIndex": 0,
+  "weight": 16.5,
+  "height": 4,
+  "learnset": {
+    "agility": [
+      "L:20"
+    ],
+    "bide": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bubblebeam": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonrage": [
+      "M",
+      "L:45"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "horndrill": [
+      "M"
+    ],
+    "hyperbeam": [
+      "L:55"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "slam": [
+      "L:35"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M",
+      "L:10",
+      "L:1"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "watergun": [
+      "M"
+    ],
+    "wrap": [
+      "L:1"
+    ]
+  }
+}

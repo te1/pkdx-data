@@ -1,0 +1,331 @@
+{
+  "slug": "rhyperior",
+  "name": "Rhyperior",
+  "num": 464,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "lightningrod",
+    "1": "solidrock"
+  },
+  "baseStats": {
+    "hp": 115,
+    "atk": 140,
+    "def": 130,
+    "spa": 55,
+    "spd": 55,
+    "spe": 40
+  },
+  "prevo": "rhydon",
+  "evoType": "trade",
+  "evoItem": "Protector",
+  "formeIndex": 0,
+  "weight": 282.8,
+  "height": 2.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "learnset": {
+    "ancientpower": [
+      "T"
+    ],
+    "aquatail": [
+      "T"
+    ],
+    "attract": [
+      "M"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "block": [
+      "T"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "captivate": [
+      "M"
+    ],
+    "counter": [
+      "E@rhyhorn"
+    ],
+    "crunch": [
+      "E@rhyhorn"
+    ],
+    "crushclaw": [
+      "E@rhyhorn"
+    ],
+    "curse": [
+      "E@rhyhorn"
+    ],
+    "cut": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragonrush": [
+      "E@rhyhorn"
+    ],
+    "earthpower": [
+      "T"
+    ],
+    "earthquake": [
+      "M",
+      "L:49"
+    ],
+    "endeavor": [
+      "T"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "E@rhyhorn"
+    ],
+    "firepunch": [
+      "T"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furyattack": [
+      "L:1"
+    ],
+    "furycutter": [
+      "T"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hammerarm": [
+      "L:42"
+    ],
+    "headbutt": [
+      "T"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hornattack": [
+      "L:1"
+    ],
+    "horndrill": [
+      "L:37"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icefang": [
+      "E@rhyhorn"
+    ],
+    "icepunch": [
+      "T"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "ironhead": [
+      "T"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "magnitude": [
+      "E@rhyhorn"
+    ],
+    "megahorn": [
+      "L:57"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "naturalgift": [
+      "M"
+    ],
+    "outrage": [
+      "T"
+    ],
+    "payback": [
+      "M"
+    ],
+    "poisonjab": [
+      "M",
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "reversal": [
+      "E@rhyhorn"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockblast": [
+      "L:25"
+    ],
+    "rockclimb": [
+      "M"
+    ],
+    "rockpolish": [
+      "M"
+    ],
+    "rockslide": [
+      "M",
+      "E@rhyhorn"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "rockwrecker": [
+      "L:61"
+    ],
+    "rollout": [
+      "T"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "L:21"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "shockwave": [
+      "M"
+    ],
+    "skullbash": [
+      "E@rhyhorn"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "spite": [
+      "T"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stomp": [
+      "L:1"
+    ],
+    "stoneedge": [
+      "M",
+      "L:45"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superpower": [
+      "T"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swordsdance": [
+      "M",
+      "E@rhyhorn"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "L:33"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderfang": [
+      "E@rhyhorn"
+    ],
+    "thunderpunch": [
+      "T"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "uproar": [
+      "T"
+    ],
+    "whirlpool": [
+      "M"
+    ]
+  }
+}

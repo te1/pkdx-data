@@ -1,0 +1,149 @@
+{
+  "slug": "donphan",
+  "name": "Donphan",
+  "num": 232,
+  "types": [
+    "ground"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 90,
+    "atk": 120,
+    "def": 120,
+    "spa": 60,
+    "spd": 60,
+    "spe": 50
+  },
+  "prevo": "phanpy",
+  "evoLevel": 25,
+  "formeIndex": 0,
+  "weight": 120,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "absorb": [
+      "S@phanpy"
+    ],
+    "ancientpower": [
+      "E@phanpy"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bodyslam": [
+      "E@phanpy"
+    ],
+    "curse": [
+      "M"
+    ],
+    "defensecurl": [
+      "M",
+      "L:9"
+    ],
+    "doubleedge": [
+      "L:49@phanpy"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:49"
+    ],
+    "encore": [
+      "S@phanpy"
+    ],
+    "endure": [
+      "M",
+      "L:41@phanpy"
+    ],
+    "flail": [
+      "L:17"
+    ],
+    "focusenergy": [
+      "E@phanpy"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furyattack": [
+      "L:25"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hornattack": [
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rapidspin": [
+      "L:41"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rollout": [
+      "M",
+      "L:33"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1@phanpy"
+    ],
+    "takedown": [
+      "L:25@phanpy"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "watergun": [
+      "E@phanpy"
+    ]
+  }
+}

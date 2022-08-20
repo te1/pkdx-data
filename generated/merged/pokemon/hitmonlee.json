@@ -1,0 +1,100 @@
+{
+  "slug": "hitmonlee",
+  "name": "Hitmonlee",
+  "num": 106,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 50,
+    "atk": 120,
+    "def": 53,
+    "spa": 35,
+    "spd": 35,
+    "spe": 87
+  },
+  "evoCondition": "with an Atk stat > its Def stat",
+  "evoLevel": 20,
+  "formeIndex": 0,
+  "weight": 49.8,
+  "height": 1.5,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "counter": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublekick": [
+      "L:1"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:43"
+    ],
+    "highjumpkick": [
+      "L:48"
+    ],
+    "jumpkick": [
+      "L:38"
+    ],
+    "meditate": [
+      "L:1"
+    ],
+    "megakick": [
+      "M",
+      "L:53"
+    ],
+    "megapunch": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollingkick": [
+      "L:33"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

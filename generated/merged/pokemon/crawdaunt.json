@@ -1,0 +1,206 @@
+{
+  "slug": "crawdaunt",
+  "name": "Crawdaunt",
+  "num": 342,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "hypercutter",
+    "1": "shellarmor"
+  },
+  "baseStats": {
+    "hp": 63,
+    "atk": 120,
+    "def": 85,
+    "spa": 90,
+    "spd": 55,
+    "spe": 55
+  },
+  "prevo": "corphish",
+  "evoLevel": 30,
+  "formeIndex": 0,
+  "weight": 32.8,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "ancientpower": [
+      "E@corphish"
+    ],
+    "attract": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "T",
+      "E@corphish"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bubble": [
+      "L:1"
+    ],
+    "bubblebeam": [
+      "L:19"
+    ],
+    "counter": [
+      "T"
+    ],
+    "crabhammer": [
+      "L:38"
+    ],
+    "crunch": [
+      "L:51"
+    ],
+    "cut": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "dive": [
+      "M"
+    ],
+    "doubleedge": [
+      "T"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endeavor": [
+      "E@corphish"
+    ],
+    "endure": [
+      "T"
+    ],
+    "facade": [
+      "M"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furycutter": [
+      "T"
+    ],
+    "guillotine": [
+      "L:52"
+    ],
+    "hail": [
+      "M"
+    ],
+    "harden": [
+      "L:1"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "T"
+    ],
+    "knockoff": [
+      "L:25"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mimic": [
+      "T"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "mudsport": [
+      "E@corphish"
+    ],
+    "protect": [
+      "M",
+      "L:22"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "T"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "T"
+    ],
+    "swift": [
+      "T"
+    ],
+    "swordsdance": [
+      "T",
+      "L:43"
+    ],
+    "taunt": [
+      "M",
+      "L:33"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "visegrip": [
+      "L:1"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "watersport": [
+      "S@corphish"
+    ]
+  }
+}

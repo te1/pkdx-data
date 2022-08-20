@@ -1,0 +1,306 @@
+{
+  "slug": "weavile",
+  "name": "Weavile",
+  "num": 461,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "pressure"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 120,
+    "def": 65,
+    "spa": 45,
+    "spd": 85,
+    "spe": 125
+  },
+  "prevo": "sneasel",
+  "evoType": "levelHold",
+  "evoCondition": "at night",
+  "evoItem": "Razor Claw",
+  "formeIndex": 0,
+  "weight": 34,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "L:24@sneasel"
+    ],
+    "assist": [
+      "E@sneasel"
+    ],
+    "assurance": [
+      "L:1"
+    ],
+    "attract": [
+      "M"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "beatup": [
+      "L:38@sneasel"
+    ],
+    "bite": [
+      "E@sneasel"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "captivate": [
+      "M"
+    ],
+    "counter": [
+      "E@sneasel"
+    ],
+    "crushclaw": [
+      "E@sneasel"
+    ],
+    "cut": [
+      "M"
+    ],
+    "darkpulse": [
+      "M",
+      "L:49"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doublehit": [
+      "E@sneasel"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dreameater": [
+      "M"
+    ],
+    "embargo": [
+      "M",
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "E@sneasel"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "feintattack": [
+      "L:14"
+    ],
+    "fling": [
+      "M",
+      "L:38"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "foresight": [
+      "E@sneasel"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furycutter": [
+      "T"
+    ],
+    "furyswipes": [
+      "L:21"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hail": [
+      "M"
+    ],
+    "headbutt": [
+      "T"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "T",
+      "E@sneasel"
+    ],
+    "iceshard": [
+      "L:49@sneasel",
+      "E@sneasel"
+    ],
+    "icywind": [
+      "T",
+      "L:28"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "knockoff": [
+      "T"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lowkick": [
+      "T"
+    ],
+    "metalclaw": [
+      "L:42"
+    ],
+    "mudslap": [
+      "T"
+    ],
+    "nastyplot": [
+      "L:24"
+    ],
+    "naturalgift": [
+      "M"
+    ],
+    "nightslash": [
+      "L:35"
+    ],
+    "payback": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychup": [
+      "M"
+    ],
+    "punishment": [
+      "E@sneasel"
+    ],
+    "pursuit": [
+      "E@sneasel"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "E@sneasel"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "revenge": [
+      "L:1"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "screech": [
+      "L:10"
+    ],
+    "secretpower": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "L:35@sneasel"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snatch": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "spite": [
+      "T",
+      "E@sneasel"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "swift": [
+      "T"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "taunt": [
+      "M",
+      "L:1"
+    ],
+    "thief": [
+      "M"
+    ],
+    "torment": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

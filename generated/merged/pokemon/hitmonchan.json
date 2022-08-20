@@ -1,0 +1,98 @@
+{
+  "slug": "hitmonchan",
+  "name": "Hitmonchan",
+  "num": 107,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 50,
+    "atk": 105,
+    "def": 79,
+    "spa": 35,
+    "spd": 35,
+    "spe": 76
+  },
+  "evoCondition": "with an Atk stat < its Def stat",
+  "evoLevel": 20,
+  "formeIndex": 0,
+  "weight": 50.2,
+  "height": 1.4,
+  "learnset": {
+    "agility": [
+      "L:1"
+    ],
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "cometpunch": [
+      "L:1"
+    ],
+    "counter": [
+      "M",
+      "L:53"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "firepunch": [
+      "L:33"
+    ],
+    "icepunch": [
+      "L:38"
+    ],
+    "megakick": [
+      "M"
+    ],
+    "megapunch": [
+      "M",
+      "L:48"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "thunderpunch": [
+      "L:43"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

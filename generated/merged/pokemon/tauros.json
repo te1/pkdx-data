@@ -1,0 +1,99 @@
+{
+  "slug": "tauros",
+  "name": "Tauros",
+  "num": 128,
+  "types": [
+    "normal"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 75,
+    "atk": 100,
+    "def": 95,
+    "spa": 70,
+    "spd": 70,
+    "spe": 110
+  },
+  "formeIndex": 0,
+  "weight": 88.4,
+  "height": 1.4,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "fissure": [
+      "M"
+    ],
+    "horndrill": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "leer": [
+      "L:35"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M",
+      "L:44"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "stomp": [
+      "L:21"
+    ],
+    "strength": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:28"
+    ],
+    "takedown": [
+      "M",
+      "L:51"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

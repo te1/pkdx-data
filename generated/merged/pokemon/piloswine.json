@@ -1,0 +1,151 @@
+{
+  "slug": "piloswine",
+  "name": "Piloswine",
+  "num": 221,
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "gen": 2,
+  "baseStats": {
+    "hp": 100,
+    "atk": 100,
+    "def": 80,
+    "spa": 60,
+    "spd": 60,
+    "spe": 50
+  },
+  "prevo": "swinub",
+  "evoLevel": 33,
+  "formeIndex": 0,
+  "weight": 55.8,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "amnesia": [
+      "L:70"
+    ],
+    "ancientpower": [
+      "E@swinub"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bite": [
+      "E@swinub"
+    ],
+    "blizzard": [
+      "M",
+      "L:56"
+    ],
+    "bodyslam": [
+      "E@swinub"
+    ],
+    "curse": [
+      "M"
+    ],
+    "defensecurl": [
+      "M"
+    ],
+    "detect": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "L:19",
+      "L:1"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "furyattack": [
+      "L:33"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "hornattack": [
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "T"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "mist": [
+      "L:42"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "powdersnow": [
+      "L:10",
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "E@swinub"
+    ],
+    "rocksmash": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "M"
+    ],
+    "strength": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "tackle": [
+      "L:1@swinub"
+    ],
+    "takedown": [
+      "L:28",
+      "E@swinub"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "whirlwind": [
+      "S@swinub"
+    ]
+  }
+}

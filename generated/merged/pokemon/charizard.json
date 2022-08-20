@@ -1,0 +1,133 @@
+{
+  "slug": "charizard",
+  "name": "Charizard",
+  "num": 6,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 78,
+    "atk": 84,
+    "def": 78,
+    "spa": 85,
+    "spd": 85,
+    "spe": 100
+  },
+  "prevo": "charmeleon",
+  "evoLevel": 36,
+  "formeIndex": 0,
+  "weight": 90.5,
+  "height": 1.7,
+  "learnset": {
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "counter": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "dragonrage": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "ember": [
+      "L:9",
+      "L:1"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firespin": [
+      "L:55"
+    ],
+    "fissure": [
+      "M"
+    ],
+    "flamethrower": [
+      "L:46"
+    ],
+    "fly": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leer": [
+      "L:15",
+      "L:1"
+    ],
+    "megakick": [
+      "M"
+    ],
+    "megapunch": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M",
+      "L:24"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "skullbash": [
+      "M"
+    ],
+    "slash": [
+      "L:36"
+    ],
+    "strength": [
+      "M"
+    ],
+    "submission": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

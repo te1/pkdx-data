@@ -1,0 +1,111 @@
+{
+  "slug": "cloyster",
+  "name": "Cloyster",
+  "num": 91,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 50,
+    "atk": 95,
+    "def": 180,
+    "spa": 85,
+    "spd": 85,
+    "spe": 70
+  },
+  "prevo": "shellder",
+  "evoType": "useItem",
+  "evoItem": "Water Stone",
+  "formeIndex": 0,
+  "weight": 132.5,
+  "height": 1.5,
+  "learnset": {
+    "aurorabeam": [
+      "L:1"
+    ],
+    "bide": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "M"
+    ],
+    "clamp": [
+      "L:1"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "explosion": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M",
+      "L:50@shellder"
+    ],
+    "leer": [
+      "L:39@shellder"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "selfdestruct": [
+      "M"
+    ],
+    "spikecannon": [
+      "L:50"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:1"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1@shellder"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "teleport": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "triattack": [
+      "M"
+    ],
+    "watergun": [
+      "M"
+    ],
+    "withdraw": [
+      "L:1"
+    ]
+  }
+}

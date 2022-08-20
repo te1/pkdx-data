@@ -1,0 +1,95 @@
+{
+  "slug": "vileplume",
+  "name": "Vileplume",
+  "num": 45,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "baseStats": {
+    "hp": 75,
+    "atk": 80,
+    "def": 85,
+    "spa": 100,
+    "spd": 100,
+    "spe": 50
+  },
+  "prevo": "gloom",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "formeIndex": 0,
+  "weight": 18.6,
+  "height": 1.2,
+  "learnset": {
+    "absorb": [
+      "L:1@gloom"
+    ],
+    "acid": [
+      "L:1"
+    ],
+    "bide": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "cut": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "megadrain": [
+      "M"
+    ],
+    "mimic": [
+      "M"
+    ],
+    "petaldance": [
+      "L:1"
+    ],
+    "poisonpowder": [
+      "L:15"
+    ],
+    "rage": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeppowder": [
+      "L:19",
+      "L:1"
+    ],
+    "solarbeam": [
+      "M",
+      "L:52@gloom"
+    ],
+    "stunspore": [
+      "L:17",
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

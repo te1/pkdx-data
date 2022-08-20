@@ -1,0 +1,34 @@
+{
+  "slug": "alcremie-gmax",
+  "name": "Gigantamax Alcremie",
+  "num": 869,
+  "types": [
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "sweetveil",
+    "H": "aromaveil"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 60,
+    "def": 75,
+    "spa": 110,
+    "spd": 121,
+    "spe": 64
+  },
+  "baseSpecies": "alcremie",
+  "isBattleOnly": true,
+  "isGmax": true,
+  "formeIndex": 1000,
+  "weight": 0,
+  "height": 30,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy",
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "gmaxMove": "gmaxfinale"
+}

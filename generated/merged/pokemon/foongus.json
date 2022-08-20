@@ -1,0 +1,185 @@
+{
+  "slug": "foongus",
+  "name": "Foongus",
+  "num": 590,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "effectspore",
+    "H": "regenerator"
+  },
+  "baseStats": {
+    "hp": 69,
+    "atk": 55,
+    "def": 45,
+    "spa": 55,
+    "spd": 55,
+    "spe": 15
+  },
+  "evos": [
+    "amoonguss"
+  ],
+  "formeIndex": 0,
+  "weight": 1,
+  "height": 0.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "afteryou": [
+      "T"
+    ],
+    "astonish": [
+      "L:8"
+    ],
+    "attract": [
+      "M"
+    ],
+    "bide": [
+      "L:12"
+    ],
+    "bodyslam": [
+      "E"
+    ],
+    "clearsmog": [
+      "L:39"
+    ],
+    "defensecurl": [
+      "E"
+    ],
+    "doubleteam": [
+      "M"
+    ],
+    "endure": [
+      "E"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feintattack": [
+      "L:20"
+    ],
+    "flash": [
+      "M"
+    ],
+    "foulplay": [
+      "T"
+    ],
+    "frustration": [
+      "M"
+    ],
+    "gastroacid": [
+      "T",
+      "E"
+    ],
+    "gigadrain": [
+      "T",
+      "L:28"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "growth": [
+      "L:6",
+      "E"
+    ],
+    "hiddenpower": [
+      "M"
+    ],
+    "ingrain": [
+      "L:18"
+    ],
+    "megadrain": [
+      "L:15"
+    ],
+    "payback": [
+      "M"
+    ],
+    "poisonpowder": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "ragepowder": [
+      "L:45"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "return": [
+      "M"
+    ],
+    "rollout": [
+      "E"
+    ],
+    "round": [
+      "M"
+    ],
+    "seedbomb": [
+      "T"
+    ],
+    "sleeptalk": [
+      "T"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snore": [
+      "T"
+    ],
+    "solarbeam": [
+      "M",
+      "L:43"
+    ],
+    "spore": [
+      "L:50"
+    ],
+    "stunspore": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:24"
+    ],
+    "synthesis": [
+      "T",
+      "L:35"
+    ],
+    "toxic": [
+      "M",
+      "L:32"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "worryseed": [
+      "T"
+    ]
+  }
+}

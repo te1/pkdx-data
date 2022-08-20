@@ -127,7 +127,7 @@ const includeSpeciesId = [
   'girafarig',
 ];
 
-const existsFn = (d: Data, g: GenerationNum) => {
+const existsFn = ((d: Data, g: GenerationNum) => {
   // from pkmn/ps/data/index.ts DEFAULT_EXISTS
 
   if (!d.exists) {
@@ -140,7 +140,7 @@ const existsFn = (d: Data, g: GenerationNum) => {
   const allowNonstandardSpecies =
     d.kind === 'Species' &&
     d.isNonstandard &&
-    _.includes(['Gigantamax', 'Unobtainable'], d.isNonstandard) &&
+    _.includes(['LGPE', 'Gigantamax', 'Unobtainable'], d.isNonstandard) &&
     !_.includes(excludeSpeciesId, d.id);
 
   // include new Legends Arceus species
@@ -177,29 +177,22 @@ const existsFn = (d: Data, g: GenerationNum) => {
   }
 
   return true;
-};
+}) as (d: Data) => boolean;
+// weird cast because the Generations constructor has the wrong typings
 
 export async function getData() {
-  // weird cast for `existsFn` because the constructor has the wrong typings for exists
-
   // use @pkmn/data on top of @pkmn/dex for most things
-  const gens = new Generations(Dex, existsFn as (d: Data) => boolean);
+  const gens = new Generations(Dex, existsFn);
 
   // use @pkmn/data on top of @pkmn/sim for height
-  const simGens = new Generations(
-    SimDex as unknown as typeof Dex,
-    existsFn as (d: Data) => boolean
-  );
+  const simGens = new Generations(SimDex as unknown as typeof Dex, existsFn);
 
   // use @pkmn/data on top of @pkmn/dex with @pkmn/mods for bdsp
   const dexBdsp = Dex.mod(
     'gen8bdsp' as ID,
     (await import('@pkmn/mods/gen8bdsp')) as ModData
   );
-  const gensBdsp = new Generations(
-    new ModdedDex(dexBdsp),
-    existsFn as (d: Data) => boolean
-  );
+  const gensBdsp = new Generations(new ModdedDex(dexBdsp), existsFn);
 
   // use @pkmn/data on top of @pkmn/sim with @pkmn/mods for bdsp heights
   const simDexBdsp = SimDex.mod(
@@ -208,7 +201,7 @@ export async function getData() {
   );
   const simGensBdsp = new Generations(
     new ModdedDex(simDexBdsp as unknown as typeof Dex),
-    existsFn as (d: Data) => boolean
+    existsFn
   );
 
   const genNums: GenerationNum[] = [1, 2, 3, 4, 5, 6, 7, 8];

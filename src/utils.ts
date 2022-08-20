@@ -1,6 +1,7 @@
 import * as fs from 'fs-extra';
 import { MoveCategory, TypeName } from '@pkmn/dex';
 
+// Map<AbilityOrMoveSlug, Set<PokemonSlug>>
 export type PokemonMap = Map<string, Set<string>>;
 
 export const config = {

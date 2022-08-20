@@ -1,12 +1,13 @@
 import * as path from 'path';
-// import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
 import { PokemonMap, exportData } from '../utils';
+import { MergeData } from '../merge';
 
 export async function exportAbilities(
   gen: Generation,
   target: string,
+  mergeData: MergeData,
   abilityMap: PokemonMap
 ) {
   console.log('- abilities');
@@ -31,6 +32,8 @@ export async function exportAbilities(
     }
 
     result.push(entry);
+
+    mergeData.addAbilityData(entry.slug, gen.num, entry);
   }
 
   result = _.sortBy(result, 'slug');

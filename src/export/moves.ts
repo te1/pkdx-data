@@ -8,6 +8,7 @@ import {
   PokemonMap,
   typeNameToSlug,
 } from '../utils';
+import { MergeData } from '../merge';
 import { SpeciesMap } from './pokemon';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -16,6 +17,7 @@ let extraData: any;
 export async function exportMoves(
   gen: Generation,
   target: string,
+  mergeData: MergeData,
   speciesMap: SpeciesMap,
   moveMap: PokemonMap
 ) {
@@ -125,6 +127,8 @@ export async function exportMoves(
     }
 
     result.push(entry);
+
+    mergeData.addMoveData(entry.slug, gen.num, entry);
   }
 
   result = _.sortBy(result, 'slug');

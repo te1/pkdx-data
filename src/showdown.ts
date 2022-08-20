@@ -189,7 +189,7 @@ const existsFn = ((d: Data, g: GenerationNum) => {
 }) as (d: Data) => boolean;
 // weird cast because the Generations constructor has the wrong typings
 
-export async function getData() {
+export async function getShowdownData() {
   // use @pkmn/data on top of @pkmn/dex for most things
   const gens = new Generations(Dex, existsFn);
 

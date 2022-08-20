@@ -2,6 +2,7 @@ import * as path from 'path';
 import * as fs from 'fs-extra';
 import { Generation } from '@pkmn/data';
 import { exportData } from '../utils';
+import { MergeData } from '../merge';
 import { getSpeciesIndexData } from './pokemon';
 import { exportGames } from './games';
 import { exportPokedex } from './pokedex';
@@ -13,17 +14,24 @@ const fakeGen = {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let extraData: any;
 
-export async function exportGen9Placeholder(target: string) {
+export async function exportGen9Placeholder(
+  target: string,
+  mergeData: MergeData
+) {
   console.log(`*** gen 9 (placeholder data) ***`);
 
-  await exportPokemon(fakeGen, target);
-  await exportGames(fakeGen, target);
-  await exportPokedex(fakeGen, target);
+  await exportPokemon(fakeGen, target, mergeData);
+  await exportGames(fakeGen, target, mergeData);
+  await exportPokedex(fakeGen, target, mergeData);
 
   console.log('');
 }
 
-async function exportPokemon(gen: Generation, target: string) {
+async function exportPokemon(
+  gen: Generation,
+  target: string,
+  mergeData: MergeData
+) {
   console.log('- pokemon');
 
   if (!extraData) {
@@ -32,6 +40,10 @@ async function exportPokemon(gen: Generation, target: string) {
   }
 
   const result = extraData;
+
+  for (const entry of result) {
+    mergeData.addPokemonData(entry.slug, gen.num, entry);
+  }
 
   if (result.length) {
     console.log(`\twriting ${result.length} pokemon...`);

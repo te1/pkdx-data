@@ -13,6 +13,7 @@ import {
 import { Species as SimSpecies } from '@pkmn/sim';
 import { SpeciesAbility } from '@pkmn/dex-types';
 import { PokemonMap, exportData, typeNameToSlug } from '../utils';
+import { MergeData } from '../merge';
 import { getMergedLearnset, Learnset } from '../learnsets';
 
 type Region = 'Alola' | 'Galar' | 'Hisui' | 'Paldea';
@@ -50,6 +51,7 @@ export async function exportPokemon(
   modGen: Generation | undefined,
   simModGen: Generation | undefined,
   target: string,
+  mergeData: MergeData,
   speciesMap: SpeciesMap,
   moveMap: PokemonMap,
   abilityMap: PokemonMap
@@ -332,6 +334,8 @@ export async function exportPokemon(
     };
 
     result.push(entry);
+
+    mergeData.addPokedexData(entry.slug, gen.num, entry);
 
     // remember available moves per pokemon for later use
     if (entry.learnset) {

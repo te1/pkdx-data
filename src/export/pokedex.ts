@@ -5,6 +5,7 @@ import { Generation } from '@pkmn/data';
 import { SpeciesMap } from './pokemon';
 import { extraData as games } from './games';
 import { consoleLogMagenta, exportData } from '../utils';
+import { MergeData } from '../merge';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let dexes: any;
@@ -12,6 +13,7 @@ let dexes: any;
 export async function exportPokedex(
   gen: Generation,
   target: string,
+  mergeData: MergeData,
   speciesMap?: SpeciesMap
 ) {
   console.log('- pokedex');

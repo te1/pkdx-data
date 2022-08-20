@@ -1,6 +1,7 @@
 import * as fs from 'fs-extra';
 import { PokemonMap } from './utils';
-import { getData } from './showdown';
+import { getShowdownData } from './showdown';
+import { exportMergedData, MergeData } from './merge';
 import { exportTypes } from './export/types';
 import { exportNatures } from './export/natures';
 import { exportItems } from './export/items';
@@ -15,14 +16,15 @@ const target = './generated/';
 
 async function main() {
   try {
-    const data = await getData();
+    const showdownData = await getShowdownData();
+    const mergeData = new MergeData();
 
     await fs.emptyDir(target);
 
-    for (const genData of data) {
-      const speciesMap = new SpeciesMap();
-      const moveMap: PokemonMap = new Map();
-      const abilityMap: PokemonMap = new Map();
+    for (const genData of showdownData) {
+      const speciesMap = new SpeciesMap(); // conversion between showdown name/id and slug
+      const moveMap: PokemonMap = new Map(); // remember pokemon that can learn a move
+      const abilityMap: PokemonMap = new Map(); // remember pokemon that can have an ability
 
       console.log(`*** gen ${genData.genNum} ***`);
 
@@ -35,23 +37,26 @@ async function main() {
         genData.genBdsp,
         genData.simGenBdsp,
         target,
+        mergeData,
         speciesMap,
         moveMap,
         abilityMap
       );
-      await exportMoves(genData.gen, target, speciesMap, moveMap);
-      await exportAbilities(genData.gen, target, abilityMap);
-      await exportGames(genData.gen, target);
-      await exportPokedex(genData.gen, target, speciesMap);
+      await exportMoves(genData.gen, target, mergeData, speciesMap, moveMap);
+      await exportAbilities(genData.gen, target, mergeData, abilityMap);
+      await exportGames(genData.gen, target, mergeData);
+      await exportPokedex(genData.gen, target, mergeData, speciesMap);
+
+      // TODO export HM/TM/TR
+      // TODO handle gen8 la (remaining learnsets, moves) ?
 
       console.log('');
     }
 
-    await exportGen9Placeholder(target);
+    await exportGen9Placeholder(target, mergeData);
 
-    // TODO export HM/TM/TR
-    // TODO handle gen8 la (remaining learnsets, moves) ?
     // TODO export unified dataset that can be used for all gens with no duplication (lol)
+    await exportMergedData(target, mergeData);
 
     console.log('done');
   } catch (err) {

@@ -2,13 +2,129 @@
   {
     "slug": "sprigatito",
     "name": "Sprigatito",
-    "num": 1,
+    "num": null,
     "types": ["grass"],
     "gen": 9,
     "abilities": {
       "0": "overgrow"
     },
     "weight": 4.1,
+    "height": 0.4
+  },
+  {
+    "slug": "fuecoco",
+    "name": "Fuecoco",
+    "num": null,
+    "types": ["fire"],
+    "gen": 9,
+    "abilities": {
+      "0": "blaze"
+    },
+    "weight": 9.8,
+    "height": 0.4
+  },
+  {
+    "slug": "quaxly",
+    "name": "quaxly",
+    "num": null,
+    "types": ["water"],
+    "gen": 9,
+    "abilities": {
+      "0": "torrent"
+    },
+    "weight": 6.1,
+    "height": 0.5
+  },
+  {
+    "slug": "pawmi",
+    "name": "Pawmi",
+    "num": null,
+    "types": ["electric"],
+    "gen": 9,
+    "abilities": {
+      "0": "static",
+      "1": "naturalcure"
+    },
+    "weight": 2.5,
+    "height": 0.3
+  },
+  {
+    "slug": "smoliv",
+    "name": "Smoliv",
+    "num": null,
+    "types": ["grass", "normal"],
+    "gen": 9,
+    "abilities": {
+      "0": "earlybird"
+    },
+    "weight": 6.5,
+    "height": 0.3
+  },
+  {
+    "slug": "lechonk",
+    "name": "Lechonk",
+    "num": null,
+    "types": ["normal"],
+    "gen": 9,
+    "abilities": {
+      "0": "aromaveil",
+      "1": "gluttony"
+    },
+    "weight": 10.2,
+    "height": 0.5
+  },
+  {
+    "slug": "koraidon",
+    "name": "Koraidon",
+    "num": null,
+    "types": [],
+    "gen": 9
+  },
+  {
+    "slug": "miraidon",
+    "name": "Miraidon",
+    "num": null,
+    "types": [],
+    "gen": 9
+  },
+  {
+    "slug": "cetitan",
+    "name": "Cetitan",
+    "num": null,
+    "types": ["ice"],
+    "gen": 9,
+    "abilities": {
+      "0": "thickfat",
+      "1": "slushrush"
+    },
+    "weight": 700.0,
+    "height": 4.5
+  },
+  {
+    "slug": "fidough",
+    "name": "Fidough",
+    "num": null,
+    "types": ["fairy"],
+    "gen": 9,
+    "abilities": {
+      "0": "owntempo"
+    },
+    "weight": 10.9,
+    "height": 0.3
+  },
+  {
+    "slug": "Paldean Wooper",
+    "name": "wooper-paldea",
+    "num": null,
+    "types": ["poison", "ground"],
+    "gen": 9,
+    "abilities": {
+      "0": "poisonpoint",
+      "1": "waterabsorb"
+    },
+    "baseSpecies": "wooper",
+    "region": "Paldea",
+    "weight": 11.0,
     "height": 0.4
   }
 ]

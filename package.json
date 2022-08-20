@@ -17,11 +17,13 @@
     "@pkmn/mods": "^0.5.24",
     "@pkmn/sim": "^0.5.24",
     "fs-extra": "^10.1.0",
+    "klaw-sync": "^6.0.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/fs-extra": "^9.0.13",
+    "@types/klaw-sync": "^6.0.1",
     "@types/lodash": "^4.14.183",
     "@types/node": "^18.7.6",
     "@typescript-eslint/eslint-plugin": "^5.33.1",

@@ -5,7 +5,7 @@ import { Generation } from '@pkmn/data';
 import { exportData } from '../utils';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-let extraData: any;
+export let extraData: any;
 
 export async function exportGames(gen: Generation, target: string) {
   console.log('- games');

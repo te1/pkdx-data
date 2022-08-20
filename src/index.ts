@@ -41,7 +41,7 @@ async function main() {
       await exportMoves(genData.gen, target, speciesMap, moveMap);
       await exportAbilities(genData.gen, target, abilityMap);
       await exportGames(genData.gen, target);
-      await exportPokedex(target);
+      await exportPokedex(genData.gen, target);
 
       console.log('');
     }
@@ -49,6 +49,7 @@ async function main() {
     // TODO export HM/TM/TR
     // TODO handle gen8 la (remaining learnsets, moves) ?
     // TODO handle gen9 preview
+    // TODO export unified dataset that can be used for all gens with no duplication (lol)
 
     console.log('done');
   } catch (err) {

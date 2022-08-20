@@ -1,0 +1,131 @@
+{
+  "slug": "pikachu-starter",
+  "name": "Pikachu",
+  "subName": "Starter",
+  "num": 25,
+  "types": [
+    "electric"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "static",
+    "H": "lightningrod"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 80,
+    "def": 50,
+    "spa": 75,
+    "spd": 60,
+    "spe": 120
+  },
+  "baseSpecies": "pikachu",
+  "weight": 6,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "learnset": {
+    "agility": [
+      "L:27"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doublekick": [
+      "L:9"
+    ],
+    "doubleteam": [
+      "L:12"
+    ],
+    "facade": [
+      "M"
+    ],
+    "floatyfall": [
+      "T"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "headbutt": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "irontail": [
+      "M"
+    ],
+    "lightscreen": [
+      "M",
+      "L:18"
+    ],
+    "payday": [
+      "M"
+    ],
+    "pikapapow": [
+      "T"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:6"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seismictoss": [
+      "M"
+    ],
+    "slam": [
+      "L:24"
+    ],
+    "splishysplash": [
+      "T"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tailwhip": [
+      "L:3"
+    ],
+    "thunder": [
+      "M",
+      "L:30"
+    ],
+    "thunderbolt": [
+      "M",
+      "L:21"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "M",
+      "L:15"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "zippyzap": [
+      "T"
+    ]
+  }
+}

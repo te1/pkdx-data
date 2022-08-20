@@ -1,0 +1,68 @@
+{
+  "slug": "meltan",
+  "name": "Meltan",
+  "num": 808,
+  "types": [
+    "steel"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "magnetpull"
+  },
+  "baseStats": {
+    "hp": 46,
+    "atk": 65,
+    "def": 65,
+    "spa": 55,
+    "spd": 35,
+    "spe": 34
+  },
+  "weight": 8,
+  "height": 0.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isMythical": true,
+  "learnset": {
+    "acidarmor": [
+      "L:36"
+    ],
+    "flashcannon": [
+      "M",
+      "L:45"
+    ],
+    "harden": [
+      "L:1"
+    ],
+    "headbutt": [
+      "M",
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tailwhip": [
+      "L:9"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:27"
+    ],
+    "thunderwave": [
+      "M",
+      "L:18"
+    ],
+    "toxic": [
+      "M"
+    ]
+  }
+}

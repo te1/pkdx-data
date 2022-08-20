@@ -706,6 +706,24 @@
     }
   },
   {
+    "slug": "pikachu-starter",
+    "name": "Pikachu",
+    "subName": "Starter",
+    "num": 25,
+    "types": [
+      "electric"
+    ],
+    "gen": 7,
+    "baseStats": {
+      "hp": 45,
+      "atk": 80,
+      "def": 50,
+      "spa": 75,
+      "spd": 60,
+      "spe": 120
+    }
+  },
+  {
     "slug": "raichu",
     "name": "Raichu",
     "num": 26,
@@ -2981,6 +2999,24 @@
       "spa": 45,
       "spd": 65,
       "spe": 55
+    }
+  },
+  {
+    "slug": "eevee-starter",
+    "name": "Eevee",
+    "subName": "Starter",
+    "num": 133,
+    "types": [
+      "normal"
+    ],
+    "gen": 7,
+    "baseStats": {
+      "hp": 65,
+      "atk": 75,
+      "def": 70,
+      "spa": 65,
+      "spd": 85,
+      "spe": 75
     }
   },
   {
@@ -17187,6 +17223,40 @@
       "spa": 102,
       "spd": 80,
       "spe": 143
+    }
+  },
+  {
+    "slug": "meltan",
+    "name": "Meltan",
+    "num": 808,
+    "types": [
+      "steel"
+    ],
+    "gen": 7,
+    "baseStats": {
+      "hp": 46,
+      "atk": 65,
+      "def": 65,
+      "spa": 55,
+      "spd": 35,
+      "spe": 34
+    }
+  },
+  {
+    "slug": "melmetal",
+    "name": "Melmetal",
+    "num": 809,
+    "types": [
+      "steel"
+    ],
+    "gen": 7,
+    "baseStats": {
+      "hp": 135,
+      "atk": 143,
+      "def": 143,
+      "spa": 80,
+      "spd": 65,
+      "spe": 34
     }
   }
 ]

@@ -9,8 +9,6 @@ type DataByGens = {
   [gen in GenerationNum]?: object;
 };
 
-const gensReversed: GenerationNum[] = [9, 8, 7, 6, 5, 4, 3, 2, 1];
-
 export class MergeData {
   pokemon: { slug: string }[] = [];
   moves = new Map<string, DataByGens>();
@@ -24,10 +22,7 @@ export class MergeData {
     if (index < 0) {
       this.pokemon.push(data);
     } else {
-      // this.pokemon[index].games = new Set([
-      //   ...this.pokemon[index].games,
-      //   ...data.games,
-      // ]);
+      this.pokemon[index] = data;
     }
   }
 
@@ -60,16 +55,16 @@ export class MergeData {
 export async function exportMergedData(target: string, mergeData: MergeData) {
   console.log('*** merged ***');
 
-  console.log('- pokemon');
-  if (mergeData.pokemon.length) {
-    console.log(`\twriting ${mergeData.pokemon.length} pokemon details...`);
-    for (const entry of mergeData.pokemon) {
-      await exportData(
-        path.join(target, 'merged', 'pokemon', entry.slug + '.json'),
-        entry
-      );
-    }
-  }
+  // console.log('- pokemon'); // TODO merge pokemon
+  // if (mergeData.pokemon.length) {
+  //   console.log(`\twriting ${mergeData.pokemon.length} pokemon details...`);
+  //   for (const entry of mergeData.pokemon) {
+  //     await exportData(
+  //       path.join(target, 'merged', 'pokemon', entry.slug + '.json'),
+  //       entry
+  //     );
+  //   }
+  // }
 
   // console.log('- moves'); // TODO merge moves
   // console.log('- abilities'); // TODO merge abilities

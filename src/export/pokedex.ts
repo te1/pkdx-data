@@ -61,7 +61,7 @@ export async function exportPokedex(gen: Generation, target: string) {
 
     for (const [dexSlug, dexData] of result) {
       await exportData(
-        path.join(target, `gen${gen.num}`, `${dexSlug}.json`),
+        path.join(target, `gen${gen.num}`, 'pokedex', dexSlug + '.json'),
         dexData
       );
     }

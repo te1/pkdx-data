@@ -335,7 +335,7 @@ export async function exportPokemon(
 
     result.push(entry);
 
-    mergeData.addPokedexData(entry.slug, gen.num, entry);
+    mergeData.addPokemonData(entry.slug, gen.num, entry);
 
     // remember available moves per pokemon for later use
     if (entry.learnset) {

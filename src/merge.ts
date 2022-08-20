@@ -1,4 +1,5 @@
 import * as path from 'path';
+import _ from 'lodash';
 import { GenerationNum as OriginalGenerationNum } from '@pkmn/data';
 import { exportData } from './utils';
 
@@ -13,7 +14,7 @@ export class MergeData {
   moves = new Map<string, DataByGens>();
   abilities = new Map<string, DataByGens>();
   games?: object[];
-  pokedex = new Map<string, DataByGens>();
+  pokedex: { slug: string; games: Set<string> }[] = [];
 
   addPokemonData(slug: string, gen: GenerationNum, data: object) {
     const gens = this.pokemon.get(slug) ?? {};
@@ -33,10 +34,17 @@ export class MergeData {
     this.abilities.set(slug, gens);
   }
 
-  addPokedexData(slug: string, gen: GenerationNum, data: object) {
-    const gens = this.pokedex.get(slug) ?? {};
-    gens[gen] = data;
-    this.pokedex.set(slug, gens);
+  addPokedexData(data: { slug: string; games: Set<string> }) {
+    const index = _.findIndex(this.pokedex, { slug: data.slug });
+
+    if (index < 0) {
+      this.pokedex.push(data);
+    } else {
+      this.pokedex[index].games = new Set([
+        ...this.pokedex[index].games,
+        ...data.games,
+      ]);
+    }
   }
 }
 
@@ -57,6 +65,16 @@ export async function exportMergedData(target: string, mergeData: MergeData) {
   }
 
   console.log('- pokedex');
+  if (mergeData.pokedex.length) {
+    console.log(`\twriting ${mergeData.pokedex.length} pokedexes...`);
+
+    for (const dexData of mergeData.pokedex) {
+      await exportData(
+        path.join(target, 'merged', 'pokedex', dexData.slug + '.json'),
+        dexData
+      );
+    }
+  }
 
   // if (result.length) {
   //   console.log(`\twriting ${result.length} pokemon...`);

@@ -63,12 +63,16 @@ export async function exportPokedex(
         }
       }
 
-      result.set(dexSlug, {
+      const entry = {
         slug: dexSlug,
         name: dexData.name || undefined,
         games,
         ...dexData,
-      });
+      };
+
+      result.set(dexSlug, entry);
+
+      mergeData.addPokedexData(entry);
     }
   }
 

@@ -134,14 +134,23 @@ const existsFn = ((d: Data, g: GenerationNum) => {
     return false;
   }
 
-  // include G-Max and Unobtainable formes
-  // include Illegal and Unreleased tier
+  // include Unobtainable formes (Illegal and Unreleased tier)
   // exclude Pokestar and missingno
-  const allowNonstandardSpecies =
+  const allowUnobtainableSpecies =
     d.kind === 'Species' &&
-    d.isNonstandard &&
-    _.includes(['LGPE', 'Gigantamax', 'Unobtainable'], d.isNonstandard) &&
+    d.isNonstandard === 'Unobtainable' &&
     !_.includes(excludeSpeciesId, d.id);
+
+  // include Let's Go species
+  const allowLetsGoSpecies =
+    g === 7 && d.kind === 'Species' && d.isNonstandard === 'LGPE';
+
+  // include G-Max formes
+  const allowGmaxSpecies =
+    g === 8 && d.kind === 'Species' && d.isNonstandard === 'Gigantamax';
+
+  const allowNonstandardSpecies =
+    allowUnobtainableSpecies || allowLetsGoSpecies || allowGmaxSpecies;
 
   // include new Legends Arceus species
   const allowFutureSpecies =

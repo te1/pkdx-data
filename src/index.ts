@@ -9,6 +9,7 @@ import { exportMoves } from './export/moves';
 import { exportAbilities } from './export/abilities';
 import { exportGames } from './export/games';
 import { exportPokedex } from './export/pokedex';
+import { exportGen9Placeholder } from './export/gen9';
 
 const target = './generated/';
 
@@ -46,9 +47,10 @@ async function main() {
       console.log('');
     }
 
+    await exportGen9Placeholder(target);
+
     // TODO export HM/TM/TR
     // TODO handle gen8 la (remaining learnsets, moves) ?
-    // TODO handle gen9 preview
     // TODO export unified dataset that can be used for all gens with no duplication (lol)
 
     console.log('done');

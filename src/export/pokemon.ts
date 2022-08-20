@@ -377,7 +377,7 @@ export async function exportPokemon(
   }
 }
 
-function getSpeciesIndexData(result: object) {
+export function getSpeciesIndexData(result: object) {
   return _.map(result, (entry) =>
     _.pick(entry, [
       'slug',

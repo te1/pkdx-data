@@ -78,14 +78,16 @@
     "name": "Koraidon",
     "num": null,
     "types": [],
-    "gen": 9
+    "gen": 9,
+    "isLegendary": true
   },
   {
     "slug": "miraidon",
     "name": "Miraidon",
     "num": null,
     "types": [],
-    "gen": 9
+    "gen": 9,
+    "isLegendary": true
   },
   {
     "slug": "cetitan",
@@ -126,5 +128,17 @@
     "region": "Paldea",
     "weight": 11.0,
     "height": 0.4
+  },
+  {
+    "slug": "cyclizar",
+    "name": "Cyclizar",
+    "num": null,
+    "types": ["dragon", "normal"],
+    "gen": 9,
+    "abilities": {
+      "0": "Shed Skin"
+    },
+    "weight": 63.0,
+    "height": 1.6
   }
 ]

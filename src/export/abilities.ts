@@ -33,7 +33,7 @@ export async function exportAbilities(
 
     result.push(entry);
 
-    mergeData.addAbilityData(entry.slug, gen.num, entry);
+    mergeData.addAbilityData(entry);
   }
 
   result = _.sortBy(result, 'slug');
@@ -55,7 +55,7 @@ export async function exportAbilities(
   }
 }
 
-function getAbilitiesIndexData(result: object) {
+export function getAbilitiesIndexData(result: object) {
   return _.map(result, (entry) => _.pick(entry, ['slug', 'name', 'gen']));
 }
 

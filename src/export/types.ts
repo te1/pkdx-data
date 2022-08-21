@@ -3,11 +3,16 @@ import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation, Type, Types } from '@pkmn/data';
 import { exportData } from '../utils';
+import { MergeData } from '../merge';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let extraData: any;
 
-export async function exportTypes(gen: Generation, target: string) {
+export async function exportTypes(
+  gen: Generation,
+  target: string,
+  mergeData: MergeData
+) {
   console.log('- types');
 
   if (!extraData) {

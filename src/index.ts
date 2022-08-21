@@ -28,8 +28,8 @@ async function main() {
 
       console.log(`*** gen ${genData.genNum} ***`);
 
-      await exportTypes(genData.gen, target);
-      await exportNatures(genData.gen, target);
+      await exportTypes(genData.gen, target, mergeData);
+      await exportNatures(genData.gen, target, mergeData);
       await exportItems(genData.gen, target);
       await exportPokemon(
         genData.gen,

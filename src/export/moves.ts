@@ -8,7 +8,6 @@ import {
   PokemonMap,
   typeNameToSlug,
 } from '../utils';
-import { MergeData } from '../merge';
 import { SpeciesMap } from './pokemon';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -17,7 +16,6 @@ let extraData: any;
 export async function exportMoves(
   gen: Generation,
   target: string,
-  mergeData: MergeData,
   speciesMap: SpeciesMap,
   moveMap: PokemonMap
 ) {
@@ -69,6 +67,11 @@ export async function exportMoves(
     if (hasMaxMoves && (isMax || isGmax)) {
       // max moves keep the original move's category
       category = undefined;
+    }
+
+    if (category === 'status' && basePower === 0) {
+      // drop basePower for status moves
+      basePower = undefined;
     }
 
     let pp: number | undefined = move.pp;
@@ -127,8 +130,6 @@ export async function exportMoves(
     }
 
     result.push(entry);
-
-    mergeData.addMoveData(entry.slug, gen.num, entry);
   }
 
   result = _.sortBy(result, 'slug');

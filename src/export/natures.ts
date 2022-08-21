@@ -30,6 +30,9 @@ export async function exportNatures(
 
   if (result.length) {
     console.log(`\twriting ${result.length} natures...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'nature.json'), result);
+    await exportData(
+      path.join(target, `gen${gen.num}`, 'natures.json'),
+      result
+    );
   }
 }

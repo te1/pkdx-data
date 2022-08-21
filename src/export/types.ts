@@ -25,6 +25,8 @@ export async function exportTypes(
     categories: getCategoriesData(extraData.categories),
   };
 
+  mergeData.addTypeData(gen.num, result);
+
   if (result.types.length || result.categories.length) {
     console.log(
       `\twriting ${result.types.length} types and ${result.categories.length} categories...`

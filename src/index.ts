@@ -47,14 +47,12 @@ async function main() {
       await exportPokedex(genData.gen, target, mergeData, speciesMap);
 
       // TODO export HM/TM/TR
-      // TODO handle gen8 la (remaining learnsets, moves) ?
+      // TODO maybe handle gen8 la (remaining learnsets, moves)
 
       console.log('');
     }
 
     await exportGen9Placeholder(target, mergeData);
-
-    // TODO export unified dataset that can be used for all gens with no duplication (lol)
     await exportMergedData(target, mergeData);
 
     console.log('done');

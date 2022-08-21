@@ -24,7 +24,7 @@ export async function exportNatures(
 
   result = _.sortBy(result, 'slug');
 
-  if (gen.num === 8) {
+  if (gen.num === 3) {
     mergeData.natures = result;
   }
 

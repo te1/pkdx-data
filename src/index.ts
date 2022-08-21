@@ -46,6 +46,7 @@ async function main() {
       await exportGames(genData.gen, target, mergeData);
       await exportPokedex(genData.gen, target, mergeData, speciesMap);
 
+      // TODO pokedex usum, la
       // TODO export HM/TM/TR
       // TODO maybe handle gen8 la (remaining learnsets, moves)
 

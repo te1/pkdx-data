@@ -10,27 +10,9 @@ type DataByGens = {
 };
 
 export class MergeData {
-  pokemon: { slug: string }[] = [];
-  moves = new Map<string, DataByGens>();
   abilities = new Map<string, DataByGens>();
   games?: object[];
   pokedex: { slug: string; games: Set<string> }[] = [];
-
-  addPokemonData(gen: GenerationNum, data: { slug: string }) {
-    const index = _.findIndex(this.pokemon, { slug: data.slug });
-
-    if (index < 0) {
-      this.pokemon.push(data);
-    } else {
-      this.pokemon[index] = data;
-    }
-  }
-
-  addMoveData(slug: string, gen: GenerationNum, data: object) {
-    const gens = this.moves.get(slug) ?? {};
-    gens[gen] = data;
-    this.moves.set(slug, gens);
-  }
 
   addAbilityData(slug: string, gen: GenerationNum, data: object) {
     const gens = this.abilities.get(slug) ?? {};
@@ -55,18 +37,8 @@ export class MergeData {
 export async function exportMergedData(target: string, mergeData: MergeData) {
   console.log('*** merged ***');
 
-  // console.log('- pokemon'); // TODO merge pokemon
-  // if (mergeData.pokemon.length) {
-  //   console.log(`\twriting ${mergeData.pokemon.length} pokemon details...`);
-  //   for (const entry of mergeData.pokemon) {
-  //     await exportData(
-  //       path.join(target, 'merged', 'pokemon', entry.slug + '.json'),
-  //       entry
-  //     );
-  //   }
-  // }
-
-  // console.log('- moves'); // TODO merge moves
+  // console.log('- types'); // TODO merge types
+  // console.log('- natures'); // TODO merge natures
   // console.log('- abilities'); // TODO merge abilities
 
   console.log('- games');

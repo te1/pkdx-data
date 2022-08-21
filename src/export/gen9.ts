@@ -20,18 +20,14 @@ export async function exportGen9Placeholder(
 ) {
   console.log(`*** gen 9 (placeholder data) ***`);
 
-  await exportPokemon(fakeGen, target, mergeData);
+  await exportPokemon(fakeGen, target);
   await exportGames(fakeGen, target, mergeData);
   await exportPokedex(fakeGen, target, mergeData);
 
   console.log('');
 }
 
-async function exportPokemon(
-  gen: Generation,
-  target: string,
-  mergeData: MergeData
-) {
+async function exportPokemon(gen: Generation, target: string) {
   console.log('- pokemon');
 
   if (!extraData) {
@@ -40,10 +36,6 @@ async function exportPokemon(
   }
 
   const result = extraData;
-
-  for (const entry of result) {
-    mergeData.addPokemonData(gen.num, entry);
-  }
 
   if (result.length) {
     console.log(`\twriting ${result.length} pokemon...`);

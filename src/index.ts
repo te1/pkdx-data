@@ -37,12 +37,11 @@ async function main() {
         genData.genBdsp,
         genData.simGenBdsp,
         target,
-        mergeData,
         speciesMap,
         moveMap,
         abilityMap
       );
-      await exportMoves(genData.gen, target, mergeData, speciesMap, moveMap);
+      await exportMoves(genData.gen, target, speciesMap, moveMap);
       await exportAbilities(genData.gen, target, mergeData, abilityMap);
       await exportGames(genData.gen, target, mergeData);
       await exportPokedex(genData.gen, target, mergeData, speciesMap);

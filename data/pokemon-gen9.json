@@ -36,44 +36,6 @@
     "height": 0.5
   },
   {
-    "slug": "pawmi",
-    "name": "Pawmi",
-    "num": null,
-    "types": ["electric"],
-    "gen": 9,
-    "abilities": {
-      "0": "static",
-      "1": "naturalcure"
-    },
-    "weight": 2.5,
-    "height": 0.3
-  },
-  {
-    "slug": "smoliv",
-    "name": "Smoliv",
-    "num": null,
-    "types": ["grass", "normal"],
-    "gen": 9,
-    "abilities": {
-      "0": "earlybird"
-    },
-    "weight": 6.5,
-    "height": 0.3
-  },
-  {
-    "slug": "lechonk",
-    "name": "Lechonk",
-    "num": null,
-    "types": ["normal"],
-    "gen": 9,
-    "abilities": {
-      "0": "aromaveil",
-      "1": "gluttony"
-    },
-    "weight": 10.2,
-    "height": 0.5
-  },
-  {
     "slug": "koraidon",
     "name": "Koraidon",
     "num": null,
@@ -103,6 +65,18 @@
     "height": 4.5
   },
   {
+    "slug": "cyclizar",
+    "name": "Cyclizar",
+    "num": null,
+    "types": ["dragon", "normal"],
+    "gen": 9,
+    "abilities": {
+      "0": "Shed Skin"
+    },
+    "weight": 63.0,
+    "height": 1.6
+  },
+  {
     "slug": "fidough",
     "name": "Fidough",
     "num": null,
@@ -113,6 +87,19 @@
     },
     "weight": 10.9,
     "height": 0.3
+  },
+  {
+    "slug": "lechonk",
+    "name": "Lechonk",
+    "num": null,
+    "types": ["normal"],
+    "gen": 9,
+    "abilities": {
+      "0": "aromaveil",
+      "1": "gluttony"
+    },
+    "weight": 10.2,
+    "height": 0.5
   },
   {
     "slug": "wooper-paldea",
@@ -130,15 +117,28 @@
     "height": 0.4
   },
   {
-    "slug": "cyclizar",
-    "name": "Cyclizar",
+    "slug": "pawmi",
+    "name": "Pawmi",
     "num": null,
-    "types": ["dragon", "normal"],
+    "types": ["electric"],
     "gen": 9,
     "abilities": {
-      "0": "Shed Skin"
+      "0": "static",
+      "1": "naturalcure"
     },
-    "weight": 63.0,
-    "height": 1.6
+    "weight": 2.5,
+    "height": 0.3
+  },
+  {
+    "slug": "smoliv",
+    "name": "Smoliv",
+    "num": null,
+    "types": ["grass", "normal"],
+    "gen": 9,
+    "abilities": {
+      "0": "earlybird"
+    },
+    "weight": 6.5,
+    "height": 0.3
   }
 ]

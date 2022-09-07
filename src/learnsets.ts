@@ -146,34 +146,36 @@ async function getLearnsets(
 ): Promise<Learnsets> {
   const learnsets: Learnsets = [];
 
-  let currentSpecies: Specie | undefined = species;
+  const addLearnset = async (species: Specie | undefined) => {
+    if (!species) {
+      return;
+    }
 
-  while (currentSpecies) {
-    const learnset = await getLearnset(currentSpecies, gen, modGen, speciesMap);
+    const learnset = await getLearnset(species, gen, modGen, speciesMap);
 
     if (learnset) {
       learnsets.push({
-        species: currentSpecies,
+        species,
         learnset,
       });
     }
 
-    const currentSlug = speciesMap.getSlugByShowdownName(currentSpecies.name);
+    const slug = speciesMap.getSlugByShowdownName(species.name);
 
-    const mergeLearnsetFrom = override[currentSlug ?? '']?.mergeLearnsetFrom;
+    const mergeLearnsetFrom = override[slug ?? '']?.mergeLearnsetFrom;
 
     const skipPrevoLearnset =
-      currentSpecies.forme === 'Hisui' ||
-      override[currentSlug ?? '']?.skipPrevoLearnset;
+      species.forme === 'Hisui' || override[slug ?? '']?.skipPrevoLearnset;
 
     if (mergeLearnsetFrom) {
-      currentSpecies = gen.species.get(mergeLearnsetFrom);
-    } else if (currentSpecies.prevo && !skipPrevoLearnset) {
-      currentSpecies = gen.species.get(currentSpecies.prevo);
-    } else {
-      currentSpecies = undefined;
+      await addLearnset(gen.species.get(mergeLearnsetFrom));
     }
-  }
+    if (species.prevo && !skipPrevoLearnset) {
+      await addLearnset(gen.species.get(species.prevo));
+    }
+  };
+
+  await addLearnset(species);
 
   return learnsets;
 }

@@ -5,6 +5,6 @@
   "pokemon": [
     "kecleon"
   ],
-  "desc": "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
+  "desc": "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after all hits from a multi-hit move. This effect is prevented if the move had a secondary effect removed by the Sheer Force Ability.",
   "shortDesc": "This Pokemon's type changes to the type of a move it's hit by, unless it has the type."
 }

@@ -64,6 +64,19 @@
     "height": 1.5
   },
   {
+    "slug": "bellibolt",
+    "name": "Bellibolt",
+    "num": null,
+    "types": ["electric"],
+    "gen": 9,
+    "abilities": {
+      "0": "electromorphosis",
+      "1": "static"
+    },
+    "weight": 113.0,
+    "height": 1.2
+  },
+  {
     "slug": "ceruledge",
     "name": "Ceruledge",
     "num": null,
@@ -95,10 +108,23 @@
     "types": ["dragon", "normal"],
     "gen": 9,
     "abilities": {
-      "0": "Shed Skin"
+      "0": "shedskin"
     },
     "weight": 63.0,
     "height": 1.6
+  },
+  {
+    "slug": "farigiraf",
+    "name": "Farigiraf",
+    "num": null,
+    "types": ["normal", "psychic"],
+    "gen": 9,
+    "abilities": {
+      "0": "cudchew",
+      "1": "armortail"
+    },
+    "weight": 160.0,
+    "height": 3.2
   },
   {
     "slug": "fidough",

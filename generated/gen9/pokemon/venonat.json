@@ -1,0 +1,160 @@
+{
+  "slug": "venonat",
+  "name": "Venonat",
+  "num": 256,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "abilities": {
+    "0": "compoundeyes",
+    "1": "tintedlens",
+    "H": "runaway"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 55,
+    "def": 50,
+    "spa": 40,
+    "spd": 55,
+    "spe": 45
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "agility": [
+      "E",
+      "M"
+    ],
+    "batonpass": [
+      "E",
+      "M"
+    ],
+    "bugbite": [
+      "E"
+    ],
+    "bugbuzz": [
+      "L:25",
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "confusion": [
+      "L:11"
+    ],
+    "disable": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "leechlife": [
+      "L:35",
+      "M"
+    ],
+    "morningsun": [
+      "E"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "poisonfang": [
+      "L:41"
+    ],
+    "poisonpowder": [
+      "L:13"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "L:17",
+      "M"
+    ],
+    "psychic": [
+      "L:47",
+      "M"
+    ],
+    "ragepowder": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "E"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeppowder": [
+      "L:29"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "stunspore": [
+      "L:23"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:5"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "toxicspikes": [
+      "E",
+      "M"
+    ],
+    "venoshock": [
+      "E",
+      "M"
+    ],
+    "zenheadbutt": [
+      "L:37",
+      "M"
+    ]
+  },
+  "flavorText": "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light."
+}

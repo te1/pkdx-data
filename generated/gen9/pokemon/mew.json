@@ -1,0 +1,557 @@
+{
+  "slug": "mew",
+  "name": "Mew",
+  "num": null,
+  "types": [
+    "psychic"
+  ],
+  "abilities": {
+    "0": "synchronize",
+    "H": "synchronize"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 100,
+    "def": 100,
+    "spa": 100,
+    "spd": 100,
+    "spe": 100
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "acrobatics": [
+      "M"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "amnesia": [
+      "L:10",
+      "M"
+    ],
+    "ancientpower": [
+      "L:30"
+    ],
+    "aurasphere": [
+      "L:90",
+      "M"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "batonpass": [
+      "L:20",
+      "M"
+    ],
+    "blastburn": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bravebird": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disarmingvoice": [
+      "M"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "dragondance": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "drainingkiss": [
+      "M"
+    ],
+    "drainpunch": [
+      "M"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "firepledge": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "flamecharge": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flareblitz": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "fly": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "frenzyplant": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasspledge": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hex": [
+      "M"
+    ],
+    "hurricane": [
+      "M"
+    ],
+    "hydrocannon": [
+      "M"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icefang": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icespinner": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "imprison": [
+      "L:70",
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "lifedew": [
+      "L:40"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "metalclaw": [
+      "M"
+    ],
+    "metronome": [
+      "L:60",
+      "M"
+    ],
+    "mistyterrain": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "nastyplot": [
+      "L:50",
+      "M"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "phantomforce": [
+      "M"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poisontail": [
+      "M"
+    ],
+    "pollenpuff": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "pound": [
+      "L:1"
+    ],
+    "powergem": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M"
+    ],
+    "psychic": [
+      "L:100",
+      "M"
+    ],
+    "psychicfangs": [
+      "M"
+    ],
+    "psychicterrain": [
+      "M"
+    ],
+    "psyshock": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "reflecttype": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "spikes": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "storedpower": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "transform": [
+      "L:80"
+    ],
+    "trick": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "waterpledge": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

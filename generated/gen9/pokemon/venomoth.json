@@ -1,0 +1,166 @@
+{
+  "slug": "venomoth",
+  "name": "Venomoth",
+  "num": 257,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "abilities": {
+    "0": "shielddust",
+    "1": "tintedlens",
+    "H": "wonderskin"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 65,
+    "def": 60,
+    "spa": 90,
+    "spd": 75,
+    "spe": 90
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "acrobatics": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "L:0",
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bugbuzz": [
+      "L:25",
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "confusion": [
+      "L:11"
+    ],
+    "disable": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leechlife": [
+      "L:37",
+      "M"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "poisonfang": [
+      "L:47"
+    ],
+    "poisonpowder": [
+      "L:13"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "L:17",
+      "M"
+    ],
+    "psychic": [
+      "L:55",
+      "M"
+    ],
+    "quiverdance": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeppowder": [
+      "L:29"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "stunspore": [
+      "L:23"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:1"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "L:41",
+      "M"
+    ]
+  },
+  "flavorText": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
+}

@@ -1,16 +1,179 @@
 {
   "slug": "klawf",
   "name": "Klawf",
-  "num": null,
+  "num": 249,
   "types": [
     "rock"
   ],
-  "gen": 9,
   "abilities": {
     "0": "angershell",
-    "1": "shellarmor"
+    "1": "shellarmor",
+    "H": "regenerator"
   },
-  "weight": 79,
-  "height": 1.3,
+  "baseStats": {
+    "hp": 70,
+    "atk": 100,
+    "def": 115,
+    "spa": 35,
+    "spd": 55,
+    "spe": 75
+  },
+  "learnset": {
+    "ancientpower": [
+      "E"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "crabhammer": [
+      "E"
+    ],
+    "dig": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "endeavor": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:37"
+    ],
+    "fling": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "guillotine": [
+      "L:56"
+    ],
+    "harden": [
+      "L:6"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highhorsepower": [
+      "L:47"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "L:51",
+      "M"
+    ],
+    "knockoff": [
+      "E"
+    ],
+    "metalclaw": [
+      "L:17",
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "powergem": [
+      "M"
+    ],
+    "protect": [
+      "L:21",
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rockblast": [
+      "L:24",
+      "M"
+    ],
+    "rockslide": [
+      "L:42",
+      "M"
+    ],
+    "rocksmash": [
+      "L:9"
+    ],
+    "rockthrow": [
+      "L:1"
+    ],
+    "rocktomb": [
+      "L:13",
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swordsdance": [
+      "L:33",
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "visegrip": [
+      "L:1"
+    ],
+    "xscissor": [
+      "L:29",
+      "M"
+    ]
+  },
   "flavorText": "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head."
 }

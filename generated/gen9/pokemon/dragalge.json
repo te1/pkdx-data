@@ -1,0 +1,166 @@
+{
+  "slug": "dragalge",
+  "name": "Dragalge",
+  "num": 338,
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "poisontouch",
+    "H": "adaptability"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 75,
+    "def": 90,
+    "spa": 97,
+    "spd": 123,
+    "spe": 44
+  },
+  "learnset": {
+    "acid": [
+      "L:1"
+    ],
+    "acidspray": [
+      "M"
+    ],
+    "aquatail": [
+      "L:45"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "doubleteam": [
+      "L:20"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonpulse": [
+      "L:40",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "hydropump": [
+      "L:59",
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "L:66",
+      "M"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "poisontail": [
+      "L:25",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "L:52",
+      "M"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:15"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "toxic": [
+      "L:35"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "L:30",
+      "M"
+    ]
+  },
+  "flavorText": "Using a liquid poison, Dragalge indiscriminately attacks anything that wanders into its territory. This poison can corrode the undersides of boats."
+}

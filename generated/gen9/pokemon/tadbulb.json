@@ -1,0 +1,144 @@
+{
+  "slug": "tadbulb",
+  "name": "Tadbulb",
+  "num": 170,
+  "types": [
+    "electric"
+  ],
+  "abilities": {
+    "0": "owntempo",
+    "1": "static",
+    "H": "damp"
+  },
+  "baseStats": {
+    "hp": 61,
+    "atk": 31,
+    "def": 41,
+    "spa": 59,
+    "spd": 35,
+    "spe": 45
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "charge": [
+      "L:17"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "discharge": [
+      "L:32"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "L:40",
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "flail": [
+      "L:25"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "muddywater": [
+      "E"
+    ],
+    "mudshot": [
+      "L:24",
+      "M"
+    ],
+    "mudslap": [
+      "L:1",
+      "M"
+    ],
+    "paraboliccharge": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "soak": [
+      "E"
+    ],
+    "spark": [
+      "L:21"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:45"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:7"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "watergun": [
+      "L:11"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "weatherball": [
+      "L:36"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "zapcannon": [
+      "L:50"
+    ]
+  },
+  "flavorText": "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies."
+}

@@ -1,15 +1,163 @@
 {
   "slug": "sprigatito",
   "name": "Sprigatito",
-  "num": null,
+  "num": 1,
   "types": [
     "grass"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "overgrow"
+    "0": "overgrow",
+    "H": "protean"
   },
-  "weight": 4.1,
-  "height": 0.4,
+  "baseStats": {
+    "hp": 40,
+    "atk": 61,
+    "def": 54,
+    "spa": 45,
+    "spd": 45,
+    "spe": 65
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "allyswitch": [
+      "E"
+    ],
+    "bite": [
+      "L:7"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "copycat": [
+      "E"
+    ],
+    "disarmingvoice": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "L:32",
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasspledge": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "honeclaws": [
+      "L:10"
+    ],
+    "leafage": [
+      "L:1"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "E"
+    ],
+    "magicalleaf": [
+      "L:13",
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "petalblizzard": [
+      "E"
+    ],
+    "playrough": [
+      "L:36",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:15"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "seedbomb": [
+      "L:17",
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "L:28"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "E"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uturn": [
+      "L:21",
+      "M"
+    ],
+    "worryseed": [
+      "L:25"
+    ]
+  },
   "flavorText": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out."
 }

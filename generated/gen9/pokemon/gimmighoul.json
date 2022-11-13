@@ -1,19 +1,77 @@
 {
   "slug": "gimmighoul",
   "name": "Gimmighoul",
-  "subName": "Chest Form",
-  "num": null,
+  "num": 391,
   "types": [
     "ghost"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "rattled"
+    "0": "rattled",
+    "H": "rattled"
   },
-  "formes": [
-    "gimmighoul-roaming"
-  ],
-  "weight": 5,
-  "height": 0.3,
+  "baseStats": {
+    "hp": 45,
+    "atk": 30,
+    "def": 70,
+    "spa": 75,
+    "spd": 70,
+    "spe": 10
+  },
+  "learnset": {
+    "astonish": [
+      "L:1"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "hex": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "powergem": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ]
+  },
   "flavorText": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure."
 }

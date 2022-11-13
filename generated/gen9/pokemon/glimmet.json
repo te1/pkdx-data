@@ -1,0 +1,147 @@
+{
+  "slug": "glimmet",
+  "name": "Glimmet",
+  "num": 308,
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "abilities": {
+    "0": "toxicdebris",
+    "H": "corrosion"
+  },
+  "baseStats": {
+    "hp": 48,
+    "atk": 35,
+    "def": 42,
+    "spa": 105,
+    "spd": 60,
+    "spe": 60
+  },
+  "learnset": {
+    "acidarmor": [
+      "L:41"
+    ],
+    "acidspray": [
+      "L:7",
+      "M"
+    ],
+    "ancientpower": [
+      "L:11"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "E"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "harden": [
+      "L:1"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "memento": [
+      "E"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "powergem": [
+      "L:37",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockpolish": [
+      "L:15"
+    ],
+    "rockslide": [
+      "L:33",
+      "M"
+    ],
+    "rockthrow": [
+      "L:1"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "L:26",
+      "M"
+    ],
+    "selfdestruct": [
+      "L:29"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "sludgewave": [
+      "L:46"
+    ],
+    "smackdown": [
+      "L:1"
+    ],
+    "spikes": [
+      "M"
+    ],
+    "stealthrock": [
+      "L:18",
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "toxic": [
+      "E"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "venoshock": [
+      "L:22",
+      "M"
+    ]
+  },
+  "flavorText": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison."
+}

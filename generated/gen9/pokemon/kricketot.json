@@ -1,0 +1,39 @@
+{
+  "slug": "kricketot",
+  "name": "Kricketot",
+  "num": 33,
+  "types": [
+    "bug"
+  ],
+  "abilities": {
+    "0": "shedskin",
+    "H": "runaway"
+  },
+  "baseStats": {
+    "hp": 37,
+    "atk": 25,
+    "def": 41,
+    "spa": 25,
+    "spd": 41,
+    "spe": 25
+  },
+  "learnset": {
+    "bugbite": [
+      "L:16"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "strugglebug": [
+      "L:6",
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ]
+  },
+  "flavorText": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
+}

@@ -1,9 +1,220 @@
 {
   "slug": "koraidon",
   "name": "Koraidon",
-  "num": null,
-  "types": [],
-  "gen": 9,
-  "isLegendary": true,
+  "num": 399,
+  "types": [
+    "fighting",
+    "dragon"
+  ],
+  "abilities": {
+    "0": "orichalcumpulse",
+    "H": "orichalcumpulse"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 135,
+    "def": 115,
+    "spa": 85,
+    "spd": 100,
+    "spe": 135
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "agility": [
+      "L:35",
+      "M"
+    ],
+    "ancientpower": [
+      "L:14"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "L:1"
+    ],
+    "brickbreak": [
+      "L:28",
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "closecombat": [
+      "L:84",
+      "M"
+    ],
+    "collisioncourse": [
+      "L:56"
+    ],
+    "counter": [
+      "L:70"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonclaw": [
+      "L:42",
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "drainpunch": [
+      "L:21",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "flamecharge": [
+      "M"
+    ],
+    "flamethrower": [
+      "L:49",
+      "M"
+    ],
+    "flareblitz": [
+      "L:91",
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "gigaimpact": [
+      "L:98",
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icefang": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "L:77",
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rocksmash": [
+      "L:7"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "screech": [
+      "L:63"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "L:1",
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  },
   "flavorText": "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists."
 }

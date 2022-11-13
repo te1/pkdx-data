@@ -1,9 +1,193 @@
 {
   "slug": "miraidon",
   "name": "Miraidon",
-  "num": null,
-  "types": [],
-  "gen": 9,
-  "isLegendary": true,
+  "num": 400,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "abilities": {
+    "0": "hadronengine",
+    "H": "hadronengine"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 85,
+    "def": 100,
+    "spa": 135,
+    "spd": 115,
+    "spe": 135
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "agility": [
+      "L:35",
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "charge": [
+      "L:14"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "discharge": [
+      "L:28"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:1"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "dragonpulse": [
+      "L:42",
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "L:1",
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "electrodrift": [
+      "L:56"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "L:98",
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "metalsound": [
+      "L:63"
+    ],
+    "mirrorcoat": [
+      "L:70"
+    ],
+    "outrage": [
+      "L:77",
+      "M"
+    ],
+    "overheat": [
+      "L:91",
+      "M"
+    ],
+    "paraboliccharge": [
+      "L:21"
+    ],
+    "powergem": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "shockwave": [
+      "L:7"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "L:84",
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  },
   "flavorText": "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful."
 }

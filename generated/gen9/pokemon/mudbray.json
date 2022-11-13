@@ -1,0 +1,146 @@
+{
+  "slug": "mudbray",
+  "name": "Mudbray",
+  "num": 272,
+  "types": [
+    "ground"
+  ],
+  "abilities": {
+    "0": "owntempo",
+    "1": "stamina",
+    "H": "innerfocus"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 100,
+    "def": 70,
+    "spa": 45,
+    "spd": 55,
+    "spe": 45
+  },
+  "learnset": {
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "L:12",
+      "M"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "counter": [
+      "L:24"
+    ],
+    "doubleedge": [
+      "E"
+    ],
+    "doublekick": [
+      "L:8"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "L:36",
+      "M"
+    ],
+    "endeavor": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fissure": [
+      "E"
+    ],
+    "heavyslam": [
+      "L:32",
+      "M"
+    ],
+    "highhorsepower": [
+      "L:28"
+    ],
+    "irondefense": [
+      "L:4",
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "megakick": [
+      "L:40"
+    ],
+    "mudslap": [
+      "L:1",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "E"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocksmash": [
+      "L:1"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "E"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stomp": [
+      "L:16"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "strength": [
+      "L:20"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superpower": [
+      "L:44"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ]
+  },
+  "flavorText": "This Pokémon covers itself in mud that it has regurgitated. The mud won't dry out even if it's exposed to the sun for a long time."
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "goomy",
+  "name": "Goomy",
+  "num": 172,
+  "types": [
+    "dragon"
+  ],
+  "abilities": {
+    "0": "sapsipper",
+    "1": "hydration",
+    "H": "gooey"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 50,
+    "def": 35,
+    "spa": 55,
+    "spd": 75,
+    "spe": 40
+  },
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "L:45",
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "counter": [
+      "E"
+    ],
+    "curse": [
+      "L:41"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:10"
+    ],
+    "dragonpulse": [
+      "L:35",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:20"
+    ],
+    "lifedew": [
+      "E"
+    ],
+    "muddywater": [
+      "L:50"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "L:15",
+      "M"
+    ],
+    "raindance": [
+      "L:30",
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "watergun": [
+      "L:5"
+    ],
+    "waterpulse": [
+      "L:25",
+      "M"
+    ]
+  },
+  "flavorText": "Most of a Goomy's body is water. A membrane covers the whole Pokémon to prevent it from shriveling up in dry weather."
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "spewpa",
+  "name": "Spewpa",
+  "num": 36,
+  "types": [
+    "bug"
+  ],
+  "abilities": {
+    "0": "shedskin",
+    "H": "friendguard"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 22,
+    "def": 60,
+    "spa": 27,
+    "spd": 30,
+    "spe": 29
+  },
+  "learnset": {
+    "harden": [
+      "L:1"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "L:0",
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ]
+  },
+  "flavorText": "If Rufflet attacks this Pokémon by pecking at it, it will retaliate with its sharp fur and poisonous black powder."
+}

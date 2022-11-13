@@ -1,15 +1,162 @@
 {
   "slug": "fidough",
   "name": "Fidough",
-  "num": null,
+  "num": 76,
   "types": [
     "fairy"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "owntempo"
+    "0": "owntempo",
+    "H": "klutz"
   },
-  "weight": 10.9,
-  "height": 0.3,
+  "baseStats": {
+    "hp": 37,
+    "atk": 55,
+    "def": 70,
+    "spa": 30,
+    "spd": 55,
+    "spe": 65
+  },
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "babydolleyes": [
+      "L:15"
+    ],
+    "batonpass": [
+      "L:26",
+      "M"
+    ],
+    "bite": [
+      "L:11"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "charm": [
+      "L:36",
+      "M"
+    ],
+    "copycat": [
+      "E"
+    ],
+    "covet": [
+      "L:8"
+    ],
+    "crunch": [
+      "L:40",
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "L:33"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "howl": [
+      "E"
+    ],
+    "icefang": [
+      "M"
+    ],
+    "lastresort": [
+      "L:45"
+    ],
+    "lick": [
+      "L:3"
+    ],
+    "mistyterrain": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "playrough": [
+      "L:18",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychicfangs": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "L:30"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "E"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:6"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "wish": [
+      "E"
+    ],
+    "workup": [
+      "L:22"
+    ],
+    "yawn": [
+      "E"
+    ]
+  },
   "flavorText": "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity."
 }

@@ -1,16 +1,190 @@
 {
   "slug": "armarouge",
   "name": "Armarouge",
-  "num": null,
+  "num": 166,
   "types": [
     "fire",
     "psychic"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "flashfire"
+    "0": "flashfire",
+    "H": "weakarmor"
   },
-  "weight": 85,
-  "height": 1.5,
+  "baseStats": {
+    "hp": 85,
+    "atk": 60,
+    "def": 100,
+    "spa": 125,
+    "spd": 80,
+    "spe": 75
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "allyswitch": [
+      "L:42"
+    ],
+    "armorcannon": [
+      "L:62"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "aurasphere": [
+      "M"
+    ],
+    "calmmind": [
+      "L:37",
+      "M"
+    ],
+    "clearsmog": [
+      "L:8"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "expandingforce": [
+      "L:56"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firespin": [
+      "L:12",
+      "M"
+    ],
+    "flamecharge": [
+      "L:24",
+      "M"
+    ],
+    "flamethrower": [
+      "L:48",
+      "M"
+    ],
+    "flareblitz": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "incinerate": [
+      "L:28"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "lavaplume": [
+      "L:32"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "mysticalfire": [
+      "L:1"
+    ],
+    "nightshade": [
+      "L:20",
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psychicterrain": [
+      "M"
+    ],
+    "psyshock": [
+      "L:0",
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "storedpower": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trick": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "wideguard": [
+      "L:1"
+    ],
+    "willowisp": [
+      "L:16",
+      "M"
+    ]
+  },
   "flavorText": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal."
 }

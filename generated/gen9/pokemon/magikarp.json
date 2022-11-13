@@ -1,0 +1,32 @@
+{
+  "slug": "magikarp",
+  "name": "Magikarp",
+  "num": 134,
+  "types": [
+    "water"
+  ],
+  "abilities": {
+    "0": "swiftswim",
+    "H": "rattled"
+  },
+  "baseStats": {
+    "hp": 20,
+    "atk": 10,
+    "def": 55,
+    "spa": 15,
+    "spd": 20,
+    "spe": 80
+  },
+  "learnset": {
+    "flail": [
+      "L:25"
+    ],
+    "splash": [
+      "L:1"
+    ],
+    "tackle": [
+      "L:15"
+    ]
+  },
+  "flavorText": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet."
+}

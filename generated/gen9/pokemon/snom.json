@@ -1,0 +1,67 @@
+{
+  "slug": "snom",
+  "name": "Snom",
+  "num": 350,
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "abilities": {
+    "0": "shielddust",
+    "H": "icescales"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 25,
+    "def": 35,
+    "spa": 45,
+    "spd": 30,
+    "spe": 20
+  },
+  "learnset": {
+    "bugbite": [
+      "E"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fairywind": [
+      "E"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "mirrorcoat": [
+      "E"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "powdersnow": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "strugglebug": [
+      "L:1",
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ]
+  },
+  "flavorText": "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak."
+}

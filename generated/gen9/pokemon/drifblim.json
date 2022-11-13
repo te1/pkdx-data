@@ -1,0 +1,189 @@
+{
+  "slug": "drifblim",
+  "name": "Drifblim",
+  "num": 144,
+  "types": [
+    "ghost",
+    "flying"
+  ],
+  "abilities": {
+    "0": "aftermath",
+    "1": "unburden",
+    "H": "flareboost"
+  },
+  "baseStats": {
+    "hp": 150,
+    "atk": 80,
+    "def": 44,
+    "spa": 90,
+    "spd": 54,
+    "spe": 80
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "amnesia": [
+      "M"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "batonpass": [
+      "L:42",
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "destinybond": [
+      "L:36"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "L:54"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "fly": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:1"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gust": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hex": [
+      "L:16",
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "minimize": [
+      "L:1"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "payback": [
+      "L:12"
+    ],
+    "phantomforce": [
+      "L:0",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "selfdestruct": [
+      "L:31"
+    ],
+    "shadowball": [
+      "L:20",
+      "M"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spitup": [
+      "L:24"
+    ],
+    "stockpile": [
+      "L:24"
+    ],
+    "storedpower": [
+      "M"
+    ],
+    "strengthsap": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swallow": [
+      "L:24"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tailwind": [
+      "L:48",
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "trick": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  },
+  "flavorText": "It can generate and release gas within its body. That's how it can control the altitude of its drift."
+}

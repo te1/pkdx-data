@@ -1,16 +1,178 @@
 {
   "slug": "cyclizar",
   "name": "Cyclizar",
-  "num": null,
+  "num": 295,
   "types": [
     "dragon",
     "normal"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "shedskin"
+    "0": "shedskin",
+    "H": "regenerator"
   },
-  "weight": 63,
-  "height": 1.6,
+  "baseStats": {
+    "hp": 70,
+    "atk": 95,
+    "def": 65,
+    "spa": 85,
+    "spd": 65,
+    "spe": 121
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "aquatail": [
+      "E"
+    ],
+    "bite": [
+      "L:23"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "L:14"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "doubleedge": [
+      "L:51"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonclaw": [
+      "L:36",
+      "M"
+    ],
+    "dragonpulse": [
+      "L:45",
+      "M"
+    ],
+    "dragonrush": [
+      "L:57"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "icespinner": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "irontail": [
+      "E"
+    ],
+    "knockoff": [
+      "E"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "powerwhip": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:18"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rapidspin": [
+      "L:7"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shedtail": [
+      "L:31"
+    ],
+    "shiftgear": [
+      "L:40"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "L:11",
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uturn": [
+      "L:27",
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  },
   "flavorText": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals."
 }

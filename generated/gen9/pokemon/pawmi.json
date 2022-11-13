@@ -1,16 +1,169 @@
 {
   "slug": "pawmi",
   "name": "Pawmi",
-  "num": null,
+  "num": 22,
   "types": [
     "electric"
   ],
-  "gen": 9,
   "abilities": {
     "0": "static",
-    "1": "naturalcure"
+    "1": "naturalcure",
+    "H": "ironfist"
   },
-  "weight": 2.5,
-  "height": 0.3,
+  "baseStats": {
+    "hp": 45,
+    "atk": 50,
+    "def": 20,
+    "spa": 40,
+    "spd": 25,
+    "spe": 60
+  },
+  "learnset": {
+    "agility": [
+      "L:40",
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bite": [
+      "L:19"
+    ],
+    "charge": [
+      "L:8"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "dig": [
+      "L:15",
+      "M"
+    ],
+    "discharge": [
+      "L:38"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "entrainment": [
+      "L:31"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "E"
+    ],
+    "fling": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "machpunch": [
+      "E"
+    ],
+    "metalclaw": [
+      "M"
+    ],
+    "nuzzle": [
+      "L:12"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:6"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "slam": [
+      "L:35"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:23"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetkiss": [
+      "E"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "thundershock": [
+      "L:3"
+    ],
+    "thunderwave": [
+      "L:27",
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "L:44",
+      "M"
+    ],
+    "wish": [
+      "E"
+    ]
+  },
   "flavorText": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws."
 }

@@ -1,0 +1,150 @@
+{
+  "slug": "rotom",
+  "name": "Rotom",
+  "num": 310,
+  "types": [
+    "electric",
+    "ghost"
+  ],
+  "abilities": {
+    "0": "levitate",
+    "H": "levitate"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 50,
+    "def": 77,
+    "spa": 95,
+    "spd": 77,
+    "spe": 91
+  },
+  "learnset": {
+    "astonish": [
+      "L:1"
+    ],
+    "charge": [
+      "L:15"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "confuseray": [
+      "L:10",
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "discharge": [
+      "L:50"
+    ],
+    "doubleteam": [
+      "L:1"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "L:20",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hex": [
+      "L:35",
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shockwave": [
+      "L:30"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "storedpower": [
+      "M"
+    ],
+    "substitute": [
+      "L:40",
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:5"
+    ],
+    "thunderwave": [
+      "L:25",
+      "M"
+    ],
+    "trick": [
+      "L:45",
+      "M"
+    ],
+    "uproar": [
+      "L:55"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  },
+  "flavorText": "Its electricity-like body can enter some kinds of machines and take control in order to make mischief."
+}

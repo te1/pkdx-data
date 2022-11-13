@@ -1,0 +1,197 @@
+{
+  "slug": "gastly",
+  "name": "Gastly",
+  "num": 68,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "abilities": {
+    "0": "levitate",
+    "H": "levitate"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 35,
+    "def": 30,
+    "spa": 100,
+    "spd": 35,
+    "spe": 80
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "astonish": [
+      "E"
+    ],
+    "clearsmog": [
+      "E"
+    ],
+    "confuseray": [
+      "L:1",
+      "M"
+    ],
+    "curse": [
+      "L:20"
+    ],
+    "darkpulse": [
+      "L:36",
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "destinybond": [
+      "L:44"
+    ],
+    "disable": [
+      "E"
+    ],
+    "dreameater": [
+      "L:48"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "haze": [
+      "E"
+    ],
+    "hex": [
+      "L:24",
+      "M"
+    ],
+    "hypnosis": [
+      "L:4"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "lick": [
+      "L:1"
+    ],
+    "meanlook": [
+      "L:8"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "nightshade": [
+      "L:28",
+      "M"
+    ],
+    "payback": [
+      "L:12"
+    ],
+    "perishsong": [
+      "E"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflecttype": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "shadowball": [
+      "L:40",
+      "M"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "smog": [
+      "E"
+    ],
+    "spite": [
+      "L:16"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:32"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "toxic": [
+      "E"
+    ],
+    "trick": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  },
+  "flavorText": "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin."
+}

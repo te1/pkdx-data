@@ -1,17 +1,175 @@
 {
   "slug": "grafaiai",
   "name": "Grafaiai",
-  "num": null,
+  "num": 203,
   "types": [
     "poison",
     "normal"
   ],
-  "gen": 9,
   "abilities": {
     "0": "unburden",
-    "1": "poisontouch"
+    "1": "poisontouch",
+    "H": "prankster"
   },
-  "weight": 27.2,
-  "height": 0.7,
+  "baseStats": {
+    "hp": 63,
+    "atk": 95,
+    "def": 65,
+    "spa": 80,
+    "spd": 72,
+    "spe": 110
+  },
+  "learnset": {
+    "acidspray": [
+      "L:5",
+      "M"
+    ],
+    "acrobatics": [
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doodle": [
+      "L:0"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flatter": [
+      "L:18"
+    ],
+    "fling": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "furyswipes": [
+      "L:8"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gunkshot": [
+      "L:51",
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "knockoff": [
+      "L:45"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "poisonfang": [
+      "L:14"
+    ],
+    "poisonjab": [
+      "L:33",
+      "M"
+    ],
+    "poisontail": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "L:21"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "substitute": [
+      "L:40",
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "switcheroo": [
+      "L:11"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "L:37",
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uturn": [
+      "L:25",
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  },
   "flavorText": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests."
 }

@@ -1,0 +1,163 @@
+{
+  "slug": "skrelp",
+  "name": "Skrelp",
+  "num": 337,
+  "types": [
+    "poison",
+    "water"
+  ],
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "poisontouch",
+    "H": "adaptability"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 60,
+    "def": 60,
+    "spa": 60,
+    "spd": 60,
+    "spe": 30
+  },
+  "learnset": {
+    "acid": [
+      "L:5"
+    ],
+    "acidarmor": [
+      "E"
+    ],
+    "acidspray": [
+      "M"
+    ],
+    "aquatail": [
+      "L:45"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "doubleteam": [
+      "L:20"
+    ],
+    "dragonpulse": [
+      "L:40",
+      "M"
+    ],
+    "dragontail": [
+      "E",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "haze": [
+      "E"
+    ],
+    "hydropump": [
+      "L:55",
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "poisontail": [
+      "L:25",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "L:50",
+      "M"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:15"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "toxic": [
+      "L:35"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "twister": [
+      "E"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:10"
+    ],
+    "waterpulse": [
+      "L:30",
+      "M"
+    ]
+  },
+  "flavorText": "Skrelp evades its enemies by hiding amid drifting seaweed. It eats rotten seaweed to create its poison."
+}

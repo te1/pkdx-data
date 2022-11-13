@@ -1,0 +1,146 @@
+{
+  "slug": "voltorb",
+  "name": "Voltorb",
+  "num": 207,
+  "types": [
+    "electric"
+  ],
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 30,
+    "def": 50,
+    "spa": 55,
+    "spd": 55,
+    "spe": 100
+  },
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "charge": [
+      "L:1"
+    ],
+    "chargebeam": [
+      "L:16",
+      "M"
+    ],
+    "discharge": [
+      "L:37"
+    ],
+    "eerieimpulse": [
+      "L:6",
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "L:22",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "L:41"
+    ],
+    "facade": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gyroball": [
+      "L:46"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "lightscreen": [
+      "L:29",
+      "M"
+    ],
+    "magnetrise": [
+      "L:34"
+    ],
+    "metalsound": [
+      "E"
+    ],
+    "mirrorcoat": [
+      "L:50"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "recycle": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "L:11"
+    ],
+    "screech": [
+      "L:13"
+    ],
+    "selfdestruct": [
+      "L:26"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:9"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "L:20",
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:4"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  },
+  "flavorText": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
+}

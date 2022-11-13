@@ -1,0 +1,155 @@
+{
+  "slug": "pichu",
+  "name": "Pichu",
+  "num": 73,
+  "types": [
+    "electric"
+  ],
+  "abilities": {
+    "0": "static",
+    "H": "lightningrod"
+  },
+  "baseStats": {
+    "hp": 20,
+    "atk": 40,
+    "def": 15,
+    "spa": 35,
+    "spd": 35,
+    "spe": 60
+  },
+  "learnset": {
+    "bodyslam": [
+      "M"
+    ],
+    "charge": [
+      "E"
+    ],
+    "charm": [
+      "L:20",
+      "M"
+    ],
+    "disarmingvoice": [
+      "E",
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "E"
+    ],
+    "flail": [
+      "E"
+    ],
+    "fling": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "nastyplot": [
+      "L:16",
+      "M"
+    ],
+    "nuzzle": [
+      "L:12"
+    ],
+    "playnice": [
+      "L:4"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "present": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "sweetkiss": [
+      "L:8"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "tickle": [
+      "E"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "wish": [
+      "E"
+    ]
+  },
+  "flavorText": "It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously."
+}

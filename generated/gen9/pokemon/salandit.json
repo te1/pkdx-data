@@ -1,0 +1,182 @@
+{
+  "slug": "salandit",
+  "name": "Salandit",
+  "num": 120,
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "abilities": {
+    "0": "corrosion",
+    "H": "oblivious"
+  },
+  "baseStats": {
+    "hp": 48,
+    "atk": 44,
+    "def": 40,
+    "spa": 71,
+    "spd": 40,
+    "spe": 77
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "belch": [
+      "E"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "dragonpulse": [
+      "L:40",
+      "M"
+    ],
+    "ember": [
+      "L:10"
+    ],
+    "endeavor": [
+      "L:55"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "E"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "flamethrower": [
+      "L:45",
+      "M"
+    ],
+    "flareblitz": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "incinerate": [
+      "L:30"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "mudslap": [
+      "E",
+      "M"
+    ],
+    "nastyplot": [
+      "L:25",
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "poisonfang": [
+      "L:15"
+    ],
+    "poisongas": [
+      "L:1"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poisontail": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sandattack": [
+      "E"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "smog": [
+      "L:5"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:20"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "toxic": [
+      "L:50"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "venoshock": [
+      "L:35",
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  },
+  "flavorText": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down."
+}

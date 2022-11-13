@@ -1,0 +1,76 @@
+{
+  "slug": "toxel",
+  "name": "Toxel",
+  "num": 198,
+  "types": [
+    "electric",
+    "poison"
+  ],
+  "abilities": {
+    "0": "rattled",
+    "1": "static",
+    "H": "klutz"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 38,
+    "def": 35,
+    "spa": 54,
+    "spd": 35,
+    "spe": 40
+  },
+  "learnset": {
+    "acid": [
+      "L:1"
+    ],
+    "belch": [
+      "L:1"
+    ],
+    "charm": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endeavor": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:1"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "metalsound": [
+      "E"
+    ],
+    "nuzzle": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tearfullook": [
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ]
+  },
+  "flavorText": "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel."
+}

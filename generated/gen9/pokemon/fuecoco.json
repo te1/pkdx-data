@@ -1,15 +1,160 @@
 {
   "slug": "fuecoco",
   "name": "Fuecoco",
-  "num": null,
+  "num": 4,
   "types": [
     "fire"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "blaze"
+    "0": "blaze",
+    "H": "unaware"
   },
-  "weight": 9.8,
-  "height": 0.4,
+  "baseStats": {
+    "hp": 67,
+    "atk": 45,
+    "def": 59,
+    "spa": 63,
+    "spd": 40,
+    "spe": 36
+  },
+  "learnset": {
+    "belch": [
+      "E"
+    ],
+    "bite": [
+      "L:12"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "curse": [
+      "E"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disarmingvoice": [
+      "M"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "encore": [
+      "E",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "L:36",
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "firepledge": [
+      "M"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "flamecharge": [
+      "M"
+    ],
+    "flamethrower": [
+      "L:28",
+      "M"
+    ],
+    "flareblitz": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hypervoice": [
+      "L:32",
+      "M"
+    ],
+    "incinerate": [
+      "L:15"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "L:25"
+    ],
+    "round": [
+      "L:7"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "slackoff": [
+      "E"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "L:21",
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ],
+    "yawn": [
+      "L:17"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  },
   "flavorText": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy."
 }

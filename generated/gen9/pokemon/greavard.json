@@ -1,15 +1,174 @@
 {
   "slug": "greavard",
   "name": "Greavard",
-  "num": null,
+  "num": 311,
   "types": [
     "ghost"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "pickup"
+    "0": "pickup",
+    "H": "fluffy"
   },
-  "weight": 35,
-  "height": 0.6,
+  "baseStats": {
+    "hp": 50,
+    "atk": 61,
+    "def": 60,
+    "spa": 30,
+    "spd": 55,
+    "spe": 34
+  },
+  "learnset": {
+    "allyswitch": [
+      "E"
+    ],
+    "bite": [
+      "L:6"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charm": [
+      "L:46",
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "crunch": [
+      "L:28",
+      "M"
+    ],
+    "destinybond": [
+      "E"
+    ],
+    "dig": [
+      "L:16",
+      "M"
+    ],
+    "disable": [
+      "E"
+    ],
+    "doubleedge": [
+      "L:52"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "headbutt": [
+      "L:12"
+    ],
+    "helpinghand": [
+      "L:37",
+      "M"
+    ],
+    "hex": [
+      "M"
+    ],
+    "howl": [
+      "E"
+    ],
+    "icefang": [
+      "M"
+    ],
+    "lick": [
+      "L:3"
+    ],
+    "memento": [
+      "E"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "phantomforce": [
+      "L:41",
+      "M"
+    ],
+    "playrough": [
+      "L:32",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychicfangs": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "L:24",
+      "M"
+    ],
+    "roar": [
+      "L:9"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shadowsneak": [
+      "E"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:6"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "trick": [
+      "M"
+    ],
+    "yawn": [
+      "E"
+    ]
+  },
   "flavorText": "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon."
 }

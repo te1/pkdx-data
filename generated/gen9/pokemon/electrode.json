@@ -1,0 +1,152 @@
+{
+  "slug": "electrode",
+  "name": "Electrode",
+  "num": 208,
+  "types": [
+    "electric"
+  ],
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 70,
+    "spa": 80,
+    "spd": 80,
+    "spe": 150
+  },
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "charge": [
+      "L:1"
+    ],
+    "chargebeam": [
+      "L:16",
+      "M"
+    ],
+    "discharge": [
+      "L:41"
+    ],
+    "eerieimpulse": [
+      "L:1",
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "L:22",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "L:47"
+    ],
+    "facade": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gyroball": [
+      "L:54"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "lightscreen": [
+      "L:29",
+      "M"
+    ],
+    "magneticflux": [
+      "L:1"
+    ],
+    "magnetrise": [
+      "L:36"
+    ],
+    "mirrorcoat": [
+      "L:58"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "L:11"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "screech": [
+      "L:13"
+    ],
+    "selfdestruct": [
+      "L:26"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:9"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "L:20",
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  },
+  "flavorText": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode."
+}

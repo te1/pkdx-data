@@ -1,15 +1,137 @@
 {
   "slug": "quaxly",
-  "name": "quaxly",
-  "num": null,
+  "name": "Quaxly",
+  "num": 7,
   "types": [
     "water"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "torrent"
+    "0": "torrent",
+    "H": "moxie"
   },
-  "weight": 6.1,
-  "height": 0.5,
+  "baseStats": {
+    "hp": 55,
+    "atk": 65,
+    "def": 45,
+    "spa": 50,
+    "spd": 45,
+    "spe": 50
+  },
+  "learnset": {
+    "acrobatics": [
+      "L:31",
+      "M"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "L:24",
+      "M"
+    ],
+    "aquacutter": [
+      "L:21"
+    ],
+    "aquajet": [
+      "L:13"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bravebird": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "detect": [
+      "E"
+    ],
+    "disarmingvoice": [
+      "M"
+    ],
+    "doublehit": [
+      "L:17"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:28"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "lastresort": [
+      "E"
+    ],
+    "liquidation": [
+      "L:35",
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "mistyterrain": [
+      "M"
+    ],
+    "pound": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rapidspin": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roost": [
+      "E"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpledge": [
+      "M"
+    ],
+    "wingattack": [
+      "L:10"
+    ],
+    "workup": [
+      "L:7"
+    ]
+  },
   "flavorText": "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime."
 }

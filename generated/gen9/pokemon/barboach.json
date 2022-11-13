@@ -1,0 +1,166 @@
+{
+  "slug": "barboach",
+  "name": "Barboach",
+  "num": 168,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "abilities": {
+    "0": "oblivious",
+    "1": "anticipation",
+    "H": "hydration"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 48,
+    "def": 43,
+    "spa": 46,
+    "spd": 41,
+    "spe": 60
+  },
+  "learnset": {
+    "amnesia": [
+      "L:18",
+      "M"
+    ],
+    "aquatail": [
+      "L:24"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "dragondance": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "L:36",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fissure": [
+      "L:48"
+    ],
+    "flail": [
+      "E"
+    ],
+    "futuresight": [
+      "L:42"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "muddywater": [
+      "L:31"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "L:1",
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "L:6",
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "L:6"
+    ],
+    "spark": [
+      "E"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "E",
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thrash": [
+      "E"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "L:12",
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  },
+  "flavorText": "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location."
+}

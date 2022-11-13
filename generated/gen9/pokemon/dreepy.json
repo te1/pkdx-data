@@ -1,0 +1,93 @@
+{
+  "slug": "dreepy",
+  "name": "Dreepy",
+  "num": 305,
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "abilities": {
+    "0": "clearbody",
+    "1": "infiltrator",
+    "H": "cursedbody"
+  },
+  "baseStats": {
+    "hp": 28,
+    "atk": 60,
+    "def": 30,
+    "spa": 40,
+    "spd": 30,
+    "spe": 82
+  },
+  "learnset": {
+    "astonish": [
+      "L:1"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "confuseray": [
+      "E",
+      "M"
+    ],
+    "curse": [
+      "E"
+    ],
+    "disable": [
+      "E"
+    ],
+    "doubleteam": [
+      "E"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragontail": [
+      "E",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "infestation": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "E"
+    ],
+    "swift": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ]
+  },
+  "flavorText": "In the evening, groups of Dreepy will fly at high speeds over the ocean and poke at Pokémon in the water for fun."
+}

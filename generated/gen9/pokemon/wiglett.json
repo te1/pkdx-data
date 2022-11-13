@@ -1,16 +1,139 @@
 {
   "slug": "wiglett",
   "name": "Wiglett",
-  "num": null,
+  "num": 288,
   "types": [
     "water"
   ],
-  "gen": 9,
   "abilities": {
     "0": "gooey",
-    "1": "rattled"
+    "1": "rattled",
+    "H": "sandveil"
   },
-  "weight": 1.8,
-  "height": 1.2,
+  "baseStats": {
+    "hp": 10,
+    "atk": 55,
+    "def": 25,
+    "spa": 35,
+    "spd": 25,
+    "spe": 95
+  },
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "aquajet": [
+      "L:12"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "dig": [
+      "L:28",
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "finalgambit": [
+      "E"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "headbutt": [
+      "L:24"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "liquidation": [
+      "L:40",
+      "M"
+    ],
+    "memento": [
+      "E"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "L:4",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "slam": [
+      "L:20"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:32"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "throatchop": [
+      "L:36"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "L:20",
+      "M"
+    ],
+    "wrap": [
+      "L:8"
+    ]
+  },
   "flavorText": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand."
 }

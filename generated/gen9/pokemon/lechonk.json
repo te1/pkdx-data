@@ -1,16 +1,148 @@
 {
   "slug": "lechonk",
   "name": "Lechonk",
-  "num": null,
+  "num": 10,
   "types": [
     "normal"
   ],
-  "gen": 9,
   "abilities": {
     "0": "aromaveil",
-    "1": "gluttony"
+    "1": "gluttony",
+    "H": "thickfat"
   },
-  "weight": 10.2,
-  "height": 0.5,
+  "baseStats": {
+    "hp": 54,
+    "atk": 45,
+    "def": 40,
+    "spa": 35,
+    "spd": 45,
+    "spe": 35
+  },
+  "learnset": {
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "covet": [
+      "L:15"
+    ],
+    "dig": [
+      "L:17",
+      "M"
+    ],
+    "disarmingvoice": [
+      "L:5",
+      "M"
+    ],
+    "doubleedge": [
+      "L:35"
+    ],
+    "echoedvoice": [
+      "L:8"
+    ],
+    "endeavor": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "headbutt": [
+      "L:21"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "mudshot": [
+      "L:12",
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spitup": [
+      "E"
+    ],
+    "stockpile": [
+      "E"
+    ],
+    "stuffcheeks": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swallow": [
+      "E"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "L:27",
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "L:32"
+    ],
+    "workup": [
+      "L:30"
+    ],
+    "yawn": [
+      "L:24"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  },
   "flavorText": "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging."
 }

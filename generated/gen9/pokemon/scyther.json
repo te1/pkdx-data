@@ -1,0 +1,174 @@
+{
+  "slug": "scyther",
+  "name": "Scyther",
+  "num": 260,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "abilities": {
+    "0": "swarm",
+    "1": "technician",
+    "H": "steadfast"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 110,
+    "def": 80,
+    "spa": 55,
+    "spd": 80,
+    "spe": 105
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "L:32",
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "L:36",
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "counter": [
+      "E"
+    ],
+    "defog": [
+      "E"
+    ],
+    "doublehit": [
+      "L:20"
+    ],
+    "doubleteam": [
+      "L:16"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "L:8",
+      "M"
+    ],
+    "feint": [
+      "E"
+    ],
+    "focusenergy": [
+      "L:28"
+    ],
+    "furycutter": [
+      "L:4"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "nightslash": [
+      "E"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "quickguard": [
+      "E"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "slash": [
+      "L:24"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "L:44",
+      "M"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "wingattack": [
+      "L:12"
+    ],
+    "xscissor": [
+      "L:40",
+      "M"
+    ]
+  },
+  "flavorText": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+}

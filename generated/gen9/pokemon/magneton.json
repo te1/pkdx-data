@@ -1,0 +1,159 @@
+{
+  "slug": "magneton",
+  "name": "Magneton",
+  "num": 210,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "abilities": {
+    "0": "magnetpull",
+    "1": "sturdy",
+    "H": "analytic"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 60,
+    "def": 95,
+    "spa": 120,
+    "spd": 70,
+    "spe": 70
+  },
+  "learnset": {
+    "chargebeam": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "discharge": [
+      "L:40"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "L:1",
+      "M"
+    ],
+    "electroball": [
+      "L:12",
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flashcannon": [
+      "L:34",
+      "M"
+    ],
+    "gyroball": [
+      "L:16"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lightscreen": [
+      "L:52",
+      "M"
+    ],
+    "lockon": [
+      "L:58"
+    ],
+    "magnetrise": [
+      "L:28"
+    ],
+    "metalsound": [
+      "L:46"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "screech": [
+      "L:24"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:20"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:1"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "L:1",
+      "M"
+    ],
+    "triattack": [
+      "L:0"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "zapcannon": [
+      "L:64"
+    ]
+  },
+  "flavorText": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close."
+}

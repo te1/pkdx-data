@@ -1,16 +1,175 @@
 {
   "slug": "ceruledge",
   "name": "Ceruledge",
-  "num": null,
+  "num": 167,
   "types": [
     "fire",
     "ghost"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "flashfire"
+    "0": "flashfire",
+    "H": "weakarmor"
   },
-  "weight": 62,
-  "height": 1.6,
+  "baseStats": {
+    "hp": 75,
+    "atk": 125,
+    "def": 80,
+    "spa": 60,
+    "spd": 100,
+    "spe": 85
+  },
+  "learnset": {
+    "allyswitch": [
+      "L:42"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "bitterblade": [
+      "L:48"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "clearsmog": [
+      "L:8"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firespin": [
+      "L:12",
+      "M"
+    ],
+    "flamecharge": [
+      "L:24",
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flareblitz": [
+      "L:62",
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hex": [
+      "M"
+    ],
+    "incinerate": [
+      "L:28"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lavaplume": [
+      "L:32"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "nightshade": [
+      "L:20",
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "phantomforce": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychocut": [
+      "L:56"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shadowclaw": [
+      "L:0",
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "storedpower": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swordsdance": [
+      "L:37",
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "willowisp": [
+      "L:16",
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  },
   "flavorText": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal."
 }

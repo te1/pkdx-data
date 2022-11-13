@@ -1,0 +1,158 @@
+{
+  "slug": "magnemite",
+  "name": "Magnemite",
+  "num": 209,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "abilities": {
+    "0": "magnetpull",
+    "1": "sturdy",
+    "H": "analytic"
+  },
+  "baseStats": {
+    "hp": 25,
+    "atk": 35,
+    "def": 70,
+    "spa": 95,
+    "spd": 55,
+    "spe": 45
+  },
+  "learnset": {
+    "chargebeam": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "discharge": [
+      "L:36"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "L:12",
+      "M"
+    ],
+    "electroweb": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "E"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flashcannon": [
+      "L:32",
+      "M"
+    ],
+    "gyroball": [
+      "L:16"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lightscreen": [
+      "L:44",
+      "M"
+    ],
+    "lockon": [
+      "L:48"
+    ],
+    "magnetrise": [
+      "L:28"
+    ],
+    "metalsound": [
+      "L:40"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "screech": [
+      "L:24"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:20"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:4"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "L:8",
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "zapcannon": [
+      "L:52"
+    ]
+  },
+  "flavorText": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float."
+}

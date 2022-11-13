@@ -1,16 +1,144 @@
 {
   "slug": "bellibolt",
   "name": "Bellibolt",
-  "num": null,
+  "num": 171,
   "types": [
     "electric"
   ],
-  "gen": 9,
   "abilities": {
     "0": "electromorphosis",
-    "1": "static"
+    "1": "static",
+    "H": "damp"
   },
-  "weight": 113,
-  "height": 1.2,
+  "baseStats": {
+    "hp": 109,
+    "atk": 64,
+    "def": 91,
+    "spa": 103,
+    "spd": 83,
+    "spe": 45
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "charge": [
+      "L:17"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "discharge": [
+      "L:32"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "L:40",
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "flail": [
+      "L:25"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "mudshot": [
+      "L:24",
+      "M"
+    ],
+    "mudslap": [
+      "L:1",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "slackoff": [
+      "L:1"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:21"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:45"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:7"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "watergun": [
+      "L:11"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "weatherball": [
+      "L:36"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "zapcannon": [
+      "L:50"
+    ]
+  },
   "flavorText": "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity."
 }

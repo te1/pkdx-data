@@ -1,0 +1,151 @@
+{
+  "slug": "mareep",
+  "name": "Mareep",
+  "num": 101,
+  "types": [
+    "electric"
+  ],
+  "abilities": {
+    "0": "static",
+    "H": "plus"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 40,
+    "def": 40,
+    "spa": 65,
+    "spd": 45,
+    "spe": 35
+  },
+  "learnset": {
+    "afteryou": [
+      "E"
+    ],
+    "agility": [
+      "E",
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "charge": [
+      "L:15"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "confuseray": [
+      "L:25",
+      "M"
+    ],
+    "cottonguard": [
+      "L:36"
+    ],
+    "cottonspore": [
+      "L:11"
+    ],
+    "dazzlinggleam": [
+      "L:39",
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "discharge": [
+      "L:32"
+    ],
+    "eerieimpulse": [
+      "E",
+      "M"
+    ],
+    "electricterrain": [
+      "E",
+      "M"
+    ],
+    "electroball": [
+      "L:22",
+      "M"
+    ],
+    "electroweb": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flatter": [
+      "E"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "lightscreen": [
+      "L:43",
+      "M"
+    ],
+    "powergem": [
+      "L:29",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "L:18",
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "L:46",
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:8"
+    ],
+    "thunderwave": [
+      "L:4",
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  },
+  "flavorText": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you."
+}

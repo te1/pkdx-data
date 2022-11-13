@@ -1,0 +1,164 @@
+{
+  "slug": "snover",
+  "name": "Snover",
+  "num": 352,
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "abilities": {
+    "0": "snowwarning",
+    "H": "soundproof"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 62,
+    "def": 50,
+    "spa": 62,
+    "spd": 60,
+    "spe": 40
+  },
+  "learnset": {
+    "avalanche": [
+      "M"
+    ],
+    "blizzard": [
+      "L:45",
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "doubleedge": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "growth": [
+      "E"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "iceshard": [
+      "L:15"
+    ],
+    "icespinner": [
+      "M"
+    ],
+    "icywind": [
+      "L:25",
+      "M"
+    ],
+    "ingrain": [
+      "L:35"
+    ],
+    "leafage": [
+      "L:5"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "E"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "mist": [
+      "L:10"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "powdersnow": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:20"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sheercold": [
+      "L:50"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stomp": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swagger": [
+      "L:30"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "weatherball": [
+      "E"
+    ],
+    "woodhammer": [
+      "L:41"
+    ]
+  },
+  "flavorText": "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring."
+}

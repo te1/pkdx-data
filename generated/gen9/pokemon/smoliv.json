@@ -1,16 +1,133 @@
 {
   "slug": "smoliv",
   "name": "Smoliv",
-  "num": null,
+  "num": 84,
   "types": [
     "grass",
     "normal"
   ],
-  "gen": 9,
   "abilities": {
-    "0": "earlybird"
+    "0": "earlybird",
+    "H": "harvest"
   },
-  "weight": 6.5,
-  "height": 0.3,
+  "baseStats": {
+    "hp": 41,
+    "atk": 35,
+    "def": 45,
+    "spa": 58,
+    "spd": 51,
+    "spe": 30
+  },
+  "learnset": {
+    "absorb": [
+      "L:5"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "L:30",
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:16"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyterrain": [
+      "L:23",
+      "M"
+    ],
+    "growth": [
+      "L:7"
+    ],
+    "helpinghand": [
+      "L:13",
+      "M"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "L:34"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "megadrain": [
+      "L:20"
+    ],
+    "memento": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:10"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "L:27",
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strengthsap": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:1"
+    ],
+    "swift": [
+      "M"
+    ],
+    "synthesis": [
+      "E"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "terrainpulse": [
+      "L:38"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "weatherball": [
+      "E"
+    ]
+  },
   "flavorText": "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch."
 }

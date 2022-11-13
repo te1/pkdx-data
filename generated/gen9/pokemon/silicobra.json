@@ -1,0 +1,137 @@
+{
+  "slug": "silicobra",
+  "name": "Silicobra",
+  "num": 270,
+  "types": [
+    "ground"
+  ],
+  "abilities": {
+    "0": "sandspit",
+    "1": "shedskin",
+    "H": "sandveil"
+  },
+  "baseStats": {
+    "hp": 52,
+    "atk": 57,
+    "def": 75,
+    "spa": 35,
+    "spd": 50,
+    "spe": 46
+  },
+  "learnset": {
+    "belch": [
+      "E"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brutalswing": [
+      "L:10"
+    ],
+    "bulldoze": [
+      "L:15",
+      "M"
+    ],
+    "coil": [
+      "L:45"
+    ],
+    "dig": [
+      "L:30",
+      "M"
+    ],
+    "dragonrush": [
+      "E"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "glare": [
+      "L:25"
+    ],
+    "headbutt": [
+      "L:20"
+    ],
+    "lastresort": [
+      "E"
+    ],
+    "minimize": [
+      "L:5"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "E",
+      "M"
+    ],
+    "poisontail": [
+      "E",
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "L:35",
+      "M"
+    ],
+    "sandtomb": [
+      "L:50"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "slam": [
+      "L:40"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "wrap": [
+      "L:1"
+    ]
+  },
+  "flavorText": "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin."
+}

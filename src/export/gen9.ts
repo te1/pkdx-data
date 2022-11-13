@@ -14,6 +14,9 @@ const fakeGen = {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let extraData: any;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let flavorTextPokemon: any;
+
 export async function exportGen9Placeholder(
   target: string,
   mergeData: MergeData
@@ -35,6 +38,12 @@ async function exportPokemon(gen: Generation, target: string) {
     extraData = await fs.readJson('./data/pokemon-gen9.json');
   }
 
+  if (!flavorTextPokemon) {
+    flavorTextPokemon = await fs.readJson(
+      './data/flavorText/gen9/sv/pokedex.json'
+    );
+  }
+
   const result = extraData;
 
   if (result.length) {
@@ -46,6 +55,8 @@ async function exportPokemon(gen: Generation, target: string) {
 
     console.log(`\twriting ${result.length} pokemon details...`);
     for (const entry of result) {
+      entry.flavorText = flavorTextPokemon[entry.slug];
+
       await exportData(
         path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
         entry

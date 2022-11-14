@@ -16,12 +16,13 @@ export async function transformPokemon() {
     path.join(pathDumps + 'pokemon.txt'),
     'utf8'
   );
-  // const dumpPokemonMisc = await fs.readFile(
-  //   path.join(pathDumps + 'pokemon-misc.txt'),
-  //   'utf8'
-  // );
+  const dumpPokemonMisc = await fs.readFile(
+    path.join(pathDumps + 'pokemon-misc.txt'),
+    'utf8'
+  );
 
-  let result = parse(dumpPokemon, dataPokedex);
+  let resultMisc = parseMisc(dumpPokemonMisc);
+  let result = parsePokemon(dumpPokemon, resultMisc, dataPokedex);
 
   result = _.orderBy(result, ['num', 'slug']);
 
@@ -33,7 +34,7 @@ export async function transformPokemon() {
   }
 }
 
-function parse(dumpPokemon, dataPokedex) {
+function parsePokemon(dumpPokemon, dataMisc, dataPokedex) {
   const result = [];
 
   let entry;
@@ -115,6 +116,8 @@ function parse(dumpPokemon, dataPokedex) {
         abilities['H'] = getSlug(abilitiesArray[2]);
       }
 
+      let entryMisc = dataMisc[slug];
+
       entry = {
         slug,
         name,
@@ -123,6 +126,9 @@ function parse(dumpPokemon, dataPokedex) {
         // gen info is missing
         abilities,
         baseStats: stats,
+        weight: entryMisc?.weight ?? undefined,
+        height: entryMisc?.height ?? undefined,
+        genderRatio: entryMisc?.genderRatio ?? undefined,
         learnset: {},
       };
 
@@ -192,6 +198,99 @@ function parse(dumpPokemon, dataPokedex) {
 
   if (entry) {
     result.push(entry);
+  }
+
+  return result;
+}
+
+function parseMisc(dumpPokemonMisc) {
+  const result = {};
+
+  let entry;
+  let slug = null;
+  let skip = false;
+
+  for (const line of dumpPokemonMisc.split('\n')) {
+    if (line.startsWith('//')) {
+      continue; // skip comments
+    } else if (line === '') {
+      continue; // skip empty lines
+    }
+
+    if (line.endsWith(':')) {
+      // add last entry to result before creating a new entry
+      if (entry) {
+        result[slug] = entry;
+        slug = null;
+      }
+
+      let name = line.split(':')[0];
+
+      // skip variants for now (end in -1 or other numbers)
+      skip = !!name.match(/-[0-9]{1,2}$/);
+      if (skip) {
+        continue;
+      }
+
+      slug = getSlug(name);
+
+      entry = {};
+
+      continue;
+    }
+
+    if (skip) {
+      continue;
+    }
+
+    let lineData = line.split(': ');
+    let key = lineData[0].trim();
+    let value = lineData[1];
+
+    switch (key) {
+      case 'Height':
+        entry.height = parseInt(value) / 10;
+        break;
+
+      case 'Weight':
+        entry.weight = parseInt(value) / 10;
+        break;
+
+      case 'Catch Rate':
+      case 'Base Friendship':
+      case 'EV Yield':
+        // ignore for now
+        break;
+
+      case 'Gender Ratio':
+        var m, f;
+        m = null;
+        f = null;
+
+        var values = value.split(', ');
+
+        for (const value of values) {
+          if (value.endsWith('Female')) {
+            f = parseInt(value.split('% ')[0]) / 100;
+          } else if (value.endsWith('Male')) {
+            m = parseInt(value.split('% ')[0]) / 100;
+          }
+        }
+
+        entry.genderRatio = {
+          M: m ?? undefined,
+          F: f ?? undefined,
+        };
+        break;
+
+      default:
+        console.warn('unknown line', line);
+        break;
+    }
+  }
+
+  if (entry) {
+    result[slug] = entry;
   }
 
   return result;

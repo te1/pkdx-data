@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
 import _ from 'lodash';
+import { getSlug } from './utils.mjs';
 
 export async function transformPokemon() {
   console.log('- pokemon');
@@ -196,6 +197,7 @@ function parsePokemon(dumpPokemon, dataMisc, dataPokedex) {
     }
   }
 
+  // add last entry to result
   if (entry) {
     result.push(entry);
   }
@@ -294,10 +296,4 @@ function parseMisc(dumpPokemonMisc) {
   }
 
   return result;
-}
-
-function getSlug(name) {
-  return _.deburr(name)
-    .replaceAll(/[^a-zA-Z0-9]/g, '')
-    .toLowerCase();
 }

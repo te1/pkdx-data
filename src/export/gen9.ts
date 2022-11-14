@@ -35,7 +35,7 @@ async function exportPokemon(gen: Generation, target: string) {
 
   if (!extraData) {
     console.log('\tloading data...');
-    extraData = await fs.readJson('./data/pokemon-gen9.json');
+    extraData = await fs.readJson('./data/dumps/gen9/sv/pokemon.json');
   }
 
   if (!flavorTextPokemon) {

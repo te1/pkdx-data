@@ -134,6 +134,9 @@ function parseData(dumpMoveData, resultNames, resultDescriptions) {
       entry = {
         name,
         slug,
+        // gen info is missing
+        // target info is missing
+        // desc and shortDesc from showdown are missing
         flavorText: resultDescriptions[resultNames[name]],
       };
 

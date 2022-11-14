@@ -1,7 +1,7 @@
 import * as path from 'path';
 import * as fs from 'fs-extra';
 import { Generation } from '@pkmn/data';
-import { exportData } from '../utils';
+import { exportData, PokemonMap } from '../utils';
 import { MergeData } from '../merge';
 import { getSpeciesIndexData } from './pokemon';
 import { getMovesIndexData } from './moves';
@@ -18,15 +18,21 @@ export async function exportGen9Placeholder(
 ) {
   console.log(`*** gen 9 (placeholder data) ***`);
 
-  await exportPokemon(fakeGen, target);
-  await exportMoves(fakeGen, target /* , speciesMap, moveMap */);
+  const moveMap: PokemonMap = new Map(); // remember pokemon that can learn a move
+
+  await exportPokemon(fakeGen, target, moveMap);
+  await exportMoves(fakeGen, target, moveMap);
   await exportGames(fakeGen, target, mergeData);
   await exportPokedex(fakeGen, target, mergeData);
 
   console.log('');
 }
 
-async function exportPokemon(gen: Generation, target: string) {
+async function exportPokemon(
+  gen: Generation,
+  target: string,
+  moveMap: PokemonMap
+) {
   console.log('- pokemon');
 
   console.log('\tloading data...');
@@ -46,6 +52,17 @@ async function exportPokemon(gen: Generation, target: string) {
 
     console.log(`\twriting ${result.length} pokemon details...`);
     for (const entry of result) {
+      // remember available moves per pokemon for later use
+      if (entry.learnset) {
+        for (const moveSlug of Object.keys(entry.learnset)) {
+          const pokemon = moveMap.get(moveSlug) ?? new Set<string>();
+
+          pokemon.add(entry.slug);
+
+          moveMap.set(moveSlug, pokemon);
+        }
+      }
+
       entry.flavorText = flavorTextPokemon[entry.slug];
 
       await exportData(
@@ -56,7 +73,11 @@ async function exportPokemon(gen: Generation, target: string) {
   }
 }
 
-async function exportMoves(gen: Generation, target: string) {
+async function exportMoves(
+  gen: Generation,
+  target: string,
+  moveMap: PokemonMap
+) {
   console.log('- moves');
 
   console.log('\tloading data...');
@@ -73,6 +94,8 @@ async function exportMoves(gen: Generation, target: string) {
 
     console.log(`\twriting ${result.length} moves details...`);
     for (const entry of result) {
+      entry.pokemon = moveMap.get(entry.slug);
+
       await exportData(
         path.join(target, `gen${gen.num}`, 'moves', entry.slug + '.json'),
         entry

@@ -22,7 +22,6 @@ export async function transformAbilities() {
   let resultNames = parseNames(dumpAbilityNames);
   let resultDescriptions = parseDescriptions(dumpAbilityDescriptions);
   let result = buildData(resultNames, resultDescriptions);
-  console.log(result);
 
   result = _.sortBy(result, 'slug');
 

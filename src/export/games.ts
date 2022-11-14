@@ -7,11 +7,7 @@ import { MergeData } from '../merge';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export let extraData: any;
 
-export async function exportGames(
-  gen: Generation,
-  target: string,
-  mergeData: MergeData
-) {
+export async function exportGames(gen: Generation, mergeData: MergeData) {
   console.log('- games');
 
   if (!extraData) {
@@ -33,6 +29,6 @@ export async function exportGames(
 
   if (result.length) {
     console.log(`\twriting ${result.length} games...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'games.json'), result);
+    await exportData(path.join(`gen${gen.num}`, 'games.json'), result);
   }
 }

@@ -12,7 +12,6 @@ let dexes: any;
 
 export async function exportPokedex(
   gen: Generation,
-  target: string,
   mergeData: MergeData,
   speciesMap?: SpeciesMap
 ) {
@@ -81,7 +80,7 @@ export async function exportPokedex(
 
     for (const [dexSlug, dexData] of result) {
       await exportData(
-        path.join(target, `gen${gen.num}`, 'pokedex', dexSlug + '.json'),
+        path.join(`gen${gen.num}`, 'pokedex', dexSlug + '.json'),
         dexData
       );
     }

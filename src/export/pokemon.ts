@@ -49,7 +49,6 @@ export async function exportPokemon(
   simGen: Generation,
   modGen: Generation | undefined,
   simModGen: Generation | undefined,
-  target: string,
   speciesMap: SpeciesMap,
   moveMap: PokemonMap,
   abilityMap: PokemonMap
@@ -363,14 +362,14 @@ export async function exportPokemon(
   if (result.length) {
     console.log(`\twriting ${result.length} pokemon...`);
     await exportData(
-      path.join(target, `gen${gen.num}`, 'pokemon.json'),
+      path.join(`gen${gen.num}`, 'pokemon.json'),
       getSpeciesIndexData(result)
     );
 
     console.log(`\twriting ${result.length} pokemon details...`);
     for (const entry of result) {
       await exportData(
-        path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
+        path.join(`gen${gen.num}`, 'pokemon', entry.slug + '.json'),
         entry
       );
     }

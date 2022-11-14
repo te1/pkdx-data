@@ -4,11 +4,7 @@ import { Generation } from '@pkmn/data';
 import { exportData } from '../utils';
 import { MergeData } from '../merge';
 
-export async function exportNatures(
-  gen: Generation,
-  target: string,
-  mergeData: MergeData
-) {
+export async function exportNatures(gen: Generation, mergeData: MergeData) {
   console.log('- natures');
 
   let result = [];
@@ -30,9 +26,6 @@ export async function exportNatures(
 
   if (result.length) {
     console.log(`\twriting ${result.length} natures...`);
-    await exportData(
-      path.join(target, `gen${gen.num}`, 'natures.json'),
-      result
-    );
+    await exportData(path.join(`gen${gen.num}`, 'natures.json'), result);
   }
 }

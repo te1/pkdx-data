@@ -6,7 +6,6 @@ import { MergeData } from '../merge';
 
 export async function exportAbilities(
   gen: Generation,
-  target: string,
   mergeData: MergeData,
   abilityMap: PokemonMap
 ) {
@@ -41,14 +40,14 @@ export async function exportAbilities(
   if (result.length) {
     console.log(`\twriting ${result.length} abilities...`);
     await exportData(
-      path.join(target, `gen${gen.num}`, 'abilities.json'),
+      path.join(`gen${gen.num}`, 'abilities.json'),
       getAbilitiesIndexData(result)
     );
 
     console.log(`\twriting ${result.length} ability details...`);
     for (const entry of result) {
       await exportData(
-        path.join(target, `gen${gen.num}`, 'abilities', entry.slug + '.json'),
+        path.join(`gen${gen.num}`, 'abilities', entry.slug + '.json'),
         entry
       );
     }

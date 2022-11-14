@@ -1,3 +1,4 @@
+import * as path from 'path';
 import * as fs from 'fs-extra';
 import { MoveCategory, TypeName } from '@pkmn/dex';
 
@@ -5,7 +6,8 @@ import { MoveCategory, TypeName } from '@pkmn/dex';
 export type PokemonMap = Map<string, Set<string>>;
 
 export const config = {
-  prettyPrintJson: true,
+  targetDirPretty: './generated',
+  targetDirMin: './generated.min',
 };
 
 function jsonReplacer(_key: string, value: unknown) {
@@ -21,8 +23,13 @@ function jsonReplacer(_key: string, value: unknown) {
 }
 
 export async function exportData(file: string, data: object) {
-  return await fs.outputJson(file, data, {
-    spaces: config.prettyPrintJson ? 2 : 0,
+  await fs.outputJson(path.join(config.targetDirPretty, file), data, {
+    spaces: 2,
+    replacer: jsonReplacer,
+  });
+
+  await fs.outputJson(path.join(config.targetDirMin, file), data, {
+    spaces: 0,
     replacer: jsonReplacer,
   });
 }

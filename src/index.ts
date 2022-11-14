@@ -1,5 +1,5 @@
 import * as fs from 'fs-extra';
-import { PokemonMap } from './utils';
+import { config, PokemonMap } from './utils';
 import { getShowdownData } from './showdown';
 import { exportMergedData, MergeData } from './merge';
 import { exportTypes } from './export/types';
@@ -12,14 +12,13 @@ import { exportGames } from './export/games';
 import { exportPokedex } from './export/pokedex';
 import { exportGen9Placeholder } from './export/gen9';
 
-const target = './generated/';
-
 async function main() {
   try {
     const showdownData = await getShowdownData();
     const mergeData = new MergeData();
 
-    await fs.emptyDir(target);
+    await fs.emptyDir(config.targetDirPretty);
+    await fs.emptyDir(config.targetDirMin);
 
     for (const genData of showdownData) {
       const speciesMap = new SpeciesMap(); // conversion between showdown name/id and slug
@@ -28,23 +27,22 @@ async function main() {
 
       console.log(`*** gen ${genData.genNum} ***`);
 
-      await exportTypes(genData.gen, target, mergeData);
-      await exportNatures(genData.gen, target, mergeData);
-      await exportItems(genData.gen, target);
+      await exportTypes(genData.gen, mergeData);
+      await exportNatures(genData.gen, mergeData);
+      await exportItems(genData.gen);
       await exportPokemon(
         genData.gen,
         genData.simGen,
         genData.genBdsp,
         genData.simGenBdsp,
-        target,
         speciesMap,
         moveMap,
         abilityMap
       );
-      await exportMoves(genData.gen, target, speciesMap, moveMap);
-      await exportAbilities(genData.gen, target, mergeData, abilityMap);
-      await exportGames(genData.gen, target, mergeData);
-      await exportPokedex(genData.gen, target, mergeData, speciesMap);
+      await exportMoves(genData.gen, speciesMap, moveMap);
+      await exportAbilities(genData.gen, mergeData, abilityMap);
+      await exportGames(genData.gen, mergeData);
+      await exportPokedex(genData.gen, mergeData, speciesMap);
 
       // TODO pokedex usum, la
       // TODO export HM/TM/TR
@@ -53,8 +51,8 @@ async function main() {
       console.log('');
     }
 
-    await exportGen9Placeholder(target, mergeData);
-    await exportMergedData(target, mergeData);
+    await exportGen9Placeholder(mergeData);
+    await exportMergedData(mergeData);
 
     console.log('done');
   } catch (err) {

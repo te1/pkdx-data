@@ -69,7 +69,7 @@ export class MergeData {
   }
 }
 
-export async function exportMergedData(target: string, mergeData: MergeData) {
+export async function exportMergedData(mergeData: MergeData) {
   console.log('*** merged ***');
 
   console.log('- types');
@@ -77,19 +77,13 @@ export async function exportMergedData(target: string, mergeData: MergeData) {
     console.log(
       `\twriting ${mergeData.types.typeSets.length} type sets and ${mergeData.types.categories?.length} categories...`
     );
-    await exportData(
-      path.join(target, 'merged', 'types.json'),
-      mergeData.types
-    );
+    await exportData(path.join('merged', 'types.json'), mergeData.types);
   }
 
   console.log('- natures');
   if (mergeData.natures?.length) {
     console.log(`\twriting ${mergeData.natures.length} natures...`);
-    await exportData(
-      path.join(target, 'merged', 'natures.json'),
-      mergeData.natures
-    );
+    await exportData(path.join('merged', 'natures.json'), mergeData.natures);
   }
 
   console.log('- abilities');
@@ -98,7 +92,7 @@ export async function exportMergedData(target: string, mergeData: MergeData) {
 
     console.log(`\twriting ${mergeData.abilities.length} abilities...`);
     await exportData(
-      path.join(target, 'merged', 'abilities.json'),
+      path.join('merged', 'abilities.json'),
       getAbilitiesIndexData(mergeData.abilities)
     );
   }
@@ -106,10 +100,7 @@ export async function exportMergedData(target: string, mergeData: MergeData) {
   console.log('- games');
   if (mergeData.games?.length) {
     console.log(`\twriting ${mergeData.games.length} games...`);
-    await exportData(
-      path.join(target, 'merged', 'games.json'),
-      mergeData.games
-    );
+    await exportData(path.join('merged', 'games.json'), mergeData.games);
   }
 
   console.log('- pokedex');
@@ -118,7 +109,7 @@ export async function exportMergedData(target: string, mergeData: MergeData) {
 
     for (const entry of mergeData.pokedex) {
       await exportData(
-        path.join(target, 'merged', 'pokedex', entry.slug + '.json'),
+        path.join('merged', 'pokedex', entry.slug + '.json'),
         entry
       );
     }

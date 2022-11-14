@@ -12,27 +12,23 @@ const fakeGen = {
   num: 9,
 } as unknown as Generation;
 
-export async function exportGen9Placeholder(
-  target: string,
-  mergeData: MergeData
-) {
+export async function exportGen9Placeholder(mergeData: MergeData) {
   console.log(`*** gen 9 (placeholder data) ***`);
 
   const moveMap: PokemonMap = new Map(); // remember pokemon that can learn a move
   const abilityMap: PokemonMap = new Map(); // remember pokemon that can have an ability
 
-  await exportPokemon(fakeGen, target, moveMap, abilityMap);
-  await exportMoves(fakeGen, target, moveMap);
-  await exportAbilities(fakeGen, target, abilityMap);
-  await exportGames(fakeGen, target, mergeData);
-  await exportPokedex(fakeGen, target, mergeData);
+  await exportPokemon(fakeGen, moveMap, abilityMap);
+  await exportMoves(fakeGen, moveMap);
+  await exportAbilities(fakeGen, abilityMap);
+  await exportGames(fakeGen, mergeData);
+  await exportPokedex(fakeGen, mergeData);
 
   console.log('');
 }
 
 async function exportPokemon(
   gen: Generation,
-  target: string,
   moveMap: PokemonMap,
   abilityMap: PokemonMap
 ) {
@@ -49,7 +45,7 @@ async function exportPokemon(
   if (result.length) {
     console.log(`\twriting ${result.length} pokemon...`);
     await exportData(
-      path.join(target, `gen${gen.num}`, 'pokemon.json'),
+      path.join(`gen${gen.num}`, 'pokemon.json'),
       getSpeciesIndexData(result)
     );
 
@@ -79,18 +75,14 @@ async function exportPokemon(
       entry.flavorText = flavorTextPokemon[entry.slug];
 
       await exportData(
-        path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
+        path.join(`gen${gen.num}`, 'pokemon', entry.slug + '.json'),
         entry
       );
     }
   }
 }
 
-async function exportMoves(
-  gen: Generation,
-  target: string,
-  moveMap: PokemonMap
-) {
+async function exportMoves(gen: Generation, moveMap: PokemonMap) {
   console.log('- moves');
 
   console.log('\tloading data...');
@@ -101,7 +93,7 @@ async function exportMoves(
   if (result.length) {
     console.log(`\twriting ${result.length} moves...`);
     await exportData(
-      path.join(target, `gen${gen.num}`, 'moves.json'),
+      path.join(`gen${gen.num}`, 'moves.json'),
       getMovesIndexData(result)
     );
 
@@ -110,18 +102,14 @@ async function exportMoves(
       entry.pokemon = moveMap.get(entry.slug);
 
       await exportData(
-        path.join(target, `gen${gen.num}`, 'moves', entry.slug + '.json'),
+        path.join(`gen${gen.num}`, 'moves', entry.slug + '.json'),
         entry
       );
     }
   }
 }
 
-async function exportAbilities(
-  gen: Generation,
-  target: string,
-  abilityMap: PokemonMap
-) {
+async function exportAbilities(gen: Generation, abilityMap: PokemonMap) {
   console.log('- abilities');
 
   console.log('\tloading data...');
@@ -132,7 +120,7 @@ async function exportAbilities(
   if (result.length) {
     console.log(`\twriting ${result.length} abilities...`);
     await exportData(
-      path.join(target, `gen${gen.num}`, 'abilities.json'),
+      path.join(`gen${gen.num}`, 'abilities.json'),
       getMovesIndexData(result)
     );
 
@@ -141,7 +129,7 @@ async function exportAbilities(
       entry.pokemon = abilityMap.get(entry.slug);
 
       await exportData(
-        path.join(target, `gen${gen.num}`, 'abilities', entry.slug + '.json'),
+        path.join(`gen${gen.num}`, 'abilities', entry.slug + '.json'),
         entry
       );
     }

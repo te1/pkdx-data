@@ -15,7 +15,6 @@ let extraData: any;
 
 export async function exportMoves(
   gen: Generation,
-  target: string,
   speciesMap: SpeciesMap,
   moveMap: PokemonMap
 ) {
@@ -137,14 +136,14 @@ export async function exportMoves(
   if (result.length) {
     console.log(`\twriting ${result.length} moves...`);
     await exportData(
-      path.join(target, `gen${gen.num}`, 'moves.json'),
+      path.join(`gen${gen.num}`, 'moves.json'),
       getMovesIndexData(result)
     );
 
     console.log(`\twriting ${result.length} move details...`);
     for (const entry of result) {
       await exportData(
-        path.join(target, `gen${gen.num}`, 'moves', entry.slug + '.json'),
+        path.join(`gen${gen.num}`, 'moves', entry.slug + '.json'),
         entry
       );
     }

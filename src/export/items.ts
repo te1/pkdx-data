@@ -4,7 +4,7 @@ import _ from 'lodash';
 import { Generation } from '@pkmn/data';
 import { exportData } from '../utils';
 
-export async function exportItems(gen: Generation, target: string) {
+export async function exportItems(gen: Generation) {
   console.log('- items');
 
   let result = [];
@@ -26,6 +26,6 @@ export async function exportItems(gen: Generation, target: string) {
 
   if (result.length) {
     console.log(`\twriting ${result.length} items...`);
-    await exportData(path.join(target, `gen${gen.num}`, 'items.json'), result);
+    await exportData(path.join(`gen${gen.num}`, 'items.json'), result);
   }
 }

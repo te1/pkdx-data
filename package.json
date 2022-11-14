@@ -9,7 +9,8 @@
     "watch": "nodemon",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "prettier": "prettier ./src --write"
+    "prettier": "prettier ./src --write",
+    "transform": "node src/transform/gen9/sv/index.mjs"
   },
   "dependencies": {
     "@pkmn/data": "^0.6.3",

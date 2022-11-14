@@ -198,5 +198,7 @@ function parse(dumpPokemon, dataPokedex) {
 }
 
 function getSlug(name) {
-  return name.replaceAll(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  return _.deburr(name)
+    .replaceAll(/[^a-zA-Z0-9]/g, '')
+    .toLowerCase();
 }

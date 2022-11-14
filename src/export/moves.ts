@@ -151,7 +151,7 @@ export async function exportMoves(
   }
 }
 
-function getMovesIndexData(result: object) {
+export function getMovesIndexData(result: object) {
   return _.map(result, (entry) =>
     _.pick(entry, [
       'slug',

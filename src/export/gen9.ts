@@ -4,18 +4,13 @@ import { Generation } from '@pkmn/data';
 import { exportData } from '../utils';
 import { MergeData } from '../merge';
 import { getSpeciesIndexData } from './pokemon';
+import { getMovesIndexData } from './moves';
 import { exportGames } from './games';
 import { exportPokedex } from './pokedex';
 
 const fakeGen = {
   num: 9,
 } as unknown as Generation;
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let extraData: any;
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let flavorTextPokemon: any;
 
 export async function exportGen9Placeholder(
   target: string,
@@ -24,6 +19,7 @@ export async function exportGen9Placeholder(
   console.log(`*** gen 9 (placeholder data) ***`);
 
   await exportPokemon(fakeGen, target);
+  await exportMoves(fakeGen, target /* , speciesMap, moveMap */);
   await exportGames(fakeGen, target, mergeData);
   await exportPokedex(fakeGen, target, mergeData);
 
@@ -33,16 +29,11 @@ export async function exportGen9Placeholder(
 async function exportPokemon(gen: Generation, target: string) {
   console.log('- pokemon');
 
-  if (!extraData) {
-    console.log('\tloading data...');
-    extraData = await fs.readJson('./data/dumps/gen9/sv/pokemon.json');
-  }
-
-  if (!flavorTextPokemon) {
-    flavorTextPokemon = await fs.readJson(
-      './data/flavorText/gen9/sv/pokedex.json'
-    );
-  }
+  console.log('\tloading data...');
+  const extraData = await fs.readJson('./data/dumps/gen9/sv/pokemon.json');
+  const flavorTextPokemon = await fs.readJson(
+    './data/flavorText/gen9/sv/pokedex.json'
+  );
 
   const result = extraData;
 
@@ -59,6 +50,31 @@ async function exportPokemon(gen: Generation, target: string) {
 
       await exportData(
         path.join(target, `gen${gen.num}`, 'pokemon', entry.slug + '.json'),
+        entry
+      );
+    }
+  }
+}
+
+async function exportMoves(gen: Generation, target: string) {
+  console.log('- moves');
+
+  console.log('\tloading data...');
+  const extraData = await fs.readJson('./data/dumps/gen9/sv/moves.json');
+
+  const result = extraData;
+
+  if (result.length) {
+    console.log(`\twriting ${result.length} moves...`);
+    await exportData(
+      path.join(target, `gen${gen.num}`, 'moves.json'),
+      getMovesIndexData(result)
+    );
+
+    console.log(`\twriting ${result.length} moves details...`);
+    for (const entry of result) {
+      await exportData(
+        path.join(target, `gen${gen.num}`, 'moves', entry.slug + '.json'),
         entry
       );
     }

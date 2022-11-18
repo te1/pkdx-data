@@ -10,6 +10,7 @@ import { exportMoves } from './export/moves';
 import { exportAbilities } from './export/abilities';
 import { exportGames } from './export/games';
 import { exportPokedex } from './export/pokedex';
+import { exportMachines } from './export/machines';
 import { exportGen9Placeholder } from './export/gen9';
 
 async function main() {
@@ -44,8 +45,9 @@ async function main() {
       await exportGames(genData.gen, mergeData);
       await exportPokedex(genData.gen, mergeData, speciesMap);
 
+      await exportMachines(genData.gen);
+
       // TODO pokedex usum, la
-      // TODO export HM/TM/TR
       // TODO maybe handle gen8 la (remaining learnsets, moves)
 
       console.log('');

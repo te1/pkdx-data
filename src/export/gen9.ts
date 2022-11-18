@@ -7,6 +7,7 @@ import { getSpeciesIndexData } from './pokemon';
 import { getMovesIndexData } from './moves';
 import { exportGames } from './games';
 import { exportPokedex } from './pokedex';
+import { exportMachines } from './machines';
 
 const fakeGen = {
   num: 9,
@@ -23,6 +24,8 @@ export async function exportGen9Placeholder(mergeData: MergeData) {
   await exportAbilities(fakeGen, abilityMap);
   await exportGames(fakeGen, mergeData);
   await exportPokedex(fakeGen, mergeData);
+
+  await exportMachines(fakeGen);
 
   console.log('');
 }

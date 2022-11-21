@@ -9,18 +9,18 @@
   "target": "normal",
   "priority": 0,
   "pokemon": [
-    "oddish",
-    "gloom",
-    "vileplume",
-    "bellsprout",
-    "weepinbell",
-    "victreebel",
     "bellossom",
+    "bellsprout",
+    "gloom",
     "hoppip",
-    "skiploom",
     "jumpluff",
     "morelull",
-    "shiinotic"
+    "oddish",
+    "shiinotic",
+    "skiploom",
+    "victreebel",
+    "vileplume",
+    "weepinbell"
   ],
   "desc": "Lowers the target's Attack by 1 stage. The user restores its HP equal to the target's Attack stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack stat stage is -6.",
   "shortDesc": "User heals HP=target's Atk stat. Lowers Atk by 1."

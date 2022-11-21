@@ -14,11 +14,13 @@ export async function exportAbilities(
   let result = [];
 
   for (const ability of gen.abilities) {
+    const pokemon = [...(abilityMap.get(ability.id) ?? [])].sort();
+
     const entry = {
       slug: ability.id,
       name: ability.name,
       gen: ability.gen,
-      pokemon: [...(abilityMap.get(ability.id) ?? [])].sort(),
+      pokemon: pokemon?.length ? pokemon : undefined,
       desc: ability.desc,
       shortDesc: ability.shortDesc,
 

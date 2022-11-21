@@ -79,6 +79,8 @@ export async function exportMoves(
       pp = undefined;
     }
 
+    const pokemon = [...(moveMap.get(move.id) ?? [])].sort();
+
     const entry = {
       slug: move.id,
       name: move.name,
@@ -115,7 +117,7 @@ export async function exportMoves(
       // maxMove: hasMaxMoves ? move.maxMove || undefined : undefined,
 
       // isNonstandard: move.isNonstandard || undefined,
-      pokemon: [...(moveMap.get(move.id) ?? [])].sort(),
+      pokemon: pokemon?.length ? pokemon : undefined,
       exclusive: exclusivePokemon || undefined,
       desc: move.desc,
       shortDesc: move.shortDesc,

@@ -2,6 +2,7 @@
   {
     "slug": "absorb",
     "name": "Absorb",
+    "gen": 1,
     "type": "grass",
     "category": "special",
     "basePower": 20,
@@ -10,6 +11,7 @@
   {
     "slug": "accelerock",
     "name": "Accelerock",
+    "gen": 7,
     "type": "rock",
     "category": "physical",
     "basePower": 40,
@@ -18,6 +20,7 @@
   {
     "slug": "acid",
     "name": "Acid",
+    "gen": 1,
     "type": "poison",
     "category": "special",
     "basePower": 40,
@@ -26,12 +29,14 @@
   {
     "slug": "acidarmor",
     "name": "Acid Armor",
+    "gen": 1,
     "type": "poison",
     "category": "status"
   },
   {
     "slug": "acidspray",
     "name": "Acid Spray",
+    "gen": 5,
     "type": "poison",
     "category": "special",
     "basePower": 40,
@@ -40,6 +45,7 @@
   {
     "slug": "acrobatics",
     "name": "Acrobatics",
+    "gen": 5,
     "type": "flying",
     "category": "physical",
     "basePower": 55,
@@ -48,32 +54,36 @@
   {
     "slug": "acupressure",
     "name": "Acupressure",
+    "gen": 4,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "aerialace",
     "name": "Aerial Ace",
+    "gen": 3,
     "type": "flying",
     "category": "physical",
-    "basePower": 60,
-    "accuracy": 101
+    "basePower": 60
   },
   {
     "slug": "afteryou",
     "name": "After You",
+    "gen": 5,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "agility",
     "name": "Agility",
+    "gen": 1,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "aircutter",
     "name": "Air Cutter",
+    "gen": 3,
     "type": "flying",
     "category": "special",
     "basePower": 60,
@@ -82,6 +92,7 @@
   {
     "slug": "airslash",
     "name": "Air Slash",
+    "gen": 4,
     "type": "flying",
     "category": "special",
     "basePower": 75,
@@ -90,18 +101,21 @@
   {
     "slug": "allyswitch",
     "name": "Ally Switch",
+    "gen": 5,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "amnesia",
     "name": "Amnesia",
+    "gen": 1,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "ancientpower",
     "name": "Ancient Power",
+    "gen": 2,
     "type": "rock",
     "category": "special",
     "basePower": 60,
@@ -110,6 +124,7 @@
   {
     "slug": "appleacid",
     "name": "Apple Acid",
+    "gen": 8,
     "type": "grass",
     "category": "special",
     "basePower": 80,
@@ -118,6 +133,7 @@
   {
     "slug": "aquacutter",
     "name": "Aqua Cutter",
+    "gen": 9,
     "type": "water",
     "category": "physical",
     "basePower": 70,
@@ -126,6 +142,7 @@
   {
     "slug": "aquajet",
     "name": "Aqua Jet",
+    "gen": 4,
     "type": "water",
     "category": "physical",
     "basePower": 40,
@@ -134,12 +151,14 @@
   {
     "slug": "aquaring",
     "name": "Aqua Ring",
+    "gen": 4,
     "type": "water",
     "category": "status"
   },
   {
     "slug": "aquastep",
     "name": "Aqua Step",
+    "gen": 9,
     "type": "water",
     "category": "physical",
     "basePower": 80,
@@ -148,6 +167,7 @@
   {
     "slug": "aquatail",
     "name": "Aqua Tail",
+    "gen": 4,
     "type": "water",
     "category": "physical",
     "basePower": 90,
@@ -156,6 +176,7 @@
   {
     "slug": "armorcannon",
     "name": "Armor Cannon",
+    "gen": 9,
     "type": "fire",
     "category": "special",
     "basePower": 120,
@@ -164,6 +185,7 @@
   {
     "slug": "armthrust",
     "name": "Arm Thrust",
+    "gen": 3,
     "type": "fighting",
     "category": "physical",
     "basePower": 15,
@@ -172,12 +194,14 @@
   {
     "slug": "aromaticmist",
     "name": "Aromatic Mist",
+    "gen": 6,
     "type": "fairy",
     "category": "status"
   },
   {
     "slug": "assurance",
     "name": "Assurance",
+    "gen": 4,
     "type": "dark",
     "category": "physical",
     "basePower": 60,
@@ -186,6 +210,7 @@
   {
     "slug": "astonish",
     "name": "Astonish",
+    "gen": 3,
     "type": "ghost",
     "category": "physical",
     "basePower": 30,
@@ -194,6 +219,7 @@
   {
     "slug": "astralbarrage",
     "name": "Astral Barrage",
+    "gen": 8,
     "type": "ghost",
     "category": "special",
     "basePower": 120,
@@ -202,6 +228,7 @@
   {
     "slug": "attackorder",
     "name": "Attack Order",
+    "gen": 4,
     "type": "bug",
     "category": "physical",
     "basePower": 90,
@@ -210,20 +237,23 @@
   {
     "slug": "attract",
     "name": "Attract",
+    "gen": 2,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "aurasphere",
     "name": "Aura Sphere",
+    "gen": 4,
     "type": "fighting",
     "category": "special",
-    "basePower": 80,
-    "accuracy": 101
+    "basePower": 80
   },
   {
     "slug": "aurorabeam",
     "name": "Aurora Beam",
+    "gen": 1,
     "type": "ice",
     "category": "special",
     "basePower": 65,
@@ -232,12 +262,14 @@
   {
     "slug": "auroraveil",
     "name": "Aurora Veil",
+    "gen": 7,
     "type": "ice",
     "category": "status"
   },
   {
     "slug": "avalanche",
     "name": "Avalanche",
+    "gen": 4,
     "type": "ice",
     "category": "physical",
     "basePower": 60,
@@ -246,6 +278,7 @@
   {
     "slug": "axekick",
     "name": "Axe Kick",
+    "gen": 9,
     "type": "fighting",
     "category": "physical",
     "basePower": 120,
@@ -254,18 +287,22 @@
   {
     "slug": "babydolleyes",
     "name": "Baby-Doll Eyes",
+    "gen": 6,
     "type": "fairy",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "banefulbunker",
     "name": "Baneful Bunker",
+    "gen": 7,
     "type": "poison",
     "category": "status"
   },
   {
     "slug": "barbbarrage",
     "name": "Barb Barrage",
+    "gen": 9,
     "type": "poison",
     "category": "physical",
     "basePower": 60,
@@ -274,20 +311,23 @@
   {
     "slug": "batonpass",
     "name": "Baton Pass",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "beatup",
     "name": "Beat Up",
+    "gen": 2,
     "type": "dark",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "behemothbash",
     "name": "Behemoth Bash",
+    "gen": 8,
     "type": "steel",
     "category": "physical",
     "basePower": 100,
@@ -296,6 +336,7 @@
   {
     "slug": "behemothblade",
     "name": "Behemoth Blade",
+    "gen": 8,
     "type": "steel",
     "category": "physical",
     "basePower": 100,
@@ -304,6 +345,7 @@
   {
     "slug": "belch",
     "name": "Belch",
+    "gen": 6,
     "type": "poison",
     "category": "special",
     "basePower": 120,
@@ -312,12 +354,14 @@
   {
     "slug": "bellydrum",
     "name": "Belly Drum",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "bind",
     "name": "Bind",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 15,
@@ -326,6 +370,7 @@
   {
     "slug": "bite",
     "name": "Bite",
+    "gen": 1,
     "type": "dark",
     "category": "physical",
     "basePower": 60,
@@ -334,6 +379,7 @@
   {
     "slug": "bitterblade",
     "name": "Bitter Blade",
+    "gen": 9,
     "type": "fire",
     "category": "physical",
     "basePower": 90,
@@ -342,6 +388,7 @@
   {
     "slug": "bittermalice",
     "name": "Bitter Malice",
+    "gen": 9,
     "type": "ghost",
     "category": "special",
     "basePower": 75,
@@ -350,30 +397,16 @@
   {
     "slug": "blastburn",
     "name": "Blast Burn",
+    "gen": 3,
     "type": "fire",
     "category": "special",
     "basePower": 150,
     "accuracy": 90
   },
   {
-    "slug": "blazekick",
-    "name": "Blaze Kick",
-    "type": "fire",
-    "category": "physical",
-    "basePower": 85,
-    "accuracy": 90
-  },
-  {
-    "slug": "blazingtorque",
-    "name": "Blazing Torque",
-    "type": "fire",
-    "category": "physical",
-    "basePower": 80,
-    "accuracy": 100
-  },
-  {
     "slug": "bleakwindstorm",
     "name": "Bleakwind Storm",
+    "gen": 9,
     "type": "flying",
     "category": "special",
     "basePower": 100,
@@ -382,6 +415,7 @@
   {
     "slug": "blizzard",
     "name": "Blizzard",
+    "gen": 1,
     "type": "ice",
     "category": "special",
     "basePower": 110,
@@ -390,12 +424,14 @@
   {
     "slug": "block",
     "name": "Block",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "bodypress",
     "name": "Body Press",
+    "gen": 8,
     "type": "fighting",
     "category": "physical",
     "basePower": 80,
@@ -404,6 +440,7 @@
   {
     "slug": "bodyslam",
     "name": "Body Slam",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 85,
@@ -412,6 +449,7 @@
   {
     "slug": "bonerush",
     "name": "Bone Rush",
+    "gen": 2,
     "type": "ground",
     "category": "physical",
     "basePower": 25,
@@ -420,6 +458,7 @@
   {
     "slug": "boomburst",
     "name": "Boomburst",
+    "gen": 6,
     "type": "normal",
     "category": "special",
     "basePower": 140,
@@ -428,6 +467,7 @@
   {
     "slug": "bounce",
     "name": "Bounce",
+    "gen": 3,
     "type": "flying",
     "category": "physical",
     "basePower": 85,
@@ -436,6 +476,7 @@
   {
     "slug": "branchpoke",
     "name": "Branch Poke",
+    "gen": 8,
     "type": "grass",
     "category": "physical",
     "basePower": 40,
@@ -444,6 +485,7 @@
   {
     "slug": "bravebird",
     "name": "Brave Bird",
+    "gen": 4,
     "type": "flying",
     "category": "physical",
     "basePower": 120,
@@ -452,6 +494,7 @@
   {
     "slug": "breakingswipe",
     "name": "Breaking Swipe",
+    "gen": 8,
     "type": "dragon",
     "category": "physical",
     "basePower": 60,
@@ -460,6 +503,7 @@
   {
     "slug": "brickbreak",
     "name": "Brick Break",
+    "gen": 3,
     "type": "fighting",
     "category": "physical",
     "basePower": 75,
@@ -468,6 +512,7 @@
   {
     "slug": "brine",
     "name": "Brine",
+    "gen": 4,
     "type": "water",
     "category": "special",
     "basePower": 65,
@@ -476,6 +521,7 @@
   {
     "slug": "brutalswing",
     "name": "Brutal Swing",
+    "gen": 7,
     "type": "dark",
     "category": "physical",
     "basePower": 60,
@@ -484,6 +530,7 @@
   {
     "slug": "bubblebeam",
     "name": "Bubble Beam",
+    "gen": 1,
     "type": "water",
     "category": "special",
     "basePower": 65,
@@ -492,6 +539,7 @@
   {
     "slug": "bugbite",
     "name": "Bug Bite",
+    "gen": 4,
     "type": "bug",
     "category": "physical",
     "basePower": 60,
@@ -500,6 +548,7 @@
   {
     "slug": "bugbuzz",
     "name": "Bug Buzz",
+    "gen": 4,
     "type": "bug",
     "category": "special",
     "basePower": 90,
@@ -508,12 +557,14 @@
   {
     "slug": "bulkup",
     "name": "Bulk Up",
+    "gen": 3,
     "type": "fighting",
     "category": "status"
   },
   {
     "slug": "bulldoze",
     "name": "Bulldoze",
+    "gen": 5,
     "type": "ground",
     "category": "physical",
     "basePower": 60,
@@ -522,6 +573,7 @@
   {
     "slug": "bulletpunch",
     "name": "Bullet Punch",
+    "gen": 4,
     "type": "steel",
     "category": "physical",
     "basePower": 40,
@@ -530,56 +582,39 @@
   {
     "slug": "bulletseed",
     "name": "Bullet Seed",
+    "gen": 3,
     "type": "grass",
     "category": "physical",
     "basePower": 25,
     "accuracy": 100
   },
   {
-    "slug": "burningjealousy",
-    "name": "Burning Jealousy",
-    "type": "fire",
-    "category": "special",
-    "basePower": 70,
-    "accuracy": 100
-  },
-  {
-    "slug": "burnup",
-    "name": "Burn Up",
-    "type": "fire",
-    "category": "special",
-    "basePower": 130,
-    "accuracy": 100
-  },
-  {
     "slug": "calmmind",
     "name": "Calm Mind",
+    "gen": 3,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "ceaselessedge",
     "name": "Ceaseless Edge",
+    "gen": 9,
     "type": "dark",
     "category": "physical",
     "basePower": 65,
     "accuracy": 90
   },
   {
-    "slug": "celebrate",
-    "name": "Celebrate",
-    "type": "normal",
-    "category": "status"
-  },
-  {
     "slug": "charge",
     "name": "Charge",
+    "gen": 3,
     "type": "electric",
     "category": "status"
   },
   {
     "slug": "chargebeam",
     "name": "Charge Beam",
+    "gen": 4,
     "type": "electric",
     "category": "special",
     "basePower": 50,
@@ -588,12 +623,15 @@
   {
     "slug": "charm",
     "name": "Charm",
+    "gen": 2,
     "type": "fairy",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "chillingwater",
     "name": "Chilling Water",
+    "gen": 9,
     "type": "water",
     "category": "special",
     "basePower": 50,
@@ -602,12 +640,14 @@
   {
     "slug": "chillyreception",
     "name": "Chilly Reception",
+    "gen": 9,
     "type": "ice",
     "category": "status"
   },
   {
     "slug": "chloroblast",
     "name": "Chloroblast",
+    "gen": 9,
     "type": "grass",
     "category": "special",
     "basePower": 150,
@@ -616,6 +656,7 @@
   {
     "slug": "circlethrow",
     "name": "Circle Throw",
+    "gen": 5,
     "type": "fighting",
     "category": "physical",
     "basePower": 60,
@@ -624,42 +665,31 @@
   {
     "slug": "clearsmog",
     "name": "Clear Smog",
+    "gen": 5,
     "type": "poison",
     "category": "special",
-    "basePower": 50,
-    "accuracy": 101
+    "basePower": 50
   },
   {
     "slug": "closecombat",
     "name": "Close Combat",
+    "gen": 4,
     "type": "fighting",
     "category": "physical",
     "basePower": 120,
     "accuracy": 100
   },
   {
-    "slug": "coaching",
-    "name": "Coaching",
-    "type": "fighting",
-    "category": "status"
-  },
-  {
     "slug": "coil",
     "name": "Coil",
+    "gen": 5,
     "type": "poison",
     "category": "status"
   },
   {
     "slug": "collisioncourse",
     "name": "Collision Course",
-    "type": "fighting",
-    "category": "physical",
-    "basePower": 100,
-    "accuracy": 100
-  },
-  {
-    "slug": "combattorque",
-    "name": "Combat Torque",
+    "gen": 9,
     "type": "fighting",
     "category": "physical",
     "basePower": 100,
@@ -668,26 +698,31 @@
   {
     "slug": "comeuppance",
     "name": "Comeuppance",
+    "gen": 9,
     "type": "dark",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "confide",
     "name": "Confide",
+    "gen": 6,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "confuseray",
     "name": "Confuse Ray",
+    "gen": 1,
     "type": "ghost",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "confusion",
     "name": "Confusion",
+    "gen": 1,
     "type": "psychic",
     "category": "special",
     "basePower": 50,
@@ -696,50 +731,53 @@
   {
     "slug": "copycat",
     "name": "Copycat",
+    "gen": 4,
     "type": "normal",
-    "category": "status"
-  },
-  {
-    "slug": "corrosivegas",
-    "name": "Corrosive Gas",
-    "type": "poison",
     "category": "status"
   },
   {
     "slug": "cosmicpower",
     "name": "Cosmic Power",
+    "gen": 3,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "cottonguard",
     "name": "Cotton Guard",
+    "gen": 5,
     "type": "grass",
     "category": "status"
   },
   {
     "slug": "cottonspore",
     "name": "Cotton Spore",
+    "gen": 2,
     "type": "grass",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "counter",
     "name": "Counter",
+    "gen": 1,
     "type": "fighting",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "courtchange",
     "name": "Court Change",
+    "gen": 8,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "covet",
     "name": "Covet",
+    "gen": 3,
     "type": "normal",
     "category": "physical",
     "basePower": 60,
@@ -748,6 +786,7 @@
   {
     "slug": "crabhammer",
     "name": "Crabhammer",
+    "gen": 1,
     "type": "water",
     "category": "physical",
     "basePower": 100,
@@ -756,6 +795,7 @@
   {
     "slug": "crosschop",
     "name": "Cross Chop",
+    "gen": 2,
     "type": "fighting",
     "category": "physical",
     "basePower": 100,
@@ -764,6 +804,7 @@
   {
     "slug": "crosspoison",
     "name": "Cross Poison",
+    "gen": 4,
     "type": "poison",
     "category": "physical",
     "basePower": 70,
@@ -772,6 +813,7 @@
   {
     "slug": "crunch",
     "name": "Crunch",
+    "gen": 2,
     "type": "dark",
     "category": "physical",
     "basePower": 80,
@@ -780,6 +822,7 @@
   {
     "slug": "crushclaw",
     "name": "Crush Claw",
+    "gen": 3,
     "type": "normal",
     "category": "physical",
     "basePower": 75,
@@ -788,28 +831,14 @@
   {
     "slug": "curse",
     "name": "Curse",
+    "gen": 2,
     "type": "ghost",
     "category": "status"
   },
   {
-    "slug": "cut",
-    "name": "Cut",
-    "type": "normal",
-    "category": "physical",
-    "basePower": 50,
-    "accuracy": 95
-  },
-  {
-    "slug": "darkestlariat",
-    "name": "Darkest Lariat",
-    "type": "dark",
-    "category": "physical",
-    "basePower": 85,
-    "accuracy": 100
-  },
-  {
     "slug": "darkpulse",
     "name": "Dark Pulse",
+    "gen": 4,
     "type": "dark",
     "category": "special",
     "basePower": 80,
@@ -818,6 +847,7 @@
   {
     "slug": "dazzlinggleam",
     "name": "Dazzling Gleam",
+    "gen": 6,
     "type": "fairy",
     "category": "special",
     "basePower": 80,
@@ -826,36 +856,42 @@
   {
     "slug": "defendorder",
     "name": "Defend Order",
+    "gen": 4,
     "type": "bug",
     "category": "status"
   },
   {
     "slug": "defensecurl",
     "name": "Defense Curl",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "defog",
     "name": "Defog",
+    "gen": 4,
     "type": "flying",
     "category": "status"
   },
   {
     "slug": "destinybond",
     "name": "Destiny Bond",
+    "gen": 2,
     "type": "ghost",
     "category": "status"
   },
   {
     "slug": "detect",
     "name": "Detect",
+    "gen": 2,
     "type": "fighting",
     "category": "status"
   },
   {
     "slug": "diamondstorm",
     "name": "Diamond Storm",
+    "gen": 6,
     "type": "rock",
     "category": "physical",
     "basePower": 100,
@@ -864,6 +900,7 @@
   {
     "slug": "dig",
     "name": "Dig",
+    "gen": 1,
     "type": "ground",
     "category": "physical",
     "basePower": 80,
@@ -872,6 +909,7 @@
   {
     "slug": "direclaw",
     "name": "Dire Claw",
+    "gen": 9,
     "type": "poison",
     "category": "physical",
     "basePower": 80,
@@ -880,20 +918,23 @@
   {
     "slug": "disable",
     "name": "Disable",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "disarmingvoice",
     "name": "Disarming Voice",
+    "gen": 6,
     "type": "fairy",
     "category": "special",
-    "basePower": 40,
-    "accuracy": 101
+    "basePower": 40
   },
   {
     "slug": "discharge",
     "name": "Discharge",
+    "gen": 4,
     "type": "electric",
     "category": "special",
     "basePower": 80,
@@ -902,6 +943,7 @@
   {
     "slug": "dive",
     "name": "Dive",
+    "gen": 3,
     "type": "water",
     "category": "physical",
     "basePower": 80,
@@ -910,12 +952,15 @@
   {
     "slug": "doodle",
     "name": "Doodle",
+    "gen": 9,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "doubleedge",
     "name": "Double-Edge",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 120,
@@ -924,6 +969,7 @@
   {
     "slug": "doublehit",
     "name": "Double Hit",
+    "gen": 4,
     "type": "normal",
     "category": "physical",
     "basePower": 35,
@@ -932,6 +978,7 @@
   {
     "slug": "doublekick",
     "name": "Double Kick",
+    "gen": 1,
     "type": "fighting",
     "category": "physical",
     "basePower": 30,
@@ -940,6 +987,7 @@
   {
     "slug": "doubleshock",
     "name": "Double Shock",
+    "gen": 9,
     "type": "electric",
     "category": "physical",
     "basePower": 120,
@@ -948,12 +996,14 @@
   {
     "slug": "doubleteam",
     "name": "Double Team",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "dracometeor",
     "name": "Draco Meteor",
+    "gen": 4,
     "type": "dragon",
     "category": "special",
     "basePower": 130,
@@ -962,6 +1012,7 @@
   {
     "slug": "dragonascent",
     "name": "Dragon Ascent",
+    "gen": 6,
     "type": "flying",
     "category": "physical",
     "basePower": 120,
@@ -970,6 +1021,7 @@
   {
     "slug": "dragonbreath",
     "name": "Dragon Breath",
+    "gen": 2,
     "type": "dragon",
     "category": "special",
     "basePower": 60,
@@ -978,6 +1030,7 @@
   {
     "slug": "dragonclaw",
     "name": "Dragon Claw",
+    "gen": 3,
     "type": "dragon",
     "category": "physical",
     "basePower": 80,
@@ -986,12 +1039,14 @@
   {
     "slug": "dragondance",
     "name": "Dragon Dance",
+    "gen": 3,
     "type": "dragon",
     "category": "status"
   },
   {
     "slug": "dragondarts",
     "name": "Dragon Darts",
+    "gen": 8,
     "type": "dragon",
     "category": "physical",
     "basePower": 50,
@@ -1000,6 +1055,7 @@
   {
     "slug": "dragonenergy",
     "name": "Dragon Energy",
+    "gen": 8,
     "type": "dragon",
     "category": "special",
     "basePower": 150,
@@ -1008,6 +1064,7 @@
   {
     "slug": "dragonpulse",
     "name": "Dragon Pulse",
+    "gen": 4,
     "type": "dragon",
     "category": "special",
     "basePower": 85,
@@ -1016,6 +1073,7 @@
   {
     "slug": "dragonrush",
     "name": "Dragon Rush",
+    "gen": 4,
     "type": "dragon",
     "category": "physical",
     "basePower": 100,
@@ -1024,6 +1082,7 @@
   {
     "slug": "dragontail",
     "name": "Dragon Tail",
+    "gen": 5,
     "type": "dragon",
     "category": "physical",
     "basePower": 60,
@@ -1032,6 +1091,7 @@
   {
     "slug": "drainingkiss",
     "name": "Draining Kiss",
+    "gen": 6,
     "type": "fairy",
     "category": "special",
     "basePower": 50,
@@ -1040,6 +1100,7 @@
   {
     "slug": "drainpunch",
     "name": "Drain Punch",
+    "gen": 4,
     "type": "fighting",
     "category": "physical",
     "basePower": 75,
@@ -1048,6 +1109,7 @@
   {
     "slug": "dreameater",
     "name": "Dream Eater",
+    "gen": 1,
     "type": "psychic",
     "category": "special",
     "basePower": 100,
@@ -1056,6 +1118,7 @@
   {
     "slug": "drillpeck",
     "name": "Drill Peck",
+    "gen": 1,
     "type": "flying",
     "category": "physical",
     "basePower": 80,
@@ -1064,6 +1127,7 @@
   {
     "slug": "drillrun",
     "name": "Drill Run",
+    "gen": 5,
     "type": "ground",
     "category": "physical",
     "basePower": 80,
@@ -1072,6 +1136,7 @@
   {
     "slug": "drumbeating",
     "name": "Drum Beating",
+    "gen": 8,
     "type": "grass",
     "category": "physical",
     "basePower": 80,
@@ -1080,6 +1145,7 @@
   {
     "slug": "dualwingbeat",
     "name": "Dual Wingbeat",
+    "gen": 8,
     "type": "flying",
     "category": "physical",
     "basePower": 40,
@@ -1088,6 +1154,7 @@
   {
     "slug": "dynamaxcannon",
     "name": "Dynamax Cannon",
+    "gen": 8,
     "type": "dragon",
     "category": "special",
     "basePower": 100,
@@ -1096,6 +1163,7 @@
   {
     "slug": "dynamicpunch",
     "name": "Dynamic Punch",
+    "gen": 2,
     "type": "fighting",
     "category": "physical",
     "basePower": 100,
@@ -1104,6 +1172,7 @@
   {
     "slug": "earthpower",
     "name": "Earth Power",
+    "gen": 4,
     "type": "ground",
     "category": "special",
     "basePower": 90,
@@ -1112,6 +1181,7 @@
   {
     "slug": "earthquake",
     "name": "Earthquake",
+    "gen": 1,
     "type": "ground",
     "category": "physical",
     "basePower": 100,
@@ -1120,6 +1190,7 @@
   {
     "slug": "echoedvoice",
     "name": "Echoed Voice",
+    "gen": 5,
     "type": "normal",
     "category": "special",
     "basePower": 40,
@@ -1128,12 +1199,15 @@
   {
     "slug": "eerieimpulse",
     "name": "Eerie Impulse",
+    "gen": 6,
     "type": "electric",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "eeriespell",
     "name": "Eerie Spell",
+    "gen": 8,
     "type": "psychic",
     "category": "special",
     "basePower": 80,
@@ -1142,20 +1216,23 @@
   {
     "slug": "electricterrain",
     "name": "Electric Terrain",
+    "gen": 6,
     "type": "electric",
     "category": "status"
   },
   {
     "slug": "electroball",
     "name": "Electro Ball",
+    "gen": 5,
     "type": "electric",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "electrodrift",
     "name": "Electro Drift",
+    "gen": 9,
     "type": "electric",
     "category": "special",
     "basePower": 100,
@@ -1164,6 +1241,7 @@
   {
     "slug": "electroweb",
     "name": "Electroweb",
+    "gen": 5,
     "type": "electric",
     "category": "special",
     "basePower": 55,
@@ -1172,6 +1250,7 @@
   {
     "slug": "ember",
     "name": "Ember",
+    "gen": 1,
     "type": "fire",
     "category": "special",
     "basePower": 40,
@@ -1180,26 +1259,31 @@
   {
     "slug": "encore",
     "name": "Encore",
+    "gen": 2,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "endeavor",
     "name": "Endeavor",
+    "gen": 3,
     "type": "normal",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "endure",
     "name": "Endure",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "energyball",
     "name": "Energy Ball",
+    "gen": 4,
     "type": "grass",
     "category": "special",
     "basePower": 90,
@@ -1208,12 +1292,15 @@
   {
     "slug": "entrainment",
     "name": "Entrainment",
+    "gen": 5,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "eruption",
     "name": "Eruption",
+    "gen": 3,
     "type": "fire",
     "category": "special",
     "basePower": 150,
@@ -1222,6 +1309,7 @@
   {
     "slug": "esperwing",
     "name": "Esper Wing",
+    "gen": 9,
     "type": "psychic",
     "category": "special",
     "basePower": 80,
@@ -1230,6 +1318,7 @@
   {
     "slug": "expandingforce",
     "name": "Expanding Force",
+    "gen": 8,
     "type": "psychic",
     "category": "special",
     "basePower": 80,
@@ -1238,6 +1327,7 @@
   {
     "slug": "explosion",
     "name": "Explosion",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 250,
@@ -1246,6 +1336,7 @@
   {
     "slug": "extrasensory",
     "name": "Extrasensory",
+    "gen": 3,
     "type": "psychic",
     "category": "special",
     "basePower": 80,
@@ -1254,6 +1345,7 @@
   {
     "slug": "extremespeed",
     "name": "Extreme Speed",
+    "gen": 2,
     "type": "normal",
     "category": "physical",
     "basePower": 80,
@@ -1262,6 +1354,7 @@
   {
     "slug": "facade",
     "name": "Facade",
+    "gen": 3,
     "type": "normal",
     "category": "physical",
     "basePower": 70,
@@ -1270,12 +1363,14 @@
   {
     "slug": "fairylock",
     "name": "Fairy Lock",
+    "gen": 6,
     "type": "fairy",
     "category": "status"
   },
   {
     "slug": "fairywind",
     "name": "Fairy Wind",
+    "gen": 6,
     "type": "fairy",
     "category": "special",
     "basePower": 40,
@@ -1284,6 +1379,7 @@
   {
     "slug": "fakeout",
     "name": "Fake Out",
+    "gen": 3,
     "type": "normal",
     "category": "physical",
     "basePower": 40,
@@ -1292,20 +1388,23 @@
   {
     "slug": "faketears",
     "name": "Fake Tears",
+    "gen": 3,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "falsesurrender",
     "name": "False Surrender",
+    "gen": 8,
     "type": "dark",
     "category": "physical",
-    "basePower": 80,
-    "accuracy": 101
+    "basePower": 80
   },
   {
     "slug": "falseswipe",
     "name": "False Swipe",
+    "gen": 2,
     "type": "normal",
     "category": "physical",
     "basePower": 40,
@@ -1314,12 +1413,15 @@
   {
     "slug": "featherdance",
     "name": "Feather Dance",
+    "gen": 3,
     "type": "flying",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "feint",
     "name": "Feint",
+    "gen": 4,
     "type": "normal",
     "category": "physical",
     "basePower": 30,
@@ -1328,6 +1430,7 @@
   {
     "slug": "fellstinger",
     "name": "Fell Stinger",
+    "gen": 6,
     "type": "bug",
     "category": "physical",
     "basePower": 50,
@@ -1336,6 +1439,7 @@
   {
     "slug": "fierydance",
     "name": "Fiery Dance",
+    "gen": 5,
     "type": "fire",
     "category": "special",
     "basePower": 80,
@@ -1344,6 +1448,7 @@
   {
     "slug": "fierywrath",
     "name": "Fiery Wrath",
+    "gen": 8,
     "type": "dark",
     "category": "special",
     "basePower": 90,
@@ -1352,20 +1457,23 @@
   {
     "slug": "filletaway",
     "name": "Fillet Away",
+    "gen": 9,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "finalgambit",
     "name": "Final Gambit",
+    "gen": 5,
     "type": "fighting",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "fireblast",
     "name": "Fire Blast",
+    "gen": 1,
     "type": "fire",
     "category": "special",
     "basePower": 110,
@@ -1374,6 +1482,7 @@
   {
     "slug": "firefang",
     "name": "Fire Fang",
+    "gen": 4,
     "type": "fire",
     "category": "physical",
     "basePower": 65,
@@ -1382,6 +1491,7 @@
   {
     "slug": "firelash",
     "name": "Fire Lash",
+    "gen": 7,
     "type": "fire",
     "category": "physical",
     "basePower": 80,
@@ -1390,6 +1500,7 @@
   {
     "slug": "firepledge",
     "name": "Fire Pledge",
+    "gen": 5,
     "type": "fire",
     "category": "special",
     "basePower": 80,
@@ -1398,6 +1509,7 @@
   {
     "slug": "firepunch",
     "name": "Fire Punch",
+    "gen": 1,
     "type": "fire",
     "category": "physical",
     "basePower": 75,
@@ -1406,6 +1518,7 @@
   {
     "slug": "firespin",
     "name": "Fire Spin",
+    "gen": 1,
     "type": "fire",
     "category": "special",
     "basePower": 35,
@@ -1414,6 +1527,7 @@
   {
     "slug": "firstimpression",
     "name": "First Impression",
+    "gen": 7,
     "type": "bug",
     "category": "physical",
     "basePower": 90,
@@ -1422,22 +1536,25 @@
   {
     "slug": "fissure",
     "name": "Fissure",
+    "gen": 1,
     "type": "ground",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 30
   },
   {
     "slug": "flail",
     "name": "Flail",
+    "gen": 2,
     "type": "normal",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "flamecharge",
     "name": "Flame Charge",
+    "gen": 5,
     "type": "fire",
     "category": "physical",
     "basePower": 50,
@@ -1446,6 +1563,7 @@
   {
     "slug": "flamethrower",
     "name": "Flamethrower",
+    "gen": 1,
     "type": "fire",
     "category": "special",
     "basePower": 90,
@@ -1454,6 +1572,7 @@
   {
     "slug": "flamewheel",
     "name": "Flame Wheel",
+    "gen": 2,
     "type": "fire",
     "category": "physical",
     "basePower": 60,
@@ -1462,6 +1581,7 @@
   {
     "slug": "flareblitz",
     "name": "Flare Blitz",
+    "gen": 4,
     "type": "fire",
     "category": "physical",
     "basePower": 120,
@@ -1470,6 +1590,7 @@
   {
     "slug": "flashcannon",
     "name": "Flash Cannon",
+    "gen": 4,
     "type": "steel",
     "category": "special",
     "basePower": 80,
@@ -1478,12 +1599,15 @@
   {
     "slug": "flatter",
     "name": "Flatter",
+    "gen": 3,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "fleurcannon",
     "name": "Fleur Cannon",
+    "gen": 7,
     "type": "fairy",
     "category": "special",
     "basePower": 130,
@@ -1492,14 +1616,16 @@
   {
     "slug": "fling",
     "name": "Fling",
+    "gen": 4,
     "type": "dark",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "flipturn",
     "name": "Flip Turn",
+    "gen": 8,
     "type": "water",
     "category": "physical",
     "basePower": 60,
@@ -1508,14 +1634,15 @@
   {
     "slug": "flowertrick",
     "name": "Flower Trick",
+    "gen": 9,
     "type": "grass",
     "category": "physical",
-    "basePower": 70,
-    "accuracy": 101
+    "basePower": 70
   },
   {
     "slug": "fly",
     "name": "Fly",
+    "gen": 1,
     "type": "flying",
     "category": "physical",
     "basePower": 90,
@@ -1524,6 +1651,7 @@
   {
     "slug": "flyingpress",
     "name": "Flying Press",
+    "gen": 6,
     "type": "fighting",
     "category": "physical",
     "basePower": 100,
@@ -1532,6 +1660,7 @@
   {
     "slug": "focusblast",
     "name": "Focus Blast",
+    "gen": 4,
     "type": "fighting",
     "category": "special",
     "basePower": 120,
@@ -1540,12 +1669,14 @@
   {
     "slug": "focusenergy",
     "name": "Focus Energy",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "focuspunch",
     "name": "Focus Punch",
+    "gen": 3,
     "type": "fighting",
     "category": "physical",
     "basePower": 150,
@@ -1554,12 +1685,14 @@
   {
     "slug": "followme",
     "name": "Follow Me",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "forcepalm",
     "name": "Force Palm",
+    "gen": 4,
     "type": "fighting",
     "category": "physical",
     "basePower": 60,
@@ -1568,6 +1701,7 @@
   {
     "slug": "foulplay",
     "name": "Foul Play",
+    "gen": 5,
     "type": "dark",
     "category": "physical",
     "basePower": 95,
@@ -1576,6 +1710,7 @@
   {
     "slug": "freezedry",
     "name": "Freeze-Dry",
+    "gen": 6,
     "type": "ice",
     "category": "special",
     "basePower": 70,
@@ -1584,6 +1719,7 @@
   {
     "slug": "freezingglare",
     "name": "Freezing Glare",
+    "gen": 8,
     "type": "psychic",
     "category": "special",
     "basePower": 90,
@@ -1592,6 +1728,7 @@
   {
     "slug": "frenzyplant",
     "name": "Frenzy Plant",
+    "gen": 3,
     "type": "grass",
     "category": "special",
     "basePower": 150,
@@ -1600,6 +1737,7 @@
   {
     "slug": "frostbreath",
     "name": "Frost Breath",
+    "gen": 5,
     "type": "ice",
     "category": "special",
     "basePower": 60,
@@ -1608,6 +1746,7 @@
   {
     "slug": "furyattack",
     "name": "Fury Attack",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 15,
@@ -1616,6 +1755,7 @@
   {
     "slug": "furycutter",
     "name": "Fury Cutter",
+    "gen": 2,
     "type": "bug",
     "category": "physical",
     "basePower": 40,
@@ -1624,6 +1764,7 @@
   {
     "slug": "furyswipes",
     "name": "Fury Swipes",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 18,
@@ -1632,6 +1773,7 @@
   {
     "slug": "futuresight",
     "name": "Future Sight",
+    "gen": 2,
     "type": "psychic",
     "category": "special",
     "basePower": 120,
@@ -1640,12 +1782,15 @@
   {
     "slug": "gastroacid",
     "name": "Gastro Acid",
+    "gen": 4,
     "type": "poison",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "gigadrain",
     "name": "Giga Drain",
+    "gen": 2,
     "type": "grass",
     "category": "special",
     "basePower": 75,
@@ -1654,6 +1799,7 @@
   {
     "slug": "gigaimpact",
     "name": "Giga Impact",
+    "gen": 4,
     "type": "normal",
     "category": "physical",
     "basePower": 150,
@@ -1662,6 +1808,7 @@
   {
     "slug": "gigatonhammer",
     "name": "Gigaton Hammer",
+    "gen": 9,
     "type": "steel",
     "category": "physical",
     "basePower": 160,
@@ -1670,6 +1817,7 @@
   {
     "slug": "glaciallance",
     "name": "Glacial Lance",
+    "gen": 8,
     "type": "ice",
     "category": "physical",
     "basePower": 120,
@@ -1678,6 +1826,7 @@
   {
     "slug": "glaiverush",
     "name": "Glaive Rush",
+    "gen": 9,
     "type": "dragon",
     "category": "physical",
     "basePower": 120,
@@ -1686,42 +1835,40 @@
   {
     "slug": "glare",
     "name": "Glare",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "grassknot",
     "name": "Grass Knot",
+    "gen": 4,
     "type": "grass",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "grasspledge",
     "name": "Grass Pledge",
+    "gen": 5,
     "type": "grass",
     "category": "special",
     "basePower": 80,
     "accuracy": 100
   },
   {
-    "slug": "grassyglide",
-    "name": "Grassy Glide",
-    "type": "grass",
-    "category": "physical",
-    "basePower": 60,
-    "accuracy": 100
-  },
-  {
     "slug": "grassyterrain",
     "name": "Grassy Terrain",
+    "gen": 6,
     "type": "grass",
     "category": "status"
   },
   {
     "slug": "gravapple",
     "name": "Grav Apple",
+    "gen": 8,
     "type": "grass",
     "category": "physical",
     "basePower": 80,
@@ -1730,44 +1877,52 @@
   {
     "slug": "gravity",
     "name": "Gravity",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "growl",
     "name": "Growl",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "growth",
     "name": "Growth",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "guardsplit",
     "name": "Guard Split",
+    "gen": 5,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "guardswap",
     "name": "Guard Swap",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "guillotine",
     "name": "Guillotine",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 30
   },
   {
     "slug": "gunkshot",
     "name": "Gunk Shot",
+    "gen": 4,
     "type": "poison",
     "category": "physical",
     "basePower": 120,
@@ -1776,6 +1931,7 @@
   {
     "slug": "gust",
     "name": "Gust",
+    "gen": 1,
     "type": "flying",
     "category": "special",
     "basePower": 40,
@@ -1784,40 +1940,39 @@
   {
     "slug": "gyroball",
     "name": "Gyro Ball",
+    "gen": 4,
     "type": "steel",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "hammerarm",
     "name": "Hammer Arm",
+    "gen": 4,
     "type": "fighting",
     "category": "physical",
     "basePower": 100,
     "accuracy": 90
   },
   {
-    "slug": "happyhour",
-    "name": "Happy Hour",
-    "type": "normal",
-    "category": "status"
-  },
-  {
     "slug": "harden",
     "name": "Harden",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "haze",
     "name": "Haze",
+    "gen": 1,
     "type": "ice",
     "category": "status"
   },
   {
     "slug": "headbutt",
     "name": "Headbutt",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 70,
@@ -1826,6 +1981,7 @@
   {
     "slug": "headlongrush",
     "name": "Headlong Rush",
+    "gen": 9,
     "type": "ground",
     "category": "physical",
     "basePower": 120,
@@ -1834,6 +1990,7 @@
   {
     "slug": "headsmash",
     "name": "Head Smash",
+    "gen": 4,
     "type": "rock",
     "category": "physical",
     "basePower": 150,
@@ -1842,38 +1999,37 @@
   {
     "slug": "healbell",
     "name": "Heal Bell",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "healingwish",
     "name": "Healing Wish",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "healpulse",
     "name": "Heal Pulse",
-    "type": "psychic",
-    "category": "status"
-  },
-  {
-    "slug": "heartswap",
-    "name": "Heart Swap",
+    "gen": 5,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "heatcrash",
     "name": "Heat Crash",
+    "gen": 5,
     "type": "fire",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "heatwave",
     "name": "Heat Wave",
+    "gen": 3,
     "type": "fire",
     "category": "special",
     "basePower": 95,
@@ -1882,20 +2038,23 @@
   {
     "slug": "heavyslam",
     "name": "Heavy Slam",
+    "gen": 5,
     "type": "steel",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "helpinghand",
     "name": "Helping Hand",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "hex",
     "name": "Hex",
+    "gen": 5,
     "type": "ghost",
     "category": "special",
     "basePower": 65,
@@ -1904,6 +2063,7 @@
   {
     "slug": "highhorsepower",
     "name": "High Horsepower",
+    "gen": 7,
     "type": "ground",
     "category": "physical",
     "basePower": 95,
@@ -1912,50 +2072,32 @@
   {
     "slug": "highjumpkick",
     "name": "High Jump Kick",
+    "gen": 1,
     "type": "fighting",
     "category": "physical",
     "basePower": 130,
     "accuracy": 90
   },
   {
-    "slug": "holdback",
-    "name": "Hold Back",
-    "type": "normal",
-    "category": "physical",
-    "basePower": 40,
-    "accuracy": 100
-  },
-  {
-    "slug": "holdhands",
-    "name": "Hold Hands",
-    "type": "normal",
-    "category": "status"
-  },
-  {
     "slug": "honeclaws",
     "name": "Hone Claws",
+    "gen": 5,
     "type": "dark",
     "category": "status"
   },
   {
     "slug": "hornattack",
     "name": "Horn Attack",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 65,
     "accuracy": 100
   },
   {
-    "slug": "horndrill",
-    "name": "Horn Drill",
-    "type": "normal",
-    "category": "physical",
-    "basePower": 1,
-    "accuracy": 30
-  },
-  {
     "slug": "hornleech",
     "name": "Horn Leech",
+    "gen": 5,
     "type": "grass",
     "category": "physical",
     "basePower": 75,
@@ -1964,12 +2106,14 @@
   {
     "slug": "howl",
     "name": "Howl",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "hurricane",
     "name": "Hurricane",
+    "gen": 5,
     "type": "flying",
     "category": "special",
     "basePower": 110,
@@ -1978,6 +2122,7 @@
   {
     "slug": "hydrocannon",
     "name": "Hydro Cannon",
+    "gen": 3,
     "type": "water",
     "category": "special",
     "basePower": 150,
@@ -1986,6 +2131,7 @@
   {
     "slug": "hydropump",
     "name": "Hydro Pump",
+    "gen": 1,
     "type": "water",
     "category": "special",
     "basePower": 110,
@@ -1994,6 +2140,7 @@
   {
     "slug": "hyperbeam",
     "name": "Hyper Beam",
+    "gen": 1,
     "type": "normal",
     "category": "special",
     "basePower": 150,
@@ -2002,30 +2149,24 @@
   {
     "slug": "hyperdrill",
     "name": "Hyper Drill",
+    "gen": 9,
     "type": "normal",
     "category": "physical",
     "basePower": 100,
     "accuracy": 100
   },
   {
-    "slug": "hyperspacefury",
-    "name": "Hyperspace Fury",
-    "type": "dark",
-    "category": "physical",
-    "basePower": 100,
-    "accuracy": 101
-  },
-  {
     "slug": "hyperspacehole",
     "name": "Hyperspace Hole",
+    "gen": 6,
     "type": "psychic",
     "category": "special",
-    "basePower": 80,
-    "accuracy": 101
+    "basePower": 80
   },
   {
     "slug": "hypervoice",
     "name": "Hyper Voice",
+    "gen": 3,
     "type": "normal",
     "category": "special",
     "basePower": 90,
@@ -2034,12 +2175,15 @@
   {
     "slug": "hypnosis",
     "name": "Hypnosis",
+    "gen": 1,
     "type": "psychic",
-    "category": "status"
+    "category": "status",
+    "accuracy": 60
   },
   {
     "slug": "icebeam",
     "name": "Ice Beam",
+    "gen": 1,
     "type": "ice",
     "category": "special",
     "basePower": 90,
@@ -2048,6 +2192,7 @@
   {
     "slug": "icefang",
     "name": "Ice Fang",
+    "gen": 4,
     "type": "ice",
     "category": "physical",
     "basePower": 65,
@@ -2056,6 +2201,7 @@
   {
     "slug": "icehammer",
     "name": "Ice Hammer",
+    "gen": 7,
     "type": "ice",
     "category": "physical",
     "basePower": 100,
@@ -2064,6 +2210,7 @@
   {
     "slug": "icepunch",
     "name": "Ice Punch",
+    "gen": 1,
     "type": "ice",
     "category": "physical",
     "basePower": 75,
@@ -2072,6 +2219,7 @@
   {
     "slug": "iceshard",
     "name": "Ice Shard",
+    "gen": 4,
     "type": "ice",
     "category": "physical",
     "basePower": 40,
@@ -2080,6 +2228,7 @@
   {
     "slug": "icespinner",
     "name": "Ice Spinner",
+    "gen": 9,
     "type": "ice",
     "category": "physical",
     "basePower": 80,
@@ -2088,6 +2237,7 @@
   {
     "slug": "iciclecrash",
     "name": "Icicle Crash",
+    "gen": 5,
     "type": "ice",
     "category": "physical",
     "basePower": 85,
@@ -2096,6 +2246,7 @@
   {
     "slug": "iciclespear",
     "name": "Icicle Spear",
+    "gen": 3,
     "type": "ice",
     "category": "physical",
     "basePower": 25,
@@ -2104,6 +2255,7 @@
   {
     "slug": "icywind",
     "name": "Icy Wind",
+    "gen": 2,
     "type": "ice",
     "category": "special",
     "basePower": 55,
@@ -2112,12 +2264,14 @@
   {
     "slug": "imprison",
     "name": "Imprison",
+    "gen": 3,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "incinerate",
     "name": "Incinerate",
+    "gen": 5,
     "type": "fire",
     "category": "special",
     "basePower": 60,
@@ -2126,6 +2280,7 @@
   {
     "slug": "infernalparade",
     "name": "Infernal Parade",
+    "gen": 9,
     "type": "ghost",
     "category": "special",
     "basePower": 60,
@@ -2134,6 +2289,7 @@
   {
     "slug": "inferno",
     "name": "Inferno",
+    "gen": 5,
     "type": "fire",
     "category": "special",
     "basePower": 100,
@@ -2142,6 +2298,7 @@
   {
     "slug": "infestation",
     "name": "Infestation",
+    "gen": 6,
     "type": "bug",
     "category": "special",
     "basePower": 20,
@@ -2150,24 +2307,28 @@
   {
     "slug": "ingrain",
     "name": "Ingrain",
+    "gen": 3,
     "type": "grass",
     "category": "status"
   },
   {
     "slug": "instruct",
     "name": "Instruct",
+    "gen": 7,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "irondefense",
     "name": "Iron Defense",
+    "gen": 3,
     "type": "steel",
     "category": "status"
   },
   {
     "slug": "ironhead",
     "name": "Iron Head",
+    "gen": 4,
     "type": "steel",
     "category": "physical",
     "basePower": 80,
@@ -2176,6 +2337,7 @@
   {
     "slug": "irontail",
     "name": "Iron Tail",
+    "gen": 2,
     "type": "steel",
     "category": "physical",
     "basePower": 100,
@@ -2184,6 +2346,7 @@
   {
     "slug": "jawlock",
     "name": "Jaw Lock",
+    "gen": 8,
     "type": "dark",
     "category": "physical",
     "basePower": 80,
@@ -2192,6 +2355,7 @@
   {
     "slug": "jetpunch",
     "name": "Jet Punch",
+    "gen": 9,
     "type": "water",
     "category": "physical",
     "basePower": 60,
@@ -2200,6 +2364,7 @@
   {
     "slug": "judgment",
     "name": "Judgment",
+    "gen": 4,
     "type": "normal",
     "category": "special",
     "basePower": 100,
@@ -2208,12 +2373,14 @@
   {
     "slug": "junglehealing",
     "name": "Jungle Healing",
+    "gen": 8,
     "type": "grass",
     "category": "status"
   },
   {
     "slug": "knockoff",
     "name": "Knock Off",
+    "gen": 3,
     "type": "dark",
     "category": "physical",
     "basePower": 65,
@@ -2222,22 +2389,15 @@
   {
     "slug": "kowtowcleave",
     "name": "Kowtow Cleave",
+    "gen": 9,
     "type": "dark",
     "category": "physical",
-    "basePower": 85,
-    "accuracy": 101
-  },
-  {
-    "slug": "lashout",
-    "name": "Lash Out",
-    "type": "dark",
-    "category": "physical",
-    "basePower": 75,
-    "accuracy": 100
+    "basePower": 85
   },
   {
     "slug": "lastresort",
     "name": "Last Resort",
+    "gen": 4,
     "type": "normal",
     "category": "physical",
     "basePower": 140,
@@ -2246,6 +2406,7 @@
   {
     "slug": "lastrespects",
     "name": "Last Respects",
+    "gen": 9,
     "type": "ghost",
     "category": "physical",
     "basePower": 50,
@@ -2254,6 +2415,7 @@
   {
     "slug": "lavaplume",
     "name": "Lava Plume",
+    "gen": 4,
     "type": "fire",
     "category": "special",
     "basePower": 80,
@@ -2262,6 +2424,7 @@
   {
     "slug": "leafage",
     "name": "Leafage",
+    "gen": 7,
     "type": "grass",
     "category": "physical",
     "basePower": 40,
@@ -2270,6 +2433,7 @@
   {
     "slug": "leafblade",
     "name": "Leaf Blade",
+    "gen": 3,
     "type": "grass",
     "category": "physical",
     "basePower": 90,
@@ -2278,6 +2442,7 @@
   {
     "slug": "leafstorm",
     "name": "Leaf Storm",
+    "gen": 4,
     "type": "grass",
     "category": "special",
     "basePower": 130,
@@ -2286,6 +2451,7 @@
   {
     "slug": "leechlife",
     "name": "Leech Life",
+    "gen": 1,
     "type": "bug",
     "category": "physical",
     "basePower": 80,
@@ -2294,18 +2460,23 @@
   {
     "slug": "leechseed",
     "name": "Leech Seed",
+    "gen": 1,
     "type": "grass",
-    "category": "status"
+    "category": "status",
+    "accuracy": 90
   },
   {
     "slug": "leer",
     "name": "Leer",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "lick",
     "name": "Lick",
+    "gen": 1,
     "type": "ghost",
     "category": "physical",
     "basePower": 30,
@@ -2314,18 +2485,21 @@
   {
     "slug": "lifedew",
     "name": "Life Dew",
+    "gen": 8,
     "type": "water",
     "category": "status"
   },
   {
     "slug": "lightscreen",
     "name": "Light Screen",
+    "gen": 1,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "liquidation",
     "name": "Liquidation",
+    "gen": 7,
     "type": "water",
     "category": "physical",
     "basePower": 85,
@@ -2334,20 +2508,23 @@
   {
     "slug": "lockon",
     "name": "Lock-On",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "lowkick",
     "name": "Low Kick",
+    "gen": 1,
     "type": "fighting",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "lowsweep",
     "name": "Low Sweep",
+    "gen": 5,
     "type": "fighting",
     "category": "physical",
     "basePower": 65,
@@ -2356,6 +2533,7 @@
   {
     "slug": "luminacrash",
     "name": "Lumina Crash",
+    "gen": 9,
     "type": "psychic",
     "category": "special",
     "basePower": 80,
@@ -2364,18 +2542,21 @@
   {
     "slug": "lunarblessing",
     "name": "Lunar Blessing",
+    "gen": 9,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "lunardance",
     "name": "Lunar Dance",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "lunge",
     "name": "Lunge",
+    "gen": 7,
     "type": "bug",
     "category": "physical",
     "basePower": 80,
@@ -2384,6 +2565,7 @@
   {
     "slug": "machpunch",
     "name": "Mach Punch",
+    "gen": 2,
     "type": "fighting",
     "category": "physical",
     "basePower": 40,
@@ -2392,34 +2574,30 @@
   {
     "slug": "magicalleaf",
     "name": "Magical Leaf",
+    "gen": 3,
     "type": "grass",
     "category": "special",
-    "basePower": 60,
-    "accuracy": 101
-  },
-  {
-    "slug": "magicaltorque",
-    "name": "Magical Torque",
-    "type": "fairy",
-    "category": "physical",
-    "basePower": 100,
-    "accuracy": 100
+    "basePower": 60
   },
   {
     "slug": "magicpowder",
     "name": "Magic Powder",
+    "gen": 8,
     "type": "psychic",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "magicroom",
     "name": "Magic Room",
+    "gen": 5,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "magmastorm",
     "name": "Magma Storm",
+    "gen": 4,
     "type": "fire",
     "category": "special",
     "basePower": 100,
@@ -2428,18 +2606,21 @@
   {
     "slug": "magneticflux",
     "name": "Magnetic Flux",
+    "gen": 6,
     "type": "electric",
     "category": "status"
   },
   {
     "slug": "magnetrise",
     "name": "Magnet Rise",
+    "gen": 4,
     "type": "electric",
     "category": "status"
   },
   {
     "slug": "makeitrain",
     "name": "Make It Rain",
+    "gen": 9,
     "type": "steel",
     "category": "special",
     "basePower": 120,
@@ -2448,12 +2629,14 @@
   {
     "slug": "meanlook",
     "name": "Mean Look",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "megadrain",
     "name": "Mega Drain",
+    "gen": 1,
     "type": "grass",
     "category": "special",
     "basePower": 40,
@@ -2462,6 +2645,7 @@
   {
     "slug": "megahorn",
     "name": "Megahorn",
+    "gen": 2,
     "type": "bug",
     "category": "physical",
     "basePower": 120,
@@ -2470,36 +2654,33 @@
   {
     "slug": "megakick",
     "name": "Mega Kick",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 120,
     "accuracy": 75
   },
   {
-    "slug": "megapunch",
-    "name": "Mega Punch",
-    "type": "normal",
-    "category": "physical",
-    "basePower": 80,
-    "accuracy": 85
-  },
-  {
     "slug": "memento",
     "name": "Memento",
+    "gen": 3,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "metalburst",
     "name": "Metal Burst",
+    "gen": 4,
     "type": "steel",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "metalclaw",
     "name": "Metal Claw",
+    "gen": 2,
     "type": "steel",
     "category": "physical",
     "basePower": 50,
@@ -2508,20 +2689,15 @@
   {
     "slug": "metalsound",
     "name": "Metal Sound",
+    "gen": 3,
     "type": "steel",
-    "category": "status"
-  },
-  {
-    "slug": "meteorbeam",
-    "name": "Meteor Beam",
-    "type": "rock",
-    "category": "special",
-    "basePower": 120,
-    "accuracy": 90
+    "category": "status",
+    "accuracy": 85
   },
   {
     "slug": "meteormash",
     "name": "Meteor Mash",
+    "gen": 3,
     "type": "steel",
     "category": "physical",
     "basePower": 90,
@@ -2530,58 +2706,58 @@
   {
     "slug": "metronome",
     "name": "Metronome",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "milkdrink",
     "name": "Milk Drink",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "mimic",
     "name": "Mimic",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "minimize",
     "name": "Minimize",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "mirrorcoat",
     "name": "Mirror Coat",
+    "gen": 2,
     "type": "psychic",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "mist",
     "name": "Mist",
+    "gen": 1,
     "type": "ice",
     "category": "status"
   },
   {
-    "slug": "mistyexplosion",
-    "name": "Misty Explosion",
-    "type": "fairy",
-    "category": "special",
-    "basePower": 100,
-    "accuracy": 100
-  },
-  {
     "slug": "mistyterrain",
     "name": "Misty Terrain",
+    "gen": 6,
     "type": "fairy",
     "category": "status"
   },
   {
     "slug": "moonblast",
     "name": "Moonblast",
+    "gen": 6,
     "type": "fairy",
     "category": "special",
     "basePower": 95,
@@ -2590,34 +2766,30 @@
   {
     "slug": "moonlight",
     "name": "Moonlight",
+    "gen": 2,
     "type": "fairy",
     "category": "status"
   },
   {
     "slug": "morningsun",
     "name": "Morning Sun",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "mortalspin",
     "name": "Mortal Spin",
+    "gen": 9,
     "type": "poison",
     "category": "physical",
     "basePower": 30,
     "accuracy": 100
   },
   {
-    "slug": "mountaingale",
-    "name": "Mountain Gale",
-    "type": "ice",
-    "category": "physical",
-    "basePower": 100,
-    "accuracy": 85
-  },
-  {
     "slug": "muddywater",
     "name": "Muddy Water",
+    "gen": 3,
     "type": "water",
     "category": "special",
     "basePower": 90,
@@ -2626,6 +2798,7 @@
   {
     "slug": "mudshot",
     "name": "Mud Shot",
+    "gen": 3,
     "type": "ground",
     "category": "special",
     "basePower": 55,
@@ -2634,6 +2807,7 @@
   {
     "slug": "mudslap",
     "name": "Mud-Slap",
+    "gen": 2,
     "type": "ground",
     "category": "special",
     "basePower": 20,
@@ -2642,6 +2816,7 @@
   {
     "slug": "mysticalfire",
     "name": "Mystical Fire",
+    "gen": 6,
     "type": "fire",
     "category": "special",
     "basePower": 75,
@@ -2650,6 +2825,7 @@
   {
     "slug": "mysticalpower",
     "name": "Mystical Power",
+    "gen": 9,
     "type": "psychic",
     "category": "special",
     "basePower": 70,
@@ -2658,12 +2834,14 @@
   {
     "slug": "nastyplot",
     "name": "Nasty Plot",
+    "gen": 4,
     "type": "dark",
     "category": "status"
   },
   {
     "slug": "nightdaze",
     "name": "Night Daze",
+    "gen": 5,
     "type": "dark",
     "category": "special",
     "basePower": 85,
@@ -2672,14 +2850,16 @@
   {
     "slug": "nightshade",
     "name": "Night Shade",
+    "gen": 1,
     "type": "ghost",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "nightslash",
     "name": "Night Slash",
+    "gen": 4,
     "type": "dark",
     "category": "physical",
     "basePower": 70,
@@ -2688,26 +2868,22 @@
   {
     "slug": "nobleroar",
     "name": "Noble Roar",
+    "gen": 6,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "noretreat",
     "name": "No Retreat",
+    "gen": 8,
     "type": "fighting",
     "category": "status"
   },
   {
-    "slug": "noxioustorque",
-    "name": "Noxious Torque",
-    "type": "poison",
-    "category": "physical",
-    "basePower": 100,
-    "accuracy": 100
-  },
-  {
     "slug": "nuzzle",
     "name": "Nuzzle",
+    "gen": 6,
     "type": "electric",
     "category": "physical",
     "basePower": 20,
@@ -2716,6 +2892,7 @@
   {
     "slug": "orderup",
     "name": "Order Up",
+    "gen": 9,
     "type": "dragon",
     "category": "physical",
     "basePower": 80,
@@ -2724,6 +2901,7 @@
   {
     "slug": "originpulse",
     "name": "Origin Pulse",
+    "gen": 6,
     "type": "water",
     "category": "special",
     "basePower": 110,
@@ -2732,6 +2910,7 @@
   {
     "slug": "outrage",
     "name": "Outrage",
+    "gen": 2,
     "type": "dragon",
     "category": "physical",
     "basePower": 120,
@@ -2740,6 +2919,7 @@
   {
     "slug": "overdrive",
     "name": "Overdrive",
+    "gen": 8,
     "type": "electric",
     "category": "special",
     "basePower": 80,
@@ -2748,6 +2928,7 @@
   {
     "slug": "overheat",
     "name": "Overheat",
+    "gen": 3,
     "type": "fire",
     "category": "special",
     "basePower": 130,
@@ -2756,12 +2937,14 @@
   {
     "slug": "painsplit",
     "name": "Pain Split",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "paraboliccharge",
     "name": "Parabolic Charge",
+    "gen": 6,
     "type": "electric",
     "category": "special",
     "basePower": 65,
@@ -2770,12 +2953,15 @@
   {
     "slug": "partingshot",
     "name": "Parting Shot",
+    "gen": 6,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "payback",
     "name": "Payback",
+    "gen": 4,
     "type": "dark",
     "category": "physical",
     "basePower": 50,
@@ -2784,6 +2970,7 @@
   {
     "slug": "payday",
     "name": "Pay Day",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 40,
@@ -2792,6 +2979,7 @@
   {
     "slug": "peck",
     "name": "Peck",
+    "gen": 1,
     "type": "flying",
     "category": "physical",
     "basePower": 35,
@@ -2800,12 +2988,14 @@
   {
     "slug": "perishsong",
     "name": "Perish Song",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "petalblizzard",
     "name": "Petal Blizzard",
+    "gen": 6,
     "type": "grass",
     "category": "physical",
     "basePower": 90,
@@ -2814,6 +3004,7 @@
   {
     "slug": "petaldance",
     "name": "Petal Dance",
+    "gen": 1,
     "type": "grass",
     "category": "special",
     "basePower": 120,
@@ -2822,6 +3013,7 @@
   {
     "slug": "phantomforce",
     "name": "Phantom Force",
+    "gen": 6,
     "type": "ghost",
     "category": "physical",
     "basePower": 90,
@@ -2830,6 +3022,7 @@
   {
     "slug": "pinmissile",
     "name": "Pin Missile",
+    "gen": 1,
     "type": "bug",
     "category": "physical",
     "basePower": 25,
@@ -2838,12 +3031,14 @@
   {
     "slug": "playnice",
     "name": "Play Nice",
+    "gen": 6,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "playrough",
     "name": "Play Rough",
+    "gen": 6,
     "type": "fairy",
     "category": "physical",
     "basePower": 90,
@@ -2852,6 +3047,7 @@
   {
     "slug": "pluck",
     "name": "Pluck",
+    "gen": 4,
     "type": "flying",
     "category": "physical",
     "basePower": 60,
@@ -2860,6 +3056,7 @@
   {
     "slug": "poisonfang",
     "name": "Poison Fang",
+    "gen": 3,
     "type": "poison",
     "category": "physical",
     "basePower": 50,
@@ -2868,12 +3065,15 @@
   {
     "slug": "poisongas",
     "name": "Poison Gas",
+    "gen": 1,
     "type": "poison",
-    "category": "status"
+    "category": "status",
+    "accuracy": 90
   },
   {
     "slug": "poisonjab",
     "name": "Poison Jab",
+    "gen": 4,
     "type": "poison",
     "category": "physical",
     "basePower": 80,
@@ -2882,12 +3082,15 @@
   {
     "slug": "poisonpowder",
     "name": "Poison Powder",
+    "gen": 1,
     "type": "poison",
-    "category": "status"
+    "category": "status",
+    "accuracy": 75
   },
   {
     "slug": "poisonsting",
     "name": "Poison Sting",
+    "gen": 1,
     "type": "poison",
     "category": "physical",
     "basePower": 15,
@@ -2896,6 +3099,7 @@
   {
     "slug": "poisontail",
     "name": "Poison Tail",
+    "gen": 3,
     "type": "poison",
     "category": "physical",
     "basePower": 50,
@@ -2904,22 +3108,16 @@
   {
     "slug": "pollenpuff",
     "name": "Pollen Puff",
+    "gen": 7,
     "type": "bug",
     "category": "special",
     "basePower": 90,
     "accuracy": 100
   },
   {
-    "slug": "poltergeist",
-    "name": "Poltergeist",
-    "type": "ghost",
-    "category": "physical",
-    "basePower": 110,
-    "accuracy": 90
-  },
-  {
     "slug": "populationbomb",
     "name": "Population Bomb",
+    "gen": 9,
     "type": "normal",
     "category": "physical",
     "basePower": 20,
@@ -2928,6 +3126,7 @@
   {
     "slug": "pounce",
     "name": "Pounce",
+    "gen": 9,
     "type": "bug",
     "category": "physical",
     "basePower": 50,
@@ -2936,6 +3135,7 @@
   {
     "slug": "pound",
     "name": "Pound",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 40,
@@ -2944,6 +3144,7 @@
   {
     "slug": "powdersnow",
     "name": "Powder Snow",
+    "gen": 2,
     "type": "ice",
     "category": "special",
     "basePower": 40,
@@ -2952,38 +3153,37 @@
   {
     "slug": "powergem",
     "name": "Power Gem",
+    "gen": 4,
     "type": "rock",
     "category": "special",
     "basePower": 80,
     "accuracy": 100
   },
   {
-    "slug": "powershift",
-    "name": "Power Shift",
-    "type": "normal",
-    "category": "status"
-  },
-  {
     "slug": "powersplit",
     "name": "Power Split",
+    "gen": 5,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "powerswap",
     "name": "Power Swap",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "powertrick",
     "name": "Power Trick",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "powertrip",
     "name": "Power Trip",
+    "gen": 7,
     "type": "dark",
     "category": "physical",
     "basePower": 20,
@@ -2992,6 +3192,7 @@
   {
     "slug": "powerwhip",
     "name": "Power Whip",
+    "gen": 4,
     "type": "grass",
     "category": "physical",
     "basePower": 120,
@@ -3000,6 +3201,7 @@
   {
     "slug": "precipiceblades",
     "name": "Precipice Blades",
+    "gen": 6,
     "type": "ground",
     "category": "physical",
     "basePower": 120,
@@ -3008,20 +3210,23 @@
   {
     "slug": "present",
     "name": "Present",
+    "gen": 2,
     "type": "normal",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 90
   },
   {
     "slug": "protect",
     "name": "Protect",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "psybeam",
     "name": "Psybeam",
+    "gen": 1,
     "type": "psychic",
     "category": "special",
     "basePower": 65,
@@ -3030,6 +3235,7 @@
   {
     "slug": "psychic",
     "name": "Psychic",
+    "gen": 1,
     "type": "psychic",
     "category": "special",
     "basePower": 90,
@@ -3038,6 +3244,7 @@
   {
     "slug": "psychicfangs",
     "name": "Psychic Fangs",
+    "gen": 7,
     "type": "psychic",
     "category": "physical",
     "basePower": 85,
@@ -3046,12 +3253,14 @@
   {
     "slug": "psychicterrain",
     "name": "Psychic Terrain",
+    "gen": 7,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "psychocut",
     "name": "Psycho Cut",
+    "gen": 4,
     "type": "psychic",
     "category": "physical",
     "basePower": 70,
@@ -3060,12 +3269,14 @@
   {
     "slug": "psychup",
     "name": "Psych Up",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "psyshieldbash",
     "name": "Psyshield Bash",
+    "gen": 9,
     "type": "psychic",
     "category": "physical",
     "basePower": 70,
@@ -3074,6 +3285,7 @@
   {
     "slug": "psyshock",
     "name": "Psyshock",
+    "gen": 5,
     "type": "psychic",
     "category": "special",
     "basePower": 80,
@@ -3082,6 +3294,7 @@
   {
     "slug": "psystrike",
     "name": "Psystrike",
+    "gen": 5,
     "type": "psychic",
     "category": "special",
     "basePower": 100,
@@ -3090,6 +3303,7 @@
   {
     "slug": "pyroball",
     "name": "Pyro Ball",
+    "gen": 8,
     "type": "fire",
     "category": "physical",
     "basePower": 120,
@@ -3098,12 +3312,15 @@
   {
     "slug": "quash",
     "name": "Quash",
+    "gen": 5,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "quickattack",
     "name": "Quick Attack",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 40,
@@ -3112,18 +3329,21 @@
   {
     "slug": "quickguard",
     "name": "Quick Guard",
+    "gen": 5,
     "type": "fighting",
     "category": "status"
   },
   {
     "slug": "quiverdance",
     "name": "Quiver Dance",
+    "gen": 5,
     "type": "bug",
     "category": "status"
   },
   {
     "slug": "ragefist",
     "name": "Rage Fist",
+    "gen": 9,
     "type": "ghost",
     "category": "physical",
     "basePower": 50,
@@ -3132,12 +3352,14 @@
   {
     "slug": "ragepowder",
     "name": "Rage Powder",
+    "gen": 5,
     "type": "bug",
     "category": "status"
   },
   {
     "slug": "ragingbull",
     "name": "Raging Bull",
+    "gen": 9,
     "type": "normal",
     "category": "physical",
     "basePower": 90,
@@ -3146,6 +3368,7 @@
   {
     "slug": "ragingfury",
     "name": "Raging Fury",
+    "gen": 9,
     "type": "fire",
     "category": "physical",
     "basePower": 120,
@@ -3154,12 +3377,14 @@
   {
     "slug": "raindance",
     "name": "Rain Dance",
+    "gen": 2,
     "type": "water",
     "category": "status"
   },
   {
     "slug": "rapidspin",
     "name": "Rapid Spin",
+    "gen": 2,
     "type": "normal",
     "category": "physical",
     "basePower": 50,
@@ -3168,6 +3393,7 @@
   {
     "slug": "razorleaf",
     "name": "Razor Leaf",
+    "gen": 1,
     "type": "grass",
     "category": "physical",
     "basePower": 55,
@@ -3176,6 +3402,7 @@
   {
     "slug": "razorshell",
     "name": "Razor Shell",
+    "gen": 5,
     "type": "water",
     "category": "physical",
     "basePower": 75,
@@ -3184,30 +3411,35 @@
   {
     "slug": "recover",
     "name": "Recover",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "recycle",
     "name": "Recycle",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "reflect",
     "name": "Reflect",
+    "gen": 1,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "reflecttype",
     "name": "Reflect Type",
+    "gen": 5,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "relicsong",
     "name": "Relic Song",
+    "gen": 5,
     "type": "normal",
     "category": "special",
     "basePower": 75,
@@ -3216,12 +3448,14 @@
   {
     "slug": "rest",
     "name": "Rest",
+    "gen": 1,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "retaliate",
     "name": "Retaliate",
+    "gen": 5,
     "type": "normal",
     "category": "physical",
     "basePower": 70,
@@ -3230,6 +3464,7 @@
   {
     "slug": "revelationdance",
     "name": "Revelation Dance",
+    "gen": 7,
     "type": "normal",
     "category": "special",
     "basePower": 90,
@@ -3238,34 +3473,30 @@
   {
     "slug": "reversal",
     "name": "Reversal",
+    "gen": 2,
     "type": "fighting",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "revivalblessing",
     "name": "Revival Blessing",
+    "gen": 9,
     "type": "normal",
     "category": "status"
   },
   {
-    "slug": "risingvoltage",
-    "name": "Rising Voltage",
-    "type": "electric",
-    "category": "special",
-    "basePower": 70,
-    "accuracy": 100
-  },
-  {
     "slug": "roar",
     "name": "Roar",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "roaroftime",
     "name": "Roar of Time",
+    "gen": 4,
     "type": "dragon",
     "category": "special",
     "basePower": 150,
@@ -3274,6 +3505,7 @@
   {
     "slug": "rockblast",
     "name": "Rock Blast",
+    "gen": 3,
     "type": "rock",
     "category": "physical",
     "basePower": 25,
@@ -3282,12 +3514,14 @@
   {
     "slug": "rockpolish",
     "name": "Rock Polish",
+    "gen": 4,
     "type": "rock",
     "category": "status"
   },
   {
     "slug": "rockslide",
     "name": "Rock Slide",
+    "gen": 1,
     "type": "rock",
     "category": "physical",
     "basePower": 75,
@@ -3296,6 +3530,7 @@
   {
     "slug": "rocksmash",
     "name": "Rock Smash",
+    "gen": 2,
     "type": "fighting",
     "category": "physical",
     "basePower": 40,
@@ -3304,6 +3539,7 @@
   {
     "slug": "rockthrow",
     "name": "Rock Throw",
+    "gen": 1,
     "type": "rock",
     "category": "physical",
     "basePower": 50,
@@ -3312,6 +3548,7 @@
   {
     "slug": "rocktomb",
     "name": "Rock Tomb",
+    "gen": 3,
     "type": "rock",
     "category": "physical",
     "basePower": 60,
@@ -3320,12 +3557,14 @@
   {
     "slug": "roleplay",
     "name": "Role Play",
+    "gen": 3,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "rollout",
     "name": "Rollout",
+    "gen": 2,
     "type": "rock",
     "category": "physical",
     "basePower": 30,
@@ -3334,12 +3573,14 @@
   {
     "slug": "roost",
     "name": "Roost",
+    "gen": 4,
     "type": "flying",
     "category": "status"
   },
   {
     "slug": "round",
     "name": "Round",
+    "gen": 5,
     "type": "normal",
     "category": "special",
     "basePower": 60,
@@ -3348,14 +3589,16 @@
   {
     "slug": "ruination",
     "name": "Ruination",
+    "gen": 9,
     "type": "dark",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 90
   },
   {
     "slug": "sacredsword",
     "name": "Sacred Sword",
+    "gen": 5,
     "type": "fighting",
     "category": "physical",
     "basePower": 90,
@@ -3364,12 +3607,14 @@
   {
     "slug": "safeguard",
     "name": "Safeguard",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "saltcure",
     "name": "Salt Cure",
+    "gen": 9,
     "type": "rock",
     "category": "physical",
     "basePower": 40,
@@ -3378,12 +3623,15 @@
   {
     "slug": "sandattack",
     "name": "Sand Attack",
+    "gen": 1,
     "type": "ground",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "sandsearstorm",
     "name": "Sandsear Storm",
+    "gen": 9,
     "type": "ground",
     "category": "special",
     "basePower": 100,
@@ -3392,12 +3640,14 @@
   {
     "slug": "sandstorm",
     "name": "Sandstorm",
+    "gen": 2,
     "type": "rock",
     "category": "status"
   },
   {
     "slug": "sandtomb",
     "name": "Sand Tomb",
+    "gen": 3,
     "type": "ground",
     "category": "physical",
     "basePower": 35,
@@ -3406,6 +3656,7 @@
   {
     "slug": "scald",
     "name": "Scald",
+    "gen": 5,
     "type": "water",
     "category": "special",
     "basePower": 80,
@@ -3414,6 +3665,7 @@
   {
     "slug": "scaleshot",
     "name": "Scale Shot",
+    "gen": 8,
     "type": "dragon",
     "category": "physical",
     "basePower": 25,
@@ -3422,20 +3674,15 @@
   {
     "slug": "scaryface",
     "name": "Scary Face",
+    "gen": 2,
     "type": "normal",
-    "category": "status"
-  },
-  {
-    "slug": "scorchingsands",
-    "name": "Scorching Sands",
-    "type": "ground",
-    "category": "special",
-    "basePower": 70,
+    "category": "status",
     "accuracy": 100
   },
   {
     "slug": "scratch",
     "name": "Scratch",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 40,
@@ -3444,12 +3691,15 @@
   {
     "slug": "screech",
     "name": "Screech",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 85
   },
   {
     "slug": "seedbomb",
     "name": "Seed Bomb",
+    "gen": 4,
     "type": "grass",
     "category": "physical",
     "basePower": 80,
@@ -3458,14 +3708,16 @@
   {
     "slug": "seismictoss",
     "name": "Seismic Toss",
+    "gen": 1,
     "type": "fighting",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "selfdestruct",
     "name": "Self-Destruct",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 200,
@@ -3474,6 +3726,7 @@
   {
     "slug": "shadowball",
     "name": "Shadow Ball",
+    "gen": 2,
     "type": "ghost",
     "category": "special",
     "basePower": 80,
@@ -3482,6 +3735,7 @@
   {
     "slug": "shadowclaw",
     "name": "Shadow Claw",
+    "gen": 4,
     "type": "ghost",
     "category": "physical",
     "basePower": 70,
@@ -3490,6 +3744,7 @@
   {
     "slug": "shadowforce",
     "name": "Shadow Force",
+    "gen": 4,
     "type": "ghost",
     "category": "physical",
     "basePower": 120,
@@ -3498,14 +3753,15 @@
   {
     "slug": "shadowpunch",
     "name": "Shadow Punch",
+    "gen": 3,
     "type": "ghost",
     "category": "physical",
-    "basePower": 60,
-    "accuracy": 101
+    "basePower": 60
   },
   {
     "slug": "shadowsneak",
     "name": "Shadow Sneak",
+    "gen": 4,
     "type": "ghost",
     "category": "physical",
     "basePower": 40,
@@ -3514,20 +3770,23 @@
   {
     "slug": "shedtail",
     "name": "Shed Tail",
+    "gen": 9,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "sheercold",
     "name": "Sheer Cold",
+    "gen": 3,
     "type": "ice",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 30
   },
   {
     "slug": "shellsidearm",
     "name": "Shell Side Arm",
+    "gen": 8,
     "type": "poison",
     "category": "special",
     "basePower": 90,
@@ -3536,62 +3795,73 @@
   {
     "slug": "shellsmash",
     "name": "Shell Smash",
+    "gen": 5,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "shelter",
     "name": "Shelter",
+    "gen": 9,
     "type": "steel",
     "category": "status"
   },
   {
     "slug": "shiftgear",
     "name": "Shift Gear",
+    "gen": 5,
     "type": "steel",
     "category": "status"
   },
   {
     "slug": "shockwave",
     "name": "Shock Wave",
+    "gen": 3,
     "type": "electric",
     "category": "special",
-    "basePower": 60,
-    "accuracy": 101
+    "basePower": 60
   },
   {
     "slug": "shoreup",
     "name": "Shore Up",
+    "gen": 7,
     "type": "ground",
     "category": "status"
   },
   {
     "slug": "silktrap",
     "name": "Silk Trap",
+    "gen": 9,
     "type": "bug",
     "category": "status"
   },
   {
     "slug": "simplebeam",
     "name": "Simple Beam",
+    "gen": 5,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "sing",
     "name": "Sing",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 55
   },
   {
     "slug": "skillswap",
     "name": "Skill Swap",
+    "gen": 3,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "skittersmack",
     "name": "Skitter Smack",
+    "gen": 8,
     "type": "bug",
     "category": "physical",
     "basePower": 70,
@@ -3600,6 +3870,7 @@
   {
     "slug": "skyattack",
     "name": "Sky Attack",
+    "gen": 1,
     "type": "flying",
     "category": "physical",
     "basePower": 140,
@@ -3608,12 +3879,14 @@
   {
     "slug": "slackoff",
     "name": "Slack Off",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "slam",
     "name": "Slam",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 80,
@@ -3622,6 +3895,7 @@
   {
     "slug": "slash",
     "name": "Slash",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 70,
@@ -3630,18 +3904,22 @@
   {
     "slug": "sleeppowder",
     "name": "Sleep Powder",
+    "gen": 1,
     "type": "grass",
-    "category": "status"
+    "category": "status",
+    "accuracy": 75
   },
   {
     "slug": "sleeptalk",
     "name": "Sleep Talk",
+    "gen": 2,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "sludge",
     "name": "Sludge",
+    "gen": 1,
     "type": "poison",
     "category": "special",
     "basePower": 65,
@@ -3650,6 +3928,7 @@
   {
     "slug": "sludgebomb",
     "name": "Sludge Bomb",
+    "gen": 2,
     "type": "poison",
     "category": "special",
     "basePower": 90,
@@ -3658,6 +3937,7 @@
   {
     "slug": "sludgewave",
     "name": "Sludge Wave",
+    "gen": 5,
     "type": "poison",
     "category": "special",
     "basePower": 95,
@@ -3666,6 +3946,7 @@
   {
     "slug": "smackdown",
     "name": "Smack Down",
+    "gen": 5,
     "type": "rock",
     "category": "physical",
     "basePower": 50,
@@ -3674,14 +3955,15 @@
   {
     "slug": "smartstrike",
     "name": "Smart Strike",
+    "gen": 7,
     "type": "steel",
     "category": "physical",
-    "basePower": 70,
-    "accuracy": 101
+    "basePower": 70
   },
   {
     "slug": "smog",
     "name": "Smog",
+    "gen": 1,
     "type": "poison",
     "category": "special",
     "basePower": 30,
@@ -3690,12 +3972,15 @@
   {
     "slug": "smokescreen",
     "name": "Smokescreen",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "snarl",
     "name": "Snarl",
+    "gen": 5,
     "type": "dark",
     "category": "special",
     "basePower": 55,
@@ -3704,6 +3989,7 @@
   {
     "slug": "snipeshot",
     "name": "Snipe Shot",
+    "gen": 8,
     "type": "water",
     "category": "special",
     "basePower": 80,
@@ -3712,6 +3998,7 @@
   {
     "slug": "snore",
     "name": "Snore",
+    "gen": 2,
     "type": "normal",
     "category": "special",
     "basePower": 50,
@@ -3720,24 +4007,29 @@
   {
     "slug": "snowscape",
     "name": "Snowscape",
+    "gen": 9,
     "type": "ice",
     "category": "status"
   },
   {
     "slug": "soak",
     "name": "Soak",
+    "gen": 5,
     "type": "water",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "softboiled",
     "name": "Soft-Boiled",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "solarbeam",
     "name": "Solar Beam",
+    "gen": 1,
     "type": "grass",
     "category": "special",
     "basePower": 120,
@@ -3746,6 +4038,7 @@
   {
     "slug": "solarblade",
     "name": "Solar Blade",
+    "gen": 7,
     "type": "grass",
     "category": "physical",
     "basePower": 125,
@@ -3754,6 +4047,7 @@
   {
     "slug": "spacialrend",
     "name": "Spacial Rend",
+    "gen": 4,
     "type": "dragon",
     "category": "special",
     "basePower": 100,
@@ -3762,6 +4056,7 @@
   {
     "slug": "spark",
     "name": "Spark",
+    "gen": 2,
     "type": "electric",
     "category": "physical",
     "basePower": 65,
@@ -3770,30 +4065,35 @@
   {
     "slug": "speedswap",
     "name": "Speed Swap",
+    "gen": 7,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "spicyextract",
     "name": "Spicy Extract",
+    "gen": 9,
     "type": "grass",
     "category": "status"
   },
   {
     "slug": "spikes",
     "name": "Spikes",
+    "gen": 2,
     "type": "ground",
     "category": "status"
   },
   {
     "slug": "spikyshield",
     "name": "Spiky Shield",
+    "gen": 6,
     "type": "grass",
     "category": "status"
   },
   {
     "slug": "spinout",
     "name": "Spin Out",
+    "gen": 9,
     "type": "steel",
     "category": "physical",
     "basePower": 100,
@@ -3802,6 +4102,7 @@
   {
     "slug": "spiritbreak",
     "name": "Spirit Break",
+    "gen": 8,
     "type": "fairy",
     "category": "physical",
     "basePower": 75,
@@ -3810,6 +4111,7 @@
   {
     "slug": "spiritshackle",
     "name": "Spirit Shackle",
+    "gen": 7,
     "type": "ghost",
     "category": "physical",
     "basePower": 80,
@@ -3818,32 +4120,39 @@
   {
     "slug": "spite",
     "name": "Spite",
+    "gen": 2,
     "type": "ghost",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "spitup",
     "name": "Spit Up",
+    "gen": 3,
     "type": "normal",
     "category": "special",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 100
   },
   {
     "slug": "splash",
     "name": "Splash",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "spore",
     "name": "Spore",
+    "gen": 1,
     "type": "grass",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "springtidestorm",
     "name": "Springtide Storm",
+    "gen": 9,
     "type": "fairy",
     "category": "special",
     "basePower": 100,
@@ -3852,12 +4161,14 @@
   {
     "slug": "stealthrock",
     "name": "Stealth Rock",
+    "gen": 4,
     "type": "rock",
     "category": "status"
   },
   {
     "slug": "steameruption",
     "name": "Steam Eruption",
+    "gen": 6,
     "type": "water",
     "category": "special",
     "basePower": 110,
@@ -3866,6 +4177,7 @@
   {
     "slug": "steelbeam",
     "name": "Steel Beam",
+    "gen": 8,
     "type": "steel",
     "category": "special",
     "basePower": 140,
@@ -3874,6 +4186,7 @@
   {
     "slug": "steelroller",
     "name": "Steel Roller",
+    "gen": 8,
     "type": "steel",
     "category": "physical",
     "basePower": 130,
@@ -3882,6 +4195,7 @@
   {
     "slug": "steelwing",
     "name": "Steel Wing",
+    "gen": 2,
     "type": "steel",
     "category": "physical",
     "basePower": 70,
@@ -3890,18 +4204,21 @@
   {
     "slug": "stickyweb",
     "name": "Sticky Web",
+    "gen": 6,
     "type": "bug",
     "category": "status"
   },
   {
     "slug": "stockpile",
     "name": "Stockpile",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "stomp",
     "name": "Stomp",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 65,
@@ -3910,6 +4227,7 @@
   {
     "slug": "stompingtantrum",
     "name": "Stomping Tantrum",
+    "gen": 7,
     "type": "ground",
     "category": "physical",
     "basePower": 75,
@@ -3918,6 +4236,7 @@
   {
     "slug": "stoneaxe",
     "name": "Stone Axe",
+    "gen": 9,
     "type": "rock",
     "category": "physical",
     "basePower": 65,
@@ -3926,6 +4245,7 @@
   {
     "slug": "stoneedge",
     "name": "Stone Edge",
+    "gen": 4,
     "type": "rock",
     "category": "physical",
     "basePower": 100,
@@ -3934,6 +4254,7 @@
   {
     "slug": "storedpower",
     "name": "Stored Power",
+    "gen": 5,
     "type": "psychic",
     "category": "special",
     "basePower": 20,
@@ -3942,6 +4263,7 @@
   {
     "slug": "strength",
     "name": "Strength",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 80,
@@ -3950,26 +4272,31 @@
   {
     "slug": "strengthsap",
     "name": "Strength Sap",
+    "gen": 7,
     "type": "grass",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "stringshot",
     "name": "String Shot",
+    "gen": 1,
     "type": "bug",
-    "category": "status"
+    "category": "status",
+    "accuracy": 95
   },
   {
     "slug": "struggle",
     "name": "Struggle",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
-    "basePower": 50,
-    "accuracy": 101
+    "basePower": 50
   },
   {
     "slug": "strugglebug",
     "name": "Struggle Bug",
+    "gen": 5,
     "type": "bug",
     "category": "special",
     "basePower": 50,
@@ -3978,24 +4305,29 @@
   {
     "slug": "stuffcheeks",
     "name": "Stuff Cheeks",
+    "gen": 8,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "stunspore",
     "name": "Stun Spore",
+    "gen": 1,
     "type": "grass",
-    "category": "status"
+    "category": "status",
+    "accuracy": 75
   },
   {
     "slug": "substitute",
     "name": "Substitute",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "suckerpunch",
     "name": "Sucker Punch",
+    "gen": 4,
     "type": "dark",
     "category": "physical",
     "basePower": 70,
@@ -4004,20 +4336,23 @@
   {
     "slug": "sunnyday",
     "name": "Sunny Day",
+    "gen": 2,
     "type": "fire",
     "category": "status"
   },
   {
     "slug": "superfang",
     "name": "Super Fang",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
-    "basePower": 1,
+    "basePower": 0,
     "accuracy": 90
   },
   {
     "slug": "superpower",
     "name": "Superpower",
+    "gen": 3,
     "type": "fighting",
     "category": "physical",
     "basePower": 120,
@@ -4026,12 +4361,15 @@
   {
     "slug": "supersonic",
     "name": "Supersonic",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 55
   },
   {
     "slug": "surf",
     "name": "Surf",
+    "gen": 1,
     "type": "water",
     "category": "special",
     "basePower": 90,
@@ -4040,6 +4378,7 @@
   {
     "slug": "surgingstrikes",
     "name": "Surging Strikes",
+    "gen": 8,
     "type": "water",
     "category": "physical",
     "basePower": 25,
@@ -4048,84 +4387,92 @@
   {
     "slug": "swagger",
     "name": "Swagger",
+    "gen": 2,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 85
   },
   {
     "slug": "swallow",
     "name": "Swallow",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "sweetkiss",
     "name": "Sweet Kiss",
+    "gen": 2,
     "type": "fairy",
-    "category": "status"
+    "category": "status",
+    "accuracy": 75
   },
   {
     "slug": "sweetscent",
     "name": "Sweet Scent",
+    "gen": 2,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "swift",
     "name": "Swift",
+    "gen": 1,
     "type": "normal",
     "category": "special",
-    "basePower": 60,
-    "accuracy": 101
+    "basePower": 60
   },
   {
     "slug": "switcheroo",
     "name": "Switcheroo",
+    "gen": 4,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "swordsdance",
     "name": "Swords Dance",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "synthesis",
     "name": "Synthesis",
+    "gen": 2,
     "type": "grass",
     "category": "status"
   },
   {
     "slug": "tackle",
     "name": "Tackle",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 40,
     "accuracy": 100
   },
   {
-    "slug": "tailslap",
-    "name": "Tail Slap",
-    "type": "normal",
-    "category": "physical",
-    "basePower": 25,
-    "accuracy": 85
-  },
-  {
     "slug": "tailwhip",
     "name": "Tail Whip",
+    "gen": 1,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "tailwind",
     "name": "Tailwind",
+    "gen": 4,
     "type": "flying",
     "category": "status"
   },
   {
     "slug": "takedown",
     "name": "Take Down",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 90,
@@ -4134,42 +4481,52 @@
   {
     "slug": "tarshot",
     "name": "Tar Shot",
+    "gen": 8,
     "type": "rock",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "taunt",
     "name": "Taunt",
+    "gen": 3,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "tearfullook",
     "name": "Tearful Look",
+    "gen": 7,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "teatime",
     "name": "Teatime",
+    "gen": 8,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "teeterdance",
     "name": "Teeter Dance",
+    "gen": 3,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "teleport",
     "name": "Teleport",
+    "gen": 1,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "terablast",
     "name": "Tera Blast",
+    "gen": 9,
     "type": "normal",
     "category": "special",
     "basePower": 80,
@@ -4178,6 +4535,7 @@
   {
     "slug": "terrainpulse",
     "name": "Terrain Pulse",
+    "gen": 8,
     "type": "normal",
     "category": "special",
     "basePower": 50,
@@ -4186,6 +4544,7 @@
   {
     "slug": "thief",
     "name": "Thief",
+    "gen": 2,
     "type": "dark",
     "category": "physical",
     "basePower": 60,
@@ -4194,6 +4553,7 @@
   {
     "slug": "thrash",
     "name": "Thrash",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 120,
@@ -4202,6 +4562,7 @@
   {
     "slug": "throatchop",
     "name": "Throat Chop",
+    "gen": 7,
     "type": "dark",
     "category": "physical",
     "basePower": 80,
@@ -4210,6 +4571,7 @@
   {
     "slug": "thunder",
     "name": "Thunder",
+    "gen": 1,
     "type": "electric",
     "category": "special",
     "basePower": 110,
@@ -4218,6 +4580,7 @@
   {
     "slug": "thunderbolt",
     "name": "Thunderbolt",
+    "gen": 1,
     "type": "electric",
     "category": "special",
     "basePower": 90,
@@ -4226,6 +4589,7 @@
   {
     "slug": "thundercage",
     "name": "Thunder Cage",
+    "gen": 8,
     "type": "electric",
     "category": "special",
     "basePower": 80,
@@ -4234,6 +4598,7 @@
   {
     "slug": "thunderfang",
     "name": "Thunder Fang",
+    "gen": 4,
     "type": "electric",
     "category": "physical",
     "basePower": 65,
@@ -4242,6 +4607,7 @@
   {
     "slug": "thunderouskick",
     "name": "Thunderous Kick",
+    "gen": 8,
     "type": "fighting",
     "category": "physical",
     "basePower": 90,
@@ -4250,6 +4616,7 @@
   {
     "slug": "thunderpunch",
     "name": "Thunder Punch",
+    "gen": 1,
     "type": "electric",
     "category": "physical",
     "basePower": 75,
@@ -4258,6 +4625,7 @@
   {
     "slug": "thundershock",
     "name": "Thunder Shock",
+    "gen": 1,
     "type": "electric",
     "category": "special",
     "basePower": 40,
@@ -4266,24 +4634,30 @@
   {
     "slug": "thunderwave",
     "name": "Thunder Wave",
+    "gen": 1,
     "type": "electric",
-    "category": "status"
+    "category": "status",
+    "accuracy": 90
   },
   {
     "slug": "tickle",
     "name": "Tickle",
+    "gen": 3,
     "type": "normal",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "tidyup",
     "name": "Tidy Up",
+    "gen": 9,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "torchsong",
     "name": "Torch Song",
+    "gen": 9,
     "type": "fire",
     "category": "special",
     "basePower": 80,
@@ -4292,24 +4666,30 @@
   {
     "slug": "torment",
     "name": "Torment",
+    "gen": 3,
     "type": "dark",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "toxic",
     "name": "Toxic",
+    "gen": 1,
     "type": "poison",
-    "category": "status"
+    "category": "status",
+    "accuracy": 90
   },
   {
     "slug": "toxicspikes",
     "name": "Toxic Spikes",
+    "gen": 4,
     "type": "poison",
     "category": "status"
   },
   {
     "slug": "trailblaze",
     "name": "Trailblaze",
+    "gen": 9,
     "type": "grass",
     "category": "physical",
     "basePower": 50,
@@ -4318,12 +4698,14 @@
   {
     "slug": "transform",
     "name": "Transform",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "triattack",
     "name": "Tri Attack",
+    "gen": 1,
     "type": "normal",
     "category": "special",
     "basePower": 80,
@@ -4332,34 +4714,22 @@
   {
     "slug": "trick",
     "name": "Trick",
+    "gen": 3,
     "type": "psychic",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "trickroom",
     "name": "Trick Room",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
   {
-    "slug": "triplearrows",
-    "name": "Triple Arrows",
-    "type": "fighting",
-    "category": "physical",
-    "basePower": 90,
-    "accuracy": 100
-  },
-  {
-    "slug": "tripleaxel",
-    "name": "Triple Axel",
-    "type": "ice",
-    "category": "physical",
-    "basePower": 20,
-    "accuracy": 90
-  },
-  {
     "slug": "tripledive",
     "name": "Triple Dive",
+    "gen": 9,
     "type": "water",
     "category": "physical",
     "basePower": 30,
@@ -4368,6 +4738,7 @@
   {
     "slug": "tropkick",
     "name": "Trop Kick",
+    "gen": 7,
     "type": "grass",
     "category": "physical",
     "basePower": 70,
@@ -4376,6 +4747,7 @@
   {
     "slug": "twinbeam",
     "name": "Twin Beam",
+    "gen": 9,
     "type": "psychic",
     "category": "special",
     "basePower": 40,
@@ -4384,6 +4756,7 @@
   {
     "slug": "twister",
     "name": "Twister",
+    "gen": 2,
     "type": "dragon",
     "category": "special",
     "basePower": 40,
@@ -4392,6 +4765,7 @@
   {
     "slug": "uproar",
     "name": "Uproar",
+    "gen": 3,
     "type": "normal",
     "category": "special",
     "basePower": 90,
@@ -4400,6 +4774,7 @@
   {
     "slug": "uturn",
     "name": "U-turn",
+    "gen": 4,
     "type": "bug",
     "category": "physical",
     "basePower": 70,
@@ -4408,22 +4783,16 @@
   {
     "slug": "vacuumwave",
     "name": "Vacuum Wave",
+    "gen": 4,
     "type": "fighting",
     "category": "special",
     "basePower": 40,
     "accuracy": 100
   },
   {
-    "slug": "vcreate",
-    "name": "V-create",
-    "type": "fire",
-    "category": "physical",
-    "basePower": 180,
-    "accuracy": 95
-  },
-  {
     "slug": "venoshock",
     "name": "Venoshock",
+    "gen": 5,
     "type": "poison",
     "category": "special",
     "basePower": 65,
@@ -4432,12 +4801,14 @@
   {
     "slug": "victorydance",
     "name": "Victory Dance",
+    "gen": 9,
     "type": "fighting",
     "category": "status"
   },
   {
     "slug": "vinewhip",
     "name": "Vine Whip",
+    "gen": 1,
     "type": "grass",
     "category": "physical",
     "basePower": 45,
@@ -4446,6 +4817,7 @@
   {
     "slug": "visegrip",
     "name": "Vise Grip",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 55,
@@ -4454,22 +4826,16 @@
   {
     "slug": "voltswitch",
     "name": "Volt Switch",
+    "gen": 5,
     "type": "electric",
     "category": "special",
     "basePower": 70,
     "accuracy": 100
   },
   {
-    "slug": "volttackle",
-    "name": "Volt Tackle",
-    "type": "electric",
-    "category": "physical",
-    "basePower": 120,
-    "accuracy": 100
-  },
-  {
     "slug": "waterfall",
     "name": "Waterfall",
+    "gen": 1,
     "type": "water",
     "category": "physical",
     "basePower": 80,
@@ -4478,6 +4844,7 @@
   {
     "slug": "watergun",
     "name": "Water Gun",
+    "gen": 1,
     "type": "water",
     "category": "special",
     "basePower": 40,
@@ -4486,6 +4853,7 @@
   {
     "slug": "waterpledge",
     "name": "Water Pledge",
+    "gen": 5,
     "type": "water",
     "category": "special",
     "basePower": 80,
@@ -4494,6 +4862,7 @@
   {
     "slug": "waterpulse",
     "name": "Water Pulse",
+    "gen": 3,
     "type": "water",
     "category": "special",
     "basePower": 60,
@@ -4502,6 +4871,7 @@
   {
     "slug": "watershuriken",
     "name": "Water Shuriken",
+    "gen": 6,
     "type": "water",
     "category": "special",
     "basePower": 15,
@@ -4510,6 +4880,7 @@
   {
     "slug": "waterspout",
     "name": "Water Spout",
+    "gen": 3,
     "type": "water",
     "category": "special",
     "basePower": 150,
@@ -4518,6 +4889,7 @@
   {
     "slug": "wavecrash",
     "name": "Wave Crash",
+    "gen": 9,
     "type": "water",
     "category": "physical",
     "basePower": 120,
@@ -4526,6 +4898,7 @@
   {
     "slug": "weatherball",
     "name": "Weather Ball",
+    "gen": 3,
     "type": "normal",
     "category": "special",
     "basePower": 50,
@@ -4534,6 +4907,7 @@
   {
     "slug": "whirlpool",
     "name": "Whirlpool",
+    "gen": 2,
     "type": "water",
     "category": "special",
     "basePower": 35,
@@ -4542,34 +4916,30 @@
   {
     "slug": "whirlwind",
     "name": "Whirlwind",
+    "gen": 1,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "wickedblow",
     "name": "Wicked Blow",
+    "gen": 8,
     "type": "dark",
     "category": "physical",
     "basePower": 75,
     "accuracy": 100
   },
   {
-    "slug": "wickedtorque",
-    "name": "Wicked Torque",
-    "type": "dark",
-    "category": "physical",
-    "basePower": 80,
-    "accuracy": 100
-  },
-  {
     "slug": "wideguard",
     "name": "Wide Guard",
+    "gen": 5,
     "type": "rock",
     "category": "status"
   },
   {
     "slug": "wildboltstorm",
     "name": "Wildbolt Storm",
+    "gen": 9,
     "type": "electric",
     "category": "special",
     "basePower": 100,
@@ -4578,6 +4948,7 @@
   {
     "slug": "wildcharge",
     "name": "Wild Charge",
+    "gen": 5,
     "type": "electric",
     "category": "physical",
     "basePower": 90,
@@ -4586,12 +4957,15 @@
   {
     "slug": "willowisp",
     "name": "Will-O-Wisp",
+    "gen": 3,
     "type": "fire",
-    "category": "status"
+    "category": "status",
+    "accuracy": 85
   },
   {
     "slug": "wingattack",
     "name": "Wing Attack",
+    "gen": 1,
     "type": "flying",
     "category": "physical",
     "basePower": 60,
@@ -4600,24 +4974,28 @@
   {
     "slug": "wish",
     "name": "Wish",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "withdraw",
     "name": "Withdraw",
+    "gen": 1,
     "type": "water",
     "category": "status"
   },
   {
     "slug": "wonderroom",
     "name": "Wonder Room",
+    "gen": 5,
     "type": "psychic",
     "category": "status"
   },
   {
     "slug": "woodhammer",
     "name": "Wood Hammer",
+    "gen": 4,
     "type": "grass",
     "category": "physical",
     "basePower": 120,
@@ -4626,18 +5004,22 @@
   {
     "slug": "workup",
     "name": "Work Up",
+    "gen": 5,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "worryseed",
     "name": "Worry Seed",
+    "gen": 4,
     "type": "grass",
-    "category": "status"
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "wrap",
     "name": "Wrap",
+    "gen": 1,
     "type": "normal",
     "category": "physical",
     "basePower": 15,
@@ -4646,6 +5028,7 @@
   {
     "slug": "xscissor",
     "name": "X-Scissor",
+    "gen": 4,
     "type": "bug",
     "category": "physical",
     "basePower": 80,
@@ -4654,12 +5037,14 @@
   {
     "slug": "yawn",
     "name": "Yawn",
+    "gen": 3,
     "type": "normal",
     "category": "status"
   },
   {
     "slug": "zapcannon",
     "name": "Zap Cannon",
+    "gen": 2,
     "type": "electric",
     "category": "special",
     "basePower": 120,
@@ -4668,6 +5053,7 @@
   {
     "slug": "zenheadbutt",
     "name": "Zen Headbutt",
+    "gen": 4,
     "type": "psychic",
     "category": "physical",
     "basePower": 80,
@@ -4676,6 +5062,7 @@
   {
     "slug": "zingzap",
     "name": "Zing Zap",
+    "gen": 7,
     "type": "electric",
     "category": "physical",
     "basePower": 80,

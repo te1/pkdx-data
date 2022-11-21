@@ -10,12 +10,12 @@
   "target": "randomNormal",
   "priority": 0,
   "pokemon": [
-    "nidoking",
-    "mankey",
-    "primeape",
     "cubone",
+    "jynx",
+    "mankey",
     "marowak",
-    "jynx"
+    "nidoking",
+    "primeape"
   ],
   "desc": "Whether or not this move is successful, the user spends three or four turns locked into this move and becomes confused immediately after its move on the last turn of the effect, even if it is already confused. If the user is prevented from moving, the effect ends without causing confusion. During the effect, this move's accuracy is overwritten every turn with the current calculated accuracy including stat stage changes, but not to less than 1/256 or more than 255/256.",
   "shortDesc": "Lasts 3-4 turns. Confuses the user afterwards."

@@ -8,15 +8,15 @@
   "target": "self",
   "priority": 0,
   "pokemon": [
-    "leavanny",
     "deerling",
-    "staryu",
-    "starmie",
+    "leavanny",
     "mothim",
-    "sewaddle",
-    "swadloon",
     "sawsbuck",
-    "stunfisk"
+    "sewaddle",
+    "starmie",
+    "staryu",
+    "stunfisk",
+    "swadloon"
   ],
   "desc": "The user's type changes based on the battle terrain. Ground type on the regular Wi-Fi terrain. Fails if the user's type cannot be changed or if the user is already purely that type.",
   "shortDesc": "Changes user's type based on terrain. (Ground)"

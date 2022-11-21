@@ -8,18 +8,18 @@
   "target": "adjacentAllyOrSelf",
   "priority": 0,
   "pokemon": [
+    "croagunk",
     "dodrio",
+    "doduo",
+    "drapion",
+    "maractus",
+    "medicham",
+    "meditite",
+    "shuckle",
+    "skorupi",
     "tentacool",
     "tentacruel",
-    "doduo",
-    "shuckle",
-    "meditite",
-    "medicham",
-    "skorupi",
-    "drapion",
-    "croagunk",
-    "toxicroak",
-    "maractus"
+    "toxicroak"
   ],
   "desc": "Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.",
   "shortDesc": "Raises a random stat of the user or an ally by 2."

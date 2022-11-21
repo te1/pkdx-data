@@ -10,13 +10,13 @@
   "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "entei",
-    "torkoal",
-    "cyndaquil",
-    "quilava",
-    "typhlosion",
     "camerupt",
-    "groudon"
+    "cyndaquil",
+    "entei",
+    "groudon",
+    "quilava",
+    "torkoal",
+    "typhlosion"
   ],
   "desc": "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
   "shortDesc": "Less power as user's HP decreases. Hits foe(s)."

@@ -10,12 +10,12 @@
   "target": "normal",
   "priority": 0,
   "pokemon": [
-    "gengar",
-    "koffing",
-    "weezing",
     "gastly",
+    "gengar",
     "haunter",
-    "misdreavus"
+    "koffing",
+    "misdreavus",
+    "weezing"
   ],
   "desc": "Deals damage to the target equal to a random number from 1 to (user's level * 1.5 - 1), rounded down, but not less than 1 HP.",
   "shortDesc": "Random damage from 1 to (user's level*1.5 - 1)."

@@ -11,7 +11,6 @@ import { exportAbilities } from './export/abilities';
 import { exportGames } from './export/games';
 import { exportPokedex } from './export/pokedex';
 import { exportMachines } from './export/machines';
-import { exportGen9Placeholder } from './export/gen9';
 
 async function main() {
   try {
@@ -53,7 +52,6 @@ async function main() {
       console.log('');
     }
 
-    await exportGen9Placeholder(mergeData);
     await exportMergedData(mergeData);
 
     console.log('done');

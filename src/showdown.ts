@@ -169,7 +169,10 @@ const existsFn = ((d: Data, g: GenerationNum) => {
 
   // include G-Max moves
   const allowNonstandardMove =
-    d.kind === 'Move' && d.isNonstandard && 'Gigantamax' === d.isNonstandard;
+    g === 8 &&
+    d.kind === 'Move' &&
+    d.isNonstandard &&
+    'Gigantamax' === d.isNonstandard;
 
   const allowNonstandard =
     allowNonstandardSpecies ||
@@ -213,7 +216,7 @@ export async function getShowdownData() {
     existsFn
   );
 
-  const genNums: GenerationNum[] = [1, 2, 3, 4, 5, 6, 7, 8];
+  const genNums: GenerationNum[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   const result = [];
 

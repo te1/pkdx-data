@@ -115,7 +115,7 @@ export async function exportMoves(
       // maxMove: hasMaxMoves ? move.maxMove || undefined : undefined,
 
       // isNonstandard: move.isNonstandard || undefined,
-      pokemon: moveMap.get(move.id),
+      pokemon: [...(moveMap.get(move.id) ?? [])].sort(),
       exclusive: exclusivePokemon || undefined,
       desc: move.desc,
       shortDesc: move.shortDesc,
@@ -173,7 +173,7 @@ const keepUnlearnableMoves = ['struggle'];
 function shouldSkipMove(
   moveData: {
     slug: string;
-    pokemon: Set<string> | undefined;
+    pokemon: string[] | undefined;
     isZ: boolean | undefined;
     isMax: boolean | undefined;
     isGmax: boolean | undefined;
@@ -185,7 +185,7 @@ function shouldSkipMove(
   // also keep struggle
 
   if (
-    (!moveData.pokemon || !moveData.pokemon.size) &&
+    (!moveData.pokemon || !moveData.pokemon.length) &&
     (!options.hasZMoves || !moveData.isZ) &&
     (!options.hasMaxMoves || !moveData.isMax) &&
     (!options.hasMaxMoves || !moveData.isGmax) &&

@@ -1,11 +1,12 @@
 {
   "slug": "klefki",
   "name": "Klefki",
-  "num": 240,
+  "num": 707,
   "types": [
     "steel",
     "fairy"
   ],
+  "gen": 6,
   "abilities": {
     "0": "prankster",
     "H": "magician"
@@ -19,10 +20,17 @@
     "spe": 75
   },
   "weight": 3,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Once it absorbs a key's metal ions, it discards the key without a second thought. However, it will hang on to keys it favors for decades."
   },
   "learnset": {
     "astonish": [
@@ -35,8 +43,8 @@
       "M"
     ],
     "drainingkiss": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "endure": [
       "M"
@@ -51,12 +59,12 @@
       "L:8"
     ],
     "flashcannon": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "foulplay": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "gigaimpact": [
       "M"
@@ -65,8 +73,8 @@
       "M"
     ],
     "imprison": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "irondefense": [
       "M"
@@ -90,8 +98,8 @@
       "M"
     ],
     "playrough": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "protect": [
       "M"
@@ -159,6 +167,5 @@
     "trickroom": [
       "M"
     ]
-  },
-  "flavorText": "Once it absorbs a key's metal ions, it discards the key without a second thought. However, it will hang on to keys it favors for decades."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "larvitar",
   "name": "Larvitar",
-  "num": 316,
+  "num": 246,
   "types": [
     "rock",
     "ground"
   ],
+  "gen": 2,
   "abilities": {
     "0": "guts",
     "H": "sandveil"
@@ -18,11 +19,21 @@
     "spd": 50,
     "spe": 41
   },
+  "evos": [
+    "pupitar"
+  ],
   "weight": 72,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain."
   },
   "learnset": {
     "ancientpower": [
@@ -44,8 +55,8 @@
       "M"
     ],
     "crunch": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "curse": [
       "E"
@@ -57,15 +68,15 @@
       "M"
     ],
     "dragondance": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "earthpower": [
       "M"
     ],
     "earthquake": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "endure": [
       "M"
@@ -83,16 +94,16 @@
       "M"
     ],
     "hyperbeam": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "irondefense": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "ironhead": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "leer": [
       "L:1"
@@ -104,8 +115,8 @@
       "M"
     ],
     "outrage": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "payback": [
       "L:6"
@@ -123,8 +134,8 @@
       "M"
     ],
     "rockslide": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "rockthrow": [
       "L:3"
@@ -133,12 +144,12 @@
       "M"
     ],
     "sandstorm": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "scaryface": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "screech": [
       "L:21"
@@ -159,12 +170,12 @@
       "E"
     ],
     "stompingtantrum": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "stoneedge": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "substitute": [
       "M"
@@ -187,6 +198,5 @@
     "thrash": [
       "L:36"
     ]
-  },
-  "flavorText": "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain."
+  }
 }

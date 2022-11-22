@@ -1,11 +1,12 @@
 {
   "slug": "charizard",
   "name": "Charizard",
-  "num": null,
+  "num": 6,
   "types": [
     "fire",
     "flying"
   ],
+  "gen": 1,
   "abilities": {
     "0": "blaze",
     "H": "solarpower"
@@ -18,12 +19,19 @@
     "spd": 85,
     "spe": 100
   },
+  "prevo": "charmeleon",
+  "evoLevel": 36,
   "weight": 90.5,
-  "height": 17,
+  "height": 1.7,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -35,8 +43,17 @@
       "M"
     ],
     "airslash": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
+    ],
+    "ancientpower": [
+      "E@charmander"
+    ],
+    "bellydrum": [
+      "E@charmander"
+    ],
+    "bite": [
+      "E@charmander"
     ],
     "blastburn": [
       "M"
@@ -50,6 +67,9 @@
     "bulldoze": [
       "M"
     ],
+    "counter": [
+      "E@charmander"
+    ],
     "crunch": [
       "M"
     ],
@@ -60,8 +80,8 @@
       "L:12"
     ],
     "dragonclaw": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dragondance": [
       "M"
@@ -69,8 +89,12 @@
     "dragonpulse": [
       "M"
     ],
+    "dragonrush": [
+      "E@charmander"
+    ],
     "dragontail": [
-      "M"
+      "M",
+      "E@charmander"
     ],
     "earthquake": [
       "M"
@@ -84,12 +108,15 @@
     "facade": [
       "M"
     ],
+    "falseswipe": [
+      "M@charmeleon"
+    ],
     "fireblast": [
       "M"
     ],
     "firefang": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "firepledge": [
       "M"
@@ -98,19 +125,19 @@
       "M"
     ],
     "firespin": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "flamecharge": [
       "M"
     ],
     "flamethrower": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "flareblitz": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "fling": [
       "M"
@@ -128,8 +155,8 @@
       "L:1"
     ],
     "heatwave": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "helpinghand": [
       "M"
@@ -142,6 +169,13 @@
     ],
     "inferno": [
       "L:54"
+    ],
+    "irontail": [
+      "E@charmander"
+    ],
+    "metalclaw": [
+      "M@charmander",
+      "E@charmander"
     ],
     "outrage": [
       "M"
@@ -165,8 +199,8 @@
       "M"
     ],
     "scaryface": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "scratch": [
       "L:1"

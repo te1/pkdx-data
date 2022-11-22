@@ -1,13 +1,13 @@
 {
   "slug": "kyogre",
   "name": "Kyogre",
-  "num": null,
+  "num": 382,
   "types": [
     "water"
   ],
+  "gen": 3,
   "abilities": {
-    "0": "drizzle",
-    "H": "drizzle"
+    "0": "drizzle"
   },
   "baseStats": {
     "hp": 100,
@@ -18,8 +18,13 @@
     "spe": 90
   },
   "weight": 352,
-  "height": 45,
-  "genderRatio": {},
+  "height": 4.5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "ancientpower": [
       "L:1"
@@ -37,8 +42,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "brickbreak": [
       "M"
@@ -47,8 +52,8 @@
       "M"
     ],
     "calmmind": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "chillingwater": [
       "M"
@@ -75,15 +80,15 @@
       "M"
     ],
     "hydropump": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "hyperbeam": [
       "M"
     ],
     "icebeam": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "icywind": [
       "M"
@@ -116,8 +121,8 @@
       "M"
     ],
     "scaryface": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "sheercold": [
       "L:45"
@@ -150,8 +155,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "waterspout": [
       "L:90"

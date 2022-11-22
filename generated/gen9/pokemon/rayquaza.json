@@ -1,14 +1,14 @@
 {
   "slug": "rayquaza",
   "name": "Rayquaza",
-  "num": null,
+  "num": 384,
   "types": [
     "dragon",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
-    "0": "airlock",
-    "H": "airlock"
+    "0": "airlock"
   },
   "baseStats": {
     "hp": 105,
@@ -19,15 +19,20 @@
     "spe": 95
   },
   "weight": 206.5,
-  "height": 70,
-  "genderRatio": {},
+  "height": 7,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "aerialace": [
       "M"
     ],
     "airslash": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "ancientpower": [
       "L:1"
@@ -51,8 +56,8 @@
       "M"
     ],
     "crunch": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "dracometeor": [
       "M"
@@ -64,12 +69,12 @@
       "M"
     ],
     "dragondance": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "dragonpulse": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "dragontail": [
       "M"
@@ -102,8 +107,8 @@
       "M"
     ],
     "fly": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "focusblast": [
       "M"
@@ -115,19 +120,19 @@
       "M"
     ],
     "hurricane": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "hydropump": [
       "M"
     ],
     "hyperbeam": [
-      "L:90",
-      "M"
+      "M",
+      "L:90"
     ],
     "hypervoice": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "icebeam": [
       "M"
@@ -139,8 +144,8 @@
       "M"
     ],
     "outrage": [
-      "L:81",
-      "M"
+      "M",
+      "L:81"
     ],
     "overheat": [
       "M"
@@ -152,8 +157,8 @@
       "M"
     ],
     "rest": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "rockslide": [
       "M"
@@ -165,8 +170,8 @@
       "M"
     ],
     "scaryface": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "shadowclaw": [
       "M"

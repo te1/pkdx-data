@@ -1,10 +1,11 @@
 {
   "slug": "flaaffy",
   "name": "Flaaffy",
-  "num": 102,
+  "num": 180,
   "types": [
     "electric"
   ],
+  "gen": 2,
   "abilities": {
     "0": "static",
     "H": "plus"
@@ -17,15 +18,31 @@
     "spd": 60,
     "spe": 45
   },
+  "prevo": "mareep",
+  "evos": [
+    "ampharos"
+  ],
+  "evoLevel": 15,
   "weight": 13.3,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "As a result of storing too much electricity, it developed patches where even downy wool won't grow."
+  },
   "learnset": {
+    "afteryou": [
+      "E@mareep"
+    ],
     "agility": [
-      "M"
+      "M",
+      "E@mareep"
     ],
     "bodyslam": [
       "M"
@@ -40,8 +57,8 @@
       "M"
     ],
     "confuseray": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "cottonguard": [
       "L:43"
@@ -50,8 +67,8 @@
       "L:11"
     ],
     "dazzlinggleam": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "dig": [
       "M"
@@ -60,14 +77,19 @@
       "L:38"
     ],
     "eerieimpulse": [
-      "M"
+      "M",
+      "E@mareep"
     ],
     "electricterrain": [
-      "M"
+      "M",
+      "E@mareep"
     ],
     "electroball": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
+    ],
+    "electroweb": [
+      "E@mareep"
     ],
     "endure": [
       "M"
@@ -77,6 +99,9 @@
     ],
     "firepunch": [
       "M"
+    ],
+    "flatter": [
+      "E@mareep"
     ],
     "fling": [
       "M"
@@ -91,15 +116,15 @@
       "M"
     ],
     "lightscreen": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "lowkick": [
       "M"
     ],
     "powergem": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "protect": [
       "M"
@@ -129,15 +154,15 @@
       "L:1"
     ],
     "takedown": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
     ],
     "thunder": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "thunderbolt": [
       "M"
@@ -149,8 +174,8 @@
       "L:6"
     ],
     "thunderwave": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "trailblaze": [
       "M"
@@ -161,6 +186,5 @@
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "As a result of storing too much electricity, it developed patches where even downy wool won't grow."
+  }
 }

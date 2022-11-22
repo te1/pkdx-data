@@ -1,11 +1,12 @@
 {
   "slug": "dolliv",
   "name": "Dolliv",
-  "num": 85,
+  "num": 936,
   "types": [
     "grass",
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "earlybird",
     "H": "harvest"
@@ -18,11 +19,22 @@
     "spd": 78,
     "spe": 33
   },
+  "prevo": "smoliv",
+  "evos": [
+    "arboliva"
+  ],
+  "evoLevel": 25,
   "weight": 11.9,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone."
   },
   "learnset": {
     "absorb": [
@@ -41,8 +53,8 @@
       "M"
     ],
     "energyball": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "facade": [
       "M"
@@ -57,15 +69,15 @@
       "M"
     ],
     "grassyterrain": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "growth": [
       "L:7"
     ],
     "helpinghand": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "leafstorm": [
       "M"
@@ -79,6 +91,9 @@
     "megadrain": [
       "L:20"
     ],
+    "memento": [
+      "E@smoliv"
+    ],
     "protect": [
       "M"
     ],
@@ -89,14 +104,17 @@
       "M"
     ],
     "seedbomb": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "sleeptalk": [
       "M"
     ],
     "solarbeam": [
       "M"
+    ],
+    "strengthsap": [
+      "E@smoliv"
     ],
     "substitute": [
       "M"
@@ -110,6 +128,9 @@
     "swift": [
       "M"
     ],
+    "synthesis": [
+      "E@smoliv"
+    ],
     "tackle": [
       "L:1"
     ],
@@ -121,7 +142,9 @@
     ],
     "trailblaze": [
       "M"
+    ],
+    "weatherball": [
+      "E@smoliv"
     ]
-  },
-  "flavorText": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone."
+  }
 }

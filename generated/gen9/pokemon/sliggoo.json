@@ -1,10 +1,11 @@
 {
   "slug": "sliggoo",
   "name": "Sliggoo",
-  "num": 173,
+  "num": 705,
   "types": [
     "dragon"
   ],
+  "gen": 6,
   "abilities": {
     "0": "sapsipper",
     "1": "hydration",
@@ -18,11 +19,25 @@
     "spd": 113,
     "spe": 60
   },
+  "prevo": "goomy",
+  "evos": [
+    "goodra"
+  ],
+  "evoLevel": 40,
+  "formes": [
+    "sliggoo-hisui"
+  ],
   "weight": 17.5,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "The swirly protrusion on its back is filled with all its vital organs, such as its brain and heart."
   },
   "learnset": {
     "absorb": [
@@ -32,21 +47,24 @@
       "L:1"
     ],
     "acidspray": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "blizzard": [
       "M"
     ],
     "bodyslam": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "charm": [
       "M"
     ],
     "chillingwater": [
       "M"
+    ],
+    "counter": [
+      "E@goomy"
     ],
     "curse": [
       "L:43"
@@ -58,8 +76,8 @@
       "L:1"
     ],
     "dragonpulse": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "endure": [
       "M"
@@ -73,6 +91,9 @@
     "icebeam": [
       "M"
     ],
+    "lifedew": [
+      "E@goomy"
+    ],
     "muddywater": [
       "L:56"
     ],
@@ -83,12 +104,12 @@
       "M"
     ],
     "protect": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "raindance": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "rest": [
       "M"
@@ -127,9 +148,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ]
-  },
-  "flavorText": "The swirly protrusion on its back is filled with all its vital organs, such as its brain and heart."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "lilligant",
   "name": "Lilligant",
-  "num": 105,
+  "num": 549,
   "types": [
     "grass"
   ],
+  "gen": 5,
   "abilities": {
     "0": "chlorophyll",
     "1": "owntempo",
@@ -18,10 +19,20 @@
     "spd": 75,
     "spe": 90
   },
+  "prevo": "petilil",
+  "evoType": "useItem",
+  "evoItem": "Sun Stone",
+  "formes": [
+    "lilligant-hisui"
+  ],
   "weight": 16.3,
-  "height": 11,
-  "genderRatio": {
-    "F": 1
+  "height": 1.1,
+  "gender": "F",
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult."
   },
   "learnset": {
     "absorb": [
@@ -34,8 +45,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "encore": [
       "M"
@@ -44,8 +55,8 @@
       "M"
     ],
     "energyball": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "entrainment": [
       "L:1"
@@ -54,8 +65,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "gigaimpact": [
       "M"
@@ -69,16 +80,22 @@
     "growth": [
       "L:1"
     ],
+    "healingwish": [
+      "E@petilil"
+    ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
     ],
+    "ingrain": [
+      "E@petilil"
+    ],
     "leafstorm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "leechseed": [
       "L:1"
@@ -87,8 +104,8 @@
       "M"
     ],
     "magicalleaf": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "megadrain": [
       "L:1"
@@ -130,8 +147,11 @@
       "M"
     ],
     "sunnyday": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "sweetscent": [
+      "E@petilil"
     ],
     "swordsdance": [
       "M"
@@ -147,7 +167,9 @@
     ],
     "trailblaze": [
       "M"
+    ],
+    "worryseed": [
+      "E@petilil"
     ]
-  },
-  "flavorText": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "sylveon",
   "name": "Sylveon",
-  "num": 187,
+  "num": 700,
   "types": [
     "fairy"
   ],
+  "gen": 6,
   "abilities": {
     "0": "cutecharm",
     "H": "pixilate"
@@ -17,19 +18,28 @@
     "spd": 130,
     "spe": 60
   },
+  "prevo": "eevee",
+  "evoType": "levelExtra",
+  "evoCondition": "with a Fairy-type move and two levels of Affection",
   "weight": 23.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon uses its ribbonlike feelers to send a soothing aura into its opponents, erasing their hostility."
   },
   "learnset": {
     "babydolleyes": [
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:1"
@@ -41,8 +51,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "copycat": [
       "L:1"
@@ -50,22 +60,31 @@
     "covet": [
       "L:1"
     ],
+    "curse": [
+      "E@eevee"
+    ],
     "dazzlinggleam": [
       "M"
+    ],
+    "detect": [
+      "E@eevee"
     ],
     "dig": [
       "M"
     ],
     "disarmingvoice": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "doubleedge": [
       "L:1"
     ],
+    "doublekick": [
+      "E@eevee"
+    ],
     "drainingkiss": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "endure": [
       "M"
@@ -76,6 +95,9 @@
     "faketears": [
       "M"
     ],
+    "flail": [
+      "E@eevee"
+    ],
     "gigaimpact": [
       "M"
     ],
@@ -83,8 +105,8 @@
       "L:1"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -96,18 +118,22 @@
       "L:55"
     ],
     "lightscreen": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "magicalleaf": [
       "M"
     ],
     "mistyterrain": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "moonblast": [
       "L:50"
+    ],
+    "mudslap": [
+      "M@eevee",
+      "E@eevee"
     ],
     "playrough": [
       "M"
@@ -143,8 +169,8 @@
       "M"
     ],
     "skillswap": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "sleeptalk": [
       "M"
@@ -159,8 +185,8 @@
       "M"
     ],
     "swift": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "tackle": [
       "L:1"
@@ -169,15 +195,23 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
     ],
+    "tickle": [
+      "E@eevee"
+    ],
     "trailblaze": [
       "M"
+    ],
+    "wish": [
+      "E@eevee"
+    ],
+    "yawn": [
+      "E@eevee"
     ]
-  },
-  "flavorText": "This Pokémon uses its ribbonlike feelers to send a soothing aura into its opponents, erasing their hostility."
+  }
 }

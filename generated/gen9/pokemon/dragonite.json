@@ -1,11 +1,12 @@
 {
   "slug": "dragonite",
   "name": "Dragonite",
-  "num": 349,
+  "num": 149,
   "types": [
     "dragon",
     "flying"
   ],
+  "gen": 1,
   "abilities": {
     "0": "innerfocus",
     "H": "multiscale"
@@ -18,25 +19,37 @@
     "spd": 100,
     "spe": 80
   },
+  "prevo": "dragonair",
+  "evoLevel": 55,
   "weight": 210,
-  "height": 22,
+  "height": 2.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It is said that somewhere in the ocean lies an island where these gather. Only they live there."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "aircutter": [
       "M"
     ],
     "airslash": [
       "M"
+    ],
+    "aquajet": [
+      "E@dratini"
     ],
     "aquatail": [
       "L:33"
@@ -62,12 +75,15 @@
     "dracometeor": [
       "M"
     ],
+    "dragonbreath": [
+      "E@dratini"
+    ],
     "dragonclaw": [
       "M"
     ],
     "dragondance": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "dragonpulse": [
       "M"
@@ -76,8 +92,8 @@
       "L:39"
     ],
     "dragontail": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "earthquake": [
       "M"
@@ -89,7 +105,8 @@
       "M"
     ],
     "extremespeed": [
-      "L:1"
+      "L:1",
+      "E@dratini"
     ],
     "facade": [
       "M"
@@ -98,8 +115,8 @@
       "M"
     ],
     "firepunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "firespin": [
       "M"
@@ -126,15 +143,15 @@
       "M"
     ],
     "hurricane": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "hydropump": [
       "M"
     ],
     "hyperbeam": [
-      "L:80",
-      "M"
+      "M",
+      "L:80"
     ],
     "icebeam": [
       "M"
@@ -163,16 +180,19 @@
     "metronome": [
       "M"
     ],
+    "mist": [
+      "E@dratini"
+    ],
     "outrage": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "protect": [
       "M"
     ],
     "raindance": [
-      "L:53",
-      "M"
+      "M",
+      "L:53"
     ],
     "rest": [
       "M"
@@ -216,6 +236,9 @@
     "sunnyday": [
       "M"
     ],
+    "supersonic": [
+      "E@dratini"
+    ],
     "surf": [
       "M"
     ],
@@ -238,12 +261,12 @@
       "M"
     ],
     "thunderpunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "thunderwave": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "twister": [
       "L:1"
@@ -252,7 +275,8 @@
       "M"
     ],
     "waterpulse": [
-      "M"
+      "M",
+      "E@dratini"
     ],
     "wingattack": [
       "L:1"
@@ -260,6 +284,5 @@
     "wrap": [
       "L:1"
     ]
-  },
-  "flavorText": "It is said that somewhere in the ocean lies an island where these gather. Only they live there."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "wugtrio",
   "name": "Wugtrio",
-  "num": 289,
+  "num": 930,
   "types": [
     "water"
   ],
+  "gen": 9,
   "abilities": {
     "0": "gooey",
     "1": "rattled",
@@ -18,11 +19,19 @@
     "spd": 70,
     "spe": 120
   },
+  "prevo": "wiglett",
+  "evoLevel": 26,
   "weight": 5.4,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ],
+  "flavorText": {
+    "scarlet": "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den."
   },
   "learnset": {
     "agility": [
@@ -41,8 +50,8 @@
       "M"
     ],
     "dig": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "earthpower": [
       "M"
@@ -52,6 +61,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "finalgambit": [
+      "E@wiglett"
     ],
     "foulplay": [
       "M"
@@ -75,15 +87,18 @@
       "M"
     ],
     "liquidation": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
+    ],
+    "memento": [
+      "E@wiglett"
     ],
     "mudshot": [
       "M"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
@@ -137,12 +152,11 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "wrap": [
       "L:1"
     ]
-  },
-  "flavorText": "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "ironmoth",
   "name": "Iron Moth",
-  "num": 386,
+  "num": 988,
   "types": [
     "fire",
     "poison"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "quarkdrive",
-    "H": "quarkdrive"
+    "0": "quarkdrive"
   },
   "baseStats": {
     "hp": 80,
@@ -19,12 +19,18 @@
     "spe": 110
   },
   "weight": 36,
-  "height": 12,
-  "genderRatio": {},
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity."
+  },
   "learnset": {
     "acidspray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "acrobatics": [
       "M"
@@ -36,8 +42,8 @@
       "M"
     ],
     "bugbuzz": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "chargebeam": [
       "M"
@@ -52,8 +58,8 @@
       "L:42"
     ],
     "electricterrain": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "ember": [
       "L:1"
@@ -74,8 +80,8 @@
       "M"
     ],
     "firespin": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "flamecharge": [
       "M"
@@ -102,8 +108,8 @@
       "M"
     ],
     "hurricane": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "hyperbeam": [
       "M"
@@ -121,8 +127,8 @@
       "L:70"
     ],
     "overheat": [
-      "L:91",
-      "M"
+      "M",
+      "L:91"
     ],
     "pounce": [
       "M"
@@ -149,8 +155,8 @@
       "M"
     ],
     "strugglebug": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "substitute": [
       "M"
@@ -162,8 +168,8 @@
       "M"
     ],
     "takedown": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "terablast": [
       "M"
@@ -180,6 +186,5 @@
     "whirlwind": [
       "L:1"
     ]
-  },
-  "flavorText": "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity."
+  }
 }

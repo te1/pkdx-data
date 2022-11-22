@@ -1,10 +1,11 @@
 {
   "slug": "espathra",
   "name": "Espathra",
-  "num": 264,
+  "num": 927,
   "types": [
     "psychic"
   ],
+  "gen": 9,
   "abilities": {
     "0": "opportunist",
     "1": "frisk",
@@ -18,19 +19,30 @@
     "spd": 60,
     "spe": 105
   },
+  "prevo": "flittle",
+  "evoLevel": 35,
   "weight": 90,
-  "height": 19,
+  "height": 1.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "flavorText": {
+    "scarlet": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
+    ],
+    "allyswitch": [
+      "E@flittle"
     ],
     "babydolleyes": [
       "L:8"
@@ -54,12 +66,12 @@
       "L:5"
     ],
     "dazzlinggleam": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "disarmingvoice": [
-      "L:11",
-      "M"
+      "M",
+      "L:11"
     ],
     "drillpeck": [
       "L:1"
@@ -100,6 +112,9 @@
     "hypervoice": [
       "M"
     ],
+    "hypnosis": [
+      "E@flittle"
+    ],
     "lastresort": [
       "L:54"
     ],
@@ -131,12 +146,12 @@
       "M"
     ],
     "psybeam": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "psychic": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "psychicterrain": [
       "M"
@@ -155,6 +170,9 @@
     ],
     "rest": [
       "M"
+    ],
+    "roost": [
+      "E@flittle"
     ],
     "sandstorm": [
       "M"
@@ -207,6 +225,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament."
+  }
 }

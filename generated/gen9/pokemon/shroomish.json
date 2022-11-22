@@ -1,10 +1,11 @@
 {
   "slug": "shroomish",
   "name": "Shroomish",
-  "num": 106,
+  "num": 285,
   "types": [
     "grass"
   ],
+  "gen": 3,
   "abilities": {
     "0": "effectspore",
     "1": "poisonheal",
@@ -18,11 +19,22 @@
     "spd": 60,
     "spe": 35
   },
+  "evos": [
+    "breloom"
+  ],
   "weight": 4.5,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head."
   },
   "learnset": {
     "absorb": [
@@ -35,8 +47,8 @@
       "M"
     ],
     "charm": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "drainpunch": [
       "M"
@@ -51,15 +63,15 @@
       "M"
     ],
     "faketears": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "falseswipe": [
       "M"
     ],
     "gigadrain": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "grassknot": [
       "M"
@@ -77,8 +89,8 @@
       "L:15"
     ],
     "helpinghand": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "leechseed": [
       "L:8"
@@ -105,8 +117,8 @@
       "M"
     ],
     "seedbomb": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "sleeptalk": [
       "M"
@@ -153,6 +165,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head."
+  }
 }

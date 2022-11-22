@@ -1,11 +1,12 @@
 {
   "slug": "whiscash",
   "name": "Whiscash",
-  "num": 169,
+  "num": 340,
   "types": [
     "water",
     "ground"
   ],
+  "gen": 3,
   "abilities": {
     "0": "oblivious",
     "1": "anticipation",
@@ -19,16 +20,24 @@
     "spd": 71,
     "spe": 60
   },
+  "prevo": "barboach",
+  "evoLevel": 30,
   "weight": 23.6,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "flavorText": {
+    "scarlet": "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors."
+  },
   "learnset": {
     "amnesia": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "aquatail": [
       "L:24"
@@ -55,8 +64,8 @@
       "M"
     ],
     "earthquake": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "endure": [
       "M"
@@ -66,6 +75,9 @@
     ],
     "fissure": [
       "L:56"
+    ],
+    "flail": [
+      "E@barboach"
     ],
     "futuresight": [
       "L:48"
@@ -98,8 +110,8 @@
       "M"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "outrage": [
       "M"
@@ -111,8 +123,8 @@
       "M"
     ],
     "rest": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "rockslide": [
       "M"
@@ -131,6 +143,9 @@
     ],
     "snore": [
       "L:1"
+    ],
+    "spark": [
+      "E@barboach"
     ],
     "spikes": [
       "M"
@@ -157,13 +172,15 @@
       "M"
     ],
     "takedown": [
-      "M"
+      "M",
+      "E@barboach"
     ],
     "terablast": [
       "M"
     ],
     "thrash": [
-      "L:0"
+      "L:0",
+      "E@barboach"
     ],
     "tickle": [
       "L:1"
@@ -175,13 +192,12 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "zenheadbutt": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ]
-  },
-  "flavorText": "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors."
+  }
 }

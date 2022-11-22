@@ -1,14 +1,14 @@
 {
   "slug": "gholdengo",
   "name": "Gholdengo",
-  "num": 392,
+  "num": 977,
   "types": [
-    "steel",
-    "ghost"
+    "ghost",
+    "steel"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "goodasgold",
-    "H": "goodasgold"
+    "0": "goodasgold"
   },
   "baseStats": {
     "hp": 87,
@@ -18,9 +18,18 @@
     "spd": 91,
     "spe": 84
   },
+  "prevo": "gimmighoul",
+  "evoType": "other",
+  "evoCondition": "Give 999 Coins",
   "weight": 30,
-  "height": 12,
-  "genderRatio": {},
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody."
+  },
   "learnset": {
     "astonish": [
       "L:1"
@@ -29,8 +38,8 @@
       "M"
     ],
     "confuseray": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "dazzlinggleam": [
       "M"
@@ -84,16 +93,16 @@
       "L:28"
     ],
     "nastyplot": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "nightshade": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "powergem": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "protect": [
       "M"
@@ -117,8 +126,8 @@
       "M"
     ],
     "shadowball": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "sleeptalk": [
       "M"
@@ -127,8 +136,8 @@
       "M"
     ],
     "substitute": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "tackle": [
       "L:1"
@@ -157,6 +166,5 @@
     "trick": [
       "M"
     ]
-  },
-  "flavorText": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody."
+  }
 }

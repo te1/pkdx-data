@@ -1,10 +1,11 @@
 {
   "slug": "goomy",
   "name": "Goomy",
-  "num": 172,
+  "num": 704,
   "types": [
     "dragon"
   ],
+  "gen": 6,
   "abilities": {
     "0": "sapsipper",
     "1": "hydration",
@@ -18,19 +19,30 @@
     "spd": 75,
     "spe": 40
   },
+  "evos": [
+    "sliggoo",
+    "sliggoo-hisui"
+  ],
   "weight": 2.8,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Most of a Goomy's body is water. A membrane covers the whole Pokémon to prevent it from shriveling up in dry weather."
   },
   "learnset": {
     "absorb": [
       "L:1"
     ],
     "bodyslam": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "charm": [
       "M"
@@ -51,8 +63,8 @@
       "L:10"
     ],
     "dragonpulse": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "endure": [
       "M"
@@ -76,12 +88,12 @@
       "M"
     ],
     "protect": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "raindance": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "rest": [
       "M"
@@ -117,9 +129,8 @@
       "L:5"
     ],
     "waterpulse": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ]
-  },
-  "flavorText": "Most of a Goomy's body is water. A membrane covers the whole Pokémon to prevent it from shriveling up in dry weather."
+  }
 }

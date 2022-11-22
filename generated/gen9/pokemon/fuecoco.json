@@ -1,10 +1,11 @@
 {
   "slug": "fuecoco",
   "name": "Fuecoco",
-  "num": 4,
+  "num": 909,
   "types": [
     "fire"
   ],
+  "gen": 9,
   "abilities": {
     "0": "blaze",
     "H": "unaware"
@@ -17,11 +18,21 @@
     "spd": 40,
     "spe": 36
   },
+  "evos": [
+    "crocalor"
+  ],
   "weight": 9.8,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy."
   },
   "learnset": {
     "belch": [
@@ -49,8 +60,8 @@
       "L:1"
     ],
     "encore": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "endure": [
       "M"
@@ -59,8 +70,8 @@
       "M"
     ],
     "fireblast": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "firefang": [
       "M"
@@ -75,8 +86,8 @@
       "M"
     ],
     "flamethrower": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "flareblitz": [
       "M"
@@ -88,8 +99,8 @@
       "M"
     ],
     "hypervoice": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "incinerate": [
       "L:15"
@@ -128,8 +139,8 @@
       "M"
     ],
     "snarl": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "stompingtantrum": [
       "M"
@@ -161,6 +172,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy."
+  }
 }

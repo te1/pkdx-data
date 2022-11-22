@@ -1,10 +1,11 @@
 {
   "slug": "psyduck",
   "name": "Psyduck",
-  "num": 55,
+  "num": 54,
   "types": [
     "water"
   ],
+  "gen": 1,
   "abilities": {
     "0": "damp",
     "1": "cloudnine",
@@ -18,16 +19,27 @@
     "spd": 50,
     "spe": 55
   },
+  "evos": [
+    "golduck"
+  ],
   "weight": 19.6,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers."
+  },
   "learnset": {
     "amnesia": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "aquatail": [
       "L:24"
@@ -51,8 +63,8 @@
       "E"
     ],
     "confuseray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "confusion": [
       "L:6"
@@ -124,8 +136,8 @@
       "M"
     ],
     "psybeam": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "psychic": [
       "M"
@@ -197,8 +209,8 @@
       "L:3"
     ],
     "waterpulse": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "wonderroom": [
       "L:39"
@@ -207,9 +219,8 @@
       "E"
     ],
     "zenheadbutt": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ]
-  },
-  "flavorText": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers."
+  }
 }

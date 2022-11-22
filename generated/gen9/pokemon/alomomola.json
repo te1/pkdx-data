@@ -1,10 +1,11 @@
 {
   "slug": "alomomola",
   "name": "Alomomola",
-  "num": 336,
+  "num": 594,
   "types": [
     "water"
   ],
+  "gen": 5,
   "abilities": {
     "0": "healer",
     "1": "hydration",
@@ -19,10 +20,18 @@
     "spe": 65
   },
   "weight": 31.6,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds."
   },
   "learnset": {
     "acrobatics": [
@@ -56,8 +65,8 @@
       "M"
     ],
     "endure": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "facade": [
       "M"
@@ -69,12 +78,12 @@
       "L:29"
     ],
     "helpinghand": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "hydropump": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "hyperbeam": [
       "M"
@@ -113,8 +122,8 @@
       "L:1"
     ],
     "protect": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "psychic": [
       "M"
@@ -162,8 +171,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "whirlpool": [
       "L:49"
@@ -177,6 +186,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds."
+  }
 }

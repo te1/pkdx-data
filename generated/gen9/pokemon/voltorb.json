@@ -1,10 +1,11 @@
 {
   "slug": "voltorb",
   "name": "Voltorb",
-  "num": 207,
+  "num": 100,
   "types": [
     "electric"
   ],
+  "gen": 1,
   "abilities": {
     "0": "soundproof",
     "1": "static",
@@ -18,9 +19,22 @@
     "spd": 55,
     "spe": 100
   },
+  "evos": [
+    "electrode"
+  ],
+  "formes": [
+    "voltorb-hisui"
+  ],
   "weight": 10.4,
-  "height": 5,
-  "genderRatio": {},
+  "height": 0.5,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
+  },
   "learnset": {
     "agility": [
       "M"
@@ -29,22 +43,22 @@
       "L:1"
     ],
     "chargebeam": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "discharge": [
       "L:37"
     ],
     "eerieimpulse": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "electricterrain": [
       "M"
     ],
     "electroball": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "endure": [
       "M"
@@ -65,8 +79,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "magnetrise": [
       "L:34"
@@ -108,8 +122,8 @@
       "M"
     ],
     "swift": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "tackle": [
       "L:1"
@@ -144,6 +158,5 @@
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
+  }
 }

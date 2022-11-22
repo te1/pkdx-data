@@ -1,10 +1,11 @@
 {
   "slug": "beartic",
   "name": "Beartic",
-  "num": 356,
+  "num": 614,
   "types": [
     "ice"
   ],
+  "gen": 5,
   "abilities": {
     "0": "snowcloak",
     "1": "slushrush",
@@ -18,11 +19,19 @@
     "spd": 80,
     "spe": 50
   },
+  "prevo": "cubchoo",
+  "evoLevel": 37,
   "weight": 260,
-  "height": 26,
+  "height": 2.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it."
   },
   "learnset": {
     "aerialace": [
@@ -35,8 +44,8 @@
       "M"
     ],
     "blizzard": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "bodypress": [
       "M"
@@ -57,8 +66,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chillingwater": [
       "M"
@@ -79,8 +88,8 @@
       "M"
     ],
     "endure": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "facade": [
       "M"
@@ -93,6 +102,9 @@
     ],
     "focusblast": [
       "M"
+    ],
+    "focuspunch": [
+      "E@cubchoo"
     ],
     "frostbreath": [
       "L:18"
@@ -128,8 +140,8 @@
       "L:0"
     ],
     "icywind": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "liquidation": [
       "M"
@@ -145,6 +157,9 @@
     ],
     "mudslap": [
       "M"
+    ],
+    "nightslash": [
+      "E@cubchoo"
     ],
     "playnice": [
       "L:12"
@@ -162,8 +177,8 @@
       "M"
     ],
     "rest": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "reversal": [
       "M"
@@ -193,8 +208,8 @@
       "M"
     ],
     "snowscape": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "stoneedge": [
       "M"
@@ -237,7 +252,9 @@
     ],
     "xscissor": [
       "M"
+    ],
+    "yawn": [
+      "E@cubchoo"
     ]
-  },
-  "flavorText": "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it."
+  }
 }

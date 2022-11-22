@@ -1,11 +1,12 @@
 {
   "slug": "gyarados",
   "name": "Gyarados",
-  "num": 135,
+  "num": 130,
   "types": [
     "water",
     "flying"
   ],
+  "gen": 1,
   "abilities": {
     "0": "intimidate",
     "H": "moxie"
@@ -18,11 +19,20 @@
     "spd": 100,
     "spe": 81
   },
+  "prevo": "magikarp",
+  "evoLevel": 20,
   "weight": 235,
-  "height": 65,
+  "height": 6.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
   },
   "learnset": {
     "aquatail": [
@@ -50,15 +60,15 @@
       "M"
     ],
     "crunch": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "darkpulse": [
       "M"
     ],
     "dragondance": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "dragonpulse": [
       "M"
@@ -91,23 +101,23 @@
       "M"
     ],
     "hurricane": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "hydropump": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "hyperbeam": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "icebeam": [
       "M"
     ],
     "icefang": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "icywind": [
       "M"
@@ -125,8 +135,8 @@
       "M"
     ],
     "raindance": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "rest": [
       "M"
@@ -135,8 +145,8 @@
       "M"
     ],
     "scaryface": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "sleeptalk": [
       "M"
@@ -184,8 +194,8 @@
       "L:1"
     ],
     "waterfall": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "waterpulse": [
       "M"
@@ -193,6 +203,5 @@
     "whirlpool": [
       "L:4"
     ]
-  },
-  "flavorText": "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
+  }
 }

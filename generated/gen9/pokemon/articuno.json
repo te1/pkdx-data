@@ -1,11 +1,12 @@
 {
   "slug": "articuno",
   "name": "Articuno",
-  "num": null,
+  "num": 144,
   "types": [
     "ice",
     "flying"
   ],
+  "gen": 1,
   "abilities": {
     "0": "pressure",
     "H": "snowcloak"
@@ -18,16 +19,24 @@
     "spd": 125,
     "spe": 85
   },
+  "formes": [
+    "articuno-galar"
+  ],
   "weight": 55.4,
-  "height": 17,
-  "genderRatio": {},
+  "height": 1.7,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "aircutter": [
       "M"
@@ -42,8 +51,8 @@
       "M"
     ],
     "blizzard": [
-      "L:65",
-      "M"
+      "M",
+      "L:65"
     ],
     "bravebird": [
       "M"
@@ -73,15 +82,15 @@
       "M"
     ],
     "hurricane": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "hyperbeam": [
       "M"
     ],
     "icebeam": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "iceshard": [
       "L:15"
@@ -108,8 +117,8 @@
       "M"
     ],
     "reflect": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "rest": [
       "M"
@@ -127,8 +136,8 @@
       "M"
     ],
     "snowscape": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "substitute": [
       "M"
@@ -140,8 +149,8 @@
       "M"
     ],
     "tailwind": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "takedown": [
       "M"

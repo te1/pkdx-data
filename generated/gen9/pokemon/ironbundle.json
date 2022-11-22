@@ -1,14 +1,14 @@
 {
   "slug": "ironbundle",
   "name": "Iron Bundle",
-  "num": 383,
+  "num": 992,
   "types": [
     "ice",
     "water"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "quarkdrive",
-    "H": "quarkdrive"
+    "0": "quarkdrive"
   },
   "baseStats": {
     "hp": 56,
@@ -19,15 +19,21 @@
     "spe": 136
   },
   "weight": 11,
-  "height": 6,
-  "genderRatio": {},
+  "height": 0.6,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization."
+  },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "aircutter": [
       "M"
@@ -39,8 +45,8 @@
       "M"
     ],
     "blizzard": [
-      "L:91",
-      "M"
+      "M",
+      "L:91"
     ],
     "bodyslam": [
       "M"
@@ -52,8 +58,8 @@
       "L:28"
     ],
     "electricterrain": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "encore": [
       "M"
@@ -77,19 +83,19 @@
       "M"
     ],
     "helpinghand": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "hydropump": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "hyperbeam": [
       "M"
     ],
     "icebeam": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "icepunch": [
       "M"
@@ -122,8 +128,8 @@
       "M"
     ],
     "snowscape": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "substitute": [
       "M"
@@ -132,8 +138,8 @@
       "M"
     ],
     "takedown": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "taunt": [
       "M"
@@ -153,6 +159,5 @@
     "whirlpool": [
       "L:14"
     ]
-  },
-  "flavorText": "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization."
+  }
 }

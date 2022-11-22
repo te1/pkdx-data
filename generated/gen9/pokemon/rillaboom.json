@@ -1,10 +1,11 @@
 {
   "slug": "rillaboom",
   "name": "Rillaboom",
-  "num": null,
+  "num": 812,
   "types": [
     "grass"
   ],
+  "gen": 8,
   "abilities": {
     "0": "overgrow",
     "H": "grassysurge"
@@ -17,12 +18,19 @@
     "spd": 70,
     "spe": 85
   },
+  "prevo": "thwackey",
+  "evoLevel": 35,
   "weight": 90,
-  "height": 21,
+  "height": 2.1,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -78,6 +86,9 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E@grookey"
+    ],
     "falseswipe": [
       "M"
     ],
@@ -103,11 +114,17 @@
       "M"
     ],
     "grassyterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "growl": [
       "L:1"
+    ],
+    "growth": [
+      "E@grookey"
+    ],
+    "hammerarm": [
+      "E@grookey"
     ],
     "hyperbeam": [
       "M"
@@ -120,6 +137,9 @@
     ],
     "leafstorm": [
       "M"
+    ],
+    "leechseed": [
+      "E@grookey"
     ],
     "lowkick": [
       "M"
@@ -172,6 +192,9 @@
     "stompingtantrum": [
       "M"
     ],
+    "strength": [
+      "E@grookey"
+    ],
     "substitute": [
       "M"
     ],
@@ -188,8 +211,8 @@
       "M"
     ],
     "taunt": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
@@ -208,6 +231,9 @@
     ],
     "woodhammer": [
       "L:46"
+    ],
+    "worryseed": [
+      "E@grookey"
     ]
   }
 }

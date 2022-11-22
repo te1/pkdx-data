@@ -1,11 +1,12 @@
 {
   "slug": "coalossal",
   "name": "Coalossal",
-  "num": 93,
+  "num": 839,
   "types": [
     "rock",
     "fire"
   ],
+  "gen": 8,
   "abilities": {
     "0": "steamengine",
     "1": "flamebody",
@@ -19,15 +20,26 @@
     "spd": 90,
     "spe": 30
   },
+  "prevo": "carkol",
+  "evoLevel": 34,
   "weight": 310.5,
-  "height": 28,
+  "height": 2.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "To intimidate its opponents, Coalossal will vigorously shake its body, scattering coal from its smoldering back."
+  },
   "learnset": {
     "ancientpower": [
       "L:20"
+    ],
+    "block": [
+      "E@rolycoly"
     ],
     "bodypress": [
       "M"
@@ -50,6 +62,9 @@
     "endure": [
       "M"
     ],
+    "explosion": [
+      "E@rolycoly"
+    ],
     "facade": [
       "M"
     ],
@@ -63,8 +78,8 @@
       "M"
     ],
     "flamecharge": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "flamethrower": [
       "M"
@@ -96,6 +111,10 @@
     "ironhead": [
       "M"
     ],
+    "mudslap": [
+      "M@carkol",
+      "E@rolycoly"
+    ],
     "overheat": [
       "M"
     ],
@@ -115,8 +134,8 @@
       "M"
     ],
     "rockblast": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "rockpolish": [
       "L:15"
@@ -146,12 +165,12 @@
       "M"
     ],
     "stealthrock": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "stoneedge": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "substitute": [
       "M"
@@ -174,6 +193,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "To intimidate its opponents, Coalossal will vigorously shake its body, scattering coal from its smoldering back."
+  }
 }

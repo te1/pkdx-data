@@ -1,11 +1,12 @@
 {
   "slug": "deerling",
   "name": "Deerling",
-  "num": 190,
+  "num": 585,
   "types": [
     "normal",
     "grass"
   ],
+  "gen": 5,
   "abilities": {
     "0": "chlorophyll",
     "1": "sapsipper",
@@ -19,20 +20,45 @@
     "spd": 50,
     "spe": 75
   },
+  "evos": [
+    "sawsbuck"
+  ],
+  "cosmeticSubName": "Spring Form",
+  "cosmeticFormes": [
+    {
+      "slug": "deerling-summer",
+      "subName": "Summer Form"
+    },
+    {
+      "slug": "deerling-autumn",
+      "subName": "Autumn Form"
+    },
+    {
+      "slug": "deerling-winter",
+      "subName": "Winter Form"
+    }
+  ],
   "weight": 19.5,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Deerling have different scents depending on the season. In early spring, these Pokémon give off a delicate, sweet, and calming scent."
+  },
   "learnset": {
     "agility": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "batonpass": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "bodyslam": [
       "M"
@@ -41,12 +67,12 @@
       "M"
     ],
     "bulletseed": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "charm": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "dig": [
       "M"
@@ -61,15 +87,15 @@
       "M"
     ],
     "energyball": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "facade": [
       "M"
     ],
     "faketears": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "gigadrain": [
       "M"
@@ -123,12 +149,12 @@
       "M"
     ],
     "sleeptalk": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "solarbeam": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "substitute": [
       "M"
@@ -143,8 +169,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
@@ -162,9 +188,8 @@
       "E"
     ],
     "zenheadbutt": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ]
-  },
-  "flavorText": "Deerling have different scents depending on the season. In early spring, these Pokémon give off a delicate, sweet, and calming scent."
+  }
 }

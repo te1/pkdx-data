@@ -1,10 +1,11 @@
 {
   "slug": "cyndaquil",
   "name": "Cyndaquil",
-  "num": null,
+  "num": 155,
   "types": [
     "fire"
   ],
+  "gen": 2,
   "abilities": {
     "0": "blaze",
     "H": "flashfire"
@@ -17,12 +18,20 @@
     "spd": 50,
     "spe": 65
   },
+  "evos": [
+    "quilava"
+  ],
   "weight": 7.9,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
       "M"
@@ -76,12 +85,12 @@
       "M"
     ],
     "flamecharge": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "flamethrower": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "flamewheel": [
       "L:19"
@@ -108,8 +117,8 @@
       "L:1"
     ],
     "overheat": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "playrough": [
       "M"
@@ -124,8 +133,8 @@
       "M"
     ],
     "reversal": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "rollout": [
       "L:49"
@@ -143,8 +152,8 @@
       "M"
     ],
     "swift": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "tackle": [
       "L:1"

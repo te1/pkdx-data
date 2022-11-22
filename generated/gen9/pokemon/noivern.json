@@ -1,11 +1,12 @@
 {
   "slug": "noivern",
   "name": "Noivern",
-  "num": 304,
+  "num": 715,
   "types": [
     "flying",
     "dragon"
   ],
+  "gen": 6,
   "abilities": {
     "0": "frisk",
     "1": "infiltrator",
@@ -19,11 +20,20 @@
     "spd": 80,
     "spe": 123
   },
+  "prevo": "noibat",
+  "evoLevel": 48,
   "weight": 85,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Ultrasonic waves emitted by a Noivern can pulverize a large boulder. This Pokémon has a cruel disposition."
   },
   "learnset": {
     "absorb": [
@@ -39,12 +49,12 @@
       "M"
     ],
     "aircutter": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "airslash": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "bite": [
       "L:20"
@@ -61,6 +71,9 @@
     "darkpulse": [
       "M"
     ],
+    "defog": [
+      "E@noibat"
+    ],
     "doubleteam": [
       "L:12"
     ],
@@ -74,8 +87,11 @@
       "M"
     ],
     "dragonpulse": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
+    ],
+    "dragonrush": [
+      "E@noibat"
     ],
     "dragontail": [
       "M"
@@ -105,8 +121,8 @@
       "M"
     ],
     "hurricane": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "hyperbeam": [
       "M"
@@ -172,8 +188,8 @@
       "L:1"
     ],
     "tailwind": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "takedown": [
       "M"
@@ -205,6 +221,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "Ultrasonic waves emitted by a Noivern can pulverize a large boulder. This Pokémon has a cruel disposition."
+  }
 }

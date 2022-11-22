@@ -1,13 +1,13 @@
 {
   "slug": "misdreavus",
   "name": "Misdreavus",
-  "num": 114,
+  "num": 200,
   "types": [
     "ghost"
   ],
+  "gen": 2,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 60,
@@ -17,11 +17,21 @@
     "spd": 85,
     "spe": 85
   },
+  "evos": [
+    "mismagius"
+  ],
   "weight": 1,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon startles people in the middle of the night. It gathers fear as its energy."
   },
   "learnset": {
     "astonish": [
@@ -37,8 +47,8 @@
       "M"
     ],
     "confuseray": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "confusion": [
       "L:1"
@@ -86,8 +96,8 @@
       "M"
     ],
     "hex": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "hyperbeam": [
       "M"
@@ -99,8 +109,8 @@
       "M"
     ],
     "imprison": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "magicalleaf": [
       "M"
@@ -130,15 +140,15 @@
       "M"
     ],
     "powergem": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "protect": [
       "M"
     ],
     "psybeam": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "psychic": [
       "M"
@@ -159,8 +169,8 @@
       "E"
     ],
     "shadowball": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "shadowsneak": [
       "E"
@@ -222,6 +232,5 @@
     "wonderroom": [
       "E"
     ]
-  },
-  "flavorText": "This Pokémon startles people in the middle of the night. It gathers fear as its energy."
+  }
 }

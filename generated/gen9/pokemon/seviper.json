@@ -1,10 +1,11 @@
 {
   "slug": "seviper",
   "name": "Seviper",
-  "num": 218,
+  "num": 336,
   "types": [
     "poison"
   ],
+  "gen": 3,
   "abilities": {
     "0": "shedskin",
     "H": "infiltrator"
@@ -18,10 +19,18 @@
     "spe": 65
   },
   "weight": 52.5,
-  "height": 27,
+  "height": 2.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs."
   },
   "learnset": {
     "acidspray": [
@@ -37,8 +46,8 @@
       "L:4"
     ],
     "bodyslam": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "brickbreak": [
       "M"
@@ -50,8 +59,8 @@
       "L:44"
     ],
     "crunch": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "darkpulse": [
       "M"
@@ -120,12 +129,12 @@
       "L:21"
     ],
     "poisonjab": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "poisontail": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "pounce": [
       "M"
@@ -146,8 +155,8 @@
       "M"
     ],
     "scaryface": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "screech": [
       "L:14"
@@ -159,8 +168,8 @@
       "M"
     ],
     "sludgebomb": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "snarl": [
       "M"
@@ -208,8 +217,8 @@
       "M"
     ],
     "venoshock": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "wrap": [
       "L:1"
@@ -220,6 +229,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs."
+  }
 }

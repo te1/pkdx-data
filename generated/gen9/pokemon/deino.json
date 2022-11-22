@@ -1,14 +1,14 @@
 {
   "slug": "deino",
   "name": "Deino",
-  "num": 370,
+  "num": 633,
   "types": [
     "dark",
     "dragon"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "hustle",
-    "H": "hustle"
+    "0": "hustle"
   },
   "baseStats": {
     "hp": 52,
@@ -18,11 +18,21 @@
     "spd": 50,
     "spe": 38
   },
+  "evos": [
+    "zweilous"
+  ],
   "weight": 17.3,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you."
   },
   "learnset": {
     "assurance": [
@@ -38,12 +48,12 @@
       "L:8"
     ],
     "bodyslam": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "crunch": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "darkpulse": [
       "M"
@@ -58,8 +68,8 @@
       "L:4"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dragonrush": [
       "L:52"
@@ -89,19 +99,19 @@
       "E"
     ],
     "hypervoice": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "icefang": [
       "M"
     ],
     "nastyplot": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "outrage": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "protect": [
       "M"
@@ -116,8 +126,8 @@
       "L:12"
     ],
     "scaryface": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "slam": [
       "L:28"
@@ -161,6 +171,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you."
+  }
 }

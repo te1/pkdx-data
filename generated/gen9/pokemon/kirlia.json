@@ -1,11 +1,12 @@
 {
   "slug": "kirlia",
   "name": "Kirlia",
-  "num": 63,
+  "num": 281,
   "types": [
     "psychic",
     "fairy"
   ],
+  "gen": 3,
   "abilities": {
     "0": "synchronize",
     "1": "trace",
@@ -19,29 +20,43 @@
     "spd": 55,
     "spe": 50
   },
+  "prevo": "ralts",
+  "evos": [
+    "gardevoir",
+    "gallade"
+  ],
+  "evoLevel": 20,
   "weight": 20.2,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like",
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "It has a psychic power that enables it to distort the space around it and see into the future."
   },
   "learnset": {
     "bodyslam": [
       "M"
     ],
     "calmmind": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "chargebeam": [
       "M"
     ],
     "charm": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "E@ralts"
     ],
     "confusion": [
       "L:1"
@@ -49,16 +64,22 @@
     "dazzlinggleam": [
       "M"
     ],
+    "destinybond": [
+      "E@ralts"
+    ],
+    "disable": [
+      "E@ralts"
+    ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "doubleteam": [
       "L:1"
     ],
     "drainingkiss": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "dreameater": [
       "L:48"
@@ -111,6 +132,9 @@
     "imprison": [
       "M"
     ],
+    "knockoff": [
+      "E@ralts"
+    ],
     "lifedew": [
       "L:23"
     ],
@@ -120,22 +144,31 @@
     "magicalleaf": [
       "M"
     ],
+    "meanlook": [
+      "E@ralts"
+    ],
+    "memento": [
+      "E@ralts"
+    ],
     "metronome": [
       "M"
     ],
     "mistyterrain": [
       "M"
     ],
+    "mysticalfire": [
+      "E@ralts"
+    ],
     "protect": [
       "M"
     ],
     "psybeam": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "psychic": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "psychicterrain": [
       "M"
@@ -154,6 +187,9 @@
     ],
     "shadowball": [
       "M"
+    ],
+    "shadowsneak": [
+      "E@ralts"
     ],
     "skillswap": [
       "M"
@@ -206,6 +242,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It has a psychic power that enables it to distort the space around it and see into the future."
+  }
 }

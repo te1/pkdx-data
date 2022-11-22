@@ -1,11 +1,12 @@
 {
   "slug": "braviary",
   "name": "Braviary",
-  "num": 366,
+  "num": 628,
   "types": [
     "normal",
     "flying"
   ],
+  "gen": 5,
   "abilities": {
     "0": "keeneye",
     "1": "sheerforce",
@@ -19,18 +20,27 @@
     "spd": 75,
     "spe": 80
   },
+  "prevo": "rufflet",
+  "evoLevel": 54,
+  "formes": [
+    "braviary-hisui"
+  ],
   "weight": 41,
-  "height": 15,
-  "genderRatio": {
-    "M": 1
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Flying"
+  ],
+  "flavorText": {
+    "scarlet": "The more scars they have, the more respect these brave soldiers of the sky get from their peers."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "agility": [
       "M"
@@ -39,14 +49,15 @@
       "M"
     ],
     "airslash": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "bodyslam": [
       "M"
     ],
     "bravebird": [
-      "M"
+      "M",
+      "L:72@rufflet"
     ],
     "bulkup": [
       "M"
@@ -114,12 +125,18 @@
     "rockslide": [
       "M"
     ],
+    "rocksmash": [
+      "E@rufflet"
+    ],
     "rocktomb": [
       "M"
     ],
+    "roost": [
+      "E@rufflet"
+    ],
     "scaryface": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "shadowclaw": [
       "M"
@@ -146,8 +163,8 @@
       "M"
     ],
     "tailwind": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "takedown": [
       "M"
@@ -170,6 +187,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The more scars they have, the more respect these brave soldiers of the sky get from their peers."
+  }
 }

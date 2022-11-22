@@ -1,14 +1,14 @@
 {
   "slug": "screamtail",
   "name": "Scream Tail",
-  "num": 377,
+  "num": 982,
   "types": [
     "fairy",
     "psychic"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "protosynthesis",
-    "H": "protosynthesis"
+    "0": "protosynthesis"
   },
   "baseStats": {
     "hp": 115,
@@ -19,8 +19,14 @@
     "spe": 111
   },
   "weight": 8,
-  "height": 12,
-  "genderRatio": {},
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal."
+  },
   "learnset": {
     "amnesia": [
       "M"
@@ -35,8 +41,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "boomburst": [
       "L:91"
@@ -48,8 +54,8 @@
       "M"
     ],
     "crunch": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "dazzlinggleam": [
       "M"
@@ -112,8 +118,8 @@
       "M"
     ],
     "hypervoice": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "icebeam": [
       "M"
@@ -143,8 +149,8 @@
       "L:84"
     ],
     "playrough": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "pound": [
       "L:1"
@@ -159,8 +165,8 @@
       "M"
     ],
     "psychicfangs": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "psychicterrain": [
       "M"
@@ -175,8 +181,8 @@
       "M"
     ],
     "rest": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "rocktomb": [
       "M"
@@ -209,8 +215,8 @@
       "M"
     ],
     "sunnyday": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "takedown": [
       "M"
@@ -248,6 +254,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal."
+  }
 }

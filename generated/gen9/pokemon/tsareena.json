@@ -1,10 +1,11 @@
 {
   "slug": "tsareena",
   "name": "Tsareena",
-  "num": 83,
+  "num": 763,
   "types": [
     "grass"
   ],
+  "gen": 7,
   "abilities": {
     "0": "leafguard",
     "1": "queenlymajesty",
@@ -18,14 +19,24 @@
     "spd": 98,
     "spe": 72
   },
+  "prevo": "steenee",
+  "evoType": "levelMove",
+  "evoMove": "Stomp",
   "weight": 21.4,
-  "height": 12,
-  "genderRatio": {
-    "F": 1
+  "height": 1.2,
+  "gender": "F",
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon is proud and aggressive. However, it is said that a Tsareena will instantly become calm if someone touches the crown on its calyx."
   },
   "learnset": {
     "acrobatics": [
       "M"
+    ],
+    "acupressure": [
+      "E@bounsweet"
     ],
     "aromaticmist": [
       "L:40"
@@ -41,6 +52,9 @@
     ],
     "drainingkiss": [
       "M"
+    ],
+    "endeavor": [
+      "E@bounsweet"
     ],
     "endure": [
       "M"
@@ -79,8 +93,8 @@
       "M"
     ],
     "leafstorm": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "lightscreen": [
       "M"
@@ -92,8 +106,8 @@
       "M"
     ],
     "magicalleaf": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "playnice": [
       "L:1"
@@ -149,6 +163,9 @@
     "swift": [
       "M"
     ],
+    "synthesis": [
+      "E@bounsweet"
+    ],
     "takedown": [
       "M"
     ],
@@ -173,6 +190,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon is proud and aggressive. However, it is said that a Tsareena will instantly become calm if someone touches the crown on its calyx."
+  }
 }

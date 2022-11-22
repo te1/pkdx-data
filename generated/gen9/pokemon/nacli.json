@@ -1,10 +1,11 @@
 {
   "slug": "nacli",
   "name": "Nacli",
-  "num": 129,
+  "num": 963,
   "types": [
     "rock"
   ],
+  "gen": 9,
   "abilities": {
     "0": "purifyingsalt",
     "1": "sturdy",
@@ -18,11 +19,21 @@
     "spd": 35,
     "spe": 25
   },
+  "evos": [
+    "naclstack"
+  ],
   "weight": 16,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt."
   },
   "learnset": {
     "ancientpower": [
@@ -44,8 +55,8 @@
       "M"
     ],
     "earthquake": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "endure": [
       "M"
@@ -66,26 +77,26 @@
       "L:16"
     ],
     "heavyslam": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "helpinghand": [
       "M"
     ],
     "irondefense": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "ironhead": [
       "M"
     ],
     "mudshot": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "powergem": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "protect": [
       "M"
@@ -103,8 +114,8 @@
       "L:13"
     ],
     "rockslide": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "rockthrow": [
       "L:5"
@@ -119,15 +130,15 @@
       "L:10"
     ],
     "stealthrock": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "stompingtantrum": [
       "M"
     ],
     "stoneedge": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "substitute": [
       "M"
@@ -147,6 +158,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt."
+  }
 }

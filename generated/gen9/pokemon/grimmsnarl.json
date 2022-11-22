@@ -1,11 +1,12 @@
 {
   "slug": "grimmsnarl",
   "name": "Grimmsnarl",
-  "num": 287,
+  "num": 861,
   "types": [
     "dark",
     "fairy"
   ],
+  "gen": 8,
   "abilities": {
     "0": "prankster",
     "1": "frisk",
@@ -19,10 +20,17 @@
     "spd": 75,
     "spe": 60
   },
+  "prevo": "morgrem",
+  "evoLevel": 42,
   "weight": 61,
-  "height": 15,
-  "genderRatio": {
-    "M": 1
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Fairy",
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon has complete control over its hair. Grimmsnarl normally keeps its hair wrapped around its body to support its muscles."
   },
   "learnset": {
     "assurance": [
@@ -41,8 +49,8 @@
       "M"
     ],
     "bulkup": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chillingwater": [
       "M"
@@ -54,8 +62,8 @@
       "M"
     ],
     "darkpulse": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "dazzlinggleam": [
       "M"
@@ -76,8 +84,8 @@
       "L:1"
     ],
     "faketears": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "falsesurrender": [
       "L:1"
@@ -95,8 +103,8 @@
       "M"
     ],
     "foulplay": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "gigaimpact": [
       "M"
@@ -132,12 +140,15 @@
       "M"
     ],
     "nastyplot": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
+    ],
+    "partingshot": [
+      "E@impidimp"
     ],
     "playrough": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "protect": [
       "M"
@@ -199,6 +210,5 @@
     "trick": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon has complete control over its hair. Grimmsnarl normally keeps its hair wrapped around its body to support its muscles."
+  }
 }

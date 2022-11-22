@@ -1,10 +1,11 @@
 {
   "slug": "grimer",
   "name": "Grimer",
-  "num": 194,
+  "num": 88,
   "types": [
     "poison"
   ],
+  "gen": 1,
   "abilities": {
     "0": "stench",
     "1": "stickyhold",
@@ -18,19 +19,32 @@
     "spd": 50,
     "spe": 25
   },
+  "evos": [
+    "muk"
+  ],
+  "formes": [
+    "grimer-alola"
+  ],
   "weight": 30,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies."
   },
   "learnset": {
     "acidarmor": [
       "L:43"
     ],
     "acidspray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "belch": [
       "L:46"
@@ -75,8 +89,8 @@
       "M"
     ],
     "gunkshot": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "harden": [
       "L:4"
@@ -109,12 +123,12 @@
       "L:21"
     ],
     "mudshot": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "mudslap": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "poisongas": [
       "L:1"
@@ -165,8 +179,8 @@
       "L:15"
     ],
     "sludgebomb": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "sludgewave": [
       "L:32"
@@ -216,6 +230,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies."
+  }
 }

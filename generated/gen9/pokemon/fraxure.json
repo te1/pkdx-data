@@ -1,10 +1,11 @@
 {
   "slug": "fraxure",
   "name": "Fraxure",
-  "num": 156,
+  "num": 611,
   "types": [
     "dragon"
   ],
+  "gen": 5,
   "abilities": {
     "0": "rivalry",
     "1": "moldbreaker",
@@ -18,15 +19,30 @@
     "spd": 50,
     "spe": 67
   },
+  "prevo": "axew",
+  "evos": [
+    "haxorus"
+  ],
+  "evoLevel": 38,
   "weight": 36,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Because its tusks don't grow back once they break, this Pokémon apparently won't use them unless truly necessary."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "aquatail": [
+      "E@axew"
     ],
     "assurance": [
       "L:9"
@@ -43,9 +59,12 @@
     "bulldoze": [
       "M"
     ],
+    "counter": [
+      "E@axew"
+    ],
     "crunch": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "dig": [
       "M"
@@ -54,19 +73,22 @@
       "M"
     ],
     "dragonclaw": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "dragondance": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "dragonpulse": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "dragontail": [
       "M"
+    ],
+    "endeavor": [
+      "E@axew"
     ],
     "endure": [
       "M"
@@ -75,8 +97,11 @@
       "M"
     ],
     "falseswipe": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "firstimpression": [
+      "E@axew"
     ],
     "fling": [
       "M"
@@ -85,8 +110,8 @@
       "L:33"
     ],
     "gigaimpact": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "guillotine": [
       "L:51"
@@ -94,15 +119,21 @@
     "ironhead": [
       "M"
     ],
+    "irontail": [
+      "E@axew"
+    ],
     "leer": [
       "L:1"
     ],
     "lowkick": [
       "M"
     ],
+    "nightslash": [
+      "E@axew"
+    ],
     "outrage": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "poisonjab": [
       "M"
@@ -123,8 +154,8 @@
       "M"
     ],
     "scaryface": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "scratch": [
       "L:1"
@@ -157,15 +188,15 @@
       "M"
     ],
     "swordsdance": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "terablast": [
       "M"
@@ -176,6 +207,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "Because its tusks don't grow back once they break, this Pokémon apparently won't use them unless truly necessary."
+  }
 }

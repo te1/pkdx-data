@@ -1,10 +1,11 @@
 {
   "slug": "lumineon",
   "name": "Lumineon",
-  "num": 334,
+  "num": 457,
   "types": [
     "water"
   ],
+  "gen": 4,
   "abilities": {
     "0": "swiftswim",
     "1": "stormdrain",
@@ -18,18 +19,27 @@
     "spd": 86,
     "spe": 91
   },
+  "prevo": "finneon",
+  "evoLevel": 31,
   "weight": 24,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "flavorText": {
+    "scarlet": "With its shining light, it lures its prey close. However, the light also happens to attract ferocious fish Pokémon—its natural predators."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "M"
+      "M",
+      "E@finneon"
     ],
     "aircutter": [
       "M"
@@ -40,8 +50,14 @@
     "aquaring": [
       "L:35"
     ],
+    "aquatail": [
+      "E@finneon"
+    ],
     "attract": [
       "L:26"
+    ],
+    "aurorabeam": [
+      "E@finneon"
     ],
     "blizzard": [
       "M"
@@ -50,13 +66,15 @@
       "L:53"
     ],
     "charm": [
-      "M"
+      "M",
+      "E@finneon"
     ],
     "chillingwater": [
       "M"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "E@finneon"
     ],
     "dazzlinggleam": [
       "M"
@@ -69,6 +87,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "flail": [
+      "E@finneon"
     ],
     "gigaimpact": [
       "M"
@@ -98,11 +119,12 @@
       "M"
     ],
     "psybeam": [
-      "M"
+      "M",
+      "E@finneon"
     ],
     "raindance": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "rest": [
       "M"
@@ -122,12 +144,15 @@
     "surf": [
       "M"
     ],
+    "sweetkiss": [
+      "E@finneon"
+    ],
     "swift": [
       "M"
     ],
     "tailwind": [
-      "L:59",
-      "M"
+      "M",
+      "L:59"
     ],
     "takedown": [
       "M"
@@ -138,9 +163,12 @@
     "thief": [
       "M"
     ],
+    "tickle": [
+      "E@finneon"
+    ],
     "uturn": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "waterfall": [
       "M"
@@ -149,12 +177,11 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "whirlpool": [
       "L:42"
     ]
-  },
-  "flavorText": "With its shining light, it lures its prey close. However, the light also happens to attract ferocious fish Pokémon—its natural predators."
+  }
 }

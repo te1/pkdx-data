@@ -1,10 +1,11 @@
 {
   "slug": "gothorita",
   "name": "Gothorita",
-  "num": 235,
+  "num": 575,
   "types": [
     "psychic"
   ],
+  "gen": 5,
   "abilities": {
     "0": "frisk",
     "1": "competitive",
@@ -18,19 +19,30 @@
     "spd": 85,
     "spe": 55
   },
+  "prevo": "gothita",
+  "evos": [
+    "gothitelle"
+  ],
+  "evoLevel": 32,
   "weight": 18,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright."
   },
   "learnset": {
     "calmmind": [
       "M"
     ],
     "charm": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "confusion": [
       "L:1"
@@ -47,9 +59,12 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E@gothita"
+    ],
     "faketears": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "flatter": [
       "L:46"
@@ -66,6 +81,9 @@
     "grassknot": [
       "M"
     ],
+    "healpulse": [
+      "E@gothita"
+    ],
     "helpinghand": [
       "M"
     ],
@@ -81,8 +99,14 @@
     "magicroom": [
       "L:58"
     ],
+    "meanlook": [
+      "E@gothita"
+    ],
     "metronome": [
       "M"
+    ],
+    "mirrorcoat": [
+      "E@gothita"
     ],
     "nastyplot": [
       "M"
@@ -97,11 +121,12 @@
       "M"
     ],
     "psybeam": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "psychic": [
-      "M"
+      "M",
+      "L:36@gothita"
     ],
     "psychicterrain": [
       "M"
@@ -110,8 +135,8 @@
       "L:35"
     ],
     "psyshock": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "raindance": [
       "M"
@@ -164,6 +189,9 @@
     "tickle": [
       "L:1"
     ],
+    "torment": [
+      "E@gothita"
+    ],
     "trick": [
       "M"
     ],
@@ -173,6 +201,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "weavile",
   "name": "Weavile",
-  "num": 231,
+  "num": 461,
   "types": [
     "dark",
     "ice"
   ],
+  "gen": 4,
   "abilities": {
     "0": "pressure",
     "H": "pickpocket"
@@ -18,19 +19,29 @@
     "spd": 85,
     "spe": 125
   },
+  "prevo": "sneasel",
+  "evoType": "levelHold",
+  "evoCondition": "at night",
+  "evoItem": "Razor Claw",
   "weight": 34,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Evolution made it even more devious. It communicates by clawing signs in boulders."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "assurance": [
       "L:1"
@@ -44,6 +55,9 @@
     "beatup": [
       "L:1"
     ],
+    "bite": [
+      "E@sneasel"
+    ],
     "blizzard": [
       "M"
     ],
@@ -56,12 +70,18 @@
     "chillingwater": [
       "M"
     ],
+    "counter": [
+      "E@sneasel"
+    ],
     "darkpulse": [
-      "L:66",
-      "M"
+      "M",
+      "L:66"
     ],
     "dig": [
       "M"
+    ],
+    "doublehit": [
+      "E@sneasel"
     ],
     "endure": [
       "M"
@@ -69,15 +89,21 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E@sneasel"
+    ],
     "faketears": [
       "M"
     ],
     "falseswipe": [
       "M"
     ],
+    "feint": [
+      "E@sneasel"
+    ],
     "fling": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "focusblast": [
       "M"
@@ -107,14 +133,18 @@
       "M"
     ],
     "iceshard": [
-      "L:1"
+      "L:1",
+      "E@sneasel"
     ],
     "icespinner": [
       "M"
     ],
+    "iciclecrash": [
+      "E@sneasel"
+    ],
     "icywind": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "leer": [
       "L:1"
@@ -126,15 +156,15 @@
       "M"
     ],
     "metalclaw": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "metronome": [
       "M"
     ],
     "nastyplot": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "nightslash": [
       "L:60"
@@ -153,6 +183,9 @@
     ],
     "rest": [
       "M"
+    ],
+    "reversal": [
+      "M@sneasel"
     ],
     "scaryface": [
       "M"
@@ -181,6 +214,9 @@
     "snowscape": [
       "M"
     ],
+    "spite": [
+      "E@sneasel"
+    ],
     "substitute": [
       "M"
     ],
@@ -200,8 +236,8 @@
       "M"
     ],
     "taunt": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
@@ -218,6 +254,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "Evolution made it even more devious. It communicates by clawing signs in boulders."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "rotom",
   "name": "Rotom",
-  "num": 310,
+  "num": 479,
   "types": [
     "electric",
     "ghost"
   ],
+  "gen": 4,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 50,
@@ -18,9 +18,23 @@
     "spd": 77,
     "spe": 91
   },
+  "formes": [
+    "rotom-heat",
+    "rotom-wash",
+    "rotom-frost",
+    "rotom-fan",
+    "rotom-mow"
+  ],
   "weight": 0.3,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its electricity-like body can enter some kinds of machines and take control in order to make mischief."
+  },
   "learnset": {
     "astonish": [
       "L:1"
@@ -32,8 +46,8 @@
       "M"
     ],
     "confuseray": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "darkpulse": [
       "M"
@@ -51,8 +65,8 @@
       "M"
     ],
     "electroball": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "endure": [
       "M"
@@ -67,8 +81,8 @@
       "M"
     ],
     "hex": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "hypervoice": [
       "M"
@@ -107,8 +121,8 @@
       "M"
     ],
     "substitute": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "sunnyday": [
       "M"
@@ -132,12 +146,12 @@
       "L:5"
     ],
     "thunderwave": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "trick": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "uproar": [
       "L:55"
@@ -148,6 +162,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "Its electricity-like body can enter some kinds of machines and take control in order to make mischief."
+  }
 }

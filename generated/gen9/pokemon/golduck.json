@@ -1,10 +1,11 @@
 {
   "slug": "golduck",
   "name": "Golduck",
-  "num": 56,
+  "num": 55,
   "types": [
     "water"
   ],
+  "gen": 1,
   "abilities": {
     "0": "damp",
     "1": "cloudnine",
@@ -18,16 +19,25 @@
     "spd": 80,
     "spe": 85
   },
+  "prevo": "psyduck",
+  "evoLevel": 33,
   "weight": 76.6,
-  "height": 17,
+  "height": 1.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow."
+  },
   "learnset": {
     "amnesia": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "aquajet": [
       "L:1"
@@ -50,11 +60,18 @@
     "chillingwater": [
       "M"
     ],
+    "clearsmog": [
+      "E@psyduck"
+    ],
     "confuseray": [
-      "M"
+      "M",
+      "E@psyduck"
     ],
     "confusion": [
       "L:1"
+    ],
+    "crosschop": [
+      "E@psyduck"
     ],
     "dig": [
       "M"
@@ -90,11 +107,14 @@
       "M"
     ],
     "hydropump": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "hyperbeam": [
       "M"
+    ],
+    "hypnosis": [
+      "E@psyduck"
     ],
     "icebeam": [
       "M"
@@ -133,7 +153,8 @@
       "M"
     ],
     "psybeam": [
-      "M"
+      "M",
+      "E@psyduck"
     ],
     "psychic": [
       "M"
@@ -158,6 +179,9 @@
     ],
     "shadowclaw": [
       "M"
+    ],
+    "simplebeam": [
+      "E@psyduck"
     ],
     "skillswap": [
       "M"
@@ -202,16 +226,18 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "wonderroom": [
       "L:45"
     ],
+    "yawn": [
+      "E@psyduck"
+    ],
     "zenheadbutt": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ]
-  },
-  "flavorText": "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow."
+  }
 }

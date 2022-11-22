@@ -1,10 +1,11 @@
 {
   "slug": "glalie",
   "name": "Glalie",
-  "num": 358,
+  "num": 362,
   "types": [
     "ice"
   ],
+  "gen": 3,
   "abilities": {
     "0": "innerfocus",
     "1": "icebody",
@@ -18,11 +19,20 @@
     "spd": 80,
     "spe": 80
   },
+  "prevo": "snorunt",
+  "evoLevel": 42,
   "weight": 256.5,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "Its prey is instantaneously frozen stiff by the cold air it exhales from its huge mouth. While they're in that frozen state, it gobbles them up."
   },
   "learnset": {
     "astonish": [
@@ -35,8 +45,11 @@
       "L:35"
     ],
     "blizzard": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
+    ],
+    "block": [
+      "E@snorunt"
     ],
     "bodyslam": [
       "M"
@@ -48,11 +61,14 @@
       "M"
     ],
     "crunch": [
-      "L:61",
-      "M"
+      "M",
+      "L:61"
     ],
     "darkpulse": [
       "M"
+    ],
+    "disable": [
+      "E@snorunt"
     ],
     "doubleteam": [
       "L:1"
@@ -97,8 +113,8 @@
       "M"
     ],
     "icefang": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "iceshard": [
       "L:15"
@@ -106,9 +122,12 @@
     "icespinner": [
       "M"
     ],
+    "iciclecrash": [
+      "E@snorunt"
+    ],
     "icywind": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "ironhead": [
       "M"
@@ -123,14 +142,17 @@
       "L:1"
     ],
     "protect": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "raindance": [
       "M"
     ],
     "rest": [
       "M"
+    ],
+    "rollout": [
+      "E@snorunt"
     ],
     "scaryface": [
       "M"
@@ -145,14 +167,17 @@
       "M"
     ],
     "snowscape": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "spikes": [
       "M"
     ],
     "substitute": [
       "M"
+    ],
+    "switcheroo": [
+      "E@snorunt"
     ],
     "takedown": [
       "M"
@@ -172,6 +197,5 @@
     "weatherball": [
       "L:54"
     ]
-  },
-  "flavorText": "Its prey is instantaneously frozen stiff by the cold air it exhales from its huge mouth. While they're in that frozen state, it gobbles them up."
+  }
 }

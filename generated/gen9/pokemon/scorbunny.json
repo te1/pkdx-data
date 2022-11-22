@@ -1,10 +1,11 @@
 {
   "slug": "scorbunny",
   "name": "Scorbunny",
-  "num": null,
+  "num": 813,
   "types": [
     "fire"
   ],
+  "gen": 8,
   "abilities": {
     "0": "blaze",
     "H": "libero"
@@ -17,19 +18,28 @@
     "spd": 40,
     "spe": 69
   },
+  "evos": [
+    "raboot"
+  ],
   "weight": 4.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "batonpass": [
       "M"
@@ -71,8 +81,8 @@
       "M"
     ],
     "flamecharge": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "flamethrower": [
       "M"

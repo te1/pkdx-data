@@ -1,10 +1,12 @@
 {
   "slug": "lycanroc",
   "name": "Lycanroc",
-  "num": 90,
+  "subName": "Midday Form",
+  "num": 745,
   "types": [
     "rock"
   ],
+  "gen": 7,
   "abilities": {
     "0": "keeneye",
     "1": "sandrush",
@@ -18,11 +20,24 @@
     "spd": 65,
     "spe": 112
   },
+  "prevo": "rockruff",
+  "evoCondition": "during the day",
+  "evoLevel": 25,
+  "formes": [
+    "lycanroc-midnight",
+    "lycanroc-dusk"
+  ],
   "weight": 25,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Lycanroc attacks its prey with its sharp claws and fangs. It loyally obeys the instructions of a Trainer it trusts."
   },
   "learnset": {
     "accelerock": [
@@ -53,8 +68,8 @@
       "M"
     ],
     "crunch": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dig": [
       "M"
@@ -67,6 +82,9 @@
     ],
     "earthpower": [
       "M"
+    ],
+    "endeavor": [
+      "E"
     ],
     "endure": [
       "M"
@@ -94,6 +112,9 @@
     ],
     "ironhead": [
       "M"
+    ],
+    "lastresort": [
+      "E"
     ],
     "leer": [
       "L:1"
@@ -126,15 +147,15 @@
       "M"
     ],
     "rockslide": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "rockthrow": [
       "L:12"
     ],
     "rocktomb": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "sandattack": [
       "L:1"
@@ -143,8 +164,8 @@
       "M"
     ],
     "scaryface": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "sleeptalk": [
       "M"
@@ -153,15 +174,15 @@
       "M"
     ],
     "stealthrock": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "stompingtantrum": [
       "M"
     ],
     "stoneedge": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "substitute": [
       "M"
@@ -190,6 +211,9 @@
     "terablast": [
       "M"
     ],
+    "thrash": [
+      "E"
+    ],
     "thunderfang": [
       "M"
     ],
@@ -199,6 +223,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Lycanroc attacks its prey with its sharp claws and fangs. It loyally obeys the instructions of a Trainer it trusts."
+  }
 }

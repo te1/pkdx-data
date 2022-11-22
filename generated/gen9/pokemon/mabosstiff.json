@@ -1,10 +1,11 @@
 {
   "slug": "mabosstiff",
   "name": "Mabosstiff",
-  "num": 197,
+  "num": 973,
   "types": [
     "dark"
   ],
+  "gen": 9,
   "abilities": {
     "0": "intimidate",
     "1": "guarddog",
@@ -18,11 +19,19 @@
     "spd": 70,
     "spe": 85
   },
+  "prevo": "maschiff",
+  "evoLevel": 30,
   "weight": 61,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies."
   },
   "learnset": {
     "bite": [
@@ -38,17 +47,23 @@
       "L:0"
     ],
     "crunch": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "darkpulse": [
       "M"
+    ],
+    "destinybond": [
+      "E@maschiff"
     ],
     "dig": [
       "M"
     ],
     "doubleedge": [
       "L:55"
+    ],
+    "endeavor": [
+      "E@maschiff"
     ],
     "endure": [
       "M"
@@ -93,14 +108,15 @@
       "L:4"
     ],
     "outrage": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "payback": [
       "L:26"
     ],
     "playrough": [
-      "M"
+      "M",
+      "E@maschiff"
     ],
     "protect": [
       "M"
@@ -114,23 +130,26 @@
     "rest": [
       "M"
     ],
+    "retaliate": [
+      "E@maschiff"
+    ],
     "reversal": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "roar": [
       "L:18"
     ],
     "scaryface": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "sleeptalk": [
       "M"
     ],
     "snarl": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "substitute": [
       "M"
@@ -165,6 +184,5 @@
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies."
+  }
 }

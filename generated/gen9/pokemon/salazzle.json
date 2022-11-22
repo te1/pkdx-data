@@ -1,11 +1,12 @@
 {
   "slug": "salazzle",
   "name": "Salazzle",
-  "num": 121,
+  "num": 758,
   "types": [
     "poison",
     "fire"
   ],
+  "gen": 7,
   "abilities": {
     "0": "corrosion",
     "H": "oblivious"
@@ -18,10 +19,17 @@
     "spd": 60,
     "spe": 117
   },
+  "prevo": "salandit",
+  "evoLevel": 33,
   "weight": 22.2,
-  "height": 12,
-  "genderRatio": {
-    "F": 1
+  "height": 1.2,
+  "gender": "F",
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants."
   },
   "learnset": {
     "acidspray": [
@@ -32,6 +40,9 @@
     ],
     "agility": [
       "M"
+    ],
+    "belch": [
+      "E@salandit"
     ],
     "bodyslam": [
       "M"
@@ -46,15 +57,15 @@
       "M"
     ],
     "dragonpulse": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "ember": [
       "L:1"
     ],
     "encore": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endeavor": [
       "L:1"
@@ -64,6 +75,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "fakeout": [
+      "E@salandit"
     ],
     "faketears": [
       "M"
@@ -78,8 +92,8 @@
       "L:0"
     ],
     "flamethrower": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "flareblitz": [
       "M"
@@ -118,11 +132,12 @@
       "M"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@salandit"
     ],
     "nastyplot": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "overheat": [
       "M"
@@ -147,6 +162,9 @@
     ],
     "rest": [
       "M"
+    ],
+    "sandattack": [
+      "E@salandit"
     ],
     "scaryface": [
       "M"
@@ -209,12 +227,11 @@
       "M"
     ],
     "venoshock": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants."
+  }
 }

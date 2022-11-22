@@ -1,10 +1,11 @@
 {
   "slug": "shellder",
   "name": "Shellder",
-  "num": 329,
+  "num": 90,
   "types": [
     "water"
   ],
+  "gen": 1,
   "abilities": {
     "0": "shellarmor",
     "1": "skilllink",
@@ -18,11 +19,21 @@
     "spd": 25,
     "spe": 40
   },
+  "evos": [
+    "cloyster"
+  ],
   "weight": 4,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender."
   },
   "learnset": {
     "aquaring": [
@@ -53,12 +64,12 @@
       "M"
     ],
     "hydropump": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "icebeam": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "iceshard": [
       "L:8"
@@ -70,8 +81,8 @@
       "M"
     ],
     "irondefense": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "leer": [
       "L:12"
@@ -86,8 +97,8 @@
       "M"
     ],
     "protect": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "raindance": [
       "M"
@@ -144,8 +155,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "whirlpool": [
       "L:16"
@@ -153,6 +164,5 @@
     "withdraw": [
       "L:4"
     ]
-  },
-  "flavorText": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender."
+  }
 }

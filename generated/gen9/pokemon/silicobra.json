@@ -1,10 +1,11 @@
 {
   "slug": "silicobra",
   "name": "Silicobra",
-  "num": 270,
+  "num": 843,
   "types": [
     "ground"
   ],
+  "gen": 8,
   "abilities": {
     "0": "sandspit",
     "1": "shedskin",
@@ -18,11 +19,22 @@
     "spd": 50,
     "spe": 46
   },
+  "evos": [
+    "sandaconda"
+  ],
   "weight": 7.6,
-  "height": 22,
+  "height": 2.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin."
   },
   "learnset": {
     "belch": [
@@ -35,15 +47,15 @@
       "L:10"
     ],
     "bulldoze": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "coil": [
       "L:45"
     ],
     "dig": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "dragonrush": [
       "E"
@@ -79,12 +91,12 @@
       "M"
     ],
     "mudslap": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "poisontail": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "protect": [
       "M"
@@ -105,8 +117,8 @@
       "L:1"
     ],
     "sandstorm": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "sandtomb": [
       "L:50"
@@ -138,6 +150,5 @@
     "wrap": [
       "L:1"
     ]
-  },
-  "flavorText": "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin."
+  }
 }

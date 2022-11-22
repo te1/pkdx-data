@@ -1,11 +1,12 @@
 {
   "slug": "pyroar",
   "name": "Pyroar",
-  "num": 225,
+  "num": 668,
   "types": [
     "fire",
     "normal"
   ],
+  "gen": 6,
   "abilities": {
     "0": "rivalry",
     "1": "unnerve",
@@ -19,11 +20,19 @@
     "spd": 66,
     "spe": 106
   },
+  "prevo": "litleo",
+  "evoLevel": 35,
   "weight": 81.5,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
-    "M": 0.11,
-    "F": 0.89
+    "M": 0.125,
+    "F": 0.875
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "The females of a pride work together to bring down prey. It's thanks to them that their pride doesn't starve."
   },
   "learnset": {
     "acrobatics": [
@@ -36,8 +45,8 @@
       "M"
     ],
     "crunch": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "darkpulse": [
       "M"
@@ -57,6 +66,9 @@
     "endure": [
       "M"
     ],
+    "entrainment": [
+      "E@litleo"
+    ],
     "facade": [
       "M"
     ],
@@ -64,21 +76,23 @@
       "M"
     ],
     "firefang": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "firespin": [
-      "M"
+      "M",
+      "E@litleo"
     ],
     "flamecharge": [
       "M"
     ],
     "flamethrower": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "flareblitz": [
-      "M"
+      "M",
+      "E@litleo"
     ],
     "gigaimpact": [
       "M"
@@ -93,12 +107,12 @@
       "M"
     ],
     "hyperbeam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hypervoice": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "incinerate": [
       "L:51"
@@ -113,8 +127,8 @@
       "L:15"
     ],
     "overheat": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "protect": [
       "M"
@@ -150,8 +164,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "taunt": [
       "M"
@@ -176,7 +190,9 @@
     ],
     "workup": [
       "L:1"
+    ],
+    "yawn": [
+      "E@litleo"
     ]
-  },
-  "flavorText": "The females of a pride work together to bring down prey. It's thanks to them that their pride doesn't starve."
+  }
 }

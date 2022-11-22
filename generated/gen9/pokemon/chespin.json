@@ -1,10 +1,11 @@
 {
   "slug": "chespin",
   "name": "Chespin",
-  "num": null,
+  "num": 650,
   "types": [
     "grass"
   ],
+  "gen": 6,
   "abilities": {
     "0": "overgrow",
     "H": "bulletproof"
@@ -17,12 +18,20 @@
     "spd": 45,
     "spe": 38
   },
+  "evos": [
+    "quilladin"
+  ],
   "weight": 9,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
       "M"
@@ -34,8 +43,8 @@
       "L:11"
     ],
     "bodyslam": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "brickbreak": [
       "M"
@@ -104,8 +113,8 @@
       "M"
     ],
     "mudshot": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "painsplit": [
       "L:45"
@@ -141,8 +150,8 @@
       "L:8"
     ],
     "seedbomb": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "shadowclaw": [
       "M"
@@ -154,8 +163,8 @@
       "M"
     ],
     "spikes": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "stompingtantrum": [
       "M"
@@ -176,8 +185,8 @@
       "E"
     ],
     "takedown": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "terablast": [
       "M"

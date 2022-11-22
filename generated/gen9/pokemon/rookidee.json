@@ -1,10 +1,11 @@
 {
   "slug": "rookidee",
   "name": "Rookidee",
-  "num": 40,
+  "num": 821,
   "types": [
     "flying"
   ],
+  "gen": 8,
   "abilities": {
     "0": "keeneye",
     "1": "unnerve",
@@ -18,11 +19,21 @@
     "spd": 35,
     "spe": 57
   },
+  "evos": [
+    "corvisquire"
+  ],
   "weight": 1.8,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon."
   },
   "learnset": {
     "aerialace": [
@@ -38,8 +49,8 @@
       "M"
     ],
     "bravebird": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "defog": [
       "E"
@@ -99,8 +110,8 @@
       "E"
     ],
     "scaryface": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "skyattack": [
       "E"
@@ -121,15 +132,15 @@
       "M"
     ],
     "tailwind": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
@@ -140,6 +151,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon."
+  }
 }

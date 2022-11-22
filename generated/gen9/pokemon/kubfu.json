@@ -1,10 +1,11 @@
 {
   "slug": "kubfu",
   "name": "Kubfu",
-  "num": null,
+  "num": 891,
   "types": [
     "fighting"
   ],
+  "gen": 8,
   "abilities": {
     "0": "innerfocus",
     "H": "noguard"
@@ -17,34 +18,43 @@
     "spd": 50,
     "spe": 72
   },
+  "evos": [
+    "urshifu",
+    "urshifu-rapid-strike"
+  ],
   "weight": 12,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "bodyslam": [
       "M"
     ],
     "brickbreak": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "bulkup": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "closecombat": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "counter": [
       "L:44"
@@ -59,8 +69,8 @@
       "L:40"
     ],
     "endure": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "facade": [
       "M"
@@ -87,8 +97,8 @@
       "M"
     ],
     "ironhead": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "leer": [
       "L:1"
@@ -115,8 +125,8 @@
       "L:1"
     ],
     "scaryface": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "sleeptalk": [
       "M"

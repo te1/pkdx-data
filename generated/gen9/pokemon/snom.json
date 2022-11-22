@@ -1,11 +1,12 @@
 {
   "slug": "snom",
   "name": "Snom",
-  "num": 350,
+  "num": 872,
   "types": [
     "ice",
     "bug"
   ],
+  "gen": 8,
   "abilities": {
     "0": "shielddust",
     "H": "icescales"
@@ -18,11 +19,21 @@
     "spd": 30,
     "spe": 20
   },
+  "evos": [
+    "frosmoth"
+  ],
   "weight": 3.8,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak."
   },
   "learnset": {
     "bugbite": [
@@ -59,8 +70,8 @@
       "M"
     ],
     "strugglebug": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "substitute": [
       "M"
@@ -68,6 +79,5 @@
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak."
+  }
 }

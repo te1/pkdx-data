@@ -1,11 +1,12 @@
 {
   "slug": "flamigo",
   "name": "Flamigo",
-  "num": 346,
+  "num": 961,
   "types": [
     "flying",
     "fighting"
   ],
+  "gen": 9,
   "abilities": {
     "0": "scrappy",
     "1": "tangledfeet",
@@ -19,11 +20,18 @@
     "spd": 64,
     "spe": 90
   },
-  "weight": 37,
-  "height": 16,
+  "weight": 379,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak."
   },
   "learnset": {
     "acrobatics": [
@@ -39,12 +47,12 @@
       "M"
     ],
     "airslash": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "bravebird": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "bulkup": [
       "M"
@@ -98,8 +106,8 @@
       "M"
     ],
     "lowkick": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "lowsweep": [
       "M"
@@ -173,6 +181,5 @@
     "wingattack": [
       "L:12"
     ]
-  },
-  "flavorText": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak."
+  }
 }

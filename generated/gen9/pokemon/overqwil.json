@@ -1,11 +1,12 @@
 {
   "slug": "overqwil",
   "name": "Overqwil",
-  "num": null,
+  "num": 904,
   "types": [
     "dark",
     "poison"
   ],
+  "gen": 8,
   "abilities": {
     "0": "poisonpoint",
     "1": "swiftswim",
@@ -19,18 +20,38 @@
     "spd": 65,
     "spe": 85
   },
-  "weight": 60.5,
-  "height": 25,
+  "prevo": "qwilfish-hisui",
+  "evoType": "other",
+  "evoCondition": "Use Strong style Barb Barrage 20 times",
+  "weight": 3.9,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "isUnobtainable": true,
   "learnset": {
+    "acidspray": [
+      "M@qwilfish-hisui",
+      "E@qwilfish-hisui"
+    ],
     "acupressure": [
       "L:52"
     ],
     "agility": [
       "M"
+    ],
+    "aquajet": [
+      "E@qwilfish-hisui"
+    ],
+    "aquatail": [
+      "E@qwilfish-hisui"
+    ],
+    "astonish": [
+      "E@qwilfish-hisui"
     ],
     "barbbarrage": [
       "L:28"
@@ -44,12 +65,15 @@
     "brine": [
       "L:24"
     ],
+    "bubblebeam": [
+      "E@qwilfish-hisui"
+    ],
     "chillingwater": [
       "M"
     ],
     "crunch": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "darkpulse": [
       "M"
@@ -66,6 +90,9 @@
     "fellstinger": [
       "L:12"
     ],
+    "flail": [
+      "E@qwilfish-hisui"
+    ],
     "gigaimpact": [
       "M"
     ],
@@ -74,6 +101,12 @@
     ],
     "harden": [
       "L:4"
+    ],
+    "haze": [
+      "E@qwilfish-hisui"
+    ],
+    "hex": [
+      "M@qwilfish-hisui"
     ],
     "hydropump": [
       "M"
@@ -123,6 +156,9 @@
     "scaryface": [
       "M"
     ],
+    "selfdestruct": [
+      "E@qwilfish-hisui"
+    ],
     "shadowball": [
       "M"
     ],
@@ -136,8 +172,8 @@
       "M"
     ],
     "spikes": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "spitup": [
       "L:40"
@@ -148,8 +184,14 @@
     "substitute": [
       "M"
     ],
+    "supersonic": [
+      "E@qwilfish-hisui"
+    ],
     "surf": [
       "M"
+    ],
+    "swift": [
+      "M@qwilfish-hisui"
     ],
     "swordsdance": [
       "M"
@@ -170,14 +212,18 @@
       "L:44"
     ],
     "toxicspikes": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "venoshock": [
       "M"
     ],
     "waterfall": [
       "M"
+    ],
+    "waterpulse": [
+      "M@qwilfish-hisui",
+      "E@qwilfish-hisui"
     ]
   }
 }

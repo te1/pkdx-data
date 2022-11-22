@@ -1,10 +1,11 @@
 {
   "slug": "luvdisc",
   "name": "Luvdisc",
-  "num": 332,
+  "num": 370,
   "types": [
     "water"
   ],
+  "gen": 3,
   "abilities": {
     "0": "swiftswim",
     "H": "hydration"
@@ -18,15 +19,22 @@
     "spe": 97
   },
   "weight": 8.7,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
   },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
+  },
   "learnset": {
     "agility": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "aquaring": [
       "L:40"
@@ -41,12 +49,12 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "drainingkiss": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "endure": [
       "M"
@@ -58,8 +66,8 @@
       "L:26"
     ],
     "hydropump": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "icebeam": [
       "M"
@@ -104,8 +112,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "terablast": [
       "M"
@@ -117,12 +125,11 @@
       "L:4"
     ],
     "waterpulse": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "wish": [
       "L:13"
     ]
-  },
-  "flavorText": "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
+  }
 }

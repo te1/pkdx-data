@@ -1,11 +1,12 @@
 {
   "slug": "lokix",
   "name": "Lokix",
-  "num": 15,
+  "num": 921,
   "types": [
     "bug",
     "dark"
   ],
+  "gen": 9,
   "abilities": {
     "0": "swarm",
     "H": "tintedlens"
@@ -18,19 +19,27 @@
     "spd": 55,
     "spe": 92
   },
+  "prevo": "nymble",
+  "evoLevel": 24,
   "weight": 17.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "assurance": [
       "L:9"
@@ -53,6 +62,9 @@
     "bugbuzz": [
       "M"
     ],
+    "counter": [
+      "E@nymble"
+    ],
     "darkpulse": [
       "M"
     ],
@@ -63,8 +75,8 @@
       "L:11"
     ],
     "endure": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "facade": [
       "M"
@@ -88,8 +100,8 @@
       "L:1"
     ],
     "lowkick": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "lowsweep": [
       "M"
@@ -118,12 +130,15 @@
     "screech": [
       "L:14"
     ],
+    "skittersmack": [
+      "E@nymble"
+    ],
     "sleeptalk": [
       "M"
     ],
     "strugglebug": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "substitute": [
       "M"
@@ -164,6 +179,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order."
+  }
 }

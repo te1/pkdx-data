@@ -1,14 +1,14 @@
 {
   "slug": "wochien",
   "name": "Wo-Chien",
-  "num": 393,
+  "num": 996,
   "types": [
     "dark",
     "grass"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "tabletsofruin",
-    "H": "tabletsofruin"
+    "0": "tabletsofruin"
   },
   "baseStats": {
     "hp": 85,
@@ -19,8 +19,14 @@
     "spe": 70
   },
   "weight": 74.2,
-  "height": 15,
-  "genderRatio": {},
+  "height": 1.5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "The grudge of a person punished for writing the king's evil deeds upon wooden tablets has clad itself in dead leaves to become a Pokémon."
+  },
   "learnset": {
     "absorb": [
       "L:1"
@@ -35,8 +41,8 @@
       "M"
     ],
     "darkpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "endure": [
       "M"
@@ -48,12 +54,12 @@
       "M"
     ],
     "foulplay": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "gigadrain": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "gigaimpact": [
       "M"
@@ -62,8 +68,8 @@
       "M"
     ],
     "grassyterrain": [
-      "L:65",
-      "M"
+      "M",
+      "L:65"
     ],
     "growth": [
       "L:30"
@@ -81,8 +87,8 @@
       "L:70"
     ],
     "leafstorm": [
-      "L:75",
-      "M"
+      "M",
+      "L:75"
     ],
     "leechseed": [
       "L:25"
@@ -177,6 +183,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The grudge of a person punished for writing the king's evil deeds upon wooden tablets has clad itself in dead leaves to become a Pokémon."
+  }
 }

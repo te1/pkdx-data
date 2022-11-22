@@ -1,10 +1,11 @@
 {
   "slug": "zangoose",
   "name": "Zangoose",
-  "num": 217,
+  "num": 335,
   "types": [
     "normal"
   ],
+  "gen": 3,
   "abilities": {
     "0": "immunity",
     "H": "toxicboost"
@@ -18,10 +19,17 @@
     "spe": 90
   },
   "weight": 40.3,
-  "height": 13,
+  "height": 1.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It's Seviper's archrival. To threaten those it encounters, it fans out the claws on its front paws."
   },
   "learnset": {
     "aerialace": [
@@ -36,9 +44,6 @@
     "batonpass": [
       "M"
     ],
-    "bellydrum": [
-      "T"
-    ],
     "blizzard": [
       "M"
     ],
@@ -49,32 +54,17 @@
       "M"
     ],
     "closecombat": [
-      "L:50",
-      "M"
-    ],
-    "counter": [
-      "T"
+      "M",
+      "L:50"
     ],
     "crushclaw": [
       "L:26"
-    ],
-    "curse": [
-      "T"
     ],
     "detect": [
       "L:36"
     ],
     "dig": [
       "M"
-    ],
-    "disable": [
-      "T"
-    ],
-    "doublehit": [
-      "T"
-    ],
-    "doublekick": [
-      "T"
     ],
     "endure": [
       "M"
@@ -83,23 +73,14 @@
       "M"
     ],
     "falseswipe": [
-      "L:29",
-      "M"
-    ],
-    "feint": [
-      "T"
-    ],
-    "finalgambit": [
-      "T"
+      "M",
+      "L:29"
     ],
     "fireblast": [
       "M"
     ],
     "firepunch": [
       "M"
-    ],
-    "flail": [
-      "T"
     ],
     "flamethrower": [
       "M"
@@ -112,9 +93,6 @@
     ],
     "furycutter": [
       "L:8"
-    ],
-    "furyswipes": [
-      "T"
     ],
     "gigaimpact": [
       "M"
@@ -153,11 +131,8 @@
       "M"
     ],
     "metalclaw": [
-      "L:12",
-      "M"
-    ],
-    "nightslash": [
-      "T"
+      "M",
+      "L:12"
     ],
     "poisonjab": [
       "M"
@@ -170,9 +145,6 @@
     ],
     "quickattack": [
       "L:5"
-    ],
-    "quickguard": [
-      "T"
     ],
     "raindance": [
       "M"
@@ -226,15 +198,15 @@
       "L:33"
     ],
     "swordsdance": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "terablast": [
       "M"
@@ -255,12 +227,11 @@
       "M"
     ],
     "xscissor": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It's Seviper's archrival. To threaten those it encounters, it fans out the claws on its front paws."
+  }
 }

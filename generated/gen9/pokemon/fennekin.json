@@ -1,10 +1,11 @@
 {
   "slug": "fennekin",
   "name": "Fennekin",
-  "num": null,
+  "num": 653,
   "types": [
     "fire"
   ],
+  "gen": 6,
   "abilities": {
     "0": "blaze",
     "H": "magician"
@@ -17,12 +18,20 @@
     "spd": 60,
     "spe": 60
   },
+  "evos": [
+    "braixen"
+  ],
   "weight": 9.4,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "agility": [
       "M"
@@ -49,23 +58,23 @@
       "M"
     ],
     "fireblast": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "firepledge": [
       "M"
     ],
     "firespin": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "flamecharge": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "flamethrower": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "flareblitz": [
       "M"
@@ -77,8 +86,8 @@
       "M"
     ],
     "heatwave": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "helpinghand": [
       "M"
@@ -93,8 +102,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "magicroom": [
       "E"
@@ -112,19 +121,19 @@
       "M"
     ],
     "psybeam": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "psychic": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "psychicterrain": [
       "M"
     ],
     "psyshock": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "raindance": [
       "M"
@@ -151,8 +160,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "swift": [
       "M"
@@ -176,8 +185,8 @@
       "M"
     ],
     "willowisp": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "wish": [
       "E"

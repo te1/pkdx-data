@@ -1,11 +1,12 @@
 {
   "slug": "pawniard",
   "name": "Pawniard",
-  "num": 367,
+  "num": 624,
   "types": [
     "dark",
     "steel"
   ],
+  "gen": 5,
   "abilities": {
     "0": "defiant",
     "1": "innerfocus",
@@ -19,11 +20,21 @@
     "spd": 40,
     "spe": 60
   },
+  "evos": [
+    "bisharp"
+  ],
   "weight": 10.2,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body."
   },
   "learnset": {
     "aerialace": [
@@ -75,12 +86,12 @@
       "E"
     ],
     "irondefense": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "ironhead": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "leer": [
       "L:1"
@@ -95,8 +106,8 @@
       "E"
     ],
     "metalclaw": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "metalsound": [
       "L:30"
@@ -129,8 +140,8 @@
       "M"
     ],
     "scaryface": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "scratch": [
       "L:1"
@@ -163,8 +174,8 @@
       "E"
     ],
     "swordsdance": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "takedown": [
       "M"
@@ -187,6 +198,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body."
+  }
 }

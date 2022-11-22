@@ -1,13 +1,13 @@
 {
   "slug": "clawitzer",
   "name": "Clawitzer",
-  "num": 340,
+  "num": 693,
   "types": [
     "water"
   ],
+  "gen": 6,
   "abilities": {
-    "0": "megalauncher",
-    "H": "megalauncher"
+    "0": "megalauncher"
   },
   "baseStats": {
     "hp": 71,
@@ -17,19 +17,31 @@
     "spd": 89,
     "spe": 59
   },
+  "prevo": "clauncher",
+  "evoLevel": 37,
   "weight": 35.3,
-  "height": 13,
+  "height": 1.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Water 3"
+  ],
+  "flavorText": {
+    "scarlet": "Clawitzer can move through the water at a speed of 60 knots by using gas inside its body to expel water from the back of its claw."
   },
   "learnset": {
     "aquajet": [
       "L:15"
     ],
+    "aquatail": [
+      "E@clauncher"
+    ],
     "aurasphere": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "blizzard": [
       "M"
@@ -40,6 +52,9 @@
     "bounce": [
       "L:49"
     ],
+    "bubblebeam": [
+      "E@clauncher"
+    ],
     "chillingwater": [
       "M"
     ],
@@ -47,15 +62,18 @@
       "L:63"
     ],
     "darkpulse": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dragonpulse": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
       "M"
+    ],
+    "entrainment": [
+      "E@clauncher"
     ],
     "facade": [
       "M"
@@ -145,8 +163,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "takedown": [
       "M"
@@ -173,9 +191,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ]
-  },
-  "flavorText": "Clawitzer can move through the water at a speed of 60 knots by using gas inside its body to expel water from the back of its claw."
+  }
 }

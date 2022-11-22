@@ -1,10 +1,11 @@
 {
   "slug": "scatterbug",
   "name": "Scatterbug",
-  "num": 35,
+  "num": 664,
   "types": [
     "bug"
   ],
+  "gen": 6,
   "abilities": {
     "0": "shielddust",
     "1": "compoundeyes",
@@ -18,11 +19,21 @@
     "spd": 25,
     "spe": 35
   },
+  "evos": [
+    "spewpa"
+  ],
   "weight": 2.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Any poison this Pokémon takes in is converted into a black powder and secreted. That's why Scatterbug can eat poisonous leaves and roots."
   },
   "learnset": {
     "bugbite": [
@@ -52,6 +63,5 @@
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "Any poison this Pokémon takes in is converted into a black powder and secreted. That's why Scatterbug can eat poisonous leaves and roots."
+  }
 }

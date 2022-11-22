@@ -1,14 +1,14 @@
 {
   "slug": "hydreigon",
   "name": "Hydreigon",
-  "num": 372,
+  "num": 635,
   "types": [
     "dark",
     "dragon"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 92,
@@ -18,11 +18,19 @@
     "spd": 90,
     "spe": 98
   },
+  "prevo": "zweilous",
+  "evoLevel": 64,
   "weight": 160,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Only the central head has a brain. It is very intelligent, but it thinks only of destruction."
   },
   "learnset": {
     "acrobatics": [
@@ -31,25 +39,32 @@
     "assurance": [
       "L:16"
     ],
+    "astonish": [
+      "E@deino"
+    ],
+    "belch": [
+      "E@deino"
+    ],
     "bite": [
       "L:1"
     ],
     "bodyslam": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "bulldoze": [
       "M"
     ],
     "crunch": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "darkpulse": [
       "M"
     ],
     "doublehit": [
-      "L:1"
+      "L:1",
+      "E@deino"
     ],
     "dracometeor": [
       "M"
@@ -61,8 +76,8 @@
       "M"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dragonrush": [
       "L:54"
@@ -112,6 +127,9 @@
     "headbutt": [
       "L:20"
     ],
+    "headsmash": [
+      "E@deino"
+    ],
     "heatwave": [
       "M"
     ],
@@ -122,23 +140,23 @@
       "M"
     ],
     "hyperbeam": [
-      "L:76",
-      "M"
+      "M",
+      "L:76"
     ],
     "hypervoice": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "icefang": [
       "M"
     ],
     "nastyplot": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "outrage": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
     ],
     "protect": [
       "M"
@@ -162,8 +180,8 @@
       "M"
     ],
     "scaryface": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "slam": [
       "L:28"
@@ -228,6 +246,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Only the central head has a brain. It is very intelligent, but it thinks only of destruction."
+  }
 }

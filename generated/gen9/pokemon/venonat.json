@@ -1,11 +1,12 @@
 {
   "slug": "venonat",
   "name": "Venonat",
-  "num": 256,
+  "num": 48,
   "types": [
     "bug",
     "poison"
   ],
+  "gen": 1,
   "abilities": {
     "0": "compoundeyes",
     "1": "tintedlens",
@@ -19,30 +20,40 @@
     "spd": 55,
     "spe": 45
   },
+  "evos": [
+    "venomoth"
+  ],
   "weight": 30,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light."
   },
   "learnset": {
     "acidspray": [
       "M"
     ],
     "agility": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "batonpass": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "bugbite": [
       "E"
     ],
     "bugbuzz": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "confuseray": [
       "M"
@@ -66,8 +77,8 @@
       "M"
     ],
     "leechlife": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "morningsun": [
       "E"
@@ -88,12 +99,12 @@
       "M"
     ],
     "psybeam": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "psychic": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "ragepowder": [
       "E"
@@ -150,17 +161,16 @@
       "M"
     ],
     "toxicspikes": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "venoshock": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "zenheadbutt": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ]
-  },
-  "flavorText": "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light."
+  }
 }

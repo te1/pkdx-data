@@ -1,10 +1,11 @@
 {
   "slug": "gogoat",
   "name": "Gogoat",
-  "num": 222,
+  "num": 673,
   "types": [
     "grass"
   ],
+  "gen": 6,
   "abilities": {
     "0": "sapsipper",
     "H": "grasspelt"
@@ -17,16 +18,24 @@
     "spd": 81,
     "spe": 68
   },
+  "prevo": "skiddo",
+  "evoLevel": 32,
   "weight": 91,
-  "height": 17,
+  "height": 1.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago."
+  },
   "learnset": {
     "aerialace": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "bodyslam": [
       "M"
@@ -35,15 +44,18 @@
       "M"
     ],
     "bulkup": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "bulldoze": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "bulletseed": [
       "M"
+    ],
+    "defensecurl": [
+      "E@skiddo"
     ],
     "dig": [
       "M"
@@ -52,8 +64,8 @@
       "L:40"
     ],
     "earthquake": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
       "M"
@@ -74,7 +86,8 @@
       "M"
     ],
     "grassyterrain": [
-      "M"
+      "M",
+      "E@skiddo"
     ],
     "growth": [
       "L:1"
@@ -101,7 +114,8 @@
       "M"
     ],
     "milkdrink": [
-      "L:58"
+      "L:58",
+      "E@skiddo"
     ],
     "mudshot": [
       "M"
@@ -127,9 +141,12 @@
     "rockslide": [
       "M"
     ],
+    "rollout": [
+      "E@skiddo"
+    ],
     "seedbomb": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "sleeptalk": [
       "M"
@@ -159,8 +176,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "terablast": [
       "M"
@@ -180,6 +197,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago."
+  }
 }

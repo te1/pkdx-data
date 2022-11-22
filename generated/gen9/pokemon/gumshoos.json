@@ -1,10 +1,11 @@
 {
   "slug": "gumshoos",
   "name": "Gumshoos",
-  "num": 28,
+  "num": 735,
   "types": [
     "normal"
   ],
+  "gen": 7,
   "abilities": {
     "0": "stakeout",
     "1": "strongjaw",
@@ -18,11 +19,20 @@
     "spd": 60,
     "spe": 45
   },
+  "prevo": "yungoos",
+  "evoCondition": "during the day",
+  "evoLevel": 20,
   "weight": 14.2,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down."
   },
   "learnset": {
     "bite": [
@@ -38,14 +48,17 @@
       "M"
     ],
     "crunch": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "dig": [
       "M"
     ],
     "earthquake": [
       "M"
+    ],
+    "endeavor": [
+      "E@yungoos"
     ],
     "endure": [
       "M"
@@ -54,7 +67,8 @@
       "M"
     ],
     "firefang": [
-      "M"
+      "M",
+      "E@yungoos"
     ],
     "firepunch": [
       "M"
@@ -72,13 +86,17 @@
       "M"
     ],
     "icefang": [
-      "M"
+      "M",
+      "E@yungoos"
     ],
     "icepunch": [
       "M"
     ],
     "ironhead": [
       "M"
+    ],
+    "lastresort": [
+      "E@yungoos"
     ],
     "leer": [
       "L:1"
@@ -90,8 +108,8 @@
       "M"
     ],
     "mudslap": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "payback": [
       "L:1"
@@ -106,8 +124,8 @@
       "M"
     ],
     "rest": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "reversal": [
       "M"
@@ -122,8 +140,8 @@
       "M"
     ],
     "scaryface": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "seedbomb": [
       "M"
@@ -147,8 +165,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "taunt": [
       "M"
@@ -163,7 +181,8 @@
       "L:47"
     ],
     "thunderfang": [
-      "M"
+      "M",
+      "E@yungoos"
     ],
     "thunderpunch": [
       "M"
@@ -186,6 +205,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down."
+  }
 }

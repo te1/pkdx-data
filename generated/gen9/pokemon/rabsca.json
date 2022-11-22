@@ -1,11 +1,12 @@
 {
   "slug": "rabsca",
   "name": "Rabsca",
-  "num": 255,
+  "num": 923,
   "types": [
     "bug",
     "psychic"
   ],
+  "gen": 9,
   "abilities": {
     "0": "synchronize",
     "H": "telepathy"
@@ -18,19 +19,28 @@
     "spd": 100,
     "spe": 45
   },
+  "prevo": "rellor",
+  "evoType": "other",
+  "evoCondition": "walk 1000 steps in Let's Go",
   "weight": 3.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball."
   },
   "learnset": {
     "bugbite": [
       "L:20"
     ],
     "bugbuzz": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "calmmind": [
       "M"
@@ -41,6 +51,9 @@
     "confusion": [
       "L:1"
     ],
+    "cosmicpower": [
+      "E@rellor"
+    ],
     "dazzlinggleam": [
       "M"
     ],
@@ -48,7 +61,8 @@
       "L:1"
     ],
     "dig": [
-      "M"
+      "M",
+      "L:29@rellor"
     ],
     "earthpower": [
       "M"
@@ -98,8 +112,12 @@
     "lunge": [
       "L:35"
     ],
+    "memento": [
+      "E@rellor"
+    ],
     "mudshot": [
-      "M"
+      "M",
+      "L:15@rellor"
     ],
     "mudslap": [
       "M"
@@ -117,24 +135,27 @@
       "M"
     ],
     "psybeam": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "psychic": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "psychicterrain": [
       "M"
     ],
     "psychup": [
-      "T"
+      "L:1"
     ],
     "psyshock": [
       "M"
     ],
     "raindance": [
       "M"
+    ],
+    "recover": [
+      "E@rellor"
     ],
     "reflect": [
       "M"
@@ -152,7 +173,7 @@
       "L:11"
     ],
     "safeguard": [
-      "T"
+      "L:1"
     ],
     "sandattack": [
       "L:4"
@@ -179,8 +200,8 @@
       "M"
     ],
     "strugglebug": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "substitute": [
       "M"
@@ -192,8 +213,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "terablast": [
       "M"
@@ -207,12 +228,14 @@
     "trickroom": [
       "M"
     ],
+    "weatherball": [
+      "E@rellor"
+    ],
     "xscissor": [
       "M"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball."
+  }
 }

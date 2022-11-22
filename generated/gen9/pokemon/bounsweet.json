@@ -1,10 +1,11 @@
 {
   "slug": "bounsweet",
   "name": "Bounsweet",
-  "num": 81,
+  "num": 761,
   "types": [
     "grass"
   ],
+  "gen": 7,
   "abilities": {
     "0": "leafguard",
     "1": "oblivious",
@@ -18,10 +19,18 @@
     "spd": 38,
     "spe": 32
   },
+  "evos": [
+    "steenee"
+  ],
   "weight": 3.2,
-  "height": 3,
-  "genderRatio": {
-    "F": 1
+  "height": 0.3,
+  "gender": "F",
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its sweat is sweet, like syrup made from boiled- down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce."
   },
   "learnset": {
     "acupressure": [
@@ -76,8 +85,8 @@
       "M"
     ],
     "magicalleaf": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "playnice": [
       "L:4"
@@ -142,6 +151,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Its sweat is sweet, like syrup made from boiled- down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce."
+  }
 }

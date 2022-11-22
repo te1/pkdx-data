@@ -1,10 +1,11 @@
 {
   "slug": "kricketot",
   "name": "Kricketot",
-  "num": 33,
+  "num": 401,
   "types": [
     "bug"
   ],
+  "gen": 4,
   "abilities": {
     "0": "shedskin",
     "H": "runaway"
@@ -17,11 +18,21 @@
     "spd": 41,
     "spe": 25
   },
+  "evos": [
+    "kricketune"
+  ],
   "weight": 2.2,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
   },
   "learnset": {
     "bugbite": [
@@ -31,8 +42,8 @@
       "L:1"
     ],
     "strugglebug": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "tackle": [
       "L:1"
@@ -40,6 +51,5 @@
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
+  }
 }

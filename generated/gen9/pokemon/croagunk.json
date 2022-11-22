@@ -1,11 +1,12 @@
 {
   "slug": "croagunk",
   "name": "Croagunk",
-  "num": 175,
+  "num": 453,
   "types": [
     "poison",
     "fighting"
   ],
+  "gen": 4,
   "abilities": {
     "0": "anticipation",
     "1": "dryskin",
@@ -19,11 +20,21 @@
     "spd": 40,
     "spe": 50
   },
+  "evos": [
+    "toxicroak"
+  ],
   "weight": 23,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab."
   },
   "learnset": {
     "acidspray": [
@@ -117,8 +128,8 @@
       "M"
     ],
     "lowkick": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "lowsweep": [
       "M"
@@ -127,16 +138,16 @@
       "M"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "nastyplot": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "poisonjab": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "poisonsting": [
       "L:1"
@@ -175,8 +186,8 @@
       "M"
     ],
     "sludgebomb": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "substitute": [
       "M"
@@ -194,8 +205,8 @@
       "M"
     ],
     "taunt": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "terablast": [
       "M"
@@ -213,12 +224,11 @@
       "E"
     ],
     "venoshock": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab."
+  }
 }

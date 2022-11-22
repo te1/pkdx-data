@@ -1,10 +1,11 @@
 {
   "slug": "kricketune",
   "name": "Kricketune",
-  "num": 34,
+  "num": 402,
   "types": [
     "bug"
   ],
+  "gen": 4,
   "abilities": {
     "0": "swarm",
     "H": "technician"
@@ -17,11 +18,19 @@
     "spd": 51,
     "spe": 65
   },
+  "prevo": "kricketot",
+  "evoLevel": 10,
   "weight": 25.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
   },
   "learnset": {
     "absorb": [
@@ -36,9 +45,12 @@
     "brickbreak": [
       "M"
     ],
+    "bugbite": [
+      "L:16@kricketot"
+    ],
     "bugbuzz": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "endure": [
       "M"
@@ -113,7 +125,8 @@
       "L:44"
     ],
     "strugglebug": [
-      "M"
+      "M",
+      "L:6@kricketot"
     ],
     "substitute": [
       "M"
@@ -131,8 +144,8 @@
       "M"
     ],
     "taunt": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "terablast": [
       "M"
@@ -141,9 +154,8 @@
       "M"
     ],
     "xscissor": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ]
-  },
-  "flavorText": "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
+  }
 }

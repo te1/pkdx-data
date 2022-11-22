@@ -1,10 +1,11 @@
 {
   "slug": "hatenna",
   "name": "Hatenna",
-  "num": 282,
+  "num": 856,
   "types": [
     "psychic"
   ],
+  "gen": 8,
   "abilities": {
     "0": "healer",
     "1": "anticipation",
@@ -18,10 +19,18 @@
     "spd": 53,
     "spe": 39
   },
+  "evos": [
+    "hattrem"
+  ],
   "weight": 3.4,
-  "height": 4,
-  "genderRatio": {
-    "F": 1
+  "height": 0.4,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Because the emotions of others constantly flow into its head, this Pokémon prefers environments where no other creatures live."
   },
   "learnset": {
     "afteryou": [
@@ -34,8 +43,8 @@
       "M"
     ],
     "calmmind": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "charm": [
       "M"
@@ -47,12 +56,12 @@
       "M"
     ],
     "dazzlinggleam": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "disarmingvoice": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "drainingkiss": [
       "M"
@@ -109,12 +118,12 @@
       "M"
     ],
     "psybeam": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "psychic": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "psychicterrain": [
       "M"
@@ -158,6 +167,5 @@
     "trickroom": [
       "M"
     ]
-  },
-  "flavorText": "Because the emotions of others constantly flow into its head, this Pokémon prefers environments where no other creatures live."
+  }
 }

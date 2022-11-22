@@ -1,11 +1,12 @@
 {
   "slug": "marill",
   "name": "Marill",
-  "num": 47,
+  "num": 183,
   "types": [
     "water",
     "fairy"
   ],
+  "gen": 2,
   "abilities": {
     "0": "thickfat",
     "1": "hugepower",
@@ -19,21 +20,40 @@
     "spd": 50,
     "spe": 40
   },
+  "prevo": "azurill",
+  "evos": [
+    "azumarill"
+  ],
+  "evoType": "levelFriendship",
   "weight": 8.5,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Fairy"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The fur on its body naturally repels water. It can stay dry even when it plays in the water."
+  },
   "learnset": {
     "amnesia": [
       "M"
+    ],
+    "aquajet": [
+      "E"
     ],
     "aquaring": [
       "L:24"
     ],
     "aquatail": [
       "L:19"
+    ],
+    "bellydrum": [
+      "E"
     ],
     "blizzard": [
       "M"
@@ -54,11 +74,14 @@
       "M"
     ],
     "charm": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "chillingwater": [
       "M"
+    ],
+    "copycat": [
+      "E"
     ],
     "defensecurl": [
       "L:1"
@@ -94,12 +117,12 @@
       "M"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hydropump": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "hypervoice": [
       "M"
@@ -134,22 +157,31 @@
     "mudslap": [
       "M"
     ],
+    "perishsong": [
+      "E"
+    ],
     "playrough": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
     ],
     "raindance": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "rest": [
       "M"
     ],
     "rollout": [
       "L:1"
+    ],
+    "sing": [
+      "E"
     ],
     "slam": [
       "L:12"
@@ -160,11 +192,20 @@
     "snowscape": [
       "M"
     ],
+    "soak": [
+      "E"
+    ],
+    "splash": [
+      "L:1"
+    ],
     "substitute": [
       "M"
     ],
     "superpower": [
       "L:36"
+    ],
+    "supersonic": [
+      "E"
     ],
     "surf": [
       "M"
@@ -184,6 +225,9 @@
     "terablast": [
       "M"
     ],
+    "tickle": [
+      "E"
+    ],
     "trailblaze": [
       "M"
     ],
@@ -196,6 +240,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "The fur on its body naturally repels water. It can stay dry even when it plays in the water."
+  }
 }

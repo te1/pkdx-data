@@ -1,11 +1,12 @@
 {
   "slug": "oranguru",
   "name": "Oranguru",
-  "num": 313,
+  "num": 765,
   "types": [
     "normal",
     "psychic"
   ],
+  "gen": 7,
   "abilities": {
     "0": "innerfocus",
     "1": "telepathy",
@@ -20,10 +21,17 @@
     "spe": 60
   },
   "weight": 76,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest."
   },
   "learnset": {
     "afteryou": [
@@ -39,8 +47,8 @@
       "M"
     ],
     "calmmind": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "chargebeam": [
       "M"
@@ -79,8 +87,8 @@
       "M"
     ],
     "foulplay": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "futuresight": [
       "L:60"
@@ -107,8 +115,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "protect": [
       "M"
@@ -117,8 +125,8 @@
       "M"
     ],
     "psychic": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "psychicterrain": [
       "M"
@@ -157,8 +165,8 @@
       "M"
     ],
     "storedpower": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "substitute": [
       "M"
@@ -173,8 +181,8 @@
       "M"
     ],
     "taunt": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
@@ -192,16 +200,15 @@
       "M"
     ],
     "trickroom": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "yawn": [
       "E"
     ],
     "zenheadbutt": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ]
-  },
-  "flavorText": "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest."
+  }
 }

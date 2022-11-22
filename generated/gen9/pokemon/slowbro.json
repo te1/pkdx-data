@@ -1,11 +1,12 @@
 {
   "slug": "slowbro",
   "name": "Slowbro",
-  "num": 325,
+  "num": 80,
   "types": [
     "water",
     "psychic"
   ],
+  "gen": 1,
   "abilities": {
     "0": "oblivious",
     "1": "owntempo",
@@ -19,22 +20,43 @@
     "spd": 80,
     "spe": 30
   },
+  "prevo": "slowpoke",
+  "evoLevel": 37,
+  "formes": [
+    "slowbro-galar"
+  ],
   "weight": 78.5,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "flavorText": {
+    "scarlet": "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro."
+  },
   "learnset": {
     "amnesia": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "avalanche": [
       "M"
     ],
+    "belch": [
+      "E@slowpoke"
+    ],
+    "bellydrum": [
+      "E@slowpoke"
+    ],
     "blizzard": [
       "M"
+    ],
+    "block": [
+      "E@slowpoke"
     ],
     "bodypress": [
       "M"
@@ -94,7 +116,7 @@
       "M"
     ],
     "futuresight": [
-      "T"
+      "L:1"
     ],
     "gigaimpact": [
       "M"
@@ -157,8 +179,8 @@
       "M"
     ],
     "psychic": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "psychicterrain": [
       "M"
@@ -170,8 +192,8 @@
       "M"
     ],
     "raindance": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "rest": [
       "M"
@@ -191,6 +213,9 @@
     "snowscape": [
       "M"
     ],
+    "stomp": [
+      "E@slowpoke"
+    ],
     "storedpower": [
       "M"
     ],
@@ -201,8 +226,8 @@
       "M"
     ],
     "surf": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "swift": [
       "M"
@@ -232,8 +257,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "withdraw": [
       "L:1"
@@ -242,9 +267,8 @@
       "L:9"
     ],
     "zenheadbutt": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ]
-  },
-  "flavorText": "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro."
+  }
 }

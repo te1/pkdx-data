@@ -1,10 +1,11 @@
 {
   "slug": "falinks",
   "name": "Falinks",
-  "num": 300,
+  "num": 870,
   "types": [
     "fighting"
   ],
+  "gen": 8,
   "abilities": {
     "0": "battlearmor",
     "H": "defiant"
@@ -18,8 +19,16 @@
     "spe": 75
   },
   "weight": 62,
-  "height": 30,
-  "genderRatio": {},
+  "height": 3,
+  "gender": "N",
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six."
+  },
   "learnset": {
     "agility": [
       "M"
@@ -34,19 +43,19 @@
       "M"
     ],
     "bulkup": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "closecombat": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "counter": [
       "L:60"
     ],
     "endure": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "facade": [
       "M"
@@ -76,8 +85,8 @@
       "M"
     ],
     "irondefense": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "ironhead": [
       "M"
@@ -92,8 +101,8 @@
       "M"
     ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "raindance": [
       "M"
@@ -102,8 +111,8 @@
       "M"
     ],
     "reversal": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "rockslide": [
       "M"
@@ -144,6 +153,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six."
+  }
 }

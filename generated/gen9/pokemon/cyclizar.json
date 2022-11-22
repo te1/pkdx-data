@@ -1,11 +1,12 @@
 {
   "slug": "cyclizar",
   "name": "Cyclizar",
-  "num": 295,
+  "num": 953,
   "types": [
     "dragon",
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "shedskin",
     "H": "regenerator"
@@ -19,10 +20,17 @@
     "spe": 121
   },
   "weight": 63,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals."
   },
   "learnset": {
     "acrobatics": [
@@ -56,12 +64,12 @@
       "M"
     ],
     "dragonclaw": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "dragonpulse": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "dragonrush": [
       "L:57"
@@ -154,8 +162,8 @@
       "M"
     ],
     "taunt": [
-      "L:11",
-      "M"
+      "M",
+      "L:11"
     ],
     "terablast": [
       "M"
@@ -173,12 +181,11 @@
       "M"
     ],
     "uturn": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals."
+  }
 }

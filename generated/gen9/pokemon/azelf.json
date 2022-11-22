@@ -1,13 +1,13 @@
 {
   "slug": "azelf",
   "name": "Azelf",
-  "num": null,
+  "num": 482,
   "types": [
     "psychic"
   ],
+  "gen": 4,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 75,
@@ -18,8 +18,13 @@
     "spe": 115
   },
   "weight": 0.3,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -97,8 +102,8 @@
       "M"
     ],
     "imprison": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "lastresort": [
       "L:70"
@@ -116,8 +121,8 @@
       "L:84"
     ],
     "nastyplot": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "playrough": [
       "M"
@@ -126,12 +131,12 @@
       "M"
     ],
     "psybeam": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "psychic": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "psyshock": [
       "M"
@@ -143,8 +148,8 @@
       "M"
     ],
     "rest": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "sandstorm": [
       "M"
@@ -171,8 +176,8 @@
       "M"
     ],
     "swift": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "taunt": [
       "M"

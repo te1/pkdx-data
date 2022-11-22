@@ -1,10 +1,11 @@
 {
   "slug": "yungoos",
   "name": "Yungoos",
-  "num": 27,
+  "num": 734,
   "types": [
     "normal"
   ],
+  "gen": 7,
   "abilities": {
     "0": "stakeout",
     "1": "strongjaw",
@@ -18,11 +19,21 @@
     "spd": 30,
     "spe": 45
   },
+  "evos": [
+    "gumshoos"
+  ],
   "weight": 6,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its stomach fills most of its torso. It wanders the same path every day, searching for fresh food."
   },
   "learnset": {
     "bite": [
@@ -35,8 +46,8 @@
       "M"
     ],
     "crunch": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "dig": [
       "M"
@@ -51,15 +62,15 @@
       "M"
     ],
     "firefang": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "helpinghand": [
       "M"
     ],
     "icefang": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "lastresort": [
       "E"
@@ -71,8 +82,8 @@
       "M"
     ],
     "mudslap": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "payback": [
       "L:7"
@@ -87,8 +98,8 @@
       "M"
     ],
     "rest": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "reversal": [
       "M"
@@ -103,8 +114,8 @@
       "M"
     ],
     "scaryface": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "seedbomb": [
       "M"
@@ -128,8 +139,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "taunt": [
       "M"
@@ -144,8 +155,8 @@
       "L:40"
     ],
     "thunderfang": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "trailblaze": [
       "M"
@@ -165,6 +176,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Its stomach fills most of its torso. It wanders the same path every day, searching for fresh food."
+  }
 }

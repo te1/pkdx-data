@@ -1,10 +1,11 @@
 {
   "slug": "gothitelle",
   "name": "Gothitelle",
-  "num": 236,
+  "num": 576,
   "types": [
     "psychic"
   ],
+  "gen": 5,
   "abilities": {
     "0": "frisk",
     "1": "competitive",
@@ -18,11 +19,19 @@
     "spd": 110,
     "spe": 65
   },
+  "prevo": "gothorita",
+  "evoLevel": 41,
   "weight": 44,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful."
   },
   "learnset": {
     "bodyslam": [
@@ -35,8 +44,8 @@
       "M"
     ],
     "charm": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "confusion": [
       "L:1"
@@ -53,9 +62,12 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E@gothita"
+    ],
     "faketears": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "flatter": [
       "L:48"
@@ -78,6 +90,9 @@
     "grassknot": [
       "M"
     ],
+    "healpulse": [
+      "E@gothita"
+    ],
     "helpinghand": [
       "M"
     ],
@@ -99,8 +114,14 @@
     "magicroom": [
       "L:64"
     ],
+    "meanlook": [
+      "E@gothita"
+    ],
     "metronome": [
       "M"
+    ],
+    "mirrorcoat": [
+      "E@gothita"
     ],
     "nastyplot": [
       "M"
@@ -115,12 +136,12 @@
       "M"
     ],
     "psybeam": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "psychic": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "psychicterrain": [
       "M"
@@ -129,8 +150,8 @@
       "L:35"
     ],
     "psyshock": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "raindance": [
       "M"
@@ -183,6 +204,9 @@
     "tickle": [
       "L:1"
     ],
+    "torment": [
+      "E@gothita"
+    ],
     "trick": [
       "M"
     ],
@@ -192,6 +216,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful."
+  }
 }

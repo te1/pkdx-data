@@ -1,11 +1,12 @@
 {
   "slug": "honchkrow",
   "name": "Honchkrow",
-  "num": 233,
+  "num": 430,
   "types": [
     "dark",
     "flying"
   ],
+  "gen": 4,
   "abilities": {
     "0": "insomnia",
     "1": "superluck",
@@ -19,11 +20,20 @@
     "spd": 52,
     "spe": 71
   },
+  "prevo": "murkrow",
+  "evoType": "useItem",
+  "evoItem": "Dusk Stone",
   "weight": 27.3,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "flavorText": {
+    "scarlet": "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
   },
   "learnset": {
     "acrobatics": [
@@ -38,11 +48,15 @@
     "airslash": [
       "M"
     ],
+    "assurance": [
+      "L:25@murkrow"
+    ],
     "astonish": [
       "L:1"
     ],
     "bravebird": [
-      "M"
+      "M",
+      "E@murkrow"
     ],
     "calmmind": [
       "M"
@@ -54,11 +68,15 @@
       "L:65"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "E@murkrow"
     ],
     "darkpulse": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
+    ],
+    "drillpeck": [
+      "E@murkrow"
     ],
     "endure": [
       "M"
@@ -66,15 +84,24 @@
     "facade": [
       "M"
     ],
+    "featherdance": [
+      "E@murkrow"
+    ],
+    "flatter": [
+      "E@murkrow"
+    ],
     "fly": [
       "M"
     ],
     "foulplay": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "gigaimpact": [
       "M"
+    ],
+    "gust": [
+      "L:5@murkrow"
     ],
     "haze": [
       "L:1"
@@ -97,18 +124,28 @@
     "icywind": [
       "M"
     ],
+    "meanlook": [
+      "L:35@murkrow"
+    ],
     "mudslap": [
       "M"
     ],
     "nastyplot": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "nightshade": [
-      "M"
+      "M",
+      "L:21@murkrow"
     ],
     "nightslash": [
       "L:1"
+    ],
+    "peck": [
+      "L:1@murkrow"
+    ],
+    "perishsong": [
+      "E@murkrow"
     ],
     "protect": [
       "M"
@@ -128,8 +165,14 @@
     "scaryface": [
       "M"
     ],
+    "screech": [
+      "E@murkrow"
+    ],
     "shadowball": [
       "M"
+    ],
+    "skyattack": [
+      "E@murkrow"
     ],
     "sleeptalk": [
       "M"
@@ -156,7 +199,8 @@
       "M"
     ],
     "taunt": [
-      "M"
+      "M",
+      "L:31@murkrow"
     ],
     "terablast": [
       "M"
@@ -167,12 +211,17 @@
     "thunderwave": [
       "M"
     ],
+    "torment": [
+      "L:55@murkrow"
+    ],
     "uturn": [
       "M"
+    ],
+    "whirlwind": [
+      "E@murkrow"
     ],
     "wingattack": [
       "L:1"
     ]
-  },
-  "flavorText": "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "mareanie",
   "name": "Mareanie",
-  "num": 344,
+  "num": 747,
   "types": [
     "poison",
     "water"
   ],
+  "gen": 7,
   "abilities": {
     "0": "merciless",
     "1": "limber",
@@ -19,16 +20,26 @@
     "spd": 52,
     "spe": 45
   },
+  "evos": [
+    "toxapex"
+  ],
   "weight": 8,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon wanders the seaside looking for food. It often gets electric shocks from broken Pincurchin spines that it tries to eat."
+  },
   "learnset": {
     "acidspray": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "bite": [
       "L:10"
@@ -70,8 +81,8 @@
       "M"
     ],
     "liquidation": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "mudshot": [
       "M"
@@ -83,8 +94,8 @@
       "L:25"
     ],
     "poisonjab": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "poisonsting": [
       "L:1"
@@ -132,12 +143,12 @@
       "L:50"
     ],
     "toxicspikes": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "venoshock": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "waterpulse": [
       "M"
@@ -145,6 +156,5 @@
     "wideguard": [
       "L:5"
     ]
-  },
-  "flavorText": "This Pokémon wanders the seaside looking for food. It often gets electric shocks from broken Pincurchin spines that it tries to eat."
+  }
 }

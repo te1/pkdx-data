@@ -1,11 +1,12 @@
 {
   "slug": "applin",
   "name": "Applin",
-  "num": 108,
+  "num": 840,
   "types": [
     "grass",
     "dragon"
   ],
+  "gen": 8,
   "abilities": {
     "0": "ripen",
     "1": "gluttony",
@@ -19,11 +20,23 @@
     "spd": 40,
     "spe": 20
   },
+  "evos": [
+    "flapple",
+    "appletun"
+  ],
   "weight": 0.5,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It grows by eating the flesh of an apple. Applin uses its own body fluid to strengthen the apple's skin and prevent it from rotting."
   },
   "learnset": {
     "astonish": [
@@ -50,6 +63,5 @@
     "withdraw": [
       "L:1"
     ]
-  },
-  "flavorText": "It grows by eating the flesh of an apple. Applin uses its own body fluid to strengthen the apple's skin and prevent it from rotting."
+  }
 }

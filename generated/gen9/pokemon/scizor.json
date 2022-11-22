@@ -1,11 +1,12 @@
 {
   "slug": "scizor",
   "name": "Scizor",
-  "num": 261,
+  "num": 212,
   "types": [
     "bug",
     "steel"
   ],
+  "gen": 2,
   "abilities": {
     "0": "swarm",
     "1": "technician",
@@ -19,11 +20,20 @@
     "spd": 80,
     "spe": 65
   },
+  "prevo": "scyther",
+  "evoType": "trade",
+  "evoItem": "Metal Coat",
   "weight": 118,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits."
   },
   "learnset": {
     "acrobatics": [
@@ -33,15 +43,15 @@
       "M"
     ],
     "agility": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "aircutter": [
       "M"
     ],
     "airslash": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "batonpass": [
       "M"
@@ -58,6 +68,12 @@
     "closecombat": [
       "M"
     ],
+    "counter": [
+      "E@scyther"
+    ],
+    "defog": [
+      "E@scyther"
+    ],
     "doublehit": [
       "L:20"
     ],
@@ -71,8 +87,11 @@
       "M"
     ],
     "falseswipe": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "feint": [
+      "E@scyther"
     ],
     "flashcannon": [
       "M"
@@ -96,12 +115,12 @@
       "M"
     ],
     "irondefense": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "ironhead": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "leer": [
       "L:1"
@@ -110,8 +129,11 @@
       "M"
     ],
     "metalclaw": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
+    ],
+    "nightslash": [
+      "E@scyther"
     ],
     "pounce": [
       "M"
@@ -121,6 +143,9 @@
     ],
     "quickattack": [
       "L:1"
+    ],
+    "quickguard": [
+      "E@scyther"
     ],
     "raindance": [
       "M"
@@ -159,8 +184,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "tailwind": [
       "M"
@@ -184,9 +209,8 @@
       "L:1"
     ],
     "xscissor": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ]
-  },
-  "flavorText": "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits."
+  }
 }

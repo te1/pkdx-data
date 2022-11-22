@@ -1,11 +1,12 @@
 {
   "slug": "meditite",
   "name": "Meditite",
-  "num": 161,
+  "num": 307,
   "types": [
     "fighting",
     "psychic"
   ],
+  "gen": 3,
   "abilities": {
     "0": "purepower",
     "H": "telepathy"
@@ -18,11 +19,21 @@
     "spd": 55,
     "spe": 60
   },
+  "evos": [
+    "medicham"
+  ],
   "weight": 11.2,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It never skips its daily yoga training. It heightens its inner strength through meditation."
   },
   "learnset": {
     "acupressure": [
@@ -32,8 +43,8 @@
       "M"
     ],
     "batonpass": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "bodyslam": [
       "M"
@@ -48,8 +59,8 @@
       "E"
     ],
     "calmmind": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "closecombat": [
       "M"
@@ -70,8 +81,8 @@
       "E"
     ],
     "endure": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "facade": [
       "M"
@@ -83,8 +94,8 @@
       "L:15"
     ],
     "firepunch": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "fling": [
       "M"
@@ -108,8 +119,8 @@
       "L:28"
     ],
     "icepunch": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "imprison": [
       "M"
@@ -142,8 +153,8 @@
       "M"
     ],
     "psybeam": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "psychic": [
       "M"
@@ -176,8 +187,8 @@
       "M"
     ],
     "reversal": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "rockslide": [
       "M"
@@ -219,8 +230,8 @@
       "M"
     ],
     "thunderpunch": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "trailblaze": [
       "M"
@@ -235,9 +246,8 @@
       "L:1"
     ],
     "zenheadbutt": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ]
-  },
-  "flavorText": "It never skips its daily yoga training. It heightens its inner strength through meditation."
+  }
 }

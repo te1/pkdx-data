@@ -1,11 +1,12 @@
 {
   "slug": "hatterene",
   "name": "Hatterene",
-  "num": 284,
+  "num": 858,
   "types": [
     "psychic",
     "fairy"
   ],
+  "gen": 8,
   "abilities": {
     "0": "healer",
     "1": "anticipation",
@@ -19,12 +20,21 @@
     "spd": 103,
     "spe": 29
   },
+  "prevo": "hattrem",
+  "evoLevel": 42,
   "weight": 5.1,
-  "height": 21,
-  "genderRatio": {
-    "F": 1
+  "height": 2.1,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "Hatterene knocks out those that intrude in its home forest by blasting them with a beam, then slashing with claws enhanced by psychic power."
   },
   "learnset": {
+    "afteryou": [
+      "E@hatenna"
+    ],
     "agility": [
       "M"
     ],
@@ -38,8 +48,8 @@
       "L:1"
     ],
     "calmmind": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "charm": [
       "M"
@@ -51,12 +61,12 @@
       "M"
     ],
     "dazzlinggleam": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "drainingkiss": [
       "M"
@@ -106,6 +116,12 @@
     "mistyterrain": [
       "M"
     ],
+    "mysticalfire": [
+      "E@hatenna"
+    ],
+    "nuzzle": [
+      "E@hatenna"
+    ],
     "playnice": [
       "L:1"
     ],
@@ -116,12 +132,12 @@
       "M"
     ],
     "psybeam": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "psychic": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "psychicterrain": [
       "M"
@@ -131,6 +147,9 @@
     ],
     "psyshock": [
       "M"
+    ],
+    "quash": [
+      "E@hatenna"
     ],
     "reflect": [
       "M"
@@ -174,6 +193,5 @@
     "trickroom": [
       "M"
     ]
-  },
-  "flavorText": "Hatterene knocks out those that intrude in its home forest by blasting them with a beam, then slashing with claws enhanced by psychic power."
+  }
 }

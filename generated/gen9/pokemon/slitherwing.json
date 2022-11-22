@@ -1,14 +1,14 @@
 {
   "slug": "slitherwing",
   "name": "Slither Wing",
-  "num": 380,
+  "num": 984,
   "types": [
     "bug",
     "fighting"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "protosynthesis",
-    "H": "protosynthesis"
+    "0": "protosynthesis"
   },
   "baseStats": {
     "hp": 85,
@@ -19,8 +19,14 @@
     "spe": 81
   },
   "weight": 92,
-  "height": 32,
-  "genderRatio": {},
+  "height": 3.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing."
+  },
   "learnset": {
     "acrobatics": [
       "M"
@@ -44,8 +50,8 @@
       "M"
     ],
     "bulkup": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "closecombat": [
       "M"
@@ -69,8 +75,8 @@
       "L:70"
     ],
     "flamecharge": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "flareblitz": [
       "M"
@@ -97,15 +103,15 @@
       "M"
     ],
     "leechlife": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "lowkick": [
       "M"
     ],
     "lowsweep": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "lunge": [
       "L:42"
@@ -147,8 +153,8 @@
       "M"
     ],
     "sunnyday": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "superpower": [
       "L:49"
@@ -180,6 +186,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing."
+  }
 }

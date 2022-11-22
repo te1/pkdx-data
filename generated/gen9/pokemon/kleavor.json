@@ -1,11 +1,12 @@
 {
   "slug": "kleavor",
   "name": "Kleavor",
-  "num": null,
+  "num": 900,
   "types": [
     "bug",
     "rock"
   ],
+  "gen": 8,
   "abilities": {
     "0": "swarm",
     "1": "sheerforce",
@@ -19,12 +20,19 @@
     "spd": 75,
     "spe": 85
   },
+  "prevo": "scyther",
+  "evoType": "other",
+  "evoCondition": "Black Augurite",
   "weight": 89,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Bug"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -33,14 +41,15 @@
       "M"
     ],
     "agility": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "aircutter": [
       "M"
     ],
     "airslash": [
-      "M"
+      "M",
+      "L:36@scyther"
     ],
     "batonpass": [
       "M"
@@ -53,6 +62,12 @@
     ],
     "closecombat": [
       "M"
+    ],
+    "counter": [
+      "E@scyther"
+    ],
+    "defog": [
+      "E@scyther"
     ],
     "doublehit": [
       "L:20"
@@ -67,8 +82,11 @@
       "M"
     ],
     "falseswipe": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
+    ],
+    "feint": [
+      "E@scyther"
     ],
     "focusenergy": [
       "L:28"
@@ -91,6 +109,9 @@
     "lightscreen": [
       "M"
     ],
+    "nightslash": [
+      "E@scyther"
+    ],
     "pounce": [
       "M"
     ],
@@ -99,6 +120,12 @@
     ],
     "quickattack": [
       "L:1"
+    ],
+    "quickguard": [
+      "E@scyther"
+    ],
+    "raindance": [
+      "M@scyther"
     ],
     "rest": [
       "M"
@@ -110,8 +137,8 @@
       "M"
     ],
     "rockslide": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "rocktomb": [
       "M"
@@ -153,8 +180,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "tailwind": [
       "M"
@@ -174,9 +201,12 @@
     "uturn": [
       "M"
     ],
+    "wingattack": [
+      "L:12@scyther"
+    ],
     "xscissor": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ]
   }
 }

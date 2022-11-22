@@ -1,10 +1,11 @@
 {
   "slug": "hariyama",
   "name": "Hariyama",
-  "num": 117,
+  "num": 297,
   "types": [
     "fighting"
   ],
+  "gen": 3,
   "abilities": {
     "0": "thickfat",
     "1": "guts",
@@ -18,11 +19,19 @@
     "spd": 60,
     "spe": 50
   },
+  "prevo": "makuhita",
+  "evoLevel": 24,
   "weight": 253.8,
-  "height": 23,
+  "height": 2.3,
   "genderRatio": {
     "M": 0.75,
     "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
   },
   "learnset": {
     "armthrust": [
@@ -44,18 +53,27 @@
       "L:1"
     ],
     "bulkup": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "bulldoze": [
       "M"
+    ],
+    "bulletpunch": [
+      "E@makuhita"
     ],
     "chillingwater": [
       "M"
     ],
     "closecombat": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
+    ],
+    "counter": [
+      "E@makuhita"
+    ],
+    "crosschop": [
+      "E@makuhita"
     ],
     "detect": [
       "L:30"
@@ -66,18 +84,24 @@
     "drainpunch": [
       "M"
     ],
+    "dynamicpunch": [
+      "E@makuhita"
+    ],
     "earthquake": [
       "M"
     ],
     "endure": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "facade": [
       "M"
     ],
     "fakeout": [
       "L:10"
+    ],
+    "feint": [
+      "E@makuhita"
     ],
     "firepunch": [
       "M"
@@ -104,11 +128,12 @@
       "L:60"
     ],
     "heavyslam": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "helpinghand": [
-      "M"
+      "M",
+      "E@makuhita"
     ],
     "hyperbeam": [
       "M"
@@ -150,8 +175,8 @@
       "M"
     ],
     "reversal": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "rockslide": [
       "M"
@@ -210,9 +235,11 @@
     "whirlwind": [
       "L:16"
     ],
+    "wideguard": [
+      "E@makuhita"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
+  }
 }

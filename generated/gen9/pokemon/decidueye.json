@@ -1,11 +1,12 @@
 {
   "slug": "decidueye",
   "name": "Decidueye",
-  "num": null,
+  "num": 724,
   "types": [
     "grass",
     "ghost"
   ],
+  "gen": 7,
   "abilities": {
     "0": "overgrow",
     "H": "longreach"
@@ -18,12 +19,21 @@
     "spd": 100,
     "spe": 70
   },
+  "prevo": "dartrix",
+  "evoLevel": 34,
+  "formes": [
+    "decidueye-hisui"
+  ],
   "weight": 36.6,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Flying"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -44,14 +54,21 @@
       "M"
     ],
     "bravebird": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "bulletseed": [
       "M"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "E@rowlet"
+    ],
+    "defog": [
+      "E@rowlet"
+    ],
+    "doubleteam": [
+      "E@rowlet"
     ],
     "endure": [
       "M"
@@ -104,6 +121,9 @@
     "imprison": [
       "M"
     ],
+    "knockoff": [
+      "E@rowlet"
+    ],
     "leafage": [
       "L:1"
     ],
@@ -111,8 +131,8 @@
       "L:44"
     ],
     "leafstorm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "lightscreen": [
       "M"
@@ -127,8 +147,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "nightshade": [
       "M"
@@ -137,8 +157,8 @@
       "L:9"
     ],
     "phantomforce": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "pluck": [
       "L:25"
@@ -154,6 +174,9 @@
     ],
     "rest": [
       "M"
+    ],
+    "roost": [
+      "E@rowlet"
     ],
     "seedbomb": [
       "M"
@@ -213,8 +236,8 @@
       "M"
     ],
     "uturn": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ]
   }
 }

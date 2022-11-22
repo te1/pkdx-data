@@ -1,10 +1,11 @@
 {
   "slug": "houndstone",
   "name": "Houndstone",
-  "num": 312,
+  "num": 925,
   "types": [
     "ghost"
   ],
+  "gen": 9,
   "abilities": {
     "0": "sandrush",
     "H": "fluffy"
@@ -17,13 +18,25 @@
     "spd": 97,
     "spe": 68
   },
+  "prevo": "greavard",
+  "evoCondition": "at night",
+  "evoLevel": 30,
   "weight": 15,
-  "height": 20,
+  "height": 2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master."
+  },
   "learnset": {
+    "allyswitch": [
+      "E@greavard"
+    ],
     "bite": [
       "L:6"
     ],
@@ -34,19 +47,25 @@
       "M"
     ],
     "charm": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "confuseray": [
       "M"
     ],
     "crunch": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
+    ],
+    "destinybond": [
+      "E@greavard"
     ],
     "dig": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
+    ],
+    "disable": [
+      "E@greavard"
     ],
     "doubleedge": [
       "L:58"
@@ -70,11 +89,14 @@
       "L:12"
     ],
     "helpinghand": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "hex": [
       "M"
+    ],
+    "howl": [
+      "E@greavard"
     ],
     "hyperbeam": [
       "M"
@@ -88,6 +110,9 @@
     "lick": [
       "L:3"
     ],
+    "memento": [
+      "E@greavard"
+    ],
     "mudshot": [
       "M"
     ],
@@ -98,12 +123,12 @@
       "M"
     ],
     "phantomforce": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "playrough": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "protect": [
       "M"
@@ -115,8 +140,8 @@
       "M"
     ],
     "rest": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "roar": [
       "L:9"
@@ -129,6 +154,9 @@
     ],
     "shadowball": [
       "M"
+    ],
+    "shadowsneak": [
+      "E@greavard"
     ],
     "sleeptalk": [
       "M"
@@ -168,7 +196,9 @@
     ],
     "willowisp": [
       "M"
+    ],
+    "yawn": [
+      "E@greavard"
     ]
-  },
-  "flavorText": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master."
+  }
 }

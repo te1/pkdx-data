@@ -1,11 +1,12 @@
 {
   "slug": "appletun",
   "name": "Appletun",
-  "num": 110,
+  "num": 842,
   "types": [
     "grass",
     "dragon"
   ],
+  "gen": 8,
   "abilities": {
     "0": "ripen",
     "1": "gluttony",
@@ -19,11 +20,21 @@
     "spd": 80,
     "spe": 30
   },
+  "prevo": "applin",
+  "evoType": "useItem",
+  "evoItem": "Sweet Apple",
   "weight": 13,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It feeds mainly on sweet apples. It will also eat small bug Pokémon that are attracted by its sweet nectar."
   },
   "learnset": {
     "amnesia": [
@@ -39,25 +50,28 @@
       "M"
     ],
     "bodyslam": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "bulldoze": [
       "M"
     ],
     "bulletseed": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "curse": [
       "L:4"
+    ],
+    "defensecurl": [
+      "E@applin"
     ],
     "dracometeor": [
       "M"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dragontail": [
       "M"
@@ -69,8 +83,8 @@
       "M"
     ],
     "energyball": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "facade": [
       "M"
@@ -103,8 +117,8 @@
       "M"
     ],
     "irondefense": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "ironhead": [
       "M"
@@ -128,8 +142,8 @@
       "M"
     ],
     "protect": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "raindance": [
       "M"
@@ -138,13 +152,17 @@
       "L:24"
     ],
     "recycle": [
-      "L:1"
+      "L:1",
+      "E@applin"
     ],
     "reflect": [
       "M"
     ],
     "rest": [
       "M"
+    ],
+    "rollout": [
+      "E@applin"
     ],
     "seedbomb": [
       "M"
@@ -163,6 +181,9 @@
     ],
     "substitute": [
       "M"
+    ],
+    "suckerpunch": [
+      "E@applin"
     ],
     "sunnyday": [
       "M"
@@ -185,6 +206,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It feeds mainly on sweet apples. It will also eat small bug Pokémon that are attracted by its sweet nectar."
+  }
 }

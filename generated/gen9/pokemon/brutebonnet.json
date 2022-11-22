@@ -1,17 +1,17 @@
 {
   "slug": "brutebonnet",
   "name": "Brute Bonnet",
-  "num": 378,
+  "num": 979,
   "types": [
     "grass",
     "dark"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "protosynthesis",
-    "H": "protosynthesis"
+    "0": "protosynthesis"
   },
   "baseStats": {
-    "hp": 111,
+    "hp": 115,
     "atk": 127,
     "def": 99,
     "spa": 79,
@@ -19,8 +19,14 @@
     "spe": 55
   },
   "weight": 21,
-  "height": 12,
-  "genderRatio": {},
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon."
+  },
   "learnset": {
     "absorb": [
       "L:1"
@@ -65,8 +71,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "gigaimpact": [
       "M"
@@ -126,8 +132,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:91",
-      "M"
+      "M",
+      "L:91"
     ],
     "spore": [
       "L:63"
@@ -145,8 +151,8 @@
       "L:56"
     ],
     "sunnyday": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "synthesis": [
       "L:21"
@@ -172,6 +178,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon."
+  }
 }

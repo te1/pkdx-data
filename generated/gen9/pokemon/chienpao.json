@@ -1,14 +1,14 @@
 {
   "slug": "chienpao",
   "name": "Chien-Pao",
-  "num": 394,
+  "num": 995,
   "types": [
     "dark",
     "ice"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "swordofruin",
-    "H": "swordofruin"
+    "0": "swordofruin"
   },
   "baseStats": {
     "hp": 80,
@@ -19,8 +19,14 @@
     "spe": 135
   },
   "weight": 152.2,
-  "height": 19,
-  "genderRatio": {},
+  "height": 1.9,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused."
+  },
   "learnset": {
     "acrobatics": [
       "M"
@@ -41,8 +47,8 @@
       "M"
     ],
     "darkpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "endure": [
       "M"
@@ -78,8 +84,8 @@
       "L:45"
     ],
     "icywind": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "meanlook": [
       "L:1"
@@ -130,8 +136,8 @@
       "M"
     ],
     "snowscape": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "spite": [
       "L:1"
@@ -143,8 +149,8 @@
       "L:55"
     ],
     "swordsdance": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "takedown": [
       "M"
@@ -158,6 +164,5 @@
     "throatchop": [
       "L:70"
     ]
-  },
-  "flavorText": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused."
+  }
 }

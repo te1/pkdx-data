@@ -1,10 +1,11 @@
 {
   "slug": "oinkologne",
   "name": "Oinkologne",
-  "num": 11,
+  "num": 916,
   "types": [
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "lingeringaroma",
     "1": "gluttony",
@@ -18,10 +19,19 @@
     "spd": 80,
     "spe": 65
   },
+  "prevo": "lechonk",
+  "evoLevel": 18,
+  "formes": [
+    "oinkologne-f"
+  ],
   "weight": 120,
-  "height": 10,
-  "genderRatio": {
-    "M": 1
+  "height": 1,
+  "gender": "M",
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail."
   },
   "learnset": {
     "belch": [
@@ -46,22 +56,25 @@
       "L:15"
     ],
     "dig": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "disarmingvoice": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "doubleedge": [
       "L:42"
     ],
     "earthpower": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "echoedvoice": [
       "L:8"
+    ],
+    "endeavor": [
+      "E@lechonk"
     ],
     "endure": [
       "M"
@@ -91,8 +104,8 @@
       "M"
     ],
     "mudshot": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "mudslap": [
       "M"
@@ -115,14 +128,26 @@
     "sleeptalk": [
       "M"
     ],
+    "spitup": [
+      "E@lechonk"
+    ],
+    "stockpile": [
+      "E@lechonk"
+    ],
     "stompingtantrum": [
       "M"
+    ],
+    "stuffcheeks": [
+      "E@lechonk"
     ],
     "substitute": [
       "M"
     ],
     "sunnyday": [
       "M"
+    ],
+    "swallow": [
+      "E@lechonk"
     ],
     "tackle": [
       "L:1"
@@ -131,8 +156,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "terablast": [
       "M"
@@ -155,6 +180,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail."
+  }
 }

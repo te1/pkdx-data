@@ -1,11 +1,12 @@
 {
   "slug": "magneton",
   "name": "Magneton",
-  "num": 210,
+  "num": 82,
   "types": [
     "electric",
     "steel"
   ],
+  "gen": 1,
   "abilities": {
     "0": "magnetpull",
     "1": "sturdy",
@@ -19,9 +20,20 @@
     "spd": 70,
     "spe": 70
   },
+  "prevo": "magnemite",
+  "evos": [
+    "magnezone"
+  ],
+  "evoLevel": 30,
   "weight": 60,
-  "height": 10,
-  "genderRatio": {},
+  "height": 1,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close."
+  },
   "learnset": {
     "chargebeam": [
       "M"
@@ -36,22 +48,28 @@
       "M"
     ],
     "electricterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "electroball": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
+    ],
+    "electroweb": [
+      "E@magnemite"
     ],
     "endure": [
       "M"
+    ],
+    "explosion": [
+      "E@magnemite"
     ],
     "facade": [
       "M"
     ],
     "flashcannon": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "gyroball": [
       "L:16"
@@ -72,8 +90,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "lockon": [
       "L:58"
@@ -142,8 +160,8 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "triattack": [
       "L:0"
@@ -157,6 +175,5 @@
     "zapcannon": [
       "L:64"
     ]
-  },
-  "flavorText": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close."
+  }
 }

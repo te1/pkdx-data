@@ -1,10 +1,11 @@
 {
   "slug": "avalugg",
   "name": "Avalugg",
-  "num": 364,
+  "num": 713,
   "types": [
     "ice"
   ],
+  "gen": 6,
   "abilities": {
     "0": "owntempo",
     "1": "icebody",
@@ -18,30 +19,45 @@
     "spd": 46,
     "spe": 28
   },
+  "prevo": "bergmite",
+  "evoLevel": 37,
+  "formes": [
+    "avalugg-hisui"
+  ],
   "weight": 505,
-  "height": 20,
+  "height": 2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster",
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "As Avalugg walks along with Bergmite on its back, it comes across pods of Cetitan. It lets them pass to avoid conflict."
+  },
   "learnset": {
+    "auroraveil": [
+      "E@bergmite"
+    ],
     "avalanche": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "bite": [
       "L:21"
     ],
     "blizzard": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "bodypress": [
       "M"
     ],
     "bodyslam": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "bulldoze": [
       "M"
@@ -50,8 +66,8 @@
       "M"
     ],
     "crunch": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "curse": [
       "L:9"
@@ -90,8 +106,8 @@
       "M"
     ],
     "icefang": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "icespinner": [
       "M"
@@ -100,22 +116,28 @@
       "L:51"
     ],
     "icywind": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "irondefense": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "ironhead": [
       "M"
+    ],
+    "mirrorcoat": [
+      "E@bergmite"
+    ],
+    "mist": [
+      "E@bergmite"
     ],
     "powdersnow": [
       "L:1"
     ],
     "protect": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "raindance": [
       "M"
@@ -160,8 +182,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "terablast": [
       "M"
@@ -169,6 +191,5 @@
     "wideguard": [
       "L:1"
     ]
-  },
-  "flavorText": "As Avalugg walks along with Bergmite on its back, it comes across pods of Cetitan. It lets them pass to avoid conflict."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "noibat",
   "name": "Noibat",
-  "num": 303,
+  "num": 714,
   "types": [
     "flying",
     "dragon"
   ],
+  "gen": 6,
   "abilities": {
     "0": "frisk",
     "1": "infiltrator",
@@ -19,11 +20,22 @@
     "spd": 40,
     "spe": 55
   },
+  "evos": [
+    "noivern"
+  ],
   "weight": 8,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food."
   },
   "learnset": {
     "absorb": [
@@ -39,12 +51,12 @@
       "M"
     ],
     "aircutter": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "airslash": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "bite": [
       "L:20"
@@ -89,8 +101,8 @@
       "M"
     ],
     "hurricane": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "hypervoice": [
       "M"
@@ -147,8 +159,8 @@
       "L:1"
     ],
     "tailwind": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "takedown": [
       "M"
@@ -177,6 +189,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food."
+  }
 }

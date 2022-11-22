@@ -1,10 +1,11 @@
 {
   "slug": "dondozo",
   "name": "Dondozo",
-  "num": 374,
+  "num": 931,
   "types": [
     "water"
   ],
+  "gen": 9,
   "abilities": {
     "0": "unaware",
     "1": "oblivious",
@@ -19,10 +20,17 @@
     "spe": 35
   },
   "weight": 220,
-  "height": 120,
+  "height": 12,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey."
   },
   "learnset": {
     "aquatail": [
@@ -35,8 +43,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "bulldoze": [
       "M"
@@ -75,8 +83,8 @@
       "M"
     ],
     "heavyslam": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "hydropump": [
       "M"
@@ -103,12 +111,12 @@
       "M"
     ],
     "raindance": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "rest": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "rockslide": [
       "M"
@@ -117,8 +125,8 @@
       "M"
     ],
     "sleeptalk": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "soak": [
       "L:30"
@@ -168,6 +176,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "chiyu",
   "name": "Chi-Yu",
-  "num": 396,
+  "num": 997,
   "types": [
     "dark",
     "fire"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "beadsofruin",
-    "H": "beadsofruin"
+    "0": "beadsofruin"
   },
   "baseStats": {
     "hp": 55,
@@ -19,22 +19,28 @@
     "spe": 100
   },
   "weight": 4.9,
-  "height": 4,
-  "genderRatio": {},
+  "height": 0.4,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand."
+  },
   "learnset": {
     "bounce": [
       "L:55"
     ],
     "confuseray": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "crunch": [
       "M"
     ],
     "darkpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "ember": [
       "L:1"
@@ -52,8 +58,8 @@
       "M"
     ],
     "flamecharge": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "flamethrower": [
       "M"
@@ -95,12 +101,12 @@
       "L:70"
     ],
     "nastyplot": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "overheat": [
-      "L:75",
-      "M"
+      "M",
+      "L:75"
     ],
     "payback": [
       "L:10"
@@ -151,12 +157,11 @@
       "M"
     ],
     "willowisp": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand."
+  }
 }

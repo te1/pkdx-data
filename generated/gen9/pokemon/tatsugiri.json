@@ -1,11 +1,12 @@
 {
   "slug": "tatsugiri",
   "name": "Tatsugiri",
-  "num": 375,
+  "num": 952,
   "types": [
     "dragon",
     "water"
   ],
+  "gen": 9,
   "abilities": {
     "0": "commander",
     "H": "stormdrain"
@@ -18,16 +19,32 @@
     "spd": 95,
     "spe": 82
   },
+  "cosmeticSubName": "Curly",
+  "cosmeticFormes": [
+    {
+      "slug": "tatsugiri-droopy"
+    },
+    {
+      "slug": "tatsugiri-stretchy"
+    }
+  ],
   "weight": 8,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside."
+  },
   "learnset": {
     "batonpass": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "chillingwater": [
       "M"
@@ -42,8 +59,8 @@
       "M"
     ],
     "dragonpulse": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "endure": [
       "M"
@@ -58,8 +75,8 @@
       "L:6"
     ],
     "helpinghand": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "hydropump": [
       "M"
@@ -80,8 +97,8 @@
       "L:39"
     ],
     "nastyplot": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "outrage": [
       "M"
@@ -117,8 +134,8 @@
       "M"
     ],
     "taunt": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "terablast": [
       "M"
@@ -127,9 +144,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ]
-  },
-  "flavorText": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside."
+  }
 }

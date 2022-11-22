@@ -1,13 +1,13 @@
 {
   "slug": "groudon",
   "name": "Groudon",
-  "num": null,
+  "num": 383,
   "types": [
     "ground"
   ],
+  "gen": 3,
   "abilities": {
-    "0": "drought",
-    "H": "drought"
+    "0": "drought"
   },
   "baseStats": {
     "hp": 100,
@@ -18,8 +18,13 @@
     "spe": 90
   },
   "weight": 950,
-  "height": 35,
-  "genderRatio": {},
+  "height": 3.5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "aerialace": [
       "M"
@@ -37,8 +42,8 @@
       "M"
     ],
     "bulkup": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "bulldoze": [
       "M"
@@ -56,12 +61,12 @@
       "M"
     ],
     "earthpower": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "earthquake": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "endure": [
       "M"
@@ -73,8 +78,8 @@
       "M"
     ],
     "fireblast": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "firefang": [
       "M"
@@ -122,8 +127,8 @@
       "M"
     ],
     "mudshot": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "mudslap": [
       "M"
@@ -138,8 +143,8 @@
       "M"
     ],
     "rest": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "rockblast": [
       "M"
@@ -154,8 +159,8 @@
       "M"
     ],
     "scaryface": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "shadowclaw": [
       "M"
@@ -164,8 +169,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:81",
-      "M"
+      "M",
+      "L:81"
     ],
     "spikes": [
       "M"

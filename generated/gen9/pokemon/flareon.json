@@ -1,10 +1,11 @@
 {
   "slug": "flareon",
   "name": "Flareon",
-  "num": 182,
+  "num": 136,
   "types": [
     "fire"
   ],
+  "gen": 1,
   "abilities": {
     "0": "flashfire",
     "H": "guts"
@@ -17,19 +18,28 @@
     "spd": 110,
     "spe": 65
   },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Fire Stone",
   "weight": 25,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit."
   },
   "learnset": {
     "babydolleyes": [
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:25"
@@ -41,8 +51,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "copycat": [
       "L:1"
@@ -50,11 +60,20 @@
     "covet": [
       "L:1"
     ],
+    "curse": [
+      "E@eevee"
+    ],
+    "detect": [
+      "E@eevee"
+    ],
     "dig": [
       "M"
     ],
     "doubleedge": [
       "L:1"
+    ],
+    "doublekick": [
+      "E@eevee"
     ],
     "ember": [
       "L:0"
@@ -72,19 +91,22 @@
       "M"
     ],
     "firefang": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "firespin": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
+    ],
+    "flail": [
+      "E@eevee"
     ],
     "flamethrower": [
       "M"
     ],
     "flareblitz": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "gigaimpact": [
       "M"
@@ -96,8 +118,8 @@
       "M"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -112,7 +134,8 @@
       "L:40"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@eevee"
     ],
     "overheat": [
       "M"
@@ -133,8 +156,8 @@
       "L:5"
     ],
     "scaryface": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "shadowball": [
       "M"
@@ -155,8 +178,8 @@
       "M"
     ],
     "swift": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "tackle": [
       "L:1"
@@ -165,18 +188,26 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
+    ],
+    "tickle": [
+      "E@eevee"
     ],
     "trailblaze": [
       "M"
     ],
     "willowisp": [
       "M"
+    ],
+    "wish": [
+      "E@eevee"
+    ],
+    "yawn": [
+      "E@eevee"
     ]
-  },
-  "flavorText": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit."
+  }
 }

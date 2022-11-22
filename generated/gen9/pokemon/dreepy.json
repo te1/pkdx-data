@@ -1,11 +1,12 @@
 {
   "slug": "dreepy",
   "name": "Dreepy",
-  "num": 305,
+  "num": 885,
   "types": [
     "dragon",
     "ghost"
   ],
+  "gen": 8,
   "abilities": {
     "0": "clearbody",
     "1": "infiltrator",
@@ -19,11 +20,22 @@
     "spd": 30,
     "spe": 82
   },
+  "evos": [
+    "drakloak"
+  ],
   "weight": 2,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "In the evening, groups of Dreepy will fly at high speeds over the ocean and poke at Pokémon in the water for fun."
   },
   "learnset": {
     "astonish": [
@@ -36,8 +48,8 @@
       "L:1"
     ],
     "confuseray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "curse": [
       "E"
@@ -52,8 +64,8 @@
       "M"
     ],
     "dragontail": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "endure": [
       "M"
@@ -94,6 +106,5 @@
     "thunderwave": [
       "M"
     ]
-  },
-  "flavorText": "In the evening, groups of Dreepy will fly at high speeds over the ocean and poke at Pokémon in the water for fun."
+  }
 }

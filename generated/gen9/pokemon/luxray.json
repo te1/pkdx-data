@@ -1,10 +1,11 @@
 {
   "slug": "luxray",
   "name": "Luxray",
-  "num": 96,
+  "num": 405,
   "types": [
     "electric"
   ],
+  "gen": 4,
   "abilities": {
     "0": "rivalry",
     "1": "intimidate",
@@ -18,15 +19,26 @@
     "spd": 79,
     "spe": 70
   },
+  "prevo": "luxio",
+  "evoLevel": 30,
   "weight": 42,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It can see clearly through walls to track down its prey and seek its lost young."
+  },
   "learnset": {
     "agility": [
       "M"
+    ],
+    "babydolleyes": [
+      "E@shinx"
     ],
     "bite": [
       "L:12"
@@ -44,18 +56,21 @@
       "M"
     ],
     "crunch": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "discharge": [
       "L:64"
+    ],
+    "doublekick": [
+      "E@shinx"
     ],
     "eerieimpulse": [
       "M"
     ],
     "electricterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "electroball": [
       "M"
@@ -78,6 +93,9 @@
     "helpinghand": [
       "M"
     ],
+    "howl": [
+      "E@shinx"
+    ],
     "hyperbeam": [
       "M"
     ],
@@ -90,6 +108,9 @@
     "lightscreen": [
       "M"
     ],
+    "nightslash": [
+      "E@shinx"
+    ],
     "playrough": [
       "M"
     ],
@@ -98,6 +119,9 @@
     ],
     "psychicfangs": [
       "M"
+    ],
+    "quickattack": [
+      "E@shinx"
     ],
     "raindance": [
       "M"
@@ -109,8 +133,11 @@
       "L:24"
     ],
     "scaryface": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
+    ],
+    "shockwave": [
+      "E@shinx"
     ],
     "sleeptalk": [
       "M"
@@ -137,7 +164,8 @@
       "L:1"
     ],
     "takedown": [
-      "M"
+      "M",
+      "E@shinx"
     ],
     "terablast": [
       "M"
@@ -158,20 +186,19 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "trailblaze": [
       "M"
     ],
     "voltswitch": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "wildcharge": [
-      "L:80",
-      "M"
+      "M",
+      "L:80"
     ]
-  },
-  "flavorText": "It can see clearly through walls to track down its prey and seek its lost young."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "pineco",
   "name": "Pineco",
-  "num": 258,
+  "num": 204,
   "types": [
     "bug"
   ],
+  "gen": 2,
   "abilities": {
     "0": "sturdy",
     "H": "overcoat"
@@ -17,11 +18,21 @@
     "spd": 35,
     "spe": 15
   },
+  "evos": [
+    "forretress"
+  ],
   "weight": 7.2,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it."
   },
   "learnset": {
     "bodyslam": [
@@ -76,8 +87,8 @@
       "M"
     ],
     "irondefense": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "lightscreen": [
       "M"
@@ -98,8 +109,8 @@
       "E"
     ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "raindance": [
       "M"
@@ -147,8 +158,8 @@
       "M"
     ],
     "spikes": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "stealthrock": [
       "M"
@@ -163,26 +174,25 @@
       "M"
     ],
     "swift": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "tackle": [
       "L:1"
     ],
     "takedown": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "terablast": [
       "M"
     ],
     "toxicspikes": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "venoshock": [
       "M"
     ]
-  },
-  "flavorText": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it."
+  }
 }

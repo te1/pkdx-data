@@ -1,11 +1,12 @@
 {
   "slug": "sandygast",
   "name": "Sandygast",
-  "num": 322,
+  "num": 769,
   "types": [
     "ghost",
     "ground"
   ],
+  "gen": 7,
   "abilities": {
     "0": "watercompaction",
     "H": "sandveil"
@@ -18,11 +19,21 @@
     "spd": 45,
     "spe": 15
   },
+  "evos": [
+    "palossand"
+  ],
   "weight": 70,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel."
   },
   "learnset": {
     "absorb": [
@@ -38,8 +49,8 @@
       "L:5"
     ],
     "bulldoze": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "chillingwater": [
       "M"
@@ -54,8 +65,8 @@
       "E"
     ],
     "earthpower": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "earthquake": [
       "M"
@@ -76,8 +87,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "harden": [
       "L:1"
@@ -92,8 +103,8 @@
       "M"
     ],
     "irondefense": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "megadrain": [
       "L:15"
@@ -129,8 +140,8 @@
       "L:20"
     ],
     "sandstorm": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "sandtomb": [
       "L:10"
@@ -139,8 +150,8 @@
       "M"
     ],
     "shadowball": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "shoreup": [
       "L:55"
@@ -181,6 +192,5 @@
     "trick": [
       "M"
     ]
-  },
-  "flavorText": "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel."
+  }
 }

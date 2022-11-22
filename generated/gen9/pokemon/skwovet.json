@@ -1,10 +1,11 @@
 {
   "slug": "skwovet",
   "name": "Skwovet",
-  "num": 29,
+  "num": 819,
   "types": [
     "normal"
   ],
+  "gen": 8,
   "abilities": {
     "0": "cheekpouch",
     "H": "gluttony"
@@ -17,11 +18,21 @@
     "spd": 35,
     "spe": 25
   },
+  "evos": [
+    "greedent"
+  ],
   "weight": 2.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings."
   },
   "learnset": {
     "amnesia": [
@@ -37,12 +48,12 @@
       "L:5"
     ],
     "bodyslam": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "bulletseed": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "counter": [
       "L:30"
@@ -81,8 +92,8 @@
       "M"
     ],
     "rest": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "rollout": [
       "E"
@@ -129,6 +140,5 @@
     "trailblaze": [
       "M"
     ]
-  },
-  "flavorText": "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "toedscool",
   "name": "Toedscool",
-  "num": 244,
+  "num": 1006,
   "types": [
     "ground",
     "grass"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "myceliummight",
-    "H": "myceliummight"
+    "0": "myceliummight"
   },
   "baseStats": {
     "hp": 40,
@@ -18,11 +18,21 @@
     "spd": 100,
     "spe": 70
   },
+  "evos": [
+    "toedscruel"
+  ],
   "weight": 33,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious."
   },
   "learnset": {
     "absorb": [
@@ -44,8 +54,8 @@
       "M"
     ],
     "earthpower": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "endure": [
       "M"
@@ -60,8 +70,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "grassknot": [
       "M"
@@ -73,8 +83,8 @@
       "L:40"
     ],
     "hex": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "knockoff": [
       "E"
@@ -98,12 +108,12 @@
       "E"
     ],
     "mudshot": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "poisonpowder": [
       "L:8"
@@ -136,8 +146,8 @@
       "L:20"
     ],
     "seedbomb": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "sleeptalk": [
       "M"
@@ -196,6 +206,5 @@
     "wrap": [
       "L:1"
     ]
-  },
-  "flavorText": "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious."
+  }
 }

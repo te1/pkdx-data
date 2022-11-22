@@ -1,13 +1,13 @@
 {
   "slug": "slakoth",
   "name": "Slakoth",
-  "num": 78,
+  "num": 287,
   "types": [
     "normal"
   ],
+  "gen": 3,
   "abilities": {
-    "0": "truant",
-    "H": "truant"
+    "0": "truant"
   },
   "baseStats": {
     "hp": 60,
@@ -17,11 +17,21 @@
     "spd": 35,
     "spe": 30
   },
+  "evos": [
+    "vigoroth"
+  ],
   "weight": 24,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities."
   },
   "learnset": {
     "aerialace": [
@@ -31,15 +41,15 @@
       "E"
     ],
     "amnesia": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "blizzard": [
       "M"
     ],
     "bodyslam": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "brickbreak": [
       "M"
@@ -63,8 +73,8 @@
       "E"
     ],
     "encore": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "endure": [
       "M"
@@ -127,8 +137,8 @@
       "E"
     ],
     "playrough": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "poisonjab": [
       "M"
@@ -214,6 +224,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities."
+  }
 }

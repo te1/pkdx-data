@@ -1,10 +1,11 @@
 {
   "slug": "spewpa",
   "name": "Spewpa",
-  "num": 36,
+  "num": 665,
   "types": [
     "bug"
   ],
+  "gen": 6,
   "abilities": {
     "0": "shedskin",
     "H": "friendguard"
@@ -17,32 +18,61 @@
     "spd": 30,
     "spe": 29
   },
+  "prevo": "scatterbug",
+  "evos": [
+    "vivillon",
+    "vivillon-fancy"
+  ],
+  "evoLevel": 9,
   "weight": 8.4,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "If Rufflet attacks this Pokémon by pecking at it, it will retaliate with its sharp fur and poisonous black powder."
+  },
   "learnset": {
+    "bugbite": [
+      "L:15@scatterbug"
+    ],
     "harden": [
       "L:1"
     ],
     "irondefense": [
       "M"
     ],
+    "poisonpowder": [
+      "E@scatterbug"
+    ],
     "pounce": [
       "M"
     ],
     "protect": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
+    ],
+    "ragepowder": [
+      "E@scatterbug"
+    ],
+    "stringshot": [
+      "L:1@scatterbug"
     ],
     "strugglebug": [
       "M"
     ],
+    "stunspore": [
+      "L:6@scatterbug"
+    ],
+    "tackle": [
+      "L:1@scatterbug"
+    ],
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "If Rufflet attacks this Pokémon by pecking at it, it will retaliate with its sharp fur and poisonous black powder."
+  }
 }

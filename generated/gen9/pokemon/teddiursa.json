@@ -1,10 +1,11 @@
 {
   "slug": "teddiursa",
   "name": "Teddiursa",
-  "num": 215,
+  "num": 216,
   "types": [
     "normal"
   ],
+  "gen": 2,
   "abilities": {
     "0": "pickup",
     "1": "quickfeet",
@@ -18,11 +19,21 @@
     "spd": 50,
     "spe": 40
   },
+  "evos": [
+    "ursaring"
+  ],
   "weight": 8.8,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon discreetly follows Combee to find their hive. It scoops up big dollops of honey in its palms to eat."
   },
   "learnset": {
     "aerialace": [
@@ -50,12 +61,12 @@
       "M"
     ],
     "charm": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "closecombat": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "counter": [
       "E"
@@ -67,8 +78,8 @@
       "E"
     ],
     "crunch": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "dig": [
       "M"
@@ -86,15 +97,15 @@
       "M"
     ],
     "faketears": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "firepunch": [
       "M"
     ],
     "fling": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "furycutter": [
       "E"
@@ -121,8 +132,8 @@
       "M"
     ],
     "metalclaw": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "metronome": [
       "M"
@@ -137,8 +148,8 @@
       "L:25"
     ],
     "playrough": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "protect": [
       "M"
@@ -147,8 +158,8 @@
       "M"
     ],
     "rest": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "rockslide": [
       "M"
@@ -216,6 +227,5 @@
     "yawn": [
       "E"
     ]
-  },
-  "flavorText": "This Pokémon discreetly follows Combee to find their hive. It scoops up big dollops of honey in its palms to eat."
+  }
 }

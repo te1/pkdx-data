@@ -1,11 +1,12 @@
 {
   "slug": "tyranitar",
   "name": "Tyranitar",
-  "num": 318,
+  "num": 248,
   "types": [
     "rock",
     "dark"
   ],
+  "gen": 2,
   "abilities": {
     "0": "sandstream",
     "H": "unnerve"
@@ -18,15 +19,29 @@
     "spd": 100,
     "spe": 61
   },
+  "prevo": "pupitar",
+  "evoLevel": 55,
   "weight": 202,
-  "height": 20,
+  "height": 2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster"
+  ],
+  "flavorText": {
+    "scarlet": "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "ancientpower": [
+      "E@larvitar"
+    ],
+    "assurance": [
+      "E@larvitar"
     ],
     "avalanche": [
       "M"
@@ -50,12 +65,15 @@
       "M"
     ],
     "crunch": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
+    ],
+    "curse": [
+      "E@larvitar"
     ],
     "darkpulse": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dig": [
       "M"
@@ -64,7 +82,8 @@
       "M"
     ],
     "dragondance": [
-      "M"
+      "M",
+      "E@larvitar"
     ],
     "dragonpulse": [
       "M"
@@ -76,8 +95,8 @@
       "M"
     ],
     "earthquake": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "endure": [
       "M"
@@ -89,8 +108,8 @@
       "M"
     ],
     "firefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "firepunch": [
       "M"
@@ -104,12 +123,15 @@
     "focusblast": [
       "M"
     ],
+    "focusenergy": [
+      "E@larvitar"
+    ],
     "foulplay": [
       "M"
     ],
     "gigaimpact": [
-      "L:59",
-      "M"
+      "M",
+      "L:59"
     ],
     "heavyslam": [
       "M"
@@ -121,15 +143,15 @@
       "M"
     ],
     "hyperbeam": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "icebeam": [
       "M"
     ],
     "icefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "icepunch": [
       "M"
@@ -138,11 +160,13 @@
       "M"
     ],
     "irondefense": [
+      "M",
       "L:1",
-      "M"
+      "E@larvitar"
     ],
     "ironhead": [
-      "M"
+      "M",
+      "E@larvitar"
     ],
     "leer": [
       "L:1"
@@ -157,7 +181,8 @@
       "M"
     ],
     "outrage": [
-      "M"
+      "M",
+      "E@larvitar"
     ],
     "payback": [
       "L:1"
@@ -178,8 +203,8 @@
       "M"
     ],
     "rockslide": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "rockthrow": [
       "L:1"
@@ -188,12 +213,12 @@
       "M"
     ],
     "sandstorm": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "scaryface": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "screech": [
       "L:21"
@@ -213,13 +238,16 @@
     "stealthrock": [
       "M"
     ],
+    "stomp": [
+      "E@larvitar"
+    ],
     "stompingtantrum": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "stoneedge": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "substitute": [
       "M"
@@ -252,8 +280,8 @@
       "M"
     ],
     "thunderfang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "thunderpunch": [
       "M"
@@ -261,6 +289,5 @@
     "thunderwave": [
       "M"
     ]
-  },
-  "flavorText": "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others."
+  }
 }

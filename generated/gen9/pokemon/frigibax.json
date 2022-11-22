@@ -1,11 +1,12 @@
 {
   "slug": "frigibax",
   "name": "Frigibax",
-  "num": 388,
+  "num": 949,
   "types": [
     "dragon",
     "ice"
   ],
+  "gen": 9,
   "abilities": {
     "0": "thermalexchange",
     "H": "icebody"
@@ -18,11 +19,22 @@
     "spd": 45,
     "spe": 55
   },
+  "evos": [
+    "arctibax"
+  ],
   "weight": 17,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon",
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores."
   },
   "learnset": {
     "aquatail": [
@@ -41,8 +53,8 @@
       "M"
     ],
     "crunch": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "dig": [
       "M"
@@ -54,8 +66,8 @@
       "L:12"
     ],
     "dragonclaw": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "dragonpulse": [
       "M"
@@ -64,8 +76,8 @@
       "E"
     ],
     "dragontail": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
       "M"
@@ -83,12 +95,12 @@
       "M"
     ],
     "icebeam": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "icefang": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "iciclecrash": [
       "L:48"
@@ -97,8 +109,8 @@
       "E"
     ],
     "icywind": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "leer": [
       "L:1"
@@ -131,12 +143,11 @@
       "L:1"
     ],
     "takedown": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores."
+  }
 }

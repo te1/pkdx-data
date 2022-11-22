@@ -1,11 +1,12 @@
 {
   "slug": "carkol",
   "name": "Carkol",
-  "num": 92,
+  "num": 838,
   "types": [
     "rock",
     "fire"
   ],
+  "gen": 8,
   "abilities": {
     "0": "steamengine",
     "1": "flamebody",
@@ -19,15 +20,29 @@
     "spd": 70,
     "spe": 50
   },
+  "prevo": "rolycoly",
+  "evos": [
+    "coalossal"
+  ],
+  "evoLevel": 18,
   "weight": 78,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "The temperature inside its body increases when it experiences strong emotions. It rolls around frantically while spewing flames."
+  },
   "learnset": {
     "ancientpower": [
       "L:20"
+    ],
+    "block": [
+      "E@rolycoly"
     ],
     "bodypress": [
       "M"
@@ -44,6 +59,9 @@
     "endure": [
       "M"
     ],
+    "explosion": [
+      "E@rolycoly"
+    ],
     "facade": [
       "M"
     ],
@@ -54,8 +72,8 @@
       "M"
     ],
     "flamecharge": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "flamethrower": [
       "M"
@@ -82,7 +100,8 @@
       "M"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@rolycoly"
     ],
     "overheat": [
       "M"
@@ -103,8 +122,8 @@
       "M"
     ],
     "rockblast": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "rockpolish": [
       "L:15"
@@ -131,12 +150,12 @@
       "M"
     ],
     "stealthrock": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "stoneedge": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "substitute": [
       "M"
@@ -156,6 +175,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "The temperature inside its body increases when it experiences strong emotions. It rolls around frantically while spewing flames."
+  }
 }

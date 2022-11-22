@@ -1,11 +1,12 @@
 {
   "slug": "drifloon",
   "name": "Drifloon",
-  "num": 143,
+  "num": 425,
   "types": [
     "ghost",
     "flying"
   ],
+  "gen": 4,
   "abilities": {
     "0": "aftermath",
     "1": "unburden",
@@ -19,11 +20,21 @@
     "spd": 44,
     "spe": 70
   },
+  "evos": [
+    "drifblim"
+  ],
   "weight": 1.2,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing."
   },
   "learnset": {
     "acrobatics": [
@@ -42,8 +53,8 @@
       "L:1"
     ],
     "batonpass": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "calmmind": [
       "M"
@@ -85,8 +96,8 @@
       "M"
     ],
     "hex": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "hypnosis": [
       "E"
@@ -131,8 +142,8 @@
       "L:29"
     ],
     "shadowball": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "skillswap": [
       "M"
@@ -162,8 +173,8 @@
       "M"
     ],
     "tailwind": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "terablast": [
       "M"
@@ -189,6 +200,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing."
+  }
 }

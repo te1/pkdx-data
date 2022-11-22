@@ -1,11 +1,12 @@
 {
   "slug": "drednaw",
   "name": "Drednaw",
-  "num": 58,
+  "num": 834,
   "types": [
     "water",
     "rock"
   ],
+  "gen": 8,
   "abilities": {
     "0": "strongjaw",
     "1": "shellarmor",
@@ -19,11 +20,20 @@
     "spd": 68,
     "spe": 74
   },
+  "prevo": "chewtle",
+  "evoLevel": 22,
   "weight": 115.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "flavorText": {
+    "scarlet": "Its massive, jagged teeth can crush a boulder in a single bite. This Pokémon has an extremely vicious disposition."
   },
   "learnset": {
     "bite": [
@@ -36,8 +46,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "bulldoze": [
       "M"
@@ -49,11 +59,15 @@
       "L:30"
     ],
     "crunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dig": [
       "M"
+    ],
+    "dragontail": [
+      "M@chewtle",
+      "E@chewtle"
     ],
     "earthpower": [
       "M"
@@ -69,6 +83,9 @@
     ],
     "falseswipe": [
       "M"
+    ],
+    "gastroacid": [
+      "E@chewtle"
     ],
     "gigaimpact": [
       "M"
@@ -101,8 +118,8 @@
       "L:39"
     ],
     "liquidation": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "mudshot": [
       "M"
@@ -111,8 +128,8 @@
       "M"
     ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "raindance": [
       "M"
@@ -133,14 +150,17 @@
       "M"
     ],
     "rocktomb": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "sandstorm": [
       "M"
     ],
     "scaryface": [
       "M"
+    ],
+    "shellsmash": [
+      "E@chewtle"
     ],
     "sleeptalk": [
       "M"
@@ -184,6 +204,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "Its massive, jagged teeth can crush a boulder in a single bite. This Pokémon has an extremely vicious disposition."
+  }
 }

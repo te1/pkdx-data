@@ -1,10 +1,11 @@
 {
   "slug": "lechonk",
   "name": "Lechonk",
-  "num": 10,
+  "num": 915,
   "types": [
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "aromaveil",
     "1": "gluttony",
@@ -18,11 +19,22 @@
     "spd": 45,
     "spe": 35
   },
+  "evos": [
+    "oinkologne",
+    "oinkologne-f"
+  ],
   "weight": 10.2,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging."
   },
   "learnset": {
     "bodyslam": [
@@ -41,12 +53,12 @@
       "L:15"
     ],
     "dig": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "disarmingvoice": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "doubleedge": [
       "L:35"
@@ -76,8 +88,8 @@
       "M"
     ],
     "mudshot": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "mudslap": [
       "M"
@@ -125,8 +137,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "terablast": [
       "M"
@@ -149,6 +161,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "drifblim",
   "name": "Drifblim",
-  "num": 144,
+  "num": 426,
   "types": [
     "ghost",
     "flying"
   ],
+  "gen": 4,
   "abilities": {
     "0": "aftermath",
     "1": "unburden",
@@ -19,11 +20,19 @@
     "spd": 54,
     "spe": 80
   },
+  "prevo": "drifloon",
+  "evoLevel": 28,
   "weight": 15,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "It can generate and release gas within its body. That's how it can control the altitude of its drift."
   },
   "learnset": {
     "acrobatics": [
@@ -45,8 +54,8 @@
       "L:1"
     ],
     "batonpass": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "bodyslam": [
       "M"
@@ -54,8 +63,17 @@
     "calmmind": [
       "M"
     ],
+    "clearsmog": [
+      "E@drifloon"
+    ],
+    "defog": [
+      "E@drifloon"
+    ],
     "destinybond": [
       "L:36"
+    ],
+    "disable": [
+      "E@drifloon"
     ],
     "endure": [
       "M"
@@ -81,21 +99,30 @@
     "gust": [
       "L:1"
     ],
+    "haze": [
+      "E@drifloon"
+    ],
     "helpinghand": [
       "M"
     ],
     "hex": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "hyperbeam": [
       "M"
+    ],
+    "hypnosis": [
+      "E@drifloon"
     ],
     "icywind": [
       "M"
     ],
     "imprison": [
       "M"
+    ],
+    "memento": [
+      "E@drifloon"
     ],
     "minimize": [
       "L:1"
@@ -107,8 +134,8 @@
       "L:12"
     ],
     "phantomforce": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "protect": [
       "M"
@@ -129,8 +156,8 @@
       "L:31"
     ],
     "shadowball": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "skillswap": [
       "M"
@@ -163,8 +190,8 @@
       "M"
     ],
     "tailwind": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "terablast": [
       "M"
@@ -190,6 +217,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "It can generate and release gas within its body. That's how it can control the altitude of its drift."
+  }
 }

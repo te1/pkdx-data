@@ -1,10 +1,11 @@
 {
   "slug": "chansey",
   "name": "Chansey",
-  "num": 44,
+  "num": 113,
   "types": [
     "normal"
   ],
+  "gen": 1,
   "abilities": {
     "0": "naturalcure",
     "1": "serenegrace",
@@ -18,10 +19,22 @@
     "spd": 105,
     "spe": 50
   },
+  "prevo": "happiny",
+  "evos": [
+    "blissey"
+  ],
+  "evoType": "levelHold",
+  "evoCondition": "during the day",
+  "evoItem": "Oval Stone",
   "weight": 34.6,
-  "height": 11,
-  "genderRatio": {
-    "F": 1
+  "height": 1.1,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people."
   },
   "learnset": {
     "blizzard": [
@@ -40,8 +53,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chillingwater": [
       "M"
@@ -59,8 +72,8 @@
       "L:1"
     ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "doubleedge": [
       "L:40"
@@ -93,8 +106,8 @@
       "M"
     ],
     "fling": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "focusblast": [
       "M"
@@ -105,6 +118,12 @@
     "grassknot": [
       "M"
     ],
+    "gravity": [
+      "E"
+    ],
+    "healbell": [
+      "E"
+    ],
     "healingwish": [
       "L:52"
     ],
@@ -112,8 +131,8 @@
       "L:28"
     ],
     "helpinghand": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "hyperbeam": [
       "M"
@@ -137,14 +156,17 @@
       "L:12"
     ],
     "lightscreen": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "metronome": [
       "M"
     ],
     "pound": [
       "L:1"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -166,6 +188,9 @@
     ],
     "sandstorm": [
       "M"
+    ],
+    "seismictoss": [
+      "E"
     ],
     "shadowball": [
       "M"
@@ -213,8 +238,8 @@
       "L:4"
     ],
     "takedown": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "terablast": [
       "M"
@@ -246,6 +271,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people."
+  }
 }

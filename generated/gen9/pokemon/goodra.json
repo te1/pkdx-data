@@ -1,10 +1,11 @@
 {
   "slug": "goodra",
   "name": "Goodra",
-  "num": 174,
+  "num": 706,
   "types": [
     "dragon"
   ],
+  "gen": 6,
   "abilities": {
     "0": "sapsipper",
     "1": "hydration",
@@ -18,19 +19,33 @@
     "spd": 150,
     "spe": 80
   },
+  "prevo": "sliggoo",
+  "evoLevel": 50,
+  "formes": [
+    "goodra-hisui"
+  ],
   "weight": 150.5,
-  "height": 20,
+  "height": 2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It loves the rain. This mellow Pokémon can be seen walking around on the plains and in the mountains on rainy days."
   },
   "learnset": {
     "absorb": [
       "L:1"
     ],
+    "acidarmor": [
+      "L:1@sliggoo"
+    ],
     "acidspray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "aquatail": [
       "L:0"
@@ -42,8 +57,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "bulldoze": [
       "M"
@@ -53,6 +68,9 @@
     ],
     "chillingwater": [
       "M"
+    ],
+    "counter": [
+      "E@goomy"
     ],
     "curse": [
       "L:43"
@@ -67,7 +85,8 @@
       "M"
     ],
     "dragonpulse": [
-      "M"
+      "M",
+      "L:35@sliggoo"
     ],
     "dragontail": [
       "M"
@@ -111,6 +130,9 @@
     "icebeam": [
       "M"
     ],
+    "lifedew": [
+      "E@goomy"
+    ],
     "muddywater": [
       "L:58"
     ],
@@ -121,19 +143,19 @@
       "M"
     ],
     "poisontail": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "powerwhip": [
       "L:67"
     ],
     "protect": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "raindance": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "rest": [
       "M"
@@ -184,9 +206,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ]
-  },
-  "flavorText": "It loves the rain. This mellow Pokémon can be seen walking around on the plains and in the mountains on rainy days."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "glimmet",
   "name": "Glimmet",
-  "num": 308,
+  "num": 966,
   "types": [
     "rock",
     "poison"
   ],
+  "gen": 9,
   "abilities": {
     "0": "toxicdebris",
     "H": "corrosion"
@@ -18,19 +19,29 @@
     "spd": 60,
     "spe": 60
   },
+  "evos": [
+    "glimmora"
+  ],
   "weight": 8,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison."
   },
   "learnset": {
     "acidarmor": [
       "L:41"
     ],
     "acidspray": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "ancientpower": [
       "L:11"
@@ -69,8 +80,8 @@
       "M"
     ],
     "powergem": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "protect": [
       "M"
@@ -91,8 +102,8 @@
       "L:15"
     ],
     "rockslide": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "rockthrow": [
       "L:1"
@@ -101,8 +112,8 @@
       "M"
     ],
     "sandstorm": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "selfdestruct": [
       "L:29"
@@ -123,8 +134,8 @@
       "M"
     ],
     "stealthrock": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "stoneedge": [
       "M"
@@ -145,9 +156,8 @@
       "M"
     ],
     "venoshock": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ]
-  },
-  "flavorText": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison."
+  }
 }

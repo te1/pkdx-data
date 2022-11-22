@@ -1,10 +1,11 @@
 {
   "slug": "sudowoodo",
   "name": "Sudowoodo",
-  "num": 88,
+  "num": 185,
   "types": [
     "rock"
   ],
+  "gen": 2,
   "abilities": {
     "0": "sturdy",
     "1": "rockhead",
@@ -18,11 +19,21 @@
     "spd": 65,
     "spe": 30
   },
+  "prevo": "bonsly",
+  "evoType": "levelMove",
+  "evoMove": "Mimic",
   "weight": 38,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation."
   },
   "learnset": {
     "block": [
@@ -49,6 +60,12 @@
     "counter": [
       "L:40"
     ],
+    "curse": [
+      "E"
+    ],
+    "defensecurl": [
+      "E"
+    ],
     "dig": [
       "M"
     ],
@@ -71,8 +88,8 @@
       "M"
     ],
     "faketears": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "firepunch": [
       "M"
@@ -95,6 +112,12 @@
     "hammerarm": [
       "L:1"
     ],
+    "harden": [
+      "E"
+    ],
+    "headbutt": [
+      "E"
+    ],
     "headsmash": [
       "L:48"
     ],
@@ -111,8 +134,8 @@
       "M"
     ],
     "lowkick": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "lowsweep": [
       "M"
@@ -138,16 +161,22 @@
     "rockblast": [
       "M"
     ],
+    "rockpolish": [
+      "E"
+    ],
     "rockslide": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "rockthrow": [
       "L:1"
     ],
     "rocktomb": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
+    ],
+    "rollout": [
+      "E"
     ],
     "sandstorm": [
       "M"
@@ -168,8 +197,8 @@
       "M"
     ],
     "stoneedge": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "substitute": [
       "M"
@@ -204,6 +233,5 @@
     "woodhammer": [
       "L:1"
     ]
-  },
-  "flavorText": "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation."
+  }
 }

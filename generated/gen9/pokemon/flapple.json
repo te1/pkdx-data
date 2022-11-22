@@ -1,11 +1,12 @@
 {
   "slug": "flapple",
   "name": "Flapple",
-  "num": 109,
+  "num": 841,
   "types": [
     "grass",
     "dragon"
   ],
+  "gen": 8,
   "abilities": {
     "0": "ripen",
     "1": "gluttony",
@@ -19,20 +20,30 @@
     "spd": 60,
     "spe": 70
   },
+  "prevo": "applin",
+  "evoType": "useItem",
+  "evoItem": "Tart Apple",
   "weight": 1,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It flutters around while seeking an opening in the opponent's guard, then attacks by spitting acidic liquid strong enough to melt metal."
+  },
   "learnset": {
     "acidspray": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "acrobatics": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "aerialace": [
       "M"
@@ -46,6 +57,9 @@
     "bulletseed": [
       "M"
     ],
+    "defensecurl": [
+      "E@applin"
+    ],
     "dracometeor": [
       "M"
     ],
@@ -53,12 +67,12 @@
       "L:20"
     ],
     "dragondance": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "dragonpulse": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "dragonrush": [
       "L:44"
@@ -73,8 +87,8 @@
       "M"
     ],
     "fly": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "gigadrain": [
       "M"
@@ -101,8 +115,8 @@
       "M"
     ],
     "irondefense": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "leafstorm": [
       "M"
@@ -120,14 +134,18 @@
       "M"
     ],
     "protect": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "recycle": [
-      "L:1"
+      "L:1",
+      "E@applin"
     ],
     "rest": [
       "M"
+    ],
+    "rollout": [
+      "E@applin"
     ],
     "scaryface": [
       "M"
@@ -143,6 +161,9 @@
     ],
     "substitute": [
       "M"
+    ],
+    "suckerpunch": [
+      "E@applin"
     ],
     "sunnyday": [
       "M"
@@ -168,6 +189,5 @@
     "withdraw": [
       "L:1"
     ]
-  },
-  "flavorText": "It flutters around while seeking an opening in the opponent's guard, then attacks by spitting acidic liquid strong enough to melt metal."
+  }
 }

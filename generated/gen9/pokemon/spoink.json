@@ -1,10 +1,11 @@
 {
   "slug": "spoink",
   "name": "Spoink",
-  "num": 111,
+  "num": 325,
   "types": [
     "psychic"
   ],
+  "gen": 3,
   "abilities": {
     "0": "thickfat",
     "1": "owntempo",
@@ -18,16 +19,26 @@
     "spd": 80,
     "spe": 60
   },
+  "evos": [
+    "grumpig"
+  ],
   "weight": 30.6,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers."
+  },
   "learnset": {
     "amnesia": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "bodyslam": [
       "M"
@@ -45,8 +56,8 @@
       "M"
     ],
     "confuseray": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "confusion": [
       "L:7"
@@ -100,19 +111,19 @@
       "L:40"
     ],
     "powergem": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "protect": [
       "M"
     ],
     "psybeam": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "psychic": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "psychicterrain": [
       "M"
@@ -121,8 +132,8 @@
       "L:18"
     ],
     "psyshock": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "raindance": [
       "M"
@@ -131,8 +142,8 @@
       "M"
     ],
     "rest": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "shadowball": [
       "M"
@@ -189,8 +200,8 @@
       "M"
     ],
     "trick": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "trickroom": [
       "M"
@@ -199,9 +210,8 @@
       "E"
     ],
     "zenheadbutt": [
-      "E",
-      "M"
+      "M",
+      "E"
     ]
-  },
-  "flavorText": "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers."
+  }
 }

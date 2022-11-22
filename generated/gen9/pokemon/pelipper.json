@@ -1,11 +1,12 @@
 {
   "slug": "pelipper",
   "name": "Pelipper",
-  "num": 133,
+  "num": 279,
   "types": [
     "water",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
     "0": "keeneye",
     "1": "drizzle",
@@ -19,29 +20,43 @@
     "spd": 70,
     "spe": 65
   },
+  "prevo": "wingull",
+  "evoLevel": 25,
   "weight": 28,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Flying"
+  ],
+  "flavorText": {
+    "scarlet": "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "M"
+      "M",
+      "E@wingull"
     ],
     "agility": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "aircutter": [
-      "M"
+      "M",
+      "E@wingull"
     ],
     "airslash": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "aquaring": [
+      "E@wingull"
     ],
     "blizzard": [
       "M"
@@ -62,8 +77,8 @@
       "M"
     ],
     "fling": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "fly": [
       "M"
@@ -77,16 +92,19 @@
     "gunkshot": [
       "M"
     ],
+    "gust": [
+      "E@wingull"
+    ],
     "helpinghand": [
       "M"
     ],
     "hurricane": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "hydropump": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "hyperbeam": [
       "M"
@@ -97,6 +115,9 @@
     "icywind": [
       "M"
     ],
+    "knockoff": [
+      "E@wingull"
+    ],
     "liquidation": [
       "M"
     ],
@@ -104,8 +125,8 @@
       "L:41"
     ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "quickattack": [
       "L:1"
@@ -129,7 +150,8 @@
       "M"
     ],
     "soak": [
-      "L:1"
+      "L:1",
+      "E@wingull"
     ],
     "spitup": [
       "L:28"
@@ -153,8 +175,8 @@
       "M"
     ],
     "tailwind": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "takedown": [
       "M"
@@ -164,6 +186,9 @@
     ],
     "thief": [
       "M"
+    ],
+    "twister": [
+      "E@wingull"
     ],
     "uturn": [
       "M"
@@ -175,12 +200,14 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
+    ],
+    "wideguard": [
+      "E@wingull"
     ],
     "wingattack": [
       "L:15"
     ]
-  },
-  "flavorText": "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings."
+  }
 }

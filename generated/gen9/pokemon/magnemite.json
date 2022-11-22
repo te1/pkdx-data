@@ -1,11 +1,12 @@
 {
   "slug": "magnemite",
   "name": "Magnemite",
-  "num": 209,
+  "num": 81,
   "types": [
     "electric",
     "steel"
   ],
+  "gen": 1,
   "abilities": {
     "0": "magnetpull",
     "1": "sturdy",
@@ -19,9 +20,19 @@
     "spd": 55,
     "spe": 45
   },
+  "evos": [
+    "magneton"
+  ],
   "weight": 6,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float."
+  },
   "learnset": {
     "chargebeam": [
       "M"
@@ -39,8 +50,8 @@
       "M"
     ],
     "electroball": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "electroweb": [
       "E"
@@ -55,8 +66,8 @@
       "M"
     ],
     "flashcannon": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "gyroball": [
       "L:16"
@@ -74,8 +85,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "lockon": [
       "L:48"
@@ -144,8 +155,8 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "voltswitch": [
       "M"
@@ -156,6 +167,5 @@
     "zapcannon": [
       "L:52"
     ]
-  },
-  "flavorText": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float."
+  }
 }

@@ -1,13 +1,13 @@
 {
   "slug": "cryogonal",
   "name": "Cryogonal",
-  "num": 360,
+  "num": 615,
   "types": [
     "ice"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 80,
@@ -18,8 +18,15 @@
     "spe": 105
   },
   "weight": 148,
-  "height": 11,
-  "genderRatio": {},
+  "height": 1.1,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon."
+  },
   "learnset": {
     "acidarmor": [
       "L:52"
@@ -52,8 +59,8 @@
       "M"
     ],
     "confuseray": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "endure": [
       "M"
@@ -83,8 +90,8 @@
       "M"
     ],
     "icebeam": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "iceshard": [
       "L:1"
@@ -93,15 +100,15 @@
       "M"
     ],
     "icywind": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "irondefense": [
       "M"
     ],
     "lightscreen": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "mist": [
       "L:16"
@@ -125,8 +132,8 @@
       "L:44"
     ],
     "reflect": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "rest": [
       "M"
@@ -147,8 +154,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "substitute": [
       "M"
@@ -162,6 +169,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon."
+  }
 }

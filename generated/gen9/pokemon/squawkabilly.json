@@ -1,11 +1,12 @@
 {
   "slug": "squawkabilly",
   "name": "Squawkabilly",
-  "num": 113,
+  "num": 960,
   "types": [
     "normal",
     "flying"
   ],
+  "gen": 9,
   "abilities": {
     "0": "intimidate",
     "1": "hustle",
@@ -19,16 +20,28 @@
     "spd": 51,
     "spe": 92
   },
+  "formes": [
+    "squawkabilly-blue",
+    "squawkabilly-yellow",
+    "squawkabilly-white"
+  ],
   "weight": 2.4,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory."
+  },
   "learnset": {
     "aerialace": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "aircutter": [
       "M"
@@ -37,8 +50,8 @@
       "M"
     ],
     "bravebird": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "copycat": [
       "L:27"
@@ -50,8 +63,8 @@
       "M"
     ],
     "facade": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "faketears": [
       "M"
@@ -63,8 +76,8 @@
       "E"
     ],
     "fly": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "foulplay": [
       "M"
@@ -115,8 +128,8 @@
       "M"
     ],
     "reversal": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "roost": [
       "L:47"
@@ -143,8 +156,8 @@
       "M"
     ],
     "taunt": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
@@ -161,6 +174,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory."
+  }
 }

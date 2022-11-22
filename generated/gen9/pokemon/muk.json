@@ -1,10 +1,11 @@
 {
   "slug": "muk",
   "name": "Muk",
-  "num": 195,
+  "num": 89,
   "types": [
     "poison"
   ],
+  "gen": 1,
   "abilities": {
     "0": "stench",
     "1": "stickyhold",
@@ -18,18 +19,30 @@
     "spd": 100,
     "spe": 50
   },
+  "prevo": "grimer",
+  "evoLevel": 38,
+  "formes": [
+    "muk-alola"
+  ],
   "weight": 30,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
   },
   "learnset": {
     "acidarmor": [
       "L:46"
     ],
     "acidspray": [
-      "M"
+      "M",
+      "E@grimer"
     ],
     "belch": [
       "L:52"
@@ -42,6 +55,9 @@
     ],
     "confuseray": [
       "M"
+    ],
+    "curse": [
+      "E@grimer"
     ],
     "darkpulse": [
       "M"
@@ -83,11 +99,14 @@
       "M"
     ],
     "gunkshot": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "harden": [
       "L:1"
+    ],
+    "haze": [
+      "E@grimer"
     ],
     "helpinghand": [
       "M"
@@ -104,6 +123,9 @@
     "imprison": [
       "M"
     ],
+    "meanlook": [
+      "E@grimer"
+    ],
     "memento": [
       "L:57"
     ],
@@ -114,12 +136,12 @@
       "L:21"
     ],
     "mudshot": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "poisongas": [
       "L:1"
@@ -157,6 +179,12 @@
     "shadowball": [
       "M"
     ],
+    "shadowpunch": [
+      "E@grimer"
+    ],
+    "shadowsneak": [
+      "E@grimer"
+    ],
     "sleeptalk": [
       "M"
     ],
@@ -164,17 +192,26 @@
       "L:15"
     ],
     "sludgebomb": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "sludgewave": [
       "L:32"
+    ],
+    "spitup": [
+      "E@grimer"
+    ],
+    "stockpile": [
+      "E@grimer"
     ],
     "substitute": [
       "M"
     ],
     "sunnyday": [
       "M"
+    ],
+    "swallow": [
+      "E@grimer"
     ],
     "swift": [
       "M"
@@ -212,6 +249,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
+  }
 }

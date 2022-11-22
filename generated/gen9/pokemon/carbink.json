@@ -1,11 +1,12 @@
 {
   "slug": "carbink",
   "name": "Carbink",
-  "num": null,
+  "num": 703,
   "types": [
     "rock",
     "fairy"
   ],
+  "gen": 6,
   "abilities": {
     "0": "clearbody",
     "H": "sturdy"
@@ -19,8 +20,14 @@
     "spe": 50
   },
   "weight": 5.7,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "ancientpower": [
       "L:20"
@@ -77,8 +84,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "mistyterrain": [
       "M"
@@ -87,8 +94,8 @@
       "L:55"
     ],
     "powergem": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "protect": [
       "M"
@@ -112,8 +119,8 @@
       "L:25"
     ],
     "rockslide": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "rocktomb": [
       "M"
@@ -122,8 +129,8 @@
       "M"
     ],
     "skillswap": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "sleeptalk": [
       "M"
@@ -135,15 +142,15 @@
       "M"
     ],
     "stealthrock": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "stompingtantrum": [
       "M"
     ],
     "stoneedge": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "substitute": [
       "M"

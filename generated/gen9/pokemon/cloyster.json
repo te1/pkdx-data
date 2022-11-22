@@ -1,11 +1,12 @@
 {
   "slug": "cloyster",
   "name": "Cloyster",
-  "num": 330,
+  "num": 91,
   "types": [
     "water",
     "ice"
   ],
+  "gen": 1,
   "abilities": {
     "0": "shellarmor",
     "1": "skilllink",
@@ -19,13 +20,25 @@
     "spd": 45,
     "spe": 70
   },
+  "prevo": "shellder",
+  "evoType": "useItem",
+  "evoItem": "Water Stone",
   "weight": 132.5,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 3"
+  ],
+  "flavorText": {
+    "scarlet": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells."
+  },
   "learnset": {
+    "aquaring": [
+      "E@shellder"
+    ],
     "aurorabeam": [
       "L:1"
     ],
@@ -37,6 +50,9 @@
     ],
     "bodyslam": [
       "M"
+    ],
+    "bubblebeam": [
+      "E@shellder"
     ],
     "chillingwater": [
       "M"
@@ -57,15 +73,15 @@
       "M"
     ],
     "hydropump": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
     ],
     "icebeam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "iceshard": [
       "L:1"
@@ -83,11 +99,14 @@
       "M"
     ],
     "irondefense": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "leer": [
       "L:1"
+    ],
+    "lifedew": [
+      "E@shellder"
     ],
     "lightscreen": [
       "M"
@@ -102,8 +121,8 @@
       "M"
     ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "raindance": [
       "M"
@@ -133,8 +152,8 @@
       "M"
     ],
     "spikes": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "substitute": [
       "M"
@@ -158,8 +177,8 @@
       "M"
     ],
     "toxicspikes": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "waterfall": [
       "M"
@@ -168,7 +187,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "M"
+      "M",
+      "E@shellder"
     ],
     "whirlpool": [
       "L:1"
@@ -176,6 +196,5 @@
     "withdraw": [
       "L:1"
     ]
-  },
-  "flavorText": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells."
+  }
 }

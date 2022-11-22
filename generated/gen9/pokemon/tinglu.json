@@ -1,26 +1,32 @@
 {
   "slug": "tinglu",
   "name": "Ting-Lu",
-  "num": 395,
+  "num": 994,
   "types": [
     "dark",
     "ground"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "vesselofruin",
-    "H": "vesselofruin"
+    "0": "vesselofruin"
   },
   "baseStats": {
     "hp": 155,
     "atk": 110,
-    "def": 125,
-    "spa": 55,
+    "def": 130,
+    "spa": 50,
     "spd": 80,
     "spe": 45
   },
   "weight": 699.7,
-  "height": 27,
-  "genderRatio": {},
+  "height": 2.7,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon."
+  },
   "learnset": {
     "bodypress": [
       "M"
@@ -29,12 +35,12 @@
       "M"
     ],
     "bulldoze": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "darkpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dig": [
       "M"
@@ -43,8 +49,8 @@
       "M"
     ],
     "earthquake": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "endure": [
       "M"
@@ -89,8 +95,8 @@
       "M"
     ],
     "rockslide": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "rocktomb": [
       "M"
@@ -114,8 +120,8 @@
       "M"
     ],
     "spikes": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "spite": [
       "L:1"
@@ -127,8 +133,8 @@
       "L:15"
     ],
     "stompingtantrum": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "stoneedge": [
       "M"
@@ -143,8 +149,8 @@
       "M"
     ],
     "taunt": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "terablast": [
       "M"
@@ -161,6 +167,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "annihilape",
   "name": "Annihilape",
-  "num": 160,
+  "num": 1010,
   "types": [
     "fighting",
     "ghost"
   ],
+  "gen": 9,
   "abilities": {
     "0": "vitalspirit",
     "1": "innerfocus",
@@ -19,70 +20,77 @@
     "spd": 90,
     "spe": 90
   },
+  "prevo": "primeape",
+  "evoType": "other",
+  "evoCondition": "Use Rage Fist 20 times",
   "weight": 56,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body."
+  },
   "learnset": {
-    "shadowpunch": [
-      "L:0"
-    ],
-    "scratch": [
-      "L:1"
-    ],
-    "leer": [
-      "L:1"
-    ],
-    "counter": [
-      "L:1"
-    ],
-    "fling": [
-      "L:1",
+    "acrobatics": [
       "M"
-    ],
-    "focusenergy": [
-      "L:1"
-    ],
-    "furyswipes": [
-      "L:5"
-    ],
-    "lowkick": [
-      "L:8",
-      "M"
-    ],
-    "seismictoss": [
-      "L:12"
-    ],
-    "swagger": [
-      "L:17"
-    ],
-    "crosschop": [
-      "L:22"
     ],
     "assurance": [
       "L:26"
     ],
-    "thrash": [
-      "L:30"
+    "beatup": [
+      "E@mankey"
     ],
-    "ragefist": [
-      "L:35"
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
     ],
     "closecombat": [
-      "L:39",
+      "M",
+      "L:39"
+    ],
+    "counter": [
+      "L:1",
+      "E@mankey"
+    ],
+    "covet": [
+      "L:1@mankey"
+    ],
+    "crosschop": [
+      "L:22"
+    ],
+    "curse": [
+      "E@mankey"
+    ],
+    "dig": [
       "M"
     ],
-    "screech": [
-      "L:44"
-    ],
-    "stompingtantrum": [
-      "L:48",
+    "drainpunch": [
       "M"
     ],
-    "outrage": [
-      "L:53",
+    "earthquake": [
+      "M"
+    ],
+    "encore": [
+      "M",
+      "E@mankey"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
       "M"
     ],
     "finalgambit": [
@@ -91,147 +99,165 @@
     "firepunch": [
       "M"
     ],
-    "icepunch": [
-      "M"
-    ],
-    "thunderpunch": [
-      "M"
-    ],
-    "bodyslam": [
-      "M"
-    ],
-    "takedown": [
-      "M"
-    ],
-    "hyperbeam": [
-      "M"
-    ],
-    "thunderbolt": [
-      "M"
-    ],
-    "thunder": [
-      "M"
-    ],
-    "earthquake": [
-      "M"
-    ],
-    "dig": [
-      "M"
-    ],
-    "nightshade": [
-      "M"
-    ],
-    "metronome": [
-      "M"
-    ],
-    "swift": [
-      "M"
-    ],
-    "rest": [
-      "M"
-    ],
-    "rockslide": [
-      "M"
-    ],
-    "substitute": [
-      "M"
-    ],
-    "thief": [
-      "M"
-    ],
-    "reversal": [
-      "M"
-    ],
-    "protect": [
-      "M"
-    ],
-    "scaryface": [
-      "M"
-    ],
-    "endure": [
-      "M"
-    ],
-    "sleeptalk": [
-      "M"
-    ],
-    "encore": [
-      "M"
-    ],
-    "raindance": [
-      "M"
-    ],
-    "sunnyday": [
-      "M"
-    ],
-    "shadowball": [
-      "M"
-    ],
-    "facade": [
-      "M"
-    ],
-    "taunt": [
-      "M"
-    ],
-    "helpinghand": [
-      "M"
-    ],
-    "brickbreak": [
-      "M"
-    ],
-    "overheat": [
-      "M"
-    ],
-    "rocktomb": [
-      "M"
-    ],
-    "bulkup": [
-      "M"
-    ],
-    "uturn": [
-      "M"
-    ],
-    "poisonjab": [
-      "M"
-    ],
-    "seedbomb": [
-      "M"
-    ],
-    "drainpunch": [
-      "M"
+    "fling": [
+      "M",
+      "L:1"
     ],
     "focusblast": [
       "M"
     ],
-    "gigaimpact": [
-      "M"
+    "focusenergy": [
+      "L:1"
     ],
-    "shadowclaw": [
+    "furyswipes": [
+      "L:5"
+    ],
+    "gigaimpact": [
       "M"
     ],
     "gunkshot": [
       "M"
     ],
-    "stoneedge": [
+    "helpinghand": [
       "M"
     ],
-    "stealthrock": [
+    "hyperbeam": [
       "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lowkick": [
+      "M",
+      "L:8"
     ],
     "lowsweep": [
       "M"
     ],
-    "acrobatics": [
+    "metronome": [
       "M"
     ],
-    "bulldoze": [
+    "nightshade": [
+      "M"
+    ],
+    "nightslash": [
+      "E@mankey"
+    ],
+    "outrage": [
+      "M",
+      "L:53"
+    ],
+    "overheat": [
       "M"
     ],
     "phantomforce": [
       "M"
     ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "ragefist": [
+      "L:35"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "screech": [
+      "L:44"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "seismictoss": [
+      "L:12"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "shadowpunch": [
+      "L:0"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spite": [
+      "E@mankey"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M",
+      "L:48"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "L:17"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
     "terablast": [
       "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thrash": [
+      "L:30"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "uturn": [
+      "M"
     ]
-  },
-  "flavorText": "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "surskit",
   "name": "Surskit",
-  "num": 49,
+  "num": 283,
   "types": [
     "bug",
     "water"
   ],
+  "gen": 3,
   "abilities": {
     "0": "swiftswim",
     "H": "raindish"
@@ -18,26 +19,37 @@
     "spd": 52,
     "spe": 65
   },
+  "evos": [
+    "masquerain"
+  ],
   "weight": 1.7,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "They usually live on ponds, but after an evening shower, they may appear on puddles in towns."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "aquajet": [
       "E"
     ],
     "batonpass": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "blizzard": [
       "M"
@@ -73,8 +85,8 @@
       "M"
     ],
     "hydropump": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "icebeam": [
       "M"
@@ -95,8 +107,8 @@
       "L:25"
     ],
     "mudshot": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "mudslap": [
       "M"
@@ -111,8 +123,8 @@
       "M"
     ],
     "psybeam": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "quickattack": [
       "L:6"
@@ -171,6 +183,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "They usually live on ponds, but after an evening shower, they may appear on puddles in towns."
+  }
 }

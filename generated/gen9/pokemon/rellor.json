@@ -1,10 +1,11 @@
 {
   "slug": "rellor",
   "name": "Rellor",
-  "num": 254,
+  "num": 922,
   "types": [
     "bug"
   ],
+  "gen": 9,
   "abilities": {
     "0": "compoundeyes",
     "H": "shedskin"
@@ -17,11 +18,21 @@
     "spd": 58,
     "spe": 30
   },
+  "evos": [
+    "rabsca"
+  ],
   "weight": 1,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life."
   },
   "learnset": {
     "bugbite": [
@@ -37,8 +48,8 @@
       "L:1"
     ],
     "dig": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "endure": [
       "M"
@@ -65,8 +76,8 @@
       "E"
     ],
     "mudshot": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "mudslap": [
       "M"
@@ -99,8 +110,8 @@
       "M"
     ],
     "strugglebug": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "substitute": [
       "M"
@@ -109,8 +120,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "terablast": [
       "M"
@@ -124,6 +135,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life."
+  }
 }

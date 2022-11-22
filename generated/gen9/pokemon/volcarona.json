@@ -1,11 +1,12 @@
 {
   "slug": "volcarona",
   "name": "Volcarona",
-  "num": 275,
+  "num": 637,
   "types": [
     "bug",
     "fire"
   ],
+  "gen": 5,
   "abilities": {
     "0": "flamebody",
     "H": "swarm"
@@ -18,13 +19,24 @@
     "spd": 105,
     "spe": 100
   },
+  "prevo": "larvesta",
+  "evoLevel": 59,
   "weight": 46,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun."
+  },
   "learnset": {
+    "absorb": [
+      "E@larvesta"
+    ],
     "acrobatics": [
       "M"
     ],
@@ -35,8 +47,8 @@
       "M"
     ],
     "amnesia": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "bodyslam": [
       "M"
@@ -45,8 +57,8 @@
       "L:24"
     ],
     "bugbuzz": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "calmmind": [
       "M"
@@ -67,16 +79,16 @@
       "L:1"
     ],
     "fireblast": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "firespin": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "flamecharge": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "flamethrower": [
       "M"
@@ -85,8 +97,8 @@
       "L:18"
     ],
     "flareblitz": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "fly": [
       "M"
@@ -100,23 +112,29 @@
     "gust": [
       "L:1"
     ],
+    "harden": [
+      "E@larvesta"
+    ],
     "heatwave": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "hurricane": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "hyperbeam": [
       "M"
     ],
     "leechlife": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "lightscreen": [
       "M"
+    ],
+    "morningsun": [
+      "E@larvesta"
     ],
     "overheat": [
       "M"
@@ -158,8 +176,8 @@
       "L:1"
     ],
     "strugglebug": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "substitute": [
       "M"
@@ -171,11 +189,14 @@
       "M"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
+    ],
+    "thrash": [
+      "E@larvesta"
     ],
     "trailblaze": [
       "M"
@@ -195,6 +216,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun."
+  }
 }

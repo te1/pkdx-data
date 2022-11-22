@@ -1,10 +1,11 @@
 {
   "slug": "mankey",
   "name": "Mankey",
-  "num": 158,
+  "num": 56,
   "types": [
     "fighting"
   ],
+  "gen": 1,
   "abilities": {
     "0": "vitalspirit",
     "1": "angerpoint",
@@ -18,11 +19,21 @@
     "spd": 45,
     "spe": 70
   },
+  "evos": [
+    "primeape"
+  ],
   "weight": 28,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness."
   },
   "learnset": {
     "acrobatics": [
@@ -47,8 +58,8 @@
       "M"
     ],
     "closecombat": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "counter": [
       "E"
@@ -72,8 +83,8 @@
       "M"
     ],
     "encore": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "endure": [
       "M"
@@ -112,8 +123,8 @@
       "L:1"
     ],
     "lowkick": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "lowsweep": [
       "M"
@@ -125,8 +136,8 @@
       "E"
     ],
     "outrage": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "overheat": [
       "M"
@@ -177,8 +188,8 @@
       "E"
     ],
     "stompingtantrum": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "stoneedge": [
       "M"
@@ -219,6 +230,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness."
+  }
 }

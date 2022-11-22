@@ -1,14 +1,14 @@
 {
   "slug": "ironvaliant",
   "name": "Iron Valiant",
-  "num": 398,
+  "num": 993,
   "types": [
     "fairy",
     "fighting"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "quarkdrive",
-    "H": "quarkdrive"
+    "0": "quarkdrive"
   },
   "baseStats": {
     "hp": 74,
@@ -19,8 +19,14 @@
     "spe": 116
   },
   "weight": 35,
-  "height": 14,
-  "genderRatio": {},
+  "height": 1.4,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "It has some similarities to a mad scientist's invention covered in a paranormal magazine."
+  },
   "learnset": {
     "aerialace": [
       "M"
@@ -41,15 +47,15 @@
       "M"
     ],
     "closecombat": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "confuseray": [
       "M"
     ],
     "dazzlinggleam": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "destinybond": [
       "L:77"
@@ -64,8 +70,8 @@
       "M"
     ],
     "electricterrain": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "encore": [
       "M"
@@ -250,6 +256,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It has some similarities to a mad scientist's invention covered in a paranormal magazine."
+  }
 }

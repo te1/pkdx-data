@@ -1,10 +1,11 @@
 {
   "slug": "grumpig",
   "name": "Grumpig",
-  "num": 112,
+  "num": 326,
   "types": [
     "psychic"
   ],
+  "gen": 3,
   "abilities": {
     "0": "thickfat",
     "1": "owntempo",
@@ -18,15 +19,24 @@
     "spd": 110,
     "spe": 80
   },
+  "prevo": "spoink",
+  "evoLevel": 32,
   "weight": 71.5,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas."
+  },
   "learnset": {
     "amnesia": [
-      "M"
+      "M",
+      "E@spoink"
     ],
     "belch": [
       "L:1"
@@ -56,8 +66,8 @@
       "M"
     ],
     "confuseray": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "confusion": [
       "L:1"
@@ -83,6 +93,9 @@
     "energyball": [
       "M"
     ],
+    "extrasensory": [
+      "E@spoink"
+    ],
     "facade": [
       "M"
     ],
@@ -98,11 +111,17 @@
     "focusblast": [
       "M"
     ],
+    "futuresight": [
+      "E@spoink"
+    ],
     "gigaimpact": [
       "M"
     ],
     "grassknot": [
       "M"
+    ],
+    "growl": [
+      "L:10@spoink"
     ],
     "helpinghand": [
       "M"
@@ -134,6 +153,9 @@
     "metronome": [
       "M"
     ],
+    "mirrorcoat": [
+      "E@spoink"
+    ],
     "mudshot": [
       "M"
     ],
@@ -150,19 +172,19 @@
       "L:46"
     ],
     "powergem": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "protect": [
       "M"
     ],
     "psybeam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "psychic": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "psychicterrain": [
       "M"
@@ -171,8 +193,8 @@
       "L:18"
     ],
     "psyshock": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "raindance": [
       "M"
@@ -181,14 +203,17 @@
       "M"
     ],
     "rest": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "seedbomb": [
       "M"
     ],
     "shadowball": [
       "M"
+    ],
+    "simplebeam": [
+      "E@spoink"
     ],
     "skillswap": [
       "M"
@@ -248,15 +273,19 @@
       "M"
     ],
     "trick": [
-      "M"
+      "M",
+      "E@spoink"
     ],
     "trickroom": [
       "M"
     ],
+    "whirlwind": [
+      "E@spoink"
+    ],
     "zenheadbutt": [
+      "M",
       "L:26",
-      "M"
+      "E@spoink"
     ]
-  },
-  "flavorText": "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas."
+  }
 }

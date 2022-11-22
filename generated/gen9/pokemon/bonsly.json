@@ -1,10 +1,11 @@
 {
   "slug": "bonsly",
   "name": "Bonsly",
-  "num": 87,
+  "num": 438,
   "types": [
     "rock"
   ],
+  "gen": 4,
   "abilities": {
     "0": "sturdy",
     "1": "rockhead",
@@ -18,11 +19,21 @@
     "spd": 45,
     "spe": 10
   },
+  "evos": [
+    "sudowoodo"
+  ],
   "weight": 15,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying."
   },
   "learnset": {
     "block": [
@@ -71,8 +82,8 @@
       "M"
     ],
     "faketears": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "flail": [
       "L:4"
@@ -93,8 +104,8 @@
       "M"
     ],
     "lowkick": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "mimic": [
       "L:16"
@@ -121,15 +132,15 @@
       "E"
     ],
     "rockslide": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "rockthrow": [
       "L:8"
     ],
     "rocktomb": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "rollout": [
       "E"
@@ -176,6 +187,5 @@
     "trailblaze": [
       "M"
     ]
-  },
-  "flavorText": "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying."
+  }
 }

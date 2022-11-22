@@ -1,11 +1,12 @@
 {
   "slug": "chesnaught",
   "name": "Chesnaught",
-  "num": null,
+  "num": 652,
   "types": [
     "grass",
     "fighting"
   ],
+  "gen": 6,
   "abilities": {
     "0": "overgrow",
     "H": "bulletproof"
@@ -18,15 +19,24 @@
     "spd": 75,
     "spe": 64
   },
+  "prevo": "quilladin",
+  "evoLevel": 36,
   "weight": 90,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "bellydrum": [
+      "E@chespin"
     ],
     "bite": [
       "L:11"
@@ -35,15 +45,15 @@
       "M"
     ],
     "bodyslam": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "brickbreak": [
       "M"
     ],
     "bulkup": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "bulldoze": [
       "M"
@@ -56,6 +66,9 @@
     ],
     "crunch": [
       "M"
+    ],
+    "curse": [
+      "E@chespin"
     ],
     "dig": [
       "M"
@@ -94,8 +107,8 @@
       "M"
     ],
     "gigaimpact": [
-      "L:78",
-      "M"
+      "M",
+      "L:78"
     ],
     "grassknot": [
       "M"
@@ -143,8 +156,8 @@
       "M"
     ],
     "mudshot": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "mudslap": [
       "M"
@@ -160,6 +173,9 @@
     ],
     "protect": [
       "M"
+    ],
+    "quickguard": [
+      "E@chespin"
     ],
     "raindance": [
       "M"
@@ -186,8 +202,8 @@
       "M"
     ],
     "seedbomb": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "shadowclaw": [
       "M"
@@ -199,7 +215,8 @@
       "M"
     ],
     "spikes": [
-      "M"
+      "M",
+      "E@chespin"
     ],
     "spikyshield": [
       "L:0"
@@ -216,18 +233,24 @@
     "sunnyday": [
       "M"
     ],
+    "superfang": [
+      "E@chespin"
+    ],
     "swift": [
       "M"
     ],
     "swordsdance": [
       "M"
     ],
+    "synthesis": [
+      "E@chespin"
+    ],
     "tackle": [
       "L:1"
     ],
     "takedown": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "taunt": [
       "M"
@@ -243,6 +266,9 @@
     ],
     "vinewhip": [
       "L:1"
+    ],
+    "wideguard": [
+      "E@chespin"
     ],
     "woodhammer": [
       "L:66"

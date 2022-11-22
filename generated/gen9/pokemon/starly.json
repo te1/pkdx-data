@@ -1,11 +1,12 @@
 {
   "slug": "starly",
   "name": "Starly",
-  "num": 97,
+  "num": 396,
   "types": [
     "normal",
     "flying"
   ],
+  "gen": 4,
   "abilities": {
     "0": "keeneye",
     "H": "reckless"
@@ -18,23 +19,33 @@
     "spd": 30,
     "spe": 60
   },
+  "evos": [
+    "staravia"
+  ],
   "weight": 2,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "agility": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "aircutter": [
       "M"
@@ -46,8 +57,8 @@
       "E"
     ],
     "bravebird": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "doubleedge": [
       "E"
@@ -122,8 +133,8 @@
       "M"
     ],
     "takedown": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "terablast": [
       "M"
@@ -143,6 +154,5 @@
     "wingattack": [
       "L:9"
     ]
-  },
-  "flavorText": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying."
+  }
 }

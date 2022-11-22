@@ -1,10 +1,11 @@
 {
   "slug": "electrode",
   "name": "Electrode",
-  "num": 208,
+  "num": 101,
   "types": [
     "electric"
   ],
+  "gen": 1,
   "abilities": {
     "0": "soundproof",
     "1": "static",
@@ -18,9 +19,20 @@
     "spd": 80,
     "spe": 150
   },
+  "prevo": "voltorb",
+  "evoLevel": 30,
+  "formes": [
+    "electrode-hisui"
+  ],
   "weight": 66.6,
-  "height": 12,
-  "genderRatio": {},
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode."
+  },
   "learnset": {
     "agility": [
       "M"
@@ -29,22 +41,22 @@
       "L:1"
     ],
     "chargebeam": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "discharge": [
       "L:41"
     ],
     "eerieimpulse": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "electricterrain": [
       "M"
     ],
     "electroball": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "endure": [
       "M"
@@ -71,14 +83,17 @@
       "M"
     ],
     "lightscreen": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "magneticflux": [
       "L:1"
     ],
     "magnetrise": [
       "L:36"
+    ],
+    "metalsound": [
+      "E@voltorb"
     ],
     "mirrorcoat": [
       "L:58"
@@ -88,6 +103,9 @@
     ],
     "raindance": [
       "M"
+    ],
+    "recycle": [
+      "E@voltorb"
     ],
     "rest": [
       "M"
@@ -114,8 +132,8 @@
       "M"
     ],
     "swift": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "tackle": [
       "L:1"
@@ -150,6 +168,5 @@
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode."
+  }
 }

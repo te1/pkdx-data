@@ -1,11 +1,12 @@
 {
   "slug": "houndour",
   "name": "Houndour",
-  "num": 25,
+  "num": 228,
   "types": [
     "dark",
     "fire"
   ],
+  "gen": 2,
   "abilities": {
     "0": "earlybird",
     "1": "flashfire",
@@ -19,11 +20,21 @@
     "spd": 50,
     "spe": 65
   },
+  "evos": [
+    "houndoom"
+  ],
   "weight": 10.8,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others."
   },
   "learnset": {
     "beatup": [
@@ -42,8 +53,8 @@
       "E"
     ],
     "crunch": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "darkpulse": [
       "M"
@@ -67,26 +78,26 @@
       "M"
     ],
     "firefang": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "firespin": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "flamecharge": [
       "M"
     ],
     "flamethrower": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "flareblitz": [
       "M"
     ],
     "foulplay": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "heatwave": [
       "M"
@@ -116,8 +127,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "overheat": [
       "M"
@@ -135,8 +146,8 @@
       "M"
     ],
     "reversal": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "roar": [
       "L:13"
@@ -187,8 +198,8 @@
       "M"
     ],
     "thunderfang": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "torment": [
       "L:32"
@@ -199,6 +210,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others."
+  }
 }

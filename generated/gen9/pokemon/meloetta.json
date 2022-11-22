@@ -1,14 +1,15 @@
 {
   "slug": "meloetta",
   "name": "Meloetta",
-  "num": null,
+  "subName": "Aria Forme",
+  "num": 648,
   "types": [
     "normal",
     "psychic"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "serenegrace",
-    "H": "serenegrace"
+    "0": "serenegrace"
   },
   "baseStats": {
     "hp": 100,
@@ -18,13 +19,21 @@
     "spd": 128,
     "spe": 90
   },
+  "formes": [
+    "meloetta-pirouette"
+  ],
   "weight": 6.5,
-  "height": 6,
-  "genderRatio": {},
+  "height": 0.6,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "acrobatics": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "batonpass": [
       "M"
@@ -39,8 +48,8 @@
       "M"
     ],
     "closecombat": [
-      "L:78",
-      "M"
+      "M",
+      "L:78"
     ],
     "confusion": [
       "L:1"
@@ -91,8 +100,8 @@
       "M"
     ],
     "hypervoice": [
-      "L:64",
-      "M"
+      "M",
+      "L:64"
     ],
     "icepunch": [
       "M"
@@ -119,12 +128,12 @@
       "M"
     ],
     "psybeam": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "psychic": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "psyshock": [
       "M"
@@ -205,8 +214,8 @@
       "M"
     ],
     "uturn": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "zenheadbutt": [
       "M"

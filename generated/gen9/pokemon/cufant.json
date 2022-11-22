@@ -1,10 +1,11 @@
 {
   "slug": "cufant",
   "name": "Cufant",
-  "num": 124,
+  "num": 878,
   "types": [
     "steel"
   ],
+  "gen": 8,
   "abilities": {
     "0": "sheerforce",
     "H": "heavymetal"
@@ -17,11 +18,22 @@
     "spd": 49,
     "spe": 40
   },
+  "evos": [
+    "copperajah"
+  ],
   "weight": 100,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Using the pointy tip of its trunk, it carves off chunks of hard rocks to eat. It is very docile and helps people with physical labor."
   },
   "learnset": {
     "belch": [
@@ -37,8 +49,8 @@
       "M"
     ],
     "bulldoze": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "curse": [
       "E"
@@ -47,8 +59,8 @@
       "E"
     ],
     "dig": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "doubleedge": [
       "E"
@@ -84,19 +96,19 @@
       "L:50"
     ],
     "irondefense": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "ironhead": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "mudshot": [
       "M"
     ],
     "playrough": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "protect": [
       "M"
@@ -170,6 +182,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Using the pointy tip of its trunk, it carves off chunks of hard rocks to eat. It is very docile and helps people with physical labor."
+  }
 }

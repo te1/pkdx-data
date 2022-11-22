@@ -1,10 +1,11 @@
 {
   "slug": "steenee",
   "name": "Steenee",
-  "num": 82,
+  "num": 762,
   "types": [
     "grass"
   ],
+  "gen": 7,
   "abilities": {
     "0": "leafguard",
     "1": "oblivious",
@@ -18,12 +19,24 @@
     "spd": 48,
     "spe": 62
   },
+  "prevo": "bounsweet",
+  "evos": [
+    "tsareena"
+  ],
+  "evoLevel": 18,
   "weight": 8.2,
-  "height": 7,
-  "genderRatio": {
-    "F": 1
+  "height": 0.7,
+  "gender": "F",
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants."
   },
   "learnset": {
+    "acupressure": [
+      "E@bounsweet"
+    ],
     "aromaticmist": [
       "L:40"
     ],
@@ -38,6 +51,9 @@
     ],
     "drainingkiss": [
       "M"
+    ],
+    "endeavor": [
+      "E@bounsweet"
     ],
     "endure": [
       "M"
@@ -67,8 +83,8 @@
       "M"
     ],
     "leafstorm": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "lightscreen": [
       "M"
@@ -77,8 +93,8 @@
       "M"
     ],
     "magicalleaf": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "playnice": [
       "L:1"
@@ -128,6 +144,9 @@
     "swift": [
       "M"
     ],
+    "synthesis": [
+      "E@bounsweet"
+    ],
     "takedown": [
       "M"
     ],
@@ -143,6 +162,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants."
+  }
 }

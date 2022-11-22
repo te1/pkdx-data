@@ -1,11 +1,12 @@
 {
   "slug": "brambleghast",
   "name": "Brambleghast",
-  "num": 243,
+  "num": 975,
   "types": [
     "grass",
     "ghost"
   ],
+  "gen": 9,
   "abilities": {
     "0": "windrider",
     "H": "infiltrator"
@@ -18,11 +19,20 @@
     "spd": 70,
     "spe": 90
   },
+  "prevo": "bramblin",
+  "evoType": "other",
+  "evoCondition": "Walk 1000 steps in Let's Go",
   "weight": 6,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it."
   },
   "learnset": {
     "absorb": [
@@ -31,9 +41,15 @@
     "astonish": [
       "L:1"
     ],
+    "beatup": [
+      "E@bramblin"
+    ],
+    "block": [
+      "E@bramblin"
+    ],
     "bulletseed": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "confuseray": [
       "M"
@@ -57,8 +73,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "gigaimpact": [
       "M"
@@ -70,8 +86,8 @@
       "M"
     ],
     "hex": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "hyperbeam": [
       "M"
@@ -81,6 +97,9 @@
     ],
     "leafstorm": [
       "M"
+    ],
+    "leechseed": [
+      "E@bramblin"
     ],
     "megadrain": [
       "L:25"
@@ -92,8 +111,8 @@
       "L:50"
     ],
     "phantomforce": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "pounce": [
       "M"
@@ -122,6 +141,9 @@
     "shadowball": [
       "M"
     ],
+    "shadowsneak": [
+      "E@bramblin"
+    ],
     "sleeptalk": [
       "M"
     ],
@@ -130,6 +152,9 @@
     ],
     "spikes": [
       "M"
+    ],
+    "strengthsap": [
+      "E@bramblin"
     ],
     "substitute": [
       "M"
@@ -143,6 +168,5 @@
     "trailblaze": [
       "M"
     ]
-  },
-  "flavorText": "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it."
+  }
 }

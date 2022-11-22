@@ -1,13 +1,14 @@
 {
   "slug": "eiscue",
   "name": "Eiscue",
-  "num": 320,
+  "subName": "Ice Face",
+  "num": 875,
   "types": [
     "ice"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "iceface",
-    "H": "iceface"
+    "0": "iceface"
   },
   "baseStats": {
     "hp": 75,
@@ -17,19 +18,30 @@
     "spd": 90,
     "spe": 50
   },
+  "formes": [
+    "eiscue-noice"
+  ],
   "weight": 89,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down."
   },
   "learnset": {
     "agility": [
       "M"
     ],
     "amnesia": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "aquaring": [
       "E"
@@ -44,8 +56,8 @@
       "E"
     ],
     "blizzard": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "bodyslam": [
       "M"
@@ -93,8 +105,8 @@
       "E"
     ],
     "icywind": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "irondefense": [
       "M"
@@ -130,8 +142,8 @@
       "M"
     ],
     "snowscape": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "soak": [
       "E"
@@ -140,8 +152,8 @@
       "M"
     ],
     "surf": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "tackle": [
       "L:1"
@@ -164,6 +176,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "ceruledge",
   "name": "Ceruledge",
-  "num": 167,
+  "num": 1005,
   "types": [
     "fire",
     "ghost"
   ],
+  "gen": 9,
   "abilities": {
     "0": "flashfire",
     "H": "weakarmor"
@@ -18,11 +19,20 @@
     "spd": 100,
     "spe": 85
   },
+  "prevo": "charcadet",
+  "evoType": "useItem",
+  "evoItem": "Auspicious Armor",
   "weight": 62,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal."
   },
   "learnset": {
     "allyswitch": [
@@ -49,6 +59,12 @@
     "confuseray": [
       "M"
     ],
+    "destinybond": [
+      "E@charcadet"
+    ],
+    "disable": [
+      "E@charcadet"
+    ],
     "dragonclaw": [
       "M"
     ],
@@ -68,19 +84,19 @@
       "M"
     ],
     "firespin": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "flamecharge": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "flamethrower": [
       "M"
     ],
     "flareblitz": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "fling": [
       "M"
@@ -113,11 +129,11 @@
       "M"
     ],
     "nightshade": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "nightslash": [
-      "T"
+      "L:1"
     ],
     "overheat": [
       "M"
@@ -135,7 +151,7 @@
       "L:56"
     ],
     "quickguard": [
-      "T"
+      "L:1"
     ],
     "reflect": [
       "M"
@@ -147,17 +163,20 @@
       "M"
     ],
     "shadowclaw": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "shadowsneak": [
-      "T"
+      "L:1"
     ],
     "sleeptalk": [
       "M"
     ],
     "solarblade": [
-      "T"
+      "L:1"
+    ],
+    "spite": [
+      "E@charcadet"
     ],
     "storedpower": [
       "M"
@@ -169,8 +188,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "takedown": [
       "M"
@@ -182,12 +201,11 @@
       "M"
     ],
     "willowisp": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal."
+  }
 }

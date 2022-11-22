@@ -1,10 +1,11 @@
 {
   "slug": "tarountula",
   "name": "Tarountula",
-  "num": 12,
+  "num": 918,
   "types": [
     "bug"
   ],
+  "gen": 9,
   "abilities": {
     "0": "insomnia",
     "H": "stakeout"
@@ -17,11 +18,21 @@
     "spd": 40,
     "spe": 20
   },
+  "evos": [
+    "spidops"
+  ],
   "weight": 4,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy."
   },
   "learnset": {
     "assurance": [
@@ -118,8 +129,8 @@
       "L:1"
     ],
     "strugglebug": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "substitute": [
       "M"
@@ -154,6 +165,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy."
+  }
 }

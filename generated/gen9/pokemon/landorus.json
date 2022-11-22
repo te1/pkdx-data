@@ -1,11 +1,13 @@
 {
   "slug": "landorus",
   "name": "Landorus",
-  "num": null,
+  "subName": "Incarnate Forme",
+  "num": 645,
   "types": [
     "ground",
     "flying"
   ],
+  "gen": 5,
   "abilities": {
     "0": "sandforce",
     "H": "sheerforce"
@@ -18,11 +20,17 @@
     "spd": 80,
     "spe": 101
   },
+  "formes": [
+    "landorus-therian"
+  ],
   "weight": 68,
-  "height": 15,
-  "genderRatio": {
-    "M": 1
-  },
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "block": [
       "L:10"
@@ -37,8 +45,8 @@
       "M"
     ],
     "bulldoze": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "calmmind": [
       "M"
@@ -50,12 +58,12 @@
       "M"
     ],
     "earthpower": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "earthquake": [
-      "L:65",
-      "M"
+      "M",
+      "L:65"
     ],
     "endure": [
       "M"
@@ -91,8 +99,8 @@
       "M"
     ],
     "imprison": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "leer": [
       "L:5"
@@ -107,8 +115,8 @@
       "M"
     ],
     "outrage": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "protect": [
       "M"
@@ -123,19 +131,19 @@
       "M"
     ],
     "rockslide": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "rocktomb": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "sandsearstorm": [
       "L:80"
     ],
     "sandstorm": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "sandtomb": [
       "L:1"
@@ -159,8 +167,8 @@
       "M"
     ],
     "stoneedge": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "substitute": [
       "M"

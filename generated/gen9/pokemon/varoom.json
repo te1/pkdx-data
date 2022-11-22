@@ -1,11 +1,12 @@
 {
   "slug": "varoom",
   "name": "Varoom",
-  "num": 293,
+  "num": 942,
   "types": [
     "steel",
     "poison"
   ],
+  "gen": 9,
   "abilities": {
     "0": "overcoat",
     "H": "slowstart"
@@ -18,11 +19,21 @@
     "spd": 45,
     "spe": 47
   },
+  "evos": [
+    "revavroom"
+  ],
   "weight": 35,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory."
   },
   "learnset": {
     "acidspray": [
@@ -47,8 +58,8 @@
       "M"
     ],
     "gunkshot": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "gyroball": [
       "L:17"
@@ -63,8 +74,8 @@
       "M"
     ],
     "ironhead": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "lick": [
       "L:1"
@@ -76,8 +87,8 @@
       "L:1"
     ],
     "poisonjab": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "protect": [
       "M"
@@ -128,8 +139,8 @@
       "M"
     ],
     "taunt": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "terablast": [
       "M"
@@ -155,6 +166,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory."
+  }
 }

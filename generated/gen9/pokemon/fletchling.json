@@ -1,11 +1,12 @@
 {
   "slug": "fletchling",
   "name": "Fletchling",
-  "num": 19,
+  "num": 661,
   "types": [
     "normal",
     "flying"
   ],
+  "gen": 6,
   "abilities": {
     "0": "bigpecks",
     "H": "galewings"
@@ -18,24 +19,34 @@
     "spd": 38,
     "spe": 62
   },
+  "evos": [
+    "fletchinder"
+  ],
   "weight": 1.7,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive."
+  },
   "learnset": {
     "acrobatics": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "aerialace": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "agility": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "aircutter": [
       "M"
@@ -62,15 +73,15 @@
       "L:15"
     ],
     "flamecharge": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "flareblitz": [
       "M"
     ],
     "fly": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "growl": [
       "L:1"
@@ -124,8 +135,8 @@
       "M"
     ],
     "tailwind": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "takedown": [
       "M"
@@ -142,6 +153,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive."
+  }
 }

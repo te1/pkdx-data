@@ -1,14 +1,14 @@
 {
   "slug": "eternatus",
   "name": "Eternatus",
-  "num": null,
+  "num": 890,
   "types": [
     "poison",
     "dragon"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "pressure",
-    "H": "pressure"
+    "0": "pressure"
   },
   "baseStats": {
     "hp": 140,
@@ -19,19 +19,24 @@
     "spe": 130
   },
   "weight": 950,
-  "height": 200,
-  "genderRatio": {},
+  "height": 20,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "agility": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bodyslam": [
       "M"
     ],
     "confuseray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "cosmicpower": [
       "L:64"
@@ -43,16 +48,16 @@
       "M"
     ],
     "dragondance": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dragontail": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dynamaxcannon": [
       "L:56"
@@ -70,8 +75,8 @@
       "M"
     ],
     "flamethrower": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "flashcannon": [
       "M"
@@ -86,22 +91,22 @@
       "M"
     ],
     "hyperbeam": [
-      "L:80",
-      "M"
+      "M",
+      "L:80"
     ],
     "lightscreen": [
       "M"
     ],
     "outrage": [
-      "L:88",
-      "M"
+      "M",
+      "L:88"
     ],
     "poisonjab": [
       "M"
     ],
     "poisontail": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
@@ -152,8 +157,8 @@
       "M"
     ],
     "venoshock": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ]
   }
 }

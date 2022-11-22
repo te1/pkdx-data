@@ -1,10 +1,11 @@
 {
   "slug": "bergmite",
   "name": "Bergmite",
-  "num": 363,
+  "num": 712,
   "types": [
     "ice"
   ],
+  "gen": 6,
   "abilities": {
     "0": "owntempo",
     "1": "icebody",
@@ -18,26 +19,38 @@
     "spd": 35,
     "spe": 28
   },
+  "evos": [
+    "avalugg",
+    "avalugg-hisui"
+  ],
   "weight": 99.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "They live in mountainous regions of frigid cold. On rare occasions, they ride on the back of an Avalugg to cross seas and move to new habitats."
   },
   "learnset": {
     "auroraveil": [
       "E"
     ],
     "avalanche": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "bite": [
       "L:21"
     ],
     "blizzard": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "bodyslam": [
       "M"
@@ -49,8 +62,8 @@
       "M"
     ],
     "crunch": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "curse": [
       "L:9"
@@ -71,19 +84,19 @@
       "M"
     ],
     "icefang": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "icespinner": [
       "M"
     ],
     "icywind": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "irondefense": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "mirrorcoat": [
       "E"
@@ -95,8 +108,8 @@
       "L:6"
     ],
     "protect": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "raindance": [
       "M"
@@ -132,12 +145,11 @@
       "L:3"
     ],
     "takedown": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "They live in mountainous regions of frigid cold. On rare occasions, they ride on the back of an Avalugg to cross seas and move to new habitats."
+  }
 }

@@ -1,10 +1,12 @@
 {
   "slug": "basculin",
   "name": "Basculin",
-  "num": 138,
+  "subName": "Red-Striped Form",
+  "num": 550,
   "types": [
     "water"
   ],
+  "gen": 5,
   "abilities": {
     "0": "reckless",
     "1": "adaptability",
@@ -18,11 +20,22 @@
     "spd": 55,
     "spe": 98
   },
+  "formes": [
+    "basculin-blue-striped",
+    "basculin-white-striped"
+  ],
   "weight": 18,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its temperament is vicious and aggressive. This Pokémon is also full of vitality and can multiply rapidly before anyone notices."
   },
   "learnset": {
     "agility": [
@@ -44,8 +57,8 @@
       "M"
     ],
     "crunch": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "doubleedge": [
       "L:52"
@@ -111,8 +124,8 @@
       "M"
     ],
     "scaryface": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "sleeptalk": [
       "M"
@@ -139,8 +152,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "taunt": [
       "M"
@@ -166,6 +179,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Its temperament is vicious and aggressive. This Pokémon is also full of vitality and can multiply rapidly before anyone notices."
+  }
 }

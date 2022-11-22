@@ -1,11 +1,12 @@
 {
   "slug": "palossand",
   "name": "Palossand",
-  "num": 323,
+  "num": 770,
   "types": [
     "ghost",
     "ground"
   ],
+  "gen": 7,
   "abilities": {
     "0": "watercompaction",
     "H": "sandveil"
@@ -18,11 +19,19 @@
     "spd": 75,
     "spe": 35
   },
+  "prevo": "sandygast",
+  "evoLevel": 42,
   "weight": 250,
-  "height": 13,
+  "height": 1.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases."
   },
   "learnset": {
     "absorb": [
@@ -31,6 +40,9 @@
     "amnesia": [
       "M"
     ],
+    "ancientpower": [
+      "E@sandygast"
+    ],
     "astonish": [
       "L:1"
     ],
@@ -38,8 +50,8 @@
       "M"
     ],
     "bulldoze": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "chillingwater": [
       "M"
@@ -47,9 +59,15 @@
     "confuseray": [
       "M"
     ],
+    "curse": [
+      "E@sandygast"
+    ],
+    "destinybond": [
+      "E@sandygast"
+    ],
     "earthpower": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "earthquake": [
       "M"
@@ -70,8 +88,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "gigaimpact": [
       "M"
@@ -92,8 +110,8 @@
       "M"
     ],
     "irondefense": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "megadrain": [
       "L:15"
@@ -129,8 +147,8 @@
       "L:20"
     ],
     "sandstorm": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
     ],
     "sandtomb": [
       "L:1"
@@ -139,8 +157,8 @@
       "M"
     ],
     "shadowball": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "shoreup": [
       "L:61"
@@ -154,8 +172,14 @@
     "sludgebomb": [
       "M"
     ],
+    "spitup": [
+      "E@sandygast"
+    ],
     "stealthrock": [
       "M"
+    ],
+    "stockpile": [
+      "E@sandygast"
     ],
     "stoneedge": [
       "M"
@@ -166,12 +190,14 @@
     "sunnyday": [
       "M"
     ],
+    "swallow": [
+      "E@sandygast"
+    ],
     "terablast": [
       "M"
     ],
     "trick": [
       "M"
     ]
-  },
-  "flavorText": "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases."
+  }
 }

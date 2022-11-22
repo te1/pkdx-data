@@ -1,10 +1,11 @@
 {
   "slug": "garganacl",
   "name": "Garganacl",
-  "num": 131,
+  "num": 965,
   "types": [
     "rock"
   ],
+  "gen": 9,
   "abilities": {
     "0": "purifyingsalt",
     "1": "sturdy",
@@ -18,13 +19,24 @@
     "spd": 90,
     "spe": 35
   },
+  "prevo": "naclstack",
+  "evoLevel": 38,
   "weight": 240,
-  "height": 23,
+  "height": 2.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward."
+  },
   "learnset": {
+    "ancientpower": [
+      "E@nacli"
+    ],
     "avalanche": [
       "M"
     ],
@@ -43,6 +55,9 @@
     "bulldoze": [
       "M"
     ],
+    "curse": [
+      "E@nacli"
+    ],
     "dig": [
       "M"
     ],
@@ -50,8 +65,8 @@
       "M"
     ],
     "earthquake": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "endure": [
       "M"
@@ -64,6 +79,9 @@
     ],
     "firepunch": [
       "M"
+    ],
+    "fissure": [
+      "E@nacli"
     ],
     "flashcannon": [
       "M"
@@ -84,8 +102,8 @@
       "L:16"
     ],
     "heavyslam": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "helpinghand": [
       "M"
@@ -97,17 +115,19 @@
       "M"
     ],
     "irondefense": [
-      "M"
+      "M",
+      "L:20@naclstack"
     ],
     "ironhead": [
       "M"
     ],
     "mudshot": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "powergem": [
-      "M"
+      "M",
+      "E@nacli"
     ],
     "protect": [
       "M"
@@ -122,22 +142,22 @@
       "M"
     ],
     "rockblast": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "rockpolish": [
       "L:13"
     ],
     "rockslide": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "rockthrow": [
       "L:5"
     ],
     "rocktomb": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "saltcure": [
       "L:24"
@@ -148,16 +168,19 @@
     "sleeptalk": [
       "M"
     ],
+    "smackdown": [
+      "L:10@naclstack"
+    ],
     "stealthrock": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "stompingtantrum": [
       "M"
     ],
     "stoneedge": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "substitute": [
       "M"
@@ -183,6 +206,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward."
+  }
 }

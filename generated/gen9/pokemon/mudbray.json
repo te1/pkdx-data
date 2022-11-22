@@ -1,10 +1,11 @@
 {
   "slug": "mudbray",
   "name": "Mudbray",
-  "num": 272,
+  "num": 749,
   "types": [
     "ground"
   ],
+  "gen": 7,
   "abilities": {
     "0": "owntempo",
     "1": "stamina",
@@ -18,19 +19,29 @@
     "spd": 55,
     "spe": 45
   },
+  "evos": [
+    "mudsdale"
+  ],
   "weight": 110,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon covers itself in mud that it has regurgitated. The mud won't dry out even if it's exposed to the sun for a long time."
   },
   "learnset": {
     "bodyslam": [
       "M"
     ],
     "bulldoze": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "closecombat": [
       "M"
@@ -48,8 +59,8 @@
       "M"
     ],
     "earthquake": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "endeavor": [
       "E"
@@ -64,15 +75,15 @@
       "E"
     ],
     "heavyslam": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "highhorsepower": [
       "L:28"
     ],
     "irondefense": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "ironhead": [
       "M"
@@ -87,8 +98,8 @@
       "L:40"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
@@ -147,6 +158,5 @@
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon covers itself in mud that it has regurgitated. The mud won't dry out even if it's exposed to the sun for a long time."
+  }
 }

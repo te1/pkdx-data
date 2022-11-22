@@ -1,10 +1,11 @@
 {
   "slug": "eevee",
   "name": "Eevee",
-  "num": 179,
+  "num": 133,
   "types": [
     "normal"
   ],
+  "gen": 1,
   "abilities": {
     "0": "runaway",
     "1": "adaptability",
@@ -18,19 +19,36 @@
     "spd": 65,
     "spe": 55
   },
+  "evos": [
+    "vaporeon",
+    "jolteon",
+    "flareon",
+    "espeon",
+    "umbreon",
+    "leafeon",
+    "glaceon",
+    "sylveon"
+  ],
   "weight": 6.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment."
   },
   "learnset": {
     "babydolleyes": [
       "L:15"
     ],
     "batonpass": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "bite": [
       "L:25"
@@ -42,8 +60,8 @@
       "M"
     ],
     "charm": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "copycat": [
       "L:30"
@@ -82,8 +100,8 @@
       "L:1"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hypervoice": [
       "M"
@@ -92,8 +110,8 @@
       "L:55"
     ],
     "mudslap": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "protect": [
       "M"
@@ -126,8 +144,8 @@
       "M"
     ],
     "swift": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "tackle": [
       "L:1"
@@ -136,8 +154,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "terablast": [
       "M"
@@ -154,6 +172,5 @@
     "yawn": [
       "E"
     ]
-  },
-  "flavorText": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment."
+  }
 }

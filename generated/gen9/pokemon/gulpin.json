@@ -1,10 +1,11 @@
 {
   "slug": "gulpin",
   "name": "Gulpin",
-  "num": 139,
+  "num": 316,
   "types": [
     "poison"
   ],
+  "gen": 3,
   "abilities": {
     "0": "liquidooze",
     "1": "stickyhold",
@@ -18,23 +19,33 @@
     "spd": 53,
     "spe": 40
   },
+  "evos": [
+    "swalot"
+  ],
   "weight": 10.3,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "There is nothing its stomach can't digest. While it is digesting, vile, overpowering gases are expelled."
   },
   "learnset": {
     "acidarmor": [
       "E"
     ],
     "acidspray": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "amnesia": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "belch": [
       "L:41"
@@ -55,8 +66,8 @@
       "E"
     ],
     "encore": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "endure": [
       "M"
@@ -77,8 +88,8 @@
       "M"
     ],
     "gunkshot": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "helpinghand": [
       "M"
@@ -93,8 +104,8 @@
       "M"
     ],
     "mudslap": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "painsplit": [
       "L:44"
@@ -130,8 +141,8 @@
       "L:10"
     ],
     "sludgebomb": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "smog": [
       "E"
@@ -190,6 +201,5 @@
     "yawn": [
       "L:5"
     ]
-  },
-  "flavorText": "There is nothing its stomach can't digest. While it is digesting, vile, overpowering gases are expelled."
+  }
 }

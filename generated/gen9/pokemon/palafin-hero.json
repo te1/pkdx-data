@@ -1,0 +1,35 @@
+{
+  "slug": "palafin-hero",
+  "name": "Palafin",
+  "subName": "Hero",
+  "num": 934,
+  "types": [
+    "water"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "zerotohero"
+  },
+  "baseStats": {
+    "hp": 100,
+    "atk": 160,
+    "def": 97,
+    "spa": 106,
+    "spd": 87,
+    "spe": 100
+  },
+  "baseSpecies": "palafin",
+  "formeTriggerAbility": "zerotohero",
+  "isBattleOnly": true,
+  "weight": 97.4,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Water 2"
+  ],
+  "canHatch": true
+}

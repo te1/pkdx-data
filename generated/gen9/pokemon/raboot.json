@@ -1,10 +1,11 @@
 {
   "slug": "raboot",
   "name": "Raboot",
-  "num": null,
+  "num": 814,
   "types": [
     "fire"
   ],
+  "gen": 8,
   "abilities": {
     "0": "blaze",
     "H": "libero"
@@ -17,19 +18,29 @@
     "spd": 60,
     "spe": 94
   },
+  "prevo": "scorbunny",
+  "evos": [
+    "cinderace"
+  ],
+  "evoLevel": 16,
   "weight": 9,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "batonpass": [
       "M"
@@ -74,8 +85,8 @@
       "M"
     ],
     "flamecharge": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "flamethrower": [
       "M"
@@ -97,6 +108,9 @@
     ],
     "helpinghand": [
       "M"
+    ],
+    "highjumpkick": [
+      "E@scorbunny"
     ],
     "lowkick": [
       "M"
@@ -122,14 +136,23 @@
     "reversal": [
       "M"
     ],
+    "sandattack": [
+      "E@scorbunny"
+    ],
     "sleeptalk": [
       "M"
     ],
     "substitute": [
       "M"
     ],
+    "suckerpunch": [
+      "E@scorbunny"
+    ],
     "sunnyday": [
       "M"
+    ],
+    "superfang": [
+      "E@scorbunny"
     ],
     "swift": [
       "M"

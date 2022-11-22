@@ -1,11 +1,12 @@
 {
   "slug": "gardevoir",
   "name": "Gardevoir",
-  "num": 64,
+  "num": 282,
   "types": [
     "psychic",
     "fairy"
   ],
+  "gen": 3,
   "abilities": {
     "0": "synchronize",
     "1": "trace",
@@ -19,11 +20,20 @@
     "spd": 115,
     "spe": 80
   },
+  "prevo": "kirlia",
+  "evoLevel": 30,
   "weight": 48.4,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like",
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "To protect its Trainer, it will expend all its psychic power to create a small black hole."
   },
   "learnset": {
     "aurasphere": [
@@ -33,36 +43,43 @@
       "M"
     ],
     "calmmind": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "chargebeam": [
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "E@ralts"
     ],
     "confusion": [
       "L:1"
     ],
     "dazzlinggleam": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
+    ],
+    "destinybond": [
+      "E@ralts"
+    ],
+    "disable": [
+      "E@ralts"
     ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "doubleteam": [
       "L:1"
     ],
     "drainingkiss": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "dreameater": [
       "L:56"
@@ -127,6 +144,9 @@
     "imprison": [
       "M"
     ],
+    "knockoff": [
+      "E@ralts"
+    ],
     "lifedew": [
       "L:23"
     ],
@@ -136,18 +156,25 @@
     "magicalleaf": [
       "M"
     ],
+    "meanlook": [
+      "E@ralts"
+    ],
+    "memento": [
+      "E@ralts"
+    ],
     "metronome": [
       "M"
     ],
     "mistyterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "moonblast": [
       "L:49"
     ],
     "mysticalfire": [
-      "L:1"
+      "L:1",
+      "E@ralts"
     ],
     "nightshade": [
       "M"
@@ -156,12 +183,12 @@
       "M"
     ],
     "psybeam": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "psychic": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "psychicterrain": [
       "M"
@@ -180,6 +207,9 @@
     ],
     "shadowball": [
       "M"
+    ],
+    "shadowsneak": [
+      "E@ralts"
     ],
     "skillswap": [
       "M"
@@ -235,6 +265,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "To protect its Trainer, it will expend all its psychic power to create a small black hole."
+  }
 }

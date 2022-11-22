@@ -1,11 +1,12 @@
 {
   "slug": "houndoom",
   "name": "Houndoom",
-  "num": 26,
+  "num": 229,
   "types": [
     "dark",
     "fire"
   ],
+  "gen": 2,
   "abilities": {
     "0": "earlybird",
     "1": "flashfire",
@@ -19,11 +20,19 @@
     "spd": 80,
     "spe": 95
   },
+  "prevo": "houndour",
+  "evoLevel": 24,
   "weight": 35,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "If you are burned by the flames it shoots from its mouth, the pain will never go away."
   },
   "learnset": {
     "beatup": [
@@ -38,12 +47,18 @@
     "comeuppance": [
       "L:41"
     ],
+    "counter": [
+      "E@houndour"
+    ],
     "crunch": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "darkpulse": [
       "M"
+    ],
+    "destinybond": [
+      "E@houndour"
     ],
     "ember": [
       "L:1"
@@ -54,29 +69,33 @@
     "facade": [
       "M"
     ],
+    "feint": [
+      "E@houndour"
+    ],
     "fireblast": [
       "M"
     ],
     "firefang": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "firespin": [
-      "M"
+      "M",
+      "E@houndour"
     ],
     "flamecharge": [
       "M"
     ],
     "flamethrower": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "flareblitz": [
       "M"
     ],
     "foulplay": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "gigaimpact": [
       "M"
@@ -112,8 +131,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "overheat": [
       "M"
@@ -131,7 +150,8 @@
       "M"
     ],
     "reversal": [
-      "M"
+      "M",
+      "E@houndour"
     ],
     "roar": [
       "L:13"
@@ -157,8 +177,14 @@
     "solarbeam": [
       "M"
     ],
+    "spite": [
+      "E@houndour"
+    ],
     "substitute": [
       "M"
+    ],
+    "suckerpunch": [
+      "E@houndour"
     ],
     "sunnyday": [
       "M"
@@ -176,8 +202,9 @@
       "M"
     ],
     "thunderfang": [
+      "M",
       "L:1",
-      "M"
+      "E@houndour"
     ],
     "torment": [
       "L:35"
@@ -188,6 +215,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "If you are burned by the flames it shoots from its mouth, the pain will never go away."
+  }
 }

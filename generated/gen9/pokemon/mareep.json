@@ -1,10 +1,11 @@
 {
   "slug": "mareep",
   "name": "Mareep",
-  "num": 101,
+  "num": 179,
   "types": [
     "electric"
   ],
+  "gen": 2,
   "abilities": {
     "0": "static",
     "H": "plus"
@@ -17,19 +18,30 @@
     "spd": 45,
     "spe": 35
   },
+  "evos": [
+    "flaaffy"
+  ],
   "weight": 7.8,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you."
   },
   "learnset": {
     "afteryou": [
       "E"
     ],
     "agility": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "bodyslam": [
       "M"
@@ -41,8 +53,8 @@
       "M"
     ],
     "confuseray": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "cottonguard": [
       "L:36"
@@ -51,8 +63,8 @@
       "L:11"
     ],
     "dazzlinggleam": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "dig": [
       "M"
@@ -61,16 +73,16 @@
       "L:32"
     ],
     "eerieimpulse": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "electricterrain": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "electroball": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "electroweb": [
       "E"
@@ -91,12 +103,12 @@
       "M"
     ],
     "lightscreen": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "powergem": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "protect": [
       "M"
@@ -123,15 +135,15 @@
       "L:1"
     ],
     "takedown": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "terablast": [
       "M"
     ],
     "thunder": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "thunderbolt": [
       "M"
@@ -140,8 +152,8 @@
       "L:8"
     ],
     "thunderwave": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "trailblaze": [
       "M"
@@ -152,6 +164,5 @@
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you."
+  }
 }

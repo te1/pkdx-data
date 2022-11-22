@@ -1,11 +1,12 @@
 {
   "slug": "sneasel",
   "name": "Sneasel",
-  "num": 230,
+  "num": 215,
   "types": [
     "dark",
     "ice"
   ],
+  "gen": 2,
   "abilities": {
     "0": "innerfocus",
     "1": "keeneye",
@@ -19,19 +20,32 @@
     "spd": 75,
     "spe": 115
   },
+  "evos": [
+    "weavile"
+  ],
+  "formes": [
+    "sneasel-hisui"
+  ],
   "weight": 28,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "avalanche": [
       "M"
@@ -112,8 +126,8 @@
       "E"
     ],
     "icywind": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "leer": [
       "L:1"
@@ -125,8 +139,8 @@
       "M"
     ],
     "metalclaw": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "nastyplot": [
       "M"
@@ -198,8 +212,8 @@
       "M"
     ],
     "taunt": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "terablast": [
       "M"
@@ -216,6 +230,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey."
+  }
 }

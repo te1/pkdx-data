@@ -1,14 +1,14 @@
 {
   "slug": "haunter",
   "name": "Haunter",
-  "num": 69,
+  "num": 93,
   "types": [
     "ghost",
     "poison"
   ],
+  "gen": 1,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 45,
@@ -18,32 +18,52 @@
     "spd": 55,
     "spe": 95
   },
+  "prevo": "gastly",
+  "evos": [
+    "gengar"
+  ],
+  "evoLevel": 25,
   "weight": 0.1,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
   },
   "learnset": {
     "acidspray": [
       "M"
     ],
+    "astonish": [
+      "E@gastly"
+    ],
+    "clearsmog": [
+      "E@gastly"
+    ],
     "confuseray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "curse": [
       "L:20"
     ],
     "darkpulse": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dazzlinggleam": [
       "M"
     ],
     "destinybond": [
       "L:54"
+    ],
+    "disable": [
+      "E@gastly"
     ],
     "dreameater": [
       "L:60"
@@ -78,9 +98,12 @@
     "gunkshot": [
       "M"
     ],
+    "haze": [
+      "E@gastly"
+    ],
     "hex": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "hypnosis": [
       "L:1"
@@ -107,11 +130,14 @@
       "M"
     ],
     "nightshade": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "payback": [
       "L:12"
+    ],
+    "perishsong": [
+      "E@gastly"
     ],
     "phantomforce": [
       "M"
@@ -128,6 +154,9 @@
     "raindance": [
       "M"
     ],
+    "reflecttype": [
+      "E@gastly"
+    ],
     "rest": [
       "M"
     ],
@@ -135,8 +164,8 @@
       "M"
     ],
     "shadowball": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "shadowclaw": [
       "M"
@@ -152,6 +181,9 @@
     ],
     "sludgebomb": [
       "M"
+    ],
+    "smog": [
+      "E@gastly"
     ],
     "spite": [
       "L:16"
@@ -183,6 +215,9 @@
     "thunderpunch": [
       "M"
     ],
+    "toxic": [
+      "E@gastly"
+    ],
     "toxicspikes": [
       "M"
     ],
@@ -198,6 +233,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
+  }
 }

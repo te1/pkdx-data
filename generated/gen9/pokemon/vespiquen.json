@@ -1,11 +1,12 @@
 {
   "slug": "vespiquen",
   "name": "Vespiquen",
-  "num": 39,
+  "num": 416,
   "types": [
     "bug",
     "flying"
   ],
+  "gen": 4,
   "abilities": {
     "0": "pressure",
     "H": "unnerve"
@@ -18,10 +19,16 @@
     "spd": 102,
     "spe": 40
   },
+  "prevo": "combee",
+  "evoLevel": 21,
   "weight": 38.5,
-  "height": 12,
-  "genderRatio": {
-    "F": 1
+  "height": 1.2,
+  "gender": "F",
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding."
   },
   "learnset": {
     "acrobatics": [
@@ -34,8 +41,8 @@
       "M"
     ],
     "airslash": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "aromaticmist": [
       "L:8"
@@ -50,8 +57,8 @@
       "M"
     ],
     "confuseray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "defendorder": [
       "L:40"
@@ -105,8 +112,8 @@
       "M"
     ],
     "powergem": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "protect": [
       "M"
@@ -139,8 +146,8 @@
       "M"
     ],
     "strugglebug": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "substitute": [
       "M"
@@ -184,6 +191,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding."
+  }
 }

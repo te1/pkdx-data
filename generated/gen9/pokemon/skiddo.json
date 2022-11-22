@@ -1,10 +1,11 @@
 {
   "slug": "skiddo",
   "name": "Skiddo",
-  "num": 221,
+  "num": 672,
   "types": [
     "grass"
   ],
+  "gen": 6,
   "abilities": {
     "0": "sapsipper",
     "H": "grasspelt"
@@ -17,11 +18,21 @@
     "spd": 57,
     "spe": 52
   },
+  "evos": [
+    "gogoat"
+  ],
   "weight": 31,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Until recently, people living in the mountains would ride on the backs of these Pokémon to traverse the mountain paths."
   },
   "learnset": {
     "bodyslam": [
@@ -31,12 +42,12 @@
       "M"
     ],
     "bulkup": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "bulldoze": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "bulletseed": [
       "M"
@@ -66,8 +77,8 @@
       "M"
     ],
     "grassyterrain": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "growth": [
       "L:1"
@@ -121,8 +132,8 @@
       "E"
     ],
     "seedbomb": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "sleeptalk": [
       "M"
@@ -152,8 +163,8 @@
       "L:9"
     ],
     "takedown": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "terablast": [
       "M"
@@ -173,6 +184,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Until recently, people living in the mountains would ride on the backs of these Pokémon to traverse the mountain paths."
+  }
 }

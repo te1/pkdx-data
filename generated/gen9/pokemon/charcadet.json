@@ -1,10 +1,11 @@
 {
   "slug": "charcadet",
   "name": "Charcadet",
-  "num": 165,
+  "num": 1003,
   "types": [
     "fire"
   ],
+  "gen": 9,
   "abilities": {
     "0": "flashfire",
     "H": "flamebody"
@@ -15,13 +16,24 @@
     "def": 40,
     "spa": 50,
     "spd": 40,
-    "spe": 35
+    "spe": 30
   },
+  "evos": [
+    "armarouge",
+    "ceruledge"
+  ],
   "weight": 10.5,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents."
   },
   "learnset": {
     "astonish": [
@@ -52,12 +64,12 @@
       "M"
     ],
     "firespin": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "flamecharge": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "flamethrower": [
       "M"
@@ -81,8 +93,8 @@
       "L:1"
     ],
     "nightshade": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "overheat": [
       "M"
@@ -109,9 +121,8 @@
       "M"
     ],
     "willowisp": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ]
-  },
-  "flavorText": "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents."
+  }
 }

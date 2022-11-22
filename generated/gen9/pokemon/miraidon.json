@@ -1,14 +1,14 @@
 {
   "slug": "miraidon",
   "name": "Miraidon",
-  "num": 400,
+  "num": 999,
   "types": [
     "electric",
     "dragon"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "hadronengine",
-    "H": "hadronengine"
+    "0": "hadronengine"
   },
   "baseStats": {
     "hp": 100,
@@ -19,15 +19,22 @@
     "spe": 135
   },
   "weight": 240,
-  "height": 35,
-  "genderRatio": {},
+  "height": 3.5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true,
+  "flavorText": {
+    "scarlet": "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful."
+  },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "bodyslam": [
       "M"
@@ -63,8 +70,8 @@
       "M"
     ],
     "dragonpulse": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dragontail": [
       "M"
@@ -73,8 +80,8 @@
       "M"
     ],
     "electricterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "electroball": [
       "M"
@@ -101,8 +108,8 @@
       "M"
     ],
     "hyperbeam": [
-      "L:98",
-      "M"
+      "M",
+      "L:98"
     ],
     "lightscreen": [
       "M"
@@ -114,12 +121,12 @@
       "L:70"
     ],
     "outrage": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "overheat": [
-      "L:91",
-      "M"
+      "M",
+      "L:91"
     ],
     "paraboliccharge": [
       "L:21"
@@ -167,8 +174,8 @@
       "M"
     ],
     "thunder": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "thunderbolt": [
       "M"
@@ -191,6 +198,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful."
+  }
 }

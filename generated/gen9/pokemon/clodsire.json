@@ -1,11 +1,12 @@
 {
   "slug": "clodsire",
   "name": "Clodsire",
-  "num": 54,
+  "num": 1009,
   "types": [
     "poison",
     "ground"
   ],
+  "gen": 9,
   "abilities": {
     "0": "poisonpoint",
     "1": "waterabsorb",
@@ -19,19 +20,35 @@
     "spd": 100,
     "spe": 20
   },
+  "prevo": "wooper-paldea",
+  "evoLevel": 20,
   "weight": 223,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line."
+  },
   "learnset": {
     "acidspray": [
-      "M"
+      "M",
+      "E@wooper-paldea"
+    ],
+    "afteryou": [
+      "E@wooper-paldea"
     ],
     "amnesia": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
+    ],
+    "ancientpower": [
+      "E@wooper-paldea"
     ],
     "bodypress": [
       "M"
@@ -45,15 +62,24 @@
     "chillingwater": [
       "M"
     ],
+    "counter": [
+      "E@wooper-paldea"
+    ],
+    "curse": [
+      "E@wooper-paldea"
+    ],
     "dig": [
       "M"
+    ],
+    "doublekick": [
+      "E@wooper-paldea"
     ],
     "earthpower": [
       "M"
     ],
     "earthquake": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "endure": [
       "M"
@@ -66,6 +92,9 @@
     ],
     "gunkshot": [
       "M"
+    ],
+    "haze": [
+      "E@wooper-paldea"
     ],
     "heavyslam": [
       "M"
@@ -91,29 +120,35 @@
     "megahorn": [
       "L:36"
     ],
+    "mist": [
+      "E@wooper-paldea"
+    ],
     "mudshot": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "mudslap": [
       "M"
     ],
     "poisonjab": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "poisonsting": [
       "L:1"
     ],
     "poisontail": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "protect": [
       "M"
     ],
     "raindance": [
       "M"
+    ],
+    "recover": [
+      "E@wooper-paldea"
     ],
     "rest": [
       "M"
@@ -142,8 +177,14 @@
     "spikes": [
       "M"
     ],
+    "spitup": [
+      "E@wooper-paldea"
+    ],
     "stealthrock": [
       "M"
+    ],
+    "stockpile": [
+      "E@wooper-paldea"
     ],
     "stompingtantrum": [
       "M"
@@ -156,6 +197,12 @@
     ],
     "surf": [
       "M"
+    ],
+    "swallow": [
+      "E@wooper-paldea"
+    ],
+    "tackle": [
+      "L:4@wooper-paldea"
     ],
     "tailwhip": [
       "L:1"
@@ -170,8 +217,8 @@
       "L:40"
     ],
     "toxicspikes": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "trailblaze": [
       "M"
@@ -191,6 +238,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line."
+  }
 }

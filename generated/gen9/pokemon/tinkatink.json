@@ -1,11 +1,12 @@
 {
   "slug": "tinkatink",
   "name": "Tinkatink",
-  "num": 279,
+  "num": 1000,
   "types": [
     "fairy",
     "steel"
   ],
+  "gen": 9,
   "abilities": {
     "0": "moldbreaker",
     "1": "owntempo",
@@ -19,10 +20,18 @@
     "spd": 64,
     "spe": 58
   },
+  "evos": [
+    "tinkatuff"
+  ],
   "weight": 8.9,
-  "height": 4,
-  "genderRatio": {
-    "F": 1
+  "height": 0.4,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal."
   },
   "learnset": {
     "astonish": [
@@ -38,8 +47,8 @@
       "L:11"
     ],
     "drainingkiss": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "encore": [
       "M"
@@ -63,8 +72,8 @@
       "E"
     ],
     "flashcannon": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "flatter": [
       "L:43"
@@ -88,15 +97,15 @@
       "M"
     ],
     "metalclaw": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "metronome": [
       "M"
     ],
     "playrough": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "pounce": [
       "M"
@@ -161,6 +170,5 @@
     "thunderwave": [
       "M"
     ]
-  },
-  "flavorText": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal."
+  }
 }

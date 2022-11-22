@@ -1,13 +1,14 @@
 {
   "slug": "cetoddle",
   "name": "Cetoddle",
-  "num": 361,
+  "num": 947,
   "types": [
     "ice"
   ],
+  "gen": 9,
   "abilities": {
     "0": "thickfat",
-    "1": "snowcloak",
+    "1": "slushrush",
     "H": "sheerforce"
   },
   "baseStats": {
@@ -18,34 +19,44 @@
     "spd": 40,
     "spe": 43
   },
+  "evos": [
+    "cetitan"
+  ],
   "weight": 45,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer."
+  },
   "learnset": {
     "amnesia": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "avalanche": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "bellydrum": [
       "E"
     ],
     "blizzard": [
-      "L:53",
-      "M"
+      "M",
+      "L:53"
     ],
     "bodypress": [
       "M"
     ],
     "bodyslam": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "bounce": [
       "L:31"
@@ -105,8 +116,8 @@
       "L:12"
     ],
     "icespinner": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "iciclecrash": [
       "E"
@@ -130,8 +141,8 @@
       "M"
     ],
     "rest": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "sleeptalk": [
       "M"
@@ -152,8 +163,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "terablast": [
       "M"
@@ -164,6 +175,5 @@
     "yawn": [
       "E"
     ]
-  },
-  "flavorText": "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer."
+  }
 }

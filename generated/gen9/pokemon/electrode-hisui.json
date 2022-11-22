@@ -1,0 +1,179 @@
+{
+  "slug": "electrode-hisui",
+  "name": "Hisuian Electrode",
+  "num": 101,
+  "types": [
+    "electric",
+    "grass"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "soundproof",
+    "1": "static",
+    "H": "aftermath"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 70,
+    "spa": 80,
+    "spd": 80,
+    "spe": 150
+  },
+  "prevo": "voltorb-hisui",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "baseSpecies": "electrode",
+  "region": "Hisui",
+  "weight": 71,
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "isUnobtainable": true,
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "bulletseed": [
+      "M",
+      "L:9"
+    ],
+    "charge": [
+      "L:1"
+    ],
+    "chargebeam": [
+      "M",
+      "L:16"
+    ],
+    "chloroblast": [
+      "L:0"
+    ],
+    "discharge": [
+      "L:34"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M",
+      "L:22"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M",
+      "L:29"
+    ],
+    "explosion": [
+      "L:41"
+    ],
+    "facade": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M",
+      "L:50"
+    ],
+    "gyroball": [
+      "L:46"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "L:11"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "screech": [
+      "L:13"
+    ],
+    "seedbomb": [
+      "M",
+      "L:34"
+    ],
+    "selfdestruct": [
+      "L:26"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stunspore": [
+      "L:6"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M",
+      "L:20"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:4"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  }
+}

@@ -1,11 +1,12 @@
 {
   "slug": "skrelp",
   "name": "Skrelp",
-  "num": 337,
+  "num": 690,
   "types": [
     "poison",
     "water"
   ],
+  "gen": 6,
   "abilities": {
     "0": "poisonpoint",
     "1": "poisontouch",
@@ -19,11 +20,22 @@
     "spd": 60,
     "spe": 30
   },
+  "evos": [
+    "dragalge"
+  ],
   "weight": 7.3,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Skrelp evades its enemies by hiding amid drifting seaweed. It eats rotten seaweed to create its poison."
   },
   "learnset": {
     "acid": [
@@ -45,12 +57,12 @@
       "L:20"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dragontail": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "endure": [
       "M"
@@ -65,8 +77,8 @@
       "E"
     ],
     "hydropump": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "icywind": [
       "M"
@@ -87,8 +99,8 @@
       "M"
     ],
     "poisontail": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "protect": [
       "M"
@@ -109,8 +121,8 @@
       "M"
     ],
     "sludgebomb": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "smokescreen": [
       "L:1"
@@ -161,9 +173,8 @@
       "L:10"
     ],
     "waterpulse": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ]
-  },
-  "flavorText": "Skrelp evades its enemies by hiding amid drifting seaweed. It eats rotten seaweed to create its poison."
+  }
 }

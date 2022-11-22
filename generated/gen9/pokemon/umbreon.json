@@ -1,10 +1,11 @@
 {
   "slug": "umbreon",
   "name": "Umbreon",
-  "num": 184,
+  "num": 197,
   "types": [
     "dark"
   ],
+  "gen": 2,
   "abilities": {
     "0": "synchronize",
     "H": "innerfocus"
@@ -17,11 +18,20 @@
     "spd": 130,
     "spe": 65
   },
+  "prevo": "eevee",
+  "evoType": "levelFriendship",
+  "evoCondition": "at night",
   "weight": 27,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power."
   },
   "learnset": {
     "assurance": [
@@ -31,8 +41,8 @@
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:1"
@@ -44,12 +54,12 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "confuseray": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "copycat": [
       "L:1"
@@ -60,15 +70,24 @@
     "crunch": [
       "M"
     ],
+    "curse": [
+      "E@eevee"
+    ],
     "darkpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
+    ],
+    "detect": [
+      "E@eevee"
     ],
     "dig": [
       "M"
     ],
     "doubleedge": [
       "L:1"
+    ],
+    "doublekick": [
+      "E@eevee"
     ],
     "endure": [
       "M"
@@ -78,6 +97,9 @@
     ],
     "faketears": [
       "M"
+    ],
+    "flail": [
+      "E@eevee"
     ],
     "foulplay": [
       "M"
@@ -92,8 +114,8 @@
       "L:35"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -112,6 +134,10 @@
     ],
     "moonlight": [
       "L:30"
+    ],
+    "mudslap": [
+      "M@eevee",
+      "E@eevee"
     ],
     "protect": [
       "M"
@@ -150,8 +176,8 @@
       "M"
     ],
     "snarl": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "storedpower": [
       "M"
@@ -163,8 +189,8 @@
       "M"
     ],
     "swift": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "tackle": [
       "L:1"
@@ -173,8 +199,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "taunt": [
       "M"
@@ -188,9 +214,17 @@
     "thunderwave": [
       "M"
     ],
+    "tickle": [
+      "E@eevee"
+    ],
     "trailblaze": [
       "M"
+    ],
+    "wish": [
+      "E@eevee"
+    ],
+    "yawn": [
+      "E@eevee"
     ]
-  },
-  "flavorText": "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power."
+  }
 }

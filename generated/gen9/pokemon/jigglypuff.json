@@ -1,11 +1,12 @@
 {
   "slug": "jigglypuff",
   "name": "Jigglypuff",
-  "num": 60,
+  "num": 39,
   "types": [
     "normal",
     "fairy"
   ],
+  "gen": 1,
   "abilities": {
     "0": "cutecharm",
     "1": "competitive",
@@ -19,11 +20,22 @@
     "spd": 25,
     "spe": 20
   },
+  "prevo": "igglybuff",
+  "evos": [
+    "wigglytuff"
+  ],
+  "evoType": "levelFriendship",
   "weight": 5.5,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
+  },
+  "eggGroups": [
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep."
   },
   "learnset": {
     "amnesia": [
@@ -39,8 +51,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "brickbreak": [
       "M"
@@ -49,8 +61,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chillingwater": [
       "M"
@@ -59,7 +71,8 @@
       "L:1"
     ],
     "covet": [
-      "L:8"
+      "L:8",
+      "E"
     ],
     "darkpulse": [
       "M"
@@ -77,8 +90,8 @@
       "L:1"
     ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "doubleedge": [
       "L:44"
@@ -122,15 +135,21 @@
     "grassknot": [
       "M"
     ],
+    "gravity": [
+      "E"
+    ],
     "gyroball": [
       "L:32"
+    ],
+    "healpulse": [
+      "E"
     ],
     "helpinghand": [
       "M"
     ],
     "hypervoice": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "icebeam": [
       "M"
@@ -143,6 +162,9 @@
     ],
     "icywind": [
       "M"
+    ],
+    "lastresort": [
+      "E"
     ],
     "lightscreen": [
       "M"
@@ -162,11 +184,17 @@
     "nastyplot": [
       "M"
     ],
+    "perishsong": [
+      "E"
+    ],
     "playrough": [
       "M"
     ],
     "pound": [
       "L:1"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -184,8 +212,11 @@
       "M"
     ],
     "rest": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
+    ],
+    "rollout": [
+      "E"
     ],
     "round": [
       "L:16"
@@ -268,9 +299,11 @@
     "wildcharge": [
       "M"
     ],
+    "wish": [
+      "E"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep."
+  }
 }

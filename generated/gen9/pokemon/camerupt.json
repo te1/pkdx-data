@@ -1,11 +1,12 @@
 {
   "slug": "camerupt",
   "name": "Camerupt",
-  "num": 152,
+  "num": 323,
   "types": [
     "fire",
     "ground"
   ],
+  "gen": 3,
   "abilities": {
     "0": "magmaarmor",
     "1": "solidrock",
@@ -19,26 +20,38 @@
     "spd": 75,
     "spe": 40
   },
+  "prevo": "numel",
+  "evoLevel": 33,
   "weight": 220,
-  "height": 19,
+  "height": 1.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years."
+  },
   "learnset": {
     "amnesia": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
+    ],
+    "ancientpower": [
+      "E@numel"
     ],
     "bodypress": [
       "M"
     ],
     "bodyslam": [
-      "M"
+      "M",
+      "E@numel"
     ],
     "bulldoze": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "charm": [
       "M"
@@ -46,16 +59,22 @@
     "curse": [
       "L:29"
     ],
+    "defensecurl": [
+      "E@numel"
+    ],
     "dig": [
       "M"
     ],
+    "doubleedge": [
+      "L:47@numel"
+    ],
     "earthpower": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "earthquake": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "ember": [
       "L:1"
@@ -82,7 +101,8 @@
       "M"
     ],
     "flamethrower": [
-      "M"
+      "M",
+      "L:43@numel"
     ],
     "flareblitz": [
       "M"
@@ -99,14 +119,22 @@
     "growl": [
       "L:1"
     ],
+    "growth": [
+      "E@numel"
+    ],
     "heatwave": [
-      "M"
+      "M",
+      "E@numel"
     ],
     "heavyslam": [
-      "M"
+      "M",
+      "E@numel"
     ],
     "helpinghand": [
       "M"
+    ],
+    "howl": [
+      "E@numel"
     ],
     "hyperbeam": [
       "M"
@@ -115,7 +143,8 @@
       "L:15"
     ],
     "ironhead": [
-      "M"
+      "M",
+      "E@numel"
     ],
     "lavaplume": [
       "L:22"
@@ -139,17 +168,21 @@
       "M"
     ],
     "rockslide": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "rocktomb": [
       "M"
+    ],
+    "rollout": [
+      "E@numel"
     ],
     "sandstorm": [
       "M"
     ],
     "scaryface": [
-      "M"
+      "M",
+      "E@numel"
     ],
     "sleeptalk": [
       "M"
@@ -157,8 +190,17 @@
     "solarbeam": [
       "M"
     ],
+    "spitup": [
+      "E@numel"
+    ],
     "stealthrock": [
       "M"
+    ],
+    "stockpile": [
+      "E@numel"
+    ],
+    "stomp": [
+      "E@numel"
     ],
     "stompingtantrum": [
       "M"
@@ -172,12 +214,15 @@
     "sunnyday": [
       "M"
     ],
+    "swallow": [
+      "E@numel"
+    ],
     "tackle": [
       "L:1"
     ],
     "takedown": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "terablast": [
       "M"
@@ -189,11 +234,11 @@
       "M"
     ],
     "yawn": [
-      "L:39"
+      "L:39",
+      "E@numel"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "ironjugulis",
   "name": "Iron Jugulis",
-  "num": 385,
+  "num": 990,
   "types": [
     "dark",
     "flying"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "quarkdrive",
-    "H": "quarkdrive"
+    "0": "quarkdrive"
   },
   "baseStats": {
     "hp": 94,
@@ -19,19 +19,25 @@
     "spe": 108
   },
   "weight": 111,
-  "height": 13,
-  "genderRatio": {},
+  "height": 1.3,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot."
+  },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aircutter": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "airslash": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "assurance": [
       "L:14"
@@ -43,19 +49,19 @@
       "M"
     ],
     "crunch": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "darkpulse": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "dragonbreath": [
       "L:21"
     ],
     "dragonpulse": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "dragontail": [
       "M"
@@ -64,8 +70,8 @@
       "M"
     ],
     "electricterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
       "M"
@@ -107,12 +113,12 @@
       "M"
     ],
     "hyperbeam": [
-      "L:91",
-      "M"
+      "M",
+      "L:91"
     ],
     "hypervoice": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "ironhead": [
       "M"
@@ -121,8 +127,8 @@
       "L:63"
     ],
     "outrage": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "protect": [
       "M"
@@ -146,8 +152,8 @@
       "M"
     ],
     "snarl": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "substitute": [
       "M"
@@ -179,6 +185,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot."
+  }
 }

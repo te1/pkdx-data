@@ -1,13 +1,13 @@
 {
   "slug": "zorua",
   "name": "Zorua",
-  "num": 228,
+  "num": 570,
   "types": [
     "dark"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "illusion",
-    "H": "illusion"
+    "0": "illusion"
   },
   "baseStats": {
     "hp": 40,
@@ -17,16 +17,29 @@
     "spd": 40,
     "spe": 65
   },
+  "evos": [
+    "zoroark"
+  ],
+  "formes": [
+    "zorua-hisui"
+  ],
   "weight": 12.5,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child."
   },
   "learnset": {
     "agility": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "calmmind": [
       "M"
@@ -62,15 +75,15 @@
       "M"
     ],
     "faketears": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "fling": [
       "M"
     ],
     "foulplay": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "furyswipes": [
       "L:12"
@@ -91,8 +104,8 @@
       "M"
     ],
     "imprison": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "knockoff": [
       "L:24"
@@ -104,8 +117,8 @@
       "E"
     ],
     "nastyplot": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "nightdaze": [
       "L:40"
@@ -123,8 +136,8 @@
       "M"
     ],
     "scaryface": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "scratch": [
       "L:1"
@@ -163,8 +176,8 @@
       "M"
     ],
     "taunt": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
@@ -181,6 +194,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child."
+  }
 }

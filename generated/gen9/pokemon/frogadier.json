@@ -1,10 +1,11 @@
 {
   "slug": "frogadier",
   "name": "Frogadier",
-  "num": null,
+  "num": 657,
   "types": [
     "water"
   ],
+  "gen": 6,
   "abilities": {
     "0": "torrent",
     "H": "protean"
@@ -17,12 +18,21 @@
     "spd": 56,
     "spe": 97
   },
+  "prevo": "froakie",
+  "evos": [
+    "greninja"
+  ],
+  "evoLevel": 16,
   "weight": 10.9,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -38,6 +48,9 @@
     ],
     "chillingwater": [
       "M"
+    ],
+    "counter": [
+      "E@froakie"
     ],
     "dig": [
       "M"
@@ -55,8 +68,8 @@
       "M"
     ],
     "fling": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "grassknot": [
       "M"
@@ -71,8 +84,8 @@
       "M"
     ],
     "hydropump": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "icebeam": [
       "M"
@@ -113,6 +126,9 @@
     "rest": [
       "M"
     ],
+    "retaliate": [
+      "E@froakie"
+    ],
     "rockslide": [
       "M"
     ],
@@ -135,17 +151,21 @@
       "M"
     ],
     "spikes": [
-      "M"
+      "M",
+      "E@froakie"
     ],
     "substitute": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "surf": [
       "M"
     ],
     "swift": [
       "M"
+    ],
+    "switcheroo": [
+      "E@froakie"
     ],
     "swordsdance": [
       "M"
@@ -163,7 +183,8 @@
       "M"
     ],
     "toxicspikes": [
-      "M"
+      "M",
+      "E@froakie"
     ],
     "trailblaze": [
       "M"
@@ -181,8 +202,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ]
   }
 }

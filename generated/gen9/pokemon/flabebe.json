@@ -1,10 +1,11 @@
 {
   "slug": "flabebe",
-  "name": "Flabébé",
-  "num": null,
+  "name": "Flabébé",
+  "num": 669,
   "types": [
     "fairy"
   ],
+  "gen": 6,
   "abilities": {
     "0": "flowerveil",
     "H": "symbiosis"
@@ -17,10 +18,37 @@
     "spd": 79,
     "spe": 42
   },
+  "evos": [
+    "floette"
+  ],
+  "cosmeticSubName": "Red Flower",
+  "cosmeticFormes": [
+    {
+      "slug": "flabebe-blue",
+      "subName": "Blue Flower"
+    },
+    {
+      "slug": "flabebe-orange",
+      "subName": "Orange Flower"
+    },
+    {
+      "slug": "flabebe-white",
+      "subName": "White Flower"
+    },
+    {
+      "slug": "flabebe-yellow",
+      "subName": "Yellow Flower"
+    }
+  ],
   "weight": 0.1,
-  "height": 1,
-  "genderRatio": {
-    "F": 1
+  "height": 0.1,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon can draw forth the power hidden within blooming wild flowers. It is particularly fond of red flowers."
   },
   "learnset": {
     "batonpass": [
@@ -69,8 +97,8 @@
       "M"
     ],
     "grassyterrain": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "helpinghand": [
       "M"
@@ -79,12 +107,12 @@
       "M"
     ],
     "magicalleaf": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "mistyterrain": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "moonblast": [
       "L:41"
@@ -123,8 +151,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "storedpower": [
       "M"

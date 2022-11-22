@@ -1,10 +1,11 @@
 {
   "slug": "chewtle",
   "name": "Chewtle",
-  "num": 57,
+  "num": 833,
   "types": [
     "water"
   ],
+  "gen": 8,
   "abilities": {
     "0": "strongjaw",
     "1": "shellarmor",
@@ -18,19 +19,30 @@
     "spd": 38,
     "spe": 44
   },
+  "evos": [
+    "drednaw"
+  ],
   "weight": 8.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its large front tooth is still growing in. When the tooth itches, this Pokémon will bite another Chewtle's horn, and the two Pokémon will tussle."
   },
   "learnset": {
     "bite": [
       "L:7"
     ],
     "bodyslam": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "chillingwater": [
       "M"
@@ -42,8 +54,8 @@
       "M"
     ],
     "dragontail": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "endure": [
       "M"
@@ -70,8 +82,8 @@
       "L:35"
     ],
     "liquidation": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "mudshot": [
       "M"
@@ -80,8 +92,8 @@
       "M"
     ],
     "protect": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "raindance": [
       "M"
@@ -125,6 +137,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "Its large front tooth is still growing in. When the tooth itches, this Pokémon will bite another Chewtle's horn, and the two Pokémon will tussle."
+  }
 }

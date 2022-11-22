@@ -1,11 +1,12 @@
 {
   "slug": "bruxish",
   "name": "Bruxish",
-  "num": 335,
+  "num": 779,
   "types": [
     "water",
     "psychic"
   ],
+  "gen": 7,
   "abilities": {
     "0": "dazzling",
     "1": "strongjaw",
@@ -20,10 +21,17 @@
     "spe": 92
   },
   "weight": 19,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head."
   },
   "learnset": {
     "agility": [
@@ -57,8 +65,8 @@
       "L:9"
     ],
     "crunch": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "disable": [
       "L:20"
@@ -82,8 +90,8 @@
       "M"
     ],
     "icefang": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "icywind": [
       "M"
@@ -104,15 +112,15 @@
       "M"
     ],
     "psychicfangs": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "psychicterrain": [
       "M"
     ],
     "psyshock": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "raindance": [
       "M"
@@ -166,12 +174,11 @@
       "L:1"
     ],
     "waterpulse": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "wavecrash": [
       "L:44"
     ]
-  },
-  "flavorText": "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head."
+  }
 }

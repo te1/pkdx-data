@@ -1,14 +1,14 @@
 {
   "slug": "ironthorns",
   "name": "Iron Thorns",
-  "num": 387,
+  "num": 991,
   "types": [
     "rock",
     "electric"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "quarkdrive",
-    "H": "quarkdrive"
+    "0": "quarkdrive"
   },
   "baseStats": {
     "hp": 100,
@@ -19,8 +19,14 @@
     "spe": 72
   },
   "weight": 303,
-  "height": 16,
-  "genderRatio": {},
+  "height": 1.6,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future."
+  },
   "learnset": {
     "bite": [
       "L:28"
@@ -65,15 +71,15 @@
       "M"
     ],
     "earthquake": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "eerieimpulse": [
       "M"
     ],
     "electricterrain": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "electroball": [
       "M"
@@ -88,8 +94,8 @@
       "M"
     ],
     "firefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "firepunch": [
       "M"
@@ -104,8 +110,8 @@
       "M"
     ],
     "gigaimpact": [
-      "L:91",
-      "M"
+      "M",
+      "L:91"
     ],
     "heavyslam": [
       "M"
@@ -117,15 +123,15 @@
       "M"
     ],
     "icefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "icepunch": [
       "M"
     ],
     "irondefense": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "ironhead": [
       "M"
@@ -155,19 +161,19 @@
       "M"
     ],
     "rockslide": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "rockthrow": [
       "L:1"
     ],
     "rocktomb": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "sandstorm": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "scaryface": [
       "M"
@@ -182,15 +188,15 @@
       "M"
     ],
     "stealthrock": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "stompingtantrum": [
       "M"
     ],
     "stoneedge": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "substitute": [
       "M"
@@ -217,8 +223,8 @@
       "M"
     ],
     "thunderfang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "thunderpunch": [
       "M"
@@ -230,9 +236,8 @@
       "M"
     ],
     "wildcharge": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ]
-  },
-  "flavorText": "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future."
+  }
 }

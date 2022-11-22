@@ -1,11 +1,12 @@
 {
   "slug": "palkia",
   "name": "Palkia",
-  "num": null,
+  "num": 484,
   "types": [
     "water",
     "dragon"
   ],
+  "gen": 4,
   "abilities": {
     "0": "pressure",
     "H": "telepathy"
@@ -18,9 +19,17 @@
     "spd": 120,
     "spe": 100
   },
+  "formes": [
+    "palkia-origin"
+  ],
   "weight": 336,
-  "height": 42,
-  "genderRatio": {},
+  "height": 4.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "aerialace": [
       "M"
@@ -35,8 +44,8 @@
       "L:64"
     ],
     "aurasphere": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "avalanche": [
       "M"
@@ -78,8 +87,8 @@
       "M"
     ],
     "earthpower": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "earthquake": [
       "M"
@@ -109,8 +118,8 @@
       "M"
     ],
     "hydropump": [
-      "L:88",
-      "M"
+      "M",
+      "L:88"
     ],
     "hyperbeam": [
       "M"
@@ -131,8 +140,8 @@
       "M"
     ],
     "powergem": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "protect": [
       "M"
@@ -153,8 +162,8 @@
       "M"
     ],
     "scaryface": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "shadowclaw": [
       "M"
@@ -214,8 +223,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ]
   }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "jumpluff",
   "name": "Jumpluff",
-  "num": 18,
+  "num": 189,
   "types": [
     "grass",
     "flying"
   ],
+  "gen": 2,
   "abilities": {
     "0": "chlorophyll",
     "1": "leafguard",
@@ -19,19 +20,28 @@
     "spd": 95,
     "spe": 110
   },
+  "prevo": "skiploom",
+  "evoLevel": 27,
   "weight": 3,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "Jumpluff travels on seasonal winds. Once its cotton spores run out, its journey ends, as does its life."
   },
   "learnset": {
     "absorb": [
       "L:1"
     ],
     "acrobatics": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "aerialace": [
       "M"
@@ -43,11 +53,14 @@
       "L:49"
     ],
     "bulletseed": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "charm": [
       "M"
+    ],
+    "cottonguard": [
+      "E@hoppip"
     ],
     "cottonspore": [
       "L:35"
@@ -56,7 +69,8 @@
       "M"
     ],
     "encore": [
-      "M"
+      "M",
+      "E@hoppip"
     ],
     "endure": [
       "M"
@@ -74,8 +88,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "gigaimpact": [
       "M"
@@ -84,7 +98,8 @@
       "M"
     ],
     "grassyterrain": [
-      "M"
+      "M",
+      "E@hoppip"
     ],
     "helpinghand": [
       "M"
@@ -119,6 +134,9 @@
     "protect": [
       "M"
     ],
+    "ragepowder": [
+      "E@hoppip"
+    ],
     "raindance": [
       "M"
     ],
@@ -129,7 +147,8 @@
       "M"
     ],
     "seedbomb": [
-      "M"
+      "M",
+      "E@hoppip"
     ],
     "sleeppowder": [
       "L:12"
@@ -143,6 +162,9 @@
     "splash": [
       "L:1"
     ],
+    "strengthsap": [
+      "E@hoppip"
+    ],
     "stunspore": [
       "L:12"
     ],
@@ -151,6 +173,9 @@
     ],
     "sunnyday": [
       "M"
+    ],
+    "switcheroo": [
+      "E@hoppip"
     ],
     "swordsdance": [
       "M"
@@ -180,9 +205,11 @@
       "M"
     ],
     "uturn": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
+    ],
+    "worryseed": [
+      "E@hoppip"
     ]
-  },
-  "flavorText": "Jumpluff travels on seasonal winds. Once its cotton spores run out, its journey ends, as does its life."
+  }
 }

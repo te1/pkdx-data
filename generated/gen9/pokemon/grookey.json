@@ -1,10 +1,11 @@
 {
   "slug": "grookey",
   "name": "Grookey",
-  "num": null,
+  "num": 810,
   "types": [
     "grass"
   ],
+  "gen": 8,
   "abilities": {
     "0": "overgrow",
     "H": "grassysurge"
@@ -17,12 +18,21 @@
     "spd": 40,
     "spe": 65
   },
+  "evos": [
+    "thwackey"
+  ],
   "weight": 5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -142,8 +152,8 @@
       "M"
     ],
     "taunt": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "terablast": [
       "M"

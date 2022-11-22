@@ -1,11 +1,12 @@
 {
   "slug": "impidimp",
   "name": "Impidimp",
-  "num": 285,
+  "num": 859,
   "types": [
     "dark",
     "fairy"
   ],
+  "gen": 8,
   "abilities": {
     "0": "prankster",
     "1": "frisk",
@@ -19,10 +20,19 @@
     "spd": 40,
     "spe": 50
   },
+  "evos": [
+    "morgrem"
+  ],
   "weight": 5.5,
-  "height": 4,
-  "genderRatio": {
-    "M": 1
+  "height": 0.4,
+  "gender": "M",
+  "eggGroups": [
+    "Fairy",
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The reason this Pokémon causes trouble for those it feels close to is because Impidimp itself gets irritable if it can't absorb negative emotions."
   },
   "learnset": {
     "assurance": [
@@ -38,8 +48,8 @@
       "L:1"
     ],
     "darkpulse": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "dazzlinggleam": [
       "M"
@@ -60,8 +70,8 @@
       "L:1"
     ],
     "faketears": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "flatter": [
       "L:8"
@@ -70,8 +80,8 @@
       "M"
     ],
     "foulplay": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "leechlife": [
       "M"
@@ -89,15 +99,15 @@
       "M"
     ],
     "nastyplot": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "partingshot": [
       "E"
     ],
     "playrough": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "protect": [
       "M"
@@ -147,6 +157,5 @@
     "trick": [
       "M"
     ]
-  },
-  "flavorText": "The reason this Pokémon causes trouble for those it feels close to is because Impidimp itself gets irritable if it can't absorb negative emotions."
+  }
 }

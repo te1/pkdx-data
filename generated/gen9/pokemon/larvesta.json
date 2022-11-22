@@ -1,11 +1,12 @@
 {
   "slug": "larvesta",
   "name": "Larvesta",
-  "num": 274,
+  "num": 636,
   "types": [
     "bug",
     "fire"
   ],
+  "gen": 5,
   "abilities": {
     "0": "flamebody",
     "H": "swarm"
@@ -18,11 +19,21 @@
     "spd": 55,
     "spe": 60
   },
+  "evos": [
+    "volcarona"
+  ],
   "weight": 28.8,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron."
   },
   "learnset": {
     "absorb": [
@@ -32,8 +43,8 @@
       "M"
     ],
     "amnesia": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "bodyslam": [
       "M"
@@ -42,8 +53,8 @@
       "L:24"
     ],
     "bugbuzz": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "calmmind": [
       "M"
@@ -67,8 +78,8 @@
       "M"
     ],
     "flamecharge": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "flamethrower": [
       "M"
@@ -77,8 +88,8 @@
       "L:18"
     ],
     "flareblitz": [
-      "L:66",
-      "M"
+      "M",
+      "L:66"
     ],
     "gigadrain": [
       "M"
@@ -90,8 +101,8 @@
       "M"
     ],
     "leechlife": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "lightscreen": [
       "M"
@@ -127,8 +138,8 @@
       "L:1"
     ],
     "strugglebug": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "substitute": [
       "M"
@@ -137,8 +148,8 @@
       "M"
     ],
     "takedown": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "terablast": [
       "M"
@@ -161,6 +172,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron."
+  }
 }

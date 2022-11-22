@@ -1,40 +1,51 @@
 {
   "slug": "capsakid",
   "name": "Capsakid",
-  "num": 250,
+  "num": 938,
   "types": [
     "grass"
   ],
+  "gen": 9,
   "abilities": {
     "0": "chlorophyll",
     "1": "insomnia",
     "H": "klutz"
   },
   "baseStats": {
-    "hp": 50,
+    "hp": 52,
     "atk": 62,
     "def": 40,
     "spa": 62,
     "spd": 40,
     "spe": 50
   },
+  "evos": [
+    "scovillain"
+  ],
   "weight": 3,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become."
   },
   "learnset": {
     "bite": [
       "L:4"
     ],
     "bulletseed": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "crunch": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "endure": [
       "M"
@@ -100,15 +111,15 @@
       "M"
     ],
     "seedbomb": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "sleeptalk": [
       "M"
     ],
     "solarbeam": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "stompingtantrum": [
       "M"
@@ -117,8 +128,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "takedown": [
       "M"
@@ -136,9 +147,8 @@
       "E"
     ],
     "zenheadbutt": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ]
-  },
-  "flavorText": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become."
+  }
 }

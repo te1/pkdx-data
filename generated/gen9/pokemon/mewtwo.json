@@ -1,10 +1,11 @@
 {
   "slug": "mewtwo",
   "name": "Mewtwo",
-  "num": null,
+  "num": 150,
   "types": [
     "psychic"
   ],
+  "gen": 1,
   "abilities": {
     "0": "pressure",
     "H": "unnerve"
@@ -18,22 +19,27 @@
     "spe": 130
   },
   "weight": 122,
-  "height": 20,
-  "genderRatio": {},
+  "height": 2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "agility": [
       "M"
     ],
     "amnesia": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "ancientpower": [
       "L:8"
     ],
     "aurasphere": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "avalanche": [
       "M"
@@ -186,8 +192,8 @@
       "M"
     ],
     "psychic": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "psychicterrain": [
       "M"
@@ -259,8 +265,8 @@
       "M"
     ],
     "swift": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "takedown": [
       "M"

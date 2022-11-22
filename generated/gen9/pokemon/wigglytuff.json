@@ -1,11 +1,12 @@
 {
   "slug": "wigglytuff",
   "name": "Wigglytuff",
-  "num": 61,
+  "num": 40,
   "types": [
     "normal",
     "fairy"
   ],
+  "gen": 1,
   "abilities": {
     "0": "cutecharm",
     "1": "competitive",
@@ -19,11 +20,20 @@
     "spd": 50,
     "spe": 45
   },
+  "prevo": "jigglypuff",
+  "evoType": "useItem",
+  "evoItem": "Moon Stone",
   "weight": 12,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
+  },
+  "eggGroups": [
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam."
   },
   "learnset": {
     "amnesia": [
@@ -39,8 +49,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "brickbreak": [
       "M"
@@ -49,8 +59,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chillingwater": [
       "M"
@@ -59,7 +69,8 @@
       "L:1"
     ],
     "covet": [
-      "L:1"
+      "L:1",
+      "E"
     ],
     "darkpulse": [
       "M"
@@ -77,8 +88,8 @@
       "L:1"
     ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "doubleedge": [
       "L:1"
@@ -128,8 +139,14 @@
     "grassknot": [
       "M"
     ],
+    "gravity": [
+      "E"
+    ],
     "gyroball": [
       "L:1"
+    ],
+    "healpulse": [
+      "E"
     ],
     "helpinghand": [
       "M"
@@ -138,8 +155,8 @@
       "M"
     ],
     "hypervoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "icebeam": [
       "M"
@@ -152,6 +169,9 @@
     ],
     "icywind": [
       "M"
+    ],
+    "lastresort": [
+      "E"
     ],
     "lightscreen": [
       "M"
@@ -171,12 +191,18 @@
     "nastyplot": [
       "M"
     ],
+    "perishsong": [
+      "E"
+    ],
     "playrough": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "pound": [
       "L:1"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -194,8 +220,11 @@
       "M"
     ],
     "rest": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "rollout": [
+      "E"
     ],
     "round": [
       "L:1"
@@ -278,9 +307,11 @@
     "wildcharge": [
       "M"
     ],
+    "wish": [
+      "E"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "froakie",
   "name": "Froakie",
-  "num": null,
+  "num": 656,
   "types": [
     "water"
   ],
+  "gen": 6,
   "abilities": {
     "0": "torrent",
     "H": "protean"
@@ -17,12 +18,20 @@
     "spd": 44,
     "spe": 71
   },
+  "evos": [
+    "frogadier"
+  ],
   "weight": 7,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -58,8 +67,8 @@
       "M"
     ],
     "fling": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "grassknot": [
       "M"
@@ -71,8 +80,8 @@
       "M"
     ],
     "hydropump": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "icebeam": [
       "M"
@@ -132,12 +141,12 @@
       "M"
     ],
     "spikes": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "substitute": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "surf": [
       "M"
@@ -161,8 +170,8 @@
       "M"
     ],
     "toxicspikes": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "trailblaze": [
       "M"
@@ -180,8 +189,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ]
   }
 }

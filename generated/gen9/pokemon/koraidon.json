@@ -1,14 +1,14 @@
 {
   "slug": "koraidon",
   "name": "Koraidon",
-  "num": 399,
+  "num": 998,
   "types": [
     "fighting",
     "dragon"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "orichalcumpulse",
-    "H": "orichalcumpulse"
+    "0": "orichalcumpulse"
   },
   "baseStats": {
     "hp": 100,
@@ -19,15 +19,22 @@
     "spe": 135
   },
   "weight": 303,
-  "height": 25,
-  "genderRatio": {},
+  "height": 2.5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true,
+  "flavorText": {
+    "scarlet": "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists."
+  },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "ancientpower": [
       "L:14"
@@ -42,8 +49,8 @@
       "L:1"
     ],
     "brickbreak": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "bulkup": [
       "M"
@@ -52,8 +59,8 @@
       "M"
     ],
     "closecombat": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "collisioncourse": [
       "L:56"
@@ -71,8 +78,8 @@
       "M"
     ],
     "dragonclaw": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dragonpulse": [
       "M"
@@ -81,8 +88,8 @@
       "M"
     ],
     "drainpunch": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "endure": [
       "M"
@@ -103,19 +110,19 @@
       "M"
     ],
     "flamethrower": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "flareblitz": [
-      "L:91",
-      "M"
+      "M",
+      "L:91"
     ],
     "focusblast": [
       "M"
     ],
     "gigaimpact": [
-      "L:98",
-      "M"
+      "M",
+      "L:98"
     ],
     "heatwave": [
       "M"
@@ -148,8 +155,8 @@
       "M"
     ],
     "outrage": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "overheat": [
       "M"
@@ -191,8 +198,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "swordsdance": [
       "M"
@@ -218,6 +225,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists."
+  }
 }

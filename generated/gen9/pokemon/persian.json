@@ -1,10 +1,11 @@
 {
   "slug": "persian",
   "name": "Persian",
-  "num": 142,
+  "num": 53,
   "types": [
     "normal"
   ],
+  "gen": 1,
   "abilities": {
     "0": "limber",
     "1": "technician",
@@ -18,11 +19,22 @@
     "spd": 65,
     "spe": 115
   },
+  "prevo": "meowth",
+  "evoLevel": 28,
+  "formes": [
+    "persian-alola"
+  ],
   "weight": 32,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
   },
   "learnset": {
     "aerialace": [
@@ -49,6 +61,9 @@
     "chillingwater": [
       "M"
     ],
+    "covet": [
+      "E@meowth"
+    ],
     "darkpulse": [
       "M"
     ],
@@ -72,6 +87,9 @@
     ],
     "feint": [
       "L:1"
+    ],
+    "flail": [
+      "E@meowth"
     ],
     "foulplay": [
       "M"
@@ -97,26 +115,32 @@
     "hypervoice": [
       "M"
     ],
+    "hypnosis": [
+      "E@meowth"
+    ],
     "icywind": [
       "M"
+    ],
+    "lastresort": [
+      "E@meowth"
     ],
     "metalclaw": [
       "M"
     ],
     "nastyplot": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "payday": [
       "L:12"
     ],
     "playrough": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "powergem": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "protect": [
       "M"
@@ -151,6 +175,9 @@
     "snarl": [
       "M"
     ],
+    "spite": [
+      "E@meowth"
+    ],
     "substitute": [
       "M"
     ],
@@ -163,12 +190,15 @@
     "switcheroo": [
       "L:1"
     ],
+    "tailwhip": [
+      "E@meowth"
+    ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
@@ -191,6 +221,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
+  }
 }

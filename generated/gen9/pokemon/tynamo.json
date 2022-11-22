@@ -1,13 +1,13 @@
 {
   "slug": "tynamo",
   "name": "Tynamo",
-  "num": 341,
+  "num": 602,
   "types": [
     "electric"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 35,
@@ -17,16 +17,26 @@
     "spd": 40,
     "spe": 60
   },
+  "evos": [
+    "eelektrik"
+  ],
   "weight": 0.3,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning."
+  },
   "learnset": {
     "chargebeam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "spark": [
       "L:1"
@@ -38,9 +48,8 @@
       "M"
     ],
     "thunderwave": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ]
-  },
-  "flavorText": "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "dudunsparce",
   "name": "Dudunsparce",
-  "num": 189,
+  "num": 917,
   "types": [
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "serenegrace",
     "1": "runaway",
@@ -18,11 +19,22 @@
     "spd": 75,
     "spe": 55
   },
+  "prevo": "dunsparce",
+  "evoLevel": 18,
+  "formes": [
+    "dudunsparce-three-segment"
+  ],
   "weight": 39.2,
-  "height": 36,
+  "height": 3.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles."
   },
   "learnset": {
     "agility": [
@@ -37,8 +49,17 @@
     "ancientpower": [
       "L:20"
     ],
+    "aquatail": [
+      "E@dunsparce"
+    ],
+    "astonish": [
+      "E@dunsparce"
+    ],
     "batonpass": [
       "M"
+    ],
+    "bite": [
+      "E@dunsparce"
     ],
     "blizzard": [
       "M"
@@ -64,6 +85,9 @@
     "coil": [
       "L:44"
     ],
+    "curse": [
+      "E@dunsparce"
+    ],
     "defensecurl": [
       "L:1"
     ],
@@ -80,8 +104,8 @@
       "M"
     ],
     "drillrun": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "earthpower": [
       "M"
@@ -113,6 +137,9 @@
     "glare": [
       "L:12"
     ],
+    "headbutt": [
+      "E@dunsparce"
+    ],
     "heavyslam": [
       "M"
     ],
@@ -123,8 +150,8 @@
       "M"
     ],
     "hurricane": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "hyperbeam": [
       "M"
@@ -141,12 +168,15 @@
     "icespinner": [
       "M"
     ],
+    "lastresort": [
+      "E@dunsparce"
+    ],
     "mudshot": [
       "M"
     ],
     "mudslap": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "outrage": [
       "M"
@@ -247,6 +277,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles."
+  }
 }

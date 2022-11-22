@@ -1,10 +1,11 @@
 {
   "slug": "drowzee",
   "name": "Drowzee",
-  "num": 66,
+  "num": 96,
   "types": [
     "psychic"
   ],
+  "gen": 1,
   "abilities": {
     "0": "insomnia",
     "1": "forewarn",
@@ -18,11 +19,21 @@
     "spd": 90,
     "spe": 42
   },
+  "evos": [
+    "hypno"
+  ],
   "weight": 32.4,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier."
   },
   "learnset": {
     "bodyslam": [
@@ -59,8 +70,8 @@
       "M"
     ],
     "firepunch": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "flatter": [
       "E"
@@ -93,8 +104,8 @@
       "L:1"
     ],
     "icepunch": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "imprison": [
       "M"
@@ -112,8 +123,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "nightshade": [
       "M"
@@ -131,12 +142,12 @@
       "M"
     ],
     "psybeam": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "psychic": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "psychicterrain": [
       "M"
@@ -148,8 +159,8 @@
       "L:25"
     ],
     "psyshock": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "raindance": [
       "M"
@@ -200,8 +211,8 @@
       "M"
     ],
     "thunderpunch": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "thunderwave": [
       "M"
@@ -216,9 +227,8 @@
       "M"
     ],
     "zenheadbutt": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ]
-  },
-  "flavorText": "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier."
+  }
 }

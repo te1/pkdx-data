@@ -1,0 +1,172 @@
+{
+  "slug": "squawkabilly-yellow",
+  "name": "Squawkabilly",
+  "subName": "Yellow",
+  "num": 960,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "intimidate",
+    "1": "hustle",
+    "H": "sheerforce"
+  },
+  "baseStats": {
+    "hp": 82,
+    "atk": 96,
+    "def": 51,
+    "spa": 45,
+    "spd": 51,
+    "spe": 92
+  },
+  "baseSpecies": "squawkabilly",
+  "weight": 2.4,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aerialace": [
+      "M",
+      "L:13"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "bravebird": [
+      "M",
+      "L:42"
+    ],
+    "copycat": [
+      "L:27"
+    ],
+    "doubleedge": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M",
+      "L:34"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "finalgambit": [
+      "E"
+    ],
+    "flatter": [
+      "E"
+    ],
+    "fly": [
+      "M",
+      "L:30"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "furyattack": [
+      "L:17"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hurricane": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "mimic": [
+      "L:1"
+    ],
+    "partingshot": [
+      "E"
+    ],
+    "peck": [
+      "L:1"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:6"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M",
+      "L:52"
+    ],
+    "roost": [
+      "L:47"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "L:38"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M",
+      "L:20"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "torment": [
+      "L:10"
+    ],
+    "uproar": [
+      "L:24"
+    ],
+    "uturn": [
+      "M"
+    ]
+  }
+}

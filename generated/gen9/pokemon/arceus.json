@@ -1,13 +1,14 @@
 {
   "slug": "arceus",
   "name": "Arceus",
-  "num": null,
+  "subName": "Normal",
+  "num": 493,
   "types": [
     "normal"
   ],
+  "gen": 4,
   "abilities": {
-    "0": "multitype",
-    "H": "multitype"
+    "0": "multitype"
   },
   "baseStats": {
     "hp": 120,
@@ -17,9 +18,33 @@
     "spd": 120,
     "spe": 120
   },
+  "formes": [
+    "arceus-bug",
+    "arceus-dark",
+    "arceus-dragon",
+    "arceus-electric",
+    "arceus-fairy",
+    "arceus-fighting",
+    "arceus-fire",
+    "arceus-flying",
+    "arceus-ghost",
+    "arceus-grass",
+    "arceus-ground",
+    "arceus-ice",
+    "arceus-poison",
+    "arceus-psychic",
+    "arceus-rock",
+    "arceus-steel",
+    "arceus-water"
+  ],
   "weight": 320,
-  "height": 32,
-  "genderRatio": {},
+  "height": 3.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "acidspray": [
       "M"
@@ -97,8 +122,8 @@
       "M"
     ],
     "earthpower": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "earthquake": [
       "M"
@@ -179,12 +204,12 @@
       "M"
     ],
     "hyperbeam": [
-      "L:80",
-      "M"
+      "M",
+      "L:80"
     ],
     "hypervoice": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "icebeam": [
       "M"

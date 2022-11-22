@@ -1,14 +1,14 @@
 {
   "slug": "roaringmoon",
   "name": "Roaring Moon",
-  "num": 397,
+  "num": 985,
   "types": [
     "dragon",
     "dark"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "protosynthesis",
-    "H": "protosynthesis"
+    "0": "protosynthesis"
   },
   "baseStats": {
     "hp": 105,
@@ -19,8 +19,14 @@
     "spe": 119
   },
   "weight": 380,
-  "height": 20,
-  "genderRatio": {},
+  "height": 2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries."
+  },
   "learnset": {
     "acrobatics": [
       "M"
@@ -41,7 +47,7 @@
       "M"
     ],
     "breakingswipe": [
-      "T"
+      "L:1"
     ],
     "brickbreak": [
       "M"
@@ -65,12 +71,12 @@
       "L:1"
     ],
     "dragonclaw": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "dragondance": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "dragonpulse": [
       "M"
@@ -100,12 +106,12 @@
       "M"
     ],
     "flamethrower": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "fly": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "focusenergy": [
       "L:1"
@@ -138,7 +144,7 @@
       "M"
     ],
     "jawlock": [
-      "T"
+      "L:1"
     ],
     "leer": [
       "L:1"
@@ -165,11 +171,11 @@
       "L:84"
     ],
     "scaleshot": [
-      "T"
+      "L:1"
     ],
     "scaryface": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "shadowclaw": [
       "M"
@@ -190,8 +196,8 @@
       "M"
     ],
     "sunnyday": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "tailwind": [
       "M"
@@ -218,9 +224,8 @@
       "M"
     ],
     "zenheadbutt": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ]
-  },
-  "flavorText": "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "barboach",
   "name": "Barboach",
-  "num": 168,
+  "num": 339,
   "types": [
     "water",
     "ground"
   ],
+  "gen": 3,
   "abilities": {
     "0": "oblivious",
     "1": "anticipation",
@@ -19,16 +20,26 @@
     "spd": 41,
     "spe": 60
   },
+  "evos": [
+    "whiscash"
+  ],
   "weight": 1.9,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location."
+  },
   "learnset": {
     "amnesia": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "aquatail": [
       "L:24"
@@ -49,8 +60,8 @@
       "M"
     ],
     "earthquake": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "endure": [
       "M"
@@ -89,8 +100,8 @@
       "M"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "outrage": [
       "M"
@@ -102,8 +113,8 @@
       "M"
     ],
     "rest": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "rockslide": [
       "M"
@@ -145,8 +156,8 @@
       "M"
     ],
     "takedown": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "terablast": [
       "M"
@@ -161,12 +172,11 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location."
+  }
 }

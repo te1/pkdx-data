@@ -1,0 +1,178 @@
+{
+  "slug": "vivillon-fancy",
+  "name": "Vivillon",
+  "subName": "Fancy Pattern",
+  "num": 666,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "shielddust",
+    "1": "compoundeyes",
+    "H": "friendguard"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 52,
+    "def": 50,
+    "spa": 90,
+    "spd": 50,
+    "spe": 89
+  },
+  "prevo": "spewpa",
+  "evoLevel": 12,
+  "baseSpecies": "vivillon",
+  "weight": 17,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "bugbite": [
+      "L:15@scatterbug"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:35"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "drainingkiss": [
+      "M",
+      "L:25"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gust": [
+      "L:0"
+    ],
+    "harden": [
+      "L:1@spewpa"
+    ],
+    "hurricane": [
+      "M",
+      "L:50"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "lightscreen": [
+      "M",
+      "L:12"
+    ],
+    "poisonpowder": [
+      "L:1",
+      "E@scatterbug"
+    ],
+    "pollenpuff": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M",
+      "L:0@spewpa"
+    ],
+    "psybeam": [
+      "M",
+      "L:17"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "quiverdance": [
+      "L:45"
+    ],
+    "ragepowder": [
+      "E@scatterbug"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "safeguard": [
+      "L:31"
+    ],
+    "sleeppowder": [
+      "L:1"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stringshot": [
+      "L:1@scatterbug"
+    ],
+    "strugglebug": [
+      "M",
+      "L:1"
+    ],
+    "stunspore": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:21"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1@scatterbug"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ]
+  }
+}

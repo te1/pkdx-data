@@ -1,11 +1,12 @@
 {
   "slug": "gastrodon",
   "name": "Gastrodon",
-  "num": 328,
+  "num": 423,
   "types": [
     "water",
     "ground"
   ],
+  "gen": 4,
   "abilities": {
     "0": "stickyhold",
     "1": "stormdrain",
@@ -19,13 +20,32 @@
     "spd": 82,
     "spe": 39
   },
+  "prevo": "shellos",
+  "evoLevel": 30,
+  "cosmeticSubName": "West Sea",
+  "cosmeticFormes": [
+    {
+      "slug": "gastrodon-east",
+      "subName": "East Sea"
+    }
+  ],
   "weight": 29.9,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "Its whole body is sticky with mucus. In the past, this form of Gastrodon was by far the more numerous one."
+  },
   "learnset": {
+    "acidarmor": [
+      "E@shellos"
+    ],
     "amnesia": [
       "M"
     ],
@@ -36,8 +56,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "bulldoze": [
       "M"
@@ -45,12 +65,21 @@
     "chillingwater": [
       "M"
     ],
+    "clearsmog": [
+      "E@shellos"
+    ],
+    "counter": [
+      "E@shellos"
+    ],
+    "curse": [
+      "E@shellos"
+    ],
     "dig": [
       "M"
     ],
     "earthpower": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "earthquake": [
       "M"
@@ -88,6 +117,12 @@
     "memento": [
       "L:53"
     ],
+    "mirrorcoat": [
+      "E@shellos"
+    ],
+    "mist": [
+      "E@shellos"
+    ],
     "muddywater": [
       "L:33"
     ],
@@ -95,15 +130,15 @@
       "M"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
     ],
     "raindance": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "recover": [
       "L:1"
@@ -126,6 +161,9 @@
     "sleeptalk": [
       "M"
     ],
+    "sludge": [
+      "E@shellos"
+    ],
     "sludgebomb": [
       "M"
     ],
@@ -135,8 +173,14 @@
     "spikes": [
       "M"
     ],
+    "spitup": [
+      "E@shellos"
+    ],
     "stealthrock": [
       "M"
+    ],
+    "stockpile": [
+      "E@shellos"
     ],
     "stompingtantrum": [
       "M"
@@ -149,6 +193,9 @@
     ],
     "surf": [
       "M"
+    ],
+    "swallow": [
+      "E@shellos"
     ],
     "takedown": [
       "M"
@@ -163,9 +210,11 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
+    ],
+    "yawn": [
+      "E@shellos"
     ]
-  },
-  "flavorText": "Its whole body is sticky with mucus. In the past, this form of Gastrodon was by far the more numerous one."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "samurott",
   "name": "Samurott",
-  "num": null,
+  "num": 503,
   "types": [
     "water"
   ],
+  "gen": 5,
   "abilities": {
     "0": "torrent",
     "H": "shellarmor"
@@ -17,19 +18,32 @@
     "spd": 70,
     "spe": 70
   },
+  "prevo": "dewott",
+  "evoLevel": 36,
+  "formes": [
+    "samurott-hisui"
+  ],
   "weight": 94.6,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "airslash": [
-      "M"
+      "M",
+      "E@oshawott"
+    ],
+    "aquacutter": [
+      "E@oshawott"
     ],
     "aquajet": [
       "L:34"
@@ -55,6 +69,12 @@
     "chillingwater": [
       "M"
     ],
+    "copycat": [
+      "E@oshawott"
+    ],
+    "detect": [
+      "E@oshawott"
+    ],
     "dig": [
       "M"
     ],
@@ -62,8 +82,8 @@
       "M"
     ],
     "encore": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "endure": [
       "M"
@@ -96,8 +116,8 @@
       "M"
     ],
     "hydropump": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "hyperbeam": [
       "M"
@@ -108,11 +128,17 @@
     "icywind": [
       "M"
     ],
+    "knockoff": [
+      "E@oshawott"
+    ],
     "liquidation": [
       "M"
     ],
     "megahorn": [
       "L:1"
+    ],
+    "nightslash": [
+      "E@oshawott"
     ],
     "protect": [
       "M"
@@ -129,8 +155,14 @@
     "retaliate": [
       "L:51"
     ],
+    "sacredsword": [
+      "E@oshawott"
+    ],
     "scaryface": [
       "M"
+    ],
+    "screech": [
+      "E@oshawott"
     ],
     "slash": [
       "L:0"
@@ -157,8 +189,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "tackle": [
       "L:1"
@@ -188,8 +220,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "xscissor": [
       "M"

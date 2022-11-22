@@ -1,11 +1,12 @@
 {
   "slug": "salamence",
   "name": "Salamence",
-  "num": 278,
+  "num": 373,
   "types": [
     "dragon",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
     "0": "intimidate",
     "H": "moxie"
@@ -18,11 +19,19 @@
     "spd": 80,
     "spe": 100
   },
+  "prevo": "shelgon",
+  "evoLevel": 50,
   "weight": 102.6,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It flies around on its wings, which have grown in at last. In its happiness, it gushes hot flames, burning up everything it passes over."
   },
   "learnset": {
     "aerialace": [
@@ -44,8 +53,11 @@
       "M"
     ],
     "crunch": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
+    ],
+    "defensecurl": [
+      "E@bagon"
     ],
     "doubleedge": [
       "L:73"
@@ -57,8 +69,8 @@
       "L:1"
     ],
     "dragonclaw": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "dragondance": [
       "M"
@@ -66,9 +78,12 @@
     "dragonpulse": [
       "M"
     ],
+    "dragonrush": [
+      "E@bagon"
+    ],
     "dragontail": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dualwingbeat": [
       "L:1"
@@ -95,12 +110,12 @@
       "M"
     ],
     "flamethrower": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "fly": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "focusenergy": [
       "L:46"
@@ -142,11 +157,12 @@
       "M"
     ],
     "outrage": [
-      "M"
+      "M",
+      "L:60@shelgon"
     ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "psychicfangs": [
       "M"
@@ -167,8 +183,8 @@
       "L:1"
     ],
     "scaryface": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "shadowclaw": [
       "M"
@@ -197,13 +213,18 @@
     "terablast": [
       "M"
     ],
+    "thrash": [
+      "E@bagon"
+    ],
     "thunderfang": [
       "M"
     ],
+    "twister": [
+      "E@bagon"
+    ],
     "zenheadbutt": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ]
-  },
-  "flavorText": "It flies around on its wings, which have grown in at last. In its happiness, it gushes hot flames, burning up everything it passes over."
+  }
 }

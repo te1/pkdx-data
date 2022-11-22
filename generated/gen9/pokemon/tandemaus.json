@@ -1,10 +1,11 @@
 {
   "slug": "tandemaus",
   "name": "Tandemaus",
-  "num": 71,
+  "num": 945,
   "types": [
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "runaway",
     "1": "pickup",
@@ -18,9 +19,21 @@
     "spd": 45,
     "spe": 75
   },
+  "evos": [
+    "maushold",
+    "maushold-four"
+  ],
   "weight": 1.8,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them."
+  },
   "learnset": {
     "aerialace": [
       "M"
@@ -35,8 +48,8 @@
       "L:1"
     ],
     "batonpass": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "beatup": [
       "L:37"
@@ -45,12 +58,12 @@
       "E"
     ],
     "bulletseed": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "charm": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "copycat": [
       "L:41"
@@ -68,8 +81,8 @@
       "L:5"
     ],
     "encore": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "endure": [
       "M"
@@ -87,12 +100,12 @@
       "M"
     ],
     "helpinghand": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "hypervoice": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "lowkick": [
       "M"
@@ -107,8 +120,8 @@
       "M"
     ],
     "playrough": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "populationbomb": [
       "L:46"
@@ -173,6 +186,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them."
+  }
 }

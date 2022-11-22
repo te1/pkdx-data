@@ -1,11 +1,12 @@
 {
   "slug": "dragapult",
   "name": "Dragapult",
-  "num": 307,
+  "num": 887,
   "types": [
     "dragon",
     "ghost"
   ],
+  "gen": 8,
   "abilities": {
     "0": "clearbody",
     "1": "infiltrator",
@@ -19,19 +20,28 @@
     "spd": 75,
     "spe": 142
   },
+  "prevo": "drakloak",
+  "evoLevel": 60,
   "weight": 50,
-  "height": 30,
+  "height": 3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Dragapult can make its whole body transparent by clearing its mind and focusing. Even the Dreepy in Dragapult's horns become invisible."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "assurance": [
       "L:12"
@@ -48,11 +58,24 @@
     "bodyslam": [
       "M"
     ],
+    "confuseray": [
+      "M@dreepy",
+      "E@dreepy"
+    ],
+    "curse": [
+      "E@dreepy"
+    ],
+    "disable": [
+      "E@dreepy"
+    ],
     "doubleedge": [
       "L:70"
     ],
     "doublehit": [
       "L:30"
+    ],
+    "doubleteam": [
+      "E@dreepy"
     ],
     "dracometeor": [
       "M"
@@ -64,20 +87,22 @@
       "M"
     ],
     "dragondance": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dragondarts": [
       "L:0"
     ],
     "dragonpulse": [
-      "M"
+      "M",
+      "L:0@drakloak"
     ],
     "dragonrush": [
       "L:63"
     ],
     "dragontail": [
-      "M"
+      "M",
+      "E@dreepy"
     ],
     "endure": [
       "M"
@@ -101,8 +126,8 @@
       "M"
     ],
     "hex": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "hydropump": [
       "M"
@@ -129,8 +154,8 @@
       "M"
     ],
     "phantomforce": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "pounce": [
       "M"
@@ -162,6 +187,9 @@
     "substitute": [
       "M"
     ],
+    "suckerpunch": [
+      "E@dreepy"
+    ],
     "sunnyday": [
       "M"
     ],
@@ -172,8 +200,8 @@
       "M"
     ],
     "takedown": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "terablast": [
       "M"
@@ -191,12 +219,11 @@
       "M"
     ],
     "uturn": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "Dragapult can make its whole body transparent by clearing its mind and focusing. Even the Dreepy in Dragapult's horns become invisible."
+  }
 }

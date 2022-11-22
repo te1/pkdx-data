@@ -1,10 +1,12 @@
 {
   "slug": "tornadus",
   "name": "Tornadus",
-  "num": null,
+  "subName": "Incarnate Forme",
+  "num": 641,
   "types": [
     "flying"
   ],
+  "gen": 5,
   "abilities": {
     "0": "prankster",
     "H": "defiant"
@@ -17,26 +19,32 @@
     "spd": 80,
     "spe": 111
   },
+  "formes": [
+    "tornadus-therian"
+  ],
   "weight": 63,
-  "height": 15,
-  "genderRatio": {
-    "M": 1
-  },
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "aircutter": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "airslash": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "astonish": [
       "L:1"
@@ -60,8 +68,8 @@
       "M"
     ],
     "crunch": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "darkpulse": [
       "M"
@@ -103,8 +111,8 @@
       "M"
     ],
     "hurricane": [
-      "L:65",
-      "M"
+      "M",
+      "L:65"
     ],
     "hyperbeam": [
       "M"
@@ -128,8 +136,8 @@
       "M"
     ],
     "raindance": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "rest": [
       "M"
@@ -162,8 +170,8 @@
       "L:10"
     ],
     "tailwind": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "takedown": [
       "M"

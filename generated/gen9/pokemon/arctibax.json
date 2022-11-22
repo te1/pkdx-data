@@ -1,11 +1,12 @@
 {
   "slug": "arctibax",
   "name": "Arctibax",
-  "num": 389,
+  "num": 950,
   "types": [
     "dragon",
     "ice"
   ],
+  "gen": 9,
   "abilities": {
     "0": "thermalexchange",
     "H": "icebody"
@@ -18,15 +19,30 @@
     "spd": 65,
     "spe": 62
   },
+  "prevo": "frigibax",
+  "evos": [
+    "baxcalibur"
+  ],
+  "evoLevel": 35,
   "weight": 30,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Dragon",
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "aquatail": [
+      "E@frigibax"
     ],
     "avalanche": [
       "M"
@@ -44,8 +60,8 @@
       "M"
     ],
     "crunch": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "dig": [
       "M"
@@ -57,14 +73,18 @@
       "L:12"
     ],
     "dragonclaw": [
-      "M"
+      "M",
+      "L:32@frigibax"
     ],
     "dragonpulse": [
       "M"
     ],
+    "dragonrush": [
+      "E@frigibax"
+    ],
     "dragontail": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
       "M"
@@ -75,23 +95,29 @@
     "focusenergy": [
       "L:18"
     ],
+    "freezedry": [
+      "E@frigibax"
+    ],
     "helpinghand": [
       "M"
     ],
     "icebeam": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "icefang": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "iciclecrash": [
       "L:55"
     ],
+    "iciclespear": [
+      "E@frigibax"
+    ],
     "icywind": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "ironhead": [
       "M"
@@ -130,12 +156,11 @@
       "L:1"
     ],
     "takedown": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice."
+  }
 }

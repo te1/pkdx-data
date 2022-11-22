@@ -1,10 +1,11 @@
 {
   "slug": "floette",
   "name": "Floette",
-  "num": 146,
+  "num": 670,
   "types": [
     "fairy"
   ],
+  "gen": 6,
   "abilities": {
     "0": "flowerveil",
     "H": "symbiosis"
@@ -17,10 +18,38 @@
     "spd": 98,
     "spe": 52
   },
+  "prevo": "flabebe",
+  "evos": [
+    "florges"
+  ],
+  "evoLevel": 19,
+  "cosmeticSubName": "Red Flower",
+  "cosmeticFormes": [
+    {
+      "slug": "floette-blue",
+      "subName": "Blue Flower"
+    },
+    {
+      "slug": "floette-orange",
+      "subName": "Orange Flower"
+    },
+    {
+      "slug": "floette-white",
+      "subName": "White Flower"
+    },
+    {
+      "slug": "floette-yellow",
+      "subName": "Yellow Flower"
+    }
+  ],
   "weight": 0.9,
-  "height": 2,
-  "genderRatio": {
-    "F": 1
+  "height": 0.2,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon draws forth what power is left in withered flowers to make them healthy again. It holds a red flower."
   },
   "learnset": {
     "batonpass": [
@@ -35,6 +64,9 @@
     "chillingwater": [
       "M"
     ],
+    "copycat": [
+      "E@flabebe"
+    ],
     "dazzlinggleam": [
       "M"
     ],
@@ -43,6 +75,9 @@
     ],
     "drainingkiss": [
       "M"
+    ],
+    "endeavor": [
+      "E@flabebe"
     ],
     "endure": [
       "M"
@@ -63,8 +98,8 @@
       "M"
     ],
     "grassyterrain": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "helpinghand": [
       "M"
@@ -73,15 +108,15 @@
       "M"
     ],
     "magicalleaf": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "metronome": [
       "M"
     ],
     "mistyterrain": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "moonblast": [
       "L:46"
@@ -123,8 +158,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "storedpower": [
       "M"
@@ -144,6 +179,9 @@
     "tackle": [
       "L:1"
     ],
+    "tearfullook": [
+      "E@flabebe"
+    ],
     "terablast": [
       "M"
     ],
@@ -159,6 +197,5 @@
     "wish": [
       "L:20"
     ]
-  },
-  "flavorText": "This Pokémon draws forth what power is left in withered flowers to make them healthy again. It holds a red flower."
+  }
 }

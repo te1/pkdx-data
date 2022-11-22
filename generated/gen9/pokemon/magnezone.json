@@ -1,11 +1,12 @@
 {
   "slug": "magnezone",
   "name": "Magnezone",
-  "num": 211,
+  "num": 462,
   "types": [
     "electric",
     "steel"
   ],
+  "gen": 4,
   "abilities": {
     "0": "magnetpull",
     "1": "sturdy",
@@ -19,9 +20,18 @@
     "spd": 90,
     "spe": 60
   },
+  "prevo": "magneton",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
   "weight": 180,
-  "height": 12,
-  "genderRatio": {},
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose."
+  },
   "learnset": {
     "bodypress": [
       "M"
@@ -42,22 +52,28 @@
       "M"
     ],
     "electricterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "electroball": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
+    ],
+    "electroweb": [
+      "E@magnemite"
     ],
     "endure": [
       "M"
+    ],
+    "explosion": [
+      "E@magnemite"
     ],
     "facade": [
       "M"
     ],
     "flashcannon": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "gigaimpact": [
       "M"
@@ -81,8 +97,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "lockon": [
       "L:58"
@@ -157,8 +173,8 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "triattack": [
       "L:1"
@@ -172,6 +188,5 @@
     "zapcannon": [
       "L:64"
     ]
-  },
-  "flavorText": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose."
+  }
 }

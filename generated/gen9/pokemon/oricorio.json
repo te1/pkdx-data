@@ -1,14 +1,15 @@
 {
   "slug": "oricorio",
   "name": "Oricorio",
-  "num": 100,
+  "subName": "Baile Style",
+  "num": 741,
   "types": [
     "fire",
     "flying"
   ],
+  "gen": 7,
   "abilities": {
-    "0": "dancer",
-    "H": "dancer"
+    "0": "dancer"
   },
   "baseStats": {
     "hp": 75,
@@ -18,38 +19,50 @@
     "spd": 70,
     "spe": 93
   },
+  "formes": [
+    "oricorio-pom-pom",
+    "oricorio-pau",
+    "oricorio-sensu"
+  ],
   "weight": 3.4,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
   },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people."
+  },
   "learnset": {
     "acrobatics": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "aircutter": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "airslash": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "attract": [
       "E"
     ],
     "batonpass": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "calmmind": [
       "M"
@@ -79,12 +92,12 @@
       "L:4"
     ],
     "helpinghand": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "hurricane": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "icywind": [
       "M"
@@ -161,6 +174,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people."
+  }
 }

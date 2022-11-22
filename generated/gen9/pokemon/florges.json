@@ -1,10 +1,11 @@
 {
   "slug": "florges",
   "name": "Florges",
-  "num": 147,
+  "num": 671,
   "types": [
     "fairy"
   ],
+  "gen": 6,
   "abilities": {
     "0": "flowerveil",
     "H": "symbiosis"
@@ -17,10 +18,36 @@
     "spd": 154,
     "spe": 75
   },
+  "prevo": "floette",
+  "evoType": "useItem",
+  "evoItem": "Shiny Stone",
+  "cosmeticSubName": "Red Flower",
+  "cosmeticFormes": [
+    {
+      "slug": "florges-blue",
+      "subName": "Blue Flower"
+    },
+    {
+      "slug": "florges-orange",
+      "subName": "Orange Flower"
+    },
+    {
+      "slug": "florges-white",
+      "subName": "White Flower"
+    },
+    {
+      "slug": "florges-yellow",
+      "subName": "Yellow Flower"
+    }
+  ],
   "weight": 10,
-  "height": 11,
-  "genderRatio": {
-    "F": 1
+  "height": 1.1,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon creates an impressive flower garden in its territory. It draws forth the power of the red flowers around its neck."
   },
   "learnset": {
     "batonpass": [
@@ -33,17 +60,23 @@
       "M"
     ],
     "chillingwater": [
-      "M"
+      "M@floette"
+    ],
+    "copycat": [
+      "E@flabebe"
     ],
     "dazzlinggleam": [
       "M"
     ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "drainingkiss": [
       "M"
+    ],
+    "endeavor": [
+      "E@flabebe"
     ],
     "endure": [
       "M"
@@ -54,6 +87,9 @@
     "facade": [
       "M"
     ],
+    "fairywind": [
+      "L:1@floette"
+    ],
     "gigadrain": [
       "M"
     ],
@@ -61,12 +97,12 @@
       "M"
     ],
     "grassknot": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "grassyterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "helpinghand": [
       "M"
@@ -78,15 +114,15 @@
       "M"
     ],
     "magicalleaf": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "metronome": [
       "M"
     ],
     "mistyterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "moonblast": [
       "L:5"
@@ -109,6 +145,9 @@
     "raindance": [
       "M"
     ],
+    "razorleaf": [
+      "L:15@floette"
+    ],
     "rest": [
       "M"
     ],
@@ -125,8 +164,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "storedpower": [
       "M"
@@ -143,6 +182,12 @@
     "synthesis": [
       "L:1"
     ],
+    "tackle": [
+      "L:1@floette"
+    ],
+    "tearfullook": [
+      "E@flabebe"
+    ],
     "terablast": [
       "M"
     ],
@@ -152,9 +197,11 @@
     "trick": [
       "M"
     ],
+    "vinewhip": [
+      "L:1@floette"
+    ],
     "wish": [
       "L:1"
     ]
-  },
-  "flavorText": "This Pokémon creates an impressive flower garden in its territory. It draws forth the power of the red flowers around its neck."
+  }
 }

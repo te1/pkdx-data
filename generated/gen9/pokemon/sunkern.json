@@ -1,10 +1,11 @@
 {
   "slug": "sunkern",
   "name": "Sunkern",
-  "num": 31,
+  "num": 191,
   "types": [
     "grass"
   ],
+  "gen": 2,
   "abilities": {
     "0": "chlorophyll",
     "1": "solarpower",
@@ -18,11 +19,21 @@
     "spd": 30,
     "spe": 30
   },
+  "evos": [
+    "sunflora"
+  ],
   "weight": 1.8,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It suddenly falls out of the sky in the morning. Knowing it's weak, it simply feeds until it evolves."
   },
   "learnset": {
     "absorb": [
@@ -41,8 +52,8 @@
       "M"
     ],
     "encore": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "endeavor": [
       "L:25"
@@ -57,15 +68,15 @@
       "M"
     ],
     "gigadrain": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "grassknot": [
       "M"
     ],
     "grassyterrain": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "growth": [
       "L:1"
@@ -107,22 +118,22 @@
       "M"
     ],
     "seedbomb": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "sleeptalk": [
       "M"
     ],
     "solarbeam": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "substitute": [
       "M"
     ],
     "sunnyday": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "synthesis": [
       "L:28"
@@ -142,6 +153,5 @@
     "worryseed": [
       "L:19"
     ]
-  },
-  "flavorText": "It suddenly falls out of the sky in the morning. Knowing it's weak, it simply feeds until it evolves."
+  }
 }

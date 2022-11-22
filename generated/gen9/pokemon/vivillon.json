@@ -1,11 +1,12 @@
 {
   "slug": "vivillon",
   "name": "Vivillon",
-  "num": 37,
+  "num": 666,
   "types": [
     "bug",
     "flying"
   ],
+  "gen": 6,
   "abilities": {
     "0": "shielddust",
     "1": "compoundeyes",
@@ -19,11 +20,95 @@
     "spd": 50,
     "spe": 89
   },
+  "prevo": "spewpa",
+  "evoLevel": 12,
+  "formes": [
+    "vivillon-fancy",
+    "vivillon-pokeball"
+  ],
+  "cosmeticSubName": "Meadow Pattern",
+  "cosmeticFormes": [
+    {
+      "slug": "vivillon-icysnow",
+      "subName": "Icy Snow Pattern"
+    },
+    {
+      "slug": "vivillon-polar",
+      "subName": "Polar Pattern"
+    },
+    {
+      "slug": "vivillon-tundra",
+      "subName": "Tundra Pattern"
+    },
+    {
+      "slug": "vivillon-continental",
+      "subName": "Continental Pattern"
+    },
+    {
+      "slug": "vivillon-garden",
+      "subName": "Garden Pattern"
+    },
+    {
+      "slug": "vivillon-elegant",
+      "subName": "Elegant Pattern"
+    },
+    {
+      "slug": "vivillon-modern",
+      "subName": "Modern Pattern"
+    },
+    {
+      "slug": "vivillon-marine",
+      "subName": "Marine Pattern"
+    },
+    {
+      "slug": "vivillon-archipelago",
+      "subName": "Archipelago Pattern"
+    },
+    {
+      "slug": "vivillon-highplains",
+      "subName": "High Plains Pattern"
+    },
+    {
+      "slug": "vivillon-sandstorm",
+      "subName": "Sandstorm Pattern"
+    },
+    {
+      "slug": "vivillon-river",
+      "subName": "River Pattern"
+    },
+    {
+      "slug": "vivillon-monsoon",
+      "subName": "Monsoon Pattern"
+    },
+    {
+      "slug": "vivillon-savanna",
+      "subName": "Savanna Pattern"
+    },
+    {
+      "slug": "vivillon-sun",
+      "subName": "Sun Pattern"
+    },
+    {
+      "slug": "vivillon-ocean",
+      "subName": "Ocean Pattern"
+    },
+    {
+      "slug": "vivillon-jungle",
+      "subName": "Jungle Pattern"
+    }
+  ],
   "weight": 17,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "isUnobtainable": true,
+  "flavorText": {
+    "scarlet": "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from frigid lands."
   },
   "learnset": {
     "acrobatics": [
@@ -35,16 +120,19 @@
     "airslash": [
       "M"
     ],
+    "bugbite": [
+      "L:15@scatterbug"
+    ],
     "bugbuzz": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "confuseray": [
       "M"
     ],
     "drainingkiss": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "endure": [
       "M"
@@ -64,9 +152,12 @@
     "gust": [
       "L:0"
     ],
+    "harden": [
+      "L:1@spewpa"
+    ],
     "hurricane": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "hyperbeam": [
       "M"
@@ -75,11 +166,12 @@
       "M"
     ],
     "lightscreen": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "poisonpowder": [
-      "L:1"
+      "L:1",
+      "E@scatterbug"
     ],
     "pollenpuff": [
       "M"
@@ -88,17 +180,21 @@
       "M"
     ],
     "protect": [
-      "M"
+      "M",
+      "L:0@spewpa"
     ],
     "psybeam": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "psychic": [
       "M"
     ],
     "quiverdance": [
       "L:45"
+    ],
+    "ragepowder": [
+      "E@scatterbug"
     ],
     "raindance": [
       "M"
@@ -118,9 +214,12 @@
     "solarbeam": [
       "M"
     ],
+    "stringshot": [
+      "L:1@scatterbug"
+    ],
     "strugglebug": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "stunspore": [
       "L:1"
@@ -137,6 +236,9 @@
     "swift": [
       "M"
     ],
+    "tackle": [
+      "L:1@scatterbug"
+    ],
     "tailwind": [
       "M"
     ],
@@ -149,6 +251,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from frigid lands."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "ironhands",
   "name": "Iron Hands",
-  "num": 384,
+  "num": 989,
   "types": [
     "fighting",
     "electric"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "quarkdrive",
-    "H": "quarkdrive"
+    "0": "quarkdrive"
   },
   "baseStats": {
     "hp": 154,
@@ -19,8 +19,14 @@
     "spe": 50
   },
   "weight": 380.7,
-  "height": 18,
-  "genderRatio": {},
+  "height": 1.8,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete."
+  },
   "learnset": {
     "armthrust": [
       "L:1"
@@ -44,8 +50,8 @@
       "L:49"
     ],
     "closecombat": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "detect": [
       "L:70"
@@ -57,8 +63,8 @@
       "M"
     ],
     "electricterrain": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
       "M"
@@ -91,8 +97,8 @@
       "M"
     ],
     "heavyslam": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "hyperbeam": [
       "M"
@@ -173,8 +179,8 @@
       "M"
     ],
     "thunderpunch": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "voltswitch": [
       "M"
@@ -183,9 +189,8 @@
       "L:14"
     ],
     "wildcharge": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ]
-  },
-  "flavorText": "It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "diancie",
   "name": "Diancie",
-  "num": null,
+  "num": 719,
   "types": [
     "rock",
     "fairy"
   ],
+  "gen": 6,
   "abilities": {
-    "0": "clearbody",
-    "H": "clearbody"
+    "0": "clearbody"
   },
   "baseStats": {
     "hp": 50,
@@ -19,8 +19,13 @@
     "spe": 50
   },
   "weight": 8.8,
-  "height": 7,
-  "genderRatio": {},
+  "height": 0.7,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "amnesia": [
       "M"
@@ -95,8 +100,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "metronome": [
       "M"
@@ -108,8 +113,8 @@
       "M"
     ],
     "powergem": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "protect": [
       "M"
@@ -133,8 +138,8 @@
       "L:35"
     ],
     "rockslide": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "rocktomb": [
       "M"
@@ -143,8 +148,8 @@
       "M"
     ],
     "skillswap": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "sleeptalk": [
       "M"
@@ -159,12 +164,12 @@
       "M"
     ],
     "stealthrock": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "stoneedge": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "storedpower": [
       "M"

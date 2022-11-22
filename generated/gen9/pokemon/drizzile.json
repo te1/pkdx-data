@@ -1,10 +1,11 @@
 {
   "slug": "drizzile",
   "name": "Drizzile",
-  "num": null,
+  "num": 817,
   "types": [
     "water"
   ],
+  "gen": 8,
   "abilities": {
     "0": "torrent",
     "H": "sniper"
@@ -17,13 +18,29 @@
     "spd": 55,
     "spe": 90
   },
+  "prevo": "sobble",
+  "evos": [
+    "inteleon"
+  ],
+  "evoLevel": 16,
   "weight": 11.5,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
+    "aquajet": [
+      "E@sobble"
+    ],
+    "aquaring": [
+      "E@sobble"
+    ],
     "batonpass": [
       "M"
     ],
@@ -33,11 +50,17 @@
     "chillingwater": [
       "M"
     ],
+    "doubleteam": [
+      "E@sobble"
+    ],
     "endure": [
       "M"
     ],
     "facade": [
       "M"
+    ],
+    "fellstinger": [
+      "E@sobble"
     ],
     "fling": [
       "M"
@@ -45,15 +68,24 @@
     "growl": [
       "L:1"
     ],
+    "haze": [
+      "E@sobble"
+    ],
     "hydropump": [
       "M"
+    ],
+    "iceshard": [
+      "E@sobble"
     ],
     "lightscreen": [
       "M"
     ],
     "liquidation": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
+    ],
+    "mist": [
+      "E@sobble"
     ],
     "mudshot": [
       "M"
@@ -65,8 +97,8 @@
       "M"
     ],
     "raindance": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "reflect": [
       "M"
@@ -102,8 +134,8 @@
       "M"
     ],
     "uturn": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "waterfall": [
       "M"
@@ -115,8 +147,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ]
   }
 }

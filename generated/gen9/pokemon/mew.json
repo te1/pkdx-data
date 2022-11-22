@@ -1,13 +1,13 @@
 {
   "slug": "mew",
   "name": "Mew",
-  "num": null,
+  "num": 151,
   "types": [
     "psychic"
   ],
+  "gen": 1,
   "abilities": {
-    "0": "synchronize",
-    "H": "synchronize"
+    "0": "synchronize"
   },
   "baseStats": {
     "hp": 100,
@@ -18,8 +18,13 @@
     "spe": 100
   },
   "weight": 4,
-  "height": 4,
-  "genderRatio": {},
+  "height": 0.4,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "acidspray": [
       "M"
@@ -40,22 +45,22 @@
       "M"
     ],
     "amnesia": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "ancientpower": [
       "L:30"
     ],
     "aurasphere": [
-      "L:90",
-      "M"
+      "M",
+      "L:90"
     ],
     "avalanche": [
       "M"
     ],
     "batonpass": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "blastburn": [
       "M"
@@ -280,8 +285,8 @@
       "M"
     ],
     "imprison": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "irondefense": [
       "M"
@@ -317,8 +322,8 @@
       "M"
     ],
     "metronome": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "mistyterrain": [
       "M"
@@ -330,8 +335,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "nightshade": [
       "M"
@@ -373,8 +378,8 @@
       "M"
     ],
     "psychic": [
-      "L:100",
-      "M"
+      "M",
+      "L:100"
     ],
     "psychicfangs": [
       "M"

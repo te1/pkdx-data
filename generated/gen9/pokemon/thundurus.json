@@ -1,11 +1,13 @@
 {
   "slug": "thundurus",
   "name": "Thundurus",
-  "num": null,
+  "subName": "Incarnate Forme",
+  "num": 642,
   "types": [
     "electric",
     "flying"
   ],
+  "gen": 5,
   "abilities": {
     "0": "prankster",
     "H": "defiant"
@@ -18,18 +20,24 @@
     "spd": 80,
     "spe": 111
   },
+  "formes": [
+    "thundurus-therian"
+  ],
   "weight": 61,
-  "height": 15,
-  "genderRatio": {
-    "M": 1
-  },
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "astonish": [
       "L:1"
@@ -53,8 +61,8 @@
       "M"
     ],
     "crunch": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "darkpulse": [
       "M"
@@ -117,8 +125,8 @@
       "M"
     ],
     "raindance": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "rest": [
       "M"
@@ -166,8 +174,8 @@
       "L:70"
     ],
     "thunder": [
-      "L:65",
-      "M"
+      "M",
+      "L:65"
     ],
     "thunderbolt": [
       "M"
@@ -188,8 +196,8 @@
       "M"
     ],
     "voltswitch": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "wildboltstorm": [
       "L:75"

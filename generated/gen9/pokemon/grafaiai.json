@@ -1,11 +1,12 @@
 {
   "slug": "grafaiai",
   "name": "Grafaiai",
-  "num": 203,
+  "num": 969,
   "types": [
     "poison",
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "unburden",
     "1": "poisontouch",
@@ -19,22 +20,39 @@
     "spd": 72,
     "spe": 110
   },
+  "prevo": "shroodle",
+  "evoLevel": 28,
   "weight": 27.2,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests."
+  },
   "learnset": {
     "acidspray": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "acrobatics": [
       "M"
     ],
     "batonpass": [
       "M"
+    ],
+    "bite": [
+      "L:8@shroodle"
+    ],
+    "copycat": [
+      "E@shroodle"
+    ],
+    "crosspoison": [
+      "E@shroodle"
     ],
     "dig": [
       "M"
@@ -67,8 +85,8 @@
       "M"
     ],
     "gunkshot": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "helpinghand": [
       "M"
@@ -97,12 +115,15 @@
     "nastyplot": [
       "M"
     ],
+    "partingshot": [
+      "E@shroodle"
+    ],
     "poisonfang": [
       "L:14"
     ],
     "poisonjab": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "poisontail": [
       "M"
@@ -138,11 +159,17 @@
       "M"
     ],
     "substitute": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "sunnyday": [
       "M"
+    ],
+    "superfang": [
+      "E@shroodle"
+    ],
+    "swagger": [
+      "E@shroodle"
     ],
     "switcheroo": [
       "L:11"
@@ -154,8 +181,8 @@
       "M"
     ],
     "taunt": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "terablast": [
       "M"
@@ -163,12 +190,15 @@
     "thief": [
       "M"
     ],
+    "toxic": [
+      "E@shroodle"
+    ],
     "trailblaze": [
       "M"
     ],
     "uturn": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "venoshock": [
       "M"
@@ -176,6 +206,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests."
+  }
 }

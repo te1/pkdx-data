@@ -1,11 +1,12 @@
 {
   "slug": "lucario",
   "name": "Lucario",
-  "num": 164,
+  "num": 448,
   "types": [
     "fighting",
     "steel"
   ],
+  "gen": 4,
   "abilities": {
     "0": "steadfast",
     "1": "innerfocus",
@@ -19,11 +20,21 @@
     "spd": 70,
     "spe": 90
   },
+  "prevo": "riolu",
+  "evoType": "levelFriendship",
+  "evoCondition": "during the day",
   "weight": 54,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see."
   },
   "learnset": {
     "aerialace": [
@@ -33,8 +44,11 @@
       "M"
     ],
     "aurasphere": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
+    ],
+    "bite": [
+      "E@riolu"
     ],
     "bodyslam": [
       "M"
@@ -51,19 +65,28 @@
     "bulldoze": [
       "M"
     ],
+    "bulletpunch": [
+      "E@riolu"
+    ],
     "calmmind": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
+    ],
+    "circlethrow": [
+      "E@riolu"
     ],
     "closecombat": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "copycat": [
       "L:1"
     ],
     "counter": [
       "L:12"
+    ],
+    "crosschop": [
+      "E@riolu"
     ],
     "crunch": [
       "M"
@@ -72,14 +95,15 @@
       "M"
     ],
     "detect": [
-      "L:1"
+      "L:1",
+      "E@riolu"
     ],
     "dig": [
       "M"
     ],
     "dragonpulse": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "drainpunch": [
       "M"
@@ -88,7 +112,8 @@
       "M"
     ],
     "endure": [
-      "M"
+      "M",
+      "L:1@riolu"
     ],
     "extremespeed": [
       "L:56"
@@ -121,8 +146,14 @@
       "L:44"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "highjumpkick": [
+      "E@riolu"
+    ],
+    "howl": [
+      "E@riolu"
     ],
     "hyperbeam": [
       "M"
@@ -143,8 +174,8 @@
       "M"
     ],
     "metalclaw": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "metalsound": [
       "L:28"
@@ -180,8 +211,8 @@
       "M"
     ],
     "reversal": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "rockslide": [
       "M"
@@ -223,8 +254,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "takedown": [
       "M"
@@ -250,6 +281,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see."
+  }
 }

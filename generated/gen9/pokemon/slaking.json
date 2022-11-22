@@ -1,13 +1,13 @@
 {
   "slug": "slaking",
   "name": "Slaking",
-  "num": 80,
+  "num": 289,
   "types": [
     "normal"
   ],
+  "gen": 3,
   "abilities": {
-    "0": "truant",
-    "H": "truant"
+    "0": "truant"
   },
   "baseStats": {
     "hp": 150,
@@ -17,19 +17,30 @@
     "spd": 65,
     "spe": 100
   },
+  "prevo": "vigoroth",
+  "evoLevel": 36,
   "weight": 130.5,
-  "height": 20,
+  "height": 2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
+    "afteryou": [
+      "E@slakoth"
+    ],
     "amnesia": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "blizzard": [
       "M"
@@ -38,7 +49,8 @@
       "M"
     ],
     "bodyslam": [
-      "M"
+      "M",
+      "E@slakoth"
     ],
     "brickbreak": [
       "M"
@@ -58,6 +70,12 @@
     "covet": [
       "L:23"
     ],
+    "crushclaw": [
+      "E@slakoth"
+    ],
+    "curse": [
+      "E@slakoth"
+    ],
     "dig": [
       "M"
     ],
@@ -68,11 +86,12 @@
       "M"
     ],
     "encore": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
-      "M"
+      "M",
+      "L:17@vigoroth"
     ],
     "facade": [
       "M"
@@ -93,11 +112,20 @@
       "M"
     ],
     "fling": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "focusblast": [
       "M"
+    ],
+    "focusenergy": [
+      "L:1@vigoroth"
+    ],
+    "focuspunch": [
+      "L:37@vigoroth"
+    ],
+    "furyswipes": [
+      "L:14@vigoroth"
     ],
     "gigaimpact": [
       "M"
@@ -106,7 +134,11 @@
       "M"
     ],
     "hammerarm": [
-      "L:63"
+      "L:63",
+      "E@slakoth"
+    ],
+    "headbutt": [
+      "L:14@slakoth"
     ],
     "heavyslam": [
       "M"
@@ -150,11 +182,15 @@
     "mudslap": [
       "M"
     ],
+    "nightslash": [
+      "E@slakoth"
+    ],
     "outrage": [
       "M"
     ],
     "playrough": [
-      "M"
+      "M",
+      "L:38@slakoth"
     ],
     "poisonjab": [
       "M"
@@ -172,7 +208,8 @@
       "M"
     ],
     "reversal": [
-      "M"
+      "M",
+      "L:43@vigoroth"
     ],
     "rockslide": [
       "M"
@@ -198,8 +235,15 @@
     "slackoff": [
       "L:1"
     ],
+    "slash": [
+      "L:23@vigoroth",
+      "E@slakoth"
+    ],
     "sleeptalk": [
       "M"
+    ],
+    "snore": [
+      "E@slakoth"
     ],
     "solarbeam": [
       "M"
@@ -246,8 +290,14 @@
     "thunderwave": [
       "M"
     ],
+    "tickle": [
+      "E@slakoth"
+    ],
     "trailblaze": [
       "M"
+    ],
+    "uproar": [
+      "L:1@vigoroth"
     ],
     "wildcharge": [
       "M"
@@ -261,6 +311,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "toxel",
   "name": "Toxel",
-  "num": 198,
+  "num": 848,
   "types": [
     "electric",
     "poison"
   ],
+  "gen": 8,
   "abilities": {
     "0": "rattled",
     "1": "static",
@@ -19,11 +20,22 @@
     "spd": 35,
     "spe": 40
   },
+  "evos": [
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
   "weight": 11,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel."
   },
   "learnset": {
     "acid": [
@@ -77,6 +89,5 @@
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel."
+  }
 }

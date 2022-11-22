@@ -1,10 +1,11 @@
 {
   "slug": "charmeleon",
   "name": "Charmeleon",
-  "num": null,
+  "num": 5,
   "types": [
     "fire"
   ],
+  "gen": 1,
   "abilities": {
     "0": "blaze",
     "H": "solarpower"
@@ -17,18 +18,40 @@
     "spd": 65,
     "spe": 80
   },
+  "prevo": "charmander",
+  "evos": [
+    "charizard"
+  ],
+  "evoLevel": 16,
   "weight": 19,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "isUnobtainable": true,
   "learnset": {
+    "ancientpower": [
+      "E@charmander"
+    ],
+    "bellydrum": [
+      "E@charmander"
+    ],
+    "bite": [
+      "E@charmander"
+    ],
     "bodyslam": [
       "M"
     ],
     "brickbreak": [
       "M"
+    ],
+    "counter": [
+      "E@charmander"
     ],
     "crunch": [
       "M"
@@ -48,8 +71,12 @@
     "dragonpulse": [
       "M"
     ],
+    "dragonrush": [
+      "E@charmander"
+    ],
     "dragontail": [
-      "M"
+      "M",
+      "E@charmander"
     ],
     "ember": [
       "L:1"
@@ -67,8 +94,8 @@
       "M"
     ],
     "firefang": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "firepledge": [
       "M"
@@ -77,21 +104,25 @@
       "M"
     ],
     "firespin": [
-      "M"
+      "M",
+      "L:32@charmander"
     ],
     "flamecharge": [
       "M"
     ],
     "flamethrower": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "flareblitz": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "fling": [
       "M"
+    ],
+    "focusblast": [
+      "M@charmander"
     ],
     "growl": [
       "L:1"
@@ -104,6 +135,13 @@
     ],
     "inferno": [
       "L:48"
+    ],
+    "irontail": [
+      "E@charmander"
+    ],
+    "metalclaw": [
+      "M@charmander",
+      "E@charmander"
     ],
     "outrage": [
       "M"
@@ -124,8 +162,8 @@
       "M"
     ],
     "scaryface": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "scratch": [
       "L:1"

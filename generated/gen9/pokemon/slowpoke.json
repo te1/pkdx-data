@@ -1,11 +1,12 @@
 {
   "slug": "slowpoke",
   "name": "Slowpoke",
-  "num": 324,
+  "num": 79,
   "types": [
     "water",
     "psychic"
   ],
+  "gen": 1,
   "abilities": {
     "0": "oblivious",
     "1": "owntempo",
@@ -19,16 +20,31 @@
     "spd": 40,
     "spe": 15
   },
+  "evos": [
+    "slowbro",
+    "slowking"
+  ],
+  "formes": [
+    "slowpoke-galar"
+  ],
   "weight": 36,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack."
+  },
   "learnset": {
     "amnesia": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "avalanche": [
       "M"
@@ -130,8 +146,8 @@
       "M"
     ],
     "psychic": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "psychicterrain": [
       "M"
@@ -143,8 +159,8 @@
       "M"
     ],
     "raindance": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "rest": [
       "M"
@@ -177,8 +193,8 @@
       "M"
     ],
     "surf": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "swift": [
       "M"
@@ -208,16 +224,15 @@
       "L:6"
     ],
     "waterpulse": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "yawn": [
       "L:9"
     ],
     "zenheadbutt": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ]
-  },
-  "flavorText": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "drakloak",
   "name": "Drakloak",
-  "num": 306,
+  "num": 886,
   "types": [
     "dragon",
     "ghost"
   ],
+  "gen": 8,
   "abilities": {
     "0": "clearbody",
     "1": "infiltrator",
@@ -19,19 +20,31 @@
     "spd": 50,
     "spe": 102
   },
+  "prevo": "dreepy",
+  "evos": [
+    "dragapult"
+  ],
+  "evoLevel": 50,
   "weight": 11,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon flies around at over 120 miles per hour. If a Drakloak is defeated in a battle, its Dreepy will wander off without a second thought."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "assurance": [
       "L:12"
@@ -45,28 +58,42 @@
     "bite": [
       "L:1"
     ],
+    "confuseray": [
+      "M@dreepy",
+      "E@dreepy"
+    ],
+    "curse": [
+      "E@dreepy"
+    ],
+    "disable": [
+      "E@dreepy"
+    ],
     "doubleedge": [
       "L:66"
     ],
     "doublehit": [
       "L:30"
     ],
+    "doubleteam": [
+      "E@dreepy"
+    ],
     "dracometeor": [
       "M"
     ],
     "dragondance": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dragonpulse": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "dragonrush": [
       "L:61"
     ],
     "dragontail": [
-      "M"
+      "M",
+      "E@dreepy"
     ],
     "endure": [
       "M"
@@ -84,8 +111,8 @@
       "M"
     ],
     "hex": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "hydropump": [
       "M"
@@ -109,8 +136,8 @@
       "M"
     ],
     "phantomforce": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "pounce": [
       "M"
@@ -139,6 +166,9 @@
     "substitute": [
       "M"
     ],
+    "suckerpunch": [
+      "E@dreepy"
+    ],
     "sunnyday": [
       "M"
     ],
@@ -149,8 +179,8 @@
       "M"
     ],
     "takedown": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "terablast": [
       "M"
@@ -168,12 +198,11 @@
       "M"
     ],
     "uturn": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon flies around at over 120 miles per hour. If a Drakloak is defeated in a battle, its Dreepy will wander off without a second thought."
+  }
 }

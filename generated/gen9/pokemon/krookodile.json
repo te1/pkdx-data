@@ -1,11 +1,12 @@
 {
   "slug": "krookodile",
   "name": "Krookodile",
-  "num": 269,
+  "num": 553,
   "types": [
     "ground",
     "dark"
   ],
+  "gen": 5,
   "abilities": {
     "0": "intimidate",
     "1": "moxie",
@@ -19,15 +20,26 @@
     "spd": 70,
     "spe": 92
   },
+  "prevo": "krokorok",
+  "evoLevel": 40,
   "weight": 96.3,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "After clamping down with its powerful jaws, it twists its body around to rip its prey in half."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "aquatail": [
+      "E@sandile"
     ],
     "bite": [
       "L:15"
@@ -47,16 +59,22 @@
     "closecombat": [
       "M"
     ],
+    "counter": [
+      "E@sandile"
+    ],
     "crunch": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "darkpulse": [
       "M"
     ],
     "dig": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
+    ],
+    "doubleedge": [
+      "E@sandile"
     ],
     "dragonclaw": [
       "M"
@@ -71,8 +89,8 @@
       "M"
     ],
     "earthquake": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "endure": [
       "M"
@@ -90,8 +108,8 @@
       "M"
     ],
     "foulplay": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "gigaimpact": [
       "M"
@@ -127,8 +145,8 @@
       "M"
     ],
     "outrage": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "powertrip": [
       "L:1"
@@ -149,15 +167,15 @@
       "L:1"
     ],
     "sandstorm": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "sandtomb": [
       "L:9"
     ],
     "scaryface": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "shadowclaw": [
       "M"
@@ -170,6 +188,9 @@
     ],
     "snarl": [
       "M"
+    ],
+    "spite": [
+      "E@sandile"
     ],
     "stealthrock": [
       "M"
@@ -207,6 +228,5 @@
     "torment": [
       "L:18"
     ]
-  },
-  "flavorText": "After clamping down with its powerful jaws, it twists its body around to rip its prey in half."
+  }
 }

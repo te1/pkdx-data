@@ -1,10 +1,11 @@
 {
   "slug": "growlithe",
   "name": "Growlithe",
-  "num": 213,
+  "num": 58,
   "types": [
     "fire"
   ],
+  "gen": 1,
   "abilities": {
     "0": "intimidate",
     "1": "flashfire",
@@ -18,16 +19,29 @@
     "spd": 50,
     "spe": 60
   },
+  "evos": [
+    "arcanine"
+  ],
+  "formes": [
+    "growlithe-hisui"
+  ],
   "weight": 19,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.75,
     "F": 0.25
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+  },
   "learnset": {
     "agility": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "bite": [
       "L:8"
@@ -45,8 +59,8 @@
       "E"
     ],
     "crunch": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "dig": [
       "M"
@@ -70,8 +84,8 @@
       "M"
     ],
     "firefang": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "firespin": [
       "M"
@@ -80,22 +94,22 @@
       "M"
     ],
     "flamethrower": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "flamewheel": [
       "L:12"
     ],
     "flareblitz": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "heatwave": [
       "M"
     ],
     "helpinghand": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "howl": [
       "L:4"
@@ -113,8 +127,8 @@
       "M"
     ],
     "playrough": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "protect": [
       "M"
@@ -132,8 +146,8 @@
       "L:28"
     ],
     "reversal": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "roar": [
       "L:44"
@@ -157,8 +171,8 @@
       "M"
     ],
     "takedown": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "terablast": [
       "M"
@@ -178,6 +192,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+  }
 }

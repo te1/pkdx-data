@@ -1,11 +1,12 @@
 {
   "slug": "snover",
   "name": "Snover",
-  "num": 352,
+  "num": 459,
   "types": [
     "grass",
     "ice"
   ],
+  "gen": 4,
   "abilities": {
     "0": "snowwarning",
     "H": "soundproof"
@@ -18,19 +19,30 @@
     "spd": 60,
     "spe": 40
   },
+  "evos": [
+    "abomasnow"
+  ],
   "weight": 50.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring."
   },
   "learnset": {
     "avalanche": [
       "M"
     ],
     "blizzard": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "bodyslam": [
       "M"
@@ -78,8 +90,8 @@
       "M"
     ],
     "icywind": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "ingrain": [
       "L:35"
@@ -165,6 +177,5 @@
     "woodhammer": [
       "L:41"
     ]
-  },
-  "flavorText": "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring."
+  }
 }

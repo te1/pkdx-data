@@ -1,11 +1,12 @@
 {
   "slug": "foongus",
   "name": "Foongus",
-  "num": 205,
+  "num": 590,
   "types": [
     "grass",
     "poison"
   ],
+  "gen": 5,
   "abilities": {
     "0": "effectspore",
     "H": "regenerator"
@@ -18,11 +19,21 @@
     "spd": 55,
     "spe": 15
   },
+  "evos": [
+    "amoonguss"
+  ],
   "weight": 1,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed."
   },
   "learnset": {
     "absorb": [
@@ -56,8 +67,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "grassknot": [
       "M"
@@ -111,8 +122,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "spore": [
       "L:48"
@@ -144,6 +155,5 @@
     "worryseed": [
       "E"
     ]
-  },
-  "flavorText": "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed."
+  }
 }

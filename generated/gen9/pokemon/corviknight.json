@@ -1,11 +1,12 @@
 {
   "slug": "corviknight",
   "name": "Corviknight",
-  "num": 42,
+  "num": 823,
   "types": [
     "flying",
     "steel"
   ],
+  "gen": 8,
   "abilities": {
     "0": "pressure",
     "1": "unnerve",
@@ -19,11 +20,19 @@
     "spd": 85,
     "spe": 67
   },
+  "prevo": "corvisquire",
+  "evoLevel": 38,
   "weight": 75,
-  "height": 22,
+  "height": 2.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "flavorText": {
+    "scarlet": "Corviknight can't serve as a taxi service in Paldea because the Pokémon's natural predators will attack it while it flies, endangering the customer."
   },
   "learnset": {
     "aerialace": [
@@ -45,11 +54,14 @@
       "M"
     ],
     "bravebird": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "bulkup": [
       "M"
+    ],
+    "defog": [
+      "E@rookidee"
     ],
     "drillpeck": [
       "L:34"
@@ -88,8 +100,8 @@
       "M"
     ],
     "irondefense": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "ironhead": [
       "M"
@@ -133,15 +145,30 @@
     "reversal": [
       "M"
     ],
+    "rocksmash": [
+      "E@rookidee"
+    ],
+    "roost": [
+      "E@rookidee"
+    ],
+    "sandattack": [
+      "E@rookidee"
+    ],
     "scaryface": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "screech": [
       "L:1"
     ],
+    "skyattack": [
+      "E@rookidee"
+    ],
     "sleeptalk": [
       "M"
+    ],
+    "spite": [
+      "E@rookidee"
     ],
     "steelbeam": [
       "M"
@@ -162,14 +189,15 @@
       "M"
     ],
     "tailwind": [
-      "M"
+      "M",
+      "E@rookidee"
     ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "terablast": [
       "M"
@@ -180,6 +208,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "Corviknight can't serve as a taxi service in Paldea because the Pokémon's natural predators will attack it while it flies, endangering the customer."
+  }
 }

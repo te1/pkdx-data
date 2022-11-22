@@ -1,10 +1,11 @@
 {
   "slug": "cacnea",
   "name": "Cacnea",
-  "num": 252,
+  "num": 331,
   "types": [
     "grass"
   ],
+  "gen": 3,
   "abilities": {
     "0": "sandveil",
     "H": "waterabsorb"
@@ -17,11 +18,22 @@
     "spd": 40,
     "spe": 35
   },
+  "evos": [
+    "cacturne"
+  ],
   "weight": 51.3,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It prefers harsh environments, such as deserts. It can survive for 30 days on water stored in its body."
   },
   "learnset": {
     "absorb": [
@@ -37,8 +49,8 @@
       "M"
     ],
     "bulletseed": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "cottonspore": [
       "L:46"
@@ -62,8 +74,8 @@
       "M"
     ],
     "energyball": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "facade": [
       "M"
@@ -138,8 +150,8 @@
       "L:13"
     ],
     "sandstorm": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "scaryface": [
       "M"
@@ -154,8 +166,8 @@
       "M"
     ],
     "spikes": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "substitute": [
       "M"
@@ -193,6 +205,5 @@
     "venoshock": [
       "M"
     ]
-  },
-  "flavorText": "It prefers harsh environments, such as deserts. It can survive for 30 days on water stored in its body."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "tropius",
   "name": "Tropius",
-  "num": 246,
+  "num": 357,
   "types": [
     "grass",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
     "0": "chlorophyll",
     "1": "solarpower",
@@ -20,10 +21,18 @@
     "spe": 51
   },
   "weight": 100,
-  "height": 20,
+  "height": 2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year."
   },
   "learnset": {
     "aerialace": [
@@ -33,15 +42,15 @@
       "M"
     ],
     "airslash": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "bodypress": [
       "M"
     ],
     "bodyslam": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "bulldoze": [
       "M"
@@ -53,8 +62,8 @@
       "E"
     ],
     "dragondance": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "dragonpulse": [
       "M"
@@ -111,8 +120,8 @@
       "E"
     ],
     "leafstorm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "leechseed": [
       "E"
@@ -121,12 +130,12 @@
       "L:1"
     ],
     "magicalleaf": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "outrage": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "protect": [
       "M"
@@ -150,8 +159,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "stomp": [
       "L:10"
@@ -198,6 +207,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year."
+  }
 }

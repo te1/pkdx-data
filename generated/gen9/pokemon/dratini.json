@@ -1,10 +1,11 @@
 {
   "slug": "dratini",
   "name": "Dratini",
-  "num": 347,
+  "num": 147,
   "types": [
     "dragon"
   ],
+  "gen": 1,
   "abilities": {
     "0": "shedskin",
     "H": "marvelscale"
@@ -17,16 +18,27 @@
     "spd": 50,
     "spe": 50
   },
+  "evos": [
+    "dragonair"
+  ],
   "weight": 3.3,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall."
+  },
   "learnset": {
     "agility": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "aquajet": [
       "E"
@@ -50,8 +62,8 @@
       "E"
     ],
     "dragondance": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "dragonpulse": [
       "M"
@@ -60,8 +72,8 @@
       "L:35"
     ],
     "dragontail": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "endure": [
       "M"
@@ -91,8 +103,8 @@
       "M"
     ],
     "hyperbeam": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "icebeam": [
       "M"
@@ -113,15 +125,15 @@
       "E"
     ],
     "outrage": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "protect": [
       "M"
     ],
     "raindance": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "rest": [
       "M"
@@ -163,8 +175,8 @@
       "M"
     ],
     "thunderwave": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "twister": [
       "L:5"
@@ -173,12 +185,11 @@
       "M"
     ],
     "waterpulse": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "wrap": [
       "L:1"
     ]
-  },
-  "flavorText": "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall."
+  }
 }

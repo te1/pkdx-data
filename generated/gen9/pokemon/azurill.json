@@ -1,11 +1,12 @@
 {
   "slug": "azurill",
   "name": "Azurill",
-  "num": 46,
+  "num": 298,
   "types": [
     "normal",
     "fairy"
   ],
+  "gen": 3,
   "abilities": {
     "0": "thickfat",
     "1": "hugepower",
@@ -19,11 +20,21 @@
     "spd": 40,
     "spe": 20
   },
+  "evos": [
+    "marill"
+  ],
   "weight": 2,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself."
   },
   "learnset": {
     "aquajet": [
@@ -45,8 +56,8 @@
       "L:6"
     ],
     "charm": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "copycat": [
       "E"
@@ -67,8 +78,8 @@
       "M"
     ],
     "helpinghand": [
-      "L:3",
-      "M"
+      "M",
+      "L:3"
     ],
     "hypervoice": [
       "M"
@@ -145,6 +156,5 @@
     "watergun": [
       "L:1"
     ]
-  },
-  "flavorText": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself."
+  }
 }

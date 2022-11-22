@@ -1,11 +1,12 @@
 {
   "slug": "bronzor",
   "name": "Bronzor",
-  "num": 153,
+  "num": 436,
   "types": [
     "steel",
     "psychic"
   ],
+  "gen": 4,
   "abilities": {
     "0": "levitate",
     "1": "heatproof",
@@ -19,9 +20,19 @@
     "spd": 86,
     "spe": 23
   },
+  "evos": [
+    "bronzong"
+  ],
   "weight": 60.5,
-  "height": 5,
-  "genderRatio": {},
+  "height": 0.5,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Ancient people believed that the pattern on Bronzor's back contained a mysterious power."
+  },
   "learnset": {
     "bodyslam": [
       "M"
@@ -36,8 +47,8 @@
       "M"
     ],
     "confuseray": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "confusion": [
       "L:1"
@@ -70,8 +81,8 @@
       "L:16"
     ],
     "heavyslam": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "helpinghand": [
       "M"
@@ -86,12 +97,12 @@
       "M"
     ],
     "imprison": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "irondefense": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "ironhead": [
       "M"
@@ -195,6 +206,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Ancient people believed that the pattern on Bronzor's back contained a mysterious power."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "shelgon",
   "name": "Shelgon",
-  "num": 277,
+  "num": 372,
   "types": [
     "dragon"
   ],
+  "gen": 3,
   "abilities": {
     "0": "rockhead",
     "H": "overcoat"
@@ -17,11 +18,22 @@
     "spd": 50,
     "spe": 50
   },
+  "prevo": "bagon",
+  "evos": [
+    "salamence"
+  ],
+  "evoLevel": 30,
   "weight": 110.5,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "The cells within its shell transform with explosive speed, preparing it for evolution."
   },
   "learnset": {
     "bite": [
@@ -34,8 +46,11 @@
       "M"
     ],
     "crunch": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
+    ],
+    "defensecurl": [
+      "E@bagon"
     ],
     "doubleedge": [
       "L:67"
@@ -47,14 +62,17 @@
       "L:1"
     ],
     "dragonclaw": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "dragondance": [
       "M"
     ],
     "dragonpulse": [
       "M"
+    ],
+    "dragonrush": [
+      "E@bagon"
     ],
     "dragontail": [
       "M"
@@ -78,8 +96,8 @@
       "M"
     ],
     "flamethrower": [
-      "L:53",
-      "M"
+      "M",
+      "L:53"
     ],
     "focusenergy": [
       "L:46"
@@ -109,12 +127,12 @@
       "M"
     ],
     "outrage": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "protect": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "raindance": [
       "M"
@@ -129,8 +147,8 @@
       "M"
     ],
     "scaryface": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "shadowclaw": [
       "M"
@@ -150,13 +168,18 @@
     "terablast": [
       "M"
     ],
+    "thrash": [
+      "E@bagon"
+    ],
     "thunderfang": [
       "M"
     ],
+    "twister": [
+      "E@bagon"
+    ],
     "zenheadbutt": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ]
-  },
-  "flavorText": "The cells within its shell transform with explosive speed, preparing it for evolution."
+  }
 }

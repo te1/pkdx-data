@@ -1,10 +1,11 @@
 {
   "slug": "arrokuda",
   "name": "Arrokuda",
-  "num": 136,
+  "num": 846,
   "types": [
     "water"
   ],
+  "gen": 8,
   "abilities": {
     "0": "swiftswim",
     "H": "propellertail"
@@ -17,19 +18,29 @@
     "spd": 30,
     "spe": 66
   },
+  "evos": [
+    "barraskewda"
+  ],
   "weight": 1,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Arrokuda can swim quickly only in a straight line. The ones that become sluggish from overeating are the first to be targeted by flocks of Wattrel."
   },
   "learnset": {
     "acupressure": [
       "E"
     ],
     "agility": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "aquajet": [
       "L:1"
@@ -47,8 +58,8 @@
       "M"
     ],
     "crunch": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "dive": [
       "L:24"
@@ -78,8 +89,8 @@
       "M"
     ],
     "liquidation": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "nightslash": [
       "E"
@@ -129,6 +140,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "Arrokuda can swim quickly only in a straight line. The ones that become sluggish from overeating are the first to be targeted by flocks of Wattrel."
+  }
 }

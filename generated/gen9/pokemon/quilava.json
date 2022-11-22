@@ -1,10 +1,11 @@
 {
   "slug": "quilava",
   "name": "Quilava",
-  "num": null,
+  "num": 156,
   "types": [
     "fire"
   ],
+  "gen": 2,
   "abilities": {
     "0": "blaze",
     "H": "flashfire"
@@ -17,12 +18,22 @@
     "spd": 65,
     "spe": 80
   },
+  "prevo": "cyndaquil",
+  "evos": [
+    "typhlosion",
+    "typhlosion-hisui"
+  ],
+  "evoLevel": 14,
   "weight": 19,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
       "M"
@@ -33,6 +44,12 @@
     "brickbreak": [
       "M"
     ],
+    "covet": [
+      "E@cyndaquil"
+    ],
+    "curse": [
+      "E@cyndaquil"
+    ],
     "defensecurl": [
       "L:24"
     ],
@@ -42,6 +59,9 @@
     "doubleedge": [
       "L:64"
     ],
+    "doublekick": [
+      "E@cyndaquil"
+    ],
     "ember": [
       "L:10"
     ],
@@ -50,6 +70,9 @@
     ],
     "eruption": [
       "L:75"
+    ],
+    "extrasensory": [
+      "E@cyndaquil"
     ],
     "facade": [
       "M"
@@ -67,12 +90,12 @@
       "M"
     ],
     "flamecharge": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "flamethrower": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "flamewheel": [
       "L:20"
@@ -82,6 +105,9 @@
     ],
     "heatwave": [
       "M"
+    ],
+    "howl": [
+      "E@cyndaquil"
     ],
     "inferno": [
       "L:53"
@@ -96,8 +122,8 @@
       "L:1"
     ],
     "overheat": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
     ],
     "playrough": [
       "M"
@@ -112,7 +138,8 @@
       "M"
     ],
     "reversal": [
-      "M"
+      "M",
+      "E@cyndaquil"
     ],
     "rollout": [
       "L:57"
@@ -130,8 +157,8 @@
       "M"
     ],
     "swift": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "tackle": [
       "L:1"

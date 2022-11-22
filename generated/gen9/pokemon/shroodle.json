@@ -1,11 +1,12 @@
 {
   "slug": "shroodle",
   "name": "Shroodle",
-  "num": 202,
+  "num": 968,
   "types": [
     "poison",
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "unburden",
     "1": "pickpocket",
@@ -19,16 +20,26 @@
     "spd": 35,
     "spe": 75
   },
+  "evos": [
+    "grafaiai"
+  ],
   "weight": 0.7,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire."
+  },
   "learnset": {
     "acidspray": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "acrobatics": [
       "M"
@@ -70,8 +81,8 @@
       "L:8"
     ],
     "gunkshot": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "helpinghand": [
       "M"
@@ -101,8 +112,8 @@
       "L:14"
     ],
     "poisonjab": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "pounce": [
       "M"
@@ -129,8 +140,8 @@
       "M"
     ],
     "substitute": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "sunnyday": [
       "M"
@@ -151,8 +162,8 @@
       "M"
     ],
     "taunt": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "terablast": [
       "M"
@@ -167,12 +178,11 @@
       "M"
     ],
     "uturn": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "venoshock": [
       "M"
     ]
-  },
-  "flavorText": "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire."
+  }
 }

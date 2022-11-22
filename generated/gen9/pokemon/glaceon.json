@@ -1,10 +1,11 @@
 {
   "slug": "glaceon",
   "name": "Glaceon",
-  "num": 186,
+  "num": 471,
   "types": [
     "ice"
   ],
+  "gen": 4,
   "abilities": {
     "0": "snowcloak",
     "H": "icebody"
@@ -17,11 +18,20 @@
     "spd": 95,
     "spe": 65
   },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Ice Stone",
   "weight": 25.9,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust."
   },
   "learnset": {
     "avalanche": [
@@ -31,15 +41,15 @@
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:25"
     ],
     "blizzard": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "bodyslam": [
       "M"
@@ -48,8 +58,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chillingwater": [
       "M"
@@ -60,11 +70,20 @@
     "covet": [
       "L:1"
     ],
+    "curse": [
+      "E@eevee"
+    ],
+    "detect": [
+      "E@eevee"
+    ],
     "dig": [
       "M"
     ],
     "doubleedge": [
       "L:1"
+    ],
+    "doublekick": [
+      "E@eevee"
     ],
     "endure": [
       "M"
@@ -74,6 +93,9 @@
     ],
     "faketears": [
       "M"
+    ],
+    "flail": [
+      "E@eevee"
     ],
     "freezedry": [
       "L:40"
@@ -85,8 +107,8 @@
       "L:1"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -98,15 +120,15 @@
       "M"
     ],
     "icefang": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "iceshard": [
       "L:20"
     ],
     "icywind": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "lastresort": [
       "L:55"
@@ -118,7 +140,8 @@
       "M"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@eevee"
     ],
     "protect": [
       "M"
@@ -142,8 +165,8 @@
       "M"
     ],
     "snowscape": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "storedpower": [
       "M"
@@ -155,8 +178,8 @@
       "M"
     ],
     "swift": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "tackle": [
       "L:1"
@@ -165,15 +188,26 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
     ],
+    "tickle": [
+      "E@eevee"
+    ],
+    "trailblaze": [
+      "M@eevee"
+    ],
     "waterpulse": [
       "M"
+    ],
+    "wish": [
+      "E@eevee"
+    ],
+    "yawn": [
+      "E@eevee"
     ]
-  },
-  "flavorText": "It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust."
+  }
 }

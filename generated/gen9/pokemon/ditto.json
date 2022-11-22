@@ -1,10 +1,11 @@
 {
   "slug": "ditto",
   "name": "Ditto",
-  "num": 212,
+  "num": 132,
   "types": [
     "normal"
   ],
+  "gen": 1,
   "abilities": {
     "0": "limber",
     "H": "imposter"
@@ -18,12 +19,17 @@
     "spe": 48
   },
   "weight": 4,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Ditto"
+  ],
+  "flavorText": {
+    "scarlet": "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise."
+  },
   "learnset": {
     "transform": [
       "L:1"
     ]
-  },
-  "flavorText": "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise."
+  }
 }

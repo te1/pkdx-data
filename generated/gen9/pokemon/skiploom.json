@@ -1,11 +1,12 @@
 {
   "slug": "skiploom",
   "name": "Skiploom",
-  "num": 17,
+  "num": 188,
   "types": [
     "grass",
     "flying"
   ],
+  "gen": 2,
   "abilities": {
     "0": "chlorophyll",
     "1": "leafguard",
@@ -19,19 +20,31 @@
     "spd": 65,
     "spe": 80
   },
+  "prevo": "hoppip",
+  "evos": [
+    "jumpluff"
+  ],
+  "evoLevel": 18,
   "weight": 1,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon's head."
   },
   "learnset": {
     "absorb": [
       "L:1"
     ],
     "acrobatics": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "aerialace": [
       "M"
@@ -43,11 +56,14 @@
       "L:41"
     ],
     "bulletseed": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "charm": [
       "M"
+    ],
+    "cottonguard": [
+      "E@hoppip"
     ],
     "cottonspore": [
       "L:31"
@@ -56,7 +72,8 @@
       "M"
     ],
     "encore": [
-      "M"
+      "M",
+      "E@hoppip"
     ],
     "endure": [
       "M"
@@ -74,14 +91,15 @@
       "M"
     ],
     "gigadrain": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "grassknot": [
       "M"
     ],
     "grassyterrain": [
-      "M"
+      "M",
+      "E@hoppip"
     ],
     "helpinghand": [
       "M"
@@ -113,6 +131,12 @@
     "protect": [
       "M"
     ],
+    "ragepowder": [
+      "E@hoppip"
+    ],
+    "raindance": [
+      "M@hoppip"
+    ],
     "reflect": [
       "M"
     ],
@@ -120,7 +144,8 @@
       "M"
     ],
     "seedbomb": [
-      "M"
+      "M",
+      "E@hoppip"
     ],
     "sleeppowder": [
       "L:12"
@@ -134,6 +159,9 @@
     "splash": [
       "L:1"
     ],
+    "strengthsap": [
+      "E@hoppip"
+    ],
     "stunspore": [
       "L:12"
     ],
@@ -142,6 +170,9 @@
     ],
     "sunnyday": [
       "M"
+    ],
+    "switcheroo": [
+      "E@hoppip"
     ],
     "swordsdance": [
       "M"
@@ -171,9 +202,11 @@
       "M"
     ],
     "uturn": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
+    ],
+    "worryseed": [
+      "E@hoppip"
     ]
-  },
-  "flavorText": "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon's head."
+  }
 }

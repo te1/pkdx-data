@@ -1,10 +1,11 @@
 {
   "slug": "greedent",
   "name": "Greedent",
-  "num": 30,
+  "num": 820,
   "types": [
     "normal"
   ],
+  "gen": 8,
   "abilities": {
     "0": "cheekpouch",
     "H": "gluttony"
@@ -17,11 +18,19 @@
     "spd": 75,
     "spe": 20
   },
+  "prevo": "skwovet",
+  "evoLevel": 24,
   "weight": 6,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "If it spots a berry tree, it will immediately go to gather berries without a sideways glance—even if it's in the middle of a battle."
   },
   "learnset": {
     "amnesia": [
@@ -30,6 +39,9 @@
     "belch": [
       "L:55"
     ],
+    "bellydrum": [
+      "E@skwovet"
+    ],
     "bite": [
       "L:1"
     ],
@@ -37,15 +49,15 @@
       "M"
     ],
     "bodyslam": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "bulldoze": [
       "M"
     ],
     "bulletseed": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "counter": [
       "L:34"
@@ -55,6 +67,9 @@
     ],
     "crunch": [
       "M"
+    ],
+    "defensecurl": [
+      "E@skwovet"
     ],
     "dig": [
       "M"
@@ -86,6 +101,9 @@
     "icefang": [
       "M"
     ],
+    "lastresort": [
+      "E@skwovet"
+    ],
     "mudshot": [
       "M"
     ],
@@ -102,8 +120,11 @@
       "M"
     ],
     "rest": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
+    ],
+    "rollout": [
+      "E@skwovet"
     ],
     "seedbomb": [
       "M"
@@ -156,9 +177,11 @@
     "thunderfang": [
       "M"
     ],
+    "trailblaze": [
+      "M@skwovet"
+    ],
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "If it spots a berry tree, it will immediately go to gather berries without a sideways glance—even if it's in the middle of a battle."
+  }
 }

@@ -1,11 +1,13 @@
 {
   "slug": "indeedee",
   "name": "Indeedee",
-  "num": 241,
+  "subName": "Male",
+  "num": 876,
   "types": [
     "psychic",
     "normal"
   ],
+  "gen": 8,
   "abilities": {
     "0": "innerfocus",
     "1": "synchronize",
@@ -19,10 +21,18 @@
     "spd": 95,
     "spe": 95
   },
+  "formes": [
+    "indeedee-f"
+  ],
   "weight": 28,
-  "height": 9,
-  "genderRatio": {
-    "M": 1
+  "height": 0.9,
+  "gender": "M",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon picks up on the positive emotions of other creatures via its horns and uses those emotions to fuel itself."
   },
   "learnset": {
     "afteryou": [
@@ -32,15 +42,15 @@
       "M"
     ],
     "calmmind": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dazzlinggleam": [
       "M"
     ],
     "disarmingvoice": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "drainingkiss": [
       "M"
@@ -49,8 +59,8 @@
       "M"
     ],
     "encore": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "endure": [
       "M"
@@ -71,8 +81,8 @@
       "L:30"
     ],
     "helpinghand": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "hypervoice": [
       "M"
@@ -102,16 +112,16 @@
       "M"
     ],
     "psybeam": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "psychic": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "psychicterrain": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "psychup": [
       "E"
@@ -132,8 +142,8 @@
       "M"
     ],
     "storedpower": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "substitute": [
       "M"
@@ -156,6 +166,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon picks up on the positive emotions of other creatures via its horns and uses those emotions to fuel itself."
+  }
 }

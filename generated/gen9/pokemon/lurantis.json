@@ -1,10 +1,11 @@
 {
   "slug": "lurantis",
   "name": "Lurantis",
-  "num": 248,
+  "num": 754,
   "types": [
     "grass"
   ],
+  "gen": 7,
   "abilities": {
     "0": "leafguard",
     "H": "contrary"
@@ -17,11 +18,20 @@
     "spd": 90,
     "spe": 45
   },
+  "prevo": "fomantis",
+  "evoCondition": "during the day",
+  "evoLevel": 34,
   "weight": 18.5,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "By masquerading as a bug Pokémon, it lowers the guard of actual bug Pokémon lured in by a scent of sweet flowers. Its sickles bring them down."
   },
   "learnset": {
     "brickbreak": [
@@ -29,6 +39,9 @@
     ],
     "bulletseed": [
       "M"
+    ],
+    "defog": [
+      "E@fomantis"
     ],
     "endure": [
       "M"
@@ -124,8 +137,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "solarblade": [
       "L:63"
@@ -134,8 +147,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "sweetscent": [
       "L:20"
@@ -155,10 +168,12 @@
     "trailblaze": [
       "M"
     ],
+    "worryseed": [
+      "E@fomantis"
+    ],
     "xscissor": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ]
-  },
-  "flavorText": "By masquerading as a bug Pokémon, it lowers the guard of actual bug Pokémon lured in by a scent of sweet flowers. Its sickles bring them down."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "wiglett",
   "name": "Wiglett",
-  "num": 288,
+  "num": 929,
   "types": [
     "water"
   ],
+  "gen": 9,
   "abilities": {
     "0": "gooey",
     "1": "rattled",
@@ -18,11 +19,21 @@
     "spd": 25,
     "spe": 95
   },
+  "evos": [
+    "wugtrio"
+  ],
   "weight": 1.8,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand."
   },
   "learnset": {
     "agility": [
@@ -41,8 +52,8 @@
       "M"
     ],
     "dig": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "earthpower": [
       "M"
@@ -72,8 +83,8 @@
       "M"
     ],
     "liquidation": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "memento": [
       "E"
@@ -82,8 +93,8 @@
       "M"
     ],
     "mudslap": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "protect": [
       "M"
@@ -134,12 +145,11 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "wrap": [
       "L:8"
     ]
-  },
-  "flavorText": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand."
+  }
 }

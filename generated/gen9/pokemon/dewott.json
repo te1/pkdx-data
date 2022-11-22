@@ -1,10 +1,11 @@
 {
   "slug": "dewott",
   "name": "Dewott",
-  "num": null,
+  "num": 502,
   "types": [
     "water"
   ],
+  "gen": 5,
   "abilities": {
     "0": "torrent",
     "H": "shellarmor"
@@ -17,19 +18,33 @@
     "spd": 60,
     "spe": 60
   },
+  "prevo": "oshawott",
+  "evos": [
+    "samurott",
+    "samurott-hisui"
+  ],
+  "evoLevel": 17,
   "weight": 24.5,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "airslash": [
-      "M"
+      "M",
+      "E@oshawott"
+    ],
+    "aquacutter": [
+      "E@oshawott"
     ],
     "aquajet": [
       "L:34"
@@ -49,12 +64,18 @@
     "chillingwater": [
       "M"
     ],
+    "copycat": [
+      "E@oshawott"
+    ],
+    "detect": [
+      "E@oshawott"
+    ],
     "dig": [
       "M"
     ],
     "encore": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "endure": [
       "M"
@@ -81,8 +102,8 @@
       "M"
     ],
     "hydropump": [
-      "L:53",
-      "M"
+      "M",
+      "L:53"
     ],
     "icebeam": [
       "M"
@@ -90,8 +111,14 @@
     "icywind": [
       "M"
     ],
+    "knockoff": [
+      "E@oshawott"
+    ],
     "liquidation": [
       "M"
+    ],
+    "nightslash": [
+      "E@oshawott"
     ],
     "protect": [
       "M"
@@ -107,6 +134,12 @@
     ],
     "retaliate": [
       "L:45"
+    ],
+    "sacredsword": [
+      "E@oshawott"
+    ],
+    "screech": [
+      "E@oshawott"
     ],
     "sleeptalk": [
       "M"
@@ -127,8 +160,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "tackle": [
       "L:1"
@@ -158,8 +191,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "xscissor": [
       "M"

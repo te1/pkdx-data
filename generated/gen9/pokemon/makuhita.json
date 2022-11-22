@@ -1,10 +1,11 @@
 {
   "slug": "makuhita",
   "name": "Makuhita",
-  "num": 116,
+  "num": 296,
   "types": [
     "fighting"
   ],
+  "gen": 3,
   "abilities": {
     "0": "thickfat",
     "1": "guts",
@@ -18,11 +19,21 @@
     "spd": 30,
     "spe": 25
   },
+  "evos": [
+    "hariyama"
+  ],
   "weight": 86.4,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.75,
     "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack."
   },
   "learnset": {
     "armthrust": [
@@ -41,8 +52,8 @@
       "M"
     ],
     "bulkup": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "bulldoze": [
       "M"
@@ -54,8 +65,8 @@
       "M"
     ],
     "closecombat": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "counter": [
       "E"
@@ -79,8 +90,8 @@
       "M"
     ],
     "endure": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "facade": [
       "M"
@@ -110,12 +121,12 @@
       "L:13"
     ],
     "heavyslam": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "helpinghand": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "icepunch": [
       "M"
@@ -151,8 +162,8 @@
       "M"
     ],
     "reversal": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "rockslide": [
       "M"
@@ -214,6 +225,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack."
+  }
 }

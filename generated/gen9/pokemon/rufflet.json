@@ -1,11 +1,12 @@
 {
   "slug": "rufflet",
   "name": "Rufflet",
-  "num": 365,
+  "num": 627,
   "types": [
     "normal",
     "flying"
   ],
+  "gen": 5,
   "abilities": {
     "0": "keeneye",
     "1": "sheerforce",
@@ -19,18 +20,27 @@
     "spd": 50,
     "spe": 60
   },
+  "evos": [
+    "braviary",
+    "braviary-hisui"
+  ],
   "weight": 10.5,
-  "height": 5,
-  "genderRatio": {
-    "M": 1
+  "height": 0.5,
+  "gender": "M",
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "They pick fights indiscriminately. They grow stronger and more powerful each time they faint or are injured."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "agility": [
       "M"
@@ -39,15 +49,15 @@
       "M"
     ],
     "airslash": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "bodyslam": [
       "M"
     ],
     "bravebird": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "bulkup": [
       "M"
@@ -110,8 +120,8 @@
       "E"
     ],
     "scaryface": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "shadowclaw": [
       "M"
@@ -132,8 +142,8 @@
       "M"
     ],
     "tailwind": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "takedown": [
       "M"
@@ -156,6 +166,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "They pick fights indiscriminately. They grow stronger and more powerful each time they faint or are injured."
+  }
 }

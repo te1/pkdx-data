@@ -1,10 +1,11 @@
 {
   "slug": "copperajah",
   "name": "Copperajah",
-  "num": 125,
+  "num": 879,
   "types": [
     "steel"
   ],
+  "gen": 8,
   "abilities": {
     "0": "sheerforce",
     "H": "heavymetal"
@@ -17,13 +18,25 @@
     "spd": 69,
     "spe": 30
   },
+  "prevo": "cufant",
+  "evoLevel": 34,
   "weight": 650,
-  "height": 30,
+  "height": 3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field",
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon was brought to Paldea long ago by people from a faraway land. It's so strong that it can easily pull an airplane."
+  },
   "learnset": {
+    "belch": [
+      "E@cufant"
+    ],
     "bodypress": [
       "M"
     ],
@@ -34,12 +47,21 @@
       "M"
     ],
     "bulldoze": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
+    ],
+    "curse": [
+      "E@cufant"
+    ],
+    "defensecurl": [
+      "E@cufant"
     ],
     "dig": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
+    ],
+    "doubleedge": [
+      "E@cufant"
     ],
     "earthpower": [
       "M"
@@ -52,6 +74,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "fissure": [
+      "E@cufant"
     ],
     "flashcannon": [
       "M"
@@ -66,8 +91,8 @@
       "L:1"
     ],
     "heavyslam": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "highhorsepower": [
       "L:58"
@@ -76,12 +101,12 @@
       "M"
     ],
     "irondefense": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "ironhead": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "mudshot": [
       "M"
@@ -90,8 +115,8 @@
       "M"
     ],
     "playrough": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "protect": [
       "M"
@@ -116,6 +141,9 @@
     ],
     "sandstorm": [
       "M"
+    ],
+    "slam": [
+      "E@cufant"
     ],
     "sleeptalk": [
       "M"
@@ -147,6 +175,9 @@
     "superpower": [
       "L:65"
     ],
+    "swagger": [
+      "E@cufant"
+    ],
     "tackle": [
       "L:1"
     ],
@@ -159,9 +190,11 @@
     "terablast": [
       "M"
     ],
+    "whirlwind": [
+      "E@cufant"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon was brought to Paldea long ago by people from a faraway land. It's so strong that it can easily pull an airplane."
+  }
 }

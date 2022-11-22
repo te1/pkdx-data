@@ -1,10 +1,12 @@
 {
   "slug": "sinistea",
   "name": "Sinistea",
-  "num": 237,
+  "subName": "Phony Forme",
+  "num": 854,
   "types": [
     "ghost"
   ],
+  "gen": 8,
   "abilities": {
     "0": "weakarmor",
     "H": "cursedbody"
@@ -17,9 +19,23 @@
     "spd": 54,
     "spe": 50
   },
+  "evos": [
+    "polteageist"
+  ],
+  "formes": [
+    "sinistea-antique"
+  ],
   "weight": 0.2,
-  "height": 1,
-  "genderRatio": {},
+  "height": 0.1,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral",
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses."
+  },
   "learnset": {
     "allyswitch": [
       "E"
@@ -52,8 +68,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "hex": [
       "M"
@@ -74,8 +90,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "nightshade": [
       "M"
@@ -99,8 +115,8 @@
       "M"
     ],
     "shadowball": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "shellsmash": [
       "L:60"
@@ -138,6 +154,5 @@
     "withdraw": [
       "L:1"
     ]
-  },
-  "flavorText": "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses."
+  }
 }

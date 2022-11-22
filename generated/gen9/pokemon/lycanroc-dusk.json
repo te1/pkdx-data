@@ -1,0 +1,225 @@
+{
+  "slug": "lycanroc-dusk",
+  "name": "Lycanroc",
+  "subName": "Dusk Form",
+  "num": 745,
+  "types": [
+    "rock"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "toughclaws"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 117,
+    "def": 65,
+    "spa": 55,
+    "spd": 65,
+    "spe": 110
+  },
+  "prevo": "rockruff",
+  "evoCondition": "from a special Rockruff",
+  "evoLevel": 25,
+  "baseSpecies": "lycanroc",
+  "weight": 25,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "accelerock": [
+      "L:1"
+    ],
+    "bite": [
+      "L:20"
+    ],
+    "bodyslam": [
+      "M@rockruff"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "counter": [
+      "L:1"
+    ],
+    "crunch": [
+      "M",
+      "L:42"
+    ],
+    "crushclaw": [
+      "L:0"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleteam": [
+      "L:1"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "endeavor": [
+      "E@rockruff"
+    ],
+    "endure": [
+      "M",
+      "L:1"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "howl": [
+      "L:16"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lastresort": [
+      "E@rockruff"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mudslap": [
+      "M@rockruff"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychicfangs": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "quickguard": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M",
+      "L:1"
+    ],
+    "roar": [
+      "L:30"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockslide": [
+      "M",
+      "L:36"
+    ],
+    "rockthrow": [
+      "L:12"
+    ],
+    "rocktomb": [
+      "M",
+      "L:24"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M",
+      "L:48"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "stealthrock": [
+      "M",
+      "L:54"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M",
+      "L:60"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:1"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M",
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thrash": [
+      "E@rockruff"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

@@ -1,10 +1,11 @@
 {
   "slug": "cinderace",
   "name": "Cinderace",
-  "num": null,
+  "num": 815,
   "types": [
     "fire"
   ],
+  "gen": 8,
   "abilities": {
     "0": "blaze",
     "H": "libero"
@@ -17,19 +18,26 @@
     "spd": 75,
     "spe": 119
   },
+  "prevo": "raboot",
+  "evoLevel": 35,
   "weight": 33,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "batonpass": [
       "M"
@@ -86,8 +94,8 @@
       "M"
     ],
     "flamecharge": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "flamethrower": [
       "M"
@@ -118,6 +126,9 @@
     ],
     "helpinghand": [
       "M"
+    ],
+    "highjumpkick": [
+      "E@scorbunny"
     ],
     "hyperbeam": [
       "M"
@@ -155,6 +166,9 @@
     "reversal": [
       "M"
     ],
+    "sandattack": [
+      "E@scorbunny"
+    ],
     "shadowball": [
       "M"
     ],
@@ -167,8 +181,14 @@
     "substitute": [
       "M"
     ],
+    "suckerpunch": [
+      "E@scorbunny"
+    ],
     "sunnyday": [
       "M"
+    ],
+    "superfang": [
+      "E@scorbunny"
     ],
     "swift": [
       "M"

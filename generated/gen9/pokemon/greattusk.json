@@ -1,14 +1,14 @@
 {
   "slug": "greattusk",
   "name": "Great Tusk",
-  "num": 376,
+  "num": 978,
   "types": [
     "ground",
     "fighting"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "protosynthesis",
-    "H": "protosynthesis"
+    "0": "protosynthesis"
   },
   "baseStats": {
     "hp": 115,
@@ -19,8 +19,14 @@
     "spe": 87
   },
   "weight": 320,
-  "height": 22,
-  "genderRatio": {},
+  "height": 2.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book."
+  },
   "learnset": {
     "bodypress": [
       "M"
@@ -29,19 +35,19 @@
       "M"
     ],
     "brickbreak": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "bulkup": [
       "M"
     ],
     "bulldoze": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "closecombat": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "defensecurl": [
       "L:1"
@@ -53,8 +59,8 @@
       "M"
     ],
     "earthquake": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "endeavor": [
       "L:70"
@@ -72,8 +78,8 @@
       "M"
     ],
     "gigaimpact": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "headlongrush": [
       "L:91"
@@ -154,8 +160,8 @@
       "M"
     ],
     "stompingtantrum": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "stoneedge": [
       "M"
@@ -164,15 +170,15 @@
       "M"
     ],
     "sunnyday": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "terablast": [
       "M"
@@ -183,6 +189,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book."
+  }
 }

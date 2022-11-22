@@ -1,10 +1,11 @@
 {
   "slug": "quilladin",
   "name": "Quilladin",
-  "num": null,
+  "num": 651,
   "types": [
     "grass"
   ],
+  "gen": 6,
   "abilities": {
     "0": "overgrow",
     "H": "bulletproof"
@@ -17,35 +18,50 @@
     "spd": 58,
     "spe": 57
   },
+  "prevo": "chespin",
+  "evos": [
+    "chesnaught"
+  ],
+  "evoLevel": 16,
   "weight": 29,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "bellydrum": [
+      "E@chespin"
     ],
     "bite": [
       "L:11"
     ],
     "bodyslam": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "brickbreak": [
       "M"
     ],
     "bulkup": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "bulldoze": [
       "M"
     ],
     "bulletseed": [
       "M"
+    ],
+    "curse": [
+      "E@chespin"
     ],
     "dig": [
       "M"
@@ -108,8 +124,8 @@
       "M"
     ],
     "mudshot": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "painsplit": [
       "L:47"
@@ -122,6 +138,9 @@
     ],
     "protect": [
       "M"
+    ],
+    "quickguard": [
+      "E@chespin"
     ],
     "raindance": [
       "M"
@@ -142,8 +161,8 @@
       "L:8"
     ],
     "seedbomb": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "shadowclaw": [
       "M"
@@ -155,7 +174,8 @@
       "M"
     ],
     "spikes": [
-      "M"
+      "M",
+      "E@chespin"
     ],
     "stompingtantrum": [
       "M"
@@ -169,12 +189,18 @@
     "sunnyday": [
       "M"
     ],
+    "superfang": [
+      "E@chespin"
+    ],
     "swift": [
       "M"
     ],
+    "synthesis": [
+      "E@chespin"
+    ],
     "takedown": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "taunt": [
       "M"
@@ -190,6 +216,9 @@
     ],
     "vinewhip": [
       "L:1"
+    ],
+    "wideguard": [
+      "E@chespin"
     ],
     "woodhammer": [
       "L:53"

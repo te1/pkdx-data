@@ -1,10 +1,11 @@
 {
   "slug": "magikarp",
   "name": "Magikarp",
-  "num": 134,
+  "num": 129,
   "types": [
     "water"
   ],
+  "gen": 1,
   "abilities": {
     "0": "swiftswim",
     "H": "rattled"
@@ -17,11 +18,22 @@
     "spd": 20,
     "spe": 80
   },
+  "evos": [
+    "gyarados"
+  ],
   "weight": 10,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet."
   },
   "learnset": {
     "flail": [
@@ -33,6 +45,5 @@
     "tackle": [
       "L:15"
     ]
-  },
-  "flavorText": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet."
+  }
 }

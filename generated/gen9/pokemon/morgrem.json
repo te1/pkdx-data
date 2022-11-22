@@ -1,11 +1,12 @@
 {
   "slug": "morgrem",
   "name": "Morgrem",
-  "num": 286,
+  "num": 860,
   "types": [
     "dark",
     "fairy"
   ],
+  "gen": 8,
   "abilities": {
     "0": "prankster",
     "1": "frisk",
@@ -19,10 +20,20 @@
     "spd": 55,
     "spe": 70
   },
+  "prevo": "impidimp",
+  "evos": [
+    "grimmsnarl"
+  ],
+  "evoLevel": 32,
   "weight": 12.5,
-  "height": 8,
-  "genderRatio": {
-    "M": 1
+  "height": 0.8,
+  "gender": "M",
+  "eggGroups": [
+    "Fairy",
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "Morgrem prefers dirty tactics, like ambushing, because it doesn't have confidence in its brawn."
   },
   "learnset": {
     "assurance": [
@@ -38,8 +49,8 @@
       "L:1"
     ],
     "darkpulse": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "dazzlinggleam": [
       "M"
@@ -60,8 +71,8 @@
       "L:1"
     ],
     "faketears": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "falsesurrender": [
       "L:0"
@@ -73,8 +84,8 @@
       "M"
     ],
     "foulplay": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "imprison": [
       "M"
@@ -95,12 +106,15 @@
       "M"
     ],
     "nastyplot": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
+    ],
+    "partingshot": [
+      "E@impidimp"
     ],
     "playrough": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "protect": [
       "M"
@@ -153,6 +167,5 @@
     "trick": [
       "M"
     ]
-  },
-  "flavorText": "Morgrem prefers dirty tactics, like ambushing, because it doesn't have confidence in its brawn."
+  }
 }

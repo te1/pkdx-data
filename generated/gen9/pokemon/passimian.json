@@ -1,10 +1,11 @@
 {
   "slug": "passimian",
   "name": "Passimian",
-  "num": 314,
+  "num": 766,
   "types": [
     "fighting"
   ],
+  "gen": 7,
   "abilities": {
     "0": "receiver",
     "H": "defiant"
@@ -18,10 +19,17 @@
     "spe": 80
   },
   "weight": 82.8,
-  "height": 20,
+  "height": 2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill."
   },
   "learnset": {
     "acrobatics": [
@@ -40,8 +48,8 @@
       "M"
     ],
     "bulkup": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "bulldoze": [
       "M"
@@ -50,8 +58,8 @@
       "M"
     ],
     "closecombat": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "counter": [
       "E"
@@ -78,8 +86,8 @@
       "E"
     ],
     "fling": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "focusblast": [
       "M"
@@ -88,8 +96,8 @@
       "L:10"
     ],
     "gigaimpact": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "grassknot": [
       "M"
@@ -131,8 +139,8 @@
       "M"
     ],
     "reversal": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "rockslide": [
       "M"
@@ -144,8 +152,8 @@
       "M"
     ],
     "scaryface": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "seedbomb": [
       "M"
@@ -169,8 +177,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "taunt": [
       "M"
@@ -190,6 +198,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill."
+  }
 }

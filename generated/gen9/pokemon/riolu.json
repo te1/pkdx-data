@@ -1,10 +1,11 @@
 {
   "slug": "riolu",
   "name": "Riolu",
-  "num": 163,
+  "num": 447,
   "types": [
     "fighting"
   ],
+  "gen": 4,
   "abilities": {
     "0": "steadfast",
     "1": "innerfocus",
@@ -18,11 +19,21 @@
     "spd": 40,
     "spe": 60
   },
+  "evos": [
+    "lucario"
+  ],
   "weight": 20.2,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "They communicate with one another using their auras. They are able to run all through the night."
   },
   "learnset": {
     "aerialace": [
@@ -77,8 +88,8 @@
       "M"
     ],
     "endure": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "facade": [
       "M"
@@ -99,8 +110,8 @@
       "L:36"
     ],
     "helpinghand": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "highjumpkick": [
       "E"
@@ -118,8 +129,8 @@
       "M"
     ],
     "metalclaw": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "nastyplot": [
       "M"
@@ -143,8 +154,8 @@
       "M"
     ],
     "reversal": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "rockslide": [
       "M"
@@ -174,8 +185,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "takedown": [
       "M"
@@ -198,6 +209,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "They communicate with one another using their auras. They are able to run all through the night."
+  }
 }

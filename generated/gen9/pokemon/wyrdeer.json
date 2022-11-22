@@ -1,11 +1,12 @@
 {
   "slug": "wyrdeer",
   "name": "Wyrdeer",
-  "num": null,
+  "num": 899,
   "types": [
     "normal",
     "psychic"
   ],
+  "gen": 8,
   "abilities": {
     "0": "intimidate",
     "1": "frisk",
@@ -19,12 +20,19 @@
     "spd": 75,
     "spe": 65
   },
+  "prevo": "stantler",
+  "evoType": "other",
+  "evoCondition": "Use Agile style Psyshield Bash 20 times",
   "weight": 95.1,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "agility": [
       "M"
@@ -39,15 +47,15 @@
       "M"
     ],
     "calmmind": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "chargebeam": [
       "M"
     ],
     "confuseray": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "dig": [
       "M"
@@ -83,8 +91,8 @@
       "L:10"
     ],
     "imprison": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "leer": [
       "L:3"
@@ -159,8 +167,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "terablast": [
       "M"
@@ -190,8 +198,8 @@
       "M"
     ],
     "zenheadbutt": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ]
   }
 }

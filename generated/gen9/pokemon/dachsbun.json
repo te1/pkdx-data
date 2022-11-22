@@ -1,13 +1,13 @@
 {
   "slug": "dachsbun",
   "name": "Dachsbun",
-  "num": 77,
+  "num": 971,
   "types": [
     "fairy"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "wellbakedbody",
-    "H": "aromaveil"
+    "0": "wellbakedbody"
   },
   "baseStats": {
     "hp": 57,
@@ -17,11 +17,20 @@
     "spd": 80,
     "spe": 95
   },
+  "prevo": "fidough",
+  "evoLevel": 26,
   "weight": 14.9,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages."
   },
   "learnset": {
     "agility": [
@@ -31,8 +40,8 @@
       "L:15"
     ],
     "batonpass": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "bite": [
       "L:11"
@@ -44,15 +53,18 @@
       "M"
     ],
     "charm": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
+    ],
+    "copycat": [
+      "E@fidough"
     ],
     "covet": [
       "L:8"
     ],
     "crunch": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "dazzlinggleam": [
       "M"
@@ -84,6 +96,9 @@
     "helpinghand": [
       "M"
     ],
+    "howl": [
+      "E@fidough"
+    ],
     "hyperbeam": [
       "M"
     ],
@@ -106,8 +121,8 @@
       "M"
     ],
     "playrough": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "protect": [
       "M"
@@ -142,6 +157,9 @@
     "sunnyday": [
       "M"
     ],
+    "sweetscent": [
+      "E@fidough"
+    ],
     "tackle": [
       "L:1"
     ],
@@ -160,9 +178,14 @@
     "trailblaze": [
       "M"
     ],
+    "wish": [
+      "E@fidough"
+    ],
     "workup": [
       "L:22"
+    ],
+    "yawn": [
+      "E@fidough"
     ]
-  },
-  "flavorText": "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages."
+  }
 }

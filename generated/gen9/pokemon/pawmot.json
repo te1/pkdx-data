@@ -1,11 +1,12 @@
 {
   "slug": "pawmot",
   "name": "Pawmot",
-  "num": 24,
+  "num": 956,
   "types": [
     "electric",
     "fighting"
   ],
+  "gen": 9,
   "abilities": {
     "0": "voltabsorb",
     "1": "naturalcure",
@@ -19,16 +20,25 @@
     "spd": 60,
     "spe": 105
   },
+  "prevo": "pawmo",
+  "evoType": "other",
+  "evoCondition": "walk 1000 steps in Let's Go",
   "weight": 41,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements."
+  },
   "learnset": {
     "agility": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "armthrust": [
       "L:25"
@@ -58,15 +68,15 @@
       "M"
     ],
     "closecombat": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "crunch": [
       "M"
     ],
     "dig": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "discharge": [
       "L:49"
@@ -94,6 +104,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "fakeout": [
+      "E@pawmi"
     ],
     "firepunch": [
       "M"
@@ -127,6 +140,9 @@
     ],
     "lowsweep": [
       "M"
+    ],
+    "machpunch": [
+      "E@pawmi"
     ],
     "metalclaw": [
       "M"
@@ -179,6 +195,9 @@
     "sunnyday": [
       "M"
     ],
+    "sweetkiss": [
+      "E@pawmi"
+    ],
     "swift": [
       "M"
     ],
@@ -207,16 +226,18 @@
       "L:3"
     ],
     "thunderwave": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "voltswitch": [
       "M"
     ],
     "wildcharge": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "wish": [
+      "E@pawmi"
     ]
-  },
-  "flavorText": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements."
+  }
 }

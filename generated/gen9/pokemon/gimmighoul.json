@@ -1,13 +1,13 @@
 {
   "slug": "gimmighoul",
   "name": "Gimmighoul",
-  "num": 391,
+  "num": 976,
   "types": [
     "ghost"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "rattled",
-    "H": "rattled"
+    "0": "rattled"
   },
   "baseStats": {
     "hp": 45,
@@ -17,9 +17,18 @@
     "spd": 70,
     "spe": 10
   },
+  "evos": [
+    "gholdengo"
+  ],
   "weight": 5,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure."
+  },
   "learnset": {
     "astonish": [
       "L:1"
@@ -75,6 +84,5 @@
     "thief": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure."
+  }
 }

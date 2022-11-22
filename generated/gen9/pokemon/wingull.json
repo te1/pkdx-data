@@ -1,11 +1,12 @@
 {
   "slug": "wingull",
   "name": "Wingull",
-  "num": 132,
+  "num": 278,
   "types": [
     "water",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
     "0": "keeneye",
     "1": "hydration",
@@ -19,31 +20,42 @@
     "spd": 30,
     "spe": 85
   },
+  "evos": [
+    "pelipper"
+  ],
   "weight": 9.5,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "agility": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "aircutter": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "airslash": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "aquaring": [
       "E"
@@ -76,8 +88,8 @@
       "M"
     ],
     "hurricane": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "hydropump": [
       "M"
@@ -158,8 +170,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "wideguard": [
       "E"
@@ -167,6 +179,5 @@
     "wingattack": [
       "L:15"
     ]
-  },
-  "flavorText": "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
+  }
 }

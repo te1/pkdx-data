@@ -1,10 +1,11 @@
 {
   "slug": "corvisquire",
   "name": "Corvisquire",
-  "num": 41,
+  "num": 822,
   "types": [
     "flying"
   ],
+  "gen": 8,
   "abilities": {
     "0": "keeneye",
     "1": "unnerve",
@@ -18,11 +19,22 @@
     "spd": 55,
     "spe": 77
   },
+  "prevo": "rookidee",
+  "evos": [
+    "corviknight"
+  ],
+  "evoLevel": 18,
   "weight": 16,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "flavorText": {
+    "scarlet": "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon."
   },
   "learnset": {
     "aerialace": [
@@ -38,8 +50,11 @@
       "M"
     ],
     "bravebird": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
+    ],
+    "defog": [
+      "E@rookidee"
     ],
     "drillpeck": [
       "L:34"
@@ -89,12 +104,27 @@
     "reversal": [
       "M"
     ],
+    "rocksmash": [
+      "E@rookidee"
+    ],
+    "roost": [
+      "E@rookidee"
+    ],
+    "sandattack": [
+      "E@rookidee"
+    ],
     "scaryface": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
+    ],
+    "skyattack": [
+      "E@rookidee"
     ],
     "sleeptalk": [
       "M"
+    ],
+    "spite": [
+      "E@rookidee"
     ],
     "substitute": [
       "M"
@@ -109,14 +139,15 @@
       "M"
     ],
     "tailwind": [
-      "M"
+      "M",
+      "E@rookidee"
     ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "terablast": [
       "M"
@@ -127,6 +158,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon."
+  }
 }

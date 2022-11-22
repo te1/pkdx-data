@@ -1,11 +1,12 @@
 {
   "slug": "abomasnow",
   "name": "Abomasnow",
-  "num": 353,
+  "num": 460,
   "types": [
     "grass",
     "ice"
   ],
+  "gen": 4,
   "abilities": {
     "0": "snowwarning",
     "H": "soundproof"
@@ -18,11 +19,20 @@
     "spd": 85,
     "spe": 60
   },
+  "prevo": "snover",
+  "evoLevel": 40,
   "weight": 135.5,
-  "height": 22,
+  "height": 2.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards."
   },
   "learnset": {
     "auroraveil": [
@@ -32,8 +42,8 @@
       "M"
     ],
     "blizzard": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "bodypress": [
       "M"
@@ -52,6 +62,9 @@
     ],
     "chillingwater": [
       "M"
+    ],
+    "doubleedge": [
+      "E@snover"
     ],
     "earthpower": [
       "M"
@@ -83,6 +96,9 @@
     "grassknot": [
       "M"
     ],
+    "growth": [
+      "E@snover"
+    ],
     "helpinghand": [
       "M"
     ],
@@ -93,8 +109,8 @@
       "M"
     ],
     "icepunch": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "iceshard": [
       "L:15"
@@ -103,8 +119,8 @@
       "M"
     ],
     "icywind": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "ingrain": [
       "L:35"
@@ -114,6 +130,9 @@
     ],
     "leafstorm": [
       "M"
+    ],
+    "leechseed": [
+      "E@snover"
     ],
     "leer": [
       "L:1"
@@ -172,6 +191,9 @@
     "solarbeam": [
       "M"
     ],
+    "stomp": [
+      "E@snover"
+    ],
     "stompingtantrum": [
       "M"
     ],
@@ -196,9 +218,11 @@
     "waterpulse": [
       "M"
     ],
+    "weatherball": [
+      "E@snover"
+    ],
     "woodhammer": [
       "L:43"
     ]
-  },
-  "flavorText": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards."
+  }
 }

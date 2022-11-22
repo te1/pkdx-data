@@ -1,10 +1,11 @@
 {
   "slug": "gothita",
   "name": "Gothita",
-  "num": 234,
+  "num": 574,
   "types": [
     "psychic"
   ],
+  "gen": 5,
   "abilities": {
     "0": "frisk",
     "1": "competitive",
@@ -18,19 +19,29 @@
     "spd": 65,
     "spe": 45
   },
+  "evos": [
+    "gothorita"
+  ],
   "weight": 5.8,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.25,
     "F": 0.75
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent."
   },
   "learnset": {
     "calmmind": [
       "M"
     ],
     "charm": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "confusion": [
       "L:1"
@@ -51,8 +62,8 @@
       "E"
     ],
     "faketears": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "flatter": [
       "L:40"
@@ -106,12 +117,12 @@
       "M"
     ],
     "psybeam": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "psychic": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "psychicterrain": [
       "M"
@@ -120,8 +131,8 @@
       "L:33"
     ],
     "psyshock": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "raindance": [
       "M"
@@ -186,6 +197,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent."
+  }
 }

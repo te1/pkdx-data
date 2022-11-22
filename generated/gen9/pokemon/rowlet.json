@@ -1,11 +1,12 @@
 {
   "slug": "rowlet",
   "name": "Rowlet",
-  "num": null,
+  "num": 722,
   "types": [
     "grass",
     "flying"
   ],
+  "gen": 7,
   "abilities": {
     "0": "overgrow",
     "H": "longreach"
@@ -18,12 +19,20 @@
     "spd": 50,
     "spe": 42
   },
+  "evos": [
+    "dartrix"
+  ],
   "weight": 1.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
       "M"
@@ -38,15 +47,15 @@
       "L:6"
     ],
     "bravebird": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "bulletseed": [
       "M"
     ],
     "confuseray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "defog": [
       "E"
@@ -106,8 +115,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "nightshade": [
       "M"

@@ -1,13 +1,13 @@
 {
   "slug": "vigoroth",
   "name": "Vigoroth",
-  "num": 79,
+  "num": 288,
   "types": [
     "normal"
   ],
+  "gen": 3,
   "abilities": {
-    "0": "vitalspirit",
-    "H": "vitalspirit"
+    "0": "vitalspirit"
   },
   "baseStats": {
     "hp": 80,
@@ -17,24 +17,40 @@
     "spd": 55,
     "spe": 90
   },
+  "prevo": "slakoth",
+  "evos": [
+    "slaking"
+  ],
+  "evoLevel": 18,
   "weight": 46.5,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
+    "afteryou": [
+      "E@slakoth"
+    ],
     "amnesia": [
-      "M"
+      "M",
+      "L:17@slakoth"
     ],
     "blizzard": [
       "M"
     ],
     "bodyslam": [
-      "M"
+      "M",
+      "E@slakoth"
     ],
     "brickbreak": [
       "M"
@@ -51,6 +67,15 @@
     "counter": [
       "L:33"
     ],
+    "covet": [
+      "L:22@slakoth"
+    ],
+    "crushclaw": [
+      "E@slakoth"
+    ],
+    "curse": [
+      "E@slakoth"
+    ],
     "dig": [
       "M"
     ],
@@ -61,12 +86,12 @@
       "M"
     ],
     "encore": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "endure": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "facade": [
       "M"
@@ -79,6 +104,9 @@
     ],
     "firepunch": [
       "M"
+    ],
+    "flail": [
+      "L:33@slakoth"
     ],
     "flamethrower": [
       "M"
@@ -100,6 +128,12 @@
     ],
     "gunkshot": [
       "M"
+    ],
+    "hammerarm": [
+      "E@slakoth"
+    ],
+    "headbutt": [
+      "L:14@slakoth"
     ],
     "helpinghand": [
       "M"
@@ -134,11 +168,15 @@
     "mudslap": [
       "M"
     ],
+    "nightslash": [
+      "E@slakoth"
+    ],
     "outrage": [
       "M"
     ],
     "playrough": [
-      "M"
+      "M",
+      "L:38@slakoth"
     ],
     "poisonjab": [
       "M"
@@ -153,8 +191,8 @@
       "M"
     ],
     "reversal": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "rockslide": [
       "M"
@@ -177,11 +215,18 @@
     "shadowclaw": [
       "M"
     ],
+    "slackoff": [
+      "L:9@slakoth"
+    ],
     "slash": [
-      "L:23"
+      "L:23",
+      "E@slakoth"
     ],
     "sleeptalk": [
       "M"
+    ],
+    "snore": [
+      "E@slakoth"
     ],
     "solarbeam": [
       "M"
@@ -222,6 +267,9 @@
     "thunderwave": [
       "M"
     ],
+    "tickle": [
+      "E@slakoth"
+    ],
     "trailblaze": [
       "M"
     ],
@@ -231,9 +279,11 @@
     "xscissor": [
       "M"
     ],
+    "yawn": [
+      "L:1@slakoth"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
+  }
 }

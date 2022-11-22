@@ -1,10 +1,11 @@
 {
   "slug": "torkoal",
   "name": "Torkoal",
-  "num": 150,
+  "num": 324,
   "types": [
     "fire"
   ],
+  "gen": 3,
   "abilities": {
     "0": "whitesmoke",
     "1": "drought",
@@ -19,15 +20,22 @@
     "spe": 20
   },
   "weight": 80.4,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It burns coal inside its shell for energy. It blows out black soot if it is endangered."
+  },
   "learnset": {
     "amnesia": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "ancientpower": [
       "E"
@@ -36,8 +44,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "bulldoze": [
       "M"
@@ -82,8 +90,8 @@
       "M"
     ],
     "flamethrower": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "flamewheel": [
       "L:20"
@@ -95,8 +103,8 @@
       "M"
     ],
     "heatwave": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "heavyslam": [
       "M"
@@ -111,8 +119,8 @@
       "L:56"
     ],
     "irondefense": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "lavaplume": [
       "L:28"
@@ -121,8 +129,8 @@
       "M"
     ],
     "protect": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "rapidspin": [
       "L:8"
@@ -190,6 +198,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It burns coal inside its shell for energy. It blows out black soot if it is endangered."
+  }
 }

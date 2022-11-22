@@ -1,10 +1,11 @@
 {
   "slug": "vaporeon",
   "name": "Vaporeon",
-  "num": 180,
+  "num": 134,
   "types": [
     "water"
   ],
+  "gen": 1,
   "abilities": {
     "0": "waterabsorb",
     "H": "hydration"
@@ -17,11 +18,20 @@
     "spd": 95,
     "spe": 65
   },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Water Stone",
   "weight": 29,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's."
   },
   "learnset": {
     "acidarmor": [
@@ -37,8 +47,8 @@
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:1"
@@ -53,8 +63,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chillingwater": [
       "M"
@@ -65,11 +75,20 @@
     "covet": [
       "L:1"
     ],
+    "curse": [
+      "E@eevee"
+    ],
+    "detect": [
+      "E@eevee"
+    ],
     "dig": [
       "M"
     ],
     "doubleedge": [
       "L:1"
+    ],
+    "doublekick": [
+      "E@eevee"
     ],
     "endure": [
       "M"
@@ -79,6 +98,9 @@
     ],
     "faketears": [
       "M"
+    ],
+    "flail": [
+      "E@eevee"
     ],
     "gigaimpact": [
       "M"
@@ -90,12 +112,12 @@
       "L:20"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hydropump": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "hyperbeam": [
       "M"
@@ -119,7 +141,8 @@
       "L:40"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@eevee"
     ],
     "protect": [
       "M"
@@ -155,8 +178,8 @@
       "M"
     ],
     "swift": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "tackle": [
       "L:1"
@@ -165,11 +188,14 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
+    ],
+    "tickle": [
+      "E@eevee"
     ],
     "trailblaze": [
       "M"
@@ -181,9 +207,14 @@
       "L:0"
     ],
     "waterpulse": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
+    ],
+    "wish": [
+      "E@eevee"
+    ],
+    "yawn": [
+      "E@eevee"
     ]
-  },
-  "flavorText": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's."
+  }
 }

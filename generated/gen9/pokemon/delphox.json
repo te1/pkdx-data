@@ -1,11 +1,12 @@
 {
   "slug": "delphox",
   "name": "Delphox",
-  "num": null,
+  "num": 655,
   "types": [
     "fire",
     "psychic"
   ],
+  "gen": 6,
   "abilities": {
     "0": "blaze",
     "H": "magician"
@@ -18,12 +19,18 @@
     "spd": 100,
     "spe": 104
   },
+  "prevo": "braixen",
+  "evoLevel": 36,
   "weight": 39,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "agility": [
       "M"
@@ -39,6 +46,9 @@
     ],
     "confuseray": [
       "M"
+    ],
+    "copycat": [
+      "E@fennekin"
     ],
     "dazzlinggleam": [
       "M"
@@ -56,8 +66,8 @@
       "M"
     ],
     "fireblast": [
-      "L:74",
-      "M"
+      "M",
+      "L:74"
     ],
     "firepledge": [
       "M"
@@ -66,16 +76,16 @@
       "M"
     ],
     "firespin": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "flamecharge": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "flamethrower": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "flareblitz": [
       "M"
@@ -96,7 +106,8 @@
       "M"
     ],
     "heatwave": [
-      "M"
+      "M",
+      "E@fennekin"
     ],
     "helpinghand": [
       "M"
@@ -113,18 +124,22 @@
     "hypervoice": [
       "M"
     ],
+    "hypnosis": [
+      "E@fennekin"
+    ],
     "imprison": [
       "M"
     ],
     "lightscreen": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "lowkick": [
       "M"
     ],
     "magicroom": [
-      "L:68"
+      "L:68",
+      "E@fennekin"
     ],
     "metronome": [
       "M"
@@ -151,19 +166,19 @@
       "M"
     ],
     "psybeam": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "psychic": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "psychicterrain": [
       "M"
     ],
     "psyshock": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "raindance": [
       "M"
@@ -181,8 +196,8 @@
       "L:1"
     ],
     "shadowball": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "skillswap": [
       "M"
@@ -200,8 +215,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "swift": [
       "M"
@@ -231,8 +246,11 @@
       "M"
     ],
     "willowisp": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
+    ],
+    "wish": [
+      "E@fennekin"
     ],
     "zenheadbutt": [
       "M"

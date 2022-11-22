@@ -1,13 +1,13 @@
 {
   "slug": "mismagius",
   "name": "Mismagius",
-  "num": 115,
+  "num": 429,
   "types": [
     "ghost"
   ],
+  "gen": 4,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 60,
@@ -17,11 +17,20 @@
     "spd": 105,
     "spe": 105
   },
+  "prevo": "misdreavus",
+  "evoType": "useItem",
+  "evoItem": "Dusk Stone",
   "weight": 4.4,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power."
   },
   "learnset": {
     "astonish": [
@@ -37,13 +46,23 @@
       "M"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "L:14@misdreavus"
+    ],
+    "confusion": [
+      "L:1@misdreavus"
+    ],
+    "curse": [
+      "E@misdreavus"
     ],
     "darkpulse": [
       "M"
     ],
     "dazzlinggleam": [
       "M"
+    ],
+    "destinybond": [
+      "E@misdreavus"
     ],
     "drainingkiss": [
       "M"
@@ -76,7 +95,8 @@
       "M"
     ],
     "hex": [
-      "M"
+      "M",
+      "L:23@misdreavus"
     ],
     "hyperbeam": [
       "M"
@@ -88,11 +108,18 @@
       "M"
     ],
     "imprison": [
-      "M"
+      "M",
+      "E@misdreavus"
     ],
     "magicalleaf": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "meanlook": [
+      "L:19@misdreavus"
+    ],
+    "memento": [
+      "E@misdreavus"
     ],
     "mysticalfire": [
       "L:1"
@@ -103,19 +130,29 @@
     "nightshade": [
       "M"
     ],
+    "painsplit": [
+      "L:32@misdreavus"
+    ],
+    "payback": [
+      "L:37@misdreavus"
+    ],
+    "perishsong": [
+      "L:46@misdreavus"
+    ],
     "phantomforce": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "powergem": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
     ],
     "psybeam": [
-      "M"
+      "M",
+      "L:28@misdreavus"
     ],
     "psychic": [
       "M"
@@ -132,8 +169,15 @@
     "scaryface": [
       "M"
     ],
+    "screech": [
+      "E@misdreavus"
+    ],
     "shadowball": [
-      "M"
+      "M",
+      "L:41@misdreavus"
+    ],
+    "shadowsneak": [
+      "E@misdreavus"
     ],
     "skillswap": [
       "M"
@@ -145,13 +189,17 @@
       "M"
     ],
     "spite": [
-      "L:1"
+      "L:1",
+      "E@misdreavus"
     ],
     "storedpower": [
       "M"
     ],
     "substitute": [
       "M"
+    ],
+    "suckerpunch": [
+      "E@misdreavus"
     ],
     "sunnyday": [
       "M"
@@ -185,7 +233,9 @@
     ],
     "willowisp": [
       "M"
+    ],
+    "wonderroom": [
+      "E@misdreavus"
     ]
-  },
-  "flavorText": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power."
+  }
 }

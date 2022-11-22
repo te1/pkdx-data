@@ -1,13 +1,13 @@
 {
   "slug": "regidrago",
   "name": "Regidrago",
-  "num": null,
+  "num": 895,
   "types": [
     "dragon"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "dragonsmaw",
-    "H": "dragonsmaw"
+    "0": "dragonsmaw"
   },
   "baseStats": {
     "hp": 200,
@@ -18,8 +18,13 @@
     "spe": 80
   },
   "weight": 200,
-  "height": 21,
-  "genderRatio": {},
+  "height": 2.1,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "ancientpower": [
       "L:12"
@@ -31,8 +36,8 @@
       "M"
     ],
     "crunch": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "dracometeor": [
       "M"
@@ -41,12 +46,12 @@
       "L:18"
     ],
     "dragonclaw": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "dragondance": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "dragonenergy": [
       "L:66"
@@ -82,8 +87,8 @@
       "L:42"
     ],
     "hyperbeam": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "icefang": [
       "M"

@@ -1,10 +1,11 @@
 {
   "slug": "shuppet",
   "name": "Shuppet",
-  "num": 298,
+  "num": 353,
   "types": [
     "ghost"
   ],
+  "gen": 3,
   "abilities": {
     "0": "insomnia",
     "1": "frisk",
@@ -18,11 +19,21 @@
     "spd": 33,
     "spe": 45
   },
+  "evos": [
+    "banette"
+  ],
   "weight": 2.3,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people."
   },
   "learnset": {
     "astonish": [
@@ -35,8 +46,8 @@
       "M"
     ],
     "confuseray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "curse": [
       "L:26"
@@ -66,22 +77,22 @@
       "M"
     ],
     "gunkshot": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "helpinghand": [
       "M"
     ],
     "hex": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "icywind": [
       "M"
     ],
     "imprison": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "metronome": [
       "M"
@@ -90,12 +101,12 @@
       "M"
     ],
     "nightshade": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "phantomforce": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "pounce": [
       "M"
@@ -125,8 +136,8 @@
       "L:4"
     ],
     "shadowball": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "shadowsneak": [
       "L:19"
@@ -168,16 +179,15 @@
       "M"
     ],
     "trick": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "trickroom": [
       "M"
     ],
     "willowisp": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ]
-  },
-  "flavorText": "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people."
+  }
 }

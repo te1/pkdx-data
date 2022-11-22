@@ -1,13 +1,13 @@
 {
   "slug": "regieleki",
   "name": "Regieleki",
-  "num": null,
+  "num": 894,
   "types": [
     "electric"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "transistor",
-    "H": "transistor"
+    "0": "transistor"
   },
   "baseStats": {
     "hp": 80,
@@ -18,8 +18,13 @@
     "spe": 200
   },
   "weight": 145,
-  "height": 12,
-  "genderRatio": {},
+  "height": 1.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -64,8 +69,8 @@
       "M"
     ],
     "hyperbeam": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "lightscreen": [
       "M"
@@ -116,8 +121,8 @@
       "M"
     ],
     "thunderbolt": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "thundercage": [
       "L:36"
@@ -126,8 +131,8 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "voltswitch": [
       "M"

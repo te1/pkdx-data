@@ -1,11 +1,12 @@
 {
   "slug": "swablu",
   "name": "Swablu",
-  "num": 219,
+  "num": 333,
   "types": [
     "normal",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
     "0": "naturalcure",
     "H": "cloudnine"
@@ -18,11 +19,22 @@
     "spd": 75,
     "spe": 50
   },
+  "evos": [
+    "altaria"
+  ],
   "weight": 1.2,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
   },
   "learnset": {
     "acrobatics": [
@@ -53,8 +65,8 @@
       "E"
     ],
     "disarmingvoice": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "dragonbreath": [
       "L:20"
@@ -153,12 +165,12 @@
       "M"
     ],
     "tailwind": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "takedown": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "terablast": [
       "M"
@@ -169,6 +181,5 @@
     "trailblaze": [
       "M"
     ]
-  },
-  "flavorText": "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
+  }
 }

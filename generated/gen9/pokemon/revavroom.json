@@ -1,11 +1,12 @@
 {
   "slug": "revavroom",
   "name": "Revavroom",
-  "num": 294,
+  "num": 943,
   "types": [
     "steel",
     "poison"
   ],
+  "gen": 9,
   "abilities": {
     "0": "overcoat",
     "H": "filter"
@@ -18,11 +19,19 @@
     "spd": 67,
     "spe": 90
   },
+  "prevo": "varoom",
+  "evoLevel": 40,
   "weight": 120,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy."
   },
   "learnset": {
     "acidspray": [
@@ -50,11 +59,14 @@
       "M"
     ],
     "gunkshot": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "gyroball": [
       "L:17"
+    ],
+    "haze": [
+      "E@varoom"
     ],
     "headbutt": [
       "L:21"
@@ -69,8 +81,8 @@
       "M"
     ],
     "ironhead": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "lick": [
       "L:1"
@@ -81,12 +93,15 @@
     "overheat": [
       "M"
     ],
+    "partingshot": [
+      "E@varoom"
+    ],
     "poisongas": [
       "L:1"
     ],
     "poisonjab": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "protect": [
       "M"
@@ -105,6 +120,9 @@
     ],
     "screech": [
       "L:25"
+    ],
+    "selfdestruct": [
+      "E@varoom"
     ],
     "shiftgear": [
       "L:0"
@@ -140,14 +158,20 @@
       "M"
     ],
     "taunt": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "terablast": [
       "M"
     ],
     "thief": [
       "M"
+    ],
+    "torment": [
+      "E@varoom"
+    ],
+    "toxic": [
+      "E@varoom"
     ],
     "toxicspikes": [
       "M"
@@ -161,6 +185,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy."
+  }
 }

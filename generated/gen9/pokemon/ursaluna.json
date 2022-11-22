@@ -1,11 +1,12 @@
 {
   "slug": "ursaluna",
   "name": "Ursaluna",
-  "num": null,
+  "num": 901,
   "types": [
     "ground",
     "normal"
   ],
+  "gen": 8,
   "abilities": {
     "0": "guts",
     "1": "bulletproof",
@@ -19,12 +20,19 @@
     "spd": 80,
     "spe": 50
   },
+  "prevo": "ursaring",
+  "evoType": "other",
+  "evoCondition": "Peat Block when there's a full moon",
   "weight": 290,
-  "height": 24,
+  "height": 2.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
       "M"
@@ -78,8 +86,8 @@
       "M"
     ],
     "faketears": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "firepunch": [
       "M"
@@ -142,8 +150,8 @@
       "L:25"
     ],
     "playrough": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "protect": [
       "M"
@@ -152,8 +160,8 @@
       "M"
     ],
     "rest": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "rockslide": [
       "M"
@@ -162,8 +170,8 @@
       "M"
     ],
     "scaryface": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "scratch": [
       "L:1"

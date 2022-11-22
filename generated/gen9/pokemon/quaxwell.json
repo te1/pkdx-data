@@ -1,10 +1,11 @@
 {
   "slug": "quaxwell",
   "name": "Quaxwell",
-  "num": 8,
+  "num": 913,
   "types": [
     "water"
   ],
+  "gen": 9,
   "abilities": {
     "0": "torrent",
     "H": "moxie"
@@ -17,16 +18,28 @@
     "spd": 60,
     "spe": 65
   },
+  "prevo": "quaxly",
+  "evos": [
+    "quaquaval"
+  ],
+  "evoLevel": 16,
   "weight": 21.5,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Flying",
+    "Water 1"
+  ],
+  "flavorText": {
+    "scarlet": "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully."
   },
   "learnset": {
     "acrobatics": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "aerialace": [
       "M"
@@ -35,8 +48,8 @@
       "M"
     ],
     "airslash": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "aquacutter": [
       "L:23"
@@ -52,6 +65,9 @@
     ],
     "chillingwater": [
       "M"
+    ],
+    "detect": [
+      "E@quaxly"
     ],
     "disarmingvoice": [
       "M"
@@ -83,16 +99,19 @@
     "hydropump": [
       "M"
     ],
+    "lastresort": [
+      "E@quaxly"
+    ],
     "liquidation": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "lowkick": [
       "M"
     ],
     "lowsweep": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "mistyterrain": [
       "M"
@@ -106,8 +125,14 @@
     "raindance": [
       "M"
     ],
+    "rapidspin": [
+      "E@quaxly"
+    ],
     "rest": [
       "M"
+    ],
+    "roost": [
+      "E@quaxly"
     ],
     "surf": [
       "M"
@@ -128,8 +153,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "wingattack": [
       "L:10"
@@ -137,6 +162,5 @@
     "workup": [
       "L:7"
     ]
-  },
-  "flavorText": "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully."
+  }
 }

@@ -1,13 +1,14 @@
 {
   "slug": "zamazenta",
   "name": "Zamazenta",
-  "num": null,
+  "subName": "Hero of Many Battles",
+  "num": 889,
   "types": [
     "fighting"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "dauntlessshield",
-    "H": "dauntlessshield"
+    "0": "dauntlessshield"
   },
   "baseStats": {
     "hp": 92,
@@ -17,9 +18,17 @@
     "spd": 115,
     "spe": 138
   },
+  "formes": [
+    "zamazenta-crowned"
+  ],
   "weight": 210,
-  "height": 29,
-  "genderRatio": {},
+  "height": 2.9,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "agility": [
       "M"
@@ -37,12 +46,12 @@
       "M"
     ],
     "closecombat": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "crunch": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "dazzlinggleam": [
       "M"
@@ -66,8 +75,8 @@
       "M"
     ],
     "gigaimpact": [
-      "L:88",
-      "M"
+      "M",
+      "L:88"
     ],
     "heavyslam": [
       "M"
@@ -91,12 +100,12 @@
       "M"
     ],
     "irondefense": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "ironhead": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "lightscreen": [
       "M"
@@ -105,8 +114,8 @@
       "L:44"
     ],
     "metalclaw": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "moonblast": [
       "L:66"

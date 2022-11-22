@@ -1,11 +1,12 @@
 {
   "slug": "dragalge",
   "name": "Dragalge",
-  "num": 338,
+  "num": 691,
   "types": [
     "poison",
     "dragon"
   ],
+  "gen": 6,
   "abilities": {
     "0": "poisonpoint",
     "1": "poisontouch",
@@ -19,15 +20,27 @@
     "spd": 123,
     "spe": 44
   },
+  "prevo": "skrelp",
+  "evoLevel": 48,
   "weight": 81.5,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Using a liquid poison, Dragalge indiscriminately attacks anything that wanders into its territory. This poison can corrode the undersides of boats."
+  },
   "learnset": {
     "acid": [
       "L:1"
+    ],
+    "acidarmor": [
+      "E@skrelp"
     ],
     "acidspray": [
       "M"
@@ -45,8 +58,12 @@
       "M"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
+    ],
+    "dragontail": [
+      "M@skrelp",
+      "E@skrelp"
     ],
     "endure": [
       "M"
@@ -63,9 +80,12 @@
     "gunkshot": [
       "M"
     ],
+    "haze": [
+      "E@skrelp"
+    ],
     "hydropump": [
-      "L:59",
-      "M"
+      "M",
+      "L:59"
     ],
     "hyperbeam": [
       "M"
@@ -83,15 +103,15 @@
       "M"
     ],
     "outrage": [
-      "L:66",
-      "M"
+      "M",
+      "L:66"
     ],
     "playrough": [
       "M"
     ],
     "poisontail": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "protect": [
       "M"
@@ -112,8 +132,8 @@
       "M"
     ],
     "sludgebomb": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "smokescreen": [
       "L:1"
@@ -154,6 +174,9 @@
     "toxicspikes": [
       "M"
     ],
+    "twister": [
+      "E@skrelp"
+    ],
     "venoshock": [
       "M"
     ],
@@ -164,9 +187,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ]
-  },
-  "flavorText": "Using a liquid poison, Dragalge indiscriminately attacks anything that wanders into its territory. This poison can corrode the undersides of boats."
+  }
 }

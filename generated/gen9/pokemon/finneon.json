@@ -1,10 +1,11 @@
 {
   "slug": "finneon",
   "name": "Finneon",
-  "num": 333,
+  "num": 456,
   "types": [
     "water"
   ],
+  "gen": 4,
   "abilities": {
     "0": "swiftswim",
     "1": "stormdrain",
@@ -18,19 +19,29 @@
     "spd": 61,
     "spe": 66
   },
+  "evos": [
+    "lumineon"
+  ],
   "weight": 7,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The line running down its side can store sunlight. It shines vividly at night."
   },
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "agility": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "aquaring": [
       "L:33"
@@ -51,15 +62,15 @@
       "L:45"
     ],
     "charm": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "chillingwater": [
       "M"
     ],
     "confuseray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "dazzlinggleam": [
       "M"
@@ -95,12 +106,12 @@
       "M"
     ],
     "psybeam": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "raindance": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "rest": [
       "M"
@@ -127,8 +138,8 @@
       "M"
     ],
     "tailwind": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "takedown": [
       "M"
@@ -143,8 +154,8 @@
       "E"
     ],
     "uturn": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "waterfall": [
       "M"
@@ -153,12 +164,11 @@
       "L:6"
     ],
     "waterpulse": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "whirlpool": [
       "L:38"
     ]
-  },
-  "flavorText": "The line running down its side can store sunlight. It shines vividly at night."
+  }
 }

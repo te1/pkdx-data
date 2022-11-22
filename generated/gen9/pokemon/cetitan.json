@@ -1,10 +1,11 @@
 {
   "slug": "cetitan",
   "name": "Cetitan",
-  "num": 362,
+  "num": 948,
   "types": [
     "ice"
   ],
+  "gen": 9,
   "abilities": {
     "0": "thickfat",
     "1": "slushrush",
@@ -18,31 +19,43 @@
     "spd": 55,
     "spe": 73
   },
+  "prevo": "cetoddle",
+  "evoType": "useItem",
+  "evoItem": "Ice Stone",
   "weight": 700,
-  "height": 45,
+  "height": 4.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin."
+  },
   "learnset": {
     "amnesia": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "avalanche": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
+    ],
+    "bellydrum": [
+      "E@cetoddle"
     ],
     "blizzard": [
-      "L:53",
-      "M"
+      "M",
+      "L:53"
     ],
     "bodypress": [
       "M"
     ],
     "bodyslam": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "bounce": [
       "L:31"
@@ -67,6 +80,9 @@
     ],
     "endure": [
       "M"
+    ],
+    "entrainment": [
+      "E@cetoddle"
     ],
     "facade": [
       "M"
@@ -105,8 +121,11 @@
       "L:12"
     ],
     "icespinner": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
+    ],
+    "iciclecrash": [
+      "E@cetoddle"
     ],
     "icywind": [
       "M"
@@ -127,8 +146,8 @@
       "M"
     ],
     "rest": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "sleeptalk": [
       "M"
@@ -142,19 +161,24 @@
     "substitute": [
       "M"
     ],
+    "superpower": [
+      "E@cetoddle"
+    ],
     "tackle": [
       "L:1"
     ],
     "takedown": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "terablast": [
       "M"
     ],
     "waterpulse": [
       "M"
+    ],
+    "yawn": [
+      "E@cetoddle"
     ]
-  },
-  "flavorText": "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin."
+  }
 }

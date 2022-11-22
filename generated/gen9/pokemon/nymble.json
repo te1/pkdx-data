@@ -1,10 +1,11 @@
 {
   "slug": "nymble",
   "name": "Nymble",
-  "num": 14,
+  "num": 920,
   "types": [
     "bug"
   ],
+  "gen": 9,
   "abilities": {
     "0": "swarm",
     "H": "tintedlens"
@@ -17,16 +18,26 @@
     "spd": 25,
     "spe": 45
   },
+  "evos": [
+    "lokix"
+  ],
   "weight": 1,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs."
+  },
   "learnset": {
     "agility": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "assurance": [
       "L:9"
@@ -47,8 +58,8 @@
       "L:11"
     ],
     "endure": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "facade": [
       "M"
@@ -87,8 +98,8 @@
       "M"
     ],
     "strugglebug": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "substitute": [
       "M"
@@ -120,6 +131,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs."
+  }
 }

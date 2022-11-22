@@ -1,11 +1,12 @@
 {
   "slug": "scyther",
   "name": "Scyther",
-  "num": 260,
+  "num": 123,
   "types": [
     "bug",
     "flying"
   ],
+  "gen": 1,
   "abilities": {
     "0": "swarm",
     "1": "technician",
@@ -19,11 +20,22 @@
     "spd": 80,
     "spe": 105
   },
+  "evos": [
+    "scizor",
+    "kleavor"
+  ],
   "weight": 56,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
   },
   "learnset": {
     "acrobatics": [
@@ -33,15 +45,15 @@
       "M"
     ],
     "agility": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "aircutter": [
       "M"
     ],
     "airslash": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "batonpass": [
       "M"
@@ -74,8 +86,8 @@
       "M"
     ],
     "falseswipe": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "feint": [
       "E"
@@ -147,8 +159,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "tailwind": [
       "M"
@@ -172,9 +184,8 @@
       "L:12"
     ],
     "xscissor": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ]
-  },
-  "flavorText": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+  }
 }

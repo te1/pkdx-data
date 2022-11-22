@@ -1,10 +1,11 @@
 {
   "slug": "pikachu",
   "name": "Pikachu",
-  "num": 74,
+  "num": 25,
   "types": [
     "electric"
   ],
+  "gen": 1,
   "abilities": {
     "0": "static",
     "H": "lightningrod"
@@ -17,16 +18,29 @@
     "spd": 50,
     "spe": 90
   },
+  "prevo": "pichu",
+  "evos": [
+    "raichu",
+    "raichu-alola"
+  ],
+  "evoType": "levelFriendship",
   "weight": 6,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks."
+  },
   "learnset": {
     "agility": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "bodyslam": [
       "M"
@@ -34,18 +48,22 @@
     "brickbreak": [
       "M"
     ],
+    "charge": [
+      "E"
+    ],
     "chargebeam": [
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dig": [
       "M"
     ],
     "disarmingvoice": [
-      "M"
+      "M",
+      "E"
     ],
     "discharge": [
       "L:32"
@@ -63,8 +81,8 @@
       "M"
     ],
     "electroball": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "encore": [
       "M"
@@ -75,11 +93,17 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E"
+    ],
     "faketears": [
       "M"
     ],
     "feint": [
       "L:16"
+    ],
+    "flail": [
+      "E"
     ],
     "fling": [
       "M"
@@ -97,12 +121,12 @@
       "L:28"
     ],
     "lightscreen": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "nastyplot": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "nuzzle": [
       "L:1"
@@ -112,6 +136,9 @@
     ],
     "playrough": [
       "M"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
@@ -162,12 +189,12 @@
       "M"
     ],
     "thunder": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "thunderbolt": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "thunderpunch": [
       "M"
@@ -176,8 +203,11 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
+    ],
+    "tickle": [
+      "E"
     ],
     "trailblaze": [
       "M"
@@ -187,7 +217,9 @@
     ],
     "wildcharge": [
       "M"
+    ],
+    "wish": [
+      "E"
     ]
-  },
-  "flavorText": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks."
+  }
 }

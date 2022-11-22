@@ -1,13 +1,13 @@
 {
   "slug": "zoroark",
   "name": "Zoroark",
-  "num": 229,
+  "num": 571,
   "types": [
     "dark"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "illusion",
-    "H": "illusion"
+    "0": "illusion"
   },
   "baseStats": {
     "hp": 60,
@@ -17,19 +17,30 @@
     "spd": 60,
     "spe": 105
   },
+  "prevo": "zorua",
+  "evoLevel": 30,
+  "formes": [
+    "zoroark-hisui"
+  ],
   "weight": 81.1,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Stories say those who tried to catch Zoroark were trapped in an illusion and punished."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "bodyslam": [
       "M"
@@ -43,24 +54,39 @@
     "confuseray": [
       "M"
     ],
+    "copycat": [
+      "E@zorua"
+    ],
+    "counter": [
+      "E@zorua"
+    ],
     "crunch": [
       "M"
     ],
     "darkpulse": [
       "M"
     ],
+    "detect": [
+      "E@zorua"
+    ],
     "dig": [
       "M"
     ],
+    "encore": [
+      "M@zorua"
+    ],
     "endure": [
       "M"
+    ],
+    "extrasensory": [
+      "E@zorua"
     ],
     "facade": [
       "M"
     ],
     "faketears": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "flamethrower": [
       "M"
@@ -72,8 +98,8 @@
       "M"
     ],
     "foulplay": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "furyswipes": [
       "L:12"
@@ -100,8 +126,8 @@
       "M"
     ],
     "imprison": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "knockoff": [
       "L:24"
@@ -115,9 +141,12 @@
     "lowsweep": [
       "M"
     ],
+    "memento": [
+      "E@zorua"
+    ],
     "nastyplot": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "nightdaze": [
       "L:46"
@@ -141,7 +170,8 @@
       "M"
     ],
     "scaryface": [
-      "M"
+      "M",
+      "L:16@zorua"
     ],
     "scratch": [
       "L:1"
@@ -164,6 +194,9 @@
     "substitute": [
       "M"
     ],
+    "suckerpunch": [
+      "E@zorua"
+    ],
     "sunnyday": [
       "M"
     ],
@@ -177,8 +210,8 @@
       "M"
     ],
     "taunt": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
@@ -193,9 +226,8 @@
       "M"
     ],
     "uturn": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ]
-  },
-  "flavorText": "Stories say those who tried to catch Zoroark were trapped in an illusion and punished."
+  }
 }

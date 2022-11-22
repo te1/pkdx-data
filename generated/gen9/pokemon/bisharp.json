@@ -1,11 +1,12 @@
 {
   "slug": "bisharp",
   "name": "Bisharp",
-  "num": 368,
+  "num": 625,
   "types": [
     "dark",
     "steel"
   ],
+  "gen": 5,
   "abilities": {
     "0": "defiant",
     "1": "innerfocus",
@@ -19,11 +20,22 @@
     "spd": 70,
     "spe": 70
   },
+  "prevo": "pawniard",
+  "evos": [
+    "kingambit"
+  ],
+  "evoLevel": 52,
   "weight": 70,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side."
   },
   "learnset": {
     "aerialace": [
@@ -77,16 +89,19 @@
     "guillotine": [
       "L:71"
     ],
+    "headbutt": [
+      "E@pawniard"
+    ],
     "hyperbeam": [
       "M"
     ],
     "irondefense": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "ironhead": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "leer": [
       "L:1"
@@ -97,12 +112,15 @@
     "lowsweep": [
       "M"
     ],
+    "meanlook": [
+      "E@pawniard"
+    ],
     "metalburst": [
       "L:1"
     ],
     "metalclaw": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "metalsound": [
       "L:30"
@@ -115,6 +133,9 @@
     ],
     "protect": [
       "M"
+    ],
+    "quickguard": [
+      "E@pawniard"
     ],
     "raindance": [
       "M"
@@ -135,8 +156,8 @@
       "M"
     ],
     "scaryface": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "scratch": [
       "L:1"
@@ -165,9 +186,12 @@
     "substitute": [
       "M"
     ],
+    "suckerpunch": [
+      "E@pawniard"
+    ],
     "swordsdance": [
-      "L:64",
-      "M"
+      "M",
+      "L:64"
     ],
     "takedown": [
       "M"
@@ -190,6 +214,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "gallade",
   "name": "Gallade",
-  "num": 65,
+  "num": 475,
   "types": [
     "psychic",
     "fighting"
   ],
+  "gen": 4,
   "abilities": {
     "0": "steadfast",
     "1": "sharpness",
@@ -19,15 +20,23 @@
     "spd": 115,
     "spe": 80
   },
+  "prevo": "kirlia",
+  "evoType": "useItem",
+  "evoItem": "Dawn Stone",
   "weight": 52,
-  "height": 16,
-  "genderRatio": {
-    "M": 1
+  "height": 1.6,
+  "gender": "M",
+  "eggGroups": [
+    "Human-Like",
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely."
   },
   "learnset": {
     "aerialace": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "agility": [
       "M"
@@ -54,22 +63,23 @@
       "M"
     ],
     "calmmind": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "chargebeam": [
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "closecombat": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "E@ralts"
     ],
     "confusion": [
       "L:1"
@@ -77,16 +87,22 @@
     "dazzlinggleam": [
       "M"
     ],
+    "destinybond": [
+      "E@ralts"
+    ],
+    "disable": [
+      "E@ralts"
+    ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "doubleteam": [
       "L:1"
     ],
     "drainingkiss": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "drainpunch": [
       "M"
@@ -110,8 +126,8 @@
       "M"
     ],
     "falseswipe": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "feint": [
       "L:12"
@@ -144,8 +160,8 @@
       "L:49"
     ],
     "helpinghand": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "hex": [
       "M"
@@ -166,8 +182,11 @@
       "M"
     ],
     "imprison": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "knockoff": [
+      "E@ralts"
     ],
     "leafblade": [
       "L:1"
@@ -190,8 +209,20 @@
     "magicalleaf": [
       "M"
     ],
+    "meanlook": [
+      "E@ralts"
+    ],
+    "memento": [
+      "E@ralts"
+    ],
+    "metronome": [
+      "M@kirlia"
+    ],
     "mistyterrain": [
       "M"
+    ],
+    "mysticalfire": [
+      "E@ralts"
     ],
     "nightshade": [
       "M"
@@ -203,16 +234,16 @@
       "M"
     ],
     "protect": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "psybeam": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "psychic": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "psychicterrain": [
       "M"
@@ -253,6 +284,9 @@
     "shadowclaw": [
       "M"
     ],
+    "shadowsneak": [
+      "E@ralts"
+    ],
     "skillswap": [
       "M"
     ],
@@ -278,8 +312,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "takedown": [
       "M"
@@ -323,6 +357,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely."
+  }
 }

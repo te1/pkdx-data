@@ -1,10 +1,11 @@
 {
   "slug": "arcanine",
   "name": "Arcanine",
-  "num": 214,
+  "num": 59,
   "types": [
     "fire"
   ],
+  "gen": 1,
   "abilities": {
     "0": "intimidate",
     "1": "flashfire",
@@ -18,19 +19,31 @@
     "spd": 80,
     "spe": 95
   },
+  "prevo": "growlithe",
+  "evoType": "useItem",
+  "evoItem": "Fire Stone",
+  "formes": [
+    "arcanine-hisui"
+  ],
   "weight": 155,
-  "height": 19,
+  "height": 1.9,
   "genderRatio": {
     "M": 0.75,
     "F": 0.25
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies."
   },
   "learnset": {
     "aerialace": [
       "M"
     ],
     "agility": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:1"
@@ -47,12 +60,21 @@
     "closecombat": [
       "M"
     ],
+    "covet": [
+      "E@growlithe"
+    ],
     "crunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dig": [
       "M"
+    ],
+    "doubleedge": [
+      "E@growlithe"
+    ],
+    "doublekick": [
+      "E@growlithe"
     ],
     "dragonpulse": [
       "M"
@@ -73,8 +95,8 @@
       "M"
     ],
     "firefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "firespin": [
       "M"
@@ -83,15 +105,15 @@
       "M"
     ],
     "flamethrower": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "flamewheel": [
       "L:1"
     ],
     "flareblitz": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "gigaimpact": [
       "M"
@@ -100,8 +122,8 @@
       "M"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "howl": [
       "L:1"
@@ -118,6 +140,9 @@
     "leer": [
       "L:1"
     ],
+    "morningsun": [
+      "E@growlithe"
+    ],
     "outrage": [
       "M"
     ],
@@ -125,14 +150,17 @@
       "M"
     ],
     "playrough": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
     ],
     "psychicfangs": [
       "M"
+    ],
+    "ragingfury": [
+      "E@growlithe"
     ],
     "rest": [
       "M"
@@ -141,8 +169,8 @@
       "L:1"
     ],
     "reversal": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "roar": [
       "L:1"
@@ -169,14 +197,17 @@
       "M"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
     ],
     "thief": [
       "M"
+    ],
+    "thrash": [
+      "E@growlithe"
     ],
     "thunderfang": [
       "M"
@@ -187,6 +218,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies."
+  }
 }

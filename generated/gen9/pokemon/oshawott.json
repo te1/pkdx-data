@@ -1,10 +1,11 @@
 {
   "slug": "oshawott",
   "name": "Oshawott",
-  "num": null,
+  "num": 501,
   "types": [
     "water"
   ],
+  "gen": 5,
   "abilities": {
     "0": "torrent",
     "H": "shellarmor"
@@ -17,20 +18,28 @@
     "spd": 45,
     "spe": 45
   },
+  "evos": [
+    "dewott"
+  ],
   "weight": 5.9,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "aerialace": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "airslash": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "aquacutter": [
       "E"
@@ -60,8 +69,8 @@
       "M"
     ],
     "encore": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "endure": [
       "M"
@@ -88,8 +97,8 @@
       "M"
     ],
     "hydropump": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "icebeam": [
       "M"
@@ -146,8 +155,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "tackle": [
       "L:1"
@@ -177,8 +186,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "xscissor": [
       "M"

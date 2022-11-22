@@ -1,10 +1,11 @@
 {
   "slug": "charmander",
   "name": "Charmander",
-  "num": null,
+  "num": 4,
   "types": [
     "fire"
   ],
+  "gen": 1,
   "abilities": {
     "0": "blaze",
     "H": "solarpower"
@@ -17,12 +18,21 @@
     "spd": 50,
     "spe": 65
   },
+  "evos": [
+    "charmeleon"
+  ],
   "weight": 8.5,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "ancientpower": [
       "E"
@@ -64,8 +74,8 @@
       "E"
     ],
     "dragontail": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "ember": [
       "L:4"
@@ -83,8 +93,8 @@
       "M"
     ],
     "firefang": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "firepledge": [
       "M"
@@ -93,19 +103,19 @@
       "M"
     ],
     "firespin": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "flamecharge": [
       "M"
     ],
     "flamethrower": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "flareblitz": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "fling": [
       "M"
@@ -129,8 +139,8 @@
       "E"
     ],
     "metalclaw": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "outrage": [
       "M"
@@ -151,8 +161,8 @@
       "M"
     ],
     "scaryface": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "scratch": [
       "L:1"

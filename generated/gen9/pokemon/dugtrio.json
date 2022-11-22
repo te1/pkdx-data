@@ -1,10 +1,11 @@
 {
   "slug": "dugtrio",
   "name": "Dugtrio",
-  "num": 149,
+  "num": 51,
   "types": [
     "ground"
   ],
+  "gen": 1,
   "abilities": {
     "0": "sandveil",
     "1": "arenatrap",
@@ -18,15 +19,29 @@
     "spd": 70,
     "spe": 120
   },
+  "prevo": "diglett",
+  "evoLevel": 26,
+  "formes": [
+    "dugtrio-alola"
+  ],
   "weight": 33.3,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow."
+  },
   "learnset": {
     "agility": [
       "M"
+    ],
+    "ancientpower": [
+      "E@diglett"
     ],
     "astonish": [
       "L:1"
@@ -35,29 +50,32 @@
       "M"
     ],
     "bulldoze": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "charm": [
       "M"
     ],
     "dig": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "earthpower": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "earthquake": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "endure": [
       "M"
     ],
     "facade": [
       "M"
+    ],
+    "finalgambit": [
+      "E@diglett"
     ],
     "fissure": [
       "L:54"
@@ -71,15 +89,27 @@
     "growl": [
       "L:1"
     ],
+    "headbutt": [
+      "E@diglett"
+    ],
+    "helpinghand": [
+      "M@diglett"
+    ],
+    "honeclaws": [
+      "E@diglett"
+    ],
     "hyperbeam": [
       "M"
+    ],
+    "memento": [
+      "E@diglett"
     ],
     "mudshot": [
       "M"
     ],
     "mudslap": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "nightslash": [
       "L:1"
@@ -106,11 +136,14 @@
       "L:1"
     ],
     "sandstorm": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "sandtomb": [
       "L:0"
+    ],
+    "scaryface": [
+      "M"
     ],
     "scratch": [
       "L:1"
@@ -160,6 +193,5 @@
     "triattack": [
       "L:1"
     ]
-  },
-  "flavorText": "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow."
+  }
 }

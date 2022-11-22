@@ -1,10 +1,11 @@
 {
   "slug": "barraskewda",
   "name": "Barraskewda",
-  "num": 137,
+  "num": 847,
   "types": [
     "water"
   ],
+  "gen": 8,
   "abilities": {
     "0": "swiftswim",
     "H": "propellertail"
@@ -17,16 +18,27 @@
     "spd": 50,
     "spe": 136
   },
+  "prevo": "arrokuda",
+  "evoLevel": 26,
   "weight": 30,
-  "height": 13,
+  "height": 1.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "flavorText": {
+    "scarlet": "It spins its tail fins to leap from the water, then viciously bites down on Wingull flying close to the water's surface."
+  },
   "learnset": {
+    "acupressure": [
+      "E@arrokuda"
+    ],
     "agility": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "aquajet": [
       "L:1"
@@ -47,8 +59,8 @@
       "M"
     ],
     "crunch": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dive": [
       "L:24"
@@ -87,8 +99,11 @@
       "M"
     ],
     "liquidation": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
+    ],
+    "nightslash": [
+      "E@arrokuda"
     ],
     "peck": [
       "L:1"
@@ -111,6 +126,9 @@
     "scaryface": [
       "M"
     ],
+    "slash": [
+      "E@arrokuda"
+    ],
     "sleeptalk": [
       "M"
     ],
@@ -129,6 +147,9 @@
     "terablast": [
       "M"
     ],
+    "thrash": [
+      "E@arrokuda"
+    ],
     "throatchop": [
       "L:1"
     ],
@@ -138,6 +159,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "It spins its tail fins to leap from the water, then viciously bites down on Wingull flying close to the water's surface."
+  }
 }

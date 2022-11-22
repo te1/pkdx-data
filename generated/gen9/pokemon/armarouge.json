@@ -1,11 +1,12 @@
 {
   "slug": "armarouge",
   "name": "Armarouge",
-  "num": 166,
+  "num": 1004,
   "types": [
     "fire",
     "psychic"
   ],
+  "gen": 9,
   "abilities": {
     "0": "flashfire",
     "H": "weakarmor"
@@ -18,11 +19,20 @@
     "spd": 80,
     "spe": 75
   },
+  "prevo": "charcadet",
+  "evoType": "useItem",
+  "evoItem": "Malicious Armor",
   "weight": 85,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal."
   },
   "learnset": {
     "acidspray": [
@@ -41,8 +51,8 @@
       "M"
     ],
     "calmmind": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "clearsmog": [
       "L:8"
@@ -52,6 +62,12 @@
     ],
     "darkpulse": [
       "M"
+    ],
+    "destinybond": [
+      "E@charcadet"
+    ],
+    "disable": [
+      "E@charcadet"
     ],
     "dragonpulse": [
       "M"
@@ -75,16 +91,16 @@
       "M"
     ],
     "firespin": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "flamecharge": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "flamethrower": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "flareblitz": [
       "M"
@@ -123,8 +139,8 @@
       "L:1"
     ],
     "nightshade": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "overheat": [
       "M"
@@ -142,8 +158,8 @@
       "M"
     ],
     "psyshock": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "reflect": [
       "M"
@@ -159,6 +175,9 @@
     ],
     "solarbeam": [
       "M"
+    ],
+    "spite": [
+      "E@charcadet"
     ],
     "storedpower": [
       "M"
@@ -188,9 +207,8 @@
       "L:1"
     ],
     "willowisp": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ]
-  },
-  "flavorText": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal."
+  }
 }

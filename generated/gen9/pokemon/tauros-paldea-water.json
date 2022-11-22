@@ -1,0 +1,188 @@
+{
+  "slug": "tauros-paldea-water",
+  "name": "Tauros",
+  "subName": "Paldea-Water",
+  "num": 128,
+  "types": [
+    "fighting",
+    "water"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "intimidate",
+    "1": "angerpoint",
+    "H": "cudchew"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 110,
+    "def": 105,
+    "spa": 30,
+    "spd": 70,
+    "spe": 100
+  },
+  "baseSpecies": "tauros",
+  "weight": 88.4,
+  "height": 1.4,
+  "gender": "M",
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "aquajet": [
+      "L:15"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "closecombat": [
+      "M",
+      "L:60"
+    ],
+    "curse": [
+      "E"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doublekick": [
+      "L:10"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endeavor": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "headbutt": [
+      "L:20"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "ragingbull": [
+      "L:35"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M",
+      "L:40"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M",
+      "L:25"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swagger": [
+      "L:45"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thrash": [
+      "L:50"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "wavecrash": [
+      "L:55"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "workup": [
+      "L:5"
+    ],
+    "zenheadbutt": [
+      "M",
+      "L:30"
+    ]
+  }
+}

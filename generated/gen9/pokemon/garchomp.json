@@ -1,11 +1,12 @@
 {
   "slug": "garchomp",
   "name": "Garchomp",
-  "num": 128,
+  "num": 445,
   "types": [
     "dragon",
     "ground"
   ],
+  "gen": 4,
   "abilities": {
     "0": "sandveil",
     "H": "roughskin"
@@ -18,11 +19,20 @@
     "spd": 85,
     "spe": 102
   },
+  "prevo": "gabite",
+  "evoLevel": 48,
   "weight": 95,
-  "height": 19,
+  "height": 1.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees."
   },
   "learnset": {
     "aerialace": [
@@ -38,16 +48,19 @@
       "M"
     ],
     "bulldoze": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "crunch": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "dig": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
+    ],
+    "doubleedge": [
+      "E@gible"
     ],
     "dracometeor": [
       "M"
@@ -56,8 +69,8 @@
       "L:1"
     ],
     "dragonclaw": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dragonpulse": [
       "M"
@@ -111,7 +124,8 @@
       "M"
     ],
     "metalclaw": [
-      "M"
+      "M",
+      "E@gible"
     ],
     "mudshot": [
       "M"
@@ -144,8 +158,8 @@
       "L:1"
     ],
     "sandstorm": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "sandtomb": [
       "L:1"
@@ -193,15 +207,20 @@
       "L:1"
     ],
     "takedown": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "terablast": [
       "M"
     ],
+    "thrash": [
+      "E@gible"
+    ],
     "thunderfang": [
       "M"
+    ],
+    "twister": [
+      "E@gible"
     ]
-  },
-  "flavorText": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees."
+  }
 }

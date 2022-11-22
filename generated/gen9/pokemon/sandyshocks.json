@@ -1,14 +1,14 @@
 {
   "slug": "sandyshocks",
   "name": "Sandy Shocks",
-  "num": 381,
+  "num": 981,
   "types": [
     "electric",
     "ground"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "protosynthesis",
-    "H": "protosynthesis"
+    "0": "protosynthesis"
   },
   "baseStats": {
     "hp": 85,
@@ -19,8 +19,14 @@
     "spe": 101
   },
   "weight": 60,
-  "height": 23,
-  "genderRatio": {},
+  "height": 2.3,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon's traits match up with a creature shown in an expedition journal."
+  },
   "learnset": {
     "bodypress": [
       "M"
@@ -29,19 +35,19 @@
       "M"
     ],
     "bulldoze": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "chargebeam": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "discharge": [
       "L:56"
     ],
     "earthpower": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "earthquake": [
       "M"
@@ -50,8 +56,8 @@
       "M"
     ],
     "electricterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "electroball": [
       "M"
@@ -72,8 +78,8 @@
       "L:77"
     ],
     "heavyslam": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "hyperbeam": [
       "M"
@@ -133,8 +139,8 @@
       "M"
     ],
     "sunnyday": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "supersonic": [
       "L:1"
@@ -158,8 +164,8 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "triattack": [
       "L:28"
@@ -173,6 +179,5 @@
     "zapcannon": [
       "L:84"
     ]
-  },
-  "flavorText": "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon's traits match up with a creature shown in an expedition journal."
+  }
 }

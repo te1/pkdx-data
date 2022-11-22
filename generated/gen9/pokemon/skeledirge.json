@@ -1,11 +1,12 @@
 {
   "slug": "skeledirge",
   "name": "Skeledirge",
-  "num": 6,
+  "num": 911,
   "types": [
     "fire",
     "ghost"
   ],
+  "gen": 9,
   "abilities": {
     "0": "blaze",
     "H": "unaware"
@@ -18,13 +19,24 @@
     "spd": 75,
     "spe": 66
   },
+  "prevo": "crocalor",
+  "evoLevel": 36,
   "weight": 326.5,
-  "height": 16,
+  "height": 1.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge's head gained a soul."
   },
   "learnset": {
+    "belch": [
+      "E@fuecoco"
+    ],
     "bite": [
       "L:15"
     ],
@@ -36,6 +48,9 @@
     ],
     "crunch": [
       "M"
+    ],
+    "curse": [
+      "E@fuecoco"
     ],
     "dig": [
       "M"
@@ -53,7 +68,8 @@
       "L:1"
     ],
     "encore": [
-      "M"
+      "M",
+      "E@fuecoco"
     ],
     "endure": [
       "M"
@@ -62,8 +78,8 @@
       "M"
     ],
     "fireblast": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "firefang": [
       "M"
@@ -78,8 +94,8 @@
       "M"
     ],
     "flamethrower": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "flareblitz": [
       "M"
@@ -94,15 +110,15 @@
       "M"
     ],
     "hex": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "hyperbeam": [
       "M"
     ],
     "hypervoice": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "imprison": [
       "M"
@@ -126,8 +142,8 @@
       "M"
     ],
     "overheat": [
-      "L:64",
-      "M"
+      "M",
+      "L:64"
     ],
     "protect": [
       "M"
@@ -142,28 +158,31 @@
       "L:10"
     ],
     "scaryface": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "seedbomb": [
       "M"
     ],
     "shadowball": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "shadowclaw": [
       "M"
     ],
     "sing": [
-      "T"
+      "L:1"
+    ],
+    "slackoff": [
+      "E@fuecoco"
     ],
     "sleeptalk": [
       "M"
     ],
     "snarl": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "solarbeam": [
       "M"
@@ -193,12 +212,14 @@
       "L:0"
     ],
     "willowisp": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
+    ],
+    "yawn": [
+      "L:15@crocalor"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge's head gained a soul."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "toedscruel",
   "name": "Toedscruel",
-  "num": 245,
+  "num": 1007,
   "types": [
     "ground",
     "grass"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "myceliummight",
-    "H": "myceliummight"
+    "0": "myceliummight"
   },
   "baseStats": {
     "hp": 80,
@@ -18,11 +18,19 @@
     "spd": 120,
     "spe": 100
   },
+  "prevo": "toedscool",
+  "evoLevel": 30,
   "weight": 58,
-  "height": 19,
+  "height": 1.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach."
   },
   "learnset": {
     "absorb": [
@@ -30,6 +38,9 @@
     ],
     "acidspray": [
       "M"
+    ],
+    "acupressure": [
+      "E@toedscool"
     ],
     "bulletseed": [
       "M"
@@ -41,8 +52,8 @@
       "M"
     ],
     "earthpower": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "endure": [
       "M"
@@ -57,8 +68,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "gigaimpact": [
       "M"
@@ -73,14 +84,20 @@
       "L:44"
     ],
     "hex": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "hyperbeam": [
       "M"
     ],
+    "knockoff": [
+      "E@toedscool"
+    ],
     "leafstorm": [
       "M"
+    ],
+    "leechseed": [
+      "E@toedscool"
     ],
     "lightscreen": [
       "M"
@@ -91,13 +108,16 @@
     "megadrain": [
       "L:16"
     ],
+    "mirrorcoat": [
+      "E@toedscool"
+    ],
     "mudshot": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "poisonpowder": [
       "L:8"
@@ -108,8 +128,14 @@
     "protect": [
       "M"
     ],
+    "ragepowder": [
+      "E@toedscool"
+    ],
     "raindance": [
       "M"
+    ],
+    "rapidspin": [
+      "E@toedscool"
     ],
     "reflect": [
       "M"
@@ -127,8 +153,8 @@
       "L:20"
     ],
     "seedbomb": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "sleeptalk": [
       "M"
@@ -166,6 +192,12 @@
     "terablast": [
       "M"
     ],
+    "tickle": [
+      "E@toedscool"
+    ],
+    "toxic": [
+      "E@toedscool"
+    ],
     "toxicspikes": [
       "M"
     ],
@@ -181,6 +213,5 @@
     "wrap": [
       "L:1"
     ]
-  },
-  "flavorText": "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach."
+  }
 }

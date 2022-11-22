@@ -1,10 +1,11 @@
 {
   "slug": "ampharos",
   "name": "Ampharos",
-  "num": 103,
+  "num": 181,
   "types": [
     "electric"
   ],
+  "gen": 2,
   "abilities": {
     "0": "static",
     "H": "plus"
@@ -17,15 +18,28 @@
     "spd": 90,
     "spe": 55
   },
+  "prevo": "flaaffy",
+  "evoLevel": 30,
   "weight": 61.5,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon."
+  },
   "learnset": {
+    "afteryou": [
+      "E@mareep"
+    ],
     "agility": [
-      "M"
+      "M",
+      "E@mareep"
     ],
     "bodyslam": [
       "M"
@@ -43,8 +57,8 @@
       "M"
     ],
     "confuseray": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "cottonguard": [
       "L:46"
@@ -53,8 +67,8 @@
       "L:11"
     ],
     "dazzlinggleam": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "dig": [
       "M"
@@ -63,21 +77,26 @@
       "L:40"
     ],
     "dragonpulse": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dragontail": [
       "M"
     ],
     "eerieimpulse": [
-      "M"
+      "M",
+      "E@mareep"
     ],
     "electricterrain": [
-      "M"
+      "M",
+      "E@mareep"
     ],
     "electroball": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
+    ],
+    "electroweb": [
+      "E@mareep"
     ],
     "endure": [
       "M"
@@ -86,8 +105,11 @@
       "M"
     ],
     "firepunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "flatter": [
+      "E@mareep"
     ],
     "fling": [
       "M"
@@ -111,8 +133,8 @@
       "M"
     ],
     "lightscreen": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "lowkick": [
       "M"
@@ -124,8 +146,8 @@
       "M"
     ],
     "powergem": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "protect": [
       "M"
@@ -158,29 +180,29 @@
       "L:1"
     ],
     "takedown": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "terablast": [
       "M"
     ],
     "thunder": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "thunderbolt": [
       "M"
     ],
     "thunderpunch": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "thundershock": [
       "L:1"
     ],
     "thunderwave": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "trailblaze": [
       "M"
@@ -194,6 +216,5 @@
     "zapcannon": [
       "L:1"
     ]
-  },
-  "flavorText": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon."
+  }
 }

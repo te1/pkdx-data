@@ -1,11 +1,12 @@
 {
   "slug": "qwilfish",
   "name": "Qwilfish",
-  "num": 331,
+  "num": 211,
   "types": [
     "water",
     "poison"
   ],
+  "gen": 2,
   "abilities": {
     "0": "poisonpoint",
     "1": "swiftswim",
@@ -19,16 +20,26 @@
     "spd": 55,
     "spe": 85
   },
+  "formes": [
+    "qwilfish-hisui"
+  ],
   "weight": 3.9,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Be cautious if this Pokémon starts sucking in water—it will soon attack by scattering the toxic spikes that grow all over its body."
+  },
   "learnset": {
     "acidspray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "acupressure": [
       "L:52"
@@ -115,8 +126,8 @@
       "L:32"
     ],
     "poisonjab": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "poisonsting": [
       "L:1"
@@ -152,8 +163,8 @@
       "M"
     ],
     "spikes": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "spitup": [
       "L:40"
@@ -195,8 +206,8 @@
       "L:44"
     ],
     "toxicspikes": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "venoshock": [
       "M"
@@ -208,9 +219,8 @@
       "L:8"
     ],
     "waterpulse": [
-      "E",
-      "M"
+      "M",
+      "E"
     ]
-  },
-  "flavorText": "Be cautious if this Pokémon starts sucking in water—it will soon attack by scattering the toxic spikes that grow all over its body."
+  }
 }

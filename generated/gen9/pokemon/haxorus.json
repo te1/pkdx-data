@@ -1,10 +1,11 @@
 {
   "slug": "haxorus",
   "name": "Haxorus",
-  "num": 157,
+  "num": 612,
   "types": [
     "dragon"
   ],
+  "gen": 5,
   "abilities": {
     "0": "rivalry",
     "1": "moldbreaker",
@@ -18,15 +19,27 @@
     "spd": 70,
     "spe": 97
   },
+  "prevo": "fraxure",
+  "evoLevel": 48,
   "weight": 105.5,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon nests in caves and abandoned mines. It is docile, but it will become incredibly angry if its tusks are touched, so beware."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "aquatail": [
+      "E@axew"
     ],
     "assurance": [
       "L:9"
@@ -49,9 +62,12 @@
     "closecombat": [
       "M"
     ],
+    "counter": [
+      "E@axew"
+    ],
     "crunch": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "dig": [
       "M"
@@ -60,22 +76,25 @@
       "M"
     ],
     "dragonclaw": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "dragondance": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "dragonpulse": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "dragontail": [
       "M"
     ],
     "earthquake": [
       "M"
+    ],
+    "endeavor": [
+      "E@axew"
     ],
     "endure": [
       "M"
@@ -84,8 +103,11 @@
       "M"
     ],
     "falseswipe": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "firstimpression": [
+      "E@axew"
     ],
     "fling": [
       "M"
@@ -97,8 +119,8 @@
       "L:33"
     ],
     "gigaimpact": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "grassknot": [
       "M"
@@ -112,6 +134,9 @@
     "ironhead": [
       "M"
     ],
+    "irontail": [
+      "E@axew"
+    ],
     "leer": [
       "L:1"
     ],
@@ -121,9 +146,12 @@
     "lowsweep": [
       "M"
     ],
+    "nightslash": [
+      "E@axew"
+    ],
     "outrage": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "poisonjab": [
       "M"
@@ -147,8 +175,8 @@
       "M"
     ],
     "scaryface": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "scratch": [
       "L:1"
@@ -181,15 +209,15 @@
       "M"
     ],
     "swordsdance": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "takedown": [
       "M"
     ],
     "taunt": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "terablast": [
       "M"
@@ -200,6 +228,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon nests in caves and abandoned mines. It is docile, but it will become incredibly angry if its tusks are touched, so beware."
+  }
 }

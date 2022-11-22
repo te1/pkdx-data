@@ -1,11 +1,12 @@
 {
   "slug": "farigiraf",
   "name": "Farigiraf",
-  "num": 193,
+  "num": 928,
   "types": [
     "normal",
     "psychic"
   ],
+  "gen": 9,
   "abilities": {
     "0": "cudchew",
     "1": "armortail",
@@ -19,16 +20,28 @@
     "spd": 70,
     "spe": 60
   },
+  "prevo": "girafarig",
+  "evoType": "levelMove",
+  "evoMove": "Twin Beam",
   "weight": 160,
-  "height": 32,
+  "height": 3.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's."
+  },
   "learnset": {
     "agility": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
+    ],
+    "allyswitch": [
+      "E@girafarig"
     ],
     "amnesia": [
       "M"
@@ -40,8 +53,11 @@
       "L:1"
     ],
     "batonpass": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
+    ],
+    "beatup": [
+      "E@girafarig"
     ],
     "bodyslam": [
       "M"
@@ -62,14 +78,17 @@
       "L:5"
     ],
     "crunch": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "dazzlinggleam": [
       "M"
     ],
     "doublehit": [
       "L:28"
+    ],
+    "doublekick": [
+      "E@girafarig"
     ],
     "earthquake": [
       "M"
@@ -85,6 +104,9 @@
     ],
     "foulplay": [
       "M"
+    ],
+    "futuresight": [
+      "E@girafarig"
     ],
     "gigaimpact": [
       "M"
@@ -119,9 +141,15 @@
     "lowkick": [
       "M"
     ],
+    "meanlook": [
+      "E@girafarig"
+    ],
+    "mirrorcoat": [
+      "E@girafarig"
+    ],
     "nastyplot": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "nightshade": [
       "M"
@@ -133,12 +161,12 @@
       "M"
     ],
     "psybeam": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "psychic": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "psychicfangs": [
       "M"
@@ -189,7 +217,8 @@
       "L:1"
     ],
     "takedown": [
-      "M"
+      "M",
+      "E@girafarig"
     ],
     "terablast": [
       "M"
@@ -218,9 +247,14 @@
     "twinbeam": [
       "L:32"
     ],
+    "uproar": [
+      "E@girafarig"
+    ],
+    "wish": [
+      "E@girafarig"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's."
+  }
 }

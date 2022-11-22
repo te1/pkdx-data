@@ -1,10 +1,11 @@
 {
   "slug": "fidough",
   "name": "Fidough",
-  "num": 76,
+  "num": 970,
   "types": [
     "fairy"
   ],
+  "gen": 9,
   "abilities": {
     "0": "owntempo",
     "H": "klutz"
@@ -17,11 +18,22 @@
     "spd": 55,
     "spe": 65
   },
+  "evos": [
+    "dachsbun"
+  ],
   "weight": 10.9,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity."
   },
   "learnset": {
     "agility": [
@@ -31,8 +43,8 @@
       "L:15"
     ],
     "batonpass": [
-      "L:26",
-      "M"
+      "M",
+      "L:26"
     ],
     "bite": [
       "L:11"
@@ -41,8 +53,8 @@
       "M"
     ],
     "charm": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "copycat": [
       "E"
@@ -51,8 +63,8 @@
       "L:8"
     ],
     "crunch": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dazzlinggleam": [
       "M"
@@ -100,8 +112,8 @@
       "M"
     ],
     "playrough": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "protect": [
       "M"
@@ -163,6 +175,5 @@
     "yawn": [
       "E"
     ]
-  },
-  "flavorText": "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity."
+  }
 }

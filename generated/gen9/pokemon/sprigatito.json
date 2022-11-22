@@ -1,10 +1,11 @@
 {
   "slug": "sprigatito",
   "name": "Sprigatito",
-  "num": 1,
+  "num": 906,
   "types": [
     "grass"
   ],
+  "gen": 9,
   "abilities": {
     "0": "overgrow",
     "H": "protean"
@@ -17,11 +18,22 @@
     "spd": 45,
     "spe": 65
   },
+  "evos": [
+    "floragato"
+  ],
   "weight": 4.1,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out."
   },
   "learnset": {
     "acrobatics": [
@@ -52,8 +64,8 @@
       "M"
     ],
     "energyball": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "facade": [
       "M"
@@ -89,8 +101,8 @@
       "E"
     ],
     "magicalleaf": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "mudslap": [
       "M"
@@ -102,8 +114,8 @@
       "E"
     ],
     "playrough": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "protect": [
       "M"
@@ -118,8 +130,8 @@
       "L:1"
     ],
     "seedbomb": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "shadowclaw": [
       "M"
@@ -158,12 +170,11 @@
       "M"
     ],
     "uturn": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "worryseed": [
       "L:25"
     ]
-  },
-  "flavorText": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out."
+  }
 }

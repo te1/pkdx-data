@@ -1,10 +1,11 @@
 {
   "slug": "ursaring",
   "name": "Ursaring",
-  "num": 216,
+  "num": 217,
   "types": [
     "normal"
   ],
+  "gen": 2,
   "abilities": {
     "0": "guts",
     "1": "quickfeet",
@@ -18,11 +19,22 @@
     "spd": 75,
     "spe": 55
   },
+  "prevo": "teddiursa",
+  "evos": [
+    "ursaluna"
+  ],
+  "evoLevel": 30,
   "weight": 125.8,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It usually wears a hardened expression, but when it's licking up honey—which it loves—the joy it feels will cause it to break into a wide grin."
   },
   "learnset": {
     "aerialace": [
@@ -30,6 +42,12 @@
     ],
     "avalanche": [
       "M"
+    ],
+    "babydolleyes": [
+      "L:1@teddiursa"
+    ],
+    "bellydrum": [
+      "E@teddiursa"
     ],
     "bodyslam": [
       "M"
@@ -44,19 +62,31 @@
       "M"
     ],
     "charm": [
-      "M"
+      "M",
+      "L:33@teddiursa"
     ],
     "closecombat": [
-      "M"
+      "M",
+      "E@teddiursa"
+    ],
+    "counter": [
+      "E@teddiursa"
     ],
     "covet": [
       "L:1"
     ],
+    "crosschop": [
+      "E@teddiursa"
+    ],
     "crunch": [
-      "M"
+      "M",
+      "E@teddiursa"
     ],
     "dig": [
       "M"
+    ],
+    "doubleedge": [
+      "E@teddiursa"
     ],
     "earthquake": [
       "M"
@@ -68,14 +98,19 @@
       "M"
     ],
     "faketears": [
+      "M",
       "L:1",
-      "M"
+      "E@teddiursa"
     ],
     "firepunch": [
       "M"
     ],
     "fling": [
-      "M"
+      "M",
+      "L:1@teddiursa"
+    ],
+    "furycutter": [
+      "E@teddiursa"
     ],
     "furyswipes": [
       "L:8"
@@ -114,10 +149,14 @@
       "M"
     ],
     "metalclaw": [
-      "M"
+      "M",
+      "E@teddiursa"
     ],
     "metronome": [
       "M"
+    ],
+    "nightslash": [
+      "E@teddiursa"
     ],
     "payback": [
       "L:13"
@@ -126,8 +165,8 @@
       "L:25"
     ],
     "playrough": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "protect": [
       "M"
@@ -136,8 +175,8 @@
       "M"
     ],
     "rest": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "rockslide": [
       "M"
@@ -146,14 +185,17 @@
       "M"
     ],
     "scaryface": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "scratch": [
       "L:1"
     ],
     "seedbomb": [
       "M"
+    ],
+    "seismictoss": [
+      "E@teddiursa"
     ],
     "shadowclaw": [
       "M"
@@ -208,7 +250,9 @@
     ],
     "trailblaze": [
       "M"
+    ],
+    "yawn": [
+      "E@teddiursa"
     ]
-  },
-  "flavorText": "It usually wears a hardened expression, but when it's licking up honey—which it loves—the joy it feels will cause it to break into a wide grin."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "maushold",
   "name": "Maushold",
-  "num": 72,
+  "num": 946,
   "types": [
     "normal"
   ],
+  "gen": 9,
   "abilities": {
     "0": "friendguard",
     "1": "cheekpouch",
@@ -18,12 +19,27 @@
     "spd": 75,
     "spe": 111
   },
+  "prevo": "tandemaus",
+  "evoLevel": 25,
+  "formes": [
+    "maushold-four"
+  ],
   "weight": 2.3,
-  "height": 3,
-  "genderRatio": {},
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "afteryou": [
+      "E@tandemaus"
     ],
     "agility": [
       "M"
@@ -31,16 +47,23 @@
     "babydolleyes": [
       "L:1"
     ],
+    "batonpass": [
+      "M@tandemaus",
+      "E@tandemaus"
+    ],
     "beatup": [
       "L:41"
     ],
+    "bite": [
+      "E@tandemaus"
+    ],
     "bulletseed": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "charm": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "chillingwater": [
       "M"
@@ -61,8 +84,8 @@
       "L:5"
     ],
     "encore": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "endure": [
       "M"
@@ -72,6 +95,9 @@
     ],
     "faketears": [
       "M"
+    ],
+    "feint": [
+      "E@tandemaus"
     ],
     "followme": [
       "L:1"
@@ -83,15 +109,15 @@
       "M"
     ],
     "helpinghand": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "hyperbeam": [
       "M"
     ],
     "hypervoice": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "lowkick": [
       "M"
@@ -106,8 +132,8 @@
       "M"
     ],
     "playrough": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "populationbomb": [
       "L:53"
@@ -145,6 +171,9 @@
     "swift": [
       "M"
     ],
+    "switcheroo": [
+      "E@tandemaus"
+    ],
     "takedown": [
       "M"
     ],
@@ -160,6 +189,9 @@
     "thunderwave": [
       "M"
     ],
+    "tickle": [
+      "E@tandemaus"
+    ],
     "tidyup": [
       "L:1"
     ],
@@ -172,6 +204,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping."
+  }
 }

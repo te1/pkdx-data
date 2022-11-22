@@ -1,11 +1,12 @@
 {
   "slug": "azumarill",
   "name": "Azumarill",
-  "num": 48,
+  "num": 184,
   "types": [
     "water",
     "fairy"
   ],
+  "gen": 2,
   "abilities": {
     "0": "thickfat",
     "1": "hugepower",
@@ -19,21 +20,36 @@
     "spd": 80,
     "spe": 50
   },
+  "prevo": "marill",
+  "evoLevel": 18,
   "weight": 28.5,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are."
+  },
   "learnset": {
     "amnesia": [
       "M"
+    ],
+    "aquajet": [
+      "E"
     ],
     "aquaring": [
       "L:30"
     ],
     "aquatail": [
       "L:21"
+    ],
+    "bellydrum": [
+      "E"
     ],
     "blizzard": [
       "M"
@@ -54,11 +70,14 @@
       "M"
     ],
     "charm": [
-      "L:9",
-      "M"
+      "M",
+      "L:9"
     ],
     "chillingwater": [
       "M"
+    ],
+    "copycat": [
+      "E"
     ],
     "defensecurl": [
       "L:1"
@@ -100,12 +119,12 @@
       "M"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hydropump": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "hyperbeam": [
       "M"
@@ -143,22 +162,31 @@
     "mudslap": [
       "M"
     ],
+    "perishsong": [
+      "E"
+    ],
     "playrough": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
+    ],
+    "present": [
+      "E"
     ],
     "protect": [
       "M"
     ],
     "raindance": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "rest": [
       "M"
     ],
     "rollout": [
       "L:1"
+    ],
+    "sing": [
+      "E"
     ],
     "slam": [
       "L:12"
@@ -169,11 +197,20 @@
     "snowscape": [
       "M"
     ],
+    "soak": [
+      "E"
+    ],
+    "splash": [
+      "L:1"
+    ],
     "substitute": [
       "M"
     ],
     "superpower": [
       "L:50"
+    ],
+    "supersonic": [
+      "E"
     ],
     "surf": [
       "M"
@@ -193,6 +230,9 @@
     "terablast": [
       "M"
     ],
+    "tickle": [
+      "E"
+    ],
     "trailblaze": [
       "M"
     ],
@@ -205,6 +245,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are."
+  }
 }

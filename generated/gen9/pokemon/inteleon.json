@@ -1,10 +1,11 @@
 {
   "slug": "inteleon",
   "name": "Inteleon",
-  "num": null,
+  "num": 818,
   "types": [
     "water"
   ],
+  "gen": 8,
   "abilities": {
     "0": "torrent",
     "H": "sniper"
@@ -17,16 +18,23 @@
     "spd": 65,
     "spe": 120
   },
+  "prevo": "drizzile",
+  "evoLevel": 35,
   "weight": 45.2,
-  "height": 19,
+  "height": 1.9,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "agility": [
       "M"
@@ -36,6 +44,12 @@
     ],
     "airslash": [
       "M"
+    ],
+    "aquajet": [
+      "E@sobble"
+    ],
+    "aquaring": [
+      "E@sobble"
     ],
     "batonpass": [
       "M"
@@ -52,11 +66,17 @@
     "darkpulse": [
       "M"
     ],
+    "doubleteam": [
+      "E@sobble"
+    ],
     "endure": [
       "M"
     ],
     "facade": [
       "M"
+    ],
+    "fellstinger": [
+      "E@sobble"
     ],
     "fling": [
       "M"
@@ -67,18 +87,24 @@
     "growl": [
       "L:1"
     ],
+    "haze": [
+      "E@sobble"
+    ],
     "hydrocannon": [
       "M"
     ],
     "hydropump": [
-      "L:62",
-      "M"
+      "M",
+      "L:62"
     ],
     "hyperbeam": [
       "M"
     ],
     "icebeam": [
       "M"
+    ],
+    "iceshard": [
+      "E@sobble"
     ],
     "icywind": [
       "M"
@@ -87,11 +113,14 @@
       "M"
     ],
     "liquidation": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "metronome": [
       "M"
+    ],
+    "mist": [
+      "E@sobble"
     ],
     "mudshot": [
       "M"
@@ -103,8 +132,8 @@
       "M"
     ],
     "raindance": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "reflect": [
       "M"
@@ -155,8 +184,8 @@
       "M"
     ],
     "uturn": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "waterfall": [
       "M"
@@ -168,8 +197,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ]
   }
 }

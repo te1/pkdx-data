@@ -1,11 +1,12 @@
 {
   "slug": "spiritomb",
   "name": "Spiritomb",
-  "num": 302,
+  "num": 442,
   "types": [
     "ghost",
     "dark"
   ],
+  "gen": 4,
   "abilities": {
     "0": "pressure",
     "H": "infiltrator"
@@ -19,10 +20,17 @@
     "spe": 35
   },
   "weight": 108,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell."
   },
   "learnset": {
     "allyswitch": [
@@ -35,15 +43,15 @@
       "M"
     ],
     "confuseray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "curse": [
       "L:40"
     ],
     "darkpulse": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "destinybond": [
       "E"
@@ -70,8 +78,8 @@
       "M"
     ],
     "hex": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "hyperbeam": [
       "M"
@@ -89,12 +97,12 @@
       "L:30"
     ],
     "nastyplot": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "nightshade": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "painsplit": [
       "E"
@@ -130,8 +138,8 @@
       "M"
     ],
     "shadowball": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "shadowsneak": [
       "L:5"
@@ -181,6 +189,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell."
+  }
 }

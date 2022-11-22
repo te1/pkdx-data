@@ -1,10 +1,11 @@
 {
   "slug": "luxio",
   "name": "Luxio",
-  "num": 95,
+  "num": 404,
   "types": [
     "electric"
   ],
+  "gen": 4,
   "abilities": {
     "0": "rivalry",
     "1": "intimidate",
@@ -18,13 +19,27 @@
     "spd": 49,
     "spe": 60
   },
+  "prevo": "shinx",
+  "evos": [
+    "luxray"
+  ],
+  "evoLevel": 15,
   "weight": 30.5,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+  },
   "learnset": {
+    "babydolleyes": [
+      "E@shinx"
+    ],
     "bite": [
       "L:12"
     ],
@@ -38,11 +53,14 @@
       "M"
     ],
     "crunch": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "discharge": [
       "L:54"
+    ],
+    "doublekick": [
+      "E@shinx"
     ],
     "eerieimpulse": [
       "M"
@@ -68,6 +86,9 @@
     "helpinghand": [
       "M"
     ],
+    "howl": [
+      "E@shinx"
+    ],
     "icefang": [
       "M"
     ],
@@ -77,6 +98,9 @@
     "lightscreen": [
       "M"
     ],
+    "nightslash": [
+      "E@shinx"
+    ],
     "playrough": [
       "M"
     ],
@@ -85,6 +109,9 @@
     ],
     "psychicfangs": [
       "M"
+    ],
+    "quickattack": [
+      "E@shinx"
     ],
     "raindance": [
       "M"
@@ -96,8 +123,11 @@
       "L:24"
     ],
     "scaryface": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
+    ],
+    "shockwave": [
+      "E@shinx"
     ],
     "sleeptalk": [
       "M"
@@ -124,7 +154,8 @@
       "L:1"
     ],
     "takedown": [
-      "M"
+      "M",
+      "E@shinx"
     ],
     "terablast": [
       "M"
@@ -145,20 +176,19 @@
       "L:1"
     ],
     "thunderwave": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "trailblaze": [
       "M"
     ],
     "voltswitch": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "wildcharge": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
     ]
-  },
-  "flavorText": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+  }
 }

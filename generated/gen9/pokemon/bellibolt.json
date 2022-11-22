@@ -1,10 +1,11 @@
 {
   "slug": "bellibolt",
   "name": "Bellibolt",
-  "num": 171,
+  "num": 941,
   "types": [
     "electric"
   ],
+  "gen": 9,
   "abilities": {
     "0": "electromorphosis",
     "1": "static",
@@ -18,11 +19,20 @@
     "spd": 83,
     "spe": 45
   },
+  "prevo": "tadbulb",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
   "weight": 113,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "flavorText": {
+    "scarlet": "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity."
   },
   "learnset": {
     "acidspray": [
@@ -47,8 +57,8 @@
       "M"
     ],
     "electricterrain": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "electroball": [
       "M"
@@ -71,13 +81,19 @@
     "lightscreen": [
       "M"
     ],
+    "muddywater": [
+      "E@tadbulb"
+    ],
     "mudshot": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "paraboliccharge": [
+      "E@tadbulb"
     ],
     "protect": [
       "M"
@@ -96,6 +112,9 @@
     ],
     "sleeptalk": [
       "M"
+    ],
+    "soak": [
+      "E@tadbulb"
     ],
     "spark": [
       "L:21"
@@ -145,6 +164,5 @@
     "zapcannon": [
       "L:50"
     ]
-  },
-  "flavorText": "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity."
+  }
 }

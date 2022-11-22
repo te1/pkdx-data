@@ -1,11 +1,12 @@
 {
   "slug": "toxapex",
   "name": "Toxapex",
-  "num": 345,
+  "num": 748,
   "types": [
     "poison",
     "water"
   ],
+  "gen": 7,
   "abilities": {
     "0": "merciless",
     "1": "limber",
@@ -19,16 +20,24 @@
     "spd": 142,
     "spe": 35
   },
+  "prevo": "mareanie",
+  "evoLevel": 38,
   "weight": 14.5,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon lives within a dome made by its own legs. Toxapex monitors its surroundings by sensing the flow of the tide through its spikes."
+  },
   "learnset": {
     "acidspray": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "banefulbunker": [
       "L:0"
@@ -57,6 +66,9 @@
     "gunkshot": [
       "M"
     ],
+    "haze": [
+      "E@mareanie"
+    ],
     "hex": [
       "M"
     ],
@@ -75,12 +87,15 @@
     "icywind": [
       "M"
     ],
+    "infestation": [
+      "E@mareanie"
+    ],
     "irondefense": [
       "M"
     ],
     "liquidation": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "mudshot": [
       "M"
@@ -92,8 +107,8 @@
       "L:25"
     ],
     "poisonjab": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "poisonsting": [
       "L:1"
@@ -122,11 +137,20 @@
     "sludgebomb": [
       "M"
     ],
+    "spitup": [
+      "E@mareanie"
+    ],
+    "stockpile": [
+      "E@mareanie"
+    ],
     "substitute": [
       "M"
     ],
     "surf": [
       "M"
+    ],
+    "swallow": [
+      "E@mareanie"
     ],
     "terablast": [
       "M"
@@ -135,12 +159,12 @@
       "L:56"
     ],
     "toxicspikes": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "venoshock": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "waterpulse": [
       "M"
@@ -148,6 +172,5 @@
     "wideguard": [
       "L:1"
     ]
-  },
-  "flavorText": "This Pokémon lives within a dome made by its own legs. Toxapex monitors its surroundings by sensing the flow of the tide through its spikes."
+  }
 }

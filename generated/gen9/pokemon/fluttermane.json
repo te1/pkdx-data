@@ -1,14 +1,14 @@
 {
   "slug": "fluttermane",
   "name": "Flutter Mane",
-  "num": 379,
+  "num": 983,
   "types": [
     "ghost",
     "fairy"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "protosynthesis",
-    "H": "protosynthesis"
+    "0": "protosynthesis"
   },
   "baseStats": {
     "hp": 55,
@@ -19,8 +19,14 @@
     "spe": 135
   },
   "weight": 4,
-  "height": 14,
-  "genderRatio": {},
+  "height": 1.4,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book."
+  },
   "learnset": {
     "astonish": [
       "L:1"
@@ -35,15 +41,15 @@
       "M"
     ],
     "confuseray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "darkpulse": [
       "M"
     ],
     "dazzlinggleam": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "disarmingvoice": [
       "M"
@@ -109,30 +115,30 @@
       "L:91"
     ],
     "phantomforce": [
-      "L:70",
-      "M"
+      "M",
+      "L:70"
     ],
     "powergem": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "protect": [
       "M"
     ],
     "psybeam": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "psyshock": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "rest": [
       "M"
     ],
     "shadowball": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "sleeptalk": [
       "M"
@@ -147,8 +153,8 @@
       "M"
     ],
     "sunnyday": [
-      "T",
-      "M"
+      "M",
+      "L:1"
     ],
     "swift": [
       "M"
@@ -174,6 +180,5 @@
     "wish": [
       "L:28"
     ]
-  },
-  "flavorText": "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "happiny",
   "name": "Happiny",
-  "num": 43,
+  "num": 440,
   "types": [
     "normal"
   ],
+  "gen": 4,
   "abilities": {
     "0": "naturalcure",
     "1": "serenegrace",
@@ -18,15 +19,23 @@
     "spd": 65,
     "spe": 30
   },
+  "evos": [
+    "chansey"
+  ],
   "weight": 24.4,
-  "height": 6,
-  "genderRatio": {
-    "F": 1
+  "height": 0.6,
+  "gender": "F",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It carries a round, white rock in its belly pouch. If it gets along well with someone, it will sometimes give that person the rock."
   },
   "learnset": {
     "charm": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "copycat": [
       "L:1"
@@ -38,8 +47,8 @@
       "L:4"
     ],
     "disarmingvoice": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "endure": [
       "M"
@@ -131,6 +140,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It carries a round, white rock in its belly pouch. If it gets along well with someone, it will sometimes give that person the rock."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "heatran",
   "name": "Heatran",
-  "num": null,
+  "num": 485,
   "types": [
     "fire",
     "steel"
   ],
+  "gen": 4,
   "abilities": {
     "0": "flashfire",
     "H": "flamebody"
@@ -19,11 +20,16 @@
     "spe": 77
   },
   "weight": 430,
-  "height": 17,
+  "height": 1.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "ancientpower": [
       "L:12"
@@ -38,8 +44,8 @@
       "M"
     ],
     "crunch": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "darkpulse": [
       "M"
@@ -51,8 +57,8 @@
       "M"
     ],
     "earthpower": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "earthquake": [
       "M"
@@ -67,12 +73,12 @@
       "M"
     ],
     "firefang": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "firespin": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "flamecharge": [
       "M"
@@ -90,8 +96,8 @@
       "M"
     ],
     "heatwave": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "heavyslam": [
       "M"
@@ -103,8 +109,8 @@
       "M"
     ],
     "ironhead": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "lavaplume": [
       "L:42"
@@ -116,8 +122,8 @@
       "L:72"
     ],
     "metalclaw": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "metalsound": [
       "L:48"
@@ -150,8 +156,8 @@
       "M"
     ],
     "scaryface": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "sleeptalk": [
       "M"
@@ -169,8 +175,8 @@
       "M"
     ],
     "stoneedge": [
-      "L:66",
-      "M"
+      "M",
+      "L:66"
     ],
     "substitute": [
       "M"

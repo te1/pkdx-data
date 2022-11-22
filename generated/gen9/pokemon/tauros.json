@@ -1,10 +1,11 @@
 {
   "slug": "tauros",
   "name": "Tauros",
-  "num": 223,
+  "num": 128,
   "types": [
     "normal"
   ],
+  "gen": 1,
   "abilities": {
     "0": "intimidate",
     "1": "angerpoint",
@@ -18,10 +19,21 @@
     "spd": 70,
     "spe": 110
   },
+  "formes": [
+    "tauros-paldea",
+    "tauros-paldea-fire",
+    "tauros-paldea-water"
+  ],
   "weight": 88.4,
-  "height": 14,
-  "genderRatio": {
-    "M": 1
+  "height": 1.4,
+  "gender": "M",
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
+  "flavorText": {
+    "scarlet": "When it targets an enemy, it charges furiously while whipping its body with its long tails."
   },
   "learnset": {
     "assurance": [
@@ -67,8 +79,8 @@
       "M"
     ],
     "gigaimpact": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "helpinghand": [
       "M"
@@ -104,8 +116,8 @@
       "M"
     ],
     "rest": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "reversal": [
       "M"
@@ -120,8 +132,8 @@
       "M"
     ],
     "scaryface": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "shadowball": [
       "M"
@@ -187,9 +199,8 @@
       "L:5"
     ],
     "zenheadbutt": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ]
-  },
-  "flavorText": "When it targets an enemy, it charges furiously while whipping its body with its long tails."
+  }
 }

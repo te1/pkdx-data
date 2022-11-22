@@ -1,10 +1,11 @@
 {
   "slug": "sobble",
   "name": "Sobble",
-  "num": null,
+  "num": 816,
   "types": [
     "water"
   ],
+  "gen": 8,
   "abilities": {
     "0": "torrent",
     "H": "sniper"
@@ -17,12 +18,21 @@
     "spd": 40,
     "spe": 70
   },
+  "evos": [
+    "drizzile"
+  ],
   "weight": 4,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true,
+  "isUnobtainable": true,
   "learnset": {
     "aquajet": [
       "E"
@@ -64,8 +74,8 @@
       "M"
     ],
     "liquidation": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "mist": [
       "E"
@@ -80,8 +90,8 @@
       "M"
     ],
     "raindance": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "reflect": [
       "M"
@@ -117,8 +127,8 @@
       "M"
     ],
     "uturn": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "waterfall": [
       "M"
@@ -130,8 +140,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ]
   }
 }

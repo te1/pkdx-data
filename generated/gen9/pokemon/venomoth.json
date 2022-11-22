@@ -1,11 +1,12 @@
 {
   "slug": "venomoth",
   "name": "Venomoth",
-  "num": 257,
+  "num": 49,
   "types": [
     "bug",
     "poison"
   ],
+  "gen": 1,
   "abilities": {
     "0": "shielddust",
     "1": "tintedlens",
@@ -19,11 +20,19 @@
     "spd": 75,
     "spe": 90
   },
+  "prevo": "venonat",
+  "evoLevel": 31,
   "weight": 12.5,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
   },
   "learnset": {
     "acidspray": [
@@ -33,21 +42,26 @@
       "M"
     ],
     "agility": [
-      "M"
+      "M",
+      "E@venonat"
     ],
     "aircutter": [
       "M"
     ],
     "airslash": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "batonpass": [
-      "M"
+      "M",
+      "E@venonat"
+    ],
+    "bugbite": [
+      "E@venonat"
     ],
     "bugbuzz": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "confuseray": [
       "M"
@@ -77,8 +91,11 @@
       "M"
     ],
     "leechlife": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
+    ],
+    "morningsun": [
+      "E@venonat"
     ],
     "nightshade": [
       "M"
@@ -96,18 +113,24 @@
       "M"
     ],
     "psybeam": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "psychic": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "quiverdance": [
       "L:1"
     ],
+    "ragepowder": [
+      "E@venonat"
+    ],
     "rest": [
       "M"
+    ],
+    "screech": [
+      "E@venonat"
     ],
     "skillswap": [
       "M"
@@ -155,18 +178,19 @@
       "M"
     ],
     "toxicspikes": [
-      "M"
+      "M",
+      "E@venonat"
     ],
     "uturn": [
       "M"
     ],
     "venoshock": [
-      "M"
+      "M",
+      "E@venonat"
     ],
     "zenheadbutt": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ]
-  },
-  "flavorText": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "pichu",
   "name": "Pichu",
-  "num": 73,
+  "num": 172,
   "types": [
     "electric"
   ],
+  "gen": 2,
   "abilities": {
     "0": "static",
     "H": "lightningrod"
@@ -17,11 +18,21 @@
     "spd": 35,
     "spe": 60
   },
+  "evos": [
+    "pikachu"
+  ],
   "weight": 2,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously."
   },
   "learnset": {
     "bodyslam": [
@@ -31,12 +42,12 @@
       "E"
     ],
     "charm": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "disarmingvoice": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "electricterrain": [
       "M"
@@ -72,8 +83,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "nuzzle": [
       "L:12"
@@ -156,6 +167,5 @@
     "wish": [
       "E"
     ]
-  },
-  "flavorText": "It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously."
+  }
 }

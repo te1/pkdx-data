@@ -1,11 +1,12 @@
 {
   "slug": "altaria",
   "name": "Altaria",
-  "num": 220,
+  "num": 334,
   "types": [
     "dragon",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
     "0": "naturalcure",
     "H": "cloudnine"
@@ -18,11 +19,20 @@
     "spd": 105,
     "spe": 80
   },
+  "prevo": "swablu",
+  "evoLevel": 35,
   "weight": 20.6,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Flying",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum."
   },
   "learnset": {
     "acrobatics": [
@@ -33,6 +43,9 @@
     ],
     "agility": [
       "M"
+    ],
+    "astonish": [
+      "E@swablu"
     ],
     "bodyslam": [
       "M"
@@ -49,9 +62,12 @@
     "dazzlinggleam": [
       "M"
     ],
+    "defog": [
+      "E@swablu"
+    ],
     "disarmingvoice": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dracometeor": [
       "M"
@@ -66,8 +82,11 @@
       "M"
     ],
     "dragonpulse": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
+    ],
+    "dragonrush": [
+      "E@swablu"
     ],
     "earthquake": [
       "M"
@@ -77,6 +96,9 @@
     ],
     "facade": [
       "M"
+    ],
+    "featherdance": [
+      "E@swablu"
     ],
     "fireblast": [
       "M"
@@ -98,6 +120,9 @@
     ],
     "growl": [
       "L:1"
+    ],
+    "haze": [
+      "E@swablu"
     ],
     "heatwave": [
       "M"
@@ -147,6 +172,9 @@
     "rest": [
       "M"
     ],
+    "roost": [
+      "E@swablu"
+    ],
     "round": [
       "L:16"
     ],
@@ -178,11 +206,12 @@
       "M"
     ],
     "tailwind": [
-      "M"
+      "M",
+      "E@swablu"
     ],
     "takedown": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "terablast": [
       "M"
@@ -196,6 +225,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum."
+  }
 }

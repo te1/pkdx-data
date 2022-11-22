@@ -1,10 +1,11 @@
 {
   "slug": "floatzel",
   "name": "Floatzel",
-  "num": 52,
+  "num": 419,
   "types": [
     "water"
   ],
+  "gen": 4,
   "abilities": {
     "0": "swiftswim",
     "H": "waterveil"
@@ -17,25 +18,38 @@
     "spd": 50,
     "spe": 115
   },
+  "prevo": "buizel",
+  "evoLevel": 26,
   "weight": 33.5,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
+  },
   "learnset": {
     "agility": [
-      "L:51",
-      "M"
+      "M",
+      "L:51"
     ],
     "aquajet": [
       "L:24"
+    ],
+    "aquaring": [
+      "E@buizel"
     ],
     "aquatail": [
       "L:46"
     ],
     "batonpass": [
-      "M"
+      "M",
+      "E@buizel"
     ],
     "bite": [
       "L:18"
@@ -56,8 +70,8 @@
       "M"
     ],
     "crunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "dig": [
       "M"
@@ -77,18 +91,28 @@
     "focusblast": [
       "M"
     ],
+    "furycutter": [
+      "E@buizel"
+    ],
+    "furyswipes": [
+      "E@buizel"
+    ],
     "gigaimpact": [
       "M"
     ],
     "growl": [
       "L:1"
     ],
+    "headbutt": [
+      "E@buizel"
+    ],
     "helpinghand": [
-      "M"
+      "M",
+      "E@buizel"
     ],
     "hydropump": [
-      "L:57",
-      "M"
+      "M",
+      "L:57"
     ],
     "hyperbeam": [
       "M"
@@ -97,8 +121,8 @@
       "M"
     ],
     "icefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "icepunch": [
       "M"
@@ -110,8 +134,8 @@
       "M"
     ],
     "liquidation": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "lowkick": [
       "M"
@@ -123,7 +147,8 @@
       "M"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@buizel"
     ],
     "protect": [
       "M"
@@ -143,6 +168,9 @@
     "scaryface": [
       "M"
     ],
+    "slash": [
+      "E@buizel"
+    ],
     "sleeptalk": [
       "M"
     ],
@@ -159,8 +187,11 @@
       "M"
     ],
     "swift": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
+    ],
+    "tackle": [
+      "L:1@buizel"
     ],
     "takedown": [
       "M"
@@ -189,6 +220,5 @@
     "whirlpool": [
       "L:35"
     ]
-  },
-  "flavorText": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
+  }
 }

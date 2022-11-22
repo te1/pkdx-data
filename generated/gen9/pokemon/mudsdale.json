@@ -1,10 +1,11 @@
 {
   "slug": "mudsdale",
   "name": "Mudsdale",
-  "num": 273,
+  "num": 750,
   "types": [
     "ground"
   ],
+  "gen": 7,
   "abilities": {
     "0": "owntempo",
     "1": "stamina",
@@ -18,11 +19,19 @@
     "spd": 85,
     "spe": 35
   },
+  "prevo": "mudbray",
+  "evoLevel": 30,
   "weight": 920,
-  "height": 25,
+  "height": 2.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon has been treasured not just for its physical labor but also because it produces high-quality mud used for making pottery."
   },
   "learnset": {
     "bodypress": [
@@ -32,14 +41,17 @@
       "M"
     ],
     "bulldoze": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "closecombat": [
       "M"
     ],
     "counter": [
       "L:24"
+    ],
+    "doubleedge": [
+      "E@mudbray"
     ],
     "doublekick": [
       "L:1"
@@ -48,14 +60,20 @@
       "M"
     ],
     "earthquake": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
+    ],
+    "endeavor": [
+      "E@mudbray"
     ],
     "endure": [
       "M"
     ],
     "facade": [
       "M"
+    ],
+    "fissure": [
+      "E@mudbray"
     ],
     "focusblast": [
       "M"
@@ -64,8 +82,8 @@
       "M"
     ],
     "heavyslam": [
-      "L:34",
-      "M"
+      "M",
+      "L:34"
     ],
     "highhorsepower": [
       "L:28"
@@ -74,8 +92,8 @@
       "M"
     ],
     "irondefense": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "ironhead": [
       "M"
@@ -93,14 +111,17 @@
       "M"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
     ],
     "rest": [
       "M"
+    ],
+    "roar": [
+      "E@mudbray"
     ],
     "rockslide": [
       "M"
@@ -119,6 +140,9 @@
     ],
     "sleeptalk": [
       "M"
+    ],
+    "smackdown": [
+      "E@mudbray"
     ],
     "stealthrock": [
       "M"
@@ -150,6 +174,5 @@
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon has been treasured not just for its physical labor but also because it produces high-quality mud used for making pottery."
+  }
 }

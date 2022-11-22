@@ -1,10 +1,11 @@
 {
   "slug": "stantler",
   "name": "Stantler",
-  "num": 204,
+  "num": 234,
   "types": [
     "normal"
   ],
+  "gen": 2,
   "abilities": {
     "0": "intimidate",
     "1": "frisk",
@@ -18,11 +19,21 @@
     "spd": 65,
     "spe": 85
   },
+  "evos": [
+    "wyrdeer"
+  ],
   "weight": 71.2,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon apparently used to live in much harsher environments, and thus it once had stronger psychic powers than it does now."
   },
   "learnset": {
     "agility": [
@@ -41,15 +52,15 @@
       "M"
     ],
     "calmmind": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "chargebeam": [
       "M"
     ],
     "confuseray": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "dig": [
       "M"
@@ -94,8 +105,8 @@
       "L:10"
     ],
     "imprison": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "leer": [
       "L:3"
@@ -173,8 +184,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "terablast": [
       "M"
@@ -207,9 +218,8 @@
       "M"
     ],
     "zenheadbutt": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ]
-  },
-  "flavorText": "This Pokémon apparently used to live in much harsher environments, and thus it once had stronger psychic powers than it does now."
+  }
 }

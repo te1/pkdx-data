@@ -1,14 +1,14 @@
 {
   "slug": "zweilous",
   "name": "Zweilous",
-  "num": 371,
+  "num": 634,
   "types": [
     "dark",
     "dragon"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "hustle",
-    "H": "hustle"
+    "0": "hustle"
   },
   "baseStats": {
     "hp": 72,
@@ -18,32 +18,50 @@
     "spd": 70,
     "spe": 58
   },
+  "prevo": "deino",
+  "evos": [
+    "hydreigon"
+  ],
+  "evoLevel": 50,
   "weight": 50,
-  "height": 14,
+  "height": 1.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "The two heads do not get along at all. If you don't give each head the same amount of attention, they'll begin fighting out of jealousy."
   },
   "learnset": {
     "assurance": [
       "L:16"
     ],
+    "astonish": [
+      "E@deino"
+    ],
+    "belch": [
+      "E@deino"
+    ],
     "bite": [
       "L:1"
     ],
     "bodyslam": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "crunch": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "darkpulse": [
       "M"
     ],
     "doublehit": [
-      "L:1"
+      "L:1",
+      "E@deino"
     ],
     "dracometeor": [
       "M"
@@ -52,8 +70,8 @@
       "L:1"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dragonrush": [
       "L:54"
@@ -79,23 +97,26 @@
     "headbutt": [
       "L:20"
     ],
+    "headsmash": [
+      "E@deino"
+    ],
     "helpinghand": [
       "M"
     ],
     "hypervoice": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "icefang": [
       "M"
     ],
     "nastyplot": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "outrage": [
-      "L:66",
-      "M"
+      "M",
+      "L:66"
     ],
     "protect": [
       "M"
@@ -110,8 +131,8 @@
       "L:12"
     ],
     "scaryface": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "slam": [
       "L:28"
@@ -158,6 +179,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The two heads do not get along at all. If you don't give each head the same amount of attention, they'll begin fighting out of jealousy."
+  }
 }

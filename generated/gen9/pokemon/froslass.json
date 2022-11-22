@@ -1,11 +1,12 @@
 {
   "slug": "froslass",
   "name": "Froslass",
-  "num": 359,
+  "num": 478,
   "types": [
     "ice",
     "ghost"
   ],
+  "gen": 4,
   "abilities": {
     "0": "snowcloak",
     "H": "cursedbody"
@@ -18,10 +19,18 @@
     "spd": 70,
     "spe": 110
   },
+  "prevo": "snorunt",
+  "evoType": "useItem",
+  "evoItem": "Dawn Stone",
   "weight": 26.6,
-  "height": 13,
-  "genderRatio": {
-    "F": 1
+  "height": 1.3,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations."
   },
   "learnset": {
     "astonish": [
@@ -37,8 +46,11 @@
       "L:1"
     ],
     "blizzard": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
+    ],
+    "block": [
+      "E@snorunt"
     ],
     "bodyslam": [
       "M"
@@ -50,22 +62,25 @@
       "M"
     ],
     "confuseray": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "crunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "destinybond": [
       "L:1"
+    ],
+    "disable": [
+      "E@snorunt"
     ],
     "doubleteam": [
       "L:1"
     ],
     "drainingkiss": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "endure": [
       "M"
@@ -92,8 +107,8 @@
       "M"
     ],
     "hex": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "hyperbeam": [
       "M"
@@ -102,8 +117,8 @@
       "M"
     ],
     "icefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "icepunch": [
       "M"
@@ -114,9 +129,12 @@
     "icespinner": [
       "M"
     ],
+    "iciclecrash": [
+      "E@snorunt"
+    ],
     "icywind": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "imprison": [
       "M"
@@ -134,8 +152,8 @@
       "L:1"
     ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "psychic": [
       "M"
@@ -149,25 +167,31 @@
     "rest": [
       "M"
     ],
+    "rollout": [
+      "E@snorunt"
+    ],
     "scaryface": [
       "M"
     ],
     "shadowball": [
-      "L:61",
-      "M"
+      "M",
+      "L:61"
     ],
     "sleeptalk": [
       "M"
     ],
     "snowscape": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "spikes": [
       "M"
     ],
     "substitute": [
       "M"
+    ],
+    "switcheroo": [
+      "E@snorunt"
     ],
     "takedown": [
       "M"
@@ -187,16 +211,21 @@
     "thunderwave": [
       "M"
     ],
+    "trailblaze": [
+      "M@snorunt"
+    ],
     "trick": [
       "M"
     ],
     "waterpulse": [
       "M"
     ],
+    "weatherball": [
+      "L:50@snorunt"
+    ],
     "willowisp": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ]
-  },
-  "flavorText": "When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations."
+  }
 }

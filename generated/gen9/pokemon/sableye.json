@@ -1,11 +1,12 @@
 {
   "slug": "sableye",
   "name": "Sableye",
-  "num": 297,
+  "num": 302,
   "types": [
     "dark",
     "ghost"
   ],
+  "gen": 3,
   "abilities": {
     "0": "keeneye",
     "1": "stall",
@@ -20,10 +21,17 @@
     "spe": 50
   },
   "weight": 11,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself."
   },
   "learnset": {
     "aerialace": [
@@ -93,8 +101,8 @@
       "M"
     ],
     "foulplay": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "furyswipes": [
       "L:24"
@@ -160,8 +168,8 @@
       "M"
     ],
     "nightshade": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "phantomforce": [
       "M"
@@ -170,8 +178,8 @@
       "M"
     ],
     "powergem": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "protect": [
       "M"
@@ -204,12 +212,12 @@
       "L:1"
     ],
     "shadowball": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "shadowclaw": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "shadowsneak": [
       "L:9"
@@ -263,9 +271,8 @@
       "M"
     ],
     "zenheadbutt": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ]
-  },
-  "flavorText": "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself."
+  }
 }

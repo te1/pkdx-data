@@ -1,14 +1,14 @@
 {
   "slug": "gengar",
   "name": "Gengar",
-  "num": 70,
+  "num": 94,
   "types": [
     "ghost",
     "poison"
   ],
+  "gen": 1,
   "abilities": {
-    "0": "cursedbody",
-    "H": "cursedbody"
+    "0": "cursedbody"
   },
   "baseStats": {
     "hp": 60,
@@ -18,15 +18,26 @@
     "spd": 75,
     "spe": 110
   },
+  "prevo": "haunter",
+  "evoType": "trade",
   "weight": 40.5,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity."
+  },
   "learnset": {
     "acidspray": [
       "M"
+    ],
+    "astonish": [
+      "E@gastly"
     ],
     "bodyslam": [
       "M"
@@ -34,22 +45,28 @@
     "brickbreak": [
       "M"
     ],
+    "clearsmog": [
+      "E@gastly"
+    ],
     "confuseray": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "curse": [
       "L:20"
     ],
     "darkpulse": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "dazzlinggleam": [
       "M"
     ],
     "destinybond": [
       "L:54"
+    ],
+    "disable": [
+      "E@gastly"
     ],
     "drainpunch": [
       "M"
@@ -90,9 +107,12 @@
     "gunkshot": [
       "M"
     ],
+    "haze": [
+      "E@gastly"
+    ],
     "hex": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "hyperbeam": [
       "M"
@@ -122,14 +142,15 @@
       "M"
     ],
     "nightshade": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "payback": [
       "L:12"
     ],
     "perishsong": [
-      "L:1"
+      "L:1",
+      "E@gastly"
     ],
     "phantomforce": [
       "M"
@@ -147,7 +168,8 @@
       "M"
     ],
     "reflecttype": [
-      "L:1"
+      "L:1",
+      "E@gastly"
     ],
     "rest": [
       "M"
@@ -156,8 +178,8 @@
       "M"
     ],
     "shadowball": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "shadowclaw": [
       "M"
@@ -173,6 +195,9 @@
     ],
     "sludgebomb": [
       "M"
+    ],
+    "smog": [
+      "E@gastly"
     ],
     "spite": [
       "L:16"
@@ -207,6 +232,9 @@
     "thunderwave": [
       "M"
     ],
+    "toxic": [
+      "E@gastly"
+    ],
     "toxicspikes": [
       "M"
     ],
@@ -222,6 +250,5 @@
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity."
+  }
 }

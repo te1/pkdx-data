@@ -1,13 +1,13 @@
 {
   "slug": "glastrier",
   "name": "Glastrier",
-  "num": null,
+  "num": 896,
   "types": [
     "ice"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "chillingneigh",
-    "H": "chillingneigh"
+    "0": "chillingneigh"
   },
   "baseStats": {
     "hp": 100,
@@ -18,12 +18,17 @@
     "spe": 30
   },
   "weight": 800,
-  "height": 22,
-  "genderRatio": {},
+  "height": 2.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "avalanche": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "blizzard": [
       "M"
@@ -74,8 +79,8 @@
       "M"
     ],
     "irondefense": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "mist": [
       "L:30"
@@ -117,8 +122,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "tackle": [
       "L:1"
@@ -127,12 +132,12 @@
       "L:1"
     ],
     "takedown": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "taunt": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "terablast": [
       "M"

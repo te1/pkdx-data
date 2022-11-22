@@ -1,11 +1,12 @@
 {
   "slug": "litleo",
   "name": "Litleo",
-  "num": 224,
+  "num": 667,
   "types": [
     "fire",
     "normal"
   ],
+  "gen": 6,
   "abilities": {
     "0": "rivalry",
     "1": "unnerve",
@@ -19,11 +20,21 @@
     "spd": 54,
     "spe": 72
   },
+  "evos": [
+    "pyroar"
+  ],
   "weight": 13.5,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
-    "M": 0.11,
-    "F": 0.89
+    "M": 0.125,
+    "F": 0.875
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own."
   },
   "learnset": {
     "acrobatics": [
@@ -36,8 +47,8 @@
       "M"
     ],
     "crunch": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "dig": [
       "M"
@@ -64,23 +75,23 @@
       "M"
     ],
     "firefang": [
-      "L:23",
-      "M"
+      "M",
+      "L:23"
     ],
     "firespin": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "flamecharge": [
       "M"
     ],
     "flamethrower": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "flareblitz": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "headbutt": [
       "L:11"
@@ -92,8 +103,8 @@
       "M"
     ],
     "hypervoice": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "incinerate": [
       "L:46"
@@ -108,8 +119,8 @@
       "L:15"
     ],
     "overheat": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "protect": [
       "M"
@@ -145,8 +156,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "taunt": [
       "M"
@@ -175,6 +186,5 @@
     "yawn": [
       "E"
     ]
-  },
-  "flavorText": "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own."
+  }
 }

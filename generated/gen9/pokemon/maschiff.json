@@ -1,10 +1,11 @@
 {
   "slug": "maschiff",
   "name": "Maschiff",
-  "num": 196,
+  "num": 972,
   "types": [
     "dark"
   ],
+  "gen": 9,
   "abilities": {
     "0": "intimidate",
     "1": "runaway",
@@ -18,11 +19,21 @@
     "spd": 51,
     "spe": 51
   },
+  "evos": [
+    "mabosstiff"
+  ],
   "weight": 16,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face."
   },
   "learnset": {
     "bite": [
@@ -35,8 +46,8 @@
       "M"
     ],
     "crunch": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "darkpulse": [
       "M"
@@ -90,8 +101,8 @@
       "L:26"
     ],
     "playrough": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "protect": [
       "M"
@@ -109,22 +120,22 @@
       "E"
     ],
     "reversal": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "roar": [
       "L:18"
     ],
     "scaryface": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "sleeptalk": [
       "M"
     ],
     "snarl": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "substitute": [
       "M"
@@ -156,6 +167,5 @@
     "trailblaze": [
       "M"
     ]
-  },
-  "flavorText": "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face."
+  }
 }

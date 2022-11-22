@@ -1,10 +1,11 @@
 {
   "slug": "bagon",
   "name": "Bagon",
-  "num": 276,
+  "num": 371,
   "types": [
     "dragon"
   ],
+  "gen": 3,
   "abilities": {
     "0": "rockhead",
     "H": "sheerforce"
@@ -17,11 +18,21 @@
     "spd": 30,
     "spe": 50
   },
+  "evos": [
+    "shelgon"
+  ],
   "weight": 42.1,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its steel-hard head can shatter boulders. It longingly hopes for wings to grow so it can fly."
   },
   "learnset": {
     "bite": [
@@ -34,8 +45,8 @@
       "M"
     ],
     "crunch": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "defensecurl": [
       "E"
@@ -50,8 +61,8 @@
       "L:10"
     ],
     "dragonclaw": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "dragondance": [
       "M"
@@ -84,8 +95,8 @@
       "M"
     ],
     "flamethrower": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "focusenergy": [
       "L:40"
@@ -115,8 +126,8 @@
       "M"
     ],
     "outrage": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "protect": [
       "M"
@@ -134,8 +145,8 @@
       "M"
     ],
     "scaryface": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "shadowclaw": [
       "M"
@@ -165,9 +176,8 @@
       "E"
     ],
     "zenheadbutt": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ]
-  },
-  "flavorText": "Its steel-hard head can shatter boulders. It longingly hopes for wings to grow so it can fly."
+  }
 }

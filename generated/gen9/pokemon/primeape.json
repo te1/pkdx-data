@@ -1,10 +1,11 @@
 {
   "slug": "primeape",
   "name": "Primeape",
-  "num": 159,
+  "num": 57,
   "types": [
     "fighting"
   ],
+  "gen": 1,
   "abilities": {
     "0": "vitalspirit",
     "1": "angerpoint",
@@ -18,11 +19,22 @@
     "spd": 70,
     "spe": 95
   },
+  "prevo": "mankey",
+  "evos": [
+    "annihilape"
+  ],
+  "evoLevel": 28,
   "weight": 32,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare."
   },
   "learnset": {
     "acrobatics": [
@@ -30,6 +42,9 @@
     ],
     "assurance": [
       "L:26"
+    ],
+    "beatup": [
+      "E@mankey"
     ],
     "bodyslam": [
       "M"
@@ -44,11 +59,20 @@
       "M"
     ],
     "closecombat": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
+    ],
+    "counter": [
+      "E@mankey"
+    ],
+    "covet": [
+      "L:1@mankey"
     ],
     "crosschop": [
       "L:22"
+    ],
+    "curse": [
+      "E@mankey"
     ],
     "dig": [
       "M"
@@ -60,7 +84,8 @@
       "M"
     ],
     "encore": [
-      "M"
+      "M",
+      "E@mankey"
     ],
     "endure": [
       "M"
@@ -75,8 +100,8 @@
       "M"
     ],
     "fling": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "focusblast": [
       "M"
@@ -106,8 +131,8 @@
       "L:1"
     ],
     "lowkick": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "lowsweep": [
       "M"
@@ -115,9 +140,12 @@
     "metronome": [
       "M"
     ],
+    "nightslash": [
+      "E@mankey"
+    ],
     "outrage": [
-      "L:53",
-      "M"
+      "M",
+      "L:53"
     ],
     "overheat": [
       "M"
@@ -167,12 +195,15 @@
     "sleeptalk": [
       "M"
     ],
+    "spite": [
+      "E@mankey"
+    ],
     "stealthrock": [
       "M"
     ],
     "stompingtantrum": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "stoneedge": [
       "M"
@@ -216,6 +247,5 @@
     "uturn": [
       "M"
     ]
-  },
-  "flavorText": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare."
+  }
 }

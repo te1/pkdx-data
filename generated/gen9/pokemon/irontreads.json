@@ -1,14 +1,14 @@
 {
   "slug": "irontreads",
   "name": "Iron Treads",
-  "num": 382,
+  "num": 986,
   "types": [
     "ground",
     "steel"
   ],
+  "gen": 9,
   "abilities": {
-    "0": "quarkdrive",
-    "H": "quarkdrive"
+    "0": "quarkdrive"
   },
   "baseStats": {
     "hp": 90,
@@ -19,8 +19,14 @@
     "spe": 106
   },
   "weight": 240,
-  "height": 9,
-  "genderRatio": {},
+  "height": 0.9,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens."
+  },
   "learnset": {
     "bodypress": [
       "M"
@@ -29,8 +35,8 @@
       "M"
     ],
     "bulldoze": [
-      "L:7",
-      "M"
+      "M",
+      "L:7"
     ],
     "defensecurl": [
       "L:1"
@@ -39,12 +45,12 @@
       "M"
     ],
     "earthquake": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "electricterrain": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "electroball": [
       "M"
@@ -59,12 +65,12 @@
       "M"
     ],
     "gigaimpact": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "heavyslam": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "hornattack": [
       "L:1"
@@ -82,8 +88,8 @@
       "M"
     ],
     "ironhead": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "knockoff": [
       "L:42"
@@ -134,8 +140,8 @@
       "L:91"
     ],
     "stompingtantrum": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "stoneedge": [
       "M"
@@ -159,12 +165,11 @@
       "M"
     ],
     "wildcharge": [
-      "L:63",
-      "M"
+      "M",
+      "L:63"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens."
+  }
 }

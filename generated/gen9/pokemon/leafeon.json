@@ -1,10 +1,11 @@
 {
   "slug": "leafeon",
   "name": "Leafeon",
-  "num": 185,
+  "num": 470,
   "types": [
     "grass"
   ],
+  "gen": 4,
   "abilities": {
     "0": "leafguard",
     "H": "chlorophyll"
@@ -17,11 +18,20 @@
     "spd": 65,
     "spe": 95
   },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
   "weight": 25.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air."
   },
   "learnset": {
     "aerialace": [
@@ -31,8 +41,8 @@
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:1"
@@ -47,8 +57,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "copycat": [
       "L:1"
@@ -56,11 +66,20 @@
     "covet": [
       "L:1"
     ],
+    "curse": [
+      "E@eevee"
+    ],
+    "detect": [
+      "E@eevee"
+    ],
     "dig": [
       "M"
     ],
     "doubleedge": [
       "L:1"
+    ],
+    "doublekick": [
+      "E@eevee"
     ],
     "endure": [
       "M"
@@ -74,9 +93,12 @@
     "faketears": [
       "M"
     ],
+    "flail": [
+      "E@eevee"
+    ],
     "gigadrain": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "gigaimpact": [
       "M"
@@ -88,8 +110,8 @@
       "L:1"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -110,14 +132,15 @@
       "L:20"
     ],
     "magicalleaf": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "mudshot": [
       "M"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@eevee"
     ],
     "protect": [
       "M"
@@ -156,16 +179,16 @@
       "M"
     ],
     "sunnyday": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "swift": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "swordsdance": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "synthesis": [
       "L:30"
@@ -177,18 +200,26 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
     ],
+    "tickle": [
+      "E@eevee"
+    ],
     "trailblaze": [
       "M"
     ],
+    "wish": [
+      "E@eevee"
+    ],
     "xscissor": [
       "M"
+    ],
+    "yawn": [
+      "E@eevee"
     ]
-  },
-  "flavorText": "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air."
+  }
 }

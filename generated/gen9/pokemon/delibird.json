@@ -1,11 +1,12 @@
 {
   "slug": "delibird",
   "name": "Delibird",
-  "num": 354,
+  "num": 225,
   "types": [
     "ice",
     "flying"
   ],
+  "gen": 2,
   "abilities": {
     "0": "vitalspirit",
     "1": "hustle",
@@ -20,10 +21,18 @@
     "spe": 75
   },
   "weight": 16,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It carries food all day long. There are tales about lost people who were saved by the food it had."
   },
   "learnset": {
     "acrobatics": [
@@ -191,6 +200,5 @@
     "waterpulse": [
       "M"
     ]
-  },
-  "flavorText": "It carries food all day long. There are tales about lost people who were saved by the food it had."
+  }
 }

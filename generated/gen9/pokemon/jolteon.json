@@ -1,10 +1,11 @@
 {
   "slug": "jolteon",
   "name": "Jolteon",
-  "num": 181,
+  "num": 135,
   "types": [
     "electric"
   ],
+  "gen": 1,
   "abilities": {
     "0": "voltabsorb",
     "H": "quickfeet"
@@ -17,23 +18,32 @@
     "spd": 95,
     "spe": 130
   },
+  "prevo": "eevee",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
   "weight": 24.5,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
   },
   "learnset": {
     "agility": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "babydolleyes": [
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:1"
@@ -45,14 +55,20 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "copycat": [
       "L:1"
     ],
     "covet": [
       "L:1"
+    ],
+    "curse": [
+      "E@eevee"
+    ],
+    "detect": [
+      "E@eevee"
     ],
     "dig": [
       "M"
@@ -64,7 +80,8 @@
       "L:1"
     ],
     "doublekick": [
-      "L:25"
+      "L:25",
+      "E@eevee"
     ],
     "eerieimpulse": [
       "M"
@@ -87,6 +104,9 @@
     "falseswipe": [
       "M"
     ],
+    "flail": [
+      "E@eevee"
+    ],
     "gigaimpact": [
       "M"
     ],
@@ -94,8 +114,8 @@
       "L:1"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -110,7 +130,8 @@
       "M"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@eevee"
     ],
     "pinmissile": [
       "L:35"
@@ -146,8 +167,8 @@
       "M"
     ],
     "swift": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "tackle": [
       "L:1"
@@ -156,29 +177,32 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
     ],
     "thunder": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "thunderbolt": [
       "M"
     ],
     "thunderfang": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "thundershock": [
       "L:0"
     ],
     "thunderwave": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
+    ],
+    "tickle": [
+      "E@eevee"
     ],
     "trailblaze": [
       "M"
@@ -188,7 +212,12 @@
     ],
     "wildcharge": [
       "M"
+    ],
+    "wish": [
+      "E@eevee"
+    ],
+    "yawn": [
+      "E@eevee"
     ]
-  },
-  "flavorText": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
+  }
 }

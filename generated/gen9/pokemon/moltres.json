@@ -1,11 +1,12 @@
 {
   "slug": "moltres",
   "name": "Moltres",
-  "num": null,
+  "num": 146,
   "types": [
     "fire",
     "flying"
   ],
+  "gen": 1,
   "abilities": {
     "0": "pressure",
     "H": "flamebody"
@@ -18,9 +19,17 @@
     "spd": 85,
     "spe": 90
   },
+  "formes": [
+    "moltres-galar"
+  ],
   "weight": 60,
-  "height": 20,
-  "genderRatio": {},
+  "height": 2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -29,15 +38,15 @@
       "M"
     ],
     "agility": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "aircutter": [
       "M"
     ],
     "airslash": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "ancientpower": [
       "L:25"
@@ -49,8 +58,8 @@
       "L:5"
     ],
     "endure": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "facade": [
       "M"
@@ -80,15 +89,15 @@
       "L:1"
     ],
     "heatwave": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "helpinghand": [
       "M"
     ],
     "hurricane": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "hyperbeam": [
       "M"
@@ -100,8 +109,8 @@
       "L:1"
     ],
     "overheat": [
-      "L:65",
-      "M"
+      "M",
+      "L:65"
     ],
     "protect": [
       "M"
@@ -134,8 +143,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "swift": [
       "M"

@@ -1,11 +1,12 @@
 {
   "slug": "salandit",
   "name": "Salandit",
-  "num": 120,
+  "num": 757,
   "types": [
     "poison",
     "fire"
   ],
+  "gen": 7,
   "abilities": {
     "0": "corrosion",
     "H": "oblivious"
@@ -18,11 +19,22 @@
     "spd": 40,
     "spe": 77
   },
+  "evos": [
+    "salazzle"
+  ],
   "weight": 4.8,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down."
   },
   "learnset": {
     "acidspray": [
@@ -38,8 +50,8 @@
       "M"
     ],
     "dragonpulse": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "ember": [
       "L:10"
@@ -63,8 +75,8 @@
       "M"
     ],
     "flamethrower": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "flareblitz": [
       "M"
@@ -91,12 +103,12 @@
       "M"
     ],
     "mudslap": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "nastyplot": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "overheat": [
       "M"
@@ -177,12 +189,11 @@
       "M"
     ],
     "venoshock": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "willowisp": [
       "M"
     ]
-  },
-  "flavorText": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "shinx",
   "name": "Shinx",
-  "num": 94,
+  "num": 403,
   "types": [
     "electric"
   ],
+  "gen": 4,
   "abilities": {
     "0": "rivalry",
     "1": "intimidate",
@@ -18,11 +19,21 @@
     "spd": 34,
     "spe": 45
   },
+  "evos": [
+    "luxio"
+  ],
   "weight": 9.5,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The extension and contraction of its muscles generates electricity. It glows when in trouble."
   },
   "learnset": {
     "babydolleyes": [
@@ -41,8 +52,8 @@
       "M"
     ],
     "crunch": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "discharge": [
       "L:40"
@@ -111,8 +122,8 @@
       "L:20"
     ],
     "scaryface": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "shockwave": [
       "E"
@@ -142,8 +153,8 @@
       "L:1"
     ],
     "takedown": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "terablast": [
       "M"
@@ -164,20 +175,19 @@
       "L:4"
     ],
     "thunderwave": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "trailblaze": [
       "M"
     ],
     "voltswitch": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "wildcharge": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ]
-  },
-  "flavorText": "The extension and contraction of its muscles generates electricity. It glows when in trouble."
+  }
 }

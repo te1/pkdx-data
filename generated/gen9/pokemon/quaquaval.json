@@ -1,11 +1,12 @@
 {
   "slug": "quaquaval",
   "name": "Quaquaval",
-  "num": 9,
+  "num": 914,
   "types": [
     "water",
     "fighting"
   ],
+  "gen": 9,
   "abilities": {
     "0": "torrent",
     "H": "moxie"
@@ -18,16 +19,25 @@
     "spd": 75,
     "spe": 85
   },
+  "prevo": "quaxwell",
+  "evoLevel": 36,
   "weight": 61.9,
-  "height": 18,
+  "height": 1.8,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Flying",
+    "Water 1"
+  ],
+  "flavorText": {
+    "scarlet": "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands."
   },
   "learnset": {
     "acrobatics": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "aerialace": [
       "M"
@@ -39,8 +49,8 @@
       "M"
     ],
     "airslash": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "aquacutter": [
       "L:21"
@@ -67,11 +77,14 @@
       "M"
     ],
     "closecombat": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "counter": [
-      "T"
+      "L:1"
+    ],
+    "detect": [
+      "E@quaxly"
     ],
     "disarmingvoice": [
       "M"
@@ -124,16 +137,19 @@
     "icywind": [
       "M"
     ],
+    "lastresort": [
+      "E@quaxly"
+    ],
     "liquidation": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "lowkick": [
       "M"
     ],
     "lowsweep": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "megakick": [
       "L:38"
@@ -150,11 +166,17 @@
     "raindance": [
       "M"
     ],
+    "rapidspin": [
+      "E@quaxly"
+    ],
     "rest": [
       "M"
     ],
     "reversal": [
       "M"
+    ],
+    "roost": [
+      "E@quaxly"
     ],
     "sleeptalk": [
       "M"
@@ -190,8 +212,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "wavecrash": [
       "L:64"
@@ -202,6 +224,5 @@
     "workup": [
       "L:7"
     ]
-  },
-  "flavorText": "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands."
+  }
 }

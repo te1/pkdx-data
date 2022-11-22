@@ -1,13 +1,13 @@
 {
   "slug": "spectrier",
   "name": "Spectrier",
-  "num": null,
+  "num": 897,
   "types": [
     "ghost"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "grimneigh",
-    "H": "grimneigh"
+    "0": "grimneigh"
   },
   "baseStats": {
     "hp": 100,
@@ -18,12 +18,17 @@
     "spe": 130
   },
   "weight": 44.5,
-  "height": 20,
-  "genderRatio": {},
+  "height": 2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "agility": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "bodyslam": [
       "M"
@@ -35,8 +40,8 @@
       "M"
     ],
     "confuseray": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "crunch": [
       "M"
@@ -72,8 +77,8 @@
       "L:30"
     ],
     "hex": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "hyperbeam": [
       "M"
@@ -82,8 +87,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "nightshade": [
       "M"
@@ -104,8 +109,8 @@
       "M"
     ],
     "shadowball": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "sleeptalk": [
       "M"
@@ -132,8 +137,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "taunt": [
       "M"

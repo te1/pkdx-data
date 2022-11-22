@@ -1,10 +1,11 @@
 {
   "slug": "thwackey",
   "name": "Thwackey",
-  "num": null,
+  "num": 811,
   "types": [
     "grass"
   ],
+  "gen": 8,
   "abilities": {
     "0": "overgrow",
     "H": "grassysurge"
@@ -17,12 +18,22 @@
     "spd": 60,
     "spe": 80
   },
+  "prevo": "grookey",
+  "evos": [
+    "rillaboom"
+  ],
+  "evoLevel": 16,
   "weight": 14,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -54,6 +65,9 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E@grookey"
+    ],
     "falseswipe": [
       "M"
     ],
@@ -75,11 +89,20 @@
     "growl": [
       "L:1"
     ],
+    "growth": [
+      "E@grookey"
+    ],
+    "hammerarm": [
+      "E@grookey"
+    ],
     "knockoff": [
       "L:24"
     ],
     "leafstorm": [
       "M"
+    ],
+    "leechseed": [
+      "E@grookey"
     ],
     "lowkick": [
       "M"
@@ -117,6 +140,9 @@
     "solarbeam": [
       "M"
     ],
+    "strength": [
+      "E@grookey"
+    ],
     "substitute": [
       "M"
     ],
@@ -133,8 +159,8 @@
       "M"
     ],
     "taunt": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
@@ -153,6 +179,9 @@
     ],
     "woodhammer": [
       "L:42"
+    ],
+    "worryseed": [
+      "E@grookey"
     ]
   }
 }

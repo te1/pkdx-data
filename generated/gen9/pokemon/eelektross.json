@@ -1,13 +1,13 @@
 {
   "slug": "eelektross",
   "name": "Eelektross",
-  "num": 343,
+  "num": 604,
   "types": [
     "electric"
   ],
+  "gen": 5,
   "abilities": {
-    "0": "levitate",
-    "H": "levitate"
+    "0": "levitate"
   },
   "baseStats": {
     "hp": 85,
@@ -17,21 +17,34 @@
     "spd": 80,
     "spe": 50
   },
+  "prevo": "eelektrik",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
   "weight": 80.5,
-  "height": 21,
+  "height": 2.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean."
   },
   "learnset": {
     "acid": [
       "L:1"
     ],
     "acidspray": [
-      "M"
+      "M",
+      "L:49@eelektrik"
     ],
     "acrobatics": [
       "M"
+    ],
+    "bind": [
+      "L:9@eelektrik"
     ],
     "bodypress": [
       "M"
@@ -49,7 +62,8 @@
       "M"
     ],
     "chargebeam": [
-      "M"
+      "M",
+      "L:1@eelektrik"
     ],
     "closecombat": [
       "M"
@@ -61,8 +75,8 @@
       "M"
     ],
     "crunch": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "crushclaw": [
       "L:1"
@@ -160,6 +174,9 @@
     "sleeptalk": [
       "M"
     ],
+    "spark": [
+      "L:1@eelektrik"
+    ],
     "stompingtantrum": [
       "M"
     ],
@@ -171,6 +188,9 @@
     ],
     "swift": [
       "M"
+    ],
+    "tackle": [
+      "L:1@tynamo"
     ],
     "takedown": [
       "M"
@@ -185,7 +205,8 @@
       "M"
     ],
     "thunderbolt": [
-      "M"
+      "M",
+      "L:44@eelektrik"
     ],
     "thunderfang": [
       "M"
@@ -194,7 +215,8 @@
       "M"
     ],
     "thunderwave": [
-      "M"
+      "M",
+      "L:1@eelektrik"
     ],
     "uturn": [
       "M"
@@ -203,8 +225,8 @@
       "M"
     ],
     "wildcharge": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "zapcannon": [
       "L:1"
@@ -212,6 +234,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean."
+  }
 }

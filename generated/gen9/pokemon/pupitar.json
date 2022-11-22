@@ -1,14 +1,14 @@
 {
   "slug": "pupitar",
   "name": "Pupitar",
-  "num": 317,
+  "num": 247,
   "types": [
     "rock",
     "ground"
   ],
+  "gen": 2,
   "abilities": {
-    "0": "shedskin",
-    "H": "shedskin"
+    "0": "shedskin"
   },
   "baseStats": {
     "hp": 70,
@@ -18,15 +18,32 @@
     "spd": 70,
     "spe": 51
   },
+  "prevo": "larvitar",
+  "evos": [
+    "tyranitar"
+  ],
+  "evoLevel": 30,
   "weight": 152,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Monster"
+  ],
+  "flavorText": {
+    "scarlet": "This pupa flies around wildly by venting with great force the gas pressurized inside its body."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "ancientpower": [
+      "E@larvitar"
+    ],
+    "assurance": [
+      "E@larvitar"
     ],
     "bite": [
       "L:9"
@@ -41,8 +58,11 @@
       "M"
     ],
     "crunch": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
+    ],
+    "curse": [
+      "E@larvitar"
     ],
     "darkpulse": [
       "M"
@@ -51,20 +71,24 @@
       "M"
     ],
     "dragondance": [
-      "M"
+      "M",
+      "E@larvitar"
     ],
     "earthpower": [
       "M"
     ],
     "earthquake": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "endure": [
       "M"
     ],
     "facade": [
       "M"
+    ],
+    "focusenergy": [
+      "E@larvitar"
     ],
     "gigaimpact": [
       "M"
@@ -73,15 +97,17 @@
       "M"
     ],
     "hyperbeam": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "irondefense": [
+      "M",
       "L:0",
-      "M"
+      "E@larvitar"
     ],
     "ironhead": [
-      "M"
+      "M",
+      "E@larvitar"
     ],
     "leer": [
       "L:1"
@@ -93,7 +119,8 @@
       "M"
     ],
     "outrage": [
-      "M"
+      "M",
+      "E@larvitar"
     ],
     "payback": [
       "L:1"
@@ -111,8 +138,8 @@
       "M"
     ],
     "rockslide": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "rockthrow": [
       "L:1"
@@ -121,12 +148,12 @@
       "M"
     ],
     "sandstorm": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "scaryface": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "screech": [
       "L:21"
@@ -143,13 +170,16 @@
     "stealthrock": [
       "M"
     ],
+    "stomp": [
+      "E@larvitar"
+    ],
     "stompingtantrum": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "stoneedge": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "substitute": [
       "M"
@@ -172,6 +202,5 @@
     "thrash": [
       "L:42"
     ]
-  },
-  "flavorText": "This pupa flies around wildly by venting with great force the gas pressurized inside its body."
+  }
 }

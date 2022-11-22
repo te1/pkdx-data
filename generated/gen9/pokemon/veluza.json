@@ -1,11 +1,12 @@
 {
   "slug": "veluza",
   "name": "Veluza",
-  "num": 373,
+  "num": 932,
   "types": [
     "water",
     "psychic"
   ],
+  "gen": 9,
   "abilities": {
     "0": "moldbreaker",
     "H": "sharpness"
@@ -19,10 +20,17 @@
     "spe": 70
   },
   "weight": 90,
-  "height": 25,
+  "height": 2.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor."
   },
   "learnset": {
     "agility": [
@@ -44,8 +52,8 @@
       "M"
     ],
     "crunch": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "drillrun": [
       "M"
@@ -81,8 +89,8 @@
       "M"
     ],
     "liquidation": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "nightslash": [
       "L:35"
@@ -148,12 +156,11 @@
       "M"
     ],
     "waterpulse": [
-      "L:11",
-      "M"
+      "M",
+      "L:11"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor."
+  }
 }

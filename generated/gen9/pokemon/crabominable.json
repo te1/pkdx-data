@@ -1,11 +1,12 @@
 {
   "slug": "crabominable",
   "name": "Crabominable",
-  "num": 119,
+  "num": 740,
   "types": [
     "fighting",
     "ice"
   ],
+  "gen": 7,
   "abilities": {
     "0": "hypercutter",
     "1": "ironfist",
@@ -19,19 +20,28 @@
     "spd": 67,
     "spe": 43
   },
+  "prevo": "crabrawler",
+  "evoType": "levelExtra",
+  "evoCondition": "at Mount Lanakila",
   "weight": 180,
-  "height": 17,
+  "height": 1.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ],
+  "flavorText": {
+    "scarlet": "The detached pincers of these Pokémon are delicious. Some Trainers bring Lechonk into the mountains just to search for them."
   },
   "learnset": {
     "amnesia": [
       "M"
     ],
     "avalanche": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "blizzard": [
       "M"
@@ -43,8 +53,8 @@
       "M"
     ],
     "brickbreak": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "bubblebeam": [
       "L:17"
@@ -59,8 +69,11 @@
       "M"
     ],
     "closecombat": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
+    ],
+    "crabhammer": [
+      "L:37@crabrawler"
     ],
     "dig": [
       "M"
@@ -74,6 +87,9 @@
     "earthquake": [
       "M"
     ],
+    "endeavor": [
+      "E@crabrawler"
+    ],
     "endure": [
       "M"
     ],
@@ -85,6 +101,9 @@
     ],
     "focusblast": [
       "M"
+    ],
+    "focuspunch": [
+      "E@crabrawler"
     ],
     "gigaimpact": [
       "M"
@@ -105,8 +124,8 @@
       "L:37"
     ],
     "icepunch": [
-      "L:0",
-      "M"
+      "M",
+      "L:0"
     ],
     "icespinner": [
       "M"
@@ -115,8 +134,8 @@
       "M"
     ],
     "irondefense": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "ironhead": [
       "M"
@@ -133,9 +152,12 @@
     "mudslap": [
       "M"
     ],
+    "payback": [
+      "L:29@crabrawler"
+    ],
     "protect": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "raindance": [
       "M"
@@ -144,8 +166,8 @@
       "M"
     ],
     "reversal": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "rockslide": [
       "M"
@@ -177,6 +199,9 @@
     "sunnyday": [
       "M"
     ],
+    "superpower": [
+      "E@crabrawler"
+    ],
     "swift": [
       "M"
     ],
@@ -192,9 +217,14 @@
     "thunderpunch": [
       "M"
     ],
+    "visegrip": [
+      "L:1@crabrawler"
+    ],
+    "wideguard": [
+      "E@crabrawler"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The detached pincers of these Pokémon are delicious. Some Trainers bring Lechonk into the mountains just to search for them."
+  }
 }

@@ -1,10 +1,11 @@
 {
   "slug": "braixen",
   "name": "Braixen",
-  "num": null,
+  "num": 654,
   "types": [
     "fire"
   ],
+  "gen": 6,
   "abilities": {
     "0": "blaze",
     "H": "magician"
@@ -17,12 +18,21 @@
     "spd": 70,
     "spe": 73
   },
+  "prevo": "fennekin",
+  "evos": [
+    "delphox"
+  ],
+  "evoLevel": 16,
   "weight": 14.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "agility": [
       "M"
@@ -32,6 +42,9 @@
     ],
     "charm": [
       "M"
+    ],
+    "copycat": [
+      "E@fennekin"
     ],
     "ember": [
       "L:1"
@@ -46,8 +59,8 @@
       "M"
     ],
     "fireblast": [
-      "L:59",
-      "M"
+      "M",
+      "L:59"
     ],
     "firepledge": [
       "M"
@@ -56,16 +69,16 @@
       "M"
     ],
     "firespin": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "flamecharge": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "flamethrower": [
-      "L:41",
-      "M"
+      "M",
+      "L:41"
     ],
     "flareblitz": [
       "M"
@@ -77,7 +90,8 @@
       "M"
     ],
     "heatwave": [
-      "M"
+      "M",
+      "E@fennekin"
     ],
     "helpinghand": [
       "M"
@@ -85,18 +99,22 @@
     "howl": [
       "L:11"
     ],
+    "hypnosis": [
+      "E@fennekin"
+    ],
     "imprison": [
       "M"
     ],
     "lightscreen": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "lowkick": [
       "M"
     ],
     "magicroom": [
-      "L:56"
+      "L:56",
+      "E@fennekin"
     ],
     "mudshot": [
       "M"
@@ -111,19 +129,19 @@
       "M"
     ],
     "psybeam": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "psychic": [
-      "L:49",
-      "M"
+      "M",
+      "L:49"
     ],
     "psychicterrain": [
       "M"
     ],
     "psyshock": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "raindance": [
       "M"
@@ -150,8 +168,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
     ],
     "swift": [
       "M"
@@ -178,8 +196,11 @@
       "M"
     ],
     "willowisp": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
+    ],
+    "wish": [
+      "E@fennekin"
     ],
     "zenheadbutt": [
       "M"

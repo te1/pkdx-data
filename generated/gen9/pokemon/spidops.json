@@ -1,10 +1,11 @@
 {
   "slug": "spidops",
   "name": "Spidops",
-  "num": 13,
+  "num": 919,
   "types": [
     "bug"
   ],
+  "gen": 9,
   "abilities": {
     "0": "insomnia",
     "H": "stakeout"
@@ -17,11 +18,19 @@
     "spd": 86,
     "spe": 35
   },
+  "prevo": "tarountula",
+  "evoLevel": 15,
   "weight": 16.5,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it."
   },
   "learnset": {
     "aerialace": [
@@ -66,6 +75,9 @@
     "feint": [
       "L:11"
     ],
+    "firstimpression": [
+      "E@tarountula"
+    ],
     "fling": [
       "M"
     ],
@@ -89,6 +101,12 @@
     ],
     "lowkick": [
       "M"
+    ],
+    "lunge": [
+      "E@tarountula"
+    ],
+    "memento": [
+      "E@tarountula"
     ],
     "poisonjab": [
       "M"
@@ -136,11 +154,14 @@
       "L:1"
     ],
     "strugglebug": [
-      "L:5",
-      "M"
+      "M",
+      "L:5"
     ],
     "substitute": [
       "M"
+    ],
+    "suckerpunch": [
+      "E@tarountula"
     ],
     "sunnyday": [
       "M"
@@ -175,6 +196,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it."
+  }
 }

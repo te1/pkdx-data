@@ -1,11 +1,12 @@
 {
   "slug": "breloom",
   "name": "Breloom",
-  "num": 107,
+  "num": 286,
   "types": [
     "grass",
     "fighting"
   ],
+  "gen": 3,
   "abilities": {
     "0": "effectspore",
     "1": "poisonheal",
@@ -19,11 +20,20 @@
     "spd": 60,
     "spe": 70
   },
+  "prevo": "shroomish",
+  "evoLevel": 23,
   "weight": 39.2,
-  "height": 12,
+  "height": 1.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores."
   },
   "learnset": {
     "absorb": [
@@ -36,8 +46,8 @@
       "M"
     ],
     "brickbreak": [
-      "L:39",
-      "M"
+      "M",
+      "L:39"
     ],
     "bulkup": [
       "M"
@@ -49,7 +59,8 @@
       "M"
     ],
     "charm": [
-      "M"
+      "M",
+      "E@shroomish"
     ],
     "closecombat": [
       "M"
@@ -76,7 +87,8 @@
       "M"
     ],
     "faketears": [
-      "M"
+      "M",
+      "E@shroomish"
     ],
     "falseswipe": [
       "M"
@@ -97,7 +109,8 @@
       "L:28"
     ],
     "gigadrain": [
-      "M"
+      "M",
+      "L:26@shroomish"
     ],
     "gigaimpact": [
       "M"
@@ -118,7 +131,8 @@
       "L:15"
     ],
     "helpinghand": [
-      "M"
+      "M",
+      "E@shroomish"
     ],
     "hyperbeam": [
       "M"
@@ -178,8 +192,8 @@
       "M"
     ],
     "seedbomb": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "sleeptalk": [
       "M"
@@ -189,6 +203,9 @@
     ],
     "solarbeam": [
       "M"
+    ],
+    "spore": [
+      "L:40@shroomish"
     ],
     "stoneedge": [
       "M"
@@ -227,11 +244,11 @@
       "M"
     ],
     "worryseed": [
-      "L:33"
+      "L:33",
+      "E@shroomish"
     ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores."
+  }
 }

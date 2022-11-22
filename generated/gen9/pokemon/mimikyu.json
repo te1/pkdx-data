@@ -1,14 +1,15 @@
 {
   "slug": "mimikyu",
   "name": "Mimikyu",
-  "num": 239,
+  "subName": "Disguised Form",
+  "num": 778,
   "types": [
     "ghost",
     "fairy"
   ],
+  "gen": 7,
   "abilities": {
-    "0": "disguise",
-    "H": "disguise"
+    "0": "disguise"
   },
   "baseStats": {
     "hp": 55,
@@ -18,11 +19,21 @@
     "spd": 105,
     "spe": 96
   },
+  "formes": [
+    "mimikyu-busted"
+  ],
   "weight": 0.7,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu."
   },
   "learnset": {
     "astonish": [
@@ -35,8 +46,8 @@
       "M"
     ],
     "charm": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "confuseray": [
       "M"
@@ -111,8 +122,8 @@
       "M"
     ],
     "playrough": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "pounce": [
       "M"
@@ -136,8 +147,8 @@
       "M"
     ],
     "shadowclaw": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "shadowsneak": [
       "L:6"
@@ -199,6 +210,5 @@
     "xscissor": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu."
+  }
 }

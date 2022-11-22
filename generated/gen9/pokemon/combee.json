@@ -1,11 +1,12 @@
 {
   "slug": "combee",
   "name": "Combee",
-  "num": 38,
+  "num": 415,
   "types": [
     "bug",
     "flying"
   ],
+  "gen": 4,
   "abilities": {
     "0": "honeygather",
     "H": "hustle"
@@ -18,11 +19,21 @@
     "spd": 42,
     "spe": 70
   },
+  "evos": [
+    "vespiquen"
+  ],
   "weight": 5.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "At night, Combee sleep in a group of about a hundred, packed closely together in a lump."
   },
   "learnset": {
     "bugbite": [
@@ -38,8 +49,8 @@
       "M"
     ],
     "strugglebug": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "sweetscent": [
       "L:1"
@@ -47,6 +58,5 @@
     "terablast": [
       "M"
     ]
-  },
-  "flavorText": "At night, Combee sleep in a group of about a hundred, packed closely together in a lump."
+  }
 }

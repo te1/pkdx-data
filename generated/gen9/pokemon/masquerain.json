@@ -1,11 +1,12 @@
 {
   "slug": "masquerain",
   "name": "Masquerain",
-  "num": 50,
+  "num": 284,
   "types": [
     "bug",
     "flying"
   ],
+  "gen": 3,
   "abilities": {
     "0": "intimidate",
     "H": "unnerve"
@@ -18,11 +19,20 @@
     "spd": 82,
     "spe": 80
   },
+  "prevo": "surskit",
+  "evoLevel": 22,
   "weight": 3.6,
-  "height": 8,
+  "height": 0.8,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways."
   },
   "learnset": {
     "acrobatics": [
@@ -32,25 +42,36 @@
       "M"
     ],
     "agility": [
-      "M"
+      "M",
+      "L:22@surskit"
     ],
     "aircutter": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "airslash": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
+    ],
+    "aquajet": [
+      "E@surskit"
     ],
     "batonpass": [
-      "M"
+      "M",
+      "L:35@surskit"
     ],
     "blizzard": [
       "M"
     ],
+    "bubblebeam": [
+      "L:17@surskit"
+    ],
+    "bugbite": [
+      "E@surskit"
+    ],
     "bugbuzz": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "chillingwater": [
       "M"
@@ -64,18 +85,24 @@
     "facade": [
       "M"
     ],
+    "fellstinger": [
+      "E@surskit"
+    ],
     "foulplay": [
       "M"
     ],
     "gigadrain": [
-      "L:38",
-      "M"
+      "M",
+      "L:38"
     ],
     "gigaimpact": [
       "M"
     ],
     "gust": [
       "L:17"
+    ],
+    "haze": [
+      "L:25@surskit"
     ],
     "helpinghand": [
       "M"
@@ -84,7 +111,8 @@
       "M"
     ],
     "hydropump": [
-      "M"
+      "M",
+      "E@surskit"
     ],
     "hyperbeam": [
       "M"
@@ -101,8 +129,15 @@
     "liquidation": [
       "M"
     ],
+    "lunge": [
+      "E@surskit"
+    ],
+    "mist": [
+      "L:25@surskit"
+    ],
     "mudshot": [
-      "M"
+      "M",
+      "E@surskit"
     ],
     "mudslap": [
       "M"
@@ -110,11 +145,15 @@
     "pounce": [
       "M"
     ],
+    "powersplit": [
+      "E@surskit"
+    ],
     "protect": [
       "M"
     ],
     "psybeam": [
-      "M"
+      "M",
+      "E@surskit"
     ],
     "quickattack": [
       "L:1"
@@ -129,8 +168,8 @@
       "M"
     ],
     "scaryface": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "shadowball": [
       "M"
@@ -143,6 +182,9 @@
     ],
     "solarbeam": [
       "M"
+    ],
+    "stickyweb": [
+      "L:38@surskit"
     ],
     "strugglebug": [
       "M"
@@ -192,6 +234,5 @@
     "whirlwind": [
       "L:1"
     ]
-  },
-  "flavorText": "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways."
+  }
 }

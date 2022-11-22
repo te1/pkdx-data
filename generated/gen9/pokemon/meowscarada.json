@@ -1,11 +1,12 @@
 {
   "slug": "meowscarada",
   "name": "Meowscarada",
-  "num": 3,
+  "num": 908,
   "types": [
     "grass",
     "dark"
   ],
+  "gen": 9,
   "abilities": {
     "0": "overgrow",
     "H": "protean"
@@ -18,11 +19,20 @@
     "spd": 70,
     "spe": 123
   },
+  "prevo": "floragato",
+  "evoLevel": 36,
   "weight": 31.2,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating."
   },
   "learnset": {
     "acrobatics": [
@@ -33,6 +43,9 @@
     ],
     "agility": [
       "M"
+    ],
+    "allyswitch": [
+      "E@sprigatito"
     ],
     "aurasphere": [
       "M"
@@ -52,6 +65,9 @@
     "chillingwater": [
       "M"
     ],
+    "copycat": [
+      "E@sprigatito"
+    ],
     "darkpulse": [
       "M"
     ],
@@ -59,14 +75,14 @@
       "M"
     ],
     "doubleteam": [
-      "T"
+      "M"
     ],
     "endure": [
       "M"
     ],
     "energyball": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "facade": [
       "M"
@@ -99,8 +115,8 @@
       "M"
     ],
     "grassyterrain": [
-      "L:58",
-      "M"
+      "M",
+      "L:58"
     ],
     "helpinghand": [
       "M"
@@ -118,8 +134,11 @@
       "L:1"
     ],
     "leafstorm": [
-      "L:64",
-      "M"
+      "M",
+      "L:64"
+    ],
+    "leechseed": [
+      "E@sprigatito"
     ],
     "lowkick": [
       "M"
@@ -128,8 +147,8 @@
       "M"
     ],
     "magicalleaf": [
-      "L:13",
-      "M"
+      "M",
+      "L:13"
     ],
     "mudslap": [
       "M"
@@ -140,9 +159,12 @@
     "nightslash": [
       "L:38"
     ],
+    "petalblizzard": [
+      "E@sprigatito"
+    ],
     "playrough": [
-      "L:47",
-      "M"
+      "M",
+      "L:47"
     ],
     "pollenpuff": [
       "M"
@@ -163,8 +185,8 @@
       "L:1"
     ],
     "seedbomb": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "shadowball": [
       "M"
@@ -189,6 +211,9 @@
     ],
     "substitute": [
       "M"
+    ],
+    "suckerpunch": [
+      "E@sprigatito"
     ],
     "swift": [
       "M"
@@ -218,19 +243,17 @@
       "M"
     ],
     "trick": [
-      "T",
       "M"
     ],
     "trickroom": [
       "M"
     ],
     "uturn": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "worryseed": [
       "L:29"
     ]
-  },
-  "flavorText": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating."
+  }
 }

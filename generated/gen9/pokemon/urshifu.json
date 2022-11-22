@@ -1,14 +1,15 @@
 {
   "slug": "urshifu",
   "name": "Urshifu",
-  "num": null,
+  "subName": "Single Strike Style",
+  "num": 892,
   "types": [
     "fighting",
     "dark"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "unseenfist",
-    "H": "unseenfist"
+    "0": "unseenfist"
   },
   "baseStats": {
     "hp": 100,
@@ -18,19 +19,32 @@
     "spd": 60,
     "spe": 97
   },
+  "prevo": "kubfu",
+  "evoType": "other",
+  "evoCondition": "Defeat the Single Strike Tower",
+  "formes": [
+    "urshifu-rapid-strike",
+    "urshifu-gmax",
+    "urshifu-rapid-strike-gmax"
+  ],
   "weight": 105,
-  "height": 19,
+  "height": 1.9,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "aurasphere": [
       "M"
@@ -42,16 +56,16 @@
       "M"
     ],
     "brickbreak": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "bulkup": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "closecombat": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "counter": [
       "L:44"
@@ -75,8 +89,8 @@
       "L:40"
     ],
     "endure": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "facade": [
       "M"
@@ -118,8 +132,8 @@
       "M"
     ],
     "ironhead": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "leer": [
       "L:1"
@@ -155,8 +169,8 @@
       "M"
     ],
     "scaryface": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "sleeptalk": [
       "M"

@@ -1,10 +1,11 @@
 {
   "slug": "snorunt",
   "name": "Snorunt",
-  "num": 357,
+  "num": 361,
   "types": [
     "ice"
   ],
+  "gen": 3,
   "abilities": {
     "0": "innerfocus",
     "1": "icebody",
@@ -18,11 +19,23 @@
     "spd": 50,
     "spe": 50
   },
+  "evos": [
+    "glalie",
+    "froslass"
+  ],
   "weight": 16.8,
-  "height": 7,
+  "height": 0.7,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is said that several Snorunt gather under giant leaves and live together in harmony."
   },
   "learnset": {
     "astonish": [
@@ -35,8 +48,8 @@
       "L:35"
     ],
     "blizzard": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "block": [
       "E"
@@ -48,8 +61,8 @@
       "M"
     ],
     "crunch": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "disable": [
       "E"
@@ -82,8 +95,8 @@
       "M"
     ],
     "icefang": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "iceshard": [
       "L:15"
@@ -95,8 +108,8 @@
       "E"
     ],
     "icywind": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "leer": [
       "L:5"
@@ -108,8 +121,8 @@
       "L:1"
     ],
     "protect": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "raindance": [
       "M"
@@ -127,8 +140,8 @@
       "M"
     ],
     "snowscape": [
-      "L:45",
-      "M"
+      "M",
+      "L:45"
     ],
     "spikes": [
       "M"
@@ -154,6 +167,5 @@
     "weatherball": [
       "L:50"
     ]
-  },
-  "flavorText": "It is said that several Snorunt gather under giant leaves and live together in harmony."
+  }
 }

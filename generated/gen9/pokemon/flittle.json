@@ -1,10 +1,11 @@
 {
   "slug": "flittle",
   "name": "Flittle",
-  "num": 263,
+  "num": 926,
   "types": [
     "psychic"
   ],
+  "gen": 9,
   "abilities": {
     "0": "anticipation",
     "1": "frisk",
@@ -15,19 +16,29 @@
     "atk": 35,
     "def": 30,
     "spa": 55,
-    "spd": 30,
+    "spd": 40,
     "spe": 75
   },
+  "evos": [
+    "espathra"
+  ],
   "weight": 1.5,
-  "height": 2,
+  "height": 0.2,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly."
+  },
   "learnset": {
     "agility": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "allyswitch": [
       "E"
@@ -48,8 +59,8 @@
       "L:5"
     ],
     "disarmingvoice": [
-      "L:11",
-      "M"
+      "M",
+      "L:11"
     ],
     "endure": [
       "M"
@@ -88,8 +99,8 @@
       "M"
     ],
     "psybeam": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "psychic": [
       "M"
@@ -163,6 +174,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly."
+  }
 }

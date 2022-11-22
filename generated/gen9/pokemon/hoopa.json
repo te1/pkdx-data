@@ -1,14 +1,14 @@
 {
   "slug": "hoopa",
-  "name": "Hoopa",
-  "num": null,
+  "name": "Hoopa Confined",
+  "num": 720,
   "types": [
     "psychic",
     "ghost"
   ],
+  "gen": 6,
   "abilities": {
-    "0": "magician",
-    "H": "magician"
+    "0": "magician"
   },
   "baseStats": {
     "hp": 80,
@@ -18,9 +18,17 @@
     "spd": 130,
     "spe": 70
   },
+  "formes": [
+    "hoopa-unbound"
+  ],
   "weight": 9,
-  "height": 5,
-  "genderRatio": {},
+  "height": 0.5,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "allyswitch": [
       "L:1"
@@ -89,16 +97,16 @@
       "M"
     ],
     "lightscreen": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "nastyplot": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
     ],
     "phantomforce": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "powersplit": [
       "L:29"
@@ -107,12 +115,12 @@
       "M"
     ],
     "psybeam": [
-      "L:19",
-      "M"
+      "M",
+      "L:19"
     ],
     "psychic": [
-      "L:75",
-      "M"
+      "M",
+      "L:75"
     ],
     "psychicterrain": [
       "M"
@@ -139,12 +147,12 @@
       "M"
     ],
     "shadowball": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "skillswap": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "sleeptalk": [
       "M"
@@ -180,19 +188,19 @@
       "M"
     ],
     "trick": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "trickroom": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "wonderroom": [
       "L:50"
     ],
     "zenheadbutt": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ]
   }
 }

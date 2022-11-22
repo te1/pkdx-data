@@ -1,10 +1,11 @@
 {
   "slug": "shellos",
   "name": "Shellos",
-  "num": 327,
+  "num": 422,
   "types": [
     "water"
   ],
+  "gen": 4,
   "abilities": {
     "0": "stickyhold",
     "1": "stormdrain",
@@ -18,11 +19,29 @@
     "spd": 62,
     "spe": 34
   },
+  "evos": [
+    "gastrodon"
+  ],
+  "cosmeticSubName": "West Sea",
+  "cosmeticFormes": [
+    {
+      "slug": "shellos-east",
+      "subName": "East Sea"
+    }
+  ],
   "weight": 6.3,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It used to have a shell on its back long ago. This species is closely related to Pokémon like Shellder."
   },
   "learnset": {
     "acidarmor": [
@@ -38,8 +57,8 @@
       "M"
     ],
     "bodyslam": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "bulldoze": [
       "M"
@@ -57,8 +76,8 @@
       "E"
     ],
     "earthpower": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "endure": [
       "M"
@@ -100,15 +119,15 @@
       "M"
     ],
     "mudslap": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "protect": [
       "M"
     ],
     "raindance": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "recover": [
       "L:10"
@@ -168,12 +187,11 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "yawn": [
       "E"
     ]
-  },
-  "flavorText": "It used to have a shell on its back long ago. This species is closely related to Pokémon like Shellder."
+  }
 }

@@ -1,13 +1,14 @@
 {
   "slug": "zacian",
   "name": "Zacian",
-  "num": null,
+  "subName": "Hero of Many Battles",
+  "num": 888,
   "types": [
     "fairy"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "intrepidsword",
-    "H": "intrepidsword"
+    "0": "intrepidsword"
   },
   "baseStats": {
     "hp": 92,
@@ -17,9 +18,17 @@
     "spd": 115,
     "spe": 138
   },
+  "formes": [
+    "zacian-crowned"
+  ],
   "weight": 110,
-  "height": 28,
-  "genderRatio": {},
+  "height": 2.8,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "agility": [
       "M"
@@ -37,12 +46,12 @@
       "M"
     ],
     "closecombat": [
-      "L:77",
-      "M"
+      "M",
+      "L:77"
     ],
     "crunch": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "dazzlinggleam": [
       "M"
@@ -69,8 +78,8 @@
       "M"
     ],
     "gigaimpact": [
-      "L:88",
-      "M"
+      "M",
+      "L:88"
     ],
     "helpinghand": [
       "M"
@@ -94,12 +103,12 @@
       "M"
     ],
     "ironhead": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "metalclaw": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "mistyterrain": [
       "M"
@@ -159,8 +168,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "takedown": [
       "M"

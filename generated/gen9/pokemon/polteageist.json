@@ -1,10 +1,12 @@
 {
   "slug": "polteageist",
   "name": "Polteageist",
-  "num": 238,
+  "subName": "Phony Forme",
+  "num": 855,
   "types": [
     "ghost"
   ],
+  "gen": 8,
   "abilities": {
     "0": "weakarmor",
     "H": "cursedbody"
@@ -17,10 +19,26 @@
     "spd": 114,
     "spe": 70
   },
+  "prevo": "sinistea",
+  "evoType": "useItem",
+  "evoItem": "Cracked Pot",
+  "formes": [
+    "polteageist-antique"
+  ],
   "weight": 0.4,
-  "height": 2,
-  "genderRatio": {},
+  "height": 0.2,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral",
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "The tea that composes Polteageist's body has a distinct and enjoyable flavor. Drinking too much, however, can be fatal."
+  },
   "learnset": {
+    "allyswitch": [
+      "E@sinistea"
+    ],
     "aromaticmist": [
       "L:1"
     ],
@@ -52,8 +70,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "gigaimpact": [
       "M"
@@ -83,8 +101,8 @@
       "M"
     ],
     "nastyplot": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "nightshade": [
       "M"
@@ -93,8 +111,8 @@
       "M"
     ],
     "protect": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "psybeam": [
       "M"
@@ -112,8 +130,8 @@
       "M"
     ],
     "shadowball": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "shellsmash": [
       "L:60"
@@ -157,6 +175,5 @@
     "withdraw": [
       "L:1"
     ]
-  },
-  "flavorText": "The tea that composes Polteageist's body has a distinct and enjoyable flavor. Drinking too much, however, can be fatal."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "dialga",
   "name": "Dialga",
-  "num": null,
+  "num": 483,
   "types": [
     "steel",
     "dragon"
   ],
+  "gen": 4,
   "abilities": {
     "0": "pressure",
     "H": "telepathy"
@@ -18,16 +19,24 @@
     "spd": 100,
     "spe": 90
   },
+  "formes": [
+    "dialga-origin"
+  ],
   "weight": 683,
-  "height": 54,
-  "genderRatio": {},
+  "height": 5.4,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "ancientpower": [
       "L:16"
     ],
     "aurasphere": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "blizzard": [
       "M"
@@ -54,8 +63,8 @@
       "L:8"
     ],
     "dragonclaw": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "dragonpulse": [
       "M"
@@ -64,8 +73,8 @@
       "M"
     ],
     "earthpower": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "earthquake": [
       "M"
@@ -83,8 +92,8 @@
       "M"
     ],
     "flashcannon": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "focusblast": [
       "M"
@@ -117,8 +126,8 @@
       "L:64"
     ],
     "metalclaw": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "outrage": [
       "M"
@@ -127,8 +136,8 @@
       "M"
     ],
     "powergem": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "protect": [
       "M"
@@ -152,8 +161,8 @@
       "M"
     ],
     "scaryface": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "shadowclaw": [
       "M"

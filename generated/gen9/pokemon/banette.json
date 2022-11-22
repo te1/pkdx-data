@@ -1,10 +1,11 @@
 {
   "slug": "banette",
   "name": "Banette",
-  "num": 299,
+  "num": 354,
   "types": [
     "ghost"
   ],
+  "gen": 3,
   "abilities": {
     "0": "insomnia",
     "1": "frisk",
@@ -18,13 +19,24 @@
     "spd": 63,
     "spe": 65
   },
+  "prevo": "shuppet",
+  "evoLevel": 37,
   "weight": 12.5,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys."
+  },
   "learnset": {
+    "astonish": [
+      "L:1@shuppet"
+    ],
     "calmmind": [
       "M"
     ],
@@ -32,7 +44,8 @@
       "M"
     ],
     "confuseray": [
-      "M"
+      "M",
+      "E@shuppet"
     ],
     "curse": [
       "L:26"
@@ -42,6 +55,12 @@
     ],
     "dazzlinggleam": [
       "M"
+    ],
+    "destinybond": [
+      "E@shuppet"
+    ],
+    "disable": [
+      "E@shuppet"
     ],
     "encore": [
       "M"
@@ -62,14 +81,15 @@
       "M"
     ],
     "gunkshot": [
-      "M"
+      "M",
+      "E@shuppet"
     ],
     "helpinghand": [
       "M"
     ],
     "hex": [
-      "L:22",
-      "M"
+      "M",
+      "L:22"
     ],
     "hyperbeam": [
       "M"
@@ -78,7 +98,8 @@
       "M"
     ],
     "imprison": [
-      "M"
+      "M",
+      "E@shuppet"
     ],
     "knockoff": [
       "L:0"
@@ -90,12 +111,12 @@
       "M"
     ],
     "nightshade": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "phantomforce": [
-      "L:53",
-      "M"
+      "M",
+      "L:53"
     ],
     "pounce": [
       "M"
@@ -125,8 +146,8 @@
       "L:1"
     ],
     "shadowball": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "shadowclaw": [
       "M"
@@ -177,16 +198,15 @@
       "M"
     ],
     "trick": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "trickroom": [
       "M"
     ],
     "willowisp": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ]
-  },
-  "flavorText": "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys."
+  }
 }

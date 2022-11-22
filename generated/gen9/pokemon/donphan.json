@@ -1,10 +1,11 @@
 {
   "slug": "donphan",
   "name": "Donphan",
-  "num": 123,
+  "num": 232,
   "types": [
     "ground"
   ],
+  "gen": 2,
   "abilities": {
     "0": "sturdy",
     "H": "sandveil"
@@ -17,13 +18,24 @@
     "spd": 60,
     "spe": 50
   },
+  "prevo": "phanpy",
+  "evoLevel": 25,
   "weight": 120,
-  "height": 11,
+  "height": 1.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Donphan is covered in tough hide, so even being hit by a car won't faze this Pokémon. However, it is extremely susceptible to rain."
+  },
   "learnset": {
+    "ancientpower": [
+      "E@phanpy"
+    ],
     "assurance": [
       "L:15"
     ],
@@ -31,14 +43,19 @@
       "M"
     ],
     "bodyslam": [
-      "M"
+      "M",
+      "E@phanpy"
     ],
     "bulldoze": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "charm": [
-      "M"
+      "M",
+      "L:33@phanpy"
+    ],
+    "counter": [
+      "E@phanpy"
     ],
     "defensecurl": [
       "L:1"
@@ -46,32 +63,48 @@
     "dig": [
       "M"
     ],
+    "doubleedge": [
+      "L:42@phanpy"
+    ],
     "earthpower": [
       "M"
     ],
     "earthquake": [
-      "L:43",
-      "M"
+      "M",
+      "L:43"
     ],
     "encore": [
       "M"
     ],
+    "endeavor": [
+      "E@phanpy"
+    ],
     "endure": [
-      "M"
+      "M",
+      "L:19@phanpy"
     ],
     "facade": [
       "M"
     ],
     "firefang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
+    ],
+    "fissure": [
+      "E@phanpy"
+    ],
+    "flail": [
+      "L:6@phanpy"
+    ],
+    "focusenergy": [
+      "E@phanpy"
     ],
     "furyattack": [
       "L:0"
     ],
     "gigaimpact": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "growl": [
       "L:1"
@@ -79,11 +112,18 @@
     "gunkshot": [
       "M"
     ],
+    "headsmash": [
+      "E@phanpy"
+    ],
     "heavyslam": [
-      "M"
+      "M",
+      "E@phanpy"
     ],
     "helpinghand": [
       "M"
+    ],
+    "highhorsepower": [
+      "E@phanpy"
     ],
     "hornattack": [
       "L:1"
@@ -97,6 +137,9 @@
     "icefang": [
       "M"
     ],
+    "iceshard": [
+      "E@phanpy"
+    ],
     "icespinner": [
       "M"
     ],
@@ -109,6 +152,9 @@
     "knockoff": [
       "L:19"
     ],
+    "lastresort": [
+      "L:37@phanpy"
+    ],
     "mudshot": [
       "M"
     ],
@@ -116,7 +162,8 @@
       "M"
     ],
     "playrough": [
-      "M"
+      "M",
+      "E@phanpy"
     ],
     "poisonjab": [
       "M"
@@ -146,8 +193,8 @@
       "M"
     ],
     "scaryface": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "seedbomb": [
       "M"
@@ -161,12 +208,15 @@
     "smartstrike": [
       "M"
     ],
+    "snore": [
+      "E@phanpy"
+    ],
     "stealthrock": [
       "M"
     ],
     "stompingtantrum": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "stoneedge": [
       "M"
@@ -177,8 +227,12 @@
     "sunnyday": [
       "M"
     ],
+    "tackle": [
+      "L:1@phanpy"
+    ],
     "takedown": [
-      "M"
+      "M",
+      "L:28@phanpy"
     ],
     "terablast": [
       "M"
@@ -187,12 +241,11 @@
       "M"
     ],
     "thunderfang": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "trailblaze": [
       "M"
     ]
-  },
-  "flavorText": "Donphan is covered in tough hide, so even being hit by a car won't faze this Pokémon. However, it is extremely susceptible to rain."
+  }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "calyrex",
   "name": "Calyrex",
-  "num": null,
+  "num": 898,
   "types": [
     "psychic",
     "grass"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "unnerve",
-    "H": "unnerve"
+    "0": "unnerve"
   },
   "baseStats": {
     "hp": 100,
@@ -18,9 +18,18 @@
     "spd": 80,
     "spe": 80
   },
+  "formes": [
+    "calyrex-ice",
+    "calyrex-shadow"
+  ],
   "weight": 7.7,
-  "height": 11,
-  "genderRatio": {},
+  "height": 1.1,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isLegendary": true,
   "learnset": {
     "agility": [
       "M"
@@ -50,8 +59,8 @@
       "M"
     ],
     "energyball": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "facade": [
       "M"
@@ -60,8 +69,8 @@
       "L:88"
     ],
     "gigadrain": [
-      "L:16",
-      "M"
+      "M",
+      "L:16"
     ],
     "gigaimpact": [
       "M"
@@ -70,8 +79,8 @@
       "M"
     ],
     "grassyterrain": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "growth": [
       "L:1"
@@ -80,8 +89,8 @@
       "L:72"
     ],
     "helpinghand": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "hyperbeam": [
       "M"
@@ -126,16 +135,16 @@
       "M"
     ],
     "psychic": [
-      "L:56",
-      "M"
+      "M",
+      "L:56"
     ],
     "psychicterrain": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "psyshock": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "reflect": [
       "M"
@@ -159,8 +168,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:80",
-      "M"
+      "M",
+      "L:80"
     ],
     "storedpower": [
       "M"

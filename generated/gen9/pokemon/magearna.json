@@ -1,14 +1,14 @@
 {
   "slug": "magearna",
   "name": "Magearna",
-  "num": null,
+  "num": 801,
   "types": [
     "steel",
     "fairy"
   ],
+  "gen": 7,
   "abilities": {
-    "0": "soulheart",
-    "H": "soulheart"
+    "0": "soulheart"
   },
   "baseStats": {
     "hp": 80,
@@ -18,16 +18,24 @@
     "spd": 115,
     "spe": 65
   },
+  "formes": [
+    "magearna-original"
+  ],
   "weight": 80.5,
-  "height": 10,
-  "genderRatio": {},
+  "height": 1,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "agility": [
       "M"
     ],
     "aurasphere": [
-      "L:66",
-      "M"
+      "M",
+      "L:66"
     ],
     "aurorabeam": [
       "L:36"
@@ -84,8 +92,8 @@
       "M"
     ],
     "flashcannon": [
-      "L:72",
-      "M"
+      "M",
+      "L:72"
     ],
     "fleurcannon": [
       "L:90"
@@ -106,8 +114,8 @@
       "M"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -122,12 +130,12 @@
       "M"
     ],
     "irondefense": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "ironhead": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "lightscreen": [
       "M"
@@ -151,8 +159,8 @@
       "M"
     ],
     "psybeam": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "psychic": [
       "M"
@@ -218,8 +226,8 @@
       "M"
     ],
     "trick": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "trickroom": [
       "M"

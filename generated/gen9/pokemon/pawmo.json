@@ -1,11 +1,12 @@
 {
   "slug": "pawmo",
   "name": "Pawmo",
-  "num": 23,
+  "num": 955,
   "types": [
     "electric",
     "fighting"
   ],
+  "gen": 9,
   "abilities": {
     "0": "voltabsorb",
     "1": "naturalcure",
@@ -19,16 +20,27 @@
     "spd": 40,
     "spe": 85
   },
+  "prevo": "pawmi",
+  "evos": [
+    "pawmot"
+  ],
+  "evoLevel": 18,
   "weight": 6.5,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks."
+  },
   "learnset": {
     "agility": [
-      "L:46",
-      "M"
+      "M",
+      "L:46"
     ],
     "armthrust": [
       "L:0"
@@ -52,8 +64,8 @@
       "M"
     ],
     "dig": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "discharge": [
       "L:42"
@@ -79,6 +91,9 @@
     "facade": [
       "M"
     ],
+    "fakeout": [
+      "E@pawmi"
+    ],
     "fling": [
       "M"
     ],
@@ -93,6 +108,9 @@
     ],
     "lowsweep": [
       "M"
+    ],
+    "machpunch": [
+      "E@pawmi"
     ],
     "metalclaw": [
       "M"
@@ -133,6 +151,9 @@
     "sunnyday": [
       "M"
     ],
+    "sweetkiss": [
+      "E@pawmi"
+    ],
     "swift": [
       "M"
     ],
@@ -161,16 +182,18 @@
       "L:3"
     ],
     "thunderwave": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "voltswitch": [
       "M"
     ],
     "wildcharge": [
-      "L:52",
-      "M"
+      "M",
+      "L:52"
+    ],
+    "wish": [
+      "E@pawmi"
     ]
-  },
-  "flavorText": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks."
+  }
 }

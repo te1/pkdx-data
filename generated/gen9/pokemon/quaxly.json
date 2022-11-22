@@ -1,10 +1,11 @@
 {
   "slug": "quaxly",
   "name": "Quaxly",
-  "num": 7,
+  "num": 912,
   "types": [
     "water"
   ],
+  "gen": 9,
   "abilities": {
     "0": "torrent",
     "H": "moxie"
@@ -17,16 +18,27 @@
     "spd": 45,
     "spe": 50
   },
+  "evos": [
+    "quaxwell"
+  ],
   "weight": 6.1,
-  "height": 5,
+  "height": 0.5,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Flying",
+    "Water 1"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime."
   },
   "learnset": {
     "acrobatics": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "aerialace": [
       "M"
@@ -35,8 +47,8 @@
       "M"
     ],
     "airslash": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "aquacutter": [
       "L:21"
@@ -87,8 +99,8 @@
       "E"
     ],
     "liquidation": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "lowkick": [
       "M"
@@ -138,6 +150,5 @@
     "workup": [
       "L:7"
     ]
-  },
-  "flavorText": "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime."
+  }
 }

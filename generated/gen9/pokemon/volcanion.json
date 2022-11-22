@@ -1,14 +1,14 @@
 {
   "slug": "volcanion",
   "name": "Volcanion",
-  "num": null,
+  "num": 721,
   "types": [
     "fire",
     "water"
   ],
+  "gen": 6,
   "abilities": {
-    "0": "waterabsorb",
-    "H": "waterabsorb"
+    "0": "waterabsorb"
   },
   "baseStats": {
     "hp": 80,
@@ -19,8 +19,13 @@
     "spe": 70
   },
   "weight": 195,
-  "height": 17,
-  "genderRatio": {},
+  "height": 1.7,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "bodypress": [
       "M"
@@ -59,19 +64,19 @@
       "M"
     ],
     "firespin": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "flamecharge": [
-      "L:18",
-      "M"
+      "M",
+      "L:18"
     ],
     "flamethrower": [
       "M"
     ],
     "flareblitz": [
-      "L:78",
-      "M"
+      "M",
+      "L:78"
     ],
     "flashcannon": [
       "M"
@@ -95,8 +100,8 @@
       "M"
     ],
     "hydropump": [
-      "L:66",
-      "M"
+      "M",
+      "L:66"
     ],
     "hyperbeam": [
       "M"
@@ -120,8 +125,8 @@
       "M"
     ],
     "overheat": [
-      "L:84",
-      "M"
+      "M",
+      "L:84"
     ],
     "protect": [
       "M"
@@ -145,8 +150,8 @@
       "L:48"
     ],
     "scaryface": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "sleeptalk": [
       "M"
@@ -176,8 +181,8 @@
       "M"
     ],
     "takedown": [
-      "L:54",
-      "M"
+      "M",
+      "L:54"
     ],
     "taunt": [
       "M"
@@ -192,8 +197,8 @@
       "L:1"
     ],
     "waterpulse": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "weatherball": [
       "L:12"

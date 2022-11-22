@@ -1,11 +1,12 @@
 {
   "slug": "amoonguss",
   "name": "Amoonguss",
-  "num": 206,
+  "num": 591,
   "types": [
     "grass",
     "poison"
   ],
+  "gen": 5,
   "abilities": {
     "0": "effectspore",
     "H": "regenerator"
@@ -18,11 +19,19 @@
     "spd": 80,
     "spe": 30
   },
+  "prevo": "foongus",
+  "evoLevel": 39,
   "weight": 10.5,
-  "height": 6,
+  "height": 0.6,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "Be wary of the poisonous spores it releases. Mushrooms resembling Amoonguss's caps will grow out of anywhere the spores touch."
   },
   "learnset": {
     "absorb": [
@@ -40,6 +49,9 @@
     "clearsmog": [
       "L:20"
     ],
+    "defensecurl": [
+      "E@foongus"
+    ],
     "endure": [
       "M"
     ],
@@ -53,8 +65,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:28",
-      "M"
+      "M",
+      "L:28"
     ],
     "gigaimpact": [
       "M"
@@ -86,6 +98,9 @@
     "megadrain": [
       "L:12"
     ],
+    "poisonpowder": [
+      "E@foongus"
+    ],
     "pollenpuff": [
       "M"
     ],
@@ -101,6 +116,9 @@
     "rest": [
       "M"
     ],
+    "rollout": [
+      "E@foongus"
+    ],
     "scaryface": [
       "M"
     ],
@@ -114,8 +132,8 @@
       "M"
     ],
     "solarbeam": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "spore": [
       "L:54"
@@ -146,7 +164,9 @@
     ],
     "venoshock": [
       "M"
+    ],
+    "worryseed": [
+      "E@foongus"
     ]
-  },
-  "flavorText": "Be wary of the poisonous spores it releases. Mushrooms resembling Amoonguss's caps will grow out of anywhere the spores touch."
+  }
 }

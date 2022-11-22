@@ -1,13 +1,13 @@
 {
   "slug": "komala",
   "name": "Komala",
-  "num": 315,
+  "num": 775,
   "types": [
     "normal"
   ],
+  "gen": 7,
   "abilities": {
-    "0": "comatose",
-    "H": "comatose"
+    "0": "comatose"
   },
   "baseStats": {
     "hp": 65,
@@ -18,10 +18,17 @@
     "spe": 65
   },
   "weight": 19.9,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Komala spends its entire life sleeping. It feeds on leaves that contain a potent poison only Komala can break down."
   },
   "learnset": {
     "acrobatics": [
@@ -43,8 +50,8 @@
       "M"
     ],
     "charm": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "defensecurl": [
       "L:1"
@@ -89,8 +96,8 @@
       "M"
     ],
     "playrough": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "protect": [
       "M"
@@ -188,6 +195,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "Komala spends its entire life sleeping. It feeds on leaves that contain a potent poison only Komala can break down."
+  }
 }

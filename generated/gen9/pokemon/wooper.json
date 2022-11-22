@@ -1,11 +1,12 @@
 {
   "slug": "wooper",
   "name": "Wooper",
-  "num": 53,
+  "num": 194,
   "types": [
     "water",
     "ground"
   ],
+  "gen": 2,
   "abilities": {
     "0": "damp",
     "1": "waterabsorb",
@@ -19,23 +20,34 @@
     "spd": 25,
     "spe": 15
   },
+  "evos": [
+    "quagsire"
+  ],
+  "formes": [
+    "wooper-paldea"
+  ],
   "weight": 8.5,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "canHatch": true,
   "learnset": {
     "acidspray": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "afteryou": [
       "E"
     ],
     "amnesia": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "ancientpower": [
       "E"
@@ -74,8 +86,8 @@
       "M"
     ],
     "earthquake": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "encore": [
       "M"
@@ -111,8 +123,8 @@
       "L:28"
     ],
     "mudshot": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "mudslap": [
       "M"
@@ -121,8 +133,8 @@
       "M"
     ],
     "raindance": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "recover": [
       "E"

@@ -1,14 +1,16 @@
 {
   "slug": "greninja",
   "name": "Greninja",
-  "num": null,
+  "num": 658,
   "types": [
     "water",
     "dark"
   ],
+  "gen": 6,
   "abilities": {
     "0": "torrent",
-    "H": "protean"
+    "H": "protean",
+    "S": "battlebond"
   },
   "baseStats": {
     "hp": 72,
@@ -18,28 +20,40 @@
     "spd": 71,
     "spe": 122
   },
+  "prevo": "frogadier",
+  "evoLevel": 36,
   "weight": 40,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
   },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "isUnobtainable": true,
   "learnset": {
     "acrobatics": [
       "M"
     ],
     "aerialace": [
-      "L:33",
-      "M"
+      "M",
+      "L:33"
     ],
     "blizzard": [
       "M"
+    ],
+    "bounce": [
+      "L:45@frogadier"
     ],
     "brickbreak": [
       "M"
     ],
     "chillingwater": [
       "M"
+    ],
+    "counter": [
+      "E@froakie"
     ],
     "darkpulse": [
       "M"
@@ -63,7 +77,8 @@
       "M"
     ],
     "fling": [
-      "M"
+      "M",
+      "L:28@frogadier"
     ],
     "gigaimpact": [
       "M"
@@ -87,8 +102,8 @@
       "M"
     ],
     "hydropump": [
-      "L:68",
-      "M"
+      "M",
+      "L:68"
     ],
     "hyperbeam": [
       "M"
@@ -138,6 +153,9 @@
     "rest": [
       "M"
     ],
+    "retaliate": [
+      "E@froakie"
+    ],
     "rockslide": [
       "M"
     ],
@@ -147,11 +165,17 @@
     "roleplay": [
       "L:1"
     ],
+    "round": [
+      "L:23@frogadier"
+    ],
     "shadowsneak": [
       "L:23"
     ],
     "sleeptalk": [
       "M"
+    ],
+    "smackdown": [
+      "L:33@frogadier"
     ],
     "smokescreen": [
       "L:19"
@@ -160,18 +184,22 @@
       "M"
     ],
     "spikes": [
+      "M",
       "L:28",
-      "M"
+      "E@froakie"
     ],
     "substitute": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "surf": [
       "M"
     ],
     "swift": [
       "M"
+    ],
+    "switcheroo": [
+      "E@froakie"
     ],
     "swordsdance": [
       "M"
@@ -189,7 +217,8 @@
       "M"
     ],
     "toxicspikes": [
-      "M"
+      "M",
+      "E@froakie"
     ],
     "trailblaze": [
       "M"
@@ -207,8 +236,8 @@
       "M"
     ],
     "waterpulse": [
-      "L:14",
-      "M"
+      "M",
+      "L:14"
     ],
     "watershuriken": [
       "L:0"

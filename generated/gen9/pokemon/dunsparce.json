@@ -1,10 +1,11 @@
 {
   "slug": "dunsparce",
   "name": "Dunsparce",
-  "num": 188,
+  "num": 206,
   "types": [
     "normal"
   ],
+  "gen": 2,
   "abilities": {
     "0": "serenegrace",
     "1": "runaway",
@@ -18,11 +19,22 @@
     "spd": 65,
     "spe": 45
   },
+  "evos": [
+    "dudunsparce",
+    "dudunsparce-three-segment"
+  ],
   "weight": 14,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail."
   },
   "learnset": {
     "agility": [
@@ -83,8 +95,8 @@
       "L:40"
     ],
     "drillrun": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "earthpower": [
       "M"
@@ -147,8 +159,8 @@
       "M"
     ],
     "mudslap": [
-      "L:4",
-      "M"
+      "M",
+      "L:4"
     ],
     "poisonjab": [
       "M"
@@ -243,6 +255,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "hoppip",
   "name": "Hoppip",
-  "num": 16,
+  "num": 187,
   "types": [
     "grass",
     "flying"
   ],
+  "gen": 2,
   "abilities": {
     "0": "chlorophyll",
     "1": "leafguard",
@@ -19,19 +20,30 @@
     "spd": 55,
     "spe": 50
   },
+  "evos": [
+    "skiploom"
+  ],
   "weight": 0.5,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Fairy",
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is blown across vast distances by the wind. It is unclear where the Hoppip of Paldea originally came from."
   },
   "learnset": {
     "absorb": [
       "L:6"
     ],
     "acrobatics": [
-      "L:24",
-      "M"
+      "M",
+      "L:24"
     ],
     "aerialace": [
       "M"
@@ -43,8 +55,8 @@
       "L:35"
     ],
     "bulletseed": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "charm": [
       "M"
@@ -59,8 +71,8 @@
       "M"
     ],
     "encore": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "endure": [
       "M"
@@ -78,15 +90,15 @@
       "M"
     ],
     "gigadrain": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "grassknot": [
       "M"
     ],
     "grassyterrain": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "helpinghand": [
       "M"
@@ -131,8 +143,8 @@
       "M"
     ],
     "seedbomb": [
-      "E",
-      "M"
+      "M",
+      "E"
     ],
     "sleeppowder": [
       "L:10"
@@ -189,12 +201,11 @@
       "M"
     ],
     "uturn": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "worryseed": [
       "E"
     ]
-  },
-  "flavorText": "This Pokémon is blown across vast distances by the wind. It is unclear where the Hoppip of Paldea originally came from."
+  }
 }

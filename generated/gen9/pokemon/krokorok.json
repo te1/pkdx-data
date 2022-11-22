@@ -1,11 +1,12 @@
 {
   "slug": "krokorok",
   "name": "Krokorok",
-  "num": 268,
+  "num": 552,
   "types": [
     "ground",
     "dark"
   ],
+  "gen": 5,
   "abilities": {
     "0": "intimidate",
     "1": "moxie",
@@ -19,15 +20,29 @@
     "spd": 45,
     "spe": 74
   },
+  "prevo": "sandile",
+  "evos": [
+    "krookodile"
+  ],
+  "evoLevel": 29,
   "weight": 33.4,
-  "height": 10,
+  "height": 1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "aquatail": [
+      "E@sandile"
     ],
     "bite": [
       "L:15"
@@ -41,16 +56,22 @@
     "bulldoze": [
       "M"
     ],
+    "counter": [
+      "E@sandile"
+    ],
     "crunch": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "darkpulse": [
       "M"
     ],
     "dig": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
+    ],
+    "doubleedge": [
+      "E@sandile"
     ],
     "dragonclaw": [
       "M"
@@ -62,8 +83,8 @@
       "M"
     ],
     "earthquake": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "endure": [
       "M"
@@ -78,8 +99,8 @@
       "M"
     ],
     "foulplay": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "grassknot": [
       "M"
@@ -124,15 +145,15 @@
       "L:1"
     ],
     "sandstorm": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "sandtomb": [
       "L:9"
     ],
     "scaryface": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "shadowclaw": [
       "M"
@@ -145,6 +166,9 @@
     ],
     "snarl": [
       "M"
+    ],
+    "spite": [
+      "E@sandile"
     ],
     "stealthrock": [
       "M"
@@ -182,6 +206,5 @@
     "torment": [
       "L:18"
     ]
-  },
-  "flavorText": "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals."
+  }
 }

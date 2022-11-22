@@ -1,11 +1,12 @@
 {
   "slug": "wattrel",
   "name": "Wattrel",
-  "num": 177,
+  "num": 957,
   "types": [
     "electric",
     "flying"
   ],
+  "gen": 9,
   "abilities": {
     "0": "windpower",
     "1": "voltabsorb",
@@ -19,11 +20,22 @@
     "spd": 40,
     "spe": 70
   },
+  "evos": [
+    "kilowattrel"
+  ],
   "weight": 3.6,
-  "height": 4,
+  "height": 0.4,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Flying"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them."
   },
   "learnset": {
     "acrobatics": [
@@ -33,8 +45,8 @@
       "M"
     ],
     "agility": [
-      "L:32",
-      "M"
+      "M",
+      "L:32"
     ],
     "aircutter": [
       "M"
@@ -151,8 +163,8 @@
       "M"
     ],
     "voltswitch": [
-      "L:37",
-      "M"
+      "M",
+      "L:37"
     ],
     "weatherball": [
       "E"
@@ -160,6 +172,5 @@
     "wildcharge": [
       "M"
     ]
-  },
-  "flavorText": "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them."
+  }
 }

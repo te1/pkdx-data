@@ -1,14 +1,14 @@
 {
   "slug": "zarude",
   "name": "Zarude",
-  "num": null,
+  "num": 893,
   "types": [
     "dark",
     "grass"
   ],
+  "gen": 8,
   "abilities": {
-    "0": "leafguard",
-    "H": "leafguard"
+    "0": "leafguard"
   },
   "baseStats": {
     "hp": 105,
@@ -18,9 +18,17 @@
     "spd": 95,
     "spe": 105
   },
+  "formes": [
+    "zarude-dada"
+  ],
   "weight": 70,
-  "height": 18,
-  "genderRatio": {},
+  "height": 1.8,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "isMythical": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -68,8 +76,8 @@
       "M"
     ],
     "energyball": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "facade": [
       "M"
@@ -87,8 +95,8 @@
       "M"
     ],
     "grassknot": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "grassyterrain": [
       "M"
@@ -148,8 +156,8 @@
       "M"
     ],
     "scaryface": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "scratch": [
       "L:1"
@@ -206,8 +214,8 @@
       "M"
     ],
     "uturn": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "vinewhip": [
       "L:12"

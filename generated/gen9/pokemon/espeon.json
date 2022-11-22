@@ -1,10 +1,11 @@
 {
   "slug": "espeon",
   "name": "Espeon",
-  "num": 183,
+  "num": 196,
   "types": [
     "psychic"
   ],
+  "gen": 2,
   "abilities": {
     "0": "synchronize",
     "H": "magicbounce"
@@ -17,19 +18,28 @@
     "spd": 95,
     "spe": 110
   },
+  "prevo": "eevee",
+  "evoType": "levelFriendship",
+  "evoCondition": "during the day",
   "weight": 26.5,
-  "height": 9,
+  "height": 0.9,
   "genderRatio": {
-    "M": 0.88,
-    "F": 0.12
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "The tip of its forked tail quivers when it is predicting its opponent's next move."
   },
   "learnset": {
     "babydolleyes": [
       "L:15"
     ],
     "batonpass": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "bite": [
       "L:1"
@@ -41,8 +51,8 @@
       "M"
     ],
     "charm": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "confuseray": [
       "M"
@@ -56,14 +66,23 @@
     "covet": [
       "L:1"
     ],
+    "curse": [
+      "E@eevee"
+    ],
     "dazzlinggleam": [
       "M"
+    ],
+    "detect": [
+      "E@eevee"
     ],
     "dig": [
       "M"
     ],
     "doubleedge": [
       "L:1"
+    ],
+    "doublekick": [
+      "E@eevee"
     ],
     "drainingkiss": [
       "M"
@@ -76,6 +95,9 @@
     ],
     "faketears": [
       "M"
+    ],
+    "flail": [
+      "E@eevee"
     ],
     "futuresight": [
       "L:50"
@@ -90,8 +112,8 @@
       "L:1"
     ],
     "helpinghand": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "hyperbeam": [
       "M"
@@ -115,7 +137,8 @@
       "L:30"
     ],
     "mudslap": [
-      "M"
+      "M",
+      "E@eevee"
     ],
     "powergem": [
       "M"
@@ -127,12 +150,12 @@
       "M"
     ],
     "psybeam": [
-      "L:25",
-      "M"
+      "M",
+      "L:25"
     ],
     "psychic": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "psychicfangs": [
       "M"
@@ -180,8 +203,8 @@
       "M"
     ],
     "swift": [
-      "L:20",
-      "M"
+      "M",
+      "L:20"
     ],
     "tackle": [
       "L:1"
@@ -190,14 +213,17 @@
       "L:1"
     ],
     "takedown": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "terablast": [
       "M"
     ],
     "thunderwave": [
       "M"
+    ],
+    "tickle": [
+      "E@eevee"
     ],
     "trailblaze": [
       "M"
@@ -208,9 +234,14 @@
     "trickroom": [
       "M"
     ],
+    "wish": [
+      "E@eevee"
+    ],
+    "yawn": [
+      "E@eevee"
+    ],
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "The tip of its forked tail quivers when it is predicting its opponent's next move."
+  }
 }

@@ -1,11 +1,12 @@
 {
   "slug": "heracross",
   "name": "Heracross",
-  "num": 262,
+  "num": 214,
   "types": [
     "bug",
     "fighting"
   ],
+  "gen": 2,
   "abilities": {
     "0": "swarm",
     "1": "guts",
@@ -20,15 +21,22 @@
     "spe": 85
   },
   "weight": 54,
-  "height": 15,
+  "height": 1.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn."
+  },
   "learnset": {
     "aerialace": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "armthrust": [
       "L:1"
@@ -37,8 +45,8 @@
       "M"
     ],
     "brickbreak": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "bugbuzz": [
       "M"
@@ -53,8 +61,8 @@
       "M"
     ],
     "closecombat": [
-      "L:60",
-      "M"
+      "M",
+      "L:60"
     ],
     "counter": [
       "L:25"
@@ -69,8 +77,8 @@
       "M"
     ],
     "endure": [
-      "L:10",
-      "M"
+      "M",
+      "L:10"
     ],
     "facade": [
       "M"
@@ -178,8 +186,8 @@
       "M"
     ],
     "swordsdance": [
-      "L:50",
-      "M"
+      "M",
+      "L:50"
     ],
     "tackle": [
       "L:1"
@@ -202,6 +210,5 @@
     "trailblaze": [
       "M"
     ]
-  },
-  "flavorText": "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn."
+  }
 }

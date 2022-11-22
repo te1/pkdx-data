@@ -1,11 +1,12 @@
 {
   "slug": "tinkaton",
   "name": "Tinkaton",
-  "num": 281,
+  "num": 1002,
   "types": [
     "fairy",
     "steel"
   ],
+  "gen": 9,
   "abilities": {
     "0": "moldbreaker",
     "1": "owntempo",
@@ -19,10 +20,16 @@
     "spd": 105,
     "spe": 94
   },
+  "prevo": "tinkatuff",
+  "evoLevel": 38,
   "weight": 112.8,
-  "height": 7,
-  "genderRatio": {
-    "F": 1
+  "height": 0.7,
+  "gender": "F",
+  "eggGroups": [
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight."
   },
   "learnset": {
     "astonish": [
@@ -44,8 +51,8 @@
       "L:11"
     ],
     "drainingkiss": [
-      "L:17",
-      "M"
+      "M",
+      "L:17"
     ],
     "encore": [
       "M"
@@ -65,9 +72,12 @@
     "faketears": [
       "M"
     ],
+    "feint": [
+      "E@tinkatink"
+    ],
     "flashcannon": [
-      "L:31",
-      "M"
+      "M",
+      "L:31"
     ],
     "flatter": [
       "L:43"
@@ -87,6 +97,9 @@
     "helpinghand": [
       "M"
     ],
+    "icehammer": [
+      "E@tinkatink"
+    ],
     "knockoff": [
       "L:52"
     ],
@@ -94,21 +107,24 @@
       "M"
     ],
     "metalclaw": [
-      "L:8",
-      "M"
+      "M",
+      "L:8"
     ],
     "metronome": [
       "M"
     ],
     "playrough": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "pounce": [
       "M"
     ],
     "protect": [
       "M"
+    ],
+    "quash": [
+      "E@tinkatink"
     ],
     "reflect": [
       "M"
@@ -164,6 +180,5 @@
     "thunderwave": [
       "M"
     ]
-  },
-  "flavorText": "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight."
+  }
 }

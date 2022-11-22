@@ -1,10 +1,11 @@
 {
   "slug": "petilil",
   "name": "Petilil",
-  "num": 104,
+  "num": 548,
   "types": [
     "grass"
   ],
+  "gen": 5,
   "abilities": {
     "0": "chlorophyll",
     "1": "owntempo",
@@ -18,10 +19,19 @@
     "spd": 50,
     "spe": 30
   },
+  "evos": [
+    "lilligant",
+    "lilligant-hisui"
+  ],
   "weight": 6.6,
-  "height": 5,
-  "genderRatio": {
-    "F": 1
+  "height": 0.5,
+  "gender": "F",
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them."
   },
   "learnset": {
     "absorb": [
@@ -34,8 +44,8 @@
       "M"
     ],
     "charm": [
-      "L:12",
-      "M"
+      "M",
+      "L:12"
     ],
     "encore": [
       "M"
@@ -44,8 +54,8 @@
       "M"
     ],
     "energyball": [
-      "L:30",
-      "M"
+      "M",
+      "L:30"
     ],
     "entrainment": [
       "L:39"
@@ -54,8 +64,8 @@
       "M"
     ],
     "gigadrain": [
-      "L:21",
-      "M"
+      "M",
+      "L:21"
     ],
     "grassknot": [
       "M"
@@ -67,22 +77,22 @@
       "E"
     ],
     "helpinghand": [
-      "L:3",
-      "M"
+      "M",
+      "L:3"
     ],
     "ingrain": [
       "E"
     ],
     "leafstorm": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "leechseed": [
       "L:24"
     ],
     "magicalleaf": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "megadrain": [
       "L:9"
@@ -115,8 +125,8 @@
       "M"
     ],
     "sunnyday": [
-      "L:36",
-      "M"
+      "M",
+      "L:36"
     ],
     "sweetscent": [
       "E"
@@ -133,6 +143,5 @@
     "worryseed": [
       "E"
     ]
-  },
-  "flavorText": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them."
+  }
 }

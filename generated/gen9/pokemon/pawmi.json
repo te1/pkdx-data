@@ -1,10 +1,11 @@
 {
   "slug": "pawmi",
   "name": "Pawmi",
-  "num": 22,
+  "num": 954,
   "types": [
     "electric"
   ],
+  "gen": 9,
   "abilities": {
     "0": "static",
     "1": "naturalcure",
@@ -18,16 +19,26 @@
     "spd": 25,
     "spe": 60
   },
+  "evos": [
+    "pawmo"
+  ],
   "weight": 2.5,
-  "height": 3,
+  "height": 0.3,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws."
+  },
   "learnset": {
     "agility": [
-      "L:40",
-      "M"
+      "M",
+      "L:40"
     ],
     "batonpass": [
       "M"
@@ -48,8 +59,8 @@
       "M"
     ],
     "dig": [
-      "L:15",
-      "M"
+      "M",
+      "L:15"
     ],
     "discharge": [
       "L:38"
@@ -157,19 +168,18 @@
       "L:3"
     ],
     "thunderwave": [
-      "L:27",
-      "M"
+      "M",
+      "L:27"
     ],
     "voltswitch": [
       "M"
     ],
     "wildcharge": [
-      "L:44",
-      "M"
+      "M",
+      "L:44"
     ],
     "wish": [
       "E"
     ]
-  },
-  "flavorText": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws."
+  }
 }

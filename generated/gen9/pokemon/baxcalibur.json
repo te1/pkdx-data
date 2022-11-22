@@ -1,11 +1,12 @@
 {
   "slug": "baxcalibur",
   "name": "Baxcalibur",
-  "num": 390,
+  "num": 951,
   "types": [
     "dragon",
     "ice"
   ],
+  "gen": 9,
   "abilities": {
     "0": "thermalexchange",
     "H": "icebody"
@@ -18,15 +19,27 @@
     "spd": 86,
     "spe": 87
   },
+  "prevo": "arctibax",
+  "evoLevel": 54,
   "weight": 210,
-  "height": 21,
+  "height": 2.1,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
   },
+  "eggGroups": [
+    "Dragon",
+    "Mineral"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava."
+  },
   "learnset": {
     "aerialace": [
       "M"
+    ],
+    "aquatail": [
+      "E@frigibax"
     ],
     "avalanche": [
       "M"
@@ -53,8 +66,8 @@
       "M"
     ],
     "crunch": [
-      "L:55",
-      "M"
+      "M",
+      "L:55"
     ],
     "dig": [
       "M"
@@ -66,8 +79,8 @@
       "L:12"
     ],
     "dragonclaw": [
-      "L:35",
-      "M"
+      "M",
+      "L:35"
     ],
     "dragondance": [
       "M"
@@ -75,9 +88,12 @@
     "dragonpulse": [
       "M"
     ],
+    "dragonrush": [
+      "E@frigibax"
+    ],
     "dragontail": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "earthquake": [
       "M"
@@ -94,6 +110,9 @@
     "focusenergy": [
       "L:18"
     ],
+    "freezedry": [
+      "E@frigibax"
+    ],
     "gigaimpact": [
       "M"
     ],
@@ -107,12 +126,12 @@
       "M"
     ],
     "icebeam": [
-      "L:48",
-      "M"
+      "M",
+      "L:48"
     ],
     "icefang": [
-      "L:29",
-      "M"
+      "M",
+      "L:29"
     ],
     "iceshard": [
       "L:1"
@@ -120,9 +139,12 @@
     "iciclecrash": [
       "L:62"
     ],
+    "iciclespear": [
+      "E@frigibax"
+    ],
     "icywind": [
-      "L:6",
-      "M"
+      "M",
+      "L:6"
     ],
     "ironhead": [
       "M"
@@ -149,8 +171,8 @@
       "M"
     ],
     "snowscape": [
-      "L:1",
-      "M"
+      "M",
+      "L:1"
     ],
     "stompingtantrum": [
       "M"
@@ -165,8 +187,8 @@
       "L:1"
     ],
     "takedown": [
-      "L:42",
-      "M"
+      "M",
+      "L:42"
     ],
     "terablast": [
       "M"
@@ -177,6 +199,5 @@
     "zenheadbutt": [
       "M"
     ]
-  },
-  "flavorText": "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava."
+  }
 }

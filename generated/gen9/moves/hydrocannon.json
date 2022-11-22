@@ -1,18 +1,25 @@
 {
-  "name": "Hydro Cannon",
   "slug": "hydrocannon",
-  "flavorText": "The target is hit with a watery blast. The user can’t move on the next turn.",
+  "name": "Hydro Cannon",
+  "gen": 3,
   "type": "water",
   "category": "special",
   "basePower": 150,
   "accuracy": 90,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "quaquaval",
     "greninja",
     "inteleon",
     "mew",
-    "samurott"
-  ]
+    "quaquaval",
+    "samurott",
+    "samurott-hisui"
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn.",
+  "flavorText": {
+    "sv": "The target is hit with a watery blast. The user can't move on the next turn."
+  }
 }

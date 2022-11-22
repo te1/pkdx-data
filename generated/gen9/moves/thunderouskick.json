@@ -1,11 +1,20 @@
 {
-  "name": "Thunderous Kick",
   "slug": "thunderouskick",
-  "flavorText": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target’s Defense stat.",
+  "name": "Thunderous Kick",
+  "gen": 8,
   "type": "fighting",
   "category": "physical",
   "basePower": 90,
   "accuracy": 100,
   "pp": 10,
-  "priority": 0
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "zapdos-galar"
+  ],
+  "desc": "Has a 100% chance to lower the target's Defense by 1 stage.",
+  "shortDesc": "100% chance to lower the target's Defense by 1.",
+  "flavorText": {
+    "sv": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target's Defense stat."
+  }
 }

@@ -1,23 +1,33 @@
 {
-  "name": "Focus Punch",
   "slug": "focuspunch",
-  "flavorText": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+  "name": "Focus Punch",
+  "gen": 3,
   "type": "fighting",
   "category": "physical",
   "basePower": 150,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": -3,
   "pokemon": [
-    "vigoroth",
+    "beartic",
     "breloom",
-    "makuhita",
-    "hariyama",
+    "crabominable",
     "crabrawler",
-    "palafin",
     "cubchoo",
+    "hariyama",
     "ironhands",
     "kubfu",
-    "urshifu"
-  ]
+    "makuhita",
+    "palafin",
+    "slaking",
+    "urshifu",
+    "urshifu-rapid-strike",
+    "vigoroth"
+  ],
+  "desc": "The user loses its focus and does nothing if it is hit by a damaging attack this turn before it can execute the move.",
+  "shortDesc": "Fails if the user takes damage before it hits.",
+  "flavorText": {
+    "sv": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move."
+  }
 }

@@ -1,20 +1,28 @@
 {
-  "name": "Lunge",
   "slug": "lunge",
-  "flavorText": "The user makes a lunge at the target, attacking with full force. This also lowers the target’s Attack stat.",
+  "name": "Lunge",
+  "gen": 7,
   "type": "bug",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "tarountula",
+    "ironmoth",
     "lokix",
-    "surskit",
-    "rellor",
+    "masquerain",
     "rabsca",
+    "rellor",
     "slitherwing",
-    "ironmoth"
-  ]
+    "spidops",
+    "surskit",
+    "tarountula"
+  ],
+  "desc": "Has a 100% chance to lower the target's Attack by 1 stage.",
+  "shortDesc": "100% chance to lower the target's Attack by 1.",
+  "flavorText": {
+    "sv": "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat."
+  }
 }

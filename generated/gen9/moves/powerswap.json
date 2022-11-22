@@ -1,17 +1,24 @@
 {
-  "name": "Power Swap",
   "slug": "powerswap",
-  "flavorText": "The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.",
+  "name": "Power Swap",
+  "gen": 4,
   "type": "psychic",
   "category": "status",
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "meditite",
     "espeon",
-    "girafarig",
     "farigiraf",
-    "rabsca",
-    "mewtwo"
-  ]
+    "girafarig",
+    "medicham",
+    "meditite",
+    "mewtwo",
+    "rabsca"
+  ],
+  "desc": "The user swaps its Attack and Special Attack stat stage changes with the target.",
+  "shortDesc": "Swaps Attack and Sp. Atk stat stages with target.",
+  "flavorText": {
+    "sv": "The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target."
+  }
 }

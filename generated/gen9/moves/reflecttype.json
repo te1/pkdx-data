@@ -1,15 +1,22 @@
 {
-  "name": "Reflect Type",
   "slug": "reflecttype",
-  "flavorText": "The user reflects the target’s type to become the same type as the target.",
+  "name": "Reflect Type",
+  "gen": 5,
   "type": "normal",
   "category": "status",
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "gastly",
     "gengar",
-    "toedscruel",
-    "mew"
-  ]
+    "haunter",
+    "mew",
+    "toedscruel"
+  ],
+  "desc": "Causes the user's types to become the same as the current types of the target. If the target's current types include typeless and a non-added type, typeless is ignored. If the target's current types include typeless and an added type from Forest's Curse or Trick-or-Treat, typeless is copied as the Normal type instead. Fails if the user is an Arceus or a Silvally, or if the target's current type is typeless alone.",
+  "shortDesc": "User becomes the same type as the target.",
+  "flavorText": {
+    "sv": "The user reflects the target's type to become the same type as the target."
+  }
 }

@@ -1,24 +1,33 @@
 {
-  "name": "Sing",
   "slug": "sing",
-  "flavorText": "A soothing lullaby is sung in a beautiful voice that puts the target to sleep.",
+  "name": "Sing",
+  "gen": 1,
   "type": "normal",
   "category": "status",
+  "accuracy": 55,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "skeledirge",
-    "kricketune",
-    "chansey",
-    "blissey",
+    "altaria",
+    "azumarill",
     "azurill",
+    "blissey",
+    "chansey",
     "igglybuff",
     "jigglypuff",
-    "wigglytuff",
-    "swablu",
-    "altaria",
     "komala",
+    "kricketune",
+    "marill",
+    "meloetta",
     "screamtail",
-    "meloetta"
-  ]
+    "skeledirge",
+    "swablu",
+    "wigglytuff"
+  ],
+  "desc": "Causes the target to fall asleep.",
+  "shortDesc": "Causes the target to fall asleep.",
+  "flavorText": {
+    "sv": "A soothing lullaby is sung in a beautiful voice that puts the target to sleep."
+  }
 }

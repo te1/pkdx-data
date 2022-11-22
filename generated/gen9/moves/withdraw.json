@@ -1,20 +1,29 @@
 {
-  "name": "Withdraw",
   "slug": "withdraw",
-  "flavorText": "The user withdraws its body into its hard shell, boosting its Defense stat.",
+  "name": "Withdraw",
+  "gen": 1,
   "type": "water",
   "category": "status",
   "pp": 40,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "applin",
-    "flapple",
     "appletun",
-    "torkoal",
-    "sinistea",
+    "applin",
+    "cloyster",
+    "flapple",
     "polteageist",
-    "slowbro",
+    "polteageist-antique",
     "shellder",
-    "cloyster"
-  ]
+    "sinistea",
+    "sinistea-antique",
+    "slowbro",
+    "slowbro-galar",
+    "torkoal"
+  ],
+  "desc": "Raises the user's Defense by 1 stage.",
+  "shortDesc": "Raises the user's Defense by 1.",
+  "flavorText": {
+    "sv": "The user withdraws its body into its hard shell, boosting its Defense stat."
+  }
 }

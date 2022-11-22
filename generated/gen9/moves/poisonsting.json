@@ -1,23 +1,30 @@
 {
-  "name": "Poison Sting",
   "slug": "poisonsting",
-  "flavorText": "The user stabs the target with a poisonous stinger to inflict damage. This may also poison the target.",
+  "name": "Poison Sting",
+  "gen": 1,
   "type": "poison",
   "category": "physical",
   "basePower": 15,
   "accuracy": 100,
   "pp": 35,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "vespiquen",
-    "clodsire",
-    "croagunk",
-    "toxicroak",
     "cacnea",
     "cacturne",
-    "qwilfish",
+    "clodsire",
+    "croagunk",
     "mareanie",
+    "overqwil",
+    "qwilfish",
+    "qwilfish-hisui",
     "toxapex",
-    "overqwil"
-  ]
+    "toxicroak",
+    "vespiquen"
+  ],
+  "desc": "Has a 30% chance to poison the target.",
+  "shortDesc": "30% chance to poison the target.",
+  "flavorText": {
+    "sv": "The user stabs the target with a poisonous stinger to inflict damage. This may also poison the target."
+  }
 }

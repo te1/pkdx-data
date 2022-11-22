@@ -1,14 +1,20 @@
 {
-  "name": "Gigaton Hammer",
   "slug": "gigatonhammer",
-  "flavorText": "The user swings its whole body around to attack with its huge hammer. This move can’t be used twice in a row.",
+  "name": "Gigaton Hammer",
+  "gen": 9,
   "type": "steel",
   "category": "physical",
   "basePower": 160,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "tinkaton"
-  ]
+  ],
+  "desc": "Cannot be used twice in a row.",
+  "shortDesc": "Cannot be used twice in a row.",
+  "flavorText": {
+    "sv": "The user swings its whole body around to attack with its huge hammer. This move can't be used twice in a row."
+  }
 }

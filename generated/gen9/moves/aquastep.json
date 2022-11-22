@@ -1,14 +1,20 @@
 {
-  "name": "Aqua Step",
   "slug": "aquastep",
-  "flavorText": "The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user’s Speed stat.",
+  "name": "Aqua Step",
+  "gen": 9,
   "type": "water",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "quaquaval"
-  ]
+  ],
+  "desc": "Has a 100% chance to raise the user's Speed by 1 stage.",
+  "shortDesc": "100% chance to raise the user's Speed by 1.",
+  "flavorText": {
+    "sv": "The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user's Speed stat."
+  }
 }

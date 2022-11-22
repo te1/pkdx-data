@@ -1,25 +1,36 @@
 {
-  "name": "Fury Attack",
   "slug": "furyattack",
-  "flavorText": "The user attacks by jabbing the target with a horn, a beak, or the like. This move hits two to five times in a row.",
+  "name": "Fury Attack",
+  "gen": 1,
   "type": "normal",
   "category": "physical",
   "basePower": 15,
   "accuracy": 85,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "rookidee",
-    "corvisquire",
-    "corviknight",
-    "starly",
-    "squawkabilly",
-    "donphan",
+    "altaria",
     "arrokuda",
     "barraskewda",
-    "swablu",
-    "altaria",
+    "corviknight",
+    "corvisquire",
+    "donphan",
     "heracross",
-    "pincurchin"
-  ]
+    "pincurchin",
+    "rookidee",
+    "squawkabilly",
+    "squawkabilly-blue",
+    "squawkabilly-white",
+    "squawkabilly-yellow",
+    "staraptor",
+    "staravia",
+    "starly",
+    "swablu"
+  ],
+  "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+  "shortDesc": "Hits 2-5 times in one turn.",
+  "flavorText": {
+    "sv": "The user attacks by jabbing the target with a horn, a beak, or the like. This move hits two to five times in a row."
+  }
 }

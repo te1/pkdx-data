@@ -1,14 +1,19 @@
 {
-  "name": "Kowtow Cleave",
   "slug": "kowtowcleave",
-  "flavorText": "The user slashes at the target after kowtowing to make the target let down its guard. This attack never misses.",
+  "name": "Kowtow Cleave",
+  "gen": 9,
   "type": "dark",
   "category": "physical",
   "basePower": 85,
-  "accuracy": 101,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "kingambit"
-  ]
+  ],
+  "desc": "This move does not check accuracy.",
+  "shortDesc": "This move does not check accuracy.",
+  "flavorText": {
+    "sv": "The user slashes at the target after kowtowing to make the target let down its guard. This attack never misses."
+  }
 }

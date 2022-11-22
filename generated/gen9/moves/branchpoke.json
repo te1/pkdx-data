@@ -1,16 +1,22 @@
 {
-  "name": "Branch Poke",
   "slug": "branchpoke",
-  "flavorText": "The user attacks the target by poking it with a sharply pointed branch.",
+  "name": "Branch Poke",
+  "gen": 8,
   "type": "grass",
   "category": "physical",
   "basePower": 40,
   "accuracy": 100,
   "pp": 40,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "grookey",
     "rillaboom",
     "thwackey"
-  ]
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The user attacks the target by poking it with a sharply pointed branch."
+  }
 }

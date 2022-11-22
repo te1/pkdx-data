@@ -1,24 +1,34 @@
 {
-  "name": "Smog",
   "slug": "smog",
-  "flavorText": "The target is attacked with a discharge of filthy gases. This may also poison the target.",
+  "name": "Smog",
+  "gen": 1,
   "type": "poison",
   "category": "special",
   "basePower": 30,
   "accuracy": 70,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "houndour",
-    "houndoom",
+    "flareon",
     "gastly",
+    "gengar",
+    "gulpin",
+    "haunter",
+    "houndoom",
+    "houndour",
+    "revavroom",
     "salandit",
     "salazzle",
-    "gulpin",
-    "torkoal",
-    "flareon",
+    "skuntank",
     "stunky",
-    "varoom",
-    "revavroom"
-  ]
+    "swalot",
+    "torkoal",
+    "varoom"
+  ],
+  "desc": "Has a 40% chance to poison the target.",
+  "shortDesc": "40% chance to poison the target.",
+  "flavorText": {
+    "sv": "The target is attacked with a discharge of filthy gases. This may also poison the target."
+  }
 }

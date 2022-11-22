@@ -1,17 +1,29 @@
 {
-  "name": "Quash",
   "slug": "quash",
-  "flavorText": "The user suppresses the target and makes its move go last.",
+  "name": "Quash",
+  "gen": 5,
   "type": "dark",
   "category": "status",
+  "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "murkrow",
-    "honchkrow",
-    "tinkatink",
     "hatenna",
+    "hatterene",
+    "hattrem",
+    "honchkrow",
+    "murkrow",
+    "oranguru",
+    "persian-alola",
     "sableye",
-    "oranguru"
-  ]
+    "tinkatink",
+    "tinkaton",
+    "tinkatuff"
+  ],
+  "desc": "Causes the target to take its turn after all other Pokemon this turn, no matter the priority of its selected move. Fails if the target already moved this turn.",
+  "shortDesc": "Forces the target to move last this turn.",
+  "flavorText": {
+    "sv": "The user suppresses the target and makes its move go last."
+  }
 }

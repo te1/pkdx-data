@@ -1,18 +1,29 @@
 {
-  "name": "Quiver Dance",
   "slug": "quiverdance",
-  "flavorText": "The user lightly performs a beautiful, mystic dance. This boosts the user’s Sp. Atk, Sp. Def, and Speed stats.",
+  "name": "Quiver Dance",
+  "gen": 5,
   "type": "bug",
   "category": "status",
   "pp": 20,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "vivillon",
+    "frosmoth",
+    "lilligant",
     "masquerain",
     "oricorio",
-    "lilligant",
+    "oricorio-pau",
+    "oricorio-pom-pom",
+    "oricorio-sensu",
     "venomoth",
-    "volcarona",
-    "frosmoth"
-  ]
+    "vivillon",
+    "vivillon-fancy",
+    "vivillon-pokeball",
+    "volcarona"
+  ],
+  "desc": "Raises the user's Special Attack, Special Defense, and Speed by 1 stage.",
+  "shortDesc": "Raises the user's Sp. Atk, Sp. Def, Speed by 1.",
+  "flavorText": {
+    "sv": "The user lightly performs a beautiful, mystic dance. This boosts the user's Sp. Atk, Sp. Def, and Speed stats."
+  }
 }

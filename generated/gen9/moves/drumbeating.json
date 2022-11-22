@@ -1,14 +1,20 @@
 {
-  "name": "Drum Beating",
   "slug": "drumbeating",
-  "flavorText": "The user plays its drum, controlling the drum’s roots to attack the target. This also lowers the target’s Speed stat.",
+  "name": "Drum Beating",
+  "gen": 8,
   "type": "grass",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "rillaboom"
-  ]
+  ],
+  "desc": "Has a 100% chance to lower the target's Speed by 1 stage.",
+  "shortDesc": "100% chance to lower the target's Speed by 1.",
+  "flavorText": {
+    "sv": "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat."
+  }
 }

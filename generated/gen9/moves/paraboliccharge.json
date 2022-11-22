@@ -1,16 +1,23 @@
 {
-  "name": "Parabolic Charge",
   "slug": "paraboliccharge",
-  "flavorText": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit.",
+  "name": "Parabolic Charge",
+  "gen": 6,
   "type": "electric",
   "category": "special",
   "basePower": 65,
   "accuracy": 100,
   "pp": 20,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
-    "tadbulb",
+    "bellibolt",
     "dedenne",
-    "miraidon"
-  ]
+    "miraidon",
+    "tadbulb"
+  ],
+  "desc": "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+  "shortDesc": "User recovers 50% of the damage dealt.",
+  "flavorText": {
+    "sv": "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit."
+  }
 }

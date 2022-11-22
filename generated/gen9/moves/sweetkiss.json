@@ -1,27 +1,38 @@
 {
-  "name": "Sweet Kiss",
   "slug": "sweetkiss",
-  "flavorText": "The user kisses the target with a sweet, angelic cuteness that causes confusion.",
+  "name": "Sweet Kiss",
+  "gen": 2,
   "type": "fairy",
   "category": "status",
+  "accuracy": 75,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "pawmi",
-    "happiny",
-    "chansey",
     "blissey",
+    "chansey",
+    "finneon",
+    "happiny",
     "igglybuff",
     "jigglypuff",
-    "wigglytuff",
+    "lumineon",
+    "luvdisc",
+    "pachirisu",
+    "pawmi",
+    "pawmo",
+    "pawmot",
     "pichu",
     "pikachu",
     "raichu",
-    "pachirisu",
+    "raichu-alola",
     "tinkatink",
-    "tinkatuff",
     "tinkaton",
-    "luvdisc",
-    "finneon"
-  ]
+    "tinkatuff",
+    "wigglytuff"
+  ],
+  "desc": "Causes the target to become confused.",
+  "shortDesc": "Causes the target to become confused.",
+  "flavorText": {
+    "sv": "The user kisses the target with a sweet, angelic cuteness that causes confusion."
+  }
 }

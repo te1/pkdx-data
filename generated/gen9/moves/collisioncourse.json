@@ -1,14 +1,20 @@
 {
-  "name": "Collision Course",
   "slug": "collisioncourse",
-  "flavorText": "The user transforms and crashes to the ground, causing a massive prehistoric explosion. This move’s power is boosted more than usual if it’s a supereffective hit.",
+  "name": "Collision Course",
+  "gen": 9,
   "type": "fighting",
   "category": "physical",
   "basePower": 100,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "koraidon"
-  ]
+  ],
+  "desc": "Deals 1.3x damage if the move is super effective.",
+  "shortDesc": "Deals 1.3x damage if the move is super effective.",
+  "flavorText": {
+    "sv": "The user transforms and crashes to the ground, causing a massive prehistoric explosion. This move's power is boosted more than usual if it's a supereffective hit."
+  }
 }

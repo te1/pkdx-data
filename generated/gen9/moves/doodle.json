@@ -1,12 +1,19 @@
 {
-  "name": "Doodle",
   "slug": "doodle",
-  "flavorText": "The user captures the very essence of the target in a sketch. This changes the Abilities of the user and its ally Pokémon to that of the target.",
+  "name": "Doodle",
+  "gen": 9,
   "type": "normal",
   "category": "status",
+  "accuracy": 100,
   "pp": 10,
+  "target": "adjacentFoe",
   "priority": 0,
   "pokemon": [
     "grafaiai"
-  ]
+  ],
+  "desc": "Causes the user and any ally's Abilities to become that of the target. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Insomnia, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Truant, or Zen Mode.",
+  "shortDesc": "User and ally's Abilities become target's Ability.",
+  "flavorText": {
+    "sv": "The user captures the very essence of the target in a sketch. This changes the Abilities of the user and its ally Pokémon to that of the target."
+  }
 }

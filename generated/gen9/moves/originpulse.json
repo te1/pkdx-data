@@ -1,14 +1,20 @@
 {
-  "name": "Origin Pulse",
   "slug": "originpulse",
-  "flavorText": "The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.",
+  "name": "Origin Pulse",
+  "gen": 6,
   "type": "water",
   "category": "special",
   "basePower": 110,
   "accuracy": 85,
   "pp": 10,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
     "kyogre"
-  ]
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect. Hits adjacent foes.",
+  "flavorText": {
+    "sv": "The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue."
+  }
 }

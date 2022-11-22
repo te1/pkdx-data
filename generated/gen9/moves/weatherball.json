@@ -1,24 +1,36 @@
 {
-  "name": "Weather Ball",
   "slug": "weatherball",
-  "flavorText": "This move’s type and power change depending on the weather at the time the move is used.",
+  "name": "Weather Ball",
+  "gen": 3,
   "type": "normal",
   "category": "special",
   "basePower": 50,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "smoliv",
-    "bronzong",
-    "tadbulb",
+    "abomasnow",
+    "arboliva",
     "bellibolt",
-    "wattrel",
-    "rellor",
+    "bronzong",
+    "dolliv",
     "eiscue",
-    "snover",
-    "snorunt",
+    "froslass",
     "glalie",
-    "volcanion"
-  ]
+    "kilowattrel",
+    "rabsca",
+    "rellor",
+    "smoliv",
+    "snorunt",
+    "snover",
+    "tadbulb",
+    "volcanion",
+    "wattrel"
+  ],
+  "desc": "Power doubles if a weather condition other than Delta Stream is active, and this move's type changes to match. Ice type during Hail, Water type during Primordial Sea or Rain Dance, Rock type during Sandstorm, and Fire type during Desolate Land or Sunny Day. If the user is holding Utility Umbrella and uses Weather Ball during Primordial Sea, Rain Dance, Desolate Land, or Sunny Day, the move is still Normal-type and does not have a base power boost.",
+  "shortDesc": "Power doubles and type varies in each weather.",
+  "flavorText": {
+    "sv": "This move's type and power change depending on the weather at the time the move is used."
+  }
 }

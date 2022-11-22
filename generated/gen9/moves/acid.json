@@ -1,19 +1,29 @@
 {
-  "name": "Acid",
   "slug": "acid",
-  "flavorText": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.",
+  "name": "Acid",
+  "gen": 1,
   "type": "poison",
   "category": "special",
   "basePower": 40,
   "accuracy": 100,
   "pp": 30,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "toxel",
-    "toxtricity",
-    "skrelp",
     "dragalge",
     "eelektrik",
-    "eelektross"
-  ]
+    "eelektross",
+    "skrelp",
+    "slowbro-galar",
+    "slowking-galar",
+    "slowpoke-galar",
+    "toxel",
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
+  "desc": "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+  "shortDesc": "10% chance to lower the foe(s) Sp. Def by 1.",
+  "flavorText": {
+    "sv": "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats."
+  }
 }

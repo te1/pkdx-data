@@ -1,18 +1,27 @@
 {
-  "name": "Noble Roar",
   "slug": "nobleroar",
-  "flavorText": "Letting out a noble roar, the user intimidates the target and lowers the target’s Attack and Sp. Atk stats.",
+  "name": "Noble Roar",
+  "gen": 6,
   "type": "normal",
   "category": "status",
+  "accuracy": 100,
   "pp": 30,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "toxtricity",
+    "dondozo",
     "litleo",
     "pyroar",
-    "dondozo",
-    "screamtail",
     "rillaboom",
-    "zacian"
-  ]
+    "screamtail",
+    "toxtricity",
+    "toxtricity-low-key",
+    "zacian",
+    "zacian-crowned"
+  ],
+  "desc": "Lowers the target's Attack and Special Attack by 1 stage.",
+  "shortDesc": "Lowers the target's Attack and Sp. Atk by 1.",
+  "flavorText": {
+    "sv": "Letting out a noble roar, the user intimidates the target and lowers the target's Attack and Sp. Atk stats."
+  }
 }

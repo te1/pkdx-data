@@ -1,15 +1,23 @@
 {
-  "name": "Last Respects",
   "slug": "lastrespects",
-  "flavorText": "The user attacks to avenge its allies. The more defeated allies there are in the user’s party, the greater the move’s power.",
+  "name": "Last Respects",
+  "gen": 9,
   "type": "ghost",
   "category": "physical",
   "basePower": 50,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "houndstone",
-    "basculegion"
-  ]
+    "basculegion",
+    "basculegion-f",
+    "basculin-white-striped",
+    "houndstone"
+  ],
+  "desc": "Power increases by 50 with each fainted party member.",
+  "shortDesc": "Power increases by 50 with each fainted party member.",
+  "flavorText": {
+    "sv": "The user attacks to avenge its allies. The more defeated allies there are in the user's party, the greater the move's power."
+  }
 }

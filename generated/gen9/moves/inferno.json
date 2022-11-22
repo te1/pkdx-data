@@ -1,23 +1,30 @@
 {
-  "name": "Inferno",
   "slug": "inferno",
-  "flavorText": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+  "name": "Inferno",
+  "gen": 5,
   "type": "fire",
   "category": "special",
   "basePower": 100,
   "accuracy": 50,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "houndour",
-    "houndoom",
-    "torkoal",
-    "chiyu",
     "charizard",
     "charmander",
     "charmeleon",
+    "chiyu",
     "cyndaquil",
+    "houndoom",
+    "houndour",
     "quilava",
-    "typhlosion"
-  ]
+    "torkoal",
+    "typhlosion",
+    "typhlosion-hisui"
+  ],
+  "desc": "Has a 100% chance to burn the target.",
+  "shortDesc": "100% chance to burn the target.",
+  "flavorText": {
+    "sv": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn."
+  }
 }

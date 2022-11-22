@@ -1,16 +1,23 @@
 {
-  "name": "Vacuum Wave",
   "slug": "vacuumwave",
-  "flavorText": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+  "name": "Vacuum Wave",
+  "gen": 4,
   "type": "fighting",
   "category": "special",
   "basePower": 40,
   "accuracy": 100,
   "pp": 30,
+  "target": "normal",
   "priority": 1,
   "pokemon": [
-    "riolu",
+    "croagunk",
     "lucario",
-    "croagunk"
-  ]
+    "riolu",
+    "toxicroak"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "Usually goes first.",
+  "flavorText": {
+    "sv": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first."
+  }
 }

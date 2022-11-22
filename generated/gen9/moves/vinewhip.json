@@ -1,21 +1,29 @@
 {
-  "name": "Vine Whip",
   "slug": "vinewhip",
-  "flavorText": "The target is struck with slender, whiplike vines to inflict damage.",
+  "name": "Vine Whip",
+  "gen": 1,
   "type": "grass",
   "category": "physical",
   "basePower": 45,
   "accuracy": 100,
   "pp": 25,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "floette",
-    "skiddo",
-    "gogoat",
     "chesnaught",
     "chespin",
     "flabebe",
+    "floette",
+    "florges",
+    "gogoat",
     "quilladin",
-    "zarude"
-  ]
+    "skiddo",
+    "zarude",
+    "zarude-dada"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The target is struck with slender, whiplike vines to inflict damage."
+  }
 }

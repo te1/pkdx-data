@@ -1,20 +1,26 @@
 {
-  "name": "Brutal Swing",
   "slug": "brutalswing",
-  "flavorText": "The user swings its body around violently to inflict damage on everything in its vicinity.",
+  "name": "Brutal Swing",
+  "gen": 7,
   "type": "dark",
   "category": "physical",
   "basePower": 60,
   "accuracy": 100,
   "pp": 20,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
-    "silicobra",
-    "sandaconda",
-    "tinkatink",
-    "tinkatuff",
-    "tinkaton",
+    "hatterene",
     "hattrem",
-    "hatterene"
-  ]
+    "sandaconda",
+    "silicobra",
+    "tinkatink",
+    "tinkaton",
+    "tinkatuff"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect. Hits adjacent Pokemon.",
+  "flavorText": {
+    "sv": "The user swings its body around violently to inflict damage on everything in its vicinity."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Confide",
   "slug": "confide",
-  "flavorText": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+  "name": "Confide",
+  "gen": 6,
   "type": "normal",
   "category": "status",
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "grimmsnarl",
     "impidimp",
-    "morgrem",
-    "grimmsnarl"
-  ]
+    "morgrem"
+  ],
+  "desc": "Lowers the target's Special Attack by 1 stage.",
+  "shortDesc": "Lowers the target's Sp. Atk by 1.",
+  "flavorText": {
+    "sv": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat."
+  }
 }

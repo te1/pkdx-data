@@ -1,19 +1,29 @@
 {
-  "name": "Fell Stinger",
   "slug": "fellstinger",
-  "flavorText": "When the user knocks out a target with this move, the user’s Attack stat is boosted drastically.",
+  "name": "Fell Stinger",
+  "gen": 6,
   "type": "bug",
   "category": "physical",
   "basePower": 50,
   "accuracy": 100,
   "pp": 25,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "drizzile",
+    "inteleon",
     "kricketune",
-    "vespiquen",
-    "surskit",
-    "qwilfish",
+    "masquerain",
     "overqwil",
-    "sobble"
-  ]
+    "qwilfish",
+    "qwilfish-hisui",
+    "sobble",
+    "surskit",
+    "vespiquen"
+  ],
+  "desc": "Raises the user's Attack by 3 stages if this move knocks out the target.",
+  "shortDesc": "Raises user's Attack by 3 if this KOes the target.",
+  "flavorText": {
+    "sv": "When the user knocks out a target with this move, the user's Attack stat is boosted drastically."
+  }
 }

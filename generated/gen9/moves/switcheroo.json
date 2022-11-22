@@ -1,23 +1,41 @@
 {
-  "name": "Switcheroo",
   "slug": "switcheroo",
-  "flavorText": "The user trades held items with the target faster than the eye can follow.",
+  "name": "Switcheroo",
+  "gen": 4,
   "type": "dark",
   "category": "status",
+  "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "delphox",
+    "froakie",
+    "frogadier",
+    "froslass",
+    "glalie",
+    "grafaiai",
+    "greninja",
     "hoppip",
     "hypno",
-    "tandemaus",
-    "persian",
-    "shroodle",
-    "grafaiai",
-    "zangoose",
-    "seviper",
+    "jumpluff",
     "klefki",
+    "maushold",
+    "maushold-four",
+    "persian",
+    "persian-alola",
+    "seviper",
+    "shroodle",
+    "skiploom",
+    "sneasel-hisui",
+    "sneasler",
     "snorunt",
-    "delphox",
-    "froakie"
-  ]
+    "tandemaus",
+    "zangoose"
+  ],
+  "desc": "The user swaps its held item with the target's held item. Fails if either the user or the target is holding a Mail or Z-Crystal, if neither is holding an item, if the user is trying to give or take a Mega Stone to or from the species that can Mega Evolve with it, or if the user is trying to give or take a Blue Orb, a Red Orb, a Griseous Orb, a Plate, a Drive, or a Memory to or from a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, or a Silvally, respectively. The target is immune to this move if it has the Sticky Hold Ability.",
+  "shortDesc": "User switches its held item with the target's.",
+  "flavorText": {
+    "sv": "The user trades held items with the target faster than the eye can follow."
+  }
 }

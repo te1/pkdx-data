@@ -1,14 +1,20 @@
 {
-  "name": "Flying Press",
   "slug": "flyingpress",
-  "flavorText": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+  "name": "Flying Press",
+  "gen": 6,
   "type": "fighting",
   "category": "physical",
   "basePower": 100,
   "accuracy": 95,
   "pp": 10,
+  "target": "any",
   "priority": 0,
   "pokemon": [
     "hawlucha"
-  ]
+  ],
+  "desc": "This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+  "shortDesc": "Combines Flying in its type effectiveness.",
+  "flavorText": {
+    "sv": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously."
+  }
 }

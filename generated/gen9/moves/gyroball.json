@@ -1,29 +1,39 @@
 {
-  "name": "Gyro Ball",
   "slug": "gyroball",
-  "flavorText": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move’s power.",
+  "name": "Gyro Ball",
+  "gen": 4,
   "type": "steel",
   "category": "physical",
-  "basePower": 1,
+  "basePower": 0,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "jigglypuff",
-    "wigglytuff",
-    "bronzor",
     "bronzong",
-    "voltorb",
+    "bronzor",
     "electrode",
+    "electrode-hisui",
+    "forretress",
+    "jigglypuff",
+    "magearna",
+    "magearna-original",
     "magnemite",
     "magneton",
     "magnezone",
     "pineco",
-    "forretress",
-    "varoom",
     "revavroom",
     "screamtail",
-    "magearna",
-    "typhlosion"
-  ]
+    "typhlosion",
+    "typhlosion-hisui",
+    "varoom",
+    "voltorb",
+    "voltorb-hisui",
+    "wigglytuff"
+  ],
+  "desc": "Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
+  "shortDesc": "More power the slower the user than the target.",
+  "flavorText": {
+    "sv": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move's power."
+  }
 }

@@ -1,22 +1,29 @@
 {
-  "name": "Power Whip",
   "slug": "powerwhip",
-  "flavorText": "The user violently whirls its vines, tentacles, or the like to lash the target.",
+  "name": "Power Whip",
+  "gen": 4,
   "type": "grass",
   "category": "physical",
   "basePower": 120,
   "accuracy": 85,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "tsareena",
-    "goodra",
-    "bramblin",
     "brambleghast",
+    "bramblin",
+    "cyclizar",
+    "goodra",
     "toedscool",
     "toedscruel",
-    "cyclizar",
+    "tsareena",
     "wochien",
-    "zarude"
-  ]
+    "zarude",
+    "zarude-dada"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The user violently whirls its vines, tentacles, or the like to lash the target."
+  }
 }

@@ -1,24 +1,33 @@
 {
-  "name": "Fairy Wind",
   "slug": "fairywind",
-  "flavorText": "The user attacks by stirring up a fairy wind to strike the target.",
+  "name": "Fairy Wind",
+  "gen": 6,
   "type": "fairy",
   "category": "special",
   "basePower": 40,
   "accuracy": 100,
   "pp": 30,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "hoppip",
-    "skiploom",
-    "jumpluff",
-    "floette",
-    "klefki",
-    "tinkatink",
-    "tinkatuff",
-    "tinkaton",
-    "snom",
     "enamorus",
-    "flabebe"
-  ]
+    "enamorus-therian",
+    "flabebe",
+    "floette",
+    "florges",
+    "frosmoth",
+    "hoppip",
+    "jumpluff",
+    "klefki",
+    "skiploom",
+    "snom",
+    "tinkatink",
+    "tinkaton",
+    "tinkatuff"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The user attacks by stirring up a fairy wind to strike the target."
+  }
 }

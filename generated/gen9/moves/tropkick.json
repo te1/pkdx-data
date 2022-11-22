@@ -1,14 +1,20 @@
 {
-  "name": "Trop Kick",
   "slug": "tropkick",
-  "flavorText": "The user lands an intense kick of tropical origins on the target. This also lowers the target’s Attack stat.",
+  "name": "Trop Kick",
+  "gen": 7,
   "type": "grass",
   "category": "physical",
   "basePower": 70,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "tsareena"
-  ]
+  ],
+  "desc": "Has a 100% chance to lower the target's Attack by 1 stage.",
+  "shortDesc": "100% chance to lower the target's Attack by 1.",
+  "flavorText": {
+    "sv": "The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat."
+  }
 }

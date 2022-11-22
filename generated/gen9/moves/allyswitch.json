@@ -1,21 +1,36 @@
 {
-  "name": "Ally Switch",
   "slug": "allyswitch",
-  "flavorText": "The user teleports using a strange power and switches places with one of its allies. This move’s chance of failing rises if it is used in succession.",
+  "name": "Ally Switch",
+  "gen": 5,
   "type": "psychic",
   "category": "status",
   "pp": 15,
+  "target": "self",
   "priority": 2,
   "pokemon": [
-    "sprigatito",
     "armarouge",
     "ceruledge",
-    "girafarig",
-    "sinistea",
-    "flittle",
-    "spiritomb",
-    "greavard",
     "cresselia",
-    "hoopa"
-  ]
+    "espathra",
+    "farigiraf",
+    "flittle",
+    "floragato",
+    "girafarig",
+    "greavard",
+    "hoopa",
+    "hoopa-unbound",
+    "houndstone",
+    "meowscarada",
+    "polteageist",
+    "polteageist-antique",
+    "sinistea",
+    "sinistea-antique",
+    "spiritomb",
+    "sprigatito"
+  ],
+  "desc": "The user swaps positions with its ally. Fails if the user is the only Pokemon on its side.",
+  "shortDesc": "The user swaps positions with its ally.",
+  "flavorText": {
+    "sv": "The user teleports using a strange power and switches places with one of its allies. This move's chance of failing rises if it is used in succession."
+  }
 }

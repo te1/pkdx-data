@@ -1,22 +1,29 @@
 {
-  "name": "Megahorn",
   "slug": "megahorn",
-  "flavorText": "Using its tough and impressive horn, the user rams into the target with no letup.",
+  "name": "Megahorn",
+  "gen": 2,
   "type": "bug",
   "category": "physical",
   "basePower": 120,
   "accuracy": 85,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "clodsire",
-    "sawsbuck",
-    "stantler",
-    "heracross",
     "falinks",
     "greattusk",
+    "heracross",
     "irontreads",
     "samurott",
+    "samurott-hisui",
+    "sawsbuck",
+    "stantler",
     "wyrdeer"
-  ]
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "Using its tough and impressive horn, the user rams into the target with no letup."
+  }
 }

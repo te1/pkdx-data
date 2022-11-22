@@ -1,18 +1,25 @@
 {
-  "name": "Frenzy Plant",
   "slug": "frenzyplant",
-  "flavorText": "The user slams the target with the roots of an enormous tree. The user can’t move on the next turn.",
+  "name": "Frenzy Plant",
+  "gen": 3,
   "type": "grass",
   "category": "special",
   "basePower": 150,
   "accuracy": 90,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "meowscarada",
     "chesnaught",
     "decidueye",
+    "decidueye-hisui",
+    "meowscarada",
     "mew",
     "rillaboom"
-  ]
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn.",
+  "flavorText": {
+    "sv": "The user slams the target with the roots of an enormous tree. The user can't move on the next turn."
+  }
 }

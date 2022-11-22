@@ -1,14 +1,20 @@
 {
-  "name": "Grav Apple",
   "slug": "gravapple",
-  "flavorText": "The user inflicts damage by dropping an apple from high above. This also lowers the target’s Defense stat.",
+  "name": "Grav Apple",
+  "gen": 8,
   "type": "grass",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "flapple"
-  ]
+  ],
+  "desc": "Has a 100% chance to lower the target's Defense by 1 stage. Power is multiplied by 1.5 during Gravity's effect.",
+  "shortDesc": "Target: 100% -1 Def. During Gravity: 1.5x power.",
+  "flavorText": {
+    "sv": "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense stat."
+  }
 }

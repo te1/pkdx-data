@@ -1,14 +1,21 @@
 {
-  "name": "Roar of Time",
   "slug": "roaroftime",
-  "flavorText": "The user blasts the target with power that distorts even time. The user can’t move on the next turn.",
+  "name": "Roar of Time",
+  "gen": 4,
   "type": "dragon",
   "category": "special",
   "basePower": 150,
   "accuracy": 90,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "dialga"
-  ]
+    "dialga",
+    "dialga-origin"
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn.",
+  "flavorText": {
+    "sv": "The user blasts the target with power that distorts even time. The user can't move on the next turn."
+  }
 }

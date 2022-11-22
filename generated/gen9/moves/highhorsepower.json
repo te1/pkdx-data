@@ -1,21 +1,28 @@
 {
-  "name": "High Horsepower",
   "slug": "highhorsepower",
-  "flavorText": "The user fiercely attacks the target using its entire body.",
+  "name": "High Horsepower",
+  "gen": 7,
   "type": "ground",
   "category": "physical",
   "basePower": 95,
   "accuracy": 95,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "phanpy",
-    "cufant",
     "copperajah",
-    "ursaring",
+    "cufant",
+    "donphan",
     "klawf",
     "mudbray",
     "mudsdale",
-    "ursaluna"
-  ]
+    "phanpy",
+    "ursaluna",
+    "ursaring"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The user fiercely attacks the target using its entire body."
+  }
 }

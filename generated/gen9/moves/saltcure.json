@@ -1,15 +1,21 @@
 {
-  "name": "Salt Cure",
   "slug": "saltcure",
-  "flavorText": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move.",
+  "name": "Salt Cure",
+  "gen": 9,
   "type": "rock",
   "category": "physical",
   "basePower": 40,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "naclstack",
-    "garganacl"
-  ]
+    "garganacl",
+    "naclstack"
+  ],
+  "desc": "Deals 1/8 max HP every turn; 1/4 if Steel or Water.",
+  "shortDesc": "Deals 1/8 max HP every turn; 1/4 if Steel or Water.",
+  "flavorText": {
+    "sv": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move."
+  }
 }

@@ -1,12 +1,18 @@
 {
-  "name": "Speed Swap",
   "slug": "speedswap",
-  "flavorText": "The user exchanges Speed stats with the target.",
+  "name": "Speed Swap",
+  "gen": 7,
   "type": "psychic",
   "category": "status",
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "rabsca"
-  ]
+  ],
+  "desc": "The user swaps its Speed stat with the target. Stat stage changes are unaffected.",
+  "shortDesc": "Swaps Speed stat with target.",
+  "flavorText": {
+    "sv": "The user exchanges Speed stats with the target."
+  }
 }

@@ -1,17 +1,25 @@
 {
-  "name": "Spore",
   "slug": "spore",
-  "flavorText": "The user scatters bursts of spores that induce sleep.",
+  "name": "Spore",
+  "gen": 1,
   "type": "grass",
   "category": "status",
+  "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "shroomish",
-    "foongus",
     "amoonguss",
+    "breloom",
+    "brutebonnet",
+    "foongus",
+    "shroomish",
     "toedscool",
-    "toedscruel",
-    "brutebonnet"
-  ]
+    "toedscruel"
+  ],
+  "desc": "Causes the target to fall asleep.",
+  "shortDesc": "Causes the target to fall asleep.",
+  "flavorText": {
+    "sv": "The user scatters bursts of spores that induce sleep."
+  }
 }

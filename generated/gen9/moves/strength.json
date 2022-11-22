@@ -1,18 +1,26 @@
 {
-  "name": "Strength",
   "slug": "strength",
-  "flavorText": "The target is slugged with a punch thrown at maximum power.",
+  "name": "Strength",
+  "gen": 1,
   "type": "normal",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "cufant",
     "copperajah",
+    "cufant",
+    "grookey",
     "mudbray",
     "mudsdale",
-    "grookey"
-  ]
+    "rillaboom",
+    "thwackey"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The target is slugged with a punch thrown at maximum power."
+  }
 }

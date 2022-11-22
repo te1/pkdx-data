@@ -1,12 +1,19 @@
 {
-  "name": "Tidy Up",
   "slug": "tidyup",
-  "flavorText": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user’s Attack and Speed stats.",
+  "name": "Tidy Up",
+  "gen": 9,
   "type": "normal",
   "category": "status",
   "pp": 10,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "maushold"
-  ]
+    "maushold",
+    "maushold-four"
+  ],
+  "desc": "Raises the user's Attack and Speed by 1 stage. The effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute for both sides.",
+  "shortDesc": "User: +1 Atk, +1 Spe. Clears any Substitute and hazards.",
+  "flavorText": {
+    "sv": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user's Attack and Speed stats."
+  }
 }

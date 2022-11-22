@@ -1,18 +1,24 @@
 {
-  "name": "Horn Attack",
   "slug": "hornattack",
-  "flavorText": "The target is jabbed with a sharply pointed horn to inflict damage.",
+  "name": "Horn Attack",
+  "gen": 1,
   "type": "normal",
   "category": "physical",
   "basePower": 65,
   "accuracy": 100,
   "pp": 25,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "donphan",
-    "tauros",
-    "heracross",
     "greattusk",
-    "irontreads"
-  ]
+    "heracross",
+    "irontreads",
+    "tauros"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The target is jabbed with a sharply pointed horn to inflict damage."
+  }
 }

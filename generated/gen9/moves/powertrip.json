@@ -1,23 +1,29 @@
 {
-  "name": "Power Trip",
   "slug": "powertrip",
-  "flavorText": "The user boasts its strength and attacks the target. The more the user’s stats are boosted, the greater the move’s power.",
+  "name": "Power Trip",
+  "gen": 7,
   "type": "dark",
   "category": "physical",
   "basePower": 20,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "rookidee",
-    "corvisquire",
-    "corviknight",
-    "zangoose",
+    "bombirdier",
     "cacnea",
     "cacturne",
-    "sandile",
+    "corviknight",
+    "corvisquire",
     "krokorok",
     "krookodile",
-    "bombirdier"
-  ]
+    "rookidee",
+    "sandile",
+    "zangoose"
+  ],
+  "desc": "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
+  "shortDesc": " + 20 power for each of the user's stat boosts.",
+  "flavorText": {
+    "sv": "The user boasts its strength and attacks the target. The more the user's stats are boosted, the greater the move's power."
+  }
 }

@@ -1,25 +1,36 @@
 {
-  "name": "Poison Powder",
   "slug": "poisonpowder",
-  "flavorText": "The user scatters a cloud of poisonous dust that poisons the target.",
+  "name": "Poison Powder",
+  "gen": 1,
   "type": "poison",
   "category": "status",
+  "accuracy": 75,
   "pp": 35,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "hoppip",
-    "skiploom",
-    "jumpluff",
-    "scatterbug",
-    "vivillon",
-    "shroomish",
+    "amoonguss",
     "breloom",
     "foongus",
+    "hoppip",
+    "jumpluff",
+    "scatterbug",
+    "shroomish",
+    "skiploom",
+    "slitherwing",
+    "spewpa",
     "toedscool",
     "toedscruel",
-    "venonat",
     "venomoth",
-    "slitherwing",
+    "venonat",
+    "vivillon",
+    "vivillon-fancy",
+    "vivillon-pokeball",
     "wochien"
-  ]
+  ],
+  "desc": "Poisons the target.",
+  "shortDesc": "Poisons the target.",
+  "flavorText": {
+    "sv": "The user scatters a cloud of poisonous dust that poisons the target."
+  }
 }

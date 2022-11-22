@@ -1,17 +1,26 @@
 {
-  "name": "Recycle",
   "slug": "recycle",
-  "flavorText": "The user recycles a held item that has been used in battle so it can be used again.",
+  "name": "Recycle",
+  "gen": 3,
   "type": "normal",
   "category": "status",
   "pp": 10,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "applin",
-    "flapple",
     "appletun",
+    "applin",
+    "bronzong",
     "bronzor",
+    "electrode",
+    "flapple",
+    "klefki",
     "voltorb",
-    "klefki"
-  ]
+    "voltorb-hisui"
+  ],
+  "desc": "The user regains the item it last used. Fails if the user is holding an item, if the user has not held an item, if the item was a popped Air Balloon, if the item was picked up by a Pokemon with the Pickup Ability, or if the item was lost to Bug Bite, Corrosive Gas, Covet, Incinerate, Knock Off, Pluck, or Thief. Items thrown with Fling can be regained.",
+  "shortDesc": "Restores the item the user last used.",
+  "flavorText": {
+    "sv": "The user recycles a held item that has been used in battle so it can be used again."
+  }
 }

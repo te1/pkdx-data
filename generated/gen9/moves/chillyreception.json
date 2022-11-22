@@ -1,12 +1,19 @@
 {
-  "name": "Chilly Reception",
   "slug": "chillyreception",
-  "flavorText": "The user tells a chillingly bad joke before switching places with a party Pokémon in waiting. This summons a snowstorm lasting five turns.",
+  "name": "Chilly Reception",
+  "gen": 9,
   "type": "ice",
   "category": "status",
   "pp": 10,
+  "target": "all",
   "priority": 0,
   "pokemon": [
-    "slowking"
-  ]
+    "slowking",
+    "slowking-galar"
+  ],
+  "desc": "Snow begins. If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
+  "shortDesc": "Snowscape begins. User switches out.",
+  "flavorText": {
+    "sv": "The user tells a chillingly bad joke before switching places with a party Pokémon in waiting. This summons a snowstorm lasting five turns."
+  }
 }

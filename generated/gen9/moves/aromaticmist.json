@@ -1,20 +1,28 @@
 {
-  "name": "Aromatic Mist",
   "slug": "aromaticmist",
-  "flavorText": "The user boosts the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+  "name": "Aromatic Mist",
+  "gen": 6,
   "type": "fairy",
   "category": "status",
   "pp": 20,
+  "target": "adjacentAlly",
   "priority": 0,
   "pokemon": [
-    "vespiquen",
     "bounsweet",
+    "hatenna",
+    "hatterene",
+    "hattrem",
+    "polteageist",
+    "polteageist-antique",
+    "sinistea",
+    "sinistea-antique",
     "steenee",
     "tsareena",
-    "sinistea",
-    "polteageist",
-    "hatenna",
-    "hattrem",
-    "hatterene"
-  ]
+    "vespiquen"
+  ],
+  "desc": "Raises the target's Special Defense by 1 stage. Fails if there is no ally adjacent to the user.",
+  "shortDesc": "Raises an ally's Sp. Def by 1.",
+  "flavorText": {
+    "sv": "The user boosts the Sp. Def stat of an ally Pokémon by using a mysterious aroma."
+  }
 }

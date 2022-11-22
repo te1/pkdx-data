@@ -1,15 +1,22 @@
 {
-  "name": "Solar Blade",
   "slug": "solarblade",
-  "flavorText": "The user gathers light on the first turn, then fills a blade with the light’s energy and attacks on the next turn.",
+  "name": "Solar Blade",
+  "gen": 7,
   "type": "grass",
   "category": "physical",
   "basePower": 125,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "ceruledge",
+    "lilligant-hisui",
     "lurantis"
-  ]
+  ],
+  "desc": "This attack charges on the first turn and executes on the second. Power is halved if the weather is Hail, Primordial Sea, Rain Dance, or Sandstorm and the user is not holding Utility Umbrella. If the user is holding a Power Herb or the weather is Desolate Land or Sunny Day, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Desolate Land or Sunny Day, the move still requires a turn to charge.",
+  "shortDesc": "Charges turn 1. Hits turn 2. No charge in sunlight.",
+  "flavorText": {
+    "sv": "The user gathers light on the first turn, then fills a blade with the light's energy and attacks on the next turn."
+  }
 }

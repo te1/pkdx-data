@@ -1,11 +1,20 @@
 {
-  "name": "Freezing Glare",
   "slug": "freezingglare",
-  "flavorText": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.",
+  "name": "Freezing Glare",
+  "gen": 8,
   "type": "psychic",
   "category": "special",
   "basePower": 90,
   "accuracy": 100,
   "pp": 10,
-  "priority": 0
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "articuno-galar"
+  ],
+  "desc": "Has a 10% chance to freeze the target.",
+  "shortDesc": "10% chance to freeze the target.",
+  "flavorText": {
+    "sv": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen."
+  }
 }

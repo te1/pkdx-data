@@ -1,18 +1,28 @@
 {
-  "name": "Bullet Punch",
   "slug": "bulletpunch",
-  "flavorText": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+  "name": "Bullet Punch",
+  "gen": 4,
   "type": "steel",
   "category": "physical",
   "basePower": 40,
   "accuracy": 100,
   "pp": 30,
+  "target": "normal",
   "priority": 1,
   "pokemon": [
+    "croagunk",
+    "hariyama",
+    "lucario",
     "makuhita",
+    "medicham",
     "meditite",
     "riolu",
-    "croagunk",
-    "scizor"
-  ]
+    "scizor",
+    "toxicroak"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "Usually goes first.",
+  "flavorText": {
+    "sv": "The user strikes the target with tough punches as fast as bullets. This move always goes first."
+  }
 }

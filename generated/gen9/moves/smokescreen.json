@@ -1,29 +1,37 @@
 {
-  "name": "Smokescreen",
   "slug": "smokescreen",
-  "flavorText": "The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.",
+  "name": "Smokescreen",
+  "gen": 1,
   "type": "normal",
   "category": "status",
+  "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "rolycoly",
     "carkol",
-    "coalossal",
-    "torkoal",
-    "stunky",
-    "skuntank",
-    "spiritomb",
-    "skrelp",
-    "dragalge",
     "charizard",
     "charmander",
     "charmeleon",
+    "coalossal",
     "cyndaquil",
+    "dragalge",
     "froakie",
     "frogadier",
     "greninja",
     "quilava",
-    "typhlosion"
-  ]
+    "rolycoly",
+    "skrelp",
+    "skuntank",
+    "spiritomb",
+    "stunky",
+    "torkoal",
+    "typhlosion",
+    "typhlosion-hisui"
+  ],
+  "desc": "Lowers the target's accuracy by 1 stage.",
+  "shortDesc": "Lowers the target's accuracy by 1.",
+  "flavorText": {
+    "sv": "The user releases an obscuring cloud of smoke or ink. This lowers the target's accuracy."
+  }
 }

@@ -1,20 +1,39 @@
 {
-  "name": "After You",
   "slug": "afteryou",
-  "flavorText": "The user helps the target and makes it use its move right after the user.",
+  "name": "After You",
+  "gen": 5,
   "type": "normal",
   "category": "status",
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "wooper",
-    "tandemaus",
-    "slakoth",
-    "mareep",
-    "petilil",
-    "lilligant",
-    "indeedee",
+    "ampharos",
+    "clodsire",
+    "flaaffy",
     "hatenna",
-    "oranguru"
-  ]
+    "hatterene",
+    "hattrem",
+    "indeedee",
+    "lilligant",
+    "lilligant-hisui",
+    "mareep",
+    "maushold",
+    "maushold-four",
+    "moltres-galar",
+    "oranguru",
+    "petilil",
+    "quagsire",
+    "slaking",
+    "slakoth",
+    "tandemaus",
+    "vigoroth",
+    "wooper",
+    "wooper-paldea"
+  ],
+  "desc": "The target makes its move immediately after the user this turn, no matter the priority of its selected move. Fails if the target would have moved next anyway, or if the target already moved this turn.",
+  "shortDesc": "The target makes its move right after the user.",
+  "flavorText": {
+    "sv": "The user helps the target and makes it use its move right after the user."
+  }
 }

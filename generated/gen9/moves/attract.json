@@ -1,16 +1,26 @@
 {
-  "name": "Attract",
   "slug": "attract",
-  "flavorText": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+  "name": "Attract",
+  "gen": 2,
   "type": "normal",
   "category": "status",
+  "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "oricorio",
-    "luvdisc",
     "finneon",
+    "frosmoth",
     "lumineon",
-    "frosmoth"
-  ]
+    "luvdisc",
+    "oricorio",
+    "oricorio-pau",
+    "oricorio-pom-pom",
+    "oricorio-sensu"
+  ],
+  "desc": "Causes the target to become infatuated, making it unable to attack 50% of the time. Fails if both the user and the target are the same gender, if either is genderless, or if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
+  "shortDesc": "A target of the opposite gender gets infatuated.",
+  "flavorText": {
+    "sv": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves."
+  }
 }

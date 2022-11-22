@@ -1,20 +1,32 @@
 {
-  "name": "Slack Off",
   "slug": "slackoff",
-  "flavorText": "The user slacks off, restoring its own HP by up to half its max HP.",
+  "name": "Slack Off",
+  "gen": 3,
   "type": "normal",
   "category": "status",
   "pp": 5,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "fuecoco",
-    "slakoth",
-    "slaking",
     "bellibolt",
+    "crocalor",
+    "fuecoco",
     "hippopotas",
     "hippowdon",
-    "slowpoke",
+    "skeledirge",
+    "slaking",
+    "slakoth",
     "slowbro",
-    "slowking"
-  ]
+    "slowbro-galar",
+    "slowking",
+    "slowking-galar",
+    "slowpoke",
+    "slowpoke-galar",
+    "vigoroth"
+  ],
+  "desc": "The user restores 1/2 of its maximum HP, rounded half up.",
+  "shortDesc": "Heals the user by 50% of its max HP.",
+  "flavorText": {
+    "sv": "The user slacks off, restoring its own HP by up to half its max HP."
+  }
 }

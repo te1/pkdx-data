@@ -1,14 +1,21 @@
 {
-  "name": "Overdrive",
   "slug": "overdrive",
-  "flavorText": "The user attacks opposing Pokémon by twanging a guitar or bass guitar, causing a huge echo and strong vibration.",
+  "name": "Overdrive",
+  "gen": 8,
   "type": "electric",
   "category": "special",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "toxtricity"
-  ]
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect. Hits foe(s).",
+  "flavorText": {
+    "sv": "The user attacks opposing Pokémon by twanging a guitar or bass guitar, causing a huge echo and strong vibration."
+  }
 }

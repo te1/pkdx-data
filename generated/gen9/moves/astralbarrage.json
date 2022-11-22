@@ -1,11 +1,20 @@
 {
-  "name": "Astral Barrage",
   "slug": "astralbarrage",
-  "flavorText": "The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.",
+  "name": "Astral Barrage",
+  "gen": 8,
   "type": "ghost",
   "category": "special",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
-  "priority": 0
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "calyrex-shadow"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect. Hits adjacent foes.",
+  "flavorText": {
+    "sv": "The user attacks by sending a frightful amount of small ghosts at opposing Pokémon."
+  }
 }

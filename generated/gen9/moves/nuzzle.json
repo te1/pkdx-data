@@ -1,24 +1,34 @@
 {
-  "name": "Nuzzle",
   "slug": "nuzzle",
-  "flavorText": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+  "name": "Nuzzle",
+  "gen": 6,
   "type": "electric",
   "category": "physical",
   "basePower": 20,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "dedenne",
+    "hatenna",
+    "hatterene",
+    "hattrem",
+    "pachirisu",
     "pawmi",
     "pawmo",
     "pawmot",
     "pichu",
     "pikachu",
     "raichu",
+    "raichu-alola",
     "toxel",
     "toxtricity",
-    "dedenne",
-    "pachirisu",
-    "hatenna"
-  ]
+    "toxtricity-low-key"
+  ],
+  "desc": "Has a 100% chance to paralyze the target.",
+  "shortDesc": "100% chance to paralyze the target.",
+  "flavorText": {
+    "sv": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis."
+  }
 }

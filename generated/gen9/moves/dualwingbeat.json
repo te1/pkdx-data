@@ -1,18 +1,24 @@
 {
-  "name": "Dual Wingbeat",
   "slug": "dualwingbeat",
-  "flavorText": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+  "name": "Dual Wingbeat",
+  "gen": 8,
   "type": "flying",
   "category": "physical",
   "basePower": 40,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "wattrel",
+    "bombirdier",
     "kilowattrel",
     "salamence",
-    "bombirdier",
-    "slitherwing"
-  ]
+    "slitherwing",
+    "wattrel"
+  ],
+  "desc": "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+  "shortDesc": "Hits 2 times in one turn.",
+  "flavorText": {
+    "sv": "The user slams the target with its wings to inflict damage. The target is hit twice in a row."
+  }
 }

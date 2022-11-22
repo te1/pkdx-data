@@ -1,12 +1,18 @@
 {
-  "name": "Spicy Extract",
   "slug": "spicyextract",
-  "flavorText": "The user emits an incredibly spicy extract, sharply boosting the target’s Attack stat and harshly lowering the target’s Defense stat.",
+  "name": "Spicy Extract",
+  "gen": 9,
   "type": "grass",
   "category": "status",
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "scovillain"
-  ]
+  ],
+  "desc": "Raises the target's Attack by 2 stages and lowers their Defense by 2 stages.",
+  "shortDesc": "Target: +2 Atk, -2 Def.",
+  "flavorText": {
+    "sv": "The user emits an incredibly spicy extract, sharply boosting the target's Attack stat and harshly lowering the target's Defense stat."
+  }
 }

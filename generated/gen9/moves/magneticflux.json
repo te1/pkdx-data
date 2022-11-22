@@ -1,17 +1,25 @@
 {
-  "name": "Magnetic Flux",
   "slug": "magneticflux",
-  "flavorText": "The user manipulates magnetic fields, which boosts the Defense and Sp. Def stats of ally Pokémon with the Plus Ability or the Minus Ability.",
+  "name": "Magnetic Flux",
+  "gen": 6,
   "type": "electric",
   "category": "status",
   "pp": 20,
+  "target": "allySide",
   "priority": 0,
   "pokemon": [
     "ampharos",
     "electrode",
+    "magearna",
+    "magearna-original",
     "magnezone",
     "sandyshocks",
-    "magearna",
+    "toxtricity-low-key",
     "zapdos"
-  ]
+  ],
+  "desc": "Raises the Defense and Special Defense of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
+  "shortDesc": "Raises Def, Sp. Def of allies with Plus/Minus by 1.",
+  "flavorText": {
+    "sv": "The user manipulates magnetic fields, which boosts the Defense and Sp. Def stats of ally Pokémon with the Plus Ability or the Minus Ability."
+  }
 }

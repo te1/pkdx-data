@@ -1,22 +1,33 @@
 {
-  "name": "Cross Chop",
   "slug": "crosschop",
-  "flavorText": "The user delivers a double chop with its forearms crossed. This move has a heightened chance of landing a critical hit.",
+  "name": "Cross Chop",
+  "gen": 2,
   "type": "fighting",
   "category": "physical",
   "basePower": 100,
   "accuracy": 80,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "psyduck",
+    "annihilape",
+    "croagunk",
+    "golduck",
+    "hariyama",
+    "hawlucha",
+    "lucario",
     "makuhita",
     "mankey",
     "primeape",
-    "annihilape",
+    "psyduck",
     "riolu",
-    "croagunk",
     "teddiursa",
-    "hawlucha"
-  ]
+    "toxicroak",
+    "ursaring"
+  ],
+  "desc": "Has a higher chance for a critical hit.",
+  "shortDesc": "High critical hit ratio.",
+  "flavorText": {
+    "sv": "The user delivers a double chop with its forearms crossed. This move has a heightened chance of landing a critical hit."
+  }
 }

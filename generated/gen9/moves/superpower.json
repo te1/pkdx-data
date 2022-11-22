@@ -1,26 +1,36 @@
 {
-  "name": "Superpower",
   "slug": "superpower",
-  "flavorText": "The user attacks the target with great power. This also lowers the user’s Attack and Defense stats.",
+  "name": "Superpower",
+  "gen": 3,
   "type": "fighting",
   "category": "physical",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "marill",
     "azumarill",
+    "beartic",
+    "braviary",
+    "braviary-hisui",
+    "cetitan",
+    "cetoddle",
+    "copperajah",
+    "crabominable",
     "crabrawler",
     "cufant",
-    "copperajah",
+    "enamorus",
+    "enamorus-therian",
+    "komala",
+    "marill",
     "mudbray",
     "mudsdale",
-    "komala",
-    "beartic",
-    "cetoddle",
-    "braviary",
-    "slitherwing",
-    "enamorus"
-  ]
+    "slitherwing"
+  ],
+  "desc": "Lowers the user's Attack and Defense by 1 stage.",
+  "shortDesc": "Lowers the user's Attack and Defense by 1.",
+  "flavorText": {
+    "sv": "The user attacks the target with great power. This also lowers the user's Attack and Defense stats."
+  }
 }

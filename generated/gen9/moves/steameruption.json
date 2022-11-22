@@ -1,14 +1,20 @@
 {
-  "name": "Steam Eruption",
   "slug": "steameruption",
-  "flavorText": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+  "name": "Steam Eruption",
+  "gen": 6,
   "type": "water",
   "category": "special",
   "basePower": 110,
   "accuracy": 95,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "volcanion"
-  ]
+  ],
+  "desc": "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
+  "shortDesc": "30% chance to burn the target. Thaws target.",
+  "flavorText": {
+    "sv": "The user immerses the target in superheated steam. This may also leave the target with a burn."
+  }
 }

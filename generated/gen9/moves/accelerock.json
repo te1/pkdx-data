@@ -1,14 +1,21 @@
 {
-  "name": "Accelerock",
   "slug": "accelerock",
-  "flavorText": "The user smashes into the target at high speed. This move always goes first.",
+  "name": "Accelerock",
+  "gen": 7,
   "type": "rock",
   "category": "physical",
   "basePower": 40,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 1,
   "pokemon": [
-    "lycanroc"
-  ]
+    "lycanroc",
+    "lycanroc-dusk"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "Usually goes first.",
+  "flavorText": {
+    "sv": "The user smashes into the target at high speed. This move always goes first."
+  }
 }

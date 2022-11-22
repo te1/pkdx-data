@@ -1,15 +1,23 @@
 {
-  "name": "Wonder Room",
   "slug": "wonderroom",
-  "flavorText": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+  "name": "Wonder Room",
+  "gen": 5,
   "type": "psychic",
   "category": "status",
   "pp": 10,
+  "target": "all",
   "priority": 0,
   "pokemon": [
-    "psyduck",
     "golduck",
+    "hoopa",
+    "hoopa-unbound",
     "misdreavus",
-    "hoopa"
-  ]
+    "mismagius",
+    "psyduck"
+  ],
+  "desc": "For 5 turns, all active Pokemon have their Defense and Special Defense stats swapped. Stat stage changes are unaffected. If this move is used during the effect, the effect ends.",
+  "shortDesc": "For 5 turns, all Defense and Sp. Def stats switch.",
+  "flavorText": {
+    "sv": "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns."
+  }
 }

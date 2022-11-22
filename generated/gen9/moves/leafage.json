@@ -1,25 +1,32 @@
 {
-  "name": "Leafage",
   "slug": "leafage",
-  "flavorText": "The user attacks by pelting the target with leaves.",
+  "name": "Leafage",
+  "gen": 7,
   "type": "grass",
   "category": "physical",
   "basePower": 40,
   "accuracy": 100,
   "pp": 40,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "sprigatito",
-    "floragato",
-    "meowscarada",
-    "fomantis",
-    "lurantis",
-    "capsakid",
-    "scovillain",
-    "snover",
     "abomasnow",
+    "capsakid",
     "dartrix",
     "decidueye",
-    "rowlet"
-  ]
+    "decidueye-hisui",
+    "floragato",
+    "fomantis",
+    "lurantis",
+    "meowscarada",
+    "rowlet",
+    "scovillain",
+    "snover",
+    "sprigatito"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The user attacks by pelting the target with leaves."
+  }
 }

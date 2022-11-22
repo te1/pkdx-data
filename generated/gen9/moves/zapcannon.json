@@ -1,26 +1,33 @@
 {
-  "name": "Zap Cannon",
   "slug": "zapcannon",
-  "flavorText": "The user attacks by firing an electric blast like a cannon. This also leaves the target with paralysis.",
+  "name": "Zap Cannon",
+  "gen": 2,
   "type": "electric",
   "category": "special",
   "basePower": 120,
   "accuracy": 50,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "ampharos",
-    "tadbulb",
     "bellibolt",
+    "eelektrik",
+    "eelektross",
+    "forretress",
+    "magearna",
+    "magearna-original",
     "magnemite",
     "magneton",
     "magnezone",
-    "forretress",
-    "eelektrik",
-    "eelektross",
-    "sandyshocks",
-    "magearna",
     "regieleki",
+    "sandyshocks",
+    "tadbulb",
     "zapdos"
-  ]
+  ],
+  "desc": "Has a 100% chance to paralyze the target.",
+  "shortDesc": "100% chance to paralyze the target.",
+  "flavorText": {
+    "sv": "The user attacks by firing an electric blast like a cannon. This also leaves the target with paralysis."
+  }
 }

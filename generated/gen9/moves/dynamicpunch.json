@@ -1,21 +1,31 @@
 {
-  "name": "Dynamic Punch",
   "slug": "dynamicpunch",
-  "flavorText": "The user attacks by punching the target with full concentrated power. This also confuses the target.",
+  "name": "Dynamic Punch",
+  "gen": 2,
   "type": "fighting",
   "category": "physical",
   "basePower": 100,
   "accuracy": 50,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "breloom",
-    "makuhita",
-    "crabrawler",
     "crabominable",
-    "meditite",
+    "crabrawler",
     "croagunk",
+    "hariyama",
     "kubfu",
-    "urshifu"
-  ]
+    "makuhita",
+    "medicham",
+    "meditite",
+    "toxicroak",
+    "urshifu",
+    "urshifu-rapid-strike"
+  ],
+  "desc": "Has a 100% chance to confuse the target.",
+  "shortDesc": "100% chance to confuse the target.",
+  "flavorText": {
+    "sv": "The user attacks by punching the target with full concentrated power. This also confuses the target."
+  }
 }

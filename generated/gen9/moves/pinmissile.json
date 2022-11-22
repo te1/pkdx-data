@@ -1,26 +1,34 @@
 {
-  "name": "Pin Missile",
   "slug": "pinmissile",
-  "flavorText": "The user attacks by shooting sharp spikes at the target. This move hits two to five times in a row.",
+  "name": "Pin Missile",
+  "gen": 1,
   "type": "bug",
   "category": "physical",
   "basePower": 25,
   "accuracy": 95,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "jolteon",
     "cacnea",
     "cacturne",
-    "pineco",
-    "heracross",
-    "qwilfish",
-    "mareanie",
-    "toxapex",
-    "ironthorns",
     "chesnaught",
     "chespin",
+    "forretress",
+    "heracross",
+    "ironthorns",
+    "jolteon",
+    "mareanie",
     "overqwil",
-    "quilladin"
-  ]
+    "pineco",
+    "quilladin",
+    "qwilfish",
+    "qwilfish-hisui",
+    "toxapex"
+  ],
+  "desc": "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+  "shortDesc": "Hits 2-5 times in one turn.",
+  "flavorText": {
+    "sv": "The user attacks by shooting sharp spikes at the target. This move hits two to five times in a row."
+  }
 }

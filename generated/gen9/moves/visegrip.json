@@ -1,18 +1,25 @@
 {
-  "name": "Vise Grip",
   "slug": "visegrip",
-  "flavorText": "The target is gripped and squeezed from both sides to inflict damage.",
+  "name": "Vise Grip",
+  "gen": 1,
   "type": "normal",
   "category": "physical",
   "basePower": 55,
   "accuracy": 100,
   "pp": 30,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "crabrawler",
-    "klawf",
     "clauncher",
     "clawitzer",
+    "crabominable",
+    "crabrawler",
+    "klawf",
     "regidrago"
-  ]
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The target is gripped and squeezed from both sides to inflict damage."
+  }
 }

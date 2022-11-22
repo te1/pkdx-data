@@ -1,20 +1,33 @@
 {
-  "name": "Iron Tail",
   "slug": "irontail",
-  "flavorText": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+  "name": "Iron Tail",
+  "gen": 2,
   "type": "steel",
   "category": "physical",
   "basePower": 100,
   "accuracy": 75,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "axew",
+    "charizard",
+    "charmander",
+    "charmeleon",
+    "cyclizar",
+    "dialga",
+    "dialga-origin",
+    "fraxure",
+    "goodra-hisui",
+    "haxorus",
+    "orthworm",
     "pikachu",
     "raichu",
-    "axew",
-    "cyclizar",
-    "orthworm",
-    "charmander",
-    "dialga"
-  ]
+    "raichu-alola"
+  ],
+  "desc": "Has a 30% chance to lower the target's Defense by 1 stage.",
+  "shortDesc": "30% chance to lower the target's Defense by 1.",
+  "flavorText": {
+    "sv": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat."
+  }
 }

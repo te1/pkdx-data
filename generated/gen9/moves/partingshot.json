@@ -1,16 +1,32 @@
 {
-  "name": "Parting Shot",
   "slug": "partingshot",
-  "flavorText": "With a parting threat, the user lowers the target’s Attack and Sp. Atk stats. Then it switches places with a party Pokémon in waiting.",
+  "name": "Parting Shot",
+  "gen": 6,
   "type": "dark",
   "category": "status",
+  "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "squawkabilly",
-    "shroodle",
-    "impidimp",
     "bombirdier",
+    "grafaiai",
+    "grimmsnarl",
+    "impidimp",
+    "meowth-alola",
+    "morgrem",
+    "persian-alola",
+    "revavroom",
+    "shroodle",
+    "squawkabilly",
+    "squawkabilly-blue",
+    "squawkabilly-white",
+    "squawkabilly-yellow",
     "varoom"
-  ]
+  ],
+  "desc": "Lowers the target's Attack and Special Attack by 1 stage. If this move is successful, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if the target's Attack and Special Attack stat stages were both unchanged, or if there are no unfainted party members.",
+  "shortDesc": "Lowers target's Atk, Sp. Atk by 1. User switches.",
+  "flavorText": {
+    "sv": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches places with a party Pokémon in waiting."
+  }
 }

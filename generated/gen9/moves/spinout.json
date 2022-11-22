@@ -1,15 +1,21 @@
 {
-  "name": "Spin Out",
   "slug": "spinout",
-  "flavorText": "The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user’s Speed stat.",
+  "name": "Spin Out",
+  "gen": 9,
   "type": "steel",
   "category": "physical",
   "basePower": 100,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "varoom",
-    "revavroom"
-  ]
+    "revavroom",
+    "varoom"
+  ],
+  "desc": "Lowers the user's Speed by 2 stages.",
+  "shortDesc": "Lowers the user's Speed by 2.",
+  "flavorText": {
+    "sv": "The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user's Speed stat."
+  }
 }

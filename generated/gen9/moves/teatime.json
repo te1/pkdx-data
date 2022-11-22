@@ -1,12 +1,19 @@
 {
-  "name": "Teatime",
   "slug": "teatime",
-  "flavorText": "The user has teatime with all the Pokémon currently in the battle. Each Pokémon eats its held Berry.",
+  "name": "Teatime",
+  "gen": 8,
   "type": "normal",
   "category": "status",
   "pp": 10,
+  "target": "all",
   "priority": 0,
   "pokemon": [
-    "polteageist"
-  ]
+    "polteageist",
+    "polteageist-antique"
+  ],
+  "desc": "All active Pokemon consume their held Berries. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.",
+  "shortDesc": "All active Pokemon consume held Berries.",
+  "flavorText": {
+    "sv": "The user has teatime with all the Pokémon currently in the battle. Each Pokémon eats its held Berry."
+  }
 }

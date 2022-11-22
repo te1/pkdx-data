@@ -1,17 +1,23 @@
 {
-  "name": "Steel Wing",
   "slug": "steelwing",
-  "flavorText": "The target is hit with wings of steel. This may also boost the user’s Defense stat.",
+  "name": "Steel Wing",
+  "gen": 2,
   "type": "steel",
   "category": "physical",
   "basePower": 70,
   "accuracy": 90,
   "pp": 25,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "fletchling",
+    "corviknight",
     "fletchinder",
-    "talonflame",
-    "corviknight"
-  ]
+    "fletchling",
+    "talonflame"
+  ],
+  "desc": "Has a 10% chance to raise the user's Defense by 1 stage.",
+  "shortDesc": "10% chance to raise the user's Defense by 1.",
+  "flavorText": {
+    "sv": "The target is hit with wings of steel. This may also boost the user's Defense stat."
+  }
 }

@@ -1,15 +1,22 @@
 {
-  "name": "Population Bomb",
   "slug": "populationbomb",
-  "flavorText": "The user’s fellows gather in droves to perform a combo attack that hits the target one to ten times in a row.",
+  "name": "Population Bomb",
+  "gen": 9,
   "type": "normal",
   "category": "physical",
   "basePower": 20,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "tandemaus",
-    "maushold"
-  ]
+    "maushold",
+    "maushold-four",
+    "tandemaus"
+  ],
+  "desc": "Hits ten times. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
+  "shortDesc": "Hits 10 times. Each hit can miss.",
+  "flavorText": {
+    "sv": "The user's fellows gather in droves to perform a combo attack that hits the target one to ten times in a row."
+  }
 }

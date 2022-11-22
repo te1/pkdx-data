@@ -1,15 +1,22 @@
 {
-  "name": "Shift Gear",
   "slug": "shiftgear",
-  "flavorText": "The user rotates its gears, boosting its Attack stat and sharply boosting its Speed stat.",
+  "name": "Shift Gear",
+  "gen": 5,
   "type": "steel",
   "category": "status",
   "pp": 10,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "toxtricity",
-    "revavroom",
     "cyclizar",
-    "magearna"
-  ]
+    "magearna",
+    "magearna-original",
+    "revavroom",
+    "toxtricity"
+  ],
+  "desc": "Raises the user's Speed by 2 stages and its Attack by 1 stage.",
+  "shortDesc": "Raises the user's Speed by 2 and Attack by 1.",
+  "flavorText": {
+    "sv": "The user rotates its gears, boosting its Attack stat and sharply boosting its Speed stat."
+  }
 }

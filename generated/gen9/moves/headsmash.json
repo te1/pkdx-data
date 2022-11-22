@@ -1,21 +1,34 @@
 {
-  "name": "Head Smash",
   "slug": "headsmash",
-  "flavorText": "The user attacks the target with a hazardous full-power headbutt. This also damages the user terribly.",
+  "name": "Head Smash",
+  "gen": 4,
   "type": "rock",
   "category": "physical",
   "basePower": 150,
   "accuracy": 80,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "drednaw",
-    "sudowoodo",
-    "phanpy",
+    "basculegion",
+    "basculegion-f",
     "basculin",
-    "eiscue",
+    "basculin-blue-striped",
+    "basculin-white-striped",
     "deino",
+    "donphan",
+    "drednaw",
+    "eiscue",
     "greattusk",
-    "basculegion"
-  ]
+    "growlithe-hisui",
+    "hydreigon",
+    "phanpy",
+    "sudowoodo",
+    "zweilous"
+  ],
+  "desc": "If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.",
+  "shortDesc": "Has 1/2 recoil.",
+  "flavorText": {
+    "sv": "The user attacks the target with a hazardous full-power headbutt. This also damages the user terribly."
+  }
 }

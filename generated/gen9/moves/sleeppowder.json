@@ -1,19 +1,29 @@
 {
-  "name": "Sleep Powder",
   "slug": "sleeppowder",
-  "flavorText": "The user scatters a cloud of soporific dust that puts the target to sleep.",
+  "name": "Sleep Powder",
+  "gen": 1,
   "type": "grass",
   "category": "status",
+  "accuracy": 75,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "hoppip",
-    "skiploom",
     "jumpluff",
-    "vivillon",
-    "petilil",
     "lilligant",
+    "lilligant-hisui",
+    "petilil",
+    "skiploom",
+    "venomoth",
     "venonat",
-    "venomoth"
-  ]
+    "vivillon",
+    "vivillon-fancy",
+    "vivillon-pokeball"
+  ],
+  "desc": "Causes the target to fall asleep.",
+  "shortDesc": "Causes the target to fall asleep.",
+  "flavorText": {
+    "sv": "The user scatters a cloud of soporific dust that puts the target to sleep."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Dragon Darts",
   "slug": "dragondarts",
-  "flavorText": "The user attacks twice using Dreepy. If there are two opposing Pokémon, this move hits each of them once.",
+  "name": "Dragon Darts",
+  "gen": 8,
   "type": "dragon",
   "category": "physical",
   "basePower": 50,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "dragapult"
-  ]
+  ],
+  "desc": "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. In Double Battles, this move attempts to hit the targeted Pokemon and its ally once each. If hitting one of these Pokemon would be prevented by immunity, protection, semi-invulnerability, an Ability, or accuracy, it attempts to hit the other Pokemon twice instead. If this move is redirected, it hits that target twice.",
+  "shortDesc": "Hits twice. Doubles: Tries to hit each foe once.",
+  "flavorText": {
+    "sv": "The user attacks twice using Dreepy. If there are two opposing Pokémon, this move hits each of them once."
+  }
 }

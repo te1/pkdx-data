@@ -1,18 +1,26 @@
 {
-  "name": "Guard Swap",
   "slug": "guardswap",
-  "flavorText": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+  "name": "Guard Swap",
+  "gen": 4,
   "type": "psychic",
   "category": "status",
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "drowzee",
-    "meditite",
-    "umbreon",
-    "girafarig",
     "farigiraf",
+    "girafarig",
+    "hypno",
+    "medicham",
+    "meditite",
+    "mewtwo",
     "rabsca",
-    "mewtwo"
-  ]
+    "umbreon"
+  ],
+  "desc": "The user swaps its Defense and Special Defense stat stage changes with the target.",
+  "shortDesc": "Swaps Defense and Sp. Def changes with target.",
+  "flavorText": {
+    "sv": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target."
+  }
 }

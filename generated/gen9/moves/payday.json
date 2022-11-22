@@ -1,16 +1,25 @@
 {
-  "name": "Pay Day",
   "slug": "payday",
-  "flavorText": "Coins are hurled at the target to inflict damage. Money is earned after the battle.",
+  "name": "Pay Day",
+  "gen": 1,
   "type": "normal",
   "category": "physical",
   "basePower": 40,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "meowth",
+    "meowth-alola",
+    "meowth-galar",
+    "perrserker",
     "persian",
-    "perrserker"
-  ]
+    "persian-alola"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "Scatters coins.",
+  "flavorText": {
+    "sv": "Coins are hurled at the target to inflict damage. Money is earned after the battle."
+  }
 }

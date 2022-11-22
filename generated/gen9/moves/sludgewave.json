@@ -1,19 +1,26 @@
 {
-  "name": "Sludge Wave",
   "slug": "sludgewave",
-  "flavorText": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits.",
+  "name": "Sludge Wave",
+  "gen": 5,
   "type": "poison",
   "category": "special",
   "basePower": 95,
   "accuracy": 100,
   "pp": 10,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
     "clodsire",
-    "grimer",
-    "muk",
     "glimmet",
     "glimmora",
-    "ironmoth"
-  ]
+    "grimer",
+    "ironmoth",
+    "muk",
+    "wooper-paldea"
+  ],
+  "desc": "Has a 10% chance to poison the target.",
+  "shortDesc": "10% chance to poison adjacent Pokemon.",
+  "flavorText": {
+    "sv": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits."
+  }
 }

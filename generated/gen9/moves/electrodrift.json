@@ -1,14 +1,20 @@
 {
-  "name": "Electro Drift",
   "slug": "electrodrift",
-  "flavorText": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move’s power is boosted more than usual if it’s a supereffective hit.",
+  "name": "Electro Drift",
+  "gen": 9,
   "type": "electric",
   "category": "special",
   "basePower": 100,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "miraidon"
-  ]
+  ],
+  "desc": "Deals 1.3x damage if the move is super effective.",
+  "shortDesc": "Deals 1.3x damage if the move is super effective.",
+  "flavorText": {
+    "sv": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move's power is boosted more than usual if it's a supereffective hit."
+  }
 }

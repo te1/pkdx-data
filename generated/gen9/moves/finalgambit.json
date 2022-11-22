@@ -1,28 +1,41 @@
 {
-  "name": "Final Gambit",
   "slug": "finalgambit",
-  "flavorText": "The user risks everything to attack the target. The user faints but inflicts damage equal to its own HP.",
+  "name": "Final Gambit",
+  "gen": 5,
   "type": "fighting",
   "category": "special",
-  "basePower": 1,
+  "basePower": 0,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "starly",
-    "staravia",
-    "staraptor",
-    "squawkabilly",
+    "annihilape",
     "basculin",
+    "basculin-blue-striped",
     "diglett",
+    "diglett-alola",
+    "dugtrio",
+    "dugtrio-alola",
+    "lucario",
     "mankey",
     "primeape",
-    "annihilape",
     "riolu",
-    "lucario",
-    "zangoose",
     "seviper",
+    "squawkabilly",
+    "squawkabilly-blue",
+    "squawkabilly-white",
+    "squawkabilly-yellow",
+    "staraptor",
+    "staravia",
+    "starly",
+    "veluza",
     "wiglett",
-    "veluza"
-  ]
+    "wugtrio"
+  ],
+  "desc": "Deals damage to the target equal to the user's current HP. If this move is successful, the user faints.",
+  "shortDesc": "Does damage equal to the user's HP. User faints.",
+  "flavorText": {
+    "sv": "The user risks everything to attack the target. The user faints but inflicts damage equal to its own HP."
+  }
 }

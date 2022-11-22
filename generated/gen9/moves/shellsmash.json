@@ -1,17 +1,26 @@
 {
-  "name": "Shell Smash",
   "slug": "shellsmash",
-  "flavorText": "The user breaks its shell, which lowers its Defense and Sp. Def stats but sharply boosts its Attack, Sp. Atk, and Speed stats.",
+  "name": "Shell Smash",
+  "gen": 5,
   "type": "normal",
   "category": "status",
   "pp": 15,
+  "target": "self",
   "priority": 0,
   "pokemon": [
     "chewtle",
-    "torkoal",
-    "sinistea",
+    "cloyster",
+    "drednaw",
     "polteageist",
+    "polteageist-antique",
     "shellder",
-    "cloyster"
-  ]
+    "sinistea",
+    "sinistea-antique",
+    "torkoal"
+  ],
+  "desc": "Lowers the user's Defense and Special Defense by 1 stage. Raises the user's Attack, Special Attack, and Speed by 2 stages.",
+  "shortDesc": "Lowers Def, SpD by 1; raises Atk, SpA, Spe by 2.",
+  "flavorText": {
+    "sv": "The user breaks its shell, which lowers its Defense and Sp. Def stats but sharply boosts its Attack, Sp. Atk, and Speed stats."
+  }
 }

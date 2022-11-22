@@ -1,14 +1,20 @@
 {
-  "name": "Glaive Rush",
   "slug": "glaiverush",
-  "flavorText": "The user throws its entire body into a reckless charge. Attacks from opposing Pokémon during the next turn cannot miss and will inflict double damage.",
+  "name": "Glaive Rush",
+  "gen": 9,
   "type": "dragon",
   "category": "physical",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "baxcalibur"
-  ]
+  ],
+  "desc": "If this move is successful, the user will take double damage from attacks on the next turn.",
+  "shortDesc": "Next turn: attacks can't miss user and deal 2x damage.",
+  "flavorText": {
+    "sv": "The user throws its entire body into a reckless charge. Attacks from opposing Pokémon during the next turn cannot miss and will inflict double damage."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Apple Acid",
   "slug": "appleacid",
-  "flavorText": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target’s Sp. Def stat.",
+  "name": "Apple Acid",
+  "gen": 8,
   "type": "grass",
   "category": "special",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "appletun"
-  ]
+  ],
+  "desc": "Has a 100% chance to lower the target's Special Defense by 1 stage.",
+  "shortDesc": "100% chance to lower the target's Sp. Def by 1.",
+  "flavorText": {
+    "sv": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target's Sp. Def stat."
+  }
 }

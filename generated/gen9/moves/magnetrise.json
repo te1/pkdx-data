@@ -1,21 +1,27 @@
 {
-  "name": "Magnet Rise",
   "slug": "magnetrise",
-  "flavorText": "The user levitates using electrically generated magnetism for five turns.",
+  "name": "Magnet Rise",
+  "gen": 4,
   "type": "electric",
   "category": "status",
   "pp": 10,
+  "target": "self",
   "priority": 0,
   "pokemon": [
     "dedenne",
-    "voltorb",
     "electrode",
+    "forretress",
+    "klefki",
     "magnemite",
     "magneton",
     "magnezone",
-    "klefki",
-    "forretress",
+    "regieleki",
     "revavroom",
-    "regieleki"
-  ]
+    "voltorb"
+  ],
+  "desc": "For 5 turns, the user is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the user uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the user is under any of their effects. Fails if the user is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows.",
+  "shortDesc": "For 5 turns, the user has immunity to Ground.",
+  "flavorText": {
+    "sv": "The user levitates using electrically generated magnetism for five turns."
+  }
 }

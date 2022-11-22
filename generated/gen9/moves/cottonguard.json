@@ -1,17 +1,25 @@
 {
-  "name": "Cotton Guard",
   "slug": "cottonguard",
-  "flavorText": "The user protects itself by wrapping its body in soft cotton, drastically boosting its Defense stat.",
+  "name": "Cotton Guard",
+  "gen": 5,
   "type": "grass",
   "category": "status",
   "pp": 10,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "hoppip",
-    "mareep",
-    "flaaffy",
+    "altaria",
     "ampharos",
-    "swablu",
-    "altaria"
-  ]
+    "flaaffy",
+    "hoppip",
+    "jumpluff",
+    "mareep",
+    "skiploom",
+    "swablu"
+  ],
+  "desc": "Raises the user's Defense by 3 stages.",
+  "shortDesc": "Raises the user's Defense by 3.",
+  "flavorText": {
+    "sv": "The user protects itself by wrapping its body in soft cotton, drastically boosting its Defense stat."
+  }
 }

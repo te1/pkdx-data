@@ -1,15 +1,22 @@
 {
-  "name": "Night Daze",
   "slug": "nightdaze",
-  "flavorText": "The user looses a pitch-black shock wave at the target to inflict damage. This may also lower the target’s accuracy.",
+  "name": "Night Daze",
+  "gen": 5,
   "type": "dark",
   "category": "special",
   "basePower": 85,
   "accuracy": 95,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "zorua",
-    "zoroark"
-  ]
+    "zoroark",
+    "zoroark-hisui",
+    "zorua"
+  ],
+  "desc": "Has a 40% chance to lower the target's accuracy by 1 stage.",
+  "shortDesc": "40% chance to lower the target's accuracy by 1.",
+  "flavorText": {
+    "sv": "The user looses a pitch-black shock wave at the target to inflict damage. This may also lower the target's accuracy."
+  }
 }

@@ -1,29 +1,38 @@
 {
-  "name": "Rock Throw",
   "slug": "rockthrow",
-  "flavorText": "The user picks up and throws a small rock at the target to inflict damage.",
+  "name": "Rock Throw",
+  "gen": 1,
   "type": "rock",
   "category": "physical",
   "basePower": 50,
   "accuracy": 90,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "bonsly",
-    "sudowoodo",
-    "rockruff",
-    "lycanroc",
-    "nacli",
-    "naclstack",
-    "garganacl",
-    "klawf",
+    "arcanine-hisui",
     "bombirdier",
+    "bonsly",
+    "garganacl",
     "glimmet",
     "glimmora",
+    "ironthorns",
+    "klawf",
     "larvitar",
+    "lycanroc",
+    "lycanroc-dusk",
+    "lycanroc-midnight",
+    "nacli",
+    "naclstack",
     "pupitar",
-    "tyranitar",
+    "rockruff",
     "stonjourner",
-    "ironthorns"
-  ]
+    "sudowoodo",
+    "tyranitar"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The user picks up and throws a small rock at the target to inflict damage."
+  }
 }

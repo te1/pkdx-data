@@ -1,21 +1,27 @@
 {
-  "name": "Force Palm",
   "slug": "forcepalm",
-  "flavorText": "The target is attacked with a shock wave. This may also leave the target with paralysis.",
+  "name": "Force Palm",
+  "gen": 4,
   "type": "fighting",
   "category": "physical",
   "basePower": 60,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "breloom",
-    "makuhita",
     "hariyama",
-    "meditite",
-    "medicham",
-    "riolu",
+    "ironhands",
     "lucario",
-    "ironhands"
-  ]
+    "makuhita",
+    "medicham",
+    "meditite",
+    "riolu"
+  ],
+  "desc": "Has a 30% chance to paralyze the target.",
+  "shortDesc": "30% chance to paralyze the target.",
+  "flavorText": {
+    "sv": "The target is attacked with a shock wave. This may also leave the target with paralysis."
+  }
 }

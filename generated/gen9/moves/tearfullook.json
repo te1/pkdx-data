@@ -1,21 +1,31 @@
 {
-  "name": "Tearful Look",
   "slug": "tearfullook",
-  "flavorText": "The user gets teary-eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.",
+  "name": "Tearful Look",
+  "gen": 7,
   "type": "normal",
   "category": "status",
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "bonsly",
-    "sudowoodo",
-    "goodra",
-    "toxel",
-    "toxtricity",
     "dedenne",
     "drizzile",
     "flabebe",
+    "floette",
+    "florges",
+    "goodra",
+    "goodra-hisui",
     "inteleon",
-    "sobble"
-  ]
+    "sobble",
+    "sudowoodo",
+    "toxel",
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
+  "desc": "Lowers the target's Attack and Special Attack by 1 stage.",
+  "shortDesc": "Lowers the target's Attack and Sp. Atk by 1.",
+  "flavorText": {
+    "sv": "The user gets teary-eyed to make the target lose its combative spirit. This lowers the target's Attack and Sp. Atk stats."
+  }
 }

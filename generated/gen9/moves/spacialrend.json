@@ -1,14 +1,21 @@
 {
-  "name": "Spacial Rend",
   "slug": "spacialrend",
-  "flavorText": "The user tears the target along with the space around it. This move has a heightened chance of landing a critical hit.",
+  "name": "Spacial Rend",
+  "gen": 4,
   "type": "dragon",
   "category": "special",
   "basePower": 100,
   "accuracy": 95,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "palkia"
-  ]
+    "palkia",
+    "palkia-origin"
+  ],
+  "desc": "Has a higher chance for a critical hit.",
+  "shortDesc": "High critical hit ratio.",
+  "flavorText": {
+    "sv": "The user tears the target along with the space around it. This move has a heightened chance of landing a critical hit."
+  }
 }

@@ -1,11 +1,20 @@
 {
-  "name": "Chloroblast",
   "slug": "chloroblast",
-  "flavorText": "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user.",
+  "name": "Chloroblast",
+  "gen": 9,
   "type": "grass",
   "category": "special",
   "basePower": 150,
   "accuracy": 95,
   "pp": 5,
-  "priority": 0
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "electrode-hisui"
+  ],
+  "desc": "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
+  "shortDesc": "User loses 50% max HP.",
+  "flavorText": {
+    "sv": "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Dragon Energy",
   "slug": "dragonenergy",
-  "flavorText": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user’s HP, the lower the move’s power.",
+  "name": "Dragon Energy",
+  "gen": 8,
   "type": "dragon",
   "category": "special",
   "basePower": 150,
   "accuracy": 100,
   "pp": 5,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
     "regidrago"
-  ]
+  ],
+  "desc": "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+  "shortDesc": "Less power as user's HP decreases. Hits foe(s).",
+  "flavorText": {
+    "sv": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user's HP, the lower the move's power."
+  }
 }

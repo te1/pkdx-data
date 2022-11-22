@@ -1,15 +1,24 @@
 {
-  "name": "Power Split",
   "slug": "powersplit",
-  "flavorText": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+  "name": "Power Split",
+  "gen": 5,
   "type": "psychic",
   "category": "status",
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "surskit",
     "drowzee",
+    "hoopa",
+    "hoopa-unbound",
+    "hypno",
     "indeedee",
-    "hoopa"
-  ]
+    "masquerain",
+    "surskit"
+  ],
+  "desc": "The user and the target have their Attack and Special Attack stats set to be equal to the average of the user and the target's Attack and Special Attack stats, respectively, rounded down. Stat stage changes are unaffected.",
+  "shortDesc": "Averages Attack and Sp. Atk stats with target.",
+  "flavorText": {
+    "sv": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target."
+  }
 }

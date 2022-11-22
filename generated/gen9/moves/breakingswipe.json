@@ -1,20 +1,26 @@
 {
-  "name": "Breaking Swipe",
   "slug": "breakingswipe",
-  "flavorText": "The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats.",
+  "name": "Breaking Swipe",
+  "gen": 8,
   "type": "dragon",
   "category": "physical",
   "basePower": 60,
   "accuracy": 100,
   "pp": 15,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
     "axew",
+    "baxcalibur",
+    "cyclizar",
     "fraxure",
     "haxorus",
-    "cyclizar",
-    "baxcalibur",
-    "roaringmoon",
-    "koraidon"
-  ]
+    "koraidon",
+    "roaringmoon"
+  ],
+  "desc": "Has a 100% chance to lower the target's Attack by 1 stage.",
+  "shortDesc": "100% chance to lower the foe(s) Attack by 1.",
+  "flavorText": {
+    "sv": "The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats."
+  }
 }

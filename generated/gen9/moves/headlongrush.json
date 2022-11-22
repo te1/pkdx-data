@@ -1,16 +1,22 @@
 {
-  "name": "Headlong Rush",
   "slug": "headlongrush",
-  "flavorText": "The user smashes into the target in a full-body tackle. This also lowers the user’s Defense and Sp. Def stats.",
+  "name": "Headlong Rush",
+  "gen": 9,
   "type": "ground",
   "category": "physical",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "hariyama",
     "greattusk",
+    "hariyama",
     "ursaluna"
-  ]
+  ],
+  "desc": "Lowers the user's Defense and Special Defense by 1 stage.",
+  "shortDesc": "Lowers the user's Defense and Sp. Def by 1.",
+  "flavorText": {
+    "sv": "The user smashes into the target in a full-body tackle. This also lowers the user's Defense and Sp. Def stats."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Dragon Ascent",
   "slug": "dragonascent",
-  "flavorText": "The user attacks the target by dropping out of the sky at high speed. This also lowers the user’s Defense and Sp. Def stats.",
+  "name": "Dragon Ascent",
+  "gen": 6,
   "type": "flying",
   "category": "physical",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
+  "target": "any",
   "priority": 0,
   "pokemon": [
     "rayquaza"
-  ]
+  ],
+  "desc": "Lowers the user's Defense and Special Defense by 1 stage.",
+  "shortDesc": "Lowers the user's Defense and Sp. Def by 1.",
+  "flavorText": {
+    "sv": "The user attacks the target by dropping out of the sky at high speed. This also lowers the user's Defense and Sp. Def stats."
+  }
 }

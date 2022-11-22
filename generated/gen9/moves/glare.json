@@ -1,16 +1,24 @@
 {
-  "name": "Glare",
   "slug": "glare",
-  "flavorText": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+  "name": "Glare",
+  "gen": 1,
   "type": "normal",
   "category": "status",
+  "accuracy": 100,
   "pp": 30,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "dunsparce",
     "dudunsparce",
+    "dudunsparce-three-segment",
+    "dunsparce",
+    "sandaconda",
     "seviper",
-    "silicobra",
-    "sandaconda"
-  ]
+    "silicobra"
+  ],
+  "desc": "Paralyzes the target.",
+  "shortDesc": "Paralyzes the target.",
+  "flavorText": {
+    "sv": "The user intimidates the target with the pattern on its belly to cause paralysis."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Psystrike",
   "slug": "psystrike",
-  "flavorText": "The user materializes an odd psychic wave to attack the target. This move deals physical damage.",
+  "name": "Psystrike",
+  "gen": 5,
   "type": "psychic",
   "category": "special",
   "basePower": 100,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "mewtwo"
-  ]
+  ],
+  "desc": "Deals damage to the target based on its Defense instead of Special Defense.",
+  "shortDesc": "Damages target based on Defense, not Sp. Def.",
+  "flavorText": {
+    "sv": "The user materializes an odd psychic wave to attack the target. This move deals physical damage."
+  }
 }

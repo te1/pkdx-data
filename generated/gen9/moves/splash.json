@@ -1,27 +1,35 @@
 {
-  "name": "Splash",
   "slug": "splash",
-  "flavorText": "The user just flops and splashes around to no effect at all...",
+  "name": "Splash",
+  "gen": 1,
   "type": "normal",
   "category": "status",
   "pp": 40,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "hoppip",
-    "skiploom",
-    "jumpluff",
+    "azumarill",
     "azurill",
     "bounsweet",
-    "steenee",
-    "tsareena",
-    "spoink",
-    "grumpig",
-    "magikarp",
-    "gyarados",
-    "mimikyu",
     "clauncher",
     "clawitzer",
     "delibird",
-    "tatsugiri"
-  ]
+    "grumpig",
+    "gyarados",
+    "hoppip",
+    "jumpluff",
+    "magikarp",
+    "marill",
+    "mimikyu",
+    "skiploom",
+    "spoink",
+    "steenee",
+    "tatsugiri",
+    "tsareena"
+  ],
+  "desc": "No competitive use.",
+  "shortDesc": "No competitive use.",
+  "flavorText": {
+    "sv": "The user just flops and splashes around to no effect at all..."
+  }
 }

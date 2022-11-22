@@ -1,18 +1,24 @@
 {
-  "name": "Magic Room",
   "slug": "magicroom",
-  "flavorText": "The user creates a bizarre area in which Pokémon’s held items lose their effects for five turns.",
+  "name": "Magic Room",
+  "gen": 5,
   "type": "psychic",
   "category": "status",
   "pp": 10,
+  "target": "all",
   "priority": 0,
   "pokemon": [
-    "gothita",
-    "gothorita",
-    "gothitelle",
-    "klefki",
     "braixen",
     "delphox",
-    "fennekin"
-  ]
+    "fennekin",
+    "gothita",
+    "gothitelle",
+    "gothorita",
+    "klefki"
+  ],
+  "desc": "For 5 turns, the held items of all active Pokemon have no effect. An item's effect of causing forme changes is unaffected, but any other effects from such items are negated. During the effect, Fling and Natural Gift are prevented from being used by all active Pokemon. If this move is used during the effect, the effect ends.",
+  "shortDesc": "For 5 turns, all held items have no effect.",
+  "flavorText": {
+    "sv": "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns."
+  }
 }

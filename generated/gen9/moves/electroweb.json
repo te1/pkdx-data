@@ -1,16 +1,26 @@
 {
-  "name": "Electroweb",
   "slug": "electroweb",
-  "flavorText": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+  "name": "Electroweb",
+  "gen": 5,
   "type": "electric",
   "category": "special",
   "basePower": 55,
   "accuracy": 95,
   "pp": 15,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "mareep",
+    "ampharos",
+    "flaaffy",
     "magnemite",
+    "magneton",
+    "magnezone",
+    "mareep",
     "regieleki"
-  ]
+  ],
+  "desc": "Has a 100% chance to lower the target's Speed by 1 stage.",
+  "shortDesc": "100% chance to lower the foe(s) Speed by 1.",
+  "flavorText": {
+    "sv": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats."
+  }
 }

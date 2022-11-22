@@ -1,12 +1,20 @@
 {
-  "name": "Heal Bell",
   "slug": "healbell",
-  "flavorText": "The user makes a soothing bell chime to cure the status conditions of all its fellow party Pokémon and allies.",
+  "name": "Heal Bell",
+  "gen": 2,
   "type": "normal",
   "category": "status",
   "pp": 5,
+  "target": "allyTeam",
   "priority": 0,
   "pokemon": [
+    "blissey",
+    "chansey",
     "happiny"
-  ]
+  ],
+  "desc": "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Soundproof Ability are not cured, unless they are the user.",
+  "shortDesc": "Cures the user's party of all status conditions.",
+  "flavorText": {
+    "sv": "The user makes a soothing bell chime to cure the status conditions of all its fellow party Pokémon and allies."
+  }
 }

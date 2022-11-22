@@ -1,19 +1,26 @@
 {
-  "name": "Coil",
   "slug": "coil",
-  "flavorText": "The user coils up and concentrates. This boosts its Attack and Defense stats as well as its accuracy.",
+  "name": "Coil",
+  "gen": 5,
   "type": "poison",
   "category": "status",
   "pp": 20,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "dunsparce",
     "dudunsparce",
-    "seviper",
-    "silicobra",
-    "sandaconda",
-    "orthworm",
+    "dudunsparce-three-segment",
+    "dunsparce",
     "eelektrik",
-    "eelektross"
-  ]
+    "eelektross",
+    "orthworm",
+    "sandaconda",
+    "seviper",
+    "silicobra"
+  ],
+  "desc": "Raises the user's Attack, Defense, and accuracy by 1 stage.",
+  "shortDesc": "Raises user's Attack, Defense, accuracy by 1.",
+  "flavorText": {
+    "sv": "The user coils up and concentrates. This boosts its Attack and Defense stats as well as its accuracy."
+  }
 }

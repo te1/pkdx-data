@@ -1,19 +1,30 @@
 {
-  "name": "Acupressure",
   "slug": "acupressure",
-  "flavorText": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+  "name": "Acupressure",
+  "gen": 4,
   "type": "normal",
   "category": "status",
   "pp": 30,
+  "target": "adjacentAllyOrSelf",
   "priority": 0,
   "pokemon": [
-    "bounsweet",
     "arrokuda",
-    "meditite",
+    "barraskewda",
+    "bounsweet",
     "medicham",
-    "toedscool",
+    "meditite",
+    "overqwil",
     "pincurchin",
     "qwilfish",
-    "overqwil"
-  ]
+    "qwilfish-hisui",
+    "steenee",
+    "toedscool",
+    "toedscruel",
+    "tsareena"
+  ],
+  "desc": "Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.",
+  "shortDesc": "Raises a random stat of the user or an ally by 2.",
+  "flavorText": {
+    "sv": "The user applies pressure to stress points, sharply boosting one of its or its allies' stats."
+  }
 }

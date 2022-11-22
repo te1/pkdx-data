@@ -1,17 +1,23 @@
 {
-  "name": "Ruination",
   "slug": "ruination",
-  "flavorText": "The user summons a ruinous disaster. This cuts the target’s HP in half.",
+  "name": "Ruination",
+  "gen": 9,
   "type": "dark",
   "category": "special",
-  "basePower": 1,
+  "basePower": 0,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "wochien",
     "chienpao",
+    "chiyu",
     "tinglu",
-    "chiyu"
-  ]
+    "wochien"
+  ],
+  "desc": "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
+  "shortDesc": "Does damage equal to 1/2 target's current HP.",
+  "flavorText": {
+    "sv": "The user summons a ruinous disaster. This cuts the target's HP in half."
+  }
 }

@@ -1,15 +1,24 @@
 {
-  "name": "Stuff Cheeks",
   "slug": "stuffcheeks",
-  "flavorText": "The user eats its held Berry, then sharply boosts its Defense stat.",
+  "name": "Stuff Cheeks",
+  "gen": 8,
   "type": "normal",
   "category": "status",
   "pp": 10,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "lechonk",
-    "skwovet",
     "greedent",
-    "gulpin"
-  ]
+    "gulpin",
+    "lechonk",
+    "oinkologne",
+    "oinkologne-f",
+    "skwovet",
+    "swalot"
+  ],
+  "desc": "This move cannot be selected unless the user is holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if the user is not holding a Berry.",
+  "shortDesc": "Must hold Berry to use. User eats Berry, Def +2.",
+  "flavorText": {
+    "sv": "The user eats its held Berry, then sharply boosts its Defense stat."
+  }
 }

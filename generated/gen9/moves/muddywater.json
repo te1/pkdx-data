@@ -1,28 +1,37 @@
 {
-  "name": "Muddy Water",
   "slug": "muddywater",
-  "flavorText": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",
+  "name": "Muddy Water",
+  "gen": 3,
   "type": "water",
   "category": "special",
   "basePower": 90,
   "accuracy": 85,
   "pp": 10,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "wooper",
     "barboach",
-    "whiscash",
-    "tadbulb",
-    "goomy",
-    "sliggoo",
-    "goodra",
-    "vaporeon",
-    "shellos",
-    "gastrodon",
+    "bellibolt",
     "clauncher",
     "clawitzer",
-    "tatsugiri",
+    "gastrodon",
+    "goodra",
+    "goodra-hisui",
+    "goomy",
     "kyogre",
-    "quagsire"
-  ]
+    "quagsire",
+    "shellos",
+    "sliggoo",
+    "sliggoo-hisui",
+    "tadbulb",
+    "tatsugiri",
+    "vaporeon",
+    "whiscash",
+    "wooper"
+  ],
+  "desc": "Has a 30% chance to lower the target's accuracy by 1 stage.",
+  "shortDesc": "30% chance to lower the foe(s) accuracy by 1.",
+  "flavorText": {
+    "sv": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy."
+  }
 }

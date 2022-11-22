@@ -1,14 +1,20 @@
 {
-  "name": "Double Shock",
   "slug": "doubleshock",
-  "flavorText": "The user discharges all the electricity from its body to perform a high-damage attack. After using this move, the user will no longer be Electric type.",
+  "name": "Double Shock",
+  "gen": 9,
   "type": "electric",
   "category": "physical",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "pawmot"
-  ]
+  ],
+  "desc": "Fails unless the user is an Electric type. If this move is successful, the user's Electric type becomes typeless as long as it remains active.",
+  "shortDesc": "User's Electric type becomes typeless; must be Electric.",
+  "flavorText": {
+    "sv": "The user discharges all the electricity from its body to perform a high-damage attack. After using this move, the user will no longer be Electric type."
+  }
 }

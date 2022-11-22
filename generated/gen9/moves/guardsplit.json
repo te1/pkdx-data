@@ -1,14 +1,22 @@
 {
-  "name": "Guard Split",
   "slug": "guardsplit",
-  "flavorText": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+  "name": "Guard Split",
+  "gen": 5,
   "type": "psychic",
   "category": "status",
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "carbink",
     "diancie",
-    "hoopa"
-  ]
+    "hoopa",
+    "hoopa-unbound",
+    "indeedee-f"
+  ],
+  "desc": "The user and the target have their Defense and Special Defense stats set to be equal to the average of the user and the target's Defense and Special Defense stats, respectively, rounded down. Stat stage changes are unaffected.",
+  "shortDesc": "Averages Defense and Sp. Def stats with target.",
+  "flavorText": {
+    "sv": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target."
+  }
 }

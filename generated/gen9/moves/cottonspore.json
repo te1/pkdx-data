@@ -1,19 +1,26 @@
 {
-  "name": "Cotton Spore",
   "slug": "cottonspore",
-  "flavorText": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats.",
+  "name": "Cotton Spore",
+  "gen": 2,
   "type": "grass",
   "category": "status",
+  "accuracy": 100,
   "pp": 40,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "hoppip",
-    "skiploom",
-    "jumpluff",
-    "mareep",
-    "flaaffy",
     "ampharos",
     "cacnea",
-    "cacturne"
-  ]
+    "cacturne",
+    "flaaffy",
+    "hoppip",
+    "jumpluff",
+    "mareep",
+    "skiploom"
+  ],
+  "desc": "Lowers the target's Speed by 2 stages.",
+  "shortDesc": "Lowers the target's Speed by 2.",
+  "flavorText": {
+    "sv": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats."
+  }
 }

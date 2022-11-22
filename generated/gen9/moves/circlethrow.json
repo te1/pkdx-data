@@ -1,16 +1,23 @@
 {
-  "name": "Circle Throw",
   "slug": "circlethrow",
-  "flavorText": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+  "name": "Circle Throw",
+  "gen": 5,
   "type": "fighting",
   "category": "physical",
   "basePower": 60,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": -6,
   "pokemon": [
-    "tarountula",
+    "lucario",
+    "riolu",
     "spidops",
-    "riolu"
-  ]
+    "tarountula"
+  ],
+  "desc": "If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target is under the effect of Ingrain, has the Suction Cups Ability, or this move hit a substitute.",
+  "shortDesc": "Forces the target to switch to a random ally.",
+  "flavorText": {
+    "sv": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+  }
 }

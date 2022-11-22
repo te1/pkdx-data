@@ -1,21 +1,30 @@
 {
-  "name": "Petal Blizzard",
   "slug": "petalblizzard",
-  "flavorText": "The user stirs up a violent petal blizzard and damages everything around it.",
+  "name": "Petal Blizzard",
+  "gen": 6,
   "type": "grass",
   "category": "physical",
   "basePower": 90,
   "accuracy": 100,
   "pp": 15,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
-    "sprigatito",
-    "sunflora",
     "arboliva",
-    "lilligant",
+    "flabebe",
     "floette",
+    "floragato",
     "florges",
+    "lilligant",
+    "lilligant-hisui",
     "lurantis",
-    "flabebe"
-  ]
+    "meowscarada",
+    "sprigatito",
+    "sunflora"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect. Hits adjacent Pokemon.",
+  "flavorText": {
+    "sv": "The user stirs up a violent petal blizzard and damages everything around it."
+  }
 }

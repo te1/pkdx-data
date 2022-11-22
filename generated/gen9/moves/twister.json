@@ -1,25 +1,38 @@
 {
-  "name": "Twister",
   "slug": "twister",
-  "flavorText": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch.",
+  "name": "Twister",
+  "gen": 2,
   "type": "dragon",
   "category": "special",
   "basePower": 40,
   "accuracy": 100,
   "pp": 20,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "flapple",
-    "gible",
-    "wingull",
-    "gyarados",
     "bagon",
-    "skrelp",
-    "dratini",
+    "dragalge",
     "dragonair",
     "dragonite",
+    "dratini",
     "enamorus",
+    "enamorus-therian",
+    "flapple",
+    "gabite",
+    "garchomp",
+    "gible",
+    "gyarados",
+    "pelipper",
     "rayquaza",
-    "regidrago"
-  ]
+    "regidrago",
+    "salamence",
+    "shelgon",
+    "skrelp",
+    "wingull"
+  ],
+  "desc": "Has a 20% chance to make the target flinch. Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.",
+  "shortDesc": "20% chance to make the foe(s) flinch.",
+  "flavorText": {
+    "sv": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch."
+  }
 }

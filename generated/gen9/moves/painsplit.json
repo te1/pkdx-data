@@ -1,24 +1,34 @@
 {
-  "name": "Pain Split",
   "slug": "painsplit",
-  "flavorText": "The user adds its HP to the target’s HP, then equally splits the combined HP between the target and itself.",
+  "name": "Pain Split",
+  "gen": 2,
   "type": "normal",
   "category": "status",
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "misdreavus",
-    "gulpin",
-    "mimikyu",
-    "bramblin",
-    "brambleghast",
-    "spiritomb",
     "alomomola",
-    "fluttermane",
+    "brambleghast",
+    "bramblin",
     "chesnaught",
     "chespin",
+    "fluttermane",
     "giratina",
+    "giratina-origin",
+    "gulpin",
     "magearna",
-    "quilladin"
-  ]
+    "magearna-original",
+    "mimikyu",
+    "misdreavus",
+    "mismagius",
+    "quilladin",
+    "spiritomb",
+    "swalot"
+  ],
+  "desc": "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",
+  "shortDesc": "Shares HP of user and target equally.",
+  "flavorText": {
+    "sv": "The user adds its HP to the target's HP, then equally splits the combined HP between the target and itself."
+  }
 }

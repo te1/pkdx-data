@@ -1,19 +1,28 @@
 {
-  "name": "First Impression",
   "slug": "firstimpression",
-  "flavorText": "Although this move has great power, it works only on the first turn each time the user enters battle.",
+  "name": "First Impression",
+  "gen": 7,
   "type": "bug",
   "category": "physical",
   "basePower": 90,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 2,
   "pokemon": [
-    "tarountula",
-    "nymble",
-    "lokix",
     "axew",
     "falinks",
-    "slitherwing"
-  ]
+    "fraxure",
+    "haxorus",
+    "lokix",
+    "nymble",
+    "slitherwing",
+    "spidops",
+    "tarountula"
+  ],
+  "desc": "Fails unless it is the user's first turn on the field.",
+  "shortDesc": "Hits first. First turn out only.",
+  "flavorText": {
+    "sv": "Although this move has great power, it works only on the first turn each time the user enters battle."
+  }
 }

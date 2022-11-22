@@ -1,21 +1,29 @@
 {
-  "name": "Drill Peck",
   "slug": "drillpeck",
-  "flavorText": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill.",
+  "name": "Drill Peck",
+  "gen": 1,
   "type": "flying",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 20,
+  "target": "any",
   "priority": 0,
   "pokemon": [
-    "rookidee",
-    "corvisquire",
     "corviknight",
-    "murkrow",
-    "espathra",
+    "corvisquire",
     "delibird",
+    "espathra",
+    "honchkrow",
     "ironbundle",
-    "zapdos"
-  ]
+    "murkrow",
+    "rookidee",
+    "zapdos",
+    "zapdos-galar"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill."
+  }
 }

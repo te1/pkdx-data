@@ -1,14 +1,20 @@
 {
-  "name": "Triple Dive",
   "slug": "tripledive",
-  "flavorText": "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row.",
+  "name": "Triple Dive",
+  "gen": 9,
   "type": "water",
   "category": "physical",
   "basePower": 30,
   "accuracy": 95,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "wugtrio"
-  ]
+  ],
+  "desc": "Hits three times.",
+  "shortDesc": "Hits 3 times.",
+  "flavorText": {
+    "sv": "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row."
+  }
 }

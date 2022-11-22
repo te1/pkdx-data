@@ -1,12 +1,18 @@
 {
-  "name": "Fairy Lock",
   "slug": "fairylock",
-  "flavorText": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+  "name": "Fairy Lock",
+  "gen": 6,
   "type": "fairy",
   "category": "status",
   "pp": 10,
+  "target": "all",
   "priority": 0,
   "pokemon": [
     "klefki"
-  ]
+  ],
+  "desc": "Prevents all active Pokemon from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the effect is already active.",
+  "shortDesc": "Prevents all Pokemon from switching next turn.",
+  "flavorText": {
+    "sv": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Scale Shot",
   "slug": "scaleshot",
-  "flavorText": "The user attacks by shooting scales two to five times in a row. This move boosts the user’s Speed stat but lowers its Defense stat.",
+  "name": "Scale Shot",
+  "gen": 8,
   "type": "dragon",
   "category": "physical",
   "basePower": 25,
   "accuracy": 90,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "roaringmoon"
-  ]
+  ],
+  "desc": "Hits two to five times. Lowers the user's Defense by 1 stage and raises the user's Speed by 1 stage after the last hit. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+  "shortDesc": "Hits 2-5 times. User: -1 Def, +1 Spe after last hit.",
+  "flavorText": {
+    "sv": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat."
+  }
 }

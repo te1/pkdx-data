@@ -1,19 +1,27 @@
 {
-  "name": "Aqua Cutter",
   "slug": "aquacutter",
-  "flavorText": "The user expels pressurized water to cut at the target like a blade. This move has a heightened chance of landing a critical hit.",
+  "name": "Aqua Cutter",
+  "gen": 9,
   "type": "water",
   "category": "physical",
   "basePower": 70,
   "accuracy": 100,
-  "pp": 20,
+  "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "dewott",
+    "gallade",
+    "oshawott",
+    "quaquaval",
     "quaxly",
     "quaxwell",
-    "quaquaval",
-    "gallade",
-    "veluza",
-    "oshawott"
-  ]
+    "samurott",
+    "veluza"
+  ],
+  "desc": "Has a higher chance for a critical hit.",
+  "shortDesc": "High critical hit ratio.",
+  "flavorText": {
+    "sv": "The user expels pressurized water to cut at the target like a blade. This move has a heightened chance of landing a critical hit."
+  }
 }

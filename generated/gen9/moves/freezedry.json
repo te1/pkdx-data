@@ -1,21 +1,29 @@
 {
-  "name": "Freeze-Dry",
   "slug": "freezedry",
-  "flavorText": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+  "name": "Freeze-Dry",
+  "gen": 6,
   "type": "ice",
   "category": "special",
   "basePower": 70,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "glaceon",
-    "eiscue",
-    "delibird",
-    "glalie",
+    "arctibax",
+    "articuno",
+    "baxcalibur",
     "cryogonal",
-    "ironbundle",
+    "delibird",
+    "eiscue",
     "frigibax",
-    "articuno"
-  ]
+    "glaceon",
+    "glalie",
+    "ironbundle"
+  ],
+  "desc": "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+  "shortDesc": "10% chance to freeze. Super effective on Water.",
+  "flavorText": {
+    "sv": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types."
+  }
 }

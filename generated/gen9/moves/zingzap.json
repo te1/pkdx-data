@@ -1,14 +1,20 @@
 {
-  "name": "Zing Zap",
   "slug": "zingzap",
-  "flavorText": "The user crashes into the target, delivering a powerful electric shock. This may also make the target flinch.",
+  "name": "Zing Zap",
+  "gen": 7,
   "type": "electric",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "pincurchin"
-  ]
+  ],
+  "desc": "Has a 30% chance to make the target flinch.",
+  "shortDesc": "30% chance to make the target flinch.",
+  "flavorText": {
+    "sv": "The user crashes into the target, delivering a powerful electric shock. This may also make the target flinch."
+  }
 }

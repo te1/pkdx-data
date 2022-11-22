@@ -1,18 +1,29 @@
 {
-  "name": "Teeter Dance",
   "slug": "teeterdance",
-  "flavorText": "The user performs a wobbly dance that confuses every Pokémon around it.",
+  "name": "Teeter Dance",
+  "gen": 3,
   "type": "normal",
   "category": "status",
+  "accuracy": 100,
   "pp": 20,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
     "bounsweet",
-    "steenee",
-    "tsareena",
-    "oricorio",
-    "lilligant",
     "grumpig",
-    "meloetta"
-  ]
+    "lilligant",
+    "lilligant-hisui",
+    "meloetta",
+    "oricorio",
+    "oricorio-pau",
+    "oricorio-pom-pom",
+    "oricorio-sensu",
+    "steenee",
+    "tsareena"
+  ],
+  "desc": "Causes the target to become confused.",
+  "shortDesc": "Confuses adjacent Pokemon.",
+  "flavorText": {
+    "sv": "The user performs a wobbly dance that confuses every Pokémon around it."
+  }
 }

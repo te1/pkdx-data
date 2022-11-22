@@ -1,15 +1,21 @@
 {
-  "name": "Fiery Dance",
   "slug": "fierydance",
-  "flavorText": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also boost the user’s Sp. Atk stat.",
+  "name": "Fiery Dance",
+  "gen": 5,
   "type": "fire",
   "category": "special",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "volcarona",
-    "ironmoth"
-  ]
+    "ironmoth",
+    "volcarona"
+  ],
+  "desc": "Has a 50% chance to raise the user's Special Attack by 1 stage.",
+  "shortDesc": "50% chance to raise the user's Sp. Atk by 1.",
+  "flavorText": {
+    "sv": "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also boost the user's Sp. Atk stat."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Relic Song",
   "slug": "relicsong",
-  "flavorText": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+  "name": "Relic Song",
+  "gen": 5,
   "type": "normal",
   "category": "special",
   "basePower": 75,
   "accuracy": 100,
   "pp": 10,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
     "meloetta"
-  ]
+  ],
+  "desc": "Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",
+  "shortDesc": "10% chance to sleep foe(s). Meloetta transforms.",
+  "flavorText": {
+    "sv": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep."
+  }
 }

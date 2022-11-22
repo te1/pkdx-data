@@ -1,29 +1,36 @@
 {
-  "name": "Fire Pledge",
   "slug": "firepledge",
-  "flavorText": "A column of fire hits the target. When used with its grass counterpart, this move’s power is boosted and a vast sea of fire appears.",
+  "name": "Fire Pledge",
+  "gen": 5,
   "type": "fire",
   "category": "special",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "fuecoco",
-    "crocalor",
-    "skeledirge",
     "braixen",
     "charizard",
     "charmander",
     "charmeleon",
     "cinderace",
+    "crocalor",
     "cyndaquil",
     "delphox",
     "fennekin",
+    "fuecoco",
     "mew",
     "quilava",
     "raboot",
     "scorbunny",
-    "typhlosion"
-  ]
+    "skeledirge",
+    "typhlosion",
+    "typhlosion-hisui"
+  ],
+  "desc": "If one of the user's allies chose to use Grass Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Grass Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Water Pledge with 150 power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances and stacks with the Serene Grace Ability, except effects that cause flinching can only have their chance doubled once. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Fire Gem.",
+  "shortDesc": "Use with Grass or Water Pledge for added effect.",
+  "flavorText": {
+    "sv": "A column of fire hits the target. When used with its grass counterpart, this move's power is boosted and a vast sea of fire appears."
+  }
 }

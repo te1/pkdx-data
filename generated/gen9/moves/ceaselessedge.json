@@ -1,11 +1,20 @@
 {
-  "name": "Ceaseless Edge",
   "slug": "ceaselessedge",
-  "flavorText": "The user slashes its shell blade at the target, aiming to land a critical hit. Shell splinters left behind by this attack remain scattered under the target as spikes.",
+  "name": "Ceaseless Edge",
+  "gen": 9,
   "type": "dark",
   "category": "physical",
   "basePower": 65,
   "accuracy": 90,
   "pp": 15,
-  "priority": 0
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "samurott-hisui"
+  ],
+  "desc": "Has a higher chance for a critical hit. If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be set up to three times before failing. Opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",
+  "shortDesc": "High critical hit ratio. Foes: Spikes.",
+  "flavorText": {
+    "sv": "The user slashes its shell blade at the target, aiming to land a critical hit. Shell splinters left behind by this attack remain scattered under the target as spikes."
+  }
 }

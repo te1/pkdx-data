@@ -1,14 +1,20 @@
 {
-  "name": "Jet Punch",
   "slug": "jetpunch",
-  "flavorText": "The user summons a torrent around its fist and punches at blinding speed. This move always goes first.",
+  "name": "Jet Punch",
+  "gen": 9,
   "type": "water",
   "category": "physical",
   "basePower": 60,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 1,
   "pokemon": [
     "palafin"
-  ]
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "Usually goes first.",
+  "flavorText": {
+    "sv": "The user summons a torrent around its fist and punches at blinding speed. This move always goes first."
+  }
 }

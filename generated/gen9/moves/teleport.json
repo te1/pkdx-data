@@ -1,15 +1,21 @@
 {
-  "name": "Teleport",
   "slug": "teleport",
-  "flavorText": "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees.",
+  "name": "Teleport",
+  "gen": 1,
   "type": "psychic",
   "category": "status",
   "pp": 20,
+  "target": "self",
   "priority": -6,
   "pokemon": [
-    "ralts",
-    "kirlia",
+    "gallade",
     "gardevoir",
-    "gallade"
-  ]
+    "kirlia",
+    "ralts"
+  ],
+  "desc": "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
+  "shortDesc": "User switches out.",
+  "flavorText": {
+    "sv": "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees."
+  }
 }

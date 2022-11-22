@@ -1,21 +1,29 @@
 {
-  "name": "Poison Fang",
   "slug": "poisonfang",
-  "flavorText": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+  "name": "Poison Fang",
+  "gen": 3,
   "type": "poison",
   "category": "physical",
   "basePower": 50,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "bruxish",
+    "grafaiai",
+    "grimer-alola",
+    "muk-alola",
     "salandit",
     "salazzle",
-    "shroodle",
-    "grafaiai",
     "seviper",
-    "venonat",
+    "shroodle",
     "venomoth",
-    "bruxish"
-  ]
+    "venonat"
+  ],
+  "desc": "Has a 50% chance to badly poison the target.",
+  "shortDesc": "50% chance to badly poison the target.",
+  "flavorText": {
+    "sv": "The user bites the target with toxic fangs. This may also leave the target badly poisoned."
+  }
 }

@@ -1,19 +1,33 @@
 {
-  "name": "Shock Wave",
   "slug": "shockwave",
-  "flavorText": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+  "name": "Shock Wave",
+  "gen": 3,
   "type": "electric",
   "category": "special",
   "basePower": 60,
-  "accuracy": 101,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "shinx",
-    "toxtricity",
-    "rotom",
+    "luxio",
+    "luxray",
     "miraidon",
     "regieleki",
-    "thundurus"
-  ]
+    "rotom",
+    "rotom-fan",
+    "rotom-frost",
+    "rotom-heat",
+    "rotom-mow",
+    "rotom-wash",
+    "shinx",
+    "thundurus",
+    "thundurus-therian",
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
+  "desc": "This move does not check accuracy.",
+  "shortDesc": "This move does not check accuracy.",
+  "flavorText": {
+    "sv": "The user strikes the target with a quick jolt of electricity. This attack never misses."
+  }
 }

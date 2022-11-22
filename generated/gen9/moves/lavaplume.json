@@ -1,26 +1,33 @@
 {
-  "name": "Lava Plume",
   "slug": "lavaplume",
-  "flavorText": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+  "name": "Lava Plume",
+  "gen": 4,
   "type": "fire",
   "category": "special",
   "basePower": 80,
   "accuracy": 100,
   "pp": 15,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
-    "torkoal",
-    "numel",
-    "camerupt",
-    "charcadet",
     "armarouge",
+    "camerupt",
     "ceruledge",
-    "flareon",
+    "charcadet",
     "chiyu",
     "cyndaquil",
+    "flareon",
     "groudon",
     "heatran",
+    "numel",
     "quilava",
-    "typhlosion"
-  ]
+    "torkoal",
+    "typhlosion",
+    "typhlosion-hisui"
+  ],
+  "desc": "Has a 30% chance to burn the target.",
+  "shortDesc": "30% chance to burn adjacent Pokemon.",
+  "flavorText": {
+    "sv": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn."
+  }
 }

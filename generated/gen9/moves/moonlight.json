@@ -1,14 +1,20 @@
 {
-  "name": "Moonlight",
   "slug": "moonlight",
-  "flavorText": "The user restores its own HP. The amount of HP regained varies with the weather.",
+  "name": "Moonlight",
+  "gen": 2,
   "type": "fairy",
   "category": "status",
   "pp": 5,
+  "target": "self",
   "priority": 0,
   "pokemon": [
-    "umbreon",
+    "cresselia",
     "noivern",
-    "cresselia"
-  ]
+    "umbreon"
+  ],
+  "desc": "The user restores 1/2 of its maximum HP if Delta Stream or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Desolate Land or Sunny Day, and 1/4 of its maximum HP if the weather is Hail, Primordial Sea, Rain Dance, or Sandstorm, all rounded half down.",
+  "shortDesc": "Heals the user by a weather-dependent amount.",
+  "flavorText": {
+    "sv": "The user restores its own HP. The amount of HP regained varies with the weather."
+  }
 }

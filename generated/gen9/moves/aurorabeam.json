@@ -1,22 +1,30 @@
 {
-  "name": "Aurora Beam",
   "slug": "aurorabeam",
-  "flavorText": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+  "name": "Aurora Beam",
+  "gen": 1,
   "type": "ice",
   "category": "special",
   "basePower": 65,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "vaporeon",
-    "shellder",
     "cloyster",
+    "cresselia",
+    "cryogonal",
+    "delibird",
     "finneon",
     "frosmoth",
-    "delibird",
-    "cryogonal",
-    "cresselia",
-    "magearna"
-  ]
+    "lumineon",
+    "magearna",
+    "magearna-original",
+    "shellder",
+    "vaporeon"
+  ],
+  "desc": "Has a 10% chance to lower the target's Attack by 1 stage.",
+  "shortDesc": "10% chance to lower the target's Attack by 1.",
+  "flavorText": {
+    "sv": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat."
+  }
 }

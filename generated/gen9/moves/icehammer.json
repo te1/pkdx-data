@@ -1,15 +1,23 @@
 {
-  "name": "Ice Hammer",
   "slug": "icehammer",
-  "flavorText": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user’s Speed stat.",
+  "name": "Ice Hammer",
+  "gen": 7,
   "type": "ice",
   "category": "physical",
   "basePower": 100,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "crabominable",
-    "tinkatink"
-  ]
+    "tinkatink",
+    "tinkaton",
+    "tinkatuff"
+  ],
+  "desc": "Lowers the user's Speed by 1 stage.",
+  "shortDesc": "Lowers the user's Speed by 1.",
+  "flavorText": {
+    "sv": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat."
+  }
 }

@@ -1,14 +1,21 @@
 {
-  "name": "Spirit Shackle",
   "slug": "spiritshackle",
-  "flavorText": "The user attacks while simultaneously stitching the target’s shadow to the ground to prevent the target from fleeing.",
+  "name": "Spirit Shackle",
+  "gen": 7,
   "type": "ghost",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "decidueye"
-  ]
+    "decidueye",
+    "decidueye-hisui"
+  ],
+  "desc": "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+  "shortDesc": "Prevents the target from switching out.",
+  "flavorText": {
+    "sv": "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from fleeing."
+  }
 }

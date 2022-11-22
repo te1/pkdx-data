@@ -1,14 +1,23 @@
 {
-  "name": "Revelation Dance",
   "slug": "revelationdance",
-  "flavorText": "The user attacks the target by dancing with all its might. This move becomes the same type as the user’s type.",
+  "name": "Revelation Dance",
+  "gen": 7,
   "type": "normal",
   "category": "special",
   "basePower": 90,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "oricorio"
-  ]
+    "oricorio",
+    "oricorio-pau",
+    "oricorio-pom-pom",
+    "oricorio-sensu"
+  ],
+  "desc": "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
+  "shortDesc": "Type varies based on the user's primary type.",
+  "flavorText": {
+    "sv": "The user attacks the target by dancing with all its might. This move becomes the same type as the user's type."
+  }
 }

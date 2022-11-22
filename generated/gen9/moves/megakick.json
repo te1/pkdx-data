@@ -1,19 +1,26 @@
 {
-  "name": "Mega Kick",
   "slug": "megakick",
-  "flavorText": "The target is attacked by a kick launched with muscle-packed power.",
+  "name": "Mega Kick",
+  "gen": 1,
   "type": "normal",
   "category": "physical",
   "basePower": 120,
   "accuracy": 75,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "quaquaval",
-    "slaking",
+    "flamigo",
+    "lilligant-hisui",
     "mudbray",
     "mudsdale",
-    "stonjourner",
-    "flamigo"
-  ]
+    "quaquaval",
+    "slaking",
+    "stonjourner"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect.",
+  "flavorText": {
+    "sv": "The target is attacked by a kick launched with muscle-packed power."
+  }
 }

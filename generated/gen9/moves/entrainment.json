@@ -1,21 +1,32 @@
 {
-  "name": "Entrainment",
   "slug": "entrainment",
-  "flavorText": "The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.",
+  "name": "Entrainment",
+  "gen": 5,
   "type": "normal",
   "category": "status",
+  "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
+    "cetitan",
+    "cetoddle",
+    "clauncher",
+    "clawitzer",
+    "dedenne",
+    "hawlucha",
+    "lilligant",
+    "lilligant-hisui",
+    "litleo",
     "pawmi",
     "pawmo",
     "pawmot",
     "petilil",
-    "lilligant",
-    "dedenne",
-    "litleo",
-    "hawlucha",
-    "clauncher",
-    "cetoddle"
-  ]
+    "pyroar"
+  ],
+  "desc": "Causes the target's Ability to become the same as the user's. Fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Truant, or Zen Mode, or the same Ability as the user, or if the user's Ability is As One, Battle Bond, Comatose, Disguise, Flower Gift, Forecast, Gulp Missile, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Power Construct, Power of Alchemy, Receiver, RKS System, Schooling, Shields Down, Stance Change, Trace, or Zen Mode.",
+  "shortDesc": "The target's Ability changes to match the user's.",
+  "flavorText": {
+    "sv": "The user dances with an odd rhythm that compels the target to mimic it, making the target's Ability the same as the user's."
+  }
 }

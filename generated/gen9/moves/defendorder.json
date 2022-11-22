@@ -1,12 +1,18 @@
 {
-  "name": "Defend Order",
   "slug": "defendorder",
-  "flavorText": "The user calls out its underlings to shield its body, boosting its Defense and Sp. Def stats.",
+  "name": "Defend Order",
+  "gen": 4,
   "type": "bug",
   "category": "status",
   "pp": 10,
+  "target": "self",
   "priority": 0,
   "pokemon": [
     "vespiquen"
-  ]
+  ],
+  "desc": "Raises the user's Defense and Special Defense by 1 stage.",
+  "shortDesc": "Raises the user's Defense and Sp. Def by 1.",
+  "flavorText": {
+    "sv": "The user calls out its underlings to shield its body, boosting its Defense and Sp. Def stats."
+  }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "Order Up",
   "slug": "orderup",
-  "flavorText": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts one of the user’s stats based on the Tatsugiri’s form.",
+  "name": "Order Up",
+  "gen": 9,
   "type": "dragon",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "dondozo"
-  ]
+  ],
+  "desc": "+1 to stat depending on Tatsugiri color.",
+  "shortDesc": "+1 to stat depending on Tatsugiri color.",
+  "flavorText": {
+    "sv": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts one of the user's stats based on the Tatsugiri's form."
+  }
 }

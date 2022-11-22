@@ -1,23 +1,32 @@
 {
-  "name": "Poison Gas",
   "slug": "poisongas",
-  "flavorText": "A cloud of poison gas is sprayed in the faces of opposing Pokémon, poisoning those it hits.",
+  "name": "Poison Gas",
+  "gen": 1,
   "type": "poison",
   "category": "status",
+  "accuracy": 90,
   "pp": 40,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
     "drowzee",
+    "grimer",
+    "grimer-alola",
+    "gulpin",
     "hypno",
+    "muk",
+    "muk-alola",
+    "revavroom",
     "salandit",
     "salazzle",
-    "gulpin",
-    "swalot",
-    "grimer",
-    "muk",
-    "stunky",
     "skuntank",
-    "varoom",
-    "revavroom"
-  ]
+    "stunky",
+    "swalot",
+    "varoom"
+  ],
+  "desc": "Poisons the target.",
+  "shortDesc": "Poisons the foe(s).",
+  "flavorText": {
+    "sv": "A cloud of poison gas is sprayed in the faces of opposing Pokémon, poisoning those it hits."
+  }
 }

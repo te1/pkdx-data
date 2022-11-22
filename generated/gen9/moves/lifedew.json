@@ -1,26 +1,37 @@
 {
-  "name": "Life Dew",
   "slug": "lifedew",
-  "flavorText": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon currently in the battle.",
+  "name": "Life Dew",
+  "gen": 8,
   "type": "water",
   "category": "status",
   "pp": 10,
+  "target": "allies",
   "priority": 0,
   "pokemon": [
-    "chansey",
     "blissey",
-    "ralts",
-    "kirlia",
-    "gardevoir",
+    "calyrex",
+    "calyrex-ice",
+    "calyrex-shadow",
+    "chansey",
+    "cloyster",
     "gallade",
-    "lucario",
+    "gardevoir",
+    "goodra",
     "goomy",
     "hatenna",
-    "hattrem",
     "hatterene",
-    "shellder",
-    "calyrex",
+    "hattrem",
+    "kirlia",
+    "lucario",
     "mew",
-    "mewtwo"
-  ]
+    "mewtwo",
+    "ralts",
+    "shellder",
+    "sliggoo"
+  ],
+  "desc": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+  "shortDesc": "Heals the user and its allies by 1/4 their max HP.",
+  "flavorText": {
+    "sv": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon currently in the battle."
+  }
 }

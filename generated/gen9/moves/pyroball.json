@@ -1,14 +1,20 @@
 {
-  "name": "Pyro Ball",
   "slug": "pyroball",
-  "flavorText": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn.",
+  "name": "Pyro Ball",
+  "gen": 8,
   "type": "fire",
   "category": "physical",
   "basePower": 120,
   "accuracy": 90,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "cinderace"
-  ]
+  ],
+  "desc": "Has a 10% chance to burn the target.",
+  "shortDesc": "10% chance to burn the target. Thaws user.",
+  "flavorText": {
+    "sv": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn."
+  }
 }

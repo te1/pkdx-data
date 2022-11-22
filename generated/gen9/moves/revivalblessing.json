@@ -1,13 +1,19 @@
 {
-  "name": "Revival Blessing",
   "slug": "revivalblessing",
-  "flavorText": "The user bestows a loving blessing, reviving a party Pokémon that has fainted and restoring half that Pokémon’s max HP.",
+  "name": "Revival Blessing",
+  "gen": 9,
   "type": "normal",
   "category": "status",
   "pp": 1,
+  "target": "self",
   "priority": 0,
   "pokemon": [
     "pawmot",
     "rabsca"
-  ]
+  ],
+  "desc": "Revives a fainted Pokemon to 50% HP.",
+  "shortDesc": "Revives a fainted Pokemon to 50% HP.",
+  "flavorText": {
+    "sv": "The user bestows a loving blessing, reviving a party Pokémon that has fainted and restoring half that Pokémon's max HP."
+  }
 }

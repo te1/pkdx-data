@@ -1,11 +1,20 @@
 {
-  "name": "Glacial Lance",
   "slug": "glaciallance",
-  "flavorText": "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.",
+  "name": "Glacial Lance",
+  "gen": 8,
   "type": "ice",
   "category": "physical",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
-  "priority": 0
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "calyrex-ice"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect. Hits adjacent foes.",
+  "flavorText": {
+    "sv": "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon."
+  }
 }

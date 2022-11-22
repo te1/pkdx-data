@@ -1,16 +1,26 @@
 {
-  "name": "String Shot",
   "slug": "stringshot",
-  "flavorText": "The user blows silk from its mouth that binds opposing Pokémon and harshly lowers their Speed stats.",
+  "name": "String Shot",
+  "gen": 1,
   "type": "bug",
   "category": "status",
+  "accuracy": 95,
   "pp": 40,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
-    "tarountula",
-    "spidops",
-    "scatterbug",
     "larvesta",
+    "scatterbug",
+    "spewpa",
+    "spidops",
+    "tarountula",
+    "vivillon",
+    "vivillon-fancy",
     "volcarona"
-  ]
+  ],
+  "desc": "Lowers the target's Speed by 2 stages.",
+  "shortDesc": "Lowers the foe(s) Speed by 2.",
+  "flavorText": {
+    "sv": "The user blows silk from its mouth that binds opposing Pokémon and harshly lowers their Speed stats."
+  }
 }

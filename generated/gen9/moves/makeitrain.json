@@ -1,14 +1,20 @@
 {
-  "name": "Make It Rain",
   "slug": "makeitrain",
-  "flavorText": "The user attacks by throwing out a mass of coins. This also lowers the user’s Sp. Atk stat. Money is earned after the battle.",
+  "name": "Make It Rain",
+  "gen": 9,
   "type": "steel",
   "category": "special",
   "basePower": 120,
   "accuracy": 100,
   "pp": 5,
+  "target": "allAdjacentFoes",
   "priority": 0,
   "pokemon": [
     "gholdengo"
-  ]
+  ],
+  "desc": "Lowers the user's Special Attack by 1 stage.",
+  "shortDesc": "Lowers the user's Sp. Atk by 1.",
+  "flavorText": {
+    "sv": "The user attacks by throwing out a mass of coins. This also lowers the user's Sp. Atk stat. Money is earned after the battle."
+  }
 }

@@ -1,19 +1,25 @@
 {
-  "name": "Frost Breath",
   "slug": "frostbreath",
-  "flavorText": "The user attacks by blowing its cold breath on the target. This move always lands a critical hit.",
+  "name": "Frost Breath",
+  "gen": 5,
   "type": "ice",
   "category": "special",
   "basePower": 60,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "cubchoo",
     "beartic",
-    "snorunt",
-    "glalie",
+    "cryogonal",
+    "cubchoo",
     "froslass",
-    "cryogonal"
-  ]
+    "glalie",
+    "snorunt"
+  ],
+  "desc": "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+  "shortDesc": "Always results in a critical hit.",
+  "flavorText": {
+    "sv": "The user attacks by blowing its cold breath on the target. This move always lands a critical hit."
+  }
 }

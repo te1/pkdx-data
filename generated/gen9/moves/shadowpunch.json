@@ -1,17 +1,23 @@
 {
-  "name": "Shadow Punch",
   "slug": "shadowpunch",
-  "flavorText": "The user throws a punch from the shadows. This attack never misses.",
+  "name": "Shadow Punch",
+  "gen": 3,
   "type": "ghost",
   "category": "physical",
   "basePower": 60,
-  "accuracy": 101,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "haunter",
-    "gengar",
     "annihilape",
-    "grimer"
-  ]
+    "gengar",
+    "grimer",
+    "haunter",
+    "muk"
+  ],
+  "desc": "This move does not check accuracy.",
+  "shortDesc": "This move does not check accuracy.",
+  "flavorText": {
+    "sv": "The user throws a punch from the shadows. This attack never misses."
+  }
 }

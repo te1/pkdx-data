@@ -1,14 +1,37 @@
 {
-  "name": "Judgment",
   "slug": "judgment",
-  "flavorText": "The user releases countless shots of light at the target. This move’s type changes depending on the kind of plate held by the user.",
+  "name": "Judgment",
+  "gen": 4,
   "type": "normal",
   "category": "special",
   "basePower": 100,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "arceus"
-  ]
+    "arceus",
+    "arceus-bug",
+    "arceus-dark",
+    "arceus-dragon",
+    "arceus-electric",
+    "arceus-fairy",
+    "arceus-fighting",
+    "arceus-fire",
+    "arceus-flying",
+    "arceus-ghost",
+    "arceus-grass",
+    "arceus-ground",
+    "arceus-ice",
+    "arceus-poison",
+    "arceus-psychic",
+    "arceus-rock",
+    "arceus-steel",
+    "arceus-water"
+  ],
+  "desc": "This move's type depends on the user's held Plate.",
+  "shortDesc": "Type varies based on the held Plate.",
+  "flavorText": {
+    "sv": "The user releases countless shots of light at the target. This move's type changes depending on the kind of plate held by the user."
+  }
 }

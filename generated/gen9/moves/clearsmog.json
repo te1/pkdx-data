@@ -1,25 +1,36 @@
 {
-  "name": "Clear Smog",
   "slug": "clearsmog",
-  "flavorText": "The user attacks the target by throwing a clump of special mud. All stat changes are eliminated.",
+  "name": "Clear Smog",
+  "gen": 5,
   "type": "poison",
   "category": "special",
   "basePower": 50,
-  "accuracy": 101,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "psyduck",
-    "gastly",
-    "gulpin",
-    "drifloon",
-    "torkoal",
-    "charcadet",
-    "armarouge",
-    "ceruledge",
-    "foongus",
     "amoonguss",
+    "armarouge",
+    "brutebonnet",
+    "ceruledge",
+    "charcadet",
+    "drifblim",
+    "drifloon",
+    "foongus",
+    "gastly",
+    "gastrodon",
+    "gengar",
+    "golduck",
+    "gulpin",
+    "haunter",
+    "psyduck",
     "shellos",
-    "brutebonnet"
-  ]
+    "swalot",
+    "torkoal"
+  ],
+  "desc": "Resets all of the target's stat stages to 0.",
+  "shortDesc": "Resets all of the target's stat stages to 0.",
+  "flavorText": {
+    "sv": "The user attacks the target by throwing a clump of special mud. All stat changes are eliminated."
+  }
 }

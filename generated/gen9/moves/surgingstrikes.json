@@ -1,11 +1,20 @@
 {
-  "name": "Surging Strikes",
   "slug": "surgingstrikes",
-  "flavorText": "The user, having mastered the Water style, strikes the target with a flowing motion three times in a row. This move always lands a critical hit.",
+  "name": "Surging Strikes",
+  "gen": 8,
   "type": "water",
   "category": "physical",
   "basePower": 25,
   "accuracy": 100,
   "pp": 5,
-  "priority": 0
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "urshifu-rapid-strike"
+  ],
+  "desc": "Hits three times. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+  "shortDesc": "Always results in a critical hit. Hits 3 times.",
+  "flavorText": {
+    "sv": "The user, having mastered the Water style, strikes the target with a flowing motion three times in a row. This move always lands a critical hit."
+  }
 }

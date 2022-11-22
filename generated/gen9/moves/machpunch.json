@@ -1,15 +1,23 @@
 {
-  "name": "Mach Punch",
   "slug": "machpunch",
-  "flavorText": "The user throws a punch at blinding speed. This move always goes first.",
+  "name": "Mach Punch",
+  "gen": 2,
   "type": "fighting",
   "category": "physical",
   "basePower": 40,
   "accuracy": 100,
   "pp": 30,
+  "target": "normal",
   "priority": 1,
   "pokemon": [
+    "breloom",
     "pawmi",
-    "breloom"
-  ]
+    "pawmo",
+    "pawmot"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "Usually goes first.",
+  "flavorText": {
+    "sv": "The user throws a punch at blinding speed. This move always goes first."
+  }
 }

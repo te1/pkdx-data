@@ -1,14 +1,20 @@
 {
-  "name": "Torch Song",
   "slug": "torchsong",
-  "flavorText": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user’s Sp. Atk stat.",
+  "name": "Torch Song",
+  "gen": 9,
   "type": "fire",
   "category": "special",
   "basePower": 80,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "skeledirge"
-  ]
+  ],
+  "desc": "Has a 100% chance to raise the user's Special Attack by 1 stage.",
+  "shortDesc": "100% chance to raise the user's Sp. Atk by 1.",
+  "flavorText": {
+    "sv": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat."
+  }
 }

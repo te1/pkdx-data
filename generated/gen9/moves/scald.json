@@ -1,14 +1,20 @@
 {
-  "name": "Scald",
   "slug": "scald",
-  "flavorText": "The user attacks by shooting boiling hot water at the target. This may also leave the target with a burn.",
+  "name": "Scald",
+  "gen": 5,
   "type": "water",
   "category": "special",
   "basePower": 80,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "volcanion"
-  ]
+  ],
+  "desc": "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
+  "shortDesc": "30% chance to burn the target. Thaws target.",
+  "flavorText": {
+    "sv": "The user attacks by shooting boiling hot water at the target. This may also leave the target with a burn."
+  }
 }

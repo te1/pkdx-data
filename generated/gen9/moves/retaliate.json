@@ -1,23 +1,35 @@
 {
-  "name": "Retaliate",
   "slug": "retaliate",
-  "flavorText": "The user takes revenge for a fainted ally. This move’s power is boosted if an ally fainted in the previous turn.",
+  "name": "Retaliate",
+  "gen": 5,
   "type": "normal",
   "category": "physical",
   "basePower": 70,
   "accuracy": 100,
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "maschiff",
-    "growlithe",
     "arcanine",
-    "pawniard",
+    "arcanine-hisui",
     "bisharp",
-    "kingambit",
     "dewott",
     "froakie",
+    "frogadier",
+    "greninja",
+    "growlithe",
+    "growlithe-hisui",
+    "kingambit",
+    "mabosstiff",
+    "maschiff",
     "oshawott",
-    "samurott"
-  ]
+    "pawniard",
+    "samurott",
+    "samurott-hisui"
+  ],
+  "desc": "Power doubles if one of the user's party members fainted last turn.",
+  "shortDesc": "Power doubles if an ally fainted last turn.",
+  "flavorText": {
+    "sv": "The user takes revenge for a fainted ally. This move's power is boosted if an ally fainted in the previous turn."
+  }
 }

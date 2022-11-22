@@ -1,23 +1,32 @@
 {
-  "name": "Snore",
   "slug": "snore",
-  "flavorText": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+  "name": "Snore",
+  "gen": 2,
   "type": "normal",
   "category": "special",
   "basePower": 50,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "slakoth",
-    "spoink",
+    "barboach",
+    "dedenne",
+    "donphan",
     "grumpig",
     "phanpy",
-    "barboach",
-    "whiscash",
-    "dedenne",
+    "slaking",
+    "slakoth",
+    "spoink",
     "teddiursa",
+    "ursaluna",
     "ursaring",
-    "ursaluna"
-  ]
+    "vigoroth",
+    "whiscash"
+  ],
+  "desc": "Has a 30% chance to make the target flinch. Fails if the user is not asleep.",
+  "shortDesc": "User must be asleep. 30% chance to flinch target.",
+  "flavorText": {
+    "sv": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch."
+  }
 }

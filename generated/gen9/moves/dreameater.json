@@ -1,22 +1,29 @@
 {
-  "name": "Dream Eater",
   "slug": "dreameater",
-  "flavorText": "The user eats the dreams of a sleeping target. The user’s HP is restored by up to half the damage taken by the target.",
+  "name": "Dream Eater",
+  "gen": 1,
   "type": "psychic",
   "category": "special",
   "basePower": 100,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "ralts",
-    "kirlia",
-    "gardevoir",
+    "articuno-galar",
     "gallade",
+    "gardevoir",
     "gastly",
-    "haunter",
     "gengar",
-    "spiritomb",
-    "oranguru"
-  ]
+    "haunter",
+    "kirlia",
+    "oranguru",
+    "ralts",
+    "spiritomb"
+  ],
+  "desc": "The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+  "shortDesc": "User gains 1/2 HP inflicted. Sleeping target only.",
+  "flavorText": {
+    "sv": "The user eats the dreams of a sleeping target. The user's HP is restored by up to half the damage taken by the target."
+  }
 }

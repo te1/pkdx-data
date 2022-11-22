@@ -1,19 +1,26 @@
 {
-  "name": "Skitter Smack",
   "slug": "skittersmack",
-  "flavorText": "The user skitters behind the target to attack. This also lowers the target’s Sp. Atk stat.",
+  "name": "Skitter Smack",
+  "gen": 8,
   "type": "bug",
   "category": "physical",
   "basePower": 70,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "tarountula",
-    "spidops",
+    "lokix",
     "nymble",
+    "spidops",
+    "tarountula",
     "tinkatink",
-    "tinkatuff",
-    "tinkaton"
-  ]
+    "tinkaton",
+    "tinkatuff"
+  ],
+  "desc": "Has a 100% chance to lower the target's Special Attack by 1 stage.",
+  "shortDesc": "100% chance to lower target's Sp. Atk by 1.",
+  "flavorText": {
+    "sv": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat."
+  }
 }

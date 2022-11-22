@@ -1,23 +1,34 @@
 {
-  "name": "Beat Up",
   "slug": "beatup",
-  "flavorText": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+  "name": "Beat Up",
+  "gen": 2,
   "type": "dark",
   "category": "physical",
-  "basePower": 1,
+  "basePower": 0,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "houndour",
-    "houndoom",
-    "tandemaus",
-    "maushold",
-    "mankey",
-    "girafarig",
-    "sneasel",
-    "weavile",
+    "annihilape",
+    "brambleghast",
     "bramblin",
-    "passimian"
-  ]
+    "farigiraf",
+    "girafarig",
+    "houndoom",
+    "houndour",
+    "mankey",
+    "maushold",
+    "maushold-four",
+    "passimian",
+    "primeape",
+    "sneasel",
+    "tandemaus",
+    "weavile"
+  ],
+  "desc": "Hits one time for the user and one time for each unfainted Pokemon without a non-volatile status condition in the user's party. The power of each hit is equal to 5+(X/10), where X is each participating Pokemon's base Attack; each hit is considered to come from the user.",
+  "shortDesc": "All healthy allies aid in damaging the target.",
+  "flavorText": {
+    "sv": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks."
+  }
 }

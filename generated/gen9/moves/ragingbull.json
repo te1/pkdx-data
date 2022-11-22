@@ -1,14 +1,23 @@
 {
-  "name": "Raging Bull",
   "slug": "ragingbull",
-  "flavorText": "The user performs a tackle like a raging bull. This move’s type depends on the user’s form. It can also break barriers, such as Light Screen and Reflect.",
+  "name": "Raging Bull",
+  "gen": 9,
   "type": "normal",
   "category": "physical",
   "basePower": 90,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "tauros"
-  ]
+    "tauros",
+    "tauros-paldea",
+    "tauros-paldea-fire",
+    "tauros-paldea-water"
+  ],
+  "desc": "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+  "shortDesc": "Destroys screens. Type depends on user's form.",
+  "flavorText": {
+    "sv": "The user performs a tackle like a raging bull. This move's type depends on the user's form. It can also break barriers, such as Light Screen and Reflect."
+  }
 }

@@ -1,28 +1,41 @@
 {
-  "name": "Hammer Arm",
   "slug": "hammerarm",
-  "flavorText": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user’s Speed stat.",
+  "name": "Hammer Arm",
+  "gen": 4,
   "type": "fighting",
   "category": "physical",
   "basePower": 100,
   "accuracy": 90,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "slakoth",
-    "slaking",
-    "sudowoodo",
-    "garganacl",
-    "ursaring",
-    "grimmsnarl",
     "chesnaught",
+    "garganacl",
+    "grimmsnarl",
     "grookey",
     "groudon",
     "landorus",
+    "landorus-therian",
     "regidrago",
+    "rillaboom",
+    "slaking",
+    "slakoth",
+    "sudowoodo",
     "thundurus",
+    "thundurus-therian",
+    "thwackey",
     "tornadus",
+    "tornadus-therian",
     "ursaluna",
-    "zarude"
-  ]
+    "ursaring",
+    "vigoroth",
+    "zarude",
+    "zarude-dada"
+  ],
+  "desc": "Lowers the user's Speed by 1 stage.",
+  "shortDesc": "Lowers the user's Speed by 1.",
+  "flavorText": {
+    "sv": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat."
+  }
 }

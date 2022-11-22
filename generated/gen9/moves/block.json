@@ -1,23 +1,40 @@
 {
-  "name": "Block",
   "slug": "block",
-  "flavorText": "The user blocks the target’s way with arms spread wide to prevent the target from fleeing.",
+  "name": "Block",
+  "gen": 3,
   "type": "normal",
   "category": "status",
   "pp": 5,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "tarountula",
-    "spidops",
     "bonsly",
-    "sudowoodo",
-    "rolycoly",
-    "garganacl",
-    "bronzong",
+    "brambleghast",
     "bramblin",
-    "stonjourner",
+    "bronzong",
+    "carkol",
+    "coalossal",
+    "froslass",
+    "garganacl",
+    "glalie",
+    "landorus",
+    "landorus-therian",
+    "rolycoly",
+    "slowbro",
+    "slowbro-galar",
+    "slowking",
+    "slowking-galar",
     "slowpoke",
+    "slowpoke-galar",
     "snorunt",
-    "landorus"
-  ]
+    "spidops",
+    "stonjourner",
+    "sudowoodo",
+    "tarountula"
+  ],
+  "desc": "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+  "shortDesc": "Prevents the target from switching out.",
+  "flavorText": {
+    "sv": "The user blocks the target's way with arms spread wide to prevent the target from fleeing."
+  }
 }

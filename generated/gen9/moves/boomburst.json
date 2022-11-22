@@ -1,19 +1,27 @@
 {
-  "name": "Boomburst",
   "slug": "boomburst",
-  "flavorText": "The user attacks everything around it with the destructive power of a terrible explosive sound.",
+  "name": "Boomburst",
+  "gen": 6,
   "type": "normal",
   "category": "special",
   "basePower": 140,
   "accuracy": 100,
   "pp": 10,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
     "dudunsparce",
-    "toxtricity",
     "finizen",
     "noivern",
+    "palafin",
+    "rillaboom",
     "screamtail",
-    "rillaboom"
-  ]
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
+  "desc": "No additional effect.",
+  "shortDesc": "No additional effect. Hits adjacent Pokemon.",
+  "flavorText": {
+    "sv": "The user attacks everything around it with the destructive power of a terrible explosive sound."
+  }
 }

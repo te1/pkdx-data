@@ -1,14 +1,20 @@
 {
-  "name": "Bitter Blade",
   "slug": "bitterblade",
-  "flavorText": "The user focuses its bitter feelings toward the world of the living into a slashing attack. The user’s HP is restored by up to half the damage taken by the target.",
+  "name": "Bitter Blade",
+  "gen": 9,
   "type": "fire",
   "category": "physical",
   "basePower": 90,
   "accuracy": 100,
   "pp": 10,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
     "ceruledge"
-  ]
+  ],
+  "desc": "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+  "shortDesc": "User recovers 50% of the damage dealt.",
+  "flavorText": {
+    "sv": "The user focuses its bitter feelings toward the world of the living into a slashing attack. The user's HP is restored by up to half the damage taken by the target."
+  }
 }

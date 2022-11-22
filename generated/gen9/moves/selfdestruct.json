@@ -1,23 +1,34 @@
 {
-  "name": "Self-Destruct",
   "slug": "selfdestruct",
-  "flavorText": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+  "name": "Self-Destruct",
+  "gen": 1,
   "type": "normal",
   "category": "physical",
   "basePower": 200,
   "accuracy": 100,
   "pp": 5,
+  "target": "allAdjacent",
   "priority": 0,
   "pokemon": [
-    "drifloon",
     "drifblim",
-    "voltorb",
+    "drifloon",
     "electrode",
-    "pineco",
+    "electrode-hisui",
     "forretress",
-    "varoom",
     "glimmet",
     "glimmora",
-    "qwilfish"
-  ]
+    "overqwil",
+    "pineco",
+    "qwilfish",
+    "qwilfish-hisui",
+    "revavroom",
+    "varoom",
+    "voltorb",
+    "voltorb-hisui"
+  ],
+  "desc": "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+  "shortDesc": "Hits adjacent Pokemon. The user faints.",
+  "flavorText": {
+    "sv": "The user attacks everything around it by causing an explosion. The user faints upon using this move."
+  }
 }

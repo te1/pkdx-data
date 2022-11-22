@@ -1,20 +1,27 @@
 {
-  "name": "Sludge",
   "slug": "sludge",
-  "flavorText": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target.",
+  "name": "Sludge",
+  "gen": 1,
   "type": "poison",
   "category": "special",
   "basePower": 65,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "gulpin",
-    "swalot",
+    "gastrodon",
     "grimer",
+    "gulpin",
     "muk",
-    "varoom",
     "revavroom",
-    "shellos"
-  ]
+    "shellos",
+    "swalot",
+    "varoom"
+  ],
+  "desc": "Has a 30% chance to poison the target.",
+  "shortDesc": "30% chance to poison the target.",
+  "flavorText": {
+    "sv": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target."
+  }
 }

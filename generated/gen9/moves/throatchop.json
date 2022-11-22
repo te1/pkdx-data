@@ -1,27 +1,33 @@
 {
-  "name": "Throat Chop",
   "slug": "throatchop",
-  "flavorText": "The user attacks the target’s throat, and the resultant suffering prevents the target from using sound-based moves for two turns.",
+  "name": "Throat Chop",
+  "gen": 7,
   "type": "dark",
   "category": "physical",
   "basePower": 80,
   "accuracy": 100,
   "pp": 15,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "tarountula",
-    "spidops",
-    "lokix",
-    "slakoth",
-    "vigoroth",
-    "slaking",
     "barraskewda",
-    "heracross",
-    "wiglett",
-    "wugtrio",
-    "flamigo",
     "chienpao",
+    "flamigo",
+    "heracross",
+    "lokix",
+    "roaringmoon",
+    "slaking",
+    "slakoth",
+    "spidops",
+    "tarountula",
     "tinglu",
-    "roaringmoon"
-  ]
+    "vigoroth",
+    "wiglett",
+    "wugtrio"
+  ],
+  "desc": "For 2 turns, the target cannot use sound-based moves.",
+  "shortDesc": "For 2 turns, the target cannot use sound moves.",
+  "flavorText": {
+    "sv": "The user attacks the target's throat, and the resultant suffering prevents the target from using sound-based moves for two turns."
+  }
 }

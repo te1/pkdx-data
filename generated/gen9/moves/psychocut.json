@@ -1,22 +1,31 @@
 {
-  "name": "Psycho Cut",
   "slug": "psychocut",
-  "flavorText": "The user tears at the target with blades formed by psychic power. This move has a heightened chance of landing a critical hit.",
+  "name": "Psycho Cut",
+  "gen": 4,
   "type": "psychic",
   "category": "physical",
   "basePower": 70,
   "accuracy": 100,
   "pp": 20,
+  "target": "normal",
   "priority": 0,
   "pokemon": [
-    "gallade",
-    "drowzee",
-    "meditite",
+    "articuno-galar",
     "ceruledge",
-    "hatterene",
-    "veluza",
-    "ironvaliant",
     "cresselia",
-    "mewtwo"
-  ]
+    "drowzee",
+    "gallade",
+    "hatterene",
+    "hypno",
+    "ironvaliant",
+    "medicham",
+    "meditite",
+    "mewtwo",
+    "veluza"
+  ],
+  "desc": "Has a higher chance for a critical hit.",
+  "shortDesc": "High critical hit ratio.",
+  "flavorText": {
+    "sv": "The user tears at the target with blades formed by psychic power. This move has a heightened chance of landing a critical hit."
+  }
 }

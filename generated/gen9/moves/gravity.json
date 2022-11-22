@@ -1,17 +1,45 @@
 {
-  "name": "Gravity",
   "slug": "gravity",
-  "flavorText": "Enables Flying types or Pokémon with the Levitate Ability to be hit by Ground-type moves for five turns. Moves that involve flying can’t be used.",
+  "name": "Gravity",
+  "gen": 4,
   "type": "psychic",
   "category": "status",
   "pp": 5,
+  "target": "all",
   "priority": 0,
   "pokemon": [
+    "arceus",
+    "arceus-bug",
+    "arceus-dark",
+    "arceus-dragon",
+    "arceus-electric",
+    "arceus-fairy",
+    "arceus-fighting",
+    "arceus-fire",
+    "arceus-flying",
+    "arceus-ghost",
+    "arceus-grass",
+    "arceus-ground",
+    "arceus-ice",
+    "arceus-poison",
+    "arceus-psychic",
+    "arceus-rock",
+    "arceus-steel",
+    "arceus-water",
+    "blissey",
+    "bronzong",
+    "bronzor",
+    "chansey",
     "happiny",
     "igglybuff",
-    "bronzor",
-    "stonjourner",
+    "jigglypuff",
     "sandyshocks",
-    "arceus"
-  ]
+    "stonjourner",
+    "wigglytuff"
+  ],
+  "desc": "For 5 turns, the evasiveness of all active Pokemon is multiplied by 0.6. At the time of use, Bounce, Fly, Magnet Rise, Sky Drop, and Telekinesis end immediately for all active Pokemon. During the effect, Bounce, Fly, Flying Press, High Jump Kick, Jump Kick, Magnet Rise, Sky Drop, Splash, and Telekinesis are prevented from being used by all active Pokemon. Ground-type attacks, Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability can affect Flying types or Pokemon with the Levitate Ability. Fails if this move is already in effect.",
+  "shortDesc": "5 turns: no Ground immunities, 1.67x accuracy.",
+  "flavorText": {
+    "sv": "Enables Flying types or Pokémon with the Levitate Ability to be hit by Ground-type moves for five turns. Moves that involve flying can't be used."
+  }
 }

@@ -53,7 +53,7 @@ const includeSpeciesIdGen8Future = [
   'sneasler',
   'overqwil',
   'enamorus',
-  'enamorustherian"',
+  'enamorustherian',
 ];
 
 const includeSpeciesIdGen8Past = [

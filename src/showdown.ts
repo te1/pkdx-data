@@ -25,7 +25,38 @@ const excludeSpeciesId = [
   'pokestarwhitedoor',
 ];
 
-const includeSpeciesId = [
+const includeSpeciesIdGen8Future = [
+  'growlithehisui',
+  'arcaninehisui',
+  'voltorbhisui',
+  'electrodehisui',
+  'typhlosionhisui',
+  'qwilfishhisui',
+  'sneaselhisui',
+  'dialgaorigin',
+  'palkiaorigin',
+  'samurotthisui',
+  'lilliganthisui',
+  'basculinwhitestriped',
+  'zoruahisui',
+  'zoroarkhisui',
+  'braviaryhisui',
+  'sliggoohisui',
+  'goodrahisui',
+  'avalugghisui',
+  'decidueyehisui',
+  'wyrdeer',
+  'kleavor',
+  'ursaluna',
+  'basculegion',
+  'basculegionf',
+  'sneasler',
+  'overqwil',
+  'enamorus',
+  'enamorustherian"',
+];
+
+const includeSpeciesIdGen8Past = [
   'cyndaquil',
   'oshawott',
   'dewott',
@@ -152,8 +183,13 @@ const existsFn = ((d: Data, g: GenerationNum) => {
   const allowNonstandardSpecies =
     allowUnobtainableSpecies || allowLetsGoSpecies || allowGmaxSpecies;
 
-  // TODO include new Legends Arceus species, probably using a whitelist
-  const allowFutureSpecies = false;
+  // include new Legends Arceus species
+  const allowFutureSpecies =
+    g === 8 &&
+    d.kind === 'Species' &&
+    d.isNonstandard &&
+    'Future' === d.isNonstandard &&
+    _.includes(includeSpeciesIdGen8Future, d.id);
 
   // include returning Legends Arceus / BDSP species
   const allowPastSpecies =
@@ -161,7 +197,7 @@ const existsFn = ((d: Data, g: GenerationNum) => {
     d.kind === 'Species' &&
     d.isNonstandard &&
     'Past' === d.isNonstandard &&
-    _.includes(includeSpeciesId, d.id);
+    _.includes(includeSpeciesIdGen8Past, d.id);
 
   // include G-Max moves
   const allowNonstandardMove =

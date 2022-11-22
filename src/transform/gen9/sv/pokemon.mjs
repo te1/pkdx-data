@@ -25,7 +25,9 @@ export async function transformPokemon() {
   let resultMisc = parseMisc(dumpPokemonMisc);
   let result = parsePokemon(dumpPokemon, resultMisc, dataPokedex);
 
+  // num is regional pokedex number, not national dex number like for everything else
   result = _.orderBy(result, ['num', 'slug']);
+  result = _.map(result, (item) => _.omit(item, 'num')); // remove it because it's confusing
 
   if (result.length) {
     console.log(`\twriting ${result.length} pokemon...`);
@@ -124,7 +126,6 @@ function parsePokemon(dumpPokemon, dataMisc, dataPokedex) {
         name,
         num: _.find(dataPokedex.data, { slug })?.num ?? null,
         types,
-        // gen info is missing
         abilities,
         baseStats: stats,
         weight: entryMisc?.weight ?? undefined,
@@ -251,7 +252,7 @@ function parseMisc(dumpPokemonMisc) {
 
     switch (key) {
       case 'Height':
-        entry.height = parseInt(value) / 10;
+        entry.height = parseInt(value) / 100;
         break;
 
       case 'Weight':

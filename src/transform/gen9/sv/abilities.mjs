@@ -110,10 +110,8 @@ function buildData(resultNames, resultDescriptions) {
     const slug = getSlug(name);
 
     const entry = {
-      name,
       slug,
-      // gen info is missing
-      // desc and shortDesc from showdown are missing
+      name,
       flavorText: resultDescriptions[id],
     };
 

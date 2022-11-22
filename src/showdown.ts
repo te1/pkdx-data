@@ -152,12 +152,8 @@ const existsFn = ((d: Data, g: GenerationNum) => {
   const allowNonstandardSpecies =
     allowUnobtainableSpecies || allowLetsGoSpecies || allowGmaxSpecies;
 
-  // include new Legends Arceus species
-  const allowFutureSpecies =
-    g === 8 &&
-    d.kind === 'Species' &&
-    d.isNonstandard &&
-    'Future' === d.isNonstandard;
+  // TODO include new Legends Arceus species, probably using a whitelist
+  const allowFutureSpecies = false;
 
   // include returning Legends Arceus / BDSP species
   const allowPastSpecies =

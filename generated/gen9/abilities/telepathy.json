@@ -1,19 +1,26 @@
 {
-  "name": "Telepathy",
   "slug": "telepathy",
-  "flavorText": "The Pokémon anticipates and dodges the attacks of its allies.",
+  "name": "Telepathy",
+  "gen": 5,
   "pokemon": [
-    "ralts",
-    "kirlia",
+    "dialga",
+    "dialga-origin",
     "gardevoir",
-    "meditite",
+    "giratina",
+    "kirlia",
     "medicham",
-    "rabsca",
+    "meditite",
     "noibat",
     "noivern",
     "oranguru",
-    "dialga",
-    "giratina",
-    "palkia"
-  ]
+    "palkia",
+    "palkia-origin",
+    "rabsca",
+    "ralts"
+  ],
+  "desc": "This Pokemon does not take damage from attacks made by its allies.",
+  "shortDesc": "This Pokemon does not take damage from attacks made by its allies.",
+  "flavorText": {
+    "sv": "The Pokémon anticipates and dodges the attacks of its allies."
+  }
 }

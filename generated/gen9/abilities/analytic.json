@@ -1,10 +1,15 @@
 {
-  "name": "Analytic",
   "slug": "analytic",
-  "flavorText": "Boosts the power of the Pokémon’s move if it is the last to act that turn.",
+  "name": "Analytic",
+  "gen": 5,
   "pokemon": [
     "magnemite",
     "magneton",
     "magnezone"
-  ]
+  ],
+  "desc": "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",
+  "shortDesc": "This Pokemon's attacks have 1.3x power if it is the last to move in a turn.",
+  "flavorText": {
+    "sv": "Boosts the power of the Pokémon's move if it is the last to act that turn."
+  }
 }

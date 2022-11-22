@@ -1,12 +1,17 @@
 {
-  "name": "Iron Fist",
   "slug": "ironfist",
-  "flavorText": "Powers up punching moves.",
+  "name": "Iron Fist",
+  "gen": 4,
   "pokemon": [
+    "crabominable",
+    "crabrawler",
     "pawmi",
     "pawmo",
-    "pawmot",
-    "crabrawler",
-    "crabominable"
-  ]
+    "pawmot"
+  ],
+  "desc": "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
+  "shortDesc": "This Pokemon's punch-based attacks have 1.2x power. Sucker Punch is not boosted.",
+  "flavorText": {
+    "sv": "Powers up punching moves."
+  }
 }

@@ -1,5 +1,13 @@
 {
-  "name": "Curious Medicine",
   "slug": "curiousmedicine",
-  "flavorText": "When the Pokémon enters a battle, it scatters medicine from its shell, which removes all stat changes from allies."
+  "name": "Curious Medicine",
+  "gen": 8,
+  "pokemon": [
+    "slowking-galar"
+  ],
+  "desc": "On switch-in, this Pokemon's allies have their stat stages reset to 0.",
+  "shortDesc": "On switch-in, this Pokemon's allies have their stat stages reset to 0.",
+  "flavorText": {
+    "sv": "When the Pokémon enters a battle, it scatters medicine from its shell, which removes all stat changes from allies."
+  }
 }

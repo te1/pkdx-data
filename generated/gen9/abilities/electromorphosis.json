@@ -1,8 +1,13 @@
 {
-  "name": "Electromorphosis",
   "slug": "electromorphosis",
-  "flavorText": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses.",
+  "name": "Electromorphosis",
+  "gen": 9,
   "pokemon": [
     "bellibolt"
-  ]
+  ],
+  "desc": "This Pokemon's next Electric-type move has its damage boosted if it takes direct damage.",
+  "shortDesc": "This Pokemon becomes charged if it takes direct damage.",
+  "flavorText": {
+    "sv": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses."
+  }
 }

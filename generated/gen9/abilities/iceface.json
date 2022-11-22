@@ -1,8 +1,14 @@
 {
-  "name": "Ice Face",
   "slug": "iceface",
-  "flavorText": "The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it snows.",
+  "name": "Ice Face",
+  "gen": 8,
   "pokemon": [
-    "eiscue"
-  ]
+    "eiscue",
+    "eiscue-noice"
+  ],
+  "desc": "If this Pokemon is an Eiscue, the first physical hit it takes in battle deals 0 neutral damage. Its ice face is then broken and it changes forme to Noice Face. Eiscue regains its Ice Face forme when Snow begins or when Eiscue switches in while Snow is active. Confusion damage also breaks the ice face.",
+  "shortDesc": "If Eiscue, the first physical hit it takes deals 0 damage. This effect is restored in Snow.",
+  "flavorText": {
+    "sv": "The Pokémon's ice head can take a physical attack as a substitute, but the attack also changes the Pokémon's appearance. The ice will be restored when it snows."
+  }
 }

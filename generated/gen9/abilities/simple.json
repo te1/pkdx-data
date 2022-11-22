@@ -1,8 +1,13 @@
 {
-  "name": "Simple",
   "slug": "simple",
-  "flavorText": "Doubles the effects of the Pokémon’s stat changes.",
+  "name": "Simple",
+  "gen": 4,
   "pokemon": [
     "numel"
-  ]
+  ],
+  "desc": "When one of this Pokemon's stat stages is raised or lowered, the amount is doubled.",
+  "shortDesc": "When one of this Pokemon's stat stages is raised or lowered, the amount is doubled.",
+  "flavorText": {
+    "sv": "Doubles the effects of the Pokémon's stat changes."
+  }
 }

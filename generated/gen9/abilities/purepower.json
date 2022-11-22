@@ -1,9 +1,14 @@
 {
-  "name": "Pure Power",
   "slug": "purepower",
-  "flavorText": "Using its pure power, the Pokémon doubles its Attack stat.",
+  "name": "Pure Power",
+  "gen": 3,
   "pokemon": [
-    "meditite",
-    "medicham"
-  ]
+    "medicham",
+    "meditite"
+  ],
+  "desc": "This Pokemon's Attack is doubled.",
+  "shortDesc": "This Pokemon's Attack is doubled.",
+  "flavorText": {
+    "sv": "Using its pure power, the Pokémon doubles its Attack stat."
+  }
 }

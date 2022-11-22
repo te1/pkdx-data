@@ -1,8 +1,13 @@
 {
-  "name": "Transistor",
   "slug": "transistor",
-  "flavorText": "Powers up Electric-type moves.",
+  "name": "Transistor",
+  "gen": 8,
   "pokemon": [
     "regieleki"
-  ]
+  ],
+  "desc": "This Pokemon's offensive stat is multiplied by 1.5 while using an Electric-type attack.",
+  "shortDesc": "This Pokemon's offensive stat is multiplied by 1.5 while using an Electric-type attack.",
+  "flavorText": {
+    "sv": "Powers up Electric-type moves."
+  }
 }

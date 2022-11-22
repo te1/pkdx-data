@@ -1,8 +1,13 @@
 {
-  "name": "Scrappy",
   "slug": "scrappy",
-  "flavorText": "The Pokémon can hit Ghost-type Pokémon with Normal-and Fighting-type moves. It is also unaffected by Intimidate.",
+  "name": "Scrappy",
+  "gen": 4,
   "pokemon": [
     "flamigo"
-  ]
+  ],
+  "desc": "This Pokemon can hit Ghost types with Normal- and Fighting-type moves. This Pokemon is immune to the effect of the Intimidate Ability.",
+  "shortDesc": "Fighting, Normal moves hit Ghost. Immune to Intimidate.",
+  "flavorText": {
+    "sv": "The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves. It is also unaffected by Intimidate."
+  }
 }

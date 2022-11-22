@@ -1,15 +1,21 @@
 {
-  "name": "Synchronize",
   "slug": "synchronize",
-  "flavorText": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition.",
+  "name": "Synchronize",
+  "gen": 3,
   "pokemon": [
-    "ralts",
-    "kirlia",
-    "gardevoir",
     "espeon",
-    "umbreon",
+    "gardevoir",
     "indeedee",
+    "indeedee-f",
+    "kirlia",
+    "mew",
     "rabsca",
-    "mew"
-  ]
+    "ralts",
+    "umbreon"
+  ],
+  "desc": "If another Pokemon burns, paralyzes, poisons, or badly poisons this Pokemon, that Pokemon receives the same non-volatile status condition.",
+  "shortDesc": "If another Pokemon burns/poisons/paralyzes this Pokemon, it also gets that status.",
+  "flavorText": {
+    "sv": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition."
+  }
 }

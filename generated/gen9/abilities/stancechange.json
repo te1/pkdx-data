@@ -1,5 +1,13 @@
 {
-  "name": "Stance Change",
   "slug": "stancechange",
-  "flavorText": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King’s Shield."
+  "name": "Stance Change",
+  "gen": 6,
+  "pokemon": [
+    "aegislashblade"
+  ],
+  "desc": "If this Pokemon is an Aegislash, it changes to Blade Forme before using an attacking move, and changes to Shield Forme before using King's Shield.",
+  "shortDesc": "If Aegislash, changes Forme to Blade before attacks and Shield before King's Shield.",
+  "flavorText": {
+    "sv": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King's Shield."
+  }
 }

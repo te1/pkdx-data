@@ -1,8 +1,13 @@
 {
-  "name": "Well-Baked Body",
   "slug": "wellbakedbody",
-  "flavorText": "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted.",
+  "name": "Well-Baked Body",
+  "gen": 9,
   "pokemon": [
     "dachsbun"
-  ]
+  ],
+  "desc": "This Pokemon is immune to Fire-type moves and raises its Defense by 2 stages when hit by a Fire-type move.",
+  "shortDesc": "This Pokemon's Defense is raised 2 stages if hit by a Fire move; Fire immunity.",
+  "flavorText": {
+    "sv": "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted."
+  }
 }

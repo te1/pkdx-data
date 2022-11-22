@@ -1,11 +1,16 @@
 {
-  "name": "Quick Feet",
   "slug": "quickfeet",
-  "flavorText": "Boosts the Speed stat if the Pokémon has a status condition.",
+  "name": "Quick Feet",
+  "gen": 4,
   "pokemon": [
-    "shroomish",
     "jolteon",
+    "shroomish",
     "teddiursa",
     "ursaring"
-  ]
+  ],
+  "desc": "If this Pokemon has a non-volatile status condition, its Speed is multiplied by 1.5. This Pokemon ignores the paralysis effect of halving Speed.",
+  "shortDesc": "If this Pokemon is statused, its Speed is 1.5x; ignores Speed drop from paralysis.",
+  "flavorText": {
+    "sv": "Boosts the Speed stat if the Pokémon has a status condition."
+  }
 }

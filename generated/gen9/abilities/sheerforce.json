@@ -1,19 +1,27 @@
 {
-  "name": "Sheer Force",
   "slug": "sheerforce",
-  "flavorText": "Removes any additional effects from the Pokémon’s moves, but increases the moves’ power.",
+  "name": "Sheer Force",
+  "gen": 5,
   "pokemon": [
-    "makuhita",
-    "hariyama",
-    "cufant",
-    "copperajah",
-    "tauros",
     "bagon",
-    "cetoddle",
-    "cetitan",
-    "rufflet",
     "braviary",
+    "braviary-hisui",
+    "cetitan",
+    "cetoddle",
+    "copperajah",
+    "cufant",
+    "hariyama",
     "kleavor",
-    "landorus"
-  ]
+    "landorus",
+    "makuhita",
+    "rufflet",
+    "squawkabilly-white",
+    "squawkabilly-yellow",
+    "tauros"
+  ],
+  "desc": "This Pokemon's attacks with secondary effects have their power multiplied by 1.3, but the secondary effects are removed. If a secondary effect was removed, it also removes the user's Life Orb recoil and Shell Bell recovery, and prevents the target's Berserk, Color Change, Emergency Exit, Pickpocket, Wimp Out, Red Card, Eject Button, Kee Berry, and Maranga Berry from activating.",
+  "shortDesc": "This Pokemon's attacks with secondary effects have 1.3x power; nullifies the effects.",
+  "flavorText": {
+    "sv": "Removes any additional effects from the Pokémon's moves, but increases the moves' power."
+  }
 }

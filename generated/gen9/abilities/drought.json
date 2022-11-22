@@ -1,9 +1,14 @@
 {
-  "name": "Drought",
   "slug": "drought",
-  "flavorText": "Turns the sunlight harsh when the Pokémon enters a battle.",
+  "name": "Drought",
+  "gen": 3,
   "pokemon": [
-    "torkoal",
-    "groudon"
-  ]
+    "groudon",
+    "torkoal"
+  ],
+  "desc": "On switch-in, this Pokemon summons Sunny Day.",
+  "shortDesc": "On switch-in, this Pokemon summons Sunny Day.",
+  "flavorText": {
+    "sv": "Turns the sunlight harsh when the Pokémon enters a battle."
+  }
 }

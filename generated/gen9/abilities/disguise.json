@@ -1,8 +1,14 @@
 {
-  "name": "Disguise",
   "slug": "disguise",
-  "flavorText": "Once per battle, the shroud that covers the Pokémon can protect it from an attack.",
+  "name": "Disguise",
+  "gen": 7,
   "pokemon": [
-    "mimikyu"
-  ]
+    "mimikyu",
+    "mimikyu-busted"
+  ],
+  "desc": "If this Pokemon is a Mimikyu, the first hit it takes in battle deals 0 neutral damage. Its disguise is then broken, it changes to Busted Form, and it loses 1/8 of its max HP. Confusion damage also breaks the disguise.",
+  "shortDesc": "(Mimikyu only) The first hit it takes is blocked, and it takes 1/8 HP damage instead.",
+  "flavorText": {
+    "sv": "Once per battle, the shroud that covers the Pokémon can protect it from an attack."
+  }
 }

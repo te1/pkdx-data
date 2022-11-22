@@ -1,10 +1,15 @@
 {
-  "name": "Purifying Salt",
   "slug": "purifyingsalt",
-  "flavorText": "The Pokémon’s pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
+  "name": "Purifying Salt",
+  "gen": 9,
   "pokemon": [
+    "garganacl",
     "nacli",
-    "naclstack",
-    "garganacl"
-  ]
+    "naclstack"
+  ],
+  "desc": "This Pokemon cannot become affected by a status condition or Yawn. If a Pokemon uses a Ghost-type attack against this Pokemon, that Pokemon's offensive stat is halved when calculating the damage to this Pokemon.",
+  "shortDesc": "This Pokemon cannot be statused; Ghost power against it is halved.",
+  "flavorText": {
+    "sv": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves."
+  }
 }

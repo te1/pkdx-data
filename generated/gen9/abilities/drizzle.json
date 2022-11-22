@@ -1,9 +1,14 @@
 {
-  "name": "Drizzle",
   "slug": "drizzle",
-  "flavorText": "The Pokémon makes it rain when it enters a battle.",
+  "name": "Drizzle",
+  "gen": 3,
   "pokemon": [
-    "pelipper",
-    "kyogre"
-  ]
+    "kyogre",
+    "pelipper"
+  ],
+  "desc": "On switch-in, this Pokemon summons Rain Dance.",
+  "shortDesc": "On switch-in, this Pokemon summons Rain Dance.",
+  "flavorText": {
+    "sv": "The Pokémon makes it rain when it enters a battle."
+  }
 }

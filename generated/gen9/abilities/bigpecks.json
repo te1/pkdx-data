@@ -1,11 +1,16 @@
 {
-  "name": "Big Pecks",
   "slug": "bigpecks",
-  "flavorText": "Prevents the Pokémon from having its Defense stat lowered.",
+  "name": "Big Pecks",
+  "gen": 5,
   "pokemon": [
-    "fletchling",
-    "rookidee",
+    "bombirdier",
     "corvisquire",
-    "bombirdier"
-  ]
+    "fletchling",
+    "rookidee"
+  ],
+  "desc": "Prevents other Pokemon from lowering this Pokemon's Defense stat stage.",
+  "shortDesc": "Prevents other Pokemon from lowering this Pokemon's Defense stat stage.",
+  "flavorText": {
+    "sv": "Prevents the Pokémon from having its Defense stat lowered."
+  }
 }

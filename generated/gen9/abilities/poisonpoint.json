@@ -1,12 +1,19 @@
 {
-  "name": "Poison Point",
   "slug": "poisonpoint",
-  "flavorText": "Contact with the Pokémon may poison the attacker.",
+  "name": "Poison Point",
+  "gen": 3,
   "pokemon": [
     "clodsire",
-    "qwilfish",
-    "skrelp",
     "dragalge",
-    "overqwil"
-  ]
+    "overqwil",
+    "qwilfish",
+    "qwilfish-hisui",
+    "skrelp",
+    "wooper-paldea"
+  ],
+  "desc": "30% chance a Pokemon making contact with this Pokemon will be poisoned.",
+  "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be poisoned.",
+  "flavorText": {
+    "sv": "Contact with the Pokémon may poison the attacker."
+  }
 }

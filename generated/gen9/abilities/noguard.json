@@ -1,8 +1,14 @@
 {
-  "name": "No Guard",
   "slug": "noguard",
-  "flavorText": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+  "name": "No Guard",
+  "gen": 4,
   "pokemon": [
-    "kubfu"
-  ]
+    "kubfu",
+    "lycanroc-midnight"
+  ],
+  "desc": "Every move used by or against this Pokemon will always hit.",
+  "shortDesc": "Every move used by or against this Pokemon will always hit.",
+  "flavorText": {
+    "sv": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+  }
 }

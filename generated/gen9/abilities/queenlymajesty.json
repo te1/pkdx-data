@@ -1,8 +1,13 @@
 {
-  "name": "Queenly Majesty",
   "slug": "queenlymajesty",
-  "flavorText": "The Pokémon’s majesty pressures opponents and makes them unable to use priority moves against the Pokémon or its allies.",
+  "name": "Queenly Majesty",
+  "gen": 7,
   "pokemon": [
     "tsareena"
-  ]
+  ],
+  "desc": "Priority moves used by opposing Pokemon targeting this Pokemon or its allies are prevented from having an effect.",
+  "shortDesc": "This Pokemon and its allies are protected from opposing priority moves.",
+  "flavorText": {
+    "sv": "The Pokémon's majesty pressures opponents and makes them unable to use priority moves against the Pokémon or its allies."
+  }
 }

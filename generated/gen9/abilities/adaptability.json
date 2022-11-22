@@ -1,14 +1,22 @@
 {
-  "name": "Adaptability",
   "slug": "adaptability",
-  "flavorText": "Powers up moves of the same type as the Pokémon.",
+  "name": "Adaptability",
+  "gen": 4,
   "pokemon": [
-    "yungoos",
-    "gumshoos",
+    "basculegion",
+    "basculegion-f",
     "basculin",
-    "eevee",
-    "skrelp",
+    "basculin-blue-striped",
+    "basculin-white-striped",
     "dragalge",
-    "basculegion"
-  ]
+    "eevee",
+    "gumshoos",
+    "skrelp",
+    "yungoos"
+  ],
+  "desc": "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
+  "shortDesc": "This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5.",
+  "flavorText": {
+    "sv": "Powers up moves of the same type as the Pokémon."
+  }
 }

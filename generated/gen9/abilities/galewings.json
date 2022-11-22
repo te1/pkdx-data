@@ -1,10 +1,15 @@
 {
-  "name": "Gale Wings",
   "slug": "galewings",
-  "flavorText": "Gives priority to the Pokémon’s Flying-type moves while its HP is full.",
+  "name": "Gale Wings",
+  "gen": 6,
   "pokemon": [
-    "fletchling",
     "fletchinder",
+    "fletchling",
     "talonflame"
-  ]
+  ],
+  "desc": "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
+  "shortDesc": "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
+  "flavorText": {
+    "sv": "Gives priority to the Pokémon's Flying-type moves while its HP is full."
+  }
 }

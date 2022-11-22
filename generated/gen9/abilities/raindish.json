@@ -1,10 +1,15 @@
 {
-  "name": "Rain Dish",
   "slug": "raindish",
-  "flavorText": "The Pokémon gradually regains HP in rain.",
+  "name": "Rain Dish",
+  "gen": 3,
   "pokemon": [
+    "pelipper",
     "surskit",
-    "wingull",
-    "pelipper"
-  ]
+    "wingull"
+  ],
+  "desc": "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+  "shortDesc": "If Rain Dance is active, this Pokemon heals 1/16 of its max HP each turn.",
+  "flavorText": {
+    "sv": "The Pokémon gradually regains HP in rain."
+  }
 }

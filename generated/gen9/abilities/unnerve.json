@@ -1,26 +1,32 @@
 {
-  "name": "Unnerve",
   "slug": "unnerve",
-  "flavorText": "Unnerves opposing Pokémon and makes them unable to eat Berries.",
+  "name": "Unnerve",
+  "gen": 5,
   "pokemon": [
-    "houndour",
-    "houndoom",
-    "vespiquen",
-    "rookidee",
-    "corvisquire",
-    "corviknight",
-    "masquerain",
-    "meowth",
-    "persian",
     "axew",
+    "calyrex",
+    "corviknight",
+    "corvisquire",
     "fraxure",
     "haxorus",
-    "ursaring",
+    "houndoom",
+    "houndour",
     "litleo",
-    "pyroar",
-    "tyranitar",
-    "calyrex",
+    "masquerain",
+    "meowth",
+    "meowth-galar",
     "mewtwo",
-    "ursaluna"
-  ]
+    "persian",
+    "pyroar",
+    "rookidee",
+    "tyranitar",
+    "ursaluna",
+    "ursaring",
+    "vespiquen"
+  ],
+  "desc": "While this Pokemon is active, it prevents opposing Pokemon from using their Berries. This Ability activates before hazards and other Abilities take effect.",
+  "shortDesc": "While this Pokemon is active, it prevents opposing Pokemon from using their Berries.",
+  "flavorText": {
+    "sv": "Unnerves opposing Pokémon and makes them unable to eat Berries."
+  }
 }

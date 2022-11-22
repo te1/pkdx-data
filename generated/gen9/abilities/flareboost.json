@@ -1,9 +1,14 @@
 {
-  "name": "Flare Boost",
   "slug": "flareboost",
-  "flavorText": "Powers up special moves when the Pokémon is burned.",
+  "name": "Flare Boost",
+  "gen": 5,
   "pokemon": [
-    "drifloon",
-    "drifblim"
-  ]
+    "drifblim",
+    "drifloon"
+  ],
+  "desc": "While this Pokemon is burned, the power of its special attacks is multiplied by 1.5.",
+  "shortDesc": "While this Pokemon is burned, its special attacks have 1.5x power.",
+  "flavorText": {
+    "sv": "Powers up special moves when the Pokémon is burned."
+  }
 }

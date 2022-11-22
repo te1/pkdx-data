@@ -1,19 +1,25 @@
 {
-  "name": "Thick Fat",
   "slug": "thickfat",
-  "flavorText": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
+  "name": "Thick Fat",
+  "gen": 3,
   "pokemon": [
-    "lechonk",
-    "oinkologne",
-    "azurill",
-    "marill",
-    "azumarill",
     "appletun",
-    "spoink",
-    "grumpig",
-    "makuhita",
-    "hariyama",
+    "azumarill",
+    "azurill",
+    "cetitan",
     "cetoddle",
-    "cetitan"
-  ]
+    "grumpig",
+    "hariyama",
+    "lechonk",
+    "makuhita",
+    "marill",
+    "oinkologne",
+    "oinkologne-f",
+    "spoink"
+  ],
+  "desc": "If a Pokemon uses a Fire- or Ice-type attack against this Pokemon, that Pokemon's offensive stat is halved when calculating the damage to this Pokemon.",
+  "shortDesc": "Fire-/Ice-type moves against this Pokemon deal damage with a halved offensive stat.",
+  "flavorText": {
+    "sv": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves."
+  }
 }

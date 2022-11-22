@@ -1,10 +1,16 @@
 {
-  "name": "Long Reach",
   "slug": "longreach",
-  "flavorText": "The Pokémon uses its moves without making contact with the target.",
+  "name": "Long Reach",
+  "gen": 7,
   "pokemon": [
     "dartrix",
     "decidueye",
+    "decidueye-hisui",
     "rowlet"
-  ]
+  ],
+  "desc": "This Pokemon's attacks do not make contact with the target.",
+  "shortDesc": "This Pokemon's attacks do not make contact with the target.",
+  "flavorText": {
+    "sv": "The Pokémon uses its moves without making contact with the target."
+  }
 }

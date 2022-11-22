@@ -1,5 +1,13 @@
 {
-  "name": "Victory Star",
   "slug": "victorystar",
-  "flavorText": "Boosts the accuracy of the Pokémon and its allies."
+  "name": "Victory Star",
+  "gen": 5,
+  "pokemon": [
+    "victini"
+  ],
+  "desc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.1.",
+  "shortDesc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.1.",
+  "flavorText": {
+    "sv": "Boosts the accuracy of the Pokémon and its allies."
+  }
 }

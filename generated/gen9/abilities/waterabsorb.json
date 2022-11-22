@@ -1,14 +1,20 @@
 {
-  "name": "Water Absorb",
   "slug": "waterabsorb",
-  "flavorText": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.",
+  "name": "Water Absorb",
+  "gen": 3,
   "pokemon": [
-    "wooper",
-    "clodsire",
-    "vaporeon",
     "cacnea",
     "cacturne",
+    "clodsire",
     "quagsire",
-    "volcanion"
-  ]
+    "vaporeon",
+    "volcanion",
+    "wooper",
+    "wooper-paldea"
+  ],
+  "desc": "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",
+  "shortDesc": "This Pokemon heals 1/4 of its max HP when hit by Water moves; Water immunity.",
+  "flavorText": {
+    "sv": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+  }
 }

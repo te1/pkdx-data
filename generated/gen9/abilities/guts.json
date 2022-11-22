@@ -1,18 +1,24 @@
 {
-  "name": "Guts",
   "slug": "guts",
-  "flavorText": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+  "name": "Guts",
+  "gen": 3,
   "pokemon": [
-    "shinx",
-    "luxio",
-    "luxray",
-    "squawkabilly",
-    "makuhita",
-    "hariyama",
     "flareon",
-    "ursaring",
+    "hariyama",
     "heracross",
     "larvitar",
-    "ursaluna"
-  ]
+    "luxio",
+    "luxray",
+    "makuhita",
+    "shinx",
+    "squawkabilly",
+    "squawkabilly-blue",
+    "ursaluna",
+    "ursaring"
+  ],
+  "desc": "If this Pokemon has a non-volatile status condition, its Attack is multiplied by 1.5. This Pokemon's physical attacks ignore the burn effect of halving damage.",
+  "shortDesc": "If this Pokemon is statused, its Attack is 1.5x; ignores burn halving physical damage.",
+  "flavorText": {
+    "sv": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+  }
 }

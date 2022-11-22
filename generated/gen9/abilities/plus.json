@@ -1,12 +1,17 @@
 {
-  "name": "Plus",
   "slug": "plus",
-  "flavorText": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+  "name": "Plus",
+  "gen": 3,
   "pokemon": [
-    "mareep",
-    "flaaffy",
     "ampharos",
-    "toxtricity",
-    "dedenne"
-  ]
+    "dedenne",
+    "flaaffy",
+    "mareep",
+    "toxtricity"
+  ],
+  "desc": "If an active ally has this Ability or the Minus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
+  "shortDesc": "If an active ally has this Ability or the Minus Ability, this Pokemon's Sp. Atk is 1.5x.",
+  "flavorText": {
+    "sv": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle."
+  }
 }

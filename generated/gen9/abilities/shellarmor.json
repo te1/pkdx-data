@@ -1,16 +1,23 @@
 {
-  "name": "Shell Armor",
   "slug": "shellarmor",
-  "flavorText": "A hard shell protects the Pokémon from critical hits.",
+  "name": "Shell Armor",
+  "gen": 3,
   "pokemon": [
     "chewtle",
-    "drednaw",
-    "torkoal",
-    "klawf",
-    "shellder",
     "cloyster",
     "dewott",
+    "drednaw",
+    "goodra-hisui",
+    "klawf",
     "oshawott",
-    "samurott"
-  ]
+    "samurott",
+    "shellder",
+    "sliggoo-hisui",
+    "torkoal"
+  ],
+  "desc": "This Pokemon cannot be struck by a critical hit.",
+  "shortDesc": "This Pokemon cannot be struck by a critical hit.",
+  "flavorText": {
+    "sv": "A hard shell protects the Pokémon from critical hits."
+  }
 }

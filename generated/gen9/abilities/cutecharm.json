@@ -1,12 +1,17 @@
 {
-  "name": "Cute Charm",
   "slug": "cutecharm",
-  "flavorText": "The Pokémon may infatuate attackers that make direct contact with it.",
+  "name": "Cute Charm",
+  "gen": 3,
   "pokemon": [
+    "enamorus",
     "igglybuff",
     "jigglypuff",
-    "wigglytuff",
     "sylveon",
-    "enamorus"
-  ]
+    "wigglytuff"
+  ],
+  "desc": "There is a 30% chance a Pokemon making contact with this Pokemon will become infatuated if it is of the opposite gender.",
+  "shortDesc": "30% chance of infatuating Pokemon of the opposite gender if they make contact.",
+  "flavorText": {
+    "sv": "The Pokémon may infatuate attackers that make direct contact with it."
+  }
 }

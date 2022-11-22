@@ -1,16 +1,21 @@
 {
-  "name": "Flame Body",
   "slug": "flamebody",
-  "flavorText": "Contact with the Pokémon may burn the attacker.",
+  "name": "Flame Body",
+  "gen": 3,
   "pokemon": [
-    "fletchinder",
-    "talonflame",
     "carkol",
-    "coalossal",
     "charcadet",
-    "larvesta",
-    "volcarona",
+    "coalossal",
+    "fletchinder",
     "heatran",
-    "moltres"
-  ]
+    "larvesta",
+    "moltres",
+    "talonflame",
+    "volcarona"
+  ],
+  "desc": "30% chance a Pokemon making contact with this Pokemon will be burned.",
+  "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be burned.",
+  "flavorText": {
+    "sv": "Contact with the Pokémon may burn the attacker."
+  }
 }

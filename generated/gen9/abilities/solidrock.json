@@ -1,8 +1,13 @@
 {
-  "name": "Solid Rock",
   "slug": "solidrock",
-  "flavorText": "Reduces the power of supereffective attacks that hit the Pokémon.",
+  "name": "Solid Rock",
+  "gen": 4,
   "pokemon": [
     "camerupt"
-  ]
+  ],
+  "desc": "This Pokemon receives 3/4 damage from supereffective attacks.",
+  "shortDesc": "This Pokemon receives 3/4 damage from supereffective attacks.",
+  "flavorText": {
+    "sv": "Reduces the power of supereffective attacks that hit the Pokémon."
+  }
 }

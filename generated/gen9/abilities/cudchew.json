@@ -1,8 +1,16 @@
 {
-  "name": "Cud Chew",
   "slug": "cudchew",
-  "flavorText": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.",
+  "name": "Cud Chew",
+  "gen": 9,
   "pokemon": [
-    "farigiraf"
-  ]
+    "farigiraf",
+    "tauros-paldea",
+    "tauros-paldea-fire",
+    "tauros-paldea-water"
+  ],
+  "desc": "When this Pokemon consumes a berry, it will consume the berry again at the end of the following turn.",
+  "shortDesc": "If this Pokemon eats a berry, it will consume the berry again at the end of next turn.",
+  "flavorText": {
+    "sv": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time."
+  }
 }

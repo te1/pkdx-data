@@ -1,9 +1,14 @@
 {
-  "name": "Super Luck",
   "slug": "superluck",
-  "flavorText": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.",
+  "name": "Super Luck",
+  "gen": 4,
   "pokemon": [
-    "murkrow",
-    "honchkrow"
-  ]
+    "honchkrow",
+    "murkrow"
+  ],
+  "desc": "This Pokemon's critical hit ratio is raised by 1 stage.",
+  "shortDesc": "This Pokemon's critical hit ratio is raised by 1 stage.",
+  "flavorText": {
+    "sv": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted."
+  }
 }

@@ -1,8 +1,14 @@
 {
-  "name": "Soul-Heart",
   "slug": "soulheart",
-  "flavorText": "Boosts the Pokémon’s Sp. Atk stat every time another Pokémon faints.",
+  "name": "Soul-Heart",
+  "gen": 7,
   "pokemon": [
-    "magearna"
-  ]
+    "magearna",
+    "magearna-original"
+  ],
+  "desc": "This Pokemon's Special Attack is raised by 1 stage when another Pokemon faints.",
+  "shortDesc": "This Pokemon's Special Attack is raised by 1 stage when another Pokemon faints.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's Sp. Atk stat every time another Pokémon faints."
+  }
 }

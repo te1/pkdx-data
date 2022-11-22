@@ -1,11 +1,18 @@
 {
-  "name": "Soundproof",
   "slug": "soundproof",
-  "flavorText": "Soundproofing gives the Pokémon full immunity to all sound-based moves.",
+  "name": "Soundproof",
+  "gen": 3,
   "pokemon": [
-    "voltorb",
+    "abomasnow",
     "electrode",
+    "electrode-hisui",
     "snover",
-    "abomasnow"
-  ]
+    "voltorb",
+    "voltorb-hisui"
+  ],
+  "desc": "This Pokemon is immune to sound-based moves, unless it used the move.",
+  "shortDesc": "This Pokemon is immune to sound-based moves, unless it used the move.",
+  "flavorText": {
+    "sv": "Soundproofing gives the Pokémon full immunity to all sound-based moves."
+  }
 }

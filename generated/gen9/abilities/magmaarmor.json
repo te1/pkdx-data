@@ -1,8 +1,13 @@
 {
-  "name": "Magma Armor",
   "slug": "magmaarmor",
-  "flavorText": "The Pokémon’s hot magma coating prevents it from being frozen.",
+  "name": "Magma Armor",
+  "gen": 3,
   "pokemon": [
     "camerupt"
-  ]
+  ],
+  "desc": "This Pokemon cannot be frozen. Gaining this Ability while frozen cures it.",
+  "shortDesc": "This Pokemon cannot be frozen. Gaining this Ability while frozen cures it.",
+  "flavorText": {
+    "sv": "The Pokémon's hot magma coating prevents it from being frozen."
+  }
 }

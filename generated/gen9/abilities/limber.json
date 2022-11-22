@@ -1,12 +1,17 @@
 {
-  "name": "Limber",
   "slug": "limber",
-  "flavorText": "The Pokémon’s limber body prevents it from being paralyzed.",
+  "name": "Limber",
+  "gen": 3,
   "pokemon": [
-    "persian",
     "ditto",
     "hawlucha",
     "mareanie",
+    "persian",
     "toxapex"
-  ]
+  ],
+  "desc": "This Pokemon cannot be paralyzed. Gaining this Ability while paralyzed cures it.",
+  "shortDesc": "This Pokemon cannot be paralyzed. Gaining this Ability while paralyzed cures it.",
+  "flavorText": {
+    "sv": "The Pokémon's limber body prevents it from being paralyzed."
+  }
 }

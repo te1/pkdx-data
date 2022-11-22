@@ -1,8 +1,13 @@
 {
-  "name": "Slow Start",
   "slug": "slowstart",
-  "flavorText": "For five turns, the Pokémon’s Attack and Speed stats are halved.",
+  "name": "Slow Start",
+  "gen": 4,
   "pokemon": [
     "varoom"
-  ]
+  ],
+  "desc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
+  "shortDesc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
+  "flavorText": {
+    "sv": "For five turns, the Pokémon's Attack and Speed stats are halved."
+  }
 }

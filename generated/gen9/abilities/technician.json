@@ -1,15 +1,24 @@
 {
-  "name": "Technician",
   "slug": "technician",
-  "flavorText": "Powers up weak moves so the Pokémon can deal more damage with them.",
+  "name": "Technician",
+  "gen": 4,
   "pokemon": [
+    "breloom",
     "kricketune",
     "maushold",
-    "breloom",
+    "maushold-four",
     "meowth",
+    "meowth-alola",
     "persian",
-    "toxtricity",
+    "persian-alola",
+    "scizor",
     "scyther",
-    "scizor"
-  ]
+    "toxtricity",
+    "toxtricity-low-key"
+  ],
+  "desc": "This Pokemon's moves of 60 power or less have their power multiplied by 1.5, including Struggle. This effect comes after a move's effect changes its own power.",
+  "shortDesc": "This Pokemon's moves of 60 power or less have 1.5x power, including Struggle.",
+  "flavorText": {
+    "sv": "Powers up weak moves so the Pokémon can deal more damage with them."
+  }
 }

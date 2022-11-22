@@ -1,8 +1,13 @@
 {
-  "name": "Guard Dog",
   "slug": "guarddog",
-  "flavorText": "Boosts the Pokémon’s Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work.",
+  "name": "Guard Dog",
+  "gen": 9,
   "pokemon": [
     "mabosstiff"
-  ]
+  ],
+  "desc": "Immune to Intimidate. Intimidated: +1 Attack. Cannot be forced to switch out.",
+  "shortDesc": "Immune to Intimidate. Intimidated: +1 Attack. Cannot be forced to switch out.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work."
+  }
 }

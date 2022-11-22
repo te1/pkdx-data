@@ -1,17 +1,26 @@
 {
-  "name": "Regenerator",
   "slug": "regenerator",
-  "flavorText": "The Pokémon has a little of its HP restored when withdrawn from battle.",
+  "name": "Regenerator",
+  "gen": 5,
   "pokemon": [
-    "foongus",
-    "amoonguss",
-    "klawf",
-    "cyclizar",
-    "slowpoke",
-    "slowbro",
-    "slowking",
     "alomomola",
+    "amoonguss",
+    "cyclizar",
+    "foongus",
+    "klawf",
     "mareanie",
+    "slowbro",
+    "slowbro-galar",
+    "slowking",
+    "slowking-galar",
+    "slowpoke",
+    "slowpoke-galar",
+    "tornadus-therian",
     "toxapex"
-  ]
+  ],
+  "desc": "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
+  "shortDesc": "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
+  "flavorText": {
+    "sv": "The Pokémon has a little of its HP restored when withdrawn from battle."
+  }
 }

@@ -1,11 +1,16 @@
 {
-  "name": "Cloud Nine",
   "slug": "cloudnine",
-  "flavorText": "Eliminates the effects of weather.",
+  "name": "Cloud Nine",
+  "gen": 3,
   "pokemon": [
-    "psyduck",
+    "altaria",
     "golduck",
-    "swablu",
-    "altaria"
-  ]
+    "psyduck",
+    "swablu"
+  ],
+  "desc": "While this Pokemon is active, the effects of weather conditions are disabled.",
+  "shortDesc": "While this Pokemon is active, the effects of weather conditions are disabled.",
+  "flavorText": {
+    "sv": "Eliminates the effects of weather."
+  }
 }

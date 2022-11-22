@@ -1,9 +1,14 @@
 {
-  "name": "Battle Armor",
   "slug": "battlearmor",
-  "flavorText": "Hard armor protects the Pokémon from critical hits.",
+  "name": "Battle Armor",
+  "gen": 3,
   "pokemon": [
     "falinks",
     "perrserker"
-  ]
+  ],
+  "desc": "This Pokemon cannot be struck by a critical hit.",
+  "shortDesc": "This Pokemon cannot be struck by a critical hit.",
+  "flavorText": {
+    "sv": "Hard armor protects the Pokémon from critical hits."
+  }
 }

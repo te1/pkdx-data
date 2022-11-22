@@ -1,15 +1,20 @@
 {
-  "name": "Clear Body",
   "slug": "clearbody",
-  "flavorText": "Prevents other Pokémon’s moves or Abilities from lowering the Pokémon’s stats.",
+  "name": "Clear Body",
+  "gen": 3,
   "pokemon": [
-    "nacli",
-    "naclstack",
-    "garganacl",
-    "dreepy",
-    "drakloak",
-    "dragapult",
     "carbink",
-    "diancie"
-  ]
+    "diancie",
+    "dragapult",
+    "drakloak",
+    "dreepy",
+    "garganacl",
+    "nacli",
+    "naclstack"
+  ],
+  "desc": "Prevents other Pokemon from lowering this Pokemon's stat stages.",
+  "shortDesc": "Prevents other Pokemon from lowering this Pokemon's stat stages.",
+  "flavorText": {
+    "sv": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats."
+  }
 }

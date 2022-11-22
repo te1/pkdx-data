@@ -1,8 +1,13 @@
 {
-  "name": "Hadron Engine",
   "slug": "hadronengine",
-  "flavorText": "Turns the ground into Electric Terrain when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat on Electric Terrain.",
+  "name": "Hadron Engine",
+  "gen": 9,
   "pokemon": [
     "miraidon"
-  ]
+  ],
+  "desc": "On switch-in, summons Electric Terrain. Sp. Atk is boosted by 30% in Electric Terrain.",
+  "shortDesc": "On switch-in, summons Electric Terrain. Sp. Atk is boosted by 30% in Electric Terrain.",
+  "flavorText": {
+    "sv": "Turns the ground into Electric Terrain when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat on Electric Terrain."
+  }
 }

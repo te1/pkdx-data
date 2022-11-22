@@ -1,10 +1,15 @@
 {
-  "name": "Grassy Surge",
   "slug": "grassysurge",
-  "flavorText": "Turns the ground into Grassy Terrain when the Pokémon enters a battle.",
+  "name": "Grassy Surge",
+  "gen": 7,
   "pokemon": [
     "grookey",
     "rillaboom",
     "thwackey"
-  ]
+  ],
+  "desc": "On switch-in, this Pokemon summons Grassy Terrain.",
+  "shortDesc": "On switch-in, this Pokemon summons Grassy Terrain.",
+  "flavorText": {
+    "sv": "Turns the ground into Grassy Terrain when the Pokémon enters a battle."
+  }
 }

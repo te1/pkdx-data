@@ -1,8 +1,14 @@
 {
-  "name": "Unseen Fist",
   "slug": "unseenfist",
-  "flavorText": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself.",
+  "name": "Unseen Fist",
+  "gen": 8,
   "pokemon": [
-    "urshifu"
-  ]
+    "urshifu",
+    "urshifu-rapid-strike"
+  ],
+  "desc": "This Pokemon's contact moves ignore the target's protection, except Max Guard.",
+  "shortDesc": "This Pokemon's contact moves ignore the target's protection, except Max Guard.",
+  "flavorText": {
+    "sv": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself."
+  }
 }

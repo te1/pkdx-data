@@ -1,8 +1,13 @@
 {
-  "name": "Dazzling",
   "slug": "dazzling",
-  "flavorText": "The Pokémon dazzles its opponents, making them unable to use priority moves against the Pokémon or its allies.",
+  "name": "Dazzling",
+  "gen": 7,
   "pokemon": [
     "bruxish"
-  ]
+  ],
+  "desc": "While this Pokemon is active, priority moves from opposing Pokemon that target this Pokemon or its allies are prevented from having an effect.",
+  "shortDesc": "This Pokemon and its allies are protected from opposing priority moves.",
+  "flavorText": {
+    "sv": "The Pokémon dazzles its opponents, making them unable to use priority moves against the Pokémon or its allies."
+  }
 }

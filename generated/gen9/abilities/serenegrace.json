@@ -1,15 +1,22 @@
 {
-  "name": "Serene Grace",
   "slug": "serenegrace",
-  "flavorText": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves.",
+  "name": "Serene Grace",
+  "gen": 3,
   "pokemon": [
-    "happiny",
-    "chansey",
     "blissey",
-    "dunsparce",
-    "dudunsparce",
+    "chansey",
     "deerling",
-    "sawsbuck",
-    "meloetta"
-  ]
+    "dudunsparce",
+    "dudunsparce-three-segment",
+    "dunsparce",
+    "happiny",
+    "meloetta",
+    "meloetta-pirouette",
+    "sawsbuck"
+  ],
+  "desc": "This Pokemon's moves have their secondary effect chance doubled. This effect stacks with the Rainbow effect, except for secondary effects that cause the target to flinch.",
+  "shortDesc": "This Pokemon's moves have their secondary effect chance doubled.",
+  "flavorText": {
+    "sv": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves."
+  }
 }

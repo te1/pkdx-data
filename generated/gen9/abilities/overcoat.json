@@ -1,14 +1,20 @@
 {
-  "name": "Overcoat",
   "slug": "overcoat",
-  "flavorText": "The Pokémon takes no damage from sandstorms. It is also protected from the effects of powders and spores.",
+  "name": "Overcoat",
+  "gen": 5,
   "pokemon": [
-    "pineco",
+    "cloyster",
+    "enamorus-therian",
     "forretress",
-    "shelgon",
-    "varoom",
+    "pineco",
     "revavroom",
+    "shelgon",
     "shellder",
-    "cloyster"
-  ]
+    "varoom"
+  ],
+  "desc": "This Pokemon is immune to powder moves, damage from Sandstorm, and the effects of Rage Powder and the Effect Spore Ability.",
+  "shortDesc": "This Pokemon is immune to powder moves, Sandstorm damage, and Effect Spore.",
+  "flavorText": {
+    "sv": "The Pokémon takes no damage from sandstorms. It is also protected from the effects of powders and spores."
+  }
 }

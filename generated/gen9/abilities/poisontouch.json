@@ -1,15 +1,22 @@
 {
-  "name": "Poison Touch",
   "slug": "poisontouch",
-  "flavorText": "May poison a target when the Pokémon makes contact.",
+  "name": "Poison Touch",
+  "gen": 5,
   "pokemon": [
     "croagunk",
-    "toxicroak",
-    "grimer",
-    "muk",
-    "grafaiai",
-    "skrelp",
     "dragalge",
-    "sneasler"
-  ]
+    "grafaiai",
+    "grimer",
+    "grimer-alola",
+    "muk",
+    "muk-alola",
+    "skrelp",
+    "sneasler",
+    "toxicroak"
+  ],
+  "desc": "This Pokemon's contact moves have a 30% chance of poisoning. This effect comes after a move's inherent secondary effect chance.",
+  "shortDesc": "This Pokemon's contact moves have a 30% chance of poisoning.",
+  "flavorText": {
+    "sv": "May poison a target when the Pokémon makes contact."
+  }
 }

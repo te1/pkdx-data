@@ -1,8 +1,15 @@
 {
-  "name": "Tough Claws",
   "slug": "toughclaws",
-  "flavorText": "Powers up moves that make direct contact.",
+  "name": "Tough Claws",
+  "gen": 6,
   "pokemon": [
+    "lycanroc-dusk",
+    "meowth-galar",
     "perrserker"
-  ]
+  ],
+  "desc": "This Pokemon's contact moves have their power multiplied by 1.3.",
+  "shortDesc": "This Pokemon's contact moves have their power multiplied by 1.3.",
+  "flavorText": {
+    "sv": "Powers up moves that make direct contact."
+  }
 }

@@ -1,12 +1,17 @@
 {
-  "name": "Bulletproof",
   "slug": "bulletproof",
-  "flavorText": "Protects the Pokémon from ball and bomb moves.",
+  "name": "Bulletproof",
+  "gen": 6,
   "pokemon": [
     "applin",
     "chesnaught",
     "chespin",
     "quilladin",
     "ursaluna"
-  ]
+  ],
+  "desc": "This Pokemon is immune to bullet moves.",
+  "shortDesc": "This Pokemon is immune to bullet moves.",
+  "flavorText": {
+    "sv": "Protects the Pokémon from ball and bomb moves."
+  }
 }

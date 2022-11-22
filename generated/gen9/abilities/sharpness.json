@@ -1,10 +1,16 @@
 {
-  "name": "Sharpness",
   "slug": "sharpness",
-  "flavorText": "Powers up slicing moves.",
+  "name": "Sharpness",
+  "gen": 9,
   "pokemon": [
     "gallade",
-    "veluza",
-    "kleavor"
-  ]
+    "kleavor",
+    "samurott-hisui",
+    "veluza"
+  ],
+  "desc": "This Pokemon's slicing attacks have their power multiplied by 1.5.",
+  "shortDesc": "This Pokemon's slicing attacks have 1.5x power.",
+  "flavorText": {
+    "sv": "Powers up slicing moves."
+  }
 }

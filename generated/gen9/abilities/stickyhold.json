@@ -1,13 +1,18 @@
 {
-  "name": "Sticky Hold",
   "slug": "stickyhold",
-  "flavorText": "The Pokémon’s held items cling to its sticky body and cannot be removed by other Pokémon.",
+  "name": "Sticky Hold",
+  "gen": 3,
   "pokemon": [
-    "gulpin",
-    "swalot",
+    "gastrodon",
     "grimer",
+    "gulpin",
     "muk",
     "shellos",
-    "gastrodon"
-  ]
+    "swalot"
+  ],
+  "desc": "This Pokemon cannot lose its held item due to another Pokemon's Ability or attack, unless the attack knocks out this Pokemon. A Sticky Barb will be transferred to other Pokemon regardless of this Ability.",
+  "shortDesc": "This Pokemon cannot lose its held item due to another Pokemon's Ability or attack.",
+  "flavorText": {
+    "sv": "The Pokémon's held items cling to its sticky body and cannot be removed by other Pokémon."
+  }
 }

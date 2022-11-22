@@ -1,8 +1,13 @@
 {
-  "name": "Armor Tail",
   "slug": "armortail",
-  "flavorText": "The mysterious tail covering the Pokémon’s head makes opponents unable to use priority moves against the Pokémon or its allies.",
+  "name": "Armor Tail",
+  "gen": 9,
   "pokemon": [
     "farigiraf"
-  ]
+  ],
+  "desc": "While this Pokemon is active, priority moves from opposing Pokemon that target this Pokemon or its allies are prevented from having an effect.",
+  "shortDesc": "This Pokemon and its allies are protected from opposing priority moves.",
+  "flavorText": {
+    "sv": "The mysterious tail covering the Pokémon's head makes opponents unable to use priority moves against the Pokémon or its allies."
+  }
 }

@@ -1,8 +1,13 @@
 {
-  "name": "Lingering Aroma",
   "slug": "lingeringaroma",
-  "flavorText": "Contact with the Pokémon changes the attacker’s Ability to Lingering Aroma.",
+  "name": "Lingering Aroma",
+  "gen": 9,
   "pokemon": [
     "oinkologne"
-  ]
+  ],
+  "desc": "Pokemon making contact with this Pokemon have their Ability changed to Lingering Aroma. Does not affect Pokemon with the As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Mummy, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode Abilities.",
+  "shortDesc": "Pokemon making contact with this Pokemon have their Ability changed to Lingering Aroma.",
+  "flavorText": {
+    "sv": "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma."
+  }
 }

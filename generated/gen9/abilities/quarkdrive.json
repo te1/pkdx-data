@@ -1,14 +1,19 @@
 {
-  "name": "Quark Drive",
   "slug": "quarkdrive",
-  "flavorText": "Boosts the Pokémon’s most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.",
+  "name": "Quark Drive",
+  "gen": 9,
   "pokemon": [
-    "irontreads",
     "ironbundle",
     "ironhands",
     "ironjugulis",
     "ironmoth",
     "ironthorns",
+    "irontreads",
     "ironvaliant"
-  ]
+  ],
+  "desc": "If Electric Terrain is active, or this Pokemon is holding Booster Energy, this Pokemon's highest stat is boosted by 50%.",
+  "shortDesc": "If Electric Terrain is active or Booster Energy held, the highest stat is 1.5x.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy."
+  }
 }

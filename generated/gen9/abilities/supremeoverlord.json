@@ -1,8 +1,13 @@
 {
-  "name": "Supreme Overlord",
   "slug": "supremeoverlord",
-  "flavorText": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.",
+  "name": "Supreme Overlord",
+  "gen": 9,
   "pokemon": [
     "kingambit"
-  ]
+  ],
+  "desc": "This Pokemon's Attack and Special Attack stats are increased by 10% for each fainted teammate.",
+  "shortDesc": "This Pokemon's Attack and Special Attack raise by 10% per fainted teammate.",
+  "flavorText": {
+    "sv": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated."
+  }
 }

@@ -1,9 +1,14 @@
 {
-  "name": "Poison Heal",
   "slug": "poisonheal",
-  "flavorText": "If poisoned, the Pokémon has its HP restored instead of taking damage.",
+  "name": "Poison Heal",
+  "gen": 4,
   "pokemon": [
-    "shroomish",
-    "breloom"
-  ]
+    "breloom",
+    "shroomish"
+  ],
+  "desc": "If this Pokemon is poisoned, it restores 1/8 of its maximum HP, rounded down, at the end of each turn instead of losing HP.",
+  "shortDesc": "This Pokemon is healed by 1/8 of its max HP each turn when poisoned; no HP loss.",
+  "flavorText": {
+    "sv": "If poisoned, the Pokémon has its HP restored instead of taking damage."
+  }
 }

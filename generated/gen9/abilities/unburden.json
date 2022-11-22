@@ -1,13 +1,18 @@
 {
-  "name": "Unburden",
   "slug": "unburden",
-  "flavorText": "Boosts the Speed stat if the Pokémon’s held item is used or lost.",
+  "name": "Unburden",
+  "gen": 4,
   "pokemon": [
-    "drifloon",
     "drifblim",
-    "shroodle",
+    "drifloon",
     "grafaiai",
     "hawlucha",
+    "shroodle",
     "sneasler"
-  ]
+  ],
+  "desc": "If this Pokemon loses its held item for any reason, its Speed is doubled as long as it remains active, has this Ability, and is not holding an item.",
+  "shortDesc": "Speed is doubled on held item loss; boost is lost if it switches, gets new item/Ability.",
+  "flavorText": {
+    "sv": "Boosts the Speed stat if the Pokémon's held item is used or lost."
+  }
 }

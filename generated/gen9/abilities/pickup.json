@@ -1,14 +1,21 @@
 {
-  "name": "Pickup",
   "slug": "pickup",
-  "flavorText": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too.",
+  "name": "Pickup",
+  "gen": 3,
   "pokemon": [
-    "tandemaus",
-    "phanpy",
-    "meowth",
     "dedenne",
+    "greavard",
+    "meowth",
+    "meowth-alola",
+    "meowth-galar",
     "pachirisu",
-    "teddiursa",
-    "greavard"
-  ]
+    "phanpy",
+    "tandemaus",
+    "teddiursa"
+  ],
+  "desc": "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn.",
+  "shortDesc": "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn.",
+  "flavorText": {
+    "sv": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too."
+  }
 }

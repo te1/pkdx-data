@@ -1,13 +1,18 @@
 {
-  "name": "Solar Power",
   "slug": "solarpower",
-  "flavorText": "In harsh sunlight, the Pokémon’s Sp. Atk stat is boosted, but its HP decreases every turn.",
+  "name": "Solar Power",
+  "gen": 4,
   "pokemon": [
-    "sunkern",
-    "sunflora",
-    "tropius",
     "charizard",
     "charmander",
-    "charmeleon"
-  ]
+    "charmeleon",
+    "sunflora",
+    "sunkern",
+    "tropius"
+  ],
+  "desc": "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. These effects are prevented if the Pokemon is holding a Utility Umbrella.",
+  "shortDesc": "If Sunny Day is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
+  "flavorText": {
+    "sv": "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn."
+  }
 }

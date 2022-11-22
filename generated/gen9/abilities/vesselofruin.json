@@ -1,8 +1,13 @@
 {
-  "name": "Vessel of Ruin",
   "slug": "vesselofruin",
-  "flavorText": "The power of the Pokémon’s ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.",
+  "name": "Vessel of Ruin",
+  "gen": 9,
   "pokemon": [
     "tinglu"
-  ]
+  ],
+  "desc": "The Sp. Atk stat of all other active Pokemon is reduced by 25%.",
+  "shortDesc": "The Sp. Atk stat of all other active Pokemon is reduced by 25%.",
+  "flavorText": {
+    "sv": "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself."
+  }
 }

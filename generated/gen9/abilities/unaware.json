@@ -1,14 +1,20 @@
 {
-  "name": "Unaware",
   "slug": "unaware",
-  "flavorText": "When attacking, the Pokémon ignores the target’s stat changes.",
+  "name": "Unaware",
+  "gen": 4,
   "pokemon": [
-    "fuecoco",
+    "clodsire",
     "crocalor",
+    "dondozo",
+    "fuecoco",
+    "quagsire",
     "skeledirge",
     "wooper",
-    "clodsire",
-    "dondozo",
-    "quagsire"
-  ]
+    "wooper-paldea"
+  ],
+  "desc": "This Pokemon ignores other Pokemon's Attack, Special Attack, and accuracy stat stages when taking damage, and ignores other Pokemon's Defense, Special Defense, and evasiveness stat stages when dealing damage.",
+  "shortDesc": "This Pokemon ignores other Pokemon's stat stages when taking or doing damage.",
+  "flavorText": {
+    "sv": "When attacking, the Pokémon ignores the target's stat changes."
+  }
 }

@@ -1,18 +1,24 @@
 {
-  "name": "Defiant",
   "slug": "defiant",
-  "flavorText": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.",
+  "name": "Defiant",
+  "gen": 5,
   "pokemon": [
-    "mankey",
-    "primeape",
     "annihilape",
-    "falinks",
-    "passimian",
-    "braviary",
-    "pawniard",
     "bisharp",
+    "braviary",
+    "falinks",
     "kingambit",
+    "mankey",
+    "passimian",
+    "pawniard",
+    "primeape",
     "thundurus",
-    "tornadus"
-  ]
+    "tornadus",
+    "zapdos-galar"
+  ],
+  "desc": "This Pokemon's Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
+  "shortDesc": "This Pokemon's Attack is raised by 2 for each of its stats that is lowered by a foe.",
+  "flavorText": {
+    "sv": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply."
+  }
 }

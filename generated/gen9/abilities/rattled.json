@@ -1,17 +1,26 @@
 {
-  "name": "Rattled",
   "slug": "rattled",
-  "flavorText": "The Pokémon gets scared when hit by a Dark-, Ghost-, or Bug-type attack or if intimidated, which boosts its Speed stat.",
+  "name": "Rattled",
+  "gen": 5,
   "pokemon": [
+    "basculin-white-striped",
     "bonsly",
-    "sudowoodo",
-    "magikarp",
-    "dunsparce",
+    "cubchoo",
     "dudunsparce",
+    "dudunsparce-three-segment",
+    "dunsparce",
+    "gimmighoul",
+    "magikarp",
+    "meowth-alola",
+    "persian-alola",
+    "sudowoodo",
     "toxel",
     "wiglett",
-    "wugtrio",
-    "cubchoo",
-    "gimmighoul"
-  ]
+    "wugtrio"
+  ],
+  "desc": "This Pokemon's Speed is raised by 1 stage if hit by a Bug-, Dark-, or Ghost-type attack, or if an opposing Pokemon affected this Pokemon with the Intimidate Ability.",
+  "shortDesc": "Speed is raised 1 stage if hit by a Bug-, Dark-, or Ghost-type attack, or Intimidated.",
+  "flavorText": {
+    "sv": "The Pokémon gets scared when hit by a Dark-, Ghost-, or Bug-type attack or if intimidated, which boosts its Speed stat."
+  }
 }

@@ -1,12 +1,19 @@
 {
-  "name": "Gooey",
   "slug": "gooey",
-  "flavorText": "Contact with the Pokémon lowers the attacker’s Speed stat.",
+  "name": "Gooey",
+  "gen": 6,
   "pokemon": [
+    "goodra",
+    "goodra-hisui",
     "goomy",
     "sliggoo",
-    "goodra",
+    "sliggoo-hisui",
     "wiglett",
     "wugtrio"
-  ]
+  ],
+  "desc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
+  "shortDesc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
+  "flavorText": {
+    "sv": "Contact with the Pokémon lowers the attacker's Speed stat."
+  }
 }

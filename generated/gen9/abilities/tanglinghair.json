@@ -1,5 +1,14 @@
 {
-  "name": "Tangling Hair",
   "slug": "tanglinghair",
-  "flavorText": "Contact with the Pokémon lowers the attacker’s Speed stat."
+  "name": "Tangling Hair",
+  "gen": 7,
+  "pokemon": [
+    "diglett-alola",
+    "dugtrio-alola"
+  ],
+  "desc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
+  "shortDesc": "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
+  "flavorText": {
+    "sv": "Contact with the Pokémon lowers the attacker's Speed stat."
+  }
 }

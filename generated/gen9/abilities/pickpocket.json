@@ -1,16 +1,22 @@
 {
-  "name": "Pickpocket",
   "slug": "pickpocket",
-  "flavorText": "The Pokémon steals the held item from attackers that make direct contact with it.",
+  "name": "Pickpocket",
+  "gen": 5,
   "pokemon": [
-    "shroodle",
-    "sneasel",
-    "weavile",
-    "tinkatink",
-    "tinkatuff",
-    "tinkaton",
+    "grimmsnarl",
     "impidimp",
     "morgrem",
-    "grimmsnarl"
-  ]
+    "shroodle",
+    "sneasel",
+    "sneasel-hisui",
+    "tinkatink",
+    "tinkaton",
+    "tinkatuff",
+    "weavile"
+  ],
+  "desc": "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item. This effect applies after all hits from a multi-hit move. This effect is prevented if the move had a secondary effect removed by the Sheer Force Ability.",
+  "shortDesc": "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item.",
+  "flavorText": {
+    "sv": "The Pokémon steals the held item from attackers that make direct contact with it."
+  }
 }

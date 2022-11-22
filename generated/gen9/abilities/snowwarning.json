@@ -1,9 +1,14 @@
 {
-  "name": "Snow Warning",
   "slug": "snowwarning",
-  "flavorText": "The Pokémon makes it snow when it enters a battle.",
+  "name": "Snow Warning",
+  "gen": 4,
   "pokemon": [
-    "snover",
-    "abomasnow"
-  ]
+    "abomasnow",
+    "snover"
+  ],
+  "desc": "On switch-in, this Pokemon summons Snow.",
+  "shortDesc": "On switch-in, this Pokemon summons Snow.",
+  "flavorText": {
+    "sv": "The Pokémon makes it snow when it enters a battle."
+  }
 }

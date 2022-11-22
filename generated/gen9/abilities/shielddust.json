@@ -1,12 +1,19 @@
 {
-  "name": "Shield Dust",
   "slug": "shielddust",
-  "flavorText": "Protective dust shields the Pokémon from the additional effects of moves.",
+  "name": "Shield Dust",
+  "gen": 3,
   "pokemon": [
+    "frosmoth",
     "scatterbug",
-    "vivillon",
-    "venomoth",
     "snom",
-    "frosmoth"
-  ]
+    "venomoth",
+    "vivillon",
+    "vivillon-fancy",
+    "vivillon-pokeball"
+  ],
+  "desc": "This Pokemon is not affected by the secondary effect of another Pokemon's attack.",
+  "shortDesc": "This Pokemon is not affected by the secondary effect of another Pokemon's attack.",
+  "flavorText": {
+    "sv": "Protective dust shields the Pokémon from the additional effects of moves."
+  }
 }

@@ -1,18 +1,23 @@
 {
-  "name": "Oblivious",
   "slug": "oblivious",
-  "flavorText": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate.",
+  "name": "Oblivious",
+  "gen": 3,
   "pokemon": [
+    "barboach",
     "bounsweet",
-    "steenee",
+    "dondozo",
+    "numel",
     "salandit",
     "salazzle",
-    "numel",
-    "barboach",
-    "whiscash",
-    "slowpoke",
     "slowbro",
     "slowking",
-    "dondozo"
-  ]
+    "slowpoke",
+    "steenee",
+    "whiscash"
+  ],
+  "desc": "This Pokemon cannot be infatuated or taunted. Gaining this Ability while infatuated or taunted cures it. This Pokemon is immune to the effect of the Intimidate Ability.",
+  "shortDesc": "This Pokemon cannot be infatuated or taunted. Immune to Intimidate.",
+  "flavorText": {
+    "sv": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate."
+  }
 }

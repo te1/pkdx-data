@@ -1,8 +1,13 @@
 {
-  "name": "Dragon’s Maw",
   "slug": "dragonsmaw",
-  "flavorText": "Powers up Dragon-type moves.",
+  "name": "Dragon's Maw",
+  "gen": 8,
   "pokemon": [
     "regidrago"
-  ]
+  ],
+  "desc": "This Pokemon's offensive stat is multiplied by 1.5 while using a Dragon-type attack.",
+  "shortDesc": "This Pokemon's offensive stat is multiplied by 1.5 while using a Dragon-type attack.",
+  "flavorText": {
+    "sv": "Powers up Dragon-type moves."
+  }
 }

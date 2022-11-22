@@ -1,8 +1,16 @@
 {
-  "name": "Dancer",
   "slug": "dancer",
-  "flavorText": "Whenever a dance move is used in battle, the Pokémon will copy the user to immediately perform that dance move itself.",
+  "name": "Dancer",
+  "gen": 7,
   "pokemon": [
-    "oricorio"
-  ]
+    "oricorio",
+    "oricorio-pau",
+    "oricorio-pom-pom",
+    "oricorio-sensu"
+  ],
+  "desc": "After another Pokemon uses a dance move, this Pokemon uses the same move. The copied move is subject to all effects that can prevent a move from being executed. A move used through this Ability cannot be copied again by other Pokemon with this Ability.",
+  "shortDesc": "After another Pokemon uses a dance move, this Pokemon uses the same move.",
+  "flavorText": {
+    "sv": "Whenever a dance move is used in battle, the Pokémon will copy the user to immediately perform that dance move itself."
+  }
 }

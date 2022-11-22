@@ -1,11 +1,16 @@
 {
-  "name": "Symbiosis",
   "slug": "symbiosis",
-  "flavorText": "The Pokémon passes its held item to an ally that has used up an item.",
+  "name": "Symbiosis",
+  "gen": 6,
   "pokemon": [
+    "flabebe",
     "floette",
     "florges",
-    "oranguru",
-    "flabebe"
-  ]
+    "oranguru"
+  ],
+  "desc": "If an ally uses its item, this Pokemon gives its item to that ally immediately. Does not activate if the ally's item was stolen or knocked off, or if the ally used an Eject Button or Eject Pack.",
+  "shortDesc": "If an ally uses its item, this Pokemon gives its item to that ally immediately.",
+  "flavorText": {
+    "sv": "The Pokémon passes its held item to an ally that has used up an item."
+  }
 }

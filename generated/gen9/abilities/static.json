@@ -1,20 +1,27 @@
 {
-  "name": "Static",
   "slug": "static",
-  "flavorText": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it.",
+  "name": "Static",
+  "gen": 3,
   "pokemon": [
+    "ampharos",
+    "bellibolt",
+    "electrode",
+    "electrode-hisui",
+    "flaaffy",
+    "mareep",
     "pawmi",
     "pichu",
     "pikachu",
     "raichu",
-    "mareep",
-    "flaaffy",
-    "ampharos",
     "tadbulb",
-    "bellibolt",
     "toxel",
     "voltorb",
-    "electrode",
+    "voltorb-hisui",
     "zapdos"
-  ]
+  ],
+  "desc": "30% chance a Pokemon making contact with this Pokemon will be paralyzed.",
+  "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be paralyzed.",
+  "flavorText": {
+    "sv": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+  }
 }

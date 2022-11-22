@@ -1,10 +1,15 @@
 {
-  "name": "Heatproof",
   "slug": "heatproof",
-  "flavorText": "The Pokémon’s heatproof body halves the damage taken from Fire-type moves.",
+  "name": "Heatproof",
+  "gen": 4,
   "pokemon": [
-    "rolycoly",
+    "bronzong",
     "bronzor",
-    "bronzong"
-  ]
+    "rolycoly"
+  ],
+  "desc": "The power of Fire-type attacks against this Pokemon is halved. This Pokemon takes half of the usual burn damage, rounded down.",
+  "shortDesc": "The power of Fire-type attacks against this Pokemon is halved; burn damage halved.",
+  "flavorText": {
+    "sv": "The Pokémon's heatproof body halves the damage taken from Fire-type moves."
+  }
 }

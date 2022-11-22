@@ -1,14 +1,21 @@
 {
-  "name": "Friend Guard",
   "slug": "friendguard",
-  "flavorText": "Reduces damage dealt to allies.",
+  "name": "Friend Guard",
+  "gen": 5,
   "pokemon": [
-    "scatterbug",
-    "spewpa",
-    "vivillon",
     "happiny",
     "igglybuff",
     "jigglypuff",
-    "maushold"
-  ]
+    "maushold",
+    "maushold-four",
+    "scatterbug",
+    "spewpa",
+    "vivillon",
+    "vivillon-fancy"
+  ],
+  "desc": "This Pokemon's allies receive 3/4 damage from other Pokemon's attacks.",
+  "shortDesc": "This Pokemon's allies receive 3/4 damage from other Pokemon's attacks.",
+  "flavorText": {
+    "sv": "Reduces damage dealt to allies."
+  }
 }

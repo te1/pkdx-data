@@ -1,8 +1,13 @@
 {
-  "name": "Sword of Ruin",
   "slug": "swordofruin",
-  "flavorText": "The power of the Pokémon’s ruinous sword lowers the Defense stats of all Pokémon except itself.",
+  "name": "Sword of Ruin",
+  "gen": 9,
   "pokemon": [
     "chienpao"
-  ]
+  ],
+  "desc": "The Defense stat of all other active Pokemon is reduced by 25%.",
+  "shortDesc": "The Defense stat of all other active Pokemon is reduced by 25%.",
+  "flavorText": {
+    "sv": "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself."
+  }
 }

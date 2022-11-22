@@ -1,13 +1,18 @@
 {
-  "name": "Steadfast",
   "slug": "steadfast",
-  "flavorText": "The Pokémon’s determination boosts its Speed stat every time it flinches.",
+  "name": "Steadfast",
+  "gen": 4,
   "pokemon": [
     "gallade",
-    "rockruff",
+    "lucario",
     "lycanroc",
     "riolu",
-    "lucario",
+    "rockruff",
     "scyther"
-  ]
+  ],
+  "desc": "If this Pokemon flinches, its Speed is raised by 1 stage.",
+  "shortDesc": "If this Pokemon flinches, its Speed is raised by 1 stage.",
+  "flavorText": {
+    "sv": "The Pokémon's determination boosts its Speed stat every time it flinches."
+  }
 }

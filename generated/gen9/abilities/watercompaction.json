@@ -1,9 +1,14 @@
 {
-  "name": "Water Compaction",
   "slug": "watercompaction",
-  "flavorText": "Boosts the Defense stat sharply when the Pokémon is hit by a Water-type move.",
+  "name": "Water Compaction",
+  "gen": 7,
   "pokemon": [
-    "sandygast",
-    "palossand"
-  ]
+    "palossand",
+    "sandygast"
+  ],
+  "desc": "This Pokemon's Defense is raised 2 stages after it is damaged by a Water-type move.",
+  "shortDesc": "This Pokemon's Defense is raised 2 stages after it is damaged by a Water-type move.",
+  "flavorText": {
+    "sv": "Boosts the Defense stat sharply when the Pokémon is hit by a Water-type move."
+  }
 }

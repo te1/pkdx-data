@@ -1,13 +1,17 @@
 {
-  "name": "Snow Cloak",
   "slug": "snowcloak",
-  "flavorText": "Boosts the Pokémon’s evasiveness in snow.",
+  "name": "Snow Cloak",
+  "gen": 4,
   "pokemon": [
-    "glaceon",
-    "cubchoo",
+    "articuno",
     "beartic",
+    "cubchoo",
     "froslass",
-    "cetoddle",
-    "articuno"
-  ]
+    "glaceon"
+  ],
+  "desc": "If Snow is active, the accuracy of moves used against this Pokemon is multiplied by 0.8.",
+  "shortDesc": "If Snow is active, this Pokemon's evasiveness is 1.25x.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's evasiveness in snow."
+  }
 }

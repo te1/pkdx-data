@@ -1,11 +1,16 @@
 {
-  "name": "Corrosion",
   "slug": "corrosion",
-  "flavorText": "The Pokémon can poison the target even if it’s a Steel or Poison type.",
+  "name": "Corrosion",
+  "gen": 7,
   "pokemon": [
-    "salandit",
-    "salazzle",
     "glimmet",
-    "glimmora"
-  ]
+    "glimmora",
+    "salandit",
+    "salazzle"
+  ],
+  "desc": "This Pokemon can poison or badly poison a Pokemon regardless of its typing.",
+  "shortDesc": "This Pokemon can poison or badly poison a Pokemon regardless of its typing.",
+  "flavorText": {
+    "sv": "The Pokémon can poison the target even if it's a Steel or Poison type."
+  }
 }

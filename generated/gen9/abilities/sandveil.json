@@ -1,24 +1,31 @@
 {
-  "name": "Sand Veil",
   "slug": "sandveil",
-  "flavorText": "Boosts the Pokémon’s evasiveness in a sandstorm.",
+  "name": "Sand Veil",
+  "gen": 3,
   "pokemon": [
-    "phanpy",
-    "donphan",
-    "gible",
-    "gabite",
-    "garchomp",
-    "diglett",
-    "dugtrio",
     "cacnea",
     "cacturne",
-    "silicobra",
-    "sandaconda",
-    "wiglett",
-    "wugtrio",
-    "orthworm",
+    "diglett",
+    "diglett-alola",
+    "donphan",
+    "dugtrio",
+    "dugtrio-alola",
+    "gabite",
+    "garchomp",
+    "gible",
     "larvitar",
+    "orthworm",
+    "palossand",
+    "phanpy",
+    "sandaconda",
     "sandygast",
-    "palossand"
-  ]
+    "silicobra",
+    "wiglett",
+    "wugtrio"
+  ],
+  "desc": "If Sandstorm is active, the accuracy of moves used against this Pokemon is multiplied by 0.8. This Pokemon takes no damage from Sandstorm.",
+  "shortDesc": "If Sandstorm is active, this Pokemon's evasiveness is 1.25x; immunity to Sandstorm.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's evasiveness in a sandstorm."
+  }
 }

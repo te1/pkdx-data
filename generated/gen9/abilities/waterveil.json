@@ -1,13 +1,18 @@
 {
-  "name": "Water Veil",
   "slug": "waterveil",
-  "flavorText": "The Pokémon’s water veil prevents it from being burned.",
+  "name": "Water Veil",
+  "gen": 3,
   "pokemon": [
     "buizel",
-    "floatzel",
+    "dondozo",
     "finizen",
     "finneon",
-    "lumineon",
-    "dondozo"
-  ]
+    "floatzel",
+    "lumineon"
+  ],
+  "desc": "This Pokemon cannot be burned. Gaining this Ability while burned cures it.",
+  "shortDesc": "This Pokemon cannot be burned. Gaining this Ability while burned cures it.",
+  "flavorText": {
+    "sv": "The Pokémon's water veil prevents it from being burned."
+  }
 }

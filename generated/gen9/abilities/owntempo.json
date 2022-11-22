@@ -1,25 +1,35 @@
 {
-  "name": "Own Tempo",
   "slug": "owntempo",
-  "flavorText": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate.",
+  "name": "Own Tempo",
+  "gen": 3,
   "pokemon": [
-    "tandemaus",
+    "avalugg",
+    "bergmite",
     "fidough",
-    "petilil",
-    "lilligant",
-    "spoink",
     "grumpig",
-    "numel",
-    "tadbulb",
+    "indeedee-f",
+    "lilligant",
     "mudbray",
     "mudsdale",
-    "tinkatink",
-    "tinkatuff",
-    "tinkaton",
-    "slowpoke",
+    "numel",
+    "petilil",
+    "rockruff",
     "slowbro",
+    "slowbro-galar",
     "slowking",
-    "bergmite",
-    "avalugg"
-  ]
+    "slowking-galar",
+    "slowpoke",
+    "slowpoke-galar",
+    "spoink",
+    "tadbulb",
+    "tandemaus",
+    "tinkatink",
+    "tinkaton",
+    "tinkatuff"
+  ],
+  "desc": "This Pokemon cannot be confused. Gaining this Ability while confused cures it. This Pokemon is immune to the effect of the Intimidate Ability.",
+  "shortDesc": "This Pokemon cannot be confused. Immune to Intimidate.",
+  "flavorText": {
+    "sv": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+  }
 }

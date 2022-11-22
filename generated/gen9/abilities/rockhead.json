@@ -1,11 +1,19 @@
 {
-  "name": "Rock Head",
   "slug": "rockhead",
-  "flavorText": "Protects the Pokémon from recoil damage.",
+  "name": "Rock Head",
+  "gen": 3,
   "pokemon": [
-    "bonsly",
-    "sudowoodo",
+    "arcanine-hisui",
     "bagon",
-    "shelgon"
-  ]
+    "basculin-blue-striped",
+    "bonsly",
+    "growlithe-hisui",
+    "shelgon",
+    "sudowoodo"
+  ],
+  "desc": "This Pokemon does not take recoil damage, except Struggle. Does not affect Life Orb damage or crash damage.",
+  "shortDesc": "This Pokemon does not take recoil damage besides Struggle/Life Orb/crash damage.",
+  "flavorText": {
+    "sv": "Protects the Pokémon from recoil damage."
+  }
 }

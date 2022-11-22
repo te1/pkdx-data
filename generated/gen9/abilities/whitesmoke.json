@@ -1,8 +1,13 @@
 {
-  "name": "White Smoke",
   "slug": "whitesmoke",
-  "flavorText": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats.",
+  "name": "White Smoke",
+  "gen": 3,
   "pokemon": [
     "torkoal"
-  ]
+  ],
+  "desc": "Prevents other Pokemon from lowering this Pokemon's stat stages.",
+  "shortDesc": "Prevents other Pokemon from lowering this Pokemon's stat stages.",
+  "flavorText": {
+    "sv": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats."
+  }
 }

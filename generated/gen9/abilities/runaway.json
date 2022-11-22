@@ -1,15 +1,21 @@
 {
-  "name": "Run Away",
   "slug": "runaway",
-  "flavorText": "Enables a sure getaway from wild Pokémon.",
+  "name": "Run Away",
+  "gen": 3,
   "pokemon": [
-    "kricketot",
-    "tandemaus",
-    "eevee",
-    "dunsparce",
     "dudunsparce",
+    "dudunsparce-three-segment",
+    "dunsparce",
+    "eevee",
+    "kricketot",
     "maschiff",
     "pachirisu",
+    "tandemaus",
     "venonat"
-  ]
+  ],
+  "desc": "No competitive use.",
+  "shortDesc": "No competitive use.",
+  "flavorText": {
+    "sv": "Enables a sure getaway from wild Pokémon."
+  }
 }

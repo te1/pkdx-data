@@ -1,9 +1,14 @@
 {
-  "name": "Truant",
   "slug": "truant",
-  "flavorText": "Each time the Pokémon uses a move, it spends the next turn loafing around.",
+  "name": "Truant",
+  "gen": 3,
   "pokemon": [
-    "slakoth",
-    "slaking"
-  ]
+    "slaking",
+    "slakoth"
+  ],
+  "desc": "This Pokemon skips every other turn instead of using a move.",
+  "shortDesc": "This Pokemon skips every other turn instead of using a move.",
+  "flavorText": {
+    "sv": "Each time the Pokémon uses a move, it spends the next turn loafing around."
+  }
 }

@@ -1,10 +1,15 @@
 {
-  "name": "Contrary",
   "slug": "contrary",
-  "flavorText": "Reverses any stat changes affecting the Pokémon so that attempts to boost its stats instead lower them— and attempts to lower its stats will boost them.",
+  "name": "Contrary",
+  "gen": 5,
   "pokemon": [
+    "enamorus",
     "fomantis",
-    "lurantis",
-    "enamorus"
-  ]
+    "lurantis"
+  ],
+  "desc": "If this Pokemon has a stat stage raised it is lowered instead, and vice versa.",
+  "shortDesc": "If this Pokemon has a stat stage raised it is lowered instead, and vice versa.",
+  "flavorText": {
+    "sv": "Reverses any stat changes affecting the Pokémon so that attempts to boost its stats instead lower them— and attempts to lower its stats will boost them."
+  }
 }

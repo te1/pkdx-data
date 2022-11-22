@@ -1,12 +1,18 @@
 {
-  "name": "Strong Jaw",
   "slug": "strongjaw",
-  "flavorText": "The Pokémon’s strong jaw boosts the power of its biting moves.",
+  "name": "Strong Jaw",
+  "gen": 6,
   "pokemon": [
-    "yungoos",
-    "gumshoos",
+    "avalugg-hisui",
+    "bruxish",
     "chewtle",
     "drednaw",
-    "bruxish"
-  ]
+    "gumshoos",
+    "yungoos"
+  ],
+  "desc": "This Pokemon's bite-based attacks have their power multiplied by 1.5.",
+  "shortDesc": "This Pokemon's bite-based attacks have 1.5x power. Bug Bite is not boosted.",
+  "flavorText": {
+    "sv": "The Pokémon's strong jaw boosts the power of its biting moves."
+  }
 }

@@ -1,8 +1,13 @@
 {
-  "name": "Grim Neigh",
   "slug": "grimneigh",
-  "flavorText": "When the Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
+  "name": "Grim Neigh",
+  "gen": 8,
   "pokemon": [
     "spectrier"
-  ]
+  ],
+  "desc": "This Pokemon's Special Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
+  "shortDesc": "This Pokemon's Sp. Atk is raised by 1 stage if it attacks and KOes another Pokemon.",
+  "flavorText": {
+    "sv": "When the Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat."
+  }
 }

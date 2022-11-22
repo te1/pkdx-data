@@ -1,8 +1,13 @@
 {
-  "name": "Toxic Boost",
   "slug": "toxicboost",
-  "flavorText": "Powers up physical moves when the Pokémon is poisoned.",
+  "name": "Toxic Boost",
+  "gen": 5,
   "pokemon": [
     "zangoose"
-  ]
+  ],
+  "desc": "While this Pokemon is poisoned, the power of its physical attacks is multiplied by 1.5.",
+  "shortDesc": "While this Pokemon is poisoned, its physical attacks have 1.5x power.",
+  "flavorText": {
+    "sv": "Powers up physical moves when the Pokémon is poisoned."
+  }
 }

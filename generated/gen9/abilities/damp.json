@@ -1,13 +1,18 @@
 {
-  "name": "Damp",
   "slug": "damp",
-  "flavorText": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct.",
+  "name": "Damp",
+  "gen": 3,
   "pokemon": [
-    "wooper",
-    "psyduck",
-    "golduck",
-    "tadbulb",
     "bellibolt",
-    "quagsire"
-  ]
+    "golduck",
+    "psyduck",
+    "quagsire",
+    "tadbulb",
+    "wooper"
+  ],
+  "desc": "While this Pokemon is active, Explosion, Mind Blown, Misty Explosion, Self-Destruct, and the Aftermath Ability are prevented from having an effect.",
+  "shortDesc": "Prevents Explosion/Mind Blown/Misty Explosion/Self-Destruct/Aftermath while active.",
+  "flavorText": {
+    "sv": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct."
+  }
 }

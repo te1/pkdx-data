@@ -1,9 +1,14 @@
 {
-  "name": "Ice Scales",
   "slug": "icescales",
-  "flavorText": "The Pokémon is protected by ice scales, which halve the damage taken from special moves.",
+  "name": "Ice Scales",
+  "gen": 8,
   "pokemon": [
-    "snom",
-    "frosmoth"
-  ]
+    "frosmoth",
+    "snom"
+  ],
+  "desc": "This Pokemon receives 1/2 damage from special attacks.",
+  "shortDesc": "This Pokemon receives 1/2 damage from special attacks.",
+  "flavorText": {
+    "sv": "The Pokémon is protected by ice scales, which halve the damage taken from special moves."
+  }
 }

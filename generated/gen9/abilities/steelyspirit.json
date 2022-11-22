@@ -1,8 +1,13 @@
 {
-  "name": "Steely Spirit",
   "slug": "steelyspirit",
-  "flavorText": "Powers up the Steel-type moves of the Pokémon and its allies.",
+  "name": "Steely Spirit",
+  "gen": 8,
   "pokemon": [
     "perrserker"
-  ]
+  ],
+  "desc": "This Pokemon and its allies' Steel-type moves have their power multiplied by 1.5. This affects Doom Desire even if the user is not on the field.",
+  "shortDesc": "This Pokemon and its allies' Steel-type moves have their power multiplied by 1.5.",
+  "flavorText": {
+    "sv": "Powers up the Steel-type moves of the Pokémon and its allies."
+  }
 }

@@ -1,14 +1,19 @@
 {
-  "name": "Early Bird",
   "slug": "earlybird",
-  "flavorText": "The Pokémon awakens from sleep twice as fast as other Pokémon.",
+  "name": "Early Bird",
+  "gen": 3,
   "pokemon": [
-    "houndour",
-    "houndoom",
-    "sunkern",
-    "sunflora",
-    "smoliv",
     "dolliv",
-    "girafarig"
-  ]
+    "girafarig",
+    "houndoom",
+    "houndour",
+    "smoliv",
+    "sunflora",
+    "sunkern"
+  ],
+  "desc": "This Pokemon's sleep counter drops by 2 instead of 1.",
+  "shortDesc": "This Pokemon's sleep counter drops by 2 instead of 1.",
+  "flavorText": {
+    "sv": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+  }
 }

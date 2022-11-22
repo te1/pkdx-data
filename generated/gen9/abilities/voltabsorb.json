@@ -1,13 +1,19 @@
 {
-  "name": "Volt Absorb",
   "slug": "voltabsorb",
-  "flavorText": "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage.",
+  "name": "Volt Absorb",
+  "gen": 3,
   "pokemon": [
+    "jolteon",
+    "kilowattrel",
+    "pachirisu",
     "pawmo",
     "pawmot",
-    "wattrel",
-    "kilowattrel",
-    "jolteon",
-    "pachirisu"
-  ]
+    "thundurus-therian",
+    "wattrel"
+  ],
+  "desc": "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by an Electric-type move.",
+  "shortDesc": "This Pokemon heals 1/4 of its max HP when hit by Electric moves; Electric immunity.",
+  "flavorText": {
+    "sv": "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage."
+  }
 }

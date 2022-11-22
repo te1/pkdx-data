@@ -1,13 +1,18 @@
 {
-  "name": "Stakeout",
   "slug": "stakeout",
-  "flavorText": "Doubles the damage dealt to a target that has just switched into battle.",
+  "name": "Stakeout",
+  "gen": 7,
   "pokemon": [
-    "tarountula",
-    "spidops",
-    "yungoos",
     "gumshoos",
+    "mabosstiff",
     "maschiff",
-    "mabosstiff"
-  ]
+    "spidops",
+    "tarountula",
+    "yungoos"
+  ],
+  "desc": "This Pokemon's offensive stat is doubled against a target that switched in this turn.",
+  "shortDesc": "This Pokemon's offensive stat is doubled against a target that switched in this turn.",
+  "flavorText": {
+    "sv": "Doubles the damage dealt to a target that has just switched into battle."
+  }
 }

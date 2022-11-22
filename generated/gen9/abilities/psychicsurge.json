@@ -1,8 +1,14 @@
 {
-  "name": "Psychic Surge",
   "slug": "psychicsurge",
-  "flavorText": "Turns the ground into Psychic Terrain when the Pokémon enters a battle.",
+  "name": "Psychic Surge",
+  "gen": 7,
   "pokemon": [
-    "indeedee"
-  ]
+    "indeedee",
+    "indeedee-f"
+  ],
+  "desc": "On switch-in, this Pokemon summons Psychic Terrain.",
+  "shortDesc": "On switch-in, this Pokemon summons Psychic Terrain.",
+  "flavorText": {
+    "sv": "Turns the ground into Psychic Terrain when the Pokémon enters a battle."
+  }
 }

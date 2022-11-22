@@ -1,10 +1,15 @@
 {
-  "name": "Sniper",
   "slug": "sniper",
-  "flavorText": "If the Pokémon’s attack lands a critical hit, the attack is powered up even further.",
+  "name": "Sniper",
+  "gen": 4,
   "pokemon": [
     "drizzile",
     "inteleon",
     "sobble"
-  ]
+  ],
+  "desc": "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5.",
+  "shortDesc": "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5.",
+  "flavorText": {
+    "sv": "If the Pokémon's attack lands a critical hit, the attack is powered up even further."
+  }
 }

@@ -1,8 +1,13 @@
 {
-  "name": "Electric Surge",
   "slug": "electricsurge",
-  "flavorText": "Turns the ground into Electric Terrain when the Pokémon enters a battle.",
+  "name": "Electric Surge",
+  "gen": 7,
   "pokemon": [
     "pincurchin"
-  ]
+  ],
+  "desc": "On switch-in, this Pokemon summons Electric Terrain.",
+  "shortDesc": "On switch-in, this Pokemon summons Electric Terrain.",
+  "flavorText": {
+    "sv": "Turns the ground into Electric Terrain when the Pokémon enters a battle."
+  }
 }

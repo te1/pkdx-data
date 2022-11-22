@@ -1,9 +1,14 @@
 {
-  "name": "Mycelium Might",
   "slug": "myceliummight",
-  "flavorText": "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target.",
+  "name": "Mycelium Might",
+  "gen": 9,
   "pokemon": [
     "toedscool",
     "toedscruel"
-  ]
+  ],
+  "desc": "This Pokemon's Status moves have lowered priority and ignore their targets' Abilities.",
+  "shortDesc": "This Pokemon's Status moves have lowered priority and ignore their targets' Abilities.",
+  "flavorText": {
+    "sv": "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target."
+  }
 }

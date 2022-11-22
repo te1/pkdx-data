@@ -1,18 +1,23 @@
 {
-  "name": "Prankster",
   "slug": "prankster",
-  "flavorText": "Gives priority to the Pokémon’s status moves.",
+  "name": "Prankster",
+  "gen": 5,
   "pokemon": [
-    "riolu",
-    "shroodle",
     "grafaiai",
-    "murkrow",
-    "klefki",
-    "impidimp",
-    "morgrem",
     "grimmsnarl",
+    "impidimp",
+    "klefki",
+    "morgrem",
+    "murkrow",
+    "riolu",
     "sableye",
+    "shroodle",
     "thundurus",
     "tornadus"
-  ]
+  ],
+  "desc": "This Pokemon's non-damaging moves have their priority increased by 1. Opposing Dark-type Pokemon are immune to these moves, and any move called by these moves, if the resulting user of the move has this Ability.",
+  "shortDesc": "This Pokemon's Status moves have priority raised by 1, but Dark types are immune.",
+  "flavorText": {
+    "sv": "Gives priority to the Pokémon's status moves."
+  }
 }

@@ -1,8 +1,13 @@
 {
-  "name": "Earth Eater",
   "slug": "eartheater",
-  "flavorText": "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.",
+  "name": "Earth Eater",
+  "gen": 9,
   "pokemon": [
     "orthworm"
-  ]
+  ],
+  "desc": "This Pokemon is immune to Ground-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Ground-type move.",
+  "shortDesc": "This Pokemon heals 1/4 of its max HP when hit by Ground moves; Ground immunity.",
+  "flavorText": {
+    "sv": "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage."
+  }
 }

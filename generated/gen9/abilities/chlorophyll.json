@@ -1,20 +1,26 @@
 {
-  "name": "Chlorophyll",
   "slug": "chlorophyll",
-  "flavorText": "Boosts the Pokémon’s Speed stat in harsh sunlight.",
+  "name": "Chlorophyll",
+  "gen": 3,
   "pokemon": [
-    "hoppip",
-    "skiploom",
-    "jumpluff",
-    "sunkern",
-    "sunflora",
-    "petilil",
-    "lilligant",
-    "leafeon",
-    "deerling",
-    "sawsbuck",
-    "tropius",
     "capsakid",
-    "scovillain"
-  ]
+    "deerling",
+    "hoppip",
+    "jumpluff",
+    "leafeon",
+    "lilligant",
+    "lilligant-hisui",
+    "petilil",
+    "sawsbuck",
+    "scovillain",
+    "skiploom",
+    "sunflora",
+    "sunkern",
+    "tropius"
+  ],
+  "desc": "If Sunny Day is active, this Pokemon's Speed is doubled. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+  "shortDesc": "If Sunny Day is active, this Pokemon's Speed is doubled.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's Speed stat in harsh sunlight."
+  }
 }

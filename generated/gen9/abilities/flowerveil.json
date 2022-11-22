@@ -1,10 +1,15 @@
 {
-  "name": "Flower Veil",
   "slug": "flowerveil",
-  "flavorText": "Ally Grass-type Pokémon are protected from status conditions and the lowering of their stats.",
+  "name": "Flower Veil",
+  "gen": 6,
   "pokemon": [
+    "flabebe",
     "floette",
-    "florges",
-    "flabebe"
-  ]
+    "florges"
+  ],
+  "desc": "Grass-type Pokemon on this Pokemon's side cannot have their stat stages lowered by other Pokemon or have a non-volatile status condition inflicted on them by other Pokemon.",
+  "shortDesc": "This side's Grass types can't have stats lowered or status inflicted by other Pokemon.",
+  "flavorText": {
+    "sv": "Ally Grass-type Pokémon are protected from status conditions and the lowering of their stats."
+  }
 }

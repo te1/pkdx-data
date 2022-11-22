@@ -1,19 +1,26 @@
 {
-  "name": "Leaf Guard",
   "slug": "leafguard",
-  "flavorText": "Prevents status conditions in harsh sunlight.",
+  "name": "Leaf Guard",
+  "gen": 4,
   "pokemon": [
-    "hoppip",
-    "skiploom",
-    "jumpluff",
     "bounsweet",
+    "fomantis",
+    "hoppip",
+    "jumpluff",
+    "leafeon",
+    "lilligant",
+    "lilligant-hisui",
+    "lurantis",
+    "petilil",
+    "skiploom",
     "steenee",
     "tsareena",
-    "petilil",
-    "lilligant",
-    "leafeon",
-    "fomantis",
-    "lurantis",
-    "zarude"
-  ]
+    "zarude",
+    "zarude-dada"
+  ],
+  "desc": "If Sunny Day is active, this Pokemon cannot become affected by a non-volatile status condition or Yawn, and Rest will fail for it. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+  "shortDesc": "If Sunny Day is active, this Pokemon cannot be statused and Rest will fail for it.",
+  "flavorText": {
+    "sv": "Prevents status conditions in harsh sunlight."
+  }
 }

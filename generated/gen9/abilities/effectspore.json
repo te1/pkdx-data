@@ -1,11 +1,16 @@
 {
-  "name": "Effect Spore",
   "slug": "effectspore",
-  "flavorText": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker.",
+  "name": "Effect Spore",
+  "gen": 3,
   "pokemon": [
-    "shroomish",
+    "amoonguss",
     "breloom",
     "foongus",
-    "amoonguss"
-  ]
+    "shroomish"
+  ],
+  "desc": "30% chance a Pokemon making contact with this Pokemon will be poisoned, paralyzed, or fall asleep.",
+  "shortDesc": "30% chance of poison/paralysis/sleep on others making contact with this Pokemon.",
+  "flavorText": {
+    "sv": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+  }
 }

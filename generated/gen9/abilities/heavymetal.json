@@ -1,11 +1,16 @@
 {
-  "name": "Heavy Metal",
   "slug": "heavymetal",
-  "flavorText": "Doubles the Pokémon’s weight.",
+  "name": "Heavy Metal",
+  "gen": 5,
   "pokemon": [
-    "cufant",
-    "copperajah",
+    "bronzong",
     "bronzor",
-    "bronzong"
-  ]
+    "copperajah",
+    "cufant"
+  ],
+  "desc": "This Pokemon's weight is doubled. This effect is calculated after the effect of Autotomize, and before the effect of Float Stone.",
+  "shortDesc": "This Pokemon's weight is doubled.",
+  "flavorText": {
+    "sv": "Doubles the Pokémon's weight."
+  }
 }

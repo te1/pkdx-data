@@ -1,11 +1,16 @@
 {
-  "name": "Justified",
   "slug": "justified",
-  "flavorText": "When the Pokémon is hit by a Dark-type attack, its Attack stat is boosted by its sense of justice.",
+  "name": "Justified",
+  "gen": 5,
   "pokemon": [
+    "arcanine",
     "gallade",
-    "lucario",
     "growlithe",
-    "arcanine"
-  ]
+    "lucario"
+  ],
+  "desc": "This Pokemon's Attack is raised by 1 stage after it is damaged by a Dark-type move.",
+  "shortDesc": "This Pokemon's Attack is raised by 1 stage after it is damaged by a Dark-type move.",
+  "flavorText": {
+    "sv": "When the Pokémon is hit by a Dark-type attack, its Attack stat is boosted by its sense of justice."
+  }
 }

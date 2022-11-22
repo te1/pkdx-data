@@ -1,9 +1,14 @@
 {
-  "name": "Hyper Cutter",
   "slug": "hypercutter",
-  "flavorText": "The Pokémon’s prized, mighty pincers prevent other Pokémon from lowering its Attack stat.",
+  "name": "Hyper Cutter",
+  "gen": 3,
   "pokemon": [
-    "crabrawler",
-    "crabominable"
-  ]
+    "crabominable",
+    "crabrawler"
+  ],
+  "desc": "Prevents other Pokemon from lowering this Pokemon's Attack stat stage.",
+  "shortDesc": "Prevents other Pokemon from lowering this Pokemon's Attack stat stage.",
+  "flavorText": {
+    "sv": "The Pokémon's prized, mighty pincers prevent other Pokémon from lowering its Attack stat."
+  }
 }

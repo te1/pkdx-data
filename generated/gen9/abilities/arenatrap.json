@@ -1,9 +1,14 @@
 {
-  "name": "Arena Trap",
   "slug": "arenatrap",
-  "flavorText": "Prevents opposing Pokémon from fleeing from battle.",
+  "name": "Arena Trap",
+  "gen": 3,
   "pokemon": [
     "diglett",
     "dugtrio"
-  ]
+  ],
+  "desc": "Prevents opposing Pokemon from choosing to switch out unless they are airborne, are holding a Shed Shell, or are a Ghost type.",
+  "shortDesc": "Prevents opposing Pokemon from choosing to switch out unless they are airborne.",
+  "flavorText": {
+    "sv": "Prevents opposing Pokémon from fleeing from battle."
+  }
 }

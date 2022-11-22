@@ -1,9 +1,14 @@
 {
-  "name": "Sand Rush",
   "slug": "sandrush",
-  "flavorText": "Boosts the Pokémon’s Speed stat in a sandstorm.",
+  "name": "Sand Rush",
+  "gen": 5,
   "pokemon": [
-    "lycanroc",
-    "houndstone"
-  ]
+    "houndstone",
+    "lycanroc"
+  ],
+  "desc": "If Sandstorm is active, this Pokemon's Speed is doubled. This Pokemon takes no damage from Sandstorm.",
+  "shortDesc": "If Sandstorm is active, this Pokemon's Speed is doubled; immunity to Sandstorm.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's Speed stat in a sandstorm."
+  }
 }

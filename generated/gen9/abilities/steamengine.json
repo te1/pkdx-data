@@ -1,10 +1,15 @@
 {
-  "name": "Steam Engine",
   "slug": "steamengine",
-  "flavorText": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move.",
+  "name": "Steam Engine",
+  "gen": 8,
   "pokemon": [
-    "rolycoly",
     "carkol",
-    "coalossal"
-  ]
+    "coalossal",
+    "rolycoly"
+  ],
+  "desc": "This Pokemon's Speed is raised by 6 stages after it is damaged by a Fire- or Water-type move.",
+  "shortDesc": "This Pokemon's Speed is raised by 6 stages after it is damaged by Fire/Water moves.",
+  "flavorText": {
+    "sv": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move."
+  }
 }

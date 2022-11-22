@@ -1,11 +1,17 @@
 {
-  "name": "Tinted Lens",
   "slug": "tintedlens",
-  "flavorText": "The Pokémon can use “not very effective” moves to deal regular damage.",
+  "name": "Tinted Lens",
+  "gen": 4,
   "pokemon": [
-    "nymble",
+    "braviary-hisui",
     "lokix",
-    "venonat",
-    "venomoth"
-  ]
+    "nymble",
+    "venomoth",
+    "venonat"
+  ],
+  "desc": "This Pokemon's attacks that are not very effective on a target deal double damage.",
+  "shortDesc": "This Pokemon's attacks that are not very effective on a target deal double damage.",
+  "flavorText": {
+    "sv": "The Pokémon can use “not very effective” moves to deal regular damage."
+  }
 }

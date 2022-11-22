@@ -1,8 +1,14 @@
 {
-  "name": "Dauntless Shield",
   "slug": "dauntlessshield",
-  "flavorText": "Boosts the Pokémon’s Defense stat the first time the Pokémon enters a battle.",
+  "name": "Dauntless Shield",
+  "gen": 8,
   "pokemon": [
-    "zamazenta"
-  ]
+    "zamazenta",
+    "zamazenta-crowned"
+  ],
+  "desc": "On switch-in, this Pokemon's Defense is raised by 1 stage.",
+  "shortDesc": "On switch-in, this Pokemon's Defense is raised by 1 stage.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle."
+  }
 }

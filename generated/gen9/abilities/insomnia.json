@@ -1,18 +1,23 @@
 {
-  "name": "Insomnia",
   "slug": "insomnia",
-  "flavorText": "The Pokémon’s insomnia prevents it from falling asleep.",
+  "name": "Insomnia",
+  "gen": 3,
   "pokemon": [
-    "tarountula",
-    "spidops",
+    "banette",
+    "capsakid",
+    "delibird",
     "drowzee",
+    "honchkrow",
     "hypno",
     "murkrow",
-    "honchkrow",
-    "capsakid",
     "scovillain",
     "shuppet",
-    "banette",
-    "delibird"
-  ]
+    "spidops",
+    "tarountula"
+  ],
+  "desc": "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it.",
+  "shortDesc": "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it.",
+  "flavorText": {
+    "sv": "The Pokémon's insomnia prevents it from falling asleep."
+  }
 }

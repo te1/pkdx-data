@@ -1,22 +1,28 @@
 {
-  "name": "Frisk",
   "slug": "frisk",
-  "flavorText": "When it enters a battle, the Pokémon can check an opposing Pokémon’s held item.",
+  "name": "Frisk",
+  "gen": 4,
   "pokemon": [
-    "wigglytuff",
-    "stantler",
-    "gothita",
-    "gothorita",
-    "gothitelle",
-    "flittle",
+    "banette",
     "espathra",
+    "flittle",
+    "gothita",
+    "gothitelle",
+    "gothorita",
+    "grimmsnarl",
     "impidimp",
     "morgrem",
-    "grimmsnarl",
-    "shuppet",
-    "banette",
     "noibat",
     "noivern",
+    "shuppet",
+    "stantler",
+    "typhlosion-hisui",
+    "wigglytuff",
     "wyrdeer"
-  ]
+  ],
+  "desc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon.",
+  "shortDesc": "On switch-in, this Pokemon identifies the held items of all opposing Pokemon.",
+  "flavorText": {
+    "sv": "When it enters a battle, the Pokémon can check an opposing Pokémon's held item."
+  }
 }

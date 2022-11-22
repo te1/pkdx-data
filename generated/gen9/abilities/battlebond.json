@@ -1,5 +1,13 @@
 {
-  "name": "Battle Bond",
   "slug": "battlebond",
-  "flavorText": "When the Pokémon knocks out a target, its bond with its Trainer is strengthened, and its Attack, Sp. Atk, and Speed stats are boosted."
+  "name": "Battle Bond",
+  "gen": 7,
+  "pokemon": [
+    "greninja"
+  ],
+  "desc": "If this Pokemon is a Greninja, it transforms into Ash-Greninja if it attacks and knocks out another Pokemon. If this Pokemon is an Ash-Greninja, its Water Shuriken has 20 power and always hits three times.",
+  "shortDesc": "After KOing a Pokemon: becomes Ash-Greninja, Water Shuriken: 20 power, hits 3x.",
+  "flavorText": {
+    "sv": "When the Pokémon knocks out a target, its bond with its Trainer is strengthened, and its Attack, Sp. Atk, and Speed stats are boosted."
+  }
 }

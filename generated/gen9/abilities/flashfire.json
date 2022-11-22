@@ -1,22 +1,29 @@
 {
-  "name": "Flash Fire",
   "slug": "flashfire",
-  "flavorText": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves.",
+  "name": "Flash Fire",
+  "gen": 3,
   "pokemon": [
-    "houndour",
-    "houndoom",
-    "rolycoly",
-    "carkol",
-    "coalossal",
-    "charcadet",
+    "arcanine",
+    "arcanine-hisui",
     "armarouge",
+    "carkol",
     "ceruledge",
+    "charcadet",
+    "coalossal",
+    "cyndaquil",
     "flareon",
     "growlithe",
-    "arcanine",
-    "cyndaquil",
+    "growlithe-hisui",
     "heatran",
+    "houndoom",
+    "houndour",
     "quilava",
+    "rolycoly",
     "typhlosion"
-  ]
+  ],
+  "desc": "This Pokemon is immune to Fire-type moves. The first time it is hit by a Fire-type move, its offensive stat is multiplied by 1.5 while using a Fire-type attack as long as it remains active and has this Ability. If this Pokemon is frozen, it cannot be defrosted by Fire-type attacks.",
+  "shortDesc": "This Pokemon's Fire attacks do 1.5x damage if hit by one Fire move; Fire immunity.",
+  "flavorText": {
+    "sv": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+  }
 }

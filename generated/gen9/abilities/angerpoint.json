@@ -1,16 +1,24 @@
 {
-  "name": "Anger Point",
   "slug": "angerpoint",
-  "flavorText": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+  "name": "Anger Point",
+  "gen": 4,
   "pokemon": [
-    "crabrawler",
-    "crabominable",
     "camerupt",
+    "crabominable",
+    "crabrawler",
+    "krokorok",
+    "krookodile",
     "mankey",
     "primeape",
-    "tauros",
     "sandile",
-    "krokorok",
-    "krookodile"
-  ]
+    "tauros",
+    "tauros-paldea",
+    "tauros-paldea-fire",
+    "tauros-paldea-water"
+  ],
+  "desc": "If this Pokemon, but not its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",
+  "shortDesc": "If this Pokemon (not its substitute) takes a critical hit, its Attack is raised 12 stages.",
+  "flavorText": {
+    "sv": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+  }
 }

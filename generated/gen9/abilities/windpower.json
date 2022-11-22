@@ -1,9 +1,14 @@
 {
-  "name": "Wind Power",
   "slug": "windpower",
-  "flavorText": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses.",
+  "name": "Wind Power",
+  "gen": 9,
   "pokemon": [
-    "wattrel",
-    "kilowattrel"
-  ]
+    "kilowattrel",
+    "wattrel"
+  ],
+  "desc": "If this Pokemon is hit by a wind move or Tailwind begins, it becomes charged.",
+  "shortDesc": "If this Pokemon is hit by a wind move or Tailwind begins, it becomes charged.",
+  "flavorText": {
+    "sv": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses."
+  }
 }

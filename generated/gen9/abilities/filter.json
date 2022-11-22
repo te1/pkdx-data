@@ -1,8 +1,13 @@
 {
-  "name": "Filter",
   "slug": "filter",
-  "flavorText": "Reduces the power of supereffective attacks that hit the Pokémon.",
+  "name": "Filter",
+  "gen": 4,
   "pokemon": [
     "revavroom"
-  ]
+  ],
+  "desc": "This Pokemon receives 3/4 damage from supereffective attacks.",
+  "shortDesc": "This Pokemon receives 3/4 damage from supereffective attacks.",
+  "flavorText": {
+    "sv": "Reduces the power of supereffective attacks that hit the Pokémon."
+  }
 }

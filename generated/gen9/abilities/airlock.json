@@ -1,8 +1,13 @@
 {
-  "name": "Air Lock",
   "slug": "airlock",
-  "flavorText": "Eliminates the effects of weather.",
+  "name": "Air Lock",
+  "gen": 3,
   "pokemon": [
     "rayquaza"
-  ]
+  ],
+  "desc": "While this Pokemon is active, the effects of weather conditions are disabled.",
+  "shortDesc": "While this Pokemon is active, the effects of weather conditions are disabled.",
+  "flavorText": {
+    "sv": "Eliminates the effects of weather."
+  }
 }

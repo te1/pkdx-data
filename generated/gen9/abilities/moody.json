@@ -1,10 +1,15 @@
 {
-  "name": "Moody",
   "slug": "moody",
-  "flavorText": "Every turn, one of the Pokémon’s stats will be boosted sharply but another stat will be lowered.",
+  "name": "Moody",
+  "gen": 5,
   "pokemon": [
+    "glalie",
     "scovillain",
-    "snorunt",
-    "glalie"
-  ]
+    "snorunt"
+  ],
+  "desc": "This Pokemon has a random stat, other than accuracy or evasiveness, raised by 2 stages and another stat lowered by 1 stage at the end of each turn.",
+  "shortDesc": "Boosts a random stat (except accuracy/evasion) +2 and another stat -1 every turn.",
+  "flavorText": {
+    "sv": "Every turn, one of the Pokémon's stats will be boosted sharply but another stat will be lowered."
+  }
 }

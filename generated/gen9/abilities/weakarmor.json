@@ -1,11 +1,18 @@
 {
-  "name": "Weak Armor",
   "slug": "weakarmor",
-  "flavorText": "The Pokémon’s Defense stat is lowered when it takes damage from physical moves, but its Speed stat is sharply boosted.",
+  "name": "Weak Armor",
+  "gen": 5,
   "pokemon": [
     "armarouge",
     "ceruledge",
+    "polteageist",
+    "polteageist-antique",
     "sinistea",
-    "polteageist"
-  ]
+    "sinistea-antique"
+  ],
+  "desc": "If a physical attack hits this Pokemon, its Defense is lowered by 1 stage and its Speed is raised by 2 stages.",
+  "shortDesc": "If a physical attack hits this Pokemon, Defense is lowered by 1, Speed is raised by 2.",
+  "flavorText": {
+    "sv": "The Pokémon's Defense stat is lowered when it takes damage from physical moves, but its Speed stat is sharply boosted."
+  }
 }

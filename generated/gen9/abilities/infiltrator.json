@@ -1,19 +1,24 @@
 {
-  "name": "Infiltrator",
   "slug": "infiltrator",
-  "flavorText": "The Pokémon’s moves are unaffected by the target’s barriers, substitutes, and the like.",
+  "name": "Infiltrator",
+  "gen": 5,
   "pokemon": [
-    "hoppip",
-    "skiploom",
-    "jumpluff",
-    "seviper",
-    "bramblin",
     "brambleghast",
-    "spiritomb",
+    "bramblin",
+    "dragapult",
+    "drakloak",
+    "dreepy",
+    "hoppip",
+    "jumpluff",
     "noibat",
     "noivern",
-    "dreepy",
-    "drakloak",
-    "dragapult"
-  ]
+    "seviper",
+    "skiploom",
+    "spiritomb"
+  ],
+  "desc": "This Pokemon's moves ignore substitutes and the opposing side's Reflect, Light Screen, Safeguard, Mist, and Aurora Veil.",
+  "shortDesc": "Moves ignore substitutes and foe's Reflect/Light Screen/Safeguard/Mist/Aurora Veil.",
+  "flavorText": {
+    "sv": "The Pokémon's moves are unaffected by the target's barriers, substitutes, and the like."
+  }
 }

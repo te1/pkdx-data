@@ -1,8 +1,13 @@
 {
-  "name": "Seed Sower",
   "slug": "seedsower",
-  "flavorText": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
+  "name": "Seed Sower",
+  "gen": 9,
   "pokemon": [
     "arboliva"
-  ]
+  ],
+  "desc": "When this Pokemon is hit by an attack, the effect of Grassy Terrain begins.",
+  "shortDesc": "When this Pokemon is hit by an attack, the effect of Grassy Terrain begins.",
+  "flavorText": {
+    "sv": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack."
+  }
 }

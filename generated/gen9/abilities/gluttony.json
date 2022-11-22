@@ -1,18 +1,27 @@
 {
-  "name": "Gluttony",
   "slug": "gluttony",
-  "flavorText": "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less.",
+  "name": "Gluttony",
+  "gen": 4,
   "pokemon": [
-    "lechonk",
-    "oinkologne",
-    "skwovet",
-    "greedent",
+    "appletun",
     "applin",
     "flapple",
-    "appletun",
-    "spoink",
+    "greedent",
+    "grimer-alola",
     "grumpig",
     "gulpin",
+    "lechonk",
+    "muk-alola",
+    "oinkologne",
+    "oinkologne-f",
+    "skwovet",
+    "slowpoke-galar",
+    "spoink",
     "swalot"
-  ]
+  ],
+  "desc": "When this Pokemon is holding a Berry that usually activates with 1/4 or less of its maximum HP, it is eaten at 1/2 or less of its maximum HP instead.",
+  "shortDesc": "This Pokemon eats Berries at 1/2 max HP or less instead of their usual 1/4 max HP.",
+  "flavorText": {
+    "sv": "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less."
+  }
 }

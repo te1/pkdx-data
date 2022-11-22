@@ -1,16 +1,21 @@
 {
-  "name": "Anticipation",
   "slug": "anticipation",
-  "flavorText": "The Pokémon can sense an opposing Pokémon’s dangerous moves.",
+  "name": "Anticipation",
+  "gen": 4,
   "pokemon": [
     "barboach",
-    "whiscash",
     "croagunk",
-    "toxicroak",
     "eevee",
     "flittle",
     "hatenna",
+    "hatterene",
     "hattrem",
-    "hatterene"
-  ]
+    "toxicroak",
+    "whiscash"
+  ],
+  "desc": "On switch-in, this Pokemon is alerted if any opposing Pokemon has an attack that is super effective against this Pokemon, or an OHKO move. This effect considers any move that deals direct damage as an attacking move of its respective type, Hidden Power counts as its determined type, and Judgment, Multi-Attack, Natural Gift, Revelation Dance, Techno Blast, and Weather Ball are considered Normal-type moves.",
+  "shortDesc": "On switch-in, this Pokemon shudders if any foe has a supereffective or OHKO move.",
+  "flavorText": {
+    "sv": "The Pokémon can sense an opposing Pokémon's dangerous moves."
+  }
 }

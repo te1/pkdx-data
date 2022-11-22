@@ -1,8 +1,13 @@
 {
-  "name": "Comatose",
   "slug": "comatose",
-  "flavorText": "The Pokémon is always drowsing and will never wake up. It can attack while in its sleeping state.",
+  "name": "Comatose",
+  "gen": 7,
   "pokemon": [
     "komala"
-  ]
+  ],
+  "desc": "This Pokemon is considered to be asleep and cannot become affected by a non-volatile status condition or Yawn.",
+  "shortDesc": "This Pokemon cannot be statused, and is considered to be asleep.",
+  "flavorText": {
+    "sv": "The Pokémon is always drowsing and will never wake up. It can attack while in its sleeping state."
+  }
 }

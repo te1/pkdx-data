@@ -1,11 +1,16 @@
 {
-  "name": "Reckless",
   "slug": "reckless",
-  "flavorText": "Powers up moves that have recoil damage.",
+  "name": "Reckless",
+  "gen": 4,
   "pokemon": [
-    "starly",
-    "staravia",
+    "basculin",
     "staraptor",
-    "basculin"
-  ]
+    "staravia",
+    "starly"
+  ],
+  "desc": "This Pokemon's attacks with recoil or crash damage have their power multiplied by 1.2. Does not affect Struggle.",
+  "shortDesc": "This Pokemon's attacks with recoil or crash damage have 1.2x power; not Struggle.",
+  "flavorText": {
+    "sv": "Powers up moves that have recoil damage."
+  }
 }

@@ -1,8 +1,13 @@
 {
-  "name": "Chilling Neigh",
   "slug": "chillingneigh",
-  "flavorText": "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+  "name": "Chilling Neigh",
+  "gen": 8,
   "pokemon": [
     "glastrier"
-  ]
+  ],
+  "desc": "This Pokemon's Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
+  "shortDesc": "This Pokemon's Attack is raised by 1 stage if it attacks and KOes another Pokemon.",
+  "flavorText": {
+    "sv": "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat."
+  }
 }

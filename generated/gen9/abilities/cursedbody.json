@@ -1,16 +1,23 @@
 {
-  "name": "Cursed Body",
   "slug": "cursedbody",
-  "flavorText": "May disable a move that has dealt damage to the Pokémon.",
+  "name": "Cursed Body",
+  "gen": 5,
   "pokemon": [
-    "gengar",
-    "sinistea",
-    "polteageist",
-    "shuppet",
     "banette",
-    "dreepy",
-    "drakloak",
     "dragapult",
-    "froslass"
-  ]
+    "drakloak",
+    "dreepy",
+    "froslass",
+    "gengar",
+    "polteageist",
+    "polteageist-antique",
+    "shuppet",
+    "sinistea",
+    "sinistea-antique"
+  ],
+  "desc": "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled unless one of the attacker's moves is already disabled.",
+  "shortDesc": "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled.",
+  "flavorText": {
+    "sv": "May disable a move that has dealt damage to the Pokémon."
+  }
 }

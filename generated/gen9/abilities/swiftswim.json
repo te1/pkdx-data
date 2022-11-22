@@ -1,24 +1,31 @@
 {
-  "name": "Swift Swim",
   "slug": "swiftswim",
-  "flavorText": "Boosts the Pokémon’s Speed stat in rain.",
+  "name": "Swift Swim",
+  "gen": 3,
   "pokemon": [
-    "surskit",
-    "buizel",
-    "floatzel",
-    "psyduck",
-    "golduck",
-    "chewtle",
-    "drednaw",
-    "magikarp",
     "arrokuda",
     "barraskewda",
-    "qwilfish",
-    "luvdisc",
-    "finneon",
-    "lumineon",
-    "beartic",
     "basculegion",
-    "overqwil"
-  ]
+    "basculegion-f",
+    "beartic",
+    "buizel",
+    "chewtle",
+    "drednaw",
+    "finneon",
+    "floatzel",
+    "golduck",
+    "lumineon",
+    "luvdisc",
+    "magikarp",
+    "overqwil",
+    "psyduck",
+    "qwilfish",
+    "qwilfish-hisui",
+    "surskit"
+  ],
+  "desc": "If Rain Dance is active, this Pokemon's Speed is doubled. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+  "shortDesc": "If Rain Dance is active, this Pokemon's Speed is doubled.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's Speed stat in rain."
+  }
 }

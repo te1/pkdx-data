@@ -1,19 +1,25 @@
 {
-  "name": "Overgrow",
   "slug": "overgrow",
-  "flavorText": "Powers up Grass-type moves when the Pokémon’s HP is low.",
+  "name": "Overgrow",
+  "gen": 3,
   "pokemon": [
-    "sprigatito",
-    "floragato",
-    "meowscarada",
     "chesnaught",
     "chespin",
     "dartrix",
     "decidueye",
+    "decidueye-hisui",
+    "floragato",
     "grookey",
+    "meowscarada",
     "quilladin",
     "rillaboom",
     "rowlet",
+    "sprigatito",
     "thwackey"
-  ]
+  ],
+  "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Grass-type attack.",
+  "shortDesc": "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Grass attacks.",
+  "flavorText": {
+    "sv": "Powers up Grass-type moves when the Pokémon's HP is low."
+  }
 }

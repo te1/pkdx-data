@@ -1,8 +1,14 @@
 {
-  "name": "Zero to Hero",
   "slug": "zerotohero",
-  "flavorText": "The Pokémon transforms into its Hero Form when it switches out.",
+  "name": "Zero to Hero",
+  "gen": 9,
   "pokemon": [
-    "palafin"
-  ]
+    "palafin",
+    "palafin-hero"
+  ],
+  "desc": "If this Pokemon is Palafin, it changes to Hero Mode when it switches out.",
+  "shortDesc": "If this Pokemon is Palafin, it changes to Hero Mode when it switches out.",
+  "flavorText": {
+    "sv": "The Pokémon transforms into its Hero Form when it switches out."
+  }
 }

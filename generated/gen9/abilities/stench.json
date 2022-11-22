@@ -1,11 +1,16 @@
 {
-  "name": "Stench",
   "slug": "stench",
-  "flavorText": "By releasing a stench when attacking, the Pokémon may cause the target to flinch.",
+  "name": "Stench",
+  "gen": 3,
   "pokemon": [
     "grimer",
     "muk",
-    "stunky",
-    "skuntank"
-  ]
+    "skuntank",
+    "stunky"
+  ],
+  "desc": "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",
+  "shortDesc": "This Pokemon's attacks without a chance to flinch gain a 10% chance to flinch.",
+  "flavorText": {
+    "sv": "By releasing a stench when attacking, the Pokémon may cause the target to flinch."
+  }
 }

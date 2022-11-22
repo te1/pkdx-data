@@ -1,15 +1,20 @@
 {
-  "name": "Natural Cure",
   "slug": "naturalcure",
-  "flavorText": "The Pokémon’s status conditions are cured when it switches out.",
+  "name": "Natural Cure",
+  "gen": 3,
   "pokemon": [
+    "altaria",
+    "blissey",
+    "chansey",
+    "happiny",
     "pawmi",
     "pawmo",
     "pawmot",
-    "happiny",
-    "chansey",
-    "blissey",
-    "swablu",
-    "altaria"
-  ]
+    "swablu"
+  ],
+  "desc": "This Pokemon has its non-volatile status condition cured when it switches out.",
+  "shortDesc": "This Pokemon has its non-volatile status condition cured when it switches out.",
+  "flavorText": {
+    "sv": "The Pokémon's status conditions are cured when it switches out."
+  }
 }

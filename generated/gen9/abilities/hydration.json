@@ -1,16 +1,21 @@
 {
-  "name": "Hydration",
   "slug": "hydration",
-  "flavorText": "Cures the Pokémon’s status conditions in rain.",
+  "name": "Hydration",
+  "gen": 4,
   "pokemon": [
-    "wingull",
+    "alomomola",
     "barboach",
-    "whiscash",
-    "goomy",
-    "sliggoo",
     "goodra",
-    "vaporeon",
+    "goomy",
     "luvdisc",
-    "alomomola"
-  ]
+    "sliggoo",
+    "vaporeon",
+    "whiscash",
+    "wingull"
+  ],
+  "desc": "This Pokemon has its non-volatile status condition cured at the end of each turn if Rain Dance is active. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+  "shortDesc": "This Pokemon has its status cured at the end of each turn if Rain Dance is active.",
+  "flavorText": {
+    "sv": "Cures the Pokémon's status conditions in rain."
+  }
 }

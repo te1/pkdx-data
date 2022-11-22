@@ -1,10 +1,15 @@
 {
-  "name": "Thermal Exchange",
   "slug": "thermalexchange",
-  "flavorText": "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned.",
+  "name": "Thermal Exchange",
+  "gen": 9,
   "pokemon": [
-    "frigibax",
     "arctibax",
-    "baxcalibur"
-  ]
+    "baxcalibur",
+    "frigibax"
+  ],
+  "desc": "This Pokemon's Attack is raised 1 stage after it is damaged by a Fire-type move. This Pokemon cannot be burned.",
+  "shortDesc": "This Pokemon's Attack is raised by 1 stage when hit by Fire moves; it can't be burned.",
+  "flavorText": {
+    "sv": "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned."
+  }
 }

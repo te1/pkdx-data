@@ -1,9 +1,14 @@
 {
-  "name": "Honey Gather",
   "slug": "honeygather",
-  "flavorText": "The Pokémon may gather Honey after a battle.",
+  "name": "Honey Gather",
+  "gen": 4,
   "pokemon": [
     "combee",
     "teddiursa"
-  ]
+  ],
+  "desc": "No competitive use.",
+  "shortDesc": "No competitive use.",
+  "flavorText": {
+    "sv": "The Pokémon may gather Honey after a battle."
+  }
 }

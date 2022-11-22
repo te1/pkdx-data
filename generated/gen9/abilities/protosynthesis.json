@@ -1,14 +1,19 @@
 {
-  "name": "Protosynthesis",
   "slug": "protosynthesis",
-  "flavorText": "Boosts the Pokémon’s most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.",
+  "name": "Protosynthesis",
+  "gen": 9,
   "pokemon": [
-    "greattusk",
-    "screamtail",
     "brutebonnet",
     "fluttermane",
-    "slitherwing",
+    "greattusk",
+    "roaringmoon",
     "sandyshocks",
-    "roaringmoon"
-  ]
+    "screamtail",
+    "slitherwing"
+  ],
+  "desc": "If Sunny Day is active, or this Pokemon is holding Booster Energy, this Pokemon's highest stat is boosted by 50%.",
+  "shortDesc": "If Sunny Day is active or Booster Energy held, the highest stat is 1.5x.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy."
+  }
 }

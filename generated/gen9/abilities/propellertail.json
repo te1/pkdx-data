@@ -1,9 +1,14 @@
 {
-  "name": "Propeller Tail",
   "slug": "propellertail",
-  "flavorText": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.",
+  "name": "Propeller Tail",
+  "gen": 8,
   "pokemon": [
     "arrokuda",
     "barraskewda"
-  ]
+  ],
+  "desc": "This Pokemon's moves cannot be redirected to a different target by any effect.",
+  "shortDesc": "This Pokemon's moves cannot be redirected to a different target by any effect.",
+  "flavorText": {
+    "sv": "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves."
+  }
 }

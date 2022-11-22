@@ -1,8 +1,13 @@
 {
-  "name": "Immunity",
   "slug": "immunity",
-  "flavorText": "The Pokémon’s immune system prevents it from being poisoned.",
+  "name": "Immunity",
+  "gen": 3,
   "pokemon": [
     "zangoose"
-  ]
+  ],
+  "desc": "This Pokemon cannot be poisoned. Gaining this Ability while poisoned cures it.",
+  "shortDesc": "This Pokemon cannot be poisoned. Gaining this Ability while poisoned cures it.",
+  "flavorText": {
+    "sv": "The Pokémon's immune system prevents it from being poisoned."
+  }
 }

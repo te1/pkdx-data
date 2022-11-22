@@ -1,10 +1,16 @@
 {
-  "name": "Slush Rush",
   "slug": "slushrush",
-  "flavorText": "Boosts the Pokémon’s Speed stat in snow.",
+  "name": "Slush Rush",
+  "gen": 7,
   "pokemon": [
-    "cubchoo",
     "beartic",
-    "cetitan"
-  ]
+    "cetitan",
+    "cetoddle",
+    "cubchoo"
+  ],
+  "desc": "If Snow is active, this Pokemon's Speed is doubled.",
+  "shortDesc": "If Snow is active, this Pokemon's Speed is doubled.",
+  "flavorText": {
+    "sv": "Boosts the Pokémon's Speed stat in snow."
+  }
 }

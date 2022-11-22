@@ -1,19 +1,24 @@
 {
-  "name": "Moxie",
   "slug": "moxie",
-  "flavorText": "When the Pokémon knocks out a target, it shows moxie, which boosts its Attack stat.",
+  "name": "Moxie",
+  "gen": 5,
   "pokemon": [
-    "quaxly",
-    "quaxwell",
-    "quaquaval",
     "gyarados",
-    "litleo",
-    "pyroar",
-    "honchkrow",
     "heracross",
-    "sandile",
+    "honchkrow",
     "krokorok",
     "krookodile",
-    "salamence"
-  ]
+    "litleo",
+    "pyroar",
+    "quaquaval",
+    "quaxly",
+    "quaxwell",
+    "salamence",
+    "sandile"
+  ],
+  "desc": "This Pokemon's Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
+  "shortDesc": "This Pokemon's Attack is raised by 1 stage if it attacks and KOes another Pokemon.",
+  "flavorText": {
+    "sv": "When the Pokémon knocks out a target, it shows moxie, which boosts its Attack stat."
+  }
 }

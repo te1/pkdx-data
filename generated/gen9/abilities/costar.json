@@ -1,8 +1,13 @@
 {
-  "name": "Costar",
   "slug": "costar",
-  "flavorText": "When the Pokémon enters a battle, it copies an ally’s stat changes.",
+  "name": "Costar",
+  "gen": 9,
   "pokemon": [
     "flamigo"
-  ]
+  ],
+  "desc": "On switch-in, this Pokemon copies an ally's stat changes.",
+  "shortDesc": "On switch-in, this Pokemon copies an ally's stat changes.",
+  "flavorText": {
+    "sv": "When the Pokémon enters a battle, it copies an ally's stat changes."
+  }
 }

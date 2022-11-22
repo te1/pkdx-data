@@ -1,25 +1,31 @@
 {
-  "name": "Inner Focus",
   "slug": "innerfocus",
-  "flavorText": "The Pokémon’s intense focus prevents it from flinching or being affected by Intimidate.",
+  "name": "Inner Focus",
+  "gen": 3,
   "pokemon": [
-    "drowzee",
-    "hypno",
     "annihilape",
-    "riolu",
-    "lucario",
-    "umbreon",
+    "bisharp",
+    "dragonite",
+    "drowzee",
     "girafarig",
-    "sneasel",
+    "glalie",
+    "hypno",
     "indeedee",
+    "kubfu",
+    "lucario",
     "mudbray",
     "mudsdale",
     "oranguru",
-    "dragonite",
-    "snorunt",
-    "glalie",
     "pawniard",
-    "bisharp",
-    "kubfu"
-  ]
+    "riolu",
+    "sneasel",
+    "sneasel-hisui",
+    "snorunt",
+    "umbreon"
+  ],
+  "desc": "This Pokemon cannot be made to flinch. This Pokemon is immune to the effect of the Intimidate Ability.",
+  "shortDesc": "This Pokemon cannot be made to flinch. Immune to Intimidate.",
+  "flavorText": {
+    "sv": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+  }
 }

@@ -1,13 +1,18 @@
 {
-  "name": "Protean",
   "slug": "protean",
-  "flavorText": "Changes the Pokémon’s type to the type of the move it’s about to use. This works only once each time the Pokémon enters battle.",
+  "name": "Protean",
+  "gen": 6,
   "pokemon": [
-    "sprigatito",
     "floragato",
-    "meowscarada",
     "froakie",
     "frogadier",
-    "greninja"
-  ]
+    "greninja",
+    "meowscarada",
+    "sprigatito"
+  ],
+  "desc": "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
+  "shortDesc": "This Pokemon's type changes to match the type of the move it is about to use.",
+  "flavorText": {
+    "sv": "Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle."
+  }
 }

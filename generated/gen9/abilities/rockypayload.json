@@ -1,8 +1,13 @@
 {
-  "name": "Rocky Payload",
   "slug": "rockypayload",
-  "flavorText": "Powers up Rock-type moves.",
+  "name": "Rocky Payload",
+  "gen": 9,
   "pokemon": [
     "bombirdier"
-  ]
+  ],
+  "desc": "This Pokemon's offensive stat is multiplied by 1.5 while using a Rock-type attack.",
+  "shortDesc": "This Pokemon's offensive stat is multiplied by 1.5 while using a Rock-type attack.",
+  "flavorText": {
+    "sv": "Powers up Rock-type moves."
+  }
 }

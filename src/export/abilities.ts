@@ -1,4 +1,5 @@
 import * as path from 'path';
+import * as fs from 'fs-extra';
 import _ from 'lodash';
 import { Generation } from '@pkmn/data';
 import { PokemonMap, exportData } from '../utils';
@@ -11,10 +12,25 @@ export async function exportAbilities(
 ) {
   console.log('- abilities');
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const flavorTexts: { [key: string]: any } = {};
+
+  if (gen.num === 9) {
+    console.log('\tloading data...');
+
+    // TODO dynamically read sub dirs instead of hardcoding gen and game here
+    // ability flavor texts are the same for all games in a game group
+    flavorTexts.sv = await fs.readJson(
+      `./data/flavorText/gen${gen.num}/sv/abilities.json`
+    );
+  }
+
   let result = [];
 
   for (const ability of gen.abilities) {
     const pokemon = [...(abilityMap.get(ability.id) ?? [])].sort();
+
+    const flavorText = flavorTexts.sv?.[ability.id];
 
     const entry = {
       slug: ability.id,
@@ -23,9 +39,7 @@ export async function exportAbilities(
       pokemon: pokemon?.length ? pokemon : undefined,
       desc: ability.desc,
       shortDesc: ability.shortDesc,
-
-      // TODO add ability flavor text
-      // flavorText: data[ability.id]?.flavorText,
+      flavorText: flavorText ? { sv: flavorText } : undefined,
     };
 
     if (shouldSkipAbility(entry)) {

@@ -25,6 +25,19 @@ export async function exportMoves(
     extraData = await fs.readJson('./data/moves.json');
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const flavorTexts: { [key: string]: any } = {};
+
+  if (gen.num === 9) {
+    console.log('\tloading data...');
+
+    // TODO dynamically read sub dirs instead of hardcoding gen and game here
+    // move flavor texts are the same for all games in a game group
+    flavorTexts.sv = await fs.readJson(
+      `./data/flavorText/gen${gen.num}/sv/moves.json`
+    );
+  }
+
   const hasZMoves = gen.num === 7;
   const hasMaxMoves = gen.num === 8;
 
@@ -81,6 +94,8 @@ export async function exportMoves(
 
     const pokemon = [...(moveMap.get(move.id) ?? [])].sort();
 
+    const flavorText = flavorTexts.sv?.[move.id];
+
     const entry = {
       slug: move.id,
       name: move.name,
@@ -121,9 +136,7 @@ export async function exportMoves(
       exclusive: exclusivePokemon || undefined,
       desc: move.desc,
       shortDesc: move.shortDesc,
-
-      // TODO add move flavor text
-      // flavorText: extraData[move.id]?.flavorText,
+      flavorText: flavorText ? { sv: flavorText } : undefined,
     };
 
     if (shouldSkipMove(entry, { hasZMoves, hasMaxMoves })) {

@@ -60,6 +60,19 @@ export async function exportPokemon(
     extraData = await fs.readJson('./data/pokemon.json');
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const flavorTexts: { [key: string]: any } = {};
+
+  if (gen.num === 9) {
+    console.log('\tloading data...');
+
+    // TODO dynamically read sub dirs instead of hardcoding gen and game here
+    // move flavor texts are the same for all games in a game group
+    flavorTexts.scarlet = await fs.readJson(
+      `./data/flavorText/gen${gen.num}/sv/pokedex-scarlet.json`
+    );
+  }
+
   const hasEggs = gen.num >= 2;
   const hasAbilities = gen.num >= 3;
   const hasDynamax = gen.num === 8;
@@ -182,6 +195,8 @@ export async function exportPokemon(
         extraData.override
       );
     }
+
+    const flavorText = flavorTexts.scarlet?.[slug];
 
     const entry = {
       // -- General
@@ -321,8 +336,7 @@ export async function exportPokemon(
       // Shedinja: max HP is always 1
       // maxHP: species.maxHP,
 
-      // TODO add pokemon flavor text
-      // flavorText: extraData.override[slug]?.flavorText,
+      flavorText: flavorText ? { scarlet: flavorText } : undefined,
 
       // name of the exclusive G-Max move
       gmaxMove,

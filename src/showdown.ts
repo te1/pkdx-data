@@ -234,6 +234,9 @@ export async function getShowdownData() {
   // use @pkmn/data on top of @pkmn/sim for height
   const simGens = new Generations(SimDex as unknown as typeof Dex, existsFn);
 
+  // TODO handle other mods?
+  // gen4pt (no hgss), gen5bw1 (no bw2), gen6xy (no oras), gen7sm (no usum), gen7letsgo
+
   // use @pkmn/data on top of @pkmn/dex with @pkmn/mods for bdsp
   const dexBdsp = Dex.mod(
     'gen8bdsp' as ID,

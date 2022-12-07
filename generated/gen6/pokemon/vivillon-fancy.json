@@ -20,6 +20,8 @@
     "spd": 50,
     "spe": 89
   },
+  "prevo": "spewpa",
+  "evoLevel": 12,
   "baseSpecies": "vivillon",
   "weight": 17,
   "height": 1.2,
@@ -30,7 +32,6 @@
   "eggGroups": [
     "Bug"
   ],
-  "canHatch": true,
   "learnset": {
     "acrobatics": [
       "M"
@@ -45,7 +46,8 @@
       "M"
     ],
     "bugbite": [
-      "T"
+      "T",
+      "L:15"
     ],
     "bugbuzz": [
       "L:35"
@@ -92,6 +94,9 @@
     "gust": [
       "L:1"
     ],
+    "harden": [
+      "L:1@spewpa"
+    ],
     "hiddenpower": [
       "M"
     ],
@@ -107,18 +112,23 @@
     "infestation": [
       "M"
     ],
+    "irondefense": [
+      "T@spewpa"
+    ],
     "lightscreen": [
       "M",
       "L:1"
     ],
     "poisonpowder": [
-      "L:1"
+      "L:1",
+      "E"
     ],
     "powder": [
       "L:1"
     ],
     "protect": [
-      "M"
+      "M",
+      "L:9@spewpa"
     ],
     "psybeam": [
       "L:17"
@@ -131,6 +141,9 @@
     ],
     "quiverdance": [
       "L:45"
+    ],
+    "ragepowder": [
+      "E"
     ],
     "raindance": [
       "M"
@@ -169,12 +182,16 @@
     "solarbeam": [
       "M"
     ],
+    "stringshot": [
+      "L:1"
+    ],
     "strugglebug": [
       "M",
       "L:12"
     ],
     "stunspore": [
-      "L:1"
+      "L:1",
+      "E"
     ],
     "substitute": [
       "M"
@@ -187,6 +204,9 @@
     ],
     "swagger": [
       "M"
+    ],
+    "tackle": [
+      "L:1"
     ],
     "tailwind": [
       "T"

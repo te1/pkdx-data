@@ -47,7 +47,7 @@ async function main() {
       await exportMachines(genData.gen);
 
       // TODO pokedex usum, la
-      // TODO maybe handle gen8 la (remaining learnsets, moves)
+      // TODO maybe handle gen8 la
 
       console.log('');
     }

@@ -25,41 +25,39 @@ const excludeSpeciesId = [
   'pokestarwhitedoor',
 ];
 
-const includeSpeciesIdGen8Future = [
-  'growlithehisui',
-  'arcaninehisui',
-  'voltorbhisui',
-  'electrodehisui',
-  'typhlosionhisui',
-  'qwilfishhisui',
-  'sneaselhisui',
-  'dialgaorigin',
-  'palkiaorigin',
-  'samurotthisui',
-  'lilliganthisui',
-  'basculinwhitestriped',
-  'zoruahisui',
-  'zoroarkhisui',
-  'braviaryhisui',
-  'sliggoohisui',
-  'goodrahisui',
-  'avalugghisui',
-  'decidueyehisui',
-  'wyrdeer',
-  'kleavor',
-  'ursaluna',
-  'basculegion',
-  'basculegionf',
-  'sneasler',
-  'overqwil',
-  'enamorus',
-  'enamorustherian',
-];
+// const includeSpeciesIdGen8Future = [
+//   'growlithehisui',
+//   'arcaninehisui',
+//   'voltorbhisui',
+//   'electrodehisui',
+//   'typhlosionhisui',
+//   'qwilfishhisui',
+//   'sneaselhisui',
+//   'dialgaorigin',
+//   'palkiaorigin',
+//   'samurotthisui',
+//   'lilliganthisui',
+//   'basculinwhitestriped',
+//   'zoruahisui',
+//   'zoroarkhisui',
+//   'braviaryhisui',
+//   'sliggoohisui',
+//   'goodrahisui',
+//   'avalugghisui',
+//   'decidueyehisui',
+//   'wyrdeer',
+//   'kleavor',
+//   'ursaluna',
+//   'basculegion',
+//   'basculegionf',
+//   'sneasler',
+//   'overqwil',
+//   'enamorus',
+//   'enamorustherian',
+// ];
 
 const includeSpeciesIdGen8Past = [
-  'cyndaquil',
-  'oshawott',
-  'dewott',
+  // bdsp
   'bidoof',
   'bibarel',
   'starly',
@@ -84,17 +82,10 @@ const includeSpeciesIdGen8Past = [
   'geodude',
   'graveler',
   'golem',
-  'stantler',
-  'paras',
-  'parasect',
   'aipom',
   'ambipom',
   'carnivine',
-  'yanma',
-  'yanmega',
   'pachirisu',
-  'teddiursa',
-  'ursaring',
   'turtwig',
   'grotle',
   'torterra',
@@ -136,10 +127,6 @@ const includeSpeciesIdGen8Past = [
   'empoleon',
   'finneon',
   'lumineon',
-  'gligar',
-  'gliscor',
-  'nosepass',
-  'probopass',
   'chingling',
   'chimecho',
   'misdreavus',
@@ -148,14 +135,30 @@ const includeSpeciesIdGen8Past = [
   'rampardos',
   'shieldon',
   'bastiodon',
-  'arceus',
-  'phione',
   'manaphy',
   'shaymin',
   'darkrai',
   'meditite',
   'medicham',
   'girafarig',
+
+  // la
+  // 'cyndaquil',
+  // 'oshawott',
+  // 'dewott',
+  // 'stantler',
+  // 'paras',
+  // 'parasect',
+  // 'yanma',
+  // 'yanmega',
+  // 'teddiursa',
+  // 'ursaring',
+  // 'gligar',
+  // 'gliscor',
+  // 'nosepass',
+  // 'probopass',
+  // 'arceus',
+  // 'phione',
 ];
 
 const existsFn = ((d: Data, g: GenerationNum) => {
@@ -184,14 +187,14 @@ const existsFn = ((d: Data, g: GenerationNum) => {
     allowUnobtainableSpecies || allowLetsGoSpecies || allowGmaxSpecies;
 
   // include new Legends Arceus species
-  const allowFutureSpecies =
-    g === 8 &&
-    d.kind === 'Species' &&
-    d.isNonstandard &&
-    'Future' === d.isNonstandard &&
-    _.includes(includeSpeciesIdGen8Future, d.id);
+  // const allowFutureSpecies =
+  //   g === 8 &&
+  //   d.kind === 'Species' &&
+  //   d.isNonstandard &&
+  //   'Future' === d.isNonstandard &&
+  //   _.includes(includeSpeciesIdGen8Future, d.id);
 
-  // include returning Legends Arceus / BDSP species
+  // include returning BDSP species
   const allowPastSpecies =
     g === 8 &&
     d.kind === 'Species' &&
@@ -208,7 +211,7 @@ const existsFn = ((d: Data, g: GenerationNum) => {
 
   const allowNonstandard =
     allowNonstandardSpecies ||
-    allowFutureSpecies ||
+    // allowFutureSpecies ||
     allowPastSpecies ||
     allowNonstandardMove;
 

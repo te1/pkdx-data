@@ -1,0 +1,20 @@
+{
+  "slug": "hyperspacefury",
+  "name": "Hyperspace Fury",
+  "gen": 6,
+  "type": "dark",
+  "category": "physical",
+  "basePower": 100,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "hoopa",
+    "hoopa-unbound"
+  ],
+  "desc": "Lowers the user's Defense by 1 stage. This move cannot be used successfully unless the user's current form, while considering Transform, is Hoopa Unbound. If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
+  "shortDesc": "Hoopa-U: Lowers user's Def by 1; breaks protect.",
+  "flavorText": {
+    "sv": "Using its many arms, the user unleashes a barrage of attacks that ignore the effects of moves like Protect and Detect. This also lowers the user's Defense stat."
+  }
+}

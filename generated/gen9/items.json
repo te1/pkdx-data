@@ -3,7 +3,7 @@
     "slug": "abilityshield",
     "name": "Ability Shield",
     "gen": 9,
-    "desc": "Holder's Ability cannot be changed by another Pokemon."
+    "desc": "Holder's Ability cannot be changed by any effect."
   },
   {
     "slug": "absorbbulb",
@@ -51,7 +51,7 @@
     "slug": "auspiciousarmor",
     "name": "Auspicious Armor",
     "gen": 9,
-    "desc": ""
+    "desc": "Evolves Charcadet into Armarouge when used."
   },
   {
     "slug": "babiriberry",
@@ -117,7 +117,7 @@
     "slug": "boosterenergy",
     "name": "Booster Energy",
     "gen": 9,
-    "desc": "Activates the Protosynthesis or Quark Drive abilities. Single use."
+    "desc": "Activates the Protosynthesis or Quark Drive Abilities. Single use."
   },
   {
     "slug": "bottlecap",
@@ -201,7 +201,7 @@
     "slug": "clearamulet",
     "name": "Clear Amulet",
     "gen": 9,
-    "desc": "Prevents other Pokemon from lowering this Pokemon's stat stages."
+    "desc": "Prevents other Pokemon from lowering the holder's stat stages."
   },
   {
     "slug": "cloversweet",
@@ -567,7 +567,7 @@
     "slug": "loadeddice",
     "name": "Loaded Dice",
     "gen": 9,
-    "desc": "Holder's 5 hit multi-hit attacks will always hit at least 4 times."
+    "desc": "Holder's moves that hit 2-5 times hit 4-5 times; Population Bomb hits 4-10 times."
   },
   {
     "slug": "loveball",
@@ -633,7 +633,7 @@
     "slug": "maliciousarmor",
     "name": "Malicious Armor",
     "gen": 9,
-    "desc": ""
+    "desc": "Evolves Charcadet into Ceruledge when used."
   },
   {
     "slug": "masterball",
@@ -676,7 +676,7 @@
     "slug": "mirrorherb",
     "name": "Mirror Herb",
     "gen": 9,
-    "desc": "When an opposing Pokemon recieves stat boosts, those boosts are copied. Single use."
+    "desc": "When an opposing Pokemon raises a stat stage, the holder copies it. Single use."
   },
   {
     "slug": "mistyseed",
@@ -869,7 +869,7 @@
     "slug": "punchingglove",
     "name": "Punching Glove",
     "gen": 9,
-    "desc": "Holder's punch-based attacks do 1.1x damage and avoid adverse contact effects."
+    "desc": "Holder's punch-based attacks have 1.1x power and do not make contact."
   },
   {
     "slug": "qualotberry",

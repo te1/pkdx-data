@@ -5,8 +5,8 @@
   "pokemon": [
     "kingambit"
   ],
-  "desc": "This Pokemon's Attack and Special Attack stats are increased by 10% for each fainted teammate.",
-  "shortDesc": "This Pokemon's Attack and Special Attack raise by 10% per fainted teammate.",
+  "desc": "This Pokemon's moves have their power multiplied by 1+(X*0.1), where X is the total number of times any Pokemon has fainted on the user's side when this Ability became active, and X cannot be greater than 5.",
+  "shortDesc": "This Pokemon's moves have 0.1x more power for each fainted ally, maximum 1.5x.",
   "flavorText": {
     "sv": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated."
   }

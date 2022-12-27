@@ -13,8 +13,8 @@
     "garganacl",
     "naclstack"
   ],
-  "desc": "Deals 1/8 max HP every turn; 1/4 if Steel or Water.",
-  "shortDesc": "Deals 1/8 max HP every turn; 1/4 if Steel or Water.",
+  "desc": "Causes damage to the target equal to 1/8 of its maximum HP (1/4 if the target is Steel or Water type), rounded down, at the end of each turn during effect. This effect ends when the target is no longer active.",
+  "shortDesc": "Deals 1/8 max HP each turn; 1/4 on Steel, Water.",
   "flavorText": {
     "sv": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move."
   }

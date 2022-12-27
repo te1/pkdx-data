@@ -11,7 +11,7 @@
     "cyclizar",
     "orthworm"
   ],
-  "desc": "The user takes 1/2 of its maximum HP, rounded up, and creates a substitute. The user then switches out, passing the substitute to whichever Pokemon is switched in.",
+  "desc": "The user takes 1/2 of its maximum HP, rounded up, and creates a substitute that has 1/4 of the user's maximum HP, rounded down. The user is replaced with another Pokemon in its party and the selected Pokemon has the substitute transferred to it. Fails if the user would faint, or if there are no unfainted party members.",
   "shortDesc": "User takes 1/2 its max HP to pass a substitute.",
   "flavorText": {
     "sv": "The user creates a substitute for itself using its own HP before switching places with a party Pokémon in waiting."

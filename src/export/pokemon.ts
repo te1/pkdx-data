@@ -691,7 +691,7 @@ const regionFormes: Map<Region, string[]> = new Map([
   ['Alola', ['Alola', 'Alola-Totem']],
   ['Galar', ['Galar', 'Galar-Zen']],
   ['Hisui', ['Hisui']],
-  ['Paldea', ['Paldea']],
+  ['Paldea', ['Paldea', 'Paldea-Combat', 'Paldea-Blaze', 'Paldea-Aqua']],
 ]);
 
 function getRegion(

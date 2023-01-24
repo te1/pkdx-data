@@ -1,11 +1,10 @@
 {
-  "slug": "tauros-paldea-fire",
-  "name": "Tauros",
-  "subName": "Paldea-Fire",
+  "slug": "tauros-paldea-combat",
+  "name": "Paldean Tauros",
+  "subName": "Combat Breed",
   "num": 128,
   "types": [
-    "fighting",
-    "fire"
+    "fighting"
   ],
   "gen": 9,
   "abilities": {
@@ -22,6 +21,7 @@
     "spe": 100
   },
   "baseSpecies": "tauros",
+  "region": "Paldea",
   "weight": 88.4,
   "height": 1.4,
   "gender": "M",
@@ -30,6 +30,9 @@
   ],
   "canHatch": true,
   "learnset": {
+    "assurance": [
+      "L:15"
+    ],
     "bodypress": [
       "M"
     ],
@@ -52,6 +55,9 @@
     "dig": [
       "M"
     ],
+    "doubleedge": [
+      "L:55"
+    ],
     "doublekick": [
       "L:10"
     ],
@@ -70,23 +76,6 @@
     "facade": [
       "M"
     ],
-    "fireblast": [
-      "M"
-    ],
-    "firespin": [
-      "M"
-    ],
-    "flamecharge": [
-      "M",
-      "L:15"
-    ],
-    "flamethrower": [
-      "M"
-    ],
-    "flareblitz": [
-      "M",
-      "L:55"
-    ],
     "gigaimpact": [
       "M"
     ],
@@ -100,9 +89,6 @@
       "M"
     ],
     "outrage": [
-      "M"
-    ],
-    "overheat": [
       "M"
     ],
     "protect": [
@@ -152,6 +138,9 @@
     "sunnyday": [
       "M"
     ],
+    "surf": [
+      "M"
+    ],
     "swagger": [
       "L:45"
     ],
@@ -177,9 +166,6 @@
       "M"
     ],
     "wildcharge": [
-      "M"
-    ],
-    "willowisp": [
       "M"
     ],
     "workup": [

@@ -20,6 +20,6 @@
     "togepi",
     "togetic"
   ],
-  "desc": "The user uses the last move used by the target. Fails if the target has not made a move, or if the last move used was Metronome, Mimic, Mirror Move, Sketch, Sleep Talk, Transform, or any move the user knows.",
+  "desc": "The user uses the last move used by the target. Fails if the target has not made a move since the user switched in, or if the last move used was Metronome, Mimic, Mirror Move, Sketch, Sleep Talk, Transform, or any move the user knows.",
   "shortDesc": "User uses the target's last used move against it."
 }

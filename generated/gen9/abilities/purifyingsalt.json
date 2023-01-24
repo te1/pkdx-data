@@ -7,8 +7,8 @@
     "nacli",
     "naclstack"
   ],
-  "desc": "This Pokemon cannot become affected by a non-volatile status condition or Yawn. This Pokemon receives 1/2 damage from Ghost-type moves.",
-  "shortDesc": "This Pokemon takes 1/2 damage from Ghost moves and it cannot become statused.",
+  "desc": "This Pokemon cannot become affected by a non-volatile status condition or Yawn. If a Pokemon uses a Ghost-type attack against this Pokemon, that Pokemon's offensive stat is halved when calculating the damage to this Pokemon.",
+  "shortDesc": "Ghost damage to this Pokemon dealt with a halved offensive stat; can't be statused.",
   "flavorText": {
     "sv": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves."
   }

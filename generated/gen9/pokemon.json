@@ -891,8 +891,9 @@
     }
   },
   {
-    "slug": "tauros-paldea",
+    "slug": "tauros-paldea-combat",
     "name": "Paldean Tauros",
+    "subName": "Combat Breed",
     "num": 128,
     "types": [
       "fighting"
@@ -908,9 +909,9 @@
     }
   },
   {
-    "slug": "tauros-paldea-fire",
-    "name": "Tauros",
-    "subName": "Paldea-Fire",
+    "slug": "tauros-paldea-blaze",
+    "name": "Paldean Tauros",
+    "subName": "Blaze Breed",
     "num": 128,
     "types": [
       "fighting",
@@ -927,9 +928,9 @@
     }
   },
   {
-    "slug": "tauros-paldea-water",
-    "name": "Tauros",
-    "subName": "Paldea-Water",
+    "slug": "tauros-paldea-aqua",
+    "name": "Paldean Tauros",
+    "subName": "Aqua Breed",
     "num": 128,
     "types": [
       "fighting",
@@ -9109,7 +9110,7 @@
       "atk": 35,
       "def": 30,
       "spa": 55,
-      "spd": 40,
+      "spd": 30,
       "spe": 75
     }
   },

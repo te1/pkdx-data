@@ -1,9 +1,11 @@
 {
-  "slug": "tauros-paldea",
+  "slug": "tauros-paldea-blaze",
   "name": "Paldean Tauros",
+  "subName": "Blaze Breed",
   "num": 128,
   "types": [
-    "fighting"
+    "fighting",
+    "fire"
   ],
   "gen": 9,
   "abilities": {
@@ -29,9 +31,6 @@
   ],
   "canHatch": true,
   "learnset": {
-    "assurance": [
-      "L:15"
-    ],
     "bodypress": [
       "M"
     ],
@@ -54,9 +53,6 @@
     "dig": [
       "M"
     ],
-    "doubleedge": [
-      "L:55"
-    ],
     "doublekick": [
       "L:10"
     ],
@@ -75,6 +71,23 @@
     "facade": [
       "M"
     ],
+    "fireblast": [
+      "M"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "flamecharge": [
+      "M",
+      "L:15"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flareblitz": [
+      "M",
+      "L:55"
+    ],
     "gigaimpact": [
       "M"
     ],
@@ -88,6 +101,9 @@
       "M"
     ],
     "outrage": [
+      "M"
+    ],
+    "overheat": [
       "M"
     ],
     "protect": [
@@ -137,9 +153,6 @@
     "sunnyday": [
       "M"
     ],
-    "surf": [
-      "M"
-    ],
     "swagger": [
       "L:45"
     ],
@@ -165,6 +178,9 @@
       "M"
     ],
     "wildcharge": [
+      "M"
+    ],
+    "willowisp": [
       "M"
     ],
     "workup": [

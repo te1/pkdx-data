@@ -4607,12 +4607,12 @@
     ],
     "gen": 8,
     "baseStats": {
-      "hp": 60,
-      "atk": 105,
+      "hp": 55,
+      "atk": 100,
       "def": 60,
-      "spa": 120,
+      "spa": 125,
       "spd": 60,
-      "spe": 105
+      "spe": 110
     }
   },
   {
@@ -9931,6 +9931,24 @@
     }
   },
   {
+    "slug": "gimmighoul-roaming",
+    "name": "Gimmighoul",
+    "subName": "Roaming",
+    "num": 999,
+    "types": [
+      "ghost"
+    ],
+    "gen": 9,
+    "baseStats": {
+      "hp": 45,
+      "atk": 30,
+      "def": 25,
+      "spa": 75,
+      "spd": 45,
+      "spe": 80
+    }
+  },
+  {
     "slug": "gholdengo",
     "name": "Gholdengo",
     "num": 1000,
@@ -10090,6 +10108,42 @@
       "spa": 135,
       "spd": 115,
       "spe": 135
+    }
+  },
+  {
+    "slug": "walkingwake",
+    "name": "Walking Wake",
+    "num": 1009,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "gen": 9,
+    "baseStats": {
+      "hp": 99,
+      "atk": 83,
+      "def": 91,
+      "spa": 125,
+      "spd": 83,
+      "spe": 109
+    }
+  },
+  {
+    "slug": "ironleaves",
+    "name": "Iron Leaves",
+    "num": 1010,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "gen": 9,
+    "baseStats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 88,
+      "spa": 70,
+      "spd": 108,
+      "spe": 104
     }
   }
 ]

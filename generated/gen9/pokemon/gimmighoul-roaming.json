@@ -1,37 +1,34 @@
 {
-  "slug": "gimmighoul",
+  "slug": "gimmighoul-roaming",
   "name": "Gimmighoul",
+  "subName": "Roaming",
   "num": 999,
   "types": [
     "ghost"
   ],
   "gen": 9,
   "abilities": {
-    "0": "rattled"
+    "0": "runaway"
   },
   "baseStats": {
     "hp": 45,
     "atk": 30,
-    "def": 70,
+    "def": 25,
     "spa": 75,
-    "spd": 70,
-    "spe": 10
+    "spd": 45,
+    "spe": 80
   },
   "evos": [
     "gholdengo"
   ],
-  "formes": [
-    "gimmighoul-roaming"
-  ],
-  "weight": 5,
-  "height": 0.3,
+  "baseSpecies": "gimmighoul",
+  "weight": 0.1,
+  "height": 0.1,
   "gender": "N",
   "eggGroups": [
     "Undiscovered"
   ],
-  "flavorText": {
-    "scarlet": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure."
-  },
+  "isUnobtainable": true,
   "learnset": {
     "astonish": [
       "L:1"

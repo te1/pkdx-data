@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node ./dist/index.js",
+    "start": "pnpm run build && node ./dist/index.js",
     "start:dev": "ts-node src/index.ts",
     "watch": "nodemon",
     "lint": "eslint ./src",

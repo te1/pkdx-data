@@ -1,0 +1,20 @@
+{
+  "slug": "infernalparade",
+  "name": "Infernal Parade",
+  "gen": 9,
+  "type": "ghost",
+  "category": "special",
+  "basePower": 60,
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "typhlosion-hisui"
+  ],
+  "desc": "Has a 30% chance to burn the target. Power doubles if the target has a non-volatile status condition.",
+  "shortDesc": "30% burn. 2x power if target is already statused.",
+  "flavorText": {
+    "sv": "The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition."
+  }
+}

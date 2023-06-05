@@ -1,0 +1,22 @@
+{
+  "slug": "simplebeam",
+  "name": "Simple Beam",
+  "gen": 5,
+  "type": "normal",
+  "category": "status",
+  "accuracy": 100,
+  "pp": 15,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "golduck",
+    "grumpig",
+    "psyduck",
+    "spoink"
+  ],
+  "desc": "Causes the target's Ability to become Simple. Fails if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Simple, Stance Change, Truant, Zen Mode, or Zero to Hero.",
+  "shortDesc": "The target's Ability becomes Simple.",
+  "flavorText": {
+    "sv": "The user emits a mysterious psychic wave that changes the target's Ability to Simple."
+  }
+}

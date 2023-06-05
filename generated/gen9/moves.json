@@ -300,6 +300,15 @@
     "category": "status"
   },
   {
+    "slug": "barbbarrage",
+    "name": "Barb Barrage",
+    "gen": 9,
+    "type": "poison",
+    "category": "physical",
+    "basePower": 60,
+    "accuracy": 100
+  },
+  {
     "slug": "batonpass",
     "name": "Baton Pass",
     "gen": 2,
@@ -393,6 +402,15 @@
     "category": "special",
     "basePower": 150,
     "accuracy": 90
+  },
+  {
+    "slug": "bleakwindstorm",
+    "name": "Bleakwind Storm",
+    "gen": 9,
+    "type": "flying",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 80
   },
   {
     "slug": "blizzard",
@@ -578,6 +596,15 @@
     "category": "status"
   },
   {
+    "slug": "ceaselessedge",
+    "name": "Ceaseless Edge",
+    "gen": 9,
+    "type": "dark",
+    "category": "physical",
+    "basePower": 65,
+    "accuracy": 90
+  },
+  {
     "slug": "charge",
     "name": "Charge",
     "gen": 3,
@@ -616,6 +643,15 @@
     "gen": 9,
     "type": "ice",
     "category": "status"
+  },
+  {
+    "slug": "chloroblast",
+    "name": "Chloroblast",
+    "gen": 9,
+    "type": "grass",
+    "category": "special",
+    "basePower": 150,
+    "accuracy": 95
   },
   {
     "slug": "circlethrow",
@@ -697,6 +733,13 @@
     "name": "Copycat",
     "gen": 4,
     "type": "normal",
+    "category": "status"
+  },
+  {
+    "slug": "cosmicpower",
+    "name": "Cosmic Power",
+    "gen": 3,
+    "type": "psychic",
     "category": "status"
   },
   {
@@ -859,6 +902,15 @@
     "name": "Dig",
     "gen": 1,
     "type": "ground",
+    "category": "physical",
+    "basePower": 80,
+    "accuracy": 100
+  },
+  {
+    "slug": "direclaw",
+    "name": "Dire Claw",
+    "gen": 9,
+    "type": "poison",
     "category": "physical",
     "basePower": 80,
     "accuracy": 100
@@ -1252,6 +1304,15 @@
     "type": "fire",
     "category": "special",
     "basePower": 150,
+    "accuracy": 100
+  },
+  {
+    "slug": "esperwing",
+    "name": "Esper Wing",
+    "gen": 9,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 80,
     "accuracy": 100
   },
   {
@@ -1943,6 +2004,13 @@
     "accuracy": 80
   },
   {
+    "slug": "healbell",
+    "name": "Heal Bell",
+    "gen": 2,
+    "type": "normal",
+    "category": "status"
+  },
+  {
     "slug": "healingwish",
     "name": "Healing Wish",
     "gen": 4,
@@ -2234,6 +2302,15 @@
     "accuracy": 100
   },
   {
+    "slug": "infernalparade",
+    "name": "Infernal Parade",
+    "gen": 9,
+    "type": "ghost",
+    "category": "special",
+    "basePower": 60,
+    "accuracy": 100
+  },
+  {
     "slug": "inferno",
     "name": "Inferno",
     "gen": 5,
@@ -2487,6 +2564,13 @@
     "accuracy": 100
   },
   {
+    "slug": "lunarblessing",
+    "name": "Lunar Blessing",
+    "gen": 9,
+    "type": "psychic",
+    "category": "status"
+  },
+  {
     "slug": "lunardance",
     "name": "Lunar Dance",
     "gen": 4,
@@ -2727,6 +2811,15 @@
     "accuracy": 100
   },
   {
+    "slug": "mountaingale",
+    "name": "Mountain Gale",
+    "gen": 9,
+    "type": "ice",
+    "category": "physical",
+    "basePower": 100,
+    "accuracy": 85
+  },
+  {
     "slug": "muddywater",
     "name": "Muddy Water",
     "gen": 3,
@@ -2761,6 +2854,15 @@
     "category": "special",
     "basePower": 75,
     "accuracy": 100
+  },
+  {
+    "slug": "mysticalpower",
+    "name": "Mystical Power",
+    "gen": 9,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 70,
+    "accuracy": 90
   },
   {
     "slug": "nastyplot",
@@ -3214,6 +3316,15 @@
     "category": "status"
   },
   {
+    "slug": "psyshieldbash",
+    "name": "Psyshield Bash",
+    "gen": 9,
+    "type": "psychic",
+    "category": "physical",
+    "basePower": 70,
+    "accuracy": 90
+  },
+  {
     "slug": "psyshock",
     "name": "Psyshock",
     "gen": 5,
@@ -3294,6 +3405,15 @@
     "type": "normal",
     "category": "physical",
     "basePower": 90,
+    "accuracy": 100
+  },
+  {
+    "slug": "ragingfury",
+    "name": "Raging Fury",
+    "gen": 9,
+    "type": "fire",
+    "category": "physical",
+    "basePower": 120,
     "accuracy": 100
   },
   {
@@ -3551,6 +3671,15 @@
     "accuracy": 100
   },
   {
+    "slug": "sandsearstorm",
+    "name": "Sandsear Storm",
+    "gen": 9,
+    "type": "ground",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 80
+  },
+  {
     "slug": "sandstorm",
     "name": "Sandstorm",
     "gen": 2,
@@ -3713,6 +3842,13 @@
     "category": "status"
   },
   {
+    "slug": "shelter",
+    "name": "Shelter",
+    "gen": 9,
+    "type": "steel",
+    "category": "status"
+  },
+  {
     "slug": "shiftgear",
     "name": "Shift Gear",
     "gen": 5,
@@ -3740,6 +3876,14 @@
     "gen": 9,
     "type": "bug",
     "category": "status"
+  },
+  {
+    "slug": "simplebeam",
+    "name": "Simple Beam",
+    "gen": 5,
+    "type": "normal",
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "sing",
@@ -4048,6 +4192,15 @@
     "accuracy": 100
   },
   {
+    "slug": "springtidestorm",
+    "name": "Springtide Storm",
+    "gen": 9,
+    "type": "fairy",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 80
+  },
+  {
     "slug": "stealthrock",
     "name": "Stealth Rock",
     "gen": 4,
@@ -4121,6 +4274,15 @@
     "category": "physical",
     "basePower": 75,
     "accuracy": 100
+  },
+  {
+    "slug": "stoneaxe",
+    "name": "Stone Axe",
+    "gen": 9,
+    "type": "rock",
+    "category": "physical",
+    "basePower": 65,
+    "accuracy": 90
   },
   {
     "slug": "stoneedge",
@@ -4607,6 +4769,15 @@
     "category": "status"
   },
   {
+    "slug": "triplearrows",
+    "name": "Triple Arrows",
+    "gen": 9,
+    "type": "fighting",
+    "category": "physical",
+    "basePower": 90,
+    "accuracy": 100
+  },
+  {
     "slug": "tripledive",
     "name": "Triple Dive",
     "gen": 9,
@@ -4677,6 +4848,13 @@
     "category": "special",
     "basePower": 65,
     "accuracy": 100
+  },
+  {
+    "slug": "victorydance",
+    "name": "Victory Dance",
+    "gen": 9,
+    "type": "fighting",
+    "category": "status"
   },
   {
     "slug": "vinewhip",
@@ -4817,6 +4995,15 @@
     "gen": 5,
     "type": "rock",
     "category": "status"
+  },
+  {
+    "slug": "wildboltstorm",
+    "name": "Wildbolt Storm",
+    "gen": 9,
+    "type": "electric",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 80
   },
   {
     "slug": "wildcharge",

@@ -1,0 +1,21 @@
+{
+  "slug": "wildboltstorm",
+  "name": "Wildbolt Storm",
+  "gen": 9,
+  "type": "electric",
+  "category": "special",
+  "basePower": 100,
+  "accuracy": 80,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "thundurus",
+    "thundurus-therian"
+  ],
+  "desc": "Has a 20% chance to paralyze the target.",
+  "shortDesc": "20% chance to paralyze foe(s).",
+  "flavorText": {
+    "sv": "The user summons a thunderous tempest and savagely attacks with lightning and wind. This may also leave opposing Pokémon with paralysis."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "bleakwindstorm",
+  "name": "Bleakwind Storm",
+  "gen": 9,
+  "type": "flying",
+  "category": "special",
+  "basePower": 100,
+  "accuracy": 80,
+  "pp": 10,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "tornadus",
+    "tornadus-therian"
+  ],
+  "desc": "Has a 30% chance to lower the target's Speed by 1 stage.",
+  "shortDesc": "30% chance to lower the foe(s) Speed by 1.",
+  "flavorText": {
+    "sv": "The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also lower the Speed stats of opposing Pokémon."
+  }
+}

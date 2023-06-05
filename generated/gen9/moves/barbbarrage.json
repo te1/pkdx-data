@@ -1,0 +1,22 @@
+{
+  "slug": "barbbarrage",
+  "name": "Barb Barrage",
+  "gen": 9,
+  "type": "poison",
+  "category": "physical",
+  "basePower": 60,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "overqwil",
+    "qwilfish",
+    "qwilfish-hisui"
+  ],
+  "desc": "Has a 50% chance to poison the target. Power doubles if the target is already poisoned.",
+  "shortDesc": "50% psn. 2x power if target already poisoned.",
+  "flavorText": {
+    "sv": "The user launches countless toxic barbs to inflict damage. This may also poison the target. This move's power is doubled if the target is already poisoned."
+  }
+}

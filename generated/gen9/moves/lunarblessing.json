@@ -1,0 +1,18 @@
+{
+  "slug": "lunarblessing",
+  "name": "Lunar Blessing",
+  "gen": 9,
+  "type": "psychic",
+  "category": "status",
+  "pp": 5,
+  "target": "allies",
+  "priority": 0,
+  "pokemon": [
+    "cresselia"
+  ],
+  "desc": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
+  "shortDesc": "User and allies: healed 1/4 max HP, status cured.",
+  "flavorText": {
+    "sv": "The user receives a blessing from the crescent moon, restoring HP and curing status conditions for itself and its ally Pokémon currently in the battle."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "springtidestorm",
+  "name": "Springtide Storm",
+  "gen": 9,
+  "type": "fairy",
+  "category": "special",
+  "basePower": 100,
+  "accuracy": 80,
+  "pp": 5,
+  "target": "allAdjacentFoes",
+  "priority": 0,
+  "pokemon": [
+    "enamorus",
+    "enamorus-therian"
+  ],
+  "desc": "Has a 30% chance to lower the target's Attack by 1 stage.",
+  "shortDesc": "30% chance to lower the foe(s) Attack by 1.",
+  "flavorText": {
+    "sv": "The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats."
+  }
+}

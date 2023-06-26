@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.7.41
     version: 0.7.41
   '@pkmn/sim':
-    specifier: ^0.7.41
-    version: 0.7.41
+    specifier: ^0.7.44
+    version: 0.7.44
   fs-extra:
     specifier: ^11.1.1
     version: 11.1.1
@@ -235,8 +235,8 @@ packages:
       '@pkmn/types': 3.0.0
     dev: false
 
-  /@pkmn/sim@0.7.41:
-    resolution: {integrity: sha512-2h7I4p8XNtKzr/3xdgpvOWkJ/aoFPKEKW5XDp/mv36XU9eiD+0csnDsH/vJ2BP8hZ+/qr5ahRw++jFQdVhbCIg==}
+  /@pkmn/sim@0.7.44:
+    resolution: {integrity: sha512-GTwC289/x/sE+3xdguyiK2Qq5L5stswwaQmW2eKyc4pLapco/TfLrOPf8AYz1WJaddnETJ6hqetahxKFAwl9/Q==}
     dependencies:
       '@pkmn/sets': 5.0.4
       '@pkmn/streams': 1.1.0

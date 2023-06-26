@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.7.41
     version: 0.7.41
   '@pkmn/dex':
-    specifier: ^0.7.41
-    version: 0.7.41
+    specifier: ^0.7.44
+    version: 0.7.44
   '@pkmn/dex-types':
     specifier: ^0.7.38
     version: 0.7.38
@@ -217,10 +217,16 @@ packages:
       '@pkmn/types': 3.0.0
     dev: false
 
-  /@pkmn/dex@0.7.41:
-    resolution: {integrity: sha512-4uGTVUAFutXCZIPTf6JpN42poAIh+ezt1M6raR3BO40ebaYEnGat2hdgDhvKLXaSdzHZfsjGrjKv23/PSMwZyw==}
+  /@pkmn/dex-types@0.7.44:
+    resolution: {integrity: sha512-GfgDLsZ72520SEwNHfaeoJOGxEtjhaxUIeTLgMJkQsZYJy/EeKfdPJenR0UwMCixnE05L/MZB37qRe8DhLXHbA==}
     dependencies:
-      '@pkmn/dex-types': 0.7.41
+      '@pkmn/types': 3.0.0
+    dev: false
+
+  /@pkmn/dex@0.7.44:
+    resolution: {integrity: sha512-H4XkthTt829opMrg7WAHoK97XFVgoLGLzHy9CYoU8KHEo2rBuvqtk0zWBB9ZyFmvBQx+hsdLkoj+8UMfPL9aOQ==}
+    dependencies:
+      '@pkmn/dex-types': 0.7.44
     dev: false
 
   /@pkmn/mods@0.7.41:

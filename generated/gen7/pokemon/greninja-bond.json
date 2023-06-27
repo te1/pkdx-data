@@ -1,16 +1,15 @@
 {
-  "slug": "greninja",
+  "slug": "greninja-bond",
   "name": "Greninja",
+  "subName": "Bond",
   "num": 658,
   "types": [
     "water",
     "dark"
   ],
-  "gen": 6,
+  "gen": 7,
   "abilities": {
-    "0": "torrent",
-    "H": "protean",
-    "S": "battlebond"
+    "0": "battlebond"
   },
   "baseStats": {
     "hp": 72,
@@ -20,19 +19,12 @@
     "spd": 71,
     "spe": 122
   },
-  "prevo": "frogadier",
-  "evoLevel": 36,
-  "formes": [
-    "greninja-bond"
-  ],
+  "baseSpecies": "greninja",
   "weight": 40,
   "height": 1.5,
-  "genderRatio": {
-    "M": 0.875,
-    "F": 0.125
-  },
+  "gender": "M",
   "eggGroups": [
-    "Water 1"
+    "Undiscovered"
   ],
   "learnset": {
     "acrobatics": [
@@ -44,24 +36,17 @@
     "attract": [
       "M"
     ],
-    "bestow": [
-      "E@froakie"
-    ],
     "blizzard": [
       "M"
     ],
     "bounce": [
-      "T",
-      "L:45@frogadier"
+      "T"
     ],
     "brutalswing": [
       "M"
     ],
     "bubble": [
       "L:1"
-    ],
-    "camouflage": [
-      "E@froakie"
     ],
     "confide": [
       "M"
@@ -86,8 +71,7 @@
       "L:33"
     ],
     "fling": [
-      "M",
-      "L:28@frogadier"
+      "M"
     ],
     "frustration": [
       "M"
@@ -137,20 +121,11 @@
     "matblock": [
       "L:1"
     ],
-    "mindreader": [
-      "E@froakie"
-    ],
-    "mudsport": [
-      "E@froakie"
-    ],
     "nightslash": [
       "L:1"
     ],
     "pound": [
       "L:1"
-    ],
-    "poweruppunch": [
-      "E@froakie"
     ],
     "protect": [
       "M"
@@ -178,8 +153,7 @@
       "L:1"
     ],
     "round": [
-      "M",
-      "L:23@frogadier"
+      "M"
     ],
     "scald": [
       "M"
@@ -191,8 +165,7 @@
       "M"
     ],
     "smackdown": [
-      "M",
-      "L:33@frogadier"
+      "M"
     ],
     "smokescreen": [
       "L:19"
@@ -228,9 +201,6 @@
     "toxic": [
       "M"
     ],
-    "toxicspikes": [
-      "E@froakie"
-    ],
     "uturn": [
       "M"
     ],
@@ -246,9 +216,6 @@
     ],
     "watershuriken": [
       "L:1"
-    ],
-    "watersport": [
-      "E@froakie"
     ],
     "workup": [
       "M"

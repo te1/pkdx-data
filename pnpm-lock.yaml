@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@pkmn/data':
-    specifier: ^0.7.41
-    version: 0.7.41
+    specifier: ^0.7.44
+    version: 0.7.44
   '@pkmn/dex':
     specifier: ^0.7.44
     version: 0.7.44
@@ -199,8 +199,8 @@ packages:
     dev: true
     optional: true
 
-  /@pkmn/data@0.7.41:
-    resolution: {integrity: sha512-m7UEtl3c4L4O4AwrlXSRhO0DbUnyAOEyGsSDxbaUVVIgyQuzS3Ln8LEM3MYYeiclidWKBcHgaa1qFn2O/CCW9A==}
+  /@pkmn/data@0.7.44:
+    resolution: {integrity: sha512-xyu0w3pm+OPJlYWfyzhgAWLQtdSo7gAz6o3H9o26qMIiYv2jUFe+wWRsLJg3CyE4UPGYknbpaIoJVmAIyjnZVw==}
     dependencies:
       '@pkmn/dex-types': 0.7.44
     dev: false

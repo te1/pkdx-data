@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.7.45
     version: 0.7.45
   '@pkmn/dex-types':
-    specifier: ^0.7.44
-    version: 0.7.44
+    specifier: ^0.7.45
+    version: 0.7.45
   '@pkmn/mods':
     specifier: ^0.7.45
     version: 0.7.45
@@ -203,12 +203,6 @@ packages:
     resolution: {integrity: sha512-0YLKmj7U4CiSAZK85f3ZehrGeSiQKqUESbbtkjc50tmOKUmKXyaxJhbLUi2NRukF3vz7cWB+Gz0OBIjN0xJdSw==}
     dependencies:
       '@pkmn/dex-types': 0.7.45
-    dev: false
-
-  /@pkmn/dex-types@0.7.44:
-    resolution: {integrity: sha512-GfgDLsZ72520SEwNHfaeoJOGxEtjhaxUIeTLgMJkQsZYJy/EeKfdPJenR0UwMCixnE05L/MZB37qRe8DhLXHbA==}
-    dependencies:
-      '@pkmn/types': 3.0.0
     dev: false
 
   /@pkmn/dex-types@0.7.45:

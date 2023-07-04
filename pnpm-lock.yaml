@@ -31,9 +31,9 @@ dependencies:
     version: 4.17.21
 
 devDependencies:
-  '@tsconfig/node16':
-    specifier: ^16.1.0
-    version: 16.1.0
+  '@tsconfig/node20':
+    specifier: ^1.0.2
+    version: 1.0.2
   '@types/fs-extra':
     specifier: ^11.0.1
     version: 11.0.1
@@ -260,8 +260,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@tsconfig/node16@16.1.0:
-    resolution: {integrity: sha512-cfwhqrdZEKS+Iqu1OPDwmKsOV/eo7q4sPhWzOXc1rU77nnPFV3+77yPg8uKQ2e8eir6mERCvrKnd+EGa4qo4bQ==}
+  /@tsconfig/node20@1.0.2:
+    resolution: {integrity: sha512-pw0MmECiSTbBfIlT0x3iQLuJ8s3i2mwYoGxJ3vzqTNMdc4nO2VeqfCOQ/doGFa8iyPlqmBd98/5pBctWz7uN2A==}
     dev: true
 
   /@types/fs-extra@11.0.1:

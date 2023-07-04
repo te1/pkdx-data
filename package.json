@@ -12,6 +12,9 @@
     "prettier": "prettier ./src --write",
     "transform": "node src/transform/gen9/sv/index.mjs"
   },
+  "engines": {
+    "node": "20"
+  },
   "dependencies": {
     "@pkmn/data": "^0.7.45",
     "@pkmn/dex": "^0.7.45",
@@ -23,7 +26,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@tsconfig/node16": "^16.1.0",
+    "@tsconfig/node20": "^1.0.2",
     "@types/fs-extra": "^11.0.1",
     "@types/klaw-sync": "^6.0.1",
     "@types/lodash": "^4.14.195",

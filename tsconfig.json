@@ -1,9 +1,10 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
+  "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "module": "CommonJS",
-    "outDir": "dist",
+    "moduleResolution": "Node", // required for @pkmn/sim which can't resolve types otherwise
+
     "resolveJsonModule": true,
+    "outDir": "dist",
     "baseUrl": ".",
     "paths": {
       "@pkmn/mods/*": ["node_modules/@pkmn/mods/build/*"]

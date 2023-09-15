@@ -26,20 +26,20 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@tsconfig/node20": "^1.0.2",
-    "@types/fs-extra": "^11.0.1",
-    "@types/klaw-sync": "^6.0.1",
-    "@types/lodash": "^4.14.195",
-    "@types/node": "^20.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0",
-    "eslint": "^8.43.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "nodemon": "^2.0.22",
-    "prettier": "^2.8.8",
+    "@tsconfig/node20": "^20.1.2",
+    "@types/fs-extra": "^11.0.2",
+    "@types/klaw-sync": "^6.0.2",
+    "@types/lodash": "^4.14.198",
+    "@types/node": "^20.6.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
     "rimraf": "^5.0.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   }
 }

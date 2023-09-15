@@ -1,0 +1,239 @@
+{
+  "slug": "arbok",
+  "name": "Arbok",
+  "num": 24,
+  "types": [
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "intimidate",
+    "1": "shedskin",
+    "H": "unnerve"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 95,
+    "def": 69,
+    "spa": 65,
+    "spd": 79,
+    "spe": 80
+  },
+  "prevo": "ekans",
+  "evoLevel": 22,
+  "weight": 65,
+  "height": 3.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "learnset": {
+    "acid": [
+      "L:20"
+    ],
+    "acidspray": [
+      "M",
+      "L:32"
+    ],
+    "belch": [
+      "L:48"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "coil": [
+      "L:56"
+    ],
+    "crunch": [
+      "M",
+      "L:0"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firefang": [
+      "M",
+      "L:1"
+    ],
+    "gastroacid": [
+      "L:44"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "glare": [
+      "L:12"
+    ],
+    "gunkshot": [
+      "M",
+      "L:63"
+    ],
+    "haze": [
+      "M",
+      "L:51"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icefang": [
+      "M",
+      "L:1"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lashout": [
+      "M"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "poisonfang": [
+      "E@ekans"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poisonsting": [
+      "L:1"
+    ],
+    "poisontail": [
+      "M",
+      "E@ekans"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychicfangs": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaleshot": [
+      "M"
+    ],
+    "scaryface": [
+      "M",
+      "E@ekans"
+    ],
+    "screech": [
+      "L:17"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M",
+      "L:39"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "spite": [
+      "M",
+      "E@ekans"
+    ],
+    "spitup": [
+      "L:27"
+    ],
+    "stockpile": [
+      "L:27"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "E@ekans"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swallow": [
+      "L:27"
+    ],
+    "switcheroo": [
+      "E@ekans"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderfang": [
+      "M",
+      "L:1"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "wrap": [
+      "L:1"
+    ]
+  }
+}

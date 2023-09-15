@@ -1,0 +1,202 @@
+{
+  "slug": "mienshao",
+  "name": "Mienshao",
+  "num": 620,
+  "types": [
+    "fighting"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "innerfocus",
+    "1": "regenerator",
+    "H": "reckless"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 125,
+    "def": 60,
+    "spa": 95,
+    "spd": 60,
+    "spe": 105
+  },
+  "prevo": "mienfoo",
+  "evoLevel": 50,
+  "weight": 35.5,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "aurasphere": [
+      "M",
+      "L:45"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bounce": [
+      "L:53"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "calmmind": [
+      "M",
+      "L:59"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "detect": [
+      "L:1"
+    ],
+    "dig": [
+      "M"
+    ],
+    "drainpunch": [
+      "M",
+      "L:35"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "L:1"
+    ],
+    "feint": [
+      "E@mienfoo"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M",
+      "E@mienfoo"
+    ],
+    "forcepalm": [
+      "L:25"
+    ],
+    "furyswipes": [
+      "L:15"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highjumpkick": [
+      "L:66"
+    ],
+    "honeclaws": [
+      "L:40"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icespinner": [
+      "M"
+    ],
+    "knockoff": [
+      "M",
+      "E@mienfoo"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "pound": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickguard": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M",
+      "L:1"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uturn": [
+      "M",
+      "L:30"
+    ],
+    "vacuumwave": [
+      "M"
+    ],
+    "wideguard": [
+      "L:20"
+    ]
+  }
+}

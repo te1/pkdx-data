@@ -1,0 +1,36 @@
+{
+  "slug": "cramorant-gorging",
+  "name": "Cramorant",
+  "subName": "Gorging Form",
+  "num": 845,
+  "types": [
+    "flying",
+    "water"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "gulpmissile"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 85,
+    "def": 55,
+    "spa": 85,
+    "spd": 95,
+    "spe": 85
+  },
+  "baseSpecies": "cramorant",
+  "formeTriggerAbility": "gulpmissile",
+  "isBattleOnly": true,
+  "weight": 18,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Flying"
+  ],
+  "canHatch": true
+}

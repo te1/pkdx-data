@@ -1,0 +1,250 @@
+{
+  "slug": "golem-alola",
+  "name": "Alolan Golem",
+  "num": 76,
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "magnetpull",
+    "1": "sturdy",
+    "H": "galvanize"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 120,
+    "def": 130,
+    "spa": 55,
+    "spd": 65,
+    "spe": 45
+  },
+  "prevo": "graveler-alola",
+  "evoType": "trade",
+  "baseSpecies": "golem",
+  "region": "Alola",
+  "weight": 316,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "learnset": {
+    "block": [
+      "E@geodude-alola"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charge": [
+      "M",
+      "L:1"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "counter": [
+      "E@geodude-alola"
+    ],
+    "curse": [
+      "E@geodude-alola"
+    ],
+    "defensecurl": [
+      "L:1"
+    ],
+    "dig": [
+      "M"
+    ],
+    "discharge": [
+      "L:40"
+    ],
+    "doubleedge": [
+      "L:50"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "E@geodude-alola"
+    ],
+    "explosion": [
+      "L:44"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "flail": [
+      "E@geodude-alola"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "heavyslam": [
+      "M",
+      "L:1"
+    ],
+    "highhorsepower": [
+      "M@graveler-alola"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockblast": [
+      "M",
+      "L:34"
+    ],
+    "rockpolish": [
+      "L:1"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rockthrow": [
+      "L:16"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "rollout": [
+      "L:10@graveler-alola"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "screech": [
+      "E@geodude-alola"
+    ],
+    "selfdestruct": [
+      "L:24"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M",
+      "L:18"
+    ],
+    "spark": [
+      "L:12"
+    ],
+    "stealthrock": [
+      "M",
+      "L:30"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M",
+      "L:54"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M",
+      "L:22"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wideguard": [
+      "E@geodude-alola"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "zapcannon": [
+      "E@geodude-alola"
+    ]
+  }
+}

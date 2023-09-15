@@ -1,0 +1,222 @@
+{
+  "slug": "probopass",
+  "name": "Probopass",
+  "num": 476,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "sturdy",
+    "1": "magnetpull",
+    "H": "sandforce"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 55,
+    "def": 145,
+    "spa": 75,
+    "spd": 150,
+    "spe": 40
+  },
+  "prevo": "nosepass",
+  "evoType": "levelExtra",
+  "evoCondition": "near a special magnetic field",
+  "weight": 340,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "learnset": {
+    "block": [
+      "L:1"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "discharge": [
+      "L:31"
+    ],
+    "doubleedge": [
+      "E@nosepass"
+    ],
+    "earthpower": [
+      "M",
+      "L:37"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gravity": [
+      "M",
+      "L:1"
+    ],
+    "harden": [
+      "L:4@nosepass"
+    ],
+    "headsmash": [
+      "E@nosepass"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "irondefense": [
+      "M",
+      "L:1"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lockon": [
+      "L:43"
+    ],
+    "magneticflux": [
+      "L:1"
+    ],
+    "magnetrise": [
+      "L:1"
+    ],
+    "powergem": [
+      "M",
+      "L:25"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M",
+      "L:16"
+    ],
+    "rockblast": [
+      "M",
+      "L:28"
+    ],
+    "rockslide": [
+      "M",
+      "L:22"
+    ],
+    "rockthrow": [
+      "L:10@nosepass"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "rollout": [
+      "E@nosepass"
+    ],
+    "sandstorm": [
+      "M",
+      "L:34"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M"
+    ],
+    "spark": [
+      "L:19"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M",
+      "L:40"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "thunderwave": [
+      "M",
+      "L:13"
+    ],
+    "triattack": [
+      "L:0"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wideguard": [
+      "L:1",
+      "E@nosepass"
+    ],
+    "zapcannon": [
+      "L:43"
+    ]
+  }
+}

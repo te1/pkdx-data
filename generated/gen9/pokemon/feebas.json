@@ -1,0 +1,130 @@
+{
+  "slug": "feebas",
+  "name": "Feebas",
+  "num": 349,
+  "types": [
+    "water"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "oblivious",
+    "H": "adaptability"
+  },
+  "baseStats": {
+    "hp": 20,
+    "atk": 15,
+    "def": 20,
+    "spa": 10,
+    "spd": 55,
+    "spe": 80
+  },
+  "evos": [
+    "milotic"
+  ],
+  "weight": 7.4,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "blizzard": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M",
+      "E"
+    ],
+    "dragonbreath": [
+      "E"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:25"
+    ],
+    "haze": [
+      "M",
+      "E"
+    ],
+    "hypnosis": [
+      "E"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "mirrorcoat": [
+      "E"
+    ],
+    "mist": [
+      "E"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaleshot": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "splash": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:15"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "tickle": [
+      "E"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ]
+  }
+}

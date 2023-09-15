@@ -1,0 +1,162 @@
+{
+  "slug": "charjabug",
+  "name": "Charjabug",
+  "num": 737,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "battery"
+  },
+  "baseStats": {
+    "hp": 57,
+    "atk": 82,
+    "def": 95,
+    "spa": 55,
+    "spd": 75,
+    "spe": 36
+  },
+  "prevo": "grubbin",
+  "evos": [
+    "vikavolt"
+  ],
+  "evoLevel": 20,
+  "weight": 10.5,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "batonpass": [
+      "M"
+    ],
+    "bite": [
+      "L:15"
+    ],
+    "bugbite": [
+      "M",
+      "L:1"
+    ],
+    "charge": [
+      "M",
+      "L:0"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "crunch": [
+      "M",
+      "L:43"
+    ],
+    "dig": [
+      "M",
+      "L:50"
+    ],
+    "discharge": [
+      "L:64",
+      "E@grubbin"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "harden": [
+      "E@grubbin"
+    ],
+    "irondefense": [
+      "M",
+      "L:57"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "lunge": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:1"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "spark": [
+      "L:23"
+    ],
+    "stickyweb": [
+      "L:29"
+    ],
+    "stringshot": [
+      "L:1"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "visegrip": [
+      "L:1"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "xscissor": [
+      "M",
+      "L:36"
+    ]
+  }
+}

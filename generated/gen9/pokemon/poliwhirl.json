@@ -1,0 +1,195 @@
+{
+  "slug": "poliwhirl",
+  "name": "Poliwhirl",
+  "num": 61,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "waterabsorb",
+    "1": "damp",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 65,
+    "def": 65,
+    "spa": 50,
+    "spd": 50,
+    "spe": 90
+  },
+  "prevo": "poliwag",
+  "evos": [
+    "poliwrath",
+    "politoed"
+  ],
+  "evoLevel": 25,
+  "weight": 20,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "learnset": {
+    "amnesia": [
+      "M"
+    ],
+    "bellydrum": [
+      "L:56"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M",
+      "L:32"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:18"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "L:66"
+    ],
+    "earthpower": [
+      "M",
+      "L:40"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endeavor": [
+      "E@poliwag"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "haze": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:48"
+    ],
+    "hypnosis": [
+      "L:1"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mist": [
+      "E@poliwag"
+    ],
+    "muddywater": [
+      "E@poliwag"
+    ],
+    "mudshot": [
+      "M",
+      "L:1"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "pound": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:24"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "splash": [
+      "E@poliwag"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "E@poliwag"
+    ],
+    "weatherball": [
+      "M"
+    ]
+  }
+}

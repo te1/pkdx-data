@@ -1,0 +1,20 @@
+{
+  "slug": "aurawheel",
+  "name": "Aura Wheel",
+  "gen": 8,
+  "type": "electric",
+  "category": "physical",
+  "basePower": 110,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "morpeko"
+  ],
+  "desc": "Has a 100% chance to raise the user's Speed by 1 stage. If the user is a Morpeko in Full Belly Mode, this move is Electric type. If the user is a Morpeko in Hangry Mode, this move is Dark type. This move cannot be used successfully unless the user's current form, while considering Transform, is Full Belly or Hangry Mode Morpeko.",
+  "shortDesc": "Morpeko: Electric; Hangry: Dark; 100% +1 Spe.",
+  "flavorText": {
+    "sv": "Morpeko attacks and boosts its Speed stat with the energy stored in its cheeks. This move's type changes depending on the user's form."
+  }
+}

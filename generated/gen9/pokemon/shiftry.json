@@ -1,0 +1,315 @@
+{
+  "slug": "shiftry",
+  "name": "Shiftry",
+  "num": 275,
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "chlorophyll",
+    "1": "windrider",
+    "H": "pickpocket"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 100,
+    "def": 60,
+    "spa": 90,
+    "spd": 60,
+    "spe": 80
+  },
+  "prevo": "nuzleaf",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "weight": 59.6,
+  "height": 1.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Grass"
+  ],
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "aircutter": [
+      "M",
+      "L:1"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "amnesia": [
+      "M"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "beatup": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "defog": [
+      "E@seedot"
+    ],
+    "dig": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "explosion": [
+      "L:1"
+    ],
+    "extrasensory": [
+      "L:1"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "L:1"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growth": [
+      "L:1"
+    ],
+    "harden": [
+      "L:1"
+    ],
+    "headbutt": [
+      "L:21@seedot"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "hex": [
+      "M"
+    ],
+    "hurricane": [
+      "M",
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lashout": [
+      "M"
+    ],
+    "leafblade": [
+      "L:0"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "E@seedot"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "megadrain": [
+      "L:1"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "nightslash": [
+      "E@seedot"
+    ],
+    "payback": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "E@seedot"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "rollout": [
+      "L:1"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "solarblade": [
+      "M"
+    ],
+    "spite": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:1"
+    ],
+    "sunnyday": [
+      "M",
+      "L:1"
+    ],
+    "swagger": [
+      "L:1"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "L:1"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M",
+      "E@seedot"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "torment": [
+      "L:1"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlwind": [
+      "L:1"
+    ],
+    "willowisp": [
+      "M"
+    ],
+    "worryseed": [
+      "E@seedot"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "slug": "leavanny",
+  "name": "Leavanny",
+  "num": 542,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "swarm",
+    "1": "chlorophyll",
+    "H": "overcoat"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 103,
+    "def": 80,
+    "spa": 70,
+    "spd": 80,
+    "spe": 92
+  },
+  "prevo": "swadloon",
+  "evoType": "levelFriendship",
+  "weight": 20.5,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bugbite": [
+      "M",
+      "L:1"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:36@swadloon"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "L:29@swadloon"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "entrainment": [
+      "L:43"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M",
+      "L:1"
+    ],
+    "fellstinger": [
+      "L:29"
+    ],
+    "flail": [
+      "L:43@swadloon"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "helpinghand": [
+      "M",
+      "L:32"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leafblade": [
+      "L:36"
+    ],
+    "leafstorm": [
+      "M",
+      "L:50"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lunge": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "pollenpuff": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M",
+      "L:0@swadloon"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:1"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "E@sewaddle"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "L:0"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "E@sewaddle"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stickyweb": [
+      "L:31@swadloon"
+    ],
+    "stringshot": [
+      "L:1"
+    ],
+    "strugglebug": [
+      "M",
+      "L:22"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "switcheroo": [
+      "E@sewaddle"
+    ],
+    "swordsdance": [
+      "M",
+      "L:46"
+    ],
+    "synthesis": [
+      "E@sewaddle"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "worryseed": [
+      "E@sewaddle"
+    ],
+    "xscissor": [
+      "M",
+      "L:39"
+    ]
+  }
+}

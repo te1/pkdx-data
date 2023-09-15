@@ -23,8 +23,8 @@
   "prevo": "qwilfish-hisui",
   "evoType": "other",
   "evoCondition": "Use Strong style Barb Barrage 20 times",
-  "weight": 3.9,
-  "height": 0.5,
+  "weight": 60.5,
+  "height": 2.5,
   "genderRatio": {
     "M": 0.5,
     "F": 0.5
@@ -34,7 +34,7 @@
   ],
   "learnset": {
     "acidspray": [
-      "M@qwilfish-hisui",
+      "M",
       "E@qwilfish-hisui"
     ],
     "acupressure": [
@@ -98,14 +98,18 @@
     "gunkshot": [
       "M"
     ],
+    "gyroball": [
+      "M"
+    ],
     "harden": [
       "L:4"
     ],
     "haze": [
+      "M",
       "E@qwilfish-hisui"
     ],
     "hex": [
-      "M@qwilfish-hisui"
+      "M"
     ],
     "hydropump": [
       "M"
@@ -117,6 +121,9 @@
       "M"
     ],
     "icywind": [
+      "M"
+    ],
+    "lashout": [
       "M"
     ],
     "liquidation": [
@@ -152,6 +159,9 @@
     "reversal": [
       "M"
     ],
+    "scaleshot": [
+      "M"
+    ],
     "scaryface": [
       "M"
     ],
@@ -174,6 +184,9 @@
       "M",
       "L:20"
     ],
+    "spite": [
+      "M"
+    ],
     "spitup": [
       "L:40"
     ],
@@ -190,7 +203,7 @@
       "M"
     ],
     "swift": [
-      "M@qwilfish-hisui"
+      "M"
     ],
     "swordsdance": [
       "M"
@@ -208,6 +221,7 @@
       "M"
     ],
     "toxic": [
+      "M",
       "L:44"
     ],
     "toxicspikes": [
@@ -221,7 +235,7 @@
       "M"
     ],
     "waterpulse": [
-      "M@qwilfish-hisui",
+      "M",
       "E@qwilfish-hisui"
     ]
   }

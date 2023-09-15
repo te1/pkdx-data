@@ -1,0 +1,206 @@
+{
+  "slug": "vikavolt",
+  "name": "Vikavolt",
+  "num": 738,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 77,
+    "atk": 70,
+    "def": 90,
+    "spa": 145,
+    "spd": 75,
+    "spe": 43
+  },
+  "prevo": "charjabug",
+  "evoType": "useItem",
+  "evoItem": "Thunder Stone",
+  "weight": 45,
+  "height": 1.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "agility": [
+      "M",
+      "L:57"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bite": [
+      "L:15"
+    ],
+    "bugbite": [
+      "M",
+      "L:1"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:36"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charge": [
+      "M",
+      "L:1"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "crunch": [
+      "M",
+      "L:1"
+    ],
+    "dig": [
+      "M",
+      "L:1"
+    ],
+    "discharge": [
+      "L:1",
+      "E@grubbin"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "fly": [
+      "M",
+      "L:50"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "guillotine": [
+      "L:43"
+    ],
+    "harden": [
+      "E@grubbin"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M",
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "lunge": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:1"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "spark": [
+      "L:23"
+    ],
+    "stickyweb": [
+      "L:29"
+    ],
+    "stringshot": [
+      "L:1"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M",
+      "L:0"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "visegrip": [
+      "L:1"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "xscissor": [
+      "M",
+      "L:1"
+    ],
+    "zapcannon": [
+      "L:64"
+    ]
+  }
+}

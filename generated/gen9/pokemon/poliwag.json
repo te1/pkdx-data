@@ -1,0 +1,175 @@
+{
+  "slug": "poliwag",
+  "name": "Poliwag",
+  "num": 60,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "waterabsorb",
+    "1": "damp",
+    "H": "swiftswim"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 50,
+    "def": 40,
+    "spa": 40,
+    "spd": 40,
+    "spe": 90
+  },
+  "evos": [
+    "poliwhirl"
+  ],
+  "weight": 12.4,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "amnesia": [
+      "M"
+    ],
+    "bellydrum": [
+      "L:48"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M",
+      "L:30"
+    ],
+    "bubblebeam": [
+      "L:18"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "L:54"
+    ],
+    "earthpower": [
+      "M",
+      "L:36"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endeavor": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "haze": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:42"
+    ],
+    "hypnosis": [
+      "L:1"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "mist": [
+      "E"
+    ],
+    "muddywater": [
+      "E"
+    ],
+    "mudshot": [
+      "M",
+      "L:12"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "pound": [
+      "L:6"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:24"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "splash": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "E"
+    ],
+    "weatherball": [
+      "M"
+    ]
+  }
+}

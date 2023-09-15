@@ -1,0 +1,201 @@
+{
+  "slug": "geodude",
+  "name": "Geodude",
+  "num": 74,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "rockhead",
+    "1": "sturdy",
+    "H": "sandveil"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 80,
+    "def": 100,
+    "spa": 30,
+    "spd": 30,
+    "spe": 20
+  },
+  "evos": [
+    "graveler"
+  ],
+  "formes": [
+    "geodude-alola"
+  ],
+  "weight": 20,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "block": [
+      "E"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M",
+      "L:12"
+    ],
+    "curse": [
+      "E"
+    ],
+    "defensecurl": [
+      "L:1"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "L:40"
+    ],
+    "dynamicpunch": [
+      "E"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:34"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "L:36"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "flail": [
+      "E"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "hammerarm": [
+      "E"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "megapunch": [
+      "M",
+      "E"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockblast": [
+      "M",
+      "L:30"
+    ],
+    "rockpolish": [
+      "L:6"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rockthrow": [
+      "L:16"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "rollout": [
+      "L:10"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "selfdestruct": [
+      "L:24"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M",
+      "L:18"
+    ],
+    "stealthrock": [
+      "M",
+      "L:28"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M",
+      "L:42"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "wideguard": [
+      "E"
+    ]
+  }
+}

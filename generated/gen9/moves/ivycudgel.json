@@ -1,0 +1,20 @@
+{
+  "slug": "ivycudgel",
+  "name": "Ivy Cudgel",
+  "gen": 9,
+  "type": "grass",
+  "category": "physical",
+  "basePower": 100,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "ogerpon",
+    "ogerpon-cornerstone",
+    "ogerpon-hearthflame",
+    "ogerpon-wellspring"
+  ],
+  "desc": "Has a higher chance for a critical hit. If the user is an Ogerpon holding a mask, this move's type changes to match. Water type for Wellspring Mask, Fire type for Hearthflame Mask, and Rock type for Cornerstone Mask.",
+  "shortDesc": "High critical hit ratio. Type depends on user's form."
+}

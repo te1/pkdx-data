@@ -1,0 +1,187 @@
+{
+  "slug": "lotad",
+  "name": "Lotad",
+  "num": 270,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "raindish",
+    "H": "owntempo"
+  },
+  "baseStats": {
+    "hp": 40,
+    "atk": 30,
+    "def": 30,
+    "spa": 40,
+    "spd": 50,
+    "spe": 30
+  },
+  "evos": [
+    "lombre"
+  ],
+  "weight": 2.6,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Grass"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "absorb": [
+      "L:3"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:20"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "counter": [
+      "E"
+    ],
+    "disarmingvoice": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M",
+      "L:43"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:16"
+    ],
+    "gigadrain": [
+      "M",
+      "L:28"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "leechseed": [
+      "L:24"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "megadrain": [
+      "L:12"
+    ],
+    "mist": [
+      "L:9"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:33"
+    ],
+    "razorleaf": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "sweetscent": [
+      "E"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "E"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "teeterdance": [
+      "E"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "tickle": [
+      "E"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "watergun": [
+      "L:6"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M",
+      "L:38"
+    ]
+  }
+}

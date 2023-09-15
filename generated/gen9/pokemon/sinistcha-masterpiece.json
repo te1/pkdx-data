@@ -1,0 +1,154 @@
+{
+  "slug": "sinistcha-masterpiece",
+  "name": "Sinistcha",
+  "subName": "Masterpiece",
+  "num": 1013,
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "hospitality",
+    "H": "heatproof"
+  },
+  "baseStats": {
+    "hp": 71,
+    "atk": 60,
+    "def": 106,
+    "spa": 121,
+    "spd": 80,
+    "spe": 70
+  },
+  "prevo": "poltchageist-artisan",
+  "evoType": "useItem",
+  "evoItem": "Masterpiece Teacup",
+  "baseSpecies": "sinistcha",
+  "weight": 2.2,
+  "height": 0.2,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "learnset": {
+    "absorb": [
+      "L:6"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "foulplay": [
+      "M",
+      "L:18"
+    ],
+    "gigadrain": [
+      "M",
+      "L:42@poltchageist-artisan"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "hex": [
+      "M",
+      "L:30"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "leafstorm": [
+      "M",
+      "L:60"
+    ],
+    "lifedew": [
+      "L:12"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "matchagotcha": [
+      "L:0"
+    ],
+    "megadrain": [
+      "L:24"
+    ],
+    "memento": [
+      "L:54"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "phantomforce": [
+      "M"
+    ],
+    "poltergeist": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "ragepowder": [
+      "L:36"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scald": [
+      "M"
+    ],
+    "shadowball": [
+      "M",
+      "L:48"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "spite": [
+      "M"
+    ],
+    "strengthsap": [
+      "L:42"
+    ],
+    "stunspore": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "withdraw": [
+      "L:1"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "sewaddle",
+  "name": "Sewaddle",
+  "num": 540,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "swarm",
+    "1": "chlorophyll",
+    "H": "overcoat"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 53,
+    "def": 70,
+    "spa": 40,
+    "spd": 60,
+    "spe": 42
+  },
+  "evos": [
+    "swadloon"
+  ],
+  "weight": 2.5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "batonpass": [
+      "M"
+    ],
+    "bugbite": [
+      "M",
+      "L:8"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:36"
+    ],
+    "charm": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "L:29"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:43"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "lunge": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:15"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "E"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "snore": [
+      "E"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stickyweb": [
+      "L:31"
+    ],
+    "stringshot": [
+      "L:1"
+    ],
+    "strugglebug": [
+      "M",
+      "L:22"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "switcheroo": [
+      "E"
+    ],
+    "synthesis": [
+      "E"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "worryseed": [
+      "E"
+    ]
+  }
+}

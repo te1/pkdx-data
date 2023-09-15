@@ -1,0 +1,208 @@
+{
+  "slug": "phantump",
+  "name": "Phantump",
+  "num": 708,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "gen": 6,
+  "abilities": {
+    "0": "naturalcure",
+    "1": "frisk",
+    "H": "harvest"
+  },
+  "baseStats": {
+    "hp": 43,
+    "atk": 70,
+    "def": 48,
+    "spa": 50,
+    "spd": 60,
+    "spe": 38
+  },
+  "evos": [
+    "trevenant"
+  ],
+  "weight": 7,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Amorphous"
+  ],
+  "canHatch": true,
+  "learnset": {
+    "allyswitch": [
+      "E"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "branchpoke": [
+      "L:4"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "confuseray": [
+      "M",
+      "L:12"
+    ],
+    "curse": [
+      "L:32"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "destinybond": [
+      "L:48"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disable": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "forestscurse": [
+      "L:52"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growth": [
+      "L:24"
+    ],
+    "hex": [
+      "M",
+      "L:20"
+    ],
+    "hornleech": [
+      "L:28"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "ingrain": [
+      "L:40"
+    ],
+    "lashout": [
+      "M"
+    ],
+    "leechseed": [
+      "L:8"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "phantomforce": [
+      "M",
+      "L:36"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poltergeist": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "spite": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "E"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "trick": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "willowisp": [
+      "M",
+      "L:16"
+    ],
+    "woodhammer": [
+      "L:44"
+    ]
+  }
+}

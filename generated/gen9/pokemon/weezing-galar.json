@@ -1,0 +1,227 @@
+{
+  "slug": "weezing-galar",
+  "name": "Galarian Weezing",
+  "num": 110,
+  "types": [
+    "poison",
+    "fairy"
+  ],
+  "gen": 8,
+  "abilities": {
+    "0": "levitate",
+    "1": "neutralizinggas",
+    "H": "mistysurge"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 90,
+    "def": 120,
+    "spa": 85,
+    "spd": 70,
+    "spe": 60
+  },
+  "prevo": "koffing",
+  "evoLevel": 35,
+  "baseSpecies": "weezing",
+  "region": "Galar",
+  "weight": 16,
+  "height": 3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Amorphous"
+  ],
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "aromaticmist": [
+      "L:1"
+    ],
+    "assurance": [
+      "L:16"
+    ],
+    "belch": [
+      "L:44"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "clearsmog": [
+      "L:12"
+    ],
+    "curse": [
+      "E@koffing"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "defog": [
+      "L:1"
+    ],
+    "destinybond": [
+      "L:62"
+    ],
+    "doublehit": [
+      "L:0"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "L:50"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fairywind": [
+      "L:24"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "haze": [
+      "M",
+      "L:1"
+    ],
+    "heatwave": [
+      "M",
+      "L:1"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "memento": [
+      "L:56"
+    ],
+    "mistyexplosion": [
+      "M"
+    ],
+    "mistyterrain": [
+      "M",
+      "L:68"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "painsplit": [
+      "E@koffing"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "poisongas": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "selfdestruct": [
+      "L:28"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludge": [
+      "L:20"
+    ],
+    "sludgebomb": [
+      "M",
+      "L:32"
+    ],
+    "smog": [
+      "L:1"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "spite": [
+      "M",
+      "E@koffing"
+    ],
+    "spitup": [
+      "E@koffing"
+    ],
+    "stockpile": [
+      "E@koffing"
+    ],
+    "strangesteam": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swallow": [
+      "E@koffing"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "toxic": [
+      "M",
+      "L:38"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  }
+}

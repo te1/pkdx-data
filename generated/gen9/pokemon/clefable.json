@@ -1,0 +1,309 @@
+{
+  "slug": "clefable",
+  "name": "Clefable",
+  "num": 36,
+  "types": [
+    "fairy"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "cutecharm",
+    "1": "magicguard",
+    "H": "unaware"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 70,
+    "def": 73,
+    "spa": 95,
+    "spd": 90,
+    "spe": 60
+  },
+  "prevo": "clefairy",
+  "evoType": "useItem",
+  "evoItem": "Moon Stone",
+  "weight": 40,
+  "height": 1.3,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Fairy"
+  ],
+  "learnset": {
+    "afteryou": [
+      "L:1"
+    ],
+    "amnesia": [
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "charm": [
+      "M",
+      "L:1"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "copycat": [
+      "L:1"
+    ],
+    "cosmicpower": [
+      "L:1"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "defensecurl": [
+      "L:1"
+    ],
+    "dig": [
+      "M"
+    ],
+    "disarmingvoice": [
+      "M",
+      "L:1"
+    ],
+    "drainingkiss": [
+      "M"
+    ],
+    "drainpunch": [
+      "M"
+    ],
+    "dualwingbeat": [
+      "M"
+    ],
+    "encore": [
+      "M",
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "followme": [
+      "L:1"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "gravity": [
+      "M",
+      "L:1"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "healingwish": [
+      "L:1"
+    ],
+    "healpulse": [
+      "E"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lifedew": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "meteormash": [
+      "L:1"
+    ],
+    "metronome": [
+      "M",
+      "L:1"
+    ],
+    "mistyexplosion": [
+      "M"
+    ],
+    "mistyterrain": [
+      "M"
+    ],
+    "moonblast": [
+      "L:1"
+    ],
+    "moonlight": [
+      "L:1"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "pound": [
+      "L:1"
+    ],
+    "present": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psyshock": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sing": [
+      "L:1"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "splash": [
+      "L:1"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "storedpower": [
+      "M",
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetkiss": [
+      "L:1"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "tickle": [
+      "E"
+    ],
+    "trick": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "wish": [
+      "E"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

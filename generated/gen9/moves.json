@@ -251,6 +251,15 @@
     "basePower": 80
   },
   {
+    "slug": "aurawheel",
+    "name": "Aura Wheel",
+    "gen": 8,
+    "type": "electric",
+    "category": "physical",
+    "basePower": 110,
+    "accuracy": 100
+  },
+  {
     "slug": "aurorabeam",
     "name": "Aurora Beam",
     "gen": 1,
@@ -429,6 +438,15 @@
     "category": "status"
   },
   {
+    "slug": "bloodmoon",
+    "name": "Blood Moon",
+    "gen": 9,
+    "type": "normal",
+    "category": "special",
+    "basePower": 140,
+    "accuracy": 100
+  },
+  {
     "slug": "bodypress",
     "name": "Body Press",
     "gen": 8,
@@ -589,6 +607,15 @@
     "accuracy": 100
   },
   {
+    "slug": "burningjealousy",
+    "name": "Burning Jealousy",
+    "gen": 8,
+    "type": "fire",
+    "category": "special",
+    "basePower": 70,
+    "accuracy": 100
+  },
+  {
     "slug": "calmmind",
     "name": "Calm Mind",
     "gen": 3,
@@ -603,6 +630,13 @@
     "category": "physical",
     "basePower": 65,
     "accuracy": 90
+  },
+  {
+    "slug": "celebrate",
+    "name": "Celebrate",
+    "gen": 6,
+    "type": "normal",
+    "category": "status"
   },
   {
     "slug": "charge",
@@ -661,6 +695,23 @@
     "category": "physical",
     "basePower": 60,
     "accuracy": 90
+  },
+  {
+    "slug": "clangingscales",
+    "name": "Clanging Scales",
+    "gen": 7,
+    "type": "dragon",
+    "category": "special",
+    "basePower": 110,
+    "accuracy": 100
+  },
+  {
+    "slug": "clangoroussoul",
+    "name": "Clangorous Soul",
+    "gen": 8,
+    "type": "dragon",
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "clearsmog",
@@ -845,6 +896,14 @@
     "accuracy": 100
   },
   {
+    "slug": "darkvoid",
+    "name": "Dark Void",
+    "gen": 4,
+    "type": "dark",
+    "category": "status",
+    "accuracy": 50
+  },
+  {
     "slug": "dazzlinggleam",
     "name": "Dazzling Gleam",
     "gen": 6,
@@ -955,6 +1014,15 @@
     "gen": 9,
     "type": "normal",
     "category": "status",
+    "accuracy": 100
+  },
+  {
+    "slug": "doomdesire",
+    "name": "Doom Desire",
+    "gen": 3,
+    "type": "steel",
+    "category": "special",
+    "basePower": 140,
     "accuracy": 100
   },
   {
@@ -1699,6 +1767,14 @@
     "accuracy": 100
   },
   {
+    "slug": "forestscurse",
+    "name": "Forest's Curse",
+    "gen": 6,
+    "type": "grass",
+    "category": "status",
+    "accuracy": 100
+  },
+  {
     "slug": "foulplay",
     "name": "Foul Play",
     "gen": 5,
@@ -1856,6 +1932,15 @@
     "type": "grass",
     "category": "special",
     "basePower": 80,
+    "accuracy": 100
+  },
+  {
+    "slug": "grassyglide",
+    "name": "Grassy Glide",
+    "gen": 8,
+    "type": "grass",
+    "category": "physical",
+    "basePower": 55,
     "accuracy": 100
   },
   {
@@ -2021,6 +2106,13 @@
     "slug": "healpulse",
     "name": "Heal Pulse",
     "gen": 5,
+    "type": "psychic",
+    "category": "status"
+  },
+  {
+    "slug": "heartswap",
+    "name": "Heart Swap",
+    "gen": 4,
     "type": "psychic",
     "category": "status"
   },
@@ -2368,6 +2460,15 @@
     "accuracy": 75
   },
   {
+    "slug": "ivycudgel",
+    "name": "Ivy Cudgel",
+    "gen": 9,
+    "type": "grass",
+    "category": "physical",
+    "basePower": 100,
+    "accuracy": 100
+  },
+  {
     "slug": "jawlock",
     "name": "Jaw Lock",
     "gen": 8,
@@ -2417,6 +2518,15 @@
     "type": "dark",
     "category": "physical",
     "basePower": 85
+  },
+  {
+    "slug": "lashout",
+    "name": "Lash Out",
+    "gen": 8,
+    "type": "dark",
+    "category": "physical",
+    "basePower": 75,
+    "accuracy": 100
   },
   {
     "slug": "lastresort",
@@ -2651,6 +2761,15 @@
     "accuracy": 100
   },
   {
+    "slug": "matchagotcha",
+    "name": "Matcha Gotcha",
+    "gen": 9,
+    "type": "grass",
+    "category": "special",
+    "basePower": 80,
+    "accuracy": 90
+  },
+  {
     "slug": "meanlook",
     "name": "Mean Look",
     "gen": 2,
@@ -2683,6 +2802,15 @@
     "category": "physical",
     "basePower": 120,
     "accuracy": 75
+  },
+  {
+    "slug": "megapunch",
+    "name": "Mega Punch",
+    "gen": 1,
+    "type": "normal",
+    "category": "physical",
+    "basePower": 80,
+    "accuracy": 85
   },
   {
     "slug": "memento",
@@ -2770,6 +2898,15 @@
     "gen": 1,
     "type": "ice",
     "category": "status"
+  },
+  {
+    "slug": "mistyexplosion",
+    "name": "Misty Explosion",
+    "gen": 8,
+    "type": "fairy",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 100
   },
   {
     "slug": "mistyterrain",
@@ -3146,6 +3283,15 @@
     "category": "special",
     "basePower": 90,
     "accuracy": 100
+  },
+  {
+    "slug": "poltergeist",
+    "name": "Poltergeist",
+    "gen": 8,
+    "type": "ghost",
+    "category": "physical",
+    "basePower": 110,
+    "accuracy": 90
   },
   {
     "slug": "populationbomb",
@@ -3748,6 +3894,15 @@
     "accuracy": 100
   },
   {
+    "slug": "seedflare",
+    "name": "Seed Flare",
+    "gen": 4,
+    "type": "grass",
+    "category": "special",
+    "basePower": 120,
+    "accuracy": 85
+  },
+  {
     "slug": "seismictoss",
     "name": "Seismic Toss",
     "gen": 1,
@@ -4303,6 +4458,15 @@
     "accuracy": 100
   },
   {
+    "slug": "strangesteam",
+    "name": "Strange Steam",
+    "gen": 8,
+    "type": "fairy",
+    "category": "special",
+    "basePower": 90,
+    "accuracy": 95
+  },
+  {
     "slug": "strength",
     "name": "Strength",
     "gen": 1,
@@ -4488,6 +4652,15 @@
     "category": "status"
   },
   {
+    "slug": "syrupbomb",
+    "name": "Syrup Bomb",
+    "gen": 9,
+    "type": "grass",
+    "category": "special",
+    "basePower": 60,
+    "accuracy": 85
+  },
+  {
     "slug": "tackle",
     "name": "Tackle",
     "gen": 1,
@@ -4495,6 +4668,22 @@
     "category": "physical",
     "basePower": 40,
     "accuracy": 100
+  },
+  {
+    "slug": "tailglow",
+    "name": "Tail Glow",
+    "gen": 3,
+    "type": "bug",
+    "category": "status"
+  },
+  {
+    "slug": "tailslap",
+    "name": "Tail Slap",
+    "gen": 5,
+    "type": "normal",
+    "category": "physical",
+    "basePower": 25,
+    "accuracy": 85
   },
   {
     "slug": "tailwhip",
@@ -4519,6 +4708,13 @@
     "category": "physical",
     "basePower": 90,
     "accuracy": 85
+  },
+  {
+    "slug": "takeheart",
+    "name": "Take Heart",
+    "gen": 9,
+    "type": "psychic",
+    "category": "status"
   },
   {
     "slug": "tarshot",
@@ -4727,6 +4923,14 @@
     "gen": 4,
     "type": "poison",
     "category": "status"
+  },
+  {
+    "slug": "toxicthread",
+    "name": "Toxic Thread",
+    "gen": 7,
+    "type": "poison",
+    "category": "status",
+    "accuracy": 100
   },
   {
     "slug": "trailblaze",

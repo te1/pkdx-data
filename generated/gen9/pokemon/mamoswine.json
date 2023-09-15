@@ -1,0 +1,229 @@
+{
+  "slug": "mamoswine",
+  "name": "Mamoswine",
+  "num": 473,
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "oblivious",
+    "1": "snowcloak",
+    "H": "thickfat"
+  },
+  "baseStats": {
+    "hp": 110,
+    "atk": 130,
+    "def": 80,
+    "spa": 70,
+    "spd": 60,
+    "spe": 80
+  },
+  "prevo": "piloswine",
+  "evoType": "levelMove",
+  "evoMove": "Ancient Power",
+  "weight": 291,
+  "height": 2.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "learnset": {
+    "amnesia": [
+      "M",
+      "L:37"
+    ],
+    "ancientpower": [
+      "L:1",
+      "E@swinub"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "bite": [
+      "E@swinub"
+    ],
+    "blizzard": [
+      "M",
+      "L:58"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "curse": [
+      "E@swinub"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "E@swinub"
+    ],
+    "doublehit": [
+      "L:0"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:51"
+    ],
+    "endure": [
+      "M",
+      "L:25"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fissure": [
+      "E@swinub"
+    ],
+    "flail": [
+      "L:1"
+    ],
+    "freezedry": [
+      "E@swinub"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "haze": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icefang": [
+      "M",
+      "L:1"
+    ],
+    "iceshard": [
+      "L:15"
+    ],
+    "iciclecrash": [
+      "E@swinub"
+    ],
+    "iciclespear": [
+      "M"
+    ],
+    "icywind": [
+      "M",
+      "L:30"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "mist": [
+      "L:20"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:1"
+    ],
+    "powdersnow": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:44"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thrash": [
+      "L:65"
+    ],
+    "trailblaze": [
+      "M"
+    ]
+  }
+}

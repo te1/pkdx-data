@@ -1,0 +1,308 @@
+{
+  "slug": "infernape",
+  "name": "Infernape",
+  "num": 392,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "blaze",
+    "H": "ironfist"
+  },
+  "baseStats": {
+    "hp": 76,
+    "atk": 104,
+    "def": 71,
+    "spa": 104,
+    "spd": 71,
+    "spe": 108
+  },
+  "prevo": "monferno",
+  "evoLevel": 36,
+  "weight": 55,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field",
+    "Human-Like"
+  ],
+  "learnset": {
+    "acrobatics": [
+      "M",
+      "L:52"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "aurasphere": [
+      "M"
+    ],
+    "blastburn": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "burningjealousy": [
+      "M"
+    ],
+    "calmmind": [
+      "M",
+      "L:58"
+    ],
+    "closecombat": [
+      "M",
+      "L:0"
+    ],
+    "counter": [
+      "E@chimchar"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doublekick": [
+      "E@chimchar"
+    ],
+    "drainpunch": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "encore": [
+      "M",
+      "E@chimchar"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M",
+      "L:31@chimchar"
+    ],
+    "fakeout": [
+      "E@chimchar"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "feint": [
+      "L:26"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepledge": [
+      "M"
+    ],
+    "firepunch": [
+      "M",
+      "E@chimchar"
+    ],
+    "firespin": [
+      "M",
+      "L:42"
+    ],
+    "flamecharge": [
+      "M"
+    ],
+    "flamethrower": [
+      "M",
+      "L:47@chimchar"
+    ],
+    "flamewheel": [
+      "L:19"
+    ],
+    "flareblitz": [
+      "M",
+      "L:47"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focusenergy": [
+      "E@chimchar"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "furyswipes": [
+      "L:16"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "heatwave": [
+      "M",
+      "E@chimchar"
+    ],
+    "helpinghand": [
+      "M",
+      "E@chimchar"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lashout": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "machpunch": [
+      "L:1"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "nastyplot": [
+      "M",
+      "L:23@chimchar"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "ragingfury": [
+      "L:65"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slackoff": [
+      "L:1"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "switcheroo": [
+      "E@chimchar"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M",
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M",
+      "E@chimchar"
+    ],
+    "torment": [
+      "L:29"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

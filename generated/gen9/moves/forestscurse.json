@@ -1,0 +1,20 @@
+{
+  "slug": "forestscurse",
+  "name": "Forest's Curse",
+  "gen": 6,
+  "type": "grass",
+  "category": "status",
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "phantump",
+    "trevenant"
+  ],
+  "desc": "Causes the Grass type to be added to the target, effectively making it have two or three types. Fails if the target is already a Grass type. If Trick-or-Treat adds a type to the target, it replaces the type added by this move and vice versa.",
+  "shortDesc": "Adds Grass to the target's type(s).",
+  "flavorText": {
+    "sv": "The user puts a forest curse on the target. This adds Grass type to the target's type."
+  }
+}

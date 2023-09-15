@@ -1,0 +1,174 @@
+{
+  "slug": "dipplin",
+  "name": "Dipplin",
+  "num": 1011,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "supersweetsyrup",
+    "1": "gluttony",
+    "H": "stickyhold"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 80,
+    "def": 110,
+    "spa": 95,
+    "spd": 80,
+    "spe": 40
+  },
+  "prevo": "applin",
+  "evoType": "useItem",
+  "evoItem": "Syrupy Apple",
+  "weight": 4.4,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "learnset": {
+    "astonish": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bugbite": [
+      "M"
+    ],
+    "bulletseed": [
+      "M",
+      "L:20"
+    ],
+    "defensecurl": [
+      "E@applin"
+    ],
+    "doublehit": [
+      "L:0"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:12"
+    ],
+    "dragonpulse": [
+      "M",
+      "L:32"
+    ],
+    "dragontail": [
+      "M",
+      "L:4"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M",
+      "L:40"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growth": [
+      "L:8"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "infestation": [
+      "L:1"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "pollenpuff": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M",
+      "L:16"
+    ],
+    "recover": [
+      "L:36"
+    ],
+    "recycle": [
+      "L:1",
+      "E@applin"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "E@applin"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M",
+      "L:44"
+    ],
+    "suckerpunch": [
+      "E@applin"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:1"
+    ],
+    "syrupbomb": [
+      "L:28"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "withdraw": [
+      "L:1"
+    ]
+  }
+}

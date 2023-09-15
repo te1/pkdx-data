@@ -1,0 +1,188 @@
+{
+  "slug": "yanmega",
+  "name": "Yanmega",
+  "num": 469,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "speedboost",
+    "1": "tintedlens",
+    "H": "frisk"
+  },
+  "baseStats": {
+    "hp": 86,
+    "atk": 76,
+    "def": 86,
+    "spa": 116,
+    "spd": 56,
+    "spe": 95
+  },
+  "prevo": "yanma",
+  "evoType": "levelMove",
+  "evoMove": "Ancient Power",
+  "weight": 51.5,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "aircutter": [
+      "M",
+      "L:14@yanma"
+    ],
+    "airslash": [
+      "M",
+      "L:1"
+    ],
+    "ancientpower": [
+      "L:33"
+    ],
+    "bugbite": [
+      "M",
+      "L:30"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:1"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "detect": [
+      "L:17"
+    ],
+    "doubleedge": [
+      "E@yanma"
+    ],
+    "doubleteam": [
+      "L:1"
+    ],
+    "dualwingbeat": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "L:38",
+      "E@yanma"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypnosis": [
+      "L:38@yanma"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "lunge": [
+      "M"
+    ],
+    "nightslash": [
+      "L:1"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "quickattack": [
+      "L:14"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "screech": [
+      "L:46"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "slash": [
+      "L:43"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supersonic": [
+      "L:22"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "uproar": [
+      "M",
+      "L:27"
+    ],
+    "uturn": [
+      "M",
+      "L:49"
+    ],
+    "whirlwind": [
+      "E@yanma"
+    ],
+    "wingattack": [
+      "L:43@yanma"
+    ]
+  }
+}

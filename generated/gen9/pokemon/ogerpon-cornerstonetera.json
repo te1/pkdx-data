@@ -1,0 +1,33 @@
+{
+  "slug": "ogerpon-cornerstonetera",
+  "name": "Ogerpon",
+  "subName": "Cornerstone-Tera",
+  "num": 1017,
+  "types": [
+    "grass",
+    "rock"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "embodyaspectcornerstone"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 120,
+    "def": 84,
+    "spa": 60,
+    "spd": 96,
+    "spe": 110
+  },
+  "baseSpecies": "ogerpon",
+  "baseForm": "ogerpon-cornerstone",
+  "formeTriggerItem": "cornerstonemask",
+  "isBattleOnly": true,
+  "weight": 39.8,
+  "height": 1.2,
+  "gender": "F",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isLegendary": true
+}

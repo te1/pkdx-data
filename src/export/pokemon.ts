@@ -483,7 +483,7 @@ function getPrettySpeciesSlug(
   result = result.replaceAll(/[^a-zA-Z0-9]/g, '');
 
   if (baseSpecies) {
-    result = result + '-' + species.forme.replaceAll(/[^a-zA-Z0-9-]/g, '');
+    result = result + '-' + species.forme.replaceAll(/[^a-zA-Z0-9]/g, '');
   }
 
   return result.toLowerCase();

@@ -320,11 +320,20 @@
       "name": "Original Color Magearn",
       "hideSubName": true
     },
+    "marowakalolatotem": {
+      "slug": "marowak-alola-totem"
+    },
+    "raticatealolatotem": {
+      "slug": "raticate-alola-totem"
+    },
     "mimikyu": {
       "subName": "Disguised Form"
     },
     "mimikyu-busted": {
       "subName": "Busted Form"
+    },
+    "mimikyubustedtotem": {
+      "slug": "mimikyu-busted-totem"
     },
     "mimikyu-busted-totem": {
       "subName": "Totem, Busted Form"
@@ -498,6 +507,9 @@
     "darmanitan-galar": {
       "subName": "Standard Mode"
     },
+    "darmanitangalarzen": {
+      "slug": "darmanitan-galar-zen"
+    },
     "darmanitan-galar-zen": {
       "subName": "Zen Mode"
     },
@@ -555,15 +567,18 @@
     "toxtricity": {
       "subName": "Amped Form",
       "formes": [
-        "toxtricity-low-key",
+        "toxtricity-lowkey",
         "toxtricity-gmax",
-        "toxtricity-low-key-gmax"
+        "toxtricity-lowkey-gmax"
       ]
     },
-    "toxtricity-low-key": {
+    "toxtricity-lowkey": {
       "subName": "Low Key Form"
     },
-    "toxtricity-low-key-gmax": {
+    "toxtricitylowkeygmax": {
+      "slug": "toxtricity-lowkey-gmax"
+    },
+    "toxtricity-lowkey-gmax": {
       "subName": "Gigantamax, Low Key Form"
     },
     "zacian": {
@@ -598,18 +613,21 @@
       "isLegendary": true,
       "subName": "Single Strike Style",
       "formes": [
-        "urshifu-rapid-strike",
+        "urshifu-rapidstrike",
         "urshifu-gmax",
-        "urshifu-rapid-strike-gmax"
+        "urshifu-rapidstrike-gmax"
       ]
     },
     "urshifu-gmax": {
       "subName": "Gigantamax, Single Strike Style"
     },
-    "urshifu-rapid-strike": {
+    "urshifu-rapidstrike": {
       "subName": "Rapid Strike Style"
     },
-    "urshifu-rapid-strike-gmax": {
+    "urshifurapidstrikegmax": {
+      "slug": "urshifu-rapidstrike-gmax"
+    },
+    "urshifu-rapidstrike-gmax": {
       "subName": "Gigantamax, Rapid Strike Style"
     },
     "zarude": {
@@ -1101,28 +1119,28 @@
     "minior-violet": {
       "subName": "Violet Core"
     },
-    "alcremie-ruby-cream": {
+    "alcremie-rubycream": {
       "subName": "Ruby Cream"
     },
-    "alcremie-matcha-cream": {
+    "alcremie-matchacream": {
       "subName": "Matcha Cream"
     },
-    "alcremie-mint-cream": {
+    "alcremie-mintcream": {
       "subName": "Mint Cream"
     },
-    "alcremie-lemon-cream": {
+    "alcremie-lemoncream": {
       "subName": "Lemon Cream"
     },
-    "alcremie-salted-cream": {
+    "alcremie-saltedcream": {
       "subName": "Salted Cream"
     },
-    "alcremie-ruby-swirl": {
+    "alcremie-rubyswirl": {
       "subName": "Ruby Swirl"
     },
-    "alcremie-caramel-swirl": {
+    "alcremie-caramelswirl": {
       "subName": "Caramel Swirl"
     },
-    "alcremie-rainbow-swirl": {
+    "alcremie-rainbowswirl": {
       "subName": "Rainbow Swirl"
     }
   }

@@ -108,7 +108,7 @@ export async function getMergedLearnset(
     return _(merged).toPairs().sortBy(0).fromPairs().value();
   }
 
-  // learnset is empty, try learnset of baseForm (used by darmanitan-galar-zen, toxtricity-low-key-gmax, ...)
+  // learnset is empty, try learnset of baseForm (used by darmanitan-galar-zen, toxtricity-lowkey-gmax, ...)
   if (species.changesFrom && species.changesFrom !== species.name) {
     return await getMergedLearnset(
       gen.species.get(species.changesFrom),

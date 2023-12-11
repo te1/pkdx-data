@@ -6,20 +6,20 @@ settings:
 
 dependencies:
   '@pkmn/data':
-    specifier: ^0.7.52
-    version: 0.7.52
+    specifier: ^0.7.59
+    version: 0.7.59
   '@pkmn/dex':
-    specifier: ^0.7.52
-    version: 0.7.52
+    specifier: ^0.7.59
+    version: 0.7.59
   '@pkmn/dex-types':
-    specifier: ^0.7.52
-    version: 0.7.52
+    specifier: ^0.7.59
+    version: 0.7.59
   '@pkmn/mods':
-    specifier: ^0.7.52
-    version: 0.7.52
+    specifier: ^0.7.59
+    version: 0.7.59
   '@pkmn/sim':
-    specifier: ^0.7.52
-    version: 0.7.52
+    specifier: ^0.7.59
+    version: 0.7.59
   fs-extra:
     specifier: ^11.1.1
     version: 11.1.1
@@ -216,28 +216,28 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@pkmn/data@0.7.52:
-    resolution: {integrity: sha512-TeYJOhqr6veLM85v5hJBim4SmlTAQ6QwZCPHJgm7UpjgVZnsVp+Jfr7IAtlPOfZcAjiUKtI/HFb14TSuyBeMyQ==}
+  /@pkmn/data@0.7.59:
+    resolution: {integrity: sha512-1SH5RJyOFysejateKkghYoeYBF3tQKtjf8uCGlMYj3RsKK73cIvBMMKVwDAxppWiO0iHPqOBMY4WL4EFsyIY8g==}
     dependencies:
-      '@pkmn/dex-types': 0.7.52
+      '@pkmn/dex-types': 0.7.59
     dev: false
 
-  /@pkmn/dex-types@0.7.52:
-    resolution: {integrity: sha512-/cHHarBzYqrScq80RcwQkx4Glul2+YJQ63G4c9GnQzyQ9NFErsRedGGopbH+PMHFRRpzzgn75IRBlxuF+mtuLg==}
+  /@pkmn/dex-types@0.7.59:
+    resolution: {integrity: sha512-QJzcOy+iuCK9NaVcxOzajvQJctswrDdED4sW9J5YvBVgZXLqHj7+c4o4WM0K8XL4hDY5kkqbWmb0fUbjmZPHvw==}
     dependencies:
       '@pkmn/types': 3.0.0
     dev: false
 
-  /@pkmn/dex@0.7.52:
-    resolution: {integrity: sha512-tBkZl8seaKGG1xjMcWiKj3fzGQUGldSSj40WGzRkiusLul8wEPEng3YHGFS2AnY2Z8n91QDGV20kA0puFYmE7g==}
+  /@pkmn/dex@0.7.59:
+    resolution: {integrity: sha512-ayDAjUFSDCsxNTTL6Dr0fwq9iTaSsiwNS+L+F5zrXoRXdACN3MmR0kH5dLEPXW5ismyTzZUY22hB43uTnapiqA==}
     dependencies:
-      '@pkmn/dex-types': 0.7.52
+      '@pkmn/dex-types': 0.7.59
     dev: false
 
-  /@pkmn/mods@0.7.52:
-    resolution: {integrity: sha512-Cd/ZZ5Wc2QSpcpORpNeL2Kxo6UU6cUxrL4WxES5/nKoqph3Z69eZ2YVdqm+uESayXt+oj1hsjXhNDD/gds9EAQ==}
+  /@pkmn/mods@0.7.59:
+    resolution: {integrity: sha512-f5sUyRA3CgTA0seqmlHlWT5ekhvZ9v0DiaHPdWHed7k49Rraba8t1MHEOSHz6DgSWKKvOIUaa2yI1uPQzDptUg==}
     dependencies:
-      '@pkmn/dex-types': 0.7.52
+      '@pkmn/dex-types': 0.7.59
     dev: false
 
   /@pkmn/sets@5.1.0:
@@ -246,8 +246,8 @@ packages:
       '@pkmn/types': 3.0.0
     dev: false
 
-  /@pkmn/sim@0.7.52:
-    resolution: {integrity: sha512-A1eZ7mrX5jI9c/BfG+6xSVEceibzuEtT7yKfk96pV5R0OLBY3GsMYqHtv2YkcG5jyrzqMt2wCdQDyQxnu3c2tQ==}
+  /@pkmn/sim@0.7.59:
+    resolution: {integrity: sha512-x+q1VaCHxrQ7Wt5WNCElIbiGYfIgUXukVNr2i7M+cWqWegC8xJ8DiHEOk0VnKI1YjesWPb78u+Q29cVDZbI/ag==}
     dependencies:
       '@pkmn/sets': 5.1.0
       '@pkmn/streams': 1.1.0

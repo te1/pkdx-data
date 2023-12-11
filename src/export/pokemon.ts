@@ -309,7 +309,7 @@ export async function exportPokemon(
       // formeOrder: (species.formeOrder?.length ?? 0) > 1 ? species.formeOrder : undefined,
 
       // -- Misc data and breeding
-      weight: species.weightkg,
+      weight: species.weightkg || undefined,
 
       // height is only available in @pkmn/sim not in @pkmn/dex or @pkmn/data
       height: simSpecies?.heightm,

@@ -71,6 +71,10 @@ export async function exportPokemon(
     flavorTexts.scarlet = await fs.readJson(
       `./data/flavorText/gen${gen.num}/sv/pokedex-scarlet.json`
     );
+
+    flavorTexts.violet = await fs.readJson(
+      `./data/flavorText/gen${gen.num}/sv/pokedex-violet.json`
+    );
   }
 
   const hasEggs = gen.num >= 2;
@@ -196,7 +200,9 @@ export async function exportPokemon(
       );
     }
 
-    const flavorText = flavorTexts.scarlet?.[slug];
+    const flavorText: { scarlet?: string; violet?: string } = {};
+    flavorText.scarlet = flavorTexts.scarlet?.[slug];
+    flavorText.violet = flavorTexts.violet?.[slug];
 
     const entry = {
       // -- General
@@ -336,7 +342,8 @@ export async function exportPokemon(
       // Shedinja: max HP is always 1
       // maxHP: species.maxHP,
 
-      flavorText: flavorText ? { scarlet: flavorText } : undefined,
+      flavorText:
+        flavorText.scarlet || flavorText.violet ? flavorText : undefined,
 
       // name of the exclusive G-Max move
       gmaxMove,

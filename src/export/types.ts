@@ -59,7 +59,7 @@ function getTypesData(
 }
 
 function shouldSkipType(type: Type) {
-  if (type.name === '???') {
+  if (type.name === '???' || type.name === 'Stellar') {
     return true;
   }
 

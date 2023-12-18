@@ -1,0 +1,20 @@
+{
+  "slug": "electroshot",
+  "name": "Electro Shot",
+  "gen": 9,
+  "type": "electric",
+  "category": "special",
+  "basePower": 130,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "archaludon"
+  ],
+  "desc": "This attack charges on the first turn and executes on the second. Raises the user's Special Attack by 1 stage on the first turn. If the user is holding a Power Herb or the weather is Primordial Sea or Rain Dance, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Primordial Sea or Rain Dance, the move still requires a turn to charge.",
+  "shortDesc": "Raises Sp. Atk by 1, hits turn 2. Rain: no charge.",
+  "flavorText": {
+    "sv": "The user gathers electricity on the first turn, boosting its Sp. Atk stat, then fires a high-voltage shot on the next turn. The shot will be fired immediately in rain."
+  }
+}

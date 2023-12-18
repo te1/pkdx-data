@@ -1,0 +1,247 @@
+{
+  "slug": "combusken",
+  "name": "Combusken",
+  "num": 256,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "blaze",
+    "H": "speedboost"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 85,
+    "def": 60,
+    "spa": 85,
+    "spd": 60,
+    "spe": 55
+  },
+  "prevo": "torchic",
+  "evos": [
+    "blaziken"
+  ],
+  "evoLevel": 16,
+  "weight": 19.5,
+  "height": 0.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It boosts its concentration by emitting harsh cries. Its kicks have outstanding destructive power.",
+    "violet": "When it enters battle, the flame inside its body burns stronger. Its kicks have outstanding destructive power."
+  },
+  "learnset": {
+    "aerialace": [
+      "M",
+      "L:20"
+    ],
+    "agility": [
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "blazekick": [
+      "L:40"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bounce": [
+      "L:30"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M",
+      "L:45"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "coaching": [
+      "M"
+    ],
+    "counter": [
+      "E@torchic"
+    ],
+    "crushclaw": [
+      "E@torchic"
+    ],
+    "curse": [
+      "M"
+    ],
+    "detect": [
+      "L:12"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublekick": [
+      "L:0"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "featherdance": [
+      "M",
+      "L:1"
+    ],
+    "feint": [
+      "E@torchic"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepledge": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "flamecharge": [
+      "M",
+      "L:9"
+    ],
+    "flamethrower": [
+      "M",
+      "L:1"
+    ],
+    "flareblitz": [
+      "M",
+      "L:55"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:35"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "lastresort": [
+      "E@torchic"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "nightslash": [
+      "E@torchic"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "peck": [
+      "E@torchic"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M",
+      "L:50"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:15"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "L:25"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "temperflare": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  }
+}

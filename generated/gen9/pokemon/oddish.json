@@ -1,0 +1,182 @@
+{
+  "slug": "oddish",
+  "name": "Oddish",
+  "num": 43,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "chlorophyll",
+    "H": "runaway"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 50,
+    "def": 55,
+    "spa": 75,
+    "spd": 65,
+    "spe": 30
+  },
+  "evos": [
+    "gloom"
+  ],
+  "weight": 5.4,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
+    "violet": "When it is woken by moonlight, it wanders about. But during the day, it stays still underground."
+  },
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "acid": [
+      "L:4"
+    ],
+    "acidspray": [
+      "M"
+    ],
+    "afteryou": [
+      "E"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "E"
+    ],
+    "gigadrain": [
+      "M",
+      "L:20"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M",
+      "L:32"
+    ],
+    "growth": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "ingrain": [
+      "E"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "E"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "megadrain": [
+      "L:12"
+    ],
+    "moonblast": [
+      "L:28"
+    ],
+    "moonlight": [
+      "L:36"
+    ],
+    "petaldance": [
+      "L:40"
+    ],
+    "poisonpowder": [
+      "L:14"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeppowder": [
+      "L:18"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "strengthsap": [
+      "E"
+    ],
+    "stunspore": [
+      "L:16"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:8"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "E"
+    ],
+    "teeterdance": [
+      "E"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "tickle": [
+      "E"
+    ],
+    "toxic": [
+      "M",
+      "L:24"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ]
+  }
+}

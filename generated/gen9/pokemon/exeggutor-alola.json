@@ -1,0 +1,285 @@
+{
+  "slug": "exeggutor-alola",
+  "name": "Alolan Exeggutor",
+  "num": 103,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "frisk",
+    "H": "harvest"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 105,
+    "def": 85,
+    "spa": 125,
+    "spd": 75,
+    "spe": 45
+  },
+  "prevo": "exeggcute",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "baseSpecies": "exeggutor",
+  "region": "Alola",
+  "weight": 415.6,
+  "height": 10.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "It swings its long neck like a whip and smacks its head into opponents. This makes Exeggutor itself a little dizzy too.",
+    "violet": "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+  },
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "ancientpower": [
+      "E@exeggcute"
+    ],
+    "block": [
+      "E@exeggcute"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletseed": [
+      "M",
+      "L:1"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "confusion": [
+      "L:1"
+    ],
+    "curse": [
+      "M",
+      "E@exeggcute"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragoncheer": [
+      "M"
+    ],
+    "dragonhammer": [
+      "L:0"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "extrasensory": [
+      "L:1"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "gigadrain": [
+      "M",
+      "L:1"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "gravity": [
+      "M"
+    ],
+    "growth": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypnosis": [
+      "L:1"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "ingrain": [
+      "E@exeggcute"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leafstorm": [
+      "M",
+      "L:1"
+    ],
+    "leechseed": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "megadrain": [
+      "L:1"
+    ],
+    "moonlight": [
+      "E@exeggcute"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "poisonpowder": [
+      "E@exeggcute"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psychicnoise": [
+      "M"
+    ],
+    "psychicterrain": [
+      "M"
+    ],
+    "psychup": [
+      "M"
+    ],
+    "psyshock": [
+      "M",
+      "L:1"
+    ],
+    "reflect": [
+      "M",
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "M",
+      "L:1"
+    ],
+    "skillswap": [
+      "M"
+    ],
+    "sleeppowder": [
+      "E@exeggcute"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M",
+      "L:1"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "storedpower": [
+      "M"
+    ],
+    "stunspore": [
+      "E@exeggcute"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "trick": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "uproar": [
+      "M",
+      "L:1"
+    ],
+    "woodhammer": [
+      "L:1"
+    ],
+    "worryseed": [
+      "L:1"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

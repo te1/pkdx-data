@@ -1,0 +1,20 @@
+{
+  "slug": "conversion2",
+  "name": "Conversion 2",
+  "gen": 2,
+  "type": "normal",
+  "category": "status",
+  "pp": 30,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "porygon",
+    "porygon2",
+    "porygonz"
+  ],
+  "desc": "The user's type changes to match a type that resists or is immune to the type of the last move used by the target, but not either of its current types. The determined type of the move is used rather than the original type. Fails if the target has not made a move, if the user cannot change its type, or if this move would only be able to select one of the user's current types.",
+  "shortDesc": "Changes user's type to resist target's last move.",
+  "flavorText": {
+    "sv": "The user changes its type to make itself resistant to the type of the move the target used last."
+  }
+}

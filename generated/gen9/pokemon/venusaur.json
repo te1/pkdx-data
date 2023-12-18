@@ -1,0 +1,227 @@
+{
+  "slug": "venusaur",
+  "name": "Venusaur",
+  "num": 3,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "overgrow",
+    "H": "chlorophyll"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 82,
+    "def": 83,
+    "spa": 100,
+    "spd": 100,
+    "spe": 80
+  },
+  "prevo": "ivysaur",
+  "evoLevel": 32,
+  "weight": 100,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.",
+    "violet": "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power."
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "amnesia": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "curse": [
+      "M",
+      "E@bulbasaur"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "frenzyplant": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasspledge": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "growth": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "ingrain": [
+      "E@bulbasaur"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "L:9"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "petalblizzard": [
+      "M",
+      "L:0"
+    ],
+    "petaldance": [
+      "L:1",
+      "E@bulbasaur"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poisonpowder": [
+      "L:15"
+    ],
+    "powerwhip": [
+      "L:51"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:12"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "seedbomb": [
+      "M",
+      "L:20"
+    ],
+    "sleeppowder": [
+      "L:15"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M",
+      "L:58"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:30"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "L:37"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:25"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "toxic": [
+      "M",
+      "E@bulbasaur"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "vinewhip": [
+      "L:1"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "worryseed": [
+      "L:44"
+    ]
+  }
+}

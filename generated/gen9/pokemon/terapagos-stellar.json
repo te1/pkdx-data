@@ -1,0 +1,36 @@
+{
+  "slug": "terapagos-stellar",
+  "name": "Terapagos",
+  "subName": "Stellar",
+  "num": 1024,
+  "types": [
+    "normal"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "teraformzero"
+  },
+  "baseStats": {
+    "hp": 160,
+    "atk": 105,
+    "def": 110,
+    "spa": 130,
+    "spd": 110,
+    "spe": 85
+  },
+  "baseSpecies": "terapagos",
+  "isBattleOnly": true,
+  "weight": 77,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "In this form, Terapagos resembles the world as the ancients saw it, and its Terastal energy is abnormally amplified.",
+    "violet": "An old expedition journal describes the sight of this Pokémon buried in the depths of the earth as resembling a planet floating in space."
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "slug": "granbull",
+  "name": "Granbull",
+  "num": 210,
+  "types": [
+    "fairy"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "intimidate",
+    "1": "quickfeet",
+    "H": "rattled"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 120,
+    "def": 75,
+    "spa": 60,
+    "spd": 60,
+    "spe": 45
+  },
+  "prevo": "snubbull",
+  "evoLevel": 23,
+  "weight": 48.7,
+  "height": 1.4,
+  "genderRatio": {
+    "M": 0.25,
+    "F": 0.75
+  },
+  "eggGroups": [
+    "Field",
+    "Fairy"
+  ],
+  "flavorText": {
+    "scarlet": "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
+    "violet": "It can make most any Pokémon run away by opening its big mouth to reveal its thick fangs."
+  },
+  "learnset": {
+    "bite": [
+      "L:7"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charm": [
+      "M",
+      "L:1"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "counter": [
+      "E@snubbull"
+    ],
+    "crunch": [
+      "M",
+      "L:59"
+    ],
+    "curse": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "M",
+      "L:1"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "headbutt": [
+      "L:19"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "icefang": [
+      "M",
+      "L:1"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "lashout": [
+      "M"
+    ],
+    "lastresort": [
+      "L:35"
+    ],
+    "lick": [
+      "L:13"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mimic": [
+      "E@snubbull"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "M",
+      "L:1"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "payback": [
+      "L:51"
+    ],
+    "playrough": [
+      "M",
+      "L:43"
+    ],
+    "present": [
+      "E@snubbull"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychicfangs": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "retaliate": [
+      "E@snubbull"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "roar": [
+      "M",
+      "L:27"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M",
+      "L:1"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "snore": [
+      "E@snubbull"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "spite": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superfang": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "temperflare": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderfang": [
+      "M",
+      "L:1"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  }
+}

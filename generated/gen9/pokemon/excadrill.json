@@ -1,0 +1,214 @@
+{
+  "slug": "excadrill",
+  "name": "Excadrill",
+  "num": 530,
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "sandrush",
+    "1": "sandforce",
+    "H": "moldbreaker"
+  },
+  "baseStats": {
+    "hp": 110,
+    "atk": 135,
+    "def": 60,
+    "spa": 50,
+    "spd": 65,
+    "spe": 88
+  },
+  "prevo": "drilbur",
+  "evoLevel": 31,
+  "weight": 40.4,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "Forming a drill with its steel claws and head, it can bore through a steel plate, no matter how thick it is.",
+    "violet": "Its drill, which has evolved into steel, is strong enough to bore through iron plates. This Pokémon is a great help in tunnel construction."
+  },
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "crushclaw": [
+      "L:24"
+    ],
+    "curse": [
+      "M"
+    ],
+    "dig": [
+      "M",
+      "L:34"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "drillrun": [
+      "M",
+      "L:46"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:52"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fissure": [
+      "L:58"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "furyswipes": [
+      "L:12"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "honeclaws": [
+      "L:1"
+    ],
+    "horndrill": [
+      "L:0"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "metalclaw": [
+      "M",
+      "L:16"
+    ],
+    "metalsound": [
+      "M",
+      "E@drilbur"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:1"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rapidspin": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockslide": [
+      "M",
+      "L:28"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M",
+      "L:20"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "E@drilbur"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swordsdance": [
+      "M",
+      "L:40"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

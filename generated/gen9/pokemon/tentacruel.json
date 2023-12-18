@@ -1,0 +1,226 @@
+{
+  "slug": "tentacruel",
+  "name": "Tentacruel",
+  "num": 73,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "clearbody",
+    "1": "liquidooze",
+    "H": "raindish"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 70,
+    "def": 65,
+    "spa": 80,
+    "spd": 120,
+    "spe": 100
+  },
+  "prevo": "tentacool",
+  "evoLevel": 30,
+  "weight": 55,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 3"
+  ],
+  "flavorText": {
+    "scarlet": "On the rare occasions that large outbreaks of Tentacruel occur, all fish Pokémon disappear from the surrounding sea.",
+    "violet": "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net."
+  },
+  "learnset": {
+    "acid": [
+      "L:1"
+    ],
+    "acidarmor": [
+      "L:34"
+    ],
+    "acidspray": [
+      "M"
+    ],
+    "acupressure": [
+      "E@tentacool"
+    ],
+    "aquaring": [
+      "E@tentacool"
+    ],
+    "aurorabeam": [
+      "E@tentacool"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:24"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M",
+      "E@tentacool"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "haze": [
+      "M",
+      "E@tentacool"
+    ],
+    "hex": [
+      "M",
+      "L:28"
+    ],
+    "hydropump": [
+      "M",
+      "L:58"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "knockoff": [
+      "M",
+      "E@tentacool"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "mirrorcoat": [
+      "E@tentacool"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "poisonjab": [
+      "M",
+      "L:40"
+    ],
+    "poisonsting": [
+      "L:1"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rapidspin": [
+      "E@tentacool"
+    ],
+    "reflecttype": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "screech": [
+      "L:20"
+    ],
+    "skittersmack": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "sludgewave": [
+      "M",
+      "L:52"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:12"
+    ],
+    "surf": [
+      "M",
+      "L:46"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "tickle": [
+      "E@tentacool"
+    ],
+    "toxic": [
+      "M"
+    ],
+    "toxicspikes": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "L:16"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "wrap": [
+      "L:1"
+    ]
+  }
+}

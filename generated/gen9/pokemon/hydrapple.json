@@ -1,0 +1,226 @@
+{
+  "slug": "hydrapple",
+  "name": "Hydrapple",
+  "num": 1019,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "supersweetsyrup",
+    "1": "regenerator",
+    "H": "stickyhold"
+  },
+  "baseStats": {
+    "hp": 106,
+    "atk": 80,
+    "def": 110,
+    "spa": 120,
+    "spd": 80,
+    "spe": 44
+  },
+  "prevo": "dipplin",
+  "evoType": "levelMove",
+  "evoMove": "Dragon Cheer",
+  "weight": 93,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.",
+    "violet": "These capricious syrpents have banded together. On the rare occasion that their moods align, their true power is unleashed."
+  },
+  "learnset": {
+    "astonish": [
+      "L:1"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "M"
+    ],
+    "bugbite": [
+      "M"
+    ],
+    "bulletseed": [
+      "M",
+      "L:20"
+    ],
+    "curse": [
+      "M"
+    ],
+    "defensecurl": [
+      "E@applin"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublehit": [
+      "L:1"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:12"
+    ],
+    "dragoncheer": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M",
+      "L:32"
+    ],
+    "dragontail": [
+      "M",
+      "L:4"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M",
+      "L:40"
+    ],
+    "facade": [
+      "M"
+    ],
+    "ficklebeam": [
+      "L:0"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growth": [
+      "L:8"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "infestation": [
+      "L:1"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "pollenpuff": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "powerwhip": [
+      "L:54"
+    ],
+    "protect": [
+      "M",
+      "L:16"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "recover": [
+      "L:36"
+    ],
+    "recycle": [
+      "L:1",
+      "E@applin"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "E@applin"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M",
+      "L:44"
+    ],
+    "suckerpunch": [
+      "E@applin"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:1"
+    ],
+    "syrupbomb": [
+      "L:28"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "withdraw": [
+      "L:1"
+    ],
+    "yawn": [
+      "L:1"
+    ]
+  }
+}

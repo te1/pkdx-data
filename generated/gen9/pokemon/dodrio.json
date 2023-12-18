@@ -1,0 +1,203 @@
+{
+  "slug": "dodrio",
+  "name": "Dodrio",
+  "num": 85,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "runaway",
+    "1": "earlybird",
+    "H": "tangledfeet"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 110,
+    "def": 70,
+    "spa": 60,
+    "spd": 60,
+    "spe": 110
+  },
+  "prevo": "doduo",
+  "evoLevel": 31,
+  "weight": 85.2,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Flying"
+  ],
+  "flavorText": {
+    "scarlet": "It now has three hearts and three sets of lungs. Though it can't run as fast as Doduo, Dodrio can keep running for longer stretches of time.",
+    "violet": "The strongest head with the thickest neck becomes the leader and gains primary control of the body."
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "acupressure": [
+      "L:30"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M",
+      "L:23"
+    ],
+    "assurance": [
+      "E@doduo"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bravebird": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublehit": [
+      "L:19"
+    ],
+    "drillpeck": [
+      "L:38"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "endeavor": [
+      "M",
+      "L:43"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "featherdance": [
+      "M"
+    ],
+    "flail": [
+      "E@doduo"
+    ],
+    "fly": [
+      "M"
+    ],
+    "furyattack": [
+      "L:12"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lunge": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "peck": [
+      "L:1"
+    ],
+    "pluck": [
+      "L:15"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "skyattack": [
+      "E@doduo"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M",
+      "L:34"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thrash": [
+      "L:50"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "triattack": [
+      "L:0"
+    ],
+    "uproar": [
+      "M",
+      "L:26"
+    ],
+    "whirlwind": [
+      "E@doduo"
+    ]
+  }
+}

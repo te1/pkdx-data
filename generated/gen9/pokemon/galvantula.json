@@ -1,0 +1,192 @@
+{
+  "slug": "galvantula",
+  "name": "Galvantula",
+  "num": 596,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "compoundeyes",
+    "1": "unnerve",
+    "H": "swarm"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 77,
+    "def": 60,
+    "spa": 97,
+    "spd": 60,
+    "spe": 108
+  },
+  "prevo": "joltik",
+  "evoLevel": 36,
+  "weight": 14.3,
+  "height": 0.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "flavorText": {
+    "scarlet": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+    "violet": "When attacked, they create an electric barrier by spitting out many electrically charged threads."
+  },
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "agility": [
+      "M",
+      "L:24"
+    ],
+    "bugbite": [
+      "M",
+      "L:1"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:56"
+    ],
+    "charge": [
+      "M"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "discharge": [
+      "L:39"
+    ],
+    "doubleteam": [
+      "E@joltik"
+    ],
+    "electroball": [
+      "M",
+      "L:20"
+    ],
+    "electroweb": [
+      "M",
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "furycutter": [
+      "L:1"
+    ],
+    "gastroacid": [
+      "L:50"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "infestation": [
+      "E@joltik"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "lunge": [
+      "M",
+      "E@joltik"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poisonsting": [
+      "E@joltik"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "L:44"
+    ],
+    "skittersmack": [
+      "M"
+    ],
+    "slash": [
+      "L:32"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stickyweb": [
+      "L:0"
+    ],
+    "stringshot": [
+      "L:12"
+    ],
+    "strugglebug": [
+      "M",
+      "E@joltik"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:28"
+    ],
+    "swift": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M",
+      "L:16"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "torracat",
+  "name": "Torracat",
+  "num": 726,
+  "types": [
+    "fire"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "blaze",
+    "H": "intimidate"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 85,
+    "def": 50,
+    "spa": 80,
+    "spd": 50,
+    "spe": 90
+  },
+  "prevo": "litten",
+  "evos": [
+    "incineroar"
+  ],
+  "evoLevel": 17,
+  "weight": 25,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "At its throat, it bears a bell of fire. The bell rings brightly whenever fire spews out.",
+    "violet": "Torracat will let its Trainer coddle it once they've grown close, but it's a powerful, sharp-clawed Pokémon, so its Trainer gets covered in scratches."
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "bite": [
+      "L:15"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublekick": [
+      "L:20"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "E@litten"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "M",
+      "L:25"
+    ],
+    "firepledge": [
+      "M"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "flamecharge": [
+      "M"
+    ],
+    "flamethrower": [
+      "M",
+      "L:40"
+    ],
+    "flareblitz": [
+      "M",
+      "L:50"
+    ],
+    "furyswipes": [
+      "L:12"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "lick": [
+      "L:1"
+    ],
+    "nastyplot": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "partingshot": [
+      "E@litten"
+    ],
+    "powertrip": [
+      "E@litten"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M",
+      "L:9"
+    ],
+    "scaryface": [
+      "M",
+      "L:30"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "L:35"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "temperflare": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thrash": [
+      "L:45"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  }
+}

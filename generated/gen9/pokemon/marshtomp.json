@@ -1,0 +1,239 @@
+{
+  "slug": "marshtomp",
+  "name": "Marshtomp",
+  "num": 259,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "torrent",
+    "H": "damp"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 85,
+    "def": 70,
+    "spa": 60,
+    "spd": 70,
+    "spe": 50
+  },
+  "prevo": "mudkip",
+  "evos": [
+    "swampert"
+  ],
+  "evoLevel": 16,
+  "weight": 28,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "flavorText": {
+    "scarlet": "Living on muddy ground that provides poor footing has served to train its lower body and caused it to develop sturdy legs.",
+    "violet": "It is at its best when on muddy ground that offers poor footing. It quickly overwhelms opponents that are bogged down and unable to move."
+  },
+  "learnset": {
+    "amnesia": [
+      "M",
+      "L:35"
+    ],
+    "ancientpower": [
+      "E@mudkip"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "bite": [
+      "E@mudkip"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "counter": [
+      "E@mudkip"
+    ],
+    "curse": [
+      "M",
+      "E@mudkip"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M",
+      "E@mudkip"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endeavor": [
+      "M",
+      "L:50"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:55"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "mirrorcoat": [
+      "E@mudkip"
+    ],
+    "muddywater": [
+      "M",
+      "L:40"
+    ],
+    "mudshot": [
+      "M",
+      "L:0"
+    ],
+    "mudslap": [
+      "M",
+      "E@mudkip"
+    ],
+    "protect": [
+      "M",
+      "L:12"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M",
+      "L:25"
+    ],
+    "rocksmash": [
+      "L:1"
+    ],
+    "rockthrow": [
+      "L:9"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "screech": [
+      "L:45"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludge": [
+      "E@mudkip"
+    ],
+    "sludgewave": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stomp": [
+      "E@mudkip"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supersonic": [
+      "L:15"
+    ],
+    "surf": [
+      "M",
+      "L:30@mudkip"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:30"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpledge": [
+      "M"
+    ],
+    "waterpulse": [
+      "M",
+      "L:20"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "wideguard": [
+      "E@mudkip"
+    ],
+    "yawn": [
+      "E@mudkip"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "ivysaur",
+  "name": "Ivysaur",
+  "num": 2,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "overgrow",
+    "H": "chlorophyll"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 62,
+    "def": 63,
+    "spa": 80,
+    "spd": 80,
+    "spe": 60
+  },
+  "prevo": "bulbasaur",
+  "evos": [
+    "venusaur"
+  ],
+  "evoLevel": 16,
+  "weight": 13,
+  "height": 1,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.",
+    "violet": "The bulb on its back grows as it absorbs nutrients. The bulb gives off a pleasant aroma when it blooms."
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "curse": [
+      "M",
+      "E@bulbasaur"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasspledge": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "growth": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "ingrain": [
+      "E@bulbasaur"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "L:9"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "petaldance": [
+      "E@bulbasaur"
+    ],
+    "poisonpowder": [
+      "L:15"
+    ],
+    "powerwhip": [
+      "L:45"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:12"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "seedbomb": [
+      "M",
+      "L:20"
+    ],
+    "sleeppowder": [
+      "L:15"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M",
+      "L:50"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:30"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "L:35"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:25"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "toxic": [
+      "M",
+      "E@bulbasaur"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "vinewhip": [
+      "L:1"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "worryseed": [
+      "L:40"
+    ]
+  }
+}

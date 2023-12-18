@@ -1,0 +1,32 @@
+{
+  "slug": "minior-meteor",
+  "name": "Minior",
+  "subName": "Meteor Form",
+  "num": 774,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "shieldsdown"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 60,
+    "def": 100,
+    "spa": 60,
+    "spd": 100,
+    "spe": 60
+  },
+  "baseSpecies": "minior",
+  "formeTriggerAbility": "shieldsdown",
+  "isBattleOnly": true,
+  "weight": 40,
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true
+}

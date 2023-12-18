@@ -1,0 +1,41 @@
+{
+  "slug": "smeargle",
+  "name": "Smeargle",
+  "num": 235,
+  "types": [
+    "normal"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "owntempo",
+    "1": "technician",
+    "H": "moody"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 20,
+    "def": 35,
+    "spa": 20,
+    "spd": 45,
+    "spe": 75
+  },
+  "weight": 58,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Once a Smeargle reaches adulthood, it will have other members of its species leave paw prints on its back.",
+    "violet": "The color of the mysterious fluid secreted from the tip of the tail is predetermined for each Smeargle."
+  },
+  "learnset": {
+    "sketch": [
+      "L:1"
+    ]
+  }
+}

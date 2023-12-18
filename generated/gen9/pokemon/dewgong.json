@@ -1,0 +1,246 @@
+{
+  "slug": "dewgong",
+  "name": "Dewgong",
+  "num": 87,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "thickfat",
+    "1": "hydration",
+    "H": "icebody"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 70,
+    "def": 80,
+    "spa": 70,
+    "spd": 95,
+    "spe": 70
+  },
+  "prevo": "seel",
+  "evoLevel": 34,
+  "weight": 120,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "It sleeps under shallow ocean waters during the day, then looks for food at night when it's colder.",
+    "violet": "It stores thermal energy in its body to fend off the cold. It swims at eight knots even in frigid waters."
+  },
+  "learnset": {
+    "alluringvoice": [
+      "M"
+    ],
+    "aquajet": [
+      "L:31"
+    ],
+    "aquaring": [
+      "L:23"
+    ],
+    "aquatail": [
+      "L:49"
+    ],
+    "aurorabeam": [
+      "L:27"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "belch": [
+      "E@seel"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brine": [
+      "L:33"
+    ],
+    "charm": [
+      "M",
+      "L:7@seel"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "curse": [
+      "M"
+    ],
+    "disable": [
+      "E@seel"
+    ],
+    "dive": [
+      "L:45"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "encore": [
+      "M",
+      "L:13"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "entrainment": [
+      "E@seel"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "E@seel"
+    ],
+    "fling": [
+      "M"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "haze": [
+      "M"
+    ],
+    "headbutt": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "horndrill": [
+      "E@seel"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M",
+      "L:55"
+    ],
+    "iceshard": [
+      "L:17"
+    ],
+    "icespinner": [
+      "M"
+    ],
+    "iciclespear": [
+      "M"
+    ],
+    "icywind": [
+      "M",
+      "L:1"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lick": [
+      "E@seel"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "perishsong": [
+      "E@seel"
+    ],
+    "playrough": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M",
+      "L:21"
+    ],
+    "safeguard": [
+      "L:61"
+    ],
+    "sheercold": [
+      "L:0"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "snowscape": [
+      "M",
+      "L:65"
+    ],
+    "spitup": [
+      "E@seel"
+    ],
+    "stockpile": [
+      "E@seel"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swallow": [
+      "E@seel"
+    ],
+    "takedown": [
+      "M",
+      "L:39"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "tripleaxel": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlpool": [
+      "M"
+    ]
+  }
+}

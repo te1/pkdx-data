@@ -1,0 +1,20 @@
+{
+  "slug": "crushgrip",
+  "name": "Crush Grip",
+  "gen": 4,
+  "type": "normal",
+  "category": "physical",
+  "basePower": 0,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "regigigas"
+  ],
+  "desc": "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
+  "shortDesc": "More power the more HP the target has left.",
+  "flavorText": {
+    "sv": "The target is crushed with great force. The more HP the target has left, the greater the move's power."
+  }
+}

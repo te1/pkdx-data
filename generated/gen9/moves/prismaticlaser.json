@@ -1,0 +1,22 @@
+{
+  "slug": "prismaticlaser",
+  "name": "Prismatic Laser",
+  "gen": 7,
+  "type": "psychic",
+  "category": "special",
+  "basePower": 160,
+  "accuracy": 100,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "necrozma",
+    "necrozma-dawnwings",
+    "necrozma-duskmane"
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn.",
+  "flavorText": {
+    "sv": "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn."
+  }
+}

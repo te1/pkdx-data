@@ -1,0 +1,182 @@
+{
+  "slug": "drilbur",
+  "name": "Drilbur",
+  "num": 529,
+  "types": [
+    "ground"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "sandrush",
+    "1": "sandforce",
+    "H": "moldbreaker"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 85,
+    "def": 40,
+    "spa": 30,
+    "spd": 45,
+    "spe": 68
+  },
+  "evos": [
+    "excadrill"
+  ],
+  "weight": 8.5,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
+    "violet": "It makes its way swiftly through the soil by putting both claws together and rotating at high speed."
+  },
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "crushclaw": [
+      "L:24"
+    ],
+    "curse": [
+      "M"
+    ],
+    "dig": [
+      "M",
+      "L:32"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "drillrun": [
+      "M",
+      "L:40"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:44"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fissure": [
+      "L:48"
+    ],
+    "fling": [
+      "M"
+    ],
+    "furyswipes": [
+      "L:12"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "honeclaws": [
+      "L:8"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "metalclaw": [
+      "M",
+      "L:16"
+    ],
+    "metalsound": [
+      "M",
+      "E"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:1"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "rapidspin": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M",
+      "L:28"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M",
+      "L:20"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "scratch": [
+      "L:4"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "E"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swordsdance": [
+      "M",
+      "L:36"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

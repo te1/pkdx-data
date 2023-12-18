@@ -1,0 +1,19 @@
+{
+  "slug": "topsyturvy",
+  "name": "Topsy-Turvy",
+  "gen": 6,
+  "type": "dark",
+  "category": "status",
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "inkay",
+    "malamar"
+  ],
+  "desc": "The target's positive stat stages become negative and vice versa. Fails if all of the target's stat stages are 0.",
+  "shortDesc": "Inverts the target's stat stages.",
+  "flavorText": {
+    "sv": "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were."
+  }
+}

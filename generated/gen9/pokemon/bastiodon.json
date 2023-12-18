@@ -1,0 +1,248 @@
+{
+  "slug": "bastiodon",
+  "name": "Bastiodon",
+  "num": 411,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "sturdy",
+    "H": "soundproof"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 52,
+    "def": 168,
+    "spa": 47,
+    "spd": 138,
+    "spe": 30
+  },
+  "prevo": "shieldon",
+  "evoLevel": 30,
+  "weight": 149.5,
+  "height": 1.3,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster"
+  ],
+  "flavorText": {
+    "scarlet": "While it can guard against any sort of attack from the front, it is left without recourse when attacked from behind.",
+    "violet": "Bastiodon live in herds. When assaulted by enemies, they line up side by side and use their hard faces to block attacks."
+  },
+  "learnset": {
+    "ancientpower": [
+      "L:28"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "block": [
+      "L:0"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "counter": [
+      "E@shieldon"
+    ],
+    "curse": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "L:36"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "fissure": [
+      "E@shieldon"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "focusenergy": [
+      "E@shieldon"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "guardsplit": [
+      "E@shieldon"
+    ],
+    "hardpress": [
+      "M"
+    ],
+    "headbutt": [
+      "E@shieldon"
+    ],
+    "heavyslam": [
+      "M",
+      "L:58"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M",
+      "L:19"
+    ],
+    "ironhead": [
+      "M",
+      "L:51"
+    ],
+    "metalburst": [
+      "L:43"
+    ],
+    "metalsound": [
+      "M",
+      "L:1"
+    ],
+    "meteorbeam": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "powergem": [
+      "M"
+    ],
+    "protect": [
+      "M",
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "screech": [
+      "E@shieldon"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "L:24"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:15"
+    ],
+    "taunt": [
+      "M",
+      "L:1"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "wideguard": [
+      "L:1"
+    ]
+  }
+}

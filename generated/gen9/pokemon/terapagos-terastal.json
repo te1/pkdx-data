@@ -1,0 +1,36 @@
+{
+  "slug": "terapagos-terastal",
+  "name": "Terapagos",
+  "subName": "Terastal",
+  "num": 1024,
+  "types": [
+    "normal"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "terashell"
+  },
+  "baseStats": {
+    "hp": 95,
+    "atk": 95,
+    "def": 110,
+    "spa": 105,
+    "spd": 110,
+    "spe": 85
+  },
+  "baseSpecies": "terapagos",
+  "isBattleOnly": true,
+  "weight": 16,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "flavorText": {
+    "scarlet": "Upon sensing danger, it prepares itself for battle by creating a sturdy shell of crystallized Terastal energy.",
+    "violet": "The shell is made of crystallized Terastal energy. When struck by a move, this shell absorbs the move's energy and transfers it to Terapagos."
+  }
+}

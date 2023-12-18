@@ -1,0 +1,215 @@
+{
+  "slug": "minior",
+  "name": "Minior",
+  "subName": "Core Form",
+  "num": 774,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "shieldsdown"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 100,
+    "def": 60,
+    "spa": 100,
+    "spd": 60,
+    "spe": 120
+  },
+  "formes": [
+    "minior-meteor"
+  ],
+  "cosmeticSubName": "Red Core",
+  "cosmeticFormes": [
+    {
+      "slug": "minior-orange",
+      "subName": "Orange Core"
+    },
+    {
+      "slug": "minior-yellow",
+      "subName": "Yellow Core"
+    },
+    {
+      "slug": "minior-green",
+      "subName": "Green Core"
+    },
+    {
+      "slug": "minior-blue",
+      "subName": "Blue Core"
+    },
+    {
+      "slug": "minior-indigo",
+      "subName": "Indigo Core"
+    },
+    {
+      "slug": "minior-violet",
+      "subName": "Violet Core"
+    }
+  ],
+  "weight": 0.3,
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon is born in the ozone layer. It falls to the ground once the outer shell enclosing its core grows heavy.",
+    "violet": "It will react when touched or called to, but it's unknown whether such responses indicate consciousness."
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "ancientpower": [
+      "L:17"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "calmmind": [
+      "M"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "confuseray": [
+      "M",
+      "L:10"
+    ],
+    "cosmicpower": [
+      "L:36"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "defensecurl": [
+      "L:3"
+    ],
+    "doubleedge": [
+      "M",
+      "L:43"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "explosion": [
+      "L:50"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gravity": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "meteorbeam": [
+      "M"
+    ],
+    "powergem": [
+      "M",
+      "L:38"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockpolish": [
+      "L:31"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "rollout": [
+      "L:8"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "selfdestruct": [
+      "L:22"
+    ],
+    "shellsmash": [
+      "L:45"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stealthrock": [
+      "M",
+      "L:24"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swift": [
+      "M",
+      "L:15"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:29"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

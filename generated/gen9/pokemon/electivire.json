@@ -1,0 +1,247 @@
+{
+  "slug": "electivire",
+  "name": "Electivire",
+  "num": 466,
+  "types": [
+    "electric"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "motordrive",
+    "H": "vitalspirit"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 123,
+    "def": 67,
+    "spa": 95,
+    "spd": 85,
+    "spe": 95
+  },
+  "prevo": "electabuzz",
+  "evoType": "trade",
+  "evoItem": "Electirizer",
+  "weight": 138.6,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.",
+    "violet": "This Pokémon presses the tips of its tails onto an opponent and instantly sends over 20,000 volts of high-voltage electricity through them."
+  },
+  "learnset": {
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charge": [
+      "M",
+      "L:1"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "crosschop": [
+      "E@elekid"
+    ],
+    "dig": [
+      "M"
+    ],
+    "discharge": [
+      "L:34"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "E@elekid"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "electroweb": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "E@elekid"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M",
+      "E@elekid"
+    ],
+    "followme": [
+      "E@elekid"
+    ],
+    "gigaimpact": [
+      "M",
+      "L:64"
+    ],
+    "hammerarm": [
+      "E@elekid"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M",
+      "L:52"
+    ],
+    "lowkick": [
+      "M",
+      "L:40"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "metalsound": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "screech": [
+      "L:24"
+    ],
+    "shockwave": [
+      "L:16"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supercellslam": [
+      "M"
+    ],
+    "swift": [
+      "M",
+      "L:12"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M",
+      "L:58"
+    ],
+    "thunderbolt": [
+      "M",
+      "L:46"
+    ],
+    "thunderpunch": [
+      "M",
+      "L:28"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "M",
+      "L:20"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "dewpider",
+  "name": "Dewpider",
+  "num": 751,
+  "types": [
+    "water",
+    "bug"
+  ],
+  "gen": 7,
+  "abilities": {
+    "0": "waterbubble",
+    "H": "waterabsorb"
+  },
+  "baseStats": {
+    "hp": 38,
+    "atk": 40,
+    "def": 52,
+    "spa": 40,
+    "spd": 72,
+    "spe": 27
+  },
+  "evos": [
+    "araquanid"
+  ],
+  "weight": 4,
+  "height": 0.3,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Dewpider uses sticky threads to create the water bubble that covers its head, so the bubble very rarely bursts.",
+    "violet": "It supports the water bubble that envelops its head with three of its legs. Sometimes it secretly swaps which legs are holding up the bubble."
+  },
+  "learnset": {
+    "aquaring": [
+      "L:16"
+    ],
+    "bite": [
+      "L:8"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:12"
+    ],
+    "bugbite": [
+      "M",
+      "L:4"
+    ],
+    "bugbuzz": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "crunch": [
+      "M",
+      "L:24"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "entrainment": [
+      "L:32"
+    ],
+    "facade": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "headbutt": [
+      "L:20"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "infestation": [
+      "L:1"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "leechlife": [
+      "M",
+      "L:44"
+    ],
+    "liquidation": [
+      "M",
+      "L:40"
+    ],
+    "lunge": [
+      "M",
+      "L:36"
+    ],
+    "mirrorcoat": [
+      "L:48"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "powersplit": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "skittersmack": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "soak": [
+      "L:28"
+    ],
+    "spitup": [
+      "E"
+    ],
+    "stickyweb": [
+      "E"
+    ],
+    "stockpile": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

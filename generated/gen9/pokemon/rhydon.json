@@ -1,0 +1,308 @@
+{
+  "slug": "rhydon",
+  "name": "Rhydon",
+  "num": 112,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "lightningrod",
+    "1": "rockhead",
+    "H": "reckless"
+  },
+  "baseStats": {
+    "hp": 105,
+    "atk": 130,
+    "def": 120,
+    "spa": 45,
+    "spd": 45,
+    "spe": 40
+  },
+  "prevo": "rhyhorn",
+  "evos": [
+    "rhyperior"
+  ],
+  "evoLevel": 42,
+  "weight": 120,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "The horn of a Rhydon is powerful enough to crush raw diamonds. These Pokémon polish their horns by bashing them together.",
+    "violet": "It evolved to walk using only its hind legs, which has allowed it to expand its habitat even onto steep mountains."
+  },
+  "learnset": {
+    "avalanche": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M",
+      "L:1"
+    ],
+    "counter": [
+      "E@rhyhorn"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "curse": [
+      "M",
+      "E@rhyhorn"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragonrush": [
+      "E@rhyhorn"
+    ],
+    "drillrun": [
+      "M",
+      "L:35"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M",
+      "L:47"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firefang": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "guardsplit": [
+      "E@rhyhorn"
+    ],
+    "hammerarm": [
+      "L:0"
+    ],
+    "heatcrash": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "hornattack": [
+      "L:15"
+    ],
+    "horndrill": [
+      "L:68"
+    ],
+    "hydropump": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icefang": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "megahorn": [
+      "L:61"
+    ],
+    "metalburst": [
+      "E@rhyhorn"
+    ],
+    "meteorbeam": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockblast": [
+      "M",
+      "L:30"
+    ],
+    "rockpolish": [
+      "E@rhyhorn"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "scaryface": [
+      "M",
+      "L:20"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M",
+      "L:1"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stomp": [
+      "L:25"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M",
+      "L:54"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supercellslam": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:40"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderfang": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "slug": "zebstrika",
+  "name": "Zebstrika",
+  "num": 523,
+  "types": [
+    "electric"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "lightningrod",
+    "1": "motordrive",
+    "H": "sapsipper"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 100,
+    "def": 63,
+    "spa": 80,
+    "spd": 63,
+    "spe": 116
+  },
+  "prevo": "blitzle",
+  "evoLevel": 27,
+  "weight": 79.5,
+  "height": 1.6,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon is aggressive and has a volatile disposition. When agitated, it will illuminate its mane in yellow and fire off bolts of electricity.",
+    "violet": "Once the herd hears thunder, it chases after the storm clouds so that the Blitzle in the group can use the lightning to charge up."
+  },
+  "learnset": {
+    "agility": [
+      "M",
+      "L:42"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charge": [
+      "M",
+      "L:1"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "discharge": [
+      "L:36"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublekick": [
+      "E@blitzle"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "electroweb": [
+      "M"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "E@blitzle"
+    ],
+    "flamecharge": [
+      "M",
+      "L:18"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highhorsepower": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "sandattack": [
+      "E@blitzle"
+    ],
+    "screech": [
+      "E@blitzle"
+    ],
+    "shockwave": [
+      "L:11"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "spark": [
+      "L:25"
+    ],
+    "stomp": [
+      "L:31"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "supercellslam": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thrash": [
+      "L:53"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M",
+      "L:1"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M",
+      "L:47"
+    ]
+  }
+}

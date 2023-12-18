@@ -1,0 +1,248 @@
+{
+  "slug": "lapras",
+  "name": "Lapras",
+  "num": 131,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "waterabsorb",
+    "1": "shellarmor",
+    "H": "hydration"
+  },
+  "baseStats": {
+    "hp": 130,
+    "atk": 85,
+    "def": 80,
+    "spa": 85,
+    "spd": 95,
+    "spe": 60
+  },
+  "weight": 220,
+  "height": 2.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
+    "violet": "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back."
+  },
+  "learnset": {
+    "alluringvoice": [
+      "M"
+    ],
+    "ancientpower": [
+      "E"
+    ],
+    "avalanche": [
+      "M"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M",
+      "L:40"
+    ],
+    "brine": [
+      "L:35"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M",
+      "L:25"
+    ],
+    "curse": [
+      "M",
+      "E"
+    ],
+    "disarmingvoice": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dragoncheer": [
+      "M"
+    ],
+    "dragondance": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fissure": [
+      "E"
+    ],
+    "freezedry": [
+      "E"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "haze": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "horndrill": [
+      "E"
+    ],
+    "hydropump": [
+      "M",
+      "L:55"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "hypervoice": [
+      "M"
+    ],
+    "icebeam": [
+      "M",
+      "L:45"
+    ],
+    "iceshard": [
+      "L:20"
+    ],
+    "iciclespear": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "lifedew": [
+      "L:15"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "mist": [
+      "L:10"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "perishsong": [
+      "L:60"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psychicnoise": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:50"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "sheercold": [
+      "L:65"
+    ],
+    "sing": [
+      "L:5"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smartstrike": [
+      "M"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "sparklingaria": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "tickle": [
+      "E"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "L:30"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

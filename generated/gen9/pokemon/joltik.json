@@ -1,0 +1,179 @@
+{
+  "slug": "joltik",
+  "name": "Joltik",
+  "num": 595,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "compoundeyes",
+    "1": "unnerve",
+    "H": "swarm"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 47,
+    "def": 50,
+    "spa": 57,
+    "spd": 50,
+    "spe": 65
+  },
+  "evos": [
+    "galvantula"
+  ],
+  "weight": 0.6,
+  "height": 0.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
+    "violet": "Since it can't generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity."
+  },
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "agility": [
+      "M",
+      "L:24"
+    ],
+    "bugbite": [
+      "M",
+      "L:8"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:48"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "discharge": [
+      "L:37"
+    ],
+    "doubleteam": [
+      "E"
+    ],
+    "electroball": [
+      "M",
+      "L:20"
+    ],
+    "electroweb": [
+      "M",
+      "L:4"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "furycutter": [
+      "L:1"
+    ],
+    "gastroacid": [
+      "L:44"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "infestation": [
+      "E"
+    ],
+    "leechlife": [
+      "M"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "lunge": [
+      "M",
+      "E"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "poisonsting": [
+      "E"
+    ],
+    "pounce": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "L:40"
+    ],
+    "skittersmack": [
+      "M"
+    ],
+    "slash": [
+      "L:32"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stringshot": [
+      "L:12"
+    ],
+    "strugglebug": [
+      "M",
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:28"
+    ],
+    "swift": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M",
+      "L:16"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ],
+    "xscissor": [
+      "M"
+    ]
+  }
+}

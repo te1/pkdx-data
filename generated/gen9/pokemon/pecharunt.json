@@ -1,0 +1,143 @@
+{
+  "slug": "pecharunt",
+  "name": "Pecharunt",
+  "num": 1025,
+  "types": [
+    "poison",
+    "ghost"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "poisonpuppeteer"
+  },
+  "baseStats": {
+    "hp": 88,
+    "atk": 88,
+    "def": 160,
+    "spa": 88,
+    "spd": 88,
+    "spe": 88
+  },
+  "weight": 0.3,
+  "height": 0.3,
+  "gender": "N",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "isUnobtainable": true,
+  "flavorText": {
+    "scarlet": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt's control, chained to its will.",
+    "violet": "Its peach-shaped shell serves as storage for a potent poison. It makes poisonous mochi and serves them to people and Pokémon."
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "curse": [
+      "M"
+    ],
+    "defensecurl": [
+      "L:1"
+    ],
+    "destinybond": [
+      "L:16"
+    ],
+    "endure": [
+      "M"
+    ],
+    "faketears": [
+      "M",
+      "L:24"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gunkshot": [
+      "M"
+    ],
+    "hex": [
+      "M"
+    ],
+    "imprison": [
+      "M"
+    ],
+    "malignantchain": [
+      "L:48"
+    ],
+    "meanlook": [
+      "L:1"
+    ],
+    "memento": [
+      "L:1"
+    ],
+    "nastyplot": [
+      "M",
+      "L:64"
+    ],
+    "nightshade": [
+      "M"
+    ],
+    "partingshot": [
+      "L:32"
+    ],
+    "phantomforce": [
+      "M"
+    ],
+    "poisongas": [
+      "L:1"
+    ],
+    "poltergeist": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "recover": [
+      "L:72"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rollout": [
+      "L:1"
+    ],
+    "shadowball": [
+      "M",
+      "L:40"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "sludgewave": [
+      "M"
+    ],
+    "smog": [
+      "L:1"
+    ],
+    "spite": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "toxic": [
+      "M",
+      "L:56"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "withdraw": [
+      "L:8"
+    ]
+  }
+}

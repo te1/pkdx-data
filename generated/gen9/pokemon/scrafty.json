@@ -1,0 +1,293 @@
+{
+  "slug": "scrafty",
+  "name": "Scrafty",
+  "num": 560,
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "gen": 5,
+  "abilities": {
+    "0": "shedskin",
+    "1": "moxie",
+    "H": "intimidate"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 90,
+    "def": 115,
+    "spa": 45,
+    "spd": 115,
+    "spe": 58
+  },
+  "prevo": "scraggy",
+  "evoLevel": 39,
+  "weight": 30,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Field",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+    "violet": "This Pokémon may be rude, but it takes very good care of its family, its friends, and its turf."
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "amnesia": [
+      "M"
+    ],
+    "beatup": [
+      "L:24"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M",
+      "L:32"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "coaching": [
+      "M"
+    ],
+    "counter": [
+      "E@scraggy"
+    ],
+    "crunch": [
+      "M",
+      "L:42"
+    ],
+    "curse": [
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "detect": [
+      "E@scraggy"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "dragondance": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "drainpunch": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M",
+      "L:16"
+    ],
+    "fakeout": [
+      "E@scraggy"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M",
+      "L:54"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "headbutt": [
+      "L:1"
+    ],
+    "headsmash": [
+      "L:60"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "highjumpkick": [
+      "L:48"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "irondefense": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lashout": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lowkick": [
+      "M",
+      "L:1"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "payback": [
+      "L:1"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickguard": [
+      "E@scraggy"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:12"
+    ],
+    "scaryface": [
+      "M",
+      "L:28"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "smackdown": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "spite": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superfang": [
+      "M"
+    ],
+    "swagger": [
+      "L:36"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "torment": [
+      "L:20"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "upperhand": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

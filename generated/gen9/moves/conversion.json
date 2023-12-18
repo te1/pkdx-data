@@ -1,0 +1,20 @@
+{
+  "slug": "conversion",
+  "name": "Conversion",
+  "gen": 1,
+  "type": "normal",
+  "category": "status",
+  "pp": 30,
+  "target": "self",
+  "priority": 0,
+  "pokemon": [
+    "porygon",
+    "porygon2",
+    "porygonz"
+  ],
+  "desc": "The user's type changes to match the original type of the move in its first move slot. Fails if the user cannot change its type, or if the type is one of the user's current types.",
+  "shortDesc": "Changes user's type to match its first move.",
+  "flavorText": {
+    "sv": "The user changes its type to become the same type as the move at the top of the list of moves it knows."
+  }
+}

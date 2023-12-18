@@ -1,0 +1,227 @@
+{
+  "slug": "archaludon",
+  "name": "Archaludon",
+  "num": 1018,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "gen": 9,
+  "abilities": {
+    "0": "stamina",
+    "1": "sturdy",
+    "H": "stalwart"
+  },
+  "baseStats": {
+    "hp": 90,
+    "atk": 105,
+    "def": 130,
+    "spa": 125,
+    "spd": 65,
+    "spe": 85
+  },
+  "prevo": "duraludon",
+  "evoType": "useItem",
+  "evoItem": "Metal Alloy",
+  "weight": 60,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Mineral",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+    "violet": "It digs holes on mountains, searching for food. It's so durable that being caught in a cave-in won't faze it."
+  },
+  "learnset": {
+    "aurasphere": [
+      "M"
+    ],
+    "bodypress": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "M",
+      "L:24"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "darkpulse": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragoncheer": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M",
+      "L:48"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragontail": [
+      "M",
+      "L:30"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "electroshot": [
+      "L:0"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flashcannon": [
+      "M",
+      "L:54"
+    ],
+    "focusenergy": [
+      "L:42"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "hardpress": [
+      "M"
+    ],
+    "heavyslam": [
+      "M"
+    ],
+    "honeclaws": [
+      "L:12"
+    ],
+    "hyperbeam": [
+      "M",
+      "L:66"
+    ],
+    "irondefense": [
+      "M",
+      "L:36"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M"
+    ],
+    "metalburst": [
+      "L:60"
+    ],
+    "metalclaw": [
+      "M",
+      "L:1"
+    ],
+    "metalsound": [
+      "M",
+      "L:18"
+    ],
+    "meteorbeam": [
+      "M"
+    ],
+    "mirrorcoat": [
+      "E@duraludon"
+    ],
+    "nightslash": [
+      "E@duraludon"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "reflect": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocksmash": [
+      "L:6"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "slash": [
+      "E@duraludon"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M"
+    ],
+    "snarl": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "rockwrecker",
+  "name": "Rock Wrecker",
+  "gen": 4,
+  "type": "rock",
+  "category": "physical",
+  "basePower": 150,
+  "accuracy": 90,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "rhyperior"
+  ],
+  "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+  "shortDesc": "User cannot move next turn.",
+  "flavorText": {
+    "sv": "The user launches a huge boulder at the target to attack. The user can't move on the next turn."
+  }
+}

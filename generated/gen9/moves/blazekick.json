@@ -1,0 +1,22 @@
+{
+  "slug": "blazekick",
+  "name": "Blaze Kick",
+  "gen": 3,
+  "type": "fire",
+  "category": "physical",
+  "basePower": 85,
+  "accuracy": 90,
+  "pp": 10,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "blaziken",
+    "combusken",
+    "hitmonlee"
+  ],
+  "desc": "Has a 10% chance to burn the target and a higher chance for a critical hit.",
+  "shortDesc": "High critical hit ratio. 10% chance to burn.",
+  "flavorText": {
+    "sv": "The user launches a kick that has a heightened chance of landing a critical hit. This may also leave the target with a burn."
+  }
+}

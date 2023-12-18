@@ -1,0 +1,297 @@
+{
+  "slug": "blaziken",
+  "name": "Blaziken",
+  "num": 257,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "blaze",
+    "H": "speedboost"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 120,
+    "def": 70,
+    "spa": 110,
+    "spd": 70,
+    "spe": 80
+  },
+  "prevo": "combusken",
+  "evoLevel": 36,
+  "weight": 52,
+  "height": 1.9,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Field"
+  ],
+  "flavorText": {
+    "scarlet": "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+    "violet": "It can jump powerfully, clearing a 30-story building in a single leap. Its flaming punches scorch its opponents."
+  },
+  "learnset": {
+    "acrobatics": [
+      "M"
+    ],
+    "aerialace": [
+      "M",
+      "L:20"
+    ],
+    "agility": [
+      "M"
+    ],
+    "aurasphere": [
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "blastburn": [
+      "M"
+    ],
+    "blazekick": [
+      "L:0"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bounce": [
+      "L:30"
+    ],
+    "bravebird": [
+      "M",
+      "L:63"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M",
+      "L:42"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "closecombat": [
+      "M"
+    ],
+    "coaching": [
+      "M"
+    ],
+    "counter": [
+      "E@torchic"
+    ],
+    "crushclaw": [
+      "E@torchic"
+    ],
+    "curse": [
+      "M"
+    ],
+    "detect": [
+      "L:12"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublekick": [
+      "L:1"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "ember": [
+      "L:1"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "featherdance": [
+      "M",
+      "L:1"
+    ],
+    "feint": [
+      "E@torchic"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepledge": [
+      "M"
+    ],
+    "firepunch": [
+      "M",
+      "L:1"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "flamecharge": [
+      "M",
+      "L:9"
+    ],
+    "flamethrower": [
+      "M",
+      "L:1"
+    ],
+    "flareblitz": [
+      "M",
+      "L:56"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:35"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "heatcrash": [
+      "M"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lastresort": [
+      "E@torchic"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "nightslash": [
+      "E@torchic"
+    ],
+    "overheat": [
+      "M"
+    ],
+    "peck": [
+      "E@torchic"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M",
+      "L:49"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:15"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "scratch": [
+      "L:1"
+    ],
+    "shadowclaw": [
+      "M"
+    ],
+    "slash": [
+      "L:25"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "temperflare": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "upperhand": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M"
+    ],
+    "willowisp": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "slug": "lanturn",
+  "name": "Lanturn",
+  "num": 171,
+  "types": [
+    "water",
+    "electric"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "voltabsorb",
+    "1": "illuminate",
+    "H": "waterabsorb"
+  },
+  "baseStats": {
+    "hp": 125,
+    "atk": 58,
+    "def": 58,
+    "spa": 76,
+    "spd": 76,
+    "spe": 67
+  },
+  "prevo": "chinchou",
+  "evoLevel": 27,
+  "weight": 22.5,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "flavorText": {
+    "scarlet": "Portions of its dorsal fin mutated, becoming the parts that glow brightly to lure prey.",
+    "violet": "It blinds prey with an intense burst of light. With the prey incapacitated, the Pokémon swallows it in a single gulp."
+  },
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "amnesia": [
+      "M"
+    ],
+    "aquaring": [
+      "L:36"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:12"
+    ],
+    "charge": [
+      "M",
+      "L:24"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M",
+      "L:16"
+    ],
+    "curse": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "discharge": [
+      "L:30"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "eerieimpulse": [
+      "M",
+      "L:1"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M",
+      "L:1"
+    ],
+    "electroweb": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:42"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:54"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "mist": [
+      "E@chinchou"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M",
+      "E@chinchou"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scald": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "soak": [
+      "E@chinchou"
+    ],
+    "spark": [
+      "L:20"
+    ],
+    "spitup": [
+      "L:0"
+    ],
+    "stockpile": [
+      "L:0"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "E@chinchou"
+    ],
+    "supersonic": [
+      "L:1"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swallow": [
+      "L:0"
+    ],
+    "takedown": [
+      "M",
+      "L:48"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M",
+      "L:1"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "E@chinchou"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  }
+}

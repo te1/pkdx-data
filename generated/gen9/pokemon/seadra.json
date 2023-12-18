@@ -1,0 +1,181 @@
+{
+  "slug": "seadra",
+  "name": "Seadra",
+  "num": 117,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "poisonpoint",
+    "1": "sniper",
+    "H": "damp"
+  },
+  "baseStats": {
+    "hp": 55,
+    "atk": 65,
+    "def": 95,
+    "spa": 95,
+    "spd": 45,
+    "spe": 85
+  },
+  "prevo": "horsea",
+  "evos": [
+    "kingdra"
+  ],
+  "evoLevel": 32,
+  "weight": 25,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "The male raises the young. If it is approached while caring for young, it will use its toxic spines to fend off the intruder.",
+    "violet": "Its fin tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine."
+  },
+  "learnset": {
+    "agility": [
+      "M",
+      "L:30"
+    ],
+    "aurorabeam": [
+      "E@horsea"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:25"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "clearsmog": [
+      "E@horsea"
+    ],
+    "disable": [
+      "E@horsea"
+    ],
+    "dragonbreath": [
+      "L:20"
+    ],
+    "dragondance": [
+      "M",
+      "L:58"
+    ],
+    "dragonpulse": [
+      "M",
+      "L:44"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "E@horsea"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:15"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:51"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:65"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaleshot": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "splash": [
+      "E@horsea"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "twister": [
+      "L:1"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "L:37"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlpool": [
+      "M"
+    ]
+  }
+}

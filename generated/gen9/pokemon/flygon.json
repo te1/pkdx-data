@@ -1,0 +1,288 @@
+{
+  "slug": "flygon",
+  "name": "Flygon",
+  "num": 330,
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 80,
+    "atk": 100,
+    "def": 80,
+    "spa": 80,
+    "spd": 80,
+    "spe": 100
+  },
+  "prevo": "vibrava",
+  "evoLevel": 45,
+  "weight": 82,
+  "height": 2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
+    "violet": "The sound of its wings flapping resembles singing. Those entranced by this sound get lured into a sandstorm and become Flygon's prey."
+  },
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "alluringvoice": [
+      "M"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "boomburst": [
+      "L:68"
+    ],
+    "breakingswipe": [
+      "M"
+    ],
+    "bugbite": [
+      "M",
+      "E@trapinch"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:28"
+    ],
+    "bulldoze": [
+      "M",
+      "L:1"
+    ],
+    "crunch": [
+      "M",
+      "L:1"
+    ],
+    "dig": [
+      "M",
+      "L:1"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:1"
+    ],
+    "dragoncheer": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M",
+      "L:0"
+    ],
+    "dragondance": [
+      "M",
+      "L:1"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragonrush": [
+      "L:60"
+    ],
+    "dragontail": [
+      "M",
+      "L:20"
+    ],
+    "dualwingbeat": [
+      "M"
+    ],
+    "earthpower": [
+      "M",
+      "L:38"
+    ],
+    "earthquake": [
+      "M",
+      "L:44"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "L:1",
+      "E@trapinch"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "firespin": [
+      "M"
+    ],
+    "firstimpression": [
+      "E@trapinch"
+    ],
+    "fissure": [
+      "L:1"
+    ],
+    "flail": [
+      "E@trapinch"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "fly": [
+      "M"
+    ],
+    "furycutter": [
+      "E@trapinch"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gust": [
+      "E@trapinch"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:12"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychicnoise": [
+      "M"
+    ],
+    "quickattack": [
+      "E@trapinch"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M",
+      "L:32"
+    ],
+    "sandtomb": [
+      "M",
+      "L:16"
+    ],
+    "scaleshot": [
+      "M"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "screech": [
+      "L:24"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superpower": [
+      "L:1"
+    ],
+    "supersonic": [
+      "L:1"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "uproar": [
+      "M",
+      "L:52"
+    ],
+    "uturn": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M"
+    ]
+  }
+}

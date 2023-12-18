@@ -1,0 +1,215 @@
+{
+  "slug": "hitmontop",
+  "name": "Hitmontop",
+  "num": 237,
+  "types": [
+    "fighting"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "intimidate",
+    "1": "technician",
+    "H": "steadfast"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 95,
+    "def": 95,
+    "spa": 35,
+    "spd": 110,
+    "spe": 70
+  },
+  "prevo": "tyrogue",
+  "evoCondition": "with an Atk stat equal to its Def stat",
+  "evoLevel": 20,
+  "weight": 48,
+  "height": 1.4,
+  "gender": "M",
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "This Pokémon is adept at dance-like kicks. The horn atop its head is made from the same substance that generally forms fur and claws.",
+    "violet": "It spins on its horn while dealing out elegant kicks. Its horn grows continuously through its lifetime."
+  },
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M",
+      "L:28"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletpunch": [
+      "E@tyrogue"
+    ],
+    "closecombat": [
+      "M",
+      "L:36"
+    ],
+    "coaching": [
+      "M"
+    ],
+    "counter": [
+      "L:40",
+      "E@tyrogue"
+    ],
+    "detect": [
+      "L:12"
+    ],
+    "dig": [
+      "M",
+      "L:32"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "drillrun": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endeavor": [
+      "M",
+      "L:44"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "L:1"
+    ],
+    "feint": [
+      "L:1",
+      "E@tyrogue"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:1"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gyroball": [
+      "M",
+      "L:8"
+    ],
+    "helpinghand": [
+      "M",
+      "L:1"
+    ],
+    "highjumpkick": [
+      "E@tyrogue"
+    ],
+    "icespinner": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "machpunch": [
+      "E@tyrogue"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:4"
+    ],
+    "quickguard": [
+      "L:21"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rapidspin": [
+      "L:16",
+      "E@tyrogue"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:24"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "tripleaxel": [
+      "M"
+    ],
+    "triplekick": [
+      "L:0"
+    ],
+    "upperhand": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M",
+      "E@tyrogue"
+    ],
+    "wideguard": [
+      "L:21"
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "electabuzz",
+  "name": "Electabuzz",
+  "num": 125,
+  "types": [
+    "electric"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "static",
+    "H": "vitalspirit"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 83,
+    "def": 57,
+    "spa": 95,
+    "spd": 85,
+    "spe": 105
+  },
+  "prevo": "elekid",
+  "evos": [
+    "electivire"
+  ],
+  "evoLevel": 30,
+  "weight": 30,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "Its body constantly discharges electricity. Getting close to it will make your hair stand on end.",
+    "violet": "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time."
+  },
+  "learnset": {
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "charge": [
+      "M",
+      "L:1"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "crosschop": [
+      "E"
+    ],
+    "discharge": [
+      "L:34"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "E"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "electroweb": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "E"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M",
+      "E"
+    ],
+    "followme": [
+      "E"
+    ],
+    "gigaimpact": [
+      "M",
+      "L:64"
+    ],
+    "hammerarm": [
+      "E"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M",
+      "L:52"
+    ],
+    "lowkick": [
+      "M",
+      "L:40"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "metalsound": [
+      "M"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "L:24"
+    ],
+    "shockwave": [
+      "L:16"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supercellslam": [
+      "M"
+    ],
+    "swift": [
+      "M",
+      "L:12"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M",
+      "L:58"
+    ],
+    "thunderbolt": [
+      "M",
+      "L:46"
+    ],
+    "thunderpunch": [
+      "M",
+      "L:28"
+    ],
+    "thundershock": [
+      "L:1"
+    ],
+    "thunderwave": [
+      "M",
+      "L:20"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "thunderclap",
+  "name": "Thunderclap",
+  "gen": 9,
+  "type": "electric",
+  "category": "special",
+  "basePower": 70,
+  "accuracy": 100,
+  "pp": 5,
+  "target": "normal",
+  "priority": 1,
+  "pokemon": [
+    "ragingbolt"
+  ],
+  "desc": "Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user.",
+  "shortDesc": "Usually goes first. Fails if target is not attacking.",
+  "flavorText": {
+    "sv": "This move enables the user to attack first with a jolt of electricity. This move fails if the target is not readying an attack."
+  }
+}

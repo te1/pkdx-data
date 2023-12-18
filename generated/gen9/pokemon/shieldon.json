@@ -1,0 +1,217 @@
+{
+  "slug": "shieldon",
+  "name": "Shieldon",
+  "num": 410,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "gen": 4,
+  "abilities": {
+    "0": "sturdy",
+    "H": "soundproof"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 42,
+    "def": 118,
+    "spa": 42,
+    "spd": 88,
+    "spe": 30
+  },
+  "evos": [
+    "bastiodon"
+  ],
+  "weight": 57,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is outstandingly armored. As a result, it has no particular need to battle with others and can spend its time feeding on grass and berries.",
+    "violet": "This Pokémon lived in primeval jungles. It's thought that Shieldon had few enemies thanks to its sturdy face."
+  },
+  "learnset": {
+    "ancientpower": [
+      "L:28"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "counter": [
+      "E"
+    ],
+    "curse": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "earthpower": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "L:33"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fireblast": [
+      "M"
+    ],
+    "fissure": [
+      "E"
+    ],
+    "flamethrower": [
+      "M"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "focusenergy": [
+      "E"
+    ],
+    "guardsplit": [
+      "E"
+    ],
+    "hardpress": [
+      "M"
+    ],
+    "headbutt": [
+      "E"
+    ],
+    "heavyslam": [
+      "M",
+      "L:46"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "irondefense": [
+      "M",
+      "L:19"
+    ],
+    "ironhead": [
+      "M",
+      "L:42"
+    ],
+    "metalburst": [
+      "L:37"
+    ],
+    "metalsound": [
+      "M",
+      "L:10"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "powergem": [
+      "M"
+    ],
+    "protect": [
+      "M",
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockblast": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandstorm": [
+      "M"
+    ],
+    "sandtomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "screech": [
+      "E"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smackdown": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "steelbeam": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swagger": [
+      "L:24"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:15"
+    ],
+    "taunt": [
+      "M",
+      "L:6"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ]
+  }
+}

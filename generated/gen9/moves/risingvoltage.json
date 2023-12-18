@@ -1,0 +1,20 @@
+{
+  "slug": "risingvoltage",
+  "name": "Rising Voltage",
+  "gen": 8,
+  "type": "electric",
+  "category": "special",
+  "basePower": 70,
+  "accuracy": 100,
+  "pp": 20,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "ragingbolt"
+  ],
+  "desc": "If the current terrain is Electric Terrain and the target is grounded, this move's power is doubled.",
+  "shortDesc": "2x power if target is grounded in Electric Terrain.",
+  "flavorText": {
+    "sv": "The user attacks with electricity rising from the ground. This move's power is doubled if the target is on Electric Terrain."
+  }
+}

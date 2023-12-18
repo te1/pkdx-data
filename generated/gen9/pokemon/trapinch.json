@@ -1,0 +1,168 @@
+{
+  "slug": "trapinch",
+  "name": "Trapinch",
+  "num": 328,
+  "types": [
+    "ground"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "hypercutter",
+    "1": "arenatrap",
+    "H": "sheerforce"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 100,
+    "def": 45,
+    "spa": 45,
+    "spd": 45,
+    "spe": 10
+  },
+  "evos": [
+    "vibrava"
+  ],
+  "weight": 15,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This Pokémon lives in arid deserts. It patiently awaits prey inside its funnel- shaped nest.",
+    "violet": "As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest."
+  },
+  "learnset": {
+    "astonish": [
+      "L:1"
+    ],
+    "bite": [
+      "L:8"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bugbite": [
+      "M",
+      "E"
+    ],
+    "bulldoze": [
+      "M",
+      "L:20"
+    ],
+    "crunch": [
+      "M",
+      "L:28"
+    ],
+    "dig": [
+      "M",
+      "L:24"
+    ],
+    "earthpower": [
+      "M",
+      "L:36"
+    ],
+    "earthquake": [
+      "M",
+      "L:40"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "E"
+    ],
+    "firstimpression": [
+      "E"
+    ],
+    "fissure": [
+      "L:48"
+    ],
+    "flail": [
+      "E"
+    ],
+    "furycutter": [
+      "E"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gust": [
+      "E"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:12"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M",
+      "L:32"
+    ],
+    "sandtomb": [
+      "M",
+      "L:16"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superpower": [
+      "L:44"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ]
+  }
+}

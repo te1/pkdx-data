@@ -1,0 +1,138 @@
+{
+  "slug": "tyrogue",
+  "name": "Tyrogue",
+  "num": 236,
+  "types": [
+    "fighting"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "guts",
+    "1": "steadfast",
+    "H": "vitalspirit"
+  },
+  "baseStats": {
+    "hp": 35,
+    "atk": 35,
+    "def": 35,
+    "spa": 35,
+    "spd": 35,
+    "spe": 35
+  },
+  "evos": [
+    "hitmonlee",
+    "hitmonchan",
+    "hitmontop"
+  ],
+  "weight": 21,
+  "height": 0.7,
+  "gender": "M",
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "This earnest Pokémon battles all sorts of opponents, searching for the fighting style that suits it best.",
+    "violet": "Its intense desire to become stronger and stronger drives it to recklessly train its body and challenge any opponent it can find to battle."
+  },
+  "learnset": {
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletpunch": [
+      "E"
+    ],
+    "counter": [
+      "E"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "L:1"
+    ],
+    "feint": [
+      "E"
+    ],
+    "focusenergy": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M",
+      "L:1"
+    ],
+    "highjumpkick": [
+      "E"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "machpunch": [
+      "E"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rapidspin": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "upperhand": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M",
+      "E"
+    ]
+  }
+}

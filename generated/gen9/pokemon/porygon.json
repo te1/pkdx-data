@@ -1,0 +1,182 @@
+{
+  "slug": "porygon",
+  "name": "Porygon",
+  "num": 137,
+  "types": [
+    "normal"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "trace",
+    "1": "download",
+    "H": "analytic"
+  },
+  "baseStats": {
+    "hp": 65,
+    "atk": 60,
+    "def": 70,
+    "spa": 85,
+    "spd": 75,
+    "spe": 40
+  },
+  "evos": [
+    "porygon2"
+  ],
+  "weight": 36.5,
+  "height": 0.8,
+  "gender": "N",
+  "eggGroups": [
+    "Mineral"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It is an artificial Pokémon. Since it doesn't breathe, people are excited by its potential to be useful in any environment.",
+    "violet": "Porygon is an artificial Pokémon created using advanced scientific means. It can move freely through cyberspace."
+  },
+  "learnset": {
+    "agility": [
+      "M",
+      "L:30"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "charge": [
+      "M"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "conversion": [
+      "L:1"
+    ],
+    "conversion2": [
+      "L:25"
+    ],
+    "discharge": [
+      "L:40"
+    ],
+    "doubleedge": [
+      "M",
+      "L:50"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electroweb": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "foulplay": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gravity": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "lockon": [
+      "L:55"
+    ],
+    "magnetrise": [
+      "L:10"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M",
+      "L:20"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "psyshock": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "recover": [
+      "L:35"
+    ],
+    "recycle": [
+      "L:5"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shadowball": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thundershock": [
+      "L:15"
+    ],
+    "thunderwave": [
+      "M"
+    ],
+    "triattack": [
+      "L:45"
+    ],
+    "trick": [
+      "M"
+    ],
+    "trickroom": [
+      "M"
+    ],
+    "zapcannon": [
+      "L:60"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

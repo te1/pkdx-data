@@ -1,0 +1,208 @@
+{
+  "slug": "squirtle",
+  "name": "Squirtle",
+  "num": 7,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "torrent",
+    "H": "raindish"
+  },
+  "baseStats": {
+    "hp": 44,
+    "atk": 48,
+    "def": 65,
+    "spa": 50,
+    "spd": 64,
+    "spe": 43
+  },
+  "evos": [
+    "wartortle"
+  ],
+  "weight": 9,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Water 1"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.",
+    "violet": "Its shell is soft immediately after it is born. In no time at all, the shell becomes so resilient that a prodding finger will bounce right off it."
+  },
+  "learnset": {
+    "aquajet": [
+      "E"
+    ],
+    "aquaring": [
+      "E"
+    ],
+    "aquatail": [
+      "L:24"
+    ],
+    "bite": [
+      "L:12"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "E"
+    ],
+    "flail": [
+      "E"
+    ],
+    "fling": [
+      "M"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "gyroball": [
+      "M"
+    ],
+    "haze": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:33"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "icespinner": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "irondefense": [
+      "M",
+      "L:30"
+    ],
+    "lifedew": [
+      "E"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "mirrorcoat": [
+      "E"
+    ],
+    "mist": [
+      "E"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "protect": [
+      "M",
+      "L:18"
+    ],
+    "raindance": [
+      "M",
+      "L:21"
+    ],
+    "rapidspin": [
+      "L:9"
+    ],
+    "rest": [
+      "M"
+    ],
+    "shellsmash": [
+      "L:27"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "tailwhip": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "watergun": [
+      "L:3"
+    ],
+    "waterpledge": [
+      "M"
+    ],
+    "waterpulse": [
+      "M",
+      "L:15"
+    ],
+    "waterspout": [
+      "E"
+    ],
+    "wavecrash": [
+      "L:36"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "withdraw": [
+      "L:6"
+    ],
+    "yawn": [
+      "E"
+    ],
+    "zenheadbutt": [
+      "M"
+    ]
+  }
+}

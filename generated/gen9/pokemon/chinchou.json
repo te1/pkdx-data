@@ -1,0 +1,200 @@
+{
+  "slug": "chinchou",
+  "name": "Chinchou",
+  "num": 170,
+  "types": [
+    "water",
+    "electric"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "voltabsorb",
+    "1": "illuminate",
+    "H": "waterabsorb"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 38,
+    "def": 38,
+    "spa": 56,
+    "spd": 56,
+    "spe": 67
+  },
+  "evos": [
+    "lanturn"
+  ],
+  "weight": 12,
+  "height": 0.5,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 2"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It lives in ocean depths beyond the reach of sunlight. It flashes lights on its antennae to communicate with others of its kind.",
+    "violet": "It shoots positively and negatively charged electricity from the tips of its two antennae and stuns its opponents."
+  },
+  "learnset": {
+    "agility": [
+      "M"
+    ],
+    "amnesia": [
+      "M"
+    ],
+    "aquaring": [
+      "L:32"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:12"
+    ],
+    "charge": [
+      "M",
+      "L:24"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "confuseray": [
+      "M",
+      "L:16"
+    ],
+    "curse": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "discharge": [
+      "L:28"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M",
+      "L:4"
+    ],
+    "electroweb": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "L:36"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:44"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "mist": [
+      "E"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psybeam": [
+      "M",
+      "E"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scald": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "soak": [
+      "E"
+    ],
+    "spark": [
+      "L:20"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "E"
+    ],
+    "supersonic": [
+      "L:1"
+    ],
+    "surf": [
+      "M"
+    ],
+    "takedown": [
+      "M",
+      "L:40"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thunder": [
+      "M"
+    ],
+    "thunderbolt": [
+      "M"
+    ],
+    "thunderwave": [
+      "M",
+      "L:8"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "E"
+    ],
+    "whirlpool": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  }
+}

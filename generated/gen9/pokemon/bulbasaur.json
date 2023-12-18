@@ -1,0 +1,191 @@
+{
+  "slug": "bulbasaur",
+  "name": "Bulbasaur",
+  "num": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "overgrow",
+    "H": "chlorophyll"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 49,
+    "def": 49,
+    "spa": 65,
+    "spd": 65,
+    "spe": 45
+  },
+  "evos": [
+    "ivysaur"
+  ],
+  "weight": 6.9,
+  "height": 0.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.",
+    "violet": "It carries a seed on its back right from birth. As its body grows larger, the seed does too."
+  },
+  "learnset": {
+    "acidspray": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "curse": [
+      "M",
+      "E"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasspledge": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "growth": [
+      "L:6"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "ingrain": [
+      "E"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "L:9"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "petaldance": [
+      "E"
+    ],
+    "poisonpowder": [
+      "L:15"
+    ],
+    "powerwhip": [
+      "L:33"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:12"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "M",
+      "L:18"
+    ],
+    "sleeppowder": [
+      "L:15"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "solarbeam": [
+      "M",
+      "L:36"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:24"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "L:27"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M",
+      "L:21"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "toxic": [
+      "M",
+      "E"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "vinewhip": [
+      "L:3"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "worryseed": [
+      "L:30"
+    ]
+  }
+}

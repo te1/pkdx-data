@@ -1,0 +1,230 @@
+{
+  "slug": "hitmonlee",
+  "name": "Hitmonlee",
+  "num": 106,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "limber",
+    "1": "reckless",
+    "H": "unburden"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 120,
+    "def": 53,
+    "spa": 35,
+    "spd": 110,
+    "spe": 87
+  },
+  "prevo": "tyrogue",
+  "evoCondition": "with an Atk stat > its Def stat",
+  "evoLevel": 20,
+  "weight": 49.8,
+  "height": 1.5,
+  "gender": "M",
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "At the exact moment it lands a kick on its target, Hitmonlee hardens the muscles on the sole of its foot, maximizing the power of the kick.",
+    "violet": "It has complete control over the ligaments in its legs, expanding and contracting them to double the reach of its kicks."
+  },
+  "learnset": {
+    "aurasphere": [
+      "M"
+    ],
+    "axekick": [
+      "L:50"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "blazekick": [
+      "L:24"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M",
+      "L:0"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletpunch": [
+      "E"
+    ],
+    "closecombat": [
+      "M",
+      "L:36"
+    ],
+    "coaching": [
+      "M"
+    ],
+    "counter": [
+      "E"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublekick": [
+      "L:4"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M",
+      "L:12"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "L:1"
+    ],
+    "feint": [
+      "L:28",
+      "E"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:1"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "helpinghand": [
+      "M",
+      "L:1"
+    ],
+    "highjumpkick": [
+      "L:44",
+      "E"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lowkick": [
+      "M",
+      "L:8"
+    ],
+    "lowsweep": [
+      "M",
+      "L:1"
+    ],
+    "lunge": [
+      "M"
+    ],
+    "machpunch": [
+      "E"
+    ],
+    "megakick": [
+      "L:32"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rapidspin": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M",
+      "L:40"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "suckerpunch": [
+      "L:16"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "upperhand": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M",
+      "E"
+    ],
+    "wideguard": [
+      "L:21"
+    ]
+  }
+}

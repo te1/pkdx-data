@@ -1,0 +1,212 @@
+{
+  "slug": "vileplume",
+  "name": "Vileplume",
+  "num": 45,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "chlorophyll",
+    "H": "effectspore"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 80,
+    "def": 85,
+    "spa": 110,
+    "spd": 90,
+    "spe": 50
+  },
+  "prevo": "gloom",
+  "evoType": "useItem",
+  "evoItem": "Leaf Stone",
+  "weight": 18.6,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+    "violet": "It fiendishly scatters allergenic pollen from its petals, which are the largest in the world."
+  },
+  "learnset": {
+    "absorb": [
+      "L:1"
+    ],
+    "acid": [
+      "L:1"
+    ],
+    "acidspray": [
+      "M"
+    ],
+    "afteryou": [
+      "E@oddish"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "dazzlinggleam": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "E@oddish"
+    ],
+    "fling": [
+      "M"
+    ],
+    "gigadrain": [
+      "M",
+      "L:1"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M",
+      "L:1"
+    ],
+    "growth": [
+      "L:1"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "ingrain": [
+      "E@oddish"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "E@oddish"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "megadrain": [
+      "L:1"
+    ],
+    "moonblast": [
+      "L:1"
+    ],
+    "moonlight": [
+      "L:1"
+    ],
+    "petalblizzard": [
+      "M",
+      "L:0"
+    ],
+    "petaldance": [
+      "L:1"
+    ],
+    "poisonpowder": [
+      "L:1"
+    ],
+    "pollenpuff": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "E@oddish"
+    ],
+    "rest": [
+      "M"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeppowder": [
+      "L:1"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "sludgebomb": [
+      "M"
+    ],
+    "sludgewave": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "solarblade": [
+      "M"
+    ],
+    "strengthsap": [
+      "E@oddish"
+    ],
+    "stunspore": [
+      "L:1"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:1"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "E@oddish"
+    ],
+    "teeterdance": [
+      "E@oddish"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "tickle": [
+      "E@oddish"
+    ],
+    "toxic": [
+      "M",
+      "L:1"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "venoshock": [
+      "M"
+    ],
+    "weatherball": [
+      "M"
+    ]
+  }
+}

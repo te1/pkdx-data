@@ -1,0 +1,20 @@
+{
+  "slug": "freezeshock",
+  "name": "Freeze Shock",
+  "gen": 5,
+  "type": "ice",
+  "category": "physical",
+  "basePower": 140,
+  "accuracy": 90,
+  "pp": 5,
+  "target": "normal",
+  "priority": 0,
+  "pokemon": [
+    "kyurem-black"
+  ],
+  "desc": "Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
+  "shortDesc": "Charges turn 1. Hits turn 2. 30% paralyze.",
+  "flavorText": {
+    "sv": "The turn after using this move, the user hits the target with electrically charged ice to inflict damage. This may also leave the target with paralysis."
+  }
+}

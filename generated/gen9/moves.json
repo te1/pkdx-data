@@ -67,6 +67,15 @@
     "basePower": 60
   },
   {
+    "slug": "aeroblast",
+    "name": "Aeroblast",
+    "gen": 2,
+    "type": "flying",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 95
+  },
+  {
     "slug": "afteryou",
     "name": "After You",
     "gen": 5,
@@ -97,6 +106,15 @@
     "category": "special",
     "basePower": 75,
     "accuracy": 95
+  },
+  {
+    "slug": "alluringvoice",
+    "name": "Alluring Voice",
+    "gen": 9,
+    "type": "fairy",
+    "category": "special",
+    "basePower": 80,
+    "accuracy": 100
   },
   {
     "slug": "allyswitch",
@@ -325,6 +343,15 @@
     "category": "status"
   },
   {
+    "slug": "beakblast",
+    "name": "Beak Blast",
+    "gen": 7,
+    "type": "flying",
+    "category": "physical",
+    "basePower": 100,
+    "accuracy": 100
+  },
+  {
     "slug": "beatup",
     "name": "Beat Up",
     "gen": 2,
@@ -413,6 +440,15 @@
     "accuracy": 90
   },
   {
+    "slug": "blazekick",
+    "name": "Blaze Kick",
+    "gen": 3,
+    "type": "fire",
+    "category": "physical",
+    "basePower": 85,
+    "accuracy": 90
+  },
+  {
     "slug": "bleakwindstorm",
     "name": "Bleakwind Storm",
     "gen": 9,
@@ -447,6 +483,15 @@
     "accuracy": 100
   },
   {
+    "slug": "blueflare",
+    "name": "Blue Flare",
+    "gen": 5,
+    "type": "fire",
+    "category": "special",
+    "basePower": 130,
+    "accuracy": 85
+  },
+  {
     "slug": "bodypress",
     "name": "Body Press",
     "gen": 8,
@@ -463,6 +508,15 @@
     "category": "physical",
     "basePower": 85,
     "accuracy": 100
+  },
+  {
+    "slug": "boltstrike",
+    "name": "Bolt Strike",
+    "gen": 5,
+    "type": "electric",
+    "category": "physical",
+    "basePower": 130,
+    "accuracy": 85
   },
   {
     "slug": "bonerush",
@@ -607,6 +661,13 @@
     "accuracy": 100
   },
   {
+    "slug": "burningbulwark",
+    "name": "Burning Bulwark",
+    "gen": 9,
+    "type": "fire",
+    "category": "status"
+  },
+  {
     "slug": "burningjealousy",
     "name": "Burning Jealousy",
     "gen": 8,
@@ -731,6 +792,13 @@
     "accuracy": 100
   },
   {
+    "slug": "coaching",
+    "name": "Coaching",
+    "gen": 8,
+    "type": "fighting",
+    "category": "status"
+  },
+  {
     "slug": "coil",
     "name": "Coil",
     "gen": 5,
@@ -778,6 +846,20 @@
     "category": "special",
     "basePower": 50,
     "accuracy": 100
+  },
+  {
+    "slug": "conversion",
+    "name": "Conversion",
+    "gen": 1,
+    "type": "normal",
+    "category": "status"
+  },
+  {
+    "slug": "conversion2",
+    "name": "Conversion 2",
+    "gen": 2,
+    "type": "normal",
+    "category": "status"
   },
   {
     "slug": "copycat",
@@ -880,11 +962,29 @@
     "accuracy": 95
   },
   {
+    "slug": "crushgrip",
+    "name": "Crush Grip",
+    "gen": 4,
+    "type": "normal",
+    "category": "physical",
+    "basePower": 0,
+    "accuracy": 100
+  },
+  {
     "slug": "curse",
     "name": "Curse",
     "gen": 2,
     "type": "ghost",
     "category": "status"
+  },
+  {
+    "slug": "darkestlariat",
+    "name": "Darkest Lariat",
+    "gen": 7,
+    "type": "dark",
+    "category": "physical",
+    "basePower": 85,
+    "accuracy": 100
   },
   {
     "slug": "darkpulse",
@@ -911,6 +1011,13 @@
     "category": "special",
     "basePower": 80,
     "accuracy": 100
+  },
+  {
+    "slug": "decorate",
+    "name": "Decorate",
+    "gen": 8,
+    "type": "fairy",
+    "category": "status"
   },
   {
     "slug": "defendorder",
@@ -1096,6 +1203,13 @@
     "accuracy": 100
   },
   {
+    "slug": "dragoncheer",
+    "name": "Dragon Cheer",
+    "gen": 9,
+    "type": "dragon",
+    "category": "status"
+  },
+  {
     "slug": "dragonclaw",
     "name": "Dragon Claw",
     "gen": 3,
@@ -1127,6 +1241,15 @@
     "type": "dragon",
     "category": "special",
     "basePower": 150,
+    "accuracy": 100
+  },
+  {
+    "slug": "dragonhammer",
+    "name": "Dragon Hammer",
+    "gen": 7,
+    "type": "dragon",
+    "category": "physical",
+    "basePower": 90,
     "accuracy": 100
   },
   {
@@ -1304,6 +1427,15 @@
     "type": "electric",
     "category": "special",
     "basePower": 100,
+    "accuracy": 100
+  },
+  {
+    "slug": "electroshot",
+    "name": "Electro Shot",
+    "gen": 9,
+    "type": "electric",
+    "category": "special",
+    "basePower": 130,
     "accuracy": 100
   },
   {
@@ -1505,6 +1637,15 @@
     "accuracy": 100
   },
   {
+    "slug": "ficklebeam",
+    "name": "Fickle Beam",
+    "gen": 9,
+    "type": "dragon",
+    "category": "special",
+    "basePower": 80,
+    "accuracy": 100
+  },
+  {
     "slug": "fierydance",
     "name": "Fiery Dance",
     "gen": 5,
@@ -1700,6 +1841,13 @@
     "accuracy": 100
   },
   {
+    "slug": "floralhealing",
+    "name": "Floral Healing",
+    "gen": 7,
+    "type": "fairy",
+    "category": "status"
+  },
+  {
     "slug": "flowertrick",
     "name": "Flower Trick",
     "gen": 9,
@@ -1793,6 +1941,15 @@
     "accuracy": 100
   },
   {
+    "slug": "freezeshock",
+    "name": "Freeze Shock",
+    "gen": 5,
+    "type": "ice",
+    "category": "physical",
+    "basePower": 140,
+    "accuracy": 90
+  },
+  {
     "slug": "freezingglare",
     "name": "Freezing Glare",
     "gen": 8,
@@ -1847,6 +2004,24 @@
     "accuracy": 80
   },
   {
+    "slug": "fusionbolt",
+    "name": "Fusion Bolt",
+    "gen": 5,
+    "type": "electric",
+    "category": "physical",
+    "basePower": 100,
+    "accuracy": 100
+  },
+  {
+    "slug": "fusionflare",
+    "name": "Fusion Flare",
+    "gen": 5,
+    "type": "fire",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 100
+  },
+  {
     "slug": "futuresight",
     "name": "Future Sight",
     "gen": 2,
@@ -1898,6 +2073,15 @@
     "category": "physical",
     "basePower": 120,
     "accuracy": 100
+  },
+  {
+    "slug": "glaciate",
+    "name": "Glaciate",
+    "gen": 5,
+    "type": "ice",
+    "category": "special",
+    "basePower": 65,
+    "accuracy": 95
   },
   {
     "slug": "glaiverush",
@@ -2055,6 +2239,15 @@
     "category": "status"
   },
   {
+    "slug": "hardpress",
+    "name": "Hard Press",
+    "gen": 9,
+    "type": "steel",
+    "category": "physical",
+    "basePower": 0,
+    "accuracy": 100
+  },
+  {
     "slug": "haze",
     "name": "Haze",
     "gen": 1,
@@ -2194,6 +2387,15 @@
     "accuracy": 100
   },
   {
+    "slug": "horndrill",
+    "name": "Horn Drill",
+    "gen": 1,
+    "type": "normal",
+    "category": "physical",
+    "basePower": 0,
+    "accuracy": 30
+  },
+  {
     "slug": "hornleech",
     "name": "Horn Leech",
     "gen": 5,
@@ -2304,6 +2506,15 @@
     "category": "special",
     "basePower": 90,
     "accuracy": 100
+  },
+  {
+    "slug": "iceburn",
+    "name": "Ice Burn",
+    "gen": 5,
+    "type": "ice",
+    "category": "special",
+    "basePower": 140,
+    "accuracy": 90
   },
   {
     "slug": "icefang",
@@ -2697,6 +2908,15 @@
     "accuracy": 100
   },
   {
+    "slug": "lusterpurge",
+    "name": "Luster Purge",
+    "gen": 3,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 95,
+    "accuracy": 100
+  },
+  {
     "slug": "machpunch",
     "name": "Mach Punch",
     "gen": 2,
@@ -2847,6 +3067,15 @@
     "accuracy": 85
   },
   {
+    "slug": "meteorbeam",
+    "name": "Meteor Beam",
+    "gen": 8,
+    "type": "rock",
+    "category": "special",
+    "basePower": 120,
+    "accuracy": 90
+  },
+  {
     "slug": "meteormash",
     "name": "Meteor Mash",
     "gen": 3,
@@ -2861,6 +3090,15 @@
     "gen": 1,
     "type": "normal",
     "category": "status"
+  },
+  {
+    "slug": "mightycleave",
+    "name": "Mighty Cleave",
+    "gen": 9,
+    "type": "rock",
+    "category": "physical",
+    "basePower": 95,
+    "accuracy": 100
   },
   {
     "slug": "milkdrink",
@@ -2900,6 +3138,15 @@
     "category": "status"
   },
   {
+    "slug": "mistball",
+    "name": "Mist Ball",
+    "gen": 3,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 95,
+    "accuracy": 100
+  },
+  {
     "slug": "mistyexplosion",
     "name": "Misty Explosion",
     "gen": 8,
@@ -2922,6 +3169,15 @@
     "type": "fairy",
     "category": "special",
     "basePower": 95,
+    "accuracy": 100
+  },
+  {
+    "slug": "moongeistbeam",
+    "name": "Moongeist Beam",
+    "gen": 7,
+    "type": "ghost",
+    "category": "special",
+    "basePower": 100,
     "accuracy": 100
   },
   {
@@ -3190,6 +3446,15 @@
     "accuracy": 100
   },
   {
+    "slug": "photongeyser",
+    "name": "Photon Geyser",
+    "gen": 7,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 100,
+    "accuracy": 100
+  },
+  {
     "slug": "pinmissile",
     "name": "Pin Missile",
     "gen": 1,
@@ -3396,6 +3661,15 @@
     "accuracy": 90
   },
   {
+    "slug": "prismaticlaser",
+    "name": "Prismatic Laser",
+    "gen": 7,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 160,
+    "accuracy": 100
+  },
+  {
     "slug": "protect",
     "name": "Protect",
     "gen": 2,
@@ -3439,11 +3713,29 @@
     "accuracy": 100
   },
   {
+    "slug": "psychicnoise",
+    "name": "Psychic Noise",
+    "gen": 9,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 75,
+    "accuracy": 100
+  },
+  {
     "slug": "psychicterrain",
     "name": "Psychic Terrain",
     "gen": 7,
     "type": "psychic",
     "category": "status"
+  },
+  {
+    "slug": "psychoboost",
+    "name": "Psycho Boost",
+    "gen": 3,
+    "type": "psychic",
+    "category": "special",
+    "basePower": 140,
+    "accuracy": 90
   },
   {
     "slug": "psychocut",
@@ -3675,6 +3967,15 @@
     "category": "status"
   },
   {
+    "slug": "risingvoltage",
+    "name": "Rising Voltage",
+    "gen": 8,
+    "type": "electric",
+    "category": "special",
+    "basePower": 70,
+    "accuracy": 100
+  },
+  {
     "slug": "roar",
     "name": "Roar",
     "gen": 1,
@@ -3743,6 +4044,15 @@
     "accuracy": 95
   },
   {
+    "slug": "rockwrecker",
+    "name": "Rock Wrecker",
+    "gen": 4,
+    "type": "rock",
+    "category": "physical",
+    "basePower": 150,
+    "accuracy": 90
+  },
+  {
     "slug": "roleplay",
     "name": "Role Play",
     "gen": 3,
@@ -3782,6 +4092,15 @@
     "category": "special",
     "basePower": 0,
     "accuracy": 90
+  },
+  {
+    "slug": "sacredfire",
+    "name": "Sacred Fire",
+    "gen": 2,
+    "type": "fire",
+    "category": "physical",
+    "basePower": 100,
+    "accuracy": 95
   },
   {
     "slug": "sacredsword",
@@ -3868,6 +4187,15 @@
     "accuracy": 100
   },
   {
+    "slug": "scorchingsands",
+    "name": "Scorching Sands",
+    "gen": 8,
+    "type": "ground",
+    "category": "special",
+    "basePower": 70,
+    "accuracy": 100
+  },
+  {
     "slug": "scratch",
     "name": "Scratch",
     "gen": 1,
@@ -3883,6 +4211,15 @@
     "type": "normal",
     "category": "status",
     "accuracy": 85
+  },
+  {
+    "slug": "secretsword",
+    "name": "Secret Sword",
+    "gen": 5,
+    "type": "fighting",
+    "category": "special",
+    "basePower": 85,
+    "accuracy": 100
   },
   {
     "slug": "seedbomb",
@@ -4047,6 +4384,13 @@
     "type": "normal",
     "category": "status",
     "accuracy": 55
+  },
+  {
+    "slug": "sketch",
+    "name": "Sketch",
+    "gen": 2,
+    "type": "normal",
+    "category": "status"
   },
   {
     "slug": "skillswap",
@@ -4257,6 +4601,15 @@
     "type": "electric",
     "category": "physical",
     "basePower": 65,
+    "accuracy": 100
+  },
+  {
+    "slug": "sparklingaria",
+    "name": "Sparkling Aria",
+    "gen": 7,
+    "type": "water",
+    "category": "special",
+    "basePower": 90,
     "accuracy": 100
   },
   {
@@ -4547,6 +4900,24 @@
     "category": "status"
   },
   {
+    "slug": "sunsteelstrike",
+    "name": "Sunsteel Strike",
+    "gen": 7,
+    "type": "steel",
+    "category": "physical",
+    "basePower": 100,
+    "accuracy": 100
+  },
+  {
+    "slug": "supercellslam",
+    "name": "Supercell Slam",
+    "gen": 9,
+    "type": "electric",
+    "category": "physical",
+    "basePower": 100,
+    "accuracy": 95
+  },
+  {
     "slug": "superfang",
     "name": "Super Fang",
     "gen": 1,
@@ -4661,6 +5032,14 @@
     "accuracy": 85
   },
   {
+    "slug": "tachyoncutter",
+    "name": "Tachyon Cutter",
+    "gen": 9,
+    "type": "steel",
+    "category": "special",
+    "basePower": 50
+  },
+  {
     "slug": "tackle",
     "name": "Tackle",
     "gen": 1,
@@ -4762,12 +5141,30 @@
     "category": "status"
   },
   {
+    "slug": "temperflare",
+    "name": "Temper Flare",
+    "gen": 9,
+    "type": "fire",
+    "category": "physical",
+    "basePower": 75,
+    "accuracy": 100
+  },
+  {
     "slug": "terablast",
     "name": "Tera Blast",
     "gen": 9,
     "type": "normal",
     "category": "special",
     "basePower": 80,
+    "accuracy": 100
+  },
+  {
+    "slug": "terastarstorm",
+    "name": "Tera Starstorm",
+    "gen": 9,
+    "type": "normal",
+    "category": "special",
+    "basePower": 120,
     "accuracy": 100
   },
   {
@@ -4834,6 +5231,15 @@
     "accuracy": 90
   },
   {
+    "slug": "thunderclap",
+    "name": "Thunderclap",
+    "gen": 9,
+    "type": "electric",
+    "category": "special",
+    "basePower": 70,
+    "accuracy": 100
+  },
+  {
     "slug": "thunderfang",
     "name": "Thunder Fang",
     "gen": 4,
@@ -4890,6 +5296,13 @@
     "name": "Tidy Up",
     "gen": 9,
     "type": "normal",
+    "category": "status"
+  },
+  {
+    "slug": "topsyturvy",
+    "name": "Topsy-Turvy",
+    "gen": 6,
+    "type": "dark",
     "category": "status"
   },
   {
@@ -4982,6 +5395,15 @@
     "accuracy": 100
   },
   {
+    "slug": "tripleaxel",
+    "name": "Triple Axel",
+    "gen": 8,
+    "type": "ice",
+    "category": "physical",
+    "basePower": 20,
+    "accuracy": 90
+  },
+  {
     "slug": "tripledive",
     "name": "Triple Dive",
     "gen": 9,
@@ -4989,6 +5411,15 @@
     "category": "physical",
     "basePower": 30,
     "accuracy": 95
+  },
+  {
+    "slug": "triplekick",
+    "name": "Triple Kick",
+    "gen": 2,
+    "type": "fighting",
+    "category": "physical",
+    "basePower": 10,
+    "accuracy": 90
   },
   {
     "slug": "tropkick",
@@ -5015,6 +5446,15 @@
     "type": "dragon",
     "category": "special",
     "basePower": 40,
+    "accuracy": 100
+  },
+  {
+    "slug": "upperhand",
+    "name": "Upper Hand",
+    "gen": 9,
+    "type": "fighting",
+    "category": "physical",
+    "basePower": 65,
     "accuracy": 100
   },
   {

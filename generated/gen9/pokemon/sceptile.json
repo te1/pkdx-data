@@ -1,0 +1,300 @@
+{
+  "slug": "sceptile",
+  "name": "Sceptile",
+  "num": 254,
+  "types": [
+    "grass"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "overgrow",
+    "H": "unburden"
+  },
+  "baseStats": {
+    "hp": 70,
+    "atk": 85,
+    "def": 65,
+    "spa": 105,
+    "spd": 85,
+    "spe": 120
+  },
+  "prevo": "grovyle",
+  "evoLevel": 36,
+  "weight": 52.2,
+  "height": 1.7,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It agilely flits through the jungle and uses the sharp-edged leaves on its arms to cut down its prey.",
+    "violet": "The leaves on its arms are as sharp as swords. It agilely leaps about the branches of trees to strike its enemies."
+  },
+  "learnset": {
+    "absorb": [
+      "E@treecko"
+    ],
+    "acrobatics": [
+      "M"
+    ],
+    "aerialace": [
+      "M"
+    ],
+    "agility": [
+      "M"
+    ],
+    "assurance": [
+      "L:20"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "crunch": [
+      "M"
+    ],
+    "detect": [
+      "L:12"
+    ],
+    "dig": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "doublekick": [
+      "E@treecko"
+    ],
+    "doubleteam": [
+      "L:35"
+    ],
+    "dragonbreath": [
+      "E@treecko"
+    ],
+    "dragoncheer": [
+      "M"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "dragondance": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragontail": [
+      "M"
+    ],
+    "drainpunch": [
+      "M"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "endeavor": [
+      "M",
+      "L:49"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M",
+      "L:1"
+    ],
+    "facade": [
+      "M"
+    ],
+    "falseswipe": [
+      "M",
+      "L:1"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M"
+    ],
+    "frenzyplant": [
+      "M"
+    ],
+    "furycutter": [
+      "L:1"
+    ],
+    "gigadrain": [
+      "M",
+      "L:25"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasspledge": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "leafage": [
+      "L:1"
+    ],
+    "leafblade": [
+      "L:0"
+    ],
+    "leafstorm": [
+      "M",
+      "L:56"
+    ],
+    "leechseed": [
+      "E@treecko"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "magicalleaf": [
+      "M"
+    ],
+    "megadrain": [
+      "L:5"
+    ],
+    "nightslash": [
+      "E@treecko"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "pound": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "quickguard": [
+      "L:15"
+    ],
+    "rest": [
+      "M"
+    ],
+    "roar": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaleshot": [
+      "M"
+    ],
+    "screech": [
+      "L:42"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "shedtail": [
+      "L:1"
+    ],
+    "slam": [
+      "L:30"
+    ],
+    "slash": [
+      "E@treecko"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "solarblade": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "E@treecko"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "upperhand": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M"
+    ],
+    "worryseed": [
+      "E@treecko"
+    ],
+    "xscissor": [
+      "M",
+      "L:1"
+    ]
+  }
+}

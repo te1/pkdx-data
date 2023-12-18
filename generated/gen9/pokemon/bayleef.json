@@ -1,0 +1,195 @@
+{
+  "slug": "bayleef",
+  "name": "Bayleef",
+  "num": 153,
+  "types": [
+    "grass"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "overgrow",
+    "H": "leafguard"
+  },
+  "baseStats": {
+    "hp": 60,
+    "atk": 62,
+    "def": 80,
+    "spa": 63,
+    "spd": 80,
+    "spe": 60
+  },
+  "prevo": "chikorita",
+  "evos": [
+    "meganium"
+  ],
+  "evoLevel": 16,
+  "weight": 15.8,
+  "height": 1.2,
+  "genderRatio": {
+    "M": 0.875,
+    "F": 0.125
+  },
+  "eggGroups": [
+    "Monster",
+    "Grass"
+  ],
+  "flavorText": {
+    "scarlet": "The spicy scent that wafts from around Bayleef's neck somehow makes those who smell it want to fight.",
+    "violet": "The scent that wafts from the leaves on its neck causes anyone who smells it to become energetic."
+  },
+  "learnset": {
+    "ancientpower": [
+      "E@chikorita"
+    ],
+    "bodyslam": [
+      "M",
+      "L:40"
+    ],
+    "bulletseed": [
+      "M"
+    ],
+    "charm": [
+      "M"
+    ],
+    "counter": [
+      "E@chikorita"
+    ],
+    "curse": [
+      "M"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "energyball": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "faketears": [
+      "M"
+    ],
+    "flail": [
+      "E@chikorita"
+    ],
+    "gigadrain": [
+      "M",
+      "L:50"
+    ],
+    "grassknot": [
+      "M"
+    ],
+    "grasspledge": [
+      "M"
+    ],
+    "grassyglide": [
+      "M"
+    ],
+    "grassyterrain": [
+      "M"
+    ],
+    "growl": [
+      "L:1"
+    ],
+    "healpulse": [
+      "E@chikorita"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "ingrain": [
+      "E@chikorita"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leafstorm": [
+      "M"
+    ],
+    "leechseed": [
+      "L:26"
+    ],
+    "lightscreen": [
+      "M",
+      "L:36"
+    ],
+    "magicalleaf": [
+      "M",
+      "L:22"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "poisonpowder": [
+      "L:1"
+    ],
+    "protect": [
+      "M"
+    ],
+    "razorleaf": [
+      "L:1"
+    ],
+    "reflect": [
+      "M",
+      "L:18"
+    ],
+    "rest": [
+      "M"
+    ],
+    "safeguard": [
+      "L:46"
+    ],
+    "seedbomb": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M",
+      "L:54"
+    ],
+    "solarblade": [
+      "M"
+    ],
+    "stompingtantrum": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "sweetscent": [
+      "L:32"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "synthesis": [
+      "L:12"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "vinewhip": [
+      "E@chikorita"
+    ]
+  }
+}

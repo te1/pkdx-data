@@ -1,0 +1,205 @@
+{
+  "slug": "elekid",
+  "name": "Elekid",
+  "num": 239,
+  "types": [
+    "electric"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "static",
+    "H": "vitalspirit"
+  },
+  "baseStats": {
+    "hp": 45,
+    "atk": 63,
+    "def": 37,
+    "spa": 65,
+    "spd": 55,
+    "spe": 95
+  },
+  "evos": [
+    "electabuzz"
+  ],
+  "weight": 23.5,
+  "height": 0.6,
+  "genderRatio": {
+    "M": 0.75,
+    "F": 0.25
+  },
+  "eggGroups": [
+    "Undiscovered"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "It loves violent thunder. The space between its horns flickers bluish white when it is charging energy.",
+    "violet": "It rotates its arms to generate electricity, but it tires easily, so it only charges up a little bit."
+  },
+  "learnset": {
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "charge": [
+      "M",
+      "L:8"
+    ],
+    "chargebeam": [
+      "M"
+    ],
+    "crosschop": [
+      "E"
+    ],
+    "discharge": [
+      "L:32"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dynamicpunch": [
+      "E"
+    ],
+    "eerieimpulse": [
+      "M"
+    ],
+    "electricterrain": [
+      "M"
+    ],
+    "electroball": [
+      "M"
+    ],
+    "electroweb": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "E"
+    ],
+    "firepunch": [
+      "M"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focuspunch": [
+      "M",
+      "E"
+    ],
+    "followme": [
+      "E"
+    ],
+    "hammerarm": [
+      "E"
+    ],
+    "helpinghand": [
+      "M"
+    ],
+    "icepunch": [
+      "M"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "lightscreen": [
+      "M",
+      "L:44"
+    ],
+    "lowkick": [
+      "M",
+      "L:36"
+    ],
+    "metalsound": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "psychic": [
+      "M"
+    ],
+    "quickattack": [
+      "L:1"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rest": [
+      "M"
+    ],
+    "screech": [
+      "L:24"
+    ],
+    "shockwave": [
+      "L:16"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "supercellslam": [
+      "M"
+    ],
+    "swift": [
+      "M",
+      "L:12"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "thunder": [
+      "M",
+      "L:48"
+    ],
+    "thunderbolt": [
+      "M",
+      "L:40"
+    ],
+    "thunderpunch": [
+      "M",
+      "L:28"
+    ],
+    "thundershock": [
+      "L:4"
+    ],
+    "thunderwave": [
+      "M",
+      "L:20"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "voltswitch": [
+      "M"
+    ],
+    "wildcharge": [
+      "M"
+    ]
+  }
+}

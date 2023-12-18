@@ -1,0 +1,243 @@
+{
+  "slug": "vibrava",
+  "name": "Vibrava",
+  "num": 329,
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "gen": 3,
+  "abilities": {
+    "0": "levitate"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 70,
+    "def": 50,
+    "spa": 50,
+    "spd": 50,
+    "spe": 70
+  },
+  "prevo": "trapinch",
+  "evos": [
+    "flygon"
+  ],
+  "evoLevel": 35,
+  "weight": 15.3,
+  "height": 1.1,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Bug",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "Rather than using its underdeveloped wings for flight, it rubs them together, emitting ultrasonic waves to attack its enemies.",
+    "violet": "It generates ultrasonic waves by vigorously vibrating its wings. After making its prey faint, it dissolves the prey with its digestive juices."
+  },
+  "learnset": {
+    "aerialace": [
+      "M"
+    ],
+    "aircutter": [
+      "M"
+    ],
+    "airslash": [
+      "M"
+    ],
+    "astonish": [
+      "L:1"
+    ],
+    "bite": [
+      "L:1"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "boomburst": [
+      "L:62"
+    ],
+    "bugbite": [
+      "M",
+      "E@trapinch"
+    ],
+    "bugbuzz": [
+      "M",
+      "L:28"
+    ],
+    "bulldoze": [
+      "M",
+      "L:1"
+    ],
+    "crunch": [
+      "M",
+      "L:1"
+    ],
+    "dig": [
+      "M",
+      "L:1"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:0"
+    ],
+    "dragonclaw": [
+      "M"
+    ],
+    "dragonpulse": [
+      "M"
+    ],
+    "dragonrush": [
+      "L:56"
+    ],
+    "dragontail": [
+      "M",
+      "L:20"
+    ],
+    "dualwingbeat": [
+      "M"
+    ],
+    "earthpower": [
+      "M",
+      "L:38"
+    ],
+    "earthquake": [
+      "M",
+      "L:44"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "feint": [
+      "E@trapinch"
+    ],
+    "firstimpression": [
+      "E@trapinch"
+    ],
+    "fissure": [
+      "L:1"
+    ],
+    "flail": [
+      "E@trapinch"
+    ],
+    "fly": [
+      "M"
+    ],
+    "furycutter": [
+      "E@trapinch"
+    ],
+    "gigadrain": [
+      "M"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "gust": [
+      "E@trapinch"
+    ],
+    "heatwave": [
+      "M"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "mudshot": [
+      "M"
+    ],
+    "mudslap": [
+      "M",
+      "L:12"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickattack": [
+      "E@trapinch"
+    ],
+    "rest": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "sandattack": [
+      "L:1"
+    ],
+    "sandstorm": [
+      "M",
+      "L:32"
+    ],
+    "sandtomb": [
+      "M",
+      "L:16"
+    ],
+    "scorchingsands": [
+      "M"
+    ],
+    "screech": [
+      "L:24"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "solarbeam": [
+      "M"
+    ],
+    "stealthrock": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "strugglebug": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "superpower": [
+      "L:1"
+    ],
+    "supersonic": [
+      "L:1"
+    ],
+    "swift": [
+      "M"
+    ],
+    "tailwind": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "uproar": [
+      "M",
+      "L:50"
+    ],
+    "uturn": [
+      "M"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "horsea",
+  "name": "Horsea",
+  "num": 116,
+  "types": [
+    "water"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "sniper",
+    "H": "damp"
+  },
+  "baseStats": {
+    "hp": 30,
+    "atk": 40,
+    "def": 70,
+    "spa": 70,
+    "spd": 25,
+    "spe": 60
+  },
+  "evos": [
+    "seadra"
+  ],
+  "weight": 8,
+  "height": 0.4,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "canHatch": true,
+  "flavorText": {
+    "scarlet": "If attacked—even by a large enemy—Horsea effortlessly swims to safety by utilizing its well-developed dorsal fin.",
+    "violet": "It maintains balance using its tail, which is wound up like a coil. It may spray ink from its mouth."
+  },
+  "learnset": {
+    "agility": [
+      "M",
+      "L:30"
+    ],
+    "aurorabeam": [
+      "E"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:25"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "clearsmog": [
+      "E"
+    ],
+    "disable": [
+      "E"
+    ],
+    "dragonbreath": [
+      "L:20"
+    ],
+    "dragondance": [
+      "M",
+      "L:50"
+    ],
+    "dragonpulse": [
+      "M",
+      "L:40"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "E"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:15"
+    ],
+    "hydropump": [
+      "M",
+      "L:45"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:55"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scaleshot": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smokescreen": [
+      "L:5"
+    ],
+    "splash": [
+      "E"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "twister": [
+      "L:10"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "L:35"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlpool": [
+      "M"
+    ]
+  }
+}

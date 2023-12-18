@@ -1,0 +1,244 @@
+{
+  "slug": "hitmonchan",
+  "name": "Hitmonchan",
+  "num": 107,
+  "types": [
+    "fighting"
+  ],
+  "gen": 1,
+  "abilities": {
+    "0": "keeneye",
+    "1": "ironfist",
+    "H": "innerfocus"
+  },
+  "baseStats": {
+    "hp": 50,
+    "atk": 105,
+    "def": 79,
+    "spa": 35,
+    "spd": 110,
+    "spe": 76
+  },
+  "prevo": "tyrogue",
+  "evoCondition": "with an Atk stat < its Def stat",
+  "evoLevel": 20,
+  "weight": 50.2,
+  "height": 1.4,
+  "gender": "M",
+  "eggGroups": [
+    "Human-Like"
+  ],
+  "flavorText": {
+    "scarlet": "It corners its foes with combo punches from both sides, then finishes them off with a single straight punch launched at over 300 mph.",
+    "violet": "Its fists are masses of muscle. It takes a break every three minutes to steady its breath and mood."
+  },
+  "learnset": {
+    "agility": [
+      "M",
+      "L:28"
+    ],
+    "aurasphere": [
+      "M"
+    ],
+    "batonpass": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "brickbreak": [
+      "M"
+    ],
+    "bulkup": [
+      "M"
+    ],
+    "bulldoze": [
+      "M"
+    ],
+    "bulletpunch": [
+      "L:16",
+      "E"
+    ],
+    "closecombat": [
+      "M",
+      "L:36"
+    ],
+    "coaching": [
+      "M"
+    ],
+    "counter": [
+      "L:40",
+      "E"
+    ],
+    "detect": [
+      "L:12"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "drainpunch": [
+      "M",
+      "L:0"
+    ],
+    "earthquake": [
+      "M"
+    ],
+    "encore": [
+      "M"
+    ],
+    "endeavor": [
+      "M"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "fakeout": [
+      "L:1"
+    ],
+    "feint": [
+      "L:1",
+      "E"
+    ],
+    "firepunch": [
+      "M",
+      "L:24"
+    ],
+    "fling": [
+      "M"
+    ],
+    "focusblast": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:1"
+    ],
+    "focuspunch": [
+      "M",
+      "L:44"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "helpinghand": [
+      "M",
+      "L:1"
+    ],
+    "highjumpkick": [
+      "E"
+    ],
+    "icepunch": [
+      "M",
+      "L:24"
+    ],
+    "knockoff": [
+      "M"
+    ],
+    "lowkick": [
+      "M"
+    ],
+    "lowsweep": [
+      "M"
+    ],
+    "machpunch": [
+      "L:4",
+      "E"
+    ],
+    "megapunch": [
+      "M",
+      "L:32"
+    ],
+    "metronome": [
+      "M"
+    ],
+    "mudslap": [
+      "M"
+    ],
+    "poisonjab": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "quickguard": [
+      "L:21"
+    ],
+    "raindance": [
+      "M"
+    ],
+    "rapidspin": [
+      "E"
+    ],
+    "rest": [
+      "M"
+    ],
+    "reversal": [
+      "M"
+    ],
+    "rockslide": [
+      "M"
+    ],
+    "rocktomb": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "stoneedge": [
+      "M"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "sunnyday": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "swordsdance": [
+      "M"
+    ],
+    "tackle": [
+      "L:1"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "taunt": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "thief": [
+      "M"
+    ],
+    "throatchop": [
+      "M"
+    ],
+    "thunderpunch": [
+      "M",
+      "L:24"
+    ],
+    "trailblaze": [
+      "M"
+    ],
+    "upperhand": [
+      "M"
+    ],
+    "uproar": [
+      "M"
+    ],
+    "vacuumwave": [
+      "M",
+      "L:8",
+      "E"
+    ]
+  }
+}

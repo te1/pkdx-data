@@ -1,0 +1,211 @@
+{
+  "slug": "kingdra",
+  "name": "Kingdra",
+  "num": 230,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "gen": 2,
+  "abilities": {
+    "0": "swiftswim",
+    "1": "sniper",
+    "H": "damp"
+  },
+  "baseStats": {
+    "hp": 75,
+    "atk": 95,
+    "def": 95,
+    "spa": 95,
+    "spd": 95,
+    "spe": 85
+  },
+  "prevo": "seadra",
+  "evoType": "trade",
+  "evoItem": "Dragon Scale",
+  "weight": 152,
+  "height": 1.8,
+  "genderRatio": {
+    "M": 0.5,
+    "F": 0.5
+  },
+  "eggGroups": [
+    "Water 1",
+    "Dragon"
+  ],
+  "flavorText": {
+    "scarlet": "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
+    "violet": "This Pokémon is said to sleep at the bottom of the sea—deeper than any other life-form can descend—building its energy."
+  },
+  "learnset": {
+    "agility": [
+      "M",
+      "L:30"
+    ],
+    "aurorabeam": [
+      "E@horsea"
+    ],
+    "blizzard": [
+      "M"
+    ],
+    "bodyslam": [
+      "M"
+    ],
+    "breakingswipe": [
+      "M"
+    ],
+    "bubblebeam": [
+      "L:25"
+    ],
+    "chillingwater": [
+      "M"
+    ],
+    "clearsmog": [
+      "E@horsea"
+    ],
+    "disable": [
+      "E@horsea"
+    ],
+    "doubleedge": [
+      "M"
+    ],
+    "dracometeor": [
+      "M"
+    ],
+    "dragonbreath": [
+      "L:20"
+    ],
+    "dragondance": [
+      "M",
+      "L:58"
+    ],
+    "dragonpulse": [
+      "M",
+      "L:44"
+    ],
+    "endure": [
+      "M"
+    ],
+    "facade": [
+      "M"
+    ],
+    "flail": [
+      "E@horsea"
+    ],
+    "flashcannon": [
+      "M"
+    ],
+    "flipturn": [
+      "M"
+    ],
+    "focusenergy": [
+      "L:15"
+    ],
+    "gigaimpact": [
+      "M"
+    ],
+    "hurricane": [
+      "M"
+    ],
+    "hydropump": [
+      "M",
+      "L:51"
+    ],
+    "hyperbeam": [
+      "M"
+    ],
+    "icebeam": [
+      "M"
+    ],
+    "icywind": [
+      "M"
+    ],
+    "ironhead": [
+      "M"
+    ],
+    "leer": [
+      "L:1"
+    ],
+    "liquidation": [
+      "M"
+    ],
+    "muddywater": [
+      "M"
+    ],
+    "outrage": [
+      "M"
+    ],
+    "protect": [
+      "M"
+    ],
+    "raindance": [
+      "M",
+      "L:65"
+    ],
+    "rest": [
+      "M"
+    ],
+    "scald": [
+      "M"
+    ],
+    "scaleshot": [
+      "M"
+    ],
+    "scaryface": [
+      "M"
+    ],
+    "sleeptalk": [
+      "M"
+    ],
+    "smokescreen": [
+      "L:1"
+    ],
+    "snowscape": [
+      "M"
+    ],
+    "splash": [
+      "E@horsea"
+    ],
+    "substitute": [
+      "M"
+    ],
+    "surf": [
+      "M"
+    ],
+    "swift": [
+      "M"
+    ],
+    "takedown": [
+      "M"
+    ],
+    "terablast": [
+      "M"
+    ],
+    "twister": [
+      "L:1"
+    ],
+    "waterfall": [
+      "M"
+    ],
+    "watergun": [
+      "L:1"
+    ],
+    "waterpulse": [
+      "M",
+      "L:37"
+    ],
+    "wavecrash": [
+      "L:72"
+    ],
+    "weatherball": [
+      "M"
+    ],
+    "whirlpool": [
+      "M",
+      "L:1"
+    ],
+    "yawn": [
+      "L:1"
+    ]
+  }
+}

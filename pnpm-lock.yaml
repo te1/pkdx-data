@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.7.59
     version: 0.7.59
   '@pkmn/dex':
-    specifier: ^0.7.59
-    version: 0.7.59
+    specifier: ^0.8.0
+    version: 0.8.1
   '@pkmn/dex-types':
     specifier: ^0.7.59
     version: 0.7.59
@@ -228,10 +228,16 @@ packages:
       '@pkmn/types': 3.0.0
     dev: false
 
-  /@pkmn/dex@0.7.59:
-    resolution: {integrity: sha512-ayDAjUFSDCsxNTTL6Dr0fwq9iTaSsiwNS+L+F5zrXoRXdACN3MmR0kH5dLEPXW5ismyTzZUY22hB43uTnapiqA==}
+  /@pkmn/dex-types@0.8.1:
+    resolution: {integrity: sha512-IKSimUSrq2S9K4MaMFh6fF7Xmj3COanlKts1IwNyUxsJKoN6IjPWaZTNhDEWg2qeCC0X+LU/2obo4I6yffBycw==}
     dependencies:
-      '@pkmn/dex-types': 0.7.59
+      '@pkmn/types': 4.0.0
+    dev: false
+
+  /@pkmn/dex@0.8.1:
+    resolution: {integrity: sha512-HmA4Qc7ARH7qHmFMKFiOSb/KuIdHbRsekbgypSOV+GuLBKz3gIc5vl3wd8Ul3pQfQRxFoxy7YVZ5bDe8GHEy8g==}
+    dependencies:
+      '@pkmn/dex-types': 0.8.1
     dev: false
 
   /@pkmn/mods@0.7.59:
@@ -259,6 +265,10 @@ packages:
 
   /@pkmn/types@3.0.0:
     resolution: {integrity: sha512-Vq3vlIaKi8EGFUx5AFcEch74i8wfFWPWb5OaNsJCgP31VADJVruKmLoSzs26xUW0vkiJENICH+YGFmJYwatJ8w==}
+    dev: false
+
+  /@pkmn/types@4.0.0:
+    resolution: {integrity: sha512-gR2s/pxJYEegek1TtsYCQupNR3d5hMlcJFsiD+2LyfKr4tc+gETTql47tWLX5mFSbPcbXh7f4+7txlMIDoZx/g==}
     dev: false
 
   /@tsconfig/node10@1.0.9:

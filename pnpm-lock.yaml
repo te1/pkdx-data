@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.8.9
     version: 0.8.9
   '@pkmn/dex':
-    specifier: ^0.8.9
-    version: 0.8.9
+    specifier: ^0.9.0
+    version: 0.9.0
   '@pkmn/dex-types':
     specifier: ^0.8.9
     version: 0.8.9
@@ -228,10 +228,16 @@ packages:
       '@pkmn/types': 4.0.0
     dev: false
 
-  /@pkmn/dex@0.8.9:
-    resolution: {integrity: sha512-sVnlFd159yRsoHfCj3QCHMs+3jUp4dO1aUBc9A+6u9AeiCtrYPy0Nmf0HLdujS/m60I+WDhjqOQgpyVH/N5h8A==}
+  /@pkmn/dex-types@0.9.0:
+    resolution: {integrity: sha512-303WS67RnAuSvDkACxCsDzYm/DW8/Ze6p/djRDsukjoErlwscRWctE8dosfj9u9lL9p3uuABuEsUKP5eHF9jOQ==}
     dependencies:
-      '@pkmn/dex-types': 0.8.9
+      '@pkmn/types': 4.0.0
+    dev: false
+
+  /@pkmn/dex@0.9.0:
+    resolution: {integrity: sha512-TaNEw9D0X9IBoCCV0y+jI/27CrsIlf7qo4YbwPYkfwN5++ZVtb7lgduFKMW41u/AtO+sihgoS2zi0TtyC8iG/Q==}
+    dependencies:
+      '@pkmn/dex-types': 0.9.0
     dev: false
 
   /@pkmn/mods@0.8.9:

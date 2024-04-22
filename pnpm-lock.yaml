@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.9.1
     version: 0.9.1
   '@pkmn/sim':
-    specifier: ^0.9.1
-    version: 0.9.1
+    specifier: ^0.9.3
+    version: 0.9.3
   fs-extra:
     specifier: ^11.2.0
     version: 11.2.0
@@ -246,8 +246,8 @@ packages:
       '@pkmn/types': 4.0.0
     dev: false
 
-  /@pkmn/sim@0.9.1:
-    resolution: {integrity: sha512-7L2usNuHTGBI7QyYsGqluBV2q4yezeEnh3wZY3GgRQlHCIPB8hdszRu1Ze9v8sP/tv+wi2S7tHUpEHR5OyLr8Q==}
+  /@pkmn/sim@0.9.3:
+    resolution: {integrity: sha512-P+fqJZrv9By9Mju5E9NAuVltul2Ad2sji0KIpu2aet3aAzo+sk1g1IKtSXTs/5+W9yrk+Jm/w5DfppZDv0YX7g==}
     dependencies:
       '@pkmn/sets': 5.1.2
       '@pkmn/streams': 1.1.0

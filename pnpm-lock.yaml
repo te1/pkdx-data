@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@pkmn/data':
-    specifier: ^0.9.1
-    version: 0.9.1
+    specifier: ^0.9.4
+    version: 0.9.4
   '@pkmn/dex':
     specifier: ^0.9.1
     version: 0.9.1
@@ -216,14 +216,20 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@pkmn/data@0.9.1:
-    resolution: {integrity: sha512-1G3jswfGSmPbzSztNAqsJjjg5ksSidriwMa7aivRR76TuHhCcofyzsBoh0f0aAhgknUP9LrRWtlMsUOc40ouJQ==}
+  /@pkmn/data@0.9.4:
+    resolution: {integrity: sha512-2dqHsGqOGVPWlI7Ng7AAwkhCEJhz7daqYpHGT3rFGHY8kNVTagAifLqFpKNT6X3vJgW1SA+rdKYBbei2qTU0jA==}
     dependencies:
-      '@pkmn/dex-types': 0.9.1
+      '@pkmn/dex-types': 0.9.4
     dev: false
 
   /@pkmn/dex-types@0.9.1:
     resolution: {integrity: sha512-OTQ5NsCATBB7EnVP6hPS4v10P604mXJxnL7xqrvOrOiCpSzNN+D667mL5kDsJbVgNYTcFdpCA5mKPvRyFmINGQ==}
+    dependencies:
+      '@pkmn/types': 4.0.0
+    dev: false
+
+  /@pkmn/dex-types@0.9.4:
+    resolution: {integrity: sha512-PNLJTder5idRL3ah2Wl4HI08dpcj/fkB1ULU90IowhtGjUmC2scAHaox7kJED8NObFu6WCRbgYvHScLlcpRChA==}
     dependencies:
       '@pkmn/types': 4.0.0
     dev: false

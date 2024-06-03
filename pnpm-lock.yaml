@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.9.1
     version: 0.9.1
   '@pkmn/mods':
-    specifier: ^0.9.1
-    version: 0.9.1
+    specifier: ^0.9.5
+    version: 0.9.5
   '@pkmn/sim':
     specifier: ^0.9.1
     version: 0.9.1
@@ -228,16 +228,22 @@ packages:
       '@pkmn/types': 4.0.0
     dev: false
 
+  /@pkmn/dex-types@0.9.5:
+    resolution: {integrity: sha512-Z6N+XdtmLFlkTejHipttEj1+Jd8ao1hOn+lXdd68VxmJtDcKSnz0d+/dAdeGTZ4leWMN5f4QvEuS+glL3jaSGA==}
+    dependencies:
+      '@pkmn/types': 4.0.0
+    dev: false
+
   /@pkmn/dex@0.9.1:
     resolution: {integrity: sha512-38mjyv5vOX8AIY2i+xYVGg5bZqOBmJoRZuYmoyHhxEHwJ5NrjTn00Klyy1OzbyafKpDpDszMW9daeDsi0Ue4ww==}
     dependencies:
       '@pkmn/dex-types': 0.9.1
     dev: false
 
-  /@pkmn/mods@0.9.1:
-    resolution: {integrity: sha512-ucA8UO+kKsUgGWrGwIvY7rR8yQ8j4s+dNzq/w32p76Nvw+OACGqJkNzpkAvFbXrznRpRipoZ4O1cY0QIt7B6/g==}
+  /@pkmn/mods@0.9.5:
+    resolution: {integrity: sha512-OSO+Yo1HxaaxvjF5DOdeoIPCQYnAH09viJdVV+XGCLpGNWXNJzB0WU7akePGJ5ekJfANI9BPrgKVldS8Lkgs2g==}
     dependencies:
-      '@pkmn/dex-types': 0.9.1
+      '@pkmn/dex-types': 0.9.5
     dev: false
 
   /@pkmn/sets@5.1.2:

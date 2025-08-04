@@ -19,7 +19,7 @@ dependencies:
     version: 0.9.1
   '@pkmn/sim':
     specifier: ^0.9.1
-    version: 0.9.1
+    version: 0.9.38
   fs-extra:
     specifier: ^11.2.0
     version: 11.2.0
@@ -240,17 +240,18 @@ packages:
       '@pkmn/dex-types': 0.9.1
     dev: false
 
-  /@pkmn/sets@5.1.2:
-    resolution: {integrity: sha512-eMChlYko92ZdvNKqjcJ2PkzDmSc5kIbaKSrPU/bOnjcrOq8ZGjod3b7KcDxeXrZXQAS027O0uVhwIJbdMDe/Yw==}
+  /@pkmn/sets@5.2.0:
+    resolution: {integrity: sha512-WHAW6bZu0WCo/3b+LTW7BE0fBhYZnWH1lCXIu2an8/wTiZ/+s1eTcQYj7W/YQKxWT5dm/La03AZ6CeqdJip9CQ==}
     dependencies:
       '@pkmn/types': 4.0.0
     dev: false
 
-  /@pkmn/sim@0.9.1:
-    resolution: {integrity: sha512-7L2usNuHTGBI7QyYsGqluBV2q4yezeEnh3wZY3GgRQlHCIPB8hdszRu1Ze9v8sP/tv+wi2S7tHUpEHR5OyLr8Q==}
+  /@pkmn/sim@0.9.38:
+    resolution: {integrity: sha512-WtnWXOpjBr0FOPrnkpixAfiI8WoY0zoa5/e5VqTUNwSH7jL4Otw5QGPr4OQbOtk3NGAAfL4Xow4trVql0h8dmg==}
     dependencies:
-      '@pkmn/sets': 5.1.2
+      '@pkmn/sets': 5.2.0
       '@pkmn/streams': 1.1.0
+      ts-chacha20: 1.2.0
     dev: false
 
   /@pkmn/streams@1.1.0:
@@ -1661,6 +1662,10 @@ packages:
     dependencies:
       typescript: 5.4.3
     dev: true
+
+  /ts-chacha20@1.2.0:
+    resolution: {integrity: sha512-PTyPoWYHc2we8P2NTn5hpYG211popWbkjiw+k63xqjeMrx9pPtXSclz9F3fu0Tpr+vfR1xxcQFwsEkh1cXMLqw==}
+    dev: false
 
   /ts-node@10.9.2(@types/node@20.12.3)(typescript@5.4.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
